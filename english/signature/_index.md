@@ -4,6 +4,9 @@ layout: "product"
 date: 2021-04-27T09:31:06+03:00
 draft: false
 
+product: "Signature"
+product_tag: "signature"
+
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
 head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
