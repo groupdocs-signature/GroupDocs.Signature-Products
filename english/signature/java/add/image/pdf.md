@@ -83,8 +83,8 @@ steps:
     code: |
         ```cs
         Signature signature = new Signature("sample.pdf"))
-        
-       ImageSignOptions options = new ImageSignOptions("signature.jpg") ;
+
+        ImageSignOptions options = new ImageSignOptions("signature.jpg") ;
         
         // set signature position
         options.setLeft(100);
