@@ -120,7 +120,7 @@ about_formats:
           content: |
             {{metafiles}} Learn more about METAFILES file format
 
-          link: "/{{metafiles_url}}"
+          link: "/{{metafiles_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -131,217 +131,217 @@ more_formats:
     format: 
         # format loop
         - name: "Search Signatures in PDF"
-          link: "https://products.groupdocs.com/signature/java/search/pdf"
+          link: "https://products.groupdocs.com/signature/java/search/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Search Signatures in DOC"
-          link: "https://products.groupdocs.com/signature/java/search/doc"
+          link: "https://products.groupdocs.com/signature/java/search/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Search Signatures in DOCM"
-          link: "https://products.groupdocs.com/signature/java/search/docm"
+          link: "https://products.groupdocs.com/signature/java/search/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Search Signatures in DOCX"
-          link: "https://products.groupdocs.com/signature/java/search/docx"
+          link: "https://products.groupdocs.com/signature/java/search/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Search Signatures in DOT"
-          link: "https://products.groupdocs.com/signature/java/search/dot"
+          link: "https://products.groupdocs.com/signature/java/search/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Search Signatures in DOTX"
-          link: "https://products.groupdocs.com/signature/java/search/dotx"
+          link: "https://products.groupdocs.com/signature/java/search/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Search Signatures in DOTM"
-          link: "https://products.groupdocs.com/signature/java/search/dotm"
+          link: "https://products.groupdocs.com/signature/java/search/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Search Signatures in RTF"
-          link: "https://products.groupdocs.com/signature/java/search/rtf"
+          link: "https://products.groupdocs.com/signature/java/search/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Search Signatures in ODT"
-          link: "https://products.groupdocs.com/signature/java/search/odt"
+          link: "https://products.groupdocs.com/signature/java/search/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Search Signatures in OTT"
-          link: "https://products.groupdocs.com/signature/java/search/ott"
+          link: "https://products.groupdocs.com/signature/java/search/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Search Signatures in XLS"
-          link: "https://products.groupdocs.com/signature/java/search/xls"
+          link: "https://products.groupdocs.com/signature/java/search/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Search Signatures in XLSX"
-          link: "https://products.groupdocs.com/signature/java/search/xlsx"
+          link: "https://products.groupdocs.com/signature/java/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Search Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/java/search/xlsm"
+          link: "https://products.groupdocs.com/signature/java/search/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Search Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/java/search/xlsm"
+          link: "https://products.groupdocs.com/signature/java/search/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Search Signatures in XLSB"
-          link: "https://products.groupdocs.com/signature/java/search/xlsb"
+          link: "https://products.groupdocs.com/signature/java/search/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Search Signatures in XLTX"
-          link: "https://products.groupdocs.com/signature/java/search/xltx"
+          link: "https://products.groupdocs.com/signature/java/search/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Search Signatures in XLTM"
-          link: "https://products.groupdocs.com/signature/java/search/xltm"
+          link: "https://products.groupdocs.com/signature/java/search/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Search Signatures in ODS"
-          link: "https://products.groupdocs.com/signature/java/search/ods"
+          link: "https://products.groupdocs.com/signature/java/search/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Search Signatures in OTS"
-          link: "https://products.groupdocs.com/signature/java/search/ots"
+          link: "https://products.groupdocs.com/signature/java/search/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Search Signatures in PPT"
-          link: "https://products.groupdocs.com/signature/java/search/ppt"
+          link: "https://products.groupdocs.com/signature/java/search/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Search Signatures in PPTX"
-          link: "https://products.groupdocs.com/signature/java/search/pptx"
+          link: "https://products.groupdocs.com/signature/java/search/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Search Signatures in PPS"
-          link: "https://products.groupdocs.com/signature/java/search/pps"
+          link: "https://products.groupdocs.com/signature/java/search/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Search Signatures in PPSX"
-          link: "https://products.groupdocs.com/signature/java/search/ppsx"
+          link: "https://products.groupdocs.com/signature/java/search/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Search Signatures in POTM"
-          link: "https://products.groupdocs.com/signature/java/search/potm"
+          link: "https://products.groupdocs.com/signature/java/search/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Search Signatures in POTX"
-          link: "https://products.groupdocs.com/signature/java/search/potx"
+          link: "https://products.groupdocs.com/signature/java/search/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Search Signatures in PPTM"
-          link: "https://products.groupdocs.com/signature/java/search/pptm"
+          link: "https://products.groupdocs.com/signature/java/search/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Search Signatures in ODP"
-          link: "https://products.groupdocs.com/signature/java/search/odp"
+          link: "https://products.groupdocs.com/signature/java/search/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Search Signatures in OTP"
-          link: "https://products.groupdocs.com/signature/java/search/otp"
+          link: "https://products.groupdocs.com/signature/java/search/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Search Signatures in WEBP"
-          link: "https://products.groupdocs.com/signature/java/search/webp"
+          link: "https://products.groupdocs.com/signature/java/search/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Search Signatures in TIFF"
-          link: "https://products.groupdocs.com/signature/java/search/tiff"
+          link: "https://products.groupdocs.com/signature/java/search/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Search Signatures in JPEG"
-          link: "https://products.groupdocs.com/signature/java/search/jpeg"
+          link: "https://products.groupdocs.com/signature/java/search/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Search Signatures in GIF"
-          link: "https://products.groupdocs.com/signature/java/search/gif"
+          link: "https://products.groupdocs.com/signature/java/search/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Search Signatures in PNG"
-          link: "https://products.groupdocs.com/signature/java/search/png"
+          link: "https://products.groupdocs.com/signature/java/search/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Search Signatures in BMP"
-          link: "https://products.groupdocs.com/signature/java/search/bmp"
+          link: "https://products.groupdocs.com/signature/java/search/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Search Signatures in CDR"
-          link: "https://products.groupdocs.com/signature/java/search/cdr"
+          link: "https://products.groupdocs.com/signature/java/search/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Search Signatures in SVG"
-          link: "https://products.groupdocs.com/signature/java/search/svg"
+          link: "https://products.groupdocs.com/signature/java/search/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Search Signatures in PSD"
-          link: "https://products.groupdocs.com/signature/java/search/psd"
+          link: "https://products.groupdocs.com/signature/java/search/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Search Signatures in WMF"
-          link: "https://products.groupdocs.com/signature/java/search/wmf"
+          link: "https://products.groupdocs.com/signature/java/search/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Search Signatures in EMF"
-          link: "https://products.groupdocs.com/signature/java/search/emf"
+          link: "https://products.groupdocs.com/signature/java/search/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Search Signatures in CMX"
-          link: "https://products.groupdocs.com/signature/java/search/cmx"
+          link: "https://products.groupdocs.com/signature/java/search/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Search Signatures in DJVU"
-          link: "https://products.groupdocs.com/signature/java/search/djvu"
+          link: "https://products.groupdocs.com/signature/java/search/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Search Signatures in PPSM"
-          link: "https://products.groupdocs.com/signature/java/search/ppsm"
+          link: "https://products.groupdocs.com/signature/java/search/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Search Signatures in DCM"
-          link: "https://products.groupdocs.com/signature/java/search/dcm"
+          link: "https://products.groupdocs.com/signature/java/search/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

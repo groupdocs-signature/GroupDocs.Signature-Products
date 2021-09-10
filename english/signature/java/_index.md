@@ -332,7 +332,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
           product: "GroupDocs.Signature"
           platform: ".NET"
-          link: "/signature/net"
+          link: "/signature/net/"
 
 ############################# Back to top ###############################
 back_to_top:

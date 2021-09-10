@@ -337,7 +337,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
           product: "GroupDocs.Signature"
           platform: "Java"
-          link: "/signature/java"
+          link: "/signature/java/"
 
 ############################# Back to top ###############################
 back_to_top:

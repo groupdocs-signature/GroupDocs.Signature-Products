@@ -139,217 +139,217 @@ more_formats:
     format: 
         # format loop
         - name: "Edit e-Signatures from PDF"
-          link: "https://products.groupdocs.com/signature/java/edit/pdf"
+          link: "https://products.groupdocs.com/signature/java/edit/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Edit e-Signatures from DOC"
-          link: "https://products.groupdocs.com/signature/java/edit/doc"
+          link: "https://products.groupdocs.com/signature/java/edit/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Edit e-Signatures from DOCM"
-          link: "https://products.groupdocs.com/signature/java/edit/docm"
+          link: "https://products.groupdocs.com/signature/java/edit/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Edit e-Signatures from DOCX"
-          link: "https://products.groupdocs.com/signature/java/edit/docx"
+          link: "https://products.groupdocs.com/signature/java/edit/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Edit e-Signatures from DOT"
-          link: "https://products.groupdocs.com/signature/java/edit/dot"
+          link: "https://products.groupdocs.com/signature/java/edit/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Edit e-Signatures from DOTX"
-          link: "https://products.groupdocs.com/signature/java/edit/dotx"
+          link: "https://products.groupdocs.com/signature/java/edit/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Edit e-Signatures from DOTM"
-          link: "https://products.groupdocs.com/signature/java/edit/dotm"
+          link: "https://products.groupdocs.com/signature/java/edit/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Edit e-Signatures from RTF"
-          link: "https://products.groupdocs.com/signature/java/edit/rtf"
+          link: "https://products.groupdocs.com/signature/java/edit/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Edit e-Signatures from ODT"
-          link: "https://products.groupdocs.com/signature/java/edit/odt"
+          link: "https://products.groupdocs.com/signature/java/edit/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Edit e-Signatures from OTT"
-          link: "https://products.groupdocs.com/signature/java/edit/ott"
+          link: "https://products.groupdocs.com/signature/java/edit/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Edit e-Signatures from XLS"
-          link: "https://products.groupdocs.com/signature/java/edit/xls"
+          link: "https://products.groupdocs.com/signature/java/edit/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Edit e-Signatures from XLSX"
-          link: "https://products.groupdocs.com/signature/java/edit/xlsx"
+          link: "https://products.groupdocs.com/signature/java/edit/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Edit e-Signatures from XLSM"
-          link: "https://products.groupdocs.com/signature/java/edit/xlsm"
+          link: "https://products.groupdocs.com/signature/java/edit/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Edit e-Signatures from XLSM"
-          link: "https://products.groupdocs.com/signature/java/edit/xlsm"
+          link: "https://products.groupdocs.com/signature/java/edit/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Edit e-Signatures from XLSB"
-          link: "https://products.groupdocs.com/signature/java/edit/xlsb"
+          link: "https://products.groupdocs.com/signature/java/edit/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Edit e-Signatures from XLTX"
-          link: "https://products.groupdocs.com/signature/java/edit/xltx"
+          link: "https://products.groupdocs.com/signature/java/edit/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Edit e-Signatures from XLTM"
-          link: "https://products.groupdocs.com/signature/java/edit/xltm"
+          link: "https://products.groupdocs.com/signature/java/edit/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Edit e-Signatures from ODS"
-          link: "https://products.groupdocs.com/signature/java/edit/ods"
+          link: "https://products.groupdocs.com/signature/java/edit/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Edit e-Signatures from OTS"
-          link: "https://products.groupdocs.com/signature/java/edit/ots"
+          link: "https://products.groupdocs.com/signature/java/edit/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Edit e-Signatures from PPT"
-          link: "https://products.groupdocs.com/signature/java/edit/ppt"
+          link: "https://products.groupdocs.com/signature/java/edit/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Edit e-Signatures from PPTX"
-          link: "https://products.groupdocs.com/signature/java/edit/pptx"
+          link: "https://products.groupdocs.com/signature/java/edit/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Edit e-Signatures from PPS"
-          link: "https://products.groupdocs.com/signature/java/edit/pps"
+          link: "https://products.groupdocs.com/signature/java/edit/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Edit e-Signatures from PPSX"
-          link: "https://products.groupdocs.com/signature/java/edit/ppsx"
+          link: "https://products.groupdocs.com/signature/java/edit/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Edit e-Signatures from POTM"
-          link: "https://products.groupdocs.com/signature/java/edit/potm"
+          link: "https://products.groupdocs.com/signature/java/edit/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Edit e-Signatures from POTX"
-          link: "https://products.groupdocs.com/signature/java/edit/potx"
+          link: "https://products.groupdocs.com/signature/java/edit/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Edit e-Signatures from PPTM"
-          link: "https://products.groupdocs.com/signature/java/edit/pptm"
+          link: "https://products.groupdocs.com/signature/java/edit/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Edit e-Signatures from ODP"
-          link: "https://products.groupdocs.com/signature/java/edit/odp"
+          link: "https://products.groupdocs.com/signature/java/edit/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Edit e-Signatures from OTP"
-          link: "https://products.groupdocs.com/signature/java/edit/otp"
+          link: "https://products.groupdocs.com/signature/java/edit/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Edit e-Signatures from WEBP"
-          link: "https://products.groupdocs.com/signature/java/edit/webp"
+          link: "https://products.groupdocs.com/signature/java/edit/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Edit e-Signatures from TIFF"
-          link: "https://products.groupdocs.com/signature/java/edit/tiff"
+          link: "https://products.groupdocs.com/signature/java/edit/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Edit e-Signatures from JPEG"
-          link: "https://products.groupdocs.com/signature/java/edit/jpeg"
+          link: "https://products.groupdocs.com/signature/java/edit/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Edit e-Signatures from GIF"
-          link: "https://products.groupdocs.com/signature/java/edit/gif"
+          link: "https://products.groupdocs.com/signature/java/edit/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Edit e-Signatures from PNG"
-          link: "https://products.groupdocs.com/signature/java/edit/png"
+          link: "https://products.groupdocs.com/signature/java/edit/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Edit e-Signatures from BMP"
-          link: "https://products.groupdocs.com/signature/java/edit/bmp"
+          link: "https://products.groupdocs.com/signature/java/edit/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Edit e-Signatures from CDR"
-          link: "https://products.groupdocs.com/signature/java/edit/cdr"
+          link: "https://products.groupdocs.com/signature/java/edit/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Edit e-Signatures from SVG"
-          link: "https://products.groupdocs.com/signature/java/edit/svg"
+          link: "https://products.groupdocs.com/signature/java/edit/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Edit e-Signatures from PSD"
-          link: "https://products.groupdocs.com/signature/java/edit/psd"
+          link: "https://products.groupdocs.com/signature/java/edit/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Edit e-Signatures from WMF"
-          link: "https://products.groupdocs.com/signature/java/edit/wmf"
+          link: "https://products.groupdocs.com/signature/java/edit/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Edit e-Signatures from EMF"
-          link: "https://products.groupdocs.com/signature/java/edit/emf"
+          link: "https://products.groupdocs.com/signature/java/edit/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Edit e-Signatures from CMX"
-          link: "https://products.groupdocs.com/signature/java/edit/cmx"
+          link: "https://products.groupdocs.com/signature/java/edit/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Edit e-Signatures from DJVU"
-          link: "https://products.groupdocs.com/signature/java/edit/djvu"
+          link: "https://products.groupdocs.com/signature/java/edit/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Edit e-Signatures from PPSM"
-          link: "https://products.groupdocs.com/signature/java/edit/ppsm"
+          link: "https://products.groupdocs.com/signature/java/edit/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Edit e-Signatures from DCM"
-          link: "https://products.groupdocs.com/signature/java/edit/dcm"
+          link: "https://products.groupdocs.com/signature/java/edit/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

@@ -126,7 +126,7 @@ about_formats:
           content: |
             {{metafiles}}
 
-          link: "/{{metafiles_url}}"
+          link: "/{{metafiles_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -137,217 +137,217 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/net/add/pdf"
+          link: "https://products.groupdocs.com/signature/net/add/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/net/add/doc"
+          link: "https://products.groupdocs.com/signature/net/add/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/net/add/docm"
+          link: "https://products.groupdocs.com/signature/net/add/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/net/add/docx"
+          link: "https://products.groupdocs.com/signature/net/add/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/net/add/dot"
+          link: "https://products.groupdocs.com/signature/net/add/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/net/add/dotx"
+          link: "https://products.groupdocs.com/signature/net/add/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/net/add/dotm"
+          link: "https://products.groupdocs.com/signature/net/add/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to RTF"
-          link: "https://products.groupdocs.com/signature/net/add/rtf"
+          link: "https://products.groupdocs.com/signature/net/add/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/net/add/odt"
+          link: "https://products.groupdocs.com/signature/net/add/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/net/add/ott"
+          link: "https://products.groupdocs.com/signature/net/add/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/net/add/xls"
+          link: "https://products.groupdocs.com/signature/net/add/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/net/add/xlsx"
+          link: "https://products.groupdocs.com/signature/net/add/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/xlsm"
+          link: "https://products.groupdocs.com/signature/net/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/xlsm"
+          link: "https://products.groupdocs.com/signature/net/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/net/add/xlsb"
+          link: "https://products.groupdocs.com/signature/net/add/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/net/add/xltx"
+          link: "https://products.groupdocs.com/signature/net/add/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/net/add/xltm"
+          link: "https://products.groupdocs.com/signature/net/add/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/net/add/ods"
+          link: "https://products.groupdocs.com/signature/net/add/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/net/add/ots"
+          link: "https://products.groupdocs.com/signature/net/add/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/net/add/ppt"
+          link: "https://products.groupdocs.com/signature/net/add/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/net/add/pptx"
+          link: "https://products.groupdocs.com/signature/net/add/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/net/add/pps"
+          link: "https://products.groupdocs.com/signature/net/add/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/net/add/ppsx"
+          link: "https://products.groupdocs.com/signature/net/add/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Add e-Signatures to POTM"
-          link: "https://products.groupdocs.com/signature/net/add/potm"
+          link: "https://products.groupdocs.com/signature/net/add/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to POTX"
-          link: "https://products.groupdocs.com/signature/net/add/potx"
+          link: "https://products.groupdocs.com/signature/net/add/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Add e-Signatures to PPTM"
-          link: "https://products.groupdocs.com/signature/net/add/pptm"
+          link: "https://products.groupdocs.com/signature/net/add/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/net/add/odp"
+          link: "https://products.groupdocs.com/signature/net/add/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/net/add/otp"
+          link: "https://products.groupdocs.com/signature/net/add/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/net/add/webp"
+          link: "https://products.groupdocs.com/signature/net/add/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIFF"
-          link: "https://products.groupdocs.com/signature/net/add/tiff"
+          link: "https://products.groupdocs.com/signature/net/add/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPEG"
-          link: "https://products.groupdocs.com/signature/net/add/jpeg"
+          link: "https://products.groupdocs.com/signature/net/add/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/net/add/gif"
+          link: "https://products.groupdocs.com/signature/net/add/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/net/add/png"
+          link: "https://products.groupdocs.com/signature/net/add/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/net/add/bmp"
+          link: "https://products.groupdocs.com/signature/net/add/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/net/add/cdr"
+          link: "https://products.groupdocs.com/signature/net/add/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/net/add/svg"
+          link: "https://products.groupdocs.com/signature/net/add/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/net/add/psd"
+          link: "https://products.groupdocs.com/signature/net/add/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/net/add/wmf"
+          link: "https://products.groupdocs.com/signature/net/add/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Add e-Signatures to EMF"
-          link: "https://products.groupdocs.com/signature/net/add/emf"
+          link: "https://products.groupdocs.com/signature/net/add/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/net/add/cmx"
+          link: "https://products.groupdocs.com/signature/net/add/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/net/add/djvu"
+          link: "https://products.groupdocs.com/signature/net/add/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/net/add/ppsm"
+          link: "https://products.groupdocs.com/signature/net/add/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Add e-Signatures to DCM"
-          link: "https://products.groupdocs.com/signature/net/add/dcm"
+          link: "https://products.groupdocs.com/signature/net/add/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

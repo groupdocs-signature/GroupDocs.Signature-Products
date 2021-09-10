@@ -128,7 +128,7 @@ about_formats:
           content: |
             {{metafiles}} Learn more about METAFILES file format
 
-          link: "/{{metafiles_url}}"
+          link: "/{{metafiles_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -22,11 +22,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Signature On Premise APIs Include"
-      link: "/signature"
+      link: "/signature/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/signature/net"
+        - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
@@ -34,7 +34,7 @@ apis:
           content: "Native .NET API to add, search and verify most popular digital signature types to Microsoft Office, PDF, images and various other formats in .NET applications."
 
         # api_product loop
-        - link: "/signature/java"
+        - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"

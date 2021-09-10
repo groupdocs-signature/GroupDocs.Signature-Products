@@ -121,7 +121,7 @@ about_formats:
           content: |
             {{metafiles}} Learn more about METAFILES file format
 
-          link: "/{{metafiles_url}}"
+          link: "/{{metafiles_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -132,217 +132,217 @@ more_formats:
     format: 
         # format loop
         - name: "Remove e-Signatures in PDF"
-          link: "https://products.groupdocs.com/signature/net/remove/pdf"
+          link: "https://products.groupdocs.com/signature/net/remove/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Remove e-Signatures in DOC"
-          link: "https://products.groupdocs.com/signature/net/remove/doc"
+          link: "https://products.groupdocs.com/signature/net/remove/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Remove e-Signatures in DOCM"
-          link: "https://products.groupdocs.com/signature/net/remove/docm"
+          link: "https://products.groupdocs.com/signature/net/remove/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Remove e-Signatures in DOCX"
-          link: "https://products.groupdocs.com/signature/net/remove/docx"
+          link: "https://products.groupdocs.com/signature/net/remove/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Remove e-Signatures in DOT"
-          link: "https://products.groupdocs.com/signature/net/remove/dot"
+          link: "https://products.groupdocs.com/signature/net/remove/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Remove e-Signatures in DOTX"
-          link: "https://products.groupdocs.com/signature/net/remove/dotx"
+          link: "https://products.groupdocs.com/signature/net/remove/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Remove e-Signatures in DOTM"
-          link: "https://products.groupdocs.com/signature/net/remove/dotm"
+          link: "https://products.groupdocs.com/signature/net/remove/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Remove e-Signatures in RTF"
-          link: "https://products.groupdocs.com/signature/net/remove/rtf"
+          link: "https://products.groupdocs.com/signature/net/remove/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Remove e-Signatures in ODT"
-          link: "https://products.groupdocs.com/signature/net/remove/odt"
+          link: "https://products.groupdocs.com/signature/net/remove/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Remove e-Signatures in OTT"
-          link: "https://products.groupdocs.com/signature/net/remove/ott"
+          link: "https://products.groupdocs.com/signature/net/remove/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Remove e-Signatures in XLS"
-          link: "https://products.groupdocs.com/signature/net/remove/xls"
+          link: "https://products.groupdocs.com/signature/net/remove/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Remove e-Signatures in XLSX"
-          link: "https://products.groupdocs.com/signature/net/remove/xlsx"
+          link: "https://products.groupdocs.com/signature/net/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Remove e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/remove/xlsm"
+          link: "https://products.groupdocs.com/signature/net/remove/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Remove e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/remove/xlsm"
+          link: "https://products.groupdocs.com/signature/net/remove/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Remove e-Signatures in XLSB"
-          link: "https://products.groupdocs.com/signature/net/remove/xlsb"
+          link: "https://products.groupdocs.com/signature/net/remove/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Remove e-Signatures in XLTX"
-          link: "https://products.groupdocs.com/signature/net/remove/xltx"
+          link: "https://products.groupdocs.com/signature/net/remove/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Remove e-Signatures in XLTM"
-          link: "https://products.groupdocs.com/signature/net/remove/xltm"
+          link: "https://products.groupdocs.com/signature/net/remove/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Remove e-Signatures in ODS"
-          link: "https://products.groupdocs.com/signature/net/remove/ods"
+          link: "https://products.groupdocs.com/signature/net/remove/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Remove e-Signatures in OTS"
-          link: "https://products.groupdocs.com/signature/net/remove/ots"
+          link: "https://products.groupdocs.com/signature/net/remove/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Remove e-Signatures in PPT"
-          link: "https://products.groupdocs.com/signature/net/remove/ppt"
+          link: "https://products.groupdocs.com/signature/net/remove/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Remove e-Signatures in PPTX"
-          link: "https://products.groupdocs.com/signature/net/remove/pptx"
+          link: "https://products.groupdocs.com/signature/net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Remove e-Signatures in PPS"
-          link: "https://products.groupdocs.com/signature/net/remove/pps"
+          link: "https://products.groupdocs.com/signature/net/remove/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Remove e-Signatures in PPSX"
-          link: "https://products.groupdocs.com/signature/net/remove/ppsx"
+          link: "https://products.groupdocs.com/signature/net/remove/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Remove e-Signatures in POTM"
-          link: "https://products.groupdocs.com/signature/net/remove/potm"
+          link: "https://products.groupdocs.com/signature/net/remove/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Remove e-Signatures in POTX"
-          link: "https://products.groupdocs.com/signature/net/remove/potx"
+          link: "https://products.groupdocs.com/signature/net/remove/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Remove e-Signatures in PPTM"
-          link: "https://products.groupdocs.com/signature/net/remove/pptm"
+          link: "https://products.groupdocs.com/signature/net/remove/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Remove e-Signatures in ODP"
-          link: "https://products.groupdocs.com/signature/net/remove/odp"
+          link: "https://products.groupdocs.com/signature/net/remove/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Remove e-Signatures in OTP"
-          link: "https://products.groupdocs.com/signature/net/remove/otp"
+          link: "https://products.groupdocs.com/signature/net/remove/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Remove e-Signatures in WEBP"
-          link: "https://products.groupdocs.com/signature/net/remove/webp"
+          link: "https://products.groupdocs.com/signature/net/remove/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Remove e-Signatures in TIFF"
-          link: "https://products.groupdocs.com/signature/net/remove/tiff"
+          link: "https://products.groupdocs.com/signature/net/remove/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Remove e-Signatures in JPEG"
-          link: "https://products.groupdocs.com/signature/net/remove/jpeg"
+          link: "https://products.groupdocs.com/signature/net/remove/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Remove e-Signatures in GIF"
-          link: "https://products.groupdocs.com/signature/net/remove/gif"
+          link: "https://products.groupdocs.com/signature/net/remove/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Remove e-Signatures in PNG"
-          link: "https://products.groupdocs.com/signature/net/remove/png"
+          link: "https://products.groupdocs.com/signature/net/remove/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Remove e-Signatures in BMP"
-          link: "https://products.groupdocs.com/signature/net/remove/bmp"
+          link: "https://products.groupdocs.com/signature/net/remove/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Remove e-Signatures in CDR"
-          link: "https://products.groupdocs.com/signature/net/remove/cdr"
+          link: "https://products.groupdocs.com/signature/net/remove/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Remove e-Signatures in SVG"
-          link: "https://products.groupdocs.com/signature/net/remove/svg"
+          link: "https://products.groupdocs.com/signature/net/remove/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Remove e-Signatures in PSD"
-          link: "https://products.groupdocs.com/signature/net/remove/psd"
+          link: "https://products.groupdocs.com/signature/net/remove/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Remove e-Signatures in WMF"
-          link: "https://products.groupdocs.com/signature/net/remove/wmf"
+          link: "https://products.groupdocs.com/signature/net/remove/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Remove e-Signatures in EMF"
-          link: "https://products.groupdocs.com/signature/net/remove/emf"
+          link: "https://products.groupdocs.com/signature/net/remove/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Remove e-Signatures in CMX"
-          link: "https://products.groupdocs.com/signature/net/remove/cmx"
+          link: "https://products.groupdocs.com/signature/net/remove/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Remove e-Signatures in DJVU"
-          link: "https://products.groupdocs.com/signature/net/remove/djvu"
+          link: "https://products.groupdocs.com/signature/net/remove/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Remove e-Signatures in PPSM"
-          link: "https://products.groupdocs.com/signature/net/remove/ppsm"
+          link: "https://products.groupdocs.com/signature/net/remove/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Remove e-Signatures in DCM"
-          link: "https://products.groupdocs.com/signature/net/remove/dcm"
+          link: "https://products.groupdocs.com/signature/net/remove/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 
