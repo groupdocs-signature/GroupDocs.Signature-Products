@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```java
-        Signature signature = new Signature("sample.pdf"); 
+        Signature signature = new Signature("sample.ots"); 
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
          
         // certifiate password
@@ -132,7 +132,7 @@ about_formats:
         - icon: "far fa-file-ots"
           title: "What is OTS File Format"
           content: |
-            A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. OTS file format is used to create templates that contain predefine settings related to styles, font, data, spreadsheet layout, and formatting. OTF files have mime-type application/vnd.oasis.opendocument.spreadsheet-template. These template files can be used as a starting point to generate and save actual data files that are saved in ODS file format. OTS files can be used with applications such as OpenOffice and LibreOffice. Learn more about OTS file format
+            OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
           link: "https://docs.fileformat.com/spreadsheet/ots/"
 

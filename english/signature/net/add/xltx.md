@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:30+03:00
+date: 2021-05-13T13:40:24+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (Signature signature = new Signature("sample.pdf"))
+        using (Signature signature = new Signature("sample.xltx"))
         {
             // initialize digital option with certificate file path
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -126,7 +126,7 @@ about_formats:
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:

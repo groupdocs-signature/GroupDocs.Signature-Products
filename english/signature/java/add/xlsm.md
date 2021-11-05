@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:39:55+03:00
+date: 2021-05-13T13:39:52+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```java
-        Signature signature = new Signature("sample.pdf"); 
+        Signature signature = new Signature("sample.xlsm"); 
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
          
         // certifiate password
@@ -132,7 +132,7 @@ about_formats:
         - icon: "far fa-file-xlsm"
           title: "What is XLSM File Format"
           content: |
-            Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there. Learn more about XLSM file format
+            Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsm/"
 

@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (Signature signature = new Signature("sample.pdf"))
+        using (Signature signature = new Signature("sample.dotm"))
         {
             // initialize digital option with certificate file path
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")

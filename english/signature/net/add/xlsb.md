@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:40:30+03:00
+date: 2021-05-13T13:40:24+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (Signature signature = new Signature("sample.pdf"))
+        using (Signature signature = new Signature("sample.xlsb"))
         {
             // initialize digital option with certificate file path
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -124,7 +124,7 @@ about_formats:
         - icon: "far fa-file-xlsb"
           title: "About XLSB File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsb/"
 

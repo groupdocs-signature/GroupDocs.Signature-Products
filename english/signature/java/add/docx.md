@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:39:49+03:00
+date: 2021-05-13T13:39:52+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```java
-        Signature signature = new Signature("sample.pdf"); 
+        Signature signature = new Signature("sample.docx"); 
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
          
         // certifiate password
@@ -132,7 +132,7 @@ about_formats:
         - icon: "far fa-file-docx"
           title: "What is DOCX File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions. Learn more about DOCX file format
+            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 

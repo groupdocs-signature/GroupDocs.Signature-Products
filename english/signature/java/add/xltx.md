@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:39:56+03:00
+date: 2021-05-13T13:39:52+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```java
-        Signature signature = new Signature("sample.pdf"); 
+        Signature signature = new Signature("sample.xltx"); 
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
          
         // certifiate password
@@ -132,9 +132,9 @@ about_formats:
         - icon: "far fa-file-xltx"
           title: "What is XLTX File Format"
           content: |
-            Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about XLTX file format
+            Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:

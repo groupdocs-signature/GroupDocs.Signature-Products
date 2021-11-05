@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (Signature signature = new Signature("sample.pdf"))
+        using (Signature signature = new Signature("sample.docx"))
         {
             // initialize digital option with certificate file path
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -124,7 +124,7 @@ about_formats:
         - icon: "far fa-file-docx"
           title: "About DOCX File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 

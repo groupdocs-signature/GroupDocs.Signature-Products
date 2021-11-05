@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:39:49+03:00
+date: 2021-05-13T13:39:52+03:00
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```java
-        Signature signature = new Signature("sample.pdf"); 
+        Signature signature = new Signature("sample.dot"); 
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
          
         // certifiate password
@@ -132,7 +132,7 @@ about_formats:
         - icon: "far fa-file-dot"
           title: "What is DOT File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format. Learn more about DOT file format
+            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dot/"
 
@@ -145,217 +145,217 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/java/add/pdf"
+          link: "https://products.groupdocs.com/signature/java/add/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/java/add/doc"
+          link: "https://products.groupdocs.com/signature/java/add/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/java/add/docm"
+          link: "https://products.groupdocs.com/signature/java/add/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/java/add/docx"
+          link: "https://products.groupdocs.com/signature/java/add/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/java/add/dot"
+          link: "https://products.groupdocs.com/signature/java/add/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/java/add/dotx"
+          link: "https://products.groupdocs.com/signature/java/add/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/java/add/dotm"
+          link: "https://products.groupdocs.com/signature/java/add/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to RTF"
-          link: "https://products.groupdocs.com/signature/java/add/rtf"
+          link: "https://products.groupdocs.com/signature/java/add/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/java/add/odt"
+          link: "https://products.groupdocs.com/signature/java/add/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/java/add/ott"
+          link: "https://products.groupdocs.com/signature/java/add/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/java/add/xls"
+          link: "https://products.groupdocs.com/signature/java/add/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/java/add/xlsx"
+          link: "https://products.groupdocs.com/signature/java/add/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/java/add/xlsm"
+          link: "https://products.groupdocs.com/signature/java/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/java/add/xlsm"
+          link: "https://products.groupdocs.com/signature/java/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/java/add/xlsb"
+          link: "https://products.groupdocs.com/signature/java/add/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/java/add/xltx"
+          link: "https://products.groupdocs.com/signature/java/add/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/java/add/xltm"
+          link: "https://products.groupdocs.com/signature/java/add/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/java/add/ods"
+          link: "https://products.groupdocs.com/signature/java/add/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/java/add/ots"
+          link: "https://products.groupdocs.com/signature/java/add/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/java/add/ppt"
+          link: "https://products.groupdocs.com/signature/java/add/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/java/add/pptx"
+          link: "https://products.groupdocs.com/signature/java/add/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/java/add/pps"
+          link: "https://products.groupdocs.com/signature/java/add/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/java/add/ppsx"
+          link: "https://products.groupdocs.com/signature/java/add/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Add e-Signatures to POTM"
-          link: "https://products.groupdocs.com/signature/java/add/potm"
+          link: "https://products.groupdocs.com/signature/java/add/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to POTX"
-          link: "https://products.groupdocs.com/signature/java/add/potx"
+          link: "https://products.groupdocs.com/signature/java/add/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Add e-Signatures to PPTM"
-          link: "https://products.groupdocs.com/signature/java/add/pptm"
+          link: "https://products.groupdocs.com/signature/java/add/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/java/add/odp"
+          link: "https://products.groupdocs.com/signature/java/add/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/java/add/otp"
+          link: "https://products.groupdocs.com/signature/java/add/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/java/add/webp"
+          link: "https://products.groupdocs.com/signature/java/add/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIFF"
-          link: "https://products.groupdocs.com/signature/java/add/tiff"
+          link: "https://products.groupdocs.com/signature/java/add/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPEG"
-          link: "https://products.groupdocs.com/signature/java/add/jpeg"
+          link: "https://products.groupdocs.com/signature/java/add/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/java/add/gif"
+          link: "https://products.groupdocs.com/signature/java/add/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/java/add/png"
+          link: "https://products.groupdocs.com/signature/java/add/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/java/add/bmp"
+          link: "https://products.groupdocs.com/signature/java/add/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/java/add/cdr"
+          link: "https://products.groupdocs.com/signature/java/add/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/java/add/svg"
+          link: "https://products.groupdocs.com/signature/java/add/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/java/add/psd"
+          link: "https://products.groupdocs.com/signature/java/add/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/java/add/wmf"
+          link: "https://products.groupdocs.com/signature/java/add/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Add e-Signatures to EMF"
-          link: "https://products.groupdocs.com/signature/java/add/emf"
+          link: "https://products.groupdocs.com/signature/java/add/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/java/add/cmx"
+          link: "https://products.groupdocs.com/signature/java/add/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/java/add/djvu"
+          link: "https://products.groupdocs.com/signature/java/add/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/java/add/ppsm"
+          link: "https://products.groupdocs.com/signature/java/add/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Add e-Signatures to DCM"
-          link: "https://products.groupdocs.com/signature/java/add/dcm"
+          link: "https://products.groupdocs.com/signature/java/add/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 
