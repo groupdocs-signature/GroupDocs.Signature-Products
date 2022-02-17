@@ -303,7 +303,7 @@ features:
         content: |
           Using GroupDocs.Signature for Java API you can apply barcode and QR-code Signatures to supported file formats. GroupDocs.Signature for Java supports a huge range of barcode encoding types to cater to most requirements. The supported barcode encoding types include, Code 11, Code 128, Code 16K/32, Databar codes, GS1 Codeblock, ISBN, ISMN, ISSN, ITF16, Pdf147, EAN8, EAN13, EAN14, UPCA, UPCE, ITF14, Code39 Standard, and Code39 Extended.  
 
-          Similarly GroupDocs.Signature for Java API allows you to use QR-code types, such as, QR, Aztec, and Data Matrix. Supported QR-Code encoding types include, Aztec, DataMatrix, GS1 DataMatrix, and GS1 QR.‎‎
+          Similarly GroupDocs.Signature for Java API allows you to use QR-code types, such as, QR, Aztec, and Data Matrix. Supported QR-Code encoding types include, Aztec, DataMatrix, GS1 DataMatrix, and GS1 QR.
 
       # more_feature_loop
       - title: "Search Signatures & Certificates"
