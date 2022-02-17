@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Signature On Premise APIs Include"
+    - title: "GroupDocs.Signature High Code APIs Include"
       link: "/signature/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/signature/net/"
@@ -42,9 +42,9 @@ apis:
           content: "Empower Java applications with eSignature capabilities to digitally sign a wide range of documents & images on any operating system with JDK installed."
 
     # api loop
-    - title: "GroupDocs.Signature Cloud APIs Include"
+    - title: "GroupDocs.Signature Low Code APIs Include"
       link: "https://products.groupdocs.cloud/signature"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/signature/curl"
@@ -71,9 +71,9 @@ apis:
           content: "Implement advanced document signing features in your java applications with specially designed document signature SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Signature Cross Platform Apps Include"
+    - title: "GroupDocs.Signature No Code Apps Include"
       link: "https://products.groupdocs.app/signature"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/signature/total"
