@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Generate Gs1qr QR-code for BMP file in C#"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to add Gs1qr barcodes to BMP files within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add Gs1qr barcodes to BMP files within their applications by implementing a few easy steps.
 
         *   Create new instance of Signature class and pass source BMP document path as a constructor parameter.
         *   Instantiate the QrCodeSignOptions object with required text and set EncodeType property to GS1QR.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -132,182 +132,182 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pdf/gs1qr/"
+          link: "/signature/net/add/qrcode/pdf/gs1qr/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/doc/gs1qr/"
+          link: "/signature/net/add/qrcode/doc/gs1qr/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/docm/gs1qr/"
+          link: "/signature/net/add/qrcode/docm/gs1qr/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/docx/gs1qr/"
+          link: "/signature/net/add/qrcode/docx/gs1qr/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dot/gs1qr/"
+          link: "/signature/net/add/qrcode/dot/gs1qr/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dotx/gs1qr/"
+          link: "/signature/net/add/qrcode/dotx/gs1qr/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dotm/gs1qr/"
+          link: "/signature/net/add/qrcode/dotm/gs1qr/"
           description: "Microsoft Word Macro-Enabled Template"       
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/odt/gs1qr/"
+          link: "/signature/net/add/qrcode/odt/gs1qr/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ott/gs1qr/"
+          link: "/signature/net/add/qrcode/ott/gs1qr/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xls/gs1qr/"
+          link: "/signature/net/add/qrcode/xls/gs1qr/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsx/gs1qr/"
+          link: "/signature/net/add/qrcode/xlsx/gs1qr/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsm/gs1qr/"
+          link: "/signature/net/add/qrcode/xlsm/gs1qr/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsb/gs1qr/"
+          link: "/signature/net/add/qrcode/xlsb/gs1qr/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xltx/gs1qr/"
+          link: "/signature/net/add/qrcode/xltx/gs1qr/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xltm/gs1qr/"
+          link: "/signature/net/add/qrcode/xltm/gs1qr/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ods/gs1qr/"
+          link: "/signature/net/add/qrcode/ods/gs1qr/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ots/gs1qr/"
+          link: "/signature/net/add/qrcode/ots/gs1qr/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppt/gs1qr/"
+          link: "/signature/net/add/qrcode/ppt/gs1qr/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pptx/gs1qr/"
+          link: "/signature/net/add/qrcode/pptx/gs1qr/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pps/gs1qr/"
+          link: "/signature/net/add/qrcode/pps/gs1qr/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppsx/gs1qr/"
+          link: "/signature/net/add/qrcode/ppsx/gs1qr/"
           description: "PowerPoint Open XML Slide Show"                              
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/odp/gs1qr/"
+          link: "/signature/net/add/qrcode/odp/gs1qr/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/otp/gs1qr/"
+          link: "/signature/net/add/qrcode/otp/gs1qr/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/webp/gs1qr/"
+          link: "/signature/net/add/qrcode/webp/gs1qr/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/tif/gs1qr/"
+          link: "/signature/net/add/qrcode/tif/gs1qr/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/jpg/gs1qr/"
+          link: "/signature/net/add/qrcode/jpg/gs1qr/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/gif/gs1qr/"
+          link: "/signature/net/add/qrcode/gif/gs1qr/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/png/gs1qr/"
+          link: "/signature/net/add/qrcode/png/gs1qr/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/bmp/gs1qr/"
+          link: "/signature/net/add/qrcode/bmp/gs1qr/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/cdr/gs1qr/"
+          link: "/signature/net/add/qrcode/cdr/gs1qr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/svg/gs1qr/"
+          link: "/signature/net/add/qrcode/svg/gs1qr/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/psd/gs1qr/"
+          link: "/signature/net/add/qrcode/psd/gs1qr/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/wmf/gs1qr/"
+          link: "/signature/net/add/qrcode/wmf/gs1qr/"
           description: "Windows Metafile"        
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/cmx/gs1qr/"
+          link: "/signature/net/add/qrcode/cmx/gs1qr/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/djvu/gs1qr/"
+          link: "/signature/net/add/qrcode/djvu/gs1qr/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppsm/gs1qr/"
+          link: "/signature/net/add/qrcode/ppsm/gs1qr/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
 ############################# Back to top ###############################

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is an advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can load, edit, validate, save, remove, find and preview digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is an advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can load, edit, validate, save, remove, find and preview digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Search Signatures in OTP"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to view & search digital signatures in OTP files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to view & search digital signatures in OTP files from within their applications by implementing a few easy steps.
 
         *   Create new instance of Signature class and pass source document path as a constructor parameter.
         *   Instantiate the DigitalSearchOptions object according to your requirements and specify search options.
@@ -73,12 +73,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -136,217 +136,217 @@ more_formats:
     format: 
         # format loop
         - name: "Search e-Signatures in PDF"
-          link: "https://products.groupdocs.com/signature/net/search/pdf/"
+          link: "/signature/net/search/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Search e-Signatures in DOC"
-          link: "https://products.groupdocs.com/signature/net/search/doc/"
+          link: "/signature/net/search/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Search e-Signatures in DOCM"
-          link: "https://products.groupdocs.com/signature/net/search/docm/"
+          link: "/signature/net/search/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Search e-Signatures in DOCX"
-          link: "https://products.groupdocs.com/signature/net/search/docx/"
+          link: "/signature/net/search/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Search e-Signatures in DOT"
-          link: "https://products.groupdocs.com/signature/net/search/dot/"
+          link: "/signature/net/search/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Search e-Signatures in DOTX"
-          link: "https://products.groupdocs.com/signature/net/search/dotx/"
+          link: "/signature/net/search/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Search e-Signatures in DOTM"
-          link: "https://products.groupdocs.com/signature/net/search/dotm/"
+          link: "/signature/net/search/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Search e-Signatures in RTF"
-          link: "https://products.groupdocs.com/signature/net/search/rtf/"
+          link: "/signature/net/search/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Search e-Signatures in ODT"
-          link: "https://products.groupdocs.com/signature/net/search/odt/"
+          link: "/signature/net/search/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Search e-Signatures in OTT"
-          link: "https://products.groupdocs.com/signature/net/search/ott/"
+          link: "/signature/net/search/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Search e-Signatures in XLS"
-          link: "https://products.groupdocs.com/signature/net/search/xls/"
+          link: "/signature/net/search/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Search e-Signatures in XLSX"
-          link: "https://products.groupdocs.com/signature/net/search/xlsx/"
+          link: "/signature/net/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Search e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/search/xlsm/"
+          link: "/signature/net/search/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Search e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/search/xlsm/"
+          link: "/signature/net/search/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Search e-Signatures in XLSB"
-          link: "https://products.groupdocs.com/signature/net/search/xlsb/"
+          link: "/signature/net/search/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Search e-Signatures in XLTX"
-          link: "https://products.groupdocs.com/signature/net/search/xltx/"
+          link: "/signature/net/search/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Search e-Signatures in XLTM"
-          link: "https://products.groupdocs.com/signature/net/search/xltm/"
+          link: "/signature/net/search/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Search e-Signatures in ODS"
-          link: "https://products.groupdocs.com/signature/net/search/ods/"
+          link: "/signature/net/search/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Search e-Signatures in OTS"
-          link: "https://products.groupdocs.com/signature/net/search/ots/"
+          link: "/signature/net/search/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Search e-Signatures in PPT"
-          link: "https://products.groupdocs.com/signature/net/search/ppt/"
+          link: "/signature/net/search/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Search e-Signatures in PPTX"
-          link: "https://products.groupdocs.com/signature/net/search/pptx/"
+          link: "/signature/net/search/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Search e-Signatures in PPS"
-          link: "https://products.groupdocs.com/signature/net/search/pps/"
+          link: "/signature/net/search/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Search e-Signatures in PPSX"
-          link: "https://products.groupdocs.com/signature/net/search/ppsx/"
+          link: "/signature/net/search/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Search e-Signatures in POTM"
-          link: "https://products.groupdocs.com/signature/net/search/potm/"
+          link: "/signature/net/search/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Search e-Signatures in POTX"
-          link: "https://products.groupdocs.com/signature/net/search/potx/"
+          link: "/signature/net/search/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Search e-Signatures in PPTM"
-          link: "https://products.groupdocs.com/signature/net/search/pptm/"
+          link: "/signature/net/search/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Search e-Signatures in ODP"
-          link: "https://products.groupdocs.com/signature/net/search/odp/"
+          link: "/signature/net/search/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Search e-Signatures in OTP"
-          link: "https://products.groupdocs.com/signature/net/search/otp/"
+          link: "/signature/net/search/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Search e-Signatures in WEBP"
-          link: "https://products.groupdocs.com/signature/net/search/webp/"
+          link: "/signature/net/search/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Search e-Signatures in TIFF"
-          link: "https://products.groupdocs.com/signature/net/search/tiff/"
+          link: "/signature/net/search/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Search e-Signatures in JPEG"
-          link: "https://products.groupdocs.com/signature/net/search/jpeg/"
+          link: "/signature/net/search/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Search e-Signatures in GIF"
-          link: "https://products.groupdocs.com/signature/net/search/gif/"
+          link: "/signature/net/search/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Search e-Signatures in PNG"
-          link: "https://products.groupdocs.com/signature/net/search/png/"
+          link: "/signature/net/search/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Search e-Signatures in BMP"
-          link: "https://products.groupdocs.com/signature/net/search/bmp/"
+          link: "/signature/net/search/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Search e-Signatures in CDR"
-          link: "https://products.groupdocs.com/signature/net/search/cdr/"
+          link: "/signature/net/search/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Search e-Signatures in SVG"
-          link: "https://products.groupdocs.com/signature/net/search/svg/"
+          link: "/signature/net/search/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Search e-Signatures in PSD"
-          link: "https://products.groupdocs.com/signature/net/search/psd/"
+          link: "/signature/net/search/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Search e-Signatures in WMF"
-          link: "https://products.groupdocs.com/signature/net/search/wmf/"
+          link: "/signature/net/search/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Search e-Signatures in EMF"
-          link: "https://products.groupdocs.com/signature/net/search/emf/"
+          link: "/signature/net/search/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Search e-Signatures in CMX"
-          link: "https://products.groupdocs.com/signature/net/search/cmx/"
+          link: "/signature/net/search/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Search e-Signatures in DJVU"
-          link: "https://products.groupdocs.com/signature/net/search/djvu/"
+          link: "/signature/net/search/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Search e-Signatures in PPSM"
-          link: "https://products.groupdocs.com/signature/net/search/ppsm/"
+          link: "/signature/net/search/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Search e-Signatures in DCM"
-          link: "https://products.groupdocs.com/signature/net/search/dcm/"
+          link: "/signature/net/search/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

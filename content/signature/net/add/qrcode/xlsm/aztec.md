@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Generate Aztec QR-code for XLSM file in C#"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to add Aztec barcodes to XLSM files within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add Aztec barcodes to XLSM files within their applications by implementing a few easy steps.
 
         *   Create new instance of Signature class and pass source XLSM document path as a constructor parameter.
         *   Instantiate the QrCodeSignOptions object with required text and set EncodeType property to Aztec.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -132,182 +132,182 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pdf/aztec/"
+          link: "/signature/net/add/qrcode/pdf/aztec/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/doc/aztec/"
+          link: "/signature/net/add/qrcode/doc/aztec/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/docm/aztec/"
+          link: "/signature/net/add/qrcode/docm/aztec/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/docx/aztec/"
+          link: "/signature/net/add/qrcode/docx/aztec/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dot/aztec/"
+          link: "/signature/net/add/qrcode/dot/aztec/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dotx/aztec/"
+          link: "/signature/net/add/qrcode/dotx/aztec/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/dotm/aztec/"
+          link: "/signature/net/add/qrcode/dotm/aztec/"
           description: "Microsoft Word Macro-Enabled Template"       
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/odt/aztec/"
+          link: "/signature/net/add/qrcode/odt/aztec/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ott/aztec/"
+          link: "/signature/net/add/qrcode/ott/aztec/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xls/aztec/"
+          link: "/signature/net/add/qrcode/xls/aztec/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsx/aztec/"
+          link: "/signature/net/add/qrcode/xlsx/aztec/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsm/aztec/"
+          link: "/signature/net/add/qrcode/xlsm/aztec/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xlsb/aztec/"
+          link: "/signature/net/add/qrcode/xlsb/aztec/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xltx/aztec/"
+          link: "/signature/net/add/qrcode/xltx/aztec/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/xltm/aztec/"
+          link: "/signature/net/add/qrcode/xltm/aztec/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ods/aztec/"
+          link: "/signature/net/add/qrcode/ods/aztec/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ots/aztec/"
+          link: "/signature/net/add/qrcode/ots/aztec/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppt/aztec/"
+          link: "/signature/net/add/qrcode/ppt/aztec/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pptx/aztec/"
+          link: "/signature/net/add/qrcode/pptx/aztec/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/pps/aztec/"
+          link: "/signature/net/add/qrcode/pps/aztec/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppsx/aztec/"
+          link: "/signature/net/add/qrcode/ppsx/aztec/"
           description: "PowerPoint Open XML Slide Show"                              
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/odp/aztec/"
+          link: "/signature/net/add/qrcode/odp/aztec/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/otp/aztec/"
+          link: "/signature/net/add/qrcode/otp/aztec/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/webp/aztec/"
+          link: "/signature/net/add/qrcode/webp/aztec/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/tif/aztec/"
+          link: "/signature/net/add/qrcode/tif/aztec/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/jpg/aztec/"
+          link: "/signature/net/add/qrcode/jpg/aztec/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/gif/aztec/"
+          link: "/signature/net/add/qrcode/gif/aztec/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/png/aztec/"
+          link: "/signature/net/add/qrcode/png/aztec/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/bmp/aztec/"
+          link: "/signature/net/add/qrcode/bmp/aztec/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/cdr/aztec/"
+          link: "/signature/net/add/qrcode/cdr/aztec/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/svg/aztec/"
+          link: "/signature/net/add/qrcode/svg/aztec/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/psd/aztec/"
+          link: "/signature/net/add/qrcode/psd/aztec/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/wmf/aztec/"
+          link: "/signature/net/add/qrcode/wmf/aztec/"
           description: "Windows Metafile"        
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/cmx/aztec/"
+          link: "/signature/net/add/qrcode/cmx/aztec/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/djvu/aztec/"
+          link: "/signature/net/add/qrcode/djvu/aztec/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/net/add/qrcode/ppsm/aztec/"
+          link: "/signature/net/add/qrcode/ppsm/aztec/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
 ############################# Back to top ###############################

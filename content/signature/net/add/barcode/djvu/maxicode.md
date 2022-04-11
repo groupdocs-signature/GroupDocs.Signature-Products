@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Generate Maxicode Barcode for DJVU file in C#"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to add Maxicode barcodes to DJVU files within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add Maxicode barcodes to DJVU files within their applications by implementing a few easy steps.
 
         *   Create new instance of Signature class and pass source DJVU document path as a constructor parameter.
         *   Instantiate the BarcodeSignOptions object with required text and set EncodeType property to MaxiCode.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -132,182 +132,182 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pdf/maxicode/"
+          link: "/signature/net/add/barcode/pdf/maxicode/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/doc/maxicode/"
+          link: "/signature/net/add/barcode/doc/maxicode/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/docm/maxicode/"
+          link: "/signature/net/add/barcode/docm/maxicode/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/docx/maxicode/"
+          link: "/signature/net/add/barcode/docx/maxicode/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dot/maxicode/"
+          link: "/signature/net/add/barcode/dot/maxicode/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dotx/maxicode/"
+          link: "/signature/net/add/barcode/dotx/maxicode/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dotm/maxicode/"
+          link: "/signature/net/add/barcode/dotm/maxicode/"
           description: "Microsoft Word Macro-Enabled Template"       
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/odt/maxicode/"
+          link: "/signature/net/add/barcode/odt/maxicode/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ott/maxicode/"
+          link: "/signature/net/add/barcode/ott/maxicode/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xls/maxicode/"
+          link: "/signature/net/add/barcode/xls/maxicode/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsx/maxicode/"
+          link: "/signature/net/add/barcode/xlsx/maxicode/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsm/maxicode/"
+          link: "/signature/net/add/barcode/xlsm/maxicode/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsb/maxicode/"
+          link: "/signature/net/add/barcode/xlsb/maxicode/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xltx/maxicode/"
+          link: "/signature/net/add/barcode/xltx/maxicode/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xltm/maxicode/"
+          link: "/signature/net/add/barcode/xltm/maxicode/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ods/maxicode/"
+          link: "/signature/net/add/barcode/ods/maxicode/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ots/maxicode/"
+          link: "/signature/net/add/barcode/ots/maxicode/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppt/maxicode/"
+          link: "/signature/net/add/barcode/ppt/maxicode/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pptx/maxicode/"
+          link: "/signature/net/add/barcode/pptx/maxicode/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pps/maxicode/"
+          link: "/signature/net/add/barcode/pps/maxicode/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppsx/maxicode/"
+          link: "/signature/net/add/barcode/ppsx/maxicode/"
           description: "PowerPoint Open XML Slide Show"                              
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/odp/maxicode/"
+          link: "/signature/net/add/barcode/odp/maxicode/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/otp/maxicode/"
+          link: "/signature/net/add/barcode/otp/maxicode/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/webp/maxicode/"
+          link: "/signature/net/add/barcode/webp/maxicode/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/tif/maxicode/"
+          link: "/signature/net/add/barcode/tif/maxicode/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/jpg/maxicode/"
+          link: "/signature/net/add/barcode/jpg/maxicode/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/gif/maxicode/"
+          link: "/signature/net/add/barcode/gif/maxicode/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/png/maxicode/"
+          link: "/signature/net/add/barcode/png/maxicode/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/bmp/maxicode/"
+          link: "/signature/net/add/barcode/bmp/maxicode/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/cdr/maxicode/"
+          link: "/signature/net/add/barcode/cdr/maxicode/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/svg/maxicode/"
+          link: "/signature/net/add/barcode/svg/maxicode/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/psd/maxicode/"
+          link: "/signature/net/add/barcode/psd/maxicode/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/wmf/maxicode/"
+          link: "/signature/net/add/barcode/wmf/maxicode/"
           description: "Windows Metafile"        
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/cmx/maxicode/"
+          link: "/signature/net/add/barcode/cmx/maxicode/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/djvu/maxicode/"
+          link: "/signature/net/add/barcode/djvu/maxicode/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppsm/maxicode/"
+          link: "/signature/net/add/barcode/ppsm/maxicode/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
 ############################# Back to top ###############################

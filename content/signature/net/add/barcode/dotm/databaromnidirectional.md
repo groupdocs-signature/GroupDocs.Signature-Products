@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is a native .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Generate Databaromnidirectional Barcode for DOTM file in C#"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to add Databaromnidirectional barcodes to DOTM files within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add Databaromnidirectional barcodes to DOTM files within their applications by implementing a few easy steps.
 
         *   Create new instance of Signature class and pass source DOTM document path as a constructor parameter.
         *   Instantiate the BarcodeSignOptions object with required text and set EncodeType property to DatabarOmniDirectional.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -132,182 +132,182 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pdf/databaromnidirectional/"
+          link: "/signature/net/add/barcode/pdf/databaromnidirectional/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/doc/databaromnidirectional/"
+          link: "/signature/net/add/barcode/doc/databaromnidirectional/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/docm/databaromnidirectional/"
+          link: "/signature/net/add/barcode/docm/databaromnidirectional/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/docx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/docx/databaromnidirectional/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dot/databaromnidirectional/"
+          link: "/signature/net/add/barcode/dot/databaromnidirectional/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dotx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/dotx/databaromnidirectional/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/dotm/databaromnidirectional/"
+          link: "/signature/net/add/barcode/dotm/databaromnidirectional/"
           description: "Microsoft Word Macro-Enabled Template"       
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/odt/databaromnidirectional/"
+          link: "/signature/net/add/barcode/odt/databaromnidirectional/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ott/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ott/databaromnidirectional/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xls/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xls/databaromnidirectional/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xlsx/databaromnidirectional/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsm/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xlsm/databaromnidirectional/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xlsb/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xlsb/databaromnidirectional/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xltx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xltx/databaromnidirectional/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/xltm/databaromnidirectional/"
+          link: "/signature/net/add/barcode/xltm/databaromnidirectional/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ods/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ods/databaromnidirectional/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ots/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ots/databaromnidirectional/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppt/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ppt/databaromnidirectional/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pptx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/pptx/databaromnidirectional/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/pps/databaromnidirectional/"
+          link: "/signature/net/add/barcode/pps/databaromnidirectional/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppsx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ppsx/databaromnidirectional/"
           description: "PowerPoint Open XML Slide Show"                              
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/odp/databaromnidirectional/"
+          link: "/signature/net/add/barcode/odp/databaromnidirectional/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/otp/databaromnidirectional/"
+          link: "/signature/net/add/barcode/otp/databaromnidirectional/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/webp/databaromnidirectional/"
+          link: "/signature/net/add/barcode/webp/databaromnidirectional/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/tif/databaromnidirectional/"
+          link: "/signature/net/add/barcode/tif/databaromnidirectional/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/jpg/databaromnidirectional/"
+          link: "/signature/net/add/barcode/jpg/databaromnidirectional/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/gif/databaromnidirectional/"
+          link: "/signature/net/add/barcode/gif/databaromnidirectional/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/png/databaromnidirectional/"
+          link: "/signature/net/add/barcode/png/databaromnidirectional/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/bmp/databaromnidirectional/"
+          link: "/signature/net/add/barcode/bmp/databaromnidirectional/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/cdr/databaromnidirectional/"
+          link: "/signature/net/add/barcode/cdr/databaromnidirectional/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/svg/databaromnidirectional/"
+          link: "/signature/net/add/barcode/svg/databaromnidirectional/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/psd/databaromnidirectional/"
+          link: "/signature/net/add/barcode/psd/databaromnidirectional/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/wmf/databaromnidirectional/"
+          link: "/signature/net/add/barcode/wmf/databaromnidirectional/"
           description: "Windows Metafile"        
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/cmx/databaromnidirectional/"
+          link: "/signature/net/add/barcode/cmx/databaromnidirectional/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/djvu/databaromnidirectional/"
+          link: "/signature/net/add/barcode/djvu/databaromnidirectional/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/net/add/barcode/ppsm/databaromnidirectional/"
+          link: "/signature/net/add/barcode/ppsm/databaromnidirectional/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
 ############################# Back to top ###############################

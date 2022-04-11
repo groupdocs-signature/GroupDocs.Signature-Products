@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to view, add, update, validate, remove and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
+        [GroupDocs.Signature for Java](/signature/java/) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to view, add, update, validate, remove and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Edit Digital Signatures in POTM"
     content_left: |
-        The code example below clearly demonstrates the steps about **how to edit digital signatures in an already signed POTM file in Java** using [GroupDocs.Signature](https://products.groupdocs.com/signature/java) library by adding just a few lines of code.
+        The code example below clearly demonstrates the steps about **how to edit digital signatures in an already signed POTM file in Java** using [GroupDocs.Signature](/signature/java/) library by adding just a few lines of code.
 
         *   Create new instance of [Signature](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature/Signature) class and pass source document path as a constructor parameter.
         *   Instantiate [ImageSearchOptions](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature.options.search/ImageSearchOptions) object with desired properties.
@@ -75,12 +75,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for Java from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for Java from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```java

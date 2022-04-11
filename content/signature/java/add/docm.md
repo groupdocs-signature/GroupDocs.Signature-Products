@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
+        [GroupDocs.Signature for Java](/signature/java/) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to add, edit, verify, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Add Digital Signatures in a DOCM File"
     content_left: |
-        The below code example clearly demonstrates the steps about **how to add digital signatures to a DOCM file using [GroupDocs.Signature](https://products.groupdocs.com/signature/java) library in Java** by adding just a few lines of code.
+        The below code example clearly demonstrates the steps about **how to add digital signatures to a DOCM file using [GroupDocs.Signature](/signature/java/) library in Java** by adding just a few lines of code.
 
         *   Create new instance of [Signature](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature) class and pass source document path as a constructor parameter.
         *   Instantiate the [DigitalSignOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.sign/DigitalSignOptions) object with required certificate & password.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for Java from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for Java from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```java
@@ -145,217 +145,217 @@ more_formats:
     format: 
         # format loop
         - name: "Add e-Signatures to PDF"
-          link: "https://products.groupdocs.com/signature/java/add/pdf/"
+          link: "/signature/java/add/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add e-Signatures to DOC"
-          link: "https://products.groupdocs.com/signature/java/add/doc/"
+          link: "/signature/java/add/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add e-Signatures to DOCM"
-          link: "https://products.groupdocs.com/signature/java/add/docm/"
+          link: "/signature/java/add/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add e-Signatures to DOCX"
-          link: "https://products.groupdocs.com/signature/java/add/docx/"
+          link: "/signature/java/add/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add e-Signatures to DOT"
-          link: "https://products.groupdocs.com/signature/java/add/dot/"
+          link: "/signature/java/add/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTX"
-          link: "https://products.groupdocs.com/signature/java/add/dotx/"
+          link: "/signature/java/add/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add e-Signatures to DOTM"
-          link: "https://products.groupdocs.com/signature/java/add/dotm/"
+          link: "/signature/java/add/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to RTF"
-          link: "https://products.groupdocs.com/signature/java/add/rtf/"
+          link: "/signature/java/add/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Add e-Signatures to ODT"
-          link: "https://products.groupdocs.com/signature/java/add/odt/"
+          link: "/signature/java/add/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add e-Signatures to OTT"
-          link: "https://products.groupdocs.com/signature/java/add/ott/"
+          link: "/signature/java/add/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Add e-Signatures to XLS"
-          link: "https://products.groupdocs.com/signature/java/add/xls/"
+          link: "/signature/java/add/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add e-Signatures to XLSX"
-          link: "https://products.groupdocs.com/signature/java/add/xlsx/"
+          link: "/signature/java/add/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/java/add/xlsm/"
+          link: "/signature/java/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSM"
-          link: "https://products.groupdocs.com/signature/java/add/xlsm/"
+          link: "/signature/java/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to XLSB"
-          link: "https://products.groupdocs.com/signature/java/add/xlsb/"
+          link: "/signature/java/add/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Add e-Signatures to XLTX"
-          link: "https://products.groupdocs.com/signature/java/add/xltx/"
+          link: "/signature/java/add/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Add e-Signatures to XLTM"
-          link: "https://products.groupdocs.com/signature/java/add/xltm/"
+          link: "/signature/java/add/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Add e-Signatures to ODS"
-          link: "https://products.groupdocs.com/signature/java/add/ods/"
+          link: "/signature/java/add/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add e-Signatures to OTS"
-          link: "https://products.groupdocs.com/signature/java/add/ots/"
+          link: "/signature/java/add/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Add e-Signatures to PPT"
-          link: "https://products.groupdocs.com/signature/java/add/ppt/"
+          link: "/signature/java/add/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPTX"
-          link: "https://products.groupdocs.com/signature/java/add/pptx/"
+          link: "/signature/java/add/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add e-Signatures to PPS"
-          link: "https://products.groupdocs.com/signature/java/add/pps/"
+          link: "/signature/java/add/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Add e-Signatures to PPSX"
-          link: "https://products.groupdocs.com/signature/java/add/ppsx/"
+          link: "/signature/java/add/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Add e-Signatures to POTM"
-          link: "https://products.groupdocs.com/signature/java/add/potm/"
+          link: "/signature/java/add/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Add e-Signatures to POTX"
-          link: "https://products.groupdocs.com/signature/java/add/potx/"
+          link: "/signature/java/add/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Add e-Signatures to PPTM"
-          link: "https://products.groupdocs.com/signature/java/add/pptm/"
+          link: "/signature/java/add/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Add e-Signatures to ODP"
-          link: "https://products.groupdocs.com/signature/java/add/odp/"
+          link: "/signature/java/add/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Add e-Signatures to OTP"
-          link: "https://products.groupdocs.com/signature/java/add/otp/"
+          link: "/signature/java/add/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Add e-Signatures to WEBP"
-          link: "https://products.groupdocs.com/signature/java/add/webp/"
+          link: "/signature/java/add/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Add e-Signatures to TIFF"
-          link: "https://products.groupdocs.com/signature/java/add/tiff/"
+          link: "/signature/java/add/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add e-Signatures to JPEG"
-          link: "https://products.groupdocs.com/signature/java/add/jpeg/"
+          link: "/signature/java/add/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add e-Signatures to GIF"
-          link: "https://products.groupdocs.com/signature/java/add/gif/"
+          link: "/signature/java/add/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Add e-Signatures to PNG"
-          link: "https://products.groupdocs.com/signature/java/add/png/"
+          link: "/signature/java/add/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add e-Signatures to BMP"
-          link: "https://products.groupdocs.com/signature/java/add/bmp/"
+          link: "/signature/java/add/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add e-Signatures to CDR"
-          link: "https://products.groupdocs.com/signature/java/add/cdr/"
+          link: "/signature/java/add/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Add e-Signatures to SVG"
-          link: "https://products.groupdocs.com/signature/java/add/svg/"
+          link: "/signature/java/add/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Add e-Signatures to PSD"
-          link: "https://products.groupdocs.com/signature/java/add/psd/"
+          link: "/signature/java/add/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add e-Signatures to WMF"
-          link: "https://products.groupdocs.com/signature/java/add/wmf/"
+          link: "/signature/java/add/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Add e-Signatures to EMF"
-          link: "https://products.groupdocs.com/signature/java/add/emf/"
+          link: "/signature/java/add/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Add e-Signatures to CMX"
-          link: "https://products.groupdocs.com/signature/java/add/cmx/"
+          link: "/signature/java/add/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Add e-Signatures to DJVU"
-          link: "https://products.groupdocs.com/signature/java/add/djvu/"
+          link: "/signature/java/add/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Add e-Signatures to PPSM"
-          link: "https://products.groupdocs.com/signature/java/add/ppsm/"
+          link: "/signature/java/add/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Add e-Signatures to DCM"
-          link: "https://products.groupdocs.com/signature/java/add/dcm/"
+          link: "/signature/java/add/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

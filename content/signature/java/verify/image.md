@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to view, add, edit, validate, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
+        [GroupDocs.Signature for Java](/signature/java/) is an advanced Java library to digitally sign documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. By adding just a few lines of code, empower your Java applications with features to view, add, edit, validate, delete and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats. The e-signature API also supports additional features to customize signature properties as per requirements.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Verify Digital Signatures in a IMAGE File"
     content_left: |
-        The code example below clearly demonstrates the steps about **how to verify digital signatures in an already signed IMAGE file in Java** using [GroupDocs.Signature](https://products.groupdocs.com/signature/java) library by adding just a few lines of code.
+        The code example below clearly demonstrates the steps about **how to verify digital signatures in an already signed IMAGE file in Java** using [GroupDocs.Signature](/signature/java/) library by adding just a few lines of code.
 
         *   Create new instance of [Signature](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature) class and pass source document path as a constructor parameter.
         *   Instantiate the [DigitalVerifyOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.verify/DigitalVerifyOptions) object according to your requirements and specify verification options.
@@ -73,12 +73,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for Java from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for Java from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```java
@@ -127,217 +127,217 @@ more_formats:
     format: 
         # format loop
         - name: "Verify e-Signatures in PDF"
-          link: "https://products.groupdocs.com/signature/java/verify/pdf/"
+          link: "/signature/java/verify/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Verify e-Signatures in DOC"
-          link: "https://products.groupdocs.com/signature/java/verify/doc/"
+          link: "/signature/java/verify/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Verify e-Signatures in DOCM"
-          link: "https://products.groupdocs.com/signature/java/verify/docm/"
+          link: "/signature/java/verify/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Verify e-Signatures in DOCX"
-          link: "https://products.groupdocs.com/signature/java/verify/docx/"
+          link: "/signature/java/verify/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Verify e-Signatures in DOT"
-          link: "https://products.groupdocs.com/signature/java/verify/dot/"
+          link: "/signature/java/verify/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Verify e-Signatures in DOTX"
-          link: "https://products.groupdocs.com/signature/java/verify/dotx/"
+          link: "/signature/java/verify/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Verify e-Signatures in DOTM"
-          link: "https://products.groupdocs.com/signature/java/verify/dotm/"
+          link: "/signature/java/verify/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Verify e-Signatures in RTF"
-          link: "https://products.groupdocs.com/signature/java/verify/rtf/"
+          link: "/signature/java/verify/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Verify e-Signatures in ODT"
-          link: "https://products.groupdocs.com/signature/java/verify/odt/"
+          link: "/signature/java/verify/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Verify e-Signatures in OTT"
-          link: "https://products.groupdocs.com/signature/java/verify/ott/"
+          link: "/signature/java/verify/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Verify e-Signatures in XLS"
-          link: "https://products.groupdocs.com/signature/java/verify/xls/"
+          link: "/signature/java/verify/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Verify e-Signatures in XLSX"
-          link: "https://products.groupdocs.com/signature/java/verify/xlsx/"
+          link: "/signature/java/verify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/java/verify/xlsm/"
+          link: "/signature/java/verify/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/java/verify/xlsm/"
+          link: "/signature/java/verify/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSB"
-          link: "https://products.groupdocs.com/signature/java/verify/xlsb/"
+          link: "/signature/java/verify/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Verify e-Signatures in XLTX"
-          link: "https://products.groupdocs.com/signature/java/verify/xltx/"
+          link: "/signature/java/verify/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Verify e-Signatures in XLTM"
-          link: "https://products.groupdocs.com/signature/java/verify/xltm/"
+          link: "/signature/java/verify/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Verify e-Signatures in ODS"
-          link: "https://products.groupdocs.com/signature/java/verify/ods/"
+          link: "/signature/java/verify/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in OTS"
-          link: "https://products.groupdocs.com/signature/java/verify/ots/"
+          link: "/signature/java/verify/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Verify e-Signatures in PPT"
-          link: "https://products.groupdocs.com/signature/java/verify/ppt/"
+          link: "/signature/java/verify/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Verify e-Signatures in PPTX"
-          link: "https://products.groupdocs.com/signature/java/verify/pptx/"
+          link: "/signature/java/verify/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Verify e-Signatures in PPS"
-          link: "https://products.groupdocs.com/signature/java/verify/pps/"
+          link: "/signature/java/verify/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in PPSX"
-          link: "https://products.groupdocs.com/signature/java/verify/ppsx/"
+          link: "/signature/java/verify/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in POTM"
-          link: "https://products.groupdocs.com/signature/java/verify/potm/"
+          link: "/signature/java/verify/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Verify e-Signatures in POTX"
-          link: "https://products.groupdocs.com/signature/java/verify/potx/"
+          link: "/signature/java/verify/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Verify e-Signatures in PPTM"
-          link: "https://products.groupdocs.com/signature/java/verify/pptm/"
+          link: "/signature/java/verify/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Verify e-Signatures in ODP"
-          link: "https://products.groupdocs.com/signature/java/verify/odp/"
+          link: "/signature/java/verify/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Verify e-Signatures in OTP"
-          link: "https://products.groupdocs.com/signature/java/verify/otp/"
+          link: "/signature/java/verify/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Verify e-Signatures in WEBP"
-          link: "https://products.groupdocs.com/signature/java/verify/webp/"
+          link: "/signature/java/verify/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Verify e-Signatures in TIFF"
-          link: "https://products.groupdocs.com/signature/java/verify/tiff/"
+          link: "/signature/java/verify/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Verify e-Signatures in JPEG"
-          link: "https://products.groupdocs.com/signature/java/verify/jpeg/"
+          link: "/signature/java/verify/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Verify e-Signatures in GIF"
-          link: "https://products.groupdocs.com/signature/java/verify/gif/"
+          link: "/signature/java/verify/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Verify e-Signatures in PNG"
-          link: "https://products.groupdocs.com/signature/java/verify/png/"
+          link: "/signature/java/verify/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Verify e-Signatures in BMP"
-          link: "https://products.groupdocs.com/signature/java/verify/bmp/"
+          link: "/signature/java/verify/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Verify e-Signatures in CDR"
-          link: "https://products.groupdocs.com/signature/java/verify/cdr/"
+          link: "/signature/java/verify/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Verify e-Signatures in SVG"
-          link: "https://products.groupdocs.com/signature/java/verify/svg/"
+          link: "/signature/java/verify/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Verify e-Signatures in PSD"
-          link: "https://products.groupdocs.com/signature/java/verify/psd/"
+          link: "/signature/java/verify/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Verify e-Signatures in WMF"
-          link: "https://products.groupdocs.com/signature/java/verify/wmf/"
+          link: "/signature/java/verify/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Verify e-Signatures in EMF"
-          link: "https://products.groupdocs.com/signature/java/verify/emf/"
+          link: "/signature/java/verify/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Verify e-Signatures in CMX"
-          link: "https://products.groupdocs.com/signature/java/verify/cmx/"
+          link: "/signature/java/verify/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Verify e-Signatures in DJVU"
-          link: "https://products.groupdocs.com/signature/java/verify/djvu/"
+          link: "/signature/java/verify/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Verify e-Signatures in PPSM"
-          link: "https://products.groupdocs.com/signature/java/verify/ppsm/"
+          link: "/signature/java/verify/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in DCM"
-          link: "https://products.groupdocs.com/signature/java/verify/dcm/"
+          link: "/signature/java/verify/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 

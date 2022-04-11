@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](/signature/net/) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, stamp, form-field, QR-code and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "How to Verify Digital Signatures in BMP"
     content_left: |
-        [GroupDocs.Signature](https://products.groupdocs.com/signature/net) makes it easy for .NET developers to verify digital signatures in BMP files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to verify digital signatures in BMP files from within their applications by implementing a few easy steps.
 
         1.  Create new instance of Signature class and pass source document path as a constructor parameter.
         2.  Instantiate the DigitalVerifyOptions object according to your requirements and specify verification options.
@@ -73,12 +73,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Signature for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        *   Download the latest version of GroupDocs.Signature for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.signature)
         
     code: |
         ```cs
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-bmp"
           title: "What is BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths. Learn more about BMP file format
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independence serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths. Learn more about BMP file format
 
           link: "https://docs.fileformat.com/image/bmp/"
 
@@ -129,217 +129,217 @@ more_formats:
     format: 
         # format loop
         - name: "Verify e-Signatures in PDF"
-          link: "https://products.groupdocs.com/signature/net/verify/pdf/"
+          link: "/signature/net/verify/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Verify e-Signatures in DOC"
-          link: "https://products.groupdocs.com/signature/net/verify/doc/"
+          link: "/signature/net/verify/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Verify e-Signatures in DOCM"
-          link: "https://products.groupdocs.com/signature/net/verify/docm/"
+          link: "/signature/net/verify/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Verify e-Signatures in DOCX"
-          link: "https://products.groupdocs.com/signature/net/verify/docx/"
+          link: "/signature/net/verify/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Verify e-Signatures in DOT"
-          link: "https://products.groupdocs.com/signature/net/verify/dot/"
+          link: "/signature/net/verify/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Verify e-Signatures in DOTX"
-          link: "https://products.groupdocs.com/signature/net/verify/dotx/"
+          link: "/signature/net/verify/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Verify e-Signatures in DOTM"
-          link: "https://products.groupdocs.com/signature/net/verify/dotm/"
+          link: "/signature/net/verify/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Verify e-Signatures in RTF"
-          link: "https://products.groupdocs.com/signature/net/verify/rtf/"
+          link: "/signature/net/verify/rtf/"
           description: "Rich Text Document"
 
         # format loop
         - name: "Verify e-Signatures in ODT"
-          link: "https://products.groupdocs.com/signature/net/verify/odt/"
+          link: "/signature/net/verify/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Verify e-Signatures in OTT"
-          link: "https://products.groupdocs.com/signature/net/verify/ott/"
+          link: "/signature/net/verify/ott/"
           description: "OpenDocument Text Template"
 
         # format loop
         - name: "Verify e-Signatures in XLS"
-          link: "https://products.groupdocs.com/signature/net/verify/xls/"
+          link: "/signature/net/verify/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Verify e-Signatures in XLSX"
-          link: "https://products.groupdocs.com/signature/net/verify/xlsx/"
+          link: "/signature/net/verify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/verify/xlsm/"
+          link: "/signature/net/verify/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSM"
-          link: "https://products.groupdocs.com/signature/net/verify/xlsm/"
+          link: "/signature/net/verify/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in XLSB"
-          link: "https://products.groupdocs.com/signature/net/verify/xlsb/"
+          link: "/signature/net/verify/xlsb/"
           description: "Microsoft Excel Binary Worksheet"
 
         # format loop
         - name: "Verify e-Signatures in XLTX"
-          link: "https://products.groupdocs.com/signature/net/verify/xltx/"
+          link: "/signature/net/verify/xltx/"
           description: "Microsoft Excel template"
 
         # format loop
         - name: "Verify e-Signatures in XLTM"
-          link: "https://products.groupdocs.com/signature/net/verify/xltm/"
+          link: "/signature/net/verify/xltm/"
           description: "Microsoft Excel macro-enabled template"
 
         # format loop
         - name: "Verify e-Signatures in ODS"
-          link: "https://products.groupdocs.com/signature/net/verify/ods/"
+          link: "/signature/net/verify/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Verify e-Signatures in OTS"
-          link: "https://products.groupdocs.com/signature/net/verify/ots/"
+          link: "/signature/net/verify/ots/"
           description: "OpenDocument Spreadsheet Template"
 
         # format loop
         - name: "Verify e-Signatures in PPT"
-          link: "https://products.groupdocs.com/signature/net/verify/ppt/"
+          link: "/signature/net/verify/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Verify e-Signatures in PPTX"
-          link: "https://products.groupdocs.com/signature/net/verify/pptx/"
+          link: "/signature/net/verify/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Verify e-Signatures in PPS"
-          link: "https://products.groupdocs.com/signature/net/verify/pps/"
+          link: "/signature/net/verify/pps/"
           description: "Microsoft PowerPoint 97-2003 Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in PPSX"
-          link: "https://products.groupdocs.com/signature/net/verify/ppsx/"
+          link: "/signature/net/verify/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in POTM"
-          link: "https://products.groupdocs.com/signature/net/verify/potm/"
+          link: "/signature/net/verify/potm/"
           description: "Microsoft PowerPoint Macro-Enabled Template"
 
         # format loop
         - name: "Verify e-Signatures in POTX"
-          link: "https://products.groupdocs.com/signature/net/verify/potx/"
+          link: "/signature/net/verify/potx/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Verify e-Signatures in PPTM"
-          link: "https://products.groupdocs.com/signature/net/verify/pptm/"
+          link: "/signature/net/verify/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Verify e-Signatures in ODP"
-          link: "https://products.groupdocs.com/signature/net/verify/odp/"
+          link: "/signature/net/verify/odp/"
           description: "OpenDocument Presentation"
 
         # format loop
         - name: "Verify e-Signatures in OTP"
-          link: "https://products.groupdocs.com/signature/net/verify/otp/"
+          link: "/signature/net/verify/otp/"
           description: "OpenDocument Presentation Template"
 
         # format loop
         - name: "Verify e-Signatures in WEBP"
-          link: "https://products.groupdocs.com/signature/net/verify/webp/"
+          link: "/signature/net/verify/webp/"
           description: "WebP Image"
 
         # format loop
         - name: "Verify e-Signatures in TIFF"
-          link: "https://products.groupdocs.com/signature/net/verify/tiff/"
+          link: "/signature/net/verify/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Verify e-Signatures in JPEG"
-          link: "https://products.groupdocs.com/signature/net/verify/jpeg/"
+          link: "/signature/net/verify/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Verify e-Signatures in GIF"
-          link: "https://products.groupdocs.com/signature/net/verify/gif/"
+          link: "/signature/net/verify/gif/"
           description: "Graphics Interchange Format"
 
         # format loop
         - name: "Verify e-Signatures in PNG"
-          link: "https://products.groupdocs.com/signature/net/verify/png/"
+          link: "/signature/net/verify/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Verify e-Signatures in BMP"
-          link: "https://products.groupdocs.com/signature/net/verify/bmp/"
+          link: "/signature/net/verify/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Verify e-Signatures in CDR"
-          link: "https://products.groupdocs.com/signature/net/verify/cdr/"
+          link: "/signature/net/verify/cdr/"
           description: "CorelDraw Vector Graphic Drawing"
 
         # format loop
         - name: "Verify e-Signatures in SVG"
-          link: "https://products.groupdocs.com/signature/net/verify/svg/"
+          link: "/signature/net/verify/svg/"
           description: "Scalable Vector Graphics"
 
         # format loop
         - name: "Verify e-Signatures in PSD"
-          link: "https://products.groupdocs.com/signature/net/verify/psd/"
+          link: "/signature/net/verify/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Verify e-Signatures in WMF"
-          link: "https://products.groupdocs.com/signature/net/verify/wmf/"
+          link: "/signature/net/verify/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Verify e-Signatures in EMF"
-          link: "https://products.groupdocs.com/signature/net/verify/emf/"
+          link: "/signature/net/verify/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Verify e-Signatures in CMX"
-          link: "https://products.groupdocs.com/signature/net/verify/cmx/"
+          link: "/signature/net/verify/cmx/"
           description: "Corel Metafile eXchange Image"
 
         # format loop
         - name: "Verify e-Signatures in DJVU"
-          link: "https://products.groupdocs.com/signature/net/verify/djvu/"
+          link: "/signature/net/verify/djvu/"
           description: "Deja Vu"
 
         # format loop
         - name: "Verify e-Signatures in PPSM"
-          link: "https://products.groupdocs.com/signature/net/verify/ppsm/"
+          link: "/signature/net/verify/ppsm/"
           description: "Microsoft PowerPoint Macro-Enabled Slide Show"
 
         # format loop
         - name: "Verify e-Signatures in DCM"
-          link: "https://products.groupdocs.com/signature/net/verify/dcm/"
+          link: "/signature/net/verify/dcm/"
           description: "Digital Imaging and Communications in Medicine"
 
 
