@@ -58,16 +58,16 @@ steps:
         [GroupDocs.Signature](/signature/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、アプリケーション内のDOCXファイルに画像署名を簡単に追加できます。
 
         * Signatureクラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        *要件に応じてImageSignOptionsオブジェクトをインスタンス化し、画像署名オプションを指定します。
+        * 要件に応じてImageSignOptionsオブジェクトをインスタンス化し、画像署名オプションを指定します。
         * SignatureクラスインスタンスのSignメソッドを呼び出し、ImageSignOptionsを渡します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)からGroupDocs.Signaturefor.NETの最新バージョンをダウンロードします
         
     code: |

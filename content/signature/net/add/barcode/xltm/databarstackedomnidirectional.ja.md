@@ -58,7 +58,7 @@ steps:
         [GroupDocs.Signature](/signature/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、アプリケーション内のXLTMファイルにDatabarstacked全方向バーコードを簡単に追加できます。
 
         * Signatureクラスの新しいインスタンスを作成し、ソースXLTMドキュメントパスをコンストラクターパラメーターとして渡します。
-        *必要なテキストを使用してBarcodeSignOptionsオブジェクトをインスタンス化し、EncodeTypeプロパティをDatabarStackedOmniDirectionalに設定します。
+        * 必要なテキストを使用してBarcodeSignOptionsオブジェクトをインスタンス化し、EncodeTypeプロパティをDatabarStackedOmniDirectionalに設定します。
         * SignatureクラスのSignメソッドを呼び出し、BarcodeSignOptionsを含む出力XLTMファイル名を渡します。
         * SignResultの結果を分析して、必要に応じて新しく作成された署名を確認します。
         
@@ -66,9 +66,9 @@ steps:
     content_right: |
         GroupDocs.Signature for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)からGroupDocs.Signaturefor.NETの最新バージョンをダウンロードします
         
     code: |

@@ -66,9 +66,9 @@ steps:
     content_right: |
         GroupDocs.Signature for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)から最新バージョンのGroupDocs.SignatureforJavaをダウンロードします。
         
     code: |

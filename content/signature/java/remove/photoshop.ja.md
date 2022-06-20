@@ -58,19 +58,19 @@ steps:
         以下のJavaコード例は、数行のコードを追加するだけで、**JavaのPHOTOSHOPファイルからテキスト署名を削除**する手順を明確に示しています。
 
         * ** Signature **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        *必要なプロパティを使用して**TextSearchOptions**オブジェクトをインスタンス化します。
+        * 必要なプロパティを使用して**TextSearchOptions** オブジェクトをインスタンス化します。
         * ** search **メソッドを呼び出して、**TextSignatures**のリストを取得します。
-        *ドキュメントから削除する**TextSignature**オブジェクトを選択します。
-        * **Signature**オブジェクト**delete**メソッドを呼び出し、1つまたは複数の署名を渡します。
+        *ドキュメントから削除する**TextSignature** オブジェクトを選択します。
+        * **Signature** オブジェクト**delete**メソッドを呼び出し、1つまたは複数の署名を渡します。
         * ** DeleteResult **の結果を分析して、署名が更新されたかどうかを確認します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)から最新バージョンのGroupDocs.SignatureforJavaをダウンロードします。
         
     code: |

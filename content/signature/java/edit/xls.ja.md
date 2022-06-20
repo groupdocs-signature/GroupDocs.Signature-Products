@@ -58,7 +58,7 @@ steps:
         以下のコード例は、[GroupDocs.Signature](/signature/java/)ライブラリを使用して、わずか数行のコードを追加することにより、**Javaで既に署名されたXLSファイルのデジタル署名を編集する方法**に関する手順を明確に示しています。
 
         * [Signature](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature/Signature)クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        *必要なプロパティを使用して[ImageSearchOptions](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature.options.search/ImageSearchOptions)オブジェクトをインスタンス化します。
+        * 必要なプロパティを使用して[ImageSearchOptions](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature.options.search/ImageSearchOptions)オブジェクトをインスタンス化します。
         * [検索](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature/Signature#search(java.lang.Class,%20com.groupdocs.signature.options.search.SearchOptions））に電話してください[ImageSignatures]のリストを取得する方法（https://apireference.groupdocs.com/signature/java/com.groupdocs.signature.domain.signatures/ImageSignature)。
         *リストから[ImageSignature](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature.domain.signatures/ImageSignature)更新する必要のあるオブジェクトを選択します。
         * [Signature](https://apireference.groupdocs.com/signature/java/com.groupdocs.signature/Signature）オブジェクト[update](https://apireference.groupdocs.com/signature/java/com.groupdocs .signature / Signature＃update（java.io.OutputStream、％20com.groupdocs.signature.domain.signatures.BaseSignature))メソッドを使用して、1つまたは複数の署名を渡します。
@@ -67,9 +67,9 @@ steps:
     content_right: |
         GroupDocs.Signature for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)から最新バージョンのGroupDocs.SignatureforJavaをダウンロードします。
         
     code: |

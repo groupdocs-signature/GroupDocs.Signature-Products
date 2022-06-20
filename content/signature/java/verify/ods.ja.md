@@ -58,16 +58,16 @@ steps:
         以下のコード例は、[GroupDocs.Signature](/signature/java/)ライブラリを使用して、わずか数行のコードを追加することにより、**Javaで既に署名されたODSファイルのデジタル署名を検証する方法**に関する手順を明確に示しています。
 
         * [Signature](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature)クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        *要件に応じて[DigitalVerifyOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.verify/DigitalVerifyOptions)オブジェクトをインスタンス化し、検証オプションを指定します。
+        * 要件に応じて[DigitalVerifyOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options.verify/DigitalVerifyOptions)オブジェクトをインスタンス化し、検証オプションを指定します。
         * [Signature](https : //apireference.groupdocs.com/java/signature/com.groupdocs.signature/Signature)クラスを作成し、[DigitalVerifyOptions](https://apireference.groupdocs.com/java/signature/com.groupdocs.signature.options。それにverify/DigitalVerifyOptions)。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)から最新バージョンのGroupDocs.SignatureforJavaをダウンロードします。
         
     code: |

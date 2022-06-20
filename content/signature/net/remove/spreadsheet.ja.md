@@ -58,7 +58,7 @@ steps:
         [GroupDocs.Signature](/signature/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からSPREADSHEETファイル内のデジタル署名を簡単に見つけて削除できます。
 
         * Signatureクラスの新しいインスタンスを作成し、ソースドキュメントパスまたはそのストリームをコンストラクターパラメーターとして渡します。
-        *必要なプロパティを使用してDigitalSearchOptionsオブジェクトをインスタンス化します。
+        * 必要なプロパティを使用してDigitalSearchOptionsオブジェクトをインスタンス化します。
         * Searchメソッドを呼び出して、DigitalSignaturesのリストを取得します。
         *ドキュメントから削除する必要があるDigitalSignatureオブジェクトをリストから選択します。
         *署名オブジェクトのDeleteメソッドを呼び出し、1つまたは複数の署名を渡します。
@@ -67,9 +67,9 @@ steps:
     content_right: |
         GroupDocs.Signature for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)からGroupDocs.Signaturefor.NETの最新バージョンをダウンロードします
         
     code: |

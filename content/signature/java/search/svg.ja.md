@@ -58,16 +58,16 @@ steps:
         以下のJavaコード例は、数行のコードを追加するだけで、**JavaでSVGファイル内のデジタル署名を検索**する手順を明確に示しています。
 
         * ** Signature **クラスの新しいインスタンスを作成し、コンストラクターパラメーターとしてソースドキュメントパスを渡します。
-        *要件に応じて**DigitalSearchOptions**オブジェクトをインスタンス化し、検索オプションを指定します。
+        * 要件に応じて**DigitalSearchOptions** オブジェクトをインスタンス化し、検索オプションを指定します。
         * **Signature**クラスインスタンスの**search**メソッドを呼び出し、**DigitalSearchOptions**を渡します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.signature)から最新バージョンのGroupDocs.SignatureforJavaをダウンロードします。
         
     code: |
