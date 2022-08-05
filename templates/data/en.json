@@ -1,0 +1,52 @@
+{
+  "content": {
+    "meta_title": "Adding {{SIGNATURETYPE}} signatures in a {{FILEFORMAT}} file with {{ProgLang}}",
+    "meta_description": "Put {{SIGNATURETYPE}} Signature on {{FILEFORMAT}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats.",
+
+    "h1": "Operating {{SIGNATURETYPE}} Signatures in .{{FILEFORMAT}} files with {{ProgLang}}",
+    "h2": "How to {{OPERATION}} {{SIGNATURETYPE}} Signature with a few lines of {{ProductName}} code"
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed."
+  },
+  "overview": {
+    "description1": "Sign your {{FILEFORMAT}} files with {{SIGNATURETYPE}} signatures using {{ProductName}} easily. You can use just a couple of {{ProgLang}} code lines in any platform of your choice like - Windows, Linux, macOS.",
+    "description2": "You can put {{SIGNATURETYPE}} on {{FILEFORMAT}} file in a very convenient way and for free. Besides that it is possible to sign {{FILEFORMAT}} files using advanced {{SIGNATURETYPE}} options.",
+
+    "sign_options_desc": "There are a lot of options features to sign {{FILEFORMAT}} which you may use for your purposes:",
+    "sign_options_item_1": "{{SIGNATURETYPE}} position on the page can be set up as absolutely as relatively;",
+    "sign_options_item_2": "One {{SIGNATURETYPE}} signature may be placed on specified pages of multi-page documents;",
+    "sign_options_item_3": "A lot of additional signature features like color, size, border etc. are available.",
+
+    "sign_saving_desc": "There are also saving options for signed {{FILEFORMAT}} file:",
+    "sign_saving_item_1": "after signing file might be saved with other supported format",
+    "sign_saving_item_2": "furthermore file can be encrypted with password or saved to memory stream",
+
+    "summary": "Signing {{FILEFORMAT}} files with {{SIGNATURETYPE}} provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc."
+  },
+  "steps": {
+    "title_left": "Steps to sign {{FILEFORMAT}} with {{SIGNATURETYPE}} in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{FILEFORMAT}} documents with {{SIGNATURETYPE}} signatures quick and easily.",
+      "step_1": "Create an instance of Signature class providing {{FILEFORMAT}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign passing output {{FILEFORMAT}} file or memory stream"
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "Documents signing with {{ProductFullName}} can be performed in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.",
+      "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development environments: {{DevEnv}}",
+      "step_3": "Get the latest {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signing {{FILEFORMAT}} documents with {{SIGNATURETYPE}} Live Demo",
+    "content": "Sign {{FILEFORMAT}} file with {{SIGNATURETYPE}} signature right now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
+  },
+  "more_formats": {
+    "title": "Other supported {{SIGNATURETYPE}} signatures for {{ProgLang}}",
+    "content": "You can also sign {{FILEFORMAT}} with other signature types. Please see the list below."
+  }    
+}

@@ -1,0 +1,30 @@
+{
+    "products": {        
+        "net": {
+            "name": ".NET",
+            "fullName": "GroupDocs.Signature for .NET",
+            "code": "net",
+            "progLang": "C#",
+            "srcFileExt": ".cs",
+            "syntax": "csharp",
+            "devEnv": "Microsoft Visual Studio, Xamarin, MonoDevelop",
+            "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+            "repoName": "Nuget",
+            "repoUrl": "https://www.nuget.org/packages/groupdocs.signature",
+            "url": "https://products.groupdocs.com/signature/net/"
+        },
+        "java": {
+            "name": "Java",
+            "fullName": "GroupDocs.Signature for Java",
+            "code": "java",
+            "progLang": "Java",
+            "srcFileExt": ".java",
+            "syntax": "java",
+            "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
+            "runtime": "Java runtime: J2SE 6.0 and above",
+            "repoName": "Maven",
+            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature",
+            "url": "https://products.groupdocs.com/signature/java/"
+        }
+    }
+}
