@@ -1,24 +1,10 @@
-<% configRef "..\\configs\\config.yml" %>
-<% set "FROM" (upper (get "from")) %>
-<% set "TO" (upper (get "to")) %>
-<% set "ProductName" (dict "products.{product}.name") %>
-<% set "ProductFullName" (dict "products.{product}.fullName") %>
-<% set "ProductCode" (dict "products.{product}.code") %>
-<% set "ProductUrl" (dict "products.{product}.url") %>
-<% set "ProgLang" (dict "products.{product}.progLang") %>
-<% set "SrcFileExt" (dict "products.{product}.srcFileExt") %>
-<% set "DevEnv" (dict "products.{product}.devEnv") %>
-<% set "Runtime" (dict "products.{product}.runtime") %>
-<% set "RepoName" (dict "products.{product}.repoName") %>
-<% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.{from}") %>
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: <% get "OtherFormats" %>
-breadcrumb: <% get "FROM" %> to <% get "TO" %> in <% get "ProgLang" %>
+breadcrumb: <% get "SIGNATURETYPE" %> to <% get "FILEFORMAT" %> in <% get "ProgLang" %>
 
 ############################# Head ############################
 head_title: "<% "{content.meta_title}" %>"
@@ -38,8 +24,8 @@ submenu:
 
     left:
         img_alt: "<% get "ProductFullName" %>"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-<% get "ProductCode" %>.png"
-        product: "GroupDocs.Conversion"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-<% get "ProductCode" %>.png"
+        product: "GroupDocs.Signature"
         platform: "<% get "ProductName" %>"
 
 
@@ -94,7 +80,7 @@ steps:
          
     code: |
         ```<% dict "products.{product}.syntax" %>    
-        <% include "_example_{product}.md" %>
+        <% include "_example_sign_{product}.md" %>
         ```
 
 demos:

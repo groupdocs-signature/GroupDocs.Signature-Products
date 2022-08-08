@@ -43,7 +43,7 @@
   },
   "demos": {
     "title": "Signing {{FILEFORMAT}} documents with {{SIGNATURETYPE}} Live Demo",
-    "content": "Sign {{FILEFORMAT}} file with {{SIGNATURETYPE}} signature right now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
+    "content": "Sign {{FILEFORMAT}} file with {{SIGNATURETYPE}} signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
   },
   "more_formats": {
     "title": "Other supported {{SIGNATURETYPE}} signatures for {{ProgLang}}",
