@@ -1,0 +1,298 @@
+---
+layout: "auto-gen"
+date: 2022-07-07T12:44:18+03:00
+draft: false
+
+head_title: "Tambahkan Tanda Tangan Digital ke File TIFF di .NET | Menandatangani Dokumen"
+head_description: "Tanda tangani file TIFF dengan tanda tangan digital di .NET - tambahkan tanda tangan elektronik khusus ke dokumen bisnis populer dan format file gambar."
+
+title: "Tambahkan Tanda Tangan Digital ke File TIFF"
+description: "Tanda tangani file TIFF Anda menggunakan jenis tanda tangan digital populer. Memanipulasi properti tanda tangan dan mengatur opsi penandatanganan lanjutan dalam dokumen yang sesuai dengan kebutuhan Anda."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+    icon: "fas fa-arrow-down"
+    label: "Unduh Uji Coba Gratis"
+    link: "https://downloads.groupdocs.com/signature/net"
+
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+    middle:
+        button:
+
+            - link: "https://apireference.groupdocs.com/signature/net"
+              text: "Referensi API"
+
+            - link: "https://github.com/groupdocs-signature"
+              text: "Contoh Kode"
+
+            - link: "https://products.groupdocs.app/signature/family"
+              text: "Demo Langsung"
+
+            - link: "https://purchase.groupdocs.com/pricing/signature/net"
+              text: "Harga"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/signature"
+        link_learn: "https://docs.groupdocs.com/signature/net"
+        link_buy: "https://purchase.groupdocs.com"
+
+about:
+    enable: true
+    title: "Tentang GroupDocs.Signature untuk .NET API"
+    content: |
+        [GroupDocs.Signature for .NET](/id/signature/net/) adalah .NET API asli untuk menandatangani dokumen digital secara elektronik menggunakan berbagai jenis tanda tangan seperti teks, gambar, kode batang, stempel, bidang formulir, kode QR, dan metadata. Pengguna dapat menambahkan, mengedit, memverifikasi, menghapus, dan mencari tanda tangan digital dalam PDF, Microsoft Word, lembar kerja Excel, presentasi PowerPoint, Adobe Photoshop, metafile, dan format file gambar dengan dukungan tambahan untuk menyesuaikan properti tanda tangan sesuai kebutuhan.
+
+steps:
+    enable: true
+    title_left: "Cara Menambahkan Tanda Tangan Digital ke TIFF"
+    content_left: |
+        [GroupDocs.Signature](/id/signature/net/) memudahkan pengembang .NET untuk menambahkan tanda tangan elektronik ke file TIFF dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+
+        * Buat instance baru kelas Signature dan berikan jalur dokumen sumber sebagai parameter konstruktor.
+        * Buat instance objek DigitalSignOptions dengan sertifikat yang diperlukan dan kata sandinya.
+        * Metode Tanda Panggil kelas Tanda Tangan dan berikan DigitalSignOptions ke dalamnya.
+        * Analisis hasil SignResult untuk memeriksa tanda tangan yang baru dibuat jika diperlukan.
+        
+    title_right: "Persyaratan sistem"
+    content_right: |
+        GroupDocs.Signature untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Signature untuk .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.signature)
+        
+    code: |
+        ```cs
+        using (Signature signature = new Signature("sample.pdf"))
+        {
+            // inisialisasi opsi digital dengan jalur file sertifikat
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // sertifikasi kata sandi
+                Password = "1234567890",
+                // detail sertifikat digital
+                Reason = "Sign",
+                Contact = "JohnSmith",
+                Location = "Office1",
+                // gambar sebagai tampilan sertifikat digital pada halaman dokumen
+                ImageFilePath = "sample.jpg",
+                //
+                AllPages = true,
+                Width = 80,
+                Height = 60,
+                VerticalAlignment = VerticalAlignment.Bottom,
+                HorizontalAlignment = HorizontalAlignment.Right,
+                Margin = new Padding() {  Bottom = 10, Right = 10},
+            };
+            signature.Sign("signed.tiff", options);
+        }
+        ```
+        
+demos:
+    enable: true
+    title: "Demo Langsung - Aplikasi Online untuk Menambahkan Tanda Tangan Digital"
+    content: |
+        Tambahkan tanda tangan ke file TIFF sekarang juga dengan mengunjungi situs web [GroupDocs.Signature](https://products.groupdocs.app/signature/family). Demo langsung memiliki manfaat sebagai berikut.
+        
+about_formats:
+    enable: true
+    format:
+        - icon: "far fa-file-tiff"
+          title: "Tentang Format Berkas TIFF"
+          content: |
+            TIFF atau TIF, Tagged Image File Format, mewakili gambar raster yang dimaksudkan untuk digunakan pada berbagai perangkat yang memenuhi standar format file ini. Ia mampu menggambarkan data gambar bilevel, grayscale, palette-color dan full-color dalam beberapa ruang warna. Ini mendukung skema kompresi lossy serta lossless untuk memilih antara ruang dan waktu untuk aplikasi yang menggunakan format. Formatnya dapat diperluas dan telah mengalami beberapa revisi yang memungkinkan dimasukkannya informasi pribadi atau tujuan khusus dalam jumlah yang tidak terbatas. Formatnya tidak bergantung pada mesin dan bebas dari batasan seperti prosesor, sistem operasi, atau sistem file.
+
+          link: "https://docs.fileformat.com/image/tiff/"
+
+more_formats:
+    enable: true
+    title: "Menandatangani Format Dokumen Digital Lainnya"
+    content: |
+        .NET API manajemen tanda tangan digital untuk dokumen dan gambar. Tambahkan tanda tangan elektronik ke beberapa format file populer seperti yang dinyatakan di bawah ini.
+    format: 
+        - name: "Tambahkan tanda tangan elektronik ke PDF"
+          link: "/signature/net/add/pdf/"
+          description: "Format Dokumen Portabel Adobe"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOC"
+          link: "/signature/net/add/doc/"
+          description: "Dokumen Microsoft Word"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOCM"
+          link: "/signature/net/add/docm/"
+          description: "Dokumen Berkemampuan Makro Microsoft Word"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOCX"
+          link: "/signature/net/add/docx/"
+          description: "Microsoft Word Buka Dokumen XML"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOT"
+          link: "/signature/net/add/dot/"
+          description: "Templat Dokumen Microsoft Word"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOTX"
+          link: "/signature/net/add/dotx/"
+          description: "Templat Dokumen XML Word Terbuka"
+
+        - name: "Tambahkan tanda tangan elektronik ke DOTM"
+          link: "/signature/net/add/dotm/"
+          description: "Templat Microsoft Word Macro-Enabled"
+
+        - name: "Tambahkan tanda tangan elektronik ke RTF"
+          link: "/signature/net/add/rtf/"
+          description: "Dokumen Teks Kaya"
+
+        - name: "Tambahkan tanda tangan elektronik ke ODT"
+          link: "/signature/net/add/odt/"
+          description: "Buka Teks Dokumen"
+
+        - name: "Tambahkan tanda tangan elektronik ke OTT"
+          link: "/signature/net/add/ott/"
+          description: "Templat Teks OpenDocument"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLS"
+          link: "/signature/net/add/xls/"
+          description: "Format File Biner Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLSX"
+          link: "/signature/net/add/xlsx/"
+          description: "Microsoft Excel Buka XML Spreadsheet"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLSM"
+          link: "/signature/net/add/xlsm/"
+          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLSM"
+          link: "/signature/net/add/xlsm/"
+          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLSB"
+          link: "/signature/net/add/xlsb/"
+          description: "Lembar Kerja Biner Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLTX"
+          link: "/signature/net/add/xltx/"
+          description: "Templat Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke XLTM"
+          link: "/signature/net/add/xltm/"
+          description: "Templat berkemampuan makro Microsoft Excel"
+
+        - name: "Tambahkan tanda tangan elektronik ke ODS"
+          link: "/signature/net/add/ods/"
+          description: "Buka Spreadsheet Dokumen"
+
+        - name: "Tambahkan tanda tangan elektronik ke OTS"
+          link: "/signature/net/add/ots/"
+          description: "Templat Spreadsheet OpenDocument"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPT"
+          link: "/signature/net/add/ppt/"
+          description: "Presentasi powerpoint"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPTX"
+          link: "/signature/net/add/pptx/"
+          description: "Presentasi PowerPoint Terbuka XML"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPS"
+          link: "/signature/net/add/pps/"
+          description: "Peragaan Slide Microsoft PowerPoint 97-2003"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPSX"
+          link: "/signature/net/add/ppsx/"
+          description: "PowerPoint Terbuka XML Slide Show"
+
+        - name: "Tambahkan tanda tangan elektronik ke POTM"
+          link: "/signature/net/add/potm/"
+          description: "Templat Microsoft PowerPoint Macro-Enabled"
+
+        - name: "Tambahkan tanda tangan elektronik ke POTX"
+          link: "/signature/net/add/potx/"
+          description: "Templat Microsoft PowerPoint"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPTM"
+          link: "/signature/net/add/pptm/"
+          description: "Presentasi Microsoft PowerPoint"
+
+        - name: "Tambahkan tanda tangan elektronik ke ODP"
+          link: "/signature/net/add/odp/"
+          description: "Presentasi OpenDocument"
+
+        - name: "Tambahkan tanda tangan elektronik ke OTP"
+          link: "/signature/net/add/otp/"
+          description: "Template Presentasi OpenDocument"
+
+        - name: "Tambahkan tanda tangan elektronik ke WEBP"
+          link: "/signature/net/add/webp/"
+          description: "Gambar WebP"
+
+        - name: "Tambahkan tanda tangan elektronik ke TIFF"
+          link: "/signature/net/add/tiff/"
+          description: "Format File Gambar yang Ditandai"
+
+        - name: "Tambahkan tanda tangan elektronik ke JPEG"
+          link: "/signature/net/add/jpeg/"
+          description: "Gambar JPEG"
+
+        - name: "Tambahkan tanda tangan elektronik ke GIF"
+          link: "/signature/net/add/gif/"
+          description: "Format Pertukaran Grafik"
+
+        - name: "Tambahkan tanda tangan elektronik ke PNG"
+          link: "/signature/net/add/png/"
+          description: "Grafik Jaringan Portabel"
+
+        - name: "Tambahkan tanda tangan elektronik ke BMP"
+          link: "/signature/net/add/bmp/"
+          description: "Format File Bitmap"
+
+        - name: "Tambahkan tanda tangan elektronik ke CDR"
+          link: "/signature/net/add/cdr/"
+          description: "Gambar Grafis Vektor CorelDraw"
+
+        - name: "Tambahkan tanda tangan elektronik ke SVG"
+          link: "/signature/net/add/svg/"
+          description: "Grafik Vektor Skalabel"
+
+        - name: "Tambahkan tanda tangan elektronik ke PSD"
+          link: "/signature/net/add/psd/"
+          description: "Dokumen Adobe Photoshop"
+
+        - name: "Tambahkan tanda tangan elektronik ke WMF"
+          link: "/signature/net/add/wmf/"
+          description: "Metafile Windows"
+
+        - name: "Tambahkan tanda tangan elektronik ke EMF"
+          link: "/signature/net/add/emf/"
+          description: "Format Metafile yang Ditingkatkan"
+
+        - name: "Tambahkan tanda tangan elektronik ke CMX"
+          link: "/signature/net/add/cmx/"
+          description: "Corel Metafile eXchange Gambar"
+
+        - name: "Tambahkan tanda tangan elektronik ke DJVU"
+          link: "/signature/net/add/djvu/"
+          description: "Deja Vu"
+
+        - name: "Tambahkan tanda tangan elektronik ke PPSM"
+          link: "/signature/net/add/ppsm/"
+          description: "Peragaan Slide Berkemampuan Makro Microsoft PowerPoint"
+
+        - name: "Tambahkan tanda tangan elektronik ke DCM"
+          link: "/signature/net/add/dcm/"
+          description: "Pencitraan Digital dan Komunikasi dalam Kedokteran"
+
+
+back_to_top:
+    enable: true
+---
