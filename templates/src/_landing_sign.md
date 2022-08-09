@@ -4,7 +4,7 @@ layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: <% get "OtherFormats" %>
-breadcrumb: <% get "SIGNATURETYPE" %> to <% get "FILEFORMAT" %> in <% get "ProgLang" %>
+breadcrumb: put <% get "SIGNATURETYPE" %> signature on <% get "FILEFORMAT" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
 head_title: "<% "{content.meta_title}" %>"

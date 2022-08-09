@@ -3,16 +3,14 @@
         // Set up output <% get "FILEFORMAT" %> file
         string outputFilePath = "input.<% lower (get "FILEFORMAT") %>";
 
-        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
-        {
-                //Provide sign options
-                TextSignOptions options = new TextSignOptions("John Smith")
-                {
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
-                };
+        Signature signature = new Signature(filePath);
 
-                // sign <% get "FILEFORMAT" %> document
-                SignResult result = signature.Sign(outputFilePath, options);
-        }
+        //Provide sign options
+        TextSignOptions options = new TextSignOptions("John Smith");
+
+        // set signature position
+        options.setLeft(50);
+        options.setTop(50);
+
+        // sign <% get "FILEFORMAT" %> document
+        SignResult result = signature.sign(outputFilePath, options);
