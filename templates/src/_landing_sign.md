@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-signature"
+layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: <% get "OtherFormats" %>
