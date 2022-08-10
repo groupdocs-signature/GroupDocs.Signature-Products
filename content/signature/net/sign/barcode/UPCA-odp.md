@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on ODP for C#
+breadcrumb: Create BARCODE signature on ODP for C#
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a ODP file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your ODP files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on ODP file in a very convenient way and for free. Besides that it is possible to sign ODP files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for ODP file
+        
+        // Set up input ODP file
         string filePath = "input.odp";
-        // Set up output ODP file
+        // Set up output file
         string outputFilePath = "output.odp";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
+                    EncodeType = BarcodeTypes.UPCA,
 
                     // set signature position
                     Left = 50,

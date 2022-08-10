@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on XLTM for Java
+breadcrumb: Create BARCODE signature on XLTM for Java
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a XLTM file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your XLTM files with BARCODE signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on XLTM file in a very convenient way and for free. Besides that it is possible to sign XLTM files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for XLTM file
+        
+        // Set up input XLTM file
         string filePath = "input.xltm";
-        // Set up output XLTM file
+        // Set up output file
         string outputFilePath = "output.xltm";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // create barcode option with predefined barcode text
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.);
+        options.setEncodeType(BarcodeTypes.RM4SCC);
 
         // set signature position
         options.setLeft(50);

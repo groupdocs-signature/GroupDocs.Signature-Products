@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on SVG for C#
+breadcrumb: Create TEXT signature on SVG for C#
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a SVG file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your SVG files with TEXT signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on SVG file in a very convenient way and for free. Besides that it is possible to sign SVG files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for SVG file
+                
+        // Set up input SVG file
         string filePath = "input.svg";
-        // Set up output SVG file
+        // Set up output file
         string outputFilePath = "output.svg";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 //Provide sign options

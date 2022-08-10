@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on BMP for Java
+breadcrumb: Create BARCODE signature on BMP for Java
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a BMP file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your BMP files with BARCODE signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on BMP file in a very convenient way and for free. Besides that it is possible to sign BMP files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for BMP file
+        
+        // Set up input BMP file
         string filePath = "input.bmp";
-        // Set up output BMP file
+        // Set up output file
         string outputFilePath = "output.bmp";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // create barcode option with predefined barcode text
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.);
+        options.setEncodeType(BarcodeTypes.SSCC18);
 
         // set signature position
         options.setLeft(50);

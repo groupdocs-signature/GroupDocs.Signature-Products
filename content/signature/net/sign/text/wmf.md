@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on WMF for C#
+breadcrumb: Create TEXT signature on WMF for C#
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a WMF file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your WMF files with TEXT signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on WMF file in a very convenient way and for free. Besides that it is possible to sign WMF files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for WMF file
+                
+        // Set up input WMF file
         string filePath = "input.wmf";
-        // Set up output WMF file
+        // Set up output file
         string outputFilePath = "output.wmf";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 //Provide sign options

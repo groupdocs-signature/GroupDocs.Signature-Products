@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on DOCM for C#
+breadcrumb: Create BARCODE signature on DOCM for C#
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a DOCM file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your DOCM files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on DOCM file in a very convenient way and for free. Besides that it is possible to sign DOCM files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for DOCM file
+        
+        // Set up input DOCM file
         string filePath = "input.docm";
-        // Set up output DOCM file
+        // Set up output file
         string outputFilePath = "output.docm";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
+                    EncodeType = BarcodeTypes.RM4SCC,
 
                     // set signature position
                     Left = 50,

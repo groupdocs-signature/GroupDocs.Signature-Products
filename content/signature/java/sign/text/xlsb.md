@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on XLSB for Java
+breadcrumb: Create TEXT signature on XLSB for Java
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a XLSB file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your XLSB files with TEXT signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on XLSB file in a very convenient way and for free. Besides that it is possible to sign XLSB files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for XLSB file
+                
+        // Set up input XLSB file
         string filePath = "input.xlsb";
-        // Set up output XLSB file
+        // Set up output file
         string outputFilePath = "output.xlsb";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         //Provide sign options

@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on XLSX for Java
+breadcrumb: Create TEXT signature on XLSX for Java
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a XLSX file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your XLSX files with TEXT signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on XLSX file in a very convenient way and for free. Besides that it is possible to sign XLSX files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for XLSX file
+                
+        // Set up input XLSX file
         string filePath = "input.xlsx";
-        // Set up output XLSX file
+        // Set up output file
         string outputFilePath = "output.xlsx";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         //Provide sign options

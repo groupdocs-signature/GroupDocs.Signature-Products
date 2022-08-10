@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on ODS for C#
+breadcrumb: Create BARCODE signature on ODS for C#
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a ODS file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your ODS files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on ODS file in a very convenient way and for free. Besides that it is possible to sign ODS files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for ODS file
+        
+        // Set up input ODS file
         string filePath = "input.ods";
-        // Set up output ODS file
+        // Set up output file
         string outputFilePath = "output.ods";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
+                    EncodeType = BarcodeTypes.CODE128,
 
                     // set signature position
                     Left = 50,

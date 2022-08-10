@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on OTP for Java
+breadcrumb: Create BARCODE signature on OTP for Java
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a OTP file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your OTP files with BARCODE signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on OTP file in a very convenient way and for free. Besides that it is possible to sign OTP files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for OTP file
+        
+        // Set up input OTP file
         string filePath = "input.otp";
-        // Set up output OTP file
+        // Set up output file
         string outputFilePath = "output.otp";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // create barcode option with predefined barcode text
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.);
+        options.setEncodeType(BarcodeTypes.UPCA);
 
         // set signature position
         options.setLeft(50);

@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on OTT for C#
+breadcrumb: Create TEXT signature on OTT for C#
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a OTT file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your OTT files with TEXT signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on OTT file in a very convenient way and for free. Besides that it is possible to sign OTT files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for OTT file
+                
+        // Set up input OTT file
         string filePath = "input.ott";
-        // Set up output OTT file
+        // Set up output file
         string outputFilePath = "output.ott";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 //Provide sign options

@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on PPSX for Java
+breadcrumb: Create TEXT signature on PPSX for Java
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a PPSX file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your PPSX files with TEXT signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on PPSX file in a very convenient way and for free. Besides that it is possible to sign PPSX files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for PPSX file
+                
+        // Set up input PPSX file
         string filePath = "input.ppsx";
-        // Set up output PPSX file
+        // Set up output file
         string outputFilePath = "output.ppsx";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         //Provide sign options

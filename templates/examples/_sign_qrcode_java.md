@@ -1,15 +1,17 @@
-        // Instantiate Signature for <% get "FILEFORMAT" %> file
+        
+        // Set up input <% get "FILEFORMAT" %> file
         string filePath = "input.<% lower (get "FILEFORMAT") %>";
-        // Set up output <% get "FILEFORMAT" %> file
+        // Set up output file
         string outputFilePath = "output.<% lower (get "FILEFORMAT") %>";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // create barcode option with predefined barcode text
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.<% get "BARCODETYPE" %>);
+        options.setEncodeType(BarcodeTypes.<% get "QRCODETYPE" %>);
 
         // set signature position
         options.setLeft(50);

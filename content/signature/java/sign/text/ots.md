@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on OTS for Java
+breadcrumb: Create TEXT signature on OTS for Java
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a OTS file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your OTS files with TEXT signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on OTS file in a very convenient way and for free. Besides that it is possible to sign OTS files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for OTS file
+                
+        // Set up input OTS file
         string filePath = "input.ots";
-        // Set up output OTS file
+        // Set up output file
         string outputFilePath = "output.ots";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         //Provide sign options

@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on JPG for C#
+breadcrumb: Create BARCODE signature on JPG for C#
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a JPG file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your JPG files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on JPG file in a very convenient way and for free. Besides that it is possible to sign JPG files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for JPG file
+        
+        // Set up input JPG file
         string filePath = "input.jpg";
-        // Set up output JPG file
+        // Set up output file
         string outputFilePath = "output.jpg";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
+                    EncodeType = BarcodeTypes.SSCC18,
 
                     // set signature position
                     Left = 50,

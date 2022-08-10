@@ -1,15 +1,17 @@
-        // Instantiate Signature for <% get "FILEFORMAT" %> file
+        
+        // Set up input <% get "FILEFORMAT" %> file
         string filePath = "input.<% lower (get "FILEFORMAT") %>";
-        // Set up output <% get "FILEFORMAT" %> file
+        // Set up output file
         string outputFilePath = "output.<% lower (get "FILEFORMAT") %>";
 
+        // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create barcode option with predefined barcode text
-                BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
+                // create barcode option with predefined QrCode text
+                QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
                 {
-                    // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.<% get "BARCODETYPE" %>,
+                    // setup QrCode encoding type
+                    EncodeType = QrCodeTypes.<% get "QRCODETYPE" %>,
 
                     // set signature position
                     Left = 50,

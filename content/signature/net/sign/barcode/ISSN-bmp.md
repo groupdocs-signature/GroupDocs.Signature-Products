@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put BARCODE signature on BMP for C#
+breadcrumb: Create BARCODE signature on BMP for C#
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a BMP file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your BMP files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put BARCODE on BMP file in a very convenient way and for free. Besides that it is possible to sign BMP files using advanced BARCODE options. 
@@ -80,18 +81,20 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for BMP file
+        
+        // Set up input BMP file
         string filePath = "input.bmp";
-        // Set up output BMP file
+        // Set up output file
         string outputFilePath = "output.bmp";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
+                    EncodeType = BarcodeTypes.ISSN,
 
                     // set signature position
                     Left = 50,

@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on GIF for Java
+breadcrumb: Create TEXT signature on GIF for Java
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a GIF file with Java"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your GIF files with TEXT signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on GIF file in a very convenient way and for free. Besides that it is possible to sign GIF files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```java    
-                // Instantiate Signature for GIF file
+                
+        // Set up input GIF file
         string filePath = "input.gif";
-        // Set up output GIF file
+        // Set up output file
         string outputFilePath = "output.gif";
 
+        // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         //Provide sign options

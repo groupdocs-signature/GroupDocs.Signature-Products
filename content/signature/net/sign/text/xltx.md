@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on XLTX for C#
+breadcrumb: Create TEXT signature on XLTX for C#
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a XLTX file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your XLTX files with TEXT signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on XLTX file in a very convenient way and for free. Besides that it is possible to sign XLTX files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for XLTX file
+                
+        // Set up input XLTX file
         string filePath = "input.xltx";
-        // Set up output XLTX file
+        // Set up output file
         string outputFilePath = "output.xltx";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 //Provide sign options

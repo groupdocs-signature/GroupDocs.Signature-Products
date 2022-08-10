@@ -4,7 +4,7 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: put TEXT signature on XLS for C#
+breadcrumb: Create TEXT signature on XLS for C#
 
 ############################# Head ############################
 head_title: "Adding TEXT signatures in a XLS file with C#"
@@ -40,6 +40,7 @@ about:
 
 overview:
     enable: true
+    title: "Overview API"
     content: |
         Sign your XLS files with TEXT signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
         You can put TEXT on XLS file in a very convenient way and for free. Besides that it is possible to sign XLS files using advanced TEXT options. 
@@ -80,11 +81,13 @@ steps:
          
     code: |
         ```csharp    
-                // Instantiate Signature for XLS file
+                
+        // Set up input XLS file
         string filePath = "input.xls";
-        // Set up output XLS file
+        // Set up output file
         string outputFilePath = "output.xls";
 
+        // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 //Provide sign options
