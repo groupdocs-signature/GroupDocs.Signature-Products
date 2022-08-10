@@ -11,6 +11,7 @@
     "content": "[{{ProductFullName}}]({{ProductUrl}}) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed."
   },
   "overview-sign": {
+    "title": "Overview API",
     "description1": "Sign your {{FILEFORMAT}} files with {{SIGNATURETYPE}} signatures using {{ProductName}} easily. You can use just a couple of {{ProgLang}} code lines in any platform of your choice like - Windows, Linux, macOS.",
     "description2": "You can put {{SIGNATURETYPE}} on {{FILEFORMAT}} file in a very convenient way and for free. Besides that it is possible to sign {{FILEFORMAT}} files using advanced {{SIGNATURETYPE}} options.",
 
