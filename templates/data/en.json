@@ -1,16 +1,16 @@
 {
-  "content": {
+  "content-sign": {
     "meta_title": "Adding {{SIGNATURETYPE}} signatures in a {{FILEFORMAT}} file with {{ProgLang}}",
     "meta_description": "Put {{SIGNATURETYPE}} Signature on {{FILEFORMAT}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats.",
 
     "h1": "Operating {{SIGNATURETYPE}} Signatures in .{{FILEFORMAT}} files with {{ProgLang}}",
-    "h2": "How to {{OPERATION}} {{SIGNATURETYPE}} Signature with a few lines of {{ProductName}} code"
+    "h2": "How to add {{SIGNATURETYPE}} Signature with a few lines of {{ProductName}} code"
   },
-  "about": {
+  "about-sign": {
     "title": "About {{ProductFullName}} API",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed."
   },
-  "overview": {
+  "overview-sign": {
     "description1": "Sign your {{FILEFORMAT}} files with {{SIGNATURETYPE}} signatures using {{ProductName}} easily. You can use just a couple of {{ProgLang}} code lines in any platform of your choice like - Windows, Linux, macOS.",
     "description2": "You can put {{SIGNATURETYPE}} on {{FILEFORMAT}} file in a very convenient way and for free. Besides that it is possible to sign {{FILEFORMAT}} files using advanced {{SIGNATURETYPE}} options.",
 
@@ -25,7 +25,7 @@
 
     "summary": "Signing {{FILEFORMAT}} files with {{SIGNATURETYPE}} provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc."
   },
-  "steps": {
+  "steps-sign": {
     "title_left": "Steps to sign {{FILEFORMAT}} with {{SIGNATURETYPE}} in {{ProgLang}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{FILEFORMAT}} documents with {{SIGNATURETYPE}} signatures quick and easily.",
@@ -41,7 +41,7 @@
       "step_3": "Get the latest {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
     }
   },
-  "demos": {
+  "demos-sign": {
     "title": "Signing {{FILEFORMAT}} documents with {{SIGNATURETYPE}} Live Demo",
     "content": "Sign {{FILEFORMAT}} file with {{SIGNATURETYPE}} signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
   },
