@@ -11,7 +11,7 @@
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.<% get "BARCODETYPE" %>,
+                    EncodeType = BarcodeTypes.<% get "Codetype" %>,
 
                     // set signature position
                     Left = 50,

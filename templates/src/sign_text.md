@@ -1,6 +1,7 @@
 <% configRef "..\\configs\\config_sign_text.yml" %>
-<% set "SIGNATURETYPE" (upper (get "signaturetype")) %>
-<% set "FILEFORMAT" (upper (get "fileformat")) %>
+<% set "Operation" (upper (get "operation")) %>
+<% set "Signaturetype" (upper (get "signaturetype")) %>
+<% set "Fileformat" (upper (get "fileformat")) %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>

@@ -1,10 +1,10 @@
 {
   "content-sign": {
-    "meta_title": "Adding {{SIGNATURETYPE}} signatures in a {{FILEFORMAT}} file with {{ProgLang}}",
-    "meta_description": "Put {{SIGNATURETYPE}} Signature on {{FILEFORMAT}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats.",
+    "meta_title": "Adding {{Signaturetype}} signatures in a {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats.",
 
-    "h1": "Operating {{SIGNATURETYPE}} Signatures in .{{FILEFORMAT}} files with {{ProgLang}}",
-    "h2": "How to add {{SIGNATURETYPE}} Signature with a few lines of {{ProductName}} code"
+    "h1": "Sign .{{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
+    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
   },
   "about-sign": {
     "title": "About {{ProductFullName}} API",
@@ -12,27 +12,27 @@
   },
   "overview-sign": {
     "title": "Overview API",
-    "description1": "Sign your {{FILEFORMAT}} files with {{SIGNATURETYPE}} signatures using {{ProductName}} easily. You can use just a couple of {{ProgLang}} code lines in any platform of your choice like - Windows, Linux, macOS.",
-    "description2": "You can put {{SIGNATURETYPE}} on {{FILEFORMAT}} file in a very convenient way and for free. Besides that it is possible to sign {{FILEFORMAT}} files using advanced {{SIGNATURETYPE}} options.",
+    "description1": "Sign your {{Fileformat}} files with {{Signaturetype}} signatures using {{ProductName}} easily. You can use just a couple of {{ProgLang}} code lines in any platform of your choice like - Windows, Linux, macOS.",
+    "description2": "You can put {{Signaturetype}} on {{Fileformat}} file in a very convenient way and for free. Besides that it is possible to sign {{Fileformat}} files using advanced {{Signaturetype}} options.",
 
-    "sign_options_desc": "There are a lot of options features to sign {{FILEFORMAT}} which you may use for your purposes:",
-    "sign_options_item_1": "{{SIGNATURETYPE}} position on the page can be set up as absolutely as relatively;",
-    "sign_options_item_2": "One {{SIGNATURETYPE}} signature may be placed on specified pages of multi-page documents;",
+    "sign_options_desc": "There are a lot of options features to sign {{Fileformat}} which you may use for your purposes:",
+    "sign_options_item_1": "{{Signaturetype}} position on the page can be set up as absolutely as relatively;",
+    "sign_options_item_2": "One {{Signaturetype}} signature may be placed on specified pages of multi-page documents;",
     "sign_options_item_3": "A lot of additional signature features like color, size, border etc. are available.",
 
-    "sign_saving_desc": "There are also saving options for signed {{FILEFORMAT}} file:",
+    "sign_saving_desc": "There are also saving options for signed {{Fileformat}} file:",
     "sign_saving_item_1": "after signing file might be saved with other supported format",
     "sign_saving_item_2": "furthermore file can be encrypted with password or saved to memory stream",
 
-    "summary": "Signing {{FILEFORMAT}} files with {{SIGNATURETYPE}} provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc."
+    "summary": "Signing {{Fileformat}} files with {{Signaturetype}} provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc."
   },
   "steps-sign": {
-    "title_left": "Steps to sign {{FILEFORMAT}} with {{SIGNATURETYPE}} in {{ProgLang}}",
+    "title_left": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{FILEFORMAT}} documents with {{SIGNATURETYPE}} signatures quick and easily.",
-      "step_1": "Create an instance of Signature class providing {{FILEFORMAT}} file supposed to signing as path or memory stream",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quick and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
       "step_2": "Instantiate SignOptions class and set all demanded data.",
-      "step_3": "Invoke the Signature.Sign passing output {{FILEFORMAT}} file or memory stream"
+      "step_3": "Invoke the Signature.Sign passing output {{Fileformat}} file or memory stream"
     },
     "title_right": "System Requirements",
     "content_right": {
@@ -43,11 +43,11 @@
     }
   },
   "demos-sign": {
-    "title": "Signing {{FILEFORMAT}} documents with {{SIGNATURETYPE}} Live Demo",
-    "content": "Sign {{FILEFORMAT}} file with {{SIGNATURETYPE}} signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
+    "title": "Signing {{Fileformat}} documents with {{Signaturetype}} Live Demo",
+    "content": "Sign {{Fileformat}} file with {{Signaturetype}} signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you."
   },
   "more_formats": {
-    "title": "Other supported {{SIGNATURETYPE}} signatures for {{ProgLang}}",
-    "content": "You can also sign {{FILEFORMAT}} with other signature types. Please see the list below."
+    "title": "Other supported {{Signaturetype}} signatures for {{ProgLang}}",
+    "content": "You can also sign {{Fileformat}} with other signature types. Please see the list below."
   }    
 }

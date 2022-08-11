@@ -11,7 +11,7 @@ head_title: "Adding BARCODE signatures in a TIF file with Java"
 head_description: "Put BARCODE Signature on TIF file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Operating BARCODE Signatures in .TIF files with Java"
+title: "Sign .TIF files with BARCODE signatures in Java"
 description: "How to add BARCODE Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -82,10 +82,10 @@ steps:
     code: |
         ```java    
         
-        // Set up input TIF file
-        string filePath = "input.tif";
+        // Set up input  file
+        string filePath = "input.";
         // Set up output file
-        string outputFilePath = "output.tif";
+        string outputFilePath = "output.";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -102,7 +102,7 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign TIF document
+        // sign  document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```

@@ -4,14 +4,14 @@ layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: 
-breadcrumb: Create BARCODE signature on WEBP for Java
+breadcrumb: Create  BARCODE signature on WEBP for Java
 
 ############################# Head ############################
 head_title: "Adding BARCODE signatures in a WEBP file with Java"
 head_description: "Put BARCODE Signature on WEBP file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Operating BARCODE Signatures in .WEBP files with Java"
+title: "Sign .WEBP files with BARCODE signatures in Java"
 description: "How to add BARCODE Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -82,10 +82,10 @@ steps:
     code: |
         ```java    
         
-        // Set up input WEBP file
-        string filePath = "input.webp";
+        // Set up input  file
+        string filePath = "input.";
         // Set up output file
-        string outputFilePath = "output.webp";
+        string outputFilePath = "output.";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -102,7 +102,7 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign WEBP document
+        // sign  document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```
@@ -114,11 +114,197 @@ demos:
        Sign WEBP file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
           
 
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other supported BARCODE signatures for Java"
-    content: "You can also sign WEBP with other signature types. Please see the list below."
-       
+    title: "Signing Other Document Formats with PZN BARCODE using Java"
+    content: |
+        Java PZN BARCODE signatures management API for documents and images. Add PZN BARCODE signatures to some of the popular file formats as stated below.
+    format: 
+        # format loop
+        - name: "Add e-Signatures to PDF"
+          link: "/signature/net/SIGN/BARCODE/PZN-pdf/"
+          description: "Adobe Portable Document Format"
+
+        # format loop
+        - name: "Add e-Signatures to DOC"
+          link: "/signature/net/SIGN/BARCODE/PZN-doc/"
+          description: "Microsoft Word Document"
+
+        # format loop
+        - name: "Add e-Signatures to DOCX"
+          link: "/signature/net/SIGN/BARCODE/PZN-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "Add e-Signatures to DOCM"
+          link: "/signature/net/SIGN/BARCODE/PZN-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "Add e-Signatures to DOT"
+          link: "/signature/net/SIGN/BARCODE/PZN-dot/"
+          description: "Microsoft Word Document Template"
+
+        # format loop
+        - name: "Add e-Signatures to DOTM"
+          link: "/signature/net/SIGN/BARCODE/PZN-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
+        # format loop
+        - name: "Add e-Signatures to DOTX"
+          link: "/signature/net/SIGN/BARCODE/PZN-dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "Add e-Signatures to ODT"
+          link: "/signature/net/SIGN/BARCODE/PZN-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "Add e-Signatures to OTT"
+          link: "/signature/net/SIGN/BARCODE/PZN-ott/"
+          description: "OpenDocument Text Template"
+
+        # format loop
+        - name: "Add e-Signatures to RTF"
+          link: "/signature/net/SIGN/BARCODE/PZN-rtf/"
+          description: "Rich text format"
+
+        # format loop
+        - name: "Add e-Signatures to XLS"
+          link: "/signature/net/SIGN/BARCODE/PZN-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "Add e-Signatures to XLSX"
+          link: "/signature/net/SIGN/BARCODE/PZN-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "Add e-Signatures to XLSM"
+          link: "/signature/net/SIGN/BARCODE/PZN-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "Add e-Signatures to XLSB"
+          link: "/signature/net/SIGN/BARCODE/PZN-xlsb/"
+          description: "Microsoft Excel Binary Worksheet"
+
+        # format loop
+        - name: "Add e-Signatures to CSV"
+          link: "/signature/net/SIGN/BARCODE/PZN-csv/"
+          description: "Comma-separated values Worksheet"
+
+        # format loop
+        - name: "Add e-Signatures to ODS"
+          link: "/signature/net/SIGN/BARCODE/PZN-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "Add e-Signatures to OTS"
+          link: "/signature/net/SIGN/BARCODE/PZN-ots/"
+          description: "OpenDocument Spreadsheet Template"
+
+        # format loop
+        - name: "Add e-Signatures to XLTX"
+          link: "/signature/net/SIGN/BARCODE/PZN-xltx/"
+          description: "Microsoft Excel template"
+
+        # format loop
+        - name: "Add e-Signatures to XLTM"
+          link: "/signature/net/SIGN/BARCODE/PZN-xltm/"
+          description: "Microsoft Excel macro-enabled template"
+
+        # format loop
+        - name: "Add e-Signatures to PPT"
+          link: "/signature/net/SIGN/BARCODE/PZN-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "Add e-Signatures to PPTX"
+          link: "/signature/net/SIGN/BARCODE/PZN-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "Add e-Signatures to PPS"
+          link: "/signature/net/SIGN/BARCODE/PZN-pps/"
+          description: "Microsoft PowerPoint 97-2003 Slide Show"
+
+        # format loop
+        - name: "Add e-Signatures to PPSX"
+          link: "/signature/net/SIGN/BARCODE/PZN-ppsx/"
+          description: "PowerPoint Open XML Slide Show"                              
+
+        # format loop
+        - name: "Add e-Signatures to ODP"
+          link: "/signature/net/SIGN/BARCODE/PZN-odp/"
+          description: "OpenDocument Presentation"
+
+        # format loop
+        - name: "Add e-Signatures to OTP"
+          link: "/signature/net/SIGN/BARCODE/PZN-otp/"
+          description: "OpenDocument Presentation Template"
+
+        # format loop
+        - name: "Add e-Signatures to POTX"
+          link: "/signature/net/SIGN/BARCODE/PZN-potx/"
+          description: "PowerPoint template presentation" 
+
+        # format loop
+        - name: "Add e-Signatures to POTM"
+          link: "/signature/net/SIGN/BARCODE/PZN-potm/"
+          description: "PowerPoint template with support for Macros" 
+          
+        # format loop
+        - name: "Add e-Signatures to PPTM"
+          link: "/signature/net/SIGN/BARCODE/PZN-pptm/"
+          description: "PowerPoint macro-enabled Presentation" 
+
+        # format loop
+        - name: "Add e-Signatures to PPSM"
+          link: "/signature/net/SIGN/BARCODE/PZN-ppsm/"
+          description: "PowerPoint Macro-enabled Slide Show" 
+
+        # format loop
+        - name: "Add e-Signatures to PNG"
+          link: "/signature/net/SIGN/BARCODE/PZN-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "Add e-Signatures to JPG"
+          link: "/signature/net/SIGN/BARCODE/PZN-jpg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "Add e-Signatures to BMP"
+          link: "/signature/net/SIGN/BARCODE/PZN-bmp/"
+          description: "Bitmap File Format"
+
+        # format loop
+        - name: "Add e-Signatures to GIF"
+          link: "/signature/net/SIGN/BARCODE/PZN-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop
+        - name: "Add e-Signatures to TIFF"
+          link: "/signature/net/SIGN/BARCODE/PZN-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "Add e-Signatures to SVG"
+          link: "/signature/net/SIGN/BARCODE/PZN-svg/"
+          description: "Scalable Vector Graphics"
+
+        # format loop
+        - name: "Add e-Signatures to WEBP"
+          link: "/signature/net/SIGN/BARCODE/PZN-webp/"
+          description: "WebP Image"
+
+        # format loop
+        - name: "Add e-Signatures to WMF"
+          link: "/signature/net/SIGN/BARCODE/PZN-wmf/"
+          description: "Windows Metafile"       
        
 back_to_top:
     enable: true

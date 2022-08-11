@@ -11,7 +11,7 @@
                 QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
                 {
                     // setup QrCode encoding type
-                    EncodeType = QrCodeTypes.<% get "QRCODETYPE" %>,
+                    EncodeType = QrCodeTypes.<% get "Codetype" %>,
 
                     // set signature position
                     Left = 50,

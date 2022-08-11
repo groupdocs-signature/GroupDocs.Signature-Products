@@ -81,7 +81,7 @@ steps:
          
     code: |
         ```<% dict "products.{product}.syntax" %>    
-        <% include "..\\examples\\_sign_{SIGNATURETYPE}_{product}.md" %>
+        <% include "..\\examples\\_sign_{Signaturetype}_{product}.md" %>
         ```
 
 demos:
@@ -91,10 +91,14 @@ demos:
        <% "{demos-sign.content}" %>
           
 
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "<% "{more_formats.title}" %>"
-    content: "<% "{more_formats.content}" %>"
+    title: "Signing Other Document Formats with <% get "Codetype" %> <% get "Signaturetype" %> using <% get "ProgLang" %>"
+    content: |
+        <% get "ProductName" %> <% get "Codetype" %> <% get "Signaturetype" %> signatures management API for documents and images. Add <% get "Codetype" %> <% get "Signaturetype" %> signatures to some of the popular file formats as stated below.
+    format: 
+        <% include "..\\data\\_more_formats_bar_qr.md" %> 
        
        
 back_to_top:

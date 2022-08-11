@@ -1,7 +1,8 @@
 <% configRef "..\\configs\\config_sign_barcode.yml" %>
-<% set "SIGNATURETYPE" (upper (get "signaturetype")) %>
-<% set "BARCODETYPE" (upper (get "barcodetype")) %>
-<% set "FILEFORMAT" (upper (get "fileformat")) %>
+<% set "Operation" (upper (get "operation")) %>
+<% set "Signaturetype" (upper (get "signaturetype")) %>
+<% set "Codetype" (upper (get "barcodetype")) %>
+<% set "Fileformat" (upper (get "fileformat")) %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>
@@ -13,4 +14,4 @@
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.{from}") %>
-<% include "..\\landings\\_sign.md" %>
+<% include "..\\landings\\_sign_barcode.md" %>

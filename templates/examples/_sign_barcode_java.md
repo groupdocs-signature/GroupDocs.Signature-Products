@@ -11,7 +11,7 @@
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.<% get "BARCODETYPE" %>);
+        options.setEncodeType(BarcodeTypes.<% get "Codetype" %>);
 
         // set signature position
         options.setLeft(50);
