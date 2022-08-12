@@ -3,7 +3,7 @@
 layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
 breadcrumb: Create TEXT signature on XLSM for C#
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```csharp    
                 
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input XLSM file
+        string filePath = "input.xlsm";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.xlsm";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
@@ -98,7 +98,7 @@ steps:
                     Top = 200,
                 };
 
-                // sign  document
+                // sign XLSM document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 

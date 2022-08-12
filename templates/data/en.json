@@ -49,5 +49,5 @@
   "more_formats": {
     "title": "Other supported {{Signaturetype}} signatures for {{ProgLang}}",
     "content": "You can also sign {{Fileformat}} with other signature types. Please see the list below."
-  }    
+  }
 }

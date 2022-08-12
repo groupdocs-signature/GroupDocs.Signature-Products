@@ -3,7 +3,7 @@
 layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
 breadcrumb: Create QRCODE signature on XLTM for C#
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```csharp    
                 
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input XLTM file
+        string filePath = "input.xltm";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.xltm";
 
         // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
@@ -103,7 +103,7 @@ steps:
                     Height = 50
                 };
 
-                // sign  document
+                // sign XLTM document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 

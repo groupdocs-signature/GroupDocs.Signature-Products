@@ -3,7 +3,7 @@
 layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
 breadcrumb: Create TEXT signature on POTX for Java
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```java    
                 
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input POTX file
+        string filePath = "input.potx";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.potx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -97,7 +97,7 @@ steps:
         options.setLeft(50);
         options.setTop(50);
 
-        // sign  document
+        // sign POTX document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```

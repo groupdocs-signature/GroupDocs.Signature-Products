@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp
 breadcrumb: Create  BARCODE signature on WMF for C#
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```csharp    
         
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input WMF file
+        string filePath = "input.wmf";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.wmf";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
@@ -103,7 +103,7 @@ steps:
                     Height = 50
                 };
 
-                // sign  document
+                // sign WMF document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 
@@ -114,7 +114,6 @@ demos:
     title: "Signing WMF documents with BARCODE Live Demo"
     content: |
        Sign WMF file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
-          
 
 ############################# More Formats ############################
 more_formats:

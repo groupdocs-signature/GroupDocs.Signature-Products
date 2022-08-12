@@ -1,9 +1,9 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm jpg bmp gif tif tiff svg webp wmf
 breadcrumb: Create  BARCODE signature on PNG for Java
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```java    
         
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input PNG file
+        string filePath = "input.png";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.png";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -102,7 +102,7 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign  document
+        // sign PNG document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```
@@ -112,7 +112,6 @@ demos:
     title: "Signing PNG documents with BARCODE Live Demo"
     content: |
        Sign PNG file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
-          
 
 ############################# More Formats ############################
 more_formats:

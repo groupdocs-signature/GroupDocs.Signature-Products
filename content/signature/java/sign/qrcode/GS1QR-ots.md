@@ -3,7 +3,7 @@
 layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: 
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
 breadcrumb: Create QRCODE signature on OTS for Java
 
 ############################# Head ############################
@@ -82,10 +82,10 @@ steps:
     code: |
         ```java    
                 
-        // Set up input  file
-        string filePath = "input.";
+        // Set up input OTS file
+        string filePath = "input.ots";
         // Set up output file
-        string outputFilePath = "output.";
+        string outputFilePath = "output.ots";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -102,7 +102,7 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign  document
+        // sign OTS document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```

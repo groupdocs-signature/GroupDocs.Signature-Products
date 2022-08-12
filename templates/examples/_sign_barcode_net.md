@@ -1,8 +1,8 @@
 
-        // Set up input <% get "FILEFORMAT" %> file
-        string filePath = "input.<% lower (get "FILEFORMAT") %>";
+        // Set up input <% get "Fileformat" %> file
+        string filePath = "input.<% lower (get "Fileformat") %>";
         // Set up output file
-        string outputFilePath = "output.<% lower (get "FILEFORMAT") %>";
+        string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
@@ -20,6 +20,6 @@
                     Height = 50
                 };
 
-                // sign <% get "FILEFORMAT" %> document
+                // sign <% get "Fileformat" %> document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
