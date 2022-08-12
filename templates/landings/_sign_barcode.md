@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: <% get "OtherFormats" %>
@@ -89,7 +89,6 @@ demos:
     title: "<% "{demos-sign.title}" %>"
     content: |
        <% "{demos-sign.content}" %>
-          
 
 ############################# More Formats ############################
 more_formats:
