@@ -12,7 +12,7 @@ head_title: ".NET 디지털 서명 API – 전자 서명 PDF Word Excel 이미�
 head_description: "C# .NET 디지털 서명 API, PDF, Word, Excel 스프레드시트, PowerPoint, 이미지 및 그래픽 문서 형식에 전자 서명하기 위한 전자 서명 라이브러리."
 
 title: "전자 서명을 위한 기본 .NET API"
-description: "‎문서 형식에 디지털 서명을 추가하고 .NET 응용 프로그램에서 널리 사용되는 전자 서명 유형(텍스트, 이미지, QR 코드, 바코드, 스탬프 및 메타데이터)을 구현합니다.‎"
+description: "문서 형식에 디지털 서명을 추가하고 .NET 응용 프로그램에서 널리 사용되는 전자 서명 유형(텍스트, 이미지, QR 코드, 바코드, 스탬프 및 메타데이터)을 구현합니다."
 button:
     enable: true
 
@@ -77,14 +77,14 @@ overview:
       
       tab_two:
         description: |
-          .NET용 GroupDocs.Signature는 모든 인기 있는 [문서 파일 형식](https://docs.groupdocs.com/signature/net/supported-document-formats/) 보기를 지원합니다. 몇 줄의 코드로 PDF 서명, Microsoft Office Word, Excel 스프레드시트, 이미지, HTML, Outlook 이메일, OneNote, 프로젝트 및 그래픽 보기 기능을 .NET 애플리케이션에 추가할 수 있습니다.‎
+          .NET용 GroupDocs.Signature는 모든 인기 있는 [문서 파일 형식](https://docs.groupdocs.com/signature/net/supported-document-formats/) 보기를 지원합니다. 몇 줄의 코드로 PDF 서명, Microsoft Office Word, Excel 스프레드시트, 이미지, HTML, Outlook 이메일, OneNote, 프로젝트 및 그래픽 보기 기능을 .NET 애플리케이션에 추가할 수 있습니다.
 
         left:
           enable: true
           table:
             - title: "마이크로 소프트 오피스"
               content: |
-                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **엑셀:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **파워포인트:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
 
@@ -104,7 +104,7 @@ overview:
 
       tab_three:
         description: |
-          .NET용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.‎
+          .NET용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.
         
         left:
           enable: true
@@ -242,7 +242,7 @@ features:
     more_feature:
       - title: "손쉬운 디지털 서명 추가"
         content: |
-          .NET API용 GroupDocs.Signature를 사용하면 지원되는 파일 형식에 다양한 유형의 서명을 추가할 수 있습니다. 텍스트, 이미지, 디지털, 스탬프, QR 코드, 바코드 및 메타데이터와 같은 서명 유형은 GroupDocs.Signature for .NET을 사용하여 적용할 수 있습니다. 다음 코드 예제에서는 PDF 문서에 텍스트 서명을 적용하는 방법을 보여줍니다.‎
+          .NET API용 GroupDocs.Signature를 사용하면 지원되는 파일 형식에 다양한 유형의 서명을 추가할 수 있습니다. 텍스트, 이미지, 디지털, 스탬프, QR 코드, 바코드 및 메타데이터와 같은 서명 유형은 GroupDocs.Signature for .NET을 사용하여 적용할 수 있습니다. 다음 코드 예제에서는 PDF 문서에 텍스트 서명을 적용하는 방법을 보여줍니다.
 
           ```cs
           using (Signature signature = new Signature("D:\\sample.pdf"))
@@ -257,7 +257,7 @@ features:
           }
           ```
       - title: "지원되는 바코드 서명 유형"
-        content: "서명 조작 API는 지원되는 문서 형식에 바코드 서명을 적용하는 기능을 제공합니다. .NET용 GroupDocs.Signature는 Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA 및 UPCE와 같은 다양한 바코드 유형을 지원합니다. 등록된 모든 바코드 유형을 지원하기 위해 AllTypes 라는 정적 개체도 제공됩니다.‎"
+        content: "서명 조작 API는 지원되는 문서 형식에 바코드 서명을 적용하는 기능을 제공합니다. .NET용 GroupDocs.Signature는 Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA 및 UPCE와 같은 다양한 바코드 유형을 지원합니다. 등록된 모든 바코드 유형을 지원하기 위해 AllTypes 라는 정적 개체도 제공됩니다."
 
       - title: "서명 및 인증서 검색"
         content: |
