@@ -15,7 +15,7 @@ head_description: "C# .NET digital signature API, eSignature library to electron
 
 ############################# Header ############################
 title: "Native .NET API for Electronic Signatures"
-description: "‎Add Digital Signatures to Document Formats & Implement popular eSignature Types (Text, Image, QR-Code, Barcode, Stamp, & Metadata) in .NET Applications.‎"
+description: "Add Digital Signatures to Document Formats & Implement popular eSignature Types (Text, Image, QR-Code, Barcode, Stamp, & Metadata) in .NET Applications."
 button:
     enable: true
 
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature for .NET supports viewing all popular [document file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/). With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.‎
+          GroupDocs.Signature for .NET supports viewing all popular [document file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/). With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.
 
         left:
           enable: true
@@ -97,7 +97,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
 
@@ -119,7 +119,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Signature for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Signature for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -293,7 +293,7 @@ features:
       # more_feature_loop
       - title: "Easily Add Digital Signatures"
         content: |
-          GroupDocs.Signature for .NET API allows you to add various types of signatures to supported file formats. The signature types, such as Text, Image, Digital, Stamp, QR-Code, Barcode, and Metadata can be applied using GroupDocs.Signature for .NET. Following code example shows how to apply text signature to a PDF document:‎
+          GroupDocs.Signature for .NET API allows you to add various types of signatures to supported file formats. The signature types, such as Text, Image, Digital, Stamp, QR-Code, Barcode, and Metadata can be applied using GroupDocs.Signature for .NET. Following code example shows how to apply text signature to a PDF document:
 
           ```cs
           using (Signature signature = new Signature("D:\\sample.pdf"))
@@ -309,7 +309,7 @@ features:
           ```
       # more_feature_loop
       - title: "Supported Barcode Signature Types"
-        content: "Our signature manipulation API offers you feature to apply barcode signatures to supported document formats. GroupDocs.Signature for .NET supports various barcode types, such as, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA, and UPCE. A static object named “AllTypes” is also provided to support all registered barcode types.‎"
+        content: "Our signature manipulation API offers you feature to apply barcode signatures to supported document formats. GroupDocs.Signature for .NET supports various barcode types, such as, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA, and UPCE. A static object named “AllTypes” is also provided to support all registered barcode types."
 
       # more_feature_loop
       - title: "Search Signatures & Certificates"

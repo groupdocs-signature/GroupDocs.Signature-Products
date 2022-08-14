@@ -15,7 +15,7 @@ head_description: "Java digital signature API. Electronic signature library to d
 
 ############################# Header ############################
 title: "Java API to Manage Digital Signatures"
-description: "‎Manage eSignature of Image, QR-Code, Barcode, Metadata, Text & Stamp Types in Java Applications for Signing Images & Digital Document File Formats.‎"
+description: "Manage eSignature of Image, QR-Code, Barcode, Metadata, Text & Stamp Types in Java Applications for Signing Images & Digital Document File Formats."
 button:
     enable: true
 
@@ -97,7 +97,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
 
@@ -119,7 +119,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Signature for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Signature for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -191,7 +191,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Sign Word Processing Document Formats with Native Text Watermarks‎"
+        content: "Sign Word Processing Document Formats with Native Text Watermarks"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -273,7 +273,7 @@ features:
       # more_feature_loop
       - title: "Easily Configure & Apply eSignatures"
         content: |
-          GroupDocs.Signature for Java API enables to configure and add eSignatures to supported document formats. Following is a code example that shows how simple it is to apply a text signature to a PDF file:‎
+          GroupDocs.Signature for Java API enables to configure and add eSignatures to supported document formats. Following is a code example that shows how simple it is to apply a text signature to a PDF file:
           
           ```java
           Signature signature = new Signature("sample.pdf");
@@ -308,7 +308,7 @@ features:
       # more_feature_loop
       - title: "Search Signatures & Certificates"
         content: |
-          Through GroupDocs.Signature for Java API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search result. You can also search custom data object from documents signed with QR-Code Signature as well as Search Standard VCard and Email Object from Documents Signed with QR-Code. Verifying encrypted text of QR-Code signatures as well as searching for metadata signature in PDF ‎documents is also supported. Apply additional search criteria for digital signatures of Words & Cells ‎Documents.  
+          Through GroupDocs.Signature for Java API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search result. You can also search custom data object from documents signed with QR-Code Signature as well as Search Standard VCard and Email Object from Documents Signed with QR-Code. Verifying encrypted text of QR-Code signatures as well as searching for metadata signature in PDF documents is also supported. Apply additional search criteria for digital signatures of Words & Cells Documents.  
 
           Search option is also avaialble for metadata signature for word documents, slides and spreadsheets, while form-field search is avaialble for PDF documents.
 
