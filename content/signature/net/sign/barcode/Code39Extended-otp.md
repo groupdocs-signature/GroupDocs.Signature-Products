@@ -1,6 +1,6 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-signature"
+layout: "auto-gen"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
