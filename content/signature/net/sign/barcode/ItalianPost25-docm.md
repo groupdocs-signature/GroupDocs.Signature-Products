@@ -1,9 +1,14 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: pdf doc docx dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tif tiff svg webp wmf
+operation: SIGN
+signaturetype: BARCODE
+codetype: ITALIANPOST25
+fileformat: DOCM
+productName: .NET
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
 breadcrumb: Create  BARCODE signature on DOCM for C#
 
 ############################# Head ############################

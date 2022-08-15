@@ -1,8 +1,13 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
+operation: <% get "Operation" %>
+signaturetype: <% get "Signaturetype" %>
+codetype: <% get "Codetype" %>
+fileformat: <% get "Fileformat" %>
+productName: <% get "ProductName" %>
 otherformats: <% get "OtherFormats" %>
 breadcrumb: Create <% get "Barcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
