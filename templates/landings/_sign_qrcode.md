@@ -90,6 +90,18 @@ demos:
     content: |
        <% "{demos-sign.content}" %>
           
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode-{Codetype}"
+          title: <% "{qrcode-info.title}" %>
+          content: |
+            <% "{qrcode-info.description1}" %>
+            <% "{qrcode-info.description2}" %>  
+          link: ""
+
 
 ############################# More Formats ############################
 more_formats:

@@ -49,5 +49,10 @@
   "more_formats": {
     "title": "Other supported {{Signaturetype}} signatures for {{ProgLang}}",
     "content": "You can also sign {{Fileformat}} with other signature types. Please see the list below."
-  }    
+  },
+  "qrcode-info": {
+    "title": "About {{Codetype}} QR Code",
+    "description1": "The QR Code is very popular due to its fast readability and greater storage capacity compared to standard barcodes. Applications include product tracking, item identification, time tracking, document management, and general marketing.",
+    "description2": "The {{Codetype}} code lets you create a unique content to use over social media, business contracts and official documents to share some information."
+  }
 }
