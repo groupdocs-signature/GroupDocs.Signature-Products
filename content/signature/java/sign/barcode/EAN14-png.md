@@ -3,21 +3,21 @@
 layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-operation: SIGN
-signaturetype: BARCODE
-codetype: EAN14
-fileformat: PNG
+operation: Sign
+signaturetype: Barcode
+codetype: E A N14
+fileformat: Png
 productName: Java
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create  BARCODE signature on PNG for Java
+breadcrumb: Put  Barcode signature on Png for Java
 
 ############################# Head ############################
-head_title: "Adding BARCODE signatures in a PNG file with Java"
-head_description: "Put BARCODE Signature on PNG file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Barcode signatures in a Png file with Java"
+head_description: "Put Barcode Signature on Png file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .PNG files with BARCODE signatures in Java"
-description: "How to add BARCODE Signature with a few lines of Java code"
+title: "Sign .Png files with Barcode signatures in Java"
+description: "How to add Barcode Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your PNG files with BARCODE signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put BARCODE on PNG file in a very convenient way and for free. Besides that it is possible to sign PNG files using advanced BARCODE options. 
+        Sign your Png files with Barcode signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Barcode on Png file in a very convenient way and for free. Besides that it is possible to sign Png files using advanced Barcode options. 
         
-        There are a lot of options features to sign PNG which you may use for your purposes:
+        There are a lot of options features to sign Png which you may use for your purposes:
 
-        * BARCODE position on the page can be set up as absolutely as relatively;;
-        * One BARCODE signature may be placed on specified pages of multi-page documents;;
+        * Barcode position on the page can be set up as absolutely as relatively;;
+        * One Barcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed PNG file:
+        There are also saving options for signed Png file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing PNG files with BARCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Png files with Barcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign PNG with BARCODE in Java"
+    title_left: "Steps to sign Png with Barcode in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign PNG documents with BARCODE signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Png documents with Barcode signatures quick and easily.
         
-        * Create an instance of Signature class providing PNG file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Png file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output PNG file or memory stream
+        * Invoke the Signature.Sign passing output Png file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -87,7 +87,7 @@ steps:
     code: |
         ```java    
         
-        // Set up input PNG file
+        // Set up input Png file
         string filePath = "input.png";
         // Set up output file
         string outputFilePath = "output.png";
@@ -99,7 +99,7 @@ steps:
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.EAN14);
+        options.setEncodeType(BarcodeTypes.E A N14);
 
         // set signature position
         options.setLeft(50);
@@ -107,208 +107,51 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign PNG document
+        // sign Png document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```
 
 demos:
     enable: true
-    title: "Signing PNG documents with BARCODE Live Demo"
+    title: "Signing Png documents with Barcode Live Demo"
     content: |
-       Sign PNG file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+       Sign Png file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
+    content: |
+        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
+        The live demo has the following benefits
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About E A N14 Barcode"
+          content: |
+            European Article Number or EAN is a standard describing a barcode symbology and numbering system used in global trade to identify a specific retail product type, in a specific packaging configuration, from a specific manufacturer.
+          characterset: |
+             Numeric digits (0-9) and special characters.
+          textcapacity: |
+             Exactly 14 numeric digits.
+          image: |
+             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
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with EAN14 BARCODE using Java"
+    title: "Signing Other Document Formats with E A N14 Barcode using Java"
     content: |
-        Java EAN14 BARCODE signatures management API for documents and images. Add EAN14 BARCODE signatures to some of the popular file formats as stated below.
+        Java E A N14 Barcode signatures management API for documents and images. Add E A N14 Barcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/BARCODE/EAN14-pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/BARCODE/EAN14-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/BARCODE/EAN14-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/BARCODE/EAN14-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/BARCODE/EAN14-rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/BARCODE/EAN14-csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/BARCODE/EAN14-pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/BARCODE/EAN14-odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/BARCODE/EAN14-otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/BARCODE/EAN14-potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/BARCODE/EAN14-ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/BARCODE/EAN14-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/BARCODE/EAN14-jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/BARCODE/EAN14-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/BARCODE/EAN14-gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/BARCODE/EAN14-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/BARCODE/EAN14-svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/BARCODE/EAN14-webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/BARCODE/EAN14-wmf/"
-          description: "Windows Metafile"       
+           
        
 back_to_top:
     enable: true

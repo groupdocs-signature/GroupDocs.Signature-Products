@@ -6,11 +6,11 @@ dimensions:
 - alias:  signaturetype
   values: [barcode]
 - alias:  barcodetype
-  values: [AustralianPosteParcel, AustralianPost, Codabar, CodablockF, Code11, Code128, Code16K, Code32, Code39Standard, Code39Extended, Code93Extended, Code93Standard, DeutschePostIdentcode, DeutschePostLeitcode, DotCode, DutchKIX, EAN8, EAN13, EAN14,GS1CodablockF, GS1Code128,IATA2of5, Interleaved2of5, ISBN, ISMN, ISSN, ItalianPost25, ITF14, ITF6,MacroPdf417, Mailmark, Matrix2of5, MaxiCode, MicroPdf417, MSI, OneCode, OPC,PatchCode, Pdf417, Pharmacode, Planet, Postnet, PZN,RM4SCC,SCC14,SingaporePost,SSCC18,Standard2of5,SwissPostParcel,UPCA, UpcaGs1Code128Coupon,UpcaGs1DatabarCoupon, UPCE, VIN]
+  values: [UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14, Pdf417, Interleaved2of5, Pharmacode]
 - alias:  fileformat
   values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpeg, bmp, gif, tiff, svg, webp, wmf]
 
-dictionaries: ["..\\data\\otherformats.json"]
+dictionaries: ["..\\data\\otherformats.json", "..\\data\\barcodeimages.json"]
 
 generationRules:
   include:

@@ -3,21 +3,21 @@
 layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-operation: SIGN
-signaturetype: BARCODE
-codetype: POSTNET
-fileformat: DOT
+operation: Sign
+signaturetype: Barcode
+codetype: Postnet
+fileformat: Dot
 productName: .NET
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create  BARCODE signature on DOT for C#
+breadcrumb: Put  Barcode signature on Dot for C#
 
 ############################# Head ############################
-head_title: "Adding BARCODE signatures in a DOT file with C#"
-head_description: "Put BARCODE Signature on DOT file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Barcode signatures in a Dot file with C#"
+head_description: "Put Barcode Signature on Dot file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .DOT files with BARCODE signatures in C#"
-description: "How to add BARCODE Signature with a few lines of .NET code"
+title: "Sign .Dot files with Barcode signatures in C#"
+description: "How to add Barcode Signature with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your DOT files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put BARCODE on DOT file in a very convenient way and for free. Besides that it is possible to sign DOT files using advanced BARCODE options. 
+        Sign your Dot files with Barcode signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Barcode on Dot file in a very convenient way and for free. Besides that it is possible to sign Dot files using advanced Barcode options. 
         
-        There are a lot of options features to sign DOT which you may use for your purposes:
+        There are a lot of options features to sign Dot which you may use for your purposes:
 
-        * BARCODE position on the page can be set up as absolutely as relatively;;
-        * One BARCODE signature may be placed on specified pages of multi-page documents;;
+        * Barcode position on the page can be set up as absolutely as relatively;;
+        * One Barcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed DOT file:
+        There are also saving options for signed Dot file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing DOT files with BARCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Dot files with Barcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign DOT with BARCODE in C#"
+    title_left: "Steps to sign Dot with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign DOT documents with BARCODE signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Dot documents with Barcode signatures quick and easily.
         
-        * Create an instance of Signature class providing DOT file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Dot file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output DOT file or memory stream
+        * Invoke the Signature.Sign passing output Dot file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -87,7 +87,7 @@ steps:
     code: |
         ```csharp    
         
-        // Set up input DOT file
+        // Set up input Dot file
         string filePath = "input.dot";
         // Set up output file
         string outputFilePath = "output.dot";
@@ -99,7 +99,7 @@ steps:
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.POSTNET,
+                    EncodeType = BarcodeTypes.Postnet,
 
                     // set signature position
                     Left = 50,
@@ -108,7 +108,7 @@ steps:
                     Height = 50
                 };
 
-                // sign DOT document
+                // sign Dot document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 
@@ -116,201 +116,44 @@ steps:
 
 demos:
     enable: true
-    title: "Signing DOT documents with BARCODE Live Demo"
+    title: "Signing Dot documents with Barcode Live Demo"
     content: |
-       Sign DOT file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+       Sign Dot file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
+    content: |
+        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
+        The live demo has the following benefits
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About Postnet Barcode"
+          content: |
+            POSTNET (Postal Numeric Encoding Technique) is a barcode symbology used by the United States Postal Service to assist in directing mail.
+          characterset: |
+             Numeric digits (0-9).
+          textcapacity: |
+             Up to 11 characters.
+          image: |
+             iVBORw0KGgoAAAANSUhEUgAAACcAAAAjCAYAAAAXMhMjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVFhH7c7BCkMxEELR/P9Pp1LoRrCXpi4Cbw5kIRKZtS82x52a407Ncae+HrfWer8Pyr+i/3NcQv/nuIT+z3EJ/X/Ocf9mlxuhsXZ2uREaa2eXG6Gxdna5ERprZ5cbobF2drkRGmtnlxuhsXZ2uREaa2eXG6Gxdna5ERprZ5cbobF2drkRGmtnlxuhsXZ2ubnAHHdqjjt18XF7vwDevzbHqsQWPwAAAABJRU5ErkJggg==
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with POSTNET BARCODE using C#"
+    title: "Signing Other Document Formats with Postnet Barcode using C#"
     content: |
-        .NET POSTNET BARCODE signatures management API for documents and images. Add POSTNET BARCODE signatures to some of the popular file formats as stated below.
+        .NET Postnet Barcode signatures management API for documents and images. Add Postnet Barcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/BARCODE/POSTNET-wmf/"
-          description: "Windows Metafile"       
+           
        
 back_to_top:
     enable: true

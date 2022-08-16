@@ -3,21 +3,21 @@
 layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-operation: SIGN
-signaturetype: BARCODE
-codetype: ITF14
-fileformat: DOCX
+operation: Sign
+signaturetype: Barcode
+codetype: I T F14
+fileformat: Docx
 productName: .NET
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create  BARCODE signature on DOCX for C#
+breadcrumb: Put  Barcode signature on Docx for C#
 
 ############################# Head ############################
-head_title: "Adding BARCODE signatures in a DOCX file with C#"
-head_description: "Put BARCODE Signature on DOCX file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Barcode signatures in a Docx file with C#"
+head_description: "Put Barcode Signature on Docx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .DOCX files with BARCODE signatures in C#"
-description: "How to add BARCODE Signature with a few lines of .NET code"
+title: "Sign .Docx files with Barcode signatures in C#"
+description: "How to add Barcode Signature with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your DOCX files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put BARCODE on DOCX file in a very convenient way and for free. Besides that it is possible to sign DOCX files using advanced BARCODE options. 
+        Sign your Docx files with Barcode signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Barcode on Docx file in a very convenient way and for free. Besides that it is possible to sign Docx files using advanced Barcode options. 
         
-        There are a lot of options features to sign DOCX which you may use for your purposes:
+        There are a lot of options features to sign Docx which you may use for your purposes:
 
-        * BARCODE position on the page can be set up as absolutely as relatively;;
-        * One BARCODE signature may be placed on specified pages of multi-page documents;;
+        * Barcode position on the page can be set up as absolutely as relatively;;
+        * One Barcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed DOCX file:
+        There are also saving options for signed Docx file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing DOCX files with BARCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Docx files with Barcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign DOCX with BARCODE in C#"
+    title_left: "Steps to sign Docx with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign DOCX documents with BARCODE signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Docx documents with Barcode signatures quick and easily.
         
-        * Create an instance of Signature class providing DOCX file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Docx file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output DOCX file or memory stream
+        * Invoke the Signature.Sign passing output Docx file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -87,7 +87,7 @@ steps:
     code: |
         ```csharp    
         
-        // Set up input DOCX file
+        // Set up input Docx file
         string filePath = "input.docx";
         // Set up output file
         string outputFilePath = "output.docx";
@@ -99,7 +99,7 @@ steps:
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.ITF14,
+                    EncodeType = BarcodeTypes.I T F14,
 
                     // set signature position
                     Left = 50,
@@ -108,7 +108,7 @@ steps:
                     Height = 50
                 };
 
-                // sign DOCX document
+                // sign Docx document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 
@@ -116,201 +116,44 @@ steps:
 
 demos:
     enable: true
-    title: "Signing DOCX documents with BARCODE Live Demo"
+    title: "Signing Docx documents with Barcode Live Demo"
     content: |
-       Sign DOCX file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+       Sign Docx file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
+    content: |
+        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
+        The live demo has the following benefits
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About I T F14 Barcode"
+          content: |
+            ITF-14 is the GS1 implementation of an Interleaved 2 of 5 (ITF) bar code to encode a Global Trade Item Number.
+          characterset: |
+             Numeric digits (0-9).
+          textcapacity: |
+             13 digits + 1 check digit.
+          image: |
+             iVBORw0KGgoAAAANSUhEUgAAAnkAAACGCAYAAAChUpxEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABkPSURBVHhe7ZZBqgU3EANz/0snszZ6KgoaE3+6oFZCogdv5p9/l2VZlmVZlj/H/uQty7Isy7L8QfYnb1mWZVmW5Q+yP3nLsizLsix/kP3JW5ZlWZZl+YPsT96yLMuyLMsfZH/ylmVZlmVZ/iD1J++ff/5Z13Vd13Vd/8f+Yn/y1nVd13VdH/YX+5O3ruu6ruv6sL/Yn7x1Xdd1XdeH/cX+5K3ruq7ruj7sL/Ynb13XdV3X9WF/sT9567qu67quD/uL/clb13Vd13V92F/sT966ruu6ruvD/mJ/8tZ1Xdd1XR/2F/uTt67ruq7r+rC/2J+8dV3XdV3Xh/3F/uSt67qu67o+7C/2J29d13Vd1/Vhf7E/eeu6ruu6rg/7i/3JW9d1Xdd1fdhf7E/euq7ruq7rw/5if/LWdV3XdV0f9hf1J+//Dn3k7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL/Cu5d/0CPczklL2mhaqD+dk5a00bRQfzonLWmjaaH+dE5a0kbTQv3pnLSkjaaF+tM5aUkbTQv1p3PSkjaaFuqfOXlC+Su8e/kHPcLtnLSkjaaF+tM5aUkbTQv1p3PSkjaaFupP56QlbTQt1J/OSUvaaFqoP52TlrTRtFB/OictaaNpof6ZkyeUv8K7l3/QI9zOSUvaaFqoP52TlrTRtFB/OictaaNpof50TlrSRtNC/emctKSNpoX60zlpSRtNC/Wnc9KSNpoW6p85eUL5K7x7+Qc9wu2ctKSNpoX60zlpSRtNC/Wnc9KSNpoW6k/npCVtNC3Un85JS9poWqg/nZOWtNG0UH86Jy1po2mh/pmTJ5S/wruXf9Aj3M5JS9poWqg/nZOWtNG0UH86Jy1po2mh/nROWtJG00L96Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqnzl5QvkrvHv5Bz3C7Zy0pI2mhfrTOWlJG00L9adz0pI2mhbqT+ekJW00LdSfzklL2mhaqD+dk5a00bRQfzonLWmjaaH+mZMnlL9Cvfz8yHVd13Vd1/X/5S/2J29d13Vd1/Vhf7E/eeu6ruu6rg/7i/3JW9d1Xdd1fdhf7E/euq7ruq7rw/5if/LWdV3XdV0f9hf7k7eu67qu6/qwv9ifvHVd13Vd14f9xf7kreu6ruu6Puwv9idvXdd1Xdf1YX+xP3nruq7ruq4P+4v9yVvXdV3XdX3YX+xP3rqu67qu68P+Yn/y1nVd13VdH/YX+5O3ruu6ruv6sL/Yn7x1Xdd1XdeH/cX+5K3ruq7ruj7sL/Ynb13XdV3X9WF/UX/ylmVZlmVZljfZn7xlWZZlWZY/yP7kLcuyLMuy/EH2J29ZlmVZluUPsj95y7Isy7Isf5D9yVuWZVmWZflz/PvvfyG+9SQtwMuiAAAAAElFTkSuQmCC
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with ITF14 BARCODE using C#"
+    title: "Signing Other Document Formats with I T F14 Barcode using C#"
     content: |
-        .NET ITF14 BARCODE signatures management API for documents and images. Add ITF14 BARCODE signatures to some of the popular file formats as stated below.
+        .NET I T F14 Barcode signatures management API for documents and images. Add I T F14 Barcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/BARCODE/ITF14-pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/BARCODE/ITF14-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/BARCODE/ITF14-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/BARCODE/ITF14-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/BARCODE/ITF14-rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/BARCODE/ITF14-csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/BARCODE/ITF14-pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/BARCODE/ITF14-odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/BARCODE/ITF14-otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/BARCODE/ITF14-potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/BARCODE/ITF14-ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/BARCODE/ITF14-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/BARCODE/ITF14-jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/BARCODE/ITF14-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/BARCODE/ITF14-gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/BARCODE/ITF14-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/BARCODE/ITF14-svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/BARCODE/ITF14-webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/BARCODE/ITF14-wmf/"
-          description: "Windows Metafile"       
+           
        
 back_to_top:
     enable: true

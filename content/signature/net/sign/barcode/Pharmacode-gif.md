@@ -3,21 +3,21 @@
 layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
-operation: SIGN
-signaturetype: BARCODE
-codetype: PHARMACODE
-fileformat: GIF
+operation: Sign
+signaturetype: Barcode
+codetype: Pharmacode
+fileformat: Gif
 productName: .NET
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create  BARCODE signature on GIF for C#
+breadcrumb: Put  Barcode signature on Gif for C#
 
 ############################# Head ############################
-head_title: "Adding BARCODE signatures in a GIF file with C#"
-head_description: "Put BARCODE Signature on GIF file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Barcode signatures in a Gif file with C#"
+head_description: "Put Barcode Signature on Gif file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .GIF files with BARCODE signatures in C#"
-description: "How to add BARCODE Signature with a few lines of .NET code"
+title: "Sign .Gif files with Barcode signatures in C#"
+description: "How to add Barcode Signature with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your GIF files with BARCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put BARCODE on GIF file in a very convenient way and for free. Besides that it is possible to sign GIF files using advanced BARCODE options. 
+        Sign your Gif files with Barcode signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Barcode on Gif file in a very convenient way and for free. Besides that it is possible to sign Gif files using advanced Barcode options. 
         
-        There are a lot of options features to sign GIF which you may use for your purposes:
+        There are a lot of options features to sign Gif which you may use for your purposes:
 
-        * BARCODE position on the page can be set up as absolutely as relatively;;
-        * One BARCODE signature may be placed on specified pages of multi-page documents;;
+        * Barcode position on the page can be set up as absolutely as relatively;;
+        * One Barcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed GIF file:
+        There are also saving options for signed Gif file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing GIF files with BARCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Gif files with Barcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign GIF with BARCODE in C#"
+    title_left: "Steps to sign Gif with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign GIF documents with BARCODE signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Gif documents with Barcode signatures quick and easily.
         
-        * Create an instance of Signature class providing GIF file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Gif file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output GIF file or memory stream
+        * Invoke the Signature.Sign passing output Gif file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -87,7 +87,7 @@ steps:
     code: |
         ```csharp    
         
-        // Set up input GIF file
+        // Set up input Gif file
         string filePath = "input.gif";
         // Set up output file
         string outputFilePath = "output.gif";
@@ -99,7 +99,7 @@ steps:
                 BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
                 {
                     // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.PHARMACODE,
+                    EncodeType = BarcodeTypes.Pharmacode,
 
                     // set signature position
                     Left = 50,
@@ -108,7 +108,7 @@ steps:
                     Height = 50
                 };
 
-                // sign GIF document
+                // sign Gif document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 
@@ -116,201 +116,44 @@ steps:
 
 demos:
     enable: true
-    title: "Signing GIF documents with BARCODE Live Demo"
+    title: "Signing Gif documents with Barcode Live Demo"
     content: |
-       Sign GIF file with BARCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+       Sign Gif file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
+    content: |
+        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
+        The live demo has the following benefits
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About Pharmacode Barcode"
+          content: |
+            Pharmacode, also known as Pharmaceutical Binary Code, is a barcode standard, used in the pharmaceutical industry as a packing control system.
+          characterset: |
+             Numeric digits (0-9).
+          textcapacity: |
+             Represents only a single integer from 3 to 131070.
+          image: |
+             iVBORw0KGgoAAAANSUhEUgAAAIEAAAAkCAYAAACucVkNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIQSURBVHhe7dIxigQxEATB/f+n91RuUH2GEMhYBaRTasaaz/f5ee8neN5P8Lyf4FneT/C8n+B5P8Gz/PsTfD6fmtpNUrtJOr2bdnfT7d0m88vSPpTUbpLaTdLp3bS7m27vNplflvahpHaT1G6STu+m3d10e7fJ/LK0DyW1m6R2k3R6N+3uptu7TeaXpX0oqd0ktZuk07tpdzfd3m0yvyztQ0ntJqndJJ3eTbu76fZuk/llaR9KajdJ7Sbp9G7a3U23d5vML0v7UFK7SWo3Sad30+5uur3bZH5Z2oeS2k1Su0k6vZt2d9Pt3Sbzy9I+lNRuktpN0undtLubbu82mV+W9qGkdpPUbpJO76bd3XR7t8n8srQPJbWbpHaTdHo37e6m27tN5pelfSip3SS1m6TTu2l3N93ebTK/LO1DSe0mqd0knd5Nu7vp9m6T+WVpH0pqN0ntJun0btrdTbd3m8wvS/tQUrtJajdJp3fT7m66vdtkflnah5LaTVK7STq9m3Z30+3dJvPL0j6U1G6S2k3S6d20u5tu7zaZX5b2oaR2k9Rukk7vpt3ddHu3yfyytA8ltZukdpN0ejft7qbbu03ml6V9KKndJLWbpNO7aXc33d5tMr8s7UNJ7Sap3SSd3k27u+n2bpP5ZWkfSmo3Se0m6fRu2t1Nt3ebzC/Pz3g/wfN+guf9BM/yfoLn/QTP9/sHDRdB4BliyZUAAAAASUVORK5CYII=
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with PHARMACODE BARCODE using C#"
+    title: "Signing Other Document Formats with Pharmacode Barcode using C#"
     content: |
-        .NET PHARMACODE BARCODE signatures management API for documents and images. Add PHARMACODE BARCODE signatures to some of the popular file formats as stated below.
+        .NET Pharmacode Barcode signatures management API for documents and images. Add Pharmacode Barcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/BARCODE/PHARMACODE-wmf/"
-          description: "Windows Metafile"       
+           
        
 back_to_top:
     enable: true

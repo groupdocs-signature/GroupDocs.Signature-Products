@@ -9,7 +9,7 @@ codetype: <% get "Codetype" %>
 fileformat: <% get "Fileformat" %>
 productName: <% get "ProductName" %>
 otherformats: <% get "OtherFormats" %>
-breadcrumb: Create <% get "Barcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
+breadcrumb: Put <% get "Barcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
 head_title: "<% "{content-sign.meta_title}" %>"
@@ -95,6 +95,32 @@ demos:
     content: |
        <% "{demos-sign.content}" %>
 
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
+    content: |
+        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
+        The live demo has the following benefits
+        
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About <% get "Codetype" %> Barcode"
+          content: |
+            <% get "CodeDetails" %>
+          characterset: |
+             <% get "CodeCharacterSet" %>
+          textcapacity: |
+             <% get "CodeTextCapacity" %>
+          image: |
+             <% get "CodeImage" %>
+
+          link: ""
+
 ############################# More Formats ############################
 more_formats:
     enable: true
@@ -102,7 +128,7 @@ more_formats:
     content: |
         <% get "ProductName" %> <% get "Codetype" %> <% get "Signaturetype" %> signatures management API for documents and images. Add <% get "Codetype" %> <% get "Signaturetype" %> signatures to some of the popular file formats as stated below.
     format: 
-        <% include "..\\data\\_more_formats_bar_qr.md" %>     
+           
        
 back_to_top:
     enable: true
