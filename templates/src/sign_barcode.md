@@ -13,5 +13,5 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.{from}") %>
+<% set "OtherFormats" (dict "otherformats.barcode") %>
 <% include "..\\landings\\_sign_barcode.md" %>

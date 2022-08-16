@@ -12,7 +12,7 @@ head_title: "Java 디지털 서명 API, PDF Word Excel 이미지에 전자 서�
 head_description: "자바 디지털 서명 API. PDF, Microsoft Word, Excel 스프레드시트, PowerPoint 프레젠테이션 및 이미지 문서 형식에 디지털 서명을 하는 전자 서명 라이브러리."
 
 title: "디지털 서명을 관리하는 Java API"
-description: "‎이미지 및 디지털 문서 파일 형식 서명을 위한 Java 애플리케이션에서 이미지, QR 코드, 바코드, 메타데이터, 텍스트 및 스탬프 유형의 전자 서명을 관리합니다.‎"
+description: "이미지 및 디지털 문서 파일 형식 서명을 위한 Java 애플리케이션에서 이미지, QR 코드, 바코드, 메타데이터, 텍스트 및 스탬프 유형의 전자 서명을 관리합니다."
 button:
     enable: true
 
@@ -84,7 +84,7 @@ overview:
           table:
             - title: "마이크로 소프트 오피스"
               content: |
-                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **엑셀:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **파워포인트:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
 
@@ -104,7 +104,7 @@ overview:
 
       tab_three:
         description: |
-          Java용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 ‎관리자:‎를 지원합니다.
+          Java용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 관리자:를 지원합니다.
         
         left:
           enable: true
@@ -163,7 +163,7 @@ features:
         content: "인증서 검색 및 디지털 인증서로 Microsoft Word, Excel 및 PDF 문서 서명"
 
       - icon: "fas fa-comment-slash"
-        content: "기본 텍스트 워터마크로 워드 프로세싱 문서 형식에 서명‎"
+        content: "기본 텍스트 워터마크로 워드 프로세싱 문서 형식에 서명"
 
       - icon: "fas fa-location-arrow"
         content: "QR 코드, 바코드를 사용하여 Word, Slide, Cell, PDF 및 이미지 파일에 서명"
@@ -225,7 +225,7 @@ features:
     more_feature:
       - title: "손쉬운 전자 서명 구성 및 적용"
         content: |
-          Java API용 GroupDocs.Signature를 사용하면 지원되는 문서 형식에 전자 서명을 구성하고 추가할 수 있습니다. 다음은 PDF 파일에 텍스트 서명을 적용하는 것이 얼마나 간단한지 보여주는 코드 예입니다.‎
+          Java API용 GroupDocs.Signature를 사용하면 지원되는 문서 형식에 전자 서명을 구성하고 추가할 수 있습니다. 다음은 PDF 파일에 텍스트 서명을 적용하는 것이 얼마나 간단한지 보여주는 코드 예입니다.
           
           ```java
           Signature signature = new Signature("sample.pdf");
@@ -258,7 +258,7 @@ features:
 
       - title: "서명 및 인증서 검색"
         content: |
-          GroupDocs.Signature for Java API를 통해 모든 문서, 프레젠테이션, 스프레드시트, 이미지 및 PDF 파일에서 QR-Code 및 Barcode 서명을 검색하고 검색 결과를 가져올 수 있습니다. 또한 QR-Code 서명으로 서명된 문서에서 사용자 정의 데이터 개체를 검색할 수 있을 뿐만 아니라 QR-Code로 서명된 문서에서 표준 VCard 및 이메일 개체를 검색할 수 있습니다. QR 코드 서명의 암호화된 텍스트를 확인하고 PDF ‎문서에서 메타데이터 서명을 검색하는 것도 지원됩니다. Words & Cells ‎Documents의 디지털 서명에 대한 추가 검색 기준을 적용합니다.  
+          GroupDocs.Signature for Java API를 통해 모든 문서, 프레젠테이션, 스프레드시트, 이미지 및 PDF 파일에서 QR-Code 및 Barcode 서명을 검색하고 검색 결과를 가져올 수 있습니다. 또한 QR-Code 서명으로 서명된 문서에서 사용자 정의 데이터 개체를 검색할 수 있을 뿐만 아니라 QR-Code로 서명된 문서에서 표준 VCard 및 이메일 개체를 검색할 수 있습니다. QR 코드 서명의 암호화된 텍스트를 확인하고 PDF 문서에서 메타데이터 서명을 검색하는 것도 지원됩니다. Words & Cells Documents의 디지털 서명에 대한 추가 검색 기준을 적용합니다.  
 
           검색 옵션은 워드 문서, 슬라이드 및 스프레드시트의 메타데이터 서명에도 사용할 수 있으며 양식 필드 검색은 PDF 문서에 사용할 수 있습니다.
 
