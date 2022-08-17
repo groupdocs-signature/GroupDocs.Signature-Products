@@ -120,6 +120,31 @@
       "details": "Pharmacode, also known as Pharmaceutical Binary Code, is a barcode standard, used in the pharmaceutical industry as a packing control system.",
       "characterset": "Numeric digits (0-9).",
       "codetextcapacity": "Represents only a single integer from 3 to 131070."
+    },
+    "Aztec": {
+      "details": "Aztec Code is a two-dimensional (2-D) general-purpose matrix symbology that is designed to have higher accuracy than other 2-D symbologies. An Aztec Code symbol can encode up to 3,832 numeric digits; 3,067 alphabetic characters; or 1,914 bytes of data.",
+      "characterset": "All 256 ASCII characters.",
+      "codetextcapacity": "Up to 3,832 numeric digits, or 3,067 alphabetic characters, or 1,914 bytes of data."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix is a two-dimensional code consisting of black and white 'cells' or dots arranged in either a square or rectangular pattern, also known as a matrix. The information to be encoded can be text or numeric data.",
+      "characterset": "Supports all 256 ASCII characters, all ISO characters, and all Extended Binary Coded Decimal Interchange Code (EBCDIC) characters.",
+      "codetextcapacity": "Up to 3116 numeric digits, or 2335 alpha numeric characters, or 1556 binary characters."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix is a variant of Data Matrix that conforms to GS1 specifications. Use GS1 DataMatrix to encode the information such as, but not limited to, the following: AI(01) Global Trade Item Number (GTIN), AI(17) Expiration Date, AI(10) Batch Number, AI(21) Serial Number.",
+      "characterset": "Character set: upper and lower case letters and special characters $@%*+-./:=<>;&*_,'! all with correct Application Identifiers.",
+      "codetextcapacity": "Codetext capacity: up to 3116 numeric digits, or 2335 alpha numeric characters."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code is a variant of QR Code that conforms to GS1 specifications. It was designed specifically for sharing extended packaging information, such as lot number, product ID, and quantity.",
+      "characterset": "Upper and lower case letters and special characters $%*+-./: all with correct Application Identifiers",
+      "codetextcapacity": "Up to 7089 numeric characters, 4296 alphanumeric characters"
+    },
+    "QR": {
+      "details": "QR Code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode (or two-dimensional barcode). It is most popular and widely used type of two-dimensional code. In practice, QR codes often contain data for a locator, identifier, or tracker that points to a website or application.",
+      "characterset": "All 256 ASCII characters + Kanji",
+      "codetextcapacity": "Up to 7089 numeric characters, 4296 alphanumeric characters, 2953 bytes (binary data) or 1817 Kanji characters."
     }
   }
 }

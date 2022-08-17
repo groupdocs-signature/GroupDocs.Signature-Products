@@ -1,18 +1,23 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
+operation: Sign
+signaturetype: Qrcode
+codetype: Aztec
+fileformat: Xlsm
+productName: .NET
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create QRCODE signature on XLSM for C#
+breadcrumb: Put  Qrcode signature on Xlsm for C#
 
 ############################# Head ############################
-head_title: "Adding QRCODE signatures in a XLSM file with C#"
-head_description: "Put QRCODE Signature on XLSM file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Qrcode signatures in a Xlsm file with C#"
+head_description: "Put Qrcode Signature on Xlsm file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .XLSM files with QRCODE signatures in C#"
-description: "How to add QRCODE Signature with a few lines of .NET code"
+title: "Sign .Xlsm files with Qrcode signatures in C#"
+description: "How to add Qrcode Signature with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your XLSM files with QRCODE signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put QRCODE on XLSM file in a very convenient way and for free. Besides that it is possible to sign XLSM files using advanced QRCODE options. 
+        Sign your Xlsm files with Qrcode signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Qrcode on Xlsm file in a very convenient way and for free. Besides that it is possible to sign Xlsm files using advanced Qrcode options. 
         
-        There are a lot of options features to sign XLSM which you may use for your purposes:
+        There are a lot of options features to sign Xlsm which you may use for your purposes:
 
-        * QRCODE position on the page can be set up as absolutely as relatively;;
-        * One QRCODE signature may be placed on specified pages of multi-page documents;;
+        * Qrcode position on the page can be set up as absolutely as relatively;;
+        * One Qrcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed XLSM file:
+        There are also saving options for signed Xlsm file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing XLSM files with QRCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Xlsm files with Qrcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign XLSM with QRCODE in C#"
+    title_left: "Steps to sign Xlsm with Qrcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign XLSM documents with QRCODE signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Xlsm documents with Qrcode signatures quick and easily.
         
-        * Create an instance of Signature class providing XLSM file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Xlsm file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output XLSM file or memory stream
+        * Invoke the Signature.Sign passing output Xlsm file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -82,19 +87,19 @@ steps:
     code: |
         ```csharp    
                 
-        // Set up input XLSM file
+        // Set up input Xlsm file
         string filePath = "input.xlsm";
         // Set up output file
         string outputFilePath = "output.xlsm";
 
         // Instantiate Signature for input file
-        using (var signature = new GroupDocs.Signature.Signature(filePath))
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined QrCode text
                 QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
                 {
                     // setup QrCode encoding type
-                    EncodeType = QrCodeTypes.AZTEC,
+                    EncodeType = QrCodeTypes.Aztec,
 
                     // set signature position
                     Left = 50,
@@ -103,211 +108,46 @@ steps:
                     Height = 50
                 };
 
-                // sign XLSM document
+                // sign Xlsm document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
 
         ```
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "Signing XLSM documents with QRCODE Live Demo"
+    title: "Signing Xlsm documents with Qrcode Live Demo"
     content: |
-       Sign XLSM file with QRCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
-          
+       Sign Xlsm file with Qrcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+              
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About Aztec QrCode"
+          content: |
+            Aztec Code is a two-dimensional (2-D) general-purpose matrix symbology that is designed to have higher accuracy than other 2-D symbologies. An Aztec Code symbol can encode up to 3,832 numeric digits; 3,067 alphabetic characters; or 1,914 bytes of data.
+          characterset: |
+             All 256 ASCII characters.
+          textcapacity: |
+             Up to 3,832 numeric digits, or 3,067 alphabetic characters, or 1,914 bytes of data.
+          image: |
+             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
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with QRCODE using C#"
+    title: "Signing Other Document Formats with Aztec Qrcode using C#"
     content: |
-        .NET QRCODE signatures management API for documents and images. Add QRCODE signatures to some of the popular file formats as stated below.
+        .NET Aztec Qrcode signatures management API for documents and images. Add Aztec Qrcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/QRCODE/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/QRCODE/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/QRCODE/docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/QRCODE/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/QRCODE/dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/QRCODE/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/QRCODE/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/QRCODE/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/QRCODE/ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/QRCODE/rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/QRCODE/xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/QRCODE/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/QRCODE/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/QRCODE/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/QRCODE/csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/QRCODE/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/QRCODE/ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/QRCODE/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/QRCODE/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/QRCODE/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/QRCODE/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/QRCODE/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/QRCODE/ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/QRCODE/odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/QRCODE/otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/QRCODE/potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/QRCODE/potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/QRCODE/pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/QRCODE/ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/QRCODE/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/QRCODE/jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/QRCODE/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/QRCODE/gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/QRCODE/tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/QRCODE/svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/QRCODE/webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/QRCODE/wmf/"
-          description: "Windows Metafile"   
-       
+        
        
 back_to_top:
     enable: true

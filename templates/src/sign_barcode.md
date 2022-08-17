@@ -6,7 +6,7 @@
 <% set "CodeDetails" (dict "bar_qr_codes.{barcodetype}.details") %>
 <% set "CodeCharacterSet" (dict "bar_qr_codes.{barcodetype}.characterset") %>
 <% set "CodeTextCapacity" (dict "bar_qr_codes.{barcodetype}.codetextcapacity") %>
-<% set "CodeImage" (dict "barcode_images.{barcodetype}") %>
+<% set "CodeImage" (dict "bar_qr_code_images.{barcodetype}") %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>

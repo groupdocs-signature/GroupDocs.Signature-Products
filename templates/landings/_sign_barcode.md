@@ -89,19 +89,13 @@ steps:
         <% include "..\\examples\\_sign_{Signaturetype}_{product}.md" %>
         ```
 
+############################# Demos ############################
 demos:
     enable: true
     title: "<% "{demos-sign.title}" %>"
     content: |
        <% "{demos-sign.content}" %>
 
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
-    content: |
-        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
-        The live demo has the following benefits
         
 ############################# About Formats ############################
 about_formats:

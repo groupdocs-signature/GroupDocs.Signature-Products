@@ -1,18 +1,23 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
+operation: Sign
+signaturetype: Qrcode
+codetype: Data Matrix
+fileformat: Potm
+productName: Java
 otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpeg bmp gif tiff svg webp wmf
-breadcrumb: Create QRCODE signature on POTM for Java
+breadcrumb: Put  Qrcode signature on Potm for Java
 
 ############################# Head ############################
-head_title: "Adding QRCODE signatures in a POTM file with Java"
-head_description: "Put QRCODE Signature on POTM file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Qrcode signatures in a Potm file with Java"
+head_description: "Put Qrcode Signature on Potm file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .POTM files with QRCODE signatures in Java"
-description: "How to add QRCODE Signature with a few lines of Java code"
+title: "Sign .Potm files with Qrcode signatures in Java"
+description: "How to add Qrcode Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,33 +47,33 @@ overview:
     enable: true
     title: "Overview API"
     content: |
-        Sign your POTM files with QRCODE signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put QRCODE on POTM file in a very convenient way and for free. Besides that it is possible to sign POTM files using advanced QRCODE options. 
+        Sign your Potm files with Qrcode signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can put Qrcode on Potm file in a very convenient way and for free. Besides that it is possible to sign Potm files using advanced Qrcode options. 
         
-        There are a lot of options features to sign POTM which you may use for your purposes:
+        There are a lot of options features to sign Potm which you may use for your purposes:
 
-        * QRCODE position on the page can be set up as absolutely as relatively;;
-        * One QRCODE signature may be placed on specified pages of multi-page documents;;
+        * Qrcode position on the page can be set up as absolutely as relatively;;
+        * One Qrcode signature may be placed on specified pages of multi-page documents;;
         * A lot of additional signature features like color, size, border etc. are available..
         
-        There are also saving options for signed POTM file:
+        There are also saving options for signed Potm file:
 
         * after signing file might be saved with other supported format;
         * furthermore file can be encrypted with password or saved to memory stream.
 
-        Signing POTM files with QRCODE provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Signing Potm files with Qrcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to sign POTM with QRCODE in Java"
+    title_left: "Steps to sign Potm with Qrcode in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign POTM documents with QRCODE signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Potm documents with Qrcode signatures quick and easily.
         
-        * Create an instance of Signature class providing POTM file supposed to signing as path or memory stream
+        * Create an instance of Signature class providing Potm file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output POTM file or memory stream
+        * Invoke the Signature.Sign passing output Potm file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -82,7 +87,7 @@ steps:
     code: |
         ```java    
                 
-        // Set up input POTM file
+        // Set up input Potm file
         string filePath = "input.potm";
         // Set up output file
         string outputFilePath = "output.potm";
@@ -94,7 +99,7 @@ steps:
         BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
 
         // setup Barcode encoding type
-        options.setEncodeType(QrCodeTypes.DATAMATRIX);
+        options.setEncodeType(QrCodeTypes.Data Matrix);
 
         // set signature position
         options.setLeft(50);
@@ -102,210 +107,45 @@ steps:
         options.setWidth(200);
         options.setHeight(50);
 
-        // sign POTM document
+        // sign Potm document
         SignResult result = signature.sign(outputFilePath, options);
 
         ```
 
+############################# Demos ############################
 demos:
     enable: true
-    title: "Signing POTM documents with QRCODE Live Demo"
+    title: "Signing Potm documents with Qrcode Live Demo"
     content: |
-       Sign POTM file with QRCODE signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
-          
+       Sign Potm file with Qrcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+
+              
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "fas fa-barcode"
+          title: "About Data Matrix QrCode"
+          content: |
+            Data Matrix is a two-dimensional code consisting of black and white 'cells' or dots arranged in either a square or rectangular pattern, also known as a matrix. The information to be encoded can be text or numeric data.
+          characterset: |
+             Supports all 256 ASCII characters, all ISO characters, and all Extended Binary Coded Decimal Interchange Code (EBCDIC) characters.
+          textcapacity: |
+             Up to 3116 numeric digits, or 2335 alpha numeric characters, or 1556 binary characters.
+          image: |
+             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
+
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with QRCODE using Java"
+    title: "Signing Other Document Formats with Data Matrix Qrcode using Java"
     content: |
-        Java QRCODE signatures management API for documents and images. Add QRCODE signatures to some of the popular file formats as stated below.
+        Java Data Matrix Qrcode signatures management API for documents and images. Add Data Matrix Qrcode signatures to some of the popular file formats as stated below.
     format: 
-        # format loop
-        - name: "Add e-Signatures to PDF"
-          link: "/signature/net/SIGN/QRCODE/pdf/"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add e-Signatures to DOC"
-          link: "/signature/net/SIGN/QRCODE/doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCX"
-          link: "/signature/net/SIGN/QRCODE/docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOCM"
-          link: "/signature/net/SIGN/QRCODE/docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add e-Signatures to DOT"
-          link: "/signature/net/SIGN/QRCODE/dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTM"
-          link: "/signature/net/SIGN/QRCODE/dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "Add e-Signatures to DOTX"
-          link: "/signature/net/SIGN/QRCODE/dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add e-Signatures to ODT"
-          link: "/signature/net/SIGN/QRCODE/odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add e-Signatures to OTT"
-          link: "/signature/net/SIGN/QRCODE/ott/"
-          description: "OpenDocument Text Template"
-
-        # format loop
-        - name: "Add e-Signatures to RTF"
-          link: "/signature/net/SIGN/QRCODE/rtf/"
-          description: "Rich text format"
-
-        # format loop
-        - name: "Add e-Signatures to XLS"
-          link: "/signature/net/SIGN/QRCODE/xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add e-Signatures to XLSX"
-          link: "/signature/net/SIGN/QRCODE/xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSM"
-          link: "/signature/net/SIGN/QRCODE/xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to XLSB"
-          link: "/signature/net/SIGN/QRCODE/xlsb/"
-          description: "Microsoft Excel Binary Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to CSV"
-          link: "/signature/net/SIGN/QRCODE/csv/"
-          description: "Comma-separated values Worksheet"
-
-        # format loop
-        - name: "Add e-Signatures to ODS"
-          link: "/signature/net/SIGN/QRCODE/ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add e-Signatures to OTS"
-          link: "/signature/net/SIGN/QRCODE/ots/"
-          description: "OpenDocument Spreadsheet Template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTX"
-          link: "/signature/net/SIGN/QRCODE/xltx/"
-          description: "Microsoft Excel template"
-
-        # format loop
-        - name: "Add e-Signatures to XLTM"
-          link: "/signature/net/SIGN/QRCODE/xltm/"
-          description: "Microsoft Excel macro-enabled template"
-
-        # format loop
-        - name: "Add e-Signatures to PPT"
-          link: "/signature/net/SIGN/QRCODE/ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPTX"
-          link: "/signature/net/SIGN/QRCODE/pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to PPS"
-          link: "/signature/net/SIGN/QRCODE/pps/"
-          description: "Microsoft PowerPoint 97-2003 Slide Show"
-
-        # format loop
-        - name: "Add e-Signatures to PPSX"
-          link: "/signature/net/SIGN/QRCODE/ppsx/"
-          description: "PowerPoint Open XML Slide Show"                              
-
-        # format loop
-        - name: "Add e-Signatures to ODP"
-          link: "/signature/net/SIGN/QRCODE/odp/"
-          description: "OpenDocument Presentation"
-
-        # format loop
-        - name: "Add e-Signatures to OTP"
-          link: "/signature/net/SIGN/QRCODE/otp/"
-          description: "OpenDocument Presentation Template"
-
-        # format loop
-        - name: "Add e-Signatures to POTX"
-          link: "/signature/net/SIGN/QRCODE/potx/"
-          description: "PowerPoint template presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to POTM"
-          link: "/signature/net/SIGN/QRCODE/potm/"
-          description: "PowerPoint template with support for Macros" 
-          
-        # format loop
-        - name: "Add e-Signatures to PPTM"
-          link: "/signature/net/SIGN/QRCODE/pptm/"
-          description: "PowerPoint macro-enabled Presentation" 
-
-        # format loop
-        - name: "Add e-Signatures to PPSM"
-          link: "/signature/net/SIGN/QRCODE/ppsm/"
-          description: "PowerPoint Macro-enabled Slide Show" 
-
-        # format loop
-        - name: "Add e-Signatures to PNG"
-          link: "/signature/net/SIGN/QRCODE/png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add e-Signatures to JPG"
-          link: "/signature/net/SIGN/QRCODE/jpg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add e-Signatures to BMP"
-          link: "/signature/net/SIGN/QRCODE/bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add e-Signatures to GIF"
-          link: "/signature/net/SIGN/QRCODE/gif/"
-          description: "Graphics Interchange Format"
-
-        # format loop
-        - name: "Add e-Signatures to TIFF"
-          link: "/signature/net/SIGN/QRCODE/tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add e-Signatures to SVG"
-          link: "/signature/net/SIGN/QRCODE/svg/"
-          description: "Scalable Vector Graphics"
-
-        # format loop
-        - name: "Add e-Signatures to WEBP"
-          link: "/signature/net/SIGN/QRCODE/webp/"
-          description: "WebP Image"
-
-        # format loop
-        - name: "Add e-Signatures to WMF"
-          link: "/signature/net/SIGN/QRCODE/wmf/"
-          description: "Windows Metafile"   
-       
+        
        
 back_to_top:
     enable: true

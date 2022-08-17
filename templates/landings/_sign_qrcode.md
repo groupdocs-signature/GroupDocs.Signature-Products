@@ -1,10 +1,15 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-signature"
 date: 2022-03-01T15:12:22
 draft: false
+operation: <% get "Operation" %>
+signaturetype: <% get "Signaturetype" %>
+codetype: <% get "Codetype" %>
+fileformat: <% get "Fileformat" %>
+productName: <% get "ProductName" %>
 otherformats: <% get "OtherFormats" %>
-breadcrumb: Create <% get "SIGNATURETYPE" %> on <% get "FILEFORMAT" %> for <% get "ProgLang" %>
+breadcrumb: Put <% get "Qrcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
 head_title: "<% "{content-sign.meta_title}" %>"
@@ -84,24 +89,31 @@ steps:
         <% include "..\\examples\\_sign_{Signaturetype}_{product}.md" %>
         ```
 
+############################# Demos ############################
 demos:
     enable: true
     title: "<% "{demos-sign.title}" %>"
     content: |
        <% "{demos-sign.content}" %>
-          
+
+              
 ############################# About Formats ############################
 about_formats:
     enable: true
     format:
         # format loop
-        - icon: "fas fa-barcode-{Codetype}"
-          title: <% "{qrcode-info.title}" %>
+        - icon: "fas fa-barcode"
+          title: "About <% get "Codetype" %> QrCode"
           content: |
-            <% "{qrcode-info.description1}" %>
-            <% "{qrcode-info.description2}" %>  
-          link: ""
+            <% get "CodeDetails" %>
+          characterset: |
+             <% get "CodeCharacterSet" %>
+          textcapacity: |
+             <% get "CodeTextCapacity" %>
+          image: |
+             <% get "CodeImage" %>
 
+          link: ""
 
 ############################# More Formats ############################
 more_formats:
@@ -110,8 +122,7 @@ more_formats:
     content: |
         <% get "ProductName" %> <% get "Codetype" %> <% get "Signaturetype" %> signatures management API for documents and images. Add <% get "Codetype" %> <% get "Signaturetype" %> signatures to some of the popular file formats as stated below.
     format: 
-        <% include "..\\data\\_more_formats_bar_qr.md" %> 
-       
+        
        
 back_to_top:
     enable: true

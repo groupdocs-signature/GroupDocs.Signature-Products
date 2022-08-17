@@ -114,19 +114,13 @@ steps:
 
         ```
 
+############################# Demos ############################
 demos:
     enable: true
     title: "Signing Ods documents with Barcode Live Demo"
     content: |
        Sign Ods file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
 
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Live Demos - Online App to Generate Code32 Barcode Signatures"
-    content: |
-        Add Code32 barcodes to BMP files right now by visiting [GroupDocs.Signature Live Demos](https://products.groupdocs.app/signature/family) website.  
-        The live demo has the following benefits
         
 ############################# About Formats ############################
 about_formats:

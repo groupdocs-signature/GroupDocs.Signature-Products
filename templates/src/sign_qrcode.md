@@ -1,8 +1,12 @@
 <% configRef "..\\configs\\config_sign_qrcode.yml" %>
-<% set "Operation" (upper (get "operation")) %>
-<% set "Signaturetype" (upper (get "signaturetype")) %>
-<% set "Codetype" (upper (get "qrcodetype")) %>
-<% set "Fileformat" (upper (get "fileformat")) %>
+<% set "Operation" (capitalize (get "operation")) %>
+<% set "Signaturetype" (capitalize (get "signaturetype")) %>
+<% set "Codetype" (capitalize (get "qrcodetype")) %>
+<% set "Fileformat" (capitalize (get "fileformat")) %>
+<% set "CodeDetails" (dict "bar_qr_codes.{qrcodetype}.details") %>
+<% set "CodeCharacterSet" (dict "bar_qr_codes.{qrcodetype}.characterset") %>
+<% set "CodeTextCapacity" (dict "bar_qr_codes.{qrcodetype}.codetextcapacity") %>
+<% set "CodeImage" (dict "bar_qr_code_images.{qrcodetype}") %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>
@@ -14,4 +18,4 @@
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.qrcode") %>
-<% include "..\\landings\\_sign.md" %>
+<% include "..\\landings\\_sign_qrcode.md" %>

@@ -5,7 +5,7 @@
         string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
-        using (var signature = new GroupDocs.Signature.Signature(filePath))
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined QrCode text
                 QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
