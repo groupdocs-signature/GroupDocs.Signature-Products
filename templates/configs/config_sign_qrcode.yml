@@ -16,4 +16,4 @@ generationRules:
   include:
   - signaturetype[qrcode] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpeg, bmp, gif, tiff, svg, webp, wmf]
   
-outputPath: "{lang}\\signature\\{product}\\{operation}\\{signaturetype}\\{qrcodetype}-{fileformat}.md"
+outputPath: "signature\\{product}\\{operation}\\{signaturetype}\\{qrcodetype}-{fileformat}.{lang}.md"

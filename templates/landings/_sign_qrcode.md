@@ -8,6 +8,8 @@ signaturetype: <% get "Signaturetype" %>
 codetype: <% get "Codetype" %>
 fileformat: <% get "Fileformat" %>
 productName: <% get "ProductName" %>
+lang: <% lower ( get "lang") %>
+productCode: <% lower ( get "ProductCode") %>
 otherformats: <% get "OtherFormats" %>
 breadcrumb: Put <% get "Qrcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
