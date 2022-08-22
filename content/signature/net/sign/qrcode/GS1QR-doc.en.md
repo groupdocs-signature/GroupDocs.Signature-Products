@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Doc for C#
 
 ############################# Head ############################
-head_title: "Adding Qrcode signatures in a Doc file with C#"
-head_description: "Put Qrcode Signature on Doc file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "eSign Doc document with G S1 Q R QR Code in C#"
+head_description: "Create G S1 Q R QR Code Signature on Doc file for .NET using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code."
 
 ############################# Header ############################
-title: "Sign .Doc files with Qrcode signatures in C#"
-description: "How to add Qrcode Signature with a few lines of .NET code"
+title: "Generate G S1 Q R QR Code signature for Doc document in C#"
+description: "eSign your Doc documents and contracts with G S1 Q R QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options.!"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 overview:

@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Xltx for Java
 
 ############################# Head ############################
-head_title: "Adding Barcode signatures in a Xltx file with Java"
-head_description: "Put Barcode Signature on Xltx file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "eSign Xltx document with UPCE Barcode in Java"
+head_description: "Create UPCE Barcode Signature on Xltx file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .Xltx files with Barcode signatures in Java"
-description: "How to add Barcode Signature with a few lines of Java code"
+title: "Generate UPCE Barcode signature for Xltx document in Java"
+description: "eSign your Xltx business documents with UPCE Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 overview:

@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Potx for C#
 
 ############################# Head ############################
-head_title: "Adding Barcode signatures in a Potx file with C#"
-head_description: "Put Barcode Signature on Potx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "eSign Potx document with Codabar Barcode in C#"
+head_description: "Create Codabar Barcode Signature on Potx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .Potx files with Barcode signatures in C#"
-description: "How to add Barcode Signature with a few lines of .NET code"
+title: "Generate Codabar Barcode signature for Potx document in C#"
+description: "eSign your Potx business documents with Codabar Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 overview:
@@ -95,10 +95,10 @@ steps:
         string outputFilePath = "output.potx";
 
         // Instantiate Signature for input file
-        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
-                BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
+                var options = new BarcodeSignOptions("BC12345678")
                 {
                     // setup Barcode encoding type
                     EncodeType = BarcodeTypes.Codabar,
@@ -107,9 +107,9 @@ steps:
                     Left = 50,
                     Top = 50,
                     Width = 200,
-                    Height = 50
+                    Height = 50                                        
                 };
-
+                
                 // sign Potx document
                 SignResult result = signature.Sign(outputFilePath, options);
         }

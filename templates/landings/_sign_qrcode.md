@@ -14,12 +14,12 @@ otherformats: <% get "OtherFormats" %>
 breadcrumb: Put <% get "Qrcodetype" %> <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
-head_title: "<% "{content-sign.meta_title}" %>"
-head_description: "<% "{content-sign.meta_description}" %>"
+head_title: "<% "{qrcode-content-sign.meta_title}" %>"
+head_description: "<% "{qrcode-content-sign.meta_description}" %>"
 
 ############################# Header ############################
-title: "<% "{content-sign.h1}" %>"
-description: "<% "{content-sign.h2}" %>"
+title: "<% "{qrcode-content-sign.h1}" %>"
+description: "<% "{qrcode-content-sign.h2}" %>"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "<% "{about-sign.title}" %>"
     content: |
-        <% "{about-sign.content}" %>
+        <% "{about-sign.qrcode-content}" %>
     
 
 overview:

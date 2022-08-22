@@ -5,10 +5,10 @@
         string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
-        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // create barcode option with predefined barcode text
-                BarcodeSignOptions options = new BarcodeSignOptions("JohnSmith")
+                var options = new BarcodeSignOptions("BC12345678")
                 {
                     // setup Barcode encoding type
                     EncodeType = BarcodeTypes.<% get "Codetype" %>,
@@ -17,9 +17,9 @@
                     Left = 50,
                     Top = 50,
                     Width = 200,
-                    Height = 50
+                    Height = 50                                        
                 };
-
+                
                 // sign <% get "Fileformat" %> document
                 SignResult result = signature.Sign(outputFilePath, options);
         }
