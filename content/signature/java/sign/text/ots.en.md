@@ -1,4 +1,3 @@
-
 ---
 ############################# Static ############################
 layout: "auto-gen-signature"
@@ -102,7 +101,7 @@ steps:
 
         // set signature position
         options.setLeft(50);
-        options.setTop(50);
+        options.setTop(200);
 
         // sign Ots document
         SignResult result = signature.sign(outputFilePath, options);

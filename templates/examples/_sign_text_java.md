@@ -12,7 +12,7 @@
 
         // set signature position
         options.setLeft(50);
-        options.setTop(50);
+        options.setTop(200);
 
         // sign <% get "Fileformat" %> document
         SignResult result = signature.sign(outputFilePath, options);

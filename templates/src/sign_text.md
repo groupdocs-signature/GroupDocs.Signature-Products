@@ -1,12 +1,7 @@
 <% configRef "..\\configs\\config_sign_text.yml" %>
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "Signaturetype" (capitalize (get "signaturetype")) %>
-
 <% set "Fileformat" (capitalize (get "fileformat")) %>
-<% set "CodeDetails" (dict "bar_qr_codes.{qrcodetype}.details") %>
-<% set "CodeCharacterSet" (dict "bar_qr_codes.{qrcodetype}.characterset") %>
-<% set "CodeTextCapacity" (dict "bar_qr_codes.{qrcodetype}.codetextcapacity") %>
-<% set "CodeImage" (dict "bar_qr_code_images.{qrcodetype}") %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>
