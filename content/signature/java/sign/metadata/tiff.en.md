@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        
+        //image
         // Set up input Tiff file
         string filePath = "input.tiff";
         // Set up output file

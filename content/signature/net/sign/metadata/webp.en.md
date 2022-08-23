@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //image
         // Set up input Webp file
         string filePath = "input.webp";
         // Set up output file

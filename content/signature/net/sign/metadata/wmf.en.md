@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //image
         // Set up input Wmf file
         string filePath = "input.wmf";
         // Set up output file

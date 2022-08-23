@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //image
         // Set up input Gif file
         string filePath = "input.gif";
         // Set up output file

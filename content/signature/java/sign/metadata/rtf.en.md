@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        
+        //word
         // Set up input Rtf file
         string filePath = "input.rtf";
         // Set up output file

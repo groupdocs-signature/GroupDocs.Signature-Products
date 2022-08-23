@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```<% dict "products.{product}.syntax" %>    
-        <% include "..\\examples\\_sign_{Signaturetype}_{product}.md" %>
+        <% include "..\\examples\\_sign_{Signaturetype}_{Family}_{product}.md" %>
         ```
 
 ############################# Demos ############################

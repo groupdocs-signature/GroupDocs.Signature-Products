@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //image
         // Set up input Png file
         string filePath = "input.png";
         // Set up output file

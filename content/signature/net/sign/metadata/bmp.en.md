@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //image
         // Set up input Bmp file
         string filePath = "input.bmp";
         // Set up output file

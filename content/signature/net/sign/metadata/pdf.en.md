@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```csharp    
-        
+        //pdf
         // Set up input Pdf file
         string filePath = "input.pdf";
         // Set up output file

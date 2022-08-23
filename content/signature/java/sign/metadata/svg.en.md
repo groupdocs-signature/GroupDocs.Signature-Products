@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        
+        //image
         // Set up input Svg file
         string filePath = "input.svg";
         // Set up output file

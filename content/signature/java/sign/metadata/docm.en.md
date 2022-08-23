@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        
+        //word
         // Set up input Docm file
         string filePath = "input.docm";
         // Set up output file
