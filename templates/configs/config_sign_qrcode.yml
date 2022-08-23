@@ -8,12 +8,12 @@ dimensions:
 - alias:  qrcodetype
   values: [Aztec, DataMatrix, GS1DataMatrix, GS1QR, QR]
 - alias:  fileformat
-  values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpeg, bmp, gif, tiff, svg, webp, wmf]
+  values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
 
 dictionaries: ["..\\data\\otherformats.json", "..\\data\\bar_qr_codeimages.json"]
 
 generationRules:
   include:
-  - signaturetype[qrcode] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpeg, bmp, gif, tiff, svg, webp, wmf]
+  - signaturetype[qrcode] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
   
 outputPath: "signature\\{product}\\{operation}\\{signaturetype}\\{qrcodetype}-{fileformat}.{lang}.md"
