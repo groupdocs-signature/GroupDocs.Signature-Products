@@ -1,4 +1,4 @@
-//pres
+
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
         // Set up output file
@@ -7,18 +7,18 @@
         // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create metadata signature with predefined barcode text
+                // instantiate metadata signing options
                 var options = new MetadataSignOptions();
 
-                // add various metadata signature items to the document
-                //  no encryption
-                options
-                    .Add(new PdfMetadataSignature("Author", "Mr.Scherlock Holmes")) // String value
-                    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Datetime value
-                    .Add(new PdfMetadataSignature("DocumentId", 123456))            // Integer value
-                    .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Double value
-                    .Add(new PdfMetadataSignature("Amount", 123.456M))              // Decimal value
-                    .Add(new PdfMetadataSignature("Total", 123.456F));              // Float value
+                // setup Author property
+                PresentationMetadataSignature mdSign_Author = new PresentationMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
+                options.Signatures.Add(mdSign_Author);
+                // setup document data
+                PresentationMetadataSignature mdSign_DocData = new PresentationMetadataSignature("CreatedOn", DateTime.Now);// Datetime value
+                options.Signatures.Add(mdSign_DocData);
+                // setup document id
+                PresentationMetadataSignature mdSign_DocId = new PresentationMetadataSignature("DocumentId", 123456);// Integer value
+                options.Signatures.Add(mdSign_DocId);
                 
                 // sign <% get "Fileformat" %> document
                 SignResult result = signature.Sign(outputFilePath, options);

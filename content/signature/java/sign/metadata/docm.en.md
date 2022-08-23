@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        //word
+        
         // Set up input Docm file
         string filePath = "input.docm";
         // Set up output file
@@ -96,14 +96,18 @@ steps:
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // create barcode option with predefined barcode text
-        BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
+        // instantiate metadata signing options
+        MetadataSignOptions options = new MetadataSignOptions();
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(50);
-        options.setWidth(200);
-        options.setHeight(50);
+        // setup Author property
+        WordProcessingMetadataSignature mdSign_Author = new WordProcessingMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
+        options.Signatures.Add(mdSign_Author);
+        // setup document data
+        WordProcessingMetadataSignature mdSign_DocData = new WordProcessingMetadataSignature("CreatedOn", DateTime.Now);// Datetime value
+        options.Signatures.Add(mdSign_DocData);
+        // setup document id
+        WordProcessingMetadataSignature mdSign_DocId = new WordProcessingMetadataSignature("DocumentId", 123456);// Integer value
+        options.Signatures.Add(mdSign_DocId);
 
         // sign Docm document
         SignResult result = signature.sign(outputFilePath, options);

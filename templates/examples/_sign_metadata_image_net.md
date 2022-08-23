@@ -1,4 +1,4 @@
-//image
+
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
         // Set up output file
@@ -7,19 +7,25 @@
         // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create metadata signature with predefined barcode text
-                var options = new MetadataSignOptions();
+                // instantiate metadata signing options
+                MetadataSignOptions signOptions = new MetadataSignOptions();
 
-                // add various metadata signature items to the document
-                //  no encryption
-                options
-                    .Add(new PdfMetadataSignature("Author", "Mr.Scherlock Holmes")) // String value
-                    .Add(new PdfMetadataSignature("CreatedOn", DateTime.Now))       // Datetime value
-                    .Add(new PdfMetadataSignature("DocumentId", 123456))            // Integer value
-                    .Add(new PdfMetadataSignature("SignatureId", 123.456D))         // Double value
-                    .Add(new PdfMetadataSignature("Amount", 123.456M))              // Decimal value
-                    .Add(new PdfMetadataSignature("Total", 123.456F));              // Float value
-                
+                // Specify different Metadata Signatures and add them to options signature collection
+                // set start id
+                ushort imgsMetadataId = 41996;
+                // setup int value
+                ImageMetadataSignature mdSign_DocId = new ImageMetadataSignature(imgsMetadataId++, 123456); // int
+                options.Signatures.Add(mdSign_DocId);
+                // setup Author property
+                ImageMetadataSignature mdSign_Author = new ImageMetadataSignature(imgsMetadataId++, "Mr.Scherlock Holmes"); // string
+                options.Signatures.Add(mdSign_Author);
+                // setup data of sign date
+                ImageMetadataSignature mdSign_Date = new ImageMetadataSignature(imgsMetadataId++, DateTime.Now); // DateTime
+                options.Signatures.Add(mdSign_Date);
+                // setup double
+                ImageMetadataSignature mdSign_Amnt = new ImageMetadataSignature(imgsMetadataId++, 123.456M); //decimal value
+                options.Signatures.Add(mdSign_Amnt);
+
                 // sign <% get "Fileformat" %> document
                 SignResult result = signature.Sign(outputFilePath, options);
         }

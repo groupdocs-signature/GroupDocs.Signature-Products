@@ -1,4 +1,4 @@
-//pdf
+
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
         // Set up output file
@@ -7,14 +7,18 @@
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // create barcode option with predefined barcode text
-        BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
+        // instantiate metadata signing options
+        MetadataSignOptions options = new MetadataSignOptions();
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(50);
-        options.setWidth(200);
-        options.setHeight(50);
+        // setup Author property
+        PdfMetadataSignature mdSign_Author = new PdfMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
+        options.Signatures.Add(mdSign_Author);
+        // setup document data
+        PdfMetadataSignature mdSign_DocData = new PdfMetadataSignature("CreatedOn", DateTime.Now);// Datetime value
+        options.Signatures.Add(mdSign_DocData);
+        // setup document id
+        PdfMetadataSignature mdSign_DocId = new PdfMetadataSignature("DocumentId", 123456);// Integer value
+        options.Signatures.Add(mdSign_DocId);
 
         // sign <% get "Fileformat" %> document
         SignResult result = signature.sign(outputFilePath, options);

@@ -87,7 +87,7 @@ steps:
          
     code: |
         ```java    
-        //image
+        
         // Set up input Svg file
         string filePath = "input.svg";
         // Set up output file
@@ -96,14 +96,24 @@ steps:
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // create barcode option with predefined barcode text
-        BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
+        // instantiate metadata signing options
+        MetadataSignOptions options = new MetadataSignOptions();
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(50);
-        options.setWidth(200);
-        options.setHeight(50);
+        // Specify different Metadata Signatures and add them to options signature collection
+        // set start id
+        ushort imgsMetadataId = 41996;
+        // setup int value
+        ImageMetadataSignature mdSign_DocId = new ImageMetadataSignature(imgsMetadataId++, 123456); // int
+        options.Signatures.Add(mdSign_DocId);
+        // setup Author property
+        ImageMetadataSignature mdSign_Author = new ImageMetadataSignature(imgsMetadataId++, "Mr.Scherlock Holmes"); // string
+        options.Signatures.Add(mdSign_Author);
+        // setup data of sign date
+        ImageMetadataSignature mdSign_Date = new ImageMetadataSignature(imgsMetadataId++, DateTime.Now); // DateTime
+        options.Signatures.Add(mdSign_Date);
+        // setup double
+        ImageMetadataSignature mdSign_Amnt = new ImageMetadataSignature(imgsMetadataId++, 123.456M); //decimal value
+        options.Signatures.Add(mdSign_Amnt);
 
         // sign Svg document
         SignResult result = signature.sign(outputFilePath, options);
