@@ -2,4 +2,4 @@ dimensions:
 - alias: lang
   values: [en]
 
-dictionaries: ["..\\data\\{lang}.json"]
+dictionaries: ["..\\data\\{operation}\\{lang}.json"]

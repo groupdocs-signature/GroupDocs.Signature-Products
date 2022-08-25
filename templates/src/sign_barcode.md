@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\config_sign_barcode.yml" %>
+<% configRef "..\\configs\\sign\\config_barcode.yml" %>
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "Signaturetype" (capitalize (get "signaturetype")) %>
 <% set "Codetype" (capitalize (get "barcodetype")) %>
@@ -18,4 +18,4 @@
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.{signaturetype}") %>
-<% include "..\\landings\\_sign_barcode.md" %>
+<% include "..\\landings\\sign\\_barcode.md" %>

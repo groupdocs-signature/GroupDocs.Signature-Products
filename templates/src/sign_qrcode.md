@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\config_sign_qrcode.yml" %>
+<% configRef "..\\configs\\sign\\config_qrcode.yml" %>
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "Signaturetype" (capitalize (get "signaturetype")) %>
 <% set "Codetype" (capitalize (get "qrcodetype")) %>
@@ -18,4 +18,4 @@
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.qrcode") %>
-<% include "..\\landings\\_sign_qrcode.md" %>
+<% include "..\\landings\\sign\\_qrcode.md" %>

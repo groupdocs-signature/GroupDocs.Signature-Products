@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Search {{Signaturetype}} signatures in {{Fileformat}} file in {{ProgLang}}",
+    "meta_description": "Use {{ProductName}} for searching {{Signaturetype}} signatures in {{Fileformat}} files using a few lines of code.",
+    "h1": "Search {{Signaturetype}} signatures in {{Fileformat}} file",
+    "h2": "{{ProductName}} native API to search {{Signaturetype}} signatures in already signed {{Fileformat}} file. Perform advanced e-signature operations within your {{Fileformat}} documents using a few lines of code."
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a advanced {{ProductName}} API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed."
+  },
+  "steps": {
+    "title_left": "How to search {{Signaturetype}} signatures in {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) makes it easy for {{ProductName}} developers to search {{Signaturetype}} signatures in {{Fileformat}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Create new instance of Signature class and pass source document path as a constructor parameter.",
+      "step_2": "Instantiate the SearchOptions object according to your requirements and specify search options.",
+      "step_3": "Call Search method of Signature class instance and pass SearchOptions to it."
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development environments: {{DevEnv}}",
+      "step_3": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Search {{Signaturetype}} signatures Live Demo",
+    "content": "Add {{Signaturetype}} electronic signatures to {{Fileformat}} file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website."
+  },
+  "more_formats": {
+    "title": "Search other {{Signaturetype}} signatures using {{ProgLang}}",
+    "content": "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
+  }
+
+}

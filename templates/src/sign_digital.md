@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\config_sign_digital.yml" %>
+<% configRef "..\\configs\\sign\\config_digital.yml" %>
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "Signaturetype" (capitalize (get "signaturetype")) %>
 <% set "Fileformat" (capitalize (get "fileformat")) %>
@@ -13,4 +13,4 @@
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.digital") %>
-<% include "..\\landings\\_sign_digital.md" %>
+<% include "..\\landings\\sign\\_digital.md" %>

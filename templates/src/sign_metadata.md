@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\config_sign_metadata.yml" %>
+<% configRef "..\\configs\\sign\\config_metadata.yml" %>
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "Signaturetype" (capitalize (get "signaturetype")) %>
 <% set "Fileformat" (capitalize (get "fileformat")) %>
@@ -14,4 +14,4 @@
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OtherFormats" (dict "otherformats.metadata") %>
 <% set "Family" (lower (dict "families.{fileformat}")) %>
-<% include "..\\landings\\_sign_metadata.md" %>
+<% include "..\\landings\\sign\\_metadata.md" %>
