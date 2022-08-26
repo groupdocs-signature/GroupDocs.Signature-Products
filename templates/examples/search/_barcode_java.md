@@ -1,23 +1,28 @@
 
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
-        // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // create barcode option with predefined barcode text
-        BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
+        //Create search options
+        BarcodeSearchOptions options = new BarcodeSearchOptions();
 
-        // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.<% get "Codetype" %>);
+        // specify special pages to search on 
+        options.setAllPages(false);
+        // single page number
+        options.setPageNumber(1);
+        // specify text match type
+        options.setMatchType(TextMatchType.Contains);
+        // specify text pattern to search
+        options.setText("Text signature");
+        // return  <% get "Signaturetype" %> images for processing
+        options.setReturnContent(true);
+        // set up type of returned  <% get "Signaturetype" %> images
+        options.setReturnContentType(FileType.PNG);
+                            
+        // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
+        List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(50);
-        options.setWidth(200);
-        options.setHeight(50);
-
-        // sign <% get "Fileformat" %> document
-        SignResult result = signature.sign(outputFilePath, options);
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println("..."));

@@ -62,34 +62,35 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Signature for .NET for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
                 
         // Set up input Xltx file
         string filePath = "input.xltx";
-        // Set up output file
-        string outputFilePath = "output.xltx";
-        // Provide digital certificate
-        string certificateFilePath = "certificate.pfx";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                //Provide sign options
-                DigitalSignOptions options = new DigitalSignOptions(certificateFilePath)
+                //Create search options
+                DigitalSearchOptions options = new DigitalSearchOptions()
                 {
-                    // set certificate password
-                    signOptions.Password = "1234567890";
-                    
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
+                    // specify special search criteria
+                    Comments = "Approved",
+                    // specify date range period of signature
+                    SignDateTimeFrom = new DateTime(year: 2020, month: 01, day: 01),
+                    SignDateTimeTo = new DateTime(year: 2020, month: 12, day: 31)
                 };
 
-                // sign Xltx document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for Digital signatures in Xltx document
+                List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+
+                // process signatures which were found                
+                foreach (DigitalSignature signature in signatures)
+                {
+                    //...
+                }
         }
 
         ```
@@ -99,7 +100,7 @@ demos:
     enable: true
     title: "Search Digital signatures Live Demo"
     content: |
-       Add Digital electronic signatures to Xltx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Xltx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

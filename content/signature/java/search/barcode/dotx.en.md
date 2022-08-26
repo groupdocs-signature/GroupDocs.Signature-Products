@@ -62,33 +62,38 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * Download the latest version of GroupDocs.Signature for Java for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * Download the latest version of GroupDocs.Signature for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    
         
         // Set up input Dotx file
         string filePath = "input.dotx";
-        // Set up output file
-        string outputFilePath = "output.dotx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // create barcode option with predefined barcode text
-        BarcodeSignOptions options = new BarcodeSignOptions("John Smith");
+        //Create search options
+        BarcodeSearchOptions options = new BarcodeSearchOptions();
 
-        // setup Barcode encoding type
-        options.setEncodeType(BarcodeTypes.);
+        // specify special pages to search on 
+        options.setAllPages(false);
+        // single page number
+        options.setPageNumber(1);
+        // specify text match type
+        options.setMatchType(TextMatchType.Contains);
+        // specify text pattern to search
+        options.setText("Text signature");
+        // return  Barcode images for processing
+        options.setReturnContent(true);
+        // set up type of returned  Barcode images
+        options.setReturnContentType(FileType.PNG);
+                            
+        // search for Barcode signatures in Dotx document
+        List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(50);
-        options.setWidth(200);
-        options.setHeight(50);
-
-        // sign Dotx document
-        SignResult result = signature.sign(outputFilePath, options);
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println("..."));
 
         ```
 
@@ -97,7 +102,7 @@ demos:
     enable: true
     title: "Search Barcode signatures Live Demo"
     content: |
-       Add Barcode electronic signatures to Dotx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Dotx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

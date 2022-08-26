@@ -44,27 +44,6 @@ about:
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced Java API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
-overview:
-    enable: true
-    title: "Overview API"
-    content: |
-        Sign your Ott files with Digital signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put Digital on Ott file in a very convenient way and for free. Besides that it is possible to sign Ott files using advanced Digital options. 
-        
-        There are a lot of options features to sign Ott which you may use for your purposes:
-
-        * Digital position on the page can be set up as absolutely as relatively;;
-        * One Digital signature may be placed on specified pages of multi-page documents;;
-        * A lot of additional signature features like color, size, border etc. are available..
-        
-        There are also saving options for signed Ott file:
-
-        * after signing file might be saved with other supported format;
-        * furthermore file can be encrypted with password or saved to memory stream.
-
-        Signing Ott files with Digital provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
-
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -118,7 +97,7 @@ demos:
     enable: true
     title: "Signing Ott documents with Digital Live Demo"
     content: |
-       Sign Ott file with Digital signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
+       Sign Ott file with various signatures right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
 
 ############################# More Formats ############################
 more_formats:

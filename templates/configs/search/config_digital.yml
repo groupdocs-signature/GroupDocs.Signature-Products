@@ -6,12 +6,12 @@ dimensions:
 - alias:  signaturetype
   values: [digital]
 - alias:  fileformat
-  values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
+  values: [pdf, doc, docx, docm, dot, dotx, odt, ott, xls, xlsx, xlsm, xlsb, ods, ots, xltx, xltm, pptx, pptm]
 
 dictionaries: ["..\\..\\data\\otherformats.json"]
 
 generationRules:
   include:
-  - signaturetype[digital] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
+  - signaturetype[digital] + fileformat[pdf, doc, docx, docm, dot, dotx, odt, ott, xls, xlsx, xlsm, xlsb, ods, ots, xltx, xltm, pptx, pptm]
   
 outputPath: "signature\\{product}\\{operation}\\{signaturetype}\\{fileformat}.{lang}.md"

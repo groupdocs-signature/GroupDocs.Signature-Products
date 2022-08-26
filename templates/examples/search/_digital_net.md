@@ -1,25 +1,26 @@
         
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
-        // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
-        // Provide digital certificate
-        string certificateFilePath = "certificate.pfx";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                //Provide sign options
-                DigitalSignOptions options = new DigitalSignOptions(certificateFilePath)
+                //Create search options
+                DigitalSearchOptions options = new DigitalSearchOptions()
                 {
-                    // set certificate password
-                    signOptions.Password = "1234567890";
-                    
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
+                    // specify special search criteria
+                    Comments = "Approved",
+                    // specify date range period of signature
+                    SignDateTimeFrom = new DateTime(year: 2020, month: 01, day: 01),
+                    SignDateTimeTo = new DateTime(year: 2020, month: 12, day: 31)
                 };
 
-                // sign <% get "Fileformat" %> document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
+                List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+
+                // process signatures which were found                
+                foreach (DigitalSignature signature in signatures)
+                {
+                    //...
+                }
         }

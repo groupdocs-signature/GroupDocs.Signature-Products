@@ -62,34 +62,42 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Signature for .NET for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
         
         // Set up input Potm file
         string filePath = "input.potm";
-        // Set up output file
-        string outputFilePath = "output.potm";
 
         // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create barcode option with predefined barcode text
-                var options = new BarcodeSignOptions("BC12345678")
+                //Create search options
+                BarcodeSearchOptions options = new BarcodeSearchOptions()
                 {
-                    // setup Barcode encoding type
-                    EncodeType = BarcodeTypes.,
-
-                    // set signature position
-                    Left = 50,
-                    Top = 50,
-                    Width = 200,
-                    Height = 50                                        
+                    // specify special pages to search on 
+                    AllPages = false,
+                    // single page number
+                    PageNumber = 1,
+                    // set up text match type
+                    MatchType = TextMatchType.Contains,
+                    // specify text pattern to search
+                    Text = "Text signature",
+                    // return  Barcode images for processing
+                    ReturnContent = true,
+                    // set up type of returned  Barcode images
+                    ReturnContentType = FileType.PNG
                 };
-                
-                // sign Potm document
-                SignResult result = signature.Sign(outputFilePath, options);
+
+                // search for Barcode signatures in Potm document
+                List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+
+                // process signatures which were found                
+                foreach (BarcodeSignature signature in signatures)
+                {
+                    //...
+                }
         }
 
         ```
@@ -99,7 +107,7 @@ demos:
     enable: true
     title: "Search Barcode signatures Live Demo"
     content: |
-       Add Barcode electronic signatures to Potm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Potm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

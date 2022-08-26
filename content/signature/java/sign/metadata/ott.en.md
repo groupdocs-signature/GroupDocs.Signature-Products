@@ -44,27 +44,6 @@ about:
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
-overview:
-    enable: true
-    title: "Overview API"
-    content: |
-        Sign your Ott files with Metadata signatures using Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put Metadata on Ott file in a very convenient way and for free. Besides that it is possible to sign Ott files using advanced Metadata options. 
-        
-        There are a lot of options features to sign Ott which you may use for your purposes:
-
-        * Metadata position on the page can be set up as absolutely as relatively;;
-        * One Metadata signature may be placed on specified pages of multi-page documents;;
-        * A lot of additional signature features like color, size, border etc. are available..
-        
-        There are also saving options for signed Ott file:
-
-        * after signing file might be saved with other supported format;
-        * furthermore file can be encrypted with password or saved to memory stream.
-
-        Signing Ott files with Metadata provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
-
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -119,7 +98,7 @@ demos:
     enable: true
     title: "Signing Ott documents with Metadata Live Demo"
     content: |
-       Sign Ott file with Metadata signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
+       Sign Ott file with various signatures right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
 
 ############################# More Formats ############################
 more_formats:

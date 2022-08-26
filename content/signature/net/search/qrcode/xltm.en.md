@@ -62,34 +62,42 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Signature for .NET for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
                 
         // Set up input Xltm file
         string filePath = "input.xltm";
-        // Set up output file
-        string outputFilePath = "output.xltm";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create barcode option with predefined QrCode text
-                QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
+                //Create search options
+                QrCodeSearchOptions options = new QrCodeSearchOptions()
                 {
-                    // setup QrCode encoding type
-                    EncodeType = QrCodeTypes.,
-
-                    // set signature position
-                    Left = 50,
-                    Top = 50,
-                    Width = 200,
-                    Height = 50
+                    // specify special pages to search on 
+                    AllPages = false,
+                    // single page number
+                    PageNumber = 1,
+                    // set up text match type
+                    MatchType = TextMatchType.Contains,
+                    // specify text pattern to search
+                    Text = "Text signature",
+                    // return  Qrcode images for processing
+                    ReturnContent = true,
+                    // set up type of returned  Qrcode images
+                    ReturnContentType = FileType.PNG
                 };
 
-                // sign Xltm document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for Qrcode signatures in Xltm document
+                List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(options);
+
+                // process signatures which were found                
+                foreach (QrCodeSignature signature in signatures)
+                {
+                    //...
+                }
         }
 
         ```
@@ -99,7 +107,7 @@ demos:
     enable: true
     title: "Search Qrcode signatures Live Demo"
     content: |
-       Add Qrcode electronic signatures to Xltm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Xltm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

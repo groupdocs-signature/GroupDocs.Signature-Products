@@ -9,7 +9,7 @@ fileformat: Ppsm
 productName: Java
 lang: en
 productCode: java
-otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm
 breadcrumb: Search Text signatures at Ppsm with Java
 
 ############################# Head ############################
@@ -62,28 +62,34 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * Download the latest version of GroupDocs.Signature for Java for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * Download the latest version of GroupDocs.Signature for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    
                 
         // Set up input Ppsm file
         string filePath = "input.ppsm";
-        // Set up output file
-        string outputFilePath = "output.ppsm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        //Provide sign options
-        TextSignOptions options = new TextSignOptions("John Smith");
+        //Create search options
+        TextSearchOptions options = new TextSearchOptions();
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(200);
+        // specify special pages to search on 
+        options.setAllPages(false);
+        // single page number
+        options.setPageNumber(1);
+        // specify text match type
+        options.setMatchType(TextMatchType.Contains);
+        // specify text pattern to search
+        options.setText("Text signature");
+                            
+        // search for Text signatures in Ppsm document
+        List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
-        // sign Ppsm document
-        SignResult result = signature.sign(outputFilePath, options);
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println("..."));
 
         ```
 
@@ -92,7 +98,7 @@ demos:
     enable: true
     title: "Search Text signatures Live Demo"
     content: |
-       Add Text electronic signatures to Ppsm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Ppsm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

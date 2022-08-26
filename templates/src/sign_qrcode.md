@@ -17,5 +17,5 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.qrcode") %>
+<% set "OtherFormats" (dict "otherformats_sign.qrcode") %>
 <% include "..\\landings\\sign\\_qrcode.md" %>

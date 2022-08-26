@@ -62,40 +62,25 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Signature for .NET for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
         
         // Set up input Odp file
         string filePath = "input.odp";
-        // Set up output file
-        string outputFilePath = "output.odp";
 
         // Instantiate Signature for input file
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // instantiate metadata signing options
-                MetadataSignOptions signOptions = new MetadataSignOptions();
+                // search for Metadata signatures in Odp document
+                List<PresentationMetadataSignature> signatures = signature.Search<PresentationMetadataSignature>(SignatureType.Metadata);
 
-                // Specify different Metadata Signatures and add them to options signature collection
-                // set start id
-                ushort imgsMetadataId = 41996;
-                // setup int value
-                ImageMetadataSignature mdSign_DocId = new ImageMetadataSignature(imgsMetadataId++, 123456); // int
-                options.Signatures.Add(mdSign_DocId);
-                // setup Author property
-                ImageMetadataSignature mdSign_Author = new ImageMetadataSignature(imgsMetadataId++, "Mr.Scherlock Holmes"); // string
-                options.Signatures.Add(mdSign_Author);
-                // setup data of sign date
-                ImageMetadataSignature mdSign_Date = new ImageMetadataSignature(imgsMetadataId++, DateTime.Now); // DateTime
-                options.Signatures.Add(mdSign_Date);
-                // setup double
-                ImageMetadataSignature mdSign_Amnt = new ImageMetadataSignature(imgsMetadataId++, 123.456M); //decimal value
-                options.Signatures.Add(mdSign_Amnt);
-
-                // sign Odp document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // process signatures which were found 
+                foreach (PresentationMetadataSignature mdSignature in signatures)
+                {
+                    //...
+                }
         }
 
         ```
@@ -105,7 +90,7 @@ demos:
     enable: true
     title: "Search Metadata signatures Live Demo"
     content: |
-       Add Metadata electronic signatures to Odp file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Odp file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

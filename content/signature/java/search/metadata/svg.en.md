@@ -62,40 +62,23 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * Download the latest version of GroupDocs.Signature for Java for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * Download the latest version of GroupDocs.Signature for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    
         
         // Set up input Svg file
         string filePath = "input.svg";
-        // Set up output file
-        string outputFilePath = "output.svg";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        // instantiate metadata signing options
-        MetadataSignOptions options = new MetadataSignOptions();
+        // search for Metadata signatures in Svg document
+        List<ImageMetadataSignature> signatures = signature.Search<ImageMetadataSignature>(SignatureType.Metadata);
 
-        // Specify different Metadata Signatures and add them to options signature collection
-        // set start id
-        ushort imgsMetadataId = 41996;
-        // setup int value
-        ImageMetadataSignature mdSign_DocId = new ImageMetadataSignature(imgsMetadataId++, 123456); // int
-        options.Signatures.Add(mdSign_DocId);
-        // setup Author property
-        ImageMetadataSignature mdSign_Author = new ImageMetadataSignature(imgsMetadataId++, "Mr.Scherlock Holmes"); // string
-        options.Signatures.Add(mdSign_Author);
-        // setup data of sign date
-        ImageMetadataSignature mdSign_Date = new ImageMetadataSignature(imgsMetadataId++, DateTime.Now); // DateTime
-        options.Signatures.Add(mdSign_Date);
-        // setup double
-        ImageMetadataSignature mdSign_Amnt = new ImageMetadataSignature(imgsMetadataId++, 123.456M); //decimal value
-        options.Signatures.Add(mdSign_Amnt);
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println("..."));
 
-        // sign Svg document
-        SignResult result = signature.sign(outputFilePath, options);
 
         ```
 
@@ -104,7 +87,7 @@ demos:
     enable: true
     title: "Search Metadata signatures Live Demo"
     content: |
-       Add Metadata electronic signatures to Svg file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Svg file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

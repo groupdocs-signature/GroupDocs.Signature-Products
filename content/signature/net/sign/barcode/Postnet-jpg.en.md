@@ -45,27 +45,6 @@ about:
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
-overview:
-    enable: true
-    title: "Overview API"
-    content: |
-        Sign your Jpg files with Barcode signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put Barcode on Jpg file in a very convenient way and for free. Besides that it is possible to sign Jpg files using advanced Barcode options. 
-        
-        There are a lot of options features to sign Jpg which you may use for your purposes:
-
-        * Barcode position on the page can be set up as absolutely as relatively;;
-        * One Barcode signature may be placed on specified pages of multi-page documents;;
-        * A lot of additional signature features like color, size, border etc. are available..
-        
-        There are also saving options for signed Jpg file:
-
-        * after signing file might be saved with other supported format;
-        * furthermore file can be encrypted with password or saved to memory stream.
-
-        Signing Jpg files with Barcode provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
-
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -121,7 +100,7 @@ demos:
     enable: true
     title: "Signing Jpg documents with Barcode Live Demo"
     content: |
-       Sign Jpg file with Barcode signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
+       Sign Jpg file with various signatures right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.
 
         
 ############################# About Formats ############################

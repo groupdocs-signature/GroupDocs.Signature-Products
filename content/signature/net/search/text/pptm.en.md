@@ -9,7 +9,7 @@ fileformat: Pptm
 productName: .NET
 lang: en
 productCode: net
-otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm
 breadcrumb: Search Text signatures at Pptm with C#
 
 ############################# Head ############################
@@ -62,29 +62,38 @@ steps:
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Signature for .NET for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * Download the latest version of GroupDocs.Signature for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
                 
         // Set up input Pptm file
         string filePath = "input.pptm";
-        // Set up output file
-        string outputFilePath = "output.pptm";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                //Provide sign options
-                TextSignOptions options = new TextSignOptions("John Smith")
+                //Create search options
+                TextSearchOptions options = new TextSearchOptions()
                 {
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
+                    // specify special pages to search on 
+                    AllPages = false,
+                    // single page number
+                    PageNumber = 1,
+                    // specify text match type
+                    MatchType = TextMatchType.Contains,
+                    // specify text pattern to search
+                    Text = "Text signature"
                 };
 
-                // sign Pptm document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for Text signatures in Pptm document
+                List<TextSignature> signatures = signature.Search<TextSignature>(options);
+
+                // process signatures which were found                
+                foreach (TextSignature signature in signatures)
+                {
+                    //...
+                }
         }
 
         ```
@@ -94,7 +103,7 @@ demos:
     enable: true
     title: "Search Text signatures Live Demo"
     content: |
-       Add Text electronic signatures to Pptm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Pptm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

@@ -1,18 +1,24 @@
         
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
-        // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
-        //Provide sign options
-        TextSignOptions options = new TextSignOptions("John Smith");
+        //Create search options
+        TextSearchOptions options = new TextSearchOptions();
 
-        // set signature position
-        options.setLeft(50);
-        options.setTop(200);
+        // specify special pages to search on 
+        options.setAllPages(false);
+        // single page number
+        options.setPageNumber(1);
+        // specify text match type
+        options.setMatchType(TextMatchType.Contains);
+        // specify text pattern to search
+        options.setText("Text signature");
+                            
+        // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
+        List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
-        // sign <% get "Fileformat" %> document
-        SignResult result = signature.sign(outputFilePath, options);
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println("..."));

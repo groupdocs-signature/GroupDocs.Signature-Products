@@ -1,20 +1,29 @@
         
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
-        // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                //Provide sign options
-                TextSignOptions options = new TextSignOptions("John Smith")
+                //Create search options
+                TextSearchOptions options = new TextSearchOptions()
                 {
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
+                    // specify special pages to search on 
+                    AllPages = false,
+                    // single page number
+                    PageNumber = 1,
+                    // specify text match type
+                    MatchType = TextMatchType.Contains,
+                    // specify text pattern to search
+                    Text = "Text signature"
                 };
 
-                // sign <% get "Fileformat" %> document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
+                List<TextSignature> signatures = signature.Search<TextSignature>(options);
+
+                // process signatures which were found                
+                foreach (TextSignature signature in signatures)
+                {
+                    //...
+                }
         }

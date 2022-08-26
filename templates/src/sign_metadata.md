@@ -12,6 +12,6 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.metadata") %>
+<% set "OtherFormats" (dict "otherformats_sign.metadata") %>
 <% set "Family" (lower (dict "families.{fileformat}")) %>
 <% include "..\\landings\\sign\\_metadata.md" %>

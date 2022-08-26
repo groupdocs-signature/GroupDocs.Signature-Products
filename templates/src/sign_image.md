@@ -12,5 +12,5 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.image") %>
+<% set "OtherFormats" (dict "otherformats_sign.image") %>
 <% include "..\\landings\\sign\\_image.md" %>

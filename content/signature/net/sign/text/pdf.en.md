@@ -44,27 +44,6 @@ about:
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
-overview:
-    enable: true
-    title: "Overview API"
-    content: |
-        Sign your Pdf files with Text signatures using .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can put Text on Pdf file in a very convenient way and for free. Besides that it is possible to sign Pdf files using advanced Text options. 
-        
-        There are a lot of options features to sign Pdf which you may use for your purposes:
-
-        * Text position on the page can be set up as absolutely as relatively;;
-        * One Text signature may be placed on specified pages of multi-page documents;;
-        * A lot of additional signature features like color, size, border etc. are available..
-        
-        There are also saving options for signed Pdf file:
-
-        * after signing file might be saved with other supported format;
-        * furthermore file can be encrypted with password or saved to memory stream.
-
-        Signing Pdf files with Text provides vast amount opportunities for users. Moreover there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
-
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -115,7 +94,7 @@ demos:
     enable: true
     title: "Signing Pdf documents with Text Live Demo"
     content: |
-       Sign Pdf file with Text signature right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
+       Sign Pdf file with various signatures right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website. Free online demo waiting for you.          
 
 ############################# More Formats ############################
 more_formats:

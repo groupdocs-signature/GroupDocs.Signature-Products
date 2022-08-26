@@ -45,27 +45,6 @@ about:
         <% "{about-sign.qrcode-content}" %>
     
 
-overview:
-    enable: true
-    title: "<% "{overview-sign.title}" %>"
-    content: |
-        <% "{overview-sign.description1}" %>
-        <% "{overview-sign.description2}" %> 
-        
-        <% "{overview-sign.sign_options_desc}" %>
-
-        * <% "{overview-sign.sign_options_item_1}" %>;
-        * <% "{overview-sign.sign_options_item_2}" %>;
-        * <% "{overview-sign.sign_options_item_3}" %>.
-        
-        <% "{overview-sign.sign_saving_desc}" %>
-
-        * <% "{overview-sign.sign_saving_item_1}" %>;
-        * <% "{overview-sign.sign_saving_item_2}" %>.
-
-        <% "{overview-sign.summary}" %>
-
-
 ############################# Steps ############################
 steps:
     enable: true

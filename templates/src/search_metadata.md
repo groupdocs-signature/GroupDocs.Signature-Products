@@ -12,5 +12,6 @@
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "RepoName" (dict "products.{product}.repoName") %>
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats.metadata") %>
-<% include "..\\landings\\search\\_search.md" %>
+<% set "OtherFormats" (dict "otherformats_search.metadata") %>
+<% set "Family" (lower (dict "families.{fileformat}")) %>
+<% include "..\\landings\\search\\_search_metadata.md" %>

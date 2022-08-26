@@ -1,25 +1,33 @@
         
         // Set up input <% get "Fileformat" %> file
         string filePath = "input.<% lower (get "Fileformat") %>";
-        // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                // create barcode option with predefined QrCode text
-                QrCodeSignOptions options = new QrCodeSignOptions("JohnSmith")
+                //Create search options
+                QrCodeSearchOptions options = new QrCodeSearchOptions()
                 {
-                    // setup QrCode encoding type
-                    EncodeType = QrCodeTypes.<% get "Codetype" %>,
-
-                    // set signature position
-                    Left = 50,
-                    Top = 50,
-                    Width = 200,
-                    Height = 50
+                    // specify special pages to search on 
+                    AllPages = false,
+                    // single page number
+                    PageNumber = 1,
+                    // set up text match type
+                    MatchType = TextMatchType.Contains,
+                    // specify text pattern to search
+                    Text = "Text signature",
+                    // return  <% get "Signaturetype" %> images for processing
+                    ReturnContent = true,
+                    // set up type of returned  <% get "Signaturetype" %> images
+                    ReturnContentType = FileType.PNG
                 };
 
-                // sign <% get "Fileformat" %> document
-                SignResult result = signature.Sign(outputFilePath, options);
+                // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
+                List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(options);
+
+                // process signatures which were found                
+                foreach (QrCodeSignature signature in signatures)
+                {
+                    //...
+                }
         }
