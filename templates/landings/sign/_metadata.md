@@ -13,12 +13,12 @@ otherformats: <% get "OtherFormats" %>
 breadcrumb: Put <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
-head_title: "<% "{metadata-content-sign.meta_title}" %>"
-head_description: "<% "{metadata-content-sign.meta_description}" %>"
+head_title: "<% "{metadata-content.meta_title}" %>"
+head_description: "<% "{metadata-content.meta_description}" %>"
 
 ############################# Header ############################
-title: "<% "{metadata-content-sign.h1}" %>"
-description: "<% "{metadata-content-sign.h2}" %>"
+title: "<% "{metadata-content.h1}" %>"
+description: "<% "{metadata-content.h2}" %>"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{about-sign.title}" %>"
+    title: "<% "{about.title}" %>"
     content: |
-        <% "{about-sign.metadata-content}" %>
+        <% "{about.metadata-content}" %>
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "<% "{steps-sign.title_left}" %>"
+    title_left: "<% "{steps.title_left}" %>"
     content_left: |
-        <% "{steps-sign.content_left.description}" %>
+        <% "{steps.content_left.description}" %>
         
-        * <% "{steps-sign.content_left.step_1}" %>
-        * <% "{steps-sign.content_left.step_2}" %>
-        * <% "{steps-sign.content_left.step_3}" %>
+        * <% "{steps.content_left.step_1}" %>
+        * <% "{steps.content_left.step_2}" %>
+        * <% "{steps.content_left.step_3}" %>
 
     title_right: "System Requirements"
     content_right: |
-        <% "{steps-sign.content_right.description}" %>
+        <% "{steps.content_right.description}" %>
 
-        * <% "{steps-sign.content_right.step_1}" %>
-        * <% "{steps-sign.content_right.step_2}" %>
+        * <% "{steps.content_right.step_1}" %>
+        * <% "{steps.content_right.step_2}" %>
         * <% get "Runtime" %>
-        * <% "{steps-sign.content_right.step_3}" %>
+        * <% "{steps.content_right.step_3}" %>
          
     code: |
         ```<% dict "products.{product}.syntax" %>    
@@ -72,9 +72,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "<% "{demos-sign.title}" %>"
+    title: "<% "{demos.title}" %>"
     content: |
-       <% "{demos-sign.content}" %>          
+       <% "{demos.content}" %>          
 
 ############################# More Formats ############################
 more_formats:

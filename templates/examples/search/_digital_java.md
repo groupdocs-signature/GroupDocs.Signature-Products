@@ -10,7 +10,10 @@
 
         // specify special search criteria
         options.setComments("Approved");
-                            
+        // specify period of signatures
+        options.setSignDateTimeFrom(LocalDate.of(2021, 3, 5));
+        options.setSignDateTimeTo(LocalDate.of(2022, 7, 16));
+        
         // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
         List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
 

@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced Java API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides Java API for processing documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -78,7 +78,10 @@ steps:
 
         // specify special search criteria
         options.setComments("Approved");
-                            
+        // specify period of signatures
+        options.setSignDateTimeFrom(LocalDate.of(2021, 3, 5));
+        options.setSignDateTimeTo(LocalDate.of(2022, 7, 16));
+        
         // search for Digital signatures in Xlsx document
         List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
 
@@ -90,7 +93,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Search Digital signatures Live Demo"
+    title: "Signing with Digital signatures Live Demo"
     content: |
        Add various electronic signatures to Xlsx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
