@@ -1,0 +1,38 @@
+{
+  "content": {
+    "meta_title": "Update {{Signaturetype}} signatures placed at {{Fileformat}} files in {{ProgLang}}",
+    "meta_description": "Use simple and easy to understand {{ProductName}} code for {{Signaturetype}} signatures updation in signed {{Fileformat}} documents.",
+    "h1": "Edit and update {{Signaturetype}} signatures placed at {{Fileformat}} files",
+    "h2": "API for {{ProductName}} provides functionality to edit and update {{Signaturetype}} signatures at {{Fileformat}} documents. Update e-signatures inside your {{Fileformat}} documents with a couple lines of code quickly and easily."
+  },
+  "about": {
+    "title": "Learn about {{ProductFullName}} API features",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API functionality contains vast selection of means to process in demand documents formats by using electronic signatures. Wide spectrum of e-signatures like text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. A large number of useful features and settings are available."
+  },
+  "steps": {
+    "title_left": "How to change {{Signaturetype}} signatures in your {{Fileformat}} document",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) includes useful features like updation of {{Signaturetype}} signatures placed at {{Fileformat}} documents. It is makes possible to change signatures features without excess code.",
+      "step_1": "To start with, create Signature object passing as a constructor parameter path to a document which must to be updated.",
+      "step_2": "Then, instantiate an approproate particular signature object and set up its identifier and properties which needs to be changed.",
+      "step_3": "In addition, Call Signature's Update method passing particular signature object.",
+      "step_4": "Lastly, process updation result."
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development environments: {{DevEnv}}",
+      "step_3": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signing with {{Signaturetype}} signatures Live Demo",
+    "content": "Add various electronic signatures to {{Fileformat}} file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website."
+  },
+  "more_formats": {
+    "title": "Update various {{Signaturetype}} signatures via {{ProgLang}}",
+    "content": "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
+  }
+
+}

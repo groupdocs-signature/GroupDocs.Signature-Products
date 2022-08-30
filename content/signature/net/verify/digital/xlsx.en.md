@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Discover GroupDocs.Signature for .NET API features"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API for .NET provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signature as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available.
     
 
 ############################# Steps ############################
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "How to validate Digital signatures in your Xlsx document"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) for .NET includes useful features like verification of Digital signatures placed at Xlsx documents. Use this opportunity without implementing extra code.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) includes useful features like verification of Digital signatures placed at Xlsx documents. Use this opportunity without implementing extra code.
         
         * Firstly, instantiate Signature class providing as a constructor parameter path to a document which is supposed to be verified.
         * Secondly, create a new VerifyOptions object and set up all required properties.

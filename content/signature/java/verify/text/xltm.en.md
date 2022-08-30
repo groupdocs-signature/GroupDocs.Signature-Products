@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Discover GroupDocs.Signature for Java API features"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API for Java provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signature as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available.
     
 
 ############################# Steps ############################
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "How to validate Text signatures in your Xltm document"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) for Java includes useful features like verification of Text signatures placed at Xltm documents. Use this opportunity without implementing extra code.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) includes useful features like verification of Text signatures placed at Xltm documents. Use this opportunity without implementing extra code.
         
         * Firstly, instantiate Signature class providing as a constructor parameter path to a document which is supposed to be verified.
         * Secondly, create a new VerifyOptions object and set up all required properties.
