@@ -1,0 +1,17 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias:  operation
+  values: [delete] 
+- alias:  signaturetype
+  values: [digital]
+- alias:  fileformat
+  values: [pdf, doc, docx, docm, dot, dotx, odt, ott, xls, xlsx, xlsm, xlsb, ods, ots, xltx, xltm, pptx, pptm]
+
+dictionaries: ["..\\..\\data\\otherformats.json"]
+
+generationRules:
+  include:
+  - signaturetype[digital] + fileformat[pdf, doc, docx, docm, dot, dotx, odt, ott, xls, xlsx, xlsm, xlsb, ods, ots, xltx, xltm, pptx, pptm]
+  
+outputPath: "signature\\{product}\\{operation}\\{signaturetype}\\{fileformat}.{lang}.md"

@@ -15,7 +15,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) includes useful features like updation of {{Signaturetype}} signatures placed at {{Fileformat}} documents. It is makes possible to change signatures features without excess code.",
       "step_1": "To start with, create Signature object passing as a constructor parameter path to a document which must to be updated.",
       "step_2": "Then, instantiate an approproate particular signature object and set up its identifier and properties which needs to be changed.",
-      "step_3": "In addition, Call Signature's Update method passing particular signature object.",
+      "step_3": "In addition, call Signature's Update method passing particular signature object.",
       "step_4": "Lastly, process updation result."
     },
     "title_right": "System Requirements",

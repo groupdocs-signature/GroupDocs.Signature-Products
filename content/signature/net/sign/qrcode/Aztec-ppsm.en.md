@@ -19,7 +19,7 @@ head_description: "Create Aztec QR Code Signature on Ppsm file for .NET using a 
 
 ############################# Header ############################
 title: "Generate Aztec QR Code signature for Ppsm document in C#"
-description: "eSign your Ppsm documents and contracts with Aztec QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options.!"
+description: "eSign your Ppsm documents and contracts with Aztec QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Ppsm with Qrcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Ppsm documents with Qrcode signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Ppsm documents with Qrcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Ppsm file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

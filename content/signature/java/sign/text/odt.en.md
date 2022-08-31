@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Odt with Text in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Odt documents with Text signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Odt documents with Text signatures quickly and easily.
         
         * Create an instance of Signature class providing Odt file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

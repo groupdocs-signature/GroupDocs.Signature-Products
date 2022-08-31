@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Ott with Digital in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Ott documents with Digital signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Ott documents with Digital signatures quickly and easily.
         
         * Create an instance of Signature class providing Ott file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

@@ -19,7 +19,7 @@ head_description: "Create Codabar Barcode Signature on Ppsx file for .NET using 
 
 ############################# Header ############################
 title: "Generate Codabar Barcode signature for Ppsx document in C#"
-description: "eSign your Ppsx business documents with Codabar Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
+description: "eSign your Ppsx business documents with Codabar Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Ppsx with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Ppsx documents with Barcode signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Ppsx documents with Barcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Ppsx file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

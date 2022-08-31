@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Doc with Text in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Doc documents with Text signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Doc documents with Text signatures quickly and easily.
         
         * Create an instance of Signature class providing Doc file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

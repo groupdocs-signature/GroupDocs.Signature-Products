@@ -9,19 +9,19 @@
     "meta_title": "eSign {{Fileformat}} document with {{Codetype}} Barcode in {{ProgLang}}",
     "meta_description": "Create {{Codetype}} Barcode Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats.",
     "h1": "Generate {{Codetype}} Barcode signature for {{Fileformat}} document in {{ProgLang}}",
-    "h2": "eSign your {{Fileformat}} business documents with {{Codetype}} Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
+    "h2": "eSign your {{Fileformat}} business documents with {{Codetype}} Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
   },
   "qrcode-content": {
     "meta_title": "eSign {{Fileformat}} document with {{Codetype}} QR Code in {{ProgLang}}",
     "meta_description": "Create {{Codetype}} QR Code Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code.",
     "h1": "Generate {{Codetype}} QR Code signature for {{Fileformat}} document in {{ProgLang}}",
-    "h2": "eSign your {{Fileformat}} documents and contracts with {{Codetype}} QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options.!"
+    "h2": "eSign your {{Fileformat}} documents and contracts with {{Codetype}} QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options."
   },
   "metadata-content": {
     "meta_title": "Create Metadata electronic signatures in the {{Fileformat}} documents with {{ProgLang}}",
     "meta_description": "Make Metadata as hidden electronic signatures withint the {{Fileformat}} documents for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information.",
     "h1": "Metadata electronic signatures for {{Fileformat}} document in {{ProgLang}} is simple and easy!",
-    "h2": "eSign your {{Fileformat}} documents and contracts with the hidden Metadata. Generate Metadata for image, Words, PDF, Excel and Presentation quick, easy and simple with few lines of code to set up options.!"
+    "h2": "eSign your {{Fileformat}} documents and contracts with the hidden Metadata. Generate Metadata for image, Words, PDF, Excel and Presentation quick, easy and simple with few lines of code to set up options."
   },
   "about": {
     "title": "About {{ProductFullName}} API",
@@ -33,7 +33,7 @@
   "steps": {
     "title_left": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quick and easily.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
       "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
       "step_2": "Instantiate SignOptions class and set all demanded data.",
       "step_3": "Invoke the Signature.Sign passing output {{Fileformat}} file or memory stream"

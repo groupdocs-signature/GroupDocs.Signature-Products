@@ -19,7 +19,7 @@ head_description: "Create UPCA Barcode Signature on Xls file for .NET using a fe
 
 ############################# Header ############################
 title: "Generate UPCA Barcode signature for Xls document in C#"
-description: "eSign your Xls business documents with UPCA Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
+description: "eSign your Xls business documents with UPCA Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Xls with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Xls documents with Barcode signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Xls documents with Barcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Xls file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

@@ -53,7 +53,7 @@ steps:
         
         * To start with, create Signature object passing as a constructor parameter path to a document which must to be updated.
         * Then, instantiate an approproate particular signature object and set up its identifier and properties which needs to be changed.
-        * In addition, Call Signature's Update method passing particular signature object.
+        * In addition, call Signature's Update method passing particular signature object.
         * Lastly, process updation result.
 
     title_right: "System Requirements"

@@ -1,0 +1,115 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Delete
+signaturetype: Barcode
+fileformat: Dot
+productName: Java
+lang: en
+productCode: java
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm
+breadcrumb: Put Barcode signature on Dot for Java
+
+############################# Head ############################
+head_title: "Delete Barcode signatures from Dot files in Java"
+head_description: "Deletion of specific Barcode signatures from signed Dot documents might be performed easily with short Java code."
+
+############################# Header ############################
+title: "Remove Barcode signatures which are in Dot files"
+description: "Delete various Barcode signatures from Dot documents. Removing Barcode signatures requires simple Java code."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-java.png"
+        product: "GroupDocs.Signature"
+        platform: "Java"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Get information about GroupDocs.Signature for Java API features"
+    content: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API provides many ways to process your documents with electronic signatures. Digital signatures like text, image, barcode, QR-code, stamp, form-field and metadata are available. Customers have possibility to add, delete, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many other document formats. A vast number of useful features and settings are provided.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "How to remove Barcode signatures from your Dot document"
+    content_left: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides useful feature of clearing Dot documents of Barcode signatures with a few lines of code.
+        
+        * Firstly, instantiate Signature object passing path to your document as a constructor parameter.
+        * Then, create an approproate signature object and set up its unique identifier.
+        * After that, invoke Delete method passing signature object which must be deleted.
+        * Finally, process updation result.
+
+    title_right: "System Requirements"
+    content_right: |
+        GroupDocs.Signature for Java are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Download the latest version of GroupDocs.Signature for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+         
+    code: |
+        ```java    
+                
+        // Set up input Dot file
+        string filePath = "input.dot";
+
+        // Instantiate Signature for input file
+        Signature signature = new Signature(filePath);
+
+        // Id of signature which is supposed to be deleted
+        // such Id may be obtained as result of search operation
+        string id = "07f83369-318b-41ad-a843-732417b912c2";
+
+        // provide signature features to delete
+        BarcodeSignature signatureToDelete = new BarcodeSignature();
+
+        // set up particular signature id
+        signatureToDelete.setSignatureId(id);
+
+        // delete signature
+        bool deleteResult = signature.Delete(signatureToDelete);
+
+        // process deletion result
+        if (deleteResult)
+        {
+                System.out.println("Signature was deleted successfully!");
+        }
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Signing with Barcode signatures Live Demo"
+    content: |
+       Add various electronic signatures to Dot file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Signing Other Document Formats with Barcode using Java"
+    content: |
+        Java Barcode signatures management API for documents and images. Add Barcode signatures to some of the popular file formats as stated below.
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

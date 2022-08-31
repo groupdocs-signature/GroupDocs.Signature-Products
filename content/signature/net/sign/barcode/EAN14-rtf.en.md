@@ -19,7 +19,7 @@ head_description: "Create E A N14 Barcode Signature on Rtf file for .NET using a
 
 ############################# Header ############################
 title: "Generate E A N14 Barcode signature for Rtf document in C#"
-description: "eSign your Rtf business documents with E A N14 Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
+description: "eSign your Rtf business documents with E A N14 Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Rtf with Barcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Rtf documents with Barcode signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Rtf documents with Barcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Rtf file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

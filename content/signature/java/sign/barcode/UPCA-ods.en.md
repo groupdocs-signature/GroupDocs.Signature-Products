@@ -19,7 +19,7 @@ head_description: "Create UPCA Barcode Signature on Ods file for Java using a fe
 
 ############################# Header ############################
 title: "Generate UPCA Barcode signature for Ods document in Java"
-description: "eSign your Ods business documents with UPCA Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options.!"
+description: "eSign your Ods business documents with UPCA Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Ods with Barcode in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Ods documents with Barcode signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Ods documents with Barcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Ods file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

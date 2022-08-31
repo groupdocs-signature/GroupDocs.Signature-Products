@@ -19,7 +19,7 @@ head_description: "Create Aztec QR Code Signature on Pptm file for Java using a 
 
 ############################# Header ############################
 title: "Generate Aztec QR Code signature for Pptm document in Java"
-description: "eSign your Pptm documents and contracts with Aztec QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options.!"
+description: "eSign your Pptm documents and contracts with Aztec QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Pptm with Qrcode in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Pptm documents with Qrcode signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Pptm documents with Qrcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Pptm file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

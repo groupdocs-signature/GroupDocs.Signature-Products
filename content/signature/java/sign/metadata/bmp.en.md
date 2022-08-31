@@ -18,7 +18,7 @@ head_description: "Make Metadata as hidden electronic signatures withint the Bmp
 
 ############################# Header ############################
 title: "Metadata electronic signatures for Bmp document in Java is simple and easy!"
-description: "eSign your Bmp documents and contracts with the hidden Metadata. Generate Metadata for image, Words, PDF, Excel and Presentation quick, easy and simple with few lines of code to set up options.!"
+description: "eSign your Bmp documents and contracts with the hidden Metadata. Generate Metadata for image, Words, PDF, Excel and Presentation quick, easy and simple with few lines of code to set up options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Bmp with Metadata in Java"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Bmp documents with Metadata signatures quick and easily.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides ability to sign Bmp documents with Metadata signatures quickly and easily.
         
         * Create an instance of Signature class providing Bmp file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

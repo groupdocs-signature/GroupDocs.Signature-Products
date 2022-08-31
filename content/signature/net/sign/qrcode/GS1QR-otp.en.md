@@ -19,7 +19,7 @@ head_description: "Create G S1 Q R QR Code Signature on Otp file for .NET using 
 
 ############################# Header ############################
 title: "Generate G S1 Q R QR Code signature for Otp document in C#"
-description: "eSign your Otp documents and contracts with G S1 Q R QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options.!"
+description: "eSign your Otp documents and contracts with G S1 Q R QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -50,7 +50,7 @@ steps:
     enable: true
     title_left: "Steps to sign Otp with Qrcode in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Otp documents with Qrcode signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Otp documents with Qrcode signatures quickly and easily.
         
         * Create an instance of Signature class providing Otp file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

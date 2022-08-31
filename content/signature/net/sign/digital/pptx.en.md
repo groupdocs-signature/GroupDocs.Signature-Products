@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Pptx with Digital in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Pptx documents with Digital signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Pptx documents with Digital signatures quickly and easily.
         
         * Create an instance of Signature class providing Pptx file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.

@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Steps to sign Xltm with Digital in C#"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Xltm documents with Digital signatures quick and easily.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides ability to sign Xltm documents with Digital signatures quickly and easily.
         
         * Create an instance of Signature class providing Xltm file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
