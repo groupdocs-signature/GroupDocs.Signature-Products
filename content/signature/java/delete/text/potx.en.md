@@ -69,23 +69,22 @@ steps:
         ```java    
                 
         // Set up input Potx file
-        string filePath = "input.potx";
+        String filePath = "input.potx";
+        // Set up output file
+        String outputFilePath = "output.potx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be deleted
         // such Id may be obtained as result of search operation
-        string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
+        String id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
 
         // provide signature features to delete
-        TextSignature signatureToDelete = new TextSignature();
-
-        // set up particular signature id
-        signatureToDelete.setSignatureId(id);
+        TextSignature signatureToDelete = new TextSignature(id);
 
         // delete signature
-        bool deleteResult = signature.Delete(signatureToDelete);
+        Boolean deleteResult = signature.delete(outputFilePath, signatureToDelete);
 
         // process deletion result
         if (deleteResult)
@@ -104,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Text using Java"
+    title: "Delete your Text signatures with Java"
     content: |
-        Java Text signatures management API for documents and images. Add Text signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

@@ -69,7 +69,7 @@ steps:
         ```java    
                 
         // Set up input Ods file
-        string filePath = "input.ods";
+        String filePath = "input.ods";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -81,14 +81,14 @@ steps:
         options.setComments("Approved");
 
         // specify period of signatures
-        options.setSignDateTimeFrom(LocalDate.of(2020, 12, 12));
-        options.setSignDateTimeTo(LocalDate.of(2022, 12, 12));
+        options.setSignDateTimeFrom(new Date(2020, 12, 12));
+        options.setSignDateTimeTo(new Date(2022, 12, 12));
                             
         // Verify document signatures
-        VerificationResult result = signature.Verify(options);
+        VerificationResult result = signature.verify(options);
 
         //process result
-        if (result.IsValid)
+        if (result.isValid())
         {
             //..
         }
@@ -104,9 +104,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Digital using Java"
+    title: "Verify other Digital signatures using Java"
     content: |
-        Java Digital signatures management API for documents and images. Add Digital signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

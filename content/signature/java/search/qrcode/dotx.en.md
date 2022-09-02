@@ -68,7 +68,7 @@ steps:
         ```java    
                 
         // Set up input Dotx file
-        string filePath = "input.dotx";
+        String filePath = "input.dotx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -90,11 +90,10 @@ steps:
         options.setReturnContentType(FileType.PNG);
                             
         // search for Qrcode signatures in Dotx document
-        List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(options);
+        List<QrCodeSignature> signatures = signature.search(QrCodeSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
-
+        signatures.forEach(item -> System.out.println(item.toString()));
         ```
 
 ############################# Demos ############################
@@ -108,9 +107,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Qrcode signatures using Java
+    title: "Search other Qrcode signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

@@ -68,7 +68,7 @@ steps:
         ```java    
                 
         // Set up input Dotm file
-        string filePath = "input.dotm";
+        String filePath = "input.dotm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -86,10 +86,10 @@ steps:
         options.setReturnContentType(FileType.PNG);
 
         // search for Image signatures in Dotm document
-        List<ImageSignature> signatures = signature.Search<ImageSignature>(options);
+        List<ImageSignature> signatures = signature.search(ImageSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));
 
         ```
 
@@ -104,9 +104,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Image signatures using Java
+    title: "Search other Image signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

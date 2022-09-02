@@ -108,9 +108,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Qrcode using C#"
+    title: "Verify other Qrcode signatures using C#"
     content: |
-        .NET Qrcode signatures management API for documents and images. Add Qrcode signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

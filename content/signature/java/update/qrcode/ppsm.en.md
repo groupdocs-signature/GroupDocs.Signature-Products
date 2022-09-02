@@ -69,20 +69,21 @@ steps:
         ```java    
                 
         // Set up input Ppsm file
-        string filePath = "input.ppsm";
+        String filePath = "input.ppsm";
+        // Set up output file
+        String outputFilePath = "output.ppsm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be updated
-        // such Id might be get as result of search operation
-        string id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
+        // such Id might be got as a result of search operation
+        String id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
 
         // provide signature features to update
-        QrCodeSignature signatureToUpdate = new QrCodeSignature();
-
         // set up particular signature id
-        signatureToUpdate.setSignatureId(id);
+        QrCodeSignature signatureToUpdate = new QrCodeSignature(id);
+
         // specify signature width
         signatureToUpdate.setWidth(200);
         // specify signature height
@@ -93,7 +94,7 @@ steps:
         signatureToUpdate.setTop(160);
 
         // update signature
-        bool updateResult = signature.Update(signatureToUpdate);
+        Boolean updateResult = signature.update(outputFilePath, signatureToUpdate);
 
         // process updation result
         if (updateResult)
@@ -112,9 +113,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Qrcode using Java"
+    title: "Update various Qrcode signatures via Java"
     content: |
-        Java Qrcode signatures management API for documents and images. Add Qrcode signatures to some of the popular file formats as stated below.
+        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
     format: 
        
        

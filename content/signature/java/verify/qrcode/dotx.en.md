@@ -69,7 +69,7 @@ steps:
         ```java    
                 
         // Set up input Dotx file
-        string filePath = "input.dotx";
+        String filePath = "input.dotx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -79,7 +79,7 @@ steps:
 
         // process only first page
         options.setPagesSetup(new PagesSetup());
-        options.setPageNumber(2);
+        options.setPageNumber(1);
         options.setAllPages(false);
         // specify text match type
         options.setMatchType(TextMatchType.StartsWith);
@@ -87,10 +87,10 @@ steps:
         options.setText("QrCode text");
                             
         // Verify document signatures
-        VerificationResult result = signature.Verify(options);
+        VerificationResult result = signature.verify(options);
 
         //process result
-        if (result.IsValid)
+        if (result.isValid())
         {
             //..
         }
@@ -107,9 +107,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Qrcode using Java"
+    title: "Verify other Qrcode signatures using Java"
     content: |
-        Java Qrcode signatures management API for documents and images. Add Qrcode signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

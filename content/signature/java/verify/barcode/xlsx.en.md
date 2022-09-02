@@ -67,9 +67,9 @@ steps:
          
     code: |
         ```java    
-        
+                
         // Set up input Xlsx file
-        string filePath = "input.xlsx";
+        String filePath = "input.xlsx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -86,10 +86,10 @@ steps:
         options.setText("Special signature");
                             
         // Verify document signatures
-        VerificationResult result = signature.Verify(options);
+        VerificationResult result = signature.verify(options);
 
         //process result
-        if (result.IsValid)
+        if (result.isValid())
         {
             //..
         }
@@ -106,9 +106,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Barcode using Java"
+    title: "Verify other Barcode signatures using Java"
     content: |
-        Java Barcode signatures management API for documents and images. Add Barcode signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

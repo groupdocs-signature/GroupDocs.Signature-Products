@@ -1,6 +1,6 @@
         
         // Set up input <% get "Fileformat" %> file
-        string filePath = "input.<% lower (get "Fileformat") %>";
+        String filePath = "input.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -10,7 +10,7 @@
 
         // process only first page
         options.setPagesSetup(new PagesSetup());
-        options.setPageNumber(2);
+        options.setPageNumber(1);
         options.setAllPages(false);
         // specify text match type
         options.setMatchType(TextMatchType.StartsWith);
@@ -18,10 +18,10 @@
         options.setText("QrCode text");
                             
         // Verify document signatures
-        VerificationResult result = signature.Verify(options);
+        VerificationResult result = signature.verify(options);
 
         //process result
-        if (result.IsValid)
+        if (result.isValid())
         {
             //..
         }

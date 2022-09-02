@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Dotx for C#
 
 ############################# Head ############################
 head_title: "eSign Dotx document with E A N13 Barcode in C#"
-head_description: "Create E A N13 Barcode Signature on Dotx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_description: "Create E A N13 Barcode Signature and put it on Dotx document with .NET using a couple lines of code. Use the GroupDocs Document Signature API for signing various file formats."
 
 ############################# Header ############################
 title: "Generate E A N13 Barcode signature for Dotx document in C#"
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is an advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -124,9 +124,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with E A N13 Barcode using C#"
+    title: "Other supported Barcode signatures for C#"
     content: |
-        .NET E A N13 Barcode signatures management API for documents and images. Add E A N13 Barcode signatures to some of the popular file formats as stated below.
+        "You can also sign Dotx with other signature types. Please see the list below."
     format: 
            
        

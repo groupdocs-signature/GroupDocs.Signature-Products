@@ -106,9 +106,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Text using C#"
+    title: "Delete your Text signatures with C#"
     content: |
-        .NET Text signatures management API for documents and images. Add Text signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

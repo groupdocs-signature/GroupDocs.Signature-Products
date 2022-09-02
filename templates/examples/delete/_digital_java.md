@@ -1,22 +1,21 @@
         
         // Set up input <% get "Fileformat" %> file
-        string filePath = "input.<% lower (get "Fileformat") %>";
+        String filePath = "input.<% lower (get "Fileformat") %>";
+        // Set up output file
+        String outputFilePath = "output.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be deleted
         // such Id may be obtained as result of search operation
-        string id = "a01e1940-997a-444b-89af-9309a2d559a5";
+        String id = "a01e1940-997a-444b-89af-9309a2d559a5";
 
-        // provide signature features to delete
-        DigitalSignature signatureToDelete = new DigitalSignature();
-
-        // set up particular signature id
-        signatureToDelete.setSignatureId(id);
+        // provide signature item to delete
+        DigitalSignature signatureToDelete = new DigitalSignature(id);
 
         // delete signature
-        bool deleteResult = signature.Delete(signatureToDelete);
+        Boolean deleteResult = signature.delete(outputFilePath, signatureToDelete);
 
         // process deletion result
         if (deleteResult)

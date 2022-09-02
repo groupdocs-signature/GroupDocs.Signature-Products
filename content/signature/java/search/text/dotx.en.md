@@ -68,7 +68,7 @@ steps:
         ```java    
                 
         // Set up input Dotx file
-        string filePath = "input.dotx";
+        String filePath = "input.dotx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -86,10 +86,10 @@ steps:
         options.setText("Text signature");
                             
         // search for Text signatures in Dotx document
-        List<TextSignature> signatures = signature.Search<TextSignature>(options);
+        List<TextSignature> signatures = signature.search(TextSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));
 
         ```
 
@@ -104,9 +104,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Text signatures using Java
+    title: "Search other Text signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

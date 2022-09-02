@@ -80,9 +80,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: <% "{more_formats.title}" %>
+    title: "<% "{more_formats.title}" %>"
     content: |
-        <% "{more_formats.content}" %>
+        "<% "{more_formats.content}" %>"
     format: 
            
        

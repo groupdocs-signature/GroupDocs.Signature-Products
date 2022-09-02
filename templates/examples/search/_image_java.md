@@ -1,6 +1,6 @@
         
         // Set up input <% get "Fileformat" %> file
-        string filePath = "input.<% lower (get "Fileformat") %>";
+        String filePath = "input.<% lower (get "Fileformat") %>";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -18,7 +18,7 @@
         options.setReturnContentType(FileType.PNG);
 
         // search for <% get "Signaturetype" %> signatures in <% get "Fileformat" %> document
-        List<ImageSignature> signatures = signature.Search<ImageSignature>(options);
+        List<ImageSignature> signatures = signature.search(ImageSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));

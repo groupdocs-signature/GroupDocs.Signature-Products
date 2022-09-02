@@ -68,16 +68,16 @@ steps:
         ```java    
         
         // Set up input Doc file
-        string filePath = "input.doc";
+        String filePath = "input.doc";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // search for Metadata signatures in Doc document
-        List<WordProcessingMetadataSignature> signatures = signature.Search<WordProcessingMetadataSignature>(SignatureType.Metadata);
+        List<WordProcessingMetadataSignature> signatures = signature.search(WordProcessingMetadataSignature.class, SignatureType.Metadata);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));
 
 
         ```
@@ -93,9 +93,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Metadata signatures using Java
+    title: "Search other Metadata signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

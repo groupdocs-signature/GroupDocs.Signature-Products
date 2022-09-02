@@ -96,9 +96,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Metadata signatures using C#
+    title: "Search other Metadata signatures using C#"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

@@ -75,7 +75,7 @@ steps:
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // Id of signature which is supposed to be updated
-                // such Id might be get as result of search operation
+                // such Id might be got as a result of search operation
                 string id = "07f83369-318b-41ad-a843-732417b912c2";
 
                 // provide signature features to update
@@ -114,9 +114,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Barcode using C#"
+    title: "Update various Barcode signatures via C#"
     content: |
-        .NET Barcode signatures management API for documents and images. Add Barcode signatures to some of the popular file formats as stated below.
+        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
     format: 
        
        

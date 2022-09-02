@@ -13,8 +13,8 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Dotx for Java
 
 ############################# Head ############################
-head_title: "Create Metadata electronic signatures in the Dotx documents with Java"
-head_description: "Make Metadata as hidden electronic signatures withint the Dotx documents for Java using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
+head_title: "Append Metadata electronic signatures to the Dotx documents via Java"
+head_description: "Use Metadata as hidden electronic signatures incide the Dotx documents for Java using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
 
 ############################# Header ############################
 title: "Metadata electronic signatures for Dotx document in Java is simple and easy!"
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -66,11 +66,11 @@ steps:
          
     code: |
         ```java    
-        
+                
         // Set up input Dotx file
-        string filePath = "input.dotx";
+        String filePath = "input.dotx";
         // Set up output file
-        string outputFilePath = "output.dotx";
+        String outputFilePath = "output.dotx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -80,13 +80,13 @@ steps:
 
         // setup Author property
         WordProcessingMetadataSignature mdSign_Author = new WordProcessingMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
-        options.Signatures.Add(mdSign_Author);
+        options.getSignatures().add(mdSign_Author);
         // setup document data
-        WordProcessingMetadataSignature mdSign_DocData = new WordProcessingMetadataSignature("CreatedOn", DateTime.Now);// Datetime value
-        options.Signatures.Add(mdSign_DocData);
+        WordProcessingMetadataSignature mdSign_DocData = new WordProcessingMetadataSignature("CreatedOn", new Date());// Datetime value
+        options.getSignatures().add(mdSign_DocData);
         // setup document id
         WordProcessingMetadataSignature mdSign_DocId = new WordProcessingMetadataSignature("DocumentId", 123456);// Integer value
-        options.Signatures.Add(mdSign_DocId);
+        options.getSignatures().add(mdSign_DocId);
 
         // sign Dotx document
         SignResult result = signature.sign(outputFilePath, options);
@@ -103,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Metadata using Java"
+    title: "Other supported Metadata signatures for Java"
     content: |
-        Java Metadata signatures management API for documents and images. Add Metadata signatures to some of the popular file formats as stated below.
+        "You can also sign Dotx with other signature types. Please see the list below."
     format: 
        
        

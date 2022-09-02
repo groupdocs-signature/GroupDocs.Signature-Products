@@ -13,8 +13,8 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Ots for Java
 
 ############################# Head ############################
-head_title: "Create Metadata electronic signatures in the Ots documents with Java"
-head_description: "Make Metadata as hidden electronic signatures withint the Ots documents for Java using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
+head_title: "Append Metadata electronic signatures to the Ots documents via Java"
+head_description: "Use Metadata as hidden electronic signatures incide the Ots documents for Java using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
 
 ############################# Header ############################
 title: "Metadata electronic signatures for Ots document in Java is simple and easy!"
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -66,11 +66,11 @@ steps:
          
     code: |
         ```java    
-        
+                
         // Set up input Ots file
-        string filePath = "input.ots";
+        String filePath = "input.ots";
         // Set up output file
-        string outputFilePath = "output.ots";
+        String outputFilePath = "output.ots";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -80,13 +80,13 @@ steps:
 
         // setup Author property
         SpreadsheetMetadataSignature mdSign_Author = new SpreadsheetMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
-        options.Signatures.Add(mdSign_Author);
+        options.getSignatures().add(mdSign_Author);
         // setup document data
-        SpreadsheetMetadataSignature mdSign_DocData = new SpreadsheetMetadataSignature("CreatedOn", DateTime.Now);// Datetime value
-        options.Signatures.Add(mdSign_DocData);
+        SpreadsheetMetadataSignature mdSign_DocData = new SpreadsheetMetadataSignature("CreatedOn", new Date());// Datetime value
+        options.getSignatures().add(mdSign_DocData);
         // setup document id
         SpreadsheetMetadataSignature mdSign_DocId = new SpreadsheetMetadataSignature("DocumentId", 123456);// Integer value
-        options.Signatures.Add(mdSign_DocId);
+        options.getSignatures().add(mdSign_DocId);
 
         // sign Ots document
         SignResult result = signature.sign(outputFilePath, options);
@@ -103,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Metadata using Java"
+    title: "Other supported Metadata signatures for Java"
     content: |
-        Java Metadata signatures management API for documents and images. Add Metadata signatures to some of the popular file formats as stated below.
+        "You can also sign Ots with other signature types. Please see the list below."
     format: 
        
        

@@ -68,7 +68,7 @@ steps:
         ```java    
         
         // Set up input Ppsx file
-        string filePath = "input.ppsx";
+        String filePath = "input.ppsx";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -90,10 +90,10 @@ steps:
         options.setReturnContentType(FileType.PNG);
                             
         // search for Barcode signatures in Ppsx document
-        List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+        List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));
 
         ```
 
@@ -108,9 +108,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Barcode signatures using Java
+    title: "Search other Barcode signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

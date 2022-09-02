@@ -1,10 +1,10 @@
         
         // Set up input <% get "Fileformat" %> file
-        string filePath = "input.<% lower (get "Fileformat") %>";
+        String filePath = "input.<% lower (get "Fileformat") %>";
         // Set up output file
-        string outputFilePath = "output.<% lower (get "Fileformat") %>";
+        String outputFilePath = "output.<% lower (get "Fileformat") %>";
         // Provide image file
-        string imageFilePath = "image.png";
+        String imageFilePath = "image.png";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);

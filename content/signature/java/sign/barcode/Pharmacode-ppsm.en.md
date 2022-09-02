@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Ppsm for Java
 
 ############################# Head ############################
 head_title: "eSign Ppsm document with Pharmacode Barcode in Java"
-head_description: "Create Pharmacode Barcode Signature on Ppsm file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_description: "Create Pharmacode Barcode Signature and put it on Ppsm document with Java using a couple lines of code. Use the GroupDocs Document Signature API for signing various file formats."
 
 ############################# Header ############################
 title: "Generate Pharmacode Barcode signature for Ppsm document in Java"
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -67,11 +67,11 @@ steps:
          
     code: |
         ```java    
-        
+                
         // Set up input Ppsm file
-        string filePath = "input.ppsm";
+        String filePath = "input.ppsm";
         // Set up output file
-        string outputFilePath = "output.ppsm";
+        String outputFilePath = "output.ppsm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -122,9 +122,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Pharmacode Barcode using Java"
+    title: "Other supported Barcode signatures for Java"
     content: |
-        Java Pharmacode Barcode signatures management API for documents and images. Add Pharmacode Barcode signatures to some of the popular file formats as stated below.
+        "You can also sign Ppsm with other signature types. Please see the list below."
     format: 
            
        

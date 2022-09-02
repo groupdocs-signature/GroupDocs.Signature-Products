@@ -69,23 +69,22 @@ steps:
         ```java    
                 
         // Set up input Rtf file
-        string filePath = "input.rtf";
+        String filePath = "input.rtf";
+        // Set up output file
+        String outputFilePath = "output.rtf";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be deleted
         // such Id may be obtained as result of search operation
-        string id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
+        String id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
 
         // provide signature features to delete
-        QrCodeSignature signatureToDelete = new QrCodeSignature();
-
-        // set up particular signature id
-        signatureToDelete.setSignatureId(id);
+        QrCodeSignature signatureToDelete = new QrCodeSignature(id);
 
         // delete signature
-        bool deleteResult = signature.Delete(signatureToDelete);
+        Boolean deleteResult = signature.delete(outputFilePath, signatureToDelete);
 
         // process deletion result
         if (deleteResult)
@@ -104,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Qrcode using Java"
+    title: "Delete your Qrcode signatures with Java"
     content: |
-        Java Qrcode signatures management API for documents and images. Add Qrcode signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

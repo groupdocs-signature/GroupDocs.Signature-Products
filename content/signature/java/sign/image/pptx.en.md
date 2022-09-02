@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Pptx for Java
 
 ############################# Head ############################
-head_title: "Adding Image signatures in a Pptx file with Java"
+head_title: "Adding Image signatures in Pptx file with Java"
 head_description: "Put Image Signature on Pptx file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .Pptx files with Image signatures in Java"
+title: "Sign Pptx files with Image signatures in Java"
 description: "How to add Image Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced Java API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced Java API for signing digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -68,11 +68,11 @@ steps:
         ```java    
                 
         // Set up input Pptx file
-        string filePath = "input.pptx";
+        String filePath = "input.pptx";
         // Set up output file
-        string outputFilePath = "output.pptx";
+        String outputFilePath = "output.pptx";
         // Provide image file
-        string imageFilePath = "image.png";
+        String imageFilePath = "image.png";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -86,7 +86,6 @@ steps:
 
         // sign Pptx document
         SignResult result = signature.sign(outputFilePath, options);
-
         ```
 
 ############################# Demos ############################
@@ -99,9 +98,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Image using Java"
+    title: "Other supported Image signatures for Java"
     content: |
-        Java Image signatures management API for documents and images. Add Image signatures to some of the popular file formats as stated below.
+        "You can also sign Pptx with other signature types. Please see the list below."
     format: 
        
        

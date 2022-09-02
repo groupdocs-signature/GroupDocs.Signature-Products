@@ -69,23 +69,22 @@ steps:
         ```java    
                 
         // Set up input Xlsm file
-        string filePath = "input.xlsm";
+        String filePath = "input.xlsm";
+        // Set up output file
+        String outputFilePath = "output.xlsm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be deleted
         // such Id may be obtained as result of search operation
-        string id = "a01e1940-997a-444b-89af-9309a2d559a5";
+        String id = "a01e1940-997a-444b-89af-9309a2d559a5";
 
-        // provide signature features to delete
-        DigitalSignature signatureToDelete = new DigitalSignature();
-
-        // set up particular signature id
-        signatureToDelete.setSignatureId(id);
+        // provide signature item to delete
+        DigitalSignature signatureToDelete = new DigitalSignature(id);
 
         // delete signature
-        bool deleteResult = signature.Delete(signatureToDelete);
+        Boolean deleteResult = signature.delete(outputFilePath, signatureToDelete);
 
         // process deletion result
         if (deleteResult)
@@ -104,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Digital using Java"
+    title: "Delete your Digital signatures with Java"
     content: |
-        Java Digital signatures management API for documents and images. Add Digital signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

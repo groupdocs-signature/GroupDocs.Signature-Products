@@ -108,9 +108,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Barcode using C#"
+    title: "Verify other Barcode signatures using C#"
     content: |
-        .NET Barcode signatures management API for documents and images. Add Barcode signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

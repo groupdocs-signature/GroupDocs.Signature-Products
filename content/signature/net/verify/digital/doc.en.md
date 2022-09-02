@@ -106,9 +106,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Digital using C#"
+    title: "Verify other Digital signatures using C#"
     content: |
-        .NET Digital signatures management API for documents and images. Add Digital signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

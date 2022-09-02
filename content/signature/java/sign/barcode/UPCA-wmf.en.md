@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Wmf for Java
 
 ############################# Head ############################
 head_title: "eSign Wmf document with UPCA Barcode in Java"
-head_description: "Create UPCA Barcode Signature on Wmf file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_description: "Create UPCA Barcode Signature and put it on Wmf document with Java using a couple lines of code. Use the GroupDocs Document Signature API for signing various file formats."
 
 ############################# Header ############################
 title: "Generate UPCA Barcode signature for Wmf document in Java"
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -67,11 +67,11 @@ steps:
          
     code: |
         ```java    
-        
+                
         // Set up input Wmf file
-        string filePath = "input.wmf";
+        String filePath = "input.wmf";
         // Set up output file
-        string outputFilePath = "output.wmf";
+        String outputFilePath = "output.wmf";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -122,9 +122,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with UPCA Barcode using Java"
+    title: "Other supported Barcode signatures for Java"
     content: |
-        Java UPCA Barcode signatures management API for documents and images. Add UPCA Barcode signatures to some of the popular file formats as stated below.
+        "You can also sign Wmf with other signature types. Please see the list below."
     format: 
            
        

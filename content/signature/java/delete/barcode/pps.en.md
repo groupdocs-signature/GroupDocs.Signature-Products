@@ -69,23 +69,22 @@ steps:
         ```java    
                 
         // Set up input Pps file
-        string filePath = "input.pps";
+        String filePath = "input.pps";
+        // Set up output file
+        String outputFilePath = "output.pps";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be deleted
         // such Id may be obtained as result of search operation
-        string id = "07f83369-318b-41ad-a843-732417b912c2";
+        String id = "07f83369-318b-41ad-a843-732417b912c2";
 
-        // provide signature features to delete
-        BarcodeSignature signatureToDelete = new BarcodeSignature();
-
-        // set up particular signature id
-        signatureToDelete.setSignatureId(id);
+        // provide signature item to delete
+        BarcodeSignature signatureToDelete = new BarcodeSignature(id);
 
         // delete signature
-        bool deleteResult = signature.Delete(signatureToDelete);
+        Boolean deleteResult = signature.delete(outputFilePath, signatureToDelete);
 
         // process deletion result
         if (deleteResult)
@@ -104,9 +103,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Barcode using Java"
+    title: "Delete your Barcode signatures with Java"
     content: |
-        Java Barcode signatures management API for documents and images. Add Barcode signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

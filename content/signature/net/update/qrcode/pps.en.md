@@ -75,7 +75,7 @@ steps:
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // Id of signature which is supposed to be updated
-                // such Id might be get as result of search operation
+                // such Id might be got as a result of search operation
                 string id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
 
                 // provide signature features to update
@@ -115,9 +115,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Qrcode using C#"
+    title: "Update various Qrcode signatures via C#"
     content: |
-        .NET Qrcode signatures management API for documents and images. Add Qrcode signatures to some of the popular file formats as stated below.
+        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
     format: 
        
        

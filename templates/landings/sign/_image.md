@@ -79,9 +79,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with <% get "Signaturetype" %> using <% get "ProgLang" %>"
+    title: "<% "{more_formats.title}" %>"
     content: |
-        <% get "ProductName" %> <% get "Signaturetype" %> signatures management API for documents and images. Add <% get "Signaturetype" %> signatures to some of the popular file formats as stated below.
+        "<% "{more_formats.content}" %>"
     format: 
        
        

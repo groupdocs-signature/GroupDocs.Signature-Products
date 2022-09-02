@@ -6,7 +6,7 @@
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // Id of signature which is supposed to be updated
-                // such Id might be get as result of search operation
+                // such Id might be got as a result of search operation
                 string id = "07f83369-318b-41ad-a843-732417b912c2";
 
                 // provide signature features to update

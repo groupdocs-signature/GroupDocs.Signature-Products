@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Tiff for C#
 
 ############################# Head ############################
 head_title: "eSign Tiff document with Pdf417 Barcode in C#"
-head_description: "Create Pdf417 Barcode Signature on Tiff file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_description: "Create Pdf417 Barcode Signature and put it on Tiff document with .NET using a couple lines of code. Use the GroupDocs Document Signature API for signing various file formats."
 
 ############################# Header ############################
 title: "Generate Pdf417 Barcode signature for Tiff document in C#"
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is an advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -124,9 +124,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Pdf417 Barcode using C#"
+    title: "Other supported Barcode signatures for C#"
     content: |
-        .NET Pdf417 Barcode signatures management API for documents and images. Add Pdf417 Barcode signatures to some of the popular file formats as stated below.
+        "You can also sign Tiff with other signature types. Please see the list below."
     format: 
            
        

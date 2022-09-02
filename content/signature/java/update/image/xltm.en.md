@@ -69,20 +69,21 @@ steps:
         ```java    
                 
         // Set up input Xltm file
-        string filePath = "input.xltm";
+        String filePath = "input.xltm";
+        // Set up output file
+        String outputFilePath = "output.xltm";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
 
         // Id of signature which is supposed to be updated
-        // such Id might be get as result of search operation
-        string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
+        // such Id might be got as a result of search operation
+        String id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
 
         // provide signature features to update
-        ImageSignature signatureToUpdate = new ImageSignature();
-
         // set up particular signature id
-        signatureToUpdate.setSignatureId(id);
+        ImageSignature signatureToUpdate = new ImageSignature(id);
+
         // specify signature width
         signatureToUpdate.setWidth(170);
         // specify signature height
@@ -93,7 +94,7 @@ steps:
         signatureToUpdate.setTop(10);
 
         // update signature
-        bool updateResult = signature.Update(signatureToUpdate);
+        Boolean updateResult = signature.update(outputFilePath, signatureToUpdate);
 
         // process updation result
         if (updateResult)
@@ -112,9 +113,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Image using Java"
+    title: "Update various Image signatures via Java"
     content: |
-        Java Image signatures management API for documents and images. Add Image signatures to some of the popular file formats as stated below.
+        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
     format: 
        
        

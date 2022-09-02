@@ -106,9 +106,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Digital using C#"
+    title: "Delete your Digital signatures with C#"
     content: |
-        .NET Digital signatures management API for documents and images. Add Digital signatures to some of the popular file formats as stated below.
+        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
     format: 
        
        

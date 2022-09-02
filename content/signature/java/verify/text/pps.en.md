@@ -69,7 +69,7 @@ steps:
         ```java    
                 
         // Set up input Pps file
-        string filePath = "input.pps";
+        String filePath = "input.pps";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -85,10 +85,10 @@ steps:
         options.setText("Very important signature");
                             
         // Verify document signatures
-        VerificationResult result = signature.Verify(options);
+        VerificationResult result = signature.verify(options);
 
         //process result
-        if (result.IsValid)
+        if (result.isValid())
         {
             //..
         }
@@ -105,9 +105,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Text using Java"
+    title: "Verify other Text signatures using Java"
     content: |
-        Java Text signatures management API for documents and images. Add Text signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        

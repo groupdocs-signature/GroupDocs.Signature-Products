@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Ods for Java
 
 ############################# Head ############################
-head_title: "Adding Text signatures in a Ods file with Java"
+head_title: "Adding Text signatures in Ods file with Java"
 head_description: "Put Text Signature on Ods file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
 
 ############################# Header ############################
-title: "Sign .Ods files with Text signatures in Java"
+title: "Sign Ods files with Text signatures in Java"
 description: "How to add Text Signature with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced Java API to electronically sign digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced Java API for signing digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -68,9 +68,9 @@ steps:
         ```java    
                 
         // Set up input Ods file
-        string filePath = "input.ods";
+        String filePath = "input.ods";
         // Set up output file
-        string outputFilePath = "output.ods";
+        String outputFilePath = "output.ods";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -97,9 +97,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Text using Java"
+    title: "Other supported Text signatures for Java"
     content: |
-        Java Text signatures management API for documents and images. Add Text signatures to some of the popular file formats as stated below.
+        "You can also sign Ods with other signature types. Please see the list below."
     format: 
        
        

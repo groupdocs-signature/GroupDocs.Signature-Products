@@ -13,8 +13,8 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Tiff for C#
 
 ############################# Head ############################
-head_title: "Create Metadata electronic signatures in the Tiff documents with C#"
-head_description: "Make Metadata as hidden electronic signatures withint the Tiff documents for .NET using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
+head_title: "Append Metadata electronic signatures to the Tiff documents via C#"
+head_description: "Use Metadata as hidden electronic signatures incide the Tiff documents for .NET using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
 
 ############################# Header ############################
 title: "Metadata electronic signatures for Tiff document in C# is simple and easy!"
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is an advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
     
 
 ############################# Steps ############################
@@ -110,9 +110,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Metadata using C#"
+    title: "Other supported Metadata signatures for C#"
     content: |
-        .NET Metadata signatures management API for documents and images. Add Metadata signatures to some of the popular file formats as stated below.
+        "You can also sign Tiff with other signature types. Please see the list below."
     format: 
        
        

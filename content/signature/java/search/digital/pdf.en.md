@@ -68,7 +68,7 @@ steps:
         ```java    
                 
         // Set up input Pdf file
-        string filePath = "input.pdf";
+        String filePath = "input.pdf";
 
         // Instantiate Signature for input file
         Signature signature = new Signature(filePath);
@@ -79,14 +79,14 @@ steps:
         // specify special search criteria
         options.setComments("Approved");
         // specify period of signatures
-        options.setSignDateTimeFrom(LocalDate.of(2021, 3, 5));
-        options.setSignDateTimeTo(LocalDate.of(2022, 7, 16));
+        options.setSignDateTimeFrom(new Date(2021, 3, 5));
+        options.setSignDateTimeTo(new Date(2022, 7, 16));
         
         // search for Digital signatures in Pdf document
-        List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+        List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
 
         // process signatures which were found 
-        signatures.forEach(item -> System.out.println("..."));
+        signatures.forEach(item -> System.out.println(item.toString()));
 
         ```
 
@@ -101,9 +101,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: Search other Digital signatures using Java
+    title: "Search other Digital signatures using Java"
     content: |
-        Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below.
+        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
     format: 
            
        

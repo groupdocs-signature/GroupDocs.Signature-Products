@@ -107,9 +107,9 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Signing Other Document Formats with Text using C#"
+    title: "Verify other Text signatures using C#"
     content: |
-        .NET Text signatures management API for documents and images. Add Text signatures to some of the popular file formats as stated below.
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
     format: 
        
        
