@@ -9,7 +9,7 @@
                 List<WordProcessingMetadataSignature> signatures = signature.Search<WordProcessingMetadataSignature>(SignatureType.Metadata);
 
                 // process signatures which were found 
-                foreach (WordProcessingMetadataSignature mdSignature in signatures)
+                foreach (WordProcessingMetadataSignature item in signatures)
                 {
                     //...
                 }

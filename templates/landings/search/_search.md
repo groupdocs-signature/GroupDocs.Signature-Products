@@ -54,6 +54,7 @@ steps:
         * <% "{steps.content_left.step_1}" %>
         * <% "{steps.content_left.step_2}" %>
         * <% "{steps.content_left.step_3}" %>
+        * <% "{steps.content_left.step_4}" %>
 
     title_right: "System Requirements"
     content_right: |

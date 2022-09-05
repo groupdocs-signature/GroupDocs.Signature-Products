@@ -41,7 +41,7 @@ about:
     enable: true
     title: "<% "{about.title}" %>"
     content: |
-        <% "{about.metadata-content}" %>
+        <% "{about.content}" %>
     
 
 ############################# Steps ############################

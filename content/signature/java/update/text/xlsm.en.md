@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Xlsm for Java
 
 ############################# Head ############################
-head_title: "Update Text signatures placed at Xlsm files in Java"
-head_description: "Use simple and easy to understand Java code for Text signatures updation in signed Xlsm documents."
+head_title: "Update Text signatures placed at Xlsm files with Java"
+head_description: "Use simple and easy for understanding Java code for Text signatures updation in signed Xlsm documents."
 
 ############################# Header ############################
 title: "Edit and update Text signatures placed at Xlsm files"
-description: "API for Java provides functionality to edit and update Text signatures at Xlsm documents. Update e-signatures inside your Xlsm documents with a couple lines of code quickly and easily."
+description: "API for Java provides functionality for Text signatures updating at Xlsm documents. Update e-signatures inside your Xlsm documents with a couple lines of Java code quickly and easily."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Learn about GroupDocs.Signature for Java API features"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API functionality contains vast selection of means to process in demand documents formats by using electronic signatures. Wide spectrum of e-signatures like text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. A large number of useful features and settings are available.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API functionality contains vast selection of means to process in demand documents formats by using electronic signatures. Wide spectrum of e-signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are supported. Customers can add, remove, edit, validate or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Numerous useful features and settings are available.
     
 
 ############################# Steps ############################
@@ -49,12 +49,12 @@ steps:
     enable: true
     title_left: "How to change Text signatures in your Xlsm document"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) includes useful features like updation of Text signatures placed at Xlsm documents. It is makes possible to change signatures features without excess code.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) includes useful features like updation of Text signatures placed at Xlsm documents. It makes possible to change signatures features without extra code.
         
-        * To start with, create Signature object passing as a constructor parameter path to a document which must to be updated.
-        * Then, instantiate an approproate particular signature object and set up its identifier and properties which needs to be changed.
-        * In addition, call Signature's Update method passing particular signature object.
-        * Lastly, process updation result.
+        * To start with, create Signature object passing as a constructor parameter path to a document which is supposed to be updated.
+        * Then, instantiate an appropriate particular signature object and set up its identifier and properties which need to be changed.
+        * Lastly, call Signature's Update method passing particular signature object.
+        * Process updating results to your notice.
 
     title_right: "System Requirements"
     content_right: |
@@ -117,7 +117,7 @@ more_formats:
     enable: true
     title: "Update various Text signatures via Java"
     content: |
-        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
+        "Editing digital signatures which are placed in various document formats. Update signatures data without extra code."
     format: 
        
        

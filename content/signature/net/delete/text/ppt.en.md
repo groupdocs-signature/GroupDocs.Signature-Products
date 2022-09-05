@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Ppt for C#
 
 ############################# Head ############################
-head_title: "Delete Text signatures from Ppt files in C#"
+head_title: "Delete Text signatures from Ppt files via C#"
 head_description: "Deletion of specific Text signatures from signed Ppt documents might be performed easily with short .NET code."
 
 ############################# Header ############################
-title: "Remove Text signatures which are in Ppt files"
+title: "Remove Text signatures which are placed in Ppt files"
 description: "Delete various Text signatures from Ppt documents. Removing Text signatures requires simple C# code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Get information about GroupDocs.Signature for .NET API features"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API provides many ways to process your documents with electronic signatures. Digital signatures like text, image, barcode, QR-code, stamp, form-field and metadata are available. Customers have possibility to add, delete, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many other document formats. A vast number of useful features and settings are provided.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API provides many ways to process your documents using electronic signatures. Digital signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Customers have possibility to add, delete, update, verify or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. A vast number of useful features and settings are provided.
     
 
 ############################# Steps ############################
@@ -49,12 +49,12 @@ steps:
     enable: true
     title_left: "How to remove Text signatures from your Ppt document"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides useful feature of clearing Ppt documents of Text signatures with a few lines of code.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides useful feature for clearing Ppt documents of Text signatures with a few lines of code.
         
         * Firstly, instantiate Signature object passing path to your document as a constructor parameter.
-        * Then, create an approproate signature object and set up its unique identifier.
+        * Then, create an appropriate signature object and set up its unique identifier.
         * After that, invoke Delete method passing signature object which must be deleted.
-        * Finally, process updation result.
+        * Finally, process operation results.
 
     title_right: "System Requirements"
     content_right: |
@@ -79,11 +79,8 @@ steps:
                 string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
 
                 // provide signature features to delete
-                TextSignature signatureToDelete = new TextSignature()
-                {
-                    // set up particular signature id
-                    SignatureId = id
-                };
+                // set up particular signature id
+                TextSignature signatureToDelete = new TextSignature(id);
 
                 // delete signature
                 bool deleteResult = signature.Delete(signatureToDelete);
@@ -108,7 +105,7 @@ more_formats:
     enable: true
     title: "Delete your Text signatures with C#"
     content: |
-        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
+        "Deletion of e-signatures which were added to various document formats. Remove signatures quickly without extra code."
     format: 
        
        

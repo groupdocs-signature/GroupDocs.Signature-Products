@@ -10,10 +10,9 @@
                 string id = "07f83369-318b-41ad-a843-732417b912c2";
 
                 // provide signature features to update
-                BarcodeSignature signatureToUpdate = new BarcodeSignature()
+                // set up particular signature id
+                BarcodeSignature signatureToUpdate = new BarcodeSignature(id)
                 {
-                    // set up particular signature id
-                    SignatureId = id,
                     // specify signature width
                     Width = 300,
                     // specify signature height

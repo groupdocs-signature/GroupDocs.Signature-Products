@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Metadata signatures at Ppt with Java
 
 ############################# Head ############################
-head_title: "Search Metadata signatures in Ppt file in Java"
-head_description: "Use Java for searching Metadata signatures in Ppt files using a few lines of code."
+head_title: "Search for Metadata signatures in Ppt file in Java"
+head_description: "Use Java for searching for Metadata signatures in Ppt files using a few lines of code."
 
 ############################# Header ############################
-title: "Search Metadata signatures in Ppt file"
-description: "Java native API to search Metadata signatures in already signed Ppt file. Perform advanced e-signature operations within your Ppt documents using a few lines of code."
+title: "Search for Metadata signatures in Ppt file"
+description: "Java native API allows to search for Metadata signatures in already signed Ppt files. Perform advanced e-signature search within your Ppt documents using a few lines of code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,19 +41,20 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides Java API for processing documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides Java API for processing documents using various signature types such as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata. Users can add, delete, update, verify or search electronic signatures within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats, with additional support for customizing signatures properties as needed.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to search Metadata signatures in Ppt"
+    title_left: "How to search for Metadata signatures in Ppt"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) makes it easy for Java developers to search Metadata signatures in Ppt files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) makes it easier for Java developers to search for Metadata signatures in Ppt files from their applications by implementing a few easy steps.
         
-        * Create new instance of Signature class and pass source document path as a constructor parameter.
-        * Instantiate the SearchOptions object according to your requirements and specify search options.
+        * Create a new instance of Signature class and pass source document path as a constructor parameter.
+        * Instantiate the SearchOptions object according to your requirements and specify searching options.
         * Call Search method of Signature class instance and pass SearchOptions to it.
+        * Process searching results accordingly to your demands.
 
     title_right: "System Requirements"
     content_right: |
@@ -87,15 +88,15 @@ demos:
     enable: true
     title: "Signing with Metadata signatures Live Demo"
     content: |
-       Add various electronic signatures to Ppt file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Ppt files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Search other Metadata signatures using Java"
+    title: "Search for other Metadata signatures using Java"
     content: |
-        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
+        "Electronic signatures search in various documents. Find signatures from the one of popular file formats as shown below."
     format: 
            
        

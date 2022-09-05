@@ -9,7 +9,7 @@
                 List<ImageMetadataSignature> signatures = signature.Search<ImageMetadataSignature>(SignatureType.Metadata);
 
                 // process signatures which were found 
-                foreach (ImageMetadataSignature mdSignature in signatures)
+                foreach (ImageMetadataSignature item in signatures)
                 {
                     //...
                 }

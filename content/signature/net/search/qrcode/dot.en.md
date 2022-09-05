@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Qrcode signatures at Dot with C#
 
 ############################# Head ############################
-head_title: "Search Qrcode signatures in Dot file in C#"
-head_description: "Use .NET for searching Qrcode signatures in Dot files using a few lines of code."
+head_title: "Search for Qrcode signatures in Dot file in C#"
+head_description: "Use .NET for searching for Qrcode signatures in Dot files using a few lines of code."
 
 ############################# Header ############################
-title: "Search Qrcode signatures in Dot file"
-description: ".NET native API to search Qrcode signatures in already signed Dot file. Perform advanced e-signature operations within your Dot documents using a few lines of code."
+title: "Search for Qrcode signatures in Dot file"
+description: ".NET native API allows to search for Qrcode signatures in already signed Dot files. Perform advanced e-signature search within your Dot documents using a few lines of code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,19 +41,20 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata. Users can add, delete, update, verify or search electronic signatures within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats, with additional support for customizing signatures properties as needed.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to search Qrcode signatures in Dot"
+    title_left: "How to search for Qrcode signatures in Dot"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easy for .NET developers to search Qrcode signatures in Dot files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easier for .NET developers to search for Qrcode signatures in Dot files from their applications by implementing a few easy steps.
         
-        * Create new instance of Signature class and pass source document path as a constructor parameter.
-        * Instantiate the SearchOptions object according to your requirements and specify search options.
+        * Create a new instance of Signature class and pass source document path as a constructor parameter.
+        * Instantiate the SearchOptions object according to your requirements and specify searching options.
         * Call Search method of Signature class instance and pass SearchOptions to it.
+        * Process searching results accordingly to your demands.
 
     title_right: "System Requirements"
     content_right: |
@@ -94,7 +95,7 @@ steps:
                 List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(options);
 
                 // process signatures which were found                
-                foreach (QrCodeSignature signature in signatures)
+                foreach (QrCodeSignature item in signatures)
                 {
                     //...
                 }
@@ -107,15 +108,15 @@ demos:
     enable: true
     title: "Signing with Qrcode signatures Live Demo"
     content: |
-       Add various electronic signatures to Dot file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Dot files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Search other Qrcode signatures using C#"
+    title: "Search for other Qrcode signatures using C#"
     content: |
-        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
+        "Electronic signatures search in various documents. Find signatures from the one of popular file formats as shown below."
     format: 
            
        

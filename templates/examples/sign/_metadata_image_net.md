@@ -8,7 +8,7 @@
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // instantiate metadata signing options
-                MetadataSignOptions signOptions = new MetadataSignOptions();
+                MetadataSignOptions options = new MetadataSignOptions();
 
                 // Specify different Metadata Signatures and add them to options signature collection
                 // set start id

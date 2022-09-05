@@ -10,11 +10,8 @@
                 string id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
 
                 // provide signature features to delete
-                QrCodeSignature signatureToDelete = new QrCodeSignature()
-                {
-                    // set up particular signature id
-                    SignatureId = id
-                };
+                // set up particular signature id
+                QrCodeSignature signatureToDelete = new QrCodeSignature(id);
 
                 // delete signature
                 bool deleteResult = signature.Delete(signatureToDelete);

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Docm with C#
 
 ############################# Head ############################
-head_title: "Search Text signatures in Docm file in C#"
-head_description: "Use .NET for searching Text signatures in Docm files using a few lines of code."
+head_title: "Search for Text signatures in Docm file in C#"
+head_description: "Use .NET for searching for Text signatures in Docm files using a few lines of code."
 
 ############################# Header ############################
-title: "Search Text signatures in Docm file"
-description: ".NET native API to search Text signatures in already signed Docm file. Perform advanced e-signature operations within your Docm documents using a few lines of code."
+title: "Search for Text signatures in Docm file"
+description: ".NET native API allows to search for Text signatures in already signed Docm files. Perform advanced e-signature search within your Docm documents using a few lines of code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,19 +41,20 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata. Users can add, delete, update, verify or search electronic signatures within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats, with additional support for customizing signatures properties as needed.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to search Text signatures in Docm"
+    title_left: "How to search for Text signatures in Docm"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easy for .NET developers to search Text signatures in Docm files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easier for .NET developers to search for Text signatures in Docm files from their applications by implementing a few easy steps.
         
-        * Create new instance of Signature class and pass source document path as a constructor parameter.
-        * Instantiate the SearchOptions object according to your requirements and specify search options.
+        * Create a new instance of Signature class and pass source document path as a constructor parameter.
+        * Instantiate the SearchOptions object according to your requirements and specify searching options.
         * Call Search method of Signature class instance and pass SearchOptions to it.
+        * Process searching results accordingly to your demands.
 
     title_right: "System Requirements"
     content_right: |
@@ -90,7 +91,7 @@ steps:
                 List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
                 // process signatures which were found                
-                foreach (TextSignature signature in signatures)
+                foreach (TextSignature item in signatures)
                 {
                     //...
                 }
@@ -103,15 +104,15 @@ demos:
     enable: true
     title: "Signing with Text signatures Live Demo"
     content: |
-       Add various electronic signatures to Docm file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Docm files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Search other Text signatures using C#"
+    title: "Search for other Text signatures using C#"
     content: |
-        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
+        "Electronic signatures search in various documents. Find signatures from the one of popular file formats as shown below."
     format: 
            
        

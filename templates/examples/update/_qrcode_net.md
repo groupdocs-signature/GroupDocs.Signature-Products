@@ -10,10 +10,9 @@
                 string id = "eff64a14-dad9-47b0-88e5-2ee4e3604e71";
 
                 // provide signature features to update
-                QrCodeSignature signatureToUpdate = new QrCodeSignature()
+                // set up particular signature id
+                QrCodeSignature signatureToUpdate = new QrCodeSignature(id)
                 {
-                    // set up particular signature id
-                    SignatureId = id,
                     // specify signature width
                     Width = 200,
                     // specify signature height

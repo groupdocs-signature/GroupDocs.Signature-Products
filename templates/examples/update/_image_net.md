@@ -10,10 +10,9 @@
                 string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
 
                 // provide signature features to update
-                ImageSignature signatureToUpdate = new ImageSignature()
+                // set up particular signature id
+                ImageSignature signatureToUpdate = new ImageSignature(id)
                 {
-                    // set up particular signature id
-                    SignatureId = id,
                     // specify signature width
                     Width = 170,
                     // specify signature height

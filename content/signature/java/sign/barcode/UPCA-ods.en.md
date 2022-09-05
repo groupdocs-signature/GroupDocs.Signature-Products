@@ -19,7 +19,7 @@ head_description: "Create UPCA Barcode Signature and put it on Ods document with
 
 ############################# Header ############################
 title: "Generate UPCA Barcode signature for Ods document in Java"
-description: "eSign your Ods business documents with UPCA Barcode. Generate Barcode signature quick, easy and simple with few lines of code to set up signing options."
+description: "eSign your Ods business documents with UPCA Barcode. Generate Barcode signature quickly and easily with a few lines of code to set up signing options."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using many Barcode types UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many more. Users can create a Barcode signatures, download it as image and use to e-sign business contracts and official documents with adding this signature and manipulate it. Any Barcode signature will contains custom information to identifies the signer or authorizes the document. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a popular API for digital documents e-signing using many Barcode types like UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many others. Customers can create easily Barcodes providing just demanded text and put them on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Barcodes placed in documents can be updated, searched, verified, deleted or previewed either. Moreover, barcodes customization is supported.
     
 
 ############################# Steps ############################
@@ -54,7 +54,7 @@ steps:
         
         * Create an instance of Signature class providing Ods file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output Ods file or memory stream
+        * Invoke the Signature.Sign() method passing output Ods file or memory stream
 
     title_right: "System Requirements"
     content_right: |

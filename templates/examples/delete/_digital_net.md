@@ -10,11 +10,8 @@
                 string id = "a01e1940-997a-444b-89af-9309a2d559a5";
 
                 // provide signature features to delete
-                DigitalSignature signatureToDelete = new DigitalSignature()
-                {
-                    // set up particular signature id
-                    SignatureId = id
-                };
+                // set up particular signature id
+                DigitalSignature signatureToDelete = new DigitalSignature(id);
 
                 // delete signature
                 bool deleteResult = signature.Delete(signatureToDelete);

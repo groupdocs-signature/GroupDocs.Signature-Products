@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Xlsm for C#
 
 ############################# Head ############################
-head_title: "Update Image signatures placed at Xlsm files in C#"
-head_description: "Use simple and easy to understand .NET code for Image signatures updation in signed Xlsm documents."
+head_title: "Update Image signatures placed at Xlsm files with C#"
+head_description: "Use simple and easy for understanding .NET code for Image signatures updation in signed Xlsm documents."
 
 ############################# Header ############################
 title: "Edit and update Image signatures placed at Xlsm files"
-description: "API for .NET provides functionality to edit and update Image signatures at Xlsm documents. Update e-signatures inside your Xlsm documents with a couple lines of code quickly and easily."
+description: "API for .NET provides functionality for Image signatures updating at Xlsm documents. Update e-signatures inside your Xlsm documents with a couple lines of C# code quickly and easily."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Learn about GroupDocs.Signature for .NET API features"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API functionality contains vast selection of means to process in demand documents formats by using electronic signatures. Wide spectrum of e-signatures like text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. A large number of useful features and settings are available.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API functionality contains vast selection of means to process in demand documents formats by using electronic signatures. Wide spectrum of e-signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are supported. Customers can add, remove, edit, validate or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Numerous useful features and settings are available.
     
 
 ############################# Steps ############################
@@ -49,12 +49,12 @@ steps:
     enable: true
     title_left: "How to change Image signatures in your Xlsm document"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) includes useful features like updation of Image signatures placed at Xlsm documents. It is makes possible to change signatures features without excess code.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) includes useful features like updation of Image signatures placed at Xlsm documents. It makes possible to change signatures features without extra code.
         
-        * To start with, create Signature object passing as a constructor parameter path to a document which must to be updated.
-        * Then, instantiate an approproate particular signature object and set up its identifier and properties which needs to be changed.
-        * In addition, call Signature's Update method passing particular signature object.
-        * Lastly, process updation result.
+        * To start with, create Signature object passing as a constructor parameter path to a document which is supposed to be updated.
+        * Then, instantiate an appropriate particular signature object and set up its identifier and properties which need to be changed.
+        * Lastly, call Signature's Update method passing particular signature object.
+        * Process updating results to your notice.
 
     title_right: "System Requirements"
     content_right: |
@@ -79,10 +79,9 @@ steps:
                 string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
 
                 // provide signature features to update
-                ImageSignature signatureToUpdate = new ImageSignature()
+                // set up particular signature id
+                ImageSignature signatureToUpdate = new ImageSignature(id)
                 {
-                    // set up particular signature id
-                    SignatureId = id,
                     // specify signature width
                     Width = 170,
                     // specify signature height
@@ -116,7 +115,7 @@ more_formats:
     enable: true
     title: "Update various Image signatures via C#"
     content: |
-        "Editing digital signatures which are placed in various document formats. Update signatures data wthout extra code."
+        "Editing digital signatures which are placed in various document formats. Update signatures data without extra code."
     format: 
        
        

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Gif for C#
 
 ############################# Head ############################
-head_title: "Append Metadata electronic signatures to the Gif documents via C#"
-head_description: "Use Metadata as hidden electronic signatures incide the Gif documents for .NET using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
+head_title: "Append Metadata electronic signatures to Gif documents via C#"
+head_description: "Use Metadata as hidden electronic signatures inside your Gif documents using a couple lines of C# code. Use the GroupDocs Document Signature API to e-sign your business documents and files with Metadata information."
 
 ############################# Header ############################
-title: "Metadata electronic signatures for Gif document in C# is simple and easy!"
-description: "eSign your Gif documents and contracts with the hidden Metadata. Generate Metadata for image, Words, PDF, Excel and Presentation quick, easy and simple with few lines of code to set up options."
+title: "Metadata electronic signatures for Gif document via .NET are simple and easy for using!"
+description: "eSign your Gif documents and contracts with hidden Metadata entries. Generate Metadata for PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations and various image formats with no problems and extra coding."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is an advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided.
     
 
 ############################# Steps ############################
@@ -53,7 +53,7 @@ steps:
         
         * Create an instance of Signature class providing Gif file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output Gif file or memory stream
+        * Invoke the Signature.Sign() method passing output Gif file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -76,7 +76,7 @@ steps:
         using (var signature = new GroupDocs.Signature.Signature(filePath))
         {
                 // instantiate metadata signing options
-                MetadataSignOptions signOptions = new MetadataSignOptions();
+                MetadataSignOptions options = new MetadataSignOptions();
 
                 // Specify different Metadata Signatures and add them to options signature collection
                 // set start id

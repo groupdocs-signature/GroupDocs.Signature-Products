@@ -13,8 +13,8 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Xltx for C#
 
 ############################# Head ############################
-head_title: "Adding Image signatures in Xltx file with C#"
-head_description: "Put Image Signature on Xltx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens file formats."
+head_title: "Adding Image signatures to Xltx file with C#"
+head_description: "Put Image Signature on Xltx file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats."
 
 ############################# Header ############################
 title: "Sign Xltx files with Image signatures in C#"
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is an advanced .NET API for signing digital documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided.
     
 
 ############################# Steps ############################
@@ -53,7 +53,7 @@ steps:
         
         * Create an instance of Signature class providing Xltx file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output Xltx file or memory stream
+        * Invoke the Signature.Sign() method passing output Xltx file or memory stream
 
     title_right: "System Requirements"
     content_right: |
@@ -77,16 +77,16 @@ steps:
         // Instantiate Signature for input file
         using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
         {
-                //Provide sign options
-                ImageSignOptions signOptions = new ImageSignOptions(imageFilePath);
-                {
-                    // set signature position
-                    Left = 50,
-                    Top = 200,
-                };
+            //Provide sign options
+            ImageSignOptions options = new ImageSignOptions(imageFilePath)
+            {
+                // set signature position
+                Left = 50,
+                Top = 200
+            };
 
-                // sign Xltx document
-                SignResult result = signature.Sign(outputFilePath, options);
+            // sign Xltx document
+            SignResult result = signature.Sign(outputFilePath, options);
         }
 
         ```

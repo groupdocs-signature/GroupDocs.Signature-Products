@@ -13,8 +13,7 @@
                 DigitalSignOptions options = new DigitalSignOptions(certificateFilePath)
                 {
                     // set certificate password
-                    signOptions.Password = "1234567890";
-                    
+                    Password = "1234567890",
                     // set signature position
                     Left = 50,
                     Top = 200,

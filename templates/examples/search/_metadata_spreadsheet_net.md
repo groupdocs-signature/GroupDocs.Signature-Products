@@ -9,7 +9,7 @@
                 List<SpreadsheetMetadataSignature> signatures = signature.Search<SpreadsheetMetadataSignature>(SignatureType.Metadata);
 
                 // process signatures which were found 
-                foreach (SpreadsheetMetadataSignature mdSignature in signatures)
+                foreach (SpreadsheetMetadataSignature item in signatures)
                 {
                     //...
                 }

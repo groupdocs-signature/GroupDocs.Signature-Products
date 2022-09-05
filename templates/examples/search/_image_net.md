@@ -22,7 +22,7 @@
                 List<ImageSignature> signatures = signature.Search<ImageSignature>(options);
 
                 // process signatures which were found                
-                foreach (ImageSignature signature in signatures)
+                foreach (ImageSignature item in signatures)
                 {
                     //...
                 }

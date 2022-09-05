@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Ods for Java
 
 ############################# Head ############################
-head_title: "Delete Image signatures from Ods files in Java"
+head_title: "Delete Image signatures from Ods files via Java"
 head_description: "Deletion of specific Image signatures from signed Ods documents might be performed easily with short Java code."
 
 ############################# Header ############################
-title: "Remove Image signatures which are in Ods files"
+title: "Remove Image signatures which are placed in Ods files"
 description: "Delete various Image signatures from Ods documents. Removing Image signatures requires simple Java code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Get information about GroupDocs.Signature for Java API features"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API provides many ways to process your documents with electronic signatures. Digital signatures like text, image, barcode, QR-code, stamp, form-field and metadata are available. Customers have possibility to add, delete, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many other document formats. A vast number of useful features and settings are provided.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) API provides many ways to process your documents using electronic signatures. Digital signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Customers have possibility to add, delete, update, verify or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. A vast number of useful features and settings are provided.
     
 
 ############################# Steps ############################
@@ -49,12 +49,12 @@ steps:
     enable: true
     title_left: "How to remove Image signatures from your Ods document"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides useful feature of clearing Ods documents of Image signatures with a few lines of code.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) provides useful feature for clearing Ods documents of Image signatures with a few lines of code.
         
         * Firstly, instantiate Signature object passing path to your document as a constructor parameter.
-        * Then, create an approproate signature object and set up its unique identifier.
+        * Then, create an appropriate signature object and set up its unique identifier.
         * After that, invoke Delete method passing signature object which must be deleted.
-        * Finally, process updation result.
+        * Finally, process operation results.
 
     title_right: "System Requirements"
     content_right: |
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Delete your Image signatures with Java"
     content: |
-        "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
+        "Deletion of e-signatures which were added to various document formats. Remove signatures quickly without extra code."
     format: 
        
        

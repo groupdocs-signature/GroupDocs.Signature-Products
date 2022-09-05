@@ -9,7 +9,7 @@
                 List<PdfMetadataSignature> signatures = signature.Search<PdfMetadataSignature>(SignatureType.Metadata);
 
                 // process signatures which were found 
-                foreach (PdfMetadataSignature mdSignature in signatures)
+                foreach (PdfMetadataSignature item in signatures)
                 {
                     //...
                 }

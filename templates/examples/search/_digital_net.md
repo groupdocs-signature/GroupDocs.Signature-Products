@@ -19,7 +19,7 @@
                 List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
 
                 // process signatures which were found                
-                foreach (DigitalSignature signature in signatures)
+                foreach (DigitalSignature item in signatures)
                 {
                     //...
                 }

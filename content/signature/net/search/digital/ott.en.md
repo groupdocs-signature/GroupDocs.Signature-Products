@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Search Digital signatures at Ott with C#
 
 ############################# Head ############################
-head_title: "Search Digital signatures in Ott file in C#"
-head_description: "Use .NET for searching Digital signatures in Ott files using a few lines of code."
+head_title: "Search for Digital signatures in Ott file in C#"
+head_description: "Use .NET for searching for Digital signatures in Ott files using a few lines of code."
 
 ############################# Header ############################
-title: "Search Digital signatures in Ott file"
-description: ".NET native API to search Digital signatures in already signed Ott file. Perform advanced e-signature operations within your Ott documents using a few lines of code."
+title: "Search for Digital signatures in Ott file"
+description: ".NET native API allows to search for Digital signatures in already signed Ott files. Perform advanced e-signature search within your Ott documents using a few lines of code."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -41,19 +41,20 @@ about:
     enable: true
     title: "About GroupDocs.Signature for .NET API"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as text, image, barcode, QR-code, stamp, form-field and metadata. Users can load, edit, validate, save, remove, preview and search digital signatures within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) provides .NET API for processing documents using various signature types such as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata. Users can add, delete, update, verify or search electronic signatures within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats, with additional support for customizing signatures properties as needed.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to search Digital signatures in Ott"
+    title_left: "How to search for Digital signatures in Ott"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easy for .NET developers to search Digital signatures in Ott files from within their applications by implementing a few easy steps.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) makes it easier for .NET developers to search for Digital signatures in Ott files from their applications by implementing a few easy steps.
         
-        * Create new instance of Signature class and pass source document path as a constructor parameter.
-        * Instantiate the SearchOptions object according to your requirements and specify search options.
+        * Create a new instance of Signature class and pass source document path as a constructor parameter.
+        * Instantiate the SearchOptions object according to your requirements and specify searching options.
         * Call Search method of Signature class instance and pass SearchOptions to it.
+        * Process searching results accordingly to your demands.
 
     title_right: "System Requirements"
     content_right: |
@@ -87,7 +88,7 @@ steps:
                 List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
 
                 // process signatures which were found                
-                foreach (DigitalSignature signature in signatures)
+                foreach (DigitalSignature item in signatures)
                 {
                     //...
                 }
@@ -100,15 +101,15 @@ demos:
     enable: true
     title: "Signing with Digital signatures Live Demo"
     content: |
-       Add various electronic signatures to Ott file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Add various electronic signatures to Ott files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Search other Digital signatures using C#"
+    title: "Search for other Digital signatures using C#"
     content: |
-        "Electronic signatures search in various documents. Find signatures from some of the popular file formats as stated below."
+        "Electronic signatures search in various documents. Find signatures from the one of popular file formats as shown below."
     format: 
            
        

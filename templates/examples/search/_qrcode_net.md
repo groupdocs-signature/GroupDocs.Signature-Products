@@ -26,7 +26,7 @@
                 List<QrCodeSignature> signatures = signature.Search<QrCodeSignature>(options);
 
                 // process signatures which were found                
-                foreach (QrCodeSignature signature in signatures)
+                foreach (QrCodeSignature item in signatures)
                 {
                     //...
                 }

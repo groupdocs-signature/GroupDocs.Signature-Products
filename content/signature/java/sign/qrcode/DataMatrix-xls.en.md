@@ -15,11 +15,11 @@ breadcrumb: Put  Qrcode signature on Xls for Java
 
 ############################# Head ############################
 head_title: "eSign Xls document with Data Matrix QR Code in Java"
-head_description: "Create Data Matrix QR Code Signature on Xls file for Java using a few lines of code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code."
+head_description: "Create Data Matrix QR Code and put it on Xls file using Java with a short piece of Java code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code."
 
 ############################# Header ############################
 title: "Generate Data Matrix QR Code signature for Xls document in Java"
-description: "eSign your Xls documents and contracts with Data Matrix QR Code. Generate QR Code signature quick, easy and simple with few lines of code to set up options."
+description: "eSign your Xls documents and contracts with Data Matrix QR Code. Generate QR Code signature quickly and easily."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -42,7 +42,7 @@ about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is an advanced .NET API to e-sign documents with digital signatures using QR Code. Users can generate QR code to download it, share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Also the QR Code content can be encrypted and decrypted with personal keys programitically. That allows many posibilities to share sensetive data inside the public documents. After the signing user can update, verify, remove, preview and search for the Barcodes within PDF, Microsoft Word, Excel worksheets, PowerPoint presentations, Adobe Photoshop, metafiles and image file formats, with additional support for customizing signature properties as needed.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a mature API for digital documents e-signing using QR Code. Users can generate QR Code signatures providing just demanded text to download it or share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Furthermore, the QR Code content can be encrypted and decrypted with personal keys programmatically. That opens many abilities to share sensitive data inside the public documents. After the signing user can update, verify, delete, preview or search for the QR Codes within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. QR Codes could be additionally customized.
     
 
 ############################# Steps ############################
@@ -54,7 +54,7 @@ steps:
         
         * Create an instance of Signature class providing Xls file supposed to signing as path or memory stream
         * Instantiate SignOptions class and set all demanded data.
-        * Invoke the Signature.Sign passing output Xls file or memory stream
+        * Invoke the Signature.Sign() method passing output Xls file or memory stream
 
     title_right: "System Requirements"
     content_right: |

@@ -22,7 +22,7 @@
                 List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
                 // process signatures which were found                
-                foreach (TextSignature signature in signatures)
+                foreach (TextSignature item in signatures)
                 {
                     //...
                 }

@@ -1,13 +1,13 @@
 {
   "content": {
-    "meta_title": "Verification of {{Signaturetype}} signatures for {{Fileformat}} files in {{ProgLang}}",
+    "meta_title": "Verification of {{Signaturetype}} signatures for {{Fileformat}} files via {{ProgLang}}",
     "meta_description": "Use only a few lines of {{ProductName}} code to verify {{Fileformat}} documents and their {{Signaturetype}} signatures.",
     "h1": "{{Signaturetype}} signatures verification for {{Fileformat}} files",
     "h2": "API for {{ProductName}} provides opportunity to verify {{Signaturetype}} signatures at {{Fileformat}} documents. Verification of e-signatures inside your {{Fileformat}} documents might be performed quickly and easily."
   },
   "about": {
-    "title": "Discover {{ProductFullName}} API features",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available."
+    "title": "Discover new {{ProductFullName}} API features",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are supported. Customers can add, remove, edit, validate or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Astonishing number of additional features and settings are available."
   },
   "steps": {
     "title_left": "How to validate {{Signaturetype}} signatures in your {{Fileformat}} document",
@@ -15,8 +15,8 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) includes useful features like verification of {{Signaturetype}} signatures placed at {{Fileformat}} documents. Use this opportunity without implementing extra code.",
       "step_1": "Firstly, instantiate Signature class providing as a constructor parameter path to a document which is supposed to be verified.",
       "step_2": "Secondly, create a new VerifyOptions object and set up all required properties.",
-      "step_3": "Invoke Signature's object Verify method passing VerifyOptions instance.",
-      "step_4": "Finally, process verification result."
+      "step_3": "Finally, invoke Signature's object Verify method passing VerifyOptions instance.",
+      "step_4": "Then process verification results."
     },
     "title_right": "System Requirements",
     "content_right": {
@@ -32,7 +32,7 @@
   },
   "more_formats": {
     "title": "Verify other {{Signaturetype}} signatures using {{ProgLang}}",
-    "content": "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
+    "content": "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as revealed below."
   }
 
 }

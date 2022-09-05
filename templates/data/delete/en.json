@@ -1,22 +1,22 @@
 {
   "content": {
-    "meta_title": "Delete {{Signaturetype}} signatures from {{Fileformat}} files in {{ProgLang}}",
+    "meta_title": "Delete {{Signaturetype}} signatures from {{Fileformat}} files via {{ProgLang}}",
     "meta_description": "Deletion of specific {{Signaturetype}} signatures from signed {{Fileformat}} documents might be performed easily with short {{ProductName}} code.",
-    "h1": "Remove {{Signaturetype}} signatures which are in {{Fileformat}} files",
+    "h1": "Remove {{Signaturetype}} signatures which are placed in {{Fileformat}} files",
     "h2": "Delete various {{Signaturetype}} signatures from {{Fileformat}} documents. Removing {{Signaturetype}} signatures requires simple {{ProgLang}} code."
   },
   "about": {
     "title": "Get information about {{ProductFullName}} API features",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) API provides many ways to process your documents with electronic signatures. Digital signatures like text, image, barcode, QR-code, stamp, form-field and metadata are available. Customers have possibility to add, delete, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many other document formats. A vast number of useful features and settings are provided."
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API provides many ways to process your documents using electronic signatures. Digital signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Customers have possibility to add, delete, update, verify or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. A vast number of useful features and settings are provided."
   },
   "steps": {
     "title_left": "How to remove {{Signaturetype}} signatures from your {{Fileformat}} document",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides useful feature of clearing {{Fileformat}} documents of {{Signaturetype}} signatures with a few lines of code.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides useful feature for clearing {{Fileformat}} documents of {{Signaturetype}} signatures with a few lines of code.",
       "step_1": "Firstly, instantiate Signature object passing path to your document as a constructor parameter.",
-      "step_2": "Then, create an approproate signature object and set up its unique identifier.",
+      "step_2": "Then, create an appropriate signature object and set up its unique identifier.",
       "step_3": "After that, invoke Delete method passing signature object which must be deleted.",
-      "step_4": "Finally, process updation result."
+      "step_4": "Finally, process operation results."
     },
     "title_right": "System Requirements",
     "content_right": {
@@ -32,7 +32,7 @@
   },
   "more_formats": {
     "title": "Delete your {{Signaturetype}} signatures with {{ProgLang}}",
-    "content": "Deletion of e-signatures which were added to various document formats. Delete signatures quickly and without extra code."
+    "content": "Deletion of e-signatures which were added to various document formats. Remove signatures quickly without extra code."
   }
 
 }

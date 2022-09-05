@@ -10,11 +10,8 @@
                 string id = "07f83369-318b-41ad-a843-732417b912c2";
 
                 // provide signature features to delete
-                BarcodeSignature signatureToDelete = new BarcodeSignature()
-                {
-                    // set up particular signature id
-                    SignatureId = id
-                };
+                // set up particular signature id
+                BarcodeSignature signatureToDelete = new BarcodeSignature(id);
 
                 // delete signature
                 bool deleteResult = signature.Delete(signatureToDelete);

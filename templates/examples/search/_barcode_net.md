@@ -26,7 +26,7 @@
                 List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
                 // process signatures which were found                
-                foreach (BarcodeSignature signature in signatures)
+                foreach (BarcodeSignature item in signatures)
                 {
                     //...
                 }

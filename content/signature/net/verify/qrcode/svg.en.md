@@ -13,7 +13,7 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Qrcode signature on Svg for C#
 
 ############################# Head ############################
-head_title: "Verification of Qrcode signatures for Svg files in C#"
+head_title: "Verification of Qrcode signatures for Svg files via C#"
 head_description: "Use only a few lines of .NET code to verify Svg documents and their Qrcode signatures."
 
 ############################# Header ############################
@@ -39,9 +39,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Discover GroupDocs.Signature for .NET API features"
+    title: "Discover new GroupDocs.Signature for .NET API features"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as text, image, barcode, QR-code, stamp, form-field and metadata are supported. Customers can add, remove, edit, validate, or search digital signatures at PDF, Microsoft Word, Excel, PowerPoint and many image documents. Astonishing number of additional features and settings are available.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API provides wide range of ways to process numerous documents formats by using electronic signatures. Many types of digital signatures as texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are supported. Customers can add, remove, edit, validate or search digital signatures at PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Astonishing number of additional features and settings are available.
     
 
 ############################# Steps ############################
@@ -53,8 +53,8 @@ steps:
         
         * Firstly, instantiate Signature class providing as a constructor parameter path to a document which is supposed to be verified.
         * Secondly, create a new VerifyOptions object and set up all required properties.
-        * Invoke Signature's object Verify method passing VerifyOptions instance.
-        * Finally, process verification result.
+        * Finally, invoke Signature's object Verify method passing VerifyOptions instance.
+        * Then process verification results.
 
     title_right: "System Requirements"
     content_right: |
@@ -110,7 +110,7 @@ more_formats:
     enable: true
     title: "Verify other Qrcode signatures using C#"
     content: |
-        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as stated below."
+        "Verification of electronic signatures placed in various documents. Check quality of signatures in the popular file formats as revealed below."
     format: 
        
        
