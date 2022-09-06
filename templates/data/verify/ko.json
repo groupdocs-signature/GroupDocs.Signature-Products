@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}}을 통해 {{Fileformat}} 파일에 대한 {{Signaturetype}} 서명 확인",
+    "meta_description": "몇 줄의 {{ProductName}} 코드만 사용하여 {{Fileformat}} 문서와 {{Signaturetype}} 서명을 확인하십시오.",
+    "h1": "{{Fileformat}} 파일에 대한 {{Signaturetype}} 서명 확인",
+    "h2": "{{ProductName}}용 API는 {{Fileformat}} 문서에서 {{Signaturetype}} 서명을 확인할 수 있는 기회를 제공합니다. {{Fileformat}} 문서 내의 전자 서명 확인은 빠르고 쉽게 수행될 수 있습니다."
+  },
+  "about": {
+    "title": "새로운 {{ProductFullName}} API 기능 알아보기",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API는 전자 서명을 사용하여 다양한 문서 형식을 처리하는 다양한 방법을 제공합니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 다양한 유형의 디지털 서명이 지원됩니다. 고객은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에서 디지털 서명을 추가, 제거, 편집, 유효성 검사 또는 검색할 수 있습니다. 놀라운 수의 추가 기능과 설정을 사용할 수 있습니다."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} 문서에서 {{Signaturetype}} 서명을 확인하는 방법",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})에는 {{Fileformat}} 문서에 있는 {{Signaturetype}} 서명 확인과 같은 유용한 기능이 포함되어 있습니다. 추가 코드를 구현하지 않고 이 기회를 사용하십시오.",
+      "step_1": "먼저 확인해야 하는 문서에 대한 생성자 매개변수 경로를 제공하는 Signature 클래스를 인스턴스화합니다.",
+      "step_2": "둘째, 새 VerifyOptions 개체를 만들고 모든 필수 속성을 설정합니다.",
+      "step_3": "마지막으로, VerifyOptions 인스턴스를 전달하는 서명의 개체 Verify 메서드를 호출합니다.",
+      "step_4": "그런 다음 검증 결과를 처리합니다."
+    },
+    "title_right": "시스템 요구 사항",
+    "content_right": {
+      "description": "{{ProductFullName}}은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}})에서 최신 버전의 {{ProductFullName}} 다운로드"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 서명으로 서명 라이브 데모",
+    "content": "지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 {{Fileformat}} 파일에 다양한 전자 서명을 추가하세요."
+  },
+  "more_formats": {
+    "title": "{{ProgLang}}을(를) 사용하여 다른 {{Signaturetype}} 서명 확인",
+    "content": "다양한 문서에 배치된 전자 서명 확인. 아래와 같이 널리 사용되는 파일 형식의 서명 품질을 확인하십시오."
+  }
+}

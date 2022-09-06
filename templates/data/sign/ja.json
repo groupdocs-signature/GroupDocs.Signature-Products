@@ -1,0 +1,153 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} を使用して {{Fileformat}} ファイルに {{Signaturetype}} 署名を追加する",
+    "meta_description": "数行のコードを使用して、{{ProductName}} の {{Fileformat}} ファイルに {{Signaturetype}} 署名を付けます。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。",
+    "h1": "{{ProgLang}} の {{Signaturetype}} 署名で {{Fileformat}} ファイルに署名します",
+    "h2": "数行の {{ProductName}} コードで {{Signaturetype}} 署名を追加する方法"
+  },
+  "barcode-content": {
+    "meta_title": "{{ProgLang}} で {{Codetype}} バーコードを使用して {{Fileformat}} 文書に eSign",
+    "meta_description": "{{Codetype}} バーコード署名を作成し、数行のコードを使用して {{ProductName}} で {{Fileformat}} ドキュメントに配置します。 GroupDocs Document Signature API を使用して、さまざまなファイル形式に署名します。",
+    "h1": "{{ProgLang}} の {{Fileformat}} ドキュメントの {{Codetype}} バーコード署名を生成します",
+    "h2": "{{Fileformat}} ビジネス文書に {{Codetype}} バーコードで電子署名します。署名オプションを設定するための数行のコードで、バーコード署名をすばやく簡単に生成します。"
+  },
+  "qrcode-content": {
+    "meta_title": "{{ProgLang}} で {{Codetype}} QR コードを使用して {{Fileformat}} 文書に eSign",
+    "meta_description": "{{Codetype}} QR コードを作成し、短い {{ProgLang}} コードを含む {{ProductName}} を使用して {{Fileformat}} ファイルに配置します。 GroupDocs Document Signature API を使用して、ビジネス ドキュメントやファイルに QR コードで電子署名します。",
+    "h1": "{{ProgLang}} の {{Fileformat}} ドキュメントの {{Codetype}} QR コード署名を生成します",
+    "h2": "{{Fileformat}} ドキュメントと契約書に {{Codetype}} QR コードで電子署名します。 QR コード署名をすばやく簡単に生成します。"
+  },
+  "metadata-content": {
+    "meta_title": "{{ProgLang}} を介してメタデータの電子署名を {{Fileformat}} ドキュメントに追加します",
+    "meta_description": "数行の {{ProgLang}} コードを使用して、メタデータを {{Fileformat}} ドキュメント内の非表示の電子署名として使用します。 GroupDocs Document Signature API を使用して、ビジネス ドキュメントやファイルにメタデータ情報を電子署名します。",
+    "h1": "{{ProductName}} による {{Fileformat}} ドキュメントのメタデータ電子署名は、シンプルで使いやすいです。",
+    "h2": "非表示のメタデータ エントリを使用して、{{Fileformat}} ドキュメントと契約書に電子署名します。 PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、およびさまざまな画像形式のメタデータを、問題なく追加のコーディングなしで生成します。"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。",
+    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) は、UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14 などの多くのバーコード タイプを使用したデジタル ドキュメントの電子署名用の一般的な API です。および他の多く。お客様は、必要なテキストだけを提供するバーコードを簡単に作成し、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。ドキュメントに配置されたバーコードは、更新、検索、検証、削除、またはプレビューできます。さらに、バーコードのカスタマイズがサポートされています。",
+    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) は、QR コードを使用したデジタル ドキュメントの電子署名用の成熟した API です。ユーザーは、必要なテキストだけを提供する QR コード署名を生成して、ダウンロードしたり、ソーシャル メディアで画像として共有したりできます。署名されたドキュメントは、API を使用してスキャンするか、モバイル カメラで簡単にスキャンできます。 QRコード署名を追加してビジネス契約書や公式文書に電子的に署名し、それを操作します。 QR コード署名には、署名者を識別したりドキュメントを承認したりするための固有のカスタム情報が含まれます。さらに、QR コードのコンテンツは、個人キーを使用してプログラムで暗号化および復号化できます。これにより、公開文書内の機密データを共有するための多くの機能が開かれます。署名後、ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の QR コードを更新、検証、削除、プレビュー、または検索できます。 QRコードはさらにカスタマイズできます。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} を使用したドキュメント署名は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から最新の {{ProductFullName}} を取得します"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} ライブ デモで {{Fileformat}} ドキュメントに署名",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、さまざまな署名で {{Fileformat}} ファイルに今すぐ署名してください。無料のオンラインデモがあなたを待っています。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} でサポートされているその他の {{Signaturetype}} 署名",
+    "content": "{{Fileformat}} に他の署名タイプで署名することもできます。以下のリストをご覧ください。"
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Universal Product Code は、店舗で商品を追跡するために世界中で広く使用されているバーコード記号です。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "ちょうど11桁＋チェックデジット1桁。"
+    },
+    "UPCE": {
+      "details": "Universal Product Code は、店舗で商品を追跡するために世界中で広く使用されているバーコード記号です。 UPCE は UPC の場合は 8 桁のバリエーションです。",
+      "characterset": "数字 (0 ～ 9) のみをサポートします。",
+      "codetextcapacity": "コードテキストの容量: 正確に 7 桁 + 1 桁のチェック ディジット。"
+    },
+    "EAN13": {
+      "details": "最も一般的に使用されている EAN 標準は、元の 12 桁の Universal Product Code 標準のスーパーセットである 13 桁の EAN-13 です。",
+      "characterset": "数字のみ (0 ～ 9)。",
+      "codetextcapacity": "コードテキストの容量: 正確に 12 桁 + 1 桁のチェック ディジット。"
+    },
+    "EAN14": {
+      "details": "European Article Number (EAN) は、特定のメーカーの特定のパッケージ構成で特定の小売製品の種類を識別するために世界貿易で使用されるバーコード記号と番号付けシステムを記述する標準です。",
+      "characterset": "数字 (0 ～ 9) と特殊文字。",
+      "codetextcapacity": "ちょうど 14 桁の数字。"
+    },
+    "Code39": {
+      "details": "Code 39 (Alpha39、Code 3 of 9、Code 3/9、Type 39、USS Code 39、または USD-3 とも呼ばれる) は、可変長の個別のバーコード記号です。",
+      "characterset": "数字 (0 ～ 9)、大文字 (A ～ Z)、およびいくつかの特殊文字 (-、.、$、/、+、%、およびスペース)。",
+      "codetextcapacity": "特に制限はありません。"
+    },
+    "Code39Extended": {
+      "details": "Code 39 (Alpha39、Code 3 of 9、Code 3/9、Type 39、USS Code 39、または USD-3 とも呼ばれる) は、可変長の個別のバーコード記号です。",
+      "characterset": "文字セット: 全 128 文字の ASCII 文字。",
+      "codetextcapacity": "特に制限はありません。"
+    },
+    "Code128": {
+      "details": "Code 128 は、ISO/IEC 15417:2007 で定義されている高密度の線形バーコード記号です。英数字または数字のみのバーコードに使用されます。",
+      "characterset": "ASCII の 128 文字すべて。",
+      "codetextcapacity": "特に制限はありません。"
+    },
+    "Codabar": {
+      "details": "Codabar は、FedEx 航空券や血液銀行フォームなどのマルチパート フォーム用にドット マトリックス プリンターで印刷した場合でも正確に読み取れるように設計されたリニア バーコード シンボル体系です。",
+      "characterset": "数字 (0 ～ 9) および特殊文字 $/-:+。",
+      "codetextcapacity": "特に制限はありません。"
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) は、米国郵政公社が郵便の発送を支援するために使用するバーコード記号です。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "11文字まで。"
+    },
+    "ISBN": {
+      "details": "国際標準図書番号 (ISBN) は、一意であることを意図した数値の商業書籍識別子です。[a][b] 出版社は、国際 ISBN 機関の関連会社から ISBN を購入します。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "ちょうど9桁+1チェックデジット。"
+    },
+    "ITF14": {
+      "details": "ITF-14 は、Global Trade Item Number をエンコードするための Interleaved 2 of 5 (ITF) バーコードの GS1 実装です。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "13桁＋チェックデジット1桁。"
+    },
+    "Pdf417": {
+      "details": "PDF417 は、輸送、ID カード、在庫管理などのさまざまなアプリケーションで使用されるスタック型の線形バーコード形式です。",
+      "characterset": "すべての 256 の ASCII 文字。",
+      "codetextcapacity": "最大 800 文字。"
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) は、数字をエンコードする連続した 2 幅のバーコード記号です。 135 フィルム、ITF-14 バーコード、および一部の製品のカートンで商業的に使用されていますが、内部の製品には UPC または EAN のラベルが付けられています。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "可変長。"
+    },
+    "Pharmacode": {
+      "details": "Pharmacode は、Pharmaceutical Binary Code とも呼ばれ、製薬業界で梱包管理システムとして使用されるバーコード規格です。",
+      "characterset": "数字 (0 から 9)。",
+      "codetextcapacity": "3 から 131070 までの単一の整数のみを表します。"
+    },
+    "Aztec": {
+      "details": "Aztec Code は、2 次元 (2-D) の汎用マトリックス シンボルであり、他の 2-D シンボルよりも高い精度を持つように設計されています。 Aztec コード シンボルは、最大 3,832 桁の数字をエンコードできます。 3,067 文字の英字。または 1,914 バイトのデータ。",
+      "characterset": "すべての 256 の ASCII 文字。",
+      "codetextcapacity": "最大 3,832 桁の数字、または 3,067 文字の英字、または 1,914 バイトのデータ。"
+    },
+    "DataMatrix": {
+      "details": "データ マトリックスは、マトリックスとも呼ばれる正方形または長方形のパターンに配置された白黒の「セル」またはドットで構成される 2 次元コードです。エンコードされる情報は、テキストまたは数値データです。",
+      "characterset": "256 個の ASCII 文字すべて、すべての ISO 文字、およびすべての Extended Binary Coded Decimal Interchange Code (EBCDIC) 文字をサポートします。",
+      "codetextcapacity": "最大 3116 桁の数字、または 2335 個の英数字、または 1556 個の 2 進数文字。"
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix は、GS1 仕様に準拠した Data Matrix のバリアントです。 GS1 DataMatrix を使用して、次のような情報をエンコードしますが、これらに限定されません: AI(01) グローバル取引商品番号 (GTIN)、AI(17) 有効期限、AI(10) バッチ番号、AI(21) シリアル番号.",
+      "characterset": "文字セット: 大文字と小文字および特殊文字 $@%*+-./:=<>;&*_,'!すべて正しいアプリケーション識別子を使用します。",
+      "codetextcapacity": "コードテキストの容量: 最大 3116 桁の数字、または 2335 文字の英数字。"
+    },
+    "GS1QR": {
+      "details": "GS1 QR コードは、GS1 仕様に準拠した QR コードの変形です。これは、ロット番号、製品 ID、数量などの拡張パッケージ情報を共有するために特別に設計されました。",
+      "characterset": "大文字と小文字、および特殊文字 $%*+-./: すべて正しいアプリケーション識別子を使用",
+      "codetextcapacity": "数字 7089 文字、英数字 4296 文字まで"
+    },
+    "QR": {
+      "details": "QRコード（Quick Response Codeの略）は、マトリックスバーコード（または二次元バーコード）の一種の商標です。最もポピュラーで広く使われている二次元コードです。実際には、QR コードには多くの場合、Web サイトまたはアプリケーションを指すロケーター、識別子、またはトラッカーのデータが含まれています。",
+      "characterset": "ASCII 全 256 文字 + 漢字",
+      "codetextcapacity": "数字 7089 文字、英数字 4296 文字、2953 バイト (バイナリ データ) または漢字 1817 文字まで。"
+    }
+  }
+}

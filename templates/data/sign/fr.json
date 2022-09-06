@@ -1,0 +1,153 @@
+{
+  "content": {
+    "meta_title": "Ajout de signatures {{Signaturetype}} au fichier {{Fileformat}} avec {{ProgLang}}",
+    "meta_description": "Mettez {{Signaturetype}} Signature sur le fichier {{Fileformat}} pour {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers.",
+    "h1": "Signez des fichiers {{Fileformat}} avec des signatures {{Signaturetype}} en {{ProgLang}}",
+    "h2": "Comment ajouter {{Signaturetype}} Signature avec quelques lignes de code {{ProductName}}"
+  },
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} document avec {{Codetype}} Barcode in {{ProgLang}}",
+    "meta_description": "Créez {{Codetype}} Barcode Signature et placez-le sur le document {{Fileformat}} avec {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer divers formats de fichiers.",
+    "h1": "Générer la signature de code-barres {{Codetype}} pour le document {{Fileformat}} dans {{ProgLang}}",
+    "h2": "Signez électroniquement vos documents commerciaux {{Fileformat}} avec {{Codetype}} Barcode. Générez une signature de code-barres rapidement et facilement avec quelques lignes de code pour configurer les options de signature."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} document avec {{Codetype}} QR Code en {{ProgLang}}",
+    "meta_description": "Créez le code QR {{Codetype}} et placez-le dans le fichier {{Fileformat}} en utilisant {{ProductName}} avec un court morceau de code {{ProgLang}}. Utilisez l'API GroupDocs Document Signature pour signer électroniquement vos documents et fichiers commerciaux avec QR Code.",
+    "h1": "Générer la signature de code QR {{Codetype}} pour le document {{Fileformat}} en {{ProgLang}}",
+    "h2": "Signez électroniquement vos documents et contrats {{Fileformat}} avec {{Codetype}} QR Code. Générez une signature QR Code rapidement et facilement."
+  },
+  "metadata-content": {
+    "meta_title": "Ajouter des signatures électroniques de métadonnées aux documents {{Fileformat}} via {{ProgLang}}",
+    "meta_description": "Utilisez les métadonnées comme signatures électroniques cachées dans vos documents {{Fileformat}} en utilisant quelques lignes de code {{ProgLang}}. Utilisez l'API GroupDocs Document Signature pour signer électroniquement vos documents et fichiers commerciaux avec des informations de métadonnées.",
+    "h1": "Les signatures électroniques de métadonnées pour le document {{Fileformat}} via {{ProductName}} sont simples et faciles à utiliser !",
+    "h2": "Signez électroniquement vos documents et contrats {{Fileformat}} avec des entrées de métadonnées masquées. Générez des métadonnées pour les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint et divers formats d'image sans problème et avec un codage supplémentaire."
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.",
+    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques utilisant de nombreux types de codes-barres tels que UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 et plein d'autres. Les clients peuvent créer facilement des codes-barres fournissant uniquement le texte demandé et les placer sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les codes-barres placés dans les documents peuvent être mis à jour, recherchés, vérifiés, supprimés ou prévisualisés. De plus, la personnalisation des codes-barres est prise en charge.",
+    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) est une API mature pour la signature électronique de documents numériques à l'aide de QR Code. Les utilisateurs peuvent générer des signatures de code QR fournissant le texte juste demandé pour le télécharger ou le partager sur les réseaux sociaux sous forme d'image. Le document signé peut être scanné avec l'API ou simplement via la caméra mobile ! Signez électroniquement vos contrats commerciaux et documents officiels avec l'ajout de signature QR Code et manipulez-le. Toute signature QR Code contiendra des informations personnalisées uniques pour identifier le signataire ou autoriser le document. De plus, le contenu du code QR peut être crypté et décrypté avec des clés personnelles par programmation. Cela ouvre de nombreuses possibilités pour partager des données sensibles à l'intérieur des documents publics. Après la signature, l'utilisateur peut mettre à jour, vérifier, supprimer, prévisualiser ou rechercher les codes QR dans les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint, les fichiers Adobe Photoshop et divers formats d'image. Les codes QR peuvent également être personnalisés."
+  },
+  "steps": {
+    "title_left": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "La signature de documents avec {{ProductFullName}} peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Obtenez le dernier {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signature de documents {{Fileformat}} avec {{Signaturetype}} Live Demo",
+    "content": "Signez dès maintenant le fichier {{Fileformat}} avec différentes signatures en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Une démo en ligne gratuite vous attend."
+  },
+  "more_formats": {
+    "title": "Autres signatures {{Signaturetype}} prises en charge pour {{ProgLang}}",
+    "content": "Vous pouvez également signer {{Fileformat}} avec d'autres types de signature. Veuillez consulter la liste ci-dessous."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Le code produit universel est une symbologie de code-barres largement utilisée dans le monde entier pour suivre les articles commerciaux dans les magasins.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "Exactement 11 chiffres + 1 chiffre de contrôle."
+    },
+    "UPCE": {
+      "details": "Le code produit universel est une symbologie de code-barres largement utilisée dans le monde entier pour suivre les articles commerciaux dans les magasins. UPCE est une variation à 8 chiffres si UPC.",
+      "characterset": "Prend en charge uniquement les chiffres numériques (0-9).",
+      "codetextcapacity": "Capacité du texte codé : exactement 7 chiffres + 1 chiffre de contrôle."
+    },
+    "EAN13": {
+      "details": "La norme EAN la plus couramment utilisée est la norme EAN-13 à treize chiffres, un sur-ensemble de la norme originale de code de produit universel à 12 chiffres.",
+      "characterset": "Seuls les chiffres numériques (0-9).",
+      "codetextcapacity": "Capacité du texte codé : exactement 12 chiffres + 1 chiffre de contrôle."
+    },
+    "EAN14": {
+      "details": "Le numéro d'article européen ou EAN est une norme décrivant une symbologie de code-barres et un système de numérotation utilisé dans le commerce mondial pour identifier un type de produit de détail spécifique, dans une configuration d'emballage spécifique, d'un fabricant spécifique.",
+      "characterset": "Chiffres numériques (0-9) et caractères spéciaux.",
+      "codetextcapacity": "Exactement 14 chiffres numériques."
+    },
+    "Code39": {
+      "details": "Le code 39 (également connu sous le nom d'Alpha39, Code 3 sur 9, Code 3/9, Type 39, USS Code 39 ou USD-3) est une symbologie de code à barres discrète de longueur variable.",
+      "characterset": "Chiffres numériques (0-9) et lettres majuscules (A-Z) et un certain nombre de caractères spéciaux (-, ., $, /, +, % et espace).",
+      "codetextcapacity": "Aucune restriction spécifique."
+    },
+    "Code39Extended": {
+      "details": "Le code 39 (également connu sous le nom d'Alpha39, Code 3 sur 9, Code 3/9, Type 39, USS Code 39 ou USD-3) est une symbologie de code à barres discrète de longueur variable.",
+      "characterset": "Jeu de caractères : tous les 128 caractères ASCII.",
+      "codetextcapacity": "Aucune restriction spécifique."
+    },
+    "Code128": {
+      "details": "Le code 128 est une symbologie de code-barres linéaire haute densité définie dans la norme ISO/IEC 15417:2007. Il est utilisé pour les codes-barres alphanumériques ou uniquement numériques.",
+      "characterset": "Tous les 128 caractères d'ASCII.",
+      "codetextcapacity": "Aucune restriction spécifique."
+    },
+    "Codabar": {
+      "details": "Codabar est une symbologie de code-barres linéaire qui a été conçue pour être lue avec précision même lorsqu'elle est imprimée sur des imprimantes matricielles pour les formulaires en plusieurs parties tels que les factures aériennes FedEx et les formulaires de banque de sang.",
+      "characterset": "Chiffres numériques (0-9) et caractères spéciaux $/- :+.",
+      "codetextcapacity": "Aucune restriction spécifique."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) est une symbologie de code à barres utilisée par le service postal des États-Unis pour faciliter l'acheminement du courrier.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "Jusqu'à 11 caractères."
+    },
+    "ISBN": {
+      "details": "Le numéro international normalisé du livre (ISBN) est un identifiant numérique de livre commercial destiné à être unique.[a][b] Les éditeurs achètent des ISBN auprès d'une filiale de l'Agence internationale de l'ISBN.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "Exactement 9 chiffres + 1 chiffre de contrôle."
+    },
+    "ITF14": {
+      "details": "ITF-14 est l'implémentation GS1 d'un code à barres entrelacé 2 sur 5 (ITF) pour coder un numéro d'article commercial mondial.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "13 chiffres + 1 chiffre de contrôle."
+    },
+    "Pdf417": {
+      "details": "PDF417 est un format de code-barres linéaire empilé utilisé dans une variété d'applications telles que le transport, les cartes d'identification et la gestion des stocks.",
+      "characterset": "Tous les 256 caractères ASCII.",
+      "codetextcapacity": "Jusqu'à 800 caractères."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) est une symbologie de code à barres continue à deux largeurs codant des chiffres. Il est utilisé commercialement sur les films 135, pour les codes-barres ITF-14 et sur les cartons de certains produits, tandis que les produits à l'intérieur sont étiquetés avec UPC ou EAN.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "Longueur variable."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, également connu sous le nom de Pharmaceutical Binary Code, est une norme de code à barres, utilisée dans l'industrie pharmaceutique comme système de contrôle d'emballage.",
+      "characterset": "Chiffres numériques (0-9).",
+      "codetextcapacity": "Représente un seul entier compris entre 3 et 131070."
+    },
+    "Aztec": {
+      "details": "Le code aztèque est une symbologie matricielle bidimensionnelle (2-D) à usage général conçue pour avoir une plus grande précision que les autres symbologies 2-D. Un symbole de code aztèque peut coder jusqu'à 3 832 chiffres numériques ; 3 067 caractères alphabétiques ; ou 1 914 octets de données.",
+      "characterset": "Tous les 256 caractères ASCII.",
+      "codetextcapacity": "Jusqu'à 3 832 chiffres numériques, ou 3 067 caractères alphabétiques, ou 1 914 octets de données."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix est un code bidimensionnel constitué de « cellules » ou de points noirs et blancs disposés selon un motif carré ou rectangulaire, également connu sous le nom de matrice. Les informations à encoder peuvent être du texte ou des données numériques.",
+      "characterset": "Prend en charge les 256 caractères ASCII, tous les caractères ISO et tous les caractères EBCDIC (Extended Binary Coded Decimal Interchange Code).",
+      "codetextcapacity": "Jusqu'à 3116 chiffres numériques, ou 2335 caractères alphanumériques, ou 1556 caractères binaires."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix est une variante de Data Matrix conforme aux spécifications GS1. Utilisez GS1 DataMatrix pour coder les informations telles que, mais sans s'y limiter, les suivantes : AI(01) Numéro d'article international (GTIN), AI(17) Date d'expiration, AI(10) Numéro de lot, AI(21) Numéro de série .",
+      "characterset": "Jeu de caractères : lettres majuscules et minuscules et caractères spéciaux $@%*+-./:=<>;&*_,' ! tous avec des identificateurs d'application corrects.",
+      "codetextcapacity": "Capacité du texte codé : jusqu'à 3 116 chiffres numériques ou 2 335 caractères alphanumériques."
+    },
+    "GS1QR": {
+      "details": "Le QR Code GS1 est une variante du QR Code conforme aux spécifications GS1. Il a été conçu spécifiquement pour partager des informations d'emballage étendues, telles que le numéro de lot, l'ID de produit et la quantité.",
+      "characterset": "Lettres majuscules et minuscules et caractères spéciaux $%*+-./ : tous avec des identificateurs d'application corrects",
+      "codetextcapacity": "Jusqu'à 7089 caractères numériques, 4296 caractères alphanumériques"
+    },
+    "QR": {
+      "details": "QR Code (abréviation de Quick Response Code) est la marque d'un type de code-barres matriciel (ou code-barres bidimensionnel). C'est le type de code bidimensionnel le plus populaire et le plus largement utilisé. En pratique, les codes QR contiennent souvent des données pour un localisateur, un identifiant ou un tracker qui pointe vers un site Web ou une application.",
+      "characterset": "Tous les 256 caractères ASCII + Kanji",
+      "codetextcapacity": "Jusqu'à 7089 caractères numériques, 4296 caractères alphanumériques, 2953 octets (données binaires) ou 1817 caractères Kanji."
+    }
+  }
+}

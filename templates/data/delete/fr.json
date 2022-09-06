@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Supprimez les signatures {{Signaturetype}} des fichiers {{Fileformat}} via {{ProgLang}}",
+    "meta_description": "La suppression de signatures {{Signaturetype}} spécifiques à partir de documents {{Fileformat}} signés peut être effectuée facilement avec un code {{ProductName}} court.",
+    "h1": "Supprimer les signatures {{Signaturetype}} qui sont placées dans les fichiers {{Fileformat}}",
+    "h2": "Supprimez diverses signatures {{Signaturetype}} des documents {{Fileformat}}. La suppression des signatures {{Signaturetype}} nécessite un code {{ProgLang}} simple."
+  },
+  "about": {
+    "title": "Obtenir des informations sur les fonctionnalités de l'API {{ProductFullName}}",
+    "content": "L'API [{{ProductFullName}}]({{ProductUrl}}) propose de nombreuses façons de traiter vos documents à l'aide de signatures électroniques. Des signatures numériques telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les clients ont la possibilité d'ajouter, de supprimer, de mettre à jour, de vérifier ou de rechercher des signatures numériques dans des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Un grand nombre de fonctionnalités et de paramètres utiles sont fournis."
+  },
+  "steps": {
+    "title_left": "Comment supprimer les signatures {{Signaturetype}} de votre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) fournit une fonctionnalité utile pour effacer les documents {{Fileformat}} des signatures {{Signaturetype}} avec quelques lignes de code.",
+      "step_1": "Tout d'abord, instanciez l'objet Signature passant le chemin d'accès à votre document en tant que paramètre de constructeur.",
+      "step_2": "Ensuite, créez un objet de signature approprié et configurez son identifiant unique.",
+      "step_3": "Après cela, appelez la méthode Delete en passant l'objet de signature qui doit être supprimé.",
+      "step_4": "Enfin, traiter les résultats de l'opération."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "{{ProductFullName}} sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signer avec {{Signaturetype}} signatures Démo en direct",
+    "content": "Ajoutez dès maintenant diverses signatures électroniques au fichier {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Supprimez vos signatures {{Signaturetype}} avec {{ProgLang}}",
+    "content": "Suppression des signatures électroniques qui ont été ajoutées à divers formats de documents. Supprimez les signatures rapidement sans code supplémentaire."
+  }
+}

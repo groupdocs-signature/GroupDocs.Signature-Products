@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Rechercher les signatures {{Signaturetype}} dans le fichier {{Fileformat}} dans {{ProgLang}}",
+    "meta_description": "Utilisez {{ProductName}} pour rechercher des signatures {{Signaturetype}} dans des fichiers {{Fileformat}} en utilisant quelques lignes de code.",
+    "h1": "Rechercher les signatures {{Signaturetype}} dans le fichier {{Fileformat}}",
+    "h2": "L'API native {{ProductName}} permet de rechercher des signatures {{Signaturetype}} dans des fichiers {{Fileformat}} déjà signés. Effectuez une recherche avancée de signature électronique dans vos documents {{Fileformat}} en utilisant quelques lignes de code."
+  },
+  "about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) fournit l'API {{ProductName}} pour le traitement de documents à l'aide de divers types de signature tels que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées. Les utilisateurs peuvent ajouter, supprimer, mettre à jour, vérifier ou rechercher des signatures électroniques dans des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image, avec une prise en charge supplémentaire pour la personnalisation des propriétés des signatures selon les besoins."
+  },
+  "steps": {
+    "title_left": "Comment rechercher des signatures {{Signaturetype}} dans {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet aux développeurs de {{ProductName}} de rechercher plus facilement des signatures {{Signaturetype}} dans des fichiers {{Fileformat}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Créez une nouvelle instance de la classe Signature et transmettez le chemin du document source en tant que paramètre du constructeur.",
+      "step_2": "Instanciez l'objet SearchOptions selon vos besoins et spécifiez les options de recherche.",
+      "step_3": "Appelez la méthode Search de l'instance de classe Signature et transmettez-lui SearchOptions.",
+      "step_4": "Traitez les résultats de recherche en fonction de vos demandes."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "{{ProductFullName}} sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signer avec {{Signaturetype}} signatures Démo en direct",
+    "content": "Ajoutez dès maintenant diverses signatures électroniques aux fichiers {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Rechercher d'autres signatures {{Signaturetype}} à l'aide de {{ProgLang}}",
+    "content": "Recherche de signatures électroniques dans divers documents. Trouvez des signatures à partir de l'un des formats de fichiers populaires, comme indiqué ci-dessous."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} を介して {{Fileformat}} ファイルから {{Signaturetype}} 署名を削除します",
+    "meta_description": "署名済みの {{Fileformat}} ドキュメントから特定の {{Signaturetype}} 署名を削除するには、短い {{ProductName}} コードを使用すると簡単に実行できます。",
+    "h1": "{{Fileformat}} ファイルに配置されている {{Signaturetype}} 署名を削除します",
+    "h2": "{{Fileformat}} ドキュメントからさまざまな {{Signaturetype}} 署名を削除します。 {{Signaturetype}} 署名を削除するには、単純な {{ProgLang}} コードが必要です。"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API 機能に関する情報を取得する",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API は、電子署名を使用してドキュメントを処理するさまざまな方法を提供します。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどのデジタル署名を利用できます。お客様は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式でデジタル署名を追加、削除、更新、検証、または検索することができます。膨大な数の便利な機能と設定が提供されています。"
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} ドキュメントから {{Signaturetype}} 署名を削除する方法",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、数行のコードで {{Signaturetype}} 署名の {{Fileformat}} ドキュメントをクリアするための便利な機能を提供します。",
+      "step_1": "まず、ドキュメントへのパスをコンストラクタ パラメータとして渡す Signature オブジェクトをインスタンス化します。",
+      "step_2": "次に、適切な署名オブジェクトを作成し、その一意の識別子を設定します。",
+      "step_3": "その後、削除する必要がある署名オブジェクトを渡して Delete メソッドを呼び出します。",
+      "step_4": "最後に、操作結果を処理します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 署名による署名 ライブ デモ",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルにさまざまな電子署名を今すぐ追加してください。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} で {{Signaturetype}} 署名を削除します",
+    "content": "さまざまなドキュメント形式に追加された電子署名の削除。追加のコードなしで署名をすばやく削除します。"
+  }
+}

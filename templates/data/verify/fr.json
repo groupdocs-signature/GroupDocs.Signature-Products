@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Vérification des signatures {{Signaturetype}} pour les fichiers {{Fileformat}} via {{ProgLang}}",
+    "meta_description": "Utilisez seulement quelques lignes de code {{ProductName}} pour vérifier les documents {{Fileformat}} et leurs signatures {{Signaturetype}}.",
+    "h1": "Vérification des signatures {{Signaturetype}} pour les fichiers {{Fileformat}}",
+    "h2": "L'API pour {{ProductName}} offre la possibilité de vérifier les signatures {{Signaturetype}} sur les documents {{Fileformat}}. La vérification des signatures électroniques dans vos documents {{Fileformat}} peut être effectuée rapidement et facilement."
+  },
+  "about": {
+    "title": "Découvrez les nouvelles fonctionnalités de l'API {{ProductFullName}}",
+    "content": "L'API [{{ProductFullName}}]({{ProductUrl}}) offre un large éventail de façons de traiter de nombreux formats de documents à l'aide de signatures électroniques. De nombreux types de signatures numériques tels que textes, images, certificats numériques, codes-barres, codes QR, tampons ou métadonnées sont pris en charge. Les clients peuvent ajouter, supprimer, modifier, valider ou rechercher des signatures numériques dans des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Un nombre étonnant de fonctionnalités et de paramètres supplémentaires sont disponibles."
+  },
+  "steps": {
+    "title_left": "Comment valider les signatures {{Signaturetype}} dans votre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inclut des fonctionnalités utiles telles que la vérification des signatures {{Signaturetype}} placées sur les documents {{Fileformat}}. Utilisez cette opportunité sans implémenter de code supplémentaire.",
+      "step_1": "Tout d'abord, instanciez la classe Signature en fournissant comme paramètre de constructeur le chemin d'accès à un document censé être vérifié.",
+      "step_2": "Deuxièmement, créez un nouvel objet VerifyOptions et configurez toutes les propriétés requises.",
+      "step_3": "Enfin, appelez la méthode Verify de l'objet Signature en passant l'instance VerifyOptions.",
+      "step_4": "Traiter ensuite les résultats de la vérification."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "{{ProductFullName}} sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signer avec {{Signaturetype}} signatures Démo en direct",
+    "content": "Ajoutez dès maintenant diverses signatures électroniques au fichier {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Vérifiez les autres signatures {{Signaturetype}} à l'aide de {{ProgLang}}",
+    "content": "Vérification des signatures électroniques apposées dans divers documents. Vérifiez la qualité des signatures dans les formats de fichiers populaires comme indiqué ci-dessous."
+  }
+}

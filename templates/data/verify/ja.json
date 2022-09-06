@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} による {{Fileformat}} ファイルの {{Signaturetype}} 署名の検証",
+    "meta_description": "数行の {{ProductName}} コードを使用して、{{Fileformat}} ドキュメントとその {{Signaturetype}} 署名を検証します。",
+    "h1": "{{Fileformat}} ファイルの {{Signaturetype}} 署名検証",
+    "h2": "{{ProductName}} の API は、{{Fileformat}} ドキュメントで {{Signaturetype}} 署名を検証する機会を提供します。 {{Fileformat}} ドキュメント内の電子署名の検証は、迅速かつ簡単に実行できます。"
+  },
+  "about": {
+    "title": "新しい {{ProductFullName}} API 機能を発見する",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API は、電子署名を使用して多数のドキュメント形式を処理する幅広い方法を提供します。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなど、さまざまな種類のデジタル署名がサポートされています。顧客は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式でデジタル署名を追加、削除、編集、検証、または検索できます。驚くほど多くの追加機能と設定が利用可能です。"
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} ドキュメントで {{Signaturetype}} 署名を検証する方法",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) には、{{Fileformat}} ドキュメントに配置された {{Signaturetype}} 署名の検証などの便利な機能が含まれています。余分なコードを実装せずに、この機会を利用してください。",
+      "step_1": "まず、検証対象のドキュメントへのパスをコンストラクタ パラメータとして提供する Signature クラスをインスタンス化します。",
+      "step_2": "次に、新しい VerifyOptions オブジェクトを作成し、必要なすべてのプロパティを設定します。",
+      "step_3": "最後に、Signature のオブジェクト Verify メソッドを呼び出して、VerifyOptions インスタンスを渡します。",
+      "step_4": "次に、検証結果を処理します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 署名による署名 ライブ デモ",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルにさまざまな電子署名を今すぐ追加してください。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} を使用して、他の {{Signaturetype}} 署名を検証します",
+    "content": "さまざまなドキュメントに配置された電子署名の検証。以下に示すように、一般的なファイル形式の署名の品質を確認してください。"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} の {{Fileformat}} ファイルで {{Signaturetype}} 署名を検索します",
+    "meta_description": "数行のコードを使用して {{Fileformat}} ファイル内の {{Signaturetype}} 署名を検索するには、{{ProductName}} を使用します。",
+    "h1": "{{Fileformat}} ファイルで {{Signaturetype}} 署名を検索します",
+    "h2": "{{ProductName}} ネイティブ API により、署名済みの {{Fileformat}} ファイルで {{Signaturetype}} 署名を検索できます。数行のコードを使用して、{{Fileformat}} ドキュメント内で高度な電子署名検索を実行します。"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどのさまざまな署名タイプを使用してドキュメントを処理するための {{ProductName}} API を提供します。ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の電子署名を追加、削除、更新、検証、または検索でき、必要に応じて署名プロパティをカスタマイズするための追加サポートを利用できます。"
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} で {{Signaturetype}} 署名を検索する方法",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) を使用すると、いくつかの簡単な手順を実装することで、{{ProductName}} の開発者がアプリケーションから {{Fileformat}} ファイル内の {{Signaturetype}} 署名を簡単に検索できるようになります。",
+      "step_1": "Signature クラスの新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。",
+      "step_2": "要件に従って SearchOptions オブジェクトをインスタンス化し、検索オプションを指定します。",
+      "step_3": "Signature クラス インスタンスの Search メソッドを呼び出し、SearchOptions を渡します。",
+      "step_4": "要求に応じて検索結果を処理します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 署名による署名 ライブ デモ",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルにさまざまな電子署名を今すぐ追加してください。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} を使用して、他の {{Signaturetype}} 署名を検索します",
+    "content": "電子署名は、さまざまなドキュメントを検索します。以下に示すように、一般的なファイル形式のいずれかから署名を見つけます。"
+  }
+}

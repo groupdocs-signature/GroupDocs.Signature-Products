@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Busque {{Signaturetype}} firmas en {{Fileformat}} archivo en {{ProgLang}}",
+    "meta_description": "Use {{ProductName}} para buscar firmas {{Signaturetype}} en archivos {{Fileformat}} usando unas pocas líneas de código.",
+    "h1": "Buscar firmas {{Signaturetype}} en el archivo {{Fileformat}}",
+    "h2": "{{ProductName}} API nativa permite buscar {{Signaturetype}} firmas en archivos {{Fileformat}} ya firmados. Realice una búsqueda avanzada de firmas electrónicas dentro de sus documentos {{Fileformat}} utilizando unas pocas líneas de código."
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la API de {{ProductName}} para procesar documentos utilizando varios tipos de firma, como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los usuarios pueden agregar, eliminar, actualizar, verificar o buscar firmas electrónicas en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen, con soporte adicional para personalizar las propiedades de las firmas según sea necesario."
+  },
+  "steps": {
+    "title_left": "Cómo buscar firmas {{Signaturetype}} en {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) facilita a los desarrolladores de {{ProductName}} la búsqueda de firmas {{Signaturetype}} en archivos {{Fileformat}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
+      "step_1": "Cree una nueva instancia de la clase Signature y pase la ruta del documento de origen como parámetro del constructor.",
+      "step_2": "Cree una instancia del objeto SearchOptions de acuerdo con sus requisitos y especifique las opciones de búsqueda.",
+      "step_3": "Llame al método de búsqueda de la instancia de la clase Signature y pásele SearchOptions.",
+      "step_4": "Procese los resultados de la búsqueda de acuerdo con sus demandas."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Firmar con {{Signaturetype}} firmas Demostración en vivo",
+    "content": "Agregue varias firmas electrónicas a los archivos {{Fileformat}} ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Busque otras firmas {{Signaturetype}} usando {{ProgLang}}",
+    "content": "Búsqueda de firmas electrónicas en diversos documentos. Encuentre firmas de uno de los formatos de archivo populares como se muestra a continuación."
+  }
+}

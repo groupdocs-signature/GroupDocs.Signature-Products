@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Aktualisieren Sie {{Signaturetype}}-Signaturen, die in {{Fileformat}}-Dateien platziert wurden, mit {{ProgLang}}",
+    "meta_description": "Verwenden Sie den einfachen und leicht verständlichen {{ProductName}}-Code für die Aktualisierung von {{Signaturetype}}-Signaturen in signierten {{Fileformat}}-Dokumenten.",
+    "h1": "Bearbeiten und aktualisieren Sie {{Signaturetype}}-Signaturen, die in {{Fileformat}}-Dateien platziert sind",
+    "h2": "Die API für {{ProductName}} bietet Funktionen für die Aktualisierung von {{Signaturetype}}-Signaturen in {{Fileformat}}-Dokumenten. Aktualisieren Sie schnell und einfach elektronische Signaturen in Ihren {{Fileformat}}-Dokumenten mit ein paar Zeilen {{ProgLang}}-Code."
+  },
+  "about": {
+    "title": "Erfahren Sie mehr über {{ProductFullName}}-API-Funktionen",
+    "content": "Die API-Funktionalität von [{{ProductFullName}}]({{ProductUrl}}) enthält eine große Auswahl an Mitteln zur Verarbeitung nachgefragter Dokumentenformate mithilfe elektronischer Signaturen. Ein breites Spektrum an elektronischen Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten werden unterstützt. Kunden können digitale Signaturen in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten hinzufügen, entfernen, bearbeiten, validieren oder suchen. Zahlreiche nützliche Funktionen und Einstellungen stehen zur Verfügung."
+  },
+  "steps": {
+    "title_left": "So ändern Sie {{Signaturetype}}-Signaturen in Ihrem {{Fileformat}}-Dokument",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) enthält nützliche Funktionen wie die Aktualisierung von {{Signaturetype}}-Signaturen, die in {{Fileformat}}-Dokumenten platziert sind. Es ermöglicht das Ändern von Signaturfunktionen ohne zusätzlichen Code.",
+      "step_1": "Erstellen Sie zunächst ein Signature-Objekt, das als Konstruktorparameterpfad zu einem Dokument übergeben wird, das aktualisiert werden soll.",
+      "step_2": "Instanziieren Sie dann ein geeignetes bestimmtes Signaturobjekt und richten Sie seine Kennung und Eigenschaften ein, die geändert werden müssen.",
+      "step_3": "Rufen Sie zuletzt die Update-Methode von Signature auf, indem Sie ein bestimmtes Signaturobjekt übergeben.",
+      "step_4": "Verarbeiten Sie die Aktualisierungsergebnisse zu Ihrer Benachrichtigung."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}} werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Signieren mit {{Signaturetype}}-Signaturen Live-Demo",
+    "content": "Fügen Sie jetzt verschiedene elektronische Signaturen zur Datei {{Fileformat}} hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen."
+  },
+  "more_formats": {
+    "title": "Aktualisieren Sie verschiedene {{Signaturetype}}-Signaturen über {{ProgLang}}",
+    "content": "Bearbeiten von digitalen Signaturen, die in verschiedenen Dokumentformaten platziert sind. Aktualisieren Sie Signaturdaten ohne zusätzlichen Code."
+  }
+}

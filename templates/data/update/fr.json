@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Mettre à jour les signatures {{Signaturetype}} placées dans les fichiers {{Fileformat}} avec {{ProgLang}}",
+    "meta_description": "Utilisez le code {{ProductName}} simple et facile à comprendre pour la mise à jour des signatures {{Signaturetype}} dans les documents signés {{Fileformat}}.",
+    "h1": "Modifier et mettre à jour les signatures {{Signaturetype}} placées dans les fichiers {{Fileformat}}",
+    "h2": "L'API pour {{ProductName}} fournit des fonctionnalités pour la mise à jour des signatures {{Signaturetype}} dans les documents {{Fileformat}}. Mettez à jour les signatures électroniques dans vos documents {{Fileformat}} avec quelques lignes de code {{ProgLang}} rapidement et facilement."
+  },
+  "about": {
+    "title": "En savoir plus sur les fonctionnalités de l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) La fonctionnalité de l'API contient une vaste sélection de moyens pour traiter les formats de documents à la demande à l'aide de signatures électroniques. Un large éventail de signatures électroniques telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont pris en charge. Les clients peuvent ajouter, supprimer, modifier, valider ou rechercher des signatures numériques dans des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. De nombreuses fonctionnalités et paramètres utiles sont disponibles."
+  },
+  "steps": {
+    "title_left": "Comment changer les signatures {{Signaturetype}} dans votre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inclut des fonctionnalités utiles telles que la mise à jour des signatures {{Signaturetype}} placées dans les documents {{Fileformat}}. Il permet de modifier les fonctionnalités des signatures sans code supplémentaire.",
+      "step_1": "Pour commencer, créez un objet Signature passant comme chemin de paramètre constructeur à un document qui est censé être mis à jour.",
+      "step_2": "Ensuite, instanciez un objet de signature particulier approprié et configurez son identifiant et ses propriétés qui doivent être modifiées.",
+      "step_3": "Enfin, appelez la méthode Update de Signature en passant un objet de signature particulier.",
+      "step_4": "Traiter les résultats de mise à jour à votre avis."
+    },
+    "title_right": "Configuration requise",
+    "content_right": {
+      "description": "{{ProductFullName}} sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Téléchargez la dernière version de {{ProductFullName}} depuis [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signer avec {{Signaturetype}} signatures Démo en direct",
+    "content": "Ajoutez dès maintenant diverses signatures électroniques au fichier {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Mettre à jour diverses signatures {{Signaturetype}} via {{ProgLang}}",
+    "content": "Modification des signatures numériques qui sont placées dans divers formats de documents. Mettez à jour les données des signatures sans code supplémentaire."
+  }
+}

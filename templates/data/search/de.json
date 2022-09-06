@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Suche nach {{Signaturetype}}-Signaturen in der Datei {{Fileformat}} in {{ProgLang}}",
+    "meta_description": "Verwenden Sie {{ProductName}} für die Suche nach {{Signaturetype}}-Signaturen in {{Fileformat}}-Dateien mit ein paar Zeilen Code.",
+    "h1": "Suchen Sie nach {{Signaturetype}}-Signaturen in der Datei {{Fileformat}}",
+    "h2": "Die native API von {{ProductName}} ermöglicht die Suche nach {{Signaturetype}}-Signaturen in bereits signierten {{Fileformat}}-Dateien. Führen Sie mit wenigen Codezeilen eine erweiterte E-Signatur-Suche in Ihren {{Fileformat}}-Dokumenten durch."
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) bietet {{ProductName}} API zur Verarbeitung von Dokumenten mit verschiedenen Signaturtypen wie Texten, Bildern, digitalen Zertifikaten, Barcodes, QR-Codes, Stempeln oder Metadaten. Benutzer können elektronische Signaturen in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten hinzufügen, löschen, aktualisieren, überprüfen oder suchen, mit zusätzlicher Unterstützung für die Anpassung von Signatureigenschaften nach Bedarf."
+  },
+  "steps": {
+    "title_left": "So suchen Sie nach {{Signaturetype}}-Signaturen in {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) erleichtert Entwicklern von {{ProductName}} die Suche nach {{Signaturetype}}-Signaturen in {{Fileformat}}-Dateien aus ihren Anwendungen, indem einige einfache Schritte implementiert werden.",
+      "step_1": "Erstellen Sie eine neue Instanz der Signature-Klasse und übergeben Sie den Pfad des Quelldokuments als Konstruktorparameter.",
+      "step_2": "Instanziieren Sie das SearchOptions-Objekt gemäß Ihren Anforderungen und geben Sie Suchoptionen an.",
+      "step_3": "Rufen Sie die Search-Methode der Signature-Klasseninstanz auf und übergeben Sie ihr SearchOptions.",
+      "step_4": "Suchergebnisse entsprechend Ihren Anforderungen aufbereiten."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}} werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Signieren mit {{Signaturetype}}-Signaturen Live-Demo",
+    "content": "Fügen Sie jetzt verschiedene elektronische Signaturen zu {{Fileformat}}-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen."
+  },
+  "more_formats": {
+    "title": "Suchen Sie mit {{ProgLang}} nach anderen {{Signaturetype}}-Signaturen",
+    "content": "Elektronische Signaturen suchen in verschiedenen Dokumenten. Finden Sie Signaturen in einem der gängigen Dateiformate, wie unten gezeigt."
+  }
+}

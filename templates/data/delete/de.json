@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Löschen Sie {{Signaturetype}}-Signaturen aus {{Fileformat}}-Dateien über {{ProgLang}}",
+    "meta_description": "Das Löschen bestimmter {{Signaturetype}}-Signaturen aus signierten {{Fileformat}}-Dokumenten kann einfach mit dem kurzen {{ProductName}}-Code durchgeführt werden.",
+    "h1": "Entfernen Sie {{Signaturetype}}-Signaturen, die in {{Fileformat}}-Dateien platziert sind",
+    "h2": "Löschen Sie verschiedene {{Signaturetype}}-Signaturen aus {{Fileformat}}-Dokumenten. Das Entfernen von {{Signaturetype}}-Signaturen erfordert einfachen {{ProgLang}}-Code."
+  },
+  "about": {
+    "title": "Informieren Sie sich über {{ProductFullName}}-API-Funktionen",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API bietet viele Möglichkeiten, Ihre Dokumente mit elektronischen Signaturen zu verarbeiten. Digitale Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Kunden haben die Möglichkeit, digitale Signaturen in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten hinzuzufügen, zu löschen, zu aktualisieren, zu überprüfen oder zu durchsuchen. Eine große Anzahl nützlicher Funktionen und Einstellungen werden bereitgestellt."
+  },
+  "steps": {
+    "title_left": "So entfernen Sie {{Signaturetype}}-Signaturen aus Ihrem {{Fileformat}}-Dokument",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet eine nützliche Funktion zum Löschen von {{Fileformat}}-Dokumenten von {{Signaturetype}}-Signaturen mit ein paar Codezeilen.",
+      "step_1": "Instanziieren Sie zunächst das Signaturobjekt, das den Pfad zu Ihrem Dokument als Konstruktorparameter übergibt.",
+      "step_2": "Erstellen Sie dann ein geeignetes Signaturobjekt und richten Sie seine eindeutige Kennung ein.",
+      "step_3": "Rufen Sie danach die Delete-Methode auf und übergeben Sie das Signaturobjekt, das gelöscht werden muss.",
+      "step_4": "Schließlich resultieren Prozessoperationen."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}} werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Signieren mit {{Signaturetype}}-Signaturen Live-Demo",
+    "content": "Fügen Sie jetzt verschiedene elektronische Signaturen zur Datei {{Fileformat}} hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen."
+  },
+  "more_formats": {
+    "title": "Löschen Sie Ihre {{Signaturetype}}-Signaturen mit {{ProgLang}}",
+    "content": "Löschung von E-Signaturen, die verschiedenen Dokumentenformaten hinzugefügt wurden. Entfernen Sie Signaturen schnell ohne zusätzlichen Code."
+  }
+}

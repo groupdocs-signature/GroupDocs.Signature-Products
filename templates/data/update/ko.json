@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}}을(를) 사용하여 {{Fileformat}} 파일에 있는 {{Signaturetype}} 서명 업데이트",
+    "meta_description": "서명된 {{Fileformat}} 문서에서 {{Signaturetype}} 서명 업데이트를 위해 간단하고 이해하기 쉬운 {{ProductName}} 코드를 사용하세요.",
+    "h1": "{{Fileformat}} 파일에 있는 {{Signaturetype}} 서명 편집 및 업데이트",
+    "h2": "{{ProductName}}용 API는 {{Fileformat}} 문서에서 업데이트되는 {{Signaturetype}} 서명에 대한 기능을 제공합니다. 몇 줄의 {{ProgLang}} 코드로 {{Fileformat}} 문서 내의 전자 서명을 빠르고 쉽게 업데이트하십시오."
+  },
+  "about": {
+    "title": "{{ProductFullName}} API 기능에 대해 알아보기",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API 기능에는 전자 서명을 사용하여 주문형 문서 형식을 처리하기 위한 다양한 수단이 포함되어 있습니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 광범위한 전자 서명이 지원됩니다. 고객은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에서 디지털 서명을 추가, 제거, 편집, 유효성 검사 또는 검색할 수 있습니다. 많은 유용한 기능과 설정을 사용할 수 있습니다."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} 문서에서 {{Signaturetype}} 서명을 변경하는 방법",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})에는 {{Fileformat}} 문서에 있는 {{Signaturetype}} 서명 업데이트와 같은 유용한 기능이 포함되어 있습니다. 추가 코드 없이 서명 기능을 변경할 수 있습니다.",
+      "step_1": "시작하려면 업데이트해야 하는 문서에 대한 생성자 매개변수 경로로 전달하는 Signature 객체를 생성합니다.",
+      "step_2": "그런 다음 적절한 특정 서명 개체를 인스턴스화하고 변경해야 하는 해당 식별자와 속성을 설정합니다.",
+      "step_3": "마지막으로 특정 서명 개체를 전달하는 Signature의 Update 메서드를 호출합니다.",
+      "step_4": "통지에 대한 결과 업데이트를 처리합니다."
+    },
+    "title_right": "시스템 요구 사항",
+    "content_right": {
+      "description": "{{ProductFullName}}은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}})에서 최신 버전의 {{ProductFullName}} 다운로드"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 서명으로 서명 라이브 데모",
+    "content": "지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 {{Fileformat}} 파일에 다양한 전자 서명을 추가하세요."
+  },
+  "more_formats": {
+    "title": "{{ProgLang}}을(를) 통해 다양한 {{Signaturetype}} 서명 업데이트",
+    "content": "다양한 문서 형식에 있는 디지털 서명을 편집합니다. 추가 코드 없이 서명 데이터를 업데이트합니다."
+  }
+}

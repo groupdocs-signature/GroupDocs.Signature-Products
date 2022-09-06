@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Fileformat}} ファイルに配置された {{Signaturetype}} 署名を {{ProgLang}} で更新します",
+    "meta_description": "署名済みの {{Fileformat}} ドキュメントの {{Signaturetype}} 署名の更新には、シンプルでわかりやすい {{ProductName}} コードを使用してください。",
+    "h1": "{{Fileformat}} ファイルに配置された {{Signaturetype}} 署名の編集と更新",
+    "h2": "{{ProductName}} の API は、{{Fileformat}} ドキュメントで更新する {{Signaturetype}} 署名の機能を提供します。 {{Fileformat}} ドキュメント内の電子署名を数行の {{ProgLang}} コードですばやく簡単に更新します。"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API の機能について学ぶ",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API 機能には、電子署名を使用してオンデマンド ドキュメント形式を処理する手段が多数含まれています。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなど、幅広い電子署名がサポートされています。顧客は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式でデジタル署名を追加、削除、編集、検証、または検索できます。便利な機能や設定がたくさんあります。"
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} ドキュメントの {{Signaturetype}} 署名を変更する方法",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) には、{{Fileformat}} ドキュメントに配置された {{Signaturetype}} 署名の更新などの便利な機能が含まれています。追加のコードなしで署名機能を変更できます。",
+      "step_1": "まず、更新されるはずのドキュメントへのコンストラクタ パラメータ パスとして渡される Signature オブジェクトを作成します。",
+      "step_2": "次に、適切な特定の署名オブジェクトをインスタンス化し、変更する必要があるその識別子とプロパティを設定します。",
+      "step_3": "最後に、特定の署名オブジェクトを渡して Signature の Update メソッドを呼び出します。",
+      "step_4": "あなたの通知に結果を更新するプロセス。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードします"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} 署名による署名 ライブ デモ",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルにさまざまな電子署名を今すぐ追加してください。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} を介してさまざまな {{Signaturetype}} 署名を更新します",
+    "content": "さまざまなドキュメント形式に配置されているデジタル署名を編集します。追加のコードなしで署名データを更新します。"
+  }
+}

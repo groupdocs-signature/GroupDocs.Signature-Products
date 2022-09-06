@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Eliminar {{Signaturetype}} firmas de {{Fileformat}} archivos a través de {{ProgLang}}",
+    "meta_description": "La eliminación de firmas {{Signaturetype}} específicas de documentos {{Fileformat}} firmados se puede realizar fácilmente con el código corto {{ProductName}}.",
+    "h1": "Eliminar {{Signaturetype}} firmas que se colocan en archivos {{Fileformat}}",
+    "h2": "Elimine varias firmas {{Signaturetype}} de los documentos {{Fileformat}}. Eliminar las firmas {{Signaturetype}} requiere un código {{ProgLang}} simple."
+  },
+  "about": {
+    "title": "Obtenga información sobre las características de la API de {{ProductFullName}}",
+    "content": "La API de [{{ProductFullName}}]({{ProductUrl}}) proporciona muchas formas de procesar sus documentos mediante firmas electrónicas. Están disponibles firmas digitales como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes tienen la posibilidad de agregar, eliminar, actualizar, verificar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Se proporciona una gran cantidad de funciones y configuraciones útiles."
+  },
+  "steps": {
+    "title_left": "Cómo eliminar las firmas {{Signaturetype}} de su documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona una característica útil para borrar documentos {{Fileformat}} de {{Signaturetype}} firmas con unas pocas líneas de código.",
+      "step_1": "En primer lugar, cree una instancia de la ruta de paso del objeto Signature a su documento como parámetro del constructor.",
+      "step_2": "Luego, cree un objeto de firma apropiado y configure su identificador único.",
+      "step_3": "Después de eso, invoque el método Eliminar pasando el objeto de firma que debe eliminarse.",
+      "step_4": "Finalmente, los resultados de la operación del proceso."
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Firmar con {{Signaturetype}} firmas Demostración en vivo",
+    "content": "Agregue varias firmas electrónicas al archivo {{Fileformat}} ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Elimina tus {{Signaturetype}} firmas con {{ProgLang}}",
+    "content": "Eliminación de firmas electrónicas que se agregaron a varios formatos de documentos. Elimine firmas rápidamente sin código adicional."
+  }
+}

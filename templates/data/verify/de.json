@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Überprüfung von {{Signaturetype}}-Signaturen für {{Fileformat}}-Dateien über {{ProgLang}}",
+    "meta_description": "Verwenden Sie nur wenige Zeilen {{ProductName}}-Code, um {{Fileformat}}-Dokumente und ihre {{Signaturetype}}-Signaturen zu überprüfen.",
+    "h1": "{{Signaturetype}}-Signaturüberprüfung für {{Fileformat}}-Dateien",
+    "h2": "Die API für {{ProductName}} bietet die Möglichkeit, {{Signaturetype}}-Signaturen bei {{Fileformat}}-Dokumenten zu überprüfen. Die Überprüfung elektronischer Signaturen in Ihren {{Fileformat}}-Dokumenten kann schnell und einfach durchgeführt werden."
+  },
+  "about": {
+    "title": "Entdecken Sie neue API-Funktionen von {{ProductFullName}}",
+    "content": "Die [{{ProductFullName}}]({{ProductUrl}})-API bietet eine Vielzahl von Möglichkeiten zur Verarbeitung zahlreicher Dokumentformate mithilfe elektronischer Signaturen. Viele Arten von digitalen Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten werden unterstützt. Kunden können digitale Signaturen in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten hinzufügen, entfernen, bearbeiten, validieren oder suchen. Erstaunlich viele zusätzliche Funktionen und Einstellungen sind verfügbar."
+  },
+  "steps": {
+    "title_left": "So validieren Sie {{Signaturetype}}-Signaturen in Ihrem {{Fileformat}}-Dokument",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) enthält nützliche Funktionen wie die Überprüfung von {{Signaturetype}}-Signaturen, die in {{Fileformat}}-Dokumenten platziert wurden. Nutzen Sie diese Gelegenheit, ohne zusätzlichen Code zu implementieren.",
+      "step_1": "Instanziieren Sie zunächst die Klasse Signature, die als Konstruktorparameter den Pfad zu einem Dokument bereitstellt, das überprüft werden soll.",
+      "step_2": "Erstellen Sie zweitens ein neues VerifyOptions-Objekt und richten Sie alle erforderlichen Eigenschaften ein.",
+      "step_3": "Rufen Sie schließlich die Verify-Methode des Signature-Objekts auf und übergeben Sie die VerifyOptions-Instanz.",
+      "step_4": "Verarbeiten Sie dann die Überprüfungsergebnisse."
+    },
+    "title_right": "System Anforderungen",
+    "content_right": {
+      "description": "{{ProductFullName}} werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}}) herunter"
+    }
+  },
+  "demos": {
+    "title": "Signieren mit {{Signaturetype}}-Signaturen Live-Demo",
+    "content": "Fügen Sie jetzt verschiedene elektronische Signaturen zur Datei {{Fileformat}} hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen."
+  },
+  "more_formats": {
+    "title": "Verifizieren Sie andere {{Signaturetype}}-Signaturen mit {{ProgLang}}",
+    "content": "Überprüfung elektronischer Signaturen in verschiedenen Dokumenten. Überprüfen Sie die Qualität der Signaturen in den gängigen Dateiformaten wie unten angegeben."
+  }
+}
