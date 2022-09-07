@@ -1,0 +1,118 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Search
+signaturetype: Digital
+fileformat: Doc
+productName: .NET
+lang: ja
+productCode: net
+otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx xltm pptx pptm
+breadcrumb: Search Digital signatures at Doc with C#
+
+############################# Head ############################
+head_title: "C# の Doc ファイルで Digital 署名を検索します"
+head_description: "数行のコードを使用して Doc ファイル内の Digital 署名を検索するには、.NET を使用します。"
+
+############################# Header ############################
+title: "Doc ファイルで Digital 署名を検索します"
+description: ".NET ネイティブ API により、署名済みの Doc ファイルで Digital 署名を検索できます。数行のコードを使用して、Doc ドキュメント内で高度な電子署名検索を実行します。"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocsature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Signature for .NET API について"
+    content: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) は、テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどのさまざまな署名タイプを使用してドキュメントを処理するための .NET API を提供します。ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の電子署名を追加、削除、更新、検証、または検索でき、必要に応じて署名プロパティをカスタマイズするための追加サポートを利用できます。
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Doc で Digital 署名を検索する方法"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) を使用すると、いくつかの簡単な手順を実装することで、.NET の開発者がアプリケーションから Doc ファイル内の Digital 署名を簡単に検索できるようになります。
+        
+        * Signature クラスの新しいインスタンスを作成し、ソース ドキュメント パスをコンストラクター パラメーターとして渡します。
+        * 要件に従って SearchOptions オブジェクトをインスタンス化し、検索オプションを指定します。
+        * Signature クラス インスタンスの Search メソッドを呼び出し、SearchOptions を渡します。
+        * 要求に応じて検索結果を処理します。
+
+    title_right: "System Requirements"
+    content_right: |
+        GroupDocs.Signature for .NET は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * [Nuget](https://www.nuget.org/packages/groupdocs.signature) から GroupDocs.Signature for .NET の最新バージョンをダウンロードします
+         
+    code: |
+        ```csharp    
+                
+        // Set up input Doc file
+        string filePath = "input.doc";
+
+        // Instantiate Signature for input file
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        {
+                //Create search options
+                DigitalSearchOptions options = new DigitalSearchOptions()
+                {
+                    // specify special search criteria
+                    Comments = "Approved",
+                    // specify date range period of signature
+                    SignDateTimeFrom = new DateTime(year: 2020, month: 01, day: 01),
+                    SignDateTimeTo = new DateTime(year: 2020, month: 12, day: 31)
+                };
+
+                // search for Digital signatures in Doc document
+                List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+
+                // process signatures which were found                
+                foreach (DigitalSignature item in signatures)
+                {
+                    //...
+                }
+        }
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Digital 署名による署名 ライブ デモ"
+    content: |
+       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Doc ファイルにさまざまな電子署名を今すぐ追加してください。
+
+        
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "C# を使用して、他の Digital 署名を検索します"
+    content: |
+        "電子署名は、さまざまなドキュメントを検索します。以下に示すように、一般的なファイル形式のいずれかから署名を見つけます。"
+    format: 
+           
+       
+back_to_top:
+    enable: true
+---
