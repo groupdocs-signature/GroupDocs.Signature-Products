@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "在 {{ProgLang}} 的 {{Fileformat}} 文件中搜索 {{Signaturetype}} 签名",
+    "meta_description": "使用 {{ProductName}} 通过几行代码在 {{Fileformat}} 文件中搜索 {{Signaturetype}} 签名。",
+    "h1": "在 {{Fileformat}} 文件中搜索 {{Signaturetype}} 签名",
+    "h2": "{{ProductName}} 原生 API 允许在已签名的 {{Fileformat}} 文件中搜索 {{Signaturetype}} 签名。使用几行代码在您的 {{Fileformat}} 文档中执行高级电子签名搜索。"
+  },
+  "about": {
+    "title": "关于 {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 提供 {{ProductName}} API 用于处理使用各种签名类型的文档，例如文本、图像、数字证书、条形码、QR 码、图章或元数据。用户可以在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中添加、删除、更新、验证或搜索电子签名，并根据需要额外支持自定义签名属性。"
+  },
+  "steps": {
+    "title_left": "如何在 {{Fileformat}} 中搜索 {{Signaturetype}} 签名",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 让 {{ProductName}} 开发人员通过执行几个简单的步骤，可以更轻松地从他们的应用程序中搜索 {{Fileformat}} 文件中的 {{Signaturetype}} 签名。",
+      "step_1": "创建 Signature 类的新实例并将源文档路径作为构造函数参数传递。",
+      "step_2": "根据您的要求实例化 SearchOptions 对象并指定搜索选项。",
+      "step_3": "调用 Signature 类实例的 Search 方法并将 SearchOptions 传递给它。",
+      "step_4": "根据您的需求处理搜索结果。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}}。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    }
+  },
+  "demos": {
+    "title": "使用 {{Signaturetype}} 签名进行签名 Live Demo",
+    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 {{Fileformat}} 文件添加各种电子签名。"
+  },
+  "more_formats": {
+    "title": "使用 {{ProgLang}} 搜索其他 {{Signaturetype}} 签名",
+    "content": "在各种文档中搜索电子签名。从一种流行的文件格式中查找签名，如下所示。"
+  }
+}

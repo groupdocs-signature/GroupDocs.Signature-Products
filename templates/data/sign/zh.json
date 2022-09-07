@@ -1,0 +1,153 @@
+{
+  "content": {
+    "meta_title": "使用 {{ProgLang}} 将 {{Signaturetype}} 签名添加到 {{Fileformat}} 文件",
+    "meta_description": "使用几行代码将 {{Signaturetype}} 签名放在 {{ProductName}} 的 {{Fileformat}} 文件上。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。",
+    "h1": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签名对 {{Fileformat}} 文件进行签名",
+    "h2": "如何用几行 {{ProductName}} 代码添加 {{Signaturetype}} 签名"
+  },
+  "barcode-content": {
+    "meta_title": "在 {{ProgLang}} 中带有 {{Codetype}} 条码的 eSign {{Fileformat}} 文档",
+    "meta_description": "创建 {{Codetype}} 条码签名并使用几行代码将其放在带有 {{ProductName}} 的 {{Fileformat}} 文档中。使用 GroupDocs 文档签名 API 对各种文件格式进行签名。",
+    "h1": "在 {{ProgLang}} 中为 {{Fileformat}} 文档生成 {{Codetype}} 条码签名",
+    "h2": "使用 {{Codetype}} 条码对您的 {{Fileformat}} 业务文档进行电子签名。只需几行代码即可快速轻松地生成条形码签名以设置签名选项。"
+  },
+  "qrcode-content": {
+    "meta_title": "在 {{ProgLang}} 中带有 {{Codetype}} QR 码的 eSign {{Fileformat}} 文档",
+    "meta_description": "创建 {{Codetype}} 二维码并使用 {{ProductName}} 和一小段 {{ProgLang}} 代码将其放在 {{Fileformat}} 文件中。使用 GroupDocs 文档签名 API 使用 QR 码对您的业务文档和文件进行电子签名。",
+    "h1": "在 {{ProgLang}} 中为 {{Fileformat}} 文档生成 {{Codetype}} 二维码签名",
+    "h2": "使用 {{Codetype}} 二维码对您的 {{Fileformat}} 文档和合同进行电子签名。快速轻松地生成二维码签名。"
+  },
+  "metadata-content": {
+    "meta_title": "通过 {{ProgLang}} 将元数据电子签名附加到 {{Fileformat}} 文档",
+    "meta_description": "使用几行 {{ProgLang}} 代码将元数据用作 {{Fileformat}} 文档中的隐藏电子签名。使用 GroupDocs 文档签名 API 使用元数据信息对您的业务文档和文件进行电子签名。",
+    "h1": "通过 {{ProductName}} 的 {{Fileformat}} 文档的元数据电子签名简单易用！",
+    "h2": "使用隐藏的元数据条目对您的 {{Fileformat}} 文档和合同进行电子签名。为 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿和各种图像格式生成元数据，没有问题和额外的编码。"
+  },
+  "about": {
+    "title": "关于 {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。",
+    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) 是一种流行的数字文档电子签名 API，使用多种条形码类型，如 UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14和许多其他人。客户可以轻松创建提供所需文本的条形码，并将它们放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。放置在文档中的条码也可以更新、搜索、验证、删除或预览。此外，还支持条码定制。",
+    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) 是一个成熟的 API，用于使用 QR 码进行数字文档电子签名。用户可以生成 QR 码签名，提供所需的文本以下载或在社交媒体上作为图像共享。可以使用 API 或简单地通过移动相机扫描签名的文档！通过添加二维码签名以电子方式签署您的商业合同和官方文件并对其进行操作。任何二维码签名都将包含唯一的自定义信息，以识别签名者或授权文档。此外，二维码内容可以通过个人密钥以编程方式进行加密和解密。这开启了许多在公共文档中共享敏感数据的能力。签名后，用户可以更新、验证、删除、预览或搜索 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中的二维码。 QR码可以额外定制。"
+  },
+  "steps": {
+    "title_left": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建一个 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "只需几个简单的步骤即可使用 {{ProductFullName}} 签署文档。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 获取最新的 {{ProductFullName}}"
+    }
+  },
+  "demos": {
+    "title": "使用 {{Signaturetype}} 现场演示签署 {{Fileformat}} 文档",
+    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即使用各种签名为 {{Fileformat}} 文件签名。免费在线演示等着你。"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} 的其他支持的 {{Signaturetype}} 签名",
+    "content": "您还可以使用其他签名类型对 {{Fileformat}} 进行签名。请参阅下面的列表。"
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "通用产品代码是一种条形码符号系统，在全球范围内广泛用于跟踪商店中的贸易项目。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "正好 11 位数字 + 1 个校验位。"
+    },
+    "UPCE": {
+      "details": "通用产品代码是一种条形码符号系统，在全球范围内广泛用于跟踪商店中的贸易项目。如果是 UPC，则 UPCE 是 8 位变体。",
+      "characterset": "仅支持数字 (0-9)。",
+      "codetextcapacity": "码文容量：正好 7 位 + 1 位校验位。"
+    },
+    "EAN13": {
+      "details": "最常用的 EAN 标准是 13 位 EAN-13，它是原始 12 位通用产品代码标准的超集。",
+      "characterset": "只有数字 (0-9)。",
+      "codetextcapacity": "码文容量：正好 12 位 + 1 个校验位。"
+    },
+    "EAN14": {
+      "details": "欧洲商品编号或 EAN 是描述全球贸易中使用的条码符号和编号系统的标准，用于识别来自特定制造商的特定包装配置中的特定零售产品类型。",
+      "characterset": "数字 (0-9) 和特殊字符。",
+      "codetextcapacity": "正好是 14 位数字。"
+    },
+    "Code39": {
+      "details": "Code 39（也称为 Alpha39、Code 3 of 9、Code 3/9、Type 39、USS Code 39 或 USD-3）是一种可变长度的离散条形码符号系统。",
+      "characterset": "数字 (0-9) 和大写字母 (A-Z) 以及一些特殊字符（-、.、$、/、+、% 和空格）。",
+      "codetextcapacity": "没有具体限制。"
+    },
+    "Code39Extended": {
+      "details": "Code 39（也称为 Alpha39、Code 3 of 9、Code 3/9、Type 39、USS Code 39 或 USD-3）是一种可变长度的离散条形码符号系统。",
+      "characterset": "字符集：全部 128 个 ASCII 字符。",
+      "codetextcapacity": "没有具体限制。"
+    },
+    "Code128": {
+      "details": "Code 128 是 ISO/IEC 15417:2007 中定义的高密度线性条码符号。它用于字母数字或纯数字条形码。",
+      "characterset": "ASCII 的所有 128 个字符。",
+      "codetextcapacity": "没有具体限制。"
+    },
+    "Codabar": {
+      "details": "Codabar 是一种线性条码符号系统，即使在点阵打印机上打印时也能准确读取联邦快递空运单和血库表格等多部分表格。",
+      "characterset": "数字 (0-9) 和特殊字符 $/-:+。",
+      "codetextcapacity": "没有具体限制。"
+    },
+    "Postnet": {
+      "details": "POSTNET（邮政数字编码技术）是美国邮政服务用来协助引导邮件的条形码符号。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "最多 11 个字符。"
+    },
+    "ISBN": {
+      "details": "国际标准书号 (ISBN) 是一个数字商业图书标识符，旨在具有唯一性。[a][b] 出版商从国际 ISBN 机构的附属机构购买 ISBN。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "正好 9 位数字 + 1 个校验位。"
+    },
+    "ITF14": {
+      "details": "ITF-14 是 Interleaved 2 of 5 (ITF) 条形码的 GS1 实施，用于编码全球贸易项目编号。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "13 位数字 + 1 位校验位。"
+    },
+    "Pdf417": {
+      "details": "PDF417 是一种堆叠线性条码格式，用于各种应用，例如运输、身份证和库存管理。",
+      "characterset": "所有 256 个 ASCII 字符。",
+      "codetextcapacity": "最多 800 个字符。"
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) 是连续的两宽条码符号编码数字。它在商业上用于 135 胶片、ITF-14 条码和一些产品的纸箱上，而里面的产品标有 UPC 或 EAN。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "可变长度。"
+    },
+    "Pharmacode": {
+      "details": "Pharmacode，也称为Pharmaceutical Binary Code，是一种条形码标准，在制药行业用作包装控制系统。",
+      "characterset": "数字 (0-9)。",
+      "codetextcapacity": "仅表示从 3 到 131070 的单个整数。"
+    },
+    "Aztec": {
+      "details": "Aztec Code 是一种二维 (2-D) 通用矩阵符号系统，其设计精度高于其他二维符号系统。一个阿兹特克代码符号可以编码多达 3,832 个数字； 3,067 个字母字符；或 1,914 字节的数据。",
+      "characterset": "所有 256 个 ASCII 字符。",
+      "codetextcapacity": "最多 3,832 个数字，或 3,067 个字母字符，或 1,914 个字节的数据。"
+    },
+    "DataMatrix": {
+      "details": "数据矩阵是一种二维码，由以正方形或矩形图案排列的黑白“单元”或点组成，也称为矩阵。要编码的信息可以是文本或数字数据。",
+      "characterset": "支持所有 256 个 ASCII 字符、所有 ISO 字符和所有扩展二进制编码十进制交换码 (EBCDIC) 字符。",
+      "codetextcapacity": "最多 3116 个数字，或 2335 个字母数字字符，或 1556 个二进制字符。"
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix 是符合 GS1 规范的 Data Matrix 的一种变体。使用 GS1 DataMatrix 对信息进行编码，例如但不限于以下信息：AI(01) 全球贸易项目编号 (GTIN)、AI(17) 到期日期、AI(10) 批号、AI(21) 序列号.",
+      "characterset": "字符集：大小写字母和特殊字符 $@%*+-./:=<>;&*_,'!都带有正确的应用程序标识符。",
+      "codetextcapacity": "代码文本容量：最多 3116 个数字或 2335 个字母数字字符。"
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code 是 QR Code 的变体，符合 GS1 规范。它专为共享扩展包装信息而设计，例如批号、产品 ID 和数量。",
+      "characterset": "大小写字母和特殊字符 $%*+-./: 都带有正确的应用程序标识符",
+      "codetextcapacity": "最多 7089 个数字字符，4296 个字母数字字符"
+    },
+    "QR": {
+      "details": "QR Code（简称 Quick Response Code）是一种矩阵条码（或二维条码）的商标。它是最流行和使用最广泛的二维码类型。在实践中，二维码通常包含指向网站或应用程序的定位器、标识符或跟踪器的数据。",
+      "characterset": "所有 256 个 ASCII 字符 + 汉字",
+      "codetextcapacity": "最多 7089 个数字字符、4296 个字母数字字符、2953 个字节（二进制数据）或 1817 个汉字字符。"
+    }
+  }
+}

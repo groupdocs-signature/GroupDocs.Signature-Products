@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "通过 {{ProgLang}} 从 {{Fileformat}} 文件中删除 {{Signaturetype}} 签名",
+    "meta_description": "使用简短的 {{ProductName}} 代码可以轻松地从已签名的 {{Fileformat}} 文档中删除特定的 {{Signaturetype}} 签名。",
+    "h1": "删除放置在 {{Fileformat}} 文件中的 {{Signaturetype}} 签名",
+    "h2": "从 {{Fileformat}} 文档中删除各种 {{Signaturetype}} 签名。删除 {{Signaturetype}} 签名需要简单的 {{ProgLang}} 代码。"
+  },
+  "about": {
+    "title": "获取有关 {{ProductFullName}} API 功能的信息",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API 提供了多种使用电子签名处理文档的方法。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等数字签名。客户可以在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中添加、删除、更新、验证或搜索数字签名。提供了大量有用的功能和设置。"
+  },
+  "steps": {
+    "title_left": "如何从您的 {{Fileformat}} 文档中删除 {{Signaturetype}} 签名",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供了有用的功能，可通过几行代码清除 {{Signaturetype}} 签名的 {{Fileformat}} 文档。",
+      "step_1": "首先，将 Signature 对象传递到您的文档的路径作为构造函数参数进行实例化。",
+      "step_2": "然后，创建适当的签名对象并设置其唯一标识符。",
+      "step_3": "之后，调用 Delete 方法传递必须删除的签名对象。",
+      "step_4": "最后，处理运行结果。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}}。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    }
+  },
+  "demos": {
+    "title": "使用 {{Signaturetype}} 签名进行签名 Live Demo",
+    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 {{Fileformat}} 文件添加各种电子签名。"
+  },
+  "more_formats": {
+    "title": "使用 {{ProgLang}} 删除您的 {{Signaturetype}} 签名",
+    "content": "删除添加到各种文档格式的电子签名。无需额外代码即可快速删除签名。"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "通过 {{ProgLang}} 验证 {{Fileformat}} 文件的 {{Signaturetype}} 签名",
+    "meta_description": "仅使用几行 {{ProductName}} 代码来验证 {{Fileformat}} 文档及其 {{Signaturetype}} 签名。",
+    "h1": "{{Fileformat}} 文件的 {{Signaturetype}} 签名验证",
+    "h2": "{{ProductName}} 的 API 提供了验证 {{Fileformat}} 文档中的 {{Signaturetype}} 签名的机会。您的 {{Fileformat}} 文档中的电子签名验证可以快速轻松地执行。"
+  },
+  "about": {
+    "title": "发现新的 {{ProductFullName}} API 功能",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API 通过使用电子签名提供了广泛的方法来处理多种文档格式。支持多种类型的数字签名，如文本、图像、数字证书、条形码、二维码、印章或元数据。客户可以在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中添加、删除、编辑、验证或搜索数字签名。提供数量惊人的附加功能和设置。"
+  },
+  "steps": {
+    "title_left": "如何验证 {{Fileformat}} 文档中的 {{Signaturetype}} 签名",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 包括有用的功能，例如验证放置在 {{Fileformat}} 文档中的 {{Signaturetype}} 签名。利用这个机会，无需实现额外的代码。",
+      "step_1": "首先，实例化 Signature 类，提供作为构造函数参数路径到应该被验证的文档。",
+      "step_2": "其次，创建一个新的 VerifyOptions 对象并设置所有必需的属性。",
+      "step_3": "最后，调用 Signature 的对象 Verify 方法，传递 VerifyOptions 实例。",
+      "step_4": "然后处理验证结果。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}}。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    }
+  },
+  "demos": {
+    "title": "使用 {{Signaturetype}} 签名进行签名 Live Demo",
+    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 {{Fileformat}} 文件添加各种电子签名。"
+  },
+  "more_formats": {
+    "title": "使用 {{ProgLang}} 验证其他 {{Signaturetype}} 签名",
+    "content": "验证放置在各种文件中的电子签名。检查流行文件格式的签名质量，如下所示。"
+  }
+}

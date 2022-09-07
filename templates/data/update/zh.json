@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "使用 {{ProgLang}} 更新放置在 {{Fileformat}} 文件中的 {{Signaturetype}} 签名",
+    "meta_description": "在已签名的 {{Fileformat}} 文档中使用简单易懂的 {{ProductName}} 代码进行 {{Signaturetype}} 签名更新。",
+    "h1": "编辑和更新放置在 {{Fileformat}} 文件中的 {{Signaturetype}} 签名",
+    "h2": "{{ProductName}} 的 API 提供了在 {{Fileformat}} 文档中更新 {{Signaturetype}} 签名的功能。使用几行 {{ProgLang}} 代码快速轻松地更新 {{Fileformat}} 文档中的电子签名。"
+  },
+  "about": {
+    "title": "了解 {{ProductFullName}} API 功能",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API 功能包含大量使用电子签名处理按需文档格式的方法。支持广泛的电子签名，如文本、图像、数字证书、条形码、二维码、印章或元数据。客户可以在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中添加、删除、编辑、验证或搜索数字签名。提供了许多有用的功能和设置。"
+  },
+  "steps": {
+    "title_left": "如何更改 {{Fileformat}} 文档中的 {{Signaturetype}} 签名",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 包括有用的功能，例如更新放置在 {{Fileformat}} 文档中的 {{Signaturetype}} 签名。无需额外代码即可更改签名功能。",
+      "step_1": "首先，创建 Signature 对象，将其作为构造函数参数路径传递到应该更新的文档。",
+      "step_2": "然后，实例化一个适当的特定签名对象并设置其标识符和需要更改的属性。",
+      "step_3": "最后，调用 Signature 的 Update 方法传递特定的签名对象。",
+      "step_4": "处理更新结果以通知您。"
+    },
+    "title_right": "系统要求",
+    "content_right": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}}。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+      "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
+      "step_2": "开发环境：{{DevEnv}}",
+      "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 下载最新版本的 {{ProductFullName}}"
+    }
+  },
+  "demos": {
+    "title": "使用 {{Signaturetype}} 签名进行签名 Live Demo",
+    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 {{Fileformat}} 文件添加各种电子签名。"
+  },
+  "more_formats": {
+    "title": "通过 {{ProgLang}} 更新各种 {{Signaturetype}} 签名",
+    "content": "编辑以各种文档格式放置的数字签名。无需额外代码即可更新签名数据。"
+  }
+}
