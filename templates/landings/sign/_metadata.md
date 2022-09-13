@@ -39,9 +39,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{about.title}" %>"
+    title: "<% "{metadata-about.title}" %>"
     content: |
-        <% "{about.content}" %>
+        <% "{metadata-about.content}" %>
     
 
 ############################# Steps ############################

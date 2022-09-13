@@ -40,9 +40,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{about.title}" %>"
+    title: "<% "{qrcode-about.title}" %>"
     content: |
-        <% "{about.qrcode-content}" %>
+        <% "{qrcode-about.content}" %>
     
 
 ############################# Steps ############################

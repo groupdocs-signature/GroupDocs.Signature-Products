@@ -40,9 +40,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{about.title}" %>"
+    title: "<% "{barcode-about.title}" %>"
     content: |
-        <% "{about.barcode-content}" %>
+        <% "{barcode-about.content}" %>
     
 
 ############################# Steps ############################

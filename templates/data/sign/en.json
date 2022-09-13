@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
-    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
-    "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
-    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
-  },
   "barcode-content": {
     "meta_title": "eSign {{Fileformat}} document with {{Codetype}} Barcode in {{ProgLang}}",
     "meta_description": "Create {{Codetype}} Barcode Signature and put it on {{Fileformat}} document with {{ProductName}} using a couple lines of code. Use the GroupDocs Document Signature API for signing various file formats.",
     "h1": "Generate {{Codetype}} Barcode signature for {{Fileformat}} document in {{ProgLang}}",
     "h2": "eSign your {{Fileformat}} business documents with {{Codetype}} Barcode. Generate Barcode signature quickly and easily with a few lines of code to set up signing options."
   },
-  "qrcode-content": {
-    "meta_title": "eSign {{Fileformat}} document with {{Codetype}} QR Code in {{ProgLang}}",
-    "meta_description": "Create {{Codetype}} QR Code and put it on {{Fileformat}} file using {{ProductName}} with a short piece of {{ProgLang}} code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code.",
-    "h1": "Generate {{Codetype}} QR Code signature for {{Fileformat}} document in {{ProgLang}}",
-    "h2": "eSign your {{Fileformat}} documents and contracts with {{Codetype}} QR Code. Generate QR Code signature quickly and easily."
+  "digital-content": {
+    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
+    "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
+    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
+  },
+  "image-content": {
+    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
+    "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
+    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
   },
   "metadata-content": {
     "meta_title": "Append Metadata electronic signatures to {{Fileformat}} documents via {{ProgLang}}",
@@ -23,11 +23,41 @@
     "h1": "Metadata electronic signatures for {{Fileformat}} document via {{ProductName}} are simple and easy for using!",
     "h2": "eSign your {{Fileformat}} documents and contracts with hidden Metadata entries. Generate Metadata for PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations and various image formats with no problems and extra coding."
   },
-  "about": {
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} document with {{Codetype}} QR Code in {{ProgLang}}",
+    "meta_description": "Create {{Codetype}} QR Code and put it on {{Fileformat}} file using {{ProductName}} with a short piece of {{ProgLang}} code. Use the GroupDocs Document Signature API to e-sign your business documents and files with QR Code.",
+    "h1": "Generate {{Codetype}} QR Code signature for {{Fileformat}} document in {{ProgLang}}",
+    "h2": "eSign your {{Fileformat}} documents and contracts with {{Codetype}} QR Code. Generate QR Code signature quickly and easily."
+  },
+  "text-content": {
+    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
+    "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
+    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
+  },
+  "barcode-about": {
     "title": "About {{ProductFullName}} API",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided.",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing using many Barcode types like UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many others. Customers can create easily Barcodes providing just demanded text and put them on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Barcodes placed in documents can be updated, searched, verified, deleted or previewed either. Moreover, barcodes customization is supported.",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) is a mature API for digital documents e-signing using QR Code. Users can generate QR Code signatures providing just demanded text to download it or share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Furthermore, the QR Code content can be encrypted and decrypted with personal keys programmatically. That opens many abilities to share sensitive data inside the public documents. After the signing user can update, verify, delete, preview or search for the QR Codes within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. QR Codes could be additionally customized."
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing using many Barcode types like UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many others. Customers can create easily Barcodes providing just demanded text and put them on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Barcodes placed in documents can be updated, searched, verified, deleted or previewed either. Moreover, barcodes customization is supported."
+  },
+  "digital-about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided."
+  },
+  "image-about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided."
+  },
+  "metadata-about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided."
+  },
+  "qrcode-about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a mature API for digital documents e-signing using QR Code. Users can generate QR Code signatures providing just demanded text to download it or share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Furthermore, the QR Code content can be encrypted and decrypted with personal keys programmatically. That opens many abilities to share sensitive data inside the public documents. After the signing user can update, verify, delete, preview or search for the QR Codes within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. QR Codes could be additionally customized."
+  },
+  "text-about": {
+    "title": "About {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided."
   },
   "steps": {
     "title_left": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",

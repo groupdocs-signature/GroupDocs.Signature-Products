@@ -13,12 +13,12 @@ otherformats: <% get "OtherFormats" %>
 breadcrumb: Put <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 
 ############################# Head ############################
-head_title: "<% "{content.meta_title}" %>"
-head_description: "<% "{content.meta_description}" %>"
+head_title: "<% "{text-content.meta_title}" %>"
+head_description: "<% "{text-content.meta_description}" %>"
 
 ############################# Header ############################
-title: "<% "{content.h1}" %>"
-description: "<% "{content.h2}" %>"
+title: "<% "{text-content.h1}" %>"
+description: "<% "{text-content.h2}" %>"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,9 +39,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "<% "{about.title}" %>"
+    title: "<% "{text-about.title}" %>"
     content: |
-        <% "{about.content}" %>
+        <% "{text-about.content}" %>
     
 
 ############################# Steps ############################
