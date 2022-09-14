@@ -47,22 +47,22 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "<% "{steps.title_left}" %>"
+    title_left: "<% "{text-steps.title}" %>"
     content_left: |
-        <% "{steps.content_left.description}" %>
+        <% "{text-steps.content.description}" %>
         
-        * <% "{steps.content_left.step_1}" %>
-        * <% "{steps.content_left.step_2}" %>
-        * <% "{steps.content_left.step_3}" %>
+        * <% "{text-steps.content.step_1}" %>
+        * <% "{text-steps.content.step_2}" %>
+        * <% "{text-steps.content.step_3}" %>
 
-    title_right: "System Requirements"
+    title_right: " <% "{system-requirements.title}" %>"
     content_right: |
-        <% "{steps.content_right.description}" %>
+        <% "{system-requirements.content.description}" %>
 
-        * <% "{steps.content_right.step_1}" %>
-        * <% "{steps.content_right.step_2}" %>
+        * <% "{system-requirements.content.step_1}" %>
+        * <% "{system-requirements.content.step_2}" %>
         * <% get "Runtime" %>
-        * <% "{steps.content_right.step_3}" %>
+        * <% "{system-requirements.content.step_3}" %>
          
     code: |
         ```<% dict "products.{product}.syntax" %>    

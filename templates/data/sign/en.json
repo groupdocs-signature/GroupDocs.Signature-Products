@@ -59,20 +59,67 @@
     "title": "About {{ProductFullName}} API",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided."
   },
-  "steps": {
-    "title_left": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
-    "content_left": {
+  "system-requirements": {
+    "title": "System Requirements",
+    "content": {
+      "description": "{{ProductFullName}} are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development environments: {{DevEnv}}",
+      "step_3": "Get the latest {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
       "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
       "step_2": "Instantiate SignOptions class and set all demanded data.",
       "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
-    },
-    "title_right": "System Requirements",
-    "content_right": {
-      "description": "Documents signing with {{ProductFullName}} can be performed in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.",
-      "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
-      "step_2": "Development environments: {{DevEnv}}",
-      "step_3": "Get the latest {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "digital-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
+    }
+  },
+  "image-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
+    }
+  },
+  "metadata-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
+    }
+  },
+  "text-steps": {
+    "title": "Steps to sign {{Fileformat}} with {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) provides ability to sign {{Fileformat}} documents with {{Signaturetype}} signatures quickly and easily.",
+      "step_1": "Create an instance of Signature class providing {{Fileformat}} file supposed to signing as path or memory stream",
+      "step_2": "Instantiate SignOptions class and set all demanded data.",
+      "step_3": "Invoke the Signature.Sign() method passing output {{Fileformat}} file or memory stream"
     }
   },
   "demos": {

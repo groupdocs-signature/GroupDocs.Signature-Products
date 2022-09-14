@@ -56,7 +56,7 @@ steps:
         * <% "{steps.content_left.step_3}" %>
         * <% "{steps.content_left.step_4}" %>
 
-    title_right: "System Requirements"
+    title_right: "<% "{steps.title_right}" %>"
     content_right: |
         <% "{steps.content_right.description}" %>
 
