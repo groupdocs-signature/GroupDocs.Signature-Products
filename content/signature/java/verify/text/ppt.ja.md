@@ -56,7 +56,7 @@ steps:
         * 最後に、Signature のオブジェクト Verify メソッドを呼び出して、VerifyOptions インスタンスを渡します。
         * 次に、検証結果を処理します。
 
-    title_right: "System Requirements"
+    title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 

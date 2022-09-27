@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Potx for C#
 
 ############################# Head ############################
-head_title: "Hinzufügen von Image-Signaturen zur Potx-Datei mit C#"
-head_description: "Fügen Sie die Image-Signatur in die Potx-Datei für .NET ein, indem Sie ein paar Codezeilen verwenden. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren."
+head_title: "{image-content.meta_title}"
+head_description: "{image-content.meta_description}"
 
 ############################# Header ############################
-title: "Signiere Potx-Dateien mit Image-Signaturen in C#"
-description: "So fügen Sie eine Image-Signatur mit ein paar Zeilen .NET-Code hinzu"
+title: "{image-content.h1}"
+description: "{image-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Signature for .NET-API"
+    title: "{image-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
+        {image-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Signieren von Potx mit Image in C#"
+    title_left: "{image-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bietet die Möglichkeit, Potx-Dokumente mit Image-Signaturen schnell und einfach zu signieren.
+        {image-steps.content.description}
         
-        * Erstellen Sie eine Instanz der Signature-Klasse, die die Potx-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
-        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
-        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Potx-Ausgabedatei oder den Speicherstream
+        * {image-steps.content.step_1}
+        * {image-steps.content.step_2}
+        * {image-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Das Signieren von Dokumenten mit GroupDocs.Signature for .NET kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        {system-requirements.content.description}
 
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich das neueste GroupDocs.Signature for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

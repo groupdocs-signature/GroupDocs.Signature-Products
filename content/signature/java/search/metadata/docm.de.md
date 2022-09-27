@@ -56,7 +56,7 @@ steps:
         * Rufen Sie die Search-Methode der Signature-Klasseninstanz auf und übergeben Sie ihr SearchOptions.
         * Suchergebnisse entsprechend Ihren Anforderungen aufbereiten.
 
-    title_right: "System Requirements"
+    title_right: "System Anforderungen"
     content_right: |
         GroupDocs.Signature for Java werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 

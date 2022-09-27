@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for .NET API 정보"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14와 같은 다양한 바코드 유형을 사용하는 디지털 문서 전자 서명에 널리 사용되는 API입니다. 그리고 많은 다른 사람들. 고객은 원하는 텍스트만 제공하는 바코드를 쉽게 생성하여 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 넣을 수 있습니다. 문서에 배치된 바코드는 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 바코드 사용자 정의가 지원됩니다.
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C#에서 Barcode으로 Xltm에 서명하는 단계"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 Barcode 서명으로 Xltm 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
+        {barcode-steps.content.description}
         
-        * 경로 또는 메모리 스트림으로 서명해야 하는 Xltm 파일을 제공하는 Signature 클래스의 인스턴스 생성
-        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
-        * 출력 Xltm 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for .NET을(를) 사용한 문서 서명은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
+        {system-requirements.content.description}
 
-        * 운영 체제: Microsoft Windows, Linux, MacOS
-        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * [Nuget](https://www.nuget.org/packages/groupdocs.signature)에서 최신 GroupDocs.Signature for .NET 가져오기
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

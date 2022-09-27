@@ -56,7 +56,7 @@ steps:
         * 之后，调用 Delete 方法传递必须删除的签名对象。
         * 最后，处理运行结果。
 
-    title_right: "System Requirements"
+    title_right: "系统要求"
     content_right: |
         所有主要平台和操作系统都支持 GroupDocs.Signature for Java。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 

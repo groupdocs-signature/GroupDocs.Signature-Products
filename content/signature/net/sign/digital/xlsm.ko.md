@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Xlsm for C#
 
 ############################# Head ############################
-head_title: "C#을 사용하여 Xlsm 파일에 Digital 서명 추가"
-head_description: "몇 줄의 코드를 사용하여 .NET에 대한 Xlsm 파일에 Digital 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다."
+head_title: "{digital-content.meta_title}"
+head_description: "{digital-content.meta_description}"
 
 ############################# Header ############################
-title: "C#에서 Digital 서명으로 Xlsm 파일 서명"
-description: "몇 줄의 .NET 코드로 Digital 서명을 추가하는 방법"
+title: "{digital-content.h1}"
+description: "{digital-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for .NET API 정보"
+    title: "{digital-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다.
+        {digital-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C#에서 Digital으로 Xlsm에 서명하는 단계"
+    title_left: "{digital-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 Digital 서명으로 Xlsm 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
+        {digital-steps.content.description}
         
-        * 경로 또는 메모리 스트림으로 서명해야 하는 Xlsm 파일을 제공하는 Signature 클래스의 인스턴스 생성
-        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
-        * 출력 Xlsm 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
+        * {digital-steps.content.step_1}
+        * {digital-steps.content.step_2}
+        * {digital-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for .NET을(를) 사용한 문서 서명은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
+        {system-requirements.content.description}
 
-        * 운영 체제: Microsoft Windows, Linux, MacOS
-        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * [Nuget](https://www.nuget.org/packages/groupdocs.signature)에서 최신 GroupDocs.Signature for .NET 가져오기
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

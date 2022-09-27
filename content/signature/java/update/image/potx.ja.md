@@ -56,7 +56,7 @@ steps:
         * 最後に、特定の署名オブジェクトを渡して Signature の Update メソッドを呼び出します。
         * あなたの通知に結果を更新するプロセス。
 
-    title_right: "System Requirements"
+    title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 

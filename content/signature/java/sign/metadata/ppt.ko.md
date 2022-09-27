@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for Java API 정보"
+    title: "{metadata-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다.
+        {metadata-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Java에서 Metadata으로 Ppt에 서명하는 단계"
+    title_left: "{metadata-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 Metadata 서명으로 Ppt 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
+        {metadata-steps.content.description}
         
-        * 경로 또는 메모리 스트림으로 서명해야 하는 Ppt 파일을 제공하는 Signature 클래스의 인스턴스 생성
-        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
-        * 출력 Ppt 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
+        * {metadata-steps.content.step_1}
+        * {metadata-steps.content.step_2}
+        * {metadata-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for Java을(를) 사용한 문서 서명은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
+        {system-requirements.content.description}
 
-        * 운영 체제: Microsoft Windows, Linux, MacOS
-        * 개발 환경: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)에서 최신 GroupDocs.Signature for Java 가져오기
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Odp for Java
 
 ############################# Head ############################
-head_title: "Добавление подписей Image в файл Odp с Java"
-head_description: "Поместите подпись Image в файл Odp для Java, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
+head_title: "{image-content.meta_title}"
+head_description: "{image-content.meta_description}"
 
 ############################# Header ############################
-title: "Подпишите файлы Odp с подписями Image в Java"
-description: "Как добавить подпись Image с помощью нескольких строк кода Java"
+title: "{image-content.h1}"
+description: "{image-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for Java"
+    title: "{image-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
+        {image-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Odp с помощью Image в Java"
+    title_left: "{image-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) позволяет быстро и легко подписывать документы Odp с подписями Image.
+        {image-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Odp, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Odp или поток памяти
+        * {image-steps.content.step_1}
+        * {image-steps.content.step_2}
+        * {image-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for Java можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * Получите последнюю версию GroupDocs.Signature for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

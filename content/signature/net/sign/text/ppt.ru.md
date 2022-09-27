@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Ppt for C#
 
 ############################# Head ############################
-head_title: "Добавление подписей Text в файл Ppt с C#"
-head_description: "Поместите подпись Text в файл Ppt для .NET, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
+head_title: "{text-content.meta_title}"
+head_description: "{text-content.meta_description}"
 
 ############################# Header ############################
-title: "Подпишите файлы Ppt с подписями Text в C#"
-description: "Как добавить подпись Text с помощью нескольких строк кода .NET"
+title: "{text-content.h1}"
+description: "{text-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for .NET"
+    title: "{text-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
+        {text-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Ppt с помощью Text в C#"
+    title_left: "{text-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Ppt с подписями Text.
+        {text-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Ppt, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Ppt или поток памяти
+        * {text-steps.content.step_1}
+        * {text-steps.content.step_2}
+        * {text-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

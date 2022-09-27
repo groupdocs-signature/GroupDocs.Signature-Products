@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Signature for .NET-API"
+    title: "{metadata-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
+        {metadata-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Signieren von Svg mit Metadata in C#"
+    title_left: "{metadata-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bietet die Möglichkeit, Svg-Dokumente mit Metadata-Signaturen schnell und einfach zu signieren.
+        {metadata-steps.content.description}
         
-        * Erstellen Sie eine Instanz der Signature-Klasse, die die Svg-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
-        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
-        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Svg-Ausgabedatei oder den Speicherstream
+        * {metadata-steps.content.step_1}
+        * {metadata-steps.content.step_2}
+        * {metadata-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Das Signieren von Dokumenten mit GroupDocs.Signature for .NET kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        {system-requirements.content.description}
 
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich das neueste GroupDocs.Signature for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

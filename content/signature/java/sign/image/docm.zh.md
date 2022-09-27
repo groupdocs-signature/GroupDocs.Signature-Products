@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Docm for Java
 
 ############################# Head ############################
-head_title: "使用 Java 将 Image 签名添加到 Docm 文件"
-head_description: "使用几行代码将 Image 签名放在 Java 的 Docm 文件上。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。"
+head_title: "{image-content.meta_title}"
+head_description: "{image-content.meta_description}"
 
 ############################# Header ############################
-title: "在 Java 中使用 Image 签名对 Docm 文件进行签名"
-description: "如何用几行 Java 代码添加 Image 签名"
+title: "{image-content.h1}"
+description: "{image-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Signature for Java API"
+    title: "{image-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。
+        {image-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中使用 Image 签署 Docm 的步骤"
+    title_left: "{image-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 提供使用 Image 签名快速轻松地签署 Docm 文档的能力。
+        {image-steps.content.description}
         
-        * 创建一个 Signature 类的实例，提供 Docm 文件应该作为路径或内存流进行签名
-        * 实例化 SignOptions 类并设置所有需要的数据。
-        * 调用 Signature.Sign() 方法传递输出 Docm 文件或内存流
+        * {image-steps.content.step_1}
+        * {image-steps.content.step_2}
+        * {image-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        只需几个简单的步骤即可使用 GroupDocs.Signature for Java 签署文档。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
+        {system-requirements.content.description}
 
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) 获取最新的 GroupDocs.Signature for Java
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

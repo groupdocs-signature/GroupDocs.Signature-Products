@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for Java"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) — это зрелый API для электронной подписи цифровых документов с использованием QR-кода. Пользователи могут генерировать подписи QR-кода, предоставляя только требуемый текст, чтобы загрузить его или поделиться в социальных сетях в виде изображения. Подписанный документ можно отсканировать через API или просто через мобильную камеру! Подписывайте в электронном виде свои деловые контракты и официальные документы, добавляя подпись QR-кода, и манипулируйте ею. Любая подпись QR-кода будет содержать уникальную пользовательскую информацию для идентификации подписавшего или авторизации документа. Кроме того, содержимое QR-кода может быть зашифровано и расшифровано с помощью личных ключей программно. Это открывает множество возможностей для обмена конфиденциальными данными в общедоступных документах. После подписания пользователь может обновлять, проверять, удалять, просматривать или искать QR-коды в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. QR-коды могут быть дополнительно настроены.
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Ott с помощью Qrcode в Java"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) позволяет быстро и легко подписывать документы Ott с подписями Qrcode.
+        {qrcode-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Ott, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Ott или поток памяти
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for Java можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * Получите последнюю версию GroupDocs.Signature for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

@@ -55,9 +55,9 @@ steps:
         * Instantiate SignOptions class and set all demanded data.
         * Invoke the Signature.Sign() method passing output Otp file or memory stream
 
-    title_right: "System Requirements"
+    title_right: " System Requirements"
     content_right: |
-        Documents signing with GroupDocs.Signature for Java can be performed in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        GroupDocs.Signature for Java are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.

@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Signature for .NET API"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) 是一个成熟的 API，用于使用 QR 码进行数字文档电子签名。用户可以生成 QR 码签名，提供所需的文本以下载或在社交媒体上作为图像共享。可以使用 API 或简单地通过移动相机扫描签名的文档！通过添加二维码签名以电子方式签署您的商业合同和官方文件并对其进行操作。任何二维码签名都将包含唯一的自定义信息，以识别签名者或授权文档。此外，二维码内容可以通过个人密钥以编程方式进行加密和解密。这开启了许多在公共文档中共享敏感数据的能力。签名后，用户可以更新、验证、删除、预览或搜索 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中的二维码。 QR码可以额外定制。
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 C# 中使用 Qrcode 签署 Wmf 的步骤"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) 提供使用 Qrcode 签名快速轻松地签署 Wmf 文档的能力。
+        {qrcode-steps.content.description}
         
-        * 创建一个 Signature 类的实例，提供 Wmf 文件应该作为路径或内存流进行签名
-        * 实例化 SignOptions 类并设置所有需要的数据。
-        * 调用 Signature.Sign() 方法传递输出 Wmf 文件或内存流
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        只需几个简单的步骤即可使用 GroupDocs.Signature for .NET 签署文档。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
+        {system-requirements.content.description}
 
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * 从 [Nuget](https://www.nuget.org/packages/groupdocs.signature) 获取最新的 GroupDocs.Signature for .NET
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

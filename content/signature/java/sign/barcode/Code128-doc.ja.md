@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for Java API について"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14 などの多くのバーコード タイプを使用したデジタル ドキュメントの電子署名用の一般的な API です。および他の多く。お客様は、必要なテキストだけを提供するバーコードを簡単に作成し、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。ドキュメントに配置されたバーコードは、更新、検索、検証、削除、またはプレビューできます。さらに、バーコードのカスタマイズがサポートされています。
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Java で Barcode を使用して Doc に署名する手順"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、Doc ドキュメントに Barcode 署名ですばやく簡単に署名する機能を提供します。
+        {barcode-steps.content.description}
         
-        * パスまたはメモリ ストリームとして署名することになっている Doc ファイルを提供する署名クラスのインスタンスを作成します
-        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
-        * 出力 Doc ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for Java を使用したドキュメント署名は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {system-requirements.content.description}
 
-        * オペレーティング システム: Microsoft Windows、Linux、MacOS
-        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) から最新の GroupDocs.Signature for Java を取得します
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

@@ -56,7 +56,7 @@ steps:
         * 调用 Signature 类实例的 Search 方法并将 SearchOptions 传递给它。
         * 根据您的需求处理搜索结果。
 
-    title_right: "System Requirements"
+    title_right: "系统要求"
     content_right: |
         所有主要平台和操作系统都支持 GroupDocs.Signature for Java。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 

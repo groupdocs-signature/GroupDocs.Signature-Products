@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Signature for .NET-API"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente mit vielen Barcode-Typen wie UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 und viele andere. Kunden können auf einfache Weise Barcodes erstellen, die nur den erforderlichen Text enthalten, und sie in PDFs, MS Word-Dokumente, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedene Bildformate einfügen. In Dokumenten platzierte Barcodes können entweder aktualisiert, durchsucht, verifiziert, gelöscht oder in der Vorschau angezeigt werden. Darüber hinaus wird die Anpassung von Barcodes unterstützt.
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Signieren von Rtf mit Barcode in C#"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bietet die Möglichkeit, Rtf-Dokumente mit Barcode-Signaturen schnell und einfach zu signieren.
+        {barcode-steps.content.description}
         
-        * Erstellen Sie eine Instanz der Signature-Klasse, die die Rtf-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
-        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
-        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Rtf-Ausgabedatei oder den Speicherstream
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Das Signieren von Dokumenten mit GroupDocs.Signature for .NET kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        {system-requirements.content.description}
 
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich das neueste GroupDocs.Signature for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

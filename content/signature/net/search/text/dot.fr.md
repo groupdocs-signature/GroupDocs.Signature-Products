@@ -56,7 +56,7 @@ steps:
         * Appelez la méthode Search de l'instance de classe Signature et transmettez-lui SearchOptions.
         * Traitez les résultats de recherche en fonction de vos demandes.
 
-    title_right: "System Requirements"
+    title_right: "Configuration requise"
     content_right: |
         GroupDocs.Signature for .NET sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 

@@ -6,10 +6,10 @@
     "h2": "eSign your {{Fileformat}} business documents with {{Codetype}} Barcode. Generate Barcode signature quickly and easily with a few lines of code to set up signing options."
   },
   "digital-content": {
-    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
-    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
-    "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
-    "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
+    "meta_title": "Adding Digital electronic signatures to {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put Digital Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
+    "h1": "eSign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
+    "h2": "How to add {{Signaturetype}} signature with a few lines of {{ProductName}} code"
   },
   "image-content": {
     "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
@@ -30,8 +30,8 @@
     "h2": "eSign your {{Fileformat}} documents and contracts with {{Codetype}} QR Code. Generate QR Code signature quickly and easily."
   },
   "text-content": {
-    "meta_title": "Adding {{Signaturetype}} signatures to {{Fileformat}} file with {{ProgLang}}",
-    "meta_description": "Put {{Signaturetype}} Signature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
+    "meta_title": "Create Text electronic signatures to {{Fileformat}} file with {{ProgLang}}",
+    "meta_description": "Put {{Signaturetype}} eSignature on {{Fileformat}} file for {{ProductName}} using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats.",
     "h1": "Sign {{Fileformat}} files with {{Signaturetype}} signatures in {{ProgLang}}",
     "h2": "How to add {{Signaturetype}} Signature with a few lines of {{ProductName}} code"
   },

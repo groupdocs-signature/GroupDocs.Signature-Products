@@ -56,7 +56,7 @@ steps:
         * Por último, llame al método de actualización de la firma pasando un objeto de firma particular.
         * Proceso de actualización de resultados a su aviso.
 
-    title_right: "System Requirements"
+    title_right: "Requisitos del sistema"
     content_right: |
         GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
 

@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Qrcode signatures Live Demo"
+    title: "Updating the Qrcode signatures on the document pages - Live Demo"
     content: |
-       Add various electronic signatures to Xlsx file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
+       Edit various electronic signatures of the Xlsx document right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
 
 ############################# More Formats ############################
 more_formats:

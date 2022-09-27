@@ -56,7 +56,7 @@ steps:
         * その後、削除する必要がある署名オブジェクトを渡して Delete メソッドを呼び出します。
         * 最後に、操作結果を処理します。
 
-    title_right: "System Requirements"
+    title_right: "システム要求"
     content_right: |
         GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 

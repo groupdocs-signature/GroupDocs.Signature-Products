@@ -56,7 +56,7 @@ steps:
         * Después de eso, invoque el método Eliminar pasando el objeto de firma que debe eliminarse.
         * Finalmente, los resultados de la operación del proceso.
 
-    title_right: "System Requirements"
+    title_right: "Requisitos del sistema"
     content_right: |
         GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
 

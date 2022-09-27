@@ -56,7 +56,7 @@ steps:
         * Signature 클래스 인스턴스의 Search 메소드를 호출하고 여기에 SearchOptions를 전달하십시오.
         * 귀하의 요구에 따라 검색 결과를 처리합니다.
 
-    title_right: "System Requirements"
+    title_right: "시스템 요구 사항"
     content_right: |
         GroupDocs.Signature for .NET은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 

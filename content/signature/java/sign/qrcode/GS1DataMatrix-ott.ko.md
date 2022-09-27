@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for Java API 정보"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 QR 코드를 사용한 디지털 문서 전자 서명을 위한 성숙한 API입니다. 사용자는 요청된 텍스트를 제공하는 QR 코드 서명을 생성하여 다운로드하거나 이미지로 소셜 미디어에 공유할 수 있습니다. 서명된 문서는 API 또는 모바일 카메라를 통해 간단히 스캔할 수 있습니다! QR 코드 서명을 추가하여 비즈니스 계약 및 공식 문서에 전자 서명하고 조작하십시오. 모든 QR 코드 서명에는 서명자를 식별하거나 문서를 승인하는 고유한 사용자 지정 정보가 포함됩니다. 또한 QR 코드 콘텐츠는 프로그래밍 방식으로 개인 키로 암호화 및 해독할 수 있습니다. 이는 공개 문서 내에서 민감한 데이터를 공유할 수 있는 많은 기능을 제공합니다. 서명 후 사용자는 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식 내에서 QR 코드를 업데이트, 확인, 삭제, 미리보기 또는 검색할 수 있습니다. QR 코드는 추가로 사용자 정의할 수 있습니다.
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Java에서 Qrcode으로 Ott에 서명하는 단계"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 Qrcode 서명으로 Ott 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
+        {qrcode-steps.content.description}
         
-        * 경로 또는 메모리 스트림으로 서명해야 하는 Ott 파일을 제공하는 Signature 클래스의 인스턴스 생성
-        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
-        * 출력 Ott 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for Java을(를) 사용한 문서 서명은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
+        {system-requirements.content.description}
 
-        * 운영 체제: Microsoft Windows, Linux, MacOS
-        * 개발 환경: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)에서 최신 GroupDocs.Signature for Java 가져오기
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

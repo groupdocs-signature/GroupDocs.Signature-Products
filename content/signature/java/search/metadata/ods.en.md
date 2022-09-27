@@ -86,9 +86,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Metadata signatures Live Demo"
+    title: "Search for Metadata electronic signatures Live Demo"
     content: |
-       Add various electronic signatures to Ods files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Search the document for various electronic signatures to Ods files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

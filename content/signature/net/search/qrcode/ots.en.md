@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Qrcode signatures Live Demo"
+    title: "Search for Qrcode electronic signatures Live Demo"
     content: |
-       Add various electronic signatures to Ots files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Search the document for various electronic signatures to Ots files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

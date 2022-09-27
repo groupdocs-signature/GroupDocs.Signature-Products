@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for .NET"
+    title: "{metadata-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
+        {metadata-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Pptm с помощью Metadata в C#"
+    title_left: "{metadata-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Pptm с подписями Metadata.
+        {metadata-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Pptm, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Pptm или поток памяти
+        * {metadata-steps.content.step_1}
+        * {metadata-steps.content.step_2}
+        * {metadata-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Gif for Java
 
 ############################# Head ############################
-head_title: "Hinzufügen von Text-Signaturen zur Gif-Datei mit Java"
-head_description: "Fügen Sie die Text-Signatur in die Gif-Datei für Java ein, indem Sie ein paar Codezeilen verwenden. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren."
+head_title: "{text-content.meta_title}"
+head_description: "{text-content.meta_description}"
 
 ############################# Header ############################
-title: "Signiere Gif-Dateien mit Text-Signaturen in Java"
-description: "So fügen Sie eine Text-Signatur mit ein paar Zeilen Java-Code hinzu"
+title: "{text-content.h1}"
+description: "{text-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Signature for Java-API"
+    title: "{text-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
+        {text-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Signieren von Gif mit Text in Java"
+    title_left: "{text-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bietet die Möglichkeit, Gif-Dokumente mit Text-Signaturen schnell und einfach zu signieren.
+        {text-steps.content.description}
         
-        * Erstellen Sie eine Instanz der Signature-Klasse, die die Gif-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
-        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
-        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Gif-Ausgabedatei oder den Speicherstream
+        * {text-steps.content.step_1}
+        * {text-steps.content.step_2}
+        * {text-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Das Signieren von Dokumenten mit GroupDocs.Signature for Java kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        {system-requirements.content.description}
 
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * Holen Sie sich das neueste GroupDocs.Signature for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

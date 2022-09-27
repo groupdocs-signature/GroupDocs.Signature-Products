@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "关于 GroupDocs.Signature for Java API"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 是一种流行的数字文档电子签名 API，使用多种条形码类型，如 UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14和许多其他人。客户可以轻松创建提供所需文本的条形码，并将它们放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。放置在文档中的条码也可以更新、搜索、验证、删除或预览。此外，还支持条码定制。
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中使用 Barcode 签署 Odp 的步骤"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 提供使用 Barcode 签名快速轻松地签署 Odp 文档的能力。
+        {barcode-steps.content.description}
         
-        * 创建一个 Signature 类的实例，提供 Odp 文件应该作为路径或内存流进行签名
-        * 实例化 SignOptions 类并设置所有需要的数据。
-        * 调用 Signature.Sign() 方法传递输出 Odp 文件或内存流
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        只需几个简单的步骤即可使用 GroupDocs.Signature for Java 签署文档。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
+        {system-requirements.content.description}
 
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) 获取最新的 GroupDocs.Signature for Java
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

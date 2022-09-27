@@ -102,9 +102,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Text signatures Live Demo"
+    title: "Search for Text electronic signatures Live Demo"
     content: |
-       Add various electronic signatures to Rtf files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Search the document for various electronic signatures to Rtf files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

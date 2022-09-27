@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Signature for .NET"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) est une API populaire pour la signature électronique de documents numériques utilisant de nombreux types de codes-barres tels que UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 et plein d'autres. Les clients peuvent créer facilement des codes-barres fournissant uniquement le texte demandé et les placer sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les codes-barres placés dans les documents peuvent être mis à jour, recherchés, vérifiés, supprimés ou prévisualisés. De plus, la personnalisation des codes-barres est prise en charge.
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour signer Webp avec Barcode dans C#"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) permet de signer rapidement et facilement des documents Webp avec des signatures Barcode.
+        {barcode-steps.content.description}
         
-        * Créez une instance de la classe Signature fournissant le fichier Webp censé signer en tant que chemin ou flux de mémoire
-        * Instanciez la classe SignOptions et définissez toutes les données demandées.
-        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Webp ou le flux de mémoire
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        La signature de documents avec GroupDocs.Signature for .NET peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
+        {system-requirements.content.description}
 
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtenez le dernier GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

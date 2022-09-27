@@ -56,7 +56,7 @@ steps:
         * 마지막으로 특정 서명 개체를 전달하는 Signature의 Update 메서드를 호출합니다.
         * 통지에 대한 결과 업데이트를 처리합니다.
 
-    title_right: "System Requirements"
+    title_right: "시스템 요구 사항"
     content_right: |
         GroupDocs.Signature for Java은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 

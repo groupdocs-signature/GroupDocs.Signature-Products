@@ -13,8 +13,8 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Docm for Java
 
 ############################# Head ############################
-head_title: "Adding Text signatures to Docm file with Java"
-head_description: "Put Text Signature on Docm file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats."
+head_title: "Create Text electronic signatures to Docm file with Java"
+head_description: "Put Text eSignature on Docm file for Java using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats."
 
 ############################# Header ############################
 title: "Sign Docm files with Text signatures in Java"
@@ -55,9 +55,9 @@ steps:
         * Instantiate SignOptions class and set all demanded data.
         * Invoke the Signature.Sign() method passing output Docm file or memory stream
 
-    title_right: "System Requirements"
+    title_right: " System Requirements"
     content_right: |
-        Documents signing with GroupDocs.Signature for Java can be performed in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        GroupDocs.Signature for Java are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.

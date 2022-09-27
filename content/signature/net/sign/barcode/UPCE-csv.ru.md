@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for .NET"
+    title: "{barcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — это популярный API для электронной подписи цифровых документов с использованием многих типов штрих-кодов, таких как UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14. и многие другие. Клиенты могут легко создавать штрих-коды, содержащие только необходимый текст, и размещать их в PDF-файлах, документах MS Word, рабочих книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Штрих-коды, размещенные в документах, можно обновлять, искать, проверять, удалять или предварительно просматривать. Кроме того, поддерживается настройка штрих-кодов.
+        {barcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Csv с помощью Barcode в C#"
+    title_left: "{barcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Csv с подписями Barcode.
+        {barcode-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Csv, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Csv или поток памяти
+        * {barcode-steps.content.step_1}
+        * {barcode-steps.content.step_2}
+        * {barcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

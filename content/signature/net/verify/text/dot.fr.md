@@ -56,7 +56,7 @@ steps:
         * Enfin, appelez la méthode Verify de l'objet Signature en passant l'instance VerifyOptions.
         * Traiter ensuite les résultats de la vérification.
 
-    title_right: "System Requirements"
+    title_right: "Configuration requise"
     content_right: |
         GroupDocs.Signature for .NET sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 

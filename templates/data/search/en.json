@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "Signing with {{Signaturetype}} signatures Live Demo",
-    "content": "Add various electronic signatures to {{Fileformat}} files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website."
+    "title": "Search for {{Signaturetype}} electronic signatures Live Demo",
+    "content": "Search the document for various electronic signatures to {{Fileformat}} files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website."
   },
   "more_formats": {
     "title": "Search for other {{Signaturetype}} signatures using {{ProgLang}}",

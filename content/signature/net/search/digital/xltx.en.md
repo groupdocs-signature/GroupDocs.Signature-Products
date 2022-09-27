@@ -99,9 +99,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Digital signatures Live Demo"
+    title: "Search for Digital electronic signatures Live Demo"
     content: |
-       Add various electronic signatures to Xltx files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Search the document for various electronic signatures to Xltx files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

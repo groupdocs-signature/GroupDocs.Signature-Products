@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Signature for .NET API について"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) は、QR コードを使用したデジタル ドキュメントの電子署名用の成熟した API です。ユーザーは、必要なテキストだけを提供する QR コード署名を生成して、ダウンロードしたり、ソーシャル メディアで画像として共有したりできます。署名されたドキュメントは、API を使用してスキャンするか、モバイル カメラで簡単にスキャンできます。 QRコード署名を追加してビジネス契約書や公式文書に電子的に署名し、それを操作します。 QR コード署名には、署名者を識別したりドキュメントを承認したりするための固有のカスタム情報が含まれます。さらに、QR コードのコンテンツは、個人キーを使用してプログラムで暗号化および復号化できます。これにより、公開文書内の機密データを共有するための多くの機能が開かれます。署名後、ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の QR コードを更新、検証、削除、プレビュー、または検索できます。 QRコードはさらにカスタマイズできます。
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C# で Qrcode を使用して Xlsm に署名する手順"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) は、Xlsm ドキュメントに Qrcode 署名ですばやく簡単に署名する機能を提供します。
+        {qrcode-steps.content.description}
         
-        * パスまたはメモリ ストリームとして署名することになっている Xlsm ファイルを提供する署名クラスのインスタンスを作成します
-        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
-        * 出力 Xlsm ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        GroupDocs.Signature for .NET を使用したドキュメント署名は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {system-requirements.content.description}
 
-        * オペレーティング システム: Microsoft Windows、Linux、MacOS
-        * 開発環境: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * [Nuget](https://www.nuget.org/packages/groupdocs.signature) から最新の GroupDocs.Signature for .NET を取得します
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

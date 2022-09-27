@@ -109,9 +109,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Text signatures Live Demo"
+    title: "Updating the Text signatures on the document pages - Live Demo"
     content: |
-       Add various electronic signatures to Dot file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
+       Edit various electronic signatures of the Dot document right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
 
 ############################# More Formats ############################
 more_formats:

@@ -56,7 +56,7 @@ steps:
         * Rufen Sie danach die Delete-Methode auf und übergeben Sie das Signaturobjekt, das gelöscht werden muss.
         * Schließlich resultieren Prozessoperationen.
 
-    title_right: "System Requirements"
+    title_right: "System Anforderungen"
     content_right: |
         GroupDocs.Signature for Java werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 

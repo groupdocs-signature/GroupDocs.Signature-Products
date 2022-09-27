@@ -101,9 +101,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Barcode signatures Live Demo"
+    title: "Search for Barcode electronic signatures Live Demo"
     content: |
-       Add various electronic signatures to Dot files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
+       Search the document for various electronic signatures to Dot files right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.
 
         
 ############################# More Formats ############################

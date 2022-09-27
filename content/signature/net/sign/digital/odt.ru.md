@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Odt for C#
 
 ############################# Head ############################
-head_title: "Добавление подписей Digital в файл Odt с C#"
-head_description: "Поместите подпись Digital в файл Odt для .NET, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
+head_title: "{digital-content.meta_title}"
+head_description: "{digital-content.meta_description}"
 
 ############################# Header ############################
-title: "Подпишите файлы Odt с подписями Digital в C#"
-description: "Как добавить подпись Digital с помощью нескольких строк кода .NET"
+title: "{digital-content.h1}"
+description: "{digital-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Signature for .NET"
+    title: "{digital-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
+        {digital-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по подписанию Odt с помощью Digital в C#"
+    title_left: "{digital-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Odt с подписями Digital.
+        {digital-steps.content.description}
         
-        * Создайте экземпляр класса Signature, предоставляющий файл Odt, который должен быть подписан как путь или поток памяти.
-        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
-        * Вызвать метод Signature.Sign(), передав выходной файл Odt или поток памяти
+        * {digital-steps.content.step_1}
+        * {digital-steps.content.step_2}
+        * {digital-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        Подписание документов с помощью GroupDocs.Signature for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        {system-requirements.content.description}
 
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

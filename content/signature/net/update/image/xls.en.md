@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signing with Image signatures Live Demo"
+    title: "Updating the Image signatures on the document pages - Live Demo"
     content: |
-       Add various electronic signatures to Xls file right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
+       Edit various electronic signatures of the Xls document right now by visiting the [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) website.          
 
 ############################# More Formats ############################
 more_formats:

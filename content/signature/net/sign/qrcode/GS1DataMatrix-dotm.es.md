@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de la API de GroupDocs.Signature for .NET"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) es una API madura para la firma electrónica de documentos digitales mediante código QR. Los usuarios pueden generar firmas de código QR proporcionando solo el texto solicitado para descargarlo o compartirlo en las redes sociales como imagen. ¡El documento firmado se puede escanear con API o simplemente con la cámara del móvil! Firme electrónicamente sus contratos comerciales y documentos oficiales agregando la firma del código QR y manipúlelo. Cualquier firma de código QR contendrá información personalizada única para identificar al firmante o autorizar el documento. Además, el contenido del código QR se puede cifrar y descifrar con claves personales mediante programación. Eso abre muchas capacidades para compartir datos confidenciales dentro de los documentos públicos. Después de que el usuario que firma puede actualizar, verificar, eliminar, obtener una vista previa o buscar los códigos QR en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos QR se pueden personalizar adicionalmente.
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Pasos para firmar Dotm con Qrcode en C#"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) proporciona la capacidad de firmar documentos Dotm con Qrcode firmas de forma rápida y sencilla.
+        {qrcode-steps.content.description}
         
-        * Cree una instancia de la clase Signature que proporcione el archivo Dotm que se supone que debe firmar como ruta o flujo de memoria
-        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
-        * Invoque el método Signature.Sign() pasando la salida Dotm archivo o flujo de memoria
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        La firma de documentos con GroupDocs.Signature for .NET se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
+        {system-requirements.content.description}
 
-        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
-        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtén el último GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

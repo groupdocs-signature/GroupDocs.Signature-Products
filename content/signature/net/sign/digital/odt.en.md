@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Odt for C#
 
 ############################# Head ############################
-head_title: "Adding Digital signatures to Odt file with C#"
+head_title: "Adding Digital electronic signatures to Odt file with C#"
 head_description: "Put Digital Signature on Odt file for .NET using a few lines of code. Use the GroupDocs Document Signature API to sign dozens of file formats."
 
 ############################# Header ############################
-title: "Sign Odt files with Digital signatures in C#"
-description: "How to add Digital Signature with a few lines of .NET code"
+title: "eSign Odt files with Digital signatures in C#"
+description: "How to add Digital signature with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -55,9 +55,9 @@ steps:
         * Instantiate SignOptions class and set all demanded data.
         * Invoke the Signature.Sign() method passing output Odt file or memory stream
 
-    title_right: "System Requirements"
+    title_right: " System Requirements"
     content_right: |
-        Documents signing with GroupDocs.Signature for .NET can be performed in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        GroupDocs.Signature for .NET are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop

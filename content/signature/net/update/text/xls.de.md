@@ -56,7 +56,7 @@ steps:
         * Rufen Sie zuletzt die Update-Methode von Signature auf, indem Sie ein bestimmtes Signaturobjekt übergeben.
         * Verarbeiten Sie die Aktualisierungsergebnisse zu Ihrer Benachrichtigung.
 
-    title_right: "System Requirements"
+    title_right: "System Anforderungen"
     content_right: |
         GroupDocs.Signature for .NET werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 

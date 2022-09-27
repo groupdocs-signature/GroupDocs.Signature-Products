@@ -56,7 +56,7 @@ steps:
         * Finalmente, invoque el método Verify del objeto de Signature pasando la instancia de VerifyOptions.
         * Luego procese los resultados de la verificación.
 
-    title_right: "System Requirements"
+    title_right: "Requisitos del sistema"
     content_right: |
         GroupDocs.Signature for .NET son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
 

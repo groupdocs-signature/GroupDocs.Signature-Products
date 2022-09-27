@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Pps for C#
 
 ############################# Head ############################
-head_title: "Agregando Text firmas al archivo Pps con C#"
-head_description: "Coloque la firma Text en el archivo Pps para .NET usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo."
+head_title: "{text-content.meta_title}"
+head_description: "{text-content.meta_description}"
 
 ############################# Header ############################
-title: "Firme Pps archivos con Text firmas en C#"
-description: "Cómo agregar la firma Text con unas pocas líneas de código .NET"
+title: "{text-content.h1}"
+description: "{text-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Acerca de la API de GroupDocs.Signature for .NET"
+    title: "{text-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas.
+        {text-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Pasos para firmar Pps con Text en C#"
+    title_left: "{text-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) proporciona la capacidad de firmar documentos Pps con Text firmas de forma rápida y sencilla.
+        {text-steps.content.description}
         
-        * Cree una instancia de la clase Signature que proporcione el archivo Pps que se supone que debe firmar como ruta o flujo de memoria
-        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
-        * Invoque el método Signature.Sign() pasando la salida Pps archivo o flujo de memoria
+        * {text-steps.content.step_1}
+        * {text-steps.content.step_2}
+        * {text-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        La firma de documentos con GroupDocs.Signature for .NET se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
+        {system-requirements.content.description}
 
-        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
-        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtén el último GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    

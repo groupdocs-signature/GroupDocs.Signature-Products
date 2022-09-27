@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Signature for Java"
+    title: "{qrcode-about.title}"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) est une API mature pour la signature électronique de documents numériques à l'aide de QR Code. Les utilisateurs peuvent générer des signatures de code QR fournissant le texte juste demandé pour le télécharger ou le partager sur les réseaux sociaux sous forme d'image. Le document signé peut être scanné avec l'API ou simplement via la caméra mobile ! Signez électroniquement vos contrats commerciaux et documents officiels avec l'ajout de signature QR Code et manipulez-le. Toute signature QR Code contiendra des informations personnalisées uniques pour identifier le signataire ou autoriser le document. De plus, le contenu du code QR peut être crypté et décrypté avec des clés personnelles par programmation. Cela ouvre de nombreuses possibilités pour partager des données sensibles à l'intérieur des documents publics. Après la signature, l'utilisateur peut mettre à jour, vérifier, supprimer, prévisualiser ou rechercher les codes QR dans les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint, les fichiers Adobe Photoshop et divers formats d'image. Les codes QR peuvent également être personnalisés.
+        {qrcode-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour signer Dotm avec Qrcode dans Java"
+    title_left: "{qrcode-steps.title}"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) permet de signer rapidement et facilement des documents Dotm avec des signatures Qrcode.
+        {qrcode-steps.content.description}
         
-        * Créez une instance de la classe Signature fournissant le fichier Dotm censé signer en tant que chemin ou flux de mémoire
-        * Instanciez la classe SignOptions et définissez toutes les données demandées.
-        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Dotm ou le flux de mémoire
+        * {qrcode-steps.content.step_1}
+        * {qrcode-steps.content.step_2}
+        * {qrcode-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        La signature de documents avec GroupDocs.Signature for Java peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
+        {system-requirements.content.description}
 
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Java runtime: J2SE 6.0 and above
-        * Obtenez le dernier GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```java    

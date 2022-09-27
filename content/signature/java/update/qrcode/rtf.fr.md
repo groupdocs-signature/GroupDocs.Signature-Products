@@ -56,7 +56,7 @@ steps:
         * Enfin, appelez la méthode Update de Signature en passant un objet de signature particulier.
         * Traiter les résultats de mise à jour à votre avis.
 
-    title_right: "System Requirements"
+    title_right: "Configuration requise"
     content_right: |
         GroupDocs.Signature for Java sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 

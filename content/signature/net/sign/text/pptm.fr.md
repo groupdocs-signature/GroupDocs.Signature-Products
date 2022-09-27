@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Pptm for C#
 
 ############################# Head ############################
-head_title: "Ajout de signatures Text au fichier Pptm avec C#"
-head_description: "Mettez Text Signature sur le fichier Pptm pour .NET en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers."
+head_title: "{text-content.meta_title}"
+head_description: "{text-content.meta_description}"
 
 ############################# Header ############################
-title: "Signez des fichiers Pptm avec des signatures Text en C#"
-description: "Comment ajouter Text Signature avec quelques lignes de code .NET"
+title: "{text-content.h1}"
+description: "{text-content.h2}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Signature for .NET"
+    title: "{text-about.title}"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.
+        {text-about.content}
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour signer Pptm avec Text dans C#"
+    title_left: "{text-steps.title}"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) permet de signer rapidement et facilement des documents Pptm avec des signatures Text.
+        {text-steps.content.description}
         
-        * Créez une instance de la classe Signature fournissant le fichier Pptm censé signer en tant que chemin ou flux de mémoire
-        * Instanciez la classe SignOptions et définissez toutes les données demandées.
-        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Pptm ou le flux de mémoire
+        * {text-steps.content.step_1}
+        * {text-steps.content.step_2}
+        * {text-steps.content.step_3}
 
-    title_right: "System Requirements"
+    title_right: " {system-requirements.title}"
     content_right: |
-        La signature de documents avec GroupDocs.Signature for .NET peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
+        {system-requirements.content.description}
 
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
+        * {system-requirements.content.step_1}
+        * {system-requirements.content.step_2}
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtenez le dernier GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+        * {system-requirements.content.step_3}
          
     code: |
         ```csharp    
