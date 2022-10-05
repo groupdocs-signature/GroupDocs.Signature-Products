@@ -128,7 +128,7 @@ more_formats:
     content: |
         "Sie können Xlsx auch mit anderen Signaturtypen signieren. Bitte sehen Sie sich die Liste unten an."
     format: 
-           
+        
        
 back_to_top:
     enable: true

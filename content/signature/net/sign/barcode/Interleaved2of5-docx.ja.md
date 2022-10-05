@@ -128,7 +128,7 @@ more_formats:
     content: |
         "Docx に他の署名タイプで署名することもできます。以下のリストをご覧ください。"
     format: 
-           
+        
        
 back_to_top:
     enable: true

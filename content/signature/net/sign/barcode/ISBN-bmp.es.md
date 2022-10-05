@@ -128,7 +128,7 @@ more_formats:
     content: |
         "También puede firmar Bmp con otros tipos de firma. Consulte la lista a continuación."
     format: 
-           
+        
        
 back_to_top:
     enable: true

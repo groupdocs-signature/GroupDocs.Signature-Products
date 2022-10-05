@@ -126,7 +126,7 @@ more_formats:
     content: |
         "Вы также можете подписать Potm другими типами подписи. См. список ниже."
     format: 
-           
+        
        
 back_to_top:
     enable: true

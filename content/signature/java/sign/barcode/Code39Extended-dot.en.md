@@ -126,7 +126,7 @@ more_formats:
     content: |
         "You can also sign Dot with other signature types. Please see the list below."
     format: 
-           
+        
        
 back_to_top:
     enable: true

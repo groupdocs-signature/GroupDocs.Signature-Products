@@ -103,7 +103,7 @@ more_formats:
     content: |
         "<% "{more_formats.content}" %>"
     format: 
-           
+        
        
 back_to_top:
     enable: true

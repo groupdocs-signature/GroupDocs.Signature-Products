@@ -128,7 +128,7 @@ more_formats:
     content: |
         "다른 서명 유형으로 Xls에 서명할 수도 있습니다. 아래 목록을 참조하십시오."
     format: 
-           
+        
        
 back_to_top:
     enable: true

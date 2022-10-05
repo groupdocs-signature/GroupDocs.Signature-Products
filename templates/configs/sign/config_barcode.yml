@@ -1,6 +1,6 @@
 inherits: ..\\products.yml
 
-dimensions: 
+dimensions:  
 - alias:  operation
   values: [sign] 
 - alias:  signaturetype
