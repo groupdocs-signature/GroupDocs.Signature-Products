@@ -39,9 +39,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Java API"
+    title: "About GroupDocs.Signature for Java Digital signatures API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a popular API for digital documents e-signing. Signatures like texts, images, digital certificates, barcodes, QR-codes, stamps or metadata are available. Signatures might be placed on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Customers can sign their document and update, search, verify, delete or preview e-signatures which were put on those documents. Moreover, a lot of abilities for signatures customization are provided.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a popular API to esign documents with the digital electronic signatures, with digital certificates. For the Digital signatures API uses PFX certificate files to esign document with password protected private and public keys. The Digital signatures might be used to certify business documents with eSign PDF particular page, certify entire Microsoft Office documents like Words, Excel, Powerpoint files, and Open Office documents. Customers can easily manipulate the signatures like editing them, removing or adjust. The API provides a way to search and verify signatures. Moreover, a lot of abilities for signatures customization are provided.
     
 
 ############################# Steps ############################

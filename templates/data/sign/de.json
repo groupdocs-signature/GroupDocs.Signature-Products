@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "Hinzufügen von {{Signaturetype}}-Signaturen zur {{Fileformat}}-Datei mit {{ProgLang}}",
-    "meta_description": "Fügen Sie die {{Signaturetype}}-Signatur in die {{Fileformat}}-Datei für {{ProductName}} ein, indem Sie ein paar Codezeilen verwenden. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren.",
-    "h1": "Signiere {{Fileformat}}-Dateien mit {{Signaturetype}}-Signaturen in {{ProgLang}}",
-    "h2": "So fügen Sie eine {{Signaturetype}}-Signatur mit ein paar Zeilen {{ProductName}}-Code hinzu"
-  },
   "barcode-content": {
     "meta_title": "{{Fileformat}}-Dokument mit {{Codetype}}-Barcode in {{ProgLang}} eSignieren",
     "meta_description": "Erstellen Sie eine {{Codetype}}-Barcode-Signatur und fügen Sie sie mit ein paar Codezeilen in ein {{Fileformat}}-Dokument mit {{ProductName}} ein. Verwenden Sie die GroupDocs Document Signature API zum Signieren verschiedener Dateiformate.",
     "h1": "{{Codetype}}-Barcode-Signatur für {{Fileformat}}-Dokument in {{ProgLang}} generieren",
     "h2": "Unterzeichnen Sie Ihre {{Fileformat}}-Geschäftsdokumente mit {{Codetype}}-Barcode. Generieren Sie Barcode-Signaturen schnell und einfach mit wenigen Codezeilen, um Signaturoptionen einzurichten."
   },
-  "qrcode-content": {
-    "meta_title": "eSigniere {{Fileformat}}-Dokument mit {{Codetype}}-QR-Code in {{ProgLang}}",
-    "meta_description": "Erstellen Sie einen {{Codetype}}-QR-Code und fügen Sie ihn mit {{ProductName}} und einem kurzen Stück {{ProgLang}}-Code in eine {{Fileformat}}-Datei ein. Verwenden Sie die GroupDocs Document Signature API, um Ihre Geschäftsdokumente und Dateien mit QR-Code elektronisch zu signieren.",
-    "h1": "Generiere {{Codetype}}-QR-Code-Signatur für {{Fileformat}}-Dokument in {{ProgLang}}",
-    "h2": "Unterzeichnen Sie Ihre {{Fileformat}}-Dokumente und -Verträge mit dem {{Codetype}}-QR-Code. Generieren Sie schnell und einfach eine QR-Code-Signatur."
+  "digital-content": {
+    "meta_title": "Hinzufügen digitaler elektronischer Signaturen zur {{Fileformat}}-Datei mit {{ProgLang}}",
+    "meta_description": "Fügen Sie der {{Fileformat}}-Datei für {{ProductName}} mit ein paar Codezeilen eine digitale Signatur hinzu. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren.",
+    "h1": "eSigniere {{Fileformat}}-Dateien mit {{Signaturetype}}-Signaturen in {{ProgLang}}",
+    "h2": "So fügen Sie eine {{Signaturetype}}-Signatur mit ein paar Zeilen {{ProductName}}-Code hinzu"
+  },
+  "image-content": {
+    "meta_title": "Hinzufügen von {{Signaturetype}}-Signaturen zur {{Fileformat}}-Datei mit {{ProgLang}}",
+    "meta_description": "Fügen Sie die {{Signaturetype}}-Signatur in die {{Fileformat}}-Datei für {{ProductName}} ein, indem Sie ein paar Codezeilen verwenden. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren.",
+    "h1": "Signiere {{Fileformat}}-Dateien mit {{Signaturetype}}-Signaturen in {{ProgLang}}",
+    "h2": "So fügen Sie eine {{Signaturetype}}-Signatur mit ein paar Zeilen {{ProductName}}-Code hinzu"
   },
   "metadata-content": {
     "meta_title": "Elektronische Metadaten-Signaturen an {{Fileformat}}-Dokumente über {{ProgLang}} anhängen",
@@ -23,26 +23,103 @@
     "h1": "Elektronische Metadaten-Signaturen für das Dokument {{Fileformat}} über {{ProductName}} sind einfach und benutzerfreundlich!",
     "h2": "Unterschreiben Sie Ihre {{Dateiformat}}-Dokumente und Verträge mit versteckten Metadateneinträgen. Generieren Sie Metadaten für PDFs, MS Word-Dokumente, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen und verschiedene Bildformate ohne Probleme und zusätzliche Codierung."
   },
-  "about": {
-    "title": "Über die {{ProductFullName}}-API",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente mit vielen Barcode-Typen wie UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 und viele andere. Kunden können auf einfache Weise Barcodes erstellen, die nur den erforderlichen Text enthalten, und sie in PDFs, MS Word-Dokumente, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedene Bildformate einfügen. In Dokumenten platzierte Barcodes können entweder aktualisiert, durchsucht, verifiziert, gelöscht oder in der Vorschau angezeigt werden. Darüber hinaus wird die Anpassung von Barcodes unterstützt.",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine ausgereifte API für die elektronische Unterzeichnung digitaler Dokumente mit QR-Code. Benutzer können QR-Code-Signaturen generieren, die nur den angeforderten Text enthalten, um ihn herunterzuladen oder als Bild über die sozialen Medien zu teilen. Das unterschriebene Dokument kann mit API oder einfach über die Handykamera gescannt werden! Unterzeichnen Sie Ihre Geschäftsverträge und offiziellen Dokumente elektronisch, indem Sie eine QR-Code-Signatur hinzufügen und bearbeiten. Jede QR-Code-Signatur enthält eindeutige benutzerdefinierte Informationen, um den Unterzeichner zu identifizieren oder das Dokument zu autorisieren. Darüber hinaus kann der Inhalt des QR-Codes programmgesteuert mit persönlichen Schlüsseln verschlüsselt und entschlüsselt werden. Das eröffnet viele Möglichkeiten, sensible Daten in den öffentlichen Dokumenten zu teilen. Nach der Unterzeichnung kann der Benutzer die QR-Codes in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten aktualisieren, überprüfen, löschen, in der Vorschau anzeigen oder danach suchen. QR-Codes können zusätzlich angepasst werden."
+  "qrcode-content": {
+    "meta_title": "eSigniere {{Fileformat}}-Dokument mit {{Codetype}}-QR-Code in {{ProgLang}}",
+    "meta_description": "Erstellen Sie einen {{Codetype}}-QR-Code und fügen Sie ihn mit {{ProductName}} und einem kurzen Stück {{ProgLang}}-Code in eine {{Fileformat}}-Datei ein. Verwenden Sie die GroupDocs Document Signature API, um Ihre Geschäftsdokumente und Dateien mit QR-Code elektronisch zu signieren.",
+    "h1": "Generiere {{Codetype}}-QR-Code-Signatur für {{Fileformat}}-Dokument in {{ProgLang}}",
+    "h2": "Unterzeichnen Sie Ihre {{Fileformat}}-Dokumente und -Verträge mit dem {{Codetype}}-QR-Code. Generieren Sie schnell und einfach eine QR-Code-Signatur."
   },
-  "steps": {
-    "title_left": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
-    "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
-      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
-      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
-      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstream"
-    },
-    "title_right": "System Anforderungen",
-    "content_right": {
-      "description": "Das Signieren von Dokumenten mit {{ProductFullName}} kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+  "text-content": {
+    "meta_title": "Erstellen Sie mit {{ProgLang}} elektronische Textsignaturen für die {{Fileformat}}-Datei",
+    "meta_description": "Fügen Sie {{Signaturetype}} eSignature in {{Fileformat}}-Datei für {{ProductName}} ein, indem Sie ein paar Codezeilen verwenden. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren.",
+    "h1": "Signiere {{Fileformat}}-Dateien mit {{Signaturetype}}-Signaturen in {{ProgLang}}",
+    "h2": "So fügen Sie eine {{Signaturetype}}-Signatur mit ein paar Zeilen {{ProductName}}-Code hinzu"
+  },
+  "barcode-about": {
+    "title": "Über {{ProductFullName}} Strichcode-Signaturen-API.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine schnelle und einfache API zur Verwaltung digitaler Dokumente mit elektronischen Signaturen unter Verwendung von Barcode-Typen wie UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 und viele andere. Kunden können auf einfache Weise Barcodes mit dem erforderlichen Text erstellen und diese in PDF-Dateien, Microsoft Office Words-Dokumente, Microsoft Office Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedene Bildformate einfügen. In Dokumenten platzierte Barcodes können entweder aktualisiert, durchsucht, verifiziert, gelöscht oder in der Vorschau angezeigt werden. Darüber hinaus wird die Anpassung von Barcodes unterstützt."
+  },
+  "digital-about": {
+    "title": "Über die API für digitale Signaturen von {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API zum Signieren von Dokumenten mit digitalen elektronischen Signaturen und digitalen Zertifikaten. Für die API für digitale Signaturen werden PFX-Zertifikatsdateien verwendet, um Dokumente mit passwortgeschützten privaten und öffentlichen Schlüsseln zu signieren. Die digitalen Signaturen können verwendet werden, um Geschäftsdokumente mit eSign-PDF-Einzelseiten zu zertifizieren, ganze Microsoft Office-Dokumente wie Words, Excel, Powerpoint-Dateien und Open Office-Dokumente zu zertifizieren. Kunden können die Signaturen einfach manipulieren, z. B. bearbeiten, entfernen oder anpassen. Die API bietet eine Möglichkeit, Signaturen zu suchen und zu überprüfen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt."
+  },
+  "image-about": {
+    "title": "Über {{ProductFullName}} Bildsignaturen-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt."
+  },
+  "metadata-about": {
+    "title": "Über {{ProductFullName}} Metadaten-Signaturen-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt."
+  },
+  "qrcode-about": {
+    "title": "Über {{ProductFullName}} QR-Code-Signaturen-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine ausgereifte API zum Erstellen und Generieren von QR-Code-Signaturen für die Dokumente. Benutzer können QR-Code-Signaturen generieren, die Text enthalten, um ihn herunterzuladen oder als Bild über die sozialen Medien zu teilen. Das unterschriebene Dokument kann mit API oder einfach über die Handykamera gescannt werden! Unterzeichnen Sie Ihre Geschäftsverträge und offiziellen Dokumente elektronisch, indem Sie eine QR-Code-Signatur hinzufügen und bearbeiten. Jede QR-Code-Signatur enthält eindeutige benutzerdefinierte Informationen, um den Unterzeichner zu identifizieren oder das Dokument zu autorisieren. Darüber hinaus kann der Inhalt des QR-Codes programmgesteuert mit persönlichen Schlüsseln verschlüsselt und entschlüsselt werden. Das eröffnet viele Möglichkeiten, sensible Daten in den öffentlichen Dokumenten zu teilen. Nach der Unterzeichnung kann der Benutzer die QR-Codes in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten aktualisieren, überprüfen, löschen, in der Vorschau anzeigen oder danach suchen. QR-Codes können zusätzlich angepasst werden."
+  },
+  "text-about": {
+    "title": "Über die {{ProductFullName}}-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt."
+  },
+  "system-requirements": {
+    "title": "System Anforderungen",
+    "content": {
+      "description": "{{ProductFullName}} werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
       "step_1": "Betriebssysteme: Microsoft Windows, Linux, MacOS",
       "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
       "step_3": "Holen Sie sich das neueste {{ProductFullName}} von [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
+    }
+  },
+  "digital-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
+    }
+  },
+  "image-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
+    }
+  },
+  "metadata-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
+    }
+  },
+  "text-steps": {
+    "title": "Schritte zum Signieren von {{Fileformat}} mit {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bietet die Möglichkeit, {{Fileformat}}-Dokumente mit {{Signaturetype}}-Signaturen schnell und einfach zu signieren.",
+      "step_1": "Erstellen Sie eine Instanz der Signature-Klasse, die die {{Fileformat}}-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll",
+      "step_2": "Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.",
+      "step_3": "Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die {{Fileformat}}-Ausgabedatei oder den Speicherstrom"
     }
   },
   "demos": {
@@ -100,7 +177,7 @@
       "codetextcapacity": "Bis zu 11 Zeichen."
     },
     "ISBN": {
-      "details": "Die International Standard Book Number (ISBN) ist eine numerische kommerzielle Buchkennung, die eindeutig sein soll.[a][b] Verlage erwerben ISBNs von einer Tochtergesellschaft der International ISBN Agency.",
+      "details": "Die International Standard Book Number (ISBN) ist eine numerische kommerzielle Buchkennung, die eindeutig sein soll.[a][b] Verlage kaufen ISBNs von einer Tochtergesellschaft der International ISBN Agency.",
       "characterset": "Numerische Ziffern (0-9).",
       "codetextcapacity": "Genau 9 Ziffern + 1 Prüfziffer."
     },
@@ -147,7 +224,7 @@
     "QR": {
       "details": "QR-Code (abgekürzt Quick Response Code) ist das Warenzeichen für eine Art Matrix-Barcode (oder zweidimensionaler Barcode). Es ist die beliebteste und am weitesten verbreitete Art von zweidimensionalem Code. In der Praxis enthalten QR-Codes häufig Daten für einen Locator, Identifikator oder Tracker, der auf eine Website oder Anwendung verweist.",
       "characterset": "Alle 256 ASCII-Zeichen + Kanji",
-      "codetextcapacity": "Bis zu 7089 numerische Zeichen, 4296 alphanumerische Zeichen, 2953 Bytes (Binärdaten) oder 1817 Kanji-Zeichen."
+      "codetextcapacity": "Bis zu 7089 numerische Zeichen, 4296 alphanumerische Zeichen, 2953 Byte (Binärdaten) oder 1817 Kanji-Zeichen."
     }
   }
 }

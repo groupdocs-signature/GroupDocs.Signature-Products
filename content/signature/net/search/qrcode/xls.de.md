@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Qrcode-Signaturen Live-Demo"
+    title: "Suchen Sie nach Qrcode Live-Demo für elektronische Signaturen"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zu Xls-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
+       Durchsuchen Sie das Dokument jetzt nach verschiedenen elektronischen Signaturen für Xls-Dateien, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
 
         
 ############################# More Formats ############################

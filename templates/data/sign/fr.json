@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "Ajout de signatures {{Signaturetype}} au fichier {{Fileformat}} avec {{ProgLang}}",
-    "meta_description": "Mettez {{Signaturetype}} Signature sur le fichier {{Fileformat}} pour {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers.",
-    "h1": "Signez des fichiers {{Fileformat}} avec des signatures {{Signaturetype}} en {{ProgLang}}",
-    "h2": "Comment ajouter {{Signaturetype}} Signature avec quelques lignes de code {{ProductName}}"
-  },
   "barcode-content": {
     "meta_title": "eSign {{Fileformat}} document avec {{Codetype}} Barcode in {{ProgLang}}",
     "meta_description": "Créez {{Codetype}} Barcode Signature et placez-le sur le document {{Fileformat}} avec {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer divers formats de fichiers.",
     "h1": "Générer la signature de code-barres {{Codetype}} pour le document {{Fileformat}} dans {{ProgLang}}",
     "h2": "Signez électroniquement vos documents commerciaux {{Fileformat}} avec {{Codetype}} Barcode. Générez une signature de code-barres rapidement et facilement avec quelques lignes de code pour configurer les options de signature."
   },
-  "qrcode-content": {
-    "meta_title": "eSign {{Fileformat}} document avec {{Codetype}} QR Code en {{ProgLang}}",
-    "meta_description": "Créez le code QR {{Codetype}} et placez-le dans le fichier {{Fileformat}} en utilisant {{ProductName}} avec un court morceau de code {{ProgLang}}. Utilisez l'API GroupDocs Document Signature pour signer électroniquement vos documents et fichiers commerciaux avec QR Code.",
-    "h1": "Générer la signature de code QR {{Codetype}} pour le document {{Fileformat}} en {{ProgLang}}",
-    "h2": "Signez électroniquement vos documents et contrats {{Fileformat}} avec {{Codetype}} QR Code. Générez une signature QR Code rapidement et facilement."
+  "digital-content": {
+    "meta_title": "Ajout de signatures électroniques numériques au fichier {{Fileformat}} avec {{ProgLang}}",
+    "meta_description": "Mettez la signature numérique sur le fichier {{Fileformat}} pour {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers.",
+    "h1": "eSign {{Fileformat}} fichiers avec {{Signaturetype}} signatures en {{ProgLang}}",
+    "h2": "Comment ajouter la signature {{Signaturetype}} avec quelques lignes de code {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Ajout de signatures {{Signaturetype}} au fichier {{Fileformat}} avec {{ProgLang}}",
+    "meta_description": "Mettez {{Signaturetype}} Signature sur le fichier {{Fileformat}} pour {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers.",
+    "h1": "Signez des fichiers {{Fileformat}} avec des signatures {{Signaturetype}} en {{ProgLang}}",
+    "h2": "Comment ajouter {{Signaturetype}} Signature avec quelques lignes de code {{ProductName}}"
   },
   "metadata-content": {
     "meta_title": "Ajouter des signatures électroniques de métadonnées aux documents {{Fileformat}} via {{ProgLang}}",
@@ -23,26 +23,103 @@
     "h1": "Les signatures électroniques de métadonnées pour le document {{Fileformat}} via {{ProductName}} sont simples et faciles à utiliser !",
     "h2": "Signez électroniquement vos documents et contrats {{Fileformat}} avec des entrées de métadonnées masquées. Générez des métadonnées pour les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint et divers formats d'image sans problème et avec un codage supplémentaire."
   },
-  "about": {
-    "title": "À propos de l'API {{ProductFullName}}",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques utilisant de nombreux types de codes-barres tels que UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 et plein d'autres. Les clients peuvent créer facilement des codes-barres fournissant uniquement le texte demandé et les placer sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les codes-barres placés dans les documents peuvent être mis à jour, recherchés, vérifiés, supprimés ou prévisualisés. De plus, la personnalisation des codes-barres est prise en charge.",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) est une API mature pour la signature électronique de documents numériques à l'aide de QR Code. Les utilisateurs peuvent générer des signatures de code QR fournissant le texte juste demandé pour le télécharger ou le partager sur les réseaux sociaux sous forme d'image. Le document signé peut être scanné avec l'API ou simplement via la caméra mobile ! Signez électroniquement vos contrats commerciaux et documents officiels avec l'ajout de signature QR Code et manipulez-le. Toute signature QR Code contiendra des informations personnalisées uniques pour identifier le signataire ou autoriser le document. De plus, le contenu du code QR peut être crypté et décrypté avec des clés personnelles par programmation. Cela ouvre de nombreuses possibilités pour partager des données sensibles à l'intérieur des documents publics. Après la signature, l'utilisateur peut mettre à jour, vérifier, supprimer, prévisualiser ou rechercher les codes QR dans les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint, les fichiers Adobe Photoshop et divers formats d'image. Les codes QR peuvent également être personnalisés."
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} document avec {{Codetype}} QR Code en {{ProgLang}}",
+    "meta_description": "Créez le code QR {{Codetype}} et placez-le dans le fichier {{Fileformat}} en utilisant {{ProductName}} avec un court morceau de code {{ProgLang}}. Utilisez l'API GroupDocs Document Signature pour signer électroniquement vos documents et fichiers commerciaux avec QR Code.",
+    "h1": "Générer la signature de code QR {{Codetype}} pour le document {{Fileformat}} en {{ProgLang}}",
+    "h2": "Signez électroniquement vos documents et contrats {{Fileformat}} avec {{Codetype}} QR Code. Générez une signature QR Code rapidement et facilement."
   },
-  "steps": {
-    "title_left": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
-    "content_left": {
+  "text-content": {
+    "meta_title": "Créez des signatures électroniques de texte dans le fichier {{Fileformat}} avec {{ProgLang}}",
+    "meta_description": "Mettez {{Signaturetype}} eSignature sur le fichier {{Fileformat}} pour {{ProductName}} en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers.",
+    "h1": "Signez des fichiers {{Fileformat}} avec des signatures {{Signaturetype}} en {{ProgLang}}",
+    "h2": "Comment ajouter {{Signaturetype}} Signature avec quelques lignes de code {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "À propos de l'API de signatures de code-barres {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API simple et rapide pour gérer la signature électronique de documents numériques à l'aide de types de codes-barres tels que UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 et bien d'autres. Les clients peuvent créer facilement des codes-barres fournissant le texte requis et les placer sur des fichiers PDF, des documents Microsoft Office Words, des classeurs Microsoft Office Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les codes-barres placés dans les documents peuvent être mis à jour, recherchés, vérifiés, supprimés ou prévisualisés. De plus, la personnalisation des codes-barres est prise en charge."
+  },
+  "digital-about": {
+    "title": "À propos de l'API de signatures numériques {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour signer des documents avec des signatures électroniques numériques, avec des certificats numériques. Pour les signatures numériques, l'API utilise des fichiers de certificat PFX pour signer un document avec des clés privées et publiques protégées par mot de passe. Les signatures numériques peuvent être utilisées pour certifier des documents commerciaux avec une page particulière eSign PDF, certifier des documents Microsoft Office entiers tels que Words, Excel, des fichiers Powerpoint et des documents Open Office. Les clients peuvent facilement manipuler les signatures comme les modifier, les supprimer ou les ajuster. L'API fournit un moyen de rechercher et de vérifier les signatures. De plus, de nombreuses capacités de personnalisation des signatures sont fournies."
+  },
+  "image-about": {
+    "title": "À propos de l'API de signatures d'image {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies."
+  },
+  "metadata-about": {
+    "title": "À propos de l'API de signatures de métadonnées {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies."
+  },
+  "qrcode-about": {
+    "title": "À propos de l'API de signatures de code QR {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API mature pour créer et générer des signatures QR Code pour les documents. Les utilisateurs peuvent générer des signatures de code QR fournissant du texte pour le télécharger ou le partager sur les réseaux sociaux sous forme d'image. Le document signé peut être scanné avec l'API ou simplement via la caméra mobile ! Signez électroniquement vos contrats commerciaux et documents officiels avec l'ajout de signature QR Code et manipulez-le. Toute signature QR Code contiendra des informations personnalisées uniques pour identifier le signataire ou autoriser le document. De plus, le contenu du code QR peut être crypté et décrypté avec des clés personnelles par programmation. Cela ouvre de nombreuses possibilités pour partager des données sensibles à l'intérieur des documents publics. Après la signature, l'utilisateur peut mettre à jour, vérifier, supprimer, prévisualiser ou rechercher les codes QR dans les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint, les fichiers Adobe Photoshop et divers formats d'image. Les codes QR peuvent également être personnalisés."
+  },
+  "text-about": {
+    "title": "À propos de l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies."
+  },
+  "system-requirements": {
+    "title": "Configuration requise",
+    "content": {
+      "description": "{{ProductFullName}} sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
+      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
+      "step_2": "Environnements de développement : {{DevEnv}}",
+      "step_3": "Obtenez le dernier {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
       "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
       "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
       "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
-    },
-    "title_right": "Configuration requise",
-    "content_right": {
-      "description": "La signature de documents avec {{ProductFullName}} peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.",
-      "step_1": "Systèmes d'exploitation : Microsoft Windows, Linux, MacOS",
-      "step_2": "Environnements de développement : {{DevEnv}}",
-      "step_3": "Obtenez le dernier {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "digital-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
+    }
+  },
+  "image-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
+    }
+  },
+  "metadata-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
+    }
+  },
+  "text-steps": {
+    "title": "Étapes pour signer {{Fileformat}} avec {{Signaturetype}} dans {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permet de signer rapidement et facilement des documents {{Fileformat}} avec des signatures {{Signaturetype}}.",
+      "step_1": "Créez une instance de la classe Signature fournissant le fichier {{Fileformat}} censé signer en tant que chemin ou flux de mémoire",
+      "step_2": "Instanciez la classe SignOptions et définissez toutes les données demandées.",
+      "step_3": "Appelez la méthode Signature.Sign() en transmettant le fichier de sortie {{Fileformat}} ou le flux de mémoire"
     }
   },
   "demos": {
@@ -141,7 +218,7 @@
     },
     "GS1QR": {
       "details": "Le QR Code GS1 est une variante du QR Code conforme aux spécifications GS1. Il a été conçu spécifiquement pour partager des informations d'emballage étendues, telles que le numéro de lot, l'ID de produit et la quantité.",
-      "characterset": "Lettres majuscules et minuscules et caractères spéciaux $%*+-./ : tous avec des identificateurs d'application corrects",
+      "characterset": "Lettres majuscules et minuscules et caractères spéciaux $%*+-./ : tous avec des identifiants d'application corrects",
       "codetextcapacity": "Jusqu'à 7089 caractères numériques, 4296 caractères alphanumériques"
     },
     "QR": {

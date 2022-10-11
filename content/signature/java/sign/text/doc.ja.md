@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Doc for Java
 
 ############################# Head ############################
-head_title: "{text-content.meta_title}"
-head_description: "{text-content.meta_description}"
+head_title: "Java を使用して Doc ファイルにテキスト電子署名を作成します"
+head_description: "数行のコードを使用して、Java の Doc ファイルに Text 電子署名を配置します。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。"
 
 ############################# Header ############################
-title: "{text-content.h1}"
-description: "{text-content.h2}"
+title: "Java の Text 署名で Doc ファイルに署名します"
+description: "数行の Java コードで Text 署名を追加する方法"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{text-about.title}"
+    title: "GroupDocs.Signature for Java API について"
     content: |
-        {text-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{text-steps.title}"
+    title_left: "Java で Text を使用して Doc に署名する手順"
     content_left: |
-        {text-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、Doc ドキュメントに Text 署名ですばやく簡単に署名する機能を提供します。
         
-        * {text-steps.content.step_1}
-        * {text-steps.content.step_2}
-        * {text-steps.content.step_3}
+        * パスまたはメモリ ストリームとして署名することになっている Doc ファイルを提供する署名クラスのインスタンスを作成します
+        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
+        * 出力 Doc ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
 
-    title_right: " {system-requirements.title}"
+    title_right: " システム要求"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) から最新の GroupDocs.Signature for Java を取得します
          
     code: |
         ```java    

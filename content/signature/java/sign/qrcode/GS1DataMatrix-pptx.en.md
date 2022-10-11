@@ -40,9 +40,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Java API"
+    title: "About GroupDocs.Signature for Java QR Code signatures API"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a mature API for digital documents e-signing using QR Code. Users can generate QR Code signatures providing just demanded text to download it or share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Furthermore, the QR Code content can be encrypted and decrypted with personal keys programmatically. That opens many abilities to share sensitive data inside the public documents. After the signing user can update, verify, delete, preview or search for the QR Codes within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. QR Codes could be additionally customized.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) is a mature API for creating and generate QR Code signatures for the documents. Users can generate QR Code signatures providing text to download it or share over the social media as image. The signed document can be scanned with API or simply over the mobile camera! Sign electronically your business contracts and official documents with adding QR Code signature and manipulate it. Any QR Code signature will contains unique custom information to identifies the signer or authorizes the document. Furthermore, the QR Code content can be encrypted and decrypted with personal keys programmatically. That opens many abilities to share sensitive data inside the public documents. After the signing user can update, verify, delete, preview or search for the QR Codes within PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. QR Codes could be additionally customized.
     
 
 ############################# Steps ############################

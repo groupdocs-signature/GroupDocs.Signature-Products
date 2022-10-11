@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{metadata-about.title}"
+    title: "À propos de l'API de signatures de métadonnées GroupDocs.Signature for .NET"
     content: |
-        {metadata-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{metadata-steps.title}"
+    title_left: "Étapes pour signer Doc avec Metadata dans C#"
     content_left: |
-        {metadata-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) permet de signer rapidement et facilement des documents Doc avec des signatures Metadata.
         
-        * {metadata-steps.content.step_1}
-        * {metadata-steps.content.step_2}
-        * {metadata-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Doc censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Doc ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

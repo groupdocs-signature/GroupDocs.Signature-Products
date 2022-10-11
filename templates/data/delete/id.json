@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Hapus tanda tangan {{Signaturetype}} dari file {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Penghapusan tanda tangan {{Signaturetype}} tertentu dari dokumen {{Fileformat}} yang ditandatangani dapat dilakukan dengan mudah dengan kode {{ProductName}} singkat.",
+    "h1": "Hapus tanda tangan {{Signaturetype}} yang ditempatkan di file {{Fileformat}}",
+    "h2": "Hapus berbagai tanda tangan {{Signaturetype}} dari dokumen {{Fileformat}}. Menghapus tanda tangan {{Signaturetype}} memerlukan kode {{ProgLang}} sederhana."
+  },
+  "about": {
+    "title": "Dapatkan informasi tentang {{ProductFullName}} fitur API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API menyediakan banyak cara untuk memproses dokumen Anda menggunakan tanda tangan elektronik. Tanda tangan digital seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata tersedia. Pelanggan memiliki kemungkinan untuk menambah, menghapus, memperbarui, memverifikasi atau mencari tanda tangan digital di PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Sejumlah besar fitur dan pengaturan yang berguna disediakan."
+  },
+  "steps": {
+    "title_left": "Cara menghapus tanda tangan {{Signaturetype}} dari dokumen {{Fileformat}} Anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan fitur yang berguna untuk membersihkan dokumen {{Fileformat}} dari {{Signaturetype}} tanda tangan dengan beberapa baris kode.",
+      "step_1": "Pertama, buat instance objek Signature yang meneruskan jalur ke dokumen Anda sebagai parameter konstruktor.",
+      "step_2": "Kemudian, buat objek tanda tangan yang sesuai dan atur pengenal uniknya.",
+      "step_3": "Setelah itu, aktifkan metode Hapus dengan melewati objek tanda tangan yang harus dihapus.",
+      "step_4": "Terakhir, proses hasil operasi."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan pengembangan: {{DevEnv}}",
+      "step_3": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dengan {{Signaturetype}} tanda tangan Demo Langsung",
+    "content": "Tambahkan berbagai tanda tangan elektronik ke file {{Fileformat}} sekarang juga dengan mengunjungi situs web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Hapus tanda tangan {{Signaturetype}} Anda dengan {{ProgLang}}",
+    "content": "Penghapusan tanda tangan elektronik yang ditambahkan ke berbagai format dokumen. Hapus tanda tangan dengan cepat tanpa kode tambahan."
+  }
+}

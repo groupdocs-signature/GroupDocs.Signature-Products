@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{metadata-about.title}"
+    title: "Acerca de la API de firmas de metadatos GroupDocs.Signature for Java"
     content: |
-        {metadata-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{metadata-steps.title}"
+    title_left: "Pasos para firmar Pps con Metadata en Java"
     content_left: |
-        {metadata-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) proporciona la capacidad de firmar documentos Pps con Metadata firmas de forma rápida y sencilla.
         
-        * {metadata-steps.content.step_1}
-        * {metadata-steps.content.step_2}
-        * {metadata-steps.content.step_3}
+        * Cree una instancia de la clase Signature que proporcione el archivo Pps que se supone que debe firmar como ruta o flujo de memoria
+        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
+        * Invoque el método Signature.Sign() pasando la salida Pps archivo o flujo de memoria
 
-    title_right: " {system-requirements.title}"
+    title_right: " Requisitos del sistema"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtén el último GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

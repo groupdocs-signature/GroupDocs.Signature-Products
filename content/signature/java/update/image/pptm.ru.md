@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Подписание с помощью подписей Image Live Demo"
+    title: "Обновление подписей Image на страницах документа — интерактивная демонстрация"
     content: |
-       Добавьте различные электронные подписи в файл Pptm прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+       Редактируйте различные электронные подписи документа Pptm прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
 
 ############################# More Formats ############################
 more_formats:

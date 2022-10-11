@@ -107,9 +107,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "使用 Qrcode 签名进行签名 Live Demo"
+    title: "更新文档页面上的 Qrcode 签名 - 现场演示"
     content: |
-       访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 Dot 文件添加各种电子签名。          
+       立即访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站编辑 Dot 文档的各种电子签名。          
 
 ############################# More Formats ############################
 more_formats:

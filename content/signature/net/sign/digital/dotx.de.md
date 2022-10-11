@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Dotx for C#
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Hinzufügen digitaler elektronischer Signaturen zur Dotx-Datei mit C#"
+head_description: "Fügen Sie der Dotx-Datei für .NET mit ein paar Codezeilen eine digitale Signatur hinzu. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "eSigniere Dotx-Dateien mit Digital-Signaturen in C#"
+description: "So fügen Sie eine Digital-Signatur mit ein paar Zeilen .NET-Code hinzu"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "Über die API für digitale Signaturen von GroupDocs.Signature for .NET"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ist eine beliebte API zum Signieren von Dokumenten mit digitalen elektronischen Signaturen und digitalen Zertifikaten. Für die API für digitale Signaturen werden PFX-Zertifikatsdateien verwendet, um Dokumente mit passwortgeschützten privaten und öffentlichen Schlüsseln zu signieren. Die digitalen Signaturen können verwendet werden, um Geschäftsdokumente mit eSign-PDF-Einzelseiten zu zertifizieren, ganze Microsoft Office-Dokumente wie Words, Excel, Powerpoint-Dateien und Open Office-Dokumente zu zertifizieren. Kunden können die Signaturen einfach manipulieren, z. B. bearbeiten, entfernen oder anpassen. Die API bietet eine Möglichkeit, Signaturen zu suchen und zu überprüfen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Schritte zum Signieren von Dotx mit Digital in C#"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bietet die Möglichkeit, Dotx-Dokumente mit Digital-Signaturen schnell und einfach zu signieren.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * Erstellen Sie eine Instanz der Signature-Klasse, die die Dotx-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
+        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
+        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Dotx-Ausgabedatei oder den Speicherstrom
 
-    title_right: " {system-requirements.title}"
+    title_right: " System Anforderungen"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Holen Sie sich das neueste GroupDocs.Signature for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

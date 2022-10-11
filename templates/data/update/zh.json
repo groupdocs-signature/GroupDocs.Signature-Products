@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "使用 {{Signaturetype}} 签名进行签名 Live Demo",
-    "content": "访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 {{Fileformat}} 文件添加各种电子签名。"
+    "title": "更新文档页面上的 {{Signaturetype}} 签名 - 现场演示",
+    "content": "立即访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站编辑 {{Fileformat}} 文档的各种电子签名。"
   },
   "more_formats": {
     "title": "通过 {{ProgLang}} 更新各种 {{Signaturetype}} 签名",

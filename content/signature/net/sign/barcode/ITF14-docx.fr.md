@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "À propos de l'API de signatures de code-barres GroupDocs.Signature for .NET."
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) est une API simple et rapide pour gérer la signature électronique de documents numériques à l'aide de types de codes-barres tels que UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 et bien d'autres. Les clients peuvent créer facilement des codes-barres fournissant le texte requis et les placer sur des fichiers PDF, des documents Microsoft Office Words, des classeurs Microsoft Office Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les codes-barres placés dans les documents peuvent être mis à jour, recherchés, vérifiés, supprimés ou prévisualisés. De plus, la personnalisation des codes-barres est prise en charge.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "Étapes pour signer Docx avec Barcode dans C#"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) permet de signer rapidement et facilement des documents Docx avec des signatures Barcode.
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Docx censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Docx ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

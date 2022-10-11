@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verifikasi tanda tangan {{Signaturetype}} untuk file {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Gunakan hanya beberapa baris kode {{ProductName}} untuk memverifikasi dokumen {{Fileformat}} dan tanda tangan {{Signaturetype}} mereka.",
+    "h1": "{{Signaturetype}} verifikasi tanda tangan untuk file {{Fileformat}}",
+    "h2": "API untuk {{ProductName}} memberikan kesempatan untuk memverifikasi tanda tangan {{Signaturetype}} pada dokumen {{Fileformat}}. Verifikasi tanda tangan elektronik di dalam dokumen {{Fileformat}} Anda dapat dilakukan dengan cepat dan mudah."
+  },
+  "about": {
+    "title": "Temukan fitur API {{ProductFullName}} baru",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API menyediakan berbagai cara untuk memproses berbagai format dokumen dengan menggunakan tanda tangan elektronik. Banyak jenis tanda tangan digital seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata yang didukung. Pelanggan dapat menambah, menghapus, mengedit, memvalidasi atau mencari tanda tangan digital di PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Sejumlah fitur dan pengaturan tambahan yang menakjubkan tersedia."
+  },
+  "steps": {
+    "title_left": "Cara memvalidasi tanda tangan {{Signaturetype}} di dokumen {{Fileformat}} Anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyertakan fitur berguna seperti verifikasi tanda tangan {{Signaturetype}} yang ditempatkan di dokumen {{Fileformat}}. Gunakan kesempatan ini tanpa menerapkan kode tambahan.",
+      "step_1": "Pertama, instantiate kelas Signature yang menyediakan jalur parameter konstruktor ke dokumen yang seharusnya diverifikasi.",
+      "step_2": "Kedua, buat objek VerifyOptions baru dan atur semua properti yang diperlukan.",
+      "step_3": "Terakhir, aktifkan metode Verify objek Signature dengan melewati instance VerifyOptions.",
+      "step_4": "Kemudian proses hasil verifikasi."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan pengembangan: {{DevEnv}}",
+      "step_3": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dengan {{Signaturetype}} tanda tangan Demo Langsung",
+    "content": "Tambahkan berbagai tanda tangan elektronik ke file {{Fileformat}} sekarang juga dengan mengunjungi situs web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Verifikasi tanda tangan {{Signaturetype}} lainnya menggunakan {{ProgLang}}",
+    "content": "Verifikasi tanda tangan elektronik yang ditempatkan di berbagai dokumen. Periksa kualitas tanda tangan dalam format file populer seperti yang diungkapkan di bawah ini."
+  }
+}

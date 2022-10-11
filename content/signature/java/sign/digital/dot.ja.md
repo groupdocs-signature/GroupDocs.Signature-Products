@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Dot for Java
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Java を使用して Dot ファイルにデジタル電子署名を追加する"
+head_description: "数行のコードを使用して、Java の Dot ファイルにデジタル署名を付けます。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。"
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "Java の Digital 署名で Dot ファイルに eSign"
+description: "数行の Java コードで Digital 署名を追加する方法"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "GroupDocs.Signature for Java デジタル署名 API について"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、デジタル証明書を使用してデジタル電子署名を使用してドキュメントに署名するための一般的な API です。デジタル署名 API では、PFX 証明書ファイルを使用して、パスワードで保護された秘密鍵と公開鍵でドキュメントに署名します。デジタル署名は、eSign PDF の特定のページを使用してビジネス ドキュメントを認証したり、Word、Excel、Powerpoint ファイル、Open Office ドキュメントなどの Microsoft Office ドキュメント全体を認証したりするために使用できます。顧客は、署名の編集、削除、調整など、署名を簡単に操作できます。 API は、署名を検索して検証する方法を提供します。さらに、署名をカスタマイズするための多くの機能が提供されます。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Java で Digital を使用して Dot に署名する手順"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、Dot ドキュメントに Digital 署名ですばやく簡単に署名する機能を提供します。
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * パスまたはメモリ ストリームとして署名することになっている Dot ファイルを提供する署名クラスのインスタンスを作成します
+        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
+        * 出力 Dot ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
 
-    title_right: " {system-requirements.title}"
+    title_right: " システム要求"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) から最新の GroupDocs.Signature for Java を取得します
          
     code: |
         ```java    

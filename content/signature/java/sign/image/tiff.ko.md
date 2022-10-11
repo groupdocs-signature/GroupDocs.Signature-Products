@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Tiff for Java
 
 ############################# Head ############################
-head_title: "{image-content.meta_title}"
-head_description: "{image-content.meta_description}"
+head_title: "Java을 사용하여 Tiff 파일에 Image 서명 추가"
+head_description: "몇 줄의 코드를 사용하여 Java에 대한 Tiff 파일에 Image 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다."
 
 ############################# Header ############################
-title: "{image-content.h1}"
-description: "{image-content.h2}"
+title: "Java에서 Image 서명으로 Tiff 파일 서명"
+description: "몇 줄의 Java 코드로 Image 서명을 추가하는 방법"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{image-about.title}"
+    title: "GroupDocs.Signature for Java 이미지 서명 API 정보"
     content: |
-        {image-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{image-steps.title}"
+    title_left: "Java에서 Image으로 Tiff에 서명하는 단계"
     content_left: |
-        {image-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 Image 서명으로 Tiff 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
         
-        * {image-steps.content.step_1}
-        * {image-steps.content.step_2}
-        * {image-steps.content.step_3}
+        * 경로 또는 메모리 스트림으로 서명해야 하는 Tiff 파일을 제공하는 Signature 클래스의 인스턴스 생성
+        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
+        * 출력 Tiff 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
 
-    title_right: " {system-requirements.title}"
+    title_right: " 시스템 요구 사항"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 운영 체제: Microsoft Windows, Linux, MacOS
+        * 개발 환경: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)에서 최신 GroupDocs.Signature for Java 가져오기
          
     code: |
         ```java    

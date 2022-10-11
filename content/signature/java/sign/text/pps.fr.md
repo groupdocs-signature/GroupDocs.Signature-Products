@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Pps for Java
 
 ############################# Head ############################
-head_title: "{text-content.meta_title}"
-head_description: "{text-content.meta_description}"
+head_title: "Créez des signatures électroniques de texte dans le fichier Pps avec Java"
+head_description: "Mettez Text eSignature sur le fichier Pps pour Java en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers."
 
 ############################# Header ############################
-title: "{text-content.h1}"
-description: "{text-content.h2}"
+title: "Signez des fichiers Pps avec des signatures Text en Java"
+description: "Comment ajouter Text Signature avec quelques lignes de code Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{text-about.title}"
+    title: "À propos de l'API GroupDocs.Signature for Java"
     content: |
-        {text-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{text-steps.title}"
+    title_left: "Étapes pour signer Pps avec Text dans Java"
     content_left: |
-        {text-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) permet de signer rapidement et facilement des documents Pps avec des signatures Text.
         
-        * {text-steps.content.step_1}
-        * {text-steps.content.step_2}
-        * {text-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Pps censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Pps ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

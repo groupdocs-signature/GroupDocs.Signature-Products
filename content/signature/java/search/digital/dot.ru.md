@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Подписание с помощью подписей Digital Live Demo"
+    title: "Поиск электронных подписей Digital Live Demo"
     content: |
-       Добавьте различные электронные подписи к файлам Dot прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+       Найдите в документе различные электронные подписи к Dot файлам прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
 
         
 ############################# More Formats ############################

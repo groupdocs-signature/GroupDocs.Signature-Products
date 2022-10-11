@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "Über GroupDocs.Signature for .NET Strichcode-Signaturen-API."
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ist eine schnelle und einfache API zur Verwaltung digitaler Dokumente mit elektronischen Signaturen unter Verwendung von Barcode-Typen wie UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 und viele andere. Kunden können auf einfache Weise Barcodes mit dem erforderlichen Text erstellen und diese in PDF-Dateien, Microsoft Office Words-Dokumente, Microsoft Office Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedene Bildformate einfügen. In Dokumenten platzierte Barcodes können entweder aktualisiert, durchsucht, verifiziert, gelöscht oder in der Vorschau angezeigt werden. Darüber hinaus wird die Anpassung von Barcodes unterstützt.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "Schritte zum Signieren von Dotm mit Barcode in C#"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bietet die Möglichkeit, Dotm-Dokumente mit Barcode-Signaturen schnell und einfach zu signieren.
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * Erstellen Sie eine Instanz der Signature-Klasse, die die Dotm-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
+        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
+        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Dotm-Ausgabedatei oder den Speicherstrom
 
-    title_right: " {system-requirements.title}"
+    title_right: " System Anforderungen"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Holen Sie sich das neueste GroupDocs.Signature for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
@@ -111,7 +111,7 @@ about_formats:
         - icon: "fas fa-barcode"
           title: "About ISBN Barcode"
           content: |
-            Die International Standard Book Number (ISBN) ist eine numerische kommerzielle Buchkennung, die eindeutig sein soll.[a][b] Verlage erwerben ISBNs von einer Tochtergesellschaft der International ISBN Agency.
+            Die International Standard Book Number (ISBN) ist eine numerische kommerzielle Buchkennung, die eindeutig sein soll.[a][b] Verlage kaufen ISBNs von einer Tochtergesellschaft der International ISBN Agency.
           characterset: |
              Numerische Ziffern (0-9).
           textcapacity: |

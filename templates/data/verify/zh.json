@@ -2,7 +2,7 @@
   "content": {
     "meta_title": "通过 {{ProgLang}} 验证 {{Fileformat}} 文件的 {{Signaturetype}} 签名",
     "meta_description": "仅使用几行 {{ProductName}} 代码来验证 {{Fileformat}} 文档及其 {{Signaturetype}} 签名。",
-    "h1": "{{Fileformat}} 文件的 {{Signaturetype}} 签名验证",
+    "h1": "{{Signaturetype}} 对 {{Fileformat}} 文件的签名验证",
     "h2": "{{ProductName}} 的 API 提供了验证 {{Fileformat}} 文档中的 {{Signaturetype}} 签名的机会。您的 {{Fileformat}} 文档中的电子签名验证可以快速轻松地执行。"
   },
   "about": {

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Odt for C#
 
 ############################# Head ############################
-head_title: "{text-content.meta_title}"
-head_description: "{text-content.meta_description}"
+head_title: "Cree firmas electrónicas de texto en un archivo Odt con C#"
+head_description: "Coloque Text eSignature en el archivo Odt para .NET usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo."
 
 ############################# Header ############################
-title: "{text-content.h1}"
-description: "{text-content.h2}"
+title: "Firme Odt archivos con Text firmas en C#"
+description: "Cómo agregar la firma Text con unas pocas líneas de código .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{text-about.title}"
+    title: "Acerca de la API de GroupDocs.Signature for .NET"
     content: |
-        {text-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{text-steps.title}"
+    title_left: "Pasos para firmar Odt con Text en C#"
     content_left: |
-        {text-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) proporciona la capacidad de firmar documentos Odt con Text firmas de forma rápida y sencilla.
         
-        * {text-steps.content.step_1}
-        * {text-steps.content.step_2}
-        * {text-steps.content.step_3}
+        * Cree una instancia de la clase Signature que proporcione el archivo Odt que se supone que debe firmar como ruta o flujo de memoria
+        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
+        * Invoque el método Signature.Sign() pasando la salida Odt archivo o flujo de memoria
 
-    title_right: " {system-requirements.title}"
+    title_right: " Requisitos del sistema"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
+        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Obtén el último GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Perbarui tanda tangan {{Signaturetype}} yang ditempatkan di file {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Gunakan kode {{ProductName}} yang sederhana dan mudah dipahami untuk pembaruan tanda tangan {{Signaturetype}} dalam dokumen {{Fileformat}} yang ditandatangani.",
+    "h1": "Edit dan perbarui tanda tangan {{Signaturetype}} yang ditempatkan di file {{Fileformat}}",
+    "h2": "API untuk {{ProductName}} menyediakan fungsionalitas untuk pembaruan tanda tangan {{Signaturetype}} pada dokumen {{Fileformat}}. Perbarui tanda tangan elektronik di dalam dokumen {{Fileformat}} Anda dengan beberapa baris kode {{ProgLang}} dengan cepat dan mudah."
+  },
+  "about": {
+    "title": "Pelajari tentang {{ProductFullName}} fitur API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) Fungsionalitas API berisi banyak pilihan cara untuk memproses dalam format dokumen permintaan dengan menggunakan tanda tangan elektronik. Spektrum luas tanda tangan elektronik seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata didukung. Pelanggan dapat menambah, menghapus, mengedit, memvalidasi atau mencari tanda tangan digital di PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Banyak fitur dan pengaturan yang berguna tersedia."
+  },
+  "steps": {
+    "title_left": "Cara mengubah tanda tangan {{Signaturetype}} di dokumen {{Fileformat}} Anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyertakan fitur berguna seperti pembaruan tanda tangan {{Signaturetype}} yang ditempatkan di dokumen {{Fileformat}}. Itu memungkinkan untuk mengubah fitur tanda tangan tanpa kode tambahan.",
+      "step_1": "Untuk memulainya, buat objek Signature yang lewat sebagai jalur parameter konstruktor ke dokumen yang seharusnya diperbarui.",
+      "step_2": "Kemudian, buat instance objek tanda tangan tertentu yang sesuai dan atur pengenal dan propertinya yang perlu diubah.",
+      "step_3": "Terakhir, panggil metode Pembaruan Tanda Tangan yang melewati objek tanda tangan tertentu.",
+      "step_4": "Proses memperbarui hasil ke pemberitahuan Anda."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan pengembangan: {{DevEnv}}",
+      "step_3": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Memperbarui tanda tangan {{Signaturetype}} di halaman dokumen - Demo Langsung",
+    "content": "Edit berbagai tanda tangan elektronik dari dokumen {{Fileformat}} sekarang juga dengan mengunjungi situs web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Perbarui berbagai tanda tangan {{Signaturetype}} melalui {{ProgLang}}",
+    "content": "Mengedit tanda tangan digital yang ditempatkan dalam berbagai format dokumen. Perbarui data tanda tangan tanpa kode tambahan."
+  }
+}

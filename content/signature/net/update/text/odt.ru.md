@@ -109,9 +109,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Подписание с помощью подписей Text Live Demo"
+    title: "Обновление подписей Text на страницах документа — интерактивная демонстрация"
     content: |
-       Добавьте различные электронные подписи в файл Odt прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+       Редактируйте различные электронные подписи документа Odt прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
 
 ############################# More Formats ############################
 more_formats:

@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "{{Signaturetype}} 서명으로 서명 라이브 데모",
-    "content": "지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 {{Fileformat}} 파일에 다양한 전자 서명을 추가하세요."
+    "title": "문서 페이지에서 {{Signaturetype}} 서명 업데이트 - 라이브 데모",
+    "content": "지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트에서 {{Fileformat}} 문서의 다양한 전자 서명을 수정하세요."
   },
   "more_formats": {
     "title": "{{ProgLang}}을(를) 통해 다양한 {{Signaturetype}} 서명 업데이트",

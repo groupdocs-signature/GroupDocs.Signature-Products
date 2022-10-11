@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "{{Signaturetype}} 署名による署名 ライブ デモ",
-    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルにさまざまな電子署名を今すぐ追加してください。"
+    "title": "{{Signaturetype}} の電子署名を検索 ライブ デモ",
+    "content": "[GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、{{Fileformat}} ファイルへのさまざまな電子署名のドキュメントを今すぐ検索してください。"
   },
   "more_formats": {
     "title": "{{ProgLang}} を使用して、他の {{Signaturetype}} 署名を検索します",

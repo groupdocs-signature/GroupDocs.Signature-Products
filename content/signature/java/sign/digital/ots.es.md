@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Ots for Java
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Adición de firmas electrónicas digitales al archivo Ots con Java"
+head_description: "Coloque la firma digital en el archivo Ots para Java usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "eSign Ots archivos con Digital firmas en Java"
+description: "Cómo agregar la firma Digital con unas pocas líneas de código Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "Acerca de GroupDocs.Signature for Java API de firmas digitales"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) es una API popular para firmar documentos con firmas electrónicas digitales, con certificados digitales. Para la API de firmas digitales, se utilizan archivos de certificados PFX para firmar documentos con claves privadas y públicas protegidas con contraseña. Las firmas digitales pueden usarse para certificar documentos comerciales con una página particular de eSign PDF, certificar documentos completos de Microsoft Office como Word, Excel, archivos de Powerpoint y documentos de Open Office. Los clientes pueden manipular fácilmente las firmas, como editarlas, eliminarlas o ajustarlas. La API proporciona una forma de buscar y verificar firmas. Además, se proporcionan muchas capacidades para la personalización de firmas.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Pasos para firmar Ots con Digital en Java"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) proporciona la capacidad de firmar documentos Ots con Digital firmas de forma rápida y sencilla.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * Cree una instancia de la clase Signature que proporcione el archivo Ots que se supone que debe firmar como ruta o flujo de memoria
+        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
+        * Invoque el método Signature.Sign() pasando la salida Ots archivo o flujo de memoria
 
-    title_right: " {system-requirements.title}"
+    title_right: " Requisitos del sistema"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtén el último GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

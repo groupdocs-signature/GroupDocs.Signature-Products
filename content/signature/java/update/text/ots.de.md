@@ -108,9 +108,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Text-Signaturen Live-Demo"
+    title: "Aktualisieren der Text-Signaturen auf den Dokumentseiten – Live-Demo"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zur Datei Ots hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.          
+       Bearbeiten Sie jetzt verschiedene elektronische Signaturen des Dokuments Ots, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.          
 
 ############################# More Formats ############################
 more_formats:

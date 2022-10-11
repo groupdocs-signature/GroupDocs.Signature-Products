@@ -17,7 +17,7 @@ head_title: "通过 Java 验证 Pptm 文件的 Digital 签名"
 head_description: "仅使用几行 Java 代码来验证 Pptm 文档及其 Digital 签名。"
 
 ############################# Header ############################
-title: "Pptm 文件的 Digital 签名验证"
+title: "Digital 对 Pptm 文件的签名验证"
 description: "Java 的 API 提供了验证 Pptm 文档中的 Digital 签名的机会。您的 Pptm 文档中的电子签名验证可以快速轻松地执行。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

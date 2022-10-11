@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "关于 GroupDocs.Signature for Java 二维码签名 API"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 是一个成熟的 API，用于为文档创建和生成二维码签名。用户可以生成二维码签名，提供文本下载或作为图像在社交媒体上分享。可以使用 API 或简单地通过移动相机扫描签名的文档！通过添加二维码签名以电子方式签署您的商业合同和官方文件并对其进行操作。任何二维码签名都将包含唯一的自定义信息，以识别签名者或授权文档。此外，二维码内容可以通过个人密钥以编程方式进行加密和解密。这开启了许多在公共文档中共享敏感数据的能力。签名后，用户可以更新、验证、删除、预览或搜索 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中的二维码。 QR码可以额外定制。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "在 Java 中使用 Qrcode 签署 Rtf 的步骤"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 提供使用 Qrcode 签名快速轻松地签署 Rtf 文档的能力。
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * 创建 Signature 类的实例，提供 Rtf 文件应该作为路径或内存流进行签名
+        * 实例化 SignOptions 类并设置所有需要的数据。
+        * 调用 Signature.Sign() 方法传递输出 Rtf 文件或内存流
 
-    title_right: " {system-requirements.title}"
+    title_right: " 系统要求"
     content_right: |
-        {system-requirements.content.description}
+        所有主要平台和操作系统都支持 GroupDocs.Signature for Java。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 操作系统：Microsoft Windows、Linux、MacOS
+        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) 获取最新的 GroupDocs.Signature for Java
          
     code: |
         ```java    
@@ -109,7 +109,7 @@ about_formats:
         - icon: "fas fa-barcode"
           title: "About Aztec QrCode"
           content: |
-            Aztec Code 是一种二维 (2-D) 通用矩阵符号系统，其设计精度高于其他二维符号系统。一个阿兹特克代码符号可以编码多达 3,832 个数字； 3,067 个字母字符；或 1,914 字节的数据。
+            Aztec Code 是一种二维 (2-D) 通用矩阵符号，其设计精度高于其他二维符号。一个阿兹特克代码符号最多可以编码 3,832 个数字； 3,067 个字母字符；或 1,914 字节的数据。
           characterset: |
              所有 256 个 ASCII 字符。
           textcapacity: |

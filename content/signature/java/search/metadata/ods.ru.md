@@ -86,9 +86,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Подписание с помощью подписей Metadata Live Demo"
+    title: "Поиск электронных подписей Metadata Live Demo"
     content: |
-       Добавьте различные электронные подписи к файлам Ods прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+       Найдите в документе различные электронные подписи к Ods файлам прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
 
         
 ############################# More Formats ############################

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Cari tanda tangan {{Signaturetype}} dalam file {{Fileformat}} di {{ProgLang}}",
+    "meta_description": "Gunakan {{ProductName}} untuk mencari tanda tangan {{Signaturetype}} di file {{Fileformat}} menggunakan beberapa baris kode.",
+    "h1": "Cari tanda tangan {{Signaturetype}} di file {{Fileformat}}",
+    "h2": "{{ProductName}} API asli memungkinkan untuk mencari {{Signaturetype}} tanda tangan di file {{Fileformat}} yang sudah ditandatangani. Lakukan pencarian tanda tangan elektronik lanjutan dalam dokumen {{Fileformat}} Anda menggunakan beberapa baris kode."
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan {{ProductName}} API untuk memproses dokumen menggunakan berbagai jenis tanda tangan seperti teks, gambar, sertifikat digital, kode batang, kode QR, stempel, atau metadata. Pengguna dapat menambah, menghapus, memperbarui, memverifikasi atau mencari tanda tangan elektronik dalam PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar, dengan dukungan tambahan untuk menyesuaikan properti tanda tangan sesuai kebutuhan."
+  },
+  "steps": {
+    "title_left": "Cara mencari tanda tangan {{Signaturetype}} di {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memudahkan pengembang {{ProductName}} untuk mencari tanda tangan {{Signaturetype}} dalam file {{Fileformat}} dari aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Buat instance baru kelas Signature dan teruskan jalur dokumen sumber sebagai parameter konstruktor.",
+      "step_2": "Buat instance objek SearchOptions sesuai dengan kebutuhan Anda dan tentukan opsi pencarian.",
+      "step_3": "Panggil metode Pencarian dari instance kelas Signature dan berikan SearchOptions ke sana.",
+      "step_4": "Proses pencarian hasil sesuai dengan permintaan Anda."
+    },
+    "title_right": "Persyaratan sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan pengembangan: {{DevEnv}}",
+      "step_3": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Telusuri {{Signaturetype}} tanda tangan elektronik Demo Langsung",
+    "content": "Cari dokumen untuk berbagai tanda tangan elektronik ke file {{Fileformat}} sekarang juga dengan mengunjungi situs web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Cari tanda tangan {{Signaturetype}} lainnya menggunakan {{ProgLang}}",
+    "content": "Pencarian tanda tangan elektronik di berbagai dokumen. Temukan tanda tangan dari salah satu format file populer seperti yang ditunjukkan di bawah ini."
+  }
+}

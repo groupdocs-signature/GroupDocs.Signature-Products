@@ -14,7 +14,7 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Pps for C#
 
 ############################# Head ############################
-head_title: "Documento de firma electrónica Pps con Data Matrix código QR en C#"
+head_title: "Firme electrónicamente Pps documento con Data Matrix Código QR en C#"
 head_description: "Cree el código QR Data Matrix y colóquelo en el archivo Pps usando .NET con un fragmento corto de código C#. Utilice la API de firma de documentos de GroupDocs para firmar electrónicamente sus documentos y archivos comerciales con código QR."
 
 ############################# Header ############################
@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "Acerca de GroupDocs.Signature for .NET API de firmas de código QR"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) es una API madura para crear y generar firmas de código QR para los documentos. Los usuarios pueden generar firmas de código QR proporcionando texto para descargarlo o compartirlo en las redes sociales como imagen. ¡El documento firmado se puede escanear con API o simplemente con la cámara del móvil! Firme electrónicamente sus contratos comerciales y documentos oficiales agregando la firma del código QR y manipúlelo. Cualquier firma de código QR contendrá información personalizada única para identificar al firmante o autorizar el documento. Además, el contenido del código QR se puede cifrar y descifrar con claves personales mediante programación. Eso abre muchas capacidades para compartir datos confidenciales dentro de los documentos públicos. Después de que el usuario que firma puede actualizar, verificar, eliminar, obtener una vista previa o buscar los códigos QR en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos QR se pueden personalizar adicionalmente.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "Pasos para firmar Pps con Qrcode en C#"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) proporciona la capacidad de firmar documentos Pps con Qrcode firmas de forma rápida y sencilla.
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * Cree una instancia de la clase Signature que proporcione el archivo Pps que se supone que debe firmar como ruta o flujo de memoria
+        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
+        * Invoque el método Signature.Sign() pasando la salida Pps archivo o flujo de memoria
 
-    title_right: " {system-requirements.title}"
+    title_right: " Requisitos del sistema"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
+        * Entornos de desarrollo: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Obtén el último GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

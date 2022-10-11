@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "Über GroupDocs.Signature for Java QR-Code-Signaturen-API"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ist eine ausgereifte API zum Erstellen und Generieren von QR-Code-Signaturen für die Dokumente. Benutzer können QR-Code-Signaturen generieren, die Text enthalten, um ihn herunterzuladen oder als Bild über die sozialen Medien zu teilen. Das unterschriebene Dokument kann mit API oder einfach über die Handykamera gescannt werden! Unterzeichnen Sie Ihre Geschäftsverträge und offiziellen Dokumente elektronisch, indem Sie eine QR-Code-Signatur hinzufügen und bearbeiten. Jede QR-Code-Signatur enthält eindeutige benutzerdefinierte Informationen, um den Unterzeichner zu identifizieren oder das Dokument zu autorisieren. Darüber hinaus kann der Inhalt des QR-Codes programmgesteuert mit persönlichen Schlüsseln verschlüsselt und entschlüsselt werden. Das eröffnet viele Möglichkeiten, sensible Daten in den öffentlichen Dokumenten zu teilen. Nach der Unterzeichnung kann der Benutzer die QR-Codes in PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten aktualisieren, überprüfen, löschen, in der Vorschau anzeigen oder danach suchen. QR-Codes können zusätzlich angepasst werden.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "Schritte zum Signieren von Odp mit Qrcode in Java"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bietet die Möglichkeit, Odp-Dokumente mit Qrcode-Signaturen schnell und einfach zu signieren.
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * Erstellen Sie eine Instanz der Signature-Klasse, die die Odp-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
+        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
+        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Odp-Ausgabedatei oder den Speicherstrom
 
-    title_right: " {system-requirements.title}"
+    title_right: " System Anforderungen"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Holen Sie sich das neueste GroupDocs.Signature for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

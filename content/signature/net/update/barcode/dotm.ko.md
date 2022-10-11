@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Barcode 서명으로 서명 라이브 데모"
+    title: "문서 페이지에서 Barcode 서명 업데이트 - 라이브 데모"
     content: |
-       지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 Dotm 파일에 다양한 전자 서명을 추가하세요.          
+       지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트에서 Dotm 문서의 다양한 전자 서명을 수정하세요.          
 
 ############################# More Formats ############################
 more_formats:

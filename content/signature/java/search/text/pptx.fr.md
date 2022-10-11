@@ -97,9 +97,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signer avec Text signatures Démo en direct"
+    title: "Rechercher Text signatures électroniques Démo en direct"
     content: |
-       Ajoutez dès maintenant diverses signatures électroniques aux fichiers Pptx en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+       Recherchez dès maintenant dans le document diverses signatures électroniques dans des fichiers Pptx en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
 
         
 ############################# More Formats ############################

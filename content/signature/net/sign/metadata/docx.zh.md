@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{metadata-about.title}"
+    title: "关于 GroupDocs.Signature for .NET 元数据签名 API"
     content: |
-        {metadata-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{metadata-steps.title}"
+    title_left: "在 C# 中使用 Metadata 签署 Docx 的步骤"
     content_left: |
-        {metadata-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) 提供使用 Metadata 签名快速轻松地签署 Docx 文档的能力。
         
-        * {metadata-steps.content.step_1}
-        * {metadata-steps.content.step_2}
-        * {metadata-steps.content.step_3}
+        * 创建 Signature 类的实例，提供 Docx 文件应该作为路径或内存流进行签名
+        * 实例化 SignOptions 类并设置所有需要的数据。
+        * 调用 Signature.Sign() 方法传递输出 Docx 文件或内存流
 
-    title_right: " {system-requirements.title}"
+    title_right: " 系统要求"
     content_right: |
-        {system-requirements.content.description}
+        所有主要平台和操作系统都支持 GroupDocs.Signature for .NET。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 操作系统：Microsoft Windows、Linux、MacOS
+        * 开发环境：Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * 从 [Nuget](https://www.nuget.org/packages/groupdocs.signature) 获取最新的 GroupDocs.Signature for .NET
          
     code: |
         ```csharp    

@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "{{ProgLang}} を使用して {{Fileformat}} ファイルに {{Signaturetype}} 署名を追加する",
-    "meta_description": "数行のコードを使用して、{{ProductName}} の {{Fileformat}} ファイルに {{Signaturetype}} 署名を付けます。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。",
-    "h1": "{{ProgLang}} の {{Signaturetype}} 署名で {{Fileformat}} ファイルに署名します",
-    "h2": "数行の {{ProductName}} コードで {{Signaturetype}} 署名を追加する方法"
-  },
   "barcode-content": {
     "meta_title": "{{ProgLang}} で {{Codetype}} バーコードを使用して {{Fileformat}} 文書に eSign",
     "meta_description": "{{Codetype}} バーコード署名を作成し、数行のコードを使用して {{ProductName}} で {{Fileformat}} ドキュメントに配置します。 GroupDocs Document Signature API を使用して、さまざまなファイル形式に署名します。",
     "h1": "{{ProgLang}} の {{Fileformat}} ドキュメントの {{Codetype}} バーコード署名を生成します",
     "h2": "{{Fileformat}} ビジネス文書に {{Codetype}} バーコードで電子署名します。署名オプションを設定するための数行のコードで、バーコード署名をすばやく簡単に生成します。"
   },
-  "qrcode-content": {
-    "meta_title": "{{ProgLang}} で {{Codetype}} QR コードを使用して {{Fileformat}} 文書に eSign",
-    "meta_description": "{{Codetype}} QR コードを作成し、短い {{ProgLang}} コードを含む {{ProductName}} を使用して {{Fileformat}} ファイルに配置します。 GroupDocs Document Signature API を使用して、ビジネス ドキュメントやファイルに QR コードで電子署名します。",
-    "h1": "{{ProgLang}} の {{Fileformat}} ドキュメントの {{Codetype}} QR コード署名を生成します",
-    "h2": "{{Fileformat}} ドキュメントと契約書に {{Codetype}} QR コードで電子署名します。 QR コード署名をすばやく簡単に生成します。"
+  "digital-content": {
+    "meta_title": "{{ProgLang}} を使用して {{Fileformat}} ファイルにデジタル電子署名を追加する",
+    "meta_description": "数行のコードを使用して、{{ProductName}} の {{Fileformat}} ファイルにデジタル署名を付けます。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。",
+    "h1": "{{ProgLang}} の {{Signaturetype}} 署名で {{Fileformat}} ファイルに eSign",
+    "h2": "数行の {{ProductName}} コードで {{Signaturetype}} 署名を追加する方法"
+  },
+  "image-content": {
+    "meta_title": "{{ProgLang}} を使用して {{Fileformat}} ファイルに {{Signaturetype}} 署名を追加する",
+    "meta_description": "数行のコードを使用して、{{ProductName}} の {{Fileformat}} ファイルに {{Signaturetype}} 署名を付けます。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。",
+    "h1": "{{ProgLang}} の {{Signaturetype}} 署名で {{Fileformat}} ファイルに署名します",
+    "h2": "数行の {{ProductName}} コードで {{Signaturetype}} 署名を追加する方法"
   },
   "metadata-content": {
     "meta_title": "{{ProgLang}} を介してメタデータの電子署名を {{Fileformat}} ドキュメントに追加します",
@@ -23,26 +23,103 @@
     "h1": "{{ProductName}} による {{Fileformat}} ドキュメントのメタデータ電子署名は、シンプルで使いやすいです。",
     "h2": "非表示のメタデータ エントリを使用して、{{Fileformat}} ドキュメントと契約書に電子署名します。 PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、およびさまざまな画像形式のメタデータを、問題なく追加のコーディングなしで生成します。"
   },
-  "about": {
-    "title": "{{ProductFullName}} API について",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) は、UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14 などの多くのバーコード タイプを使用したデジタル ドキュメントの電子署名用の一般的な API です。および他の多く。お客様は、必要なテキストだけを提供するバーコードを簡単に作成し、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。ドキュメントに配置されたバーコードは、更新、検索、検証、削除、またはプレビューできます。さらに、バーコードのカスタマイズがサポートされています。",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) は、QR コードを使用したデジタル ドキュメントの電子署名用の成熟した API です。ユーザーは、必要なテキストだけを提供する QR コード署名を生成して、ダウンロードしたり、ソーシャル メディアで画像として共有したりできます。署名されたドキュメントは、API を使用してスキャンするか、モバイル カメラで簡単にスキャンできます。 QRコード署名を追加してビジネス契約書や公式文書に電子的に署名し、それを操作します。 QR コード署名には、署名者を識別したりドキュメントを承認したりするための固有のカスタム情報が含まれます。さらに、QR コードのコンテンツは、個人キーを使用してプログラムで暗号化および復号化できます。これにより、公開文書内の機密データを共有するための多くの機能が開かれます。署名後、ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の QR コードを更新、検証、削除、プレビュー、または検索できます。 QRコードはさらにカスタマイズできます。"
+  "qrcode-content": {
+    "meta_title": "{{ProgLang}} で {{Codetype}} QR コードを使用して {{Fileformat}} 文書に eSign",
+    "meta_description": "{{Codetype}} QR コードを作成し、短い {{ProgLang}} コードを含む {{ProductName}} を使用して {{Fileformat}} ファイルに配置します。 GroupDocs Document Signature API を使用して、ビジネス ドキュメントやファイルに QR コードで電子署名します。",
+    "h1": "{{ProgLang}} の {{Fileformat}} ドキュメントの {{Codetype}} QR コード署名を生成します",
+    "h2": "{{Fileformat}} ドキュメントと契約書に {{Codetype}} QR コードで電子署名します。 QR コード署名をすばやく簡単に生成します。"
   },
-  "steps": {
-    "title_left": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
-    "content_left": {
+  "text-content": {
+    "meta_title": "{{ProgLang}} を使用して {{Fileformat}} ファイルにテキスト電子署名を作成します",
+    "meta_description": "数行のコードを使用して、{{ProductName}} の {{Fileformat}} ファイルに {{Signaturetype}} 電子署名を配置します。 GroupDocs Document Signature API を使用して、多数のファイル形式に署名します。",
+    "h1": "{{ProgLang}} の {{Signaturetype}} 署名で {{Fileformat}} ファイルに署名します",
+    "h2": "数行の {{ProductName}} コードで {{Signaturetype}} 署名を追加する方法"
+  },
+  "barcode-about": {
+    "title": "{{ProductFullName}} バーコード署名 API について。",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN などのバーコード タイプを使用してデジタル ドキュメントの電子署名を管理するための迅速かつ簡単な API です。 、ITF14、その他多数。お客様は、必要なテキストを提供するバーコードを簡単に作成し、PDF、Microsoft Office Word ドキュメント、Microsoft Office Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。ドキュメントに配置されたバーコードは、更新、検索、検証、削除、またはプレビューできます。さらに、バーコードのカスタマイズがサポートされています。"
+  },
+  "digital-about": {
+    "title": "{{ProductFullName}} デジタル署名 API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル証明書を使用してデジタル電子署名を使用してドキュメントに署名するための一般的な API です。デジタル署名 API では、PFX 証明書ファイルを使用して、パスワードで保護された秘密鍵と公開鍵でドキュメントに署名します。デジタル署名は、eSign PDF の特定のページを使用してビジネス ドキュメントを認証したり、Word、Excel、Powerpoint ファイル、Open Office ドキュメントなどの Microsoft Office ドキュメント全体を認証したりするために使用できます。顧客は、署名の編集、削除、調整など、署名を簡単に操作できます。 API は、署名を検索して検証する方法を提供します。さらに、署名をカスタマイズするための多くの機能が提供されます。"
+  },
+  "image-about": {
+    "title": "{{ProductFullName}} イメージ署名 API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。"
+  },
+  "metadata-about": {
+    "title": "{{ProductFullName}} メタデータ署名 API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。"
+  },
+  "qrcode-about": {
+    "title": "{{ProductFullName}} QR コード署名 API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、ドキュメントの QR コード署名を作成および生成するための成熟した API です。ユーザーは、テキストを提供する QR コード署名を生成して、ダウンロードしたり、ソーシャル メディアで画像として共有したりできます。署名されたドキュメントは、API を使用してスキャンするか、モバイル カメラで簡単にスキャンできます。 QRコード署名を追加してビジネス契約書や公式文書に電子的に署名し、それを操作します。 QR コード署名には、署名者を識別したりドキュメントを承認したりするための固有のカスタム情報が含まれます。さらに、QR コードのコンテンツは、個人キーを使用してプログラムで暗号化および復号化できます。これにより、公開文書内の機密データを共有するための多くの機能が開かれます。署名後、ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の QR コードを更新、検証、削除、プレビュー、または検索できます。 QRコードはさらにカスタマイズできます。"
+  },
+  "text-about": {
+    "title": "{{ProductFullName}} API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。"
+  },
+  "system-requirements": {
+    "title": "システム要求",
+    "content": {
+      "description": "{{ProductFullName}} は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から最新の {{ProductFullName}} を取得します"
+    }
+  },
+  "barcode-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
       "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
       "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
       "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
-    },
-    "title_right": "システム要求",
-    "content_right": {
-      "description": "{{ProductFullName}} を使用したドキュメント署名は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
-      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
-      "step_2": "開発環境: {{DevEnv}}",
-      "step_3": "[{{RepoName}}]({{RepoUrl}}) から最新の {{ProductFullName}} を取得します"
+    }
+  },
+  "digital-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
+    }
+  },
+  "image-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
+    }
+  },
+  "metadata-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
+    }
+  },
+  "qrcode-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
+    }
+  },
+  "text-steps": {
+    "title": "{{ProgLang}} で {{Signaturetype}} を使用して {{Fileformat}} に署名する手順",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) は、{{Fileformat}} ドキュメントに {{Signaturetype}} 署名ですばやく簡単に署名する機能を提供します。",
+      "step_1": "パスまたはメモリ ストリームとして署名することになっている {{Fileformat}} ファイルを提供する署名クラスのインスタンスを作成します",
+      "step_2": "SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。",
+      "step_3": "出力 {{Fileformat}} ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。"
     }
   },
   "demos": {
@@ -100,7 +177,7 @@
       "codetextcapacity": "11文字まで。"
     },
     "ISBN": {
-      "details": "国際標準図書番号 (ISBN) は、一意であることを意図した数値の商業書籍識別子です。[a][b] 出版社は、国際 ISBN 機関の関連会社から ISBN を購入します。",
+      "details": "国際標準図書番号 (ISBN) は、一意であることを意図した数値の商用書籍識別子です。[a][b] 出版社は、国際 ISBN 機関の関連会社から ISBN を購入します。",
       "characterset": "数字 (0 から 9)。",
       "codetextcapacity": "ちょうど9桁+1チェックデジット。"
     },

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Xlsx for C#
 
 ############################# Head ############################
-head_title: "{text-content.meta_title}"
-head_description: "{text-content.meta_description}"
+head_title: "Создайте текстовые электронные подписи для файла Xlsx с помощью C#"
+head_description: "Поместите электронную подпись Text в файл Xlsx для .NET, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
 
 ############################# Header ############################
-title: "{text-content.h1}"
-description: "{text-content.h2}"
+title: "Подпишите файлы Xlsx с подписями Text в C#"
+description: "Как добавить подпись Text с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{text-about.title}"
+    title: "Об API GroupDocs.Signature for .NET"
     content: |
-        {text-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{text-steps.title}"
+    title_left: "Действия по подписанию Xlsx с помощью Text в C#"
     content_left: |
-        {text-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Xlsx с подписями Text.
         
-        * {text-steps.content.step_1}
-        * {text-steps.content.step_2}
-        * {text-steps.content.step_3}
+        * Создайте экземпляр класса Signature, предоставляющий файл Xlsx, который должен быть подписан как путь или поток памяти.
+        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
+        * Вызвать метод Signature.Sign(), передав выходной файл Xlsx или поток памяти
 
-    title_right: " {system-requirements.title}"
+    title_right: " Системные Требования"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

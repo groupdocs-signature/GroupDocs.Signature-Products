@@ -1,5 +1,5 @@
 dimensions: 
 - alias: lang
-  values: [en, de, es, fr, ja, ko, ru, zh]
+  values: [en, de, es, fr, ja, ko, ru, zh, id]
 
 dictionaries: ["..\\data\\{operation}\\{lang}.json"]

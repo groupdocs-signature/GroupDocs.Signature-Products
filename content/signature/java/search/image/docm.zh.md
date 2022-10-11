@@ -97,9 +97,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "使用 Image 签名进行签名 Live Demo"
+    title: "搜索 Image 电子签名 Live Demo"
     content: |
-       访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，立即为 Docm 文件添加各种电子签名。
+       立即访问 [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) 网站，在文档中搜索 Docm 文件的各种电子签名。
 
         
 ############################# More Formats ############################

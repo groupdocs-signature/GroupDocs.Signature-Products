@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "Подписание с помощью подписей {{Signaturetype}} Live Demo",
-    "content": "Добавьте различные электронные подписи к файлам {{Fileformat}} прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+    "title": "Поиск электронных подписей {{Signaturetype}} Live Demo",
+    "content": "Найдите в документе различные электронные подписи к {{Fileformat}} файлам прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
   },
   "more_formats": {
     "title": "Поиск других подписей {{Signaturetype}} с помощью {{ProgLang}}",

@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Digital-Signaturen Live-Demo"
+    title: "Suchen Sie nach Digital Live-Demo für elektronische Signaturen"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zu Ott-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
+       Durchsuchen Sie das Dokument jetzt nach verschiedenen elektronischen Signaturen für Ott-Dateien, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
 
         
 ############################# More Formats ############################

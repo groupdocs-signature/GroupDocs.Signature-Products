@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Xls for Java
 
 ############################# Head ############################
-head_title: "{image-content.meta_title}"
-head_description: "{image-content.meta_description}"
+head_title: "Ajout de signatures Image au fichier Xls avec Java"
+head_description: "Mettez Image Signature sur le fichier Xls pour Java en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers."
 
 ############################# Header ############################
-title: "{image-content.h1}"
-description: "{image-content.h2}"
+title: "Signez des fichiers Xls avec des signatures Image en Java"
+description: "Comment ajouter Image Signature avec quelques lignes de code Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{image-about.title}"
+    title: "À propos de l'API de signatures d'image GroupDocs.Signature for Java"
     content: |
-        {image-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) est une API populaire pour la signature électronique de documents numériques. Des signatures telles que des textes, des images, des certificats numériques, des codes-barres, des codes QR, des tampons ou des métadonnées sont disponibles. Les signatures peuvent être placées sur des fichiers PDF, des documents MS Word, des classeurs MS Excel, des présentations MS PowerPoint, des fichiers Adobe Photoshop et divers formats d'image. Les clients peuvent signer leur document et mettre à jour, rechercher, vérifier, supprimer ou prévisualiser les signatures électroniques apposées sur ces documents. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{image-steps.title}"
+    title_left: "Étapes pour signer Xls avec Image dans Java"
     content_left: |
-        {image-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) permet de signer rapidement et facilement des documents Xls avec des signatures Image.
         
-        * {image-steps.content.step_1}
-        * {image-steps.content.step_2}
-        * {image-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Xls censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Xls ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

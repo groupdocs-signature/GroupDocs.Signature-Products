@@ -86,9 +86,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Metadata-Signaturen Live-Demo"
+    title: "Suchen Sie nach Metadata Live-Demo für elektronische Signaturen"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zu Potm-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
+       Durchsuchen Sie das Dokument jetzt nach verschiedenen elektronischen Signaturen für Potm-Dateien, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
 
         
 ############################# More Formats ############################

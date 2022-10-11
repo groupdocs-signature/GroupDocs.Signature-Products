@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Xlsm for C#
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "C#을(를) 사용하여 Xlsm 파일에 디지털 전자 서명 추가"
+head_description: "몇 줄의 코드를 사용하여 .NET에 대한 Xlsm 파일에 디지털 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "C#에서 Digital 서명이 있는 Xlsm 파일에 eSign"
+description: "몇 줄의 .NET 코드로 Digital 서명을 추가하는 방법"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "GroupDocs.Signature for .NET 디지털 서명 API 정보"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 디지털 인증서와 함께 디지털 전자 서명으로 문서를 서명하는 데 널리 사용되는 API입니다. 디지털 서명의 경우 API는 PFX 인증서 파일을 사용하여 암호로 보호된 개인 및 공개 키로 문서에 서명합니다. 디지털 서명은 eSign PDF 특정 페이지로 비즈니스 문서를 인증하고 Words, Excel, Powerpoint 파일 및 Open Office 문서와 같은 전체 Microsoft Office 문서를 인증하는 데 사용될 수 있습니다. 고객은 서명 편집, 제거 또는 조정과 같이 서명을 쉽게 조작할 수 있습니다. API는 서명을 검색하고 확인하는 방법을 제공합니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "C#에서 Digital으로 Xlsm에 서명하는 단계"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/)은 Digital 서명으로 Xlsm 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * 경로 또는 메모리 스트림으로 서명해야 하는 Xlsm 파일을 제공하는 Signature 클래스의 인스턴스 생성
+        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
+        * 출력 Xlsm 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
 
-    title_right: " {system-requirements.title}"
+    title_right: " 시스템 요구 사항"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 운영 체제: Microsoft Windows, Linux, MacOS
+        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * [Nuget](https://www.nuget.org/packages/groupdocs.signature)에서 최신 GroupDocs.Signature for .NET 가져오기
          
     code: |
         ```csharp    

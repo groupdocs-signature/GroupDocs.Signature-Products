@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Odt for Java
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Hinzufügen digitaler elektronischer Signaturen zur Odt-Datei mit Java"
+head_description: "Fügen Sie der Odt-Datei für Java mit ein paar Codezeilen eine digitale Signatur hinzu. Verwenden Sie die GroupDocs Document Signature API, um Dutzende von Dateiformaten zu signieren."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "eSigniere Odt-Dateien mit Digital-Signaturen in Java"
+description: "So fügen Sie eine Digital-Signatur mit ein paar Zeilen Java-Code hinzu"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "Über die API für digitale Signaturen von GroupDocs.Signature for Java"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ist eine beliebte API zum Signieren von Dokumenten mit digitalen elektronischen Signaturen und digitalen Zertifikaten. Für die API für digitale Signaturen werden PFX-Zertifikatsdateien verwendet, um Dokumente mit passwortgeschützten privaten und öffentlichen Schlüsseln zu signieren. Die digitalen Signaturen können verwendet werden, um Geschäftsdokumente mit eSign-PDF-Einzelseiten zu zertifizieren, ganze Microsoft Office-Dokumente wie Words, Excel, Powerpoint-Dateien und Open Office-Dokumente zu zertifizieren. Kunden können die Signaturen einfach manipulieren, z. B. bearbeiten, entfernen oder anpassen. Die API bietet eine Möglichkeit, Signaturen zu suchen und zu überprüfen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Schritte zum Signieren von Odt mit Digital in Java"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bietet die Möglichkeit, Odt-Dokumente mit Digital-Signaturen schnell und einfach zu signieren.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * Erstellen Sie eine Instanz der Signature-Klasse, die die Odt-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
+        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
+        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Odt-Ausgabedatei oder den Speicherstrom
 
-    title_right: " {system-requirements.title}"
+    title_right: " System Anforderungen"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Holen Sie sich das neueste GroupDocs.Signature for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

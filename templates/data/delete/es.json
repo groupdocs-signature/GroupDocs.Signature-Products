@@ -6,7 +6,7 @@
     "h2": "Elimine varias firmas {{Signaturetype}} de los documentos {{Fileformat}}. Eliminar las firmas {{Signaturetype}} requiere un código {{ProgLang}} simple."
   },
   "about": {
-    "title": "Obtenga información sobre las características de la API de {{ProductFullName}}",
+    "title": "Obtener información sobre las características de la API de {{ProductFullName}}",
     "content": "La API de [{{ProductFullName}}]({{ProductUrl}}) proporciona muchas formas de procesar sus documentos mediante firmas electrónicas. Están disponibles firmas digitales como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes tienen la posibilidad de agregar, eliminar, actualizar, verificar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Se proporciona una gran cantidad de funciones y configuraciones útiles."
   },
   "steps": {
@@ -20,7 +20,7 @@
     },
     "title_right": "Requisitos del sistema",
     "content_right": {
-      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.",
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
       "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
       "step_2": "Entornos de desarrollo: {{DevEnv}}",
       "step_3": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"

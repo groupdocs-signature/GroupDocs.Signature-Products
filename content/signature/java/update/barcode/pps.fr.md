@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signer avec Barcode signatures Démo en direct"
+    title: "Mise à jour des signatures Barcode sur les pages du document - Démo en direct"
     content: |
-       Ajoutez dès maintenant diverses signatures électroniques au fichier Pps en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+       Modifiez dès maintenant diverses signatures électroniques du document Pps en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
 
 ############################# More Formats ############################
 more_formats:

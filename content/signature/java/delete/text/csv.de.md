@@ -51,7 +51,7 @@ steps:
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bietet eine nützliche Funktion zum Löschen von Csv-Dokumenten von Text-Signaturen mit ein paar Codezeilen.
         
-        * Instanziieren Sie zunächst das Signaturobjekt, das den Pfad zu Ihrem Dokument als Konstruktorparameter übergibt.
+        * Instanziieren Sie zunächst das Signature-Objekt, das den Pfad zu Ihrem Dokument als Konstruktorparameter übergibt.
         * Erstellen Sie dann ein geeignetes Signaturobjekt und richten Sie seine eindeutige Kennung ein.
         * Rufen Sie danach die Delete-Methode auf und übergeben Sie das Signaturobjekt, das gelöscht werden muss.
         * Schließlich resultieren Prozessoperationen.

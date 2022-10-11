@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "Agregando {{Signaturetype}} firmas al archivo {{Fileformat}} con {{ProgLang}}",
-    "meta_description": "Coloque la firma {{Signaturetype}} en el archivo {{Fileformat}} para {{ProductName}} usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo.",
-    "h1": "Firme {{Fileformat}} archivos con {{Signaturetype}} firmas en {{ProgLang}}",
-    "h2": "Cómo agregar la firma {{Signaturetype}} con unas pocas líneas de código {{ProductName}}"
-  },
   "barcode-content": {
     "meta_title": "Firmar electrónicamente {{Fileformat}} documento con {{Codetype}} código de barras en {{ProgLang}}",
     "meta_description": "Cree la firma de código de barras {{Codetype}} y colóquela en el documento {{Fileformat}} con {{ProductName}} usando un par de líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar varios formatos de archivo.",
     "h1": "Genere la firma de código de barras {{Codetype}} para el documento {{Fileformat}} en {{ProgLang}}",
     "h2": "Firme electrónicamente sus documentos comerciales de {{Fileformat}} con {{Codetype}} Barcode. Genere una firma de código de barras rápida y fácilmente con unas pocas líneas de código para configurar las opciones de firma."
   },
-  "qrcode-content": {
-    "meta_title": "Documento de firma electrónica {{Fileformat}} con {{Codetype}} código QR en {{ProgLang}}",
-    "meta_description": "Cree el código QR {{Codetype}} y colóquelo en el archivo {{Fileformat}} usando {{ProductName}} con un fragmento corto de código {{ProgLang}}. Utilice la API de firma de documentos de GroupDocs para firmar electrónicamente sus documentos y archivos comerciales con código QR.",
-    "h1": "Genere la firma del código QR {{Codetype}} para el documento {{Fileformat}} en {{ProgLang}}",
-    "h2": "Firme electrónicamente sus {{Fileformat}} documentos y contratos con {{Codetype}} QR Code. Genere la firma del código QR de forma rápida y sencilla."
+  "digital-content": {
+    "meta_title": "Adición de firmas electrónicas digitales al archivo {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Coloque la firma digital en el archivo {{Fileformat}} para {{ProductName}} usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo.",
+    "h1": "eSign {{Fileformat}} archivos con {{Signaturetype}} firmas en {{ProgLang}}",
+    "h2": "Cómo agregar la firma {{Signaturetype}} con unas pocas líneas de código {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Agregando {{Signaturetype}} firmas al archivo {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Coloque la firma {{Signaturetype}} en el archivo {{Fileformat}} para {{ProductName}} usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo.",
+    "h1": "Firme {{Fileformat}} archivos con {{Signaturetype}} firmas en {{ProgLang}}",
+    "h2": "Cómo agregar la firma {{Signaturetype}} con unas pocas líneas de código {{ProductName}}"
   },
   "metadata-content": {
     "meta_title": "Agregue firmas electrónicas de metadatos a documentos {{Fileformat}} a través de {{ProgLang}}",
@@ -23,26 +23,103 @@
     "h1": "¡Las firmas electrónicas de metadatos para el documento {{Fileformat}} a través de {{ProductName}} son simples y fáciles de usar!",
     "h2": "Firme electrónicamente sus documentos y contratos de {{Fileformat}} con entradas de metadatos ocultas. Genere metadatos para archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint y varios formatos de imagen sin problemas y con codificación adicional."
   },
-  "about": {
-    "title": "Acerca de la API de {{ProductFullName}}",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas.",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para la firma electrónica de documentos digitales que utiliza muchos tipos de códigos de barras como UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 y muchos otros. Los clientes pueden crear fácilmente códigos de barras que brinden solo el texto solicitado y ponerlos en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos de barras colocados en los documentos se pueden actualizar, buscar, verificar, eliminar o previsualizar. Además, se admite la personalización de códigos de barras.",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) es una API madura para la firma electrónica de documentos digitales mediante código QR. Los usuarios pueden generar firmas de código QR proporcionando solo el texto solicitado para descargarlo o compartirlo en las redes sociales como imagen. ¡El documento firmado se puede escanear con API o simplemente con la cámara del móvil! Firme electrónicamente sus contratos comerciales y documentos oficiales agregando la firma del código QR y manipúlelo. Cualquier firma de código QR contendrá información personalizada única para identificar al firmante o autorizar el documento. Además, el contenido del código QR se puede cifrar y descifrar con claves personales mediante programación. Eso abre muchas capacidades para compartir datos confidenciales dentro de los documentos públicos. Después de que el usuario que firma puede actualizar, verificar, eliminar, obtener una vista previa o buscar los códigos QR en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos QR se pueden personalizar adicionalmente."
+  "qrcode-content": {
+    "meta_title": "Firme electrónicamente {{Fileformat}} documento con {{Codetype}} Código QR en {{ProgLang}}",
+    "meta_description": "Cree el código QR {{Codetype}} y colóquelo en el archivo {{Fileformat}} usando {{ProductName}} con un fragmento corto de código {{ProgLang}}. Utilice la API de firma de documentos de GroupDocs para firmar electrónicamente sus documentos y archivos comerciales con código QR.",
+    "h1": "Genere la firma del código QR {{Codetype}} para el documento {{Fileformat}} en {{ProgLang}}",
+    "h2": "Firme electrónicamente sus {{Fileformat}} documentos y contratos con {{Codetype}} QR Code. Genere la firma del código QR de forma rápida y sencilla."
   },
-  "steps": {
-    "title_left": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
-    "content_left": {
+  "text-content": {
+    "meta_title": "Cree firmas electrónicas de texto en un archivo {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Coloque {{Signaturetype}} eSignature en el archivo {{Fileformat}} para {{ProductName}} usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo.",
+    "h1": "Firme {{Fileformat}} archivos con {{Signaturetype}} firmas en {{ProgLang}}",
+    "h2": "Cómo agregar la firma {{Signaturetype}} con unas pocas líneas de código {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Acerca de {{ProductFullName}} API de firmas de código de barras.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API rápida y sencilla para gestionar la firma electrónica de documentos digitales mediante tipos de códigos de barras como UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 y muchos otros. Los clientes pueden crear fácilmente códigos de barras que proporcionen el texto requerido y ponerlos en PDF, documentos de Microsoft Office Words, libros de trabajo de Microsoft Office Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos de barras colocados en los documentos se pueden actualizar, buscar, verificar, eliminar o previsualizar. Además, se admite la personalización de códigos de barras."
+  },
+  "digital-about": {
+    "title": "Acerca de {{ProductFullName}} API de firmas digitales",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para firmar documentos con firmas electrónicas digitales, con certificados digitales. Para la API de firmas digitales, se utilizan archivos de certificados PFX para firmar documentos con claves privadas y públicas protegidas con contraseña. Las firmas digitales pueden usarse para certificar documentos comerciales con una página particular de eSign PDF, certificar documentos completos de Microsoft Office como Word, Excel, archivos de Powerpoint y documentos de Open Office. Los clientes pueden manipular fácilmente las firmas, como editarlas, eliminarlas o ajustarlas. La API proporciona una forma de buscar y verificar firmas. Además, se proporcionan muchas capacidades para la personalización de firmas."
+  },
+  "image-about": {
+    "title": "Acerca de {{ProductFullName}} API de firmas de imágenes",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas."
+  },
+  "metadata-about": {
+    "title": "Acerca de la API de firmas de metadatos {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas."
+  },
+  "qrcode-about": {
+    "title": "Acerca de {{ProductFullName}} API de firmas de código QR",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API madura para crear y generar firmas de código QR para los documentos. Los usuarios pueden generar firmas de código QR proporcionando texto para descargarlo o compartirlo en las redes sociales como imagen. ¡El documento firmado se puede escanear con API o simplemente con la cámara del móvil! Firme electrónicamente sus contratos comerciales y documentos oficiales agregando la firma del código QR y manipúlelo. Cualquier firma de código QR contendrá información personalizada única para identificar al firmante o autorizar el documento. Además, el contenido del código QR se puede cifrar y descifrar con claves personales mediante programación. Eso abre muchas capacidades para compartir datos confidenciales dentro de los documentos públicos. Después de que el usuario que firma puede actualizar, verificar, eliminar, obtener una vista previa o buscar los códigos QR en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los códigos QR se pueden personalizar adicionalmente."
+  },
+  "text-about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas."
+  },
+  "system-requirements": {
+    "title": "Requisitos del sistema",
+    "content": {
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Obtén el último {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
       "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
       "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
       "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
-    },
-    "title_right": "Requisitos del sistema",
-    "content_right": {
-      "description": "La firma de documentos con {{ProductFullName}} se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
-      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
-      "step_2": "Entornos de desarrollo: {{DevEnv}}",
-      "step_3": "Obtén el último {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "digital-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
+      "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
+      "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
+      "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
+    }
+  },
+  "image-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
+      "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
+      "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
+      "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
+    }
+  },
+  "metadata-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
+      "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
+      "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
+      "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
+      "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
+      "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
+      "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
+    }
+  },
+  "text-steps": {
+    "title": "Pasos para firmar {{Fileformat}} con {{Signaturetype}} en {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) proporciona la capacidad de firmar documentos {{Fileformat}} con {{Signaturetype}} firmas de forma rápida y sencilla.",
+      "step_1": "Cree una instancia de la clase Signature que proporcione el archivo {{Fileformat}} que se supone que debe firmar como ruta o flujo de memoria",
+      "step_2": "Cree una instancia de la clase SignOptions y configure todos los datos solicitados.",
+      "step_3": "Invoque el método Signature.Sign() pasando la salida {{Fileformat}} archivo o flujo de memoria"
     }
   },
   "demos": {
@@ -81,7 +158,7 @@
     },
     "Code39Extended": {
       "details": "El Código 39 (también conocido como Alpha39, Código 3 de 9, Código 3/9, Tipo 39, Código USS 39 o USD-3) es una simbología de código de barras discreta de longitud variable.",
-      "characterset": "Conjunto de caracteres: los 128 caracteres ASCII.",
+      "characterset": "Juego de caracteres: los 128 caracteres ASCII.",
       "codetextcapacity": "Sin restricciones específicas."
     },
     "Code128": {
@@ -136,7 +213,7 @@
     },
     "GS1DataMatrix": {
       "details": "GS1 Data Matrix es una variante de Data Matrix que cumple con las especificaciones GS1. Use GS1 DataMatrix para codificar información como, entre otras, la siguiente: AI(01) Número global de artículo comercial (GTIN), AI(17) Fecha de vencimiento, AI(10) Número de lote, AI(21) Número de serie .",
-      "characterset": "Juego de caracteres: letras mayúsculas y minúsculas y caracteres especiales $@%*+-./:=<>;&*_,'! todos con los identificadores de aplicación correctos.",
+      "characterset": "Conjunto de caracteres: letras mayúsculas y minúsculas y caracteres especiales $@%*+-./:=<>;&*_,'! todos con los identificadores de aplicación correctos.",
       "codetextcapacity": "Capacidad de texto en código: hasta 3116 dígitos numéricos o 2335 caracteres alfanuméricos."
     },
     "GS1QR": {

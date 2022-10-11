@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "使用 {{ProgLang}} 将 {{Signaturetype}} 签名添加到 {{Fileformat}} 文件",
-    "meta_description": "使用几行代码将 {{Signaturetype}} 签名放在 {{ProductName}} 的 {{Fileformat}} 文件上。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。",
-    "h1": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签名对 {{Fileformat}} 文件进行签名",
-    "h2": "如何用几行 {{ProductName}} 代码添加 {{Signaturetype}} 签名"
-  },
   "barcode-content": {
     "meta_title": "在 {{ProgLang}} 中带有 {{Codetype}} 条码的 eSign {{Fileformat}} 文档",
     "meta_description": "创建 {{Codetype}} 条码签名并使用几行代码将其放在带有 {{ProductName}} 的 {{Fileformat}} 文档中。使用 GroupDocs 文档签名 API 对各种文件格式进行签名。",
     "h1": "在 {{ProgLang}} 中为 {{Fileformat}} 文档生成 {{Codetype}} 条码签名",
     "h2": "使用 {{Codetype}} 条码对您的 {{Fileformat}} 业务文档进行电子签名。只需几行代码即可快速轻松地生成条形码签名以设置签名选项。"
   },
-  "qrcode-content": {
-    "meta_title": "在 {{ProgLang}} 中带有 {{Codetype}} QR 码的 eSign {{Fileformat}} 文档",
-    "meta_description": "创建 {{Codetype}} 二维码并使用 {{ProductName}} 和一小段 {{ProgLang}} 代码将其放在 {{Fileformat}} 文件中。使用 GroupDocs 文档签名 API 使用 QR 码对您的业务文档和文件进行电子签名。",
-    "h1": "在 {{ProgLang}} 中为 {{Fileformat}} 文档生成 {{Codetype}} 二维码签名",
-    "h2": "使用 {{Codetype}} 二维码对您的 {{Fileformat}} 文档和合同进行电子签名。快速轻松地生成二维码签名。"
+  "digital-content": {
+    "meta_title": "使用 {{ProgLang}} 将数字电子签名添加到 {{Fileformat}} 文件",
+    "meta_description": "使用几行代码为 {{ProductName}} 的 {{Fileformat}} 文件添加数字签名。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。",
+    "h1": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签名的 eSign {{Fileformat}} 文件",
+    "h2": "如何用几行 {{ProductName}} 代码添加 {{Signaturetype}} 签名"
+  },
+  "image-content": {
+    "meta_title": "使用 {{ProgLang}} 将 {{Signaturetype}} 签名添加到 {{Fileformat}} 文件",
+    "meta_description": "使用几行代码将 {{Signaturetype}} 签名放在 {{ProductName}} 的 {{Fileformat}} 文件上。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。",
+    "h1": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签名对 {{Fileformat}} 文件进行签名",
+    "h2": "如何用几行 {{ProductName}} 代码添加 {{Signaturetype}} 签名"
   },
   "metadata-content": {
     "meta_title": "通过 {{ProgLang}} 将元数据电子签名附加到 {{Fileformat}} 文档",
@@ -23,26 +23,103 @@
     "h1": "通过 {{ProductName}} 的 {{Fileformat}} 文档的元数据电子签名简单易用！",
     "h2": "使用隐藏的元数据条目对您的 {{Fileformat}} 文档和合同进行电子签名。为 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿和各种图像格式生成元数据，没有问题和额外的编码。"
   },
-  "about": {
-    "title": "关于 {{ProductFullName}} API",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}}) 是一种流行的数字文档电子签名 API，使用多种条形码类型，如 UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN、ITF14和许多其他人。客户可以轻松创建提供所需文本的条形码，并将它们放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。放置在文档中的条码也可以更新、搜索、验证、删除或预览。此外，还支持条码定制。",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}}) 是一个成熟的 API，用于使用 QR 码进行数字文档电子签名。用户可以生成 QR 码签名，提供所需的文本以下载或在社交媒体上作为图像共享。可以使用 API 或简单地通过移动相机扫描签名的文档！通过添加二维码签名以电子方式签署您的商业合同和官方文件并对其进行操作。任何二维码签名都将包含唯一的自定义信息，以识别签名者或授权文档。此外，二维码内容可以通过个人密钥以编程方式进行加密和解密。这开启了许多在公共文档中共享敏感数据的能力。签名后，用户可以更新、验证、删除、预览或搜索 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中的二维码。 QR码可以额外定制。"
+  "qrcode-content": {
+    "meta_title": "在 {{ProgLang}} 中带有 {{Codetype}} QR 码的 eSign {{Fileformat}} 文档",
+    "meta_description": "创建 {{Codetype}} 二维码并使用 {{ProductName}} 和一小段 {{ProgLang}} 代码将其放在 {{Fileformat}} 文件中。使用 GroupDocs 文档签名 API 使用 QR 码对您的业务文档和文件进行电子签名。",
+    "h1": "在 {{ProgLang}} 中为 {{Fileformat}} 文档生成 {{Codetype}} 二维码签名",
+    "h2": "使用 {{Codetype}} 二维码对您的 {{Fileformat}} 文档和合同进行电子签名。快速轻松地生成二维码签名。"
   },
-  "steps": {
-    "title_left": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
-    "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
-      "step_1": "创建一个 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
-      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
-      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
-    },
-    "title_right": "系统要求",
-    "content_right": {
-      "description": "只需几个简单的步骤即可使用 {{ProductFullName}} 签署文档。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
+  "text-content": {
+    "meta_title": "使用 {{ProgLang}} 为 {{Fileformat}} 文件创建文本电子签名",
+    "meta_description": "使用几行代码将 {{Signaturetype}} 电子签名放在 {{ProductName}} 的 {{Fileformat}} 文件中。使用 GroupDocs 文档签名 API 对数十种文件格式进行签名。",
+    "h1": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签名对 {{Fileformat}} 文件进行签名",
+    "h2": "如何用几行 {{ProductName}} 代码添加 {{Signaturetype}} 签名"
+  },
+  "barcode-about": {
+    "title": "关于 {{ProductFullName}} 条码签名 API。",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是一个快速简便的 API，用于使用 UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN 等条码类型管理数字文档电子签名, ITF14 和许多其他的。客户可以轻松创建提供所需文本的条码，并将它们放在 PDF、Microsoft Office Words 文档、Microsoft Office Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中。可以更新、搜索、验证、删除或预览放置在文档中的条形码。此外，还支持条码定制。"
+  },
+  "digital-about": {
+    "title": "关于 {{ProductFullName}} 数字签名 API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是一种流行的 API，用于使用数字电子签名和数字证书对文档进行签名。对于数字签名 API，使用 PFX 证书文件来设计带有密码保护的私钥和公钥的文档。数字签名可用于验证具有 eSign PDF 特定页面的商业文档，验证整个 Microsoft Office 文档，如 Words、Excel、Powerpoint 文件和 Open Office 文档。客户可以轻松地操作签名，例如编辑、删除或调整签名。 API 提供了一种搜索和验证签名的方法。此外，还提供了许多签名定制的能力。"
+  },
+  "image-about": {
+    "title": "关于 {{ProductFullName}} 图像签名 API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。"
+  },
+  "metadata-about": {
+    "title": "关于 {{ProductFullName}} 元数据签名 API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。"
+  },
+  "qrcode-about": {
+    "title": "关于 {{ProductFullName}} 二维码签名 API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是一个成熟的 API，用于为文档创建和生成二维码签名。用户可以生成二维码签名，提供文本下载或作为图像在社交媒体上分享。可以使用 API 或简单地通过移动相机扫描签名的文档！通过添加二维码签名以电子方式签署您的商业合同和官方文件并对其进行操作。任何二维码签名都将包含唯一的自定义信息，以识别签名者或授权文档。此外，二维码内容可以通过个人密钥以编程方式进行加密和解密。这开启了许多在公共文档中共享敏感数据的能力。签名后，用户可以更新、验证、删除、预览或搜索 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中的二维码。 QR码可以额外定制。"
+  },
+  "text-about": {
+    "title": "关于 {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) 是用于数字文档电子签名的流行 API。可以使用文本、图像、数字证书、条形码、二维码、印章或元数据等签名。签名可以放在 PDF、MS Word 文档、MS Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式上。客户可以签署他们的文件并更新、搜索、验证、删除或预览放在这些文件上的电子签名。此外，还提供了许多签名定制的能力。"
+  },
+  "system-requirements": {
+    "title": "系统要求",
+    "content": {
+      "description": "所有主要平台和操作系统都支持 {{ProductFullName}}。在执行以下代码之前，请确保您的系统上安装了以下先决条件。",
       "step_1": "操作系统：Microsoft Windows、Linux、MacOS",
       "step_2": "开发环境：{{DevEnv}}",
       "step_3": "从 [{{RepoName}}]({{RepoUrl}}) 获取最新的 {{ProductFullName}}"
+    }
+  },
+  "barcode-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    }
+  },
+  "digital-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    }
+  },
+  "image-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    }
+  },
+  "metadata-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    }
+  },
+  "qrcode-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
+    }
+  },
+  "text-steps": {
+    "title": "在 {{ProgLang}} 中使用 {{Signaturetype}} 签署 {{Fileformat}} 的步骤",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 提供使用 {{Signaturetype}} 签名快速轻松地签署 {{Fileformat}} 文档的能力。",
+      "step_1": "创建 Signature 类的实例，提供 {{Fileformat}} 文件应该作为路径或内存流进行签名",
+      "step_2": "实例化 SignOptions 类并设置所有需要的数据。",
+      "step_3": "调用 Signature.Sign() 方法传递输出 {{Fileformat}} 文件或内存流"
     }
   },
   "demos": {
@@ -70,7 +147,7 @@
       "codetextcapacity": "码文容量：正好 12 位 + 1 个校验位。"
     },
     "EAN14": {
-      "details": "欧洲商品编号或 EAN 是描述全球贸易中使用的条码符号和编号系统的标准，用于识别来自特定制造商的特定包装配置中的特定零售产品类型。",
+      "details": "欧洲商品编号或 EAN 是描述全球贸易中使用的条码符号和编号系统的标准，用于识别特定制造商在特定包装配置中的特定零售产品类型。",
       "characterset": "数字 (0-9) 和特殊字符。",
       "codetextcapacity": "正好是 14 位数字。"
     },
@@ -102,7 +179,7 @@
     "ISBN": {
       "details": "国际标准书号 (ISBN) 是一个数字商业图书标识符，旨在具有唯一性。[a][b] 出版商从国际 ISBN 机构的附属机构购买 ISBN。",
       "characterset": "数字 (0-9)。",
-      "codetextcapacity": "正好 9 位数字 + 1 个校验位。"
+      "codetextcapacity": "正好是 9 位数字 + 1 个校验位。"
     },
     "ITF14": {
       "details": "ITF-14 是 Interleaved 2 of 5 (ITF) 条形码的 GS1 实施，用于编码全球贸易项目编号。",
@@ -125,7 +202,7 @@
       "codetextcapacity": "仅表示从 3 到 131070 的单个整数。"
     },
     "Aztec": {
-      "details": "Aztec Code 是一种二维 (2-D) 通用矩阵符号系统，其设计精度高于其他二维符号系统。一个阿兹特克代码符号可以编码多达 3,832 个数字； 3,067 个字母字符；或 1,914 字节的数据。",
+      "details": "Aztec Code 是一种二维 (2-D) 通用矩阵符号，其设计精度高于其他二维符号。一个阿兹特克代码符号最多可以编码 3,832 个数字； 3,067 个字母字符；或 1,914 字节的数据。",
       "characterset": "所有 256 个 ASCII 字符。",
       "codetextcapacity": "最多 3,832 个数字，或 3,067 个字母字符，或 1,914 个字节的数据。"
     },

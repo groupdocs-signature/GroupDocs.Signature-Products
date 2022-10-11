@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "GroupDocs.Signature for Java QR コード署名 API について"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、ドキュメントの QR コード署名を作成および生成するための成熟した API です。ユーザーは、テキストを提供する QR コード署名を生成して、ダウンロードしたり、ソーシャル メディアで画像として共有したりできます。署名されたドキュメントは、API を使用してスキャンするか、モバイル カメラで簡単にスキャンできます。 QRコード署名を追加してビジネス契約書や公式文書に電子的に署名し、それを操作します。 QR コード署名には、署名者を識別したりドキュメントを承認したりするための固有のカスタム情報が含まれます。さらに、QR コードのコンテンツは、個人キーを使用してプログラムで暗号化および復号化できます。これにより、公開文書内の機密データを共有するための多くの機能が開かれます。署名後、ユーザーは、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式内の QR コードを更新、検証、削除、プレビュー、または検索できます。 QRコードはさらにカスタマイズできます。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "Java で Qrcode を使用して Svg に署名する手順"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、Svg ドキュメントに Qrcode 署名ですばやく簡単に署名する機能を提供します。
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * パスまたはメモリ ストリームとして署名することになっている Svg ファイルを提供する署名クラスのインスタンスを作成します
+        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
+        * 出力 Svg ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
 
-    title_right: " {system-requirements.title}"
+    title_right: " システム要求"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) から最新の GroupDocs.Signature for Java を取得します
          
     code: |
         ```java    

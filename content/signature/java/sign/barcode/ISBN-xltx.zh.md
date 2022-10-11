@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "关于 GroupDocs.Signature for Java 条码签名 API。"
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 是一个快速简便的 API，用于使用 UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN 等条码类型管理数字文档电子签名, ITF14 和许多其他的。客户可以轻松创建提供所需文本的条码，并将它们放在 PDF、Microsoft Office Words 文档、Microsoft Office Excel 工作簿、MS PowerPoint 演示文稿、Adobe Photoshop 文件和各种图像格式中。可以更新、搜索、验证、删除或预览放置在文档中的条形码。此外，还支持条码定制。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "在 Java 中使用 Barcode 签署 Xltx 的步骤"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) 提供使用 Barcode 签名快速轻松地签署 Xltx 文档的能力。
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * 创建 Signature 类的实例，提供 Xltx 文件应该作为路径或内存流进行签名
+        * 实例化 SignOptions 类并设置所有需要的数据。
+        * 调用 Signature.Sign() 方法传递输出 Xltx 文件或内存流
 
-    title_right: " {system-requirements.title}"
+    title_right: " 系统要求"
     content_right: |
-        {system-requirements.content.description}
+        所有主要平台和操作系统都支持 GroupDocs.Signature for Java。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 操作系统：Microsoft Windows、Linux、MacOS
+        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) 获取最新的 GroupDocs.Signature for Java
          
     code: |
         ```java    
@@ -113,7 +113,7 @@ about_formats:
           characterset: |
              数字 (0-9)。
           textcapacity: |
-             正好 9 位数字 + 1 个校验位。
+             正好是 9 位数字 + 1 个校验位。
           image: |
              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
 

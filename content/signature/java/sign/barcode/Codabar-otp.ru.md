@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "Об API GroupDocs.Signature for Java подписи штрих-кода."
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) — это быстрый и простой API для управления электронной подписью цифровых документов с использованием таких типов штрих-кодов, как UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN. , ITF14 и многие другие. Клиенты могут легко создавать штрих-коды с необходимым текстом и размещать их в PDF, документах Microsoft Office Words, рабочих книгах Microsoft Office Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Штрих-коды, размещенные в документах, можно обновлять, искать, проверять, удалять или предварительно просматривать. Кроме того, поддерживается настройка штрих-кодов.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "Действия по подписанию Otp с помощью Barcode в Java"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) позволяет быстро и легко подписывать документы Otp с подписями Barcode.
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * Создайте экземпляр класса Signature, предоставляющий файл Otp, который должен быть подписан как путь или поток памяти.
+        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
+        * Вызвать метод Signature.Sign(), передав выходной файл Otp или поток памяти
 
-    title_right: " {system-requirements.title}"
+    title_right: " Системные Требования"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Получите последнюю версию GroupDocs.Signature for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

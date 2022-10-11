@@ -102,9 +102,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Подписание с помощью подписей Image Live Demo"
+    title: "Поиск электронных подписей Image Live Demo"
     content: |
-       Добавьте различные электронные подписи к файлам Odp прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+       Найдите в документе различные электронные подписи к Odp файлам прямо сейчас, посетив веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
 
         
 ############################# More Formats ############################

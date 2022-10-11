@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{metadata-about.title}"
+    title: "GroupDocs.Signature for .NET メタデータ署名 API について"
     content: |
-        {metadata-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) は、デジタル ドキュメントの電子署名用の一般的な API です。テキスト、画像、デジタル証明書、バーコード、QR コード、スタンプ、メタデータなどの署名を利用できます。署名は、PDF、MS Word ドキュメント、MS Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。顧客は文書に署名し、それらの文書に付けられた電子署名を更新、検索、検証、削除、またはプレビューできます。さらに、署名をカスタマイズするための多くの機能が提供されます。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{metadata-steps.title}"
+    title_left: "C# で Metadata を使用して Xltx に署名する手順"
     content_left: |
-        {metadata-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) は、Xltx ドキュメントに Metadata 署名ですばやく簡単に署名する機能を提供します。
         
-        * {metadata-steps.content.step_1}
-        * {metadata-steps.content.step_2}
-        * {metadata-steps.content.step_3}
+        * パスまたはメモリ ストリームとして署名することになっている Xltx ファイルを提供する署名クラスのインスタンスを作成します
+        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
+        * 出力 Xltx ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
 
-    title_right: " {system-requirements.title}"
+    title_right: " システム要求"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * [Nuget](https://www.nuget.org/packages/groupdocs.signature) から最新の GroupDocs.Signature for .NET を取得します
          
     code: |
         ```csharp    

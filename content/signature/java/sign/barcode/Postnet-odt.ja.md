@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "GroupDocs.Signature for Java バーコード署名 API について。"
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、UPCA、UPCE、EAN13、EAN14、Code39、Code39Extended、Code128、Codabar、Postnet、ISBN などのバーコード タイプを使用してデジタル ドキュメントの電子署名を管理するための迅速かつ簡単な API です。 、ITF14、その他多数。お客様は、必要なテキストを提供するバーコードを簡単に作成し、PDF、Microsoft Office Word ドキュメント、Microsoft Office Excel ワークブック、MS PowerPoint プレゼンテーション、Adobe Photoshop ファイル、およびさまざまな画像形式に配置できます。ドキュメントに配置されたバーコードは、更新、検索、検証、削除、またはプレビューできます。さらに、バーコードのカスタマイズがサポートされています。
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "Java で Barcode を使用して Odt に署名する手順"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) は、Odt ドキュメントに Barcode 署名ですばやく簡単に署名する機能を提供します。
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * パスまたはメモリ ストリームとして署名することになっている Odt ファイルを提供する署名クラスのインスタンスを作成します
+        * SignOptions クラスをインスタンス化し、要求されたすべてのデータを設定します。
+        * 出力 Odt ファイルまたはメモリ ストリームを渡す Signature.Sign() メソッドを呼び出します。
 
-    title_right: " {system-requirements.title}"
+    title_right: " システム要求"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature) から最新の GroupDocs.Signature for Java を取得します
          
     code: |
         ```java    

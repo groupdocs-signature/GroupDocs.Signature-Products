@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{metadata-about.title}"
+    title: "Über GroupDocs.Signature for Java Metadaten-Signaturen-API"
     content: |
-        {metadata-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ist eine beliebte API für die elektronische Unterzeichnung digitaler Dokumente. Signaturen wie Texte, Bilder, digitale Zertifikate, Barcodes, QR-Codes, Stempel oder Metadaten sind verfügbar. Signaturen können auf PDFs, MS Word-Dokumenten, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen, Adobe Photoshop-Dateien und verschiedenen Bildformaten platziert werden. Kunden können ihr Dokument signieren und elektronische Signaturen, die auf diesen Dokumenten angebracht wurden, aktualisieren, suchen, überprüfen, löschen oder in der Vorschau anzeigen. Darüber hinaus werden viele Möglichkeiten zur Anpassung von Signaturen bereitgestellt.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{metadata-steps.title}"
+    title_left: "Schritte zum Signieren von Dotm mit Metadata in Java"
     content_left: |
-        {metadata-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bietet die Möglichkeit, Dotm-Dokumente mit Metadata-Signaturen schnell und einfach zu signieren.
         
-        * {metadata-steps.content.step_1}
-        * {metadata-steps.content.step_2}
-        * {metadata-steps.content.step_3}
+        * Erstellen Sie eine Instanz der Signature-Klasse, die die Dotm-Datei bereitstellt, die als Pfad oder Speicherstream signiert werden soll
+        * Instanziieren Sie die SignOptions-Klasse und legen Sie alle erforderlichen Daten fest.
+        * Rufen Sie die Signature.Sign()-Methode auf und übergeben Sie die Dotm-Ausgabedatei oder den Speicherstrom
 
-    title_right: " {system-requirements.title}"
+    title_right: " System Anforderungen"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Betriebssysteme: Microsoft Windows, Linux, MacOS
+        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Holen Sie sich das neueste GroupDocs.Signature for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

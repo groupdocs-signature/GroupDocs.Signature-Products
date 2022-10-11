@@ -86,9 +86,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Metadata 署名による署名 ライブ デモ"
+    title: "Metadata の電子署名を検索 ライブ デモ"
     content: |
-       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Xltx ファイルにさまざまな電子署名を今すぐ追加してください。
+       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Xltx ファイルへのさまざまな電子署名のドキュメントを今すぐ検索してください。
 
         
 ############################# More Formats ############################

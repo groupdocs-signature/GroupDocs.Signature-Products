@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{barcode-about.title}"
+    title: "GroupDocs.Signature for Java Barcode signatures API 정보."
     content: |
-        {barcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN과 같은 바코드 유형을 사용하여 디지털 문서 전자 서명을 관리하는 빠르고 쉬운 API입니다. , ITF14 및 기타 다수. 고객은 필요한 텍스트를 제공하는 바코드를 쉽게 생성하여 PDF, Microsoft Office Words 문서, Microsoft Office Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 넣을 수 있습니다. 문서에 배치된 바코드는 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 바코드 사용자 정의가 지원됩니다.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{barcode-steps.title}"
+    title_left: "Java에서 Barcode으로 Tiff에 서명하는 단계"
     content_left: |
-        {barcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/)은 Barcode 서명으로 Tiff 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.
         
-        * {barcode-steps.content.step_1}
-        * {barcode-steps.content.step_2}
-        * {barcode-steps.content.step_3}
+        * 경로 또는 메모리 스트림으로 서명해야 하는 Tiff 파일을 제공하는 Signature 클래스의 인스턴스 생성
+        * SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.
+        * 출력 Tiff 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다.
 
-    title_right: " {system-requirements.title}"
+    title_right: " 시스템 요구 사항"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * 운영 체제: Microsoft Windows, Linux, MacOS
+        * 개발 환경: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)에서 최신 GroupDocs.Signature for Java 가져오기
          
     code: |
         ```java    
@@ -109,7 +109,7 @@ about_formats:
         - icon: "fas fa-barcode"
           title: "About Postnet Barcode"
           content: |
-            POSTNET(Postal Numeric Encoding Technique)은 우편 발송을 지원하기 위해 미국 우체국에서 사용하는 바코드 기호입니다.
+            POSTNET(Postal Numeric Encoding Technique)은 미국 우편 서비스에서 우편 발송을 지원하기 위해 사용하는 바코드 기호입니다.
           characterset: |
              숫자(0-9).
           textcapacity: |

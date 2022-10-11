@@ -1,21 +1,21 @@
 {
-  "content": {
-    "meta_title": "{{ProgLang}}을 사용하여 {{Fileformat}} 파일에 {{Signaturetype}} 서명 추가",
-    "meta_description": "몇 줄의 코드를 사용하여 {{ProductName}}에 대한 {{Fileformat}} 파일에 {{Signaturetype}} 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다.",
-    "h1": "{{ProgLang}}에서 {{Signaturetype}} 서명으로 {{Fileformat}} 파일 서명",
-    "h2": "몇 줄의 {{ProductName}} 코드로 {{Signaturetype}} 서명을 추가하는 방법"
-  },
   "barcode-content": {
     "meta_title": "{{ProgLang}}의 {{Codetype}} 바코드로 {{Fileformat}} 문서에 전자 서명",
     "meta_description": "{{Codetype}} Barcode Signature를 생성하고 몇 줄의 코드를 사용하여 {{ProductName}}를 사용하여 {{Fileformat}} 문서에 넣습니다. 다양한 파일 형식에 서명하려면 GroupDocs 문서 서명 API를 사용하십시오.",
     "h1": "{{ProgLang}}에서 {{Fileformat}} 문서에 대한 {{Codetype}} 바코드 서명 생성",
     "h2": "{{Codetype}} 바코드로 {{Fileformat}} 비즈니스 문서에 전자 서명하세요. 서명 옵션을 설정하는 몇 줄의 코드로 빠르고 쉽게 바코드 서명을 생성합니다."
   },
-  "qrcode-content": {
-    "meta_title": "{{ProgLang}}의 {{Codetype}} QR 코드로 {{Fileformat}} 문서에 전자 서명",
-    "meta_description": "짧은 {{ProgLang}} 코드와 함께 {{ProductName}}을(를) 사용하여 {{Codetype}} QR 코드를 생성하고 {{Fileformat}} 파일에 넣습니다. GroupDocs 문서 서명 API를 사용하여 QR 코드로 비즈니스 문서 및 파일에 전자 서명하십시오.",
-    "h1": "{{ProgLang}}에서 {{Fileformat}} 문서에 대한 {{Codetype}} QR 코드 서명 생성",
-    "h2": "{{Codetype}} QR 코드로 {{Fileformat}} 문서 및 계약에 전자 서명합니다. QR 코드 서명을 빠르고 쉽게 생성합니다."
+  "digital-content": {
+    "meta_title": "{{ProgLang}}을(를) 사용하여 {{Fileformat}} 파일에 디지털 전자 서명 추가",
+    "meta_description": "몇 줄의 코드를 사용하여 {{ProductName}}에 대한 {{Fileformat}} 파일에 디지털 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다.",
+    "h1": "{{ProgLang}}에서 {{Signaturetype}} 서명이 있는 {{Fileformat}} 파일에 eSign",
+    "h2": "몇 줄의 {{ProductName}} 코드로 {{Signaturetype}} 서명을 추가하는 방법"
+  },
+  "image-content": {
+    "meta_title": "{{ProgLang}}을 사용하여 {{Fileformat}} 파일에 {{Signaturetype}} 서명 추가",
+    "meta_description": "몇 줄의 코드를 사용하여 {{ProductName}}에 대한 {{Fileformat}} 파일에 {{Signaturetype}} 서명을 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다.",
+    "h1": "{{ProgLang}}에서 {{Signaturetype}} 서명으로 {{Fileformat}} 파일 서명",
+    "h2": "몇 줄의 {{ProductName}} 코드로 {{Signaturetype}} 서명을 추가하는 방법"
   },
   "metadata-content": {
     "meta_title": "{{ProgLang}}을(를) 통해 {{Fileformat}} 문서에 메타데이터 전자 서명 추가",
@@ -23,26 +23,103 @@
     "h1": "{{ProductName}}를 통한 {{Fileformat}} 문서의 메타데이터 전자 서명은 간단하고 사용하기 쉽습니다!",
     "h2": "숨겨진 메타데이터 항목으로 {{Fileformat}} 문서 및 계약에 전자 서명합니다. 문제 및 추가 코딩 없이 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션 및 다양한 이미지 형식에 대한 메타데이터를 생성합니다."
   },
-  "about": {
-    "title": "{{ProductFullName}} API 정보",
-    "content": "[{{ProductFullName}}]({{ProductUrl}})은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다.",
-    "barcode-content": "[{{ProductFullName}}]({{ProductUrl}})은 UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14와 같은 다양한 바코드 유형을 사용하는 디지털 문서 전자 서명에 널리 사용되는 API입니다. 그리고 많은 다른 사람들. 고객은 원하는 텍스트만 제공하는 바코드를 쉽게 생성하여 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 넣을 수 있습니다. 문서에 배치된 바코드는 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 바코드 사용자 정의가 지원됩니다.",
-    "qrcode-content": "[{{ProductFullName}}]({{ProductUrl}})은 QR 코드를 사용한 디지털 문서 전자 서명을 위한 성숙한 API입니다. 사용자는 요청된 텍스트를 제공하는 QR 코드 서명을 생성하여 다운로드하거나 이미지로 소셜 미디어에 공유할 수 있습니다. 서명된 문서는 API 또는 모바일 카메라를 통해 간단히 스캔할 수 있습니다! QR 코드 서명을 추가하여 비즈니스 계약 및 공식 문서에 전자 서명하고 조작하십시오. 모든 QR 코드 서명에는 서명자를 식별하거나 문서를 승인하는 고유한 사용자 지정 정보가 포함됩니다. 또한 QR 코드 콘텐츠는 프로그래밍 방식으로 개인 키로 암호화 및 해독할 수 있습니다. 이는 공개 문서 내에서 민감한 데이터를 공유할 수 있는 많은 기능을 제공합니다. 서명 후 사용자는 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식 내에서 QR 코드를 업데이트, 확인, 삭제, 미리보기 또는 검색할 수 있습니다. QR 코드는 추가로 사용자 정의할 수 있습니다."
+  "qrcode-content": {
+    "meta_title": "{{ProgLang}}의 {{Codetype}} QR 코드로 {{Fileformat}} 문서에 전자 서명",
+    "meta_description": "짧은 {{ProgLang}} 코드와 함께 {{ProductName}}을(를) 사용하여 {{Codetype}} QR 코드를 생성하고 {{Fileformat}} 파일에 넣습니다. GroupDocs 문서 서명 API를 사용하여 QR 코드로 비즈니스 문서 및 파일에 전자 서명하십시오.",
+    "h1": "{{ProgLang}}에서 {{Fileformat}} 문서에 대한 {{Codetype}} QR 코드 서명 생성",
+    "h2": "{{Codetype}} QR 코드로 {{Fileformat}} 문서 및 계약에 전자 서명합니다. QR 코드 서명을 빠르고 쉽게 생성합니다."
   },
-  "steps": {
-    "title_left": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
-    "content_left": {
+  "text-content": {
+    "meta_title": "{{ProgLang}}을(를) 사용하여 {{Fileformat}} 파일에 텍스트 전자 서명 생성",
+    "meta_description": "몇 줄의 코드를 사용하여 {{ProductName}}의 {{Fileformat}} 파일에 {{Signaturetype}} eSignature를 넣습니다. GroupDocs 문서 서명 API를 사용하여 수십 가지 파일 형식에 서명합니다.",
+    "h1": "{{ProgLang}}에서 {{Signaturetype}} 서명으로 {{Fileformat}} 파일 서명",
+    "h2": "몇 줄의 {{ProductName}} 코드로 {{Signaturetype}} 서명을 추가하는 방법"
+  },
+  "barcode-about": {
+    "title": "{{ProductFullName}} Barcode signatures API 정보.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN과 같은 바코드 유형을 사용하여 디지털 문서 전자 서명을 관리하는 빠르고 쉬운 API입니다. , ITF14 및 기타 다수. 고객은 필요한 텍스트를 제공하는 바코드를 쉽게 생성하여 PDF, Microsoft Office Words 문서, Microsoft Office Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 넣을 수 있습니다. 문서에 배치된 바코드는 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 바코드 사용자 정의가 지원됩니다."
+  },
+  "digital-about": {
+    "title": "{{ProductFullName}} 디지털 서명 API 정보",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 디지털 인증서와 함께 디지털 전자 서명으로 문서를 서명하는 데 널리 사용되는 API입니다. 디지털 서명의 경우 API는 PFX 인증서 파일을 사용하여 암호로 보호된 개인 및 공개 키로 문서에 서명합니다. 디지털 서명은 eSign PDF 특정 페이지로 비즈니스 문서를 인증하고 Words, Excel, Powerpoint 파일 및 Open Office 문서와 같은 전체 Microsoft Office 문서를 인증하는 데 사용될 수 있습니다. 고객은 서명 편집, 제거 또는 조정과 같이 서명을 쉽게 조작할 수 있습니다. API는 서명을 검색하고 확인하는 방법을 제공합니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다."
+  },
+  "image-about": {
+    "title": "{{ProductFullName}} 이미지 서명 API 정보",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다."
+  },
+  "metadata-about": {
+    "title": "{{ProductFullName}} 메타데이터 서명 API 정보",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다."
+  },
+  "qrcode-about": {
+    "title": "{{ProductFullName}} QR Code 서명 API 정보",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 문서에 대한 QR 코드 서명을 만들고 생성하기 위한 성숙한 API입니다. 사용자는 텍스트를 제공하는 QR 코드 서명을 생성하여 다운로드하거나 이미지로 소셜 미디어에 공유할 수 있습니다. 서명된 문서는 API로 스캔하거나 모바일 카메라를 통해 간단히 스캔할 수 있습니다! QR 코드 서명을 추가하여 비즈니스 계약 및 공식 문서에 전자 서명하고 조작하십시오. 모든 QR 코드 서명에는 서명자를 식별하거나 문서를 승인하는 고유한 사용자 지정 정보가 포함됩니다. 또한 QR 코드 콘텐츠는 프로그래밍 방식으로 개인 키로 암호화 및 해독할 수 있습니다. 이는 공개 문서 내에서 중요한 데이터를 공유할 수 있는 많은 기능을 제공합니다. 서명 후 사용자는 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식 내에서 QR 코드를 업데이트, 확인, 삭제, 미리보기 또는 검색할 수 있습니다. QR 코드는 추가로 사용자 정의할 수 있습니다."
+  },
+  "text-about": {
+    "title": "{{ProductFullName}} API 정보",
+    "content": "[{{ProductFullName}}]({{ProductUrl}})은 디지털 문서 전자 서명에 널리 사용되는 API입니다. 텍스트, 이미지, 디지털 인증서, 바코드, QR 코드, 스탬프 또는 메타데이터와 같은 서명을 사용할 수 있습니다. 서명은 PDF, MS Word 문서, MS Excel 통합 문서, MS PowerPoint 프레젠테이션, Adobe Photoshop 파일 및 다양한 이미지 형식에 배치될 수 있습니다. 고객은 문서에 서명하고 해당 문서에 있는 전자 서명을 업데이트, 검색, 확인, 삭제 또는 미리 볼 수 있습니다. 또한 서명 사용자 정의를 위한 많은 기능이 제공됩니다."
+  },
+  "system-requirements": {
+    "title": "시스템 요구 사항",
+    "content": {
+      "description": "{{ProductFullName}}은(는) 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}})에서 최신 {{ProductFullName}} 가져오기"
+    }
+  },
+  "barcode-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
       "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
       "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
       "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
-    },
-    "title_right": "시스템 요구 사항",
-    "content_right": {
-      "description": "{{ProductFullName}}을(를) 사용한 문서 서명은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.",
-      "step_1": "운영 체제: Microsoft Windows, Linux, MacOS",
-      "step_2": "개발 환경: {{DevEnv}}",
-      "step_3": "[{{RepoName}}]({{RepoUrl}})에서 최신 {{ProductFullName}} 가져오기"
+    }
+  },
+  "digital-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
+      "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
+      "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
+      "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
+    }
+  },
+  "image-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
+      "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
+      "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
+      "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
+    }
+  },
+  "metadata-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
+      "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
+      "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
+      "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
+    }
+  },
+  "qrcode-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
+      "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
+      "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
+      "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
+    }
+  },
+  "text-steps": {
+    "title": "{{ProgLang}}에서 {{Signaturetype}}으로 {{Fileformat}}에 서명하는 단계",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}})은 {{Signaturetype}} 서명으로 {{Fileformat}} 문서에 빠르고 쉽게 서명할 수 있는 기능을 제공합니다.",
+      "step_1": "경로 또는 메모리 스트림으로 서명해야 하는 {{Fileformat}} 파일을 제공하는 Signature 클래스의 인스턴스 생성",
+      "step_2": "SignOptions 클래스를 인스턴스화하고 필요한 모든 데이터를 설정합니다.",
+      "step_3": "출력 {{Fileformat}} 파일 또는 메모리 스트림을 전달하는 Signature.Sign() 메서드를 호출합니다."
     }
   },
   "demos": {
@@ -95,7 +172,7 @@
       "codetextcapacity": "특별한 제한은 없습니다."
     },
     "Postnet": {
-      "details": "POSTNET(Postal Numeric Encoding Technique)은 우편 발송을 지원하기 위해 미국 우체국에서 사용하는 바코드 기호입니다.",
+      "details": "POSTNET(Postal Numeric Encoding Technique)은 미국 우편 서비스에서 우편 발송을 지원하기 위해 사용하는 바코드 기호입니다.",
       "characterset": "숫자(0-9).",
       "codetextcapacity": "최대 11자입니다."
     },
@@ -105,7 +182,7 @@
       "codetextcapacity": "정확히 9자리 + 1 확인 숫자입니다."
     },
     "ITF14": {
-      "details": "ITF-14는 국제 무역 품목 번호를 인코딩하기 위해 Interleaved 2 of 5(ITF) 바코드를 구현한 GS1입니다.",
+      "details": "ITF-14는 국제 무역 품목 번호를 인코딩하기 위해 Interleaved 2 of 5(ITF) 바코드의 GS1 구현입니다.",
       "characterset": "숫자(0-9).",
       "codetextcapacity": "13자리 + 1 체크 디지트."
     },
@@ -137,7 +214,7 @@
     "GS1DataMatrix": {
       "details": "GS1 Data Matrix는 GS1 사양을 준수하는 Data Matrix의 변형입니다. GS1 DataMatrix를 사용하여 AI(01) GTIN(Global Trade Item Number), AI(17) 만료 날짜, AI(10) 배치 번호, AI(21) 일련 번호와 같은 정보를 인코딩합니다(이에 국한되지 않음). .",
       "characterset": "문자 집합: 대문자 및 소문자 및 특수 문자 $@%*+-./:=<>;&*_,'! 모두 올바른 애플리케이션 식별자를 사용합니다.",
-      "codetextcapacity": "코드 텍스트 용량: 최대 3116개의 숫자 또는 2335개의 영숫자."
+      "codetextcapacity": "코드 텍스트 용량: 최대 3116자리 숫자 또는 2335자의 영숫자."
     },
     "GS1QR": {
       "details": "GS1 QR 코드는 GS1 사양을 준수하는 QR 코드의 변형입니다. 로트 번호, 제품 ID 및 수량과 같은 확장된 포장 정보를 공유하기 위해 특별히 설계되었습니다.",

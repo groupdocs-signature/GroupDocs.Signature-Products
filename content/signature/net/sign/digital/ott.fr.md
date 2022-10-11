@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Ott for C#
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Ajout de signatures électroniques numériques au fichier Ott avec C#"
+head_description: "Mettez la signature numérique sur le fichier Ott pour .NET en utilisant quelques lignes de code. Utilisez l'API GroupDocs Document Signature pour signer des dizaines de formats de fichiers."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "eSign Ott fichiers avec Digital signatures en C#"
+description: "Comment ajouter la signature Digital avec quelques lignes de code .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "À propos de l'API de signatures numériques GroupDocs.Signature for .NET"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) est une API populaire pour signer des documents avec des signatures électroniques numériques, avec des certificats numériques. Pour les signatures numériques, l'API utilise des fichiers de certificat PFX pour signer un document avec des clés privées et publiques protégées par mot de passe. Les signatures numériques peuvent être utilisées pour certifier des documents commerciaux avec une page particulière eSign PDF, certifier des documents Microsoft Office entiers tels que Words, Excel, des fichiers Powerpoint et des documents Open Office. Les clients peuvent facilement manipuler les signatures comme les modifier, les supprimer ou les ajuster. L'API fournit un moyen de rechercher et de vérifier les signatures. De plus, de nombreuses capacités de personnalisation des signatures sont fournies.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Étapes pour signer Ott avec Digital dans C#"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) permet de signer rapidement et facilement des documents Ott avec des signatures Digital.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Ott censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Ott ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for .NET de [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

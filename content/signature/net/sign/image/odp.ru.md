@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Odp for C#
 
 ############################# Head ############################
-head_title: "{image-content.meta_title}"
-head_description: "{image-content.meta_description}"
+head_title: "Добавление подписей Image в файл Odp с C#"
+head_description: "Поместите подпись Image в файл Odp для .NET, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
 
 ############################# Header ############################
-title: "{image-content.h1}"
-description: "{image-content.h2}"
+title: "Подпишите файлы Odp с подписями Image в C#"
+description: "Как добавить подпись Image с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{image-about.title}"
+    title: "Об API подписи изображений GroupDocs.Signature for .NET"
     content: |
-        {image-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для электронной подписи цифровых документов. Доступны подписи, такие как тексты, изображения, цифровые сертификаты, штрих-коды, QR-коды, штампы или метаданные. Подписи могут быть размещены в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. Клиенты могут подписывать свои документы, а также обновлять, искать, проверять, удалять или просматривать электронные подписи, поставленные в этих документах. Кроме того, предусмотрено множество возможностей для настройки подписей.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{image-steps.title}"
+    title_left: "Действия по подписанию Odp с помощью Image в C#"
     content_left: |
-        {image-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Odp с подписями Image.
         
-        * {image-steps.content.step_1}
-        * {image-steps.content.step_2}
-        * {image-steps.content.step_3}
+        * Создайте экземпляр класса Signature, предоставляющий файл Odp, который должен быть подписан как путь или поток памяти.
+        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
+        * Вызвать метод Signature.Sign(), передав выходной файл Odp или поток памяти
 
-    title_right: " {system-requirements.title}"
+    title_right: " Системные Требования"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    

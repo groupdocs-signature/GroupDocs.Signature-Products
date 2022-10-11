@@ -102,9 +102,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Image-Signaturen Live-Demo"
+    title: "Suchen Sie nach Image Live-Demo für elektronische Signaturen"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zu Otp-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
+       Durchsuchen Sie das Dokument jetzt nach verschiedenen elektronischen Signaturen für Otp-Dateien, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
 
         
 ############################# More Formats ############################

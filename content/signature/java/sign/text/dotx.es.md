@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Dotx for Java
 
 ############################# Head ############################
-head_title: "{text-content.meta_title}"
-head_description: "{text-content.meta_description}"
+head_title: "Cree firmas electrónicas de texto en un archivo Dotx con Java"
+head_description: "Coloque Text eSignature en el archivo Dotx para Java usando unas pocas líneas de código. Utilice la API de firma de documentos de GroupDocs para firmar docenas de formatos de archivo."
 
 ############################# Header ############################
-title: "{text-content.h1}"
-description: "{text-content.h2}"
+title: "Firme Dotx archivos con Text firmas en Java"
+description: "Cómo agregar la firma Text con unas pocas líneas de código Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{text-about.title}"
+    title: "Acerca de la API de GroupDocs.Signature for Java"
     content: |
-        {text-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) es una API popular para la firma electrónica de documentos digitales. Están disponibles firmas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Las firmas se pueden colocar en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Los clientes pueden firmar su documento y actualizar, buscar, verificar, eliminar o obtener una vista previa de las firmas electrónicas que se colocaron en esos documentos. Además, se proporcionan muchas capacidades para la personalización de firmas.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{text-steps.title}"
+    title_left: "Pasos para firmar Dotx con Text en Java"
     content_left: |
-        {text-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) proporciona la capacidad de firmar documentos Dotx con Text firmas de forma rápida y sencilla.
         
-        * {text-steps.content.step_1}
-        * {text-steps.content.step_2}
-        * {text-steps.content.step_3}
+        * Cree una instancia de la clase Signature que proporcione el archivo Dotx que se supone que debe firmar como ruta o flujo de memoria
+        * Cree una instancia de la clase SignOptions y configure todos los datos solicitados.
+        * Invoque el método Signature.Sign() pasando la salida Dotx archivo o flujo de memoria
 
-    title_right: " {system-requirements.title}"
+    title_right: " Requisitos del sistema"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Sistemas operativos: Microsoft Windows, Linux, Mac OS
+        * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtén el último GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

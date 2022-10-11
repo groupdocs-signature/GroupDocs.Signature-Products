@@ -20,7 +20,7 @@
     },
     "title_right": "Requisitos del sistema",
     "content_right": {
-      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.",
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
       "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
       "step_2": "Entornos de desarrollo: {{DevEnv}}",
       "step_3": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"

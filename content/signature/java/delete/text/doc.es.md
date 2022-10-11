@@ -39,7 +39,7 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "Obtenga información sobre las características de la API de GroupDocs.Signature for Java"
+    title: "Obtener información sobre las características de la API de GroupDocs.Signature for Java"
     content: |
         La API de [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) proporciona muchas formas de procesar sus documentos mediante firmas electrónicas. Están disponibles firmas digitales como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes tienen la posibilidad de agregar, eliminar, actualizar, verificar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Se proporciona una gran cantidad de funciones y configuraciones útiles.
     
@@ -58,7 +58,7 @@ steps:
 
     title_right: "Requisitos del sistema"
     content_right: |
-        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
         * Sistemas operativos: Microsoft Windows, Linux, Mac OS
         * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.

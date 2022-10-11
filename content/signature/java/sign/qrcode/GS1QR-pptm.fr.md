@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "À propos de l'API de signatures de code QR GroupDocs.Signature for Java"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) est une API mature pour créer et générer des signatures QR Code pour les documents. Les utilisateurs peuvent générer des signatures de code QR fournissant du texte pour le télécharger ou le partager sur les réseaux sociaux sous forme d'image. Le document signé peut être scanné avec l'API ou simplement via la caméra mobile ! Signez électroniquement vos contrats commerciaux et documents officiels avec l'ajout de signature QR Code et manipulez-le. Toute signature QR Code contiendra des informations personnalisées uniques pour identifier le signataire ou autoriser le document. De plus, le contenu du code QR peut être crypté et décrypté avec des clés personnelles par programmation. Cela ouvre de nombreuses possibilités pour partager des données sensibles à l'intérieur des documents publics. Après la signature, l'utilisateur peut mettre à jour, vérifier, supprimer, prévisualiser ou rechercher les codes QR dans les fichiers PDF, les documents MS Word, les classeurs MS Excel, les présentations MS PowerPoint, les fichiers Adobe Photoshop et divers formats d'image. Les codes QR peuvent également être personnalisés.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "Étapes pour signer Pptm avec Qrcode dans Java"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) permet de signer rapidement et facilement des documents Pptm avec des signatures Qrcode.
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * Créez une instance de la classe Signature fournissant le fichier Pptm censé signer en tant que chemin ou flux de mémoire
+        * Instanciez la classe SignOptions et définissez toutes les données demandées.
+        * Appelez la méthode Signature.Sign() en transmettant le fichier de sortie Pptm ou le flux de mémoire
 
-    title_right: " {system-requirements.title}"
+    title_right: " Configuration requise"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java sont pris en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
+        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Obtenez le dernier GroupDocs.Signature for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    
@@ -111,7 +111,7 @@ about_formats:
           content: |
             Le QR Code GS1 est une variante du QR Code conforme aux spécifications GS1. Il a été conçu spécifiquement pour partager des informations d'emballage étendues, telles que le numéro de lot, l'ID de produit et la quantité.
           characterset: |
-             Lettres majuscules et minuscules et caractères spéciaux $%*+-./ : tous avec des identificateurs d'application corrects
+             Lettres majuscules et minuscules et caractères spéciaux $%*+-./ : tous avec des identifiants d'application corrects
           textcapacity: |
              Jusqu'à 7089 caractères numériques, 4296 caractères alphanumériques
           image: |

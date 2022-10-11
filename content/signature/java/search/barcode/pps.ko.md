@@ -101,9 +101,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Barcode 서명으로 서명 라이브 데모"
+    title: "Barcode 전자 서명 검색 라이브 데모"
     content: |
-       지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 Pps 파일에 다양한 전자 서명을 추가하세요.
+       [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트에서 지금 바로 문서에서 Pps 파일에 대한 다양한 전자 서명을 검색하세요.
 
         
 ############################# More Formats ############################
@@ -111,7 +111,7 @@ more_formats:
     enable: true
     title: "Java을(를) 사용하여 다른 Barcode 서명 검색"
     content: |
-        "전자 서명은 다양한 문서에서 검색됩니다. 아래와 같이 널리 사용되는 파일 형식 중 하나에서 서명을 찾으십시오."
+        "전자 서명은 다양한 문서에서 검색합니다. 아래와 같이 널리 사용되는 파일 형식 중 하나에서 서명을 찾으십시오."
     format: 
            
        

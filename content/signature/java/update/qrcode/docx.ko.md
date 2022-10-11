@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Qrcode 서명으로 서명 라이브 데모"
+    title: "문서 페이지에서 Qrcode 서명 업데이트 - 라이브 데모"
     content: |
-       지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트를 방문하여 Docx 파일에 다양한 전자 서명을 추가하세요.          
+       지금 바로 [GroupDocs.Signature 앱](https://products.groupdocs.app/signature/family) 웹사이트에서 Docx 문서의 다양한 전자 서명을 수정하세요.          
 
 ############################# More Formats ############################
 more_formats:

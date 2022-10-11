@@ -7,7 +7,7 @@
   },
   "about": {
     "title": "Más información sobre las funciones de la API de {{ProductFullName}}",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) La funcionalidad de la API contiene una amplia selección de medios para procesar formatos de documentos bajo demanda mediante el uso de firmas electrónicas. Se admite un amplio espectro de firmas electrónicas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes pueden agregar, eliminar, editar, validar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Numerosas funciones y configuraciones útiles están disponibles."
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) La funcionalidad de la API contiene una amplia selección de medios para procesar formatos de documentos en demanda mediante el uso de firmas electrónicas. Se admite un amplio espectro de firmas electrónicas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes pueden agregar, eliminar, editar, validar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Numerosas funciones y configuraciones útiles están disponibles."
   },
   "steps": {
     "title_left": "Cómo cambiar las firmas {{Signaturetype}} en su documento {{Fileformat}}",
@@ -20,15 +20,15 @@
     },
     "title_right": "Requisitos del sistema",
     "content_right": {
-      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.",
+      "description": "{{ProductFullName}} son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
       "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
       "step_2": "Entornos de desarrollo: {{DevEnv}}",
       "step_3": "Descarga la última versión de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
     }
   },
   "demos": {
-    "title": "Firmar con {{Signaturetype}} firmas Demostración en vivo",
-    "content": "Agregue varias firmas electrónicas al archivo {{Fileformat}} ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+    "title": "Actualización de las firmas {{Signaturetype}} en las páginas del documento: demostración en vivo",
+    "content": "Edite varias firmas electrónicas del documento {{Fileformat}} ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
   },
   "more_formats": {
     "title": "Actualice varias firmas {{Signaturetype}} a través de {{ProgLang}}",

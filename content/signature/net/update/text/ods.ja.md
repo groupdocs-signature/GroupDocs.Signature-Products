@@ -109,9 +109,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Text 署名による署名 ライブ デモ"
+    title: "ドキュメント ページの Text 署名の更新 - ライブ デモ"
     content: |
-       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Ods ファイルにさまざまな電子署名を今すぐ追加してください。          
+       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Ods ドキュメントのさまざまな電子署名を今すぐ編集してください。          
 
 ############################# More Formats ############################
 more_formats:

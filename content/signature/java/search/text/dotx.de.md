@@ -97,9 +97,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Text-Signaturen Live-Demo"
+    title: "Suchen Sie nach Text Live-Demo für elektronische Signaturen"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zu Dotx-Dateien hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
+       Durchsuchen Sie das Dokument jetzt nach verschiedenen elektronischen Signaturen für Dotx-Dateien, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.
 
         
 ############################# More Formats ############################

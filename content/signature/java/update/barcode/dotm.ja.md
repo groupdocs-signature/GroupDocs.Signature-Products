@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Barcode 署名による署名 ライブ デモ"
+    title: "ドキュメント ページの Barcode 署名の更新 - ライブ デモ"
     content: |
-       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Dotm ファイルにさまざまな電子署名を今すぐ追加してください。          
+       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Dotm ドキュメントのさまざまな電子署名を今すぐ編集してください。          
 
 ############################# More Formats ############################
 more_formats:

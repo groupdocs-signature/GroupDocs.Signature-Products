@@ -40,9 +40,9 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for .NET API"
+    title: "About GroupDocs.Signature for .NET Barcode signatures API."
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a popular API for digital documents e-signing using many Barcode types like UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many others. Customers can create easily Barcodes providing just demanded text and put them on PDFs, MS Word documents, MS Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Barcodes placed in documents can be updated, searched, verified, deleted or previewed either. Moreover, barcodes customization is supported.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) is a quick and easy API to manage digital documents e-signing using Barcode types like UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN, ITF14 and many others. Customers can create easily Barcodes providing required text and put them on PDF, Microsoft Office Words Documents, Microsoft Office Excel workbooks, MS PowerPoint presentations, Adobe Photoshop files and various image formats. Barcodes placed in documents can be updated, searched, verified, deleted or previewed either. Moreover, barcodes customization is supported.
     
 
 ############################# Steps ############################

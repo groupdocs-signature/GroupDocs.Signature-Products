@@ -107,9 +107,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signieren mit Qrcode-Signaturen Live-Demo"
+    title: "Aktualisieren der Qrcode-Signaturen auf den Dokumentseiten – Live-Demo"
     content: |
-       Fügen Sie jetzt verschiedene elektronische Signaturen zur Datei Doc hinzu, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.          
+       Bearbeiten Sie jetzt verschiedene elektronische Signaturen des Dokuments Doc, indem Sie die Website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) besuchen.          
 
 ############################# More Formats ############################
 more_formats:

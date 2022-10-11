@@ -107,9 +107,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Qrcode 署名による署名 ライブ デモ"
+    title: "ドキュメント ページの Qrcode 署名の更新 - ライブ デモ"
     content: |
-       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Xltx ファイルにさまざまな電子署名を今すぐ追加してください。          
+       [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) Web サイトにアクセスして、Xltx ドキュメントのさまざまな電子署名を今すぐ編集してください。          
 
 ############################# More Formats ############################
 more_formats:

@@ -109,7 +109,7 @@ more_formats:
     enable: true
     title: "Verifizieren Sie andere Qrcode-Signaturen mit Java"
     content: |
-        "Überprüfung elektronischer Signaturen in verschiedenen Dokumenten. Überprüfen Sie die Qualität der Signaturen in den gängigen Dateiformaten wie unten angegeben."
+        "Überprüfung elektronischer Signaturen in verschiedenen Dokumenten. Überprüfen Sie die Qualität der Unterschriften in den gängigen Dateiformaten wie unten angegeben."
     format: 
        
        

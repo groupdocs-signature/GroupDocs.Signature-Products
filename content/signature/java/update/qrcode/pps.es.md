@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Más información sobre las funciones de la API de GroupDocs.Signature for Java"
     content: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) La funcionalidad de la API contiene una amplia selección de medios para procesar formatos de documentos bajo demanda mediante el uso de firmas electrónicas. Se admite un amplio espectro de firmas electrónicas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes pueden agregar, eliminar, editar, validar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Numerosas funciones y configuraciones útiles están disponibles.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) La funcionalidad de la API contiene una amplia selección de medios para procesar formatos de documentos en demanda mediante el uso de firmas electrónicas. Se admite un amplio espectro de firmas electrónicas como textos, imágenes, certificados digitales, códigos de barras, códigos QR, sellos o metadatos. Los clientes pueden agregar, eliminar, editar, validar o buscar firmas digitales en archivos PDF, documentos de MS Word, libros de trabajo de MS Excel, presentaciones de MS PowerPoint, archivos de Adobe Photoshop y varios formatos de imagen. Numerosas funciones y configuraciones útiles están disponibles.
     
 
 ############################# Steps ############################
@@ -58,7 +58,7 @@ steps:
 
     title_right: "Requisitos del sistema"
     content_right: |
-        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
         * Sistemas operativos: Microsoft Windows, Linux, Mac OS
         * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -106,9 +106,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Firmar con Qrcode firmas Demostración en vivo"
+    title: "Actualización de las firmas Qrcode en las páginas del documento: demostración en vivo"
     content: |
-       Agregue varias firmas electrónicas al archivo Pps ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+       Edite varias firmas electrónicas del documento Pps ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
 
 ############################# More Formats ############################
 more_formats:

@@ -47,18 +47,18 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Cómo buscar firmas Barcode en Ots"
+    title_left: "Cómo buscar firmas de Barcode en Ots"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) facilita a los desarrolladores de Java la búsqueda de firmas Barcode en archivos Ots desde sus aplicaciones mediante la implementación de unos sencillos pasos.
         
         * Cree una nueva instancia de la clase Signature y pase la ruta del documento de origen como parámetro del constructor.
         * Cree una instancia del objeto SearchOptions de acuerdo con sus requisitos y especifique las opciones de búsqueda.
         * Llame al método de búsqueda de la instancia de la clase Signature y pásele SearchOptions.
-        * Procese los resultados de la búsqueda de acuerdo con sus demandas.
+        * Procese los resultados de búsqueda de acuerdo con sus demandas.
 
     title_right: "Requisitos del sistema"
     content_right: |
-        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener los siguientes requisitos previos instalados en su sistema.
+        GroupDocs.Signature for Java son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
         * Sistemas operativos: Microsoft Windows, Linux, Mac OS
         * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -101,9 +101,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Firmar con Barcode firmas Demostración en vivo"
+    title: "Buscar Barcode firmas electrónicas Demostración en vivo"
     content: |
-       Agregue varias firmas electrónicas a los archivos Ots ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+       Busque en el documento varias firmas electrónicas para archivos Ots ahora mismo visitando el sitio web de [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
 
         
 ############################# More Formats ############################

@@ -40,30 +40,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{qrcode-about.title}"
+    title: "Об API подписи QR-кода GroupDocs.Signature for Java"
     content: |
-        {qrcode-about.content}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) — это зрелый API для создания и создания подписей QR-кода для документов. Пользователи могут генерировать подписи QR-кода, предоставляя текст для его загрузки или публикации в социальных сетях в виде изображения. Подписанный документ можно отсканировать через API или просто через мобильную камеру! Подписывайте в электронном виде свои деловые контракты и официальные документы, добавляя подпись QR-кода, и манипулируйте ею. Любая подпись QR-кода будет содержать уникальную пользовательскую информацию для идентификации подписавшего или авторизации документа. Кроме того, содержимое QR-кода может быть зашифровано и расшифровано с помощью личных ключей программно. Это открывает множество возможностей для обмена конфиденциальными данными в общедоступных документах. После подписания пользователь может обновлять, проверять, удалять, просматривать или искать QR-коды в PDF-файлах, документах MS Word, книгах MS Excel, презентациях MS PowerPoint, файлах Adobe Photoshop и различных форматах изображений. QR-коды могут быть дополнительно настроены.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{qrcode-steps.title}"
+    title_left: "Действия по подписанию Jpg с помощью Qrcode в Java"
     content_left: |
-        {qrcode-steps.content.description}
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) позволяет быстро и легко подписывать документы Jpg с подписями Qrcode.
         
-        * {qrcode-steps.content.step_1}
-        * {qrcode-steps.content.step_2}
-        * {qrcode-steps.content.step_3}
+        * Создайте экземпляр класса Signature, предоставляющий файл Jpg, который должен быть подписан как путь или поток памяти.
+        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
+        * Вызвать метод Signature.Sign(), передав выходной файл Jpg или поток памяти
 
-    title_right: " {system-requirements.title}"
+    title_right: " Системные Требования"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * {system-requirements.content.step_3}
+        * Получите последнюю версию GroupDocs.Signature for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
          
     code: |
         ```java    

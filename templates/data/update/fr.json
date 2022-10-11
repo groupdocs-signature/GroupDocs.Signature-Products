@@ -27,8 +27,8 @@
     }
   },
   "demos": {
-    "title": "Signer avec {{Signaturetype}} signatures Démo en direct",
-    "content": "Ajoutez dès maintenant diverses signatures électroniques au fichier {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+    "title": "Mise à jour des signatures {{Signaturetype}} sur les pages du document - Démo en direct",
+    "content": "Modifiez dès maintenant diverses signatures électroniques du document {{Fileformat}} en visitant le site Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
   },
   "more_formats": {
     "title": "Mettre à jour diverses signatures {{Signaturetype}} via {{ProgLang}}",

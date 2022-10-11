@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Put Digital signature on Docx for C#
 
 ############################# Head ############################
-head_title: "{digital-content.meta_title}"
-head_description: "{digital-content.meta_description}"
+head_title: "Добавление цифровых электронных подписей в файл Docx с C#"
+head_description: "Поместите цифровую подпись в файл Docx для .NET, используя несколько строк кода. Используйте API подписи документов GroupDocs для подписи десятков форматов файлов."
 
 ############################# Header ############################
-title: "{digital-content.h1}"
-description: "{digital-content.h2}"
+title: "eSign Docx файлов с подписями Digital в C#"
+description: "Как добавить подпись Digital с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -39,30 +39,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "{digital-about.title}"
+    title: "Об API цифровых подписей GroupDocs.Signature for .NET"
     content: |
-        {digital-about.content}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярный API для оформления документов с помощью цифровых электронных подписей и цифровых сертификатов. Для API цифровых подписей используются файлы сертификатов PFX для создания документа с защищенными паролем закрытыми и открытыми ключами. Цифровые подписи могут использоваться для сертификации деловых документов с помощью eSign PDF на определенной странице, для сертификации целых документов Microsoft Office, таких как файлы Word, Excel, Powerpoint и документы Open Office. Клиенты могут легко манипулировать подписями, например редактировать их, удалять или корректировать. API предоставляет способ поиска и проверки подписей. Кроме того, предусмотрено множество возможностей для настройки подписей.
     
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{digital-steps.title}"
+    title_left: "Действия по подписанию Docx с помощью Digital в C#"
     content_left: |
-        {digital-steps.content.description}
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) позволяет быстро и легко подписывать документы Docx с подписями Digital.
         
-        * {digital-steps.content.step_1}
-        * {digital-steps.content.step_2}
-        * {digital-steps.content.step_3}
+        * Создайте экземпляр класса Signature, предоставляющий файл Docx, который должен быть подписан как путь или поток памяти.
+        * Создайте экземпляр класса SignOptions и установите все требуемые данные.
+        * Вызвать метод Signature.Sign(), передав выходной файл Docx или поток памяти
 
-    title_right: " {system-requirements.title}"
+    title_right: " Системные Требования"
     content_right: |
-        {system-requirements.content.description}
+        GroupDocs.Signature for .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
-        * {system-requirements.content.step_1}
-        * {system-requirements.content.step_2}
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * {system-requirements.content.step_3}
+        * Получите последнюю версию GroupDocs.Signature for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.signature)
          
     code: |
         ```csharp    
