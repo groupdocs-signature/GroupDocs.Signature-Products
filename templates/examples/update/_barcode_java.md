@@ -11,7 +11,7 @@
         // such Id might be got as a result of search operation
         String id = "07f83369-318b-41ad-a843-732417b912c2";
 
-        // provide signature features to updat
+        // provide signature features to update
         // set up particular signature id
         BarcodeSignature signatureToUpdate = new BarcodeSignature(id);
 
