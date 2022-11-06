@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Suprimeix les signatures de {{Signaturetype}} dels fitxers {{Fileformat}} mitjançant {{ProgLang}}",
+    "meta_description": "L'eliminació de signatures específiques de {{Signaturetype}} dels documents signats {{Fileformat}} es pot dur a terme fàcilment amb un codi {{ProductName}} curt.",
+    "h1": "Elimineu les signatures de {{Signaturetype}} que es col·loquen als fitxers {{Fileformat}}",
+    "h2": "Suprimeix diverses signatures de {{Signaturetype}} dels documents {{Fileformat}}. L'eliminació de signatures {{Signaturetype}} requereix un codi {{ProgLang}} senzill."
+  },
+  "about": {
+    "title": "Obteniu informació sobre les funcions de l'API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API ofereix moltes maneres de processar els vostres documents mitjançant signatures electròniques. Hi ha signatures digitals com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Els clients tenen la possibilitat d'afegir, esborrar, actualitzar, verificar o cercar signatures digitals en PDF, documents MS Word, llibres de treball MS Excel, presentacions MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. S'ofereixen un gran nombre de funcions i configuracions útils."
+  },
+  "steps": {
+    "title_left": "Com eliminar les signatures de {{Signaturetype}} del vostre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix una funció útil per esborrar documents de {{Fileformat}} de signatures de {{Signaturetype}} amb unes poques línies de codi.",
+      "step_1": "En primer lloc, instanciïu l'objecte Signature passant el camí al vostre document com a paràmetre de constructor.",
+      "step_2": "A continuació, creeu un objecte de signatura adequat i configureu el seu identificador únic.",
+      "step_3": "Després d'això, invoqueu el mètode Delete passant l'objecte de signatura que s'ha d'eliminar.",
+      "step_4": "Finalment, els resultats de l'operació del procés."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signant amb {{Signaturetype}} signatures Demostració en directe",
+    "content": "Afegiu diverses signatures electròniques al fitxer {{Fileformat}} ara mateix visitant el lloc web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Suprimeix les teves signatures de {{Signaturetype}} amb {{ProgLang}}",
+    "content": "Supressió de signatures electròniques que s'han afegit a diversos formats de documents. Elimina les signatures ràpidament sense codi addicional."
+  }
+}

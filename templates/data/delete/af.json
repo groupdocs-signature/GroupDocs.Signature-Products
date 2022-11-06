@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Vee {{Signaturetype}} handtekeninge van {{Fileformat}} lêers uit via {{ProgLang}}",
+    "meta_description": "Die uitvee van spesifieke {{Signaturetype}} handtekeninge van getekende {{Lêerformaat}} dokumente kan maklik uitgevoer word met kort {{ProductName}} kode.",
+    "h1": "Verwyder {{Signaturetype}} handtekeninge wat in {{Lêerformaat}} lêers geplaas is",
+    "h2": "Vee verskeie {{Signaturetype}} handtekeninge uit {{Lêerformaat}} dokumente uit. Die verwydering van {{Signaturetype}} handtekeninge vereis eenvoudige {{ProgLang}} kode."
+  },
+  "about": {
+    "title": "Kry inligting oor {{ProductFullName}} API-kenmerke",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API bied baie maniere om jou dokumente te verwerk deur elektroniese handtekeninge te gebruik. Digitale handtekeninge soos tekste, beelde, digitale sertifikate, strepieskodes, QR-kodes, seëls of metadata is beskikbaar. Kliënte het die moontlikheid om digitale handtekeninge by PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings, Adobe Photoshop-lêers en verskeie beeldformate by te voeg, uit te vee, op te dateer, te verifieer of te soek. 'n Groot aantal nuttige kenmerke en instellings word verskaf."
+  },
+  "steps": {
+    "title_left": "Hoe om {{Signaturetype}}-handtekeninge uit jou {{Lêerformaat}}-dokument te verwyder",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied nuttige kenmerk vir die skoonmaak van {{Lêerformaat}} dokumente van {{Signaturetype}} handtekeninge met 'n paar reëls kode.",
+      "step_1": "Eerstens, instansieer Handtekening-objek wat deurgaanpad na jou dokument as 'n konstruktor parameter.",
+      "step_2": "Skep dan 'n toepaslike handtekeningvoorwerp en stel sy unieke identifiseerder op.",
+      "step_3": "Daarna, roep Verwyder metode deur handtekeningvoorwerp wat uitgevee moet word.",
+      "step_4": "Laastens, die resultate van die proses."
+    },
+    "title_right": "Stelselvereistes",
+    "content_right": {
+      "description": "{{ProductFullName}} word op alle groot platforms en bedryfstelsels ondersteun. Voordat u die kode hieronder uitvoer, maak asseblief seker dat u die volgende voorvereistes op u stelsel geïnstalleer het.",
+      "step_1": "Bedryfstelsels: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelingsomgewings: {{DevEnv}}",
+      "step_3": "Laai die nuutste weergawe van {{ProductFullName}} af vanaf [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ondertekening met {{Signaturetype}} handtekeninge Live Demo",
+    "content": "Voeg nou verskeie elektroniese handtekeninge by die {{Fileformat}}-lêer deur die [GroupDocs.Signature-toepassing](https://products.groupdocs.app/signature/family) webwerf te besoek."
+  },
+  "more_formats": {
+    "title": "Vee jou {{Signaturetype}} handtekeninge uit met {{ProgLang}}",
+    "content": "Skraping van e-handtekeninge wat by verskeie dokumentformate gevoeg is. Verwyder handtekeninge vinnig sonder ekstra kode."
+  }
+}

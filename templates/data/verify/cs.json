@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Ověření podpisů {{Signaturetype}} pro soubory {{Fileformat}} prostřednictvím {{ProgLang}}",
+    "meta_description": "Použijte pouze několik řádků kódu {{ProductName}} k ověření dokumentů {{Fileformat}} a jejich podpisů {{Signaturetype}}.",
+    "h1": "Ověření podpisů {{Signaturetype}} pro soubory {{Fileformat}}",
+    "h2": "API pro {{ProductName}} poskytuje příležitost ověřit podpisy {{Signaturetype}} v dokumentech {{Fileformat}}. Ověření elektronických podpisů ve vašich dokumentech {{Fileformat}} může být provedeno rychle a snadno."
+  },
+  "about": {
+    "title": "Objevte nové funkce API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API poskytuje širokou škálu způsobů zpracování mnoha formátů dokumentů pomocí elektronických podpisů. Je podporováno mnoho typů digitálních podpisů, jako jsou texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Zákazníci mohou přidávat, odstraňovat, upravovat, ověřovat nebo prohledávat digitální podpisy v souborech PDF, dokumentech MS Word, sešitech MS Excel, prezentacích MS PowerPoint, souborech Adobe Photoshop a různých formátech obrázků. K dispozici je úžasný počet dalších funkcí a nastavení."
+  },
+  "steps": {
+    "title_left": "Jak ověřit podpisy {{Signaturetype}} ve vašem dokumentu {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) obsahuje užitečné funkce, jako je ověřování podpisů {{Signaturetype}} umístěných v dokumentech {{Fileformat}}. Využijte tuto příležitost bez implementace dalšího kódu.",
+      "step_1": "Nejprve vytvořte instanci třídy Signature poskytující jako parametr konstruktoru cestu k dokumentu, který má být ověřen.",
+      "step_2": "Za druhé, vytvořte nový objekt VerifyOptions a nastavte všechny požadované vlastnosti.",
+      "step_3": "Nakonec vyvolejte metodu Verify objektu Signature předávající instanci VerifyOptions.",
+      "step_4": "Poté zpracujte výsledky ověření."
+    },
+    "title_right": "Požadavky na systém",
+    "content_right": {
+      "description": "{{ProductFullName}} jsou podporovány na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte ve svém systému nainstalovány následující předpoklady.",
+      "step_1": "Operační systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojová prostředí: {{DevEnv}}",
+      "step_3": "Stáhněte si nejnovější verzi {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podepisování pomocí {{Signaturetype}} podpisů Živá ukázka",
+    "content": "Přidejte různé elektronické podpisy do souboru {{Fileformat}} právě teď na webu [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Ověřte další podpisy {{Signaturetype}} pomocí {{ProgLang}}",
+    "content": "Ověřování elektronických podpisů umístěných v různých dokumentech. Zkontrolujte kvalitu podpisů v oblíbených formátech souborů, jak je uvedeno níže."
+  }
+}

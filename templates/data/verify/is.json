@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Staðfesting á {{Signaturetype}} undirskriftum fyrir {{Fileformat}} skrár í gegnum {{ProgLang}}",
+    "meta_description": "Notaðu aðeins nokkrar línur af {{ProductName}} kóða til að staðfesta {{Fileformat}} skjöl og {{Signaturetype}} undirskrift þeirra.",
+    "h1": "{{Signaturetype}} staðfesting á undirskriftum fyrir {{Fileformat}} skrár",
+    "h2": "API fyrir {{ProductName}} veitir tækifæri til að staðfesta {{Signaturetype}} undirskriftir á {{Fileformat}} skjölum. Staðfesting á rafrænum undirskriftum inni í {{Fileformat}} skjölunum þínum gæti verið framkvæmd fljótt og auðveldlega."
+  },
+  "about": {
+    "title": "Uppgötvaðu nýja eiginleika {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API býður upp á fjölbreytt úrval leiða til að vinna úr fjölmörgum skjalasniðum með því að nota rafrænar undirskriftir. Margar tegundir stafrænna undirskrifta eins og texta, myndir, stafræn skilríki, strikamerki, QR-kóða, stimpla eða lýsigögn eru studdar. Viðskiptavinir geta bætt við, fjarlægt, breytt, staðfest eða leitað í stafrænum undirskriftum á PDF skjölum, MS Word skjölum, MS Excel vinnubókum, MS PowerPoint kynningum, Adobe Photoshop skrám og ýmsum myndsniðum. Ótrúlegur fjöldi viðbótareiginleika og stillinga er í boði."
+  },
+  "steps": {
+    "title_left": "Hvernig á að staðfesta {{Signaturetype}} undirskriftir í {{Fileformat}} skjalinu þínu",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inniheldur gagnlega eiginleika eins og staðfestingu á {{Signaturetype}} undirskriftum sem settar eru á {{Fileformat}} skjöl. Notaðu þetta tækifæri án þess að innleiða aukakóða.",
+      "step_1": "Í fyrsta lagi, staðfestu undirskriftarflokk sem veitir slóð fyrir breytu byggingaraðila að skjali sem á að vera staðfest.",
+      "step_2": "Í öðru lagi, búðu til nýjan VerifyOptions hlut og settu upp alla nauðsynlega eiginleika.",
+      "step_3": "Að lokum skaltu kalla á hlut Staðfestingaraðferð Signature sem framhjá VerifyOptions tilviki.",
+      "step_4": "Vinndu síðan úr sannprófunarniðurstöðum."
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "{{ProductFullName}} eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Sæktu nýjustu útgáfuna af {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Undirskrift með {{Signaturetype}} undirskriftum Live Demo",
+    "content": "Bættu ýmsum rafrænum undirskriftum við {{Fileformat}} skrá núna með því að fara á [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) vefsíðuna."
+  },
+  "more_formats": {
+    "title": "Staðfestu aðrar {{Signaturetype}} undirskriftir með {{ProgLang}}",
+    "content": "Staðfesting rafrænna undirskrifta sem settar eru í ýmis skjöl. Athugaðu gæði undirskrifta í vinsælu skráarsniðunum eins og sýnt er hér að neðan."
+  }
+}

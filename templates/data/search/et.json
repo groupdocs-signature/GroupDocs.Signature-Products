@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Otsige allkirju {{Signaturetype}} failist {{Fileformat}} rakenduses {{ProgLang}}",
+    "meta_description": "Kasutage {{ProductName}} allkirjade {{Signaturetype}} otsimiseks failides {{Fileformat}}, kasutades paari koodirida.",
+    "h1": "Otsige failist {{Signaturetype}} allkirju {{Fileformat}}",
+    "h2": "Native API {{ProductName}} võimaldab otsida allkirju {{Signaturetype}} juba allkirjastatud {{Fileformat}} failides. Tehke oma {{Fileformat}} dokumentides täpsem e-allkirjaotsing, kasutades paari koodirida."
+  },
+  "about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) pakub {{ProductName}} API-d dokumentide töötlemiseks, kasutades erinevaid allkirjatüüpe (nt tekste, pilte, digitaalseid sertifikaate, vöötkoode, QR-koode, templeid või metaandmeid). Kasutajad saavad lisada, kustutada, värskendada, kontrollida või otsida elektroonilisi allkirju PDF-failides, MS Wordi dokumentides, MS Exceli töövihikutes, MS PowerPointi esitlustes, Adobe Photoshopi failides ja erinevates pildivormingutes koos täiendava toega allkirjade atribuutide kohandamiseks vastavalt vajadusele."
+  },
+  "steps": {
+    "title_left": "Allkirjade {{Signaturetype}} otsimine failivormingus {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) hõlbustab toote {{ProductName}} arendajatel allkirjade {{Signaturetype}} otsimist oma rakendustest failides {{Fileformat}}, rakendades mõnda lihtsat sammu.",
+      "step_1": "Looge Signature klassi uus eksemplar ja edastage lähtedokumendi tee konstruktori parameetrina.",
+      "step_2": "Looge otsingusuvandite objekt vastavalt oma vajadustele ja määrake otsingusuvandid.",
+      "step_3": "Helistage Signature klassi eksemplari otsingumeetodile ja edastage sellele SearchOptions.",
+      "step_4": "Töötle otsingutulemusi vastavalt oma nõudmistele."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "Toodet {{ProductFullName}} toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Otsige {{Signaturetype}} elektroonilisi allkirju reaalajas demo",
+    "content": "Otsige kohe dokumendist erinevaid elektroonilisi allkirju {{Fileformat}}-failidele, külastades veebisaiti [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Otsige teisi {{Signaturetype}} allkirju, kasutades {{ProgLang}}",
+    "content": "Elektroonilised allkirjad otsivad erinevatest dokumentidest. Leidke allkirjad ühest populaarsest failivormingust, nagu allpool näidatud."
+  }
+}

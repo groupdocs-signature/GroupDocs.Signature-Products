@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} skjal með {{Codetype}} Strikamerki í {{ProgLang}}",
+    "meta_description": "Búðu til {{Codetype}} Strikamerki undirskrift og settu hana á {{Fileformat}} skjal með {{ProductName}} með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Signature API til að undirrita ýmis skráarsnið.",
+    "h1": "Búðu til {{Codetype}} Strikamerki undirskrift fyrir {{Fileformat}} skjal í {{ProgLang}}",
+    "h2": "eSignaðu {{Fileformat}} viðskiptaskjölin þín með {{Codetype}} Strikamerki. Búðu til Strikamerki undirskrift fljótt og auðveldlega með nokkrum línum af kóða til að setja upp undirskriftarmöguleika."
+  },
+  "digital-content": {
+    "meta_title": "Bætir stafrænum rafrænum undirskriftum við {{Fileformat}} skrá með {{ProgLang}}",
+    "meta_description": "Settu stafræna undirskrift á {{Fileformat}} skrá fyrir {{ProductName}} með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Signature API til að undirrita heilmikið af skráarsniðum.",
+    "h1": "eSign {{Fileformat}} skrár með {{Signaturetype}} undirskriftum í {{ProgLang}}",
+    "h2": "Hvernig á að bæta við {{Signaturetype}} undirskrift með nokkrum línum af {{ProductName}} kóða"
+  },
+  "image-content": {
+    "meta_title": "Bætir {{Signaturetype}} undirskriftum við {{Fileformat}} skrá með {{ProgLang}}",
+    "meta_description": "Settu {{Signaturetype}} undirskrift á {{Fileformat}} skrá fyrir {{ProductName}} með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Signature API til að undirrita heilmikið af skráarsniðum.",
+    "h1": "Undirritaðu {{Fileformat}} skrár með {{Signaturetype}} undirskriftum í {{ProgLang}}",
+    "h2": "Hvernig á að bæta við {{Signaturetype}} undirskrift með nokkrum línum af {{ProductName}} kóða"
+  },
+  "metadata-content": {
+    "meta_title": "Bættu rafrænum undirskriftum lýsigagna við {{Fileformat}} skjöl í gegnum {{ProgLang}}",
+    "meta_description": "Notaðu Lýsigögn sem falin rafræn undirskrift í {{Fileformat}} skjölunum þínum með því að nota nokkrar línur af {{ProgLang}} kóða. Notaðu GroupDocs Document Signature API til að rafrænt undirrita viðskiptaskjölin þín og skrár með upplýsingum um lýsigögn.",
+    "h1": "Rafrænar undirskriftir með lýsigögnum fyrir {{Fileformat}} skjal í gegnum {{ProductName}} eru einfaldar og auðveldar í notkun!",
+    "h2": "eSignaðu {{Fileformat}} skjölin þín og samninga með földum lýsigagnafærslum. Búðu til lýsigögn fyrir PDF skjöl, MS Word skjöl, MS Excel vinnubækur, MS PowerPoint kynningar og ýmis myndsnið án vandræða og aukakóðun."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} skjal með {{Codetype}} QR kóða í {{ProgLang}}",
+    "meta_description": "Búðu til {{Codetype}} QR kóða og settu hann á {{Fileformat}} skrá með því að nota {{ProductName}} með stuttu stykki af {{ProgLang}} kóða. Notaðu GroupDocs Document Signature API til að rafrænt undirrita viðskiptaskjölin þín og skrár með QR kóða.",
+    "h1": "Búðu til {{Codetype}} QR kóða undirskrift fyrir {{Fileformat}} skjal í {{ProgLang}}",
+    "h2": "eSignaðu {{Fileformat}} skjölin þín og samninga með {{Codetype}} QR kóða. Búðu til QR kóða undirskrift fljótt og auðveldlega."
+  },
+  "text-content": {
+    "meta_title": "Búðu til rafrænar undirskriftir í {{Fileformat}} skrá með {{ProgLang}}",
+    "meta_description": "Settu {{Signaturetype}} eSignature á {{Fileformat}} skrá fyrir {{ProductName}} með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Signature API til að undirrita heilmikið af skráarsniðum.",
+    "h1": "Undirritaðu {{Fileformat}} skrár með {{Signaturetype}} undirskriftum í {{ProgLang}}",
+    "h2": "Hvernig á að bæta við {{Signaturetype}} undirskrift með nokkrum línum af {{ProductName}} kóða"
+  },
+  "barcode-about": {
+    "title": "Um {{ProductFullName}} Strikamerki undirskriftarforritaskil.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er fljótlegt og auðvelt forritaskil til að stjórna rafrænni undirskrift skjala með því að nota Strikamerki eins og UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 og margir aðrir. Viðskiptavinir geta auðveldlega búið til Strikamerki með nauðsynlegum texta og sett þá á PDF, Microsoft Office Words Documents, Microsoft Office Excel vinnubækur, MS PowerPoint kynningar, Adobe Photoshop skrár og ýmis myndsnið. Strikamerki sem sett eru í skjöl er hægt að uppfæra, leita, staðfesta, eyða eða forskoða annað hvort. Þar að auki er aðlögun strikamerkja studd."
+  },
+  "digital-about": {
+    "title": "Um {{ProductFullName}} API fyrir stafrænar undirskriftir",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er vinsælt API til að útskrifa skjöl með stafrænum rafrænum undirskriftum, með stafrænum skilríkjum. Fyrir stafrænar undirskriftir notar API PFX vottorðsskrár til að útskrifa skjal með lykilorðavörðum einka- og opinberum lyklum. Stafrænu undirskriftirnar gætu verið notaðar til að votta viðskiptaskjöl með eSign PDF tiltekinni síðu, votta heil Microsoft Office skjöl eins og Words, Excel, Powerpoint skrár og Open Office skjöl. Viðskiptavinir geta auðveldlega unnið með undirskriftirnar eins og að breyta þeim, fjarlægja eða stilla. API veitir leið til að leita og staðfesta undirskriftir. Þar að auki er mikið af hæfileikum til að sérsníða undirskriftir."
+  },
+  "image-about": {
+    "title": "Um {{ProductFullName}} myndundirskriftarforritaskil",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er vinsælt forritaskil fyrir rafræn undirskrift stafrænna skjala. Undirskriftir eins og textar, myndir, stafræn skilríki, strikamerki, QR-kóðar, stimplar eða lýsigögn eru tiltækar. Undirskriftir gætu verið settar á PDF skjöl, MS Word skjöl, MS Excel vinnubækur, MS PowerPoint kynningar, Adobe Photoshop skrár og ýmis myndsnið. Viðskiptavinir geta skrifað undir skjalið sitt og uppfært, leitað, staðfest, eytt eða forskoðað rafrænar undirskriftir sem settar voru á þau skjöl. Þar að auki er mikið af hæfileikum til að sérsníða undirskriftir."
+  },
+  "metadata-about": {
+    "title": "Um {{ProductFullName}} Lýsigögn undirskriftarforritaskil",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er vinsælt forritaskil fyrir rafræn undirskrift stafrænna skjala. Undirskriftir eins og textar, myndir, stafræn skilríki, strikamerki, QR-kóðar, stimplar eða lýsigögn eru tiltækar. Undirskriftir gætu verið settar á PDF skjöl, MS Word skjöl, MS Excel vinnubækur, MS PowerPoint kynningar, Adobe Photoshop skrár og ýmis myndsnið. Viðskiptavinir geta skrifað undir skjalið sitt og uppfært, leitað, staðfest, eytt eða forskoðað rafrænar undirskriftir sem settar voru á þau skjöl. Þar að auki er mikið af hæfileikum til að sérsníða undirskriftir."
+  },
+  "qrcode-about": {
+    "title": "Um {{ProductFullName}} QR kóða undirskriftarforritaskil",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er þroskað API til að búa til og búa til QR kóða undirskriftir fyrir skjölin. Notendur geta búið til QR kóða undirskriftir sem veita texta til að hlaða honum niður eða deila á samfélagsmiðlum sem mynd. Hægt er að skanna undirritaða skjalið með API eða einfaldlega yfir farsíma myndavélina! Skrifaðu undir rafrænt viðskiptasamninga þína og opinber skjöl með því að bæta við QR kóða undirskrift og vinna með það. Sérhver QR kóða undirskrift mun innihalda einstakar sérsniðnar upplýsingar til að auðkenna undirritaðan eða heimila skjalið. Ennfremur er hægt að dulkóða og afkóða innihald QR kóða með persónulegum lyklum forritunarlega. Það opnar marga möguleika til að deila viðkvæmum gögnum inni í opinberum skjölum. Eftir undirritun getur notandi uppfært, staðfest, eytt, forskoðað eða leitað að QR kóðanum í PDF skjölum, MS Word skjölum, MS Excel vinnubókum, MS PowerPoint kynningum, Adobe Photoshop skrám og ýmsum myndsniðum. Hægt væri að aðlaga QR kóða til viðbótar."
+  },
+  "text-about": {
+    "title": "Um {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er vinsælt forritaskil fyrir rafræn undirskrift stafrænna skjala. Undirskriftir eins og textar, myndir, stafræn skilríki, strikamerki, QR-kóðar, stimplar eða lýsigögn eru tiltækar. Undirskriftir gætu verið settar á PDF skjöl, MS Word skjöl, MS Excel vinnubækur, MS PowerPoint kynningar, Adobe Photoshop skrár og ýmis myndsnið. Viðskiptavinir geta skrifað undir skjalið sitt og uppfært, leitað, staðfest, eytt eða forskoðað rafrænar undirskriftir sem settar voru á þau skjöl. Þar að auki er mikið af hæfileikum til að sérsníða undirskriftir."
+  },
+  "system-requirements": {
+    "title": "kerfis kröfur",
+    "content": {
+      "description": "{{ProductFullName}} eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Fáðu nýjasta {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "digital-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "image-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "metadata-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "text-steps": {
+    "title": "Skref til að undirrita {{Fileformat}} með {{Signaturetype}} í {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) veitir möguleika á að undirrita {{Fileformat}} skjöl með {{Signaturetype}} undirskrift fljótt og auðveldlega.",
+      "step_1": "Búðu til tilvik af Signature class sem gefur upp {{Fileformat}} skrá sem á að undirrita sem slóð eða minnisstraum",
+      "step_2": "Upphafðu SignOptions flokkinn og stilltu öll umbeðin gögn.",
+      "step_3": "Kallaðu á Signature.Sign() aðferðina sem sendir úttak {{Fileformat}} skrá eða minnisstraum"
+    }
+  },
+  "demos": {
+    "title": "Undirritar {{Fileformat}} skjöl með {{Signaturetype}} lifandi kynningu",
+    "content": "Skrifaðu undir {{Fileformat}} skrána með ýmsum undirskriftum núna með því að fara á [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) vefsíðuna. Ókeypis kynning á netinu bíður þín."
+  },
+  "more_formats": {
+    "title": "Aðrar studdar {{Signaturetype}} undirskriftir fyrir {{ProgLang}}",
+    "content": "Þú getur líka skrifað undir {{Fileformat}} með öðrum undirskriftartegundum. Vinsamlegast skoðaðu listann hér að neðan."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Alhliða vörukóði er strikamerki sem er mikið notað um allan heim til að fylgjast með vöruvörum í verslunum.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "Nákvæmlega 11 tölustafir + 1 ávísunarstafur."
+    },
+    "UPCE": {
+      "details": "Alhliða vörukóði er strikamerki sem er mikið notað um allan heim til að fylgjast með vöruvörum í verslunum. UPCE er 8 stafa afbrigði ef UPC.",
+      "characterset": "Styður aðeins tölustafi (0-9).",
+      "codetextcapacity": "Getu kóðatexta: nákvæmlega 7 tölustafir + 1 eftirlitsstafur."
+    },
+    "EAN13": {
+      "details": "Algengasta EAN staðallinn er þrettán stafa EAN-13, ofursett af upprunalega 12 stafa Universal Product Code staðlinum.",
+      "characterset": "Aðeins tölustafir (0-9).",
+      "codetextcapacity": "Getu kóðatexta: nákvæmlega 12 tölustafir + 1 athugastafur."
+    },
+    "EAN14": {
+      "details": "Evrópsk vörunúmer eða EAN er staðall sem lýsir strikamerki og númerakerfi sem notað er í alþjóðlegum viðskiptum til að auðkenna tiltekna smásöluvörutegund, í tiltekinni umbúðastillingu, frá tilteknum framleiðanda.",
+      "characterset": "Tölustafir (0-9) og sérstafir.",
+      "codetextcapacity": "Nákvæmlega 14 tölustafir."
+    },
+    "Code39": {
+      "details": "Kóði 39 (einnig þekktur sem Alpha39, Kóði 3 af 9, Kóði 3/9, Tegund 39, USS Kóði 39, eða USD-3) er breytileg lengd, staka strikamerkjamerki.",
+      "characterset": "Tölustafir (0-9) og hástafir (A-Z) og fjöldi sérstafa (-, ., $, /, +, % og bil).",
+      "codetextcapacity": "Engar sérstakar takmarkanir."
+    },
+    "Code39Extended": {
+      "details": "Kóði 39 (einnig þekktur sem Alpha39, Kóði 3 af 9, Kóði 3/9, Tegund 39, USS Kóði 39, eða USD-3) er breytileg lengd, staka strikamerkjamerki.",
+      "characterset": "Stafasett: allir 128 ASCII stafir.",
+      "codetextcapacity": "Engar sérstakar takmarkanir."
+    },
+    "Code128": {
+      "details": "Kóði 128 er línuleg strikamerki með mikilli þéttleika sem skilgreind er í ISO/IEC 15417:2007. Það er notað fyrir alfanumerísk strikamerki eða strikamerki eingöngu með tölustöfum.",
+      "characterset": "Allir 128 stafir ASCII.",
+      "codetextcapacity": "Engar sérstakar takmarkanir."
+    },
+    "Codabar": {
+      "details": "Codabar er línuleg strikamerki táknfræði sem var hönnuð til að vera nákvæmlega lesin, jafnvel þegar þau eru prentuð á punktafylkisprentara fyrir fjölþætt eyðublöð eins og FedEx flugseðla og blóðbankaform.",
+      "characterset": "Tölustafir (0-9) og sérstafir $/-:+.",
+      "codetextcapacity": "Engar sérstakar takmarkanir."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) er strikamerki sem er notað af póstþjónustu Bandaríkjanna til að aðstoða við að beina pósti.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "Allt að 11 stafir."
+    },
+    "ISBN": {
+      "details": "Alþjóðlega staðlaða bókanúmerið (ISBN) er tölulegt auðkenni auglýsingabóka sem ætlað er að vera einstakt.[a][b] Útgefendur kaupa ISBN-númer frá hlutdeildarfélagi Alþjóða ISBN-stofnunarinnar.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "Nákvæmlega 9 tölustafir + 1 gátstafur."
+    },
+    "ITF14": {
+      "details": "ITF-14 er GS1 útfærsla á Interleaved 2 af 5 (ITF) strikamerki til að kóða Global Trade Item Number.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "13 tölustafir + 1 gátstafur."
+    },
+    "Pdf417": {
+      "details": "PDF417 er staflað línulegt strikamerki sem notað er í ýmsum forritum eins og flutningum, auðkenniskortum og birgðastjórnun.",
+      "characterset": "Allir 256 ASCII stafir.",
+      "codetextcapacity": "Allt að 800 stafir."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) er samfelld tveggja breidd strikamerki táknmyndakóðun tölustafa. Það er notað í viðskiptalegum tilgangi á 135 filmu, fyrir ITF-14 strikamerki og á öskjur af sumum vörum, á meðan vörurnar inni eru merktar með UPC eða EAN.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "Breytileg lengd."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, einnig þekktur sem Pharmaceutical Binary Code, er strikamerki staðall, notaður í lyfjaiðnaðinum sem pökkunareftirlitskerfi.",
+      "characterset": "Tölustafir (0-9).",
+      "codetextcapacity": "Táknar aðeins eina heiltölu frá 3 til 131070."
+    },
+    "Aztec": {
+      "details": "Aztec kóði er tvívídd (2-D) alhliða fylki táknfræði sem er hönnuð til að hafa meiri nákvæmni en aðrar 2-D táknmyndir. Aztec kóða tákn getur umritað allt að 3.832 tölustafi; 3.067 stafrófsstafir; eða 1.914 bæti af gögnum.",
+      "characterset": "Allir 256 ASCII stafir.",
+      "codetextcapacity": "Allt að 3.832 tölustafir, eða 3.067 stafrófsstafir, eða 1.914 bæti af gögnum."
+    },
+    "DataMatrix": {
+      "details": "Gagnafylki er tvívíður kóði sem samanstendur af svörtum og hvítum „frumum“ eða punktum raðað í annað hvort ferhyrnt eða rétthyrnt mynstur, einnig þekkt sem fylki. Upplýsingarnar sem á að kóða geta verið texti eða töluleg gögn.",
+      "characterset": "Styður alla 256 ASCII stafi, alla ISO stafi og alla Extended Binary Coded Decimal Interchange Code (EBCDIC) stafi.",
+      "codetextcapacity": "Allt að 3116 tölustafir, eða 2335 alfa tölustafir, eða 1556 tvíundir stafir."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix er afbrigði af Data Matrix sem er í samræmi við GS1 forskriftir. Notaðu GS1 DataMatrix til að kóða upplýsingarnar eins og, en takmarkast ekki við, eftirfarandi: AI(01) Global Trade Item Number (GTIN), AI(17) Fyrningardagsetning, AI(10) Lotunúmer, AI(21) Raðnúmer .",
+      "characterset": "Stafasett: há- og lágstafir og sérstafir $@%*+-./:=<>;&*_,'! allt með réttum forritaauðkennum.",
+      "codetextcapacity": "Getu kóðatexta: allt að 3116 tölustafir, eða 2335 alfa tölustafir."
+    },
+    "GS1QR": {
+      "details": "GS1 QR kóða er afbrigði af QR kóða sem er í samræmi við GS1 forskriftir. Það var hannað sérstaklega til að deila víðtækum umbúðaupplýsingum, svo sem lotunúmeri, vöruauðkenni og magni.",
+      "characterset": "Há- og lágstafir og sérstafir $%*+-./: allir með réttum forritaauðkennum",
+      "codetextcapacity": "Allt að 7089 tölustafir, 4296 tölustafir"
+    },
+    "QR": {
+      "details": "QR Code (skammstafað af Quick Response Code) er vörumerki fyrir tegund fylkisstrikamerkja (eða tvívídd strikamerki). Það er vinsælasta og mest notaða tegund tvívíddar kóða. Í reynd innihalda QR kóðar oft gögn fyrir staðsetningartæki, auðkenni eða rekja spor einhvers sem vísar á vefsíðu eða forrit.",
+      "characterset": "Allir 256 ASCII stafir + Kanji",
+      "codetextcapacity": "Allt að 7089 tölustafir, 4296 tölustafir, 2953 bæti (tvíundir gögn) eða 1817 Kanji stafir."
+    }
+  }
+}

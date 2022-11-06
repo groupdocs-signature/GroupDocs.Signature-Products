@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "Document electrònic {{Fileformat}} amb codi de barres {{Codetype}} a {{ProgLang}}",
+    "meta_description": "Creeu la signatura de codi de barres {{Codetype}} i poseu-la al document {{Fileformat}} amb {{ProductName}} utilitzant un parell de línies de codi. Utilitzeu l'API de signatura de documents de GroupDocs per signar diversos formats de fitxer.",
+    "h1": "Genereu {{Codetype}} signatura de codi de barres per al document {{Fileformat}} a {{ProgLang}}",
+    "h2": "eSigne els vostres documents comercials de {{Fileformat}} amb el codi de barres {{Codetype}}. Genereu la signatura de codi de barres de manera ràpida i senzilla amb unes poques línies de codi per configurar les opcions de signatura."
+  },
+  "digital-content": {
+    "meta_title": "Afegir signatures electròniques digitals al fitxer {{Fileformat}} amb {{ProgLang}}",
+    "meta_description": "Col·loqueu la signatura digital al fitxer {{Fileformat}} per a {{ProductName}} utilitzant unes quantes línies de codi. Utilitzeu l'API de signatura de documents de GroupDocs per signar desenes de formats de fitxer.",
+    "h1": "eSign fitxers {{Fileformat}} amb signatures {{Signaturetype}} a {{ProgLang}}",
+    "h2": "Com afegir la signatura {{Signaturetype}} amb unes poques línies de codi {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Afegint {{Signaturetype}} signatures al fitxer {{Fileformat}} amb {{ProgLang}}",
+    "meta_description": "Poseu la signatura {{Signaturetype}} al fitxer {{Fileformat}} per a {{ProductName}} utilitzant unes quantes línies de codi. Utilitzeu l'API de signatura de documents de GroupDocs per signar desenes de formats de fitxer.",
+    "h1": "Signa fitxers {{Fileformat}} amb signatures {{Signaturetype}} a {{ProgLang}}",
+    "h2": "Com afegir la signatura {{Signaturetype}} amb unes poques línies de codi {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Afegiu signatures electròniques de metadades als documents {{Fileformat}} mitjançant {{ProgLang}}",
+    "meta_description": "Utilitzeu les metadades com a signatures electròniques amagades dins dels vostres documents {{Fileformat}} mitjançant un parell de línies de codi {{ProgLang}}. Utilitzeu l'API de signatura de documents de GroupDocs per signar electrònicament els vostres documents i fitxers empresarials amb informació de metadades.",
+    "h1": "Les signatures electròniques de metadades per al document {{Fileformat}} mitjançant {{ProductName}} són senzilles i fàcils d'utilitzar.",
+    "h2": "eSign els vostres documents i contractes de {{Fileformat}} amb entrades de metadades amagades. Genereu metadades per a PDF, documents de MS Word, llibres de treball de MS Excel, presentacions de MS PowerPoint i diversos formats d'imatge sense problemes i codificació addicional."
+  },
+  "qrcode-content": {
+    "meta_title": "Document electrònic {{Fileformat}} amb codi QR {{Codetype}} a {{ProgLang}}",
+    "meta_description": "Creeu {{Codetype}} codi QR i col·loqueu-lo al fitxer {{Fileformat}} amb {{ProductName}} amb un tros curt de codi {{ProgLang}}. Utilitzeu l'API de signatura de documents de GroupDocs per signar electrònicament els vostres documents i fitxers empresarials amb el codi QR.",
+    "h1": "Genereu la signatura del codi QR de {{Codetype}} per al document {{Fileformat}} a {{ProgLang}}",
+    "h2": "eSigneu els vostres documents i contractes de {{Fileformat}} amb el codi QR de {{Codetype}}. Genereu la signatura del codi QR de manera ràpida i senzilla."
+  },
+  "text-content": {
+    "meta_title": "Creeu signatures electròniques de text al fitxer {{Fileformat}} amb {{ProgLang}}",
+    "meta_description": "Posa {{Signaturetype}} eSignature al fitxer {{Fileformat}} per a {{ProductName}} utilitzant unes quantes línies de codi. Utilitzeu l'API de signatura de documents de GroupDocs per signar desenes de formats de fitxer.",
+    "h1": "Signa fitxers {{Fileformat}} amb signatures {{Signaturetype}} a {{ProgLang}}",
+    "h2": "Com afegir la signatura {{Signaturetype}} amb unes poques línies de codi {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Sobre l'API de signatures de codi de barres de {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API ràpida i senzilla per gestionar la signatura electrònica de documents digitals mitjançant tipus de codi de barres com UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 i molts altres. Els clients poden crear fàcilment codis de barres que proporcionen el text necessari i posar-los en PDF, documents de Microsoft Office Words, llibres de treball de Microsoft Office Excel, presentacions de MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Els codis de barres col·locats als documents es poden actualitzar, cercar, verificar, suprimir o visualitzar prèviament. A més, s'admet la personalització de codis de barres."
+  },
+  "digital-about": {
+    "title": "Sobre l'API de signatures digitals de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API popular per signar documents amb signatures electròniques digitals, amb certificats digitals. Per a l'API de signatures digitals, utilitza fitxers de certificat PFX per signar el document amb claus públiques i privades protegides amb contrasenya. Les signatures digitals es poden utilitzar per certificar documents empresarials amb eSign PDF en particular, certificar documents sencers de Microsoft Office com Words, Excel, fitxers Powerpoint i documents d'Open Office. Els clients poden manipular fàcilment les signatures com editar-les, eliminar-les o ajustar-les. L'API proporciona una manera de cercar i verificar signatures. A més, es proporcionen moltes capacitats per a la personalització de signatures."
+  },
+  "image-about": {
+    "title": "Sobre l'API de signatures d'imatge de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API popular per a la signatura electrònica de documents digitals. Hi ha signatures com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Les signatures es poden col·locar en PDF, documents MS Word, llibres de treball de MS Excel, presentacions de MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Els clients poden signar el seu document i actualitzar, cercar, verificar, suprimir o previsualitzar les signatures electròniques que es van posar en aquests documents. A més, es proporcionen moltes capacitats per a la personalització de signatures."
+  },
+  "metadata-about": {
+    "title": "Sobre l'API de signatures de metadades de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API popular per a la signatura electrònica de documents digitals. Hi ha signatures com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Les signatures es poden col·locar en PDF, documents MS Word, llibres de treball de MS Excel, presentacions de MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Els clients poden signar el seu document i actualitzar, cercar, verificar, suprimir o previsualitzar les signatures electròniques que es van posar en aquests documents. A més, es proporcionen moltes capacitats per a la personalització de signatures."
+  },
+  "qrcode-about": {
+    "title": "Sobre l'API de signatures de codi QR de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API madura per crear i generar signatures de codi QR per als documents. Els usuaris poden generar signatures de codi QR que proporcionen text per descarregar-lo o compartir-lo a les xarxes socials com a imatge. El document signat es pot escanejar amb API o simplement amb la càmera del mòbil! Signeu electrònicament els vostres contractes comercials i documents oficials afegint la signatura del codi QR i manipuleu-los. Qualsevol signatura del codi QR contindrà informació personalitzada única per identificar el signant o autoritzar el document. A més, el contingut del codi QR es pot xifrar i desxifrar amb claus personals mitjançant programació. Això obre moltes capacitats per compartir dades sensibles dins dels documents públics. Després de la signatura, l'usuari pot actualitzar, verificar, suprimir, previsualitzar o cercar els codis QR en PDF, documents MS Word, llibres de treball de MS Excel, presentacions de MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Els codis QR també es poden personalitzar."
+  },
+  "text-about": {
+    "title": "Sobre l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) és una API popular per a la signatura electrònica de documents digitals. Hi ha signatures com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Les signatures es poden col·locar en PDF, documents MS Word, llibres de treball de MS Excel, presentacions de MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Els clients poden signar el seu document i actualitzar, cercar, verificar, suprimir o previsualitzar les signatures electròniques que es van posar en aquests documents. A més, es proporcionen moltes capacitats per a la personalització de signatures."
+  },
+  "system-requirements": {
+    "title": "Requisits del sistema",
+    "content": {
+      "description": "{{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Obteniu l'últim {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "digital-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "image-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "metadata-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "text-steps": {
+    "title": "Passos per signar {{Fileformat}} amb {{Signaturetype}} a {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ofereix la possibilitat de signar documents {{Fileformat}} amb signatures {{Signaturetype}} de manera ràpida i senzilla.",
+      "step_1": "Creeu una instància de la classe Signature que proporcioni el fitxer {{Fileformat}} que s'ha de signar com a camí o flux de memòria",
+      "step_2": "Instancieu la classe SignOptions i configureu totes les dades sol·licitades.",
+      "step_3": "Invoqueu el mètode Signature.Sign() passant el fitxer de sortida {{Fileformat}} o el flux de memòria"
+    }
+  },
+  "demos": {
+    "title": "Signant documents de {{Fileformat}} amb {{Signaturetype}} Demostració en directe",
+    "content": "Signa el fitxer {{Fileformat}} amb diverses signatures ara mateix visitant el lloc web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demostració gratuïta en línia esperant-te."
+  },
+  "more_formats": {
+    "title": "Altres signatures admeses de {{Signaturetype}} per a {{ProgLang}}",
+    "content": "També podeu signar {{Fileformat}} amb altres tipus de signatura. Si us plau, consulteu la llista a continuació."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "El codi universal de producte és una simbologia de codi de barres que s'utilitza àmpliament a tot el món per fer el seguiment d'articles comercials a les botigues.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "Exactament 11 dígits + 1 dígit de verificació."
+    },
+    "UPCE": {
+      "details": "El codi universal de producte és una simbologia de codi de barres que s'utilitza àmpliament a tot el món per fer el seguiment d'articles comercials a les botigues. UPCE és una variació de 8 dígits si UPC.",
+      "characterset": "Només admet dígits numèrics (0-9).",
+      "codetextcapacity": "Capacitat del text en codi: exactament 7 dígits + 1 dígit de verificació."
+    },
+    "EAN13": {
+      "details": "L'estàndard EAN més utilitzat és l'EAN-13 de tretze dígits, un superconjunt de l'estàndard original del codi de producte universal de 12 dígits.",
+      "characterset": "Només dígits numèrics (0-9).",
+      "codetextcapacity": "Capacitat del text en codi: exactament 12 dígits + 1 dígit de verificació."
+    },
+    "EAN14": {
+      "details": "El número d'article europeu o EAN és un estàndard que descriu una simbologia de codi de barres i un sistema de numeració utilitzat en el comerç global per identificar un tipus de producte minorista específic, en una configuració d'embalatge específica, d'un fabricant específic.",
+      "characterset": "Dígits numèrics (0-9) i caràcters especials.",
+      "codetextcapacity": "Exactament 14 dígits numèrics."
+    },
+    "Code39": {
+      "details": "El codi 39 (també conegut com Alpha39, codi 3 de 9, codi 3/9, tipus 39, codi USS 39 o USD-3) és una simbologia de codi de barres discreta de longitud variable.",
+      "characterset": "Dígits numèrics (0-9) i lletres majúscules (A-Z) i una sèrie de caràcters especials (-, ., $, /, +, % i espai).",
+      "codetextcapacity": "Sense restriccions específiques."
+    },
+    "Code39Extended": {
+      "details": "El codi 39 (també conegut com Alpha39, codi 3 de 9, codi 3/9, tipus 39, codi USS 39 o USD-3) és una simbologia de codi de barres discreta de longitud variable.",
+      "characterset": "Conjunt de caràcters: els 128 caràcters ASCII.",
+      "codetextcapacity": "Sense restriccions específiques."
+    },
+    "Code128": {
+      "details": "El codi 128 és una simbologia de codi de barres lineal d'alta densitat definida a la norma ISO/IEC 15417:2007. S'utilitza per a codis de barres alfanumèrics o només numèrics.",
+      "characterset": "Els 128 caràcters d'ASCII.",
+      "codetextcapacity": "Sense restriccions específiques."
+    },
+    "Codabar": {
+      "details": "Codabar és una simbologia de codi de barres lineal dissenyada per llegir-se amb precisió fins i tot quan s'imprimeix en impressores de matriu de punts per a formularis de diverses parts, com ara bitllets d'avió de FedEx i formularis de banc de sang.",
+      "characterset": "Dígits numèrics (0-9) i caràcters especials $/-:+.",
+      "codetextcapacity": "Sense restriccions específiques."
+    },
+    "Postnet": {
+      "details": "POSTNET (Tècnica de codificació numèrica postal) és una simbologia de codi de barres utilitzada pel servei postal dels Estats Units per ajudar a dirigir el correu.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "Fins a 11 caràcters."
+    },
+    "ISBN": {
+      "details": "L'International Standard Book Number (ISBN) és un identificador numèric de llibres comercials que pretén ser únic.[a][b] Els editors compren ISBN a una filial de l'Agència Internacional de l'ISBN.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "Exactament 9 dígits + 1 dígit de verificació."
+    },
+    "ITF14": {
+      "details": "ITF-14 és la implementació GS1 d'un codi de barres intercalat 2 de 5 (ITF) per codificar un número d'article comercial global.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "13 dígits + 1 dígit de control."
+    },
+    "Pdf417": {
+      "details": "PDF417 és un format de codi de barres lineal apilat utilitzat en una varietat d'aplicacions com ara transport, targetes d'identificació i gestió d'inventari.",
+      "characterset": "Tots els 256 caràcters ASCII.",
+      "codetextcapacity": "Fins a 800 caràcters."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) és una simbologia de codi de barres contínua de dues amplades que codifica els dígits. S'utilitza comercialment en pel·lícules 135, per a codis de barres ITF-14 i en cartrons d'alguns productes, mentre que els productes a l'interior estan etiquetats amb UPC o EAN.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "Longitud variable."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, també conegut com a Codi binari farmacèutic, és un estàndard de codi de barres, utilitzat a la indústria farmacèutica com a sistema de control d'embalatge.",
+      "characterset": "Dígits numèrics (0-9).",
+      "codetextcapacity": "Representa només un únic nombre enter del 3 al 131070."
+    },
+    "Aztec": {
+      "details": "El codi asteca és una simbologia matricial bidimensional (2-D) de propòsit general dissenyada per tenir una precisió més alta que altres simbologies 2-D. Un símbol de codi asteca pot codificar fins a 3.832 dígits numèrics; 3.067 caràcters alfabètics; o 1.914 bytes de dades.",
+      "characterset": "Tots els 256 caràcters ASCII.",
+      "codetextcapacity": "Fins a 3.832 dígits numèrics, o 3.067 caràcters alfabètics o 1.914 bytes de dades."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix és un codi bidimensional que consta de \"cel·les\" o punts en blanc i negre disposats en un patró quadrat o rectangular, també conegut com a matriu. La informació a codificar pot ser text o dades numèriques.",
+      "characterset": "Admet els 256 caràcters ASCII, tots els caràcters ISO i tots els caràcters de codi d'intercanvi decimal codificat binari estès (EBCDIC).",
+      "codetextcapacity": "Fins a 3116 dígits numèrics, o 2335 caràcters alfanumèrics o 1556 caràcters binaris."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix és una variant de Data Matrix que s'ajusta a les especificacions GS1. Utilitzeu GS1 DataMatrix per codificar la informació com, entre d'altres, la següent: AI(01) Número d'article comercial global (GTIN), AI(17) Data de caducitat, AI(10) Número de lot, AI(21) Número de sèrie .",
+      "characterset": "Conjunt de caràcters: lletres majúscules i minúscules i caràcters especials $@%*+-./:=<>;&*_,'! tots amb els identificadors d'aplicació correctes.",
+      "codetextcapacity": "Capacitat del text en codi: fins a 3116 dígits numèrics o 2335 caràcters alfanumèrics."
+    },
+    "GS1QR": {
+      "details": "El codi QR GS1 és una variant del codi QR que s'ajusta a les especificacions GS1. Va ser dissenyat específicament per compartir informació d'embalatge ampliada, com ara el número de lot, l'identificador del producte i la quantitat.",
+      "characterset": "Lletres majúscules i minúscules i caràcters especials $%*+-./: tots amb els identificadors d'aplicació correctes",
+      "codetextcapacity": "Fins a 7089 caràcters numèrics, 4296 caràcters alfanumèrics"
+    },
+    "QR": {
+      "details": "El codi QR (abreujat de Quick Response Code) és la marca comercial d'un tipus de codi de barres matricial (o codi de barres bidimensional). És el tipus de codi bidimensional més popular i utilitzat. A la pràctica, els codis QR sovint contenen dades d'un localitzador, identificador o rastrejador que apunta a un lloc web o una aplicació.",
+      "characterset": "Tots els 256 caràcters ASCII + Kanji",
+      "codetextcapacity": "Fins a 7089 caràcters numèrics, 4296 caràcters alfanumèrics, 2953 bytes (dades binàries) o 1817 caràcters kanji."
+    }
+  }
+}

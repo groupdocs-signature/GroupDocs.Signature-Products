@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "የ{{Signaturetype}} ፊርማዎች ለ{{Fileformat}} ፋይሎች በ{{ProgLang}} በኩል ማረጋገጫ",
+    "meta_description": "{{Fileformat}} ሰነዶችን እና {{Signaturetype}} ፊርማቸውን ለማረጋገጥ ጥቂት የ{{ProductName}} ኮድ መስመሮችን ብቻ ይጠቀሙ።",
+    "h1": "ለ{{Fileformat}} ፋይሎች የ{{Signaturetype}} ፊርማ ማረጋገጫ",
+    "h2": "ኤፒአይ ለ{{ProductName}} የ{{Signaturetype}} ፊርማዎችን በ{{Fileformat}} ሰነዶች ለማረጋገጥ እድል ይሰጣል። በእርስዎ {{Fileformat}} ሰነዶች ውስጥ ያሉ የኢ-ፊርማዎች ማረጋገጫ በፍጥነት እና በቀላሉ ሊከናወን ይችላል።"
+  },
+  "about": {
+    "title": "አዲስ የ{{ProductFullName}} API ባህሪያትን ያግኙ",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ኤፒአይ የኤሌክትሮኒክ ፊርማዎችን በመጠቀም ብዙ የሰነድ ቅርጸቶችን ለማስኬድ ሰፊ መንገዶችን ይሰጣል። ብዙ አይነት ዲጂታል ፊርማዎች እንደ ጽሑፎች፣ ምስሎች፣ ዲጂታል ሰርተፊኬቶች፣ ባርኮዶች፣ QR-codes፣ ማህተሞች ወይም ሜታዳታ ይደገፋሉ። ደንበኞች ዲጂታል ፊርማዎችን በፒዲኤፍ፣ MS Word ሰነዶች፣ በኤምኤስ ኤክሴል የስራ ደብተሮች፣ MS PowerPoint ማቅረቢያዎች፣ አዶቤ ፎቶሾፕ ፋይሎች እና የተለያዩ የምስል ቅርጸቶችን ማከል፣ ማስወገድ፣ ማረም፣ ማረጋገጥ ወይም መፈለግ ይችላሉ። የሚገርሙ የተጨማሪ ባህሪያት እና ቅንብሮች ይገኛሉ።"
+  },
+  "steps": {
+    "title_left": "በእርስዎ {{Fileformat}} ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት ማረጋገጥ እንደሚቻል",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) በ{{Fileformat}} ሰነዶች ላይ የተቀመጡ የ{{Signaturetype}} ፊርማዎችን ማረጋገጥ ያሉ ጠቃሚ ባህሪያትን ያካትታል። ተጨማሪ ኮድ ሳይተገብሩ ይህንን እድል ይጠቀሙ።",
+      "step_1": "በመጀመሪያ፣ የፈጣን ፊርማ ክፍል መረጋገጥ አለበት ወደተባለው ሰነድ እንደ ግንበኛ መለኪያ መንገድ ያቀርባል።",
+      "step_2": "በሁለተኛ ደረጃ አዲስ የVerifyOptions ነገር ይፍጠሩ እና ሁሉንም አስፈላጊ ንብረቶች ያዘጋጁ።",
+      "step_3": "በመጨረሻም፣ የፊርማ ነገርን ጥራ የVerifyOptions ምሳሌን የሚያልፍበትን ዘዴ ያረጋግጡ።",
+      "step_4": "ከዚያ የማረጋገጫ ውጤቶችን ያስኬዱ."
+    },
+    "title_right": "የስርዓት መስፈርቶች",
+    "content_right": {
+      "description": "{{ProductFullName}} በሁሉም ዋና መድረኮች እና ስርዓተ ክወናዎች ላይ ይደገፋሉ። ከዚህ በታች ያለውን ኮድ ከመተግበሩ በፊት፣ እባክዎ በስርዓትዎ ላይ የሚከተሉት ቅድመ ሁኔታዎች እንዳሉዎት ያረጋግጡ።",
+      "step_1": "ስርዓተ ክወናዎች-ማይክሮሶፍት ዊንዶውስ ፣ ሊኑክስ ፣ ማክኦኤስ",
+      "step_2": "የልማት አካባቢዎች፡ {{DevEnv}}",
+      "step_3": "የቅርብ ጊዜውን የ{{ProductFullName}} ስሪት ከ[{{RepoName}}]({{RepoUrl}}) ያውርዱ"
+    }
+  },
+  "demos": {
+    "title": "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም",
+    "content": "የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ {{Fileformat}} ፋይል አሁኑኑ ያክሉ።"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}}ን በመጠቀም ሌሎች የ{{Signturetype}} ፊርማዎችን ያረጋግጡ",
+    "content": "በተለያዩ ሰነዶች ውስጥ የተቀመጡ የኤሌክትሮኒክ ፊርማዎችን ማረጋገጥ. ከታች እንደተገለጸው የፊርማዎችን ጥራት በታዋቂው የፋይል ቅርጸቶች ያረጋግጡ።"
+  }
+}

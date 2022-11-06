@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Vyhledejte podpisy {{Signaturetype}} v souboru {{Fileformat}} v {{ProgLang}}",
+    "meta_description": "Použijte {{ProductName}} k vyhledávání podpisů {{Signaturetype}} v souborech {{Fileformat}} pomocí několika řádků kódu.",
+    "h1": "Vyhledejte podpisy {{Signaturetype}} v souboru {{Fileformat}}",
+    "h2": "Nativní API {{ProductName}} umožňuje vyhledávat podpisy {{Signaturetype}} v již podepsaných souborech {{Fileformat}}. Proveďte pokročilé vyhledávání elektronických podpisů ve svých dokumentech {{Fileformat}} pomocí několika řádků kódu."
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) poskytuje {{ProductName}} API pro zpracování dokumentů pomocí různých typů podpisů, jako jsou texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Uživatelé mohou přidávat, mazat, aktualizovat, ověřovat nebo prohledávat elektronické podpisy v souborech PDF, dokumentech MS Word, sešitech MS Excel, prezentacích MS PowerPoint, souborech Adobe Photoshop a různých obrazových formátech s další podporou pro přizpůsobení vlastností podpisů podle potřeby."
+  },
+  "steps": {
+    "title_left": "Jak hledat podpisy {{Signaturetype}} v {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) usnadňuje vývojářům {{ProductName}} hledání podpisů {{Signaturetype}} v souborech {{Fileformat}} z jejich aplikací implementací několika snadných kroků.",
+      "step_1": "Vytvořte novou instanci třídy Signature a předejte cestu ke zdrojovému dokumentu jako parametr konstruktoru.",
+      "step_2": "Vytvořte instanci objektu SearchOptions podle vašich požadavků a zadejte možnosti vyhledávání.",
+      "step_3": "Zavolejte metodu Search instance třídy Signature a předejte jí SearchOptions.",
+      "step_4": "Zpracujte výsledky vyhledávání podle svých požadavků."
+    },
+    "title_right": "Požadavky na systém",
+    "content_right": {
+      "description": "{{ProductFullName}} jsou podporovány na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte ve svém systému nainstalovány následující předpoklady.",
+      "step_1": "Operační systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojová prostředí: {{DevEnv}}",
+      "step_3": "Stáhněte si nejnovější verzi {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Vyhledejte živé ukázky elektronických podpisů {{Signaturetype}}",
+    "content": "Navštivte web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) a vyhledejte v dokumentu různé elektronické podpisy do souborů {{Fileformat}} právě teď."
+  },
+  "more_formats": {
+    "title": "Vyhledejte další podpisy {{Signaturetype}} pomocí {{ProgLang}}",
+    "content": "Vyhledávání elektronických podpisů v různých dokumentech. Najděte podpisy z jednoho z oblíbených formátů souborů, jak je uvedeno níže."
+  }
+}

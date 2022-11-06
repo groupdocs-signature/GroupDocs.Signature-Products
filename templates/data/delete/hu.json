@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Törölje a {{Signaturetype}} aláírásokat a {{Fileformat}} fájlokból a {{ProgLang}} segítségével",
+    "meta_description": "Az aláírt {{Fileformat}} dokumentumokból bizonyos {{Signaturetype}} aláírások törlése egyszerűen végrehajtható rövid {{ProductName}} kóddal.",
+    "h1": "Távolítsa el a {{Signaturetype}} aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve",
+    "h2": "Törölje a különböző {{Signaturetype}} aláírásokat a {{Fájlformátum}} dokumentumokból. A {{Signaturetype}} aláírások eltávolításához egyszerű {{ProgLang}} kód szükséges."
+  },
+  "about": {
+    "title": "Tájékozódjon a {{ProductFullName}} API funkcióiról",
+    "content": "A [{{ProductFullName}}]({{ProductUrl}}) API számos módot biztosít a dokumentumok elektronikus aláírással történő feldolgozására. Digitális aláírások, például szövegek, képek, digitális tanúsítványok, vonalkódok, QR-kódok, bélyegzők vagy metaadatok állnak rendelkezésre. Az ügyfeleknek lehetőségük van digitális aláírások hozzáadására, törlésére, frissítésére, ellenőrzésére vagy keresésére PDF-ekben, MS Word dokumentumokban, MS Excel munkafüzetekben, MS PowerPoint prezentációkban, Adobe Photoshop fájlokban és különféle képformátumokban. Számos hasznos funkció és beállítás érhető el."
+  },
+  "steps": {
+    "title_left": "Hogyan távolíthatja el a {{Signaturetype}} aláírásokat a {{Fileformat}} dokumentumból",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{ProductUrl}}) hasznos funkciót biztosít a {{Fileformat}} dokumentumok {{Signaturetype}} aláírásainak néhány soros kóddal történő törléséhez.",
+      "step_1": "Először is, példányosítsa az Signature objektumot, amely konstruktor paraméterként adja át a dokumentum elérési útját.",
+      "step_2": "Ezután hozzon létre egy megfelelő aláírási objektumot, és állítsa be annak egyedi azonosítóját.",
+      "step_3": "Ezt követően hívja meg a Delete metódust, amely átadja az aláírási objektumot, amelyet törölni kell.",
+      "step_4": "Végül a folyamat működési eredményei."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} minden nagyobb platformon és operációs rendszeren támogatott. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztői környezetek: {{DevEnv}}",
+      "step_3": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Aláírás {{Signaturetype}} aláírásokkal Élő bemutató",
+    "content": "A [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webhely meglátogatásával azonnal adjon hozzá különféle elektronikus aláírásokat a {{Fileformat}} fájlhoz."
+  },
+  "more_formats": {
+    "title": "Törölje {{Signaturetype}} aláírásait a {{ProgLang}} segítségével",
+    "content": "A különböző dokumentumformátumokhoz hozzáadott e-aláírások törlése. Az aláírások gyors eltávolítása extra kód nélkül."
+  }
+}

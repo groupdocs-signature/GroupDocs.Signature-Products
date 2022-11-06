@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Dateer {{Signaturetype}}-handtekeninge wat by {{Fileformat}}-lêers geplaas is op met {{ProgLang}}",
+    "meta_description": "Gebruik eenvoudig en maklik om {{ProductName}}-kode te verstaan ​​vir opdatering van {{Signaturetype}}-handtekeninge in ondertekende {{Lêerformaat}}-dokumente.",
+    "h1": "Wysig en werk {{Signaturetype}}-handtekeninge op wat by {{Fileformat}}-lêers geplaas is",
+    "h2": "API vir {{ProductName}} verskaf funksionaliteit vir {{Signaturetype}} handtekeninge wat by {{Lêerformaat}} dokumente opdateer. Dateer e-handtekeninge binne jou {{Lêerformaat}} dokumente op met 'n paar reëls van {{ProgLang}} kode vinnig en maklik."
+  },
+  "about": {
+    "title": "Kom meer te wete oor {{ProductFullName}} API-kenmerke",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-funksionaliteit bevat 'n groot verskeidenheid maniere om in aanvraag-dokumentformate te verwerk deur elektroniese handtekeninge te gebruik. Wye spektrum van e-handtekeninge soos tekste, beelde, digitale sertifikate, strepieskodes, QR-kodes, seëls of metadata word ondersteun. Kliënte kan digitale handtekeninge by PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings, Adobe Photoshop-lêers en verskeie beeldformate byvoeg, verwyder, redigeer, valideer of deursoek. Talle nuttige kenmerke en instellings is beskikbaar."
+  },
+  "steps": {
+    "title_left": "Hoe om {{Signaturetype}}-handtekeninge in jou {{Lêerformaat}}-dokument te verander",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) sluit nuttige kenmerke in soos opdatering van {{Signaturetype}}-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.",
+      "step_1": "Om mee te begin, skep Signature-objek wat as 'n konstruktor-parameterpad na 'n dokument wat veronderstel is om opgedateer te word, deurgaan.",
+      "step_2": "Instansieer dan 'n toepaslike spesifieke handtekeningvoorwerp en stel sy identifiseerder en eienskappe op wat verander moet word.",
+      "step_3": "Laastens, roep Signature se Update-metode deur spesifieke handtekeningvoorwerp deur te gee.",
+      "step_4": "Verwerk die opdatering van resultate na u kennisgewing."
+    },
+    "title_right": "Stelselvereistes",
+    "content_right": {
+      "description": "{{ProductFullName}} word op alle groot platforms en bedryfstelsels ondersteun. Voordat u die kode hieronder uitvoer, maak asseblief seker dat u die volgende voorvereistes op u stelsel geïnstalleer het.",
+      "step_1": "Bedryfstelsels: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelingsomgewings: {{DevEnv}}",
+      "step_3": "Laai die nuutste weergawe van {{ProductFullName}} af vanaf [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Opdatering van die {{Signaturetype}}-handtekeninge op die dokumentbladsye - Live Demo",
+    "content": "Wysig verskeie elektroniese handtekeninge van die {{Fileformat}}-dokument op die oomblik deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek."
+  },
+  "more_formats": {
+    "title": "Dateer verskeie {{Signaturetype}} handtekeninge op via {{ProgLang}}",
+    "content": "Redigering van digitale handtekeninge wat in verskeie dokumentformate geplaas word. Dateer handtekeningdata op sonder ekstra kode."
+  }
+}

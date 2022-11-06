@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokument {{Codetype}} vöötkoodiga keeles {{ProgLang}}",
+    "meta_description": "Looge {{Codetype}} vöötkoodisignatuur ja lisage see paari koodirea abil dokumendile {{Fileformat}} tootega {{ProductName}}. Kasutage GroupDocs Document Signature API-d erinevate failivormingute allkirjastamiseks.",
+    "h1": "Looge {{ProgLang}}-s dokumendile {{Fileformat}} vöötkoodiallkiri {{Codetype}}",
+    "h2": "eAllkirjasta oma {{Fileformat}} äridokumendid {{Codetype}} vöötkoodiga. Looge vöötkoodisignatuur kiiresti ja lihtsalt mõne koodirea abil allkirjastamisvalikute seadistamiseks."
+  },
+  "digital-content": {
+    "meta_title": "Digitaalsete elektrooniliste allkirjade lisamine failile {{Fileformat}} rakendusega {{ProgLang}}",
+    "meta_description": "Sisestage digitaalallkiri toote {{ProductName}} failile {{Fileformat}}, kasutades mõnda koodirida. Kasutage GroupDocs Document Signature API-t kümnete failivormingute allkirjastamiseks.",
+    "h1": "eSign {{Fileformat}} failid {{Signaturetype}} allkirjaga rakenduses {{ProgLang}}",
+    "h2": "Kuidas lisada allkirja {{Signaturetype}} mõne reaga {{ProductName}} koodiga"
+  },
+  "image-content": {
+    "meta_title": "Allkirjade {{Signaturetype}} lisamine failile {{Fileformat}} rakendusega {{ProgLang}}",
+    "meta_description": "Pane allkiri {{Signaturetype}} allkiri {{ProductName}} failile {{Fileformat}}, kasutades mõnda koodirida. Kasutage GroupDocs Document Signature API-t kümnete failivormingute allkirjastamiseks.",
+    "h1": "Allkirjastage failid {{Fileformat}} allkirjadega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "h2": "Kuidas lisada allkirja {{Signaturetype}} mõne rea {{ProductName}} koodiga"
+  },
+  "metadata-content": {
+    "meta_title": "Lisage metaandmete elektroonilised allkirjad {{Fileformat}} dokumentidele {{ProgLang}} kaudu",
+    "meta_description": "Kasutage metaandmeid peidetud elektrooniliste allkirjadena oma {{Fileformat}} dokumentides, kasutades paari rida {{ProgLang}} koodi. Kasutage GroupDocs Document Signature API-t, et oma äridokumente ja -faile metaandmetega e-allkirjastada.",
+    "h1": "Dokumendi {{Fileformat}} metaandmete elektroonilised allkirjad toote {{ProductName}} kaudu on lihtsad ja hõlpsasti kasutatavad!",
+    "h2": "eAllkirjasta oma {{Fileformat}} dokumendid ja lepingud peidetud metaandmete kirjetega. Genereerige metaandmeid PDF-ide, MS Wordi dokumentide, MS Exceli töövihikute, MS PowerPointi esitluste ja erinevate pildivormingute jaoks ilma probleemide ja täiendava kodeerimiseta."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokument {{Codetype}} QR-koodiga rakenduses {{ProgLang}}",
+    "meta_description": "Looge QR-kood {{Codetype}} ja sisestage see faili {{Fileformat}}, kasutades {{ProductName}} koos lühikese {{ProgLang}} koodijupiga. Kasutage GroupDocs Document Signature API-t oma äridokumentide ja failide e-allkirjastamiseks QR-koodiga.",
+    "h1": "Looge {{ProgLang}} dokumendile {{Fileformat}} QR-koodi allkiri {{Codetype}}",
+    "h2": "eAllkirjasta oma {{Fileformat}} dokumendid ja lepingud QR-koodiga {{Codetype}}. Looge QR-koodi allkiri kiiresti ja lihtsalt."
+  },
+  "text-content": {
+    "meta_title": "Looge tekstiga elektroonilised allkirjad failile {{Fileformat}} rakendusega {{ProgLang}}",
+    "meta_description": "Pane {{Signaturetype}} e-allkiri {{ProductName}}-faili {{Fileformat}}, kasutades mõnda koodirida. Kasutage GroupDocs Document Signature API-t kümnete failivormingute allkirjastamiseks.",
+    "h1": "Allkirjastage failid {{Fileformat}} allkirjadega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "h2": "Kuidas lisada allkirja {{Signaturetype}} mõne rea {{ProductName}} koodiga"
+  },
+  "barcode-about": {
+    "title": "Teave {{ProductFullName}} vöötkoodisignatuuride API kohta.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on kiire ja lihtne API, mis võimaldab hallata digitaalsete dokumentide e-allkirjastamist, kasutades vöötkooditüüpe, nagu UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 ja paljud teised. Kliendid saavad hõlpsalt luua vöötkoode, mis sisaldavad vajalikku teksti ja panna need PDF-i, Microsoft Office Wordsi dokumentidesse, Microsoft Office Exceli töövihikutesse, MS PowerPointi esitlustesse, Adobe Photoshopi failidele ja erinevatesse pildivormingutesse. Dokumentidesse paigutatud vöötkoode saab uuendada, otsida, kontrollida, kustutada või eelvaadet vaadata. Lisaks toetatakse vöötkoodide kohandamist."
+  },
+  "digital-about": {
+    "title": "Teave {{ProductFullName}} digitaalallkirjade API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on populaarne API dokumentide allkirjastamiseks digitaalsete elektrooniliste allkirjadega ja digitaalsete sertifikaatidega. Digitaalallkirjade jaoks kasutab API parooliga kaitstud privaatsete ja avalike võtmetega dokumendi allkirjastamiseks PFX-sertifikaadi faile. Digitaalallkirju võib kasutada äridokumentide sertifitseerimiseks eSign PDF-i konkreetse lehe abil, tervete Microsoft Office'i dokumentide, näiteks Wordsi, Exceli, Powerpointi failide ja Open Office'i dokumentide sertifitseerimiseks. Kliendid saavad allkirjadega hõlpsalt manipuleerida, näiteks neid redigeerida, eemaldada või kohandada. API pakub võimalust allkirjade otsimiseks ja kinnitamiseks. Lisaks pakutakse palju allkirjade kohandamise võimalusi."
+  },
+  "image-about": {
+    "title": "Teave toote {{ProductFullName}} pildiallkirjade API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on populaarne API digitaalsete dokumentide e-allkirjastamiseks. Saadaval on allkirjad, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Allkirju võib panna PDF-idele, MS Wordi dokumentidele, MS Exceli töövihikutele, MS PowerPointi esitlustele, Adobe Photoshopi failidele ja erinevatele pildivormingutele. Kliendid saavad oma dokumenti allkirjastada ning uuendada, otsida, kontrollida, kustutada või vaadata nendele dokumentidele pandud e-allkirju. Lisaks pakutakse palju allkirjade kohandamise võimalusi."
+  },
+  "metadata-about": {
+    "title": "Teave {{ProductFullName}} metaandmete allkirjade API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on populaarne API digitaalsete dokumentide e-allkirjastamiseks. Saadaval on allkirjad, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Allkirju võib panna PDF-idele, MS Wordi dokumentidele, MS Exceli töövihikutele, MS PowerPointi esitlustele, Adobe Photoshopi failidele ja erinevatele pildivormingutele. Kliendid saavad oma dokumenti allkirjastada ning uuendada, otsida, kontrollida, kustutada või vaadata nendele dokumentidele pandud e-allkirju. Lisaks pakutakse palju allkirjade kohandamise võimalusi."
+  },
+  "qrcode-about": {
+    "title": "Teave toote {{ProductFullName}} QR-koodi allkirjade API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on täiskasvanud API dokumentide QR-koodi allkirjade loomiseks ja genereerimiseks. Kasutajad saavad selle allalaadimiseks või sotsiaalmeedias pildina jagada tekstiga QR-koodi allkirju. Allkirjastatud dokumenti saab skaneerida API-ga või lihtsalt üle mobiilikaamera! Allkirjastage oma ärilepingud ja ametlikud dokumendid elektrooniliselt QR-koodi allkirja lisamisega ja manipuleerige sellega. Iga QR-koodi allkiri sisaldab unikaalset kohandatud teavet allkirjastaja tuvastamiseks või dokumendi autoriseerimiseks. Lisaks saab QR-koodi sisu programmiliselt isiklike võtmetega krüpteerida ja dekrüpteerida. See avab palju võimalusi tundlike andmete jagamiseks avalikes dokumentides. Pärast allkirjastamist saab kasutaja QR-koode värskendada, kontrollida, kustutada, eelvaadata või otsida PDF-idest, MS Wordi dokumentidest, MS Exceli töövihikutest, MS PowerPointi esitlustest, Adobe Photoshopi failidest ja erinevatest pildivormingutest. QR-koode saab täiendavalt kohandada."
+  },
+  "text-about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on populaarne API digitaalsete dokumentide e-allkirjastamiseks. Saadaval on allkirjad, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Allkirju võib panna PDF-idele, MS Wordi dokumentidele, MS Exceli töövihikutele, MS PowerPointi esitlustele, Adobe Photoshopi failidele ja erinevatele pildivormingutele. Kliendid saavad oma dokumenti allkirjastada ning uuendada, otsida, kontrollida, kustutada või vaadata nendele dokumentidele pandud e-allkirju. Lisaks pakutakse palju allkirjade kohandamise võimalusi."
+  },
+  "system-requirements": {
+    "title": "Nõuded süsteemile",
+    "content": {
+      "description": "Toodet {{ProductFullName}} toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Hankige uusim {{ProductFullName}} kasutajalt [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "digital-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "image-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "metadata-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "text-steps": {
+    "title": "Toimingud {{Fileformat}} allkirjastamiseks rakendusega {{Signaturetype}} rakenduses {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab kiiresti ja lihtsalt allkirjastada {{Fileformat}} dokumente {{Signaturetype}} allkirjaga.",
+      "step_1": "Looge allkirjaklassi eksemplar, mis sisaldab faili {{Fileformat}}, mis peaks allkirjastama tee või mäluvoona",
+      "step_2": "Käivitage klass SignOptions ja määrake kõik nõutavad andmed.",
+      "step_3": "Käivitage meetod Signature.Sign(), mis edastab väljundfaili {{Fileformat}} või mäluvoo"
+    }
+  },
+  "demos": {
+    "title": "Dokumentide {{Fileformat}} allkirjastamine {{Signaturetype}} reaalajas demoga",
+    "content": "Allkirjastage fail {{Fileformat}} erinevate allkirjadega kohe, külastades veebisaiti [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Tasuta online demo ootab teid."
+  },
+  "more_formats": {
+    "title": "Muud toetatud {{Signaturetype}} allkirjad {{ProgLang}} jaoks",
+    "content": "Saate allkirjastada faili {{Fileformat}} ka muude allkirjatüüpidega. Vaadake allolevat loendit."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Universaalne tootekood on vöötkoodi sümboolika, mida kasutatakse laialdaselt kogu maailmas kaubaartiklite jälgimiseks kauplustes.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "Täpselt 11 numbrit + 1 kontrollnumber."
+    },
+    "UPCE": {
+      "details": "Universaalne tootekood on vöötkoodi sümboolika, mida kasutatakse laialdaselt kogu maailmas kaubaartiklite jälgimiseks kauplustes. UPC puhul on UPCE 8-kohaline variatsioon.",
+      "characterset": "Toetab ainult numbrilisi numbreid (0-9).",
+      "codetextcapacity": "Kooditeksti maht: täpselt 7 numbrit + 1 kontrollnumber."
+    },
+    "EAN13": {
+      "details": "Kõige sagedamini kasutatav EAN-standard on kolmeteistkümnekohaline EAN-13, mis on algse 12-kohalise universaalse tootekoodi standardi superkomplekt.",
+      "characterset": "Ainult numbrilised numbrid (0-9).",
+      "codetextcapacity": "Kooditeksti maht: täpselt 12 numbrit + 1 kontrollnumber."
+    },
+    "EAN14": {
+      "details": "Euroopa artiklinumber ehk EAN on standard, mis kirjeldab ülemaailmses kaubanduses kasutatavat vöötkoodi sümboolikat ja nummerdamissüsteemi, et tuvastada konkreetse tootja konkreetse jaemüügitoote tüüp konkreetses pakendikonfiguratsioonis.",
+      "characterset": "Numbrid (0-9) ja erimärgid.",
+      "codetextcapacity": "Täpselt 14 numbrit."
+    },
+    "Code39": {
+      "details": "Kood 39 (tuntud ka kui Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 või USD-3) on muutuva pikkusega diskreetne vöötkoodi sümboolika.",
+      "characterset": "Numbrilised numbrid (0–9) ja suurtähed (A–Z) ja hulk erimärke (-, ., $, /, +, % ja tühik).",
+      "codetextcapacity": "Spetsiifilisi piiranguid pole."
+    },
+    "Code39Extended": {
+      "details": "Kood 39 (tuntud ka kui Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 või USD-3) on muutuva pikkusega diskreetne vöötkoodi sümboolika.",
+      "characterset": "Märkide komplekt: kõik 128 ASCII märki.",
+      "codetextcapacity": "Spetsiifilisi piiranguid pole."
+    },
+    "Code128": {
+      "details": "Kood 128 on suure tihedusega lineaarne vöötkoodi sümbol, mis on määratletud standardis ISO/IEC 15417:2007. Seda kasutatakse tähtnumbriliste või ainult numbritega vöötkoodide jaoks.",
+      "characterset": "Kõik 128 ASCII tähemärki.",
+      "codetextcapacity": "Spetsiifilisi piiranguid pole."
+    },
+    "Codabar": {
+      "details": "Codabar on lineaarne vöötkoodi sümboolika, mis on loodud täpseks lugemiseks isegi siis, kui see on trükitud maatriksprinteritele mitmeosaliste vormide jaoks, nagu FedExi õhuarved ja verepanga vorm.",
+      "characterset": "Numbrid (0-9) ja erimärgid $/-:+.",
+      "codetextcapacity": "Spetsiifilisi piiranguid pole."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) on vöötkoodi sümboolika, mida Ameerika Ühendriikide postiteenistus kasutab posti suunamisel.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "Kuni 11 tähemärki."
+    },
+    "ISBN": {
+      "details": "Rahvusvaheline raamatu standardnumber (ISBN) on kommertsraamatu numbriline identifikaator, mis peab olema kordumatu.[a][b] Väljaandjad ostavad ISBN-e Rahvusvahelise ISBN-agentuuri sidusettevõttelt.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "Täpselt 9 numbrit + 1 kontrollnumber."
+    },
+    "ITF14": {
+      "details": "ITF-14 on Interleaved 2 of 5 (ITF) vöötkoodi GS1 rakendus globaalse kaubanumbri kodeerimiseks.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "13 numbrit + 1 kontrollnumber."
+    },
+    "Pdf417": {
+      "details": "PDF417 on virnastatud lineaarne vöötkoodivorming, mida kasutatakse mitmesugustes rakendustes, nagu transport, isikutunnistused ja varude haldamine.",
+      "characterset": "Kõik 256 ASCII märki.",
+      "codetextcapacity": "Kuni 800 tähemärki."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) on pidev kahe laiusega vöötkoodi sümbolikood, mis kodeerib numbreid. Seda kasutatakse kaubanduslikult 135-kilel, ITF-14 vöötkoodidel ja mõnede toodete karpidel, samas kui sees olevad tooted on märgistatud UPC või EAN-iga.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "Muutuv pikkus."
+    },
+    "Pharmacode": {
+      "details": "Farmaatsiakood, tuntud ka kui Pharmaceutical Binary Code, on vöötkoodistandard, mida kasutatakse farmaatsiatööstuses pakendikontrollisüsteemina.",
+      "characterset": "Numbrilised numbrid (0-9).",
+      "codetextcapacity": "Esindab ainult ühte täisarvu vahemikus 3 kuni 131070."
+    },
+    "Aztec": {
+      "details": "Asteekide kood on kahemõõtmeline (2-D) üldotstarbeline maatrikssümbololoogia, mis on loodud suurema täpsusega kui teistel kahemõõtmelistel sümbolitel. Asteekide koodi sümbol võib kodeerida kuni 3832 numbrilist numbrit; 3067 tähemärki; või 1914 baiti andmeid.",
+      "characterset": "Kõik 256 ASCII märki.",
+      "codetextcapacity": "Kuni 3832 numbrilist numbrit või 3067 tähemärki või 1914 baiti andmeid."
+    },
+    "DataMatrix": {
+      "details": "Andmemaatriks on kahemõõtmeline kood, mis koosneb mustvalgetest lahtritest või punktidest, mis on paigutatud kas ruudu- või ristkülikukujuliseks mustriks, mida nimetatakse ka maatriksiks. Kodeeritav teave võib olla tekst- või arvandmed.",
+      "characterset": "Toetab kõiki 256 ASCII-märki, kõiki ISO-märke ja kõiki laiendatud kahendkoodiga kümnendvahetuskoodi (EBCDIC) märke.",
+      "codetextcapacity": "Kuni 3116 numbrilist numbrit või 2335 tähtnumbrilist märki või 1556 kahendmärki."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix on Data Matrixi variant, mis vastab GS1 spetsifikatsioonidele. Kasutage GS1 DataMatrixi, et kodeerida teave, näiteks, kuid mitte ainult, järgmine: AI(01) globaalne kaubaartikli number (GTIN), AI(17) aegumiskuupäev, AI(10) partii number, AI(21) seerianumber. .",
+      "characterset": "Märkide komplekt: suur- ja väiketähed ning erimärgid $@%*+-./:=<>;&*_,'! kõik õigete rakenduse identifikaatoritega.",
+      "codetextcapacity": "Kooditeksti maht: kuni 3116 numbrilist numbrit või 2335 tähtnumbrilist märki."
+    },
+    "GS1QR": {
+      "details": "GS1 QR-kood on QR-koodi variant, mis vastab GS1 spetsifikatsioonidele. See oli loodud spetsiaalselt laiendatud pakenditeabe (nt partii number, toote ID ja kogus) jagamiseks.",
+      "characterset": "Suur- ja väiketähed ja erimärgid $%*+-./: kõik koos õigete rakenduse identifikaatoritega",
+      "codetextcapacity": "Kuni 7089 numbrimärki, 4296 tähtnumbrilist märki"
+    },
+    "QR": {
+      "details": "QR-kood (lühendatult kiirresponsi koodist) on teatud tüüpi maatriksvöötkoodi (või kahemõõtmelise vöötkoodi) kaubamärk. See on kõige populaarsem ja laialdasemalt kasutatav kahemõõtmelise koodi tüüp. Praktikas sisaldavad QR-koodid sageli veebisaidile või rakendusele osutava asukoha, identifikaatori või jälgija andmeid.",
+      "characterset": "Kõik 256 ASCII märki + Kanji",
+      "codetextcapacity": "Kuni 7089 numbrimärki, 4296 tähtnumbrilist märki, 2953 baiti (binaarandmed) või 1817 Kanji märki."
+    }
+  }
+}

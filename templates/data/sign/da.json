@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Filformat}} dokument med {{Codetype}} stregkode i {{ProgLang}}",
+    "meta_description": "Opret {{Codetype}} stregkodesignatur og læg den på {{Fileformat}} dokument med {{ProductName}} ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere forskellige filformater.",
+    "h1": "Generer {{Codetype}} Stregkodesignatur for {{Filformat}} dokument i {{ProgLang}}",
+    "h2": "eSignér dine {{Fileformat}} forretningsdokumenter med {{Codetype}} stregkode. Generer stregkodesignatur hurtigt og nemt med et par linjer kode for at opsætte signeringsmuligheder."
+  },
+  "digital-content": {
+    "meta_title": "Tilføjelse af digitale elektroniske signaturer til filen {{Fileformat}} med {{ProgLang}}",
+    "meta_description": "Sæt digital signatur på filen {{Fileformat}} for {{ProductName}} ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere snesevis af filformater.",
+    "h1": "eSign {{Fileformat}} filer med {{Signaturetype}} signaturer i {{ProgLang}}",
+    "h2": "Sådan tilføjer du {{Signaturetype}}-signatur med et par linjer med {{ProductName}}-kode"
+  },
+  "image-content": {
+    "meta_title": "Tilføjelse af {{Signaturetype}}-signaturer til {{Fileformat}}-fil med {{ProgLang}}",
+    "meta_description": "Sæt {{Signaturetype}} Signatur på {{Fileformat}} fil for {{ProductName}} ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere snesevis af filformater.",
+    "h1": "Signer {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h2": "Sådan tilføjer du {{Signaturetype}}-signatur med et par linjer med {{ProductName}}-kode"
+  },
+  "metadata-content": {
+    "meta_title": "Tilføj metadata elektroniske signaturer til {{Filformat}} dokumenter via {{ProgLang}}",
+    "meta_description": "Brug Metadata som skjulte elektroniske signaturer i dine {{Filformat}}-dokumenter ved at bruge et par linjer med {{ProgLang}}-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med metadataoplysninger.",
+    "h1": "Metadata elektroniske signaturer for {{Filformat}} dokument via {{ProductName}} er enkle og nemme at bruge!",
+    "h2": "eSignér dine {{Filformat}} dokumenter og kontrakter med skjulte metadataposter. Generer metadata til PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer og forskellige billedformater uden problemer og ekstra kodning."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Filformat}}-dokument med {{Codetype}} QR-kode i {{ProgLang}}",
+    "meta_description": "Opret {{Codetype}} QR-kode og læg den i {{Fileformat}}-filen ved hjælp af {{ProductName}} med et kort stykke {{ProgLang}}-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med QR-kode.",
+    "h1": "Generer {{Codetype}} QR-kodesignatur for {{Filformat}} dokument i {{ProgLang}}",
+    "h2": "eSignér dine {{Filformat}}-dokumenter og kontrakter med {{Codetype}} QR-kode. Generer QR-kodesignatur hurtigt og nemt."
+  },
+  "text-content": {
+    "meta_title": "Opret elektroniske tekstsignaturer til filen {{Fileformat}} med {{ProgLang}}",
+    "meta_description": "Sæt {{Signaturetype}} eSignature på filen {{Fileformat}} for {{ProductName}} ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere snesevis af filformater.",
+    "h1": "Signer {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h2": "Sådan tilføjer du {{Signaturetype}}-signatur med et par linjer med {{ProductName}}-kode"
+  },
+  "barcode-about": {
+    "title": "Om {{ProductFullName}} stregkodesignatur-API.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en hurtig og nem API til at administrere digitale dokumenter e-signering ved hjælp af stregkodetyper som UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 og mange andre. Kunder kan nemt oprette stregkoder, der giver den nødvendige tekst og lægge dem på PDF, Microsoft Office Words-dokumenter, Microsoft Office Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Stregkoder placeret i dokumenter kan enten opdateres, søges, verificeres, slettes eller forhåndsvises. Desuden understøttes stregkodertilpasning."
+  },
+  "digital-about": {
+    "title": "Om {{ProductFullName}} Digitale signaturer API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en populær API til at esignere dokumenter med de digitale elektroniske signaturer med digitale certifikater. Til Digitale signaturer bruger API PFX-certifikatfiler til at designe dokument med adgangskodebeskyttede private og offentlige nøgler. De digitale signaturer kan bruges til at certificere forretningsdokumenter med en bestemt eSign PDF-side, certificere hele Microsoft Office-dokumenter som Words, Excel, Powerpoint-filer og Open Office-dokumenter. Kunder kan nemt manipulere signaturerne som at redigere dem, fjerne eller justere. API'en giver mulighed for at søge og verificere signaturer. Desuden er der en masse muligheder for signaturtilpasning."
+  },
+  "image-about": {
+    "title": "Om {{ProductFullName}} billedsignatur-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en populær API til e-signering af digitale dokumenter. Signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata er tilgængelige. Signaturer kan placeres på PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Kunder kan underskrive deres dokument og opdatere, søge, verificere, slette eller forhåndsvise e-signaturer, der blev sat på disse dokumenter. Desuden er der en masse muligheder for signaturtilpasning."
+  },
+  "metadata-about": {
+    "title": "Om {{ProductFullName}} Metadata Signatures API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en populær API til e-signering af digitale dokumenter. Signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata er tilgængelige. Signaturer kan placeres på PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Kunder kan underskrive deres dokument og opdatere, søge, verificere, slette eller forhåndsvise e-signaturer, der blev sat på disse dokumenter. Desuden er der en masse muligheder for signaturtilpasning."
+  },
+  "qrcode-about": {
+    "title": "Om {{ProductFullName}} QR-kodesignatur-API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en moden API til at skabe og generere QR-kodesignaturer til dokumenterne. Brugere kan generere QR-kodesignaturer, der giver tekst til at downloade den eller dele den over de sociale medier som billede. Det signerede dokument kan scannes med API eller blot over mobilkameraet! Underskriv elektronisk dine forretningskontrakter og officielle dokumenter ved at tilføje QR-kodesignatur og manipuler den. Enhver QR-kodesignatur vil indeholde unikke brugerdefinerede oplysninger for at identificere underskriveren eller autorisere dokumentet. Desuden kan QR-kodens indhold krypteres og dekrypteres med personlige nøgler programmatisk. Det åbner mange muligheder for at dele følsomme data inde i de offentlige dokumenter. Efter underskrivelsen kan brugeren opdatere, verificere, slette, forhåndsvise eller søge efter QR-koderne i PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. QR-koder kan yderligere tilpasses."
+  },
+  "text-about": {
+    "title": "Om {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er en populær API til e-signering af digitale dokumenter. Signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata er tilgængelige. Signaturer kan placeres på PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Kunder kan underskrive deres dokument og opdatere, søge, verificere, slette eller forhåndsvise e-signaturer, der blev sat på disse dokumenter. Desuden er der en masse muligheder for signaturtilpasning."
+  },
+  "system-requirements": {
+    "title": "Systemkrav",
+    "content": {
+      "description": "{{ProductFullName}} understøttes på alle større platforme og operativsystemer. Før du udfører koden nedenfor, skal du sørge for, at du har følgende forudsætninger installeret på dit system.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Udviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Få den seneste {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "digital-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "image-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "metadata-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "text-steps": {
+    "title": "Trin til at signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver mulighed for at signere {{Fileformat}} dokumenter med {{Signaturetype}} signaturer hurtigt og nemt.",
+      "step_1": "Opret en forekomst af signaturklassen, der leverer {{Fileformat}}-fil, der skal signere som sti eller hukommelsesstrøm",
+      "step_2": "Instantiér SignOptions-klassen og indstil alle krævede data.",
+      "step_3": "Kald Signature.Sign()-metoden ved at sende output {{Fileformat}}-fil eller hukommelsesstrøm"
+    }
+  },
+  "demos": {
+    "title": "Signering af {{Filformat}} dokumenter med {{Signaturetype}} Live Demo",
+    "content": "Signer {{Fileformat}}-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig."
+  },
+  "more_formats": {
+    "title": "Andre understøttede {{Signaturetype}}-signaturer for {{ProgLang}}",
+    "content": "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Den universelle produktkode er en stregkodesymbolik, der er meget brugt over hele verden til sporing af handelsvarer i butikker.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "Præcis 11 cifre + 1 kontrolciffer."
+    },
+    "UPCE": {
+      "details": "Den universelle produktkode er en stregkodesymbolik, der er meget brugt over hele verden til sporing af handelsvarer i butikker. UPCE er en 8-cifret variation, hvis UPC.",
+      "characterset": "Understøtter kun numeriske cifre (0-9).",
+      "codetextcapacity": "Kodetekstkapacitet: nøjagtigt 7 cifre + 1 kontrolciffer."
+    },
+    "EAN13": {
+      "details": "Den mest almindeligt anvendte EAN-standard er den trettencifrede EAN-13, et supersæt af den originale 12-cifrede Universal Product Code-standard.",
+      "characterset": "Kun numeriske cifre (0-9).",
+      "codetextcapacity": "Kodetekstkapacitet: nøjagtigt 12 cifre + 1 kontrolciffer."
+    },
+    "EAN14": {
+      "details": "Europæisk artikelnummer eller EAN er en standard, der beskriver en stregkodesymbologi og et nummereringssystem, der bruges i global handel til at identificere en specifik detailprodukttype, i en specifik emballagekonfiguration, fra en specifik producent.",
+      "characterset": "Numeriske cifre (0-9) og specialtegn.",
+      "codetextcapacity": "Præcis 14 numeriske cifre."
+    },
+    "Code39": {
+      "details": "Kode 39 (også kendt som Alpha39, Kode 3 af 9, Kode 3/9, Type 39, USS Kode 39 eller USD-3) er en diskret stregkodesymbolologi med variabel længde.",
+      "characterset": "Numeriske cifre (0-9) og store bogstaver (A-Z) og et antal specialtegn (-, ., $, /, +, % og mellemrum).",
+      "codetextcapacity": "Ingen specifikke restriktioner."
+    },
+    "Code39Extended": {
+      "details": "Kode 39 (også kendt som Alpha39, Kode 3 af 9, Kode 3/9, Type 39, USS Kode 39 eller USD-3) er en diskret stregkodesymbolologi med variabel længde.",
+      "characterset": "Tegnsæt: alle 128 ASCII-tegn.",
+      "codetextcapacity": "Ingen specifikke restriktioner."
+    },
+    "Code128": {
+      "details": "Kode 128 er en lineær stregkodesymbologi med høj tæthed defineret i ISO/IEC 15417:2007. Det bruges til alfanumeriske eller kun numeriske stregkoder.",
+      "characterset": "Alle 128 tegn i ASCII.",
+      "codetextcapacity": "Ingen specifikke restriktioner."
+    },
+    "Codabar": {
+      "details": "Codabar er en lineær stregkodesymbologi, der er designet til at kunne læses nøjagtigt, selv når den udskrives på matrixprintere til flerdelte formularer såsom FedEx luftsedler og blodbankformularer.",
+      "characterset": "Numeriske cifre (0-9) og specialtegn $/-:+.",
+      "codetextcapacity": "Ingen specifikke restriktioner."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) er en stregkodesymbolik, der bruges af United States Postal Service til at hjælpe med at dirigere post.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "Op til 11 tegn."
+    },
+    "ISBN": {
+      "details": "International Standard Book Number (ISBN) er en numerisk kommerciel bogidentifikator, som er beregnet til at være unik.[a][b] Udgivere køber ISBN'er fra en affiliate af International ISBN Agency.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "Præcis 9 cifre + 1 kontrolciffer."
+    },
+    "ITF14": {
+      "details": "ITF-14 er GS1-implementeringen af ​​en Interleaved 2 of 5 (ITF) stregkode til at kode et Global Trade Item Number.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "13 cifre + 1 kontrolciffer."
+    },
+    "Pdf417": {
+      "details": "PDF417 er et stablet lineært stregkodeformat, der bruges i en række forskellige applikationer såsom transport, id-kort og lagerstyring.",
+      "characterset": "Alle 256 ASCII-tegn.",
+      "codetextcapacity": "Op til 800 tegn."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) er en kontinuerlig to-bredde stregkode symbologi kodende cifre. Det bruges kommercielt på 135 film, til ITF-14 stregkoder og på kartoner med nogle produkter, mens produkterne indeni er mærket med UPC eller EAN.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "Variabel længde."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, også kendt som Pharmaceutical Binary Code, er en stregkodestandard, der bruges i den farmaceutiske industri som et pakkekontrolsystem.",
+      "characterset": "Numeriske cifre (0-9).",
+      "codetextcapacity": "Repræsenterer kun et enkelt heltal fra 3 til 131070."
+    },
+    "Aztec": {
+      "details": "Aztec Code er en todimensionel (2-D) matrix-symbologi til generelle formål, der er designet til at have højere nøjagtighed end andre 2-D-symbologier. Et Aztec Code-symbol kan kode op til 3.832 numeriske cifre; 3.067 alfabetiske tegn; eller 1.914 bytes data.",
+      "characterset": "Alle 256 ASCII-tegn.",
+      "codetextcapacity": "Op til 3.832 numeriske cifre eller 3.067 alfabetiske tegn eller 1.914 bytes data."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix er en todimensionel kode, der består af sorte og hvide 'celler' eller prikker arrangeret i enten et kvadratisk eller rektangulært mønster, også kendt som en matrix. Den information, der skal kodes, kan være tekst eller numeriske data.",
+      "characterset": "Understøtter alle 256 ASCII-tegn, alle ISO-tegn og alle EBCDIC-tegn (Extended Binary Coded Decimal Interchange Code).",
+      "codetextcapacity": "Op til 3116 numeriske cifre eller 2335 alfanumeriske tegn eller 1556 binære tegn."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix er en variant af Data Matrix, der er i overensstemmelse med GS1 specifikationer. Brug GS1 DataMatrix til at kode oplysningerne såsom, men ikke begrænset til, følgende: AI(01) Global Trade Item Number (GTIN), AI(17) Udløbsdato, AI(10) Batchnummer, AI(21) Serienummer .",
+      "characterset": "Tegnsæt: store og små bogstaver og specialtegn $@%*+-./:=<>;&*_,'! alle med korrekte applikations-id'er.",
+      "codetextcapacity": "Kodetekstkapacitet: op til 3116 numeriske cifre eller 2335 alfanumeriske tegn."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code er en variant af QR Code, der er i overensstemmelse med GS1 specifikationer. Det blev designet specifikt til at dele udvidede emballageoplysninger, såsom lotnummer, produkt-id og antal.",
+      "characterset": "Store og små bogstaver og specialtegn $%*+-./: alle med korrekte applikations-id'er",
+      "codetextcapacity": "Op til 7089 numeriske tegn, 4296 alfanumeriske tegn"
+    },
+    "QR": {
+      "details": "QR Code (forkortet fra Quick Response Code) er varemærket for en type matrixstregkode (eller todimensionel stregkode). Det er den mest populære og udbredte type todimensionel kode. I praksis indeholder QR-koder ofte data for en lokalisator, identifikator eller tracker, der peger på et websted eller en applikation.",
+      "characterset": "Alle 256 ASCII-tegn + Kanji",
+      "codetextcapacity": "Op til 7089 numeriske tegn, 4296 alfanumeriske tegn, 2953 bytes (binære data) eller 1817 Kanji-tegn."
+    }
+  }
+}

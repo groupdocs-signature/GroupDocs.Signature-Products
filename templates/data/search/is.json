@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Leitaðu að {{Signaturetype}} undirskriftum í {{Fileformat}} skrá í {{ProgLang}}",
+    "meta_description": "Notaðu {{ProductName}} til að leita að {{Signaturetype}} undirskriftum í {{Fileformat}} skrám með því að nota nokkrar línur af kóða.",
+    "h1": "Leitaðu að {{Signaturetype}} undirskriftum í {{Fileformat}} skrá",
+    "h2": "Innbyggt forritaskil {{ProductName}} gerir kleift að leita að {{Signaturetype}} undirskriftum í þegar undirrituðum {{Fileformat}} skrám. Framkvæmdu háþróaða leit með rafrænum undirskriftum í {{Fileformat}} skjölunum þínum með því að nota nokkrar línur af kóða."
+  },
+  "about": {
+    "title": "Um {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) býður upp á {{ProductName}} API til að vinna úr skjölum með því að nota ýmsar undirskriftargerðir eins og texta, myndir, stafræn skilríki, strikamerki, QR-kóða, stimpla eða lýsigögn. Notendur geta bætt við, eytt, uppfært, staðfest eða leitað í rafrænum undirskriftum í PDF-skjölum, MS Word skjölum, MS Excel vinnubókum, MS PowerPoint kynningum, Adobe Photoshop skrám og ýmsum myndsniðum, með viðbótarstuðningi við að sérsníða eiginleika undirskrifta eftir þörfum."
+  },
+  "steps": {
+    "title_left": "Hvernig á að leita að {{Signaturetype}} undirskriftum í {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) auðveldar forriturum {{ProductName}} að leita að {{Signaturetype}} undirskriftum í {{Fileformat}} skrám úr forritum sínum með því að útfæra nokkur einföld skref.",
+      "step_1": "Búðu til nýtt tilvik af Signature class og sendu frumskjalsslóð sem byggingarbreytu.",
+      "step_2": "Stofnaðu SearchOptions hlutinn í samræmi við kröfur þínar og tilgreindu leitarmöguleika.",
+      "step_3": "Hringdu í leitaraðferð fyrir undirskriftarflokkstilvik og sendu SearchOptions til þess.",
+      "step_4": "Vinndu leitarniðurstöður í samræmi við kröfur þínar."
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "{{ProductFullName}} eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Sæktu nýjustu útgáfuna af {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Leitaðu að {{Signaturetype}} rafrænum undirskriftum Live Demo",
+    "content": "Leitaðu í skjalinu að ýmsum rafrænum undirskriftum í {{Fileformat}} skrár núna með því að fara á [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) vefsíðuna."
+  },
+  "more_formats": {
+    "title": "Leitaðu að öðrum {{Signaturetype}} undirskriftum með því að nota {{ProgLang}}",
+    "content": "Rafrænar undirskriftir leita í ýmsum skjölum. Finndu undirskriftir frá einu af vinsælustu skráarsniðunum eins og sýnt er hér að neðan."
+  }
+}

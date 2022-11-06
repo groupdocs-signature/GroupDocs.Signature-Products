@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "A {{Signaturetype}} aláírások ellenőrzése a {{Fileformat}} fájlokhoz a {{ProgLang}} segítségével",
+    "meta_description": "Csak néhány sornyi {{ProductName}} kódot használjon a {{Fileformat}} dokumentumok és a hozzájuk tartozó {{Signaturetype}} aláírások ellenőrzéséhez.",
+    "h1": "{{Signaturetype}} aláírás ellenőrzése a {{Fileformat}} fájlokhoz",
+    "h2": "A(z) {{ProductName}} API lehetőséget biztosít a(z) {{Signaturetype}} aláírások ellenőrzésére a(z) {{Fileformat}} dokumentumoknál. A {{Fileformat}} dokumentumaiban lévő e-aláírások ellenőrzése gyorsan és egyszerűen elvégezhető."
+  },
+  "about": {
+    "title": "Fedezze fel az új {{ProductFullName}} API-funkciókat",
+    "content": "A [{{ProductFullName}}]({{ProductUrl}}) API számos módot kínál számos dokumentumformátum elektronikus aláírással történő feldolgozására. A digitális aláírások sok típusa, például szövegek, képek, digitális tanúsítványok, vonalkódok, QR-kódok, bélyegzők vagy metaadatok támogatottak. Az ügyfelek hozzáadhatnak, eltávolíthatnak, szerkeszthetnek, érvényesíthetnek vagy kereshetnek digitális aláírásokban PDF-ekben, MS Word dokumentumokban, MS Excel munkafüzetekben, MS PowerPoint prezentációkban, Adobe Photoshop fájlokban és különféle képformátumokban. Elképesztően sok további funkció és beállítás érhető el."
+  },
+  "steps": {
+    "title_left": "A {{Signaturetype}} aláírások érvényesítése a {{Fájlformátum}} dokumentumban",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{ProductUrl}}) olyan hasznos funkciókat tartalmaz, mint a {{Signaturetype}} aláírások ellenőrzése a {{Fileformat}} dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.",
+      "step_1": "Először is, példányosítson Signature osztályt, amely konstruktor paraméter elérési útját adja egy ellenőrizni kívánt dokumentumhoz.",
+      "step_2": "Másodszor, hozzon létre egy új VerifyOptions objektumot, és állítsa be az összes szükséges tulajdonságot.",
+      "step_3": "Végül hívja meg a Signature objektum Verify metódust, amely átadja a VerifyOptions példányt.",
+      "step_4": "Ezután dolgozza fel az ellenőrzési eredményeket."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} minden nagyobb platformon és operációs rendszeren támogatott. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztői környezetek: {{DevEnv}}",
+      "step_3": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Aláírás {{Signaturetype}} aláírásokkal Élő bemutató",
+    "content": "A [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webhely meglátogatásával azonnal adjon hozzá különféle elektronikus aláírásokat a {{Fileformat}} fájlhoz."
+  },
+  "more_formats": {
+    "title": "Ellenőrizze a többi {{Signaturetype}} aláírást a {{ProgLang}} segítségével",
+    "content": "Különféle dokumentumokban elhelyezett elektronikus aláírások ellenőrzése. Ellenőrizze az aláírások minőségét a népszerű fájlformátumokban az alábbiak szerint."
+  }
+}

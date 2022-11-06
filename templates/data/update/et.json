@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Värskendage {{Signaturetype}} allkirja, mis on pandud failidesse {{Fileformat}} rakendusega {{ProgLang}}",
+    "meta_description": "Kasutage allkirjastatud {{Fileformat}} dokumentides allkirjade {{Signaturetype}} värskendamiseks lihtsat ja hõlpsasti mõistetavat {{ProductName}} koodi.",
+    "h1": "Muutke ja värskendage failidesse {{Fileformat}} pandud allkirju {{Signaturetype}}",
+    "h2": "API for {{ProductName}} pakub funktsiooni {{Signaturetype}} allkirjade värskendamiseks dokumentides {{Fileformat}}. Värskendage oma {{Fileformat}} dokumentides olevaid e-allkirju paari rea koodiga {{ProgLang}} kiiresti ja lihtsalt."
+  },
+  "about": {
+    "title": "Lisateave toote {{ProductFullName}} API funktsioonide kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-funktsioonid sisaldavad laia valikut vahendeid nõutavate dokumentide vormingute töötlemiseks elektrooniliste allkirjade abil. Toetatud on lai valik e-allkirju, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Kliendid saavad lisada, eemaldada, redigeerida, kinnitada või otsida digitaalallkirju PDF-ides, MS Wordi dokumentides, MS Exceli töövihikutes, MS PowerPointi esitlustes, Adobe Photoshopi failides ja erinevates pildivormingutes. Saadaval on palju kasulikke funktsioone ja seadeid."
+  },
+  "steps": {
+    "title_left": "Kuidas muuta allkirja {{Signaturetype}} oma dokumendis {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) sisaldab kasulikke funktsioone, nagu {{Signaturetype}} allkirjade värskendamine, mis on paigutatud dokumentidele {{Fileformat}}. See võimaldab muuta allkirjafunktsioone ilma lisakoodita.",
+      "step_1": "Alustuseks looge allkirjaobjekt, mis edastab konstruktori parameetri teena dokumendile, mida peaks värskendama.",
+      "step_2": "Seejärel looge sobiv konkreetne allkirjaobjekt ja seadistage selle identifikaator ja atribuudid, mida tuleb muuta.",
+      "step_3": "Lõpuks helistage Signature's Update meetodile, edastades konkreetse allkirjaobjekti.",
+      "step_4": "Töötlege tulemuste värskendamist teie teate järgi."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "Toodet {{ProductFullName}} toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Allkirjade {{Signaturetype}} värskendamine dokumendilehtedel – reaalajas demo",
+    "content": "Saate kohe redigeerida dokumendi {{Fileformat}} erinevaid elektroonilisi allkirju, külastades veebisaiti [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Värskendage {{Signaturetype}} allkirju {{ProgLang}} kaudu",
+    "content": "Erinevatesse dokumendivormingutesse paigutatud digitaalallkirjade redigeerimine. Uuendage allkirjaandmeid ilma lisakoodita."
+  }
+}

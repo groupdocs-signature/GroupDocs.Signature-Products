@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Kustutage {{Signaturetype}} allkirjad failist {{Fileformat}} läbi {{ProgLang}}",
+    "meta_description": "Konkreetsete {{Signaturetype}} allkirjade kustutamine allkirjastatud {{Fileformat}} dokumentidest saab hõlpsasti teostada lühikese {{ProductName}} koodiga.",
+    "h1": "Eemaldage allkirjad {{Signaturetype}}, mis on paigutatud failidesse {{Fileformat}}",
+    "h2": "Kustutage erinevad allkirjad {{Signaturetype}} dokumentidest {{Fileformat}}. Allkirjade {{Signaturetype}} eemaldamine nõuab lihtsat {{ProgLang}} koodi."
+  },
+  "about": {
+    "title": "Hankige teavet toote {{ProductFullName}} API funktsioonide kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API pakub palju võimalusi dokumentide töötlemiseks elektrooniliste allkirjade abil. Saadaval on digitaalallkirjad, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Klientidel on võimalus lisada, kustutada, uuendada, kontrollida või otsida digiallkirju PDF-idest, MS Wordi dokumentidest, MS Exceli töövihikutest, MS PowerPointi esitlustest, Adobe Photoshopi failidest ja erinevatest pildivormingutest. Saadaval on suur hulk kasulikke funktsioone ja sätteid."
+  },
+  "steps": {
+    "title_left": "Kuidas eemaldada allkirjad {{Signaturetype}} oma dokumendist {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pakub kasulikku funktsiooni {{Fileformat}} dokumentide {{Signaturetype}} allkirjade eemaldamiseks mõne koodireaga.",
+      "step_1": "Esiteks looge signatuuriobjekt, mis edastab konstruktori parameetrina teie dokumendi tee.",
+      "step_2": "Seejärel looge sobiv allkirjaobjekt ja seadistage selle kordumatu identifikaator.",
+      "step_3": "Pärast seda käivitage kustutamismeetod, mis edastab allkirjaobjekti, mis tuleb kustutada.",
+      "step_4": "Lõpuks protsessi toimimise tulemused."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "Toodet {{ProductFullName}} toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Allkirjastamine {{Signaturetype}} allkirjaga Live Demo",
+    "content": "Lisage kohe failile {{Fileformat}} erinevad elektroonilised allkirjad, külastades veebisaiti [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Kustutage oma allkirjad {{Signaturetype}} rakendusega {{ProgLang}}",
+    "content": "Erinevatele dokumendivormingutele lisatud e-allkirjade kustutamine. Eemaldage allkirjad kiiresti ilma lisakoodita."
+  }
+}

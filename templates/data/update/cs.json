@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Aktualizujte podpisy {{Signaturetype}} umístěné v souborech {{Fileformat}} pomocí {{ProgLang}}",
+    "meta_description": "Použijte jednoduchý a snadno pochopitelný kód {{ProductName}} pro aktualizaci podpisů {{Signaturetype}} v podepsaných dokumentech {{Fileformat}}.",
+    "h1": "Upravte a aktualizujte podpisy {{Signaturetype}} umístěné v souborech {{Fileformat}}",
+    "h2": "API pro {{ProductName}} poskytuje funkce pro aktualizaci podpisů {{Signaturetype}} v dokumentech {{Fileformat}}. Aktualizujte elektronické podpisy ve svých dokumentech {{Fileformat}} pomocí několika řádků kódu {{ProgLang}} rychle a snadno."
+  },
+  "about": {
+    "title": "Přečtěte si o funkcích API služby {{ProductFullName}}",
+    "content": "Funkce API [{{ProductFullName}}]({{ProductUrl}}) obsahuje široký výběr prostředků pro zpracování dokumentů ve formátech poptávky pomocí elektronických podpisů. Je podporováno široké spektrum elektronických podpisů, jako jsou texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Zákazníci mohou přidávat, odstraňovat, upravovat, ověřovat nebo prohledávat digitální podpisy v souborech PDF, dokumentech MS Word, sešitech MS Excel, prezentacích MS PowerPoint, souborech Adobe Photoshop a různých formátech obrázků. K dispozici je řada užitečných funkcí a nastavení."
+  },
+  "steps": {
+    "title_left": "Jak změnit podpisy {{Signaturetype}} ve vašem dokumentu {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) obsahuje užitečné funkce, jako je aktualizace podpisů {{Signaturetype}} umístěných v dokumentech {{Fileformat}}. Umožňuje měnit vlastnosti podpisů bez dalšího kódu.",
+      "step_1": "Začněte tím, že vytvoříte objekt Signature, který bude předán jako cesta parametru konstruktoru k dokumentu, který má být aktualizován.",
+      "step_2": "Poté vytvořte instanci příslušného konkrétního objektu podpisu a nastavte jeho identifikátor a vlastnosti, které je třeba změnit.",
+      "step_3": "Nakonec zavolejte metodu Signature's Update předáním konkrétního objektu podpisu.",
+      "step_4": "Zpracujte aktualizaci výsledků k vašemu upozornění."
+    },
+    "title_right": "Požadavky na systém",
+    "content_right": {
+      "description": "{{ProductFullName}} jsou podporovány na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte ve svém systému nainstalovány následující předpoklady.",
+      "step_1": "Operační systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojová prostředí: {{DevEnv}}",
+      "step_3": "Stáhněte si nejnovější verzi {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Aktualizace podpisů {{Signaturetype}} na stránkách dokumentu - Živá ukázka",
+    "content": "Upravte různé elektronické podpisy dokumentu {{Fileformat}} právě teď na webu [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Aktualizujte různé podpisy {{Signaturetype}} prostřednictvím {{ProgLang}}",
+    "content": "Úpravy digitálních podpisů, které jsou umístěny v různých formátech dokumentů. Aktualizujte data podpisů bez dalšího kódu."
+  }
+}

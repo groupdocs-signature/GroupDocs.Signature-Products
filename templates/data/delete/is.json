@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Eyða {{Signaturetype}} undirskriftum úr {{Fileformat}} skrám í gegnum {{ProgLang}}",
+    "meta_description": "Auðvelt er að eyða tilteknum {{Signaturetype}} undirskriftum úr undirrituðum {{Fileformat}} skjölum með stuttum {{ProductName}} kóða.",
+    "h1": "Fjarlægðu {{Signaturetype}} undirskriftir sem eru settar í {{Fileformat}} skrár",
+    "h2": "Eyða ýmsum {{Signaturetype}} undirskriftum úr {{Fileformat}} skjölum. Til að fjarlægja {{Signaturetype}} undirskrift þarf einfaldan {{ProgLang}} kóða."
+  },
+  "about": {
+    "title": "Fáðu upplýsingar um eiginleika {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API veitir margar leiðir til að vinna úr skjölum þínum með rafrænum undirskriftum. Stafrænar undirskriftir eins og textar, myndir, stafræn skilríki, strikamerki, QR-kóðar, stimplar eða lýsigögn eru tiltækar. Viðskiptavinir hafa möguleika á að bæta við, eyða, uppfæra, sannreyna eða leita í stafrænum undirskriftum á PDF skjölum, MS Word skjölum, MS Excel vinnubókum, MS PowerPoint kynningum, Adobe Photoshop skrám og ýmsum myndsniðum. Mikill fjöldi gagnlegra eiginleika og stillinga er til staðar."
+  },
+  "steps": {
+    "title_left": "Hvernig á að fjarlægja {{Signaturetype}} undirskriftir úr {{Fileformat}} skjalinu þínu",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) býður upp á gagnlegan eiginleika til að hreinsa {{Fileformat}} skjöl af {{Signaturetype}} undirskriftum með nokkrum línum af kóða.",
+      "step_1": "Í fyrsta lagi, staðfestu Signature hlut sem fer í gegnum slóðina í skjalið þitt sem byggingarbreytu.",
+      "step_2": "Búðu síðan til viðeigandi undirskriftarhlut og settu upp einstakt auðkenni hans.",
+      "step_3": "Eftir það skaltu kalla á Delete method sem sendir undirskriftarhlut sem verður að eyða.",
+      "step_4": "Að lokum, niðurstöður vinnsluaðgerða."
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "{{ProductFullName}} eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Sæktu nýjustu útgáfuna af {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Undirskrift með {{Signaturetype}} undirskriftum Live Demo",
+    "content": "Bættu ýmsum rafrænum undirskriftum við {{Fileformat}} skrá núna með því að fara á [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) vefsíðuna."
+  },
+  "more_formats": {
+    "title": "Eyddu {{Signaturetype}} undirskriftunum þínum með {{ProgLang}}",
+    "content": "Eyðing rafrænna undirskrifta sem bætt var við ýmis skjalasnið. Fjarlægðu undirskriftir fljótt án aukakóða."
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "Dokument eSign {{Fileformat}} s čárovým kódem {{Codetype}} v {{ProgLang}}",
+    "meta_description": "Vytvořte podpis čárového kódu {{Codetype}} a vložte jej do dokumentu {{Fileformat}} s {{ProductName}} pomocí několika řádků kódu. K podepisování různých formátů souborů použijte rozhraní GroupDocs Document Signature API.",
+    "h1": "Vygenerujte podpis čárového kódu {{Codetype}} pro dokument {{Fileformat}} v {{ProgLang}}",
+    "h2": "ePodepište své obchodní dokumenty ve formátu {{Fileformat}} pomocí čárového kódu {{Codetype}}. Vygenerujte podpis čárového kódu rychle a snadno pomocí několika řádků kódu pro nastavení možností podepisování."
+  },
+  "digital-content": {
+    "meta_title": "Přidání digitálních elektronických podpisů do souboru {{Fileformat}} pomocí {{ProgLang}}",
+    "meta_description": "Vložte digitální podpis do souboru {{Fileformat}} pro {{ProductName}} pomocí několika řádků kódu. Pomocí rozhraní GroupDocs Document Signature API podepisujte desítky formátů souborů.",
+    "h1": "Soubory eSign {{Fileformat}} s podpisy {{Signaturetype}} v {{ProgLang}}",
+    "h2": "Jak přidat podpis {{Signaturetype}} pomocí několika řádků kódu {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Přidání podpisů {{Signaturetype}} do souboru {{Fileformat}} pomocí {{ProgLang}}",
+    "meta_description": "Vložte podpis {{Signaturetype}} do souboru {{Fileformat}} pro {{ProductName}} pomocí několika řádků kódu. Pomocí rozhraní GroupDocs Document Signature API podepisujte desítky formátů souborů.",
+    "h1": "Podepisujte soubory {{Fileformat}} pomocí podpisů {{Signaturetype}} v {{ProgLang}}",
+    "h2": "Jak přidat podpis {{Signaturetype}} pomocí několika řádků kódu {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Připojte elektronické podpisy metadat k dokumentům {{Fileformat}} prostřednictvím {{ProgLang}}",
+    "meta_description": "Použijte metadata jako skryté elektronické podpisy ve svých dokumentech {{Fileformat}} pomocí několika řádků kódu {{ProgLang}}. Použijte GroupDocs Document Signature API k elektronickému podepisování obchodních dokumentů a souborů pomocí metadat.",
+    "h1": "Elektronické podpisy metadat pro dokument {{Fileformat}} prostřednictvím {{ProductName}} jsou jednoduché a snadno se používají!",
+    "h2": "ePodepište své dokumenty a smlouvy {{Fileformat}} se skrytými položkami metadat. Vytvářejte metadata pro soubory PDF, dokumenty MS Word, sešity MS Excel, prezentace MS PowerPoint a různé formáty obrázků bez problémů a navíc s kódováním."
+  },
+  "qrcode-content": {
+    "meta_title": "Dokument eSign {{Fileformat}} s {{Codetype}} QR kódem v {{ProgLang}}",
+    "meta_description": "Vytvořte QR kód {{Codetype}} a vložte jej do souboru {{Fileformat}} pomocí {{ProductName}} s krátkým kódem {{ProgLang}}. Použijte GroupDocs Document Signature API k elektronickému podepisování obchodních dokumentů a souborů pomocí QR kódu.",
+    "h1": "Vygenerujte podpis {{Codetype}} QR kódu pro dokument {{Fileformat}} v {{ProgLang}}",
+    "h2": "ePodepište své dokumenty a smlouvy ve formátu {{Fileformat}} pomocí QR kódu {{Codetype}}. Vygenerujte podpis QR kódu rychle a snadno."
+  },
+  "text-content": {
+    "meta_title": "Vytvořte textové elektronické podpisy do souboru {{Fileformat}} pomocí {{ProgLang}}",
+    "meta_description": "Vložte elektronický podpis {{Signaturetype}} do souboru {{Fileformat}} pro {{ProductName}} pomocí několika řádků kódu. Pomocí rozhraní GroupDocs Document Signature API podepisujte desítky formátů souborů.",
+    "h1": "Podepisujte soubory {{Fileformat}} pomocí podpisů {{Signaturetype}} v {{ProgLang}}",
+    "h2": "Jak přidat podpis {{Signaturetype}} pomocí několika řádků kódu {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "O rozhraní API pro podpisy čárových kódů {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je rychlé a snadné rozhraní API pro správu elektronického podepisování digitálních dokumentů pomocí typů čárových kódů, jako jsou UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 a mnoho dalších. Zákazníci mohou snadno vytvářet čárové kódy poskytující požadovaný text a vkládat je do PDF, dokumentů Microsoft Office Words, sešitů Microsoft Office Excel, prezentací MS PowerPoint, souborů Adobe Photoshop a různých obrazových formátů. Čárové kódy umístěné v dokumentech lze aktualizovat, vyhledávat, ověřovat, mazat nebo zobrazovat náhled. Navíc je podporováno přizpůsobení čárových kódů."
+  },
+  "digital-about": {
+    "title": "O {{ProductFullName}} rozhraní API pro digitální podpisy",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je populární API pro podepisování dokumentů pomocí digitálních elektronických podpisů a digitálních certifikátů. Pro rozhraní API pro digitální podpisy používá soubory certifikátů PFX k podpisu dokumentu pomocí soukromých a veřejných klíčů chráněných heslem. Digitální podpisy lze použít k certifikaci obchodních dokumentů s konkrétní stránkou eSign PDF, k certifikaci celých dokumentů Microsoft Office, jako jsou Words, Excel, soubory Powerpoint a dokumenty Open Office. Zákazníci mohou s podpisy snadno manipulovat, například je upravovat, odstraňovat nebo upravovat. API poskytuje způsob, jak vyhledávat a ověřovat podpisy. Navíc je k dispozici mnoho schopností pro přizpůsobení podpisů."
+  },
+  "image-about": {
+    "title": "O rozhraní API pro podpisy obrázků {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je oblíbené rozhraní API pro elektronické podepisování digitálních dokumentů. K dispozici jsou podpisy jako texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Podpisy lze umístit do souborů PDF, dokumentů MS Word, sešitů MS Excel, prezentací MS PowerPoint, souborů Adobe Photoshop a různých obrazových formátů. Zákazníci mohou podepsat svůj dokument a aktualizovat, vyhledávat, ověřovat, mazat nebo zobrazovat elektronické podpisy, které byly na tyto dokumenty vloženy. Navíc je k dispozici mnoho schopností pro přizpůsobení podpisů."
+  },
+  "metadata-about": {
+    "title": "O rozhraní API pro podpisy metadat {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je oblíbené rozhraní API pro elektronické podepisování digitálních dokumentů. K dispozici jsou podpisy jako texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Podpisy lze umístit do souborů PDF, dokumentů MS Word, sešitů MS Excel, prezentací MS PowerPoint, souborů Adobe Photoshop a různých obrazových formátů. Zákazníci mohou podepsat svůj dokument a aktualizovat, vyhledávat, ověřovat, mazat nebo zobrazovat elektronické podpisy, které byly na tyto dokumenty vloženy. Navíc je k dispozici mnoho schopností pro přizpůsobení podpisů."
+  },
+  "qrcode-about": {
+    "title": "O rozhraní API pro podpisy QR kódu {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je vyspělé rozhraní API pro vytváření a generování podpisů QR kódu pro dokumenty. Uživatelé mohou generovat podpisy QR kódu poskytující text ke stažení nebo sdílení přes sociální média jako obrázek. Podepsaný dokument lze naskenovat pomocí API nebo jednoduše přes mobilní kameru! Podepisujte elektronicky své obchodní smlouvy a úřední dokumenty přidáním podpisu QR kódu a manipulujte s nimi. Jakýkoli podpis QR kódu bude obsahovat jedinečné vlastní informace, které identifikují podepisujícího nebo autorizují dokument. Kromě toho lze obsah QR kódu programově šifrovat a dešifrovat pomocí osobních klíčů. To otevírá mnoho možností pro sdílení citlivých dat uvnitř veřejných dokumentů. Po podpisu může uživatel aktualizovat, ověřovat, mazat, zobrazovat náhled nebo vyhledávat QR kódy v souborech PDF, dokumentech MS Word, sešitech MS Excel, prezentacích MS PowerPoint, souborech Adobe Photoshop a různých formátech obrázků. QR kódy lze dodatečně upravit."
+  },
+  "text-about": {
+    "title": "O {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je oblíbené rozhraní API pro elektronické podepisování digitálních dokumentů. K dispozici jsou podpisy jako texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Podpisy lze umístit do souborů PDF, dokumentů MS Word, sešitů MS Excel, prezentací MS PowerPoint, souborů Adobe Photoshop a různých obrazových formátů. Zákazníci mohou podepsat svůj dokument a aktualizovat, vyhledávat, ověřovat, mazat nebo zobrazovat elektronické podpisy, které byly na tyto dokumenty vloženy. Navíc je k dispozici mnoho schopností pro přizpůsobení podpisů."
+  },
+  "system-requirements": {
+    "title": "Požadavky na systém",
+    "content": {
+      "description": "{{ProductFullName}} jsou podporovány na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte na svém systému nainstalovány následující předpoklady.",
+      "step_1": "Operační systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojová prostředí: {{DevEnv}}",
+      "step_3": "Získejte nejnovější {{ProductFullName}} od [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "digital-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "image-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "metadata-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "text-steps": {
+    "title": "Kroky k podepsání {{Fileformat}} pomocí {{Signaturetype}} v {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umožňuje rychle a snadno podepisovat dokumenty {{Fileformat}} pomocí podpisů {{Signaturetype}}.",
+      "step_1": "Vytvořte instanci třídy Signature poskytující soubor {{Fileformat}}, který se má podepisovat jako cesta nebo proud paměti",
+      "step_2": "Instantujte třídu SignOptions a nastavte všechna požadovaná data.",
+      "step_3": "Vyvolejte metodu Signature.Sign() předáním výstupního souboru {{Fileformat}} nebo proudu paměti"
+    }
+  },
+  "demos": {
+    "title": "Podepisování dokumentů {{Fileformat}} pomocí živé ukázky {{Signaturetype}}",
+    "content": "Podepište soubor {{Fileformat}} pomocí různých podpisů právě teď na webu [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Bezplatné online demo na vás čeká."
+  },
+  "more_formats": {
+    "title": "Další podporované podpisy {{Signaturetype}} pro {{ProgLang}}",
+    "content": "Můžete také podepsat {{Fileformat}} pomocí jiných typů podpisů. Podívejte se prosím na níže uvedený seznam."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Univerzální kód produktu je symbol čárového kódu, který je široce používán po celém světě pro sledování obchodních položek v obchodech.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "Přesně 11 číslic + 1 kontrolní číslice."
+    },
+    "UPCE": {
+      "details": "Univerzální kód produktu je symbol čárového kódu, který je široce používán po celém světě pro sledování obchodních položek v obchodech. UPCE je 8místná varianta UPC.",
+      "characterset": "Podporuje pouze číselné číslice (0-9).",
+      "codetextcapacity": "Kapacita kódového textu: přesně 7 číslic + 1 kontrolní číslice."
+    },
+    "EAN13": {
+      "details": "Nejčastěji používaným standardem EAN je třináctimístný EAN-13, nadmnožina původního 12místného standardu Universal Product Code.",
+      "characterset": "Pouze číslice (0-9).",
+      "codetextcapacity": "Kapacita kódového textu: přesně 12 číslic + 1 kontrolní číslice."
+    },
+    "EAN14": {
+      "details": "European Article Number neboli EAN je standard popisující symboliku čárového kódu a systém číslování používaný v celosvětovém obchodu k identifikaci konkrétního typu maloobchodního produktu ve specifické konfiguraci balení od konkrétního výrobce.",
+      "characterset": "Číslice (0-9) a speciální znaky.",
+      "codetextcapacity": "Přesně 14 číslic."
+    },
+    "Code39": {
+      "details": "Kód 39 (také známý jako Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 nebo USD-3) je diskrétní čárový kód proměnné délky.",
+      "characterset": "Číslice (0-9) a velká písmena (A-Z) a řada speciálních znaků (-, ., $, /, +, %, a mezera).",
+      "codetextcapacity": "Žádná konkrétní omezení."
+    },
+    "Code39Extended": {
+      "details": "Kód 39 (také známý jako Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 nebo USD-3) je diskrétní čárový kód proměnné délky.",
+      "characterset": "Sada znaků: všech 128 znaků ASCII.",
+      "codetextcapacity": "Žádná konkrétní omezení."
+    },
+    "Code128": {
+      "details": "Code 128 je symbolika lineárního čárového kódu s vysokou hustotou definovaná v ISO/IEC 15417:2007. Používá se pro alfanumerické nebo pouze číselné čárové kódy.",
+      "characterset": "Všech 128 znaků ASCII.",
+      "codetextcapacity": "Žádná konkrétní omezení."
+    },
+    "Codabar": {
+      "details": "Codabar je lineární symbolika čárového kódu, která byla navržena tak, aby byla přesně čitelná i při tisku na jehličkových tiskárnách pro vícedílné formuláře, jako jsou letecké poukázky FedEx a formulář krevní banky.",
+      "characterset": "Číslice (0-9) a speciální znaky $/-:+.",
+      "codetextcapacity": "Žádná konkrétní omezení."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) je symbolika čárového kódu, kterou používá poštovní služba Spojených států pro pomoc při směrování pošty.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "Až 11 znaků."
+    },
+    "ISBN": {
+      "details": "Mezinárodní standardní číslo knihy (ISBN) je číselný komerční identifikátor knihy, který má být jedinečný.[a][b] Vydavatelé nakupují čísla ISBN od pobočky Mezinárodní agentury ISBN.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "Přesně 9 číslic + 1 kontrolní číslice."
+    },
+    "ITF14": {
+      "details": "ITF-14 je implementace GS1 čárového kódu Interleaved 2 of 5 (ITF) pro zakódování čísla globální obchodní položky.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "13 číslic + 1 kontrolní číslice."
+    },
+    "Pdf417": {
+      "details": "PDF417 je formát skládaného lineárního čárového kódu používaný v různých aplikacích, jako je doprava, identifikační karty a správa zásob.",
+      "characterset": "Všech 256 znaků ASCII.",
+      "codetextcapacity": "Až 800 znaků."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) je souvislá číslice kódující symboliku čárového kódu o dvou šířkách. Komerčně se používá na fólii 135, pro čárové kódy ITF-14 a na kartonech některých produktů, přičemž produkty uvnitř jsou označeny UPC nebo EAN.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "Variabilní délka."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, také známý jako Pharmaceutical Binary Code, je standard čárových kódů, používaný ve farmaceutickém průmyslu jako systém kontroly balení.",
+      "characterset": "Číslice (0-9).",
+      "codetextcapacity": "Představuje pouze jedno celé číslo od 3 do 131070."
+    },
+    "Aztec": {
+      "details": "Aztécký kód je dvourozměrná (2-D) maticová symbolika pro obecné účely, která je navržena tak, aby měla vyšší přesnost než jiné 2-D symboliky. Symbol aztéckého kódu může zakódovat až 3 832 číslic; 3 067 abecedních znaků; nebo 1 914 bajtů dat.",
+      "characterset": "Všech 256 znaků ASCII.",
+      "codetextcapacity": "Až 3 832 numerických číslic nebo 3 067 abecedních znaků nebo 1 914 bajtů dat."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix je dvourozměrný kód skládající se z černých a bílých „buněk“ nebo teček uspořádaných do čtvercového nebo obdélníkového vzoru, známého také jako matice. Informace, která se má zakódovat, mohou být textová nebo číselná data.",
+      "characterset": "Podporuje všech 256 znaků ASCII, všechny znaky ISO a všechny znaky EBCDIC (Extended Binary Coded Decimal Interchange Code).",
+      "codetextcapacity": "Až 3116 numerických číslic nebo 2335 alfanumerických znaků nebo 1556 binárních znaků."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix je varianta Data Matrix, která odpovídá specifikacím GS1. Použijte GS1 DataMatrix ke kódování informací, jako jsou mimo jiné následující: AI(01) číslo globální obchodní položky (GTIN), AI(17) datum vypršení platnosti, AI(10) číslo šarže, AI(21) sériové číslo .",
+      "characterset": "Znaková sada: velká a malá písmena a speciální znaky $@%*+-./:=<>;&*_,'! vše se správnými identifikátory aplikací.",
+      "codetextcapacity": "Kapacita kódového textu: až 3116 číselných číslic nebo 2335 alfanumerických znaků."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code je varianta QR kódu, která odpovídá specifikacím GS1. Byl navržen speciálně pro sdílení rozšířených informací o balení, jako je číslo šarže, ID produktu a množství.",
+      "characterset": "Velká a malá písmena a speciální znaky $%*+-./: vše se správnými identifikátory aplikace",
+      "codetextcapacity": "Až 7089 číselných znaků, 4296 alfanumerických znaků"
+    },
+    "QR": {
+      "details": "QR Code (zkráceně Quick Response Code) je ochranná známka pro typ maticového čárového kódu (nebo dvourozměrného čárového kódu). Jedná se o nejoblíbenější a nejrozšířenější typ dvourozměrného kódu. V praxi QR kódy často obsahují data pro lokátor, identifikátor nebo tracker, který ukazuje na webovou stránku nebo aplikaci.",
+      "characterset": "Všech 256 znaků ASCII + Kanji",
+      "codetextcapacity": "Až 7089 číselných znaků, 4296 alfanumerických znaků, 2953 bajtů (binární data) nebo 1817 znaků Kanji."
+    }
+  }
+}

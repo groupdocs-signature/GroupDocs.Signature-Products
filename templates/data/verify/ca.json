@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verificació de signatures de {{Signaturetype}} per a fitxers {{Fileformat}} mitjançant {{ProgLang}}",
+    "meta_description": "Utilitzeu només unes poques línies de codi {{ProductName}} per verificar els documents {{Fileformat}} i les seves signatures {{Signaturetype}}.",
+    "h1": "{{Signaturetype}} verificació de signatures per a fitxers {{Fileformat}}",
+    "h2": "L'API per a {{ProductName}} ofereix l'oportunitat de verificar les signatures de {{Signaturetype}} als documents {{Fileformat}}. La verificació de les signatures electròniques dins dels vostres documents {{Fileformat}} es pot fer de manera ràpida i senzilla."
+  },
+  "about": {
+    "title": "Descobriu noves funcions de l'API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API ofereix una àmplia gamma de maneres de processar nombrosos formats de documents mitjançant signatures electròniques. S'admeten molts tipus de signatures digitals com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Els clients poden afegir, eliminar, editar, validar o cercar signatures digitals en PDF, documents MS Word, llibres de treball de MS Excel, presentacions MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Hi ha disponibles un nombre sorprenent de funcions i configuracions addicionals."
+  },
+  "steps": {
+    "title_left": "Com validar les signatures de {{Signaturetype}} al vostre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inclou funcions útils com la verificació de les signatures de {{Signaturetype}} col·locades als documents de {{Fileformat}}. Aprofiteu aquesta oportunitat sense implementar codi addicional.",
+      "step_1": "En primer lloc, instanciïu la classe Signature proporcionant com a paràmetre de constructor la ruta d'accés a un document que se suposa que s'ha de verificar.",
+      "step_2": "En segon lloc, creeu un nou objecte VerifyOptions i configureu totes les propietats necessàries.",
+      "step_3": "Finalment, invoqueu el mètode Verify de l'objecte de Signature passant la instància VerifyOptions.",
+      "step_4": "A continuació, processeu els resultats de la verificació."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signant amb {{Signaturetype}} signatures Demostració en directe",
+    "content": "Afegiu diverses signatures electròniques al fitxer {{Fileformat}} ara mateix visitant el lloc web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Verifiqueu altres signatures de {{Signaturetype}} mitjançant {{ProgLang}}",
+    "content": "Verificació de signatures electròniques col·locades en diversos documents. Comproveu la qualitat de les signatures en els formats de fitxer populars, tal com es mostra a continuació."
+  }
+}

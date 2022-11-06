@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Bekræftelse af {{Signaturetype}} signaturer for {{Fileformat}} filer via {{ProgLang}}",
+    "meta_description": "Brug kun et par linjer med {{ProductName}}-kode til at bekræfte {{Fileformat}}-dokumenter og deres {{Signaturetype}}-signaturer.",
+    "h1": "{{Signaturetype}} signaturbekræftelse for {{Filformat}} filer",
+    "h2": "API for {{ProductName}} giver mulighed for at bekræfte {{Signaturetype}}-signaturer på {{Fileformat}}-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+  },
+  "about": {
+    "title": "Oplev nye {{ProductFullName}} API-funktioner",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API giver en bred vifte af måder at behandle adskillige dokumentformater ved at bruge elektroniske signaturer. Mange typer digitale signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata understøttes. Kunder kan tilføje, fjerne, redigere, validere eller søge i digitale signaturer i PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Et forbløffende antal ekstra funktioner og indstillinger er tilgængelige."
+  },
+  "steps": {
+    "title_left": "Sådan validerer du {{Signaturetype}}-signaturer i dit {{Filformat}}-dokument",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inkluderer nyttige funktioner såsom bekræftelse af {{Signaturetype}} signaturer placeret på {{Fileformat}} dokumenter. Brug denne mulighed uden at implementere ekstra kode.",
+      "step_1": "For det første instansierer Signature-klassen, der som en konstruktørparametersti til et dokument, der formodes at være verificeret.",
+      "step_2": "For det andet skal du oprette et nyt VerifyOptions-objekt og opsætte alle nødvendige egenskaber.",
+      "step_3": "Til sidst påkalder du Signatures objekt Verify-metode, der passerer VerifyOptions-instansen.",
+      "step_4": "Behandl derefter verifikationsresultaterne."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} understøttes på alle større platforme og operativsystemer. Før du udfører koden nedenfor, skal du sørge for, at du har følgende forudsætninger installeret på dit system.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Udviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Download den seneste version af {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signering med {{Signaturetype}} signaturer Live Demo",
+    "content": "Føj forskellige elektroniske signaturer til filen {{Fileformat}} lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Bekræft andre {{Signaturetype}}-signaturer ved hjælp af {{ProgLang}}",
+    "content": "Verifikation af elektroniske signaturer placeret i forskellige dokumenter. Tjek kvaliteten af ​​signaturer i de populære filformater som vist nedenfor."
+  }
+}

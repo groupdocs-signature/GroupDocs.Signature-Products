@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Signaturetype}} allkirjade kontrollimine failide {{Fileformat}} jaoks läbi {{ProgLang}}",
+    "meta_description": "Kasutage {{Fileformat}} dokumentide ja nende allkirjade {{Signaturetype}} kontrollimiseks ainult mõnda rida {{ProductName}} koodi.",
+    "h1": "{{Signaturetype}} allkirjade kontrollimine faili {{Fileformat}} jaoks",
+    "h2": "API for {{ProductName}} annab võimaluse kontrollida {{Signaturetype}} allkirju {{Fileformat}} dokumentides. Teie {{Fileformat}} dokumentides olevate e-allkirjade kontrollimine võib toimuda kiiresti ja lihtsalt."
+  },
+  "about": {
+    "title": "Avastage {{ProductFullName}} API uusi funktsioone",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API pakub laias valikus viise mitmesuguste dokumendivormingute töötlemiseks elektrooniliste allkirjade abil. Toetatakse mitut tüüpi digitaalallkirju, nagu tekstid, pildid, digitaalsed sertifikaadid, vöötkoodid, QR-koodid, templid või metaandmed. Kliendid saavad lisada, eemaldada, redigeerida, kinnitada või otsida digitaalallkirju PDF-ides, MS Wordi dokumentides, MS Exceli töövihikutes, MS PowerPointi esitlustes, Adobe Photoshopi failides ja erinevates pildivormingutes. Saadaval on hämmastav hulk lisafunktsioone ja seadeid."
+  },
+  "steps": {
+    "title_left": "Kuidas kontrollida allkirja {{Signaturetype}} oma dokumendis {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) sisaldab kasulikke funktsioone, nagu {{Signaturetype}} allkirjade kontrollimine, mis on pandud dokumentidele {{Fileformat}}. Kasutage seda võimalust lisakoodi rakendamata.",
+      "step_1": "Esiteks instantseerige Signature klass, mis annab konstruktori parameetri tee dokumendile, mis peaks olema kontrollitud.",
+      "step_2": "Teiseks looge uus VerifyOptions objekt ja seadistage kõik vajalikud atribuudid.",
+      "step_3": "Lõpuks käivitage Signature'i objekti Verify meetod, mis läbib VerifyOptions eksemplari.",
+      "step_4": "Seejärel töödelge kinnitustulemusi."
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "Toodet {{ProductFullName}} toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Laadige alla toote {{ProductFullName}} uusim versioon saidilt [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Allkirjastamine {{Signaturetype}} allkirjaga Live Demo",
+    "content": "Lisage kohe failile {{Fileformat}} erinevad elektroonilised allkirjad, külastades veebisaiti [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Kontrollige teisi {{Signaturetype}} allkirju, kasutades {{ProgLang}}",
+    "content": "Erinevatesse dokumentidesse pandud elektrooniliste allkirjade kontrollimine. Kontrollige allkirjade kvaliteeti populaarsetes failivormingutes, nagu on näidatud allpool."
+  }
+}

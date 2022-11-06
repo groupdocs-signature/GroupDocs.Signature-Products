@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Actualitza les signatures de {{Signaturetype}} col·locades als fitxers {{Fileformat}} amb {{ProgLang}}",
+    "meta_description": "Utilitzeu el codi {{ProductName}} senzill i fàcil d'entendre per a l'actualització de signatures de {{Signaturetype}} en documents de {{Fileformat}} signats.",
+    "h1": "Editeu i actualitzeu les signatures {{Signaturetype}} col·locades als fitxers {{Fileformat}}",
+    "h2": "L'API per a {{ProductName}} proporciona funcionalitat per a les signatures de {{Signaturetype}} que s'actualitzen als documents {{Fileformat}}. Actualitzeu les signatures electròniques dins dels vostres documents {{Fileformat}} amb un parell de línies de codi {{ProgLang}} de manera ràpida i senzilla."
+  },
+  "about": {
+    "title": "Més informació sobre les funcions de l'API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) La funcionalitat de l'API conté una àmplia selecció de mitjans per processar en formats de documents de demanda mitjançant signatures electròniques. S'admet un ampli espectre de signatures electròniques com textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Els clients poden afegir, eliminar, editar, validar o cercar signatures digitals en PDF, documents MS Word, llibres de treball de MS Excel, presentacions MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge. Hi ha disponibles nombroses funcions i configuracions útils."
+  },
+  "steps": {
+    "title_left": "Com canviar les signatures de {{Signaturetype}} al vostre document {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inclou funcions útils com ara l'actualització de signatures de {{Signaturetype}} col·locades als documents {{Fileformat}}. Permet canviar les funcions de signatures sense codi addicional.",
+      "step_1": "Per començar, creeu un objecte Signature passant com a ruta del paràmetre del constructor a un document que se suposa que s'ha d'actualitzar.",
+      "step_2": "A continuació, instància un objecte de signatura particular adequat i configureu-ne l'identificador i les propietats que cal canviar.",
+      "step_3": "Finalment, truqueu al mètode d'actualització de la signatura passant un objecte de signatura particular.",
+      "step_4": "Processa els resultats d'actualització segons el teu avís."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Actualització de les signatures de {{Signaturetype}} a les pàgines del document - Demostració en directe",
+    "content": "Editeu diverses signatures electròniques del document {{Fileformat}} ara mateix visitant el lloc web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Actualitzeu diverses signatures de {{Signaturetype}} mitjançant {{ProgLang}}",
+    "content": "Edició de signatures digitals que es col·loquen en diferents formats de documents. Actualitza les dades de signatures sense codi addicional."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Cerqueu signatures de {{Signaturetype}} al fitxer {{Fileformat}} a {{ProgLang}}",
+    "meta_description": "Utilitzeu {{ProductName}} per cercar signatures {{Signaturetype}} als fitxers {{Fileformat}} mitjançant unes poques línies de codi.",
+    "h1": "Cerqueu signatures {{Signaturetype}} al fitxer {{Fileformat}}",
+    "h2": "L'API nativa de {{ProductName}} permet cercar signatures {{Signaturetype}} als fitxers {{Fileformat}} ja signats. Feu una cerca avançada de signatura electrònica als vostres documents {{Fileformat}} amb unes poques línies de codi."
+  },
+  "about": {
+    "title": "Sobre l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) proporciona l'API de {{ProductName}} per processar documents amb diversos tipus de signatura, com ara textos, imatges, certificats digitals, codis de barres, codis QR, segells o metadades. Els usuaris poden afegir, suprimir, actualitzar, verificar o cercar signatures electròniques en PDF, documents MS Word, llibres de treball MS Excel, presentacions MS PowerPoint, fitxers Adobe Photoshop i diversos formats d'imatge, amb suport addicional per personalitzar les propietats de les signatures segons sigui necessari."
+  },
+  "steps": {
+    "title_left": "Com cercar signatures de {{Signaturetype}} a {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) facilita que els desenvolupadors de {{ProductName}} cerquin signatures de {{Signaturetype}} als fitxers {{Fileformat}} des de les seves aplicacions implementant uns quants passos senzills.",
+      "step_1": "Creeu una nova instància de la classe Signature i passeu la ruta del document font com a paràmetre de constructor.",
+      "step_2": "Instancieu l'objecte SearchOptions segons els vostres requisits i especifiqueu les opcions de cerca.",
+      "step_3": "Truqueu al mètode de cerca de la instància de classe Signature i passeu-li SearchOptions.",
+      "step_4": "Processeu els resultats de la cerca segons les vostres demandes."
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Baixeu la darrera versió de {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Cerqueu {{Signaturetype}} signatures electròniques Demostració en directe",
+    "content": "Cerqueu al document diverses signatures electròniques als fitxers {{Fileformat}} ara mateix visitant el lloc web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Cerqueu altres signatures de {{Signaturetype}} amb {{ProgLang}}",
+    "content": "Cerca de signatures electròniques en diversos documents. Cerqueu signatures d'un dels formats de fitxer més populars, tal com es mostra a continuació."
+  }
+}

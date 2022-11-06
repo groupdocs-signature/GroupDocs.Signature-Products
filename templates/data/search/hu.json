@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Keressen {{Signaturetype}} aláírásokat a {{Fileformat}} fájlban a {{ProgLang}} programban",
+    "meta_description": "A {{ProductName}} használatával kereshet {{Signaturetype}} aláírásokat a {{Fileformat}} fájlokban néhány sornyi kód használatával.",
+    "h1": "Keressen {{Signaturetype}} aláírásokat a {{Fileformat}} fájlban",
+    "h2": "A {{ProductName}} natív API lehetővé teszi a {{Signaturetype}} aláírások keresését a már aláírt {{Fileformat}} fájlokban. Végezzen speciális e-aláírás-keresést a {{Fileformat}} dokumentumaiban néhány sornyi kód használatával."
+  },
+  "about": {
+    "title": "A {{ProductFullName}} API-ról",
+    "content": "A [{{ProductFullName}}]({{ProductUrl}}) biztosítja a {{ProductName}} API-t dokumentumok feldolgozásához különböző aláírástípusok, például szövegek, képek, digitális tanúsítványok, vonalkódok, QR-kódok, bélyegzők vagy metaadatok használatával. A felhasználók hozzáadhatnak, törölhetnek, frissíthetnek, ellenőrizhetnek vagy kereshetnek elektronikus aláírásokban PDF-ekben, MS Word-dokumentumokban, MS Excel-munkafüzetekben, MS PowerPoint-prezentációkban, Adobe Photoshop-fájlokban és különféle képformátumokban, az aláírások tulajdonságainak szükség szerinti testreszabásának további támogatásával."
+  },
+  "steps": {
+    "title_left": "{{Signaturetype}} aláírások keresése a {{Fájlformátum}} fájlban",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{ProductUrl}}) néhány egyszerű lépés végrehajtásával megkönnyíti a {{ProductName}} fejlesztői számára, hogy {{Signaturetype}} aláírásokat keressenek alkalmazásaik {{Fileformat}} fájljaiban.",
+      "step_1": "Hozzon létre egy új Signature osztály példányt, és adja meg a forrásdokumentum elérési útját konstruktor paraméterként.",
+      "step_2": "Példányosítsa a SearchOptions objektumot igényei szerint, és adja meg a keresési beállításokat.",
+      "step_3": "Hívja meg a Signature osztálypéldány keresési metódusát, és adja át neki a SearchOptions-t.",
+      "step_4": "A keresési eredményeket az Ön igényei szerint dolgozza fel."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} minden nagyobb platformon és operációs rendszeren támogatott. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztői környezetek: {{DevEnv}}",
+      "step_3": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} elektronikus aláírás keresése Élő bemutató",
+    "content": "A [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webhelyen azonnal kereshet a dokumentumban különféle elektronikus aláírásokat {{Fileformat}} fájlokhoz."
+  },
+  "more_formats": {
+    "title": "Más {{Signaturetype}} aláírások keresése a {{ProgLang}} segítségével",
+    "content": "Az elektronikus aláírások keresése különböző dokumentumokban. Keresse meg az aláírásokat a népszerű fájlformátumok egyikéből az alábbiak szerint."
+  }
+}

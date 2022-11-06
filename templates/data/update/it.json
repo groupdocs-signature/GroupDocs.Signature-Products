@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Aggiorna le firme {{Signaturetype}} inserite nei file {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Utilizza il codice {{ProductName}} semplice e facile per l'aggiornamento delle firme {{Signaturetype}} nei documenti {{Fileformat}} firmati.",
+    "h1": "Modifica e aggiorna le firme {{Signaturetype}} inserite nei file {{Fileformat}}",
+    "h2": "L'API per {{ProductName}} fornisce funzionalità per l'aggiornamento delle firme {{Signaturetype}} nei documenti {{Fileformat}}. Aggiorna le firme elettroniche all'interno dei tuoi documenti {{Fileformat}} con un paio di righe di codice {{ProgLang}} in modo rapido e semplice."
+  },
+  "about": {
+    "title": "Ulteriori informazioni sulle funzionalità dell'API {{ProductFullName}}",
+    "content": "La funzionalità dell'API [{{ProductFullName}}]({{ProductUrl}}) contiene un'ampia selezione di mezzi per elaborare i formati di documenti richiesti utilizzando le firme elettroniche. È supportato un ampio spettro di firme elettroniche come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. I clienti possono aggiungere, rimuovere, modificare, convalidare o cercare firme digitali in PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. Sono disponibili numerose funzioni e impostazioni utili."
+  },
+  "steps": {
+    "title_left": "Come modificare le firme {{Signaturetype}} nel tuo documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) include funzioni utili come l'aggiornamento di firme {{Signaturetype}} apposte in documenti {{Fileformat}}. Consente di modificare le caratteristiche delle firme senza codice aggiuntivo.",
+      "step_1": "Per cominciare, crea l'oggetto Signature passando come percorso del parametro del costruttore a un documento che dovrebbe essere aggiornato.",
+      "step_2": "Quindi, crea un'istanza di un particolare oggetto di firma appropriato e imposta il suo identificatore e le proprietà che devono essere modificate.",
+      "step_3": "Infine, chiama il metodo di aggiornamento della firma passando un particolare oggetto di firma.",
+      "step_4": "Elabora i risultati dell'aggiornamento a tuo avviso."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} sono supportati su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Aggiornamento delle firme {{Signaturetype}} nelle pagine del documento - Demo dal vivo",
+    "content": "Modifica subito diverse firme elettroniche del documento {{Fileformat}} visitando il sito Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Aggiorna varie firme {{Signaturetype}} tramite {{ProgLang}}",
+    "content": "Modifica delle firme digitali che vengono inserite in vari formati di documenti. Aggiorna i dati delle firme senza codice aggiuntivo."
+  }
+}

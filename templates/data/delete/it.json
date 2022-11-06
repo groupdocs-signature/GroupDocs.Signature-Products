@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Elimina le firme {{Signaturetype}} dai file {{Fileformat}} tramite {{ProgLang}}",
+    "meta_description": "L'eliminazione di firme {{Signaturetype}} specifiche da documenti {{Fileformat}} firmati può essere eseguita facilmente con il codice {{ProductName}} breve.",
+    "h1": "Rimuovi le firme {{Signaturetype}} che sono inserite nei file {{Fileformat}}",
+    "h2": "Elimina varie firme {{Signaturetype}} da documenti {{Fileformat}}. La rimozione delle firme {{Signaturetype}} richiede un semplice codice {{ProgLang}}."
+  },
+  "about": {
+    "title": "Ottieni informazioni sulle funzionalità dell'API {{ProductFullName}}",
+    "content": "L'API [{{ProductFullName}}]({{ProductUrl}}) fornisce molti modi per elaborare i tuoi documenti utilizzando le firme elettroniche. Sono disponibili firme digitali come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. I clienti hanno la possibilità di aggiungere, eliminare, aggiornare, verificare o cercare firme digitali su PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. Viene fornito un gran numero di funzioni e impostazioni utili."
+  },
+  "steps": {
+    "title_left": "Come rimuovere le firme {{Signaturetype}} dal tuo documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) fornisce una funzione utile per cancellare documenti {{Fileformat}} di firme {{Signaturetype}} con poche righe di codice.",
+      "step_1": "In primo luogo, istanziare l'oggetto Signature passando il percorso al documento come parametro del costruttore.",
+      "step_2": "Quindi, crea un oggetto firma appropriato e imposta il suo identificatore univoco.",
+      "step_3": "Dopodiché, invoca il metodo Delete passando l'oggetto della firma che deve essere eliminato.",
+      "step_4": "Infine, i risultati dell'operazione di processo."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} sono supportati su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Firma con {{Signaturetype}} firme Demo live",
+    "content": "Aggiungi subito varie firme elettroniche al file {{Fileformat}} visitando il sito Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Elimina le tue firme {{Signaturetype}} con {{ProgLang}}",
+    "content": "Cancellazione delle firme elettroniche che sono state aggiunte a vari formati di documenti. Rimuovi rapidamente le firme senza codice aggiuntivo."
+  }
+}

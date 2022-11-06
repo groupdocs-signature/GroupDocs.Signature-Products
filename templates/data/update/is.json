@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Uppfærðu {{Signaturetype}} undirskriftir settar á {{Fileformat}} skrár með {{ProgLang}}",
+    "meta_description": "Notaðu einfaldan og auðskilinn {{ProductName}} kóða fyrir uppfærslu á {{Signaturetype}} undirskriftum í undirrituðum {{Fileformat}} skjölum.",
+    "h1": "Breyttu og uppfærðu {{Signaturetype}} undirskriftir sem settar eru á {{Fileformat}} skrár",
+    "h2": "API fyrir {{ProductName}} veitir virkni fyrir {{Signaturetype}} undirskriftir sem uppfæra á {{Fileformat}} skjölum. Uppfærðu rafrænar undirskriftir í {{Fileformat}} skjölunum þínum með nokkrum línum af {{ProgLang}} kóða fljótt og auðveldlega."
+  },
+  "about": {
+    "title": "Lærðu um {{ProductFullName}} API eiginleika",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API virkni inniheldur mikið úrval af aðferðum til að vinna eftirspurn eftir skjölum með því að nota rafrænar undirskriftir. Fjölbreytt úrval rafrænna undirskrifta eins og texta, myndir, stafræn skilríki, strikamerki, QR-kóða, stimpla eða lýsigögn eru studd. Viðskiptavinir geta bætt við, fjarlægt, breytt, staðfest eða leitað í stafrænum undirskriftum á PDF skjölum, MS Word skjölum, MS Excel vinnubókum, MS PowerPoint kynningum, Adobe Photoshop skrám og ýmsum myndsniðum. Fjölmargir gagnlegir eiginleikar og stillingar eru í boði."
+  },
+  "steps": {
+    "title_left": "Hvernig á að breyta {{Signaturetype}} undirskriftum í {{Fileformat}} skjalinu þínu",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inniheldur gagnlega eiginleika eins og uppfærslu á {{Signaturetype}} undirskriftum sem settar eru á {{Fileformat}} skjöl. Það gerir mögulegt að breyta eiginleikum undirskrifta án aukakóða.",
+      "step_1": "Til að byrja með, búðu til Signature hlut sem fer sem slóð byggingarbreytu í skjal sem á að uppfæra.",
+      "step_2": "Settu síðan upp viðeigandi tiltekinn undirskriftarhlut og settu upp auðkenni hans og eiginleika sem þarf að breyta.",
+      "step_3": "Að lokum skaltu kalla uppfærsluaðferð Signature sem sendir tiltekinn undirskriftarhlut.",
+      "step_4": "Vinndu við að uppfæra niðurstöður til þín."
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "{{ProductFullName}} eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Sæktu nýjustu útgáfuna af {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Að uppfæra {{Signaturetype}} undirskriftirnar á skjalasíðunum - Sýning í beinni",
+    "content": "Breyttu ýmsum rafrænum undirskriftum {{Fileformat}} skjalsins núna með því að fara á vefsíðuna [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Uppfærðu ýmsar {{Signaturetype}} undirskriftir í gegnum {{ProgLang}}",
+    "content": "Breyta stafrænum undirskriftum sem eru settar á mismunandi skjalasnið. Uppfærðu undirskriftargögn án aukakóða."
+  }
+}

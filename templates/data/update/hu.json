@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Frissítse a {{Fileformat}} fájlokban elhelyezett {{Signaturetype}} aláírásokat a {{ProgLang}} segítségével",
+    "meta_description": "Használjon egyszerű és könnyen érthető {{ProductName}} kódot a {{Signaturetype}} aláírások frissítéséhez az aláírt {{Fileformat}} dokumentumokban.",
+    "h1": "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett {{Signaturetype}} aláírásokat",
+    "h2": "A(z) {{ProductName}} API a(z) {{Signaturetype}} aláírások frissítését biztosítja a(z) {{Fileformat}} dokumentumokban. Frissítse az e-aláírásokat {{Fileformat}} dokumentumaiban néhány soros {{ProgLang}} kóddal gyorsan és egyszerűen."
+  },
+  "about": {
+    "title": "További információ a {{ProductFullName}} API funkcióiról",
+    "content": "A [{{ProductFullName}}]({{ProductUrl}}) API-funkciók számos eszközt tartalmaznak az igény szerinti dokumentumformátumok elektronikus aláírással történő feldolgozására. Az e-aláírások széles spektruma támogatott, mint például szövegek, képek, digitális tanúsítványok, vonalkódok, QR-kódok, bélyegzők vagy metaadatok. Az ügyfelek hozzáadhatnak, eltávolíthatnak, szerkeszthetnek, érvényesíthetnek vagy kereshetnek digitális aláírásokban PDF-ekben, MS Word dokumentumokban, MS Excel munkafüzetekben, MS PowerPoint prezentációkban, Adobe Photoshop fájlokban és különféle képformátumokban. Számos hasznos funkció és beállítás érhető el."
+  },
+  "steps": {
+    "title_left": "A {{Signaturetype}} aláírások módosítása a {{Fájlformátum}} dokumentumban",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{ProductUrl}}) olyan hasznos funkciókat tartalmaz, mint a {{Signaturetype}} aláírások frissítése a {{Fileformat}} dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.",
+      "step_1": "Kezdésként hozzon létre egy aláírás objektumot, amely konstruktor paraméter elérési útjaként adja át azt a dokumentumot, amelyet frissíteni kell.",
+      "step_2": "Ezután példányosítson egy megfelelő konkrét aláírási objektumot, és állítsa be annak azonosítóját és tulajdonságait, amelyeket módosítani kell.",
+      "step_3": "Végül hívja meg a Signature's Update metódusát egy adott aláírási objektum átadásával.",
+      "step_4": "Az eredmények frissítése az Ön értesítése szerint."
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "A {{ProductFullName}} minden nagyobb platformon és operációs rendszeren támogatott. Mielőtt végrehajtaná az alábbi kódot, győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztői környezetek: {{DevEnv}}",
+      "step_3": "Töltse le a(z) {{ProductFullName}} legújabb verzióját innen: [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "A {{Signaturetype}} aláírások frissítése a dokumentum oldalain - Élő bemutató",
+    "content": "Szerkessze a {{Fileformat}} dokumentum különféle elektronikus aláírásait most a [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webhelyen."
+  },
+  "more_formats": {
+    "title": "Különféle {{Signaturetype}} aláírások frissítése a {{ProgLang}} segítségével",
+    "content": "Különféle dokumentumformátumokban elhelyezett digitális aláírások szerkesztése. Az aláírási adatok frissítése extra kód nélkül."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verifica delle firme {{Signaturetype}} per i file {{Fileformat}} tramite {{ProgLang}}",
+    "meta_description": "Utilizza solo poche righe di codice {{ProductName}} per verificare i documenti {{Fileformat}} e le relative firme {{Signaturetype}}.",
+    "h1": "Verifica delle firme {{Signaturetype}} per i file {{Fileformat}}",
+    "h2": "L'API per {{ProductName}} offre l'opportunità di verificare le firme {{Signaturetype}} nei documenti {{Fileformat}}. La verifica delle firme elettroniche all'interno dei tuoi documenti {{Fileformat}} potrebbe essere eseguita in modo rapido e semplice."
+  },
+  "about": {
+    "title": "Scopri le nuove funzionalità dell'API {{ProductFullName}}",
+    "content": "L'API [{{ProductFullName}}]({{ProductUrl}}) offre un'ampia gamma di modi per elaborare numerosi formati di documenti utilizzando le firme elettroniche. Sono supportati molti tipi di firme digitali come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. I clienti possono aggiungere, rimuovere, modificare, convalidare o cercare firme digitali in PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. È disponibile un numero sorprendente di funzioni e impostazioni aggiuntive."
+  },
+  "steps": {
+    "title_left": "Come convalidare le firme {{Signaturetype}} nel tuo documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) include funzioni utili come la verifica delle firme {{Signaturetype}} apposte in {{Fileformat}} documenti. Usa questa opportunità senza implementare codice aggiuntivo.",
+      "step_1": "In primo luogo, istanziare la classe Signature fornendo come parametro del costruttore il percorso di un documento che dovrebbe essere verificato.",
+      "step_2": "In secondo luogo, crea un nuovo oggetto VerifyOptions e imposta tutte le proprietà richieste.",
+      "step_3": "Infine, richiama il metodo Verify dell'oggetto di Signature passando l'istanza di VerifyOptions.",
+      "step_4": "Quindi elaborare i risultati della verifica."
+    },
+    "title_right": "Requisiti di sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} sono supportati su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Scarica l'ultima versione di {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Firma con {{Signaturetype}} firme Demo live",
+    "content": "Aggiungi subito varie firme elettroniche al file {{Fileformat}} visitando il sito Web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Verifica altre firme {{Signaturetype}} utilizzando {{ProgLang}}",
+    "content": "Verifica delle firme elettroniche apposte nei vari documenti. Controlla la qualità delle firme nei formati di file più diffusi come mostrato di seguito."
+  }
+}
