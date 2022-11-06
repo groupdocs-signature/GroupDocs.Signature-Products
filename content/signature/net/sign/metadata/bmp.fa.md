@@ -1,0 +1,121 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Sign
+signaturetype: Metadata
+fileformat: Bmp
+productName: .NET
+lang: fa
+productCode: net
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+breadcrumb: Put Metadata signature on Bmp for C#
+
+############################# Head ############################
+head_title: "از طریق C# امضاهای الکترونیکی فراداده را به اسناد Bmp اضافه کنید"
+head_description: "با استفاده از چند خط کد C# از فراداده به عنوان امضای الکترونیکی پنهان در اسناد {{فرمت فایل}} خود استفاده کنید. از GroupDocs Document Signature API برای امضای الکترونیکی اسناد و فایل‌های تجاری خود با اطلاعات فراداده استفاده کنید."
+
+############################# Header ############################
+title: "امضاهای الکترونیکی فراداده برای سند Bmp از طریق .NET ساده و آسان برای استفاده هستند!"
+description: "اسناد و قراردادهای {{فرمت فایل}} خود را با ورودی‌های فراداده پنهان امضا کنید. فراداده برای فایل‌های PDF، اسناد MS Word، کتاب‌های کار MS Excel، ارائه‌های MS PowerPoint و فرمت‌های تصویری مختلف بدون مشکل و کدنویسی اضافی ایجاد کنید."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "درباره GroupDocs.Signature for .NET API امضاهای فراداده"
+    content: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) یک API محبوب برای امضای الکترونیکی اسناد دیجیتال است. امضاهایی مانند متون، تصاویر، گواهی‌های دیجیتال، بارکدها، کدهای QR، تمبرها یا ابرداده‌ها در دسترس هستند. امضاها ممکن است روی فایل‌های PDF، اسناد MS Word، کتاب‌های کار MS Excel، ارائه‌های MS PowerPoint، فایل‌های Adobe Photoshop و فرمت‌های تصویر مختلف قرار داده شوند. مشتریان می توانند سند خود را امضا کنند و امضاهای الکترونیکی را که روی آن اسناد قرار داده شده است را به روز کنند، جستجو، تأیید، حذف یا پیش نمایش کنند. علاوه بر این، توانایی های زیادی برای سفارشی سازی امضا ارائه شده است.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "مراحل امضای Bmp با Metadata در C#"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) امکان امضای اسناد Bmp با امضاهای Metadata را سریع و آسان فراهم می‌کند.
+        
+        * یک نمونه از کلاس Signature ایجاد کنید که فایل Bmp را به عنوان مسیر یا جریان حافظه امضا می کند.
+        * کلاس SignOptions را راه اندازی کنید و تمام داده های درخواستی را تنظیم کنید.
+        * فراخوانی متد Signature.Sign() برای ارسال خروجی Bmp فایل یا جریان حافظه
+
+    title_right: " سیستم مورد نیاز"
+    content_right: |
+        GroupDocs.Signature for .NET در تمام سیستم عامل ها و سیستم عامل های اصلی پشتیبانی می شود. لطفا قبل از اجرای کد زیر، از نصب پیش نیازهای زیر بر روی سیستم خود اطمینان حاصل کنید.
+
+        * سیستم عامل: مایکروسافت ویندوز، لینوکس، MacOS
+        * محیط های توسعه: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * آخرین GroupDocs.Signature for .NET را از [Nuget](https://www.nuget.org/packages/groupdocs.signature) دریافت کنید
+         
+    code: |
+        ```csharp    
+        
+        // Set up input Bmp file
+        string filePath = "input.bmp";
+        // Set up output file
+        string outputFilePath = "output.bmp";
+
+        // Instantiate Signature for input file
+        using (var signature = new GroupDocs.Signature.Signature(filePath))
+        {
+                // instantiate metadata signing options
+                MetadataSignOptions options = new MetadataSignOptions();
+
+                // Specify different Metadata Signatures and add them to options signature collection
+                // set start id
+                ushort imgsMetadataId = 41996;
+                // setup int value
+                ImageMetadataSignature mdSign_DocId = new ImageMetadataSignature(imgsMetadataId++, 123456); // int
+                options.Signatures.Add(mdSign_DocId);
+                // setup Author property
+                ImageMetadataSignature mdSign_Author = new ImageMetadataSignature(imgsMetadataId++, "Mr.Scherlock Holmes"); // string
+                options.Signatures.Add(mdSign_Author);
+                // setup data of sign date
+                ImageMetadataSignature mdSign_Date = new ImageMetadataSignature(imgsMetadataId++, DateTime.Now); // DateTime
+                options.Signatures.Add(mdSign_Date);
+                // setup double
+                ImageMetadataSignature mdSign_Amnt = new ImageMetadataSignature(imgsMetadataId++, 123.456M); //decimal value
+                options.Signatures.Add(mdSign_Amnt);
+
+                // sign Bmp document
+                SignResult result = signature.Sign(outputFilePath, options);
+        }
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "امضای اسناد Bmp با نسخه نمایشی زنده Metadata"
+    content: |
+       با مراجعه به وب‌سایت [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) فایل Bmp را با امضاهای مختلف در حال حاضر امضا کنید. نسخه ی نمایشی آنلاین رایگان در انتظار شماست.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "سایر امضاهای پشتیبانی شده Metadata برای C#"
+    content: |
+        "همچنین می‌توانید {{Format}} را با سایر انواع امضا امضا کنید. لطفا لیست زیر را ببینید."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

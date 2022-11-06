@@ -1,0 +1,114 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Sign
+signaturetype: Metadata
+fileformat: Ods
+productName: Java
+lang: cs
+productCode: java
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+breadcrumb: Put Metadata signature on Ods for Java
+
+############################# Head ############################
+head_title: "Připojte elektronické podpisy metadat k dokumentům Ods prostřednictvím Java"
+head_description: "Použijte metadata jako skryté elektronické podpisy ve svých dokumentech Ods pomocí několika řádků kódu Java. Použijte GroupDocs Document Signature API k elektronickému podepisování obchodních dokumentů a souborů pomocí metadat."
+
+############################# Header ############################
+title: "Elektronické podpisy metadat pro dokument Ods prostřednictvím Java jsou jednoduché a snadno se používají!"
+description: "ePodepište své dokumenty a smlouvy Ods se skrytými položkami metadat. Vytvářejte metadata pro soubory PDF, dokumenty MS Word, sešity MS Excel, prezentace MS PowerPoint a různé formáty obrázků bez problémů a navíc s kódováním."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-java.png"
+        product: "GroupDocs.Signature"
+        platform: "Java"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "O rozhraní API pro podpisy metadat GroupDocs.Signature for Java"
+    content: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) je oblíbené rozhraní API pro elektronické podepisování digitálních dokumentů. K dispozici jsou podpisy jako texty, obrázky, digitální certifikáty, čárové kódy, QR kódy, razítka nebo metadata. Podpisy lze umístit do souborů PDF, dokumentů MS Word, sešitů MS Excel, prezentací MS PowerPoint, souborů Adobe Photoshop a různých obrazových formátů. Zákazníci mohou podepsat svůj dokument a aktualizovat, vyhledávat, ověřovat, mazat nebo zobrazovat elektronické podpisy, které byly na tyto dokumenty vloženy. Navíc je k dispozici mnoho schopností pro přizpůsobení podpisů.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Kroky k podepsání Ods pomocí Metadata v Java"
+    content_left: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) umožňuje rychle a snadno podepisovat dokumenty Ods pomocí podpisů Metadata.
+        
+        * Vytvořte instanci třídy Signature poskytující soubor Ods, který se má podepisovat jako cesta nebo proud paměti
+        * Instantujte třídu SignOptions a nastavte všechna požadovaná data.
+        * Vyvolejte metodu Signature.Sign() předáním výstupního souboru Ods nebo proudu paměti
+
+    title_right: " Požadavky na systém"
+    content_right: |
+        GroupDocs.Signature for Java jsou podporovány na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se prosím ujistěte, že máte na svém systému nainstalovány následující předpoklady.
+
+        * Operační systémy: Microsoft Windows, Linux, MacOS
+        * Vývojová prostředí: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Získejte nejnovější GroupDocs.Signature for Java od [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+         
+    code: |
+        ```java    
+                
+        // Set up input Ods file
+        String filePath = "input.ods";
+        // Set up output file
+        String outputFilePath = "output.ods";
+
+        // Instantiate Signature for input file
+        Signature signature = new Signature(filePath);
+
+        // instantiate metadata signing options
+        MetadataSignOptions options = new MetadataSignOptions();
+
+        // setup Author property
+        SpreadsheetMetadataSignature mdSign_Author = new SpreadsheetMetadataSignature("Author", "Mr.Scherlock Holmes");// String value
+        options.getSignatures().add(mdSign_Author);
+        // setup document data
+        SpreadsheetMetadataSignature mdSign_DocData = new SpreadsheetMetadataSignature("CreatedOn", new Date());// Datetime value
+        options.getSignatures().add(mdSign_DocData);
+        // setup document id
+        SpreadsheetMetadataSignature mdSign_DocId = new SpreadsheetMetadataSignature("DocumentId", 123456);// Integer value
+        options.getSignatures().add(mdSign_DocId);
+
+        // sign Ods document
+        SignResult result = signature.sign(outputFilePath, options);
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Podepisování dokumentů Ods pomocí živé ukázky Metadata"
+    content: |
+       Podepište soubor Ods pomocí různých podpisů právě teď na webu [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Bezplatné online demo na vás čeká.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Další podporované podpisy Metadata pro Java"
+    content: |
+        "Můžete také podepsat Ods pomocí jiných typů podpisů. Podívejte se prosím na níže uvedený seznam."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---
