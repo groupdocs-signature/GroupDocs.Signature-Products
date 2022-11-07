@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Atualize assinaturas {{Signaturetype}} colocadas em arquivos {{Fileformat}} com {{ProgLang}}",
+    "meta_description": "Use o código {{ProductName}} simples e fácil para atualização de assinaturas {{Signaturetype}} em documentos {{Fileformat}} assinados.",
+    "h1": "Edite e atualize assinaturas {{Signaturetype}} colocadas em arquivos {{Fileformat}}",
+    "h2": "A API para {{ProductName}} fornece funcionalidade para atualização de assinaturas {{Signaturetype}} em documentos {{Fileformat}}. Atualize assinaturas eletrônicas dentro de seus documentos {{Fileformat}} com algumas linhas de código {{ProgLang}} de forma rápida e fácil."
+  },
+  "about": {
+    "title": "Saiba mais sobre os recursos da API {{ProductFullName}}",
+    "content": "A funcionalidade da API [{{ProductFullName}}]({{ProductUrl}}) contém uma vasta seleção de meios para processar em formatos de documentos sob demanda usando assinaturas eletrônicas. Amplo espectro de assinaturas eletrônicas, como textos, imagens, certificados digitais, códigos de barras, códigos QR, selos ou metadados são suportados. Os clientes podem adicionar, remover, editar, validar ou pesquisar assinaturas digitais em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Vários recursos e configurações úteis estão disponíveis."
+  },
+  "steps": {
+    "title_left": "Como alterar assinaturas {{Signaturetype}} em seu documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inclui recursos úteis como atualização de {{Signaturetype}} assinaturas colocadas em documentos {{Fileformat}}. Possibilita alterar recursos de assinaturas sem código extra.",
+      "step_1": "Para começar, crie o objeto Signature passando como um caminho de parâmetro construtor para um documento que deve ser atualizado.",
+      "step_2": "Em seguida, instancie um objeto de assinatura específico apropriado e configure seu identificador e propriedades que precisam ser alteradas.",
+      "step_3": "Por último, chame o método Update do Signature passando um objeto de assinatura específico.",
+      "step_4": "Processe a atualização dos resultados ao seu aviso."
+    },
+    "title_right": "Requisitos de sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Faça o download da versão mais recente do {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Atualizando as assinaturas {{Signaturetype}} nas páginas do documento - Demonstração ao vivo",
+    "content": "Edite várias assinaturas eletrônicas do documento {{Fileformat}} agora mesmo visitando o site do [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Atualize várias assinaturas {{Signaturetype}} via {{ProgLang}}",
+    "content": "Edição de assinaturas digitais que são colocadas em vários formatos de documentos. Atualize os dados de assinaturas sem código extra."
+  }
+}

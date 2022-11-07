@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Padamkan tandatangan {{Signaturetype}} daripada fail {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Pemadaman tandatangan {{Signaturetype}} tertentu daripada dokumen {{Fileformat}} yang ditandatangani mungkin dilakukan dengan mudah dengan kod {{ProductName}} pendek.",
+    "h1": "Alih keluar tandatangan {{Signaturetype}} yang diletakkan dalam fail {{Fileformat}}.",
+    "h2": "Padamkan pelbagai tandatangan {{Signaturetype}} daripada dokumen {{Fileformat}}. Mengalih keluar tandatangan {{Signaturetype}} memerlukan kod {{ProgLang}} yang mudah."
+  },
+  "about": {
+    "title": "Dapatkan maklumat tentang ciri API {{ProductFullName}}.",
+    "content": "API [{{ProductFullName}}]({{ProductUrl}}) menyediakan banyak cara untuk memproses dokumen anda menggunakan tandatangan elektronik. Tandatangan digital seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata tersedia. Pelanggan mempunyai kemungkinan untuk menambah, memadam, mengemas kini, mengesahkan atau mencari tandatangan digital pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Sebilangan besar ciri dan tetapan berguna disediakan."
+  },
+  "steps": {
+    "title_left": "Bagaimana untuk mengalih keluar tandatangan {{Signaturetype}} daripada dokumen {{Fileformat}} anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan ciri berguna untuk mengosongkan {{Fileformat}} dokumen daripada {{Signaturetype}} tandatangan dengan beberapa baris kod.",
+      "step_1": "Pertama, nyatakan laluan laluan objek Tandatangan ke dokumen anda sebagai parameter pembina.",
+      "step_2": "Kemudian, cipta objek tandatangan yang sesuai dan sediakan pengecam uniknya.",
+      "step_3": "Selepas itu, gunakan kaedah Padam menghantar objek tandatangan yang mesti dipadamkan.",
+      "step_4": "Akhirnya, hasil operasi proses."
+    },
+    "title_right": "Keperluan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran pembangunan: {{DevEnv}}",
+      "step_3": "Muat turun versi terkini {{ProductFullName}} daripada [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dengan {{Signaturetype}} tandatangan Demo Langsung",
+    "content": "Tambahkan pelbagai tandatangan elektronik pada fail {{Fileformat}} sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Padamkan tandatangan {{Signaturetype}} anda dengan {{ProgLang}}",
+    "content": "Pemadaman e-tandatangan yang telah ditambahkan pada pelbagai format dokumen. Alih keluar tandatangan dengan cepat tanpa kod tambahan."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Xóa chữ ký {{Signaturetype}} khỏi tệp {{Fileformat}} qua {{ProgLang}}",
+    "meta_description": "Việc xóa các chữ ký {{Signaturetype}} cụ thể khỏi các tài liệu {{Fileformat}} đã ký có thể được thực hiện dễ dàng với mã {{ProductName}} ngắn.",
+    "h1": "Xóa các chữ ký {{Signaturetype}} được đặt trong các tệp {{Fileformat}}",
+    "h2": "Xóa các chữ ký {{Signaturetype}} khác nhau khỏi tài liệu {{Fileformat}}. Việc xóa chữ ký {{Signaturetype}} yêu cầu mã {{ProgLang}} đơn giản."
+  },
+  "about": {
+    "title": "Nhận thông tin về các tính năng của API {{ProductFullName}}",
+    "content": "API [{{ProductFullName}}] ({{ProductUrl}}) cung cấp nhiều cách để xử lý tài liệu của bạn bằng chữ ký điện tử. Có sẵn chữ ký điện tử như văn bản, hình ảnh, chứng chỉ kỹ thuật số, mã vạch, mã QR, tem hoặc siêu dữ liệu. Khách hàng có thể thêm, xóa, cập nhật, xác minh hoặc tìm kiếm chữ ký điện tử ở các tệp PDF, tài liệu MS Word, sổ làm việc MS Excel, bản trình bày MS PowerPoint, tệp Adobe Photoshop và các định dạng hình ảnh khác nhau. Một số lượng lớn các tính năng và cài đặt hữu ích được cung cấp."
+  },
+  "steps": {
+    "title_left": "Cách xóa chữ ký {{Signaturetype}} khỏi tài liệu {{Fileformat}} của bạn",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{ProductUrl}}) cung cấp tính năng hữu ích để xóa các tài liệu {{Fileformat}} có chữ ký {{Signaturetype}} bằng một vài dòng mã.",
+      "step_1": "Đầu tiên, khởi tạo đối tượng Chữ ký truyền đường dẫn đến tài liệu của bạn dưới dạng tham số phương thức khởi tạo.",
+      "step_2": "Sau đó, tạo một đối tượng chữ ký thích hợp và thiết lập mã định danh duy nhất của nó.",
+      "step_3": "Sau đó, gọi phương thức Delete truyền đối tượng chữ ký phải được xóa.",
+      "step_4": "Cuối cùng là kết quả hoạt động xử lý."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "{{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ký bằng chữ ký {{Signaturetype}} Demo trực tiếp",
+    "content": "Thêm nhiều chữ ký điện tử khác nhau vào tệp {{Fileformat}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Signature App] (https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Xóa chữ ký {{Signaturetype}} của bạn bằng {{ProgLang}}",
+    "content": "Xóa chữ ký điện tử đã được thêm vào các định dạng tài liệu khác nhau. Xóa chữ ký nhanh chóng mà không cần thêm mã."
+  }
+}

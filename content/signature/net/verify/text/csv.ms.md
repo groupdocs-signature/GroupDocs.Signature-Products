@@ -1,0 +1,118 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Verify
+signaturetype: Text
+fileformat: Csv
+productName: .NET
+lang: ms
+productCode: net
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm
+breadcrumb: Put Text signature on Csv for C#
+
+############################# Head ############################
+head_title: "Pengesahan tandatangan Text untuk fail Csv melalui C#"
+head_description: "Gunakan hanya beberapa baris kod .NET untuk mengesahkan dokumen Csv dan tandatangan Text mereka."
+
+############################# Header ############################
+title: "Text pengesahan tandatangan untuk fail Csv."
+description: "API untuk .NET memberi peluang untuk mengesahkan tandatangan Text pada dokumen Csv. Pengesahan e-tandatangan di dalam dokumen Csv anda mungkin dilakukan dengan cepat dan mudah."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Temui ciri API GroupDocs.Signature for .NET baharu"
+    content: |
+        API [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) menyediakan pelbagai cara untuk memproses pelbagai format dokumen dengan menggunakan tandatangan elektronik. Banyak jenis tandatangan digital seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata disokong. Pelanggan boleh menambah, mengalih keluar, mengedit, mengesahkan atau mencari tandatangan digital pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Terdapat banyak ciri dan tetapan tambahan yang menakjubkan.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Bagaimana untuk mengesahkan tandatangan Text dalam dokumen Csv anda"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) termasuk ciri berguna seperti pengesahan tandatangan Text yang diletakkan pada dokumen Csv. Gunakan peluang ini tanpa melaksanakan kod tambahan.
+        
+        * Pertama, nyatakan kelas Tandatangan yang menyediakan sebagai laluan parameter pembina kepada dokumen yang sepatutnya disahkan.
+        * Kedua, cipta objek VerifyOptions baharu dan sediakan semua sifat yang diperlukan.
+        * Akhir sekali, gunakan kaedah Verify objek Tandatangan yang lulus contoh VerifyOptions.
+        * Kemudian proses hasil pengesahan.
+
+    title_right: "Keperluan Sistem"
+    content_right: |
+        GroupDocs.Signature for .NET disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.
+
+        * Sistem pengendalian: Microsoft Windows, Linux, MacOS
+        * Persekitaran pembangunan: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Muat turun versi terkini GroupDocs.Signature for .NET daripada [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+         
+    code: |
+        ```csharp    
+                
+        // Set up input Csv file
+        string filePath = "input.csv";
+
+        // Instantiate Signature for input file
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        {
+                //Provide verification options
+                TextVerifyOptions options = new TextVerifyOptions()
+                {
+                    // Process all pages 
+                    AllPages = true,
+                    // set up text match type
+                    MatchType = TextMatchType.Exact,
+                    // specify text pattern to search
+                    Text = "Very important signature",
+                };
+
+                // Verify document signatures
+                VerificationResult result = signature.Verify(options);
+
+                //process result
+                if (result.IsValid)
+                {
+                    //..
+                }
+        }
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Menandatangani dengan Text tandatangan Demo Langsung"
+    content: |
+       Tambahkan pelbagai tandatangan elektronik pada fail Csv sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Sahkan tandatangan Text lain menggunakan C#"
+    content: |
+        "Pengesahan tandatangan elektronik yang diletakkan dalam pelbagai dokumen. Semak kualiti tandatangan dalam format fail popular seperti yang didedahkan di bawah."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

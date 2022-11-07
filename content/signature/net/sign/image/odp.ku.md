@@ -1,0 +1,112 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Sign
+signaturetype: Image
+fileformat: Odp
+productName: .NET
+lang: ku
+productCode: net
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+breadcrumb: Put Image signature on Odp for C#
+
+############################# Head ############################
+head_title: "Zêdekirina Image îmzeyan li pelê Odp bi C#"
+head_description: "Ji bo .NET Image îmza li ser pela Odp bi çend rêzên kodê bixin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin."
+
+############################# Header ############################
+title: "Pelên Odp bi îmzeyên Image di C# de îmze bikin"
+description: "Meriv çawa Image bi çend rêzikên koda .NET îmzayê zêde bike"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Derbarê GroupDocs.Signature for .NET API-ya îmzeyên wêneyê"
+    content: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API-ya navdar e ji bo e-îmzakirina belgeyên dîjîtal. Îmzeyên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata hene. Dibe ku îmze li ser PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan werin danîn. Xerîdar dikarin belgeya xwe îmze bikin û e-îmzayên ku li ser wan belgeyan hatine danîn nûve bikin, bigerin, verast bikin, jêbikin an pêşdîtin bikin. Digel vê yekê, ji bo xwerûkirina îmzeyan gelek jêhatî têne peyda kirin.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Gavên îmzekirina Odp bi Image di C# de"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) îmzakirina belgeyên Odp bi îmzeyên Image zû û bi hêsanî peyda dike.
+        
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
+        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+
+    title_right: " Pêdiviyên Sîstemê"
+    content_right: |
+        GroupDocs.Signature for .NET li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.
+
+        * Pergalên xebitandinê: Microsoft Windows, Linux, MacOS
+        * Jîngehên pêşkeftinê: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Nûtirîn GroupDocs.Signature for .NET ji [Nuget](https://www.nuget.org/packages/groupdocs.signature) bistînin
+         
+    code: |
+        ```csharp    
+                
+        // Set up input Odp file
+        string filePath = "input.odp";
+        // Set up output file
+        string outputFilePath = "output.odp";
+        // Provide image file
+        string imageFilePath = "image.png";
+
+        // Instantiate Signature for input file
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        {
+            //Provide sign options
+            ImageSignOptions options = new ImageSignOptions(imageFilePath)
+            {
+                // set signature position
+                Left = 50,
+                Top = 200
+            };
+
+            // sign Odp document
+            SignResult result = signature.Sign(outputFilePath, options);
+        }
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Îmzekirina belgeyên {{Pelformat}} bi Image Demoya Zindî"
+    content: |
+       Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Odp bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Îmzeyên din ên piştgirî yên Image ji bo C#"
+    content: |
+        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

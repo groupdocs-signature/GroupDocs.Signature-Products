@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Îmzeyên {{Signaturetype}} li pelên {{Fileformat}} bi {{ProgLang}} hatine danîn nûve bikin",
+    "meta_description": "Ji bo têgihîştina koda {{ProductName}} ji bo nûvekirina îmzeyan a {{Signaturetype}} di belgeyên {{Fileformat}} yên îmzekirî de hêsan û hêsan bikar bînin.",
+    "h1": "Îmzeyên ku li pelên {{Fileformat}} hatine danîn biguherînin û nûve bikin",
+    "h2": "API ji bo {{ProductName}} fonksîyonê ji bo îmzeyên {{Signaturetype}} di belgeyên {{Fileformat}} de nûve dike. E-îmzeyan di hundirê belgeyên xwe yên {{Fileformat}} de bi çend rêzikên koda {{ProgLang}} zû û bi hêsanî nûve bikin."
+  },
+  "about": {
+    "title": "Li ser taybetmendiyên API-ê yên {{ProductFullName}} fêr bibin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) Fonksiyonên API-ê hilbijarkek berfireh dihewîne da ku bi karanîna îmzeyên elektronîkî di formên belgeyên daxwazê ​​​​de were xebitandin. Berfirehiya e-îmzayên mîna nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata têne piştgirî kirin. Xerîdar dikarin li PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formatên wêneyê lê zêde bikin, jêbirin, biguherînin, rast bikin an bigerin. Gelek taybetmendî û mîhengên kêrhatî hene."
+  },
+  "steps": {
+    "title_left": "Meriv çawa îmzeyên {{Signaturetype}} di belgeya xweya {{Fileformat}} de biguherîne",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) taybetmendiyên bikêrhatî yên mîna nûvekirina îmzeyên {{Signaturetype}} yên ku li belgeyên {{Fileformat}} hatine danîn, vedihewîne. Ew gengaz dike ku taybetmendiyên îmzeyan bêyî kodek zêde biguhezîne.",
+      "step_1": "Ji bo destpêkê, tişta Îmzeyê biafirînin ku wekî rêgezek pîvana çêkerê ji belgeyek ku tê xwestin were nûve kirin derbas dibe.",
+      "step_2": "Dûv re, tiştek nîşanek taybetî ya guncan destnîşan bikin û nasname û taybetmendiyên wê yên ku divê werin guheztin saz bikin.",
+      "step_3": "Di dawiyê de, gazî rêbaza Nûvekirina Îmzeyê bikin ku tiştek nîşana taybetî derbas dike.",
+      "step_4": "Pêvajoya nûvekirina encaman li gorî agahdariya we."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    }
+  },
+  "demos": {
+    "title": "Nûvekirina îmzeyên {{Signaturetype}} li ser rûpelên belgeyê - Demo Zindî",
+    "content": "Bi seredana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî yên belgeya {{Pelformat}} biguherînin."
+  },
+  "more_formats": {
+    "title": "Bi rêya {{ProgLang}} îmzeyên cihêreng ên {{Signaturetype}} nûve bikin",
+    "content": "Guhertina îmzeyên dîjîtal ên ku di formên belgeyên cihêreng de têne danîn. Daneyên îmzeyan bêyî kodek zêde nûve bikin."
+  }
+}

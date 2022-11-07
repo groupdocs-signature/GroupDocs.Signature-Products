@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Fileformat}} dosyalarına yerleştirilen {{Signaturetype}} imzalarını {{ProgLang}} ile güncelleyin",
+    "meta_description": "İmzalı {{Fileformat}} belgelerinde {{Signaturetype}} imza güncellemesi için {{ProductName}} kodunu anlamak için basit ve kolay kullanın.",
+    "h1": "{{Fileformat}} dosyalarına yerleştirilen {{Signaturetype}} imzalarını düzenleyin ve güncelleyin",
+    "h2": "{{ProductName}} için API, {{Fileformat}} belgelerinde {{Signaturetype}} imza güncellemesi için işlevsellik sağlar. Birkaç satırlık {{ProgLang}} koduyla {{Fileformat}} belgelerinizdeki e-imzaları hızlı ve kolay bir şekilde güncelleyin."
+  },
+  "about": {
+    "title": "{{ProductFullName}} API özellikleri hakkında bilgi edinin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API işlevi, elektronik imzalar kullanarak talep edilen belge biçimlerinde işlemek için çok çeşitli araçlar içerir. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi geniş e-imza yelpazesi desteklenir. Müşteriler, PDF'lerde, MS Word belgelerinde, MS Excel çalışma kitaplarında, MS PowerPoint sunumlarında, Adobe Photoshop dosyalarında ve çeşitli görüntü formatlarında dijital imza ekleyebilir, kaldırabilir, düzenleyebilir, doğrulayabilir veya arayabilir. Çok sayıda kullanışlı özellik ve ayar mevcuttur."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} belgenizdeki {{Signaturetype}} imzaları nasıl değiştirilir?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerine yerleştirilen {{Signaturetype}} imzalarının güncellenmesi gibi faydalı özellikler içerir. İmza özelliklerini ekstra kod olmadan değiştirmeyi mümkün kılar.",
+      "step_1": "Başlangıç ​​olarak, güncellenmesi gereken bir belgeye yapıcı parametre yolu olarak geçen Signature nesnesi oluşturun.",
+      "step_2": "Ardından, uygun bir özel imza nesnesini somutlaştırın ve değiştirilmesi gereken tanımlayıcısını ve özelliklerini ayarlayın.",
+      "step_3": "Son olarak, belirli bir imza nesnesini geçen Signature'ın Update yöntemini çağırın.",
+      "step_4": "Güncelleme sonuçlarını bildiriminize göre işleyin."
+    },
+    "title_right": "sistem gereksinimleri",
+    "content_right": {
+      "description": "{{ProductFullName}}, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme ortamları: {{DevEnv}}",
+      "step_3": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+    }
+  },
+  "demos": {
+    "title": "Belge sayfalarındaki {{Signaturetype}} imzalarının güncellenmesi - Canlı Demo",
+    "content": "{{Fileformat}} belgesinin çeşitli elektronik imzalarını hemen şimdi [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web sitesini ziyaret ederek düzenleyin."
+  },
+  "more_formats": {
+    "title": "Çeşitli {{Signaturetype}} imzalarını {{ProgLang}} aracılığıyla güncelleyin",
+    "content": "Çeşitli belge biçimlerine yerleştirilmiş dijital imzaları düzenleme. İmza verilerini ekstra kod olmadan güncelleyin."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Pengesahan tandatangan {{Signaturetype}} untuk fail {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Gunakan hanya beberapa baris kod {{ProductName}} untuk mengesahkan dokumen {{Fileformat}} dan tandatangan {{Signaturetype}} mereka.",
+    "h1": "{{Signaturetype}} pengesahan tandatangan untuk fail {{Fileformat}}.",
+    "h2": "API untuk {{ProductName}} memberi peluang untuk mengesahkan tandatangan {{Signaturetype}} pada dokumen {{Fileformat}}. Pengesahan e-tandatangan di dalam dokumen {{Fileformat}} anda mungkin dilakukan dengan cepat dan mudah."
+  },
+  "about": {
+    "title": "Temui ciri API {{ProductFullName}} baharu",
+    "content": "API [{{ProductFullName}}]({{ProductUrl}}) menyediakan pelbagai cara untuk memproses pelbagai format dokumen dengan menggunakan tandatangan elektronik. Banyak jenis tandatangan digital seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata disokong. Pelanggan boleh menambah, mengalih keluar, mengedit, mengesahkan atau mencari tandatangan digital pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Terdapat banyak ciri dan tetapan tambahan yang menakjubkan."
+  },
+  "steps": {
+    "title_left": "Bagaimana untuk mengesahkan tandatangan {{Signaturetype}} dalam dokumen {{Fileformat}} anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) termasuk ciri berguna seperti pengesahan tandatangan {{Signaturetype}} yang diletakkan pada dokumen {{Fileformat}}. Gunakan peluang ini tanpa melaksanakan kod tambahan.",
+      "step_1": "Pertama, nyatakan kelas Tandatangan yang menyediakan sebagai laluan parameter pembina kepada dokumen yang sepatutnya disahkan.",
+      "step_2": "Kedua, cipta objek VerifyOptions baharu dan sediakan semua sifat yang diperlukan.",
+      "step_3": "Akhir sekali, gunakan kaedah Verify objek Tandatangan yang lulus contoh VerifyOptions.",
+      "step_4": "Kemudian proses hasil pengesahan."
+    },
+    "title_right": "Keperluan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran pembangunan: {{DevEnv}}",
+      "step_3": "Muat turun versi terkini {{ProductFullName}} daripada [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dengan {{Signaturetype}} tandatangan Demo Langsung",
+    "content": "Tambahkan pelbagai tandatangan elektronik pada fail {{Fileformat}} sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Sahkan tandatangan {{Signaturetype}} lain menggunakan {{ProgLang}}",
+    "content": "Pengesahan tandatangan elektronik yang diletakkan dalam pelbagai dokumen. Semak kualiti tandatangan dalam format fail popular seperti yang didedahkan di bawah."
+  }
+}

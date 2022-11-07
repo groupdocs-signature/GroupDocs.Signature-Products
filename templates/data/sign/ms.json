@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokumen dengan {{Codetype}} Barcode dalam {{ProgLang}}",
+    "meta_description": "Cipta {{Codetype}} Tandatangan Kod Bar dan letakkan pada {{Fileformat}} dokumen dengan {{ProductName}} menggunakan beberapa baris kod. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani pelbagai format fail.",
+    "h1": "Hasilkan {{Codetype}} Tandatangan Kod Bar untuk {{Fileformat}} dokumen dalam {{ProgLang}}",
+    "h2": "eTandatangani dokumen perniagaan {{Fileformat}} anda dengan {{Codetype}} Barcode. Hasilkan tandatangan Kod Bar dengan cepat dan mudah dengan beberapa baris kod untuk menyediakan pilihan tandatangan."
+  },
+  "digital-content": {
+    "meta_title": "Menambahkan tandatangan elektronik Digital pada fail {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan Tandatangan Digital pada fail {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kod. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani berpuluh-puluh format fail.",
+    "h1": "eSign {{Fileformat}} fail dengan {{Signaturetype}} tandatangan dalam {{ProgLang}}",
+    "h2": "Cara menambah tandatangan {{Signaturetype}} dengan beberapa baris kod {{ProductName}}."
+  },
+  "image-content": {
+    "meta_title": "Menambahkan tandatangan {{Signaturetype}} pada fail {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan {{Signaturetype}} Tandatangan pada fail {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kod. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani berpuluh-puluh format fail.",
+    "h1": "Tandatangani fail {{Fileformat}} dengan tandatangan {{Signaturetype}} dalam {{ProgLang}}",
+    "h2": "Bagaimana untuk menambah {{Signaturetype}} Tandatangan dengan beberapa baris kod {{ProductName}}."
+  },
+  "metadata-content": {
+    "meta_title": "Tambahkan tandatangan elektronik Metadata pada dokumen {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Gunakan Metadata sebagai tandatangan elektronik tersembunyi di dalam dokumen {{Fileformat}} anda menggunakan beberapa baris kod {{ProgLang}}. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani dokumen dan fail perniagaan anda dengan maklumat Metadata.",
+    "h1": "Tandatangan elektronik metadata untuk dokumen {{Fileformat}} melalui {{ProductName}} adalah mudah dan mudah untuk digunakan!",
+    "h2": "eTandatangani dokumen dan kontrak {{Fileformat}} anda dengan entri Metadata tersembunyi. Jana Metadata untuk PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint dan pelbagai format imej tanpa masalah dan pengekodan tambahan."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokumen dengan {{Codetype}} QR Code dalam {{ProgLang}}",
+    "meta_description": "Cipta {{Codetype}} Kod QR dan letakkan pada fail {{Fileformat}} menggunakan {{ProductName}} dengan sekeping pendek kod {{ProgLang}}. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani dokumen dan fail perniagaan anda dengan Kod QR.",
+    "h1": "Hasilkan {{Codetype}} tandatangan Kod QR untuk {{Fileformat}} dokumen dalam {{ProgLang}}",
+    "h2": "eTandatangani dokumen dan kontrak {{Fileformat}} anda dengan Kod QR {{Codetype}}. Hasilkan tandatangan Kod QR dengan cepat dan mudah."
+  },
+  "text-content": {
+    "meta_title": "Cipta tandatangan elektronik Teks ke fail {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan {{Signaturetype}} eSignature pada fail {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kod. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani berpuluh-puluh format fail.",
+    "h1": "Tandatangani fail {{Fileformat}} dengan tandatangan {{Signaturetype}} dalam {{ProgLang}}",
+    "h2": "Bagaimana untuk menambah {{Signaturetype}} Tandatangan dengan beberapa baris kod {{ProductName}}."
+  },
+  "barcode-about": {
+    "title": "Perihal {{ProductFullName}} API tandatangan kod bar.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API yang cepat dan mudah untuk mengurus tandatangan elektronik dokumen digital menggunakan jenis Kod Bar seperti UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 dan banyak lagi. Pelanggan boleh membuat Kod Bar dengan mudah dengan menyediakan teks yang diperlukan dan meletakkannya pada PDF, Dokumen Microsoft Office Words, buku kerja Microsoft Office Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Kod bar yang diletakkan dalam dokumen boleh dikemas kini, dicari, disahkan, dipadam atau dipratonton sama ada. Selain itu, penyesuaian kod bar disokong."
+  },
+  "digital-about": {
+    "title": "Perihal {{ProductFullName}} API tandatangan digital",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API popular untuk menandatangani dokumen dengan tandatangan elektronik digital, dengan sijil digital. Untuk API tandatangan Digital menggunakan fail sijil PFX untuk menandatangani dokumen dengan kunci peribadi dan awam yang dilindungi kata laluan. Tandatangan Digital mungkin digunakan untuk mengesahkan dokumen perniagaan dengan halaman tertentu eSign PDF, memperakui keseluruhan dokumen Microsoft Office seperti Words, Excel, fail Powerpoint dan dokumen Open Office. Pelanggan boleh memanipulasi tandatangan dengan mudah seperti mengeditnya, mengalih keluar atau melaraskannya. API menyediakan cara untuk mencari dan mengesahkan tandatangan. Selain itu, banyak kebolehan untuk penyesuaian tandatangan disediakan."
+  },
+  "image-about": {
+    "title": "Perihal {{ProductFullName}} API tandatangan imej",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API popular untuk tandatangan elektronik dokumen digital. Tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata tersedia. Tandatangan mungkin diletakkan pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Pelanggan boleh menandatangani dokumen mereka dan mengemas kini, mencari, mengesahkan, memadam atau pratonton e-tandatangan yang diletakkan pada dokumen tersebut. Selain itu, banyak kebolehan untuk penyesuaian tandatangan disediakan."
+  },
+  "metadata-about": {
+    "title": "Perihal {{ProductFullName}} API tandatangan metadata",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API popular untuk tandatangan elektronik dokumen digital. Tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata tersedia. Tandatangan mungkin diletakkan pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Pelanggan boleh menandatangani dokumen mereka dan mengemas kini, mencari, mengesahkan, memadam atau pratonton e-tandatangan yang diletakkan pada dokumen tersebut. Selain itu, banyak kebolehan untuk penyesuaian tandatangan disediakan."
+  },
+  "qrcode-about": {
+    "title": "Mengenai {{ProductFullName}} API tandatangan Kod QR",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API matang untuk mencipta dan menjana tandatangan Kod QR untuk dokumen. Pengguna boleh menjana tandatangan Kod QR yang menyediakan teks untuk memuat turunnya atau berkongsi melalui media sosial sebagai imej. Dokumen yang ditandatangani boleh diimbas dengan API atau hanya melalui kamera mudah alih! Tandatangani kontrak perniagaan dan dokumen rasmi anda secara elektronik dengan menambahkan tandatangan Kod QR dan memanipulasinya. Mana-mana tandatangan Kod QR akan mengandungi maklumat tersuai yang unik untuk mengenal pasti penandatangan atau membenarkan dokumen. Tambahan pula, kandungan Kod QR boleh disulitkan dan dinyahsulit dengan kunci peribadi secara pengaturcaraan. Itu membuka banyak kebolehan untuk berkongsi data sensitif di dalam dokumen awam. Selepas pengguna yang menandatangani boleh mengemas kini, mengesahkan, memadam, pratonton atau mencari Kod QR dalam PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Kod QR boleh disesuaikan tambahan."
+  },
+  "text-about": {
+    "title": "Mengenai API {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ialah API popular untuk tandatangan elektronik dokumen digital. Tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata tersedia. Tandatangan mungkin diletakkan pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Pelanggan boleh menandatangani dokumen mereka dan mengemas kini, mencari, mengesahkan, memadam atau pratonton e-tandatangan yang diletakkan pada dokumen tersebut. Selain itu, banyak kebolehan untuk penyesuaian tandatangan disediakan."
+  },
+  "system-requirements": {
+    "title": "Keperluan Sistem",
+    "content": {
+      "description": "{{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran pembangunan: {{DevEnv}}",
+      "step_3": "Dapatkan {{ProductFullName}} terkini daripada [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "digital-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "image-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "metadata-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "text-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} dalam {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan keupayaan untuk menandatangani dokumen {{Fileformat}} dengan tandatangan {{Signaturetype}} dengan cepat dan mudah.",
+      "step_1": "Buat contoh kelas Tandatangan yang menyediakan fail {{Fileformat}} yang sepatutnya ditandatangani sebagai laluan atau aliran memori",
+      "step_2": "Segerakan kelas SignOptions dan tetapkan semua data yang diminta.",
+      "step_3": "Guna kaedah Signature.Sign() yang menghantar fail keluaran {{Fileformat}} atau aliran memori"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} Demo Langsung",
+    "content": "Tandatangani fail {{Fileformat}} dengan pelbagai tandatangan sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demo dalam talian percuma menanti anda."
+  },
+  "more_formats": {
+    "title": "Tandatangan {{Signaturetype}} lain yang disokong untuk {{ProgLang}}",
+    "content": "Anda juga boleh menandatangani {{Fileformat}} dengan jenis tandatangan lain. Sila lihat senarai di bawah."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Kod Produk Universal ialah simbol kod bar yang digunakan secara meluas di seluruh dunia untuk menjejaki barang dagangan di kedai.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "Tepat 11 digit + 1 digit semak."
+    },
+    "UPCE": {
+      "details": "Kod Produk Universal ialah simbol kod bar yang digunakan secara meluas di seluruh dunia untuk menjejaki barang dagangan di kedai. UPCE ialah variasi 8 digit jika UPC.",
+      "characterset": "Hanya menyokong digit berangka (0-9).",
+      "codetextcapacity": "Kapasiti teks kod: tepat 7 digit + 1 digit semak."
+    },
+    "EAN13": {
+      "details": "Piawaian EAN yang paling biasa digunakan ialah EAN-13 tiga belas digit, superset piawaian Kod Produk Universal 12 digit asal.",
+      "characterset": "Hanya digit berangka (0-9).",
+      "codetextcapacity": "Kapasiti teks kod: tepat 12 digit + 1 digit semak."
+    },
+    "EAN14": {
+      "details": "Nombor Artikel Eropah atau EAN ialah standard yang menerangkan simbol kod bar dan sistem penomboran yang digunakan dalam perdagangan global untuk mengenal pasti jenis produk runcit tertentu, dalam konfigurasi pembungkusan tertentu, daripada pengeluar tertentu.",
+      "characterset": "Digit berangka (0-9) dan aksara khas.",
+      "codetextcapacity": "Tepat 14 digit angka."
+    },
+    "Code39": {
+      "details": "Kod 39 (juga dikenali sebagai Alpha39, Kod 3 daripada 9, Kod 3/9, Jenis 39, Kod USS 39 atau USD-3) ialah panjang berubah-ubah, simbol kod bar diskret.",
+      "characterset": "Angka berangka (0-9) dan huruf besar (A-Z) dan beberapa aksara khas (-, ., $, /, +, % dan ruang).",
+      "codetextcapacity": "Tiada sekatan khusus."
+    },
+    "Code39Extended": {
+      "details": "Kod 39 (juga dikenali sebagai Alpha39, Kod 3 daripada 9, Kod 3/9, Jenis 39, Kod USS 39 atau USD-3) ialah panjang berubah-ubah, simbol kod bar diskret.",
+      "characterset": "Set aksara: kesemua 128 aksara ASCII.",
+      "codetextcapacity": "Tiada sekatan khusus."
+    },
+    "Code128": {
+      "details": "Kod 128 ialah simbol kod bar linear berketumpatan tinggi yang ditakrifkan dalam ISO/IEC 15417:2007. Ia digunakan untuk kod bar alfanumerik atau angka sahaja.",
+      "characterset": "Kesemua 128 aksara ASCII.",
+      "codetextcapacity": "Tiada sekatan khusus."
+    },
+    "Codabar": {
+      "details": "Codabar ialah simbol kod bar linear yang direka bentuk untuk dibaca dengan tepat walaupun dicetak pada pencetak dot-matriks untuk borang berbilang bahagian seperti bil udara FedEx dan borang bank darah.",
+      "characterset": "Digit berangka (0-9) dan aksara khas $/-:+.",
+      "codetextcapacity": "Tiada sekatan khusus."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) ialah simbol kod bar yang digunakan oleh Perkhidmatan Pos Amerika Syarikat untuk membantu dalam mengarahkan mel.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "Sehingga 11 aksara."
+    },
+    "ISBN": {
+      "details": "Nombor Buku Standard Antarabangsa (ISBN) ialah pengecam buku komersial berangka yang bertujuan untuk menjadi unik.[a][b] Penerbit membeli ISBN daripada ahli gabungan Agensi ISBN Antarabangsa.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "Tepat 9 digit + 1 digit semak."
+    },
+    "ITF14": {
+      "details": "ITF-14 ialah pelaksanaan GS1 bagi kod bar Interleaved 2 of 5 (ITF) untuk mengekod Nombor Item Perdagangan Global.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "13 digit + 1 digit semak."
+    },
+    "Pdf417": {
+      "details": "PDF417 ialah format kod bar linear bertindan yang digunakan dalam pelbagai aplikasi seperti pengangkutan, kad pengenalan dan pengurusan inventori.",
+      "characterset": "Semua 256 aksara ASCII.",
+      "codetextcapacity": "Sehingga 800 aksara."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) ialah digit pengekodan simbol kod bar dua lebar berterusan. Ia digunakan secara komersil pada filem 135, untuk kod bar ITF-14, dan pada karton beberapa produk, manakala produk di dalamnya dilabelkan dengan UPC atau EAN.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "Panjang berubah-ubah."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, juga dikenali sebagai Kod Binari Farmaseutikal, ialah piawaian kod bar, yang digunakan dalam industri farmaseutikal sebagai sistem kawalan pembungkusan.",
+      "characterset": "Digit berangka (0-9).",
+      "codetextcapacity": "Mewakili hanya satu integer dari 3 hingga 131070."
+    },
+    "Aztec": {
+      "details": "Kod Aztec ialah simbol matriks tujuan am dua dimensi (2-D) yang direka bentuk untuk mempunyai ketepatan yang lebih tinggi daripada simbolologi 2-D yang lain. Simbol Kod Aztec boleh mengekod sehingga 3,832 digit berangka; 3,067 aksara abjad; atau 1,914 bait data.",
+      "characterset": "Semua 256 aksara ASCII.",
+      "codetextcapacity": "Sehingga 3,832 digit angka, atau 3,067 aksara abjad, atau 1,914 bait data."
+    },
+    "DataMatrix": {
+      "details": "Matriks Data ialah kod dua dimensi yang terdiri daripada 'sel' hitam dan putih atau titik yang disusun sama ada dalam corak segi empat sama atau segi empat tepat, juga dikenali sebagai matriks. Maklumat yang akan dikodkan boleh berupa data teks atau angka.",
+      "characterset": "Menyokong semua 256 aksara ASCII, semua aksara ISO dan semua aksara Kod Pertukaran Perpuluhan Berkod Binari Lanjutan (EBCDIC).",
+      "codetextcapacity": "Sehingga 3116 digit angka, atau 2335 aksara angka alfa, atau 1556 aksara perduaan."
+    },
+    "GS1DataMatrix": {
+      "details": "Matriks Data GS1 ialah varian Matriks Data yang mematuhi spesifikasi GS1. Gunakan GS1 DataMatrix untuk mengekod maklumat seperti, tetapi tidak terhad kepada, yang berikut: AI(01) Nombor Item Perdagangan Global (GTIN), AI(17) Tarikh Luput, AI(10) Nombor Kelompok, AI(21) Nombor Siri .",
+      "characterset": "Set aksara: huruf besar dan kecil serta aksara khas $@%*+-./:=<>;&*_,'! semua dengan Pengecam Aplikasi yang betul.",
+      "codetextcapacity": "Kapasiti teks kod: sehingga 3116 digit angka atau 2335 aksara angka alfa."
+    },
+    "GS1QR": {
+      "details": "Kod QR GS1 ialah varian Kod QR yang mematuhi spesifikasi GS1. Ia direka khusus untuk berkongsi maklumat pembungkusan lanjutan, seperti nombor lot, ID produk dan kuantiti.",
+      "characterset": "Huruf besar dan kecil serta aksara khas $%*+-./: semua dengan Pengecam Aplikasi yang betul",
+      "codetextcapacity": "Sehingga 7089 aksara angka, 4296 aksara abjad angka"
+    },
+    "QR": {
+      "details": "Kod QR (disingkatkan daripada Kod Respons Pantas) ialah tanda dagangan untuk jenis kod bar matriks (atau kod bar dua dimensi). Ia adalah jenis kod dua dimensi yang paling popular dan digunakan secara meluas. Dalam amalan, kod QR selalunya mengandungi data untuk pencari, pengecam atau penjejak yang menghala ke tapak web atau aplikasi.",
+      "characterset": "Semua 256 aksara ASCII + Kanji",
+      "codetextcapacity": "Sehingga 7089 aksara angka, 4296 aksara abjad angka, 2953 bait (data binari) atau 1817 aksara Kanji."
+    }
+  }
+}

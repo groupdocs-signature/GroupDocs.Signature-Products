@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Procure por assinaturas {{Signaturetype}} no arquivo {{Fileformat}} em {{ProgLang}}",
+    "meta_description": "Use {{ProductName}} para pesquisar assinaturas {{Signaturetype}} em arquivos {{Fileformat}} usando algumas linhas de código.",
+    "h1": "Procure por assinaturas {{Signaturetype}} no arquivo {{Fileformat}}",
+    "h2": "A API nativa do {{ProductName}} permite pesquisar assinaturas {{Signaturetype}} em arquivos {{Fileformat}} já assinados. Realize uma pesquisa avançada de assinatura eletrônica em seus documentos {{Fileformat}} usando algumas linhas de código."
+  },
+  "about": {
+    "title": "Sobre a API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) fornece a API {{ProductName}} para processar documentos usando vários tipos de assinatura, como textos, imagens, certificados digitais, códigos de barras, códigos QR, carimbos ou metadados. Os usuários podem adicionar, excluir, atualizar, verificar ou pesquisar assinaturas eletrônicas em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem, com suporte adicional para personalizar as propriedades das assinaturas conforme necessário."
+  },
+  "steps": {
+    "title_left": "Como pesquisar assinaturas de {{Signaturetype}} em {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) torna mais fácil para os desenvolvedores do {{ProductName}} pesquisar assinaturas {{Signaturetype}} em arquivos {{Fileformat}} de seus aplicativos implementando algumas etapas fáceis.",
+      "step_1": "Crie uma nova instância da classe Signature e passe o caminho do documento de origem como um parâmetro de construtor.",
+      "step_2": "Instancie o objeto SearchOptions de acordo com seus requisitos e especifique as opções de pesquisa.",
+      "step_3": "Chame o método Search da instância da classe Signature e passe SearchOptions para ele.",
+      "step_4": "Processe os resultados da pesquisa de acordo com suas demandas."
+    },
+    "title_right": "Requisitos de sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Faça o download da versão mais recente do {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Pesquise por {{Signaturetype}} assinaturas eletrônicas Demonstração ao vivo",
+    "content": "Pesquise no documento várias assinaturas eletrônicas para arquivos {{Fileformat}} agora mesmo visitando o site do [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Pesquise outras assinaturas {{Signaturetype}} usando {{ProgLang}}",
+    "content": "Pesquisa de assinaturas eletrônicas em vários documentos. Encontre assinaturas de um dos formatos de arquivo populares, conforme mostrado abaixo."
+  }
+}

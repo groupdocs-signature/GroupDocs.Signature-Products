@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Xác minh chữ ký {{Signaturetype}} cho tệp {{Fileformat}} qua {{ProgLang}}",
+    "meta_description": "Chỉ sử dụng một vài dòng mã {{ProductName}} để xác minh tài liệu {{Fileformat}} và chữ ký {{Signaturetype}} của chúng.",
+    "h1": "Xác minh chữ ký {{Signaturetype}} cho các tệp {{Fileformat}}",
+    "h2": "API cho {{ProductName}} cung cấp cơ hội xác minh chữ ký {{Signaturetype}} tại tài liệu {{Fileformat}}. Việc xác minh chữ ký điện tử bên trong tài liệu {{Fileformat}} của bạn có thể được thực hiện nhanh chóng và dễ dàng."
+  },
+  "about": {
+    "title": "Khám phá các tính năng mới của API {{ProductFullName}}",
+    "content": "API [{{ProductFullName}}] ({{ProductUrl}}) cung cấp nhiều cách để xử lý nhiều định dạng tài liệu bằng cách sử dụng chữ ký điện tử. Nhiều loại chữ ký điện tử như văn bản, hình ảnh, chứng chỉ kỹ thuật số, mã vạch, mã QR, tem hoặc siêu dữ liệu được hỗ trợ. Khách hàng có thể thêm, bớt, chỉnh sửa, xác thực hoặc tìm kiếm chữ ký điện tử tại các tệp PDF, tài liệu MS Word, sổ làm việc MS Excel, bản trình bày MS PowerPoint, tệp Adobe Photoshop và các định dạng hình ảnh khác nhau. Có sẵn một số tính năng và cài đặt bổ sung đáng kinh ngạc."
+  },
+  "steps": {
+    "title_left": "Cách xác thực chữ ký {{Signaturetype}} trong tài liệu {{Fileformat}} của bạn",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{ProductUrl}}) bao gồm các tính năng hữu ích như xác minh chữ ký {{Signaturetype}} được đặt trong tài liệu {{Fileformat}}. Sử dụng cơ hội này mà không cần triển khai thêm mã.",
+      "step_1": "Thứ nhất, khởi tạo lớp Chữ ký cung cấp như một đường dẫn tham số phương thức khởi tạo đến một tài liệu được cho là đã được xác minh.",
+      "step_2": "Thứ hai, tạo một đối tượng VerifyOptions mới và thiết lập tất cả các thuộc tính cần thiết.",
+      "step_3": "Cuối cùng, gọi phương thức Verify đối tượng của Signature thông qua cá thể VerifyOptions.",
+      "step_4": "Sau đó xử lý kết quả xác minh."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "{{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ký bằng chữ ký {{Signaturetype}} Demo trực tiếp",
+    "content": "Thêm nhiều chữ ký điện tử khác nhau vào tệp {{Fileformat}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Signature App] (https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Xác minh các chữ ký {{Signaturetype}} khác bằng {{ProgLang}}",
+    "content": "Xác minh chữ ký điện tử được đặt trong các tài liệu khác nhau. Kiểm tra chất lượng chữ ký ở các định dạng tệp phổ biến như được tiết lộ bên dưới."
+  }
+}

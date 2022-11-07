@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verastkirina îmzeyên {{Signaturetype}} ji bo pelên {{Fileformat}} bi rêya {{ProgLang}}",
+    "meta_description": "Tenê çend rêzên koda {{ProductName}} bikar bînin da ku belgeyên {{Fileformat}} û îmzeyên wan ên {{Signaturetype}} rast bikin.",
+    "h1": "Verastkirina îmzeyan ji bo pelên {{Signaturetype}}",
+    "h2": "API ji bo {{ProductName}} firsendê dide ku hûn îmzeyên {{Signaturetype}} li ser belgeyên {{Fileformat}} verast bikin. Verastkirina e-îmzeyan di hundirê belgeyên we yên {{Pelformat}} de dibe ku zû û bi hêsanî were kirin."
+  },
+  "about": {
+    "title": "Taybetmendiyên API-ê yên {{ProductFullName}} yên nû keşif bikin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API rêgezên berfireh peyda dike ku meriv gelek formatên belgeyan bi karanîna îmzeyên elektronîkî veguhezîne. Gelek celeb îmzeyên dîjîtal ên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata têne piştgirî kirin. Xerîdar dikarin li PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formatên wêneyê lê zêde bikin, jêbirin, biguherînin, rast bikin an bigerin. Hejmarek ecêb taybetmendî û mîhengên zêde hene."
+  },
+  "steps": {
+    "title_left": "Meriv çawa îmzeyên {{Signaturetype}} di belgeya xweya {{Fileformat}} de rast bike",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) taybetmendîyên bikêrhatî yên wekî verastkirina îmzayên {{Signaturetype}} yên ku li belgeyên {{Fileformat}} hatine danîn dihewîne. Vê derfetê bêyî pêkanîna kodek zêde bikar bînin.",
+      "step_1": "Pêşîn, çîna Îmzeyê destnîşan bikin ku wekî rêgezek pîvana çêker ji belgeyek ku tê xwestin were verast kirin peyda dike.",
+      "step_2": "Ya duyemîn, hêmanek nû ya VerifyOptions biafirînin û hemî taybetmendiyên pêwîst saz bikin.",
+      "step_3": "Di dawiyê de, amûra Îmzeyê Verast bike ku mînaka VerifyOptions derbas dibe.",
+      "step_4": "Piştre encamên verastkirinê pêvajoyê bikin."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    }
+  },
+  "demos": {
+    "title": "Îmzekirina bi {{Signaturetype}} îmzeyan Demoya Zindî",
+    "content": "Bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî li pelê {{Fileformat}} zêde bikin."
+  },
+  "more_formats": {
+    "title": "Bi karanîna {{ProgLang}} îmzeyên din ên {{Signaturetype}} verast bikin",
+    "content": "Verastkirina îmzeyên elektronîkî yên ku di belgeyên cihêreng de hatine bicîh kirin. Wekî ku li jêr têne xuyang kirin, kalîteya îmzeyan di formên pelên populer de kontrol bikin."
+  }
+}

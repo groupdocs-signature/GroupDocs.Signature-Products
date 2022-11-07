@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "{{ProgLang}} içinde {{Codetype}} Barkodlu eSign {{Fileformat}} belgesi",
+    "meta_description": "{{Codetype}} Barkod İmzası oluşturun ve birkaç satır kod kullanarak {{ProductName}} ile {{Fileformat}} belgesine koyun. Çeşitli dosya biçimlerini imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{ProgLang}} içinde {{Fileformat}} belgesi için {{Codetype}} Barkod imzası oluşturun",
+    "h2": "{{Fileformat}} iş belgelerinizi {{Codetype}} Barkod ile e-imzalayın. İmzalama seçeneklerini ayarlamak için birkaç satır kodla hızlı ve kolay bir şekilde Barkod imzası oluşturun."
+  },
+  "digital-content": {
+    "meta_title": "{{ProgLang}} ile {{Fileformat}} dosyasına Dijital elektronik imza ekleme",
+    "meta_description": "Birkaç satır kod kullanarak Dijital İmzayı {{ProductName}} için {{Fileformat}} dosyasına koyun. Düzinelerce dosya biçimini imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{ProgLang}} içinde {{Signaturetype}} imzalı {{Fileformat}} dosyalarını imzalayın",
+    "h2": "Birkaç satır {{ProductName}} koduyla {{Signaturetype}} imzası nasıl eklenir"
+  },
+  "image-content": {
+    "meta_title": "{{ProgLang}} ile {{Fileformat}} dosyasına {{Signaturetype}} imza ekleme",
+    "meta_description": "Birkaç satır kod kullanarak {{ProductName}} için {{Fileformat}} dosyasına {{Signaturetype}} İmza koyun. Düzinelerce dosya biçimini imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{Fileformat}} dosyalarını {{Signaturetype}} imzasıyla {{ProgLang}} içinde imzalayın",
+    "h2": "Birkaç satır {{ProductName}} koduyla {{Signaturetype}} İmzası nasıl eklenir"
+  },
+  "metadata-content": {
+    "meta_title": "{{ProgLang}} aracılığıyla {{Fileformat}} belgelerine Meta Veri elektronik imzaları ekleyin",
+    "meta_description": "Meta Verileri, birkaç satır {{ProgLang}} kodu kullanarak {{Fileformat}} belgelerinizin içinde gizli elektronik imzalar olarak kullanın. İş belgelerinizi ve dosyalarınızı Meta Veri bilgileriyle e-imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{ProductName}} aracılığıyla {{Fileformat}} belgesi için meta veri elektronik imzaları basit ve kullanımı kolaydır!",
+    "h2": "Gizli Meta Veri girişleriyle {{Fileformat}} belgelerinizi ve sözleşmelerinizi e-imzalayın. PDF'ler, MS Word belgeleri, MS Excel çalışma kitapları, MS PowerPoint sunumları ve çeşitli görüntü formatları için sorunsuz ve ekstra kodlama olmadan Meta Veriler oluşturun."
+  },
+  "qrcode-content": {
+    "meta_title": "{{ProgLang}} içinde {{Codetype}} QR Kodu ile {{Fileformat}} belgesini eSign",
+    "meta_description": "{{Codetype}} QR Kodu oluşturun ve kısa bir {{ProgLang}} kodu parçasıyla {{ProductName}} kullanarak {{Fileformat}} dosyasına koyun. İş belgelerinizi ve dosyalarınızı QR Kodu ile e-imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{ProgLang}} içinde {{Fileformat}} belgesi için {{Codetype}} QR Kodu imzası oluşturun",
+    "h2": "{{Fileformat}} belgelerinizi ve sözleşmelerinizi {{Codetype}} QR Kodu ile e-imzalayın. Hızlı ve kolay bir şekilde QR Kodu imzası oluşturun."
+  },
+  "text-content": {
+    "meta_title": "{{ProgLang}} ile {{Fileformat}} dosyasına Metin elektronik imzaları oluşturun",
+    "meta_description": "Birkaç satır kod kullanarak {{ProductName}} için {{Fileformat}} dosyasına {{Signaturetype}} eSignature koyun. Düzinelerce dosya biçimini imzalamak için GroupDocs Belge İmza API'sini kullanın.",
+    "h1": "{{Fileformat}} dosyalarını {{Signaturetype}} imzasıyla {{ProgLang}} içinde imzalayın",
+    "h2": "Birkaç satır {{ProductName}} koduyla {{Signaturetype}} İmzası nasıl eklenir"
+  },
+  "barcode-about": {
+    "title": "{{ProductFullName}} Barkod imzaları API'si hakkında.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN gibi Barkod türlerini kullanarak dijital belge e-imzalamayı yönetmek için hızlı ve kolay bir API'dir. , ITF14 ve diğerleri. Müşteriler kolayca gerekli metni sağlayan Barkodlar oluşturabilir ve bunları PDF, Microsoft Office Words Belgeleri, Microsoft Office Excel çalışma kitapları, MS PowerPoint sunumları, Adobe Photoshop dosyaları ve çeşitli görüntü biçimlerine koyabilir. Belgelere yerleştirilen barkodlar güncellenebilir, aranabilir, doğrulanabilir, silinebilir veya ön izleme yapılabilir. Ayrıca, barkodların özelleştirilmesi desteklenmektedir."
+  },
+  "digital-about": {
+    "title": "{{ProductFullName}} Dijital imza API'sı hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), belgeleri dijital sertifikalarla dijital elektronik imzalarla tasarlamak için popüler bir API'dir. Dijital imzalar için API, belgeyi parola korumalı özel ve genel anahtarlarla esign etmek için PFX sertifika dosyalarını kullanır. Dijital imzalar, belirli bir eSign PDF sayfasıyla iş belgelerini onaylamak, Words, Excel, Powerpoint dosyaları ve Open Office belgeleri gibi tüm Microsoft Office belgelerini onaylamak için kullanılabilir. Müşteriler, düzenleme, kaldırma veya ayarlama gibi imzaları kolayca değiştirebilir. API, imzaları aramak ve doğrulamak için bir yol sağlar. Ayrıca, imza özelleştirme için birçok yetenek sağlanmıştır."
+  },
+  "image-about": {
+    "title": "{{ProductFullName}} Resim imzaları API'si hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), dijital belge e-imzalama için popüler bir API'dir. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi imzalar mevcuttur. İmzalar PDF'lere, MS Word belgelerine, MS Excel çalışma kitaplarına, MS PowerPoint sunumlarına, Adobe Photoshop dosyalarına ve çeşitli görüntü biçimlerine yerleştirilebilir. Müşteriler, belgelerini imzalayabilir ve bu belgelere konan e-imzaları güncelleyebilir, arayabilir, doğrulayabilir, silebilir veya önizleyebilir. Ayrıca, imza özelleştirme için birçok yetenek sağlanmıştır."
+  },
+  "metadata-about": {
+    "title": "{{ProductFullName}} Meta veri imzaları API'si hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), dijital belge e-imzalama için popüler bir API'dir. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi imzalar mevcuttur. İmzalar PDF'lere, MS Word belgelerine, MS Excel çalışma kitaplarına, MS PowerPoint sunumlarına, Adobe Photoshop dosyalarına ve çeşitli görüntü biçimlerine yerleştirilebilir. Müşteriler, belgelerini imzalayabilir ve bu belgelere konan e-imzaları güncelleyebilir, arayabilir, doğrulayabilir, silebilir veya önizleyebilir. Ayrıca, imza özelleştirme için birçok yetenek sağlanmıştır."
+  },
+  "qrcode-about": {
+    "title": "{{ProductFullName}} QR Kodu imzaları API'sı hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), belgeler için QR Kodu imzaları oluşturmak ve oluşturmak için gelişmiş bir API'dir. Kullanıcılar, indirmek veya sosyal medyada resim olarak paylaşmak için metin sağlayan QR Kod imzaları oluşturabilir. İmzalı belge API ile veya sadece mobil kamera üzerinden taranabilir! İş sözleşmelerinizi ve resmi belgelerinizi QR Kod imzası ekleyerek elektronik olarak imzalayın ve değiştirin. Herhangi bir QR Kodu imzası, imzalayanı tanımlamak veya belgeyi yetkilendirmek için benzersiz özel bilgiler içerir. Ayrıca, QR Kod içeriği programlı olarak kişisel anahtarlarla şifrelenebilir ve şifresi çözülebilir. Bu, kamuya açık belgelerdeki hassas verileri paylaşmak için birçok yetenek açar. İmzalayan kullanıcı, PDF'ler, MS Word belgeleri, MS Excel çalışma kitapları, MS PowerPoint sunumları, Adobe Photoshop dosyaları ve çeşitli görüntü formatlarındaki QR Kodlarını güncelleyebilir, doğrulayabilir, silebilir, önizleyebilir veya arayabilir. QR Kodları ayrıca özelleştirilebilir."
+  },
+  "text-about": {
+    "title": "{{ProductFullName}} API'si hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), dijital belge e-imzalama için popüler bir API'dir. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi imzalar mevcuttur. İmzalar PDF'lere, MS Word belgelerine, MS Excel çalışma kitaplarına, MS PowerPoint sunumlarına, Adobe Photoshop dosyalarına ve çeşitli görüntü biçimlerine yerleştirilebilir. Müşteriler, belgelerini imzalayabilir ve bu belgelere konan e-imzaları güncelleyebilir, arayabilir, doğrulayabilir, silebilir veya önizleyebilir. Ayrıca, imza özelleştirme için birçok yetenek sağlanmıştır."
+  },
+  "system-requirements": {
+    "title": "sistem gereksinimleri",
+    "content": {
+      "description": "{{ProductFullName}}, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme ortamları: {{DevEnv}}",
+      "step_3": "En son {{ProductFullName}} ürününü [{{RepoName}}}]({{RepoUrl}}) adresinden edinin"
+    }
+  },
+  "barcode-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "digital-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "image-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "metadata-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "qrcode-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "text-steps": {
+    "title": "{{ProgLang}} içinde {{Signaturetype}} ile {{Fileformat}} imzalama adımları",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerini {{Signaturetype}} imzasıyla hızlı ve kolay bir şekilde imzalama olanağı sağlar.",
+      "step_1": "Yol veya bellek akışı olarak imzalaması gereken {{Fileformat}} dosyasını sağlayan bir Signature sınıfı örneği oluşturun",
+      "step_2": "SignOptions sınıfını örnekleyin ve istenen tüm verileri ayarlayın.",
+      "step_3": "Çıkış {{Fileformat}} dosyasını veya bellek akışını geçen Signature.Sign() yöntemini çağırın"
+    }
+  },
+  "demos": {
+    "title": "{{Fileformat}} dokümanı {{Signaturetype}} Canlı Demo ile imzalama",
+    "content": "Hemen şimdi [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web sitesini ziyaret ederek çeşitli imzalarla {{Fileformat}} dosyasını imzalayın. Ücretsiz çevrimiçi demo sizi bekliyor."
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} için desteklenen diğer {{Signaturetype}} imzaları",
+    "content": "{{Fileformat}}'ı diğer imza türleriyle de imzalayabilirsiniz. Lütfen aşağıdaki listeye bakın."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Evrensel Ürün Kodu, mağazalardaki ticari ürünlerin takibi için dünya çapında yaygın olarak kullanılan bir barkod sembolüdür.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "Tam olarak 11 basamak + 1 kontrol basamağı."
+    },
+    "UPCE": {
+      "details": "Evrensel Ürün Kodu, mağazalardaki ticari ürünlerin takibi için dünya çapında yaygın olarak kullanılan bir barkod sembolüdür. UPCE, UPC ise 8 basamaklı bir varyasyondur.",
+      "characterset": "Yalnızca sayısal basamakları (0-9) destekler.",
+      "codetextcapacity": "Codetext kapasitesi: tam olarak 7 basamak + 1 kontrol basamağı."
+    },
+    "EAN13": {
+      "details": "En yaygın olarak kullanılan EAN standardı, orijinal 12 basamaklı Evrensel Ürün Kodu standardının bir üst kümesi olan on üç basamaklı EAN-13'tür.",
+      "characterset": "Yalnızca sayısal rakamlar (0-9).",
+      "codetextcapacity": "Kod metni kapasitesi: tam olarak 12 basamak + 1 kontrol basamağı."
+    },
+    "EAN14": {
+      "details": "Avrupa Ürün Numarası veya EAN, belirli bir üreticiden belirli bir ambalaj konfigürasyonunda belirli bir perakende ürün türünü tanımlamak için küresel ticarette kullanılan bir barkod sembolojisini ve numaralandırma sistemini tanımlayan bir standarttır.",
+      "characterset": "Sayısal rakamlar (0-9) ve özel karakterler.",
+      "codetextcapacity": "Tam olarak 14 sayısal basamak."
+    },
+    "Code39": {
+      "details": "Code 39 (Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 veya USD-3 olarak da bilinir), değişken uzunluklu, ayrı bir barkod sembolüdür.",
+      "characterset": "Sayısal rakamlar (0-9) ve büyük harfler (A-Z) ve bir dizi özel karakter (-, ., $, /, +, % ve boşluk).",
+      "codetextcapacity": "Belirli bir kısıtlama yok."
+    },
+    "Code39Extended": {
+      "details": "Code 39 (Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 veya USD-3 olarak da bilinir), değişken uzunluklu, ayrı bir barkod sembolüdür.",
+      "characterset": "Karakter seti: 128 ASCII karakterin tümü.",
+      "codetextcapacity": "Belirli bir kısıtlama yok."
+    },
+    "Code128": {
+      "details": "Code 128, ISO/IEC 15417:2007'de tanımlanan yüksek yoğunluklu doğrusal bir barkod sembolojisidir. Alfanümerik veya yalnızca sayısal barkodlar için kullanılır.",
+      "characterset": "ASCII'nin tüm 128 karakteri.",
+      "codetextcapacity": "Belirli bir kısıtlama yok."
+    },
+    "Codabar": {
+      "details": "Codabar, FedEx faturaları ve kan bankası formu gibi çok parçalı formlar için nokta vuruşlu yazıcılarda yazdırıldığında bile doğru bir şekilde okunacak şekilde tasarlanmış doğrusal bir barkod sembolüdür.",
+      "characterset": "Sayısal rakamlar (0-9) ve özel karakterler $/-:+.",
+      "codetextcapacity": "Belirli bir kısıtlama yok."
+    },
+    "Postnet": {
+      "details": "POSTNET (Posta Sayısal Kodlama Tekniği), Amerika Birleşik Devletleri Posta Servisi tarafından postanın yönlendirilmesine yardımcı olmak için kullanılan bir barkod sembolojisidir.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "11 karaktere kadar."
+    },
+    "ISBN": {
+      "details": "Uluslararası Standart Kitap Numarası (ISBN), benzersiz olması amaçlanan sayısal bir ticari kitap tanımlayıcısıdır.[a][b] Yayıncılar, ISBN'leri Uluslararası ISBN Ajansının bir yan kuruluşundan satın alır.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "Tam olarak 9 basamak + 1 kontrol basamağı."
+    },
+    "ITF14": {
+      "details": "ITF-14, Global Ticari Ürün Numarasını kodlamak için Interleaved 2 of 5 (ITF) barkodunun GS1 uygulamasıdır.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "13 basamak + 1 kontrol basamağı."
+    },
+    "Pdf417": {
+      "details": "PDF417, taşıma, kimlik kartları ve envanter yönetimi gibi çeşitli uygulamalarda kullanılan yığınlanmış doğrusal bir barkod biçimidir.",
+      "characterset": "256 ASCII karakterin tümü.",
+      "codetextcapacity": "800 karaktere kadar."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF), rakamları kodlayan sürekli iki genişlikli bir barkod sembolojisidir. Ticari olarak 135 film üzerinde, ITF-14 barkodları için ve bazı ürünlerin kartonlarında kullanılırken, içindeki ürünler UPC veya EAN ile etiketlenmiştir.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "Değişken uzunluk."
+    },
+    "Pharmacode": {
+      "details": "Farmasötik Binary Code olarak da bilinen Pharmacode, ilaç endüstrisinde paketleme kontrol sistemi olarak kullanılan bir barkod standardıdır.",
+      "characterset": "Sayısal rakamlar (0-9).",
+      "codetextcapacity": "3 ile 131070 arasında yalnızca tek bir tamsayıyı temsil eder."
+    },
+    "Aztec": {
+      "details": "Aztek Kodu, diğer 2 boyutlu sembolojilerden daha yüksek doğruluğa sahip olacak şekilde tasarlanmış iki boyutlu (2-D) genel amaçlı bir matris sembolojisidir. Bir Aztek Kodu sembolü, en fazla 3.832 sayısal basamağı kodlayabilir; 3.067 alfabetik karakter; veya 1.914 bayt veri.",
+      "characterset": "256 ASCII karakterin tümü.",
+      "codetextcapacity": "En fazla 3.832 sayısal basamak veya 3.067 alfabetik karakter veya 1.914 bayt veri."
+    },
+    "DataMatrix": {
+      "details": "Veri Matrisi, kare veya dikdörtgen şeklinde düzenlenmiş siyah ve beyaz 'hücrelerden' veya noktalardan oluşan iki boyutlu bir koddur ve matris olarak da bilinir. Kodlanacak bilgi metin veya sayısal veri olabilir.",
+      "characterset": "Tüm 256 ASCII karakterini, tüm ISO karakterlerini ve tüm Genişletilmiş İkili Kodlu Ondalık Değişim Kodu (EBCDIC) karakterlerini destekler.",
+      "codetextcapacity": "En fazla 3116 sayısal basamak veya 2335 alfa sayısal karakter veya 1556 ikili karakter."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Veri Matrisi, GS1 özelliklerine uyan bir Veri Matrisi çeşididir. Aşağıdakiler gibi ancak bunlarla sınırlı olmayan bilgileri kodlamak için GS1 DataMatrix'i kullanın: AI(01) Global Ticari Ürün Numarası (GTIN), AI(17) Son Kullanma Tarihi, AI(10) Parti Numarası, AI(21) Seri Numarası .",
+      "characterset": "Karakter seti: büyük ve küçük harfler ve özel karakterler $@%*+-./:=<>;&*_,'! hepsi doğru Uygulama Tanımlayıcıları ile.",
+      "codetextcapacity": "Kod metni kapasitesi: en fazla 3116 sayısal basamak veya 2335 alfa sayısal karakter."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Kodu, GS1 spesifikasyonlarına uyan bir QR Kodu çeşididir. Parti numarası, ürün kimliği ve miktar gibi genişletilmiş paketleme bilgilerini paylaşmak için özel olarak tasarlanmıştır.",
+      "characterset": "Büyük ve küçük harfler ve özel karakterler $%*+-./: tümü doğru Uygulama Tanımlayıcıları ile",
+      "codetextcapacity": "7089 sayısal karaktere kadar, 4296 alfasayısal karakter"
+    },
+    "QR": {
+      "details": "QR Kodu (Hızlı Yanıt Kodundan kısaltılmıştır), bir tür matris barkodunun (veya iki boyutlu barkodun) ticari markasıdır. En popüler ve yaygın olarak kullanılan iki boyutlu kod türüdür. Pratikte, QR kodları genellikle bir web sitesine veya uygulamaya işaret eden bir konumlandırıcı, tanımlayıcı veya izleyici için veriler içerir.",
+      "characterset": "256 ASCII karakterin tümü + Kanji",
+      "codetextcapacity": "7089'a kadar sayısal karakter, 4296 alfasayısal karakter, 2953 bayt (ikili veri) veya 1817 Kanji karakteri."
+    }
+  }
+}

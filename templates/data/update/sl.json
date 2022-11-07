@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Posodobite podpise {{Signaturetype}} v datotekah {{Fileformat}} z {{ProgLang}}",
+    "meta_description": "Uporabite preprosto in razumljivo kodo {{ProductName}} za posodobitev podpisov {{Signaturetype}} v podpisanih dokumentih {{Fileformat}}.",
+    "h1": "Uredite in posodobite podpise {{Signaturetype}} v datotekah {{Fileformat}}",
+    "h2": "API za {{ProductName}} zagotavlja funkcionalnost za posodabljanje podpisov {{Signaturetype}} v dokumentih {{Fileformat}}. Hitro in enostavno posodobite e-podpise v svojih dokumentih {{Fileformat}} z nekaj vrsticami kode {{ProgLang}}."
+  },
+  "about": {
+    "title": "Več o funkcijah API-ja {{ProductFullName}}",
+    "content": "Funkcionalnost API-ja [{{ProductFullName}}]({{ProductUrl}}) vsebuje širok izbor sredstev za obdelavo v formatih dokumentov na zahtevo z uporabo elektronskih podpisov. Podprt je širok spekter e-podpisov, kot so besedila, slike, digitalna potrdila, črtne kode, QR-kode, žigi ali metapodatki. Stranke lahko dodajajo, odstranjujejo, urejajo, preverjajo ali iščejo digitalne podpise v PDF-jih, dokumentih MS Word, delovnih zvezkih MS Excel, predstavitvah MS PowerPoint, datotekah Adobe Photoshop in različnih formatih slik. Na voljo so številne uporabne funkcije in nastavitve."
+  },
+  "steps": {
+    "title_left": "Kako spremeniti podpise {{Signaturetype}} v dokumentu {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) vključuje uporabne funkcije, kot je posodobitev podpisov {{Signaturetype}} v dokumentih {{Fileformat}}. Omogoča spreminjanje funkcij podpisov brez dodatne kode.",
+      "step_1": "Za začetek ustvarite predmet podpisa, ki bo kot pot parametra konstruktorja posredoval dokumentu, ki naj bi bil posodobljen.",
+      "step_2": "Nato ustvarite primerek ustreznega določenega predmeta podpisa in nastavite njegov identifikator in lastnosti, ki jih je treba spremeniti.",
+      "step_3": "Na koncu pokličite metodo posodobitve podpisa, ki posreduje določen predmet podpisa.",
+      "step_4": "Postopek posodabljanja rezultatov na vaše obvestilo."
+    },
+    "title_right": "Sistemske zahteve",
+    "content_right": {
+      "description": "{{ProductFullName}} so podprti na vseh glavnih platformah in operacijskih sistemih. Preden izvedete spodnjo kodo, se prepričajte, da imate v sistemu nameščene naslednje predpogoje.",
+      "step_1": "Operacijski sistemi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okolja: {{DevEnv}}",
+      "step_3": "Prenesite najnovejšo različico {{ProductFullName}} iz [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Posodabljanje podpisov {{Signaturetype}} na straneh dokumenta – predstavitev v živo",
+    "content": "Takoj zdaj uredite različne elektronske podpise dokumenta {{Fileformat}} tako, da obiščete spletno mesto [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Posodobite različne podpise {{Signaturetype}} prek {{ProgLang}}",
+    "content": "Urejanje digitalnih podpisov, ki se nahajajo v različnih formatih dokumentov. Posodobite podatke o podpisih brez dodatne kode."
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokuments ar {{Codetype}} svītrkodu programmā {{ProgLang}}",
+    "meta_description": "Izveidojiet {{Codetype}} svītrkoda parakstu un ievietojiet to {{Fileformat}} dokumentā ar {{ProductName}}, izmantojot pāris koda rindiņas. Izmantojiet GroupDocs Document Signature API dažādu failu formātu parakstīšanai.",
+    "h1": "Ģenerēt {{Codetype}} svītrkoda parakstu dokumentam {{Fileformat}} programmā {{ProgLang}}",
+    "h2": "eParakstiet savus {{Fileformat}} biznesa dokumentus, izmantojot {{Codetype}} svītrkodu. Ātri un vienkārši ģenerējiet svītrkoda parakstu, izmantojot dažas koda rindiņas, lai iestatītu parakstīšanas opcijas."
+  },
+  "digital-content": {
+    "meta_title": "Digitālo elektronisko parakstu pievienošana failam {{Fileformat}}, izmantojot {{ProgLang}}",
+    "meta_description": "Ievietojiet digitālo parakstu {{Fileformat}} failā {{ProductName}}, izmantojot dažas koda rindiņas. Izmantojiet GroupDocs Document Signature API, lai parakstītu desmitiem failu formātu.",
+    "h1": "eSign {{Fileformat}} faili ar {{Signaturetype}} parakstiem programmā {{ProgLang}}",
+    "h2": "Kā pievienot {{Signaturetype}} parakstu ar dažām {{ProductName}} koda rindām"
+  },
+  "image-content": {
+    "meta_title": "Parakstu {{Signaturetype}} pievienošana failam {{Fileformat}}, izmantojot {{ProgLang}}",
+    "meta_description": "Ievietojiet {{Signaturetype}} parakstu {{Fileformat}} failā {{ProductName}}, izmantojot dažas koda rindiņas. Izmantojiet GroupDocs Document Signature API, lai parakstītu desmitiem failu formātu.",
+    "h1": "Parakstīt {{Fileformat}} failus ar {{Signaturetype}} parakstiem programmā {{ProgLang}}",
+    "h2": "Kā pievienot {{Signaturetype}} parakstu ar dažām {{ProductName}} koda rindām"
+  },
+  "metadata-content": {
+    "meta_title": "Pievienojiet metadatu elektroniskos parakstus {{Fileformat}} dokumentiem, izmantojot {{ProgLang}}",
+    "meta_description": "Izmantojiet metadatus kā slēptos elektroniskos parakstus savos {{Fileformat}} dokumentos, izmantojot dažas {{ProgLang}} koda rindiņas. Izmantojiet GroupDocs Document Signature API, lai e-parakstītu savus biznesa dokumentus un failus ar metadatu informāciju.",
+    "h1": "Metadatu elektroniskie paraksti dokumentam {{Fileformat}}, izmantojot {{ProductName}}, ir vienkārši un ērti lietojami!",
+    "h2": "eParakstiet savus {{Fileformat}} dokumentus un līgumus ar slēptiem metadatu ierakstiem. Ģenerējiet metadatus PDF failiem, MS Word dokumentiem, MS Excel darbgrāmatām, MS PowerPoint prezentācijām un dažādiem attēlu formātiem bez problēmām un papildu kodēšanas."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokuments ar {{Codetype}} QR kodu programmā {{ProgLang}}",
+    "meta_description": "Izveidojiet {{Codetype}} QR kodu un ievietojiet to failā {{Fileformat}}, izmantojot {{ProductName}} un īsu {{ProgLang}} kodu. Izmantojiet GroupDocs Document Signature API, lai e-parakstītu savus biznesa dokumentus un failus ar QR kodu.",
+    "h1": "Ģenerēt {{Codetype}} QR koda parakstu dokumentam {{Fileformat}} programmā {{ProgLang}}",
+    "h2": "eParakstiet savus {{Fileformat}} dokumentus un līgumus ar {{Codetype}} QR Code. Ātri un viegli ģenerējiet QR koda parakstu."
+  },
+  "text-content": {
+    "meta_title": "Izveidojiet teksta elektroniskos parakstus failam {{Fileformat}}, izmantojot {{ProgLang}}",
+    "meta_description": "Ievietojiet {{Signaturetype}} eParaksts {{Fileformat}} failā {{ProductName}}, izmantojot dažas koda rindiņas. Izmantojiet GroupDocs Document Signature API, lai parakstītu desmitiem failu formātu.",
+    "h1": "Parakstīt {{Fileformat}} failus ar {{Signaturetype}} parakstiem programmā {{ProgLang}}",
+    "h2": "Kā pievienot {{Signaturetype}} parakstu ar dažām {{ProductName}} koda rindām"
+  },
+  "barcode-about": {
+    "title": "Par {{ProductFullName}} svītrkoda parakstu API.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir ātra un vienkārša API, lai pārvaldītu digitālo dokumentu e-parakstīšanu, izmantojot svītrkodu veidus, piemēram, UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN. , ITF14 un daudzi citi. Klienti var viegli izveidot svītrkodus ar nepieciešamo tekstu un ievietot tos PDF, Microsoft Office Words dokumentos, Microsoft Office Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Dokumentos ievietotos svītrkodus var atjaunināt, meklēt, pārbaudīt, dzēst vai priekšskatīt. Turklāt tiek atbalstīta svītrkodu pielāgošana."
+  },
+  "digital-about": {
+    "title": "Par {{ProductFullName}} digitālo parakstu API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir populāra API dokumentu parakstīšanai ar digitālajiem elektroniskajiem parakstiem un digitālajiem sertifikātiem. Digitālo parakstu API izmanto PFX sertifikātu failus, lai parakstītu dokumentu ar paroli aizsargātām privātajām un publiskajām atslēgām. Ciparparakstus var izmantot, lai sertificētu biznesa dokumentus ar eSign PDF konkrētu lapu, sertificētu visus Microsoft Office dokumentus, piemēram, Words, Excel, Powerpoint failus un Open Office dokumentus. Klienti var viegli manipulēt ar parakstiem, piemēram, tos rediģēt, noņemt vai pielāgot. API nodrošina veidu, kā meklēt un pārbaudīt parakstus. Turklāt tiek nodrošinātas daudzas parakstu pielāgošanas iespējas."
+  },
+  "image-about": {
+    "title": "Par {{ProductFullName}} attēla parakstu API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir populāra API digitālo dokumentu e-parakstīšanai. Ir pieejami paraksti, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Parakstus var ievietot PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Klienti var parakstīt savus dokumentus un atjaunināt, meklēt, pārbaudīt, dzēst vai priekšskatīt uz šiem dokumentiem uzliktos e-parakstus. Turklāt tiek nodrošinātas daudzas parakstu pielāgošanas iespējas."
+  },
+  "metadata-about": {
+    "title": "Par {{ProductFullName}} metadatu parakstu API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir populāra API digitālo dokumentu e-parakstīšanai. Ir pieejami paraksti, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Parakstus var ievietot PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Klienti var parakstīt savus dokumentus un atjaunināt, meklēt, pārbaudīt, dzēst vai priekšskatīt uz šiem dokumentiem uzliktos e-parakstus. Turklāt tiek nodrošinātas daudzas parakstu pielāgošanas iespējas."
+  },
+  "qrcode-about": {
+    "title": "Par {{ProductFullName}} QR koda parakstu API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir nobriedis API, lai izveidotu un ģenerētu QR koda parakstus dokumentiem. Lietotāji var ģenerēt QR koda parakstus, nodrošinot tekstu, lai to lejupielādētu vai kopīgotu sociālajos medijos kā attēlu. Parakstīto dokumentu var skenēt ar API vai vienkārši caur mobilo kameru! Elektroniski parakstiet savus biznesa līgumus un oficiālos dokumentus, pievienojot QR koda parakstu un manipulējiet ar to. Jebkurš QR koda paraksts satur unikālu pielāgotu informāciju, lai identificētu parakstītāju vai autorizētu dokumentu. Turklāt QR koda saturu var programmatiski šifrēt un atšifrēt ar personiskajām atslēgām. Tas paver daudzas iespējas kopīgot sensitīvus datus publiskajos dokumentos. Pēc parakstīšanas lietotājs var atjaunināt, pārbaudīt, dzēst, priekšskatīt vai meklēt QR kodus PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. QR kodus var papildus pielāgot."
+  },
+  "text-about": {
+    "title": "Par {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ir populāra API digitālo dokumentu e-parakstīšanai. Ir pieejami paraksti, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Parakstus var ievietot PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Klienti var parakstīt savus dokumentus un atjaunināt, meklēt, pārbaudīt, dzēst vai priekšskatīt uz šiem dokumentiem uzliktos e-parakstus. Turklāt tiek nodrošinātas daudzas parakstu pielāgošanas iespējas."
+  },
+  "system-requirements": {
+    "title": "Sistēmas prasības",
+    "content": {
+      "description": "{{ProductFullName}} tiek atbalstīti visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Iegūstiet jaunāko {{ProductFullName}} no [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "digital-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "image-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "metadata-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "text-steps": {
+    "title": "Darbības, lai parakstītu {{Fileformat}} ar {{Signaturetype}} programmā {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina iespēju ātri un vienkārši parakstīt {{Fileformat}} dokumentus ar {{Signaturetype}} parakstiem.",
+      "step_1": "Izveidojiet paraksta klases gadījumu, kas nodrošina {{Fileformat}} failu, kas paredzēts parakstīšanai kā ceļš vai atmiņas straume",
+      "step_2": "Izveidojiet SignOptions klasi un iestatiet visus pieprasītos datus.",
+      "step_3": "Izsauciet metodi Signature.Sign(), kas nodod izvades {{Fileformat}} failu vai atmiņas straumi"
+    }
+  },
+  "demos": {
+    "title": "Dokumentu {{Fileformat}} parakstīšana, izmantojot {{Signaturetype}} tiešraides demonstrāciju",
+    "content": "Parakstiet {{Fileformat}} failu ar dažādiem parakstiem tūlīt, apmeklējot vietni [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Jūs gaida bezmaksas tiešsaistes demonstrācija."
+  },
+  "more_formats": {
+    "title": "Citi atbalstītie {{Signaturetype}} paraksti priekš {{ProgLang}}",
+    "content": "Varat arī parakstīt {{Fileformat}} ar citiem paraksta veidiem. Lūdzu, skatiet sarakstu zemāk."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Universālais produkta kods ir svītrkoda simbolika, ko visā pasaulē plaši izmanto tirdzniecības preču izsekošanai veikalos.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "Tieši 11 cipari + 1 kontrolcipars."
+    },
+    "UPCE": {
+      "details": "Universālais produkta kods ir svītrkoda simbolika, ko visā pasaulē plaši izmanto tirdzniecības preču izsekošanai veikalos. UPCE ir 8 ciparu variācija, ja UPC.",
+      "characterset": "Atbalsta tikai ciparu ciparus (0-9).",
+      "codetextcapacity": "Koda teksta ietilpība: tieši 7 cipari + 1 pārbaudes cipars."
+    },
+    "EAN13": {
+      "details": "Visbiežāk izmantotais EAN standarts ir trīspadsmit ciparu EAN-13, kas ir sākotnējā 12 ciparu universālā produkta koda standarta superkopa.",
+      "characterset": "Tikai ciparu cipari (0-9).",
+      "codetextcapacity": "Koda teksta ietilpība: tieši 12 cipari + 1 kontrolcipars."
+    },
+    "EAN14": {
+      "details": "Eiropas izstrādājuma numurs jeb EAN ir standarts, kas apraksta svītrkoda simbolu un numerācijas sistēmu, ko izmanto globālajā tirdzniecībā, lai identificētu konkrētu mazumtirdzniecības produkta veidu noteiktā iepakojuma konfigurācijā no konkrēta ražotāja.",
+      "characterset": "Ciparu cipari (0-9) un speciālās rakstzīmes.",
+      "codetextcapacity": "Tieši 14 ciparu cipari."
+    },
+    "Code39": {
+      "details": "Kods 39 (pazīstams arī kā Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 vai USD-3) ir mainīga garuma, diskrēta svītrkoda simbolika.",
+      "characterset": "Ciparu cipari (0–9) un lielie burti (A–Z) un vairākas speciālās rakstzīmes (-, ., $, /, +, % un atstarpe).",
+      "codetextcapacity": "Nav īpašu ierobežojumu."
+    },
+    "Code39Extended": {
+      "details": "Kods 39 (pazīstams arī kā Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 vai USD-3) ir mainīga garuma, diskrēta svītrkoda simbolika.",
+      "characterset": "Rakstzīmju kopa: visas 128 ASCII rakstzīmes.",
+      "codetextcapacity": "Nav īpašu ierobežojumu."
+    },
+    "Code128": {
+      "details": "Kods 128 ir augsta blīvuma lineāra svītrkoda simbolika, kas definēta ISO/IEC 15417:2007. To izmanto burtciparu vai tikai ciparu svītrkodiem.",
+      "characterset": "Visas 128 ASCII rakstzīmes.",
+      "codetextcapacity": "Nav īpašu ierobežojumu."
+    },
+    "Codabar": {
+      "details": "Codabar ir lineāra svītrkoda simbolika, kas tika izstrādāta tā, lai to varētu precīzi nolasīt pat tad, ja tā tiek drukāta uz matricas printeriem vairāku daļu veidlapām, piemēram, FedEx aviorēķiniem un asins bankas veidlapām.",
+      "characterset": "Ciparu cipari (0-9) un īpašās rakstzīmes $/-:+.",
+      "codetextcapacity": "Nav īpašu ierobežojumu."
+    },
+    "Postnet": {
+      "details": "POSTNET (pasta ciparu kodēšanas tehnika) ir svītrkoda simbolika, ko izmanto Amerikas Savienoto Valstu pasta dienests, lai palīdzētu virzīt pastu.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "Līdz 11 rakstzīmēm."
+    },
+    "ISBN": {
+      "details": "Starptautiskais standarta grāmatas numurs (ISBN) ir komerciālas grāmatas ciparu identifikators, kas ir paredzēts unikāls.[a][b] Izdevēji iegādājas ISBN no Starptautiskās ISBN aģentūras filiāles.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "Tieši 9 cipari + 1 kontrolcipars."
+    },
+    "ITF14": {
+      "details": "ITF-14 ir Interleaved 2 of 5 (ITF) svītrkoda GS1 ieviešana globālā tirdzniecības vienības numura kodēšanai.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "13 cipari + 1 kontrolcipars."
+    },
+    "Pdf417": {
+      "details": "PDF417 ir lineāra svītrkoda formāts, ko izmanto dažādās lietojumprogrammās, piemēram, transportēšanā, identifikācijas kartēs un krājumu pārvaldībā.",
+      "characterset": "Visas 256 ASCII rakstzīmes.",
+      "codetextcapacity": "Līdz 800 rakstzīmēm."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) ir nepārtraukts divu platumu svītrkoda simbolu kodēšanas ciparus. To izmanto komerciāli uz 135 plēves, ITF-14 svītrkodiem un dažu produktu kartona kārbām, savukārt iekšpusē esošie produkti ir marķēti ar UPC vai EAN.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "Mainīgs garums."
+    },
+    "Pharmacode": {
+      "details": "Farmaceitiskais kods, kas pazīstams arī kā Pharmaceutical Binary Code, ir svītrkoda standarts, ko izmanto farmācijas rūpniecībā kā iepakojuma kontroles sistēmu.",
+      "characterset": "Ciparu cipari (0-9).",
+      "codetextcapacity": "Apzīmē tikai vienu veselu skaitli no 3 līdz 131070."
+    },
+    "Aztec": {
+      "details": "Acteku kods ir divdimensiju (2-D) vispārējas nozīmes matricas simbolika, kas ir izstrādāta tā, lai tai būtu augstāka precizitāte nekā citām 2-D simboliem. Acteku koda simbols var iekodēt līdz 3832 ciparu cipariem; 3067 alfabēta rakstzīmes; vai 1914 baiti datu.",
+      "characterset": "Visas 256 ASCII rakstzīmes.",
+      "codetextcapacity": "Līdz 3832 ciparu cipariem vai 3067 alfabēta rakstzīmēm vai 1914 datu baitiem."
+    },
+    "DataMatrix": {
+      "details": "Datu matrica ir divdimensiju kods, kas sastāv no melnbaltām “šūnām” vai punktiem, kas sakārtoti kvadrātā vai taisnstūrveida formā, ko sauc arī par matricu. Kodējamā informācija var būt teksta vai ciparu dati.",
+      "characterset": "Atbalsta visas 256 ASCII rakstzīmes, visas ISO rakstzīmes un visas paplašinātā binārā kodētā decimālā apmaiņas koda (EBCDIC) rakstzīmes.",
+      "codetextcapacity": "Līdz 3116 ciparu cipariem vai 2335 burtciparu rakstzīmēm vai 1556 binārajām rakstzīmēm."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix ir datu matricas variants, kas atbilst GS1 specifikācijām. Izmantojiet GS1 DataMatrix, lai kodētu šādu informāciju, piemēram, bet ne tikai: AI(01) globālais tirdzniecības vienības numurs (GTIN), AI(17) derīguma termiņš, AI(10) partijas numurs, AI(21) sērijas numurs. .",
+      "characterset": "Rakstzīmju kopa: lielie un mazie burti un speciālās rakstzīmes $@%*+-./:=<>;&*_,'! viss ar pareiziem lietojumprogrammu identifikatoriem.",
+      "codetextcapacity": "Koda teksta ietilpība: līdz 3116 ciparu cipariem vai 2335 burtciparu rakstzīmēm."
+    },
+    "GS1QR": {
+      "details": "GS1 QR kods ir QR koda variants, kas atbilst GS1 specifikācijām. Tas tika īpaši izstrādāts, lai kopīgotu paplašinātu informāciju par iepakojumu, piemēram, partijas numuru, produkta ID un daudzumu.",
+      "characterset": "Lielie un mazie burti un īpašās rakstzīmes $%*+-./: viss ar pareiziem lietojumprogrammu identifikatoriem",
+      "codetextcapacity": "Līdz 7089 ciparu rakstzīmēm, 4296 burtciparu rakstzīmēm"
+    },
+    "QR": {
+      "details": "QR kods (saīsināts no Quick Response Code) ir matricas svītrkoda (vai divdimensiju svītrkoda) veida preču zīme. Tas ir vispopulārākais un plaši izmantotais divdimensiju koda veids. Praksē QR kodi bieži satur datus par vietrādi, identifikatoru vai izsekotāju, kas norāda uz vietni vai lietojumprogrammu.",
+      "characterset": "Visas 256 ASCII rakstzīmes + Kanji",
+      "codetextcapacity": "Līdz 7089 ciparu rakstzīmēm, 4296 burtciparu rakstzīmēm, 2953 baitiem (binārie dati) vai 1817 Kanji rakstzīmēm."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verificarea semnăturilor {{Signaturetype}} pentru fișierele {{Fileformat}} prin {{ProgLang}}",
+    "meta_description": "Utilizați doar câteva rânduri de cod {{ProductName}} pentru a verifica documentele {{Fileformat}} și semnăturile acestora {{Signaturetype}}.",
+    "h1": "{{Signaturetype}} verificarea semnăturilor pentru fișiere {{Fileformat}}",
+    "h2": "API-ul pentru {{ProductName}} oferă posibilitatea de a verifica semnăturile {{Signaturetype}} în documentele {{Fileformat}}. Verificarea semnăturilor electronice din documentele dvs. {{Fileformat}} poate fi efectuată rapid și ușor."
+  },
+  "about": {
+    "title": "Descoperiți noi funcții API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API oferă o gamă largă de moduri de a procesa numeroase formate de documente prin utilizarea semnăturilor electronice. Sunt acceptate multe tipuri de semnături digitale precum texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Clienții pot adăuga, elimina, edita, valida sau căuta semnături digitale în PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Sunt disponibile un număr uimitor de funcții și setări suplimentare."
+  },
+  "steps": {
+    "title_left": "Cum să validați semnăturile {{Signaturetype}} în documentul dvs. {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) include funcții utile, cum ar fi verificarea semnăturilor {{Signaturetype}} plasate în documentele {{Fileformat}}. Folosiți această oportunitate fără a implementa cod suplimentar.",
+      "step_1": "În primul rând, instanțiați clasa Signature furnizând ca parametru constructor calea către un document care ar trebui să fie verificat.",
+      "step_2": "În al doilea rând, creați un nou obiect VerifyOptions și configurați toate proprietățile necesare.",
+      "step_3": "În cele din urmă, invocați metoda Verify a obiectului Signature, trecând instanța VerifyOptions.",
+      "step_4": "Apoi procesați rezultatele verificării."
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Descărcați cea mai recentă versiune a {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Semnează cu {{Signaturetype}} semnături Demo live",
+    "content": "Adăugați diverse semnături electronice în fișierul {{Fileformat}} chiar acum, vizitând site-ul web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Verificați alte semnături {{Signaturetype}} folosind {{ProgLang}}",
+    "content": "Verificarea semnăturilor electronice plasate în diverse documente. Verificați calitatea semnăturilor în formatele de fișiere populare, așa cum este dezvăluit mai jos."
+  }
+}

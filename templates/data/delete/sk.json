@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Odstrániť {{Signaturetype}} podpisy zo súborov {{Fileformat}} cez {{ProgLang}}",
+    "meta_description": "Odstránenie špecifických podpisov {{Signaturetype}} z podpísaných dokumentov {{Fileformat}} možno jednoducho vykonať pomocou krátkeho kódu {{ProductName}}.",
+    "h1": "Odstráňte {{Signaturetype}} podpisy, ktoré sú umiestnené v súboroch {{Fileformat}}",
+    "h2": "Odstráňte rôzne podpisy {{Signaturetype}} z dokumentov {{Fileformat}}. Odstránenie podpisov {{Signaturetype}} vyžaduje jednoduchý kód {{ProgLang}}."
+  },
+  "about": {
+    "title": "Získajte informácie o funkciách rozhrania API služby {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API poskytuje mnoho spôsobov, ako spracovať vaše dokumenty pomocou elektronických podpisov. K dispozícii sú digitálne podpisy ako texty, obrázky, digitálne certifikáty, čiarové kódy, QR kódy, pečiatky alebo metadáta. Zákazníci majú možnosť pridávať, mazať, aktualizovať, overovať alebo vyhľadávať digitálne podpisy v súboroch PDF, dokumentoch MS Word, zošitoch MS Excel, prezentáciách MS PowerPoint, súboroch Adobe Photoshop a rôznych obrazových formátoch. K dispozícii je veľké množstvo užitočných funkcií a nastavení."
+  },
+  "steps": {
+    "title_left": "Ako odstrániť podpisy {{Signaturetype}} z dokumentu {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) poskytuje užitočnú funkciu na vymazanie {{Fileformat}} dokumentov od {{Signaturetype}} podpisov pomocou niekoľkých riadkov kódu.",
+      "step_1": "Najprv vytvorte inštanciu prechodu objektu Signature do vášho dokumentu ako parameter konštruktora.",
+      "step_2": "Potom vytvorte vhodný objekt podpisu a nastavte jeho jedinečný identifikátor.",
+      "step_3": "Potom vyvolajte metódu Delete odovzdaním objektu podpisu, ktorý musí byť vymazaný.",
+      "step_4": "Nakoniec výsledky operácie procesu."
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "{{ProductFullName}} sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Stiahnite si najnovšiu verziu {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podpisovanie pomocou {{Signaturetype}} podpisov Živá ukážka",
+    "content": "Pridajte rôzne elektronické podpisy do súboru {{Fileformat}} hneď teraz na webovej lokalite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Odstráňte svoje podpisy {{Signaturetype}} pomocou {{ProgLang}}",
+    "content": "Vymazanie elektronických podpisov, ktoré boli pridané do rôznych formátov dokumentov. Odstráňte podpisy rýchlo bez dodatočného kódu."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Cari tandatangan {{Signaturetype}} dalam fail {{Fileformat}} dalam {{ProgLang}}",
+    "meta_description": "Gunakan {{ProductName}} untuk mencari tandatangan {{Signaturetype}} dalam fail {{Fileformat}} menggunakan beberapa baris kod.",
+    "h1": "Cari tandatangan {{Signaturetype}} dalam fail {{Fileformat}}.",
+    "h2": "API asli {{ProductName}} membenarkan untuk mencari tandatangan {{Signaturetype}} dalam fail {{Fileformat}} yang telah ditandatangani. Lakukan carian e-tandatangan lanjutan dalam dokumen {{Fileformat}} anda menggunakan beberapa baris kod."
+  },
+  "about": {
+    "title": "Mengenai API {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) menyediakan API {{ProductName}} untuk memproses dokumen menggunakan pelbagai jenis tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata. Pengguna boleh menambah, memadam, mengemas kini, mengesahkan atau mencari tandatangan elektronik dalam PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej, dengan sokongan tambahan untuk menyesuaikan sifat tandatangan mengikut keperluan."
+  },
+  "steps": {
+    "title_left": "Bagaimana untuk mencari tandatangan {{Signaturetype}} dalam {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memudahkan pembangun {{ProductName}} mencari tandatangan {{Signaturetype}} dalam fail {{Fileformat}} daripada aplikasi mereka dengan melaksanakan beberapa langkah mudah.",
+      "step_1": "Buat contoh baharu kelas Tandatangan dan lulus laluan dokumen sumber sebagai parameter pembina.",
+      "step_2": "Segerakan objek SearchOptions mengikut keperluan anda dan tentukan pilihan carian.",
+      "step_3": "Panggil kaedah Carian contoh kelas Tandatangan dan berikan SearchOptions kepadanya.",
+      "step_4": "Proses hasil carian mengikut permintaan anda."
+    },
+    "title_right": "Keperluan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran pembangunan: {{DevEnv}}",
+      "step_3": "Muat turun versi terkini {{ProductFullName}} daripada [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Cari {{Signaturetype}} tandatangan elektronik Demo Langsung",
+    "content": "Cari dokumen untuk pelbagai tandatangan elektronik pada fail {{Fileformat}} sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Cari tandatangan {{Signaturetype}} lain menggunakan {{ProgLang}}",
+    "content": "Carian tandatangan elektronik dalam pelbagai dokumen. Cari tandatangan daripada salah satu format fail yang popular seperti yang ditunjukkan di bawah."
+  }
+}

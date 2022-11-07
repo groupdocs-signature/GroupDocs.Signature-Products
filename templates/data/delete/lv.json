@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Dzēst {{Signaturetype}} parakstus no {{Fileformat}} failiem, izmantojot {{ProgLang}}",
+    "meta_description": "Konkrētu {{Signaturetype}} parakstu dzēšanu no parakstītiem {{Fileformat}} dokumentiem var viegli veikt, izmantojot īsu {{ProductName}} kodu.",
+    "h1": "Noņemiet {{Signaturetype}} parakstus, kas ir ievietoti {{Fileformat}} failos",
+    "h2": "Izdzēsiet dažādus {{Signaturetype}} parakstus no {{Fileformat}} dokumentiem. Lai noņemtu {{Signaturetype}} parakstus, ir nepieciešams vienkāršs {{ProgLang}} kods."
+  },
+  "about": {
+    "title": "Iegūstiet informāciju par {{ProductFullName}} API funkcijām",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API nodrošina daudzus veidus, kā apstrādāt dokumentus, izmantojot elektroniskos parakstus. Ir pieejami digitālie paraksti, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Klientiem ir iespēja pievienot, dzēst, atjaunināt, pārbaudīt vai meklēt ciparparakstus PDF, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Tiek nodrošināts liels skaits noderīgu funkciju un iestatījumu."
+  },
+  "steps": {
+    "title_left": "Kā noņemt {{Signaturetype}} parakstus no sava {{Fileformat}} dokumenta",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina noderīgu līdzekli, lai no {{Fileformat}} dokumentiem notīrītu {{Signaturetype}} parakstus, izmantojot dažas koda rindiņas.",
+      "step_1": "Pirmkārt, kā konstruktora parametru izveidojiet Signature objektu, kas nodod ceļu uz jūsu dokumentu.",
+      "step_2": "Pēc tam izveidojiet atbilstošu paraksta objektu un iestatiet tā unikālo identifikatoru.",
+      "step_3": "Pēc tam izsauciet Delete metodi, kas nodod paraksta objektu, kas ir jāizdzēš.",
+      "step_4": "Visbeidzot, procesa darbības rezultāti."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} tiek atbalstīti visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Parakstīšana ar {{Signaturetype}} parakstiem tiešraidē",
+    "content": "Pievienojiet dažādus elektroniskos parakstus failam {{Fileformat}} tūlīt, apmeklējot vietni [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Izdzēsiet savus {{Signaturetype}} parakstus, izmantojot {{ProgLang}}",
+    "content": "Dažādiem dokumentu formātiem pievienoto e-parakstu dzēšana. Ātri noņemiet parakstus bez papildu koda."
+  }
+}

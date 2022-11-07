@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Zaktualizuj podpisy {{Signaturetype}} umieszczone w plikach {{Fileformat}} za pomocą {{ProgLang}}",
+    "meta_description": "Użyj prostego i łatwego do zrozumienia kodu {{ProductName}} do aktualizacji podpisów {{Signaturetype}} w podpisanych dokumentach {{Fileformat}}.",
+    "h1": "Edytuj i aktualizuj podpisy {{Signaturetype}} umieszczone w plikach {{Fileformat}}",
+    "h2": "Interfejs API dla {{ProductName}} zapewnia funkcjonalność aktualizacji podpisów {{Signaturetype}} w dokumentach {{Fileformat}}. Zaktualizuj podpisy elektroniczne w swoich dokumentach {{Fileformat}} za pomocą kilku linijek kodu {{ProgLang}} szybko i łatwo."
+  },
+  "about": {
+    "title": "Dowiedz się więcej o funkcjach interfejsu API {{ProductFullName}}",
+    "content": "Funkcjonalność interfejsu API [{{ProductFullName}}]({{ProductUrl}}) obejmuje szeroki wybór środków do przetwarzania na żądanie formatów dokumentów przy użyciu podpisów elektronicznych. Obsługiwane jest szerokie spektrum podpisów elektronicznych, takich jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki czy metadane. Klienci mogą dodawać, usuwać, edytować, sprawdzać lub wyszukiwać podpisy cyfrowe w plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Dostępnych jest wiele przydatnych funkcji i ustawień."
+  },
+  "steps": {
+    "title_left": "Jak zmienić podpisy {{Signaturetype}} w dokumencie {{Fileformat}}?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) zawiera przydatne funkcje, takie jak aktualizacja podpisów {{Signaturetype}} umieszczonych w dokumentach {{Fileformat}}. Umożliwia zmianę funkcji podpisów bez dodatkowego kodu.",
+      "step_1": "Na początek utwórz obiekt Signature przekazujący jako ścieżkę parametru konstruktora do dokumentu, który ma zostać zaktualizowany.",
+      "step_2": "Następnie utwórz instancję odpowiedniego konkretnego obiektu podpisu i ustaw jego identyfikator oraz właściwości, które należy zmienić.",
+      "step_3": "Na koniec wywołaj metodę Update Signature, przekazując konkretny obiekt podpisu.",
+      "step_4": "Przeprowadź aktualizację wyników do Twojego powiadomienia."
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "{{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Aktualizacja podpisów {{Signaturetype}} na stronach dokumentu - Demo na żywo",
+    "content": "Edytuj różne podpisy elektroniczne dokumentu {{Fileformat}} już teraz, odwiedzając witrynę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Zaktualizuj różne podpisy {{Signaturetype}} przez {{ProgLang}}",
+    "content": "Edycja podpisów cyfrowych, które są umieszczane w różnych formatach dokumentów. Zaktualizuj dane podpisów bez dodatkowego kodu."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "ค้นหาลายเซ็น {{Signaturetype}} ในไฟล์ {{Fileformat}} ใน {{ProgLang}}",
+    "meta_description": "ใช้ {{ProductName}} เพื่อค้นหาลายเซ็น {{Signaturetype}} ในไฟล์ {{Fileformat}} โดยใช้โค้ดสองสามบรรทัด",
+    "h1": "ค้นหาลายเซ็น {{Signaturetype}} ใน {{Fileformat}} file",
+    "h2": "API ดั้งเดิมของ {{ProductName}} ช่วยให้ค้นหาลายเซ็น {{Signaturetype}} ในไฟล์ {{Fileformat}} ที่ลงนามแล้ว ทำการค้นหาลายเซ็นอิเล็กทรอนิกส์ขั้นสูงภายในเอกสาร {{Fileformat}} ของคุณโดยใช้โค้ดสองสามบรรทัด"
+  },
+  "about": {
+    "title": "เกี่ยวกับ {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) ให้ {{ProductName}} API สำหรับการประมวลผลเอกสารโดยใช้ลายเซ็นประเภทต่างๆ เช่น ข้อความ รูปภาพ ใบรับรองดิจิทัล บาร์โค้ด คิวอาร์โค้ด แสตมป์ หรือเมตาดาต้า ผู้ใช้สามารถเพิ่ม ลบ อัปเดต ตรวจสอบ หรือค้นหาลายเซ็นอิเล็กทรอนิกส์ภายใน PDF, เอกสาร MS Word, เวิร์กบุ๊ก MS Excel, งานนำเสนอ MS PowerPoint, ไฟล์ Adobe Photoshop และรูปแบบรูปภาพต่างๆ พร้อมการสนับสนุนเพิ่มเติมสำหรับการปรับแต่งคุณสมบัติลายเซ็นตามต้องการ"
+  },
+  "steps": {
+    "title_left": "วิธีค้นหาลายเซ็น {{Signaturetype}} ใน {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ช่วยให้นักพัฒนา {{ProductName}} ค้นหาลายเซ็น {{Signaturetype}} ในไฟล์ {{Fileformat}} จากแอปพลิเคชันของตนได้ง่ายขึ้นโดยใช้ขั้นตอนง่ายๆ ไม่กี่ขั้นตอน",
+      "step_1": "สร้างอินสแตนซ์ใหม่ของคลาส Signature และส่งเส้นทางเอกสารต้นทางเป็นพารามิเตอร์ตัวสร้าง",
+      "step_2": "สร้างอินสแตนซ์ออบเจ็กต์ SearchOptions ตามความต้องการของคุณและระบุตัวเลือกการค้นหา",
+      "step_3": "วิธีการ Call Search ของอินสแตนซ์คลาส Signature และส่งผ่าน SearchOptions ไป",
+      "step_4": "ประมวลผลผลการค้นหาตามความต้องการของคุณ"
+    },
+    "title_right": "ความต้องการของระบบ",
+    "content_right": {
+      "description": "{{ProductFullName}} ได้รับการสนับสนุนบนแพลตฟอร์มและระบบปฏิบัติการหลักทั้งหมด ก่อนดำเนินการโค้ดด้านล่าง โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งข้อกำหนดเบื้องต้นต่อไปนี้ไว้ในระบบของคุณแล้ว",
+      "step_1": "ระบบปฏิบัติการ: Microsoft Windows, Linux, MacOS",
+      "step_2": "สภาพแวดล้อมการพัฒนา: {{DevEnv}}",
+      "step_3": "ดาวน์โหลด {{ProductFullName}} เวอร์ชันล่าสุดจาก [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "ค้นหา {{Signaturetype}} ลายเซ็นอิเล็กทรอนิกส์ Live Demo",
+    "content": "ค้นหาเอกสารสำหรับลายเซ็นอิเล็กทรอนิกส์ต่างๆ ของไฟล์ {{Fileformat}} ได้ในขณะนี้โดยไปที่เว็บไซต์ [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)"
+  },
+  "more_formats": {
+    "title": "ค้นหาลายเซ็น {{Signaturetype}} อื่นๆ โดยใช้ {{ProgLang}}",
+    "content": "ลายเซ็นอิเล็กทรอนิกส์ค้นหาในเอกสารต่างๆ ค้นหาลายเซ็นจากรูปแบบไฟล์ยอดนิยมรูปแบบหนึ่งดังแสดงด้านล่าง"
+  }
+}

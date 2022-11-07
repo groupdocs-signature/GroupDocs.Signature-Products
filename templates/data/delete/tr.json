@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} aracılığıyla {{Fileformat}} dosyalarından {{Signaturetype}} imzasını silin",
+    "meta_description": "İmzalı {{Fileformat}} belgelerindeki belirli {{Signaturetype}} imzalarının silinmesi kısa {{ProductName}} koduyla kolayca gerçekleştirilebilir.",
+    "h1": "{{Fileformat}} dosyalarına yerleştirilmiş {{Signaturetype}} imzalarını kaldırın",
+    "h2": "{{Fileformat}} dokümanlarından çeşitli {{Signaturetype}} imzalarını silin. {{Signaturetype}} imzasını kaldırmak için basit {{ProgLang}} kodu gerekir."
+  },
+  "about": {
+    "title": "{{ProductFullName}} API özellikleri hakkında bilgi alın",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API, belgelerinizi elektronik imza kullanarak işlemek için birçok yol sağlar. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi dijital imzalar mevcuttur. Müşteriler, PDF'lerde, MS Word belgelerinde, MS Excel çalışma kitaplarında, MS PowerPoint sunumlarında, Adobe Photoshop dosyalarında ve çeşitli görüntü formatlarında dijital imza ekleme, silme, güncelleme, doğrulama veya arama olanağına sahiptir. Çok sayıda kullanışlı özellik ve ayar sağlanmıştır."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} belgenizden {{Signaturetype}} imzaları nasıl kaldırılır",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerindeki {{Signaturetype}} imzalarını birkaç satır kodla temizlemek için kullanışlı bir özellik sağlar.",
+      "step_1": "İlk olarak, bir yapıcı parametresi olarak belgenize giden Signature nesne yolunun örneğini oluşturun.",
+      "step_2": "Ardından uygun bir imza nesnesi oluşturun ve benzersiz tanımlayıcısını ayarlayın.",
+      "step_3": "Bundan sonra, silinmesi gereken imza nesnesini geçen Delete yöntemini çağırın.",
+      "step_4": "Son olarak, işlem operasyon sonuçları."
+    },
+    "title_right": "sistem gereksinimleri",
+    "content_right": {
+      "description": "{{ProductFullName}}, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme ortamları: {{DevEnv}}",
+      "step_3": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} imzalarıyla imzalama Canlı Demo",
+    "content": "Hemen şimdi [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web sitesini ziyaret ederek {{Fileformat}} dosyasına çeşitli elektronik imzalar ekleyin."
+  },
+  "more_formats": {
+    "title": "{{Signaturetype}} imzalarınızı {{ProgLang}} ile silin",
+    "content": "Çeşitli belge formatlarına eklenen e-imzaların silinmesi. Ekstra kod olmadan imzaları hızla kaldırın."
+  }
+}

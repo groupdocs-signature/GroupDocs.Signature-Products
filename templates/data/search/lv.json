@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Meklēt {{Signaturetype}} parakstus {{Fileformat}} failā programmā {{ProgLang}}",
+    "meta_description": "Izmantojiet {{ProductName}}, lai meklētu {{Signaturetype}} parakstus {{Fileformat}} failos, izmantojot dažas koda rindiņas.",
+    "h1": "Meklējiet {{Signaturetype}} parakstus failā {{Fileformat}}",
+    "h2": "{{ProductName}} vietējais API ļauj meklēt {{Signaturetype}} parakstus jau parakstītos {{Fileformat}} failos. Veiciet izvērsto e-paraksta meklēšanu savos {{Fileformat}} dokumentos, izmantojot dažas koda rindiņas."
+  },
+  "about": {
+    "title": "Par {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) nodrošina {{ProductName}} API dokumentu apstrādei, izmantojot dažādus parakstu veidus, piemēram, tekstus, attēlus, digitālos sertifikātus, svītrkodus, QR kodus, zīmogus vai metadatus. Lietotāji var pievienot, dzēst, atjaunināt, pārbaudīt vai meklēt elektroniskos parakstus PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos ar papildu atbalstu parakstu rekvizītu pielāgošanai pēc vajadzības."
+  },
+  "steps": {
+    "title_left": "Kā meklēt {{Signaturetype}} parakstus {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ļauj {{ProductName}} izstrādātājiem vieglāk meklēt {{Signaturetype}} parakstus {{Fileformat}} failos no savām lietojumprogrammām, veicot dažas vienkāršas darbības.",
+      "step_1": "Izveidojiet jaunu Signature klases gadījumu un norādiet avota dokumenta ceļu kā konstruktora parametru.",
+      "step_2": "Izveidojiet SearchOptions objektu atbilstoši savām prasībām un norādiet meklēšanas opcijas.",
+      "step_3": "Izsauciet Signature klases instances meklēšanas metodi un nosūtiet tai SearchOptions.",
+      "step_4": "Apstrādājiet meklēšanas rezultātus atbilstoši savām prasībām."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} tiek atbalstīti visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Meklēt {{Signaturetype}} elektronisko parakstu tiešraides demonstrāciju",
+    "content": "Meklējiet dokumentā dažādus {{Fileformat}} failu elektroniskos parakstus tūlīt, apmeklējot vietni [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Meklēt citus {{Signaturetype}} parakstus, izmantojot {{ProgLang}}",
+    "content": "Elektronisko parakstu meklēšana dažādos dokumentos. Atrodiet parakstus no viena no populārajiem failu formātiem, kā parādīts tālāk."
+  }
+}

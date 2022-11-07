@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Weryfikacja podpisów {{Signaturetype}} dla plików {{Fileformat}} przez {{ProgLang}}",
+    "meta_description": "Użyj tylko kilku wierszy kodu {{ProductName}}, aby zweryfikować dokumenty {{Fileformat}} i ich podpisy {{Signaturetype}}.",
+    "h1": "Weryfikacja podpisów {{Signaturetype}} dla plików {{Fileformat}}",
+    "h2": "Interfejs API dla {{ProductName}} umożliwia weryfikację podpisów {{Signaturetype}} w dokumentach {{Fileformat}}. Weryfikacja podpisów elektronicznych w dokumentach {{Fileformat}} może być przeprowadzona szybko i łatwo."
+  },
+  "about": {
+    "title": "Odkryj nowe funkcje interfejsu API {{ProductFullName}}",
+    "content": "Interfejs API [{{ProductFullName}}]({{ProductUrl}}) zapewnia szeroki zakres sposobów przetwarzania wielu formatów dokumentów za pomocą podpisów elektronicznych. Obsługiwanych jest wiele rodzajów podpisów cyfrowych, takich jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Klienci mogą dodawać, usuwać, edytować, sprawdzać lub wyszukiwać podpisy cyfrowe w plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Dostępna jest zadziwiająca liczba dodatkowych funkcji i ustawień."
+  },
+  "steps": {
+    "title_left": "Jak zweryfikować podpisy {{Signaturetype}} w dokumencie {{Fileformat}}?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) zawiera przydatne funkcje, takie jak weryfikacja podpisów {{Signaturetype}} umieszczonych w dokumentach {{Fileformat}}. Skorzystaj z tej możliwości bez implementowania dodatkowego kodu.",
+      "step_1": "Po pierwsze, stwórz instancję klasy Signature, podając jako parametr konstruktora ścieżkę do dokumentu, który ma zostać zweryfikowany.",
+      "step_2": "Po drugie, utwórz nowy obiekt VerifyOptions i skonfiguruj wszystkie wymagane właściwości.",
+      "step_3": "Na koniec wywołaj metodę Verify obiektu Signature przekazując instancję VerifyOptions.",
+      "step_4": "Następnie przetwórz wyniki weryfikacji."
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "{{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podpisywanie za pomocą podpisów {{Signaturetype}} Demo na żywo",
+    "content": "Dodaj różne podpisy elektroniczne do pliku {{Fileformat}} już teraz, odwiedzając witrynę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Zweryfikuj inne podpisy {{Signaturetype}} za pomocą {{ProgLang}}",
+    "content": "Weryfikacja podpisów elektronicznych złożonych w różnych dokumentach. Sprawdź jakość podpisów w popularnych formatach plików, jak pokazano poniżej."
+  }
+}

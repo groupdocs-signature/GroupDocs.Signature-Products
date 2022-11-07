@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} belgeya bi {{Codetype}} Barcode di {{ProgLang}}",
+    "meta_description": "Îmzeya barkodê ya {{Codetype}} biafirîne û bi çend rêzikên kodê bi {{ProductName}} li ser belgeya {{Fileformat}} biafirîne. Ji bo îmzekirina cûrbecûr formatên pelan API-ya Îmzekirina Belgeya GroupDocs bikar bînin.",
+    "h1": "Di {{ProgLang}} de ji bo belgeya {{Codetype}} îmzeya barkodê çêbike",
+    "h2": "Belgeyên karsaziya xwe yên {{Pelformat}} bi {{Codetype}} Barkodê îmze bikin. Bi çend rêzikên kodê re zû û bi hêsanî îmzeya Barkodê biafirînin da ku vebijarkên îmzekirinê saz bikin."
+  },
+  "digital-content": {
+    "meta_title": "Zêdekirina îmzeyên elektronîkî yên dîjîtal li pelê {{Fileformat}} bi {{ProgLang}}",
+    "meta_description": "Ji bo {{ProductName}} bi çend rêzikên kodê Îmzeya Dîjîtal bixin ser pelê {{Pelformat}}. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin.",
+    "h1": "eSign {{Fileformat}} pelên bi {{Signaturetype}} di {{ProgLang}} de",
+    "h2": "Meriv çawa bi çend rêzikên koda {{ProductName}} nîşana {{Signaturetype}} zêde bike"
+  },
+  "image-content": {
+    "meta_title": "Zêdekirina {{Signaturetype}} îmzeyan li pelê {{Fileformat}} bi {{ProgLang}}",
+    "meta_description": "Ji bo {{ProductName}} {{Signaturetype}} îmza li ser pela {{Fileformat}} bi çend rêzên kodê bixin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin.",
+    "h1": "Pelên {{Fileformat}} bi îmzeyên {{Signaturetype}} di {{ProgLang}} de îmze bikin",
+    "h2": "Meriv çawa {{Signaturetype}} bi çend rêzikên koda {{ProductName}} îmzayê zêde bike"
+  },
+  "metadata-content": {
+    "meta_title": "Bi rêya {{ProgLang}} îmzeyên elektronîkî yên Metadata li belgeyên {{Fileformat}} bişînin",
+    "meta_description": "Metadata wekî îmzeyên elektronîkî yên veşartî di hundurê belgeyên xwe yên {{Fileformat}} de bi karanîna çend rêzikên koda {{ProgLang}} bikar bînin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku belge û pelên karsaziya xwe bi agahdariya Metadata e-îmza bikin.",
+    "h1": "Îmzeyên elektronîkî yên metadata ji bo belgeya {{Fileformat}} bi rêya {{ProductName}} ji bo karanîna hêsan û hêsan in!",
+    "h2": "Belge û peymanên xwe yên {{Pelformat}} bi navnîşên Metadata veşartî re îmze bikin. Ji bo PDF, belgeyên MS Word, pirtûkên xebatê MS Excel, pêşandanên MS PowerPoint û cûrbecûr formatên wêneyê bêyî pirsgirêk û kodkirina zêde Metadata biafirînin."
+  },
+  "qrcode-content": {
+    "meta_title": "Belgeya eSign {{Pelformat}} bi {{Codetype}} Koda QR di {{ProgLang}}",
+    "meta_description": "Koda QR-a {{Codetype}} biafirînin û bi koda {{ProgLang}} bi koda {{ProductName}} li pelê {{Fileformat}} bixin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku belge û pelên karsaziya xwe bi QR Code e-îmza bikin.",
+    "h1": "Di {{ProgLang}} de ji bo belgeya {{Codetype}} îmzeya Koda QR çêbike",
+    "h2": "Belge û peymanên xwe yên {{Pelformat}} bi koda QR-a {{Codetype}} îmze bikin. Zû û bi hêsanî îmzeya QR Code biafirînin."
+  },
+  "text-content": {
+    "meta_title": "Ji bo pelê {{Fileformat}} bi {{ProgLang}} re îmzeyên elektronîkî yên nivîsê biafirînin",
+    "meta_description": "Ji bo {{ProductName}} {{Signaturetype}} eSignature li ser pela {{Fileformat}} bi çend rêzên kodê bixin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin.",
+    "h1": "Pelên {{Fileformat}} bi îmzeyên {{Signaturetype}} di {{ProgLang}} de îmze bikin",
+    "h2": "Meriv çawa {{Signaturetype}} bi çend rêzikên koda {{ProductName}} îmzayê zêde bike"
+  },
+  "barcode-about": {
+    "title": "Derbarê {{ProductFullName}} API-ya îmzeyên barkodê.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) APIyek bilez û hêsan e ku ji bo birêvebirina e-îmzakirina belgeyên dîjîtal bi karanîna cûreyên barkodê yên wekî UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN. , ITF14 û gelekên din. Xerîdar dikarin bi hêsanî Barkodên ku nivîsa pêwîst peyda dikin biafirînin û wan bixin ser PDF, Belgeyên Microsoft Office Words, pirtûkên xebatê yên Microsoft Office Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û formên cûda yên wêneyê. Barkodên ku di belgeyan de têne danîn dikarin bêne nûve kirin, lêgerîn, verastkirin, jêbirin an pêşdîtin. Digel vê yekê, xwerûkirina barkodê tê piştgirî kirin."
+  },
+  "digital-about": {
+    "title": "Derbarê {{ProductFullName}} API-ya îmzeyên dîjîtal",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya populer e ku bi îmzeyên elektronîkî yên dîjîtal, bi sertîfîkayên dîjîtal ve, belgeyan çêdike. Ji bo îmzeyên dîjîtal API pelên sertîfîkayên PFX bikar tîne da ku belgeyê bi bişkojkên taybet û giştî yên parastî bi şîfreyê veqetîne. Dibe ku îmzeyên dîjîtal ji bo pejirandina belgeyên karsaziyê bi rûpela taybetî ya eSign PDF-ê re, pejirandina tevahî belgeyên Microsoft Office yên mîna Words, Excel, pelên Powerpoint, û belgeyên Open Office-ê werin bikar anîn. Xerîdar dikarin bi hêsanî îmzeyan wekî sererastkirina wan, rakirin an sererastkirina wan manîpule bikin. API ji bo lêgerîn û verastkirina îmzeyan rêyek peyda dike. Digel vê yekê, ji bo xwerûkirina îmzeyan gelek jêhatî têne peyda kirin."
+  },
+  "image-about": {
+    "title": "Derbarê {{ProductFullName}} API-ya îmzeyên wêneyê",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya navdar e ji bo e-îmzakirina belgeyên dîjîtal. Îmzeyên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata hene. Dibe ku îmze li ser PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan werin danîn. Xerîdar dikarin belgeya xwe îmze bikin û e-îmzayên ku li ser wan belgeyan hatine danîn nûve bikin, bigerin, verast bikin, jêbikin an pêşdîtin bikin. Digel vê yekê, ji bo xwerûkirina îmzeyan gelek jêhatî têne peyda kirin."
+  },
+  "metadata-about": {
+    "title": "Der barê {{ProductFullName}} API-ya îmzeyên metadata",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya navdar e ji bo e-îmzakirina belgeyên dîjîtal. Îmzeyên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata hene. Dibe ku îmze li ser PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan werin danîn. Xerîdar dikarin belgeya xwe îmze bikin û e-îmzayên ku li ser wan belgeyan hatine danîn nûve bikin, bigerin, verast bikin, jêbikin an pêşdîtin bikin. Digel vê yekê, ji bo xwerûkirina îmzeyan gelek jêhatî têne peyda kirin."
+  },
+  "qrcode-about": {
+    "title": "Der barê {{ProductFullName}} API-ya îmzeyên QR Code",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya gihîştî ye ku ji bo belgeyan îmzeyên QR Code çêbike û çêbike. Bikarhêner dikarin îmzeyên QR Code peyda bikin ku nivîsê dakêşin an li ser medyaya civakî wekî wêneyê parve bikin. Belgeya îmzekirî dikare bi API-ê an jî bi tenê li ser kameraya mobîl were skankirin! Peymanên karsaziya xwe û belgeyên fermî bi elektronîkî bi zêdekirina îmzeya QR Code îmze bikin û wê manîpule bikin. Her îmzeya QR Code dê agahdariya xwerû ya yekta hebe da ku îmzekerê nas bike an destûr bide belgeyê. Digel vê yekê, naveroka QR Code dikare bi bişkojkên kesane bi bernameyê were şîfrekirin û şîfrekirin. Ew gelek jêhatîbûnê vedike da ku daneyên hesas di hundurê belgeyên giştî de parve bike. Piştî ku bikarhênerê îmzakirî dikare nûve bike, verast bike, jêbibe, pêşdîtin bike an li Kodên QR di nav PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan de nûve bike, verast bike, jê bibe, pêşdîtin an bigere. Kodên QR dikarin ji hêla din ve bêne xweş kirin."
+  },
+  "text-about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya navdar e ji bo e-îmzakirina belgeyên dîjîtal. Îmzeyên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata hene. Dibe ku îmze li ser PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan werin danîn. Xerîdar dikarin belgeya xwe îmze bikin û e-îmzayên ku li ser wan belgeyan hatine danîn nûve bikin, bigerin, verast bikin, jêbikin an pêşdîtin bikin. Digel vê yekê, ji bo xwerûkirina îmzeyan gelek jêhatî têne peyda kirin."
+  },
+  "system-requirements": {
+    "title": "Pêdiviyên Sîstemê",
+    "content": {
+      "description": "{{ProductFullName}} li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Nûtirîn {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) bistînin"
+    }
+  },
+  "barcode-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "digital-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "image-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "metadata-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "text-steps": {
+    "title": "Gavên îmzekirina {{Fileformat}} bi {{Signaturetype}} di {{ProgLang}} de",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) îmzakirina belgeyên {{Fileformat}} bi îmzeyên {{Signaturetype}} zû û bi hêsanî peyda dike.",
+      "step_1": "Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin",
+      "step_2": "Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.",
+      "step_3": "Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike"
+    }
+  },
+  "demos": {
+    "title": "Îmzekirina belgeyên {{Pelformat}} bi {{Signaturetype}} Demoya Zindî",
+    "content": "Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê {{Fileformat}} bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye."
+  },
+  "more_formats": {
+    "title": "Îmzeyên din ên piştgirî yên {{Signaturetype}} ji bo {{ProgLang}}",
+    "content": "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Koda Hilbera Gerdûnî sembolek barkodê ye ku li çaraliyê cîhanê ji bo şopandina tiştên bazirganiyê li firotgehan tê bikar anîn.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "Tam 11 jimar + 1 jimareya kontrolê."
+    },
+    "UPCE": {
+      "details": "Koda Hilbera Gerdûnî sembolek barkodê ye ku li çaraliyê cîhanê ji bo şopandina tiştên bazirganiyê li firotgehan tê bikar anîn. Heke UPC UPCE guhertoyek 8-reqemî ye.",
+      "characterset": "Tenê hejmarên hejmarî (0-9) piştgirî dike.",
+      "codetextcapacity": "Kapasîteya kodetextê: tam 7 jimar + 1 jimareya kontrolê."
+    },
+    "EAN13": {
+      "details": "Standarda EAN-ê ya ku herî zêde tê bikar anîn EAN-13-a sêzdeh-hejmar e, komek ji standarda 12-hejmarî ya orîjînal a Kodê Hilbera Gerdûnî ye.",
+      "characterset": "Tenê hejmarên hejmarî (0-9).",
+      "codetextcapacity": "Kapasîteya kodetextê: tam 12 jimar + 1 jimareya kontrolê."
+    },
+    "EAN14": {
+      "details": "Jimareya Gotara Ewropî an EAN standardek e ku sembolek barkodê û pergala hejmarkirinê diyar dike ku di bazirganiya gerdûnî de tê bikar anîn da ku celebek hilberek firotanê ya taybetî, di veavakirinek pakkirinê ya taybetî de, ji hilberînerek taybetî nas bike.",
+      "characterset": "Hêjmarên hejmarî (0-9) û tîpên taybetî.",
+      "codetextcapacity": "Tam 14 reqemên hejmarî."
+    },
+    "Code39": {
+      "details": "Koda 39 (ku wekî Alpha39, Koda 3 ya 9, Kod 3/9, Tîpa 39, Koda USS 39, an USD-3 jî tê zanîn) dirêjahiya guhêrbar, sembola barkodê ya veqetandî ye.",
+      "characterset": "Hêjmarên hejmarî (0-9) û tîpên mezin (A-Z) û hejmarek tîpên taybetî (-, ., $, /, +, %, û cîh).",
+      "codetextcapacity": "Ne sînorkirinên taybetî."
+    },
+    "Code39Extended": {
+      "details": "Koda 39 (ku wekî Alpha39, Koda 3 ya 9, Kod 3/9, Tîpa 39, Koda USS 39, an USD-3 jî tê zanîn) dirêjahiya guhêrbar, sembola barkodê ya veqetandî ye.",
+      "characterset": "Komek karakter: hemî 128 tîpên ASCII.",
+      "codetextcapacity": "Ne sînorkirinên taybetî."
+    },
+    "Code128": {
+      "details": "Koda 128 sembolek barkoda xêzikî ya bi tîrêjiya bilind e ku di ISO/IEC 15417:2007 de hatî destnîşankirin. Ew ji bo barkodên alphanumerîk an tenê-hejmarî tê bikar anîn.",
+      "characterset": "Hemî 128 tîpên ASCII.",
+      "codetextcapacity": "Ne sînorkirinên taybetî."
+    },
+    "Codabar": {
+      "details": "Codabar sembolek barkodê ya xêzkirî ye ku ji bo formên pir-beş ên wekî FedEx hewayê û forma banka xwînê jî dema ku li ser çapkerên xal-matrixê tê çap kirin jî bi duristî were xwendin hatî çêkirin.",
+      "characterset": "Reqemên hejmarî (0-9) û tîpên taybetî $/-:+.",
+      "codetextcapacity": "Ne sînorkirinên taybetî."
+    },
+    "Postnet": {
+      "details": "POSTNET (Teknîka kodkirina hejmarî ya posteyê) sembolek barkodê ye ku ji hêla Karûbarê Posta Dewletên Yekbûyî ve tê bikar anîn da ku di rêvekirina nameyê de arîkar bike.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "Heta 11 tîpan."
+    },
+    "ISBN": {
+      "details": "Nimreya Pirtûka Standard a Navneteweyî (ISBN) nasnameyek pirtûkê ya bazirganî ya jimareyî ye ku tê armanc kirin ku yekta be.[a][b] Weşanxane ISBN-an ji girêdayek Ajansa ISBN ya Navneteweyî dikirin.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "Tam 9 jimar + 1 jimareya kontrolê."
+    },
+    "ITF14": {
+      "details": "ITF-14 pêkanîna GS1-ê ya barkodê ya Interleaved 2 ji 5 (ITF) ye ku jimara Tiştek Bazirganiya Gerdûnî şîfre dike.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "13 jimar + 1 jimareya kontrolê."
+    },
+    "Pdf417": {
+      "details": "PDF417 formatek barkodê ya xêzkirî ye ku di cûrbecûr sepanan de wekî veguheztin, qertên nasnameyê, û rêveberiya depoyê tê bikar anîn.",
+      "characterset": "Hemî 256 tîpên ASCII.",
+      "codetextcapacity": "Heta 800 tîpan."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 ji 5 (ITF) jimarek şîfrekirina sembola barkodê ya du-fireh a domdar e. Ew bazirganî li ser fîlima 135, ji bo barkodên ITF-14, û li ser kartonên hin hilberan tê bikar anîn, dema ku hilberên hundur bi UPC an EAN têne nîşankirin.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "Dirêjahiya variable."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, ku wekî koda Binary a Derman jî tê zanîn, standardek barkodê ye, ku di pîşesaziya dermanan de wekî pergala kontrolkirina pakkirinê tê bikar anîn.",
+      "characterset": "Reqemên hejmarî (0-9).",
+      "codetextcapacity": "Ji 3 heta 131070 tenê yekjimarek yekjimar temsîl dike."
+    },
+    "Aztec": {
+      "details": "Koda Aztec sembolek matrixê-armanca gelemperî ya du-alî ye (2-D) ku ji sembolên 2-D yên din re rastbûnek bilindtir hatî çêkirin. Sembola Koda Aztec dikare heta 3,832 reqemên hejmarî şîfre bike; 3067 tîpên alfabetîk; an jî 1,914 bytes daneyên.",
+      "characterset": "Hemî 256 tîpên ASCII.",
+      "codetextcapacity": "Heya 3,832 reqemên hejmarî, an 3,067 tîpên alfabîkî, an jî 1,914 byte daneyan."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix kodek du-alî ye ku ji 'hucreyên' reş û spî an jî xalên ku bi rengek çargoşe an çargoşe hatine rêz kirin, ku wekî matrix jî tê zanîn, pêk tê. Agahdariya ku were kod kirin dikare daneyên nivîsê an hejmarî be.",
+      "characterset": "Hemî 256 tîpên ASCII, hemî karakterên ISO, û hemî tîpên Koda Veguhastina Dehanî ya Kodkirî ya Berfirehkirî (EBCDIC) piştgirî dike.",
+      "codetextcapacity": "Heya 3116 reqemên hejmarî, an jî 2335 tîpên hejmarî yên alfa, an jî 1556 tîpên binaryê."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix guhertoyek Data Matrixê ye ku li gorî taybetmendiyên GS1-ê tevdigere. GS1 DataMatrix bikar bînin da ku agahdariya wekî, lê ne bi sînorkirî, ya jêrîn şîfre bike: AI (01) Jimareya Bazirganiya Gerdûnî (GTIN), AI (17) Dîroka Dawîbûnê, AI (10) Hejmara Komê, AI (21) Jimareya Rêze .",
+      "characterset": "Koma tîpan: tîpên mezin û biçûk û tîpên taybet $@%*+-./:=<>;&*_,'! hemî bi Nasnameyên Serlêdanê yên rast.",
+      "codetextcapacity": "Kapasîteya kodetextê: heya 3116 reqemên hejmarî, an 2335 tîpên hejmarî yên alfa."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code guhertoyek QR Code ye ku li gorî taybetmendiyên GS1 tevdigere. Ew bi taybetî ji bo parvekirina agahdariya pakkirinê ya dirêjkirî, wekî jimareya pir, nasnameya hilberê, û hejmar hate çêkirin.",
+      "characterset": "Tîpên mezin û piçûk û tîpên taybetî $%*+-./: hemî bi Nasnameyên Serlêdanê yên rast",
+      "codetextcapacity": "Heya 7089 tîpên hejmarî, 4296 tîpên alfabetîk"
+    },
+    "QR": {
+      "details": "QR Code (kurtkirin ji Code Response Quick) nîşana tîcaretê ye ji bo celebek barkodê matrixê (an barkodê du-alî). Ew celeb koda du-alî ya herî populer û berfireh e. Di pratîkê de, kodên QR bi gelemperî daneyên ji bo cîhgir, nasname, an şopînerek ku malperek an serîlêdanek destnîşan dike vedihewîne.",
+      "characterset": "Hemî 256 tîpên ASCII + Kanji",
+      "codetextcapacity": "Heya 7089 tîpên hejmarî, 4296 tîpên alfabetîk, 2953 byte (daneyên binary) an 1817 tîpên Kanji."
+    }
+  }
+}

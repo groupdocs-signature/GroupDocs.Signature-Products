@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Ta bort {{Signaturetype}}-signaturer från {{Fileformat}}-filer via {{ProgLang}}",
+    "meta_description": "Radering av specifika {{Signaturetype}}-signaturer från signerade {{Fileformat}}-dokument kan enkelt utföras med kort {{ProductName}}-kod.",
+    "h1": "Ta bort {{Signaturetype}}-signaturer som är placerade i {{Filformat}}-filer",
+    "h2": "Ta bort olika {{Signaturetype}}-signaturer från {{Filformat}}-dokument. Att ta bort {{Signaturetype}}-signaturer kräver enkel {{ProgLang}}-kod."
+  },
+  "about": {
+    "title": "Få information om {{ProductFullName}} API-funktioner",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API ger många sätt att behandla dina dokument med elektroniska signaturer. Digitala signaturer som texter, bilder, digitala certifikat, streckkoder, QR-koder, stämplar eller metadata finns tillgängliga. Kunder har möjlighet att lägga till, ta bort, uppdatera, verifiera eller söka digitala signaturer i PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer, Adobe Photoshop-filer och olika bildformat. Ett stort antal användbara funktioner och inställningar tillhandahålls."
+  },
+  "steps": {
+    "title_left": "Hur man tar bort {{Signaturetype}}-signaturer från ditt {{Filformat}}-dokument",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från {{Signaturetype}} signaturer med några rader kod.",
+      "step_1": "Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.",
+      "step_2": "Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.",
+      "step_3": "Efter det, åberopa Delete-metoden som skickar signaturobjekt som måste tas bort.",
+      "step_4": "Slutligen resultat av processdrift."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} stöds på alla större plattformar och operativsystem. Innan du kör koden nedan, se till att du har följande förutsättningar installerade på ditt system.",
+      "step_1": "Operativsystem: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utvecklingsmiljöer: {{DevEnv}}",
+      "step_3": "Ladda ner den senaste versionen av {{ProductFullName}} från [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Signering med {{Signaturetype}} signaturer Live Demo",
+    "content": "Lägg till olika elektroniska signaturer i filen {{Fileformat}} just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Ta bort dina {{Signaturetype}}-signaturer med {{ProgLang}}",
+    "content": "Radering av e-signaturer som lagts till i olika dokumentformat. Ta bort signaturer snabbt utan extra kod."
+  }
+}

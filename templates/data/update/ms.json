@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Kemas kini tandatangan {{Signaturetype}} yang diletakkan pada fail {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Gunakan kod {{ProductName}} yang ringkas dan mudah untuk kemas kini tandatangan {{Signaturetype}} dalam dokumen {{Fileformat}} yang ditandatangani.",
+    "h1": "Edit dan kemas kini tandatangan {{Signaturetype}} yang diletakkan pada fail {{Fileformat}}.",
+    "h2": "API untuk {{ProductName}} menyediakan kefungsian untuk tandatangan {{Signaturetype}} mengemas kini pada dokumen {{Fileformat}}. Kemas kini e-tandatangan di dalam dokumen {{Fileformat}} anda dengan beberapa baris kod {{ProgLang}} dengan cepat dan mudah."
+  },
+  "about": {
+    "title": "Ketahui tentang ciri API {{ProductFullName}}.",
+    "content": "Kefungsian API [{{ProductFullName}}]({{ProductUrl}}) mengandungi banyak pilihan cara untuk memproses dalam format dokumen permintaan dengan menggunakan tandatangan elektronik. Spektrum luas e-tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata disokong. Pelanggan boleh menambah, mengalih keluar, mengedit, mengesahkan atau mencari tandatangan digital pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Banyak ciri dan tetapan berguna tersedia."
+  },
+  "steps": {
+    "title_left": "Cara menukar tandatangan {{Signaturetype}} dalam dokumen {{Fileformat}} anda",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) termasuk ciri berguna seperti pengemaskinian tandatangan {{Signaturetype}} yang diletakkan pada dokumen {{Fileformat}}. Ia memungkinkan untuk menukar ciri tandatangan tanpa kod tambahan.",
+      "step_1": "Sebagai permulaan, buat objek Tandatangan yang lulus sebagai laluan parameter pembina ke dokumen yang sepatutnya dikemas kini.",
+      "step_2": "Kemudian, nyatakan objek tandatangan tertentu yang sesuai dan sediakan pengecam dan sifatnya yang perlu diubah.",
+      "step_3": "Akhir sekali, panggil kaedah Kemas Kini Tandatangan yang menghantar objek tandatangan tertentu.",
+      "step_4": "Proses mengemas kini keputusan kepada notis anda."
+    },
+    "title_right": "Keperluan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.",
+      "step_1": "Sistem pengendalian: Microsoft Windows, Linux, MacOS",
+      "step_2": "Persekitaran pembangunan: {{DevEnv}}",
+      "step_3": "Muat turun versi terkini {{ProductFullName}} daripada [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Mengemas kini tandatangan {{Signaturetype}} pada halaman dokumen - Demo Langsung",
+    "content": "Edit pelbagai tandatangan elektronik dokumen {{Fileformat}} sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Kemas kini pelbagai tandatangan {{Signaturetype}} melalui {{ProgLang}}",
+    "content": "Mengedit tandatangan digital yang diletakkan dalam pelbagai format dokumen. Kemas kini data tandatangan tanpa kod tambahan."
+  }
+}

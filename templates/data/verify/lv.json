@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Signaturetype}} parakstu pārbaude failiem {{Fileformat}}, izmantojot {{ProgLang}}",
+    "meta_description": "Izmantojiet tikai dažas {{ProductName}} koda rindiņas, lai pārbaudītu {{Fileformat}} dokumentus un to {{Signaturetype}} parakstus.",
+    "h1": "{{Signaturetype}} parakstu pārbaude failiem {{Fileformat}}",
+    "h2": "{{ProductName}} API nodrošina iespēju pārbaudīt {{Signaturetype}} parakstus {{Fileformat}} dokumentos. E-parakstu pārbaude jūsu {{Fileformat}} dokumentos var tikt veikta ātri un vienkārši."
+  },
+  "about": {
+    "title": "Atklājiet jaunas {{ProductFullName}} API funkcijas",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API nodrošina plašu veidu klāstu, kā apstrādāt daudzu formātu dokumentus, izmantojot elektroniskos parakstus. Tiek atbalstīti daudzi digitālo parakstu veidi, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Klienti var pievienot, noņemt, rediģēt, apstiprināt vai meklēt ciparparakstus PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Ir pieejams pārsteidzošs papildu funkciju un iestatījumu skaits."
+  },
+  "steps": {
+    "title_left": "Kā pārbaudīt {{Signaturetype}} parakstus savā {{Fileformat}} dokumentā",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ietver tādas noderīgas funkcijas kā {{Signaturetype}} parakstu pārbaude, kas ievietoti {{Fileformat}} dokumentos. Izmantojiet šo iespēju, neieviešot papildu kodu.",
+      "step_1": "Pirmkārt, izveidojiet paraksta klasi, kas nodrošina kā konstruktora parametra ceļu uz dokumentu, kuru paredzēts pārbaudīt.",
+      "step_2": "Otrkārt, izveidojiet jaunu VerifyOptions objektu un iestatiet visus nepieciešamos rekvizītus.",
+      "step_3": "Visbeidzot, izsauciet Signature objekta Verify metodi, kas nodod VerifyOptions instanci.",
+      "step_4": "Pēc tam apstrādājiet pārbaudes rezultātus."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} tiek atbalstīti visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Parakstīšana ar {{Signaturetype}} parakstiem tiešraidē",
+    "content": "Pievienojiet dažādus elektroniskos parakstus failam {{Fileformat}} tūlīt, apmeklējot vietni [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Pārbaudiet citus {{Signaturetype}} parakstus, izmantojot {{ProgLang}}",
+    "content": "Dažādos dokumentos ievietoto elektronisko parakstu pārbaude. Pārbaudiet parakstu kvalitāti populārajos failu formātos, kā norādīts tālāk."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} içinde {{Fileformat}} dosyasında {{Signaturetype}} imzasını arayın",
+    "meta_description": "Birkaç satır kod kullanarak {{Fileformat}} dosyalarında {{Signaturetype}} imzasını aramak için {{ProductName}} kullanın.",
+    "h1": "{{Fileformat}} dosyasında {{Signaturetype}} imzasını arayın",
+    "h2": "{{ProductName}} yerel API'si, önceden imzalanmış {{Fileformat}} dosyalarında {{Signaturetype}} imzalarının aranmasına olanak tanır. Birkaç satır kod kullanarak {{Fileformat}} belgelerinizde gelişmiş e-imza araması yapın."
+  },
+  "about": {
+    "title": "{{ProductFullName}} API'si hakkında",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}), metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi çeşitli imza türlerini kullanan belgeleri işlemek için {{ProductName}} API'si sağlar. Kullanıcılar, imza özelliklerini gerektiği gibi özelleştirmek için ek destekle birlikte PDF'ler, MS Word belgeleri, MS Excel çalışma kitapları, MS PowerPoint sunumları, Adobe Photoshop dosyaları ve çeşitli görüntü biçimleri içindeki elektronik imzaları ekleyebilir, silebilir, güncelleyebilir, doğrulayabilir veya arayabilir."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} içinde {{Signaturetype}} imzası nasıl aranır?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{ProductName}} geliştiricilerinin birkaç kolay adımı uygulayarak {{Fileformat}} dosyalarında {{Signaturetype}} imzalarını aramasını kolaylaştırır.",
+      "step_1": "Signature sınıfının yeni bir örneğini oluşturun ve kaynak belge yolunu yapıcı parametresi olarak iletin.",
+      "step_2": "SearchOptions nesnesini gereksinimlerinize göre somutlaştırın ve arama seçeneklerini belirleyin.",
+      "step_3": "Signature sınıfı örneğinin Arama yöntemini çağırın ve buna SearchOptions iletin.",
+      "step_4": "Arama sonuçlarını taleplerinize göre işleyin."
+    },
+    "title_right": "sistem gereksinimleri",
+    "content_right": {
+      "description": "{{ProductFullName}}, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme ortamları: {{DevEnv}}",
+      "step_3": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} elektronik imza arayın Canlı Demo",
+    "content": "Şu anda [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web sitesini ziyaret ederek belgede {{Fileformat}} dosyalarına yönelik çeşitli elektronik imzaları arayın."
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} kullanarak diğer {{Signaturetype}} imzalarını arayın",
+    "content": "Elektronik imzalar çeşitli belgelerde arama yapar. Aşağıda gösterildiği gibi popüler dosya biçimlerinden birindeki imzaları bulun."
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "Podpisz dokument {{Fileformat}} z kodem kreskowym {{Codetype}} w {{ProgLang}}",
+    "meta_description": "Utwórz podpis z kodem kreskowym {{Codetype}} i umieść go w dokumencie {{Fileformat}} za pomocą {{ProductName}}, używając kilku linijek kodu. Użyj interfejsu GroupDocs Document Signature API do podpisywania różnych formatów plików.",
+    "h1": "Wygeneruj {{Codetype}} podpis z kodem kreskowym dla dokumentu {{Fileformat}} w {{ProgLang}}",
+    "h2": "ePodpisz swoje dokumenty biznesowe w {{Fileformat}} za pomocą kodu kreskowego {{Codetype}}. Szybko i łatwo generuj podpis z kodem kreskowym za pomocą kilku linijek kodu, aby skonfigurować opcje podpisywania."
+  },
+  "digital-content": {
+    "meta_title": "Dodawanie podpisów elektronicznych do pliku {{Fileformat}} za pomocą {{ProgLang}}",
+    "meta_description": "Umieść podpis cyfrowy w pliku {{Fileformat}} dla {{ProductName}}, używając kilku linijek kodu. Użyj interfejsu GroupDocs Document Signature API, aby podpisać dziesiątki formatów plików.",
+    "h1": "eSign {{Fileformat}} pliki z podpisami {{Signaturetype}} w {{ProgLang}}",
+    "h2": "Jak dodać podpis {{Signaturetype}} za pomocą kilku linijek kodu {{ProductName}}?"
+  },
+  "image-content": {
+    "meta_title": "Dodawanie podpisów {{Signaturetype}} do pliku {{Fileformat}} za pomocą {{ProgLang}}",
+    "meta_description": "Umieść podpis {{Signaturetype}} w pliku {{Fileformat}} dla {{ProductName}}, używając kilku linijek kodu. Użyj interfejsu GroupDocs Document Signature API, aby podpisać dziesiątki formatów plików.",
+    "h1": "Podpisz pliki {{Fileformat}} z podpisami {{Signaturetype}} w {{ProgLang}}",
+    "h2": "Jak dodać podpis {{Signaturetype}} z kilkoma linijkami kodu {{ProductName}}?"
+  },
+  "metadata-content": {
+    "meta_title": "Dołącz podpisy elektroniczne metadanych do dokumentów {{Fileformat}} za pośrednictwem {{ProgLang}}",
+    "meta_description": "Użyj metadanych jako ukrytych podpisów elektronicznych w swoich dokumentach {{Fileformat}}, używając kilku wierszy kodu {{ProgLang}}. Użyj interfejsu GroupDocs Document Signature API do elektronicznego podpisywania dokumentów biznesowych i plików za pomocą informacji metadanych.",
+    "h1": "Elektroniczne podpisy metadanych dla dokumentu {{Fileformat}} za pośrednictwem {{ProductName}} są proste i łatwe w użyciu!",
+    "h2": "Podpisz elektronicznie dokumenty i umowy {{Fileformat}} z ukrytymi wpisami metadanych. Generuj metadane dla plików PDF, dokumentów MS Word, skoroszytów MS Excel, prezentacji MS PowerPoint i różnych formatów obrazów bez problemów i dodatkowego kodowania."
+  },
+  "qrcode-content": {
+    "meta_title": "Podpisz dokument {{Fileformat}} z kodem QR {{Codetype}} w {{ProgLang}}",
+    "meta_description": "Utwórz kod QR {{Codetype}} i umieść go w pliku {{Fileformat}} za pomocą {{ProductName}} z krótkim fragmentem kodu {{ProgLang}}. Użyj interfejsu GroupDocs Document Signature API do elektronicznego podpisywania dokumentów biznesowych i plików za pomocą kodu QR.",
+    "h1": "Wygeneruj podpis {{Codetype}} kodu QR dla dokumentu {{Fileformat}} w {{ProgLang}}",
+    "h2": "Podpisz elektronicznie dokumenty i umowy w {{Fileformat}} za pomocą kodu QR {{Codetype}}. Szybko i łatwo generuj podpis QR Code."
+  },
+  "text-content": {
+    "meta_title": "Utwórz tekstowe podpisy elektroniczne do pliku {{Fileformat}} za pomocą {{ProgLang}}",
+    "meta_description": "Umieść {{Signaturetype}} eSignature w pliku {{Fileformat}} dla {{ProductName}}, używając kilku linijek kodu. Użyj interfejsu GroupDocs Document Signature API, aby podpisać dziesiątki formatów plików.",
+    "h1": "Podpisz pliki {{Fileformat}} z podpisami {{Signaturetype}} w {{ProgLang}}",
+    "h2": "Jak dodać podpis {{Signaturetype}} z kilkoma linijkami kodu {{ProductName}}?"
+  },
+  "barcode-about": {
+    "title": "Informacje o interfejsie API podpisów kodów kreskowych {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to szybki i łatwy interfejs API do zarządzania elektronicznym podpisywaniem dokumentów cyfrowych przy użyciu typów kodów kreskowych, takich jak UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 i wiele innych. Klienci mogą łatwo tworzyć kody kreskowe zawierające wymagany tekst i umieszczać je w plikach PDF, dokumentach Microsoft Office Words, skoroszytach programu Microsoft Office Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Kody kreskowe umieszczone w dokumentach mogą być aktualizowane, przeszukiwane, weryfikowane, usuwane lub przeglądane. Ponadto obsługiwane jest dostosowywanie kodów kreskowych."
+  },
+  "digital-about": {
+    "title": "O {{ProductFullName}} API podpisów cyfrowych",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to popularny interfejs API do podpisywania dokumentów z cyfrowymi podpisami elektronicznymi i certyfikatami cyfrowymi. W przypadku podpisów cyfrowych API wykorzystuje pliki certyfikatów PFX do opisywania dokumentów za pomocą chronionych hasłem kluczy prywatnych i publicznych. Podpisy cyfrowe mogą być używane do poświadczania dokumentów biznesowych za pomocą określonej strony eSign PDF, poświadczania całych dokumentów Microsoft Office, takich jak Words, Excel, pliki Powerpoint i dokumenty Open Office. Klienci mogą łatwo manipulować podpisami, np. edytować je, usuwać lub dostosowywać. API umożliwia wyszukiwanie i weryfikację podpisów. Ponadto zapewniono wiele możliwości dostosowywania podpisów."
+  },
+  "image-about": {
+    "title": "Informacje o interfejsie API podpisów graficznych {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to popularny interfejs API do elektronicznego podpisywania dokumentów. Dostępne są podpisy, takie jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Podpisy mogą być umieszczane na plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Klienci mogą podpisywać swoje dokumenty i aktualizować, wyszukiwać, weryfikować, usuwać lub przeglądać podpisy elektroniczne, które zostały umieszczone na tych dokumentach. Ponadto zapewniono wiele możliwości dostosowywania podpisów."
+  },
+  "metadata-about": {
+    "title": "Informacje o interfejsie API sygnatur metadanych {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to popularny interfejs API do elektronicznego podpisywania dokumentów. Dostępne są podpisy, takie jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Podpisy mogą być umieszczane na plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Klienci mogą podpisywać swoje dokumenty i aktualizować, wyszukiwać, weryfikować, usuwać lub przeglądać podpisy elektroniczne, które zostały umieszczone na tych dokumentach. Ponadto zapewniono wiele możliwości dostosowywania podpisów."
+  },
+  "qrcode-about": {
+    "title": "Informacje o interfejsie API podpisów kodu QR {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to dojrzały interfejs API do tworzenia i generowania podpisów kodów QR dla dokumentów. Użytkownicy mogą generować podpisy QR Code z tekstem do pobrania lub udostępnienia w mediach społecznościowych jako obraz. Podpisany dokument można zeskanować za pomocą API lub po prostu za pomocą kamery mobilnej! Podpisuj elektronicznie swoje umowy biznesowe i oficjalne dokumenty, dodając podpis QR Code i manipuluj nim. Każdy podpis w kodzie QR będzie zawierał unikalne niestandardowe informacje identyfikujące sygnatariusza lub autoryzujące dokument. Ponadto zawartość kodu QR można programowo szyfrować i odszyfrowywać za pomocą kluczy osobistych. To otwiera wiele możliwości udostępniania poufnych danych w dokumentach publicznych. Po podpisaniu użytkownik może aktualizować, weryfikować, usuwać, przeglądać lub wyszukiwać kody QR w plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Kody QR można dodatkowo dostosować."
+  },
+  "text-about": {
+    "title": "Informacje o interfejsie API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) to popularny interfejs API do elektronicznego podpisywania dokumentów. Dostępne są podpisy, takie jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Podpisy mogą być umieszczane na plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Klienci mogą podpisywać swoje dokumenty i aktualizować, wyszukiwać, weryfikować, usuwać lub przeglądać podpisy elektroniczne, które zostały umieszczone na tych dokumentach. Ponadto zapewniono wiele możliwości dostosowywania podpisów."
+  },
+  "system-requirements": {
+    "title": "wymagania systemowe",
+    "content": {
+      "description": "{{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "digital-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "image-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "metadata-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "text-steps": {
+    "title": "Kroki do podpisania {{Fileformat}} za pomocą {{Signaturetype}} w {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) umożliwia szybkie i łatwe podpisywanie dokumentów w formacie {{Fileformat}} za pomocą podpisów {{Signaturetype}}.",
+      "step_1": "Utwórz instancję klasy Signature podając plik {{Fileformat}} do podpisania jako ścieżkę lub strumień pamięci",
+      "step_2": "Utwórz wystąpienie klasy SignOptions i ustaw wszystkie wymagane dane.",
+      "step_3": "Wywołaj metodę Signature.Sign() przekazującą wyjściowy plik {{Fileformat}} lub strumień pamięci"
+    }
+  },
+  "demos": {
+    "title": "Podpisywanie dokumentów {{Fileformat}} za pomocą {{Signaturetype}} Demo na żywo",
+    "content": "Podpisz teraz plik {{Fileformat}} różnymi podpisami, odwiedzając witrynę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Darmowe demo online czeka na Ciebie."
+  },
+  "more_formats": {
+    "title": "Inne obsługiwane podpisy {{Signaturetype}} dla {{ProgLang}}",
+    "content": "Możesz także podpisać {{Fileformat}} innymi typami podpisów. Zobacz poniższą listę."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Uniwersalny kod produktu to symbol kodu kreskowego, który jest powszechnie używany na całym świecie do śledzenia przedmiotów handlowych w sklepach.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "Dokładnie 11 cyfr + 1 cyfra kontrolna."
+    },
+    "UPCE": {
+      "details": "Uniwersalny kod produktu to symbol kodu kreskowego, który jest powszechnie używany na całym świecie do śledzenia przedmiotów handlowych w sklepach. UPCE to 8-cyfrowa odmiana UPC.",
+      "characterset": "Obsługuje tylko cyfry (0-9).",
+      "codetextcapacity": "Pojemność kodu: dokładnie 7 cyfr + 1 cyfra kontrolna."
+    },
+    "EAN13": {
+      "details": "Najczęściej używanym standardem EAN jest trzynastocyfrowy kod EAN-13, nadzbiór oryginalnego 12-cyfrowego standardu Universal Product Code.",
+      "characterset": "Tylko cyfry (0-9).",
+      "codetextcapacity": "Pojemność kodu: dokładnie 12 cyfr + 1 cyfra kontrolna."
+    },
+    "EAN14": {
+      "details": "Europejski Numer Artykułu lub EAN to standard opisujący symbolikę kodów kreskowych i system numeracji używany w handlu światowym w celu identyfikacji określonego typu produktu detalicznego, w określonej konfiguracji opakowania, od określonego producenta.",
+      "characterset": "Cyfry (0-9) i znaki specjalne.",
+      "codetextcapacity": "Dokładnie 14 cyfr."
+    },
+    "Code39": {
+      "details": "Code 39 (znany również jako Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 lub USD-3) to dyskretna symbolika kodu kreskowego o zmiennej długości.",
+      "characterset": "Cyfry (0-9) i wielkie litery (A-Z) oraz liczba znaków specjalnych (-, ., $, /, +, % i spacja).",
+      "codetextcapacity": "Brak szczególnych ograniczeń."
+    },
+    "Code39Extended": {
+      "details": "Code 39 (znany również jako Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 lub USD-3) to dyskretna symbolika kodu kreskowego o zmiennej długości.",
+      "characterset": "Zestaw znaków: wszystkie 128 znaków ASCII.",
+      "codetextcapacity": "Brak szczególnych ograniczeń."
+    },
+    "Code128": {
+      "details": "Code 128 to liniowa symbolika kodów kreskowych o dużej gęstości zdefiniowana w normie ISO/IEC 15417:2007. Jest używany do kodów kreskowych alfanumerycznych lub tylko numerycznych.",
+      "characterset": "Wszystkie 128 znaków ASCII.",
+      "codetextcapacity": "Brak szczególnych ograniczeń."
+    },
+    "Codabar": {
+      "details": "Codabar to liniowa symbolika kodów kreskowych, która została zaprojektowana tak, aby była dokładnie odczytywana nawet podczas drukowania na drukarkach igłowych dla formularzy wieloczęściowych, takich jak rachunki lotnicze FedEx i formularze banku krwi.",
+      "characterset": "Cyfry (0-9) i znaki specjalne $/-:+.",
+      "codetextcapacity": "Brak szczególnych ograniczeń."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) to symbolika kodów kreskowych używana przez Pocztę Stanów Zjednoczonych do pomocy w kierowaniu poczty.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "Do 11 znaków."
+    },
+    "ISBN": {
+      "details": "Międzynarodowy Standardowy Numer Książki (ISBN) to numeryczny komercyjny identyfikator książki, który ma być niepowtarzalny.[a][b] Wydawcy kupują numery ISBN od podmiotu stowarzyszonego Międzynarodowej Agencji ISBN.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "Dokładnie 9 cyfr + 1 cyfra kontrolna."
+    },
+    "ITF14": {
+      "details": "ITF-14 to implementacja GS1 kodu kreskowego Interleaved 2 of 5 (ITF) do kodowania Globalnego Numeru Jednostki Handlowej.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "13 cyfr + 1 cyfra kontrolna."
+    },
+    "Pdf417": {
+      "details": "PDF417 to ułożony w stos liniowy format kodów kreskowych używany w różnych zastosowaniach, takich jak transport, karty identyfikacyjne i zarządzanie zapasami.",
+      "characterset": "Wszystkie 256 znaków ASCII.",
+      "codetextcapacity": "Do 800 znaków."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) to ciągła symbolika kodu kreskowego o dwóch szerokościach kodująca cyfry. Stosowany jest komercyjnie na folii 135, do kodów kreskowych ITF-14 oraz na kartonach niektórych produktów, podczas gdy produkty wewnątrz są oznaczone kodem UPC lub EAN.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "Zmienna długość."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, znany również jako Pharmaceutical Binary Code, to standard kodów kreskowych, stosowany w przemyśle farmaceutycznym jako system kontroli pakowania.",
+      "characterset": "Cyfry numeryczne (0-9).",
+      "codetextcapacity": "Reprezentuje tylko jedną liczbę całkowitą od 3 do 131070."
+    },
+    "Aztec": {
+      "details": "Aztec Code to dwuwymiarowa (2-D) symbolika matrycowa ogólnego przeznaczenia, która została zaprojektowana tak, aby zapewniała większą dokładność niż inne symbole 2-D. Symbol Aztec Code może zakodować do 3832 cyfr; 3067 znaków alfabetycznych; lub 1914 bajtów danych.",
+      "characterset": "Wszystkie 256 znaków ASCII.",
+      "codetextcapacity": "Do 3832 cyfr lub 3067 znaków alfabetycznych lub 1914 bajtów danych."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix to dwuwymiarowy kod składający się z czarno-białych „komórek” lub kropek ułożonych we wzór kwadratu lub prostokąta, znany również jako macierz. Informacje do zakodowania mogą być danymi tekstowymi lub liczbowymi.",
+      "characterset": "Obsługuje wszystkie 256 znaków ASCII, wszystkie znaki ISO i wszystkie znaki Extended Binary Coded Decimal Interchange Code (EBCDIC).",
+      "codetextcapacity": "Do 3116 cyfr lub 2335 znaków alfanumerycznych lub 1556 znaków binarnych."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix to wariant Data Matrix zgodny ze specyfikacją GS1. Użyj GS1 DataMatrix do zakodowania informacji, takich jak, ale nie wyłącznie, następujące informacje: AI(01) Globalny Numer Jednostki Handlowej (GTIN), AI(17) Data ważności, AI(10) Numer partii, AI(21) Numer seryjny .",
+      "characterset": "Zestaw znaków: duże i małe litery oraz znaki specjalne $@%*+-./:=<>;&*_,'! wszystkie z poprawnymi Identyfikatorami Zastosowania.",
+      "codetextcapacity": "Pojemność kodu: do 3116 cyfr lub 2335 znaków alfanumerycznych."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code to wariant kodu QR, który jest zgodny ze specyfikacją GS1. Został zaprojektowany specjalnie do udostępniania rozszerzonych informacji o opakowaniach, takich jak numer partii, identyfikator produktu i ilość.",
+      "characterset": "Wielkie i małe litery oraz znaki specjalne $%*+-./: wszystkie z poprawnymi Identyfikatorami Zastosowania",
+      "codetextcapacity": "Do 7089 znaków numerycznych, 4296 znaków alfanumerycznych"
+    },
+    "QR": {
+      "details": "QR Code (w skrócie Quick Response Code) jest znakiem towarowym typu matrycowego kodu kreskowego (lub dwuwymiarowego kodu kreskowego). Jest to najpopularniejszy i najszerzej stosowany rodzaj kodu dwuwymiarowego. W praktyce kody QR często zawierają dane dla lokalizatora, identyfikatora lub trackera, który wskazuje na stronę internetową lub aplikację.",
+      "characterset": "Wszystkie 256 znaków ASCII + Kanji",
+      "codetextcapacity": "Do 7089 znaków numerycznych, 4296 znaków alfanumerycznych, 2953 bajtów (dane binarne) lub 1817 znaków Kanji."
+    }
+  }
+}

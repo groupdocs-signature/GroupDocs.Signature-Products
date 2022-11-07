@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Atjauniniet {{Signaturetype}} parakstus, kas ievietoti failos {{Fileformat}} ar {{ProgLang}}",
+    "meta_description": "Izmantojiet vienkāršu un viegli saprotamu {{ProductName}} kodu {{Signaturetype}} parakstu atjaunināšanai parakstītos {{Fileformat}} dokumentos.",
+    "h1": "Rediģējiet un atjauniniet {{Signaturetype}} parakstus, kas ievietoti {{Fileformat}} failos",
+    "h2": "{{ProductName}} API nodrošina funkcionalitāti {{Signaturetype}} parakstu atjaunināšanai {{Fileformat}} dokumentos. Ātri un vienkārši atjauniniet e-parakstus savos {{Fileformat}} dokumentos, izmantojot pāris {{ProgLang}} koda rindiņas."
+  },
+  "about": {
+    "title": "Uzziniet par {{ProductFullName}} API funkcijām",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API funkcionalitāte ietver plašu līdzekļu izvēli, lai apstrādātu pieprasītu dokumentu formātus, izmantojot elektroniskos parakstus. Tiek atbalstīts plašs e-parakstu klāsts, piemēram, teksti, attēli, digitālie sertifikāti, svītrkodi, QR kodi, zīmogi vai metadati. Klienti var pievienot, noņemt, rediģēt, apstiprināt vai meklēt ciparparakstus PDF failos, MS Word dokumentos, MS Excel darbgrāmatās, MS PowerPoint prezentācijās, Adobe Photoshop failos un dažādos attēlu formātos. Ir pieejamas daudzas noderīgas funkcijas un iestatījumi."
+  },
+  "steps": {
+    "title_left": "Kā mainīt {{Signaturetype}} parakstus savā {{Fileformat}} dokumentā",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ietver noderīgas funkcijas, piemēram, {{Signaturetype}} parakstu atjaunināšanu, kas ievietoti {{Fileformat}} dokumentos. Tas ļauj mainīt parakstu funkcijas bez papildu koda.",
+      "step_1": "Lai sāktu, izveidojiet paraksta objektu, kas pāriet kā konstruktora parametra ceļš uz dokumentu, kas ir jāatjaunina.",
+      "step_2": "Pēc tam izveidojiet atbilstošu konkrēto paraksta objektu un iestatiet tā identifikatoru un rekvizītus, kas jāmaina.",
+      "step_3": "Visbeidzot, izsauciet Signature's Update metodi, nododot noteiktu paraksta objektu.",
+      "step_4": "Apstrādājiet rezultātu atjaunināšanu atbilstoši jūsu paziņojumam."
+    },
+    "title_right": "Sistēmas prasības",
+    "content_right": {
+      "description": "{{ProductFullName}} tiek atbalstīti visās lielākajās platformās un operētājsistēmās. Pirms tālāk norādītā koda izpildes, lūdzu, pārliecinieties, vai jūsu sistēmā ir instalēti šādi priekšnosacījumi.",
+      "step_1": "Operētājsistēmas: Microsoft Windows, Linux, MacOS",
+      "step_2": "Izstrādes vides: {{DevEnv}}",
+      "step_3": "Lejupielādējiet jaunāko {{ProductFullName}} versiju no [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Parakstu {{Signaturetype}} atjaunināšana dokumenta lapās — tiešraides demonstrācija",
+    "content": "Rediģējiet dažādus dokumenta {{Fileformat}} elektroniskos parakstus tūlīt, apmeklējot vietni [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Atjauniniet dažādus {{Signaturetype}} parakstus, izmantojot {{ProgLang}}",
+    "content": "Dažādos dokumentu formātos ievietoto digitālo parakstu rediģēšana. Atjauniniet parakstu datus bez papildu koda."
+  }
+}

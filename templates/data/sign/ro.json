@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} document cu {{Codetype}} cod de bare în {{ProgLang}}",
+    "meta_description": "Creați semnătura codului de bare {{Codetype}} și puneți-o pe documentul {{Fileformat}} cu {{ProductName}} folosind câteva rânduri de cod. Utilizați API-ul GroupDocs Document Signature pentru a semna diferite formate de fișiere.",
+    "h1": "Generați semnătura de cod de bare {{Codetype}} pentru documentul {{Fileformat}} în {{ProgLang}}",
+    "h2": "eSemnați documentele dvs. comerciale {{Fileformat}} cu codul de bare {{Codetype}}. Generați semnătura cod de bare rapid și ușor cu câteva linii de cod pentru a configura opțiunile de semnare."
+  },
+  "digital-content": {
+    "meta_title": "Adăugarea semnăturilor electronice digitale la fișierul {{Fileformat}} cu {{ProgLang}}",
+    "meta_description": "Puneți semnătura digitală pe fișierul {{Fileformat}} pentru {{ProductName}} folosind câteva rânduri de cod. Utilizați API-ul GroupDocs Document Signature pentru a semna zeci de formate de fișiere.",
+    "h1": "eSign fișiere {{Fileformat}} cu semnături {{Signaturetype}} în {{ProgLang}}",
+    "h2": "Cum să adăugați semnătura {{Signaturetype}} cu câteva rânduri de cod {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Adăugarea de semnături {{Signaturetype}} la fișierul {{Fileformat}} cu {{ProgLang}}",
+    "meta_description": "Puneți {{Signaturetype}} Semnătura pe fișierul {{Fileformat}} pentru {{ProductName}} folosind câteva rânduri de cod. Utilizați API-ul GroupDocs Document Signature pentru a semna zeci de formate de fișiere.",
+    "h1": "Semnează fișiere {{Fileformat}} cu semnături {{Signaturetype}} în {{ProgLang}}",
+    "h2": "Cum să adăugați semnătura {{Signaturetype}} cu câteva rânduri de cod {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Adăugați semnături electronice metadate la documente {{Fileformat}} prin {{ProgLang}}",
+    "meta_description": "Utilizați metadatele ca semnături electronice ascunse în documentele dvs. {{Fileformat}} folosind câteva rânduri de cod {{ProgLang}}. Utilizați API-ul GroupDocs Document Signature pentru a vă semna electronic documentele și fișierele de afaceri cu informații despre metadate.",
+    "h1": "Semnăturile electronice cu metadate pentru documentul {{Fileformat}} prin {{ProductName}} sunt simple și ușor de utilizat!",
+    "h2": "eSemnați documentele și contractele {{Fileformat}} cu intrări de metadate ascunse. Generați metadate pentru PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint și diferite formate de imagine fără probleme și codare suplimentară."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign documentul {{Fileformat}} cu codul QR {{Codetype}} în {{ProgLang}}",
+    "meta_description": "Creați codul QR {{Codetype}} și puneți-l în fișierul {{Fileformat}} folosind {{ProductName}} cu o scurtă bucată de cod {{ProgLang}}. Utilizați API-ul GroupDocs Document Signature pentru a vă semna electronic documentele și fișierele de afaceri cu codul QR.",
+    "h1": "Generați semnătura {{Codetype}} cod QR pentru documentul {{Fileformat}} în {{ProgLang}}",
+    "h2": "eSemnați documentele și contractele {{Fileformat}} cu codul QR {{Codetype}}. Generați semnătura codului QR rapid și ușor."
+  },
+  "text-content": {
+    "meta_title": "Creați semnături electronice text în fișierul {{Fileformat}} cu {{ProgLang}}",
+    "meta_description": "Puneți {{Signaturetype}} eSignature pe fișierul {{Fileformat}} pentru {{ProductName}} folosind câteva rânduri de cod. Utilizați API-ul GroupDocs Document Signature pentru a semna zeci de formate de fișiere.",
+    "h1": "Semnează fișiere {{Fileformat}} cu semnături {{Signaturetype}} în {{ProgLang}}",
+    "h2": "Cum să adăugați semnătura {{Signaturetype}} cu câteva rânduri de cod {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Despre {{ProductFullName}} API-ul pentru semnături coduri de bare.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API rapid și ușor pentru a gestiona semnarea electronică a documentelor digitale folosind tipuri de coduri de bare precum UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 și multe altele. Clienții pot crea cu ușurință coduri de bare care oferă textul necesar și le pot pune pe PDF, documente Microsoft Office Words, cărți de lucru Microsoft Office Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Codurile de bare plasate în documente pot fi actualizate, căutate, verificate, șterse sau previzualizate. În plus, personalizarea codurilor de bare este acceptată."
+  },
+  "digital-about": {
+    "title": "Despre {{ProductFullName}} API-ul pentru semnături digitale",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API popular pentru a semna documente cu semnături electronice digitale, cu certificate digitale. Pentru semnăturile digitale, API-ul utilizează fișiere de certificat PFX pentru a emite documentul cu chei publice și private protejate cu parolă. Semnăturile digitale pot fi folosite pentru a certifica documente de afaceri cu o anumită pagină eSign PDF, pentru a certifica documente întregi Microsoft Office, cum ar fi Words, Excel, fișiere Powerpoint și documente Open Office. Clienții pot manipula cu ușurință semnăturile, cum ar fi editarea, eliminarea sau ajustarea acestora. API-ul oferă o modalitate de a căuta și verifica semnăturile. În plus, sunt oferite o mulțime de abilități pentru personalizarea semnăturilor."
+  },
+  "image-about": {
+    "title": "Despre {{ProductFullName}} API-ul pentru semnături imagine",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API popular pentru semnarea electronică a documentelor digitale. Sunt disponibile semnături precum texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Semnăturile pot fi plasate pe fișiere PDF, documente MS Word, cărți de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Clienții își pot semna documentul și își pot actualiza, căuta, verifica, șterge sau previzualiza semnăturile electronice care au fost puse pe acele documente. În plus, sunt oferite o mulțime de abilități pentru personalizarea semnăturilor."
+  },
+  "metadata-about": {
+    "title": "Despre {{ProductFullName}} API-ul pentru semnături metadate",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API popular pentru semnarea electronică a documentelor digitale. Sunt disponibile semnături precum texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Semnăturile pot fi plasate pe fișiere PDF, documente MS Word, cărți de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Clienții își pot semna documentul și își pot actualiza, căuta, verifica, șterge sau previzualiza semnăturile electronice care au fost puse pe acele documente. În plus, sunt oferite o mulțime de abilități pentru personalizarea semnăturilor."
+  },
+  "qrcode-about": {
+    "title": "Despre {{ProductFullName}} API-ul pentru semnături cu coduri QR",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API matur pentru crearea și generarea de semnături QR Code pentru documente. Utilizatorii pot genera semnături de coduri QR care furnizează text pentru a-l descărca sau partaja prin intermediul rețelelor sociale ca imagine. Documentul semnat poate fi scanat cu API sau pur și simplu prin camera mobilă! Semnează electronic contractele de afaceri și documentele oficiale adăugând semnătura codului QR și manipulează-le. Orice semnătură de cod QR va conține informații personalizate unice pentru a identifica semnatarul sau autorizează documentul. În plus, conținutul codului QR poate fi criptat și decriptat cu chei personale în mod programatic. Acest lucru deschide multe abilități de a partaja date sensibile în documentele publice. După ce utilizatorul semnat poate actualiza, verifica, șterge, previzualiza sau căuta codurile QR din PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Codurile QR pot fi personalizate suplimentar."
+  },
+  "text-about": {
+    "title": "Despre {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API popular pentru semnarea electronică a documentelor digitale. Sunt disponibile semnături precum texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Semnăturile pot fi plasate pe fișiere PDF, documente MS Word, cărți de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Clienții își pot semna documentul și își pot actualiza, căuta, verifica, șterge sau previzualiza semnăturile electronice care au fost puse pe acele documente. În plus, sunt oferite o mulțime de abilități pentru personalizarea semnăturilor."
+  },
+  "system-requirements": {
+    "title": "Cerințe de sistem",
+    "content": {
+      "description": "{{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Obțineți cel mai recent {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "digital-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "image-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "metadata-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "text-steps": {
+    "title": "Pași pentru a semna {{Fileformat}} cu {{Signaturetype}} în {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă posibilitatea de a semna documente {{Fileformat}} cu semnături {{Signaturetype}} rapid și ușor.",
+      "step_1": "Creați o instanță a clasei Signature care furnizează fișierul {{Fileformat}} care ar trebui să se semneze ca cale sau flux de memorie",
+      "step_2": "Instanțiați clasa SignOptions și setați toate datele solicitate.",
+      "step_3": "Invocați metoda Signature.Sign() pasând fișierul de ieșire {{Fileformat}} sau fluxul de memorie"
+    }
+  },
+  "demos": {
+    "title": "Semnează documente {{Fileformat}} cu {{Signaturetype}} Live Demo",
+    "content": "Semnați fișierul {{Fileformat}} cu diferite semnături chiar acum, vizitând site-ul web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demo online gratuită vă așteaptă."
+  },
+  "more_formats": {
+    "title": "Alte semnături acceptate de {{Signaturetype}} pentru {{ProgLang}}",
+    "content": "De asemenea, puteți semna {{Fileformat}} cu alte tipuri de semnături. Vă rugăm să vedeți lista de mai jos."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Codul universal de produs este o simbolică a codurilor de bare care este utilizată pe scară largă în întreaga lume pentru urmărirea articolelor comerciale din magazine.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "Exact 11 cifre + 1 cifră de verificare."
+    },
+    "UPCE": {
+      "details": "Codul universal de produs este o simbolică a codurilor de bare care este utilizată pe scară largă în întreaga lume pentru urmărirea articolelor comerciale din magazine. UPCE este o variație de 8 cifre dacă UPC.",
+      "characterset": "Acceptă numai cifre numerice (0-9).",
+      "codetextcapacity": "Capacitate text cod: exact 7 cifre + 1 cifră de verificare."
+    },
+    "EAN13": {
+      "details": "Cel mai frecvent utilizat standard EAN este EAN-13 din treisprezece cifre, un superset al standardului original de 12 cifre al codului universal de produs.",
+      "characterset": "Numai cifre numerice (0-9).",
+      "codetextcapacity": "Capacitate cod text: exact 12 cifre + 1 cifră de verificare."
+    },
+    "EAN14": {
+      "details": "Numărul articolului european sau EAN este un standard care descrie o simbolică și un sistem de numerotare a codurilor de bare utilizate în comerțul global pentru a identifica un anumit tip de produs de vânzare cu amănuntul, într-o configurație specifică de ambalare, de la un anumit producător.",
+      "characterset": "Cifre numerice (0-9) și caractere speciale.",
+      "codetextcapacity": "Exact 14 cifre numerice."
+    },
+    "Code39": {
+      "details": "Codul 39 (cunoscut și sub numele de Alpha39, Cod 3 din 9, Cod 3/9, Tip 39, Cod USS 39 sau USD-3) este o lungime variabilă, simboluri de cod de bare discrete.",
+      "characterset": "Cifre numerice (0-9) și litere mari (A-Z) și un număr de caractere speciale (-, ., $, /, +, % și spațiu).",
+      "codetextcapacity": "Fără restricții specifice."
+    },
+    "Code39Extended": {
+      "details": "Codul 39 (cunoscut și sub numele de Alpha39, Cod 3 din 9, Cod 3/9, Tip 39, Cod USS 39 sau USD-3) este o lungime variabilă, simboluri de cod de bare discrete.",
+      "characterset": "Set de caractere: toate cele 128 de caractere ASCII.",
+      "codetextcapacity": "Fără restricții specifice."
+    },
+    "Code128": {
+      "details": "Codul 128 este un cod de bare liniar de înaltă densitate definit în ISO/IEC 15417:2007. Este folosit pentru coduri de bare alfanumerice sau numai numerice.",
+      "characterset": "Toate cele 128 de caractere ASCII.",
+      "codetextcapacity": "Fără restricții specifice."
+    },
+    "Codabar": {
+      "details": "Codabar este un cod de bare liniar care a fost conceput pentru a fi citit cu acuratețe chiar și atunci când este imprimat pe imprimante cu matrice de puncte pentru formulare cu mai multe părți, cum ar fi biletele de avion FedEx și formularul de bancă de sânge.",
+      "characterset": "Cifre numerice (0-9) și caractere speciale $/-:+.",
+      "codetextcapacity": "Fără restricții specifice."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) este un cod de bare simbol folosit de Serviciul Poștal al Statelor Unite pentru a ajuta la direcționarea corespondenței.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "Până la 11 caractere."
+    },
+    "ISBN": {
+      "details": "Numărul standard internațional al cărții (ISBN) este un identificator numeric de carte comercială care se dorește a fi unic.[a][b] Editorii achiziționează coduri ISBN de la o filială a Agenției Internaționale ISBN.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "Exact 9 cifre + 1 cifră de verificare."
+    },
+    "ITF14": {
+      "details": "ITF-14 este implementarea GS1 a unui cod de bare Interleaved 2 of 5 (ITF) pentru a codifica un număr global de articol comercial.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "13 cifre + 1 cifră de verificare."
+    },
+    "Pdf417": {
+      "details": "PDF417 este un format de cod de bare liniar stivuit utilizat într-o varietate de aplicații, cum ar fi transportul, cardurile de identificare și gestionarea stocurilor.",
+      "characterset": "Toate cele 256 de caractere ASCII.",
+      "codetextcapacity": "Până la 800 de caractere."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) este un cod de bare continuu cu două lățimi care codifică cifre. Se folosește comercial pe folie 135, pentru codurile de bare ITF-14 și pe cutiile unor produse, în timp ce produsele din interior sunt etichetate cu UPC sau EAN.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "Lungime variabila."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, cunoscut și sub numele de Pharmaceutical Binary Code, este un standard de coduri de bare, utilizat în industria farmaceutică ca sistem de control al ambalajului.",
+      "characterset": "Cifre numerice (0-9).",
+      "codetextcapacity": "Reprezintă un singur număr întreg de la 3 la 131070."
+    },
+    "Aztec": {
+      "details": "Codul Aztec este o simbologie matricială bidimensională (2-D) de uz general, care este concepută pentru a avea o precizie mai mare decât alte simboluri 2-D. Un simbol de cod aztec poate codifica până la 3.832 de cifre numerice; 3.067 caractere alfabetice; sau 1.914 octeți de date.",
+      "characterset": "Toate cele 256 de caractere ASCII.",
+      "codetextcapacity": "Până la 3.832 de cifre numerice sau 3.067 de caractere alfabetice sau 1.914 octeți de date."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix este un cod bidimensional format din „celule” alb-negru sau puncte aranjate fie într-un model pătrat, fie dreptunghiular, cunoscut și sub numele de matrice. Informațiile care trebuie codificate pot fi text sau date numerice.",
+      "characterset": "Acceptă toate cele 256 de caractere ASCII, toate caracterele ISO și toate caracterele Codului de schimb zecimal codificat binar extins (EBCDIC).",
+      "codetextcapacity": "Până la 3116 de cifre numerice sau 2335 de caractere alfanumerice sau 1556 de caractere binare."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix este o variantă a Data Matrix care este conformă cu specificațiile GS1. Utilizați GS1 DataMatrix pentru a codifica informații precum, dar fără a se limita la, următoarele: AI(01) Numărul articolului comercial global (GTIN), AI(17) Data expirării, AI(10) Numărul lotului, AI(21) Numărul de serie .",
+      "characterset": "Set de caractere: litere mari și mici și caractere speciale $@%*+-./:=<>;&*_,'! toate cu identificatorii de aplicație corecti.",
+      "codetextcapacity": "Capacitate cod text: până la 3116 cifre numerice sau 2335 caractere alfanumerice."
+    },
+    "GS1QR": {
+      "details": "Codul QR GS1 este o variantă a codului QR care respectă specificațiile GS1. A fost conceput special pentru a partaja informații extinse despre ambalare, cum ar fi numărul lotului, ID-ul produsului și cantitatea.",
+      "characterset": "Litere mari și mici și caractere speciale $%*+-./: toate cu identificatorii de aplicație corecti",
+      "codetextcapacity": "Până la 7089 de caractere numerice, 4296 de caractere alfanumerice"
+    },
+    "QR": {
+      "details": "Codul QR (abreviat de la Quick Response Code) este marca comercială pentru un tip de cod de bare matrice (sau cod de bare bidimensional). Este cel mai popular și utilizat tip de cod bidimensional. În practică, codurile QR conțin adesea date pentru un localizator, identificator sau tracker care indică un site web sau o aplicație.",
+      "characterset": "Toate cele 256 de caractere ASCII + Kanji",
+      "codetextcapacity": "Până la 7089 de caractere numerice, 4296 de caractere alfanumerice, 2953 de octeți (date binare) sau 1817 de caractere kanji."
+    }
+  }
+}

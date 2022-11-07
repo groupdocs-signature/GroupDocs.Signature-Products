@@ -1,0 +1,114 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Delete
+signaturetype: Text
+fileformat: Dot
+productName: .NET
+lang: lt
+productCode: net
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm
+breadcrumb: Put Text signature on Dot for C#
+
+############################# Head ############################
+head_title: "Ištrinkite Text parašus iš Dot failų naudodami C#"
+head_description: "Konkrečius Text parašus iš pasirašytų Dot dokumentų galima lengvai ištrinti naudojant trumpą .NET kodą."
+
+############################# Header ############################
+title: "Pašalinkite Text parašus, kurie yra Dot failuose"
+description: "Ištrinkite įvairius Text parašus iš Dot dokumentų. Norint pašalinti Text parašus, reikia paprasto C# kodo."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Gaukite informacijos apie GroupDocs.Signature for .NET API funkcijas"
+    content: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API suteikia daug būdų, kaip apdoroti dokumentus naudojant elektroninius parašus. Galimi skaitmeniniai parašai, tokie kaip tekstai, vaizdai, skaitmeniniai sertifikatai, brūkšniniai kodai, QR kodai, antspaudai ar metaduomenys. Klientai turi galimybę pridėti, ištrinti, atnaujinti, tikrinti ar ieškoti skaitmeninių parašų PDF, MS Word dokumentuose, MS Excel darbaknygėse, MS PowerPoint pristatymuose, Adobe Photoshop failuose ir įvairiuose vaizdo formatuose. Pateikiama daugybė naudingų funkcijų ir nustatymų.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Kaip pašalinti Text parašus iš Dot dokumento"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) yra naudinga funkcija, skirta išvalyti Dot dokumentus nuo Text parašų naudojant kelias kodo eilutes.
+        
+        * Pirma, kaip konstruktoriaus parametrą sukurkite parašo objektą, perduodantį kelią į jūsų dokumentą.
+        * Tada sukurkite atitinkamą parašo objektą ir nustatykite jo unikalų identifikatorių.
+        * Po to iškvieskite Delete metodą, perduodantį parašo objektą, kurį reikia ištrinti.
+        * Galiausiai proceso operacijos rezultatai.
+
+    title_right: "Sistemos reikalavimai"
+    content_right: |
+        GroupDocs.Signature for .NET palaikomos visose pagrindinėse platformose ir operacinėse sistemose. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinos sąlygos.
+
+        * Operacinės sistemos: Microsoft Windows, Linux, MacOS
+        * Kūrimo aplinkos: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Atsisiųskite naujausią GroupDocs.Signature for .NET versiją iš [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+         
+    code: |
+        ```csharp    
+                
+        // Set up input Dot file
+        string filePath = "input.dot";
+
+        // Instantiate Signature for input file
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        {
+                // Id of signature which is supposed to be deleted
+                // such Id may be obtained as result of search operation
+                string id = "ff988ab1-7403-4c8d-8db7-f2a56b9f8530";
+
+                // provide signature features to delete
+                // set up particular signature id
+                TextSignature signatureToDelete = new TextSignature(id);
+
+                // delete signature
+                bool deleteResult = signature.Delete(signatureToDelete);
+
+                // process deletion result
+                if (deleteResult)
+                {
+                    Console.WriteLine("Signature was deleted successfully!");
+                }
+        }
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Pasirašymas naudojant Text parašus Tiesioginė demonstracija"
+    content: |
+       Pridėkite įvairių elektroninių parašų prie Dot failo dabar, apsilankę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) svetainėje.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Ištrinkite savo Text parašus naudodami C#"
+    content: |
+        "El. parašų, kurie buvo pridėti prie įvairių formatų dokumentų, panaikinimas. Greitai pašalinkite parašus be papildomo kodo."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

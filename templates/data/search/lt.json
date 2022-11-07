@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Ieškokite {{Signaturetype}} parašų {{Fileformat}} faile {{ProgLang}}",
+    "meta_description": "Naudokite {{ProductName}}, norėdami ieškoti {{Signaturetype}} parašų {{Fileformat}} failuose naudodami kelias kodo eilutes.",
+    "h1": "Ieškokite {{Signaturetype}} parašų {{Fileformat}} faile",
+    "h2": "{{ProductName}} savoji API leidžia ieškoti {{Signaturetype}} parašų jau pasirašytuose {{Fileformat}} failuose. Atlikite išplėstinę el. parašo paiešką savo {{Fileformat}} dokumentuose naudodami kelias kodo eilutes."
+  },
+  "about": {
+    "title": "Apie {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) teikia {{ProductName}} API, skirtą dokumentams apdoroti naudojant įvairius parašo tipus, pvz., tekstus, vaizdus, ​​skaitmeninius sertifikatus, brūkšninius kodus, QR kodus, antspaudus ar metaduomenis. Vartotojai gali pridėti, ištrinti, atnaujinti, tikrinti arba ieškoti elektroninių parašų PDF rinkmenose, MS Word dokumentuose, MS Excel darbaknygėse, MS PowerPoint pristatymuose, Adobe Photoshop failuose ir įvairiuose vaizdo formatuose, su papildoma pagalba prireikus tinkinti parašų ypatybes."
+  },
+  "steps": {
+    "title_left": "Kaip ieškoti {{Signaturetype}} parašų {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) leidžia {{ProductName}} kūrėjams lengviau ieškoti {{Signaturetype}} parašų {{Fileformat}} failuose iš savo programų, atlikdami kelis paprastus veiksmus.",
+      "step_1": "Sukurkite naują Signature klasės egzempliorių ir nurodykite šaltinio dokumento kelią kaip konstruktoriaus parametrą.",
+      "step_2": "Sukurkite paieškos parinkčių objektą pagal savo reikalavimus ir nurodykite paieškos parinktis.",
+      "step_3": "Iškvieskite Signature klasės egzemplioriaus paieškos metodą ir perduokite jam paieškos parinktis.",
+      "step_4": "Apdorokite paieškos rezultatus pagal savo poreikius."
+    },
+    "title_right": "Sistemos reikalavimai",
+    "content_right": {
+      "description": "{{ProductFullName}} palaikomos visose pagrindinėse platformose ir operacinėse sistemose. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinos sąlygos.",
+      "step_1": "Operacinės sistemos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kūrimo aplinkos: {{DevEnv}}",
+      "step_3": "Atsisiųskite naujausią {{ProductFullName}} versiją iš [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ieškokite {{Signaturetype}} elektroninių parašų tiesioginės demonstracijos",
+    "content": "Dabar ieškokite dokumente įvairių elektroninių parašų prie {{Fileformat}} failų, apsilankę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) svetainėje."
+  },
+  "more_formats": {
+    "title": "Ieškokite kitų {{Signaturetype}} parašų naudodami {{ProgLang}}",
+    "content": "Elektroninių parašų paieška įvairiuose dokumentuose. Raskite parašus iš vieno iš populiarių failų formatų, kaip parodyta toliau."
+  }
+}

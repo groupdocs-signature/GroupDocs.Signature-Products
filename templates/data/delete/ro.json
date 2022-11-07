@@ -1,0 +1,35 @@
+{
+  "content": {
+    "meta_title": "Ștergeți semnăturile {{Signaturetype}} din fișierele {{Fileformat}} prin {{ProgLang}}",
+    "meta_description": "Ștergerea anumitor semnături {{Signaturetype}} din documentele {{Fileformat}} semnate poate fi efectuată cu ușurință cu ajutorul unui cod scurt {{ProductName}}.",
+    "h1": "Eliminați semnăturile {{Signaturetype}} care sunt plasate în fișiere {{Fileformat}}",
+    "h2": "Ștergeți diferite semnături {{Signaturetype}} din documentele {{Fileformat}}. Eliminarea semnăturilor {{Signaturetype}} necesită un cod simplu {{ProgLang}}."
+  },
+  "about": {
+    "title": "Obțineți informații despre funcțiile API-ului {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API oferă multe modalități de a vă procesa documentele folosind semnături electronice. Sunt disponibile semnături digitale precum texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Clienții au posibilitatea de a adăuga, șterge, actualiza, verifica sau căuta semnături digitale în PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Sunt oferite un număr mare de funcții și setări utile."
+  },
+  "steps": {
+    "title_left": "Cum să eliminați semnăturile {{Signaturetype}} din documentul dvs. {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) oferă o funcție utilă pentru ștergerea documentelor {{Fileformat}} de semnăturile {{Signaturetype}} cu câteva linii de cod.",
+      "step_1": "În primul rând, instanțiază obiectul Signature care trece calea către documentul tău ca parametru de constructor.",
+      "step_2": "Apoi, creați un obiect de semnătură adecvat și configurați identificatorul unic al acestuia."
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Descărcați cea mai recentă versiune a {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Semnează cu {{Signaturetype}} semnături Demo live",
+    "content": "Adăugați diverse semnături electronice în fișierul {{Fileformat}} chiar acum, vizitând site-ul web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Ștergeți-vă semnăturile {{Signaturetype}} cu {{ProgLang}}",
+    "content": "Ștergerea semnăturilor electronice care au fost adăugate la diferite formate de documente. Eliminați rapid semnăturile fără cod suplimentar."
+  }
+}

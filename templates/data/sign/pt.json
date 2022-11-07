@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} documento com {{Codetype}} Código de barras em {{ProgLang}}",
+    "meta_description": "Crie uma assinatura de código de barras {{Codetype}} e coloque-a no documento {{Fileformat}} com {{ProductName}} usando algumas linhas de código. Use a API de assinatura de documento do GroupDocs para assinar vários formatos de arquivo.",
+    "h1": "Gere assinatura de código de barras {{Codetype}} para {{Fileformat}} documento em {{ProgLang}}",
+    "h2": "Assine seus documentos comerciais {{Fileformat}} com o código de barras {{Codetype}}. Gere assinatura de código de barras de forma rápida e fácil com algumas linhas de código para configurar as opções de assinatura."
+  },
+  "digital-content": {
+    "meta_title": "Adicionando assinaturas eletrônicas digitais ao arquivo {{Fileformat}} com {{ProgLang}}",
+    "meta_description": "Coloque a assinatura digital no arquivo {{Fileformat}} para {{ProductName}} usando algumas linhas de código. Use a API de assinatura de documentos do GroupDocs para assinar dezenas de formatos de arquivo.",
+    "h1": "eSign {{Fileformat}} arquivos com assinaturas {{Signaturetype}} em {{ProgLang}}",
+    "h2": "Como adicionar a assinatura {{Signaturetype}} com algumas linhas de código {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Adicionando assinaturas {{Signaturetype}} ao arquivo {{Fileformat}} com {{ProgLang}}",
+    "meta_description": "Coloque a assinatura {{Signaturetype}} no arquivo {{Fileformat}} para {{ProductName}} usando algumas linhas de código. Use a API de assinatura de documentos do GroupDocs para assinar dezenas de formatos de arquivo.",
+    "h1": "Assine {{Fileformat}} arquivos com assinaturas {{Signaturetype}} em {{ProgLang}}",
+    "h2": "Como adicionar assinatura {{Signaturetype}} com algumas linhas de código {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Anexar assinaturas eletrônicas de metadados a documentos {{Fileformat}} via {{ProgLang}}",
+    "meta_description": "Use metadados como assinaturas eletrônicas ocultas dentro de seus documentos {{Fileformat}} usando algumas linhas de código {{ProgLang}}. Use a API de assinatura de documentos do GroupDocs para assinar seus documentos e arquivos comerciais com informações de metadados.",
+    "h1": "Assinaturas eletrônicas de metadados para o documento {{Fileformat}} via {{ProductName}} são simples e fáceis de usar!",
+    "h2": "Assine seus documentos e contratos {{Fileformat}} com entradas de metadados ocultas. Gere metadados para PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint e vários formatos de imagem sem problemas e codificação extra."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} documento com {{Codetype}} QR Code em {{ProgLang}}",
+    "meta_description": "Crie {{Codetype}} QR Code e coloque-o no arquivo {{Fileformat}} usando {{ProductName}} com um pequeno pedaço de código {{ProgLang}}. Use a API de assinatura de documentos do GroupDocs para assinar seus documentos e arquivos comerciais com QR Code.",
+    "h1": "Gere {{Codetype}} assinatura de QR Code para {{Fileformat}} documento em {{ProgLang}}",
+    "h2": "Assine seus documentos e contratos {{Fileformat}} com {{Codetype}} QR Code. Gere assinatura de QR Code de forma rápida e fácil."
+  },
+  "text-content": {
+    "meta_title": "Crie assinaturas eletrônicas de texto para o arquivo {{Fileformat}} com {{ProgLang}}",
+    "meta_description": "Coloque {{Signaturetype}} eSignature no arquivo {{Fileformat}} para {{ProductName}} usando algumas linhas de código. Use a API de assinatura de documentos do GroupDocs para assinar dezenas de formatos de arquivo.",
+    "h1": "Assine {{Fileformat}} arquivos com assinaturas {{Signaturetype}} em {{ProgLang}}",
+    "h2": "Como adicionar assinatura {{Signaturetype}} com algumas linhas de código {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Sobre a API de assinaturas de código de barras do {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API rápida e fácil para gerenciar a assinatura eletrônica de documentos digitais usando tipos de código de barras como UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 e muitos outros. Os clientes podem criar facilmente códigos de barras fornecendo o texto necessário e colocá-los em PDF, documentos do Microsoft Office Words, pastas de trabalho do Microsoft Office Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Os códigos de barras colocados em documentos podem ser atualizados, pesquisados, verificados, excluídos ou visualizados. Além disso, a personalização de códigos de barras é suportada."
+  },
+  "digital-about": {
+    "title": "Sobre a API de assinaturas digitais do {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API popular para assinar documentos com assinaturas eletrônicas digitais, com certificados digitais. Para a API de assinaturas digitais, usa arquivos de certificado PFX para assinar documentos com chaves privadas e públicas protegidas por senha. As assinaturas digitais podem ser usadas para certificar documentos comerciais com uma página específica do eSign PDF, certificar documentos inteiros do Microsoft Office, como Word, Excel, arquivos do Powerpoint e documentos do Open Office. Os clientes podem manipular facilmente as assinaturas, como editá-las, removê-las ou ajustá-las. A API fornece uma maneira de pesquisar e verificar assinaturas. Além disso, são fornecidas muitas habilidades para personalização de assinaturas."
+  },
+  "image-about": {
+    "title": "Sobre a API de assinaturas de imagem do {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API popular para assinatura eletrônica de documentos digitais. Assinaturas como textos, imagens, certificados digitais, códigos de barras, códigos QR, carimbos ou metadados estão disponíveis. Assinaturas podem ser colocadas em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Os clientes podem assinar seu documento e atualizar, pesquisar, verificar, excluir ou visualizar assinaturas eletrônicas que foram colocadas nesses documentos. Além disso, são fornecidas muitas habilidades para personalização de assinaturas."
+  },
+  "metadata-about": {
+    "title": "Sobre a API de assinaturas de metadados do {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API popular para assinatura eletrônica de documentos digitais. Assinaturas como textos, imagens, certificados digitais, códigos de barras, códigos QR, carimbos ou metadados estão disponíveis. Assinaturas podem ser colocadas em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Os clientes podem assinar seu documento e atualizar, pesquisar, verificar, excluir ou visualizar assinaturas eletrônicas que foram colocadas nesses documentos. Além disso, são fornecidas muitas habilidades para personalização de assinaturas."
+  },
+  "qrcode-about": {
+    "title": "Sobre a API de assinaturas de código QR do {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API madura para criar e gerar assinaturas de QR Code para os documentos. Os usuários podem gerar assinaturas de QR Code fornecendo texto para baixá-lo ou compartilhar nas mídias sociais como imagem. O documento assinado pode ser digitalizado com API ou simplesmente pela câmera do celular! Assine eletronicamente seus contratos comerciais e documentos oficiais adicionando a assinatura do QR Code e manipule-o. Qualquer assinatura de QR Code conterá informações personalizadas exclusivas para identificar o signatário ou autorizar o documento. Além disso, o conteúdo do QR Code pode ser criptografado e descriptografado com chaves pessoais de forma programática. Isso abre muitas habilidades para compartilhar dados confidenciais dentro dos documentos públicos. Após a assinatura, o usuário pode atualizar, verificar, excluir, visualizar ou pesquisar os QR Codes em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Códigos QR podem ser personalizados adicionalmente."
+  },
+  "text-about": {
+    "title": "Sobre a API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) é uma API popular para assinatura eletrônica de documentos digitais. Assinaturas como textos, imagens, certificados digitais, códigos de barras, códigos QR, carimbos ou metadados estão disponíveis. Assinaturas podem ser colocadas em PDFs, documentos do MS Word, pastas de trabalho do MS Excel, apresentações do MS PowerPoint, arquivos do Adobe Photoshop e vários formatos de imagem. Os clientes podem assinar seu documento e atualizar, pesquisar, verificar, excluir ou visualizar assinaturas eletrônicas que foram colocadas nesses documentos. Além disso, são fornecidas muitas habilidades para personalização de assinaturas."
+  },
+  "system-requirements": {
+    "title": "Requisitos de sistema",
+    "content": {
+      "description": "{{ProductFullName}} são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Obtenha o {{ProductFullName}} mais recente de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "digital-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "image-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "metadata-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "text-steps": {
+    "title": "Etapas para assinar {{Fileformat}} com {{Signaturetype}} em {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite assinar documentos {{Fileformat}} com assinaturas {{Signaturetype}} de forma rápida e fácil.",
+      "step_1": "Crie uma instância da classe Signature fornecendo o arquivo {{Fileformat}} para assinar como caminho ou fluxo de memória",
+      "step_2": "Instancie a classe SignOptions e defina todos os dados exigidos.",
+      "step_3": "Invoque o método Signature.Sign() passando o arquivo de saída {{Fileformat}} ou fluxo de memória"
+    }
+  },
+  "demos": {
+    "title": "Assinando {{Fileformat}} documentos com {{Signaturetype}} Demonstração ao vivo",
+    "content": "Assine o arquivo {{Fileformat}} com várias assinaturas agora mesmo visitando o site [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demonstração online gratuita esperando por você."
+  },
+  "more_formats": {
+    "title": "Outras assinaturas {{Signaturetype}} suportadas para {{ProgLang}}",
+    "content": "Você também pode assinar {{Fileformat}} com outros tipos de assinatura. Por favor, veja a lista abaixo."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "O Código de Produto Universal é uma simbologia de código de barras amplamente utilizada em todo o mundo para rastrear itens comerciais em lojas.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "Exatamente 11 dígitos + 1 dígito verificador."
+    },
+    "UPCE": {
+      "details": "O Código de Produto Universal é uma simbologia de código de barras amplamente utilizada em todo o mundo para rastrear itens comerciais em lojas. UPCE é uma variação de 8 dígitos se UPC.",
+      "characterset": "Suporta apenas dígitos numéricos (0-9).",
+      "codetextcapacity": "Capacidade de texto de código: exatamente 7 dígitos + 1 dígito de verificação."
+    },
+    "EAN13": {
+      "details": "O padrão EAN mais comumente usado é o EAN-13 de treze dígitos, um superconjunto do padrão original do Código de Produto Universal de 12 dígitos.",
+      "characterset": "Apenas dígitos numéricos (0-9).",
+      "codetextcapacity": "Capacidade de texto de código: exatamente 12 dígitos + 1 dígito de verificação."
+    },
+    "EAN14": {
+      "details": "O número de artigo europeu ou EAN é um padrão que descreve uma simbologia de código de barras e um sistema de numeração usado no comércio global para identificar um tipo específico de produto de varejo, em uma configuração de embalagem específica, de um fabricante específico.",
+      "characterset": "Dígitos numéricos (0-9) e caracteres especiais.",
+      "codetextcapacity": "Exatamente 14 dígitos numéricos."
+    },
+    "Code39": {
+      "details": "Código 39 (também conhecido como Alpha39, Código 3 de 9, Código 3/9, Tipo 39, Código USS 39 ou USD-3) é uma simbologia de código de barras discreta de comprimento variável.",
+      "characterset": "Dígitos numéricos (0-9) e letras maiúsculas (A-Z) e vários caracteres especiais (-, ., $, /, +, % e espaço).",
+      "codetextcapacity": "Sem restrições específicas."
+    },
+    "Code39Extended": {
+      "details": "Código 39 (também conhecido como Alpha39, Código 3 de 9, Código 3/9, Tipo 39, Código USS 39 ou USD-3) é uma simbologia de código de barras discreta de comprimento variável.",
+      "characterset": "Conjunto de caracteres: todos os 128 caracteres ASCII.",
+      "codetextcapacity": "Sem restrições específicas."
+    },
+    "Code128": {
+      "details": "O código 128 é uma simbologia de código de barras linear de alta densidade definida na ISO/IEC 15417:2007. É usado para códigos de barras alfanuméricos ou somente numéricos.",
+      "characterset": "Todos os 128 caracteres de ASCII.",
+      "codetextcapacity": "Sem restrições específicas."
+    },
+    "Codabar": {
+      "details": "Codabar é uma simbologia de código de barras linear que foi projetada para ser lida com precisão mesmo quando impressa em impressoras matriciais para formulários de várias vias, como contas aéreas da FedEx e formulário de banco de sangue.",
+      "characterset": "Dígitos numéricos (0-9) e caracteres especiais $/-:+.",
+      "codetextcapacity": "Sem restrições específicas."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) é uma simbologia de código de barras usada pelo Serviço Postal dos Estados Unidos para auxiliar no direcionamento de mala direta.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "Até 11 caracteres."
+    },
+    "ISBN": {
+      "details": "O International Standard Book Number (ISBN) é um identificador numérico de livro comercial que deve ser exclusivo.[a][b] Os editores compram ISBNs de uma afiliada da International ISBN Agency.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "Exatamente 9 dígitos + 1 dígito verificador."
+    },
+    "ITF14": {
+      "details": "ITF-14 é a implementação GS1 de um código de barras Interleaved 2 of 5 (ITF) para codificar um Número Global de Item Comercial.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "13 dígitos + 1 dígito verificador."
+    },
+    "Pdf417": {
+      "details": "PDF417 é um formato de código de barras linear empilhado usado em uma variedade de aplicações, como transporte, cartões de identificação e gerenciamento de estoque.",
+      "characterset": "Todos os 256 caracteres ASCII.",
+      "codetextcapacity": "Até 800 caracteres."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) é uma simbologia de código de barras contínua de dois dígitos de codificação. É usado comercialmente em filme 135, para códigos de barras ITF-14 e em caixas de alguns produtos, enquanto os produtos dentro são rotulados com UPC ou EAN.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "Comprimento variável."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, também conhecido como Código Binário Farmacêutico, é um padrão de código de barras, usado na indústria farmacêutica como sistema de controle de embalagens.",
+      "characterset": "Dígitos numéricos (0-9).",
+      "codetextcapacity": "Representa apenas um único inteiro de 3 a 131070."
+    },
+    "Aztec": {
+      "details": "O Código Aztec é uma simbologia de matriz de propósito geral bidimensional (2-D) projetada para ter maior precisão do que outras simbologias 2-D. Um símbolo de código asteca pode codificar até 3.832 dígitos numéricos; 3.067 caracteres alfabéticos; ou 1.914 bytes de dados.",
+      "characterset": "Todos os 256 caracteres ASCII.",
+      "codetextcapacity": "Até 3.832 dígitos numéricos ou 3.067 caracteres alfabéticos ou 1.914 bytes de dados."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix é um código bidimensional que consiste em 'células' ou pontos pretos e brancos dispostos em um padrão quadrado ou retangular, também conhecido como matriz. A informação a ser codificada pode ser texto ou dados numéricos.",
+      "characterset": "Suporta todos os 256 caracteres ASCII, todos os caracteres ISO e todos os caracteres Extended Binary Coded Decimal Interchange Code (EBCDIC).",
+      "codetextcapacity": "Até 3116 dígitos numéricos ou 2335 caracteres alfanuméricos ou 1556 caracteres binários."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix é uma variante do Data Matrix que está em conformidade com as especificações GS1. Use o GS1 DataMatrix para codificar as informações como, mas não se limitando a: AI(01) Global Trade Item Number (GTIN), AI(17) Expiration Date, AI(10) Batch Number, AI(21) Serial Number .",
+      "characterset": "Conjunto de caracteres: letras maiúsculas e minúsculas e caracteres especiais $@%*+-./:=<>;&*_,'! todos com Identificadores de Aplicativos corretos.",
+      "codetextcapacity": "Capacidade de texto de código: até 3116 dígitos numéricos ou 2335 caracteres alfanuméricos."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code é uma variante do QR Code que está em conformidade com as especificações GS1. Ele foi projetado especificamente para compartilhar informações de embalagem estendidas, como número de lote, ID do produto e quantidade.",
+      "characterset": "Letras maiúsculas e minúsculas e caracteres especiais $%*+-./: todos com Identificadores de Aplicação corretos",
+      "codetextcapacity": "Até 7089 caracteres numéricos, 4296 caracteres alfanuméricos"
+    },
+    "QR": {
+      "details": "QR Code (abreviado de Quick Response Code) é a marca registrada de um tipo de código de barras matricial (ou código de barras bidimensional). É o tipo de código bidimensional mais popular e amplamente utilizado. Na prática, os códigos QR geralmente contêm dados para um localizador, identificador ou rastreador que aponta para um site ou aplicativo.",
+      "characterset": "Todos os 256 caracteres ASCII + Kanji",
+      "codetextcapacity": "Até 7089 caracteres numéricos, 4296 caracteres alfanuméricos, 2953 bytes (dados binários) ou 1817 caracteres Kanji."
+    }
+  }
+}

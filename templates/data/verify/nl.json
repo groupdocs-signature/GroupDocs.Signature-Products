@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verificatie van {{Signaturetype}} handtekeningen voor {{Fileformat}} bestanden via {{ProgLang}}",
+    "meta_description": "Gebruik slechts een paar regels {{ProductName}}-code om {{Fileformat}}-documenten en hun {{Signaturetype}}-handtekeningen te verifiëren.",
+    "h1": "{{Signaturetype}} handtekeningverificatie voor {{Fileformat}} bestanden",
+    "h2": "API voor {{ProductName}} biedt de mogelijkheid om {{Signaturetype}} handtekeningen te verifiëren bij {{Fileformat}} documenten. Verificatie van elektronische handtekeningen in uw {{Fileformat}} documenten kan snel en gemakkelijk worden uitgevoerd."
+  },
+  "about": {
+    "title": "Ontdek nieuwe {{ProductFullName}} API-functies",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API biedt een breed scala aan manieren om tal van documentformaten te verwerken met behulp van elektronische handtekeningen. Vele soorten digitale handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata worden ondersteund. Klanten kunnen digitale handtekeningen toevoegen, verwijderen, bewerken, valideren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Verbazingwekkend aantal extra functies en instellingen zijn beschikbaar."
+  },
+  "steps": {
+    "title_left": "Hoe u {{Signaturetype}} handtekeningen valideert in uw {{Fileformat}} document",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bevat handige functies zoals verificatie van {{Signaturetype}} handtekeningen die bij {{Fileformat}} documenten zijn geplaatst. Gebruik deze mogelijkheid zonder extra code te implementeren.",
+      "step_1": "Ten eerste, instantiëren Signature-klasse die als een constructorparameterpad biedt naar een document dat moet worden geverifieerd.",
+      "step_2": "Maak vervolgens een nieuw VerifyOptions-object en stel alle vereiste eigenschappen in.",
+      "step_3": "Roep ten slotte Signature's object Verify-methode aan die de instantie van VerifyOptions doorgeeft.",
+      "step_4": "Verwerk vervolgens de verificatieresultaten."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ondertekenen met {{Signaturetype}} handtekeningen Live demo",
+    "content": "Voeg nu verschillende elektronische handtekeningen toe aan het {{Fileformat}}-bestand door naar de website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) te gaan."
+  },
+  "more_formats": {
+    "title": "Verifieer andere {{Signaturetype}} handtekeningen met {{ProgLang}}",
+    "content": "Verificatie van elektronische handtekeningen in verschillende documenten. Controleer de kwaliteit van handtekeningen in de populaire bestandsindelingen, zoals hieronder wordt onthuld."
+  }
+}

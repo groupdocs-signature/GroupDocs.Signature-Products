@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Wyszukaj podpisy {{Signaturetype}} w pliku {{Fileformat}} w {{ProgLang}}",
+    "meta_description": "Użyj {{ProductName}} do wyszukiwania podpisów {{Signaturetype}} w plikach {{Fileformat}} przy użyciu kilku linijek kodu.",
+    "h1": "Wyszukaj podpisy {{Signaturetype}} w pliku {{Fileformat}}",
+    "h2": "Natywny interfejs API {{ProductName}} umożliwia wyszukiwanie podpisów {{Signaturetype}} w już podpisanych plikach {{Fileformat}}. Przeprowadź zaawansowane wyszukiwanie podpisu elektronicznego w swoich dokumentach {{Fileformat}}, używając kilku linijek kodu."
+  },
+  "about": {
+    "title": "Informacje o interfejsie API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) udostępnia interfejs API {{ProductName}} do przetwarzania dokumentów przy użyciu różnych typów podpisów, takich jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Użytkownicy mogą dodawać, usuwać, aktualizować, weryfikować lub wyszukiwać podpisy elektroniczne w plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach obrazów, z dodatkową obsługą dostosowywania właściwości podpisów zgodnie z potrzebami."
+  },
+  "steps": {
+    "title_left": "Jak wyszukiwać podpisy {{Signaturetype}} w {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ułatwia programistom {{ProductName}} wyszukiwanie podpisów {{Signaturetype}} w plikach {{Fileformat}} z ich aplikacji, wykonując kilka prostych kroków.",
+      "step_1": "Utwórz nową instancję klasy Signature i przekaż ścieżkę dokumentu źródłowego jako parametr konstruktora.",
+      "step_2": "Utwórz wystąpienie obiektu SearchOptions zgodnie z własnymi wymaganiami i określ opcje wyszukiwania.",
+      "step_3": "Wywołaj metodę Search instancji klasy Signature i przekaż do niej SearchOptions.",
+      "step_4": "Przetwarzaj wyniki wyszukiwania zgodnie z Twoimi wymaganiami."
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "{{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Wyszukaj {{Signaturetype}} podpisy elektroniczne Demo na żywo",
+    "content": "Wyszukaj w dokumencie różne podpisy elektroniczne w plikach {{Fileformat}}, odwiedzając witrynę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Wyszukaj inne podpisy {{Signaturetype}} za pomocą {{ProgLang}}",
+    "content": "Wyszukiwanie podpisów elektronicznych w różnych dokumentach. Znajdź podpisy z jednego z popularnych formatów plików, jak pokazano poniżej."
+  }
+}

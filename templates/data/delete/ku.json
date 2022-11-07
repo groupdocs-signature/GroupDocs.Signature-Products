@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Bi rêya {{ProgLang}} îmzeyên {{Signaturetype}} ji pelên {{Fileformat}} jêbirin",
+    "meta_description": "Jêbirina îmzayên taybetî yên {{Signaturetype}} ji belgeyên îmzekirî yên {{Fileformat}} dibe ku bi koda kurt a {{ProductName}} bi hêsanî were kirin.",
+    "h1": "Nîşanên {{Signaturetype}} yên ku di pelên {{Fileformat}} de cih digirin rakin",
+    "h2": "Ji belgeyên {{Fileformat}} îmzeyên cihêreng ên {{Signaturetype}} jêbirin. Ji rakirina îmzeyên {{Signaturetype}} koda {{ProgLang}} ya sade hewce dike."
+  },
+  "about": {
+    "title": "Li ser taybetmendiyên API-ê yên {{ProductFullName}} agahdarî bistînin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API gelek awayan peyda dike ku hûn belgeyên we bi karanîna îmzeyên elektronîkî bi kar bînin. Îmzeyên dîjîtal ên wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, stamp an metadata hene. Xerîdar xwedî îmkan in ku li PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formatên wêneyê lê zêde bikin, jêbikin, nûve bikin, verast bikin an li îmzeyên dîjîtal bigerin. Gelek taybetmendiyên kêrhatî û mîhengan têne peyda kirin."
+  },
+  "steps": {
+    "title_left": "Meriv çawa îmzayên {{Signaturetype}} ji belgeya xweya {{Fileformat}} rabike",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ji bo paqijkirina {{Fileformat}} belgeyên {{Signaturetype}} bi çend rêzikên kodê taybetmendiyek bikêr peyda dike.",
+      "step_1": "Pêşîn, tişta Îmzeyê ya ku ji belgeya we re wekî parametreyek çêker derbas dibe destnîşan bikin.",
+      "step_2": "Dûv re, tiştek îmzeya guncan biafirînin û nasnameya wê ya yekta saz bikin.",
+      "step_3": "Piştî wê, rêbaza Jêbirinê vekêşin ku tiştê îmzeyê derbas dike ku divê were jêbirin.",
+      "step_4": "Di dawiyê de, encamên operasyonê."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    }
+  },
+  "demos": {
+    "title": "Îmzekirina bi {{Signaturetype}} îmzeyan Demoya Zindî",
+    "content": "Bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî li pelê {{Fileformat}} zêde bikin."
+  },
+  "more_formats": {
+    "title": "Bi {{ProgLang}} îmzeyên xwe yên {{Signaturetype}} jêbikin",
+    "content": "Jêbirina e-îmzayên ku li cûrbecûr formatên belgeyê hatine zêdekirin. Bêyî kodek zêde îmzeyan bi lez rakin."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Tìm kiếm chữ ký {{Signaturetype}} trong tệp {{Fileformat}} trong {{ProgLang}}",
+    "meta_description": "Sử dụng {{ProductName}} để tìm kiếm chữ ký {{Signaturetype}} trong tệp {{Fileformat}} bằng một vài dòng mã.",
+    "h1": "Tìm kiếm chữ ký {{Signaturetype}} trong tệp {{Fileformat}}",
+    "h2": "API gốc {{ProductName}} cho phép tìm kiếm chữ ký {{Signaturetype}} trong các tệp {{Fileformat}} đã được ký. Thực hiện tìm kiếm chữ ký điện tử nâng cao trong tài liệu {{Fileformat}} của bạn bằng cách sử dụng một vài dòng mã."
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}] ({{ProductUrl}}) cung cấp API {{ProductName}} để xử lý tài liệu bằng nhiều loại chữ ký khác nhau như văn bản, hình ảnh, chứng chỉ kỹ thuật số, mã vạch, mã QR, tem hoặc siêu dữ liệu. Người dùng có thể thêm, xóa, cập nhật, xác minh hoặc tìm kiếm chữ ký điện tử trong tệp PDF, tài liệu MS Word, sổ làm việc MS Excel, bản trình bày MS PowerPoint, tệp Adobe Photoshop và các định dạng hình ảnh khác nhau, với hỗ trợ bổ sung để tùy chỉnh các thuộc tính chữ ký khi cần thiết."
+  },
+  "steps": {
+    "title_left": "Cách tìm kiếm chữ ký {{Signaturetype}} trong {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{ProductUrl}}) giúp các nhà phát triển {{ProductName}} tìm kiếm chữ ký {{Signaturetype}} trong tệp {{Fileformat}} từ ứng dụng của họ dễ dàng hơn bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Tạo một phiên bản mới của lớp Chữ ký và chuyển đường dẫn tài liệu nguồn làm tham số khởi tạo.",
+      "step_2": "Khởi tạo đối tượng SearchOptions theo yêu cầu của bạn và chỉ định các tùy chọn tìm kiếm.",
+      "step_3": "Gọi phương thức Tìm kiếm của cá thể lớp Chữ ký và chuyển SearchOptions cho nó.",
+      "step_4": "Xử lý kết quả tìm kiếm phù hợp với nhu cầu của bạn."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "{{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Tìm kiếm chữ ký điện tử {{Signaturetype}} Demo trực tiếp",
+    "content": "Tìm kiếm tài liệu để tìm các chữ ký điện tử khác nhau cho các tệp {{Fileformat}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Signature App] (https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Tìm kiếm các chữ ký {{Signaturetype}} khác bằng {{ProgLang}}",
+    "content": "Tìm kiếm chữ ký điện tử trong các tài liệu khác nhau. Tìm chữ ký từ một trong những định dạng tệp phổ biến như được hiển thị bên dưới."
+  }
+}

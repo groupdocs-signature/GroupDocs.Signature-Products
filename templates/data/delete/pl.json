@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Usuń podpisy {{Signaturetype}} z plików {{Fileformat}} przez {{ProgLang}}",
+    "meta_description": "Usuwanie określonych podpisów {{Signaturetype}} z podpisanych dokumentów {{Fileformat}} można łatwo wykonać za pomocą krótkiego kodu {{ProductName}}.",
+    "h1": "Usuń {{Signaturetype}} podpisy umieszczone w plikach {{Fileformat}}",
+    "h2": "Usuń różne podpisy {{Signaturetype}} z dokumentów {{Fileformat}}. Usunięcie podpisów {{Signaturetype}} wymaga prostego kodu {{ProgLang}}."
+  },
+  "about": {
+    "title": "Uzyskaj informacje o funkcjach interfejsu API {{ProductFullName}}",
+    "content": "Interfejs API [{{ProductFullName}}]({{ProductUrl}}) zapewnia wiele sposobów przetwarzania dokumentów przy użyciu podpisów elektronicznych. Dostępne są podpisy cyfrowe, takie jak teksty, obrazy, certyfikaty cyfrowe, kody kreskowe, kody QR, pieczątki lub metadane. Klienci mają możliwość dodawania, usuwania, aktualizacji, weryfikacji lub wyszukiwania podpisów cyfrowych w plikach PDF, dokumentach MS Word, skoroszytach MS Excel, prezentacjach MS PowerPoint, plikach Adobe Photoshop i różnych formatach graficznych. Dostępnych jest wiele przydatnych funkcji i ustawień."
+  },
+  "steps": {
+    "title_left": "Jak usunąć podpisy {{Signaturetype}} z dokumentu {{Fileformat}}?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) zapewnia użyteczną funkcję do czyszczenia dokumentów {{Fileformat}} z podpisami {{Signaturetype}} za pomocą kilku linijek kodu.",
+      "step_1": "Po pierwsze, utwórz wystąpienie obiektu Signature przekazującego ścieżkę do dokumentu jako parametr konstruktora.",
+      "step_2": "Następnie utwórz odpowiedni obiekt podpisu i ustaw jego unikalny identyfikator.",
+      "step_3": "Następnie wywołaj metodę Delete przekazującą obiekt podpisu, który należy usunąć.",
+      "step_4": "Wreszcie wyniki operacji procesu."
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "{{ProductFullName}} są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podpisywanie za pomocą podpisów {{Signaturetype}} Demo na żywo",
+    "content": "Dodaj różne podpisy elektroniczne do pliku {{Fileformat}} już teraz, odwiedzając witrynę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Usuń swoje podpisy {{Signaturetype}} za pomocą {{ProgLang}}",
+    "content": "Usunięcie e-podpisów, które zostały dodane do różnych formatów dokumentów. Szybko usuwaj podpisy bez dodatkowego kodu."
+  }
+}

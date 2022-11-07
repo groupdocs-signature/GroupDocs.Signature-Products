@@ -1,0 +1,113 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Search
+signaturetype: Digital
+fileformat: Docm
+productName: Java
+lang: sv
+productCode: java
+otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx xltm pptx pptm
+breadcrumb: Search Digital signatures at Docm with Java
+
+############################# Head ############################
+head_title: "Sök efter Digital-signaturer i filen {{Filformat}} i Java"
+head_description: "Använd Java för att söka efter Digital-signaturer i Docm-filer med några rader kod."
+
+############################# Header ############################
+title: "Sök efter Digital-signaturer i filen {{Filformat}}"
+description: "Inbyggt API för Java gör det möjligt att söka efter Digital-signaturer i redan signerade Docm-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocsature-java.png"
+        product: "GroupDocs.Signature"
+        platform: "Java"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Om GroupDocs.Signature for Java API"
+    content: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) tillhandahåller Java API för att bearbeta dokument med olika signaturtyper som texter, bilder, digitala certifikat, streckkoder, QR-koder, stämplar eller metadata. Användare kan lägga till, ta bort, uppdatera, verifiera eller söka efter elektroniska signaturer i PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer, Adobe Photoshop-filer och olika bildformat, med ytterligare stöd för att anpassa signaturegenskaper efter behov.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Hur man söker efter Digital-signaturer i {{Filformat}}"
+    content_left: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gör det enklare för Java-utvecklare att söka efter Digital-signaturer i Docm-filer från sina applikationer genom att implementera några enkla steg.
+        
+        * Skapa en ny instans av Signature-klassen och skicka källdokumentsökvägen som en konstruktorparameter.
+        * Instantiera SearchOptions-objektet enligt dina krav och ange sökalternativ.
+        * Anrop sökmetoden för Signature-klassinstansen och skicka SearchOptions till den.
+        * Bearbeta sökresultaten efter dina krav.
+
+    title_right: "Systemkrav"
+    content_right: |
+        GroupDocs.Signature for Java stöds på alla större plattformar och operativsystem. Innan du kör koden nedan, se till att du har följande förutsättningar installerade på ditt system.
+
+        * Operativsystem: Microsoft Windows, Linux, MacOS
+        * Utvecklingsmiljöer: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Ladda ner den senaste versionen av GroupDocs.Signature for Java från [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+         
+    code: |
+        ```java    
+                
+        // Set up input Docm file
+        String filePath = "input.docm";
+
+        // Instantiate Signature for input file
+        Signature signature = new Signature(filePath);
+
+        //Create search options
+        DigitalSearchOptions options = new DigitalSearchOptions();
+
+        // specify special search criteria
+        options.setComments("Approved");
+        // specify period of signatures
+        options.setSignDateTimeFrom(new Date(2021, 3, 5));
+        options.setSignDateTimeTo(new Date(2022, 7, 16));
+        
+        // search for Digital signatures in Docm document
+        List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
+
+        // process signatures which were found 
+        signatures.forEach(item -> System.out.println(item.toString()));
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Sök efter Digital elektroniska signaturer Live Demo"
+    content: |
+       Sök i dokumentet efter olika elektroniska signaturer till Docm-filer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).
+
+        
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Sök efter andra Digital-signaturer med Java"
+    content: |
+        "Sök efter elektroniska signaturer i olika dokument. Hitta signaturer från ett av de populära filformaten som visas nedan."
+    format: 
+           
+       
+back_to_top:
+    enable: true
+---

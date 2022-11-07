@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Căutați semnături {{Signaturetype}} în fișierul {{Fileformat}} în {{ProgLang}}",
+    "meta_description": "Utilizați {{ProductName}} pentru a căuta semnături {{Signaturetype}} în fișiere {{Fileformat}} folosind câteva rânduri de cod.",
+    "h1": "Căutați semnături {{Signaturetype}} în fișierul {{Fileformat}}",
+    "h2": "API-ul nativ {{ProductName}} permite căutarea semnăturilor {{Signaturetype}} în fișierele {{Fileformat}} deja semnate. Efectuați o căutare avansată de semnătură electronică în documentele dvs. {{Fileformat}} folosind câteva rânduri de cod."
+  },
+  "about": {
+    "title": "Despre {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) oferă {{ProductName}} API pentru procesarea documentelor folosind diferite tipuri de semnături, cum ar fi texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Utilizatorii pot adăuga, șterge, actualiza, verifica sau căuta semnături electronice în PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine, cu suport suplimentar pentru personalizarea proprietăților semnăturilor după cum este necesar."
+  },
+  "steps": {
+    "title_left": "Cum să căutați semnături {{Signaturetype}} în {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) facilitează pentru dezvoltatorii {{ProductName}} să caute semnături {{Signaturetype}} în fișierele {{Fileformat}} din aplicațiile lor prin implementarea câțiva pași simpli.",
+      "step_1": "Creați o nouă instanță a clasei Signature și treceți calea documentului sursă ca parametru de constructor.",
+      "step_2": "Instanciați obiectul SearchOptions în funcție de cerințele dvs. și specificați opțiunile de căutare.",
+      "step_3": "Apelați metoda Search a instanței clasei Signature și transmiteți-i SearchOptions.",
+      "step_4": "Procesați rezultatele căutării în funcție de cerințele dvs."
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Descărcați cea mai recentă versiune a {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Căutați {{Signaturetype}} semnături electronice Live Demo",
+    "content": "Căutați în document diferite semnături electronice în fișiere {{Fileformat}} chiar acum, vizitând site-ul web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Căutați alte semnături {{Signaturetype}} folosind {{ProgLang}}",
+    "content": "Căutare de semnături electronice în diverse documente. Găsiți semnături din unul dintre formatele de fișiere populare, așa cum se arată mai jos."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Zoek naar {{Signaturetype}} handtekeningen in {{Fileformat}} bestand in {{ProgLang}}",
+    "meta_description": "Gebruik {{ProductName}} om te zoeken naar {{Signaturetype}} handtekeningen in {{Fileformat}} bestanden met een paar regels code.",
+    "h1": "Zoek naar {{Signaturetype}} handtekeningen in {{Fileformat}} bestand",
+    "h2": "{{ProductName}} native API maakt het mogelijk om te zoeken naar {{Signaturetype}} handtekeningen in reeds ondertekende {{Fileformat}} bestanden. Voer geavanceerd zoeken naar elektronische handtekeningen uit in uw {{Fileformat}}-documenten met een paar regels code."
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) biedt {{ProductName}} API voor het verwerken van documenten met behulp van verschillende soorten handtekeningen, zoals teksten, afbeeldingen, digitale certificaten, streepjescodes, QR-codes, stempels of metadata. Gebruikers kunnen elektronische handtekeningen toevoegen, verwijderen, bijwerken, verifiëren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsindelingen, met extra ondersteuning voor het naar behoefte aanpassen van de eigenschappen van handtekeningen."
+  },
+  "steps": {
+    "title_left": "Zoeken naar handtekeningen van {{Signaturetype}} in {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) maakt het voor {{ProductName}}-ontwikkelaars gemakkelijker om te zoeken naar {{Signaturetype}}-handtekeningen in {{Fileformat}}-bestanden vanuit hun applicaties door een paar eenvoudige stappen te implementeren.",
+      "step_1": "Maak een nieuw exemplaar van de Signature-klasse en geef het brondocumentpad door als een constructorparameter.",
+      "step_2": "Instantieer het SearchOptions-object volgens uw vereisten en specificeer zoekopties.",
+      "step_3": "Roep de zoekmethode van de instantie van de Signature-klasse aan en geef er SearchOptions aan.",
+      "step_4": "Verwerk zoekresultaten overeenkomstig uw eisen."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Zoeken naar {{Signaturetype}} elektronische handtekeningen Live demo",
+    "content": "Zoek nu in het document naar verschillende elektronische handtekeningen voor {{Fileformat}}-bestanden door naar de website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) te gaan."
+  },
+  "more_formats": {
+    "title": "Zoek naar andere {{Signaturetype}} handtekeningen met {{ProgLang}}",
+    "content": "Elektronische handtekeningen zoeken in verschillende documenten. Vind handtekeningen van een van de populaire bestandsindelingen, zoals hieronder weergegeven."
+  }
+}

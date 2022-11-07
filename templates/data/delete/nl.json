@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Verwijder {{Signaturetype}} handtekeningen uit {{Fileformat}} bestanden via {{ProgLang}}",
+    "meta_description": "Het verwijderen van specifieke {{Signaturetype}} handtekeningen uit ondertekende {{Fileformat}} documenten kan gemakkelijk worden uitgevoerd met korte {{ProductName}} code.",
+    "h1": "Verwijder {{Signaturetype}} handtekeningen die in {{Fileformat}} bestanden zijn geplaatst",
+    "h2": "Verwijder verschillende {{Signaturetype}} handtekeningen uit {{Fileformat}} documenten. Voor het verwijderen van {{Signaturetype}}-handtekeningen is een eenvoudige {{ProgLang}}-code vereist."
+  },
+  "about": {
+    "title": "Krijg informatie over {{ProductFullName}} API-functies",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API biedt vele manieren om uw documenten te verwerken met behulp van elektronische handtekeningen. Digitale handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata zijn beschikbaar. Klanten hebben de mogelijkheid om digitale handtekeningen toe te voegen, te verwijderen, bij te werken, te verifiëren of te zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Er is een groot aantal handige functies en instellingen beschikbaar."
+  },
+  "steps": {
+    "title_left": "Hoe {{Signaturetype}} handtekeningen te verwijderen uit uw {{Fileformat}} document",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt een handige functie voor het wissen van {{Fileformat}} documenten van {{Signaturetype}} handtekeningen met een paar regels code.",
+      "step_1": "Instantieer eerst het Signature-object dat het pad naar uw document doorgeeft als een constructorparameter.",
+      "step_2": "Maak vervolgens een geschikt handtekeningobject en stel de unieke id in.",
+      "step_3": "Roep daarna de Delete-methode aan die het handtekeningobject doorgeeft dat moet worden verwijderd.",
+      "step_4": "Tot slot de resultaten van de proceswerking."
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "{{ProductFullName}} worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Download de nieuwste versie van {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ondertekenen met {{Signaturetype}} handtekeningen Live demo",
+    "content": "Voeg nu verschillende elektronische handtekeningen toe aan het {{Fileformat}}-bestand door naar de website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) te gaan."
+  },
+  "more_formats": {
+    "title": "Verwijder uw {{Signaturetype}} handtekeningen met {{ProgLang}}",
+    "content": "Verwijdering van elektronische handtekeningen die aan verschillende documentformaten zijn toegevoegd. Snel handtekeningen verwijderen zonder extra code."
+  }
+}

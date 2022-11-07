@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} document met {{Codetype}} Barcode in {{ProgLang}}",
+    "meta_description": "Maak {{Codetype}} Barcode Signature en plaats deze op {{Fileformat}} document met {{ProductName}} met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen.",
+    "h1": "Genereer {{Codetype}} Barcode handtekening voor {{Fileformat}} document in {{ProgLang}}",
+    "h2": "Onderteken uw {{Fileformat}} zakelijke documenten met {{Codetype}} Barcode. Genereer snel en eenvoudig een barcodehandtekening met een paar regels code om ondertekeningsopties in te stellen."
+  },
+  "digital-content": {
+    "meta_title": "Digitale elektronische handtekeningen toevoegen aan {{Fileformat}} bestand met {{ProgLang}}",
+    "meta_description": "Zet de digitale handtekening op het {{Fileformat}}-bestand voor {{ProductName}} met een paar regels code. Gebruik de GroupDocs Document Signature API om tientallen bestandsindelingen te ondertekenen.",
+    "h1": "eSign {{Fileformat}} bestanden met {{Signaturetype}} handtekeningen in {{ProgLang}}",
+    "h2": "Hoe een {{Signaturetype}} handtekening toe te voegen met een paar regels {{ProductName}} code"
+  },
+  "image-content": {
+    "meta_title": "{{Signaturetype}} handtekeningen toevoegen aan {{Fileformat}} bestand met {{ProgLang}}",
+    "meta_description": "Zet {{Signaturetype}} Signature op {{Fileformat}} bestand voor {{ProductName}} met een paar regels code. Gebruik de GroupDocs Document Signature API om tientallen bestandsindelingen te ondertekenen.",
+    "h1": "Onderteken {{Fileformat}} bestanden met {{Signaturetype}} handtekeningen in {{ProgLang}}",
+    "h2": "Hoe voeg je een {{Signaturetype}} handtekening toe met een paar regels {{ProductName}} code"
+  },
+  "metadata-content": {
+    "meta_title": "Voeg elektronische handtekeningen met metagegevens toe aan {{Fileformat}} documenten via {{ProgLang}}",
+    "meta_description": "Gebruik metadata als verborgen elektronische handtekeningen in uw {{Fileformat}}-documenten met een paar regels {{ProgLang}}-code. Gebruik de GroupDocs Document Signature API om uw zakelijke documenten en bestanden elektronisch te ondertekenen met metadata-informatie.",
+    "h1": "Metadata elektronische handtekeningen voor {{Fileformat}} document via {{ProductName}} zijn eenvoudig en gemakkelijk te gebruiken!",
+    "h2": "Onderteken uw {{Fileformat}} documenten en contracten met verborgen metadata-items. Genereer probleemloos metadata voor PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties en verschillende afbeeldingsformaten."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} document met {{Codetype}} QR-code in {{ProgLang}}",
+    "meta_description": "Maak een {{Codetype}} QR-code en plaats deze in het {{Fileformat}}-bestand met behulp van {{ProductName}} met een kort stukje {{ProgLang}}-code. Gebruik de GroupDocs Document Signature API om uw zakelijke documenten en bestanden elektronisch te ondertekenen met QR-code.",
+    "h1": "Genereer {{Codetype}} QR Code handtekening voor {{Fileformat}} document in {{ProgLang}}",
+    "h2": "Onderteken uw {{Fileformat}} documenten en contracten met {{Codetype}} QR-code. Genereer snel en gemakkelijk een QR-codehandtekening."
+  },
+  "text-content": {
+    "meta_title": "Maak elektronische teksthandtekeningen naar een {{Fileformat}}-bestand met {{ProgLang}}",
+    "meta_description": "Zet {{Signaturetype}} eSignature op {{Fileformat}} bestand voor {{ProductName}} met een paar regels code. Gebruik de GroupDocs Document Signature API om tientallen bestandsindelingen te ondertekenen.",
+    "h1": "Onderteken {{Fileformat}} bestanden met {{Signaturetype}} handtekeningen in {{ProgLang}}",
+    "h2": "Hoe voeg je een {{Signaturetype}} handtekening toe met een paar regels {{ProductName}} code"
+  },
+  "barcode-about": {
+    "title": "Over {{ProductFullName}} Barcode handtekeningen API.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een snelle en gemakkelijke API voor het beheren van elektronische ondertekening van digitale documenten met behulp van barcodetypes zoals UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 en vele anderen. Klanten kunnen eenvoudig barcodes maken met de vereiste tekst en deze op PDF, Microsoft Office Words-documenten, Microsoft Office Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten plaatsen. Barcodes die in documenten zijn geplaatst, kunnen worden bijgewerkt, doorzocht, geverifieerd, verwijderd of bekeken. Bovendien wordt het aanpassen van streepjescodes ondersteund."
+  },
+  "digital-about": {
+    "title": "Over {{ProductFullName}} API voor digitale handtekeningen",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een populaire API om documenten te ondertekenen met de digitale elektronische handtekeningen, met digitale certificaten. Voor de API voor digitale handtekeningen gebruikt de API PFX-certificaatbestanden om documenten te ondertekenen met met een wachtwoord beveiligde privé- en openbare sleutels. De digitale handtekeningen kunnen worden gebruikt om zakelijke documenten te certificeren met een specifieke eSign PDF-pagina, en om volledige Microsoft Office-documenten zoals Words, Excel, Powerpoint-bestanden en Open Office-documenten te certificeren. Klanten kunnen de handtekeningen gemakkelijk manipuleren, zoals bewerken, verwijderen of aanpassen. De API biedt een manier om handtekeningen te zoeken en te verifiëren. Bovendien zijn er veel mogelijkheden voor het aanpassen van handtekeningen."
+  },
+  "image-about": {
+    "title": "Over {{ProductFullName}} API voor beeldhandtekeningen",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een populaire API voor het elektronisch ondertekenen van digitale documenten. Handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata zijn beschikbaar. Handtekeningen kunnen worden geplaatst op PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Klanten kunnen hun document ondertekenen en de elektronische handtekeningen die op die documenten zijn geplaatst bijwerken, zoeken, verifiëren, verwijderen of een voorbeeld bekijken. Bovendien zijn er veel mogelijkheden voor het aanpassen van handtekeningen."
+  },
+  "metadata-about": {
+    "title": "Over {{ProductFullName}} API voor handtekeningen met metagegevens",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een populaire API voor het elektronisch ondertekenen van digitale documenten. Handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata zijn beschikbaar. Handtekeningen kunnen worden geplaatst op PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Klanten kunnen hun document ondertekenen en de elektronische handtekeningen die op die documenten zijn geplaatst bijwerken, zoeken, verifiëren, verwijderen of een voorbeeld bekijken. Bovendien zijn er veel mogelijkheden voor het aanpassen van handtekeningen."
+  },
+  "qrcode-about": {
+    "title": "Over {{ProductFullName}} QR Code handtekeningen API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een volwassen API voor het maken en genereren van QR-codehandtekeningen voor de documenten. Gebruikers kunnen QR-codehandtekeningen genereren met tekst om deze te downloaden of als afbeelding via de sociale media te delen. Het ondertekende document kan worden gescand met API of gewoon via de mobiele camera! Onderteken uw zakelijke contracten en officiële documenten elektronisch door een QR-codehandtekening toe te voegen en manipuleer deze. Elke handtekening met een QR-code bevat unieke aangepaste informatie om de ondertekenaar te identificeren of het document te autoriseren. Bovendien kan de inhoud van de QR-code programmatisch worden versleuteld en ontsleuteld met persoonlijke sleutels. Dat opent veel mogelijkheden om gevoelige gegevens in de openbare documenten te delen. Na de ondertekening kan de gebruiker de QR-codes bijwerken, verifiëren, verwijderen, bekijken of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. QR-codes kunnen bovendien worden aangepast."
+  },
+  "text-about": {
+    "title": "Over {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een populaire API voor het elektronisch ondertekenen van digitale documenten. Handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata zijn beschikbaar. Handtekeningen kunnen worden geplaatst op PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Klanten kunnen hun document ondertekenen en de elektronische handtekeningen die op die documenten zijn geplaatst bijwerken, zoeken, verifiëren, verwijderen of een voorbeeld bekijken. Bovendien zijn er veel mogelijkheden voor het aanpassen van handtekeningen."
+  },
+  "system-requirements": {
+    "title": "systeem vereisten",
+    "content": {
+      "description": "{{ProductFullName}} worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Download de nieuwste {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "digital-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "image-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "metadata-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "text-steps": {
+    "title": "Stappen om {{Fileformat}} te ondertekenen met {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
+      "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
+      "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
+      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+    }
+  },
+  "demos": {
+    "title": "{{Fileformat}} documenten ondertekenen met {{Signaturetype}} Live Demo",
+    "content": "Onderteken het {{Fileformat}}-bestand met verschillende handtekeningen op dit moment door naar de website [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) te gaan. Gratis online demo voor u klaar."
+  },
+  "more_formats": {
+    "title": "Andere ondersteunde {{Signaturetype}} handtekeningen voor {{ProgLang}}",
+    "content": "U kunt {{Fileformat}} ook ondertekenen met andere soorten handtekeningen. Zie de lijst hieronder."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "De Universal Product Code is een barcode-symboliek die wereldwijd veel wordt gebruikt voor het volgen van handelsartikelen in winkels.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "Precies 11 cijfers + 1 controlecijfer."
+    },
+    "UPCE": {
+      "details": "De Universal Product Code is een barcode-symboliek die wereldwijd veel wordt gebruikt voor het volgen van handelsartikelen in winkels. UPCE is een 8-cijferige variant als UPC.",
+      "characterset": "Ondersteunt alleen numerieke cijfers (0-9).",
+      "codetextcapacity": "Codetekstcapaciteit: precies 7 cijfers + 1 controlecijfer."
+    },
+    "EAN13": {
+      "details": "De meest gebruikte EAN-standaard is de dertiencijferige EAN-13, een superset van de oorspronkelijke 12-cijferige Universal Product Code-standaard.",
+      "characterset": "Alleen numerieke cijfers (0-9).",
+      "codetextcapacity": "Codetekstcapaciteit: exact 12 cijfers + 1 controlecijfer."
+    },
+    "EAN14": {
+      "details": "Europees artikelnummer of EAN is een norm die een barcodesymboliek en nummeringsysteem beschrijft dat in de wereldhandel wordt gebruikt om een ​​specifiek retailproducttype, in een specifieke verpakkingsconfiguratie, van een specifieke fabrikant te identificeren.",
+      "characterset": "Numerieke cijfers (0-9) en speciale tekens.",
+      "codetextcapacity": "Precies 14 cijfers."
+    },
+    "Code39": {
+      "details": "Code 39 (ook bekend als Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 of USD-3) is een discrete barcodesymboliek met variabele lengte.",
+      "characterset": "Numerieke cijfers (0-9) en hoofdletters (A-Z) en een aantal speciale tekens (-, ., $, /, +, % en spatie).",
+      "codetextcapacity": "Geen specifieke beperkingen."
+    },
+    "Code39Extended": {
+      "details": "Code 39 (ook bekend als Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 of USD-3) is een discrete barcodesymboliek met variabele lengte.",
+      "characterset": "Tekenset: alle 128 ASCII-tekens.",
+      "codetextcapacity": "Geen specifieke beperkingen."
+    },
+    "Code128": {
+      "details": "Code 128 is een lineaire barcodesymboliek met hoge dichtheid, gedefinieerd in ISO/IEC 15417:2007. Het wordt gebruikt voor alfanumerieke of alleen numerieke streepjescodes.",
+      "characterset": "Alle 128 tekens van ASCII.",
+      "codetextcapacity": "Geen specifieke beperkingen."
+    },
+    "Codabar": {
+      "details": "Codabar is een lineaire barcode-symboliek die is ontworpen om nauwkeurig te worden gelezen, zelfs wanneer deze wordt afgedrukt op dot-matrixprinters voor meerdelige formulieren zoals FedEx-luchtbiljetten en bloedbankformulieren.",
+      "characterset": "Numerieke cijfers (0-9) en speciale tekens $/-:+.",
+      "codetextcapacity": "Geen specifieke beperkingen."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) is een barcode-symboliek die door de United States Postal Service wordt gebruikt om te helpen bij het sturen van post.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "Maximaal 11 tekens."
+    },
+    "ISBN": {
+      "details": "Het International Standard Book Number (ISBN) is een numerieke identificatie van commerciële boeken die uniek moet zijn.[a][b] Uitgevers kopen ISBN's aan van een filiaal van het International ISBN Agency.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "Precies 9 cijfers + 1 controlecijfer."
+    },
+    "ITF14": {
+      "details": "ITF-14 is de GS1-implementatie van een Interleaved 2 of 5 (ITF)-barcode om een ​​Global Trade Item Number te coderen.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "13 cijfers + 1 controlecijfer."
+    },
+    "Pdf417": {
+      "details": "PDF417 is een gestapeld lineair barcodeformaat dat wordt gebruikt in een verscheidenheid aan toepassingen, zoals transport, identificatiekaarten en voorraadbeheer.",
+      "characterset": "Alle 256 ASCII-tekens.",
+      "codetextcapacity": "Tot 800 tekens."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) is een continue twee-breedte barcode symbologie coderende cijfers. Het wordt commercieel gebruikt op 135-film, voor ITF-14-barcodes en op dozen van sommige producten, terwijl de producten binnenin zijn gelabeld met UPC of EAN.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "Variabele lengte."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, ook bekend als Pharmaceutical Binary Code, is een barcodestandaard die in de farmaceutische industrie wordt gebruikt als verpakkingscontrolesysteem.",
+      "characterset": "Numerieke cijfers (0-9).",
+      "codetextcapacity": "Vertegenwoordigt slechts één geheel getal van 3 tot 131070."
+    },
+    "Aztec": {
+      "details": "Azteekse code is een tweedimensionale (2D) matrixsymboliek voor algemene doeleinden die is ontworpen om een ​​hogere nauwkeurigheid te hebben dan andere 2D-symbolen. Een Azteeks codesymbool kan maximaal 3.832 numerieke cijfers coderen; 3.067 alfabetische tekens; of 1.914 bytes aan gegevens.",
+      "characterset": "Alle 256 ASCII-tekens.",
+      "codetextcapacity": "Tot 3.832 numerieke cijfers, of 3.067 alfabetische tekens, of 1.914 bytes aan gegevens."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix is ​​een tweedimensionale code die bestaat uit zwarte en witte 'cellen' of stippen die zijn gerangschikt in een vierkant of rechthoekig patroon, ook wel matrix genoemd. De te coderen informatie kan tekst of numerieke gegevens zijn.",
+      "characterset": "Ondersteunt alle 256 ASCII-tekens, alle ISO-tekens en alle Extended Binary Coded Decimal Interchange Code (EBCDIC)-tekens.",
+      "codetextcapacity": "Maximaal 3116 numerieke cijfers of 2335 alfanumerieke tekens of 1556 binaire tekens."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix is ​​een variant van Data Matrix die voldoet aan de GS1-specificaties. Gebruik GS1 DataMatrix om de informatie te coderen, zoals, maar niet beperkt tot, het volgende: AI(01) Global Trade Item Number (GTIN), AI(17) Expiration Date, AI(10) Batch Number, AI(21) Serienummer .",
+      "characterset": "Tekenset: hoofdletters en kleine letters en speciale tekens $@%*+-./:=<>;&*_,'! allemaal met de juiste applicatie-ID's.",
+      "codetextcapacity": "Codetekstcapaciteit: tot 3116 numerieke cijfers of 2335 alfanumerieke tekens."
+    },
+    "GS1QR": {
+      "details": "GS1 QR-code is een variant van QR-code die voldoet aan de GS1-specificaties. Het is speciaal ontworpen voor het delen van uitgebreide verpakkingsinformatie, zoals lotnummer, product-ID en hoeveelheid.",
+      "characterset": "Hoofdletters en kleine letters en speciale tekens $%*+-./: allemaal met de juiste applicatie-ID's",
+      "codetextcapacity": "Tot 7089 numerieke tekens, 4296 alfanumerieke tekens"
+    },
+    "QR": {
+      "details": "QR-code (afgekort van Quick Response Code) is het handelsmerk voor een type matrixbarcode (of tweedimensionale streepjescode). Het is het meest populaire en meest gebruikte type tweedimensionale code. In de praktijk bevatten QR-codes vaak gegevens voor een locator, identifier of tracker die naar een website of applicatie verwijst.",
+      "characterset": "Alle 256 ASCII-tekens + Kanji",
+      "codetextcapacity": "Maximaal 7089 numerieke tekens, 4296 alfanumerieke tekens, 2953 bytes (binaire gegevens) of 1817 Kanji-tekens."
+    }
+  }
+}

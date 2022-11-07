@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Signaturetype}} failų {{Fileformat}} parašų patvirtinimas naudojant {{ProgLang}}",
+    "meta_description": "Naudokite tik kelias {{ProductName}} kodo eilutes, kad patikrintumėte {{Fileformat}} dokumentus ir jų {{Signaturetype}} parašus.",
+    "h1": "{{Signaturetype}} parašų patvirtinimas {{Fileformat}} failams",
+    "h2": "API, skirta {{ProductName}}, suteikia galimybę patvirtinti {{Signaturetype}} parašus {{Fileformat}} dokumentuose. El. parašų patvirtinimas jūsų {{Fileformat}} dokumentuose gali būti atliktas greitai ir paprastai."
+  },
+  "about": {
+    "title": "Atraskite naujas {{ProductFullName}} API funkcijas",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API suteikia daug įvairių būdų, kaip apdoroti įvairių formatų dokumentus naudojant elektroninius parašus. Palaikomi daugelio tipų skaitmeniniai parašai, tokie kaip tekstai, vaizdai, skaitmeniniai sertifikatai, brūkšniniai kodai, QR kodai, antspaudai ar metaduomenys. Klientai gali pridėti, pašalinti, redaguoti, patvirtinti arba ieškoti skaitmeninių parašų PDF, MS Word dokumentuose, MS Excel darbaknygėse, MS PowerPoint pristatymuose, Adobe Photoshop failuose ir įvairiuose vaizdo formatuose. Galimas stulbinantis papildomų funkcijų ir nustatymų skaičius."
+  },
+  "steps": {
+    "title_left": "Kaip patvirtinti {{Signaturetype}} parašus {{Fileformat}} dokumente",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) apima naudingas funkcijas, pvz., {{Signaturetype}} parašų, pateiktų {{Fileformat}} dokumentuose, patvirtinimą. Pasinaudokite šia galimybe neįdiegę papildomo kodo.",
+      "step_1": "Pirma, sukurkite parašo klasę, kaip konstruktoriaus parametro kelią į dokumentą, kuris turėtų būti patikrintas.",
+      "step_2": "Antra, sukurkite naują VerifyOptions objektą ir nustatykite visas reikalingas ypatybes.",
+      "step_3": "Galiausiai iškvieskite Signature objekto Verify metodą, perduodantį VerifyOptions egzempliorių.",
+      "step_4": "Tada apdorokite patikrinimo rezultatus."
+    },
+    "title_right": "Sistemos reikalavimai",
+    "content_right": {
+      "description": "{{ProductFullName}} palaikomos visose pagrindinėse platformose ir operacinėse sistemose. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinos sąlygos.",
+      "step_1": "Operacinės sistemos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kūrimo aplinkos: {{DevEnv}}",
+      "step_3": "Atsisiųskite naujausią {{ProductFullName}} versiją iš [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Pasirašymas naudojant {{Signaturetype}} parašus Tiesioginė demonstracija",
+    "content": "Pridėkite įvairių elektroninių parašų prie {{Fileformat}} failo dabar, apsilankę [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) svetainėje."
+  },
+  "more_formats": {
+    "title": "Patikrinkite kitus {{Signaturetype}} parašus naudodami {{ProgLang}}",
+    "content": "Įvairiuose dokumentuose dedamų elektroninių parašų tikrinimas. Patikrinkite parašų kokybę populiariuose failų formatuose, kaip parodyta toliau."
+  }
+}

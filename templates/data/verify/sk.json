@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Overenie {{Signaturetype}} podpisov pre súbory {{Fileformat}} cez {{ProgLang}}",
+    "meta_description": "Na overenie dokumentov {{Fileformat}} a ich podpisov {{Signaturetype}} použite iba niekoľko riadkov kódu {{ProductName}}.",
+    "h1": "Overenie podpisov {{Signaturetype}} pre súbory {{Fileformat}}",
+    "h2": "API pre {{ProductName}} poskytuje možnosť overiť podpisy {{Signaturetype}} v dokumentoch {{Fileformat}}. Overenie elektronických podpisov vo vašich dokumentoch {{Fileformat}} môže byť vykonané rýchlo a jednoducho."
+  },
+  "about": {
+    "title": "Objavte nové funkcie rozhrania API služby {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API poskytuje širokú škálu spôsobov spracovania mnohých formátov dokumentov pomocou elektronických podpisov. Podporované sú mnohé typy digitálnych podpisov, ako sú texty, obrázky, digitálne certifikáty, čiarové kódy, QR kódy, pečiatky alebo metadáta. Zákazníci môžu pridávať, odstraňovať, upravovať, overovať alebo vyhľadávať digitálne podpisy v súboroch PDF, dokumentoch MS Word, zošitoch MS Excel, prezentáciách MS PowerPoint, súboroch Adobe Photoshop a rôznych obrazových formátoch. K dispozícii je úžasný počet ďalších funkcií a nastavení."
+  },
+  "steps": {
+    "title_left": "Ako overiť podpisy {{Signaturetype}} vo vašom dokumente {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) obsahuje užitočné funkcie, ako je overenie podpisov {{Signaturetype}} umiestnených v dokumentoch {{Fileformat}}. Využite túto príležitosť bez implementácie dodatočného kódu.",
+      "step_1": "Najprv vytvorte inštanciu triedy Signature poskytujúcej ako cestu parametra konštruktora k dokumentu, ktorý sa má overiť.",
+      "step_2": "Po druhé, vytvorte nový objekt VerifyOptions a nastavte všetky požadované vlastnosti.",
+      "step_3": "Nakoniec vyvolajte metódu Verify objektu Signature odovzdávajúcu inštanciu VerifyOptions.",
+      "step_4": "Potom spracujte výsledky overenia."
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "{{ProductFullName}} sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Stiahnite si najnovšiu verziu {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podpisovanie pomocou {{Signaturetype}} podpisov Živá ukážka",
+    "content": "Pridajte rôzne elektronické podpisy do súboru {{Fileformat}} hneď teraz na webovej lokalite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Overte ďalšie podpisy {{Signaturetype}} pomocou {{ProgLang}}",
+    "content": "Overovanie elektronických podpisov umiestnených v rôznych dokumentoch. Skontrolujte kvalitu podpisov v populárnych formátoch súborov, ako je uvedené nižšie."
+  }
+}

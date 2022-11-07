@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Izbrišite podpise {{Signaturetype}} iz datotek {{Fileformat}} prek {{ProgLang}}",
+    "meta_description": "Brisanje določenih podpisov {{Signaturetype}} iz podpisanih dokumentov {{Fileformat}} je mogoče preprosto izvesti s kratko kodo {{ProductName}}.",
+    "h1": "Odstranite podpise {{Signaturetype}}, ki so v datotekah {{Fileformat}}",
+    "h2": "Izbrišite različne podpise {{Signaturetype}} iz dokumentov {{Fileformat}}. Odstranjevanje podpisov {{Signaturetype}} zahteva preprosto kodo {{ProgLang}}."
+  },
+  "about": {
+    "title": "Pridobite informacije o funkcijah API-ja {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API ponuja številne načine za obdelavo vaših dokumentov z uporabo elektronskih podpisov. Na voljo so digitalni podpisi, kot so besedila, slike, digitalna potrdila, črtne kode, QR-kode, žigi ali metapodatki. Stranke imajo možnost dodajanja, brisanja, posodabljanja, preverjanja ali iskanja digitalnih podpisov v PDF-jih, dokumentih MS Word, delovnih zvezkih MS Excel, predstavitvah MS PowerPoint, datotekah Adobe Photoshop in različnih slikovnih formatih. Na voljo je ogromno uporabnih funkcij in nastavitev."
+  },
+  "steps": {
+    "title_left": "Kako odstraniti podpise {{Signaturetype}} iz vašega dokumenta {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) nudi uporabno funkcijo za čiščenje dokumentov {{Fileformat}} podpisov {{Signaturetype}} z nekaj vrsticami kode.",
+      "step_1": "Najprej ustvarite pot podajanja predmeta podpisa do vašega dokumenta kot parameter konstruktorja.",
+      "step_2": "Nato ustvarite ustrezen predmet podpisa in nastavite njegov enolični identifikator.",
+      "step_3": "Po tem pokličite metodo Delete, ki posreduje predmet podpisa, ki ga je treba izbrisati.",
+      "step_4": "Končno, procesni rezultati operacije."
+    },
+    "title_right": "Sistemske zahteve",
+    "content_right": {
+      "description": "{{ProductFullName}} so podprti na vseh glavnih platformah in operacijskih sistemih. Preden izvedete spodnjo kodo, se prepričajte, da imate v sistemu nameščene naslednje predpogoje.",
+      "step_1": "Operacijski sistemi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okolja: {{DevEnv}}",
+      "step_3": "Prenesite najnovejšo različico {{ProductFullName}} iz [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Podpisovanje s podpisi {{Signaturetype}} Demo v živo",
+    "content": "Takoj dodajte različne elektronske podpise v datoteko {{Fileformat}} tako, da obiščete spletno mesto [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Izbrišite svoje podpise {{Signaturetype}} z {{ProgLang}}",
+    "content": "Brisanje e-podpisov, ki so bili dodani v različne formate dokumentov. Hitro odstranite podpise brez dodatne kode."
+  }
+}

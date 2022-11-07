@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Cập nhật chữ ký {{Signaturetype}} được đặt trong tệp {{Fileformat}} bằng {{ProgLang}}",
+    "meta_description": "Sử dụng mã {{ProductName}} đơn giản và dễ hiểu để cập nhật chữ ký {{Signaturetype}} trong tài liệu {{Fileformat}} đã ký.",
+    "h1": "Chỉnh sửa và cập nhật chữ ký {{Signaturetype}} được đặt trong tệp {{Fileformat}}",
+    "h2": "API cho {{ProductName}} cung cấp chức năng cập nhật chữ ký {{Signaturetype}} tại tài liệu {{Fileformat}}. Cập nhật chữ ký điện tử bên trong tài liệu {{Fileformat}} của bạn bằng một vài dòng mã {{ProgLang}} một cách nhanh chóng và dễ dàng."
+  },
+  "about": {
+    "title": "Tìm hiểu về các tính năng của API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}] ({{ProductUrl}}) Chức năng API chứa nhiều lựa chọn phương tiện để xử lý ở các định dạng tài liệu yêu cầu bằng cách sử dụng chữ ký điện tử. Hỗ trợ nhiều loại chữ ký điện tử như văn bản, hình ảnh, chứng chỉ kỹ thuật số, mã vạch, mã QR, tem hoặc siêu dữ liệu. Khách hàng có thể thêm, bớt, chỉnh sửa, xác thực hoặc tìm kiếm chữ ký điện tử tại các tệp PDF, tài liệu MS Word, sổ làm việc MS Excel, bản trình bày MS PowerPoint, tệp Adobe Photoshop và các định dạng hình ảnh khác nhau. Nhiều tính năng và cài đặt hữu ích có sẵn."
+  },
+  "steps": {
+    "title_left": "Cách thay đổi chữ ký {{Signaturetype}} trong tài liệu {{Fileformat}} của bạn",
+    "content_left": {
+      "description": "[{{ProductFullName}}] ({{ProductUrl}}) bao gồm các tính năng hữu ích như cập nhật chữ ký {{Signaturetype}} được đặt trong tài liệu {{Fileformat}}. Có thể thay đổi các tính năng của chữ ký mà không cần thêm mã.",
+      "step_1": "Để bắt đầu, hãy tạo đối tượng Chữ ký truyền dưới dạng một đường dẫn tham số phương thức khởi tạo đến một tài liệu được cho là sẽ được cập nhật.",
+      "step_2": "Sau đó, khởi tạo một đối tượng chữ ký cụ thể thích hợp và thiết lập mã định danh và thuộc tính của nó cần được thay đổi.",
+      "step_3": "Cuối cùng, gọi phương thức Cập nhật của Chữ ký chuyển đối tượng chữ ký cụ thể.",
+      "step_4": "Xử lý kết quả cập nhật thông báo của bạn."
+    },
+    "title_right": "yêu cầu hệ thống",
+    "content_right": {
+      "description": "{{ProductFullName}} được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực hiện mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.",
+      "step_1": "Hệ điều hành: Microsoft Windows, Linux, MacOS",
+      "step_2": "Môi trường phát triển: {{DevEnv}}",
+      "step_3": "Tải xuống phiên bản mới nhất của {{ProductFullName}} từ [{{RepoName}}] ({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Cập nhật chữ ký {{Signaturetype}} trên các trang tài liệu - Bản trình diễn trực tiếp",
+    "content": "Chỉnh sửa các chữ ký điện tử khác nhau của tài liệu {{Fileformat}} ngay bây giờ bằng cách truy cập trang web [GroupDocs.Signature App] (https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Cập nhật các chữ ký {{Signaturetype}} khác nhau qua {{ProgLang}}",
+    "content": "Chỉnh sửa chữ ký điện tử được đặt ở nhiều định dạng tài liệu khác nhau. Cập nhật dữ liệu chữ ký mà không cần thêm mã."
+  }
+}

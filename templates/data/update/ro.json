@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Actualizați {{Signaturetype}} semnături plasate în fișiere {{Fileformat}} cu {{ProgLang}}",
+    "meta_description": "Utilizați codul {{ProductName}} simplu și ușor de înțeles pentru actualizarea semnăturilor {{Signaturetype}} în documentele {{Fileformat}} semnate.",
+    "h1": "Editați și actualizați semnăturile {{Signaturetype}} plasate în fișierele {{Fileformat}}",
+    "h2": "API-ul pentru {{ProductName}} oferă funcționalități pentru actualizarea semnăturilor {{Signaturetype}} la documentele {{Fileformat}}. Actualizați rapid și ușor semnăturile electronice din documentele dvs. {{Fileformat}} cu câteva rânduri de cod {{ProgLang}}."
+  },
+  "about": {
+    "title": "Aflați despre funcțiile API-ului {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) Funcționalitatea API conține o selecție vastă de mijloace de procesare în formate de documente la cerere prin utilizarea semnăturilor electronice. Este acceptat un spectru larg de semnături electronice, cum ar fi texte, imagini, certificate digitale, coduri de bare, coduri QR, ștampile sau metadate. Clienții pot adăuga, elimina, edita, valida sau căuta semnături digitale în PDF-uri, documente MS Word, registre de lucru MS Excel, prezentări MS PowerPoint, fișiere Adobe Photoshop și diferite formate de imagine. Sunt disponibile numeroase funcții și setări utile."
+  },
+  "steps": {
+    "title_left": "Cum să schimbați semnăturile {{Signaturetype}} în documentul dvs. {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) include funcții utile, cum ar fi actualizarea semnăturilor {{Signaturetype}} plasate în documentele {{Fileformat}}. Face posibilă schimbarea caracteristicilor semnăturilor fără cod suplimentar.",
+      "step_1": "Pentru început, creați obiectul Signature care trece ca o cale de parametru constructor către un document care ar trebui să fie actualizat.",
+      "step_2": "Apoi, instanțiați un anumit obiect de semnătură adecvat și configurați-i identificatorul și proprietățile care trebuie modificate.",
+      "step_3": "În cele din urmă, apelați metoda de actualizare a semnăturii trecând un anumit obiect de semnătură.",
+      "step_4": "Procesați rezultatele actualizării după notificarea dvs."
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, vă rugăm să vă asigurați că aveți următoarele cerințe preliminare instalate pe sistemul dumneavoastră.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Descărcați cea mai recentă versiune a {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Actualizarea semnăturilor {{Signaturetype}} de pe paginile documentului - Demo live",
+    "content": "Editați diverse semnături electronice ale documentului {{Fileformat}} chiar acum, vizitând site-ul web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Actualizați diferite semnături {{Signaturetype}} prin {{ProgLang}}",
+    "content": "Editarea semnăturilor digitale care sunt plasate în diferite formate de documente. Actualizați datele despre semnături fără cod suplimentar."
+  }
+}

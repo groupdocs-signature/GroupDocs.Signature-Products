@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Excluir assinaturas {{Signaturetype}} de arquivos {{Fileformat}} via {{ProgLang}}",
+    "meta_description": "A exclusão de assinaturas {{Signaturetype}} específicas de documentos {{Fileformat}} assinados pode ser realizada facilmente com o código curto {{ProductName}}.",
+    "h1": "Remova as assinaturas {{Signaturetype}} que são colocadas em arquivos {{Fileformat}}",
+    "h2": "Exclua várias assinaturas {{Signaturetype}} de documentos {{Fileformat}}. A remoção de assinaturas {{Signaturetype}} requer um código {{ProgLang}} simples."
+  },
+  "about": {
+    "title": "Obtenha informações sobre os recursos da API {{ProductFullName}}",
+    "content": "A API [{{ProductFullName}}]({{ProductUrl}}) oferece várias maneiras de processar seus documentos usando assinaturas eletrônicas. Assinaturas digitais como textos, imagens, certificados digitais, códigos de barras, códigos QR, carimbos ou metadados estão disponíveis. Os clientes têm a possibilidade de adicionar, excluir, atualizar, verificar ou pesquisar assinaturas digitais em PDFs, documentos MS Word, pastas de trabalho MS Excel, apresentações MS PowerPoint, arquivos Adobe Photoshop e vários formatos de imagem. Um grande número de recursos e configurações úteis são fornecidos."
+  },
+  "steps": {
+    "title_left": "Como remover assinaturas {{Signaturetype}} do seu documento {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) fornece um recurso útil para limpar documentos {{Fileformat}} de assinaturas {{Signaturetype}} com algumas linhas de código.",
+      "step_1": "Em primeiro lugar, instancie o objeto Signature passando o caminho para o seu documento como um parâmetro do construtor.",
+      "step_2": "Em seguida, crie um objeto de assinatura apropriado e configure seu identificador exclusivo.",
+      "step_3": "Depois disso, invoque o método Delete passando o objeto de assinatura que deve ser excluído.",
+      "step_4": "Finalmente, os resultados da operação do processo."
+    },
+    "title_right": "Requisitos de sistema",
+    "content_right": {
+      "description": "{{ProductFullName}} são compatíveis com todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.",
+      "step_1": "Sistemas operacionais: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambientes de desenvolvimento: {{DevEnv}}",
+      "step_3": "Faça o download da versão mais recente do {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Assinar com assinaturas {{Signaturetype}} Demonstração ao vivo",
+    "content": "Adicione várias assinaturas eletrônicas ao arquivo {{Fileformat}} agora mesmo visitando o site [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Exclua suas assinaturas {{Signaturetype}} com {{ProgLang}}",
+    "content": "Exclusão de assinaturas eletrônicas que foram adicionadas a vários formatos de documentos. Remova assinaturas rapidamente sem código extra."
+  }
+}

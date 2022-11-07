@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Li {{Signaturetype}} îmzeyan di pela {{Fileformat}} de di {{ProgLang}} de bigerin",
+    "meta_description": "{{ProductName}} ji bo lêgerîna îmzeyên {{Signaturetype}} di pelên {{Fileformat}} de bi karanîna çend rêzikên kodê bikar bînin.",
+    "h1": "Di pela {{Fileformat}} de li îmzeyên {{Signaturetype}} bigerin",
+    "h2": "API-ya xwecihî ya {{ProductName}} destûrê dide ku meriv di pelên {{Fileformat}} yên jixwe îmzekirî de li îmzeyên {{Signaturetype}} bigere. Lêgerîna pêşkeftî ya e-îmzayê di nav belgeyên xwe yên {{Fileformat}} de bi karanîna çend rêzikên kodê pêk bînin."
+  },
+  "about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-ya {{ProductName}} peyda dike ji bo ku belgeyan bi kar anîna cûrbecûr cûrbecûr îmzeyan wekî nivîs, wêne, sertîfîkayên dîjîtal, barkod, QR-kod, mor an metadata bi kar tîne. Bikarhêner dikarin di nav PDF, belgeyên MS Word, pirtûkên xebatê yên MS Excel, pêşandanên MS PowerPoint, pelên Adobe Photoshop û cûrbecûr formên wêneyan de, bi piştgirîyek zêde ji bo xweşkirina taybetmendiyên îmzeyan li gorî hewcedariyê zêde bikin, jêbikin, nûve bikin, verast bikin an bigerin."
+  },
+  "steps": {
+    "title_left": "Meriv çawa li îmzeyên {{Signaturetype}} di {{Fileformat}} de digere",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ji pêşdebirên {{ProductName}} re hêsantir dike ku bi pêkanîna çend gavên hêsan li {{Signaturetype}} di pelên {{Fileformat}} îmzeyan de ji sepanên xwe bigerin.",
+      "step_1": "Nimûneyek nû ya çîna Îmzeyê biafirînin û riya belgeya çavkaniyê wekî parametreyek çêker derbas bikin.",
+      "step_2": "Tişta Vebijêrkên Lêgerînê li gorî daxwazên xwe destnîşan bikin û vebijarkên lêgerînê diyar bikin.",
+      "step_3": "Rêbaza Lêgerînê ya mînaka pola Îmzeyê bang bikin û Vebijarkên Lêgerînê jê re derbas bikin.",
+      "step_4": "Encamên lêgerînê li gorî daxwazên xwe pêvajoyê bikin."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "{{ProductFullName}} li ser hemî platform û pergalên xebitandinê yên sereke têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, ji kerema xwe pê ewle bibin ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Guhertoya herî dawî ya {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) dakêşîne"
+    }
+  },
+  "demos": {
+    "title": "Li {{Signaturetype}} îmzeyên elektronîkî Demoya Zindî bigerin",
+    "content": "Niha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) di belgeyê de ji bo îmzeyên elektronîkî yên cihêreng ên pelên {{Fileformat}} bigerin."
+  },
+  "more_formats": {
+    "title": "Li îmzeyên din ên {{Signaturetype}} bi karanîna {{ProgLang}} bigerin",
+    "content": "Îmzeyên elektronîkî di belgeyên cihêreng de digerin. Wekî ku li jêr tê xuyang kirin, ji yek ji formatên pelê yên populer îmzeyan bibînin."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "{{Fileformat}} dosyaları için {{Signaturetype}} imzalarının {{ProgLang}} aracılığıyla doğrulanması",
+    "meta_description": "{{Fileformat}} belgelerini ve bunların {{Signaturetype}} imzalarını doğrulamak için yalnızca birkaç satır {{ProductName}} kodu kullanın.",
+    "h1": "{{Fileformat}} dosyaları için {{Signaturetype}} imza doğrulaması",
+    "h2": "{{ProductName}} için API, {{Fileformat}} belgelerinde {{Signaturetype}} imzalarını doğrulama fırsatı sunar. {{Fileformat}} belgelerinizdeki e-imzaların doğrulanması hızlı ve kolay bir şekilde gerçekleştirilebilir."
+  },
+  "about": {
+    "title": "Yeni {{ProductFullName}} API özelliklerini keşfedin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API, elektronik imzalar kullanarak çok sayıda belge biçimini işlemek için çok çeşitli yollar sunar. Metinler, resimler, dijital sertifikalar, barkodlar, QR kodları, damgalar veya meta veriler gibi birçok dijital imza türü desteklenir. Müşteriler, PDF'lerde, MS Word belgelerinde, MS Excel çalışma kitaplarında, MS PowerPoint sunumlarında, Adobe Photoshop dosyalarında ve çeşitli görüntü formatlarında dijital imza ekleyebilir, kaldırabilir, düzenleyebilir, doğrulayabilir veya arayabilir. Şaşırtıcı sayıda ek özellik ve ayar mevcuttur."
+  },
+  "steps": {
+    "title_left": "{{Fileformat}} belgenizdeki {{Signaturetype}} imzalarını nasıl doğrularsınız?",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}), {{Fileformat}} belgelerine yerleştirilen {{Signaturetype}} imzalarının doğrulanması gibi faydalı özellikler içerir. Ekstra kod uygulamadan bu fırsatı kullanın.",
+      "step_1": "İlk olarak, doğrulanması gereken bir belgeye yapıcı parametre yolu sağlayan Signature sınıfını örnekleyin.",
+      "step_2": "İkinci olarak, yeni bir VerifyOptions nesnesi oluşturun ve gerekli tüm özellikleri ayarlayın.",
+      "step_3": "Son olarak, VerifyOptions örneğini geçen Signature'ın nesne Verify yöntemini çağırın.",
+      "step_4": "Ardından doğrulama sonuçlarını işleyin."
+    },
+    "title_right": "sistem gereksinimleri",
+    "content_right": {
+      "description": "{{ProductFullName}}, tüm büyük platformlarda ve işletim sistemlerinde desteklenir. Aşağıdaki kodu çalıştırmadan önce lütfen aşağıdaki ön koşulların sisteminizde kurulu olduğundan emin olun.",
+      "step_1": "İşletim sistemleri: Microsoft Windows, Linux, MacOS",
+      "step_2": "Geliştirme ortamları: {{DevEnv}}",
+      "step_3": "{{ProductFullName}} ürününün en son sürümünü [{{RepoName}}}]({{RepoUrl}}) adresinden indirin"
+    }
+  },
+  "demos": {
+    "title": "{{Signaturetype}} imzalarıyla imzalama Canlı Demo",
+    "content": "Hemen şimdi [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web sitesini ziyaret ederek {{Fileformat}} dosyasına çeşitli elektronik imzalar ekleyin."
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} kullanarak diğer {{Signaturetype}} imzalarını doğrulayın",
+    "content": "Çeşitli belgelere yerleştirilen elektronik imzaların doğrulanması. Aşağıda açıklandığı gibi popüler dosya formatlarındaki imzaların kalitesini kontrol edin."
+  }
+}
