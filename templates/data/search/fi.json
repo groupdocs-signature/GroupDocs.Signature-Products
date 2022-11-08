@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Etsi {{Signaturetype}} allekirjoituksia {{Fileformat}}-tiedostosta {{ProgLang}}",
+    "meta_description": "Käytä {{ProductName}}:a etsiäksesi {{Signaturetype}}-allekirjoituksia {{Fileformat}}-tiedostoista muutamalla koodirivillä.",
+    "h1": "Etsi {{Signaturetype}} allekirjoituksia {{Fileformat}}-tiedostosta",
+    "h2": "{{ProductName}}-natiivisovellusliittymä mahdollistaa {{Signaturetype}}-allekirjoitusten etsimisen jo allekirjoitetuista {{Fileformat}}-tiedostoista. Suorita laajennettu sähköinen allekirjoitushaku {{Fileformat}}-asiakirjoissasi muutaman koodirivin avulla."
+  },
+  "about": {
+    "title": "Tietoja {{ProductFullName}} API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa {{ProductName}}-sovellusliittymän asiakirjojen käsittelyyn käyttämällä erilaisia ​​allekirjoitustyyppejä, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja. Käyttäjät voivat lisätä, poistaa, päivittää, tarkistaa tai etsiä sähköisiä allekirjoituksia PDF-tiedostoista, MS Word -asiakirjoista, MS Excel -työkirjoista, MS PowerPoint -esityksistä, Adobe Photoshop -tiedostoista ja erilaisista kuvaformaateista, ja allekirjoitusten ominaisuuksien mukauttamiseen tarvitaan lisätukea."
+  },
+  "steps": {
+    "title_left": "Allekirjoitusten {{Signaturetype}} etsiminen tiedostomuodossa {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) helpottaa {{ProductName}}-kehittäjien etsimistä {{Signaturetype}}-allekirjoituksista {{Fileformat}}-tiedostoista sovelluksistaan ​​toteuttamalla muutaman helpon vaiheen.",
+      "step_1": "Luo uusi Signature-luokan esiintymä ja anna lähdedokumentin polku rakentajaparametriksi.",
+      "step_2": "Instantoi SearchOptions-objekti tarpeidesi mukaan ja määritä hakuasetukset.",
+      "step_3": "Kutsu Signature-luokan ilmentymän hakumenetelmä ja välitä sille SearchOptions.",
+      "step_4": "Käsittele hakutulokset tarpeidesi mukaan."
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "{{ProductFullName}} on tuettu kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Lataa tuotteen {{ProductFullName}} uusin versio osoitteesta [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Etsi {{Signaturetype}} sähköisiä allekirjoituksia Live Demo",
+    "content": "Etsi asiakirjasta erilaisia ​​sähköisiä allekirjoituksia {{Fileformat}}-tiedostoille juuri nyt käymällä [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) -sivustolla."
+  },
+  "more_formats": {
+    "title": "Etsi muita {{Signaturetype}} allekirjoituksia käyttämällä {{ProgLang}}",
+    "content": "Sähköiset allekirjoitukset hakevat eri asiakirjoista. Etsi allekirjoituksia yhdestä suosituista tiedostomuodoista alla olevan kuvan mukaisesti."
+  }
+}

@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Docm for Java
 
 ############################# Head ############################
 head_title: "eSign Docm document met Code39 Barcode in Java"
-head_description: "Maak Code39 Barcode Signature en plaats deze op Docm document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code39 Barcode Signature en plaats deze op het Docm document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code39 Barcode handtekening voor Docm document in Java"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Docm-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Docm-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Docm-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Nuashonraigh {{Signaturetype}} sínithe atá curtha i gcomhad {{Fileformat}} le {{ProgLang}}",
+    "meta_description": "Úsáid cód {{ProductName}} atá simplí agus éasca le tuiscint le haghaidh nuashonruithe sínithe {{Signaturetype}} i ndoiciméid sínithe {{Fileformat}}.",
+    "h1": "Cuir in eagar agus nuashonraigh {{Signaturetype}} sínithe atá curtha ag comhaid {{Fileformat}}",
+    "h2": "Soláthraíonn API le haghaidh {{ProductName}} feidhmiúlacht le haghaidh sínithe {{Signaturetype}} nuashonraithe ag {{Fileformat}} doiciméad. Nuashonraigh ríomhshínithe taobh istigh de do dhoiciméid {{Fileformat}} le cúpla líne de chód {{ProgLang}} go tapa agus go héasca."
+  },
+  "about": {
+    "title": "Faigh amach faoi ghnéithe API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) Tá rogha leathan bealaí le próiseáil i bhformáidí doiciméid éilimh trí úsáid a bhaint as sínithe leictreonacha i bhfeidhmiúlacht API. Tacaítear le speictream leathan ríomhshínithe amhail téacsanna, íomhánna, deimhnithe digiteacha, barrachóid, cóid QR, stampaí nó meiteashonraí. Is féidir le custaiméirí sínithe digiteacha a chur leis, a bhaint, a chur in eagar, a bhailíochtú nó a chuardach ag comhaid PDF, doiciméid MS Word, leabhair oibre MS Excel, láithreoireachtaí MS PowerPoint, comhaid Adobe Photoshop agus formáidí éagsúla íomhá. Tá go leor gnéithe agus socruithe úsáideacha ar fáil."
+  },
+  "steps": {
+    "title_left": "Conas {{Signaturetype}} sínithe a athrú i do dhoiciméad {{Fileformat}}",
+    "content_left": {
+      "description": "Cuimsíonn [{{ProductFullName}}]({{ProductUrl}}) gnéithe úsáideacha amhail nuashonrú ar {{Signaturetype}} sínithe a cuireadh i ndoiciméid {{Fileformat}}. Is féidir gnéithe sínithe a athrú gan cód breise.",
+      "step_1": "Ar dtús, cruthaigh réad Síniú ag dul mar chonair paraiméadar cruthaitheoir chuig doiciméad atá le nuashonrú.",
+      "step_2": "Ansin, cuir réad sínithe cuí ar an toirt ar an toirt agus socraigh a aitheantóir agus a airíonna nach mór a athrú.",
+      "step_3": "Ar deireadh, cuir glaoch ar an modh Nuashonraithe Signature chun réad sínithe ar leith a rith.",
+      "step_4": "Próiseáil na torthaí a nuashonrú le d'fhógra."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "Tacaítear le {{ProductFullName}} ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí forbartha: {{DevEnv}}",
+      "step_3": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Na sínithe {{Signaturetype}} ar leathanaigh na doiciméid a nuashonrú - Taispeántas Beo",
+    "content": "Cuir sínithe leictreonacha éagsúla den doiciméad {{Fileformat}} in eagar faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Nuashonraigh sínithe {{Signaturetype}} éagsúla trí {{ProgLang}}",
+    "content": "Sínithe digiteacha a chur in eagar a chuirtear i bhformáidí éagsúla doiciméad. Nuashonraigh sonraí sínithe gan cód breise."
+  }
+}

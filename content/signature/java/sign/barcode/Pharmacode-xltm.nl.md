@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Xltm for Java
 
 ############################# Head ############################
 head_title: "eSign Xltm document met Pharmacode Barcode in Java"
-head_description: "Maak Pharmacode Barcode Signature en plaats deze op Xltm document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Pharmacode Barcode Signature en plaats deze op het Xltm document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Pharmacode Barcode handtekening voor Xltm document in Java"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Xltm-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Xltm-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Xltm-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} -asiakirja {{Codetype}}-viivakoodilla {{ProgLang}}",
+    "meta_description": "Luo {{Codetype}} Viivakoodiallekirjoitus ja laita se {{Fileformat}}-asiakirjaan, jossa on {{ProductName}} muutamalla rivillä koodia. Käytä GroupDocs Document Signature API:ta eri tiedostomuotojen allekirjoittamiseen.",
+    "h1": "Luo {{Codetype}} viivakoodiallekirjoitus asiakirjalle {{Fileformat}} ohjelmassa {{ProgLang}}",
+    "h2": "eAllekirjoita {{Fileformat}} yritysasiakirjasi {{Codetype}}-viivakoodilla. Luo viivakoodiallekirjoitus nopeasti ja helposti muutamalla koodirivillä allekirjoitusvaihtoehtojen määrittämiseksi."
+  },
+  "digital-content": {
+    "meta_title": "Digitaalisten sähköisten allekirjoitusten lisääminen tiedostoon {{Fileformat}} ohjelmalla {{ProgLang}}",
+    "meta_description": "Aseta digitaalinen allekirjoitus {{Fileformat}}-tiedostoon {{ProductName}} käyttämällä muutamaa koodiriviä. Käytä GroupDocs Document Signature API allekirjoittaaksesi kymmeniä tiedostomuotoja.",
+    "h1": "eSign {{Fileformat}} tiedostot {{Signaturetype}} allekirjoituksella {{ProgLang}}",
+    "h2": "Allekirjoituksen {{Signaturetype}} lisääminen muutamalla rivillä {{ProductName}}-koodia"
+  },
+  "image-content": {
+    "meta_title": "Allekirjoitusten {{Signaturetype}} lisääminen tiedostoon {{Fileformat}} ohjelmalla {{ProgLang}}",
+    "meta_description": "Aseta {{Signaturetype}} Allekirjoitus {{Fileformat}}-tiedostoon {{ProductName}} käyttämällä muutamaa koodiriviä. Käytä GroupDocs Document Signature API allekirjoittaaksesi kymmeniä tiedostomuotoja.",
+    "h1": "Allekirjoita {{Fileformat}} tiedostot {{Signaturetype}} allekirjoituksilla {{ProgLang}}",
+    "h2": "Kuinka lisätä {{Signaturetype}}-allekirjoitus, jossa on muutama rivi {{ProductName}}-koodia"
+  },
+  "metadata-content": {
+    "meta_title": "Liitä metatietojen sähköiset allekirjoitukset {{Fileformat}}-asiakirjoihin {{ProgLang}}:n kautta",
+    "meta_description": "Käytä metatietoja piilotettuina sähköisinä allekirjoituksina {{Fileformat}}-asiakirjoissasi käyttämällä pari riviä {{ProgLang}}-koodia. Käytä GroupDocs Document Signature API:ta yrityksesi dokumenttien ja tiedostojen sähköiseen allekirjoittamiseen metatietotiedoilla.",
+    "h1": "Metatietojen sähköiset allekirjoitukset asiakirjalle {{Fileformat}} tuotteen {{ProductName}} kautta ovat yksinkertaisia ​​ja helppokäyttöisiä!",
+    "h2": "eAllekirjoita {{Fileformat}} asiakirjasi ja sopimuksi piilotetuilla metatietomerkinnöillä. Luo metatietoja PDF-tiedostoille, MS Word -asiakirjoille, MS Excel -työkirjoille, MS PowerPoint -esityksille ja erilaisille kuvamuodoille ilman ongelmia ja ylimääräistä koodausta."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} -asiakirja {{Codetype}} QR-koodilla {{ProgLang}}",
+    "meta_description": "Luo QR-koodi {{Codetype}} ja laita se {{Fileformat}}-tiedostoon käyttämällä {{ProductName}} lyhyttä {{ProgLang}}-koodia. Käytä GroupDocs Document Signature APIa yrityksesi asiakirjat ja tiedostot sähköiseen allekirjoitukseen QR-koodilla.",
+    "h1": "Luo {{Codetype}} QR-koodiallekirjoitus asiakirjalle {{Fileformat}} kohteessa {{ProgLang}}",
+    "h2": "eAllekirjoita {{Fileformat}}-asiakirjat ja sopimukset QR-koodilla {{Codetype}}. Luo QR-koodin allekirjoitus nopeasti ja helposti."
+  },
+  "text-content": {
+    "meta_title": "Luo teksti-sähköiset allekirjoitukset tiedostoon {{Fileformat}} käyttämällä {{ProgLang}}",
+    "meta_description": "Aseta {{Signaturetype}} eSignature {{Fileformat}}-tiedostoon {{ProductName}} käyttämällä muutamaa koodiriviä. Käytä GroupDocs Document Signature API allekirjoittaaksesi kymmeniä tiedostomuotoja.",
+    "h1": "Allekirjoita {{Fileformat}} tiedostot {{Signaturetype}} allekirjoituksilla {{ProgLang}}",
+    "h2": "Kuinka lisätä {{Signaturetype}}-allekirjoitus, jossa on muutama rivi {{ProductName}}-koodia"
+  },
+  "barcode-about": {
+    "title": "Tietoja {{ProductFullName}} Viivakoodin allekirjoitusten sovellusliittymästä.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on nopea ja helppo sovellusliittymä digitaalisten asiakirjojen sähköiseen allekirjoittamiseen käyttämällä viivakoodityyppejä, kuten UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 ja monet muut. Asiakkaat voivat luoda helposti tarvittavan tekstin sisältäviä viivakoodeja ja laittaa ne PDF-tiedostoihin, Microsoft Office Words -asiakirjoihin, Microsoft Office Excel -työkirjoihin, MS PowerPoint -esityksiin, Adobe Photoshop -tiedostoihin ja erilaisiin kuvamuotoihin. Asiakirjoihin sijoitettuja viivakoodeja voidaan päivittää, etsiä, tarkistaa, poistaa tai esikatsella joko. Lisäksi viivakoodien räätälöintiä tuetaan."
+  },
+  "digital-about": {
+    "title": "Tietoja digitaalisten allekirjoitusten sovellusliittymästä {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on suosittu sovellusliittymä asiakirjojen allekirjoittamiseen digitaalisilla sähköisillä allekirjoituksilla ja digitaalisilla varmenteilla. Digitaalisten allekirjoitusten API käyttää PFX-sertifikaattitiedostoja asiakirjan allekirjoittamiseen salasanalla suojatuilla yksityisillä ja julkisilla avaimilla. Digitaalisia allekirjoituksia voidaan käyttää sertifioimaan yritysasiakirjoja tietyllä eSign PDF -sivulla, sertifioimaan kokonaisia ​​Microsoft Office -asiakirjoja, kuten Words-, Excel-, Powerpoint-tiedostoja ja Open Office -asiakirjoja. Asiakkaat voivat helposti muokata allekirjoituksia, kuten muokata niitä, poistaa tai säätää. API tarjoaa tavan etsiä ja vahvistaa allekirjoituksia. Lisäksi tarjolla on paljon mahdollisuuksia allekirjoitusten mukauttamiseen."
+  },
+  "image-about": {
+    "title": "Tietoja {{ProductFullName}} Image signatures API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on suosittu sovellusliittymä digitaalisten asiakirjojen sähköiseen allekirjoittamiseen. Saatavilla on allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja. Allekirjoituksia voidaan sijoittaa PDF-tiedostoihin, MS Word -asiakirjoihin, MS Excel -työkirjoihin, MS PowerPoint -esityksiin, Adobe Photoshop -tiedostoihin ja erilaisiin kuvamuotoihin. Asiakkaat voivat allekirjoittaa asiakirjansa ja päivittää, etsiä, tarkistaa, poistaa tai esikatsella asiakirjoihin lisättyjä sähköisiä allekirjoituksia. Lisäksi tarjolla on paljon mahdollisuuksia allekirjoitusten mukauttamiseen."
+  },
+  "metadata-about": {
+    "title": "Tietoja {{ProductFullName}} Metadata Signatures API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on suosittu sovellusliittymä digitaalisten asiakirjojen sähköiseen allekirjoittamiseen. Saatavilla on allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja. Allekirjoituksia voidaan sijoittaa PDF-tiedostoihin, MS Word -asiakirjoihin, MS Excel -työkirjoihin, MS PowerPoint -esityksiin, Adobe Photoshop -tiedostoihin ja erilaisiin kuvamuotoihin. Asiakkaat voivat allekirjoittaa asiakirjansa ja päivittää, etsiä, tarkistaa, poistaa tai esikatsella asiakirjoihin lisättyjä sähköisiä allekirjoituksia. Lisäksi tarjolla on paljon mahdollisuuksia allekirjoitusten mukauttamiseen."
+  },
+  "qrcode-about": {
+    "title": "Tietoja {{ProductFullName}} QR Code Signatures API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on kypsä sovellusliittymä, jonka avulla voit luoda ja luoda QR-koodiallekirjoituksia asiakirjoille. Käyttäjät voivat luoda QR-koodiallekirjoituksia, jotka sisältävät tekstiä ladatakseen sen tai jakaakseen sen kuvana sosiaalisessa mediassa. Allekirjoitettu asiakirja voidaan skannata API:lla tai yksinkertaisesti mobiilikameran yli! Allekirjoita yrityksesi sopimukset ja viralliset asiakirjat sähköisesti lisäämällä QR-koodiallekirjoitus ja muokkaa sitä. Kaikki QR-koodin allekirjoitukset sisältävät yksilöllisiä mukautettuja tietoja allekirjoittajan tunnistamiseksi tai asiakirjan valtuuttamiseksi. Lisäksi QR-koodin sisältö voidaan salata ja purkaa henkilökohtaisilla avaimilla ohjelmallisesti. Tämä avaa monia mahdollisuuksia jakaa arkaluontoisia tietoja julkisten asiakirjojen sisällä. Allekirjoituksen jälkeen käyttäjä voi päivittää, tarkistaa, poistaa, esikatsella tai etsiä QR-koodeja PDF-tiedostoista, MS Word -asiakirjoista, MS Excel -työkirjoista, MS PowerPoint -esityksistä, Adobe Photoshop -tiedostoista ja erilaisista kuvamuodoista. QR-koodeja voidaan lisäksi muokata."
+  },
+  "text-about": {
+    "title": "Tietoja {{ProductFullName}} API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on suosittu sovellusliittymä digitaalisten asiakirjojen sähköiseen allekirjoittamiseen. Saatavilla on allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja. Allekirjoituksia voidaan sijoittaa PDF-tiedostoihin, MS Word -asiakirjoihin, MS Excel -työkirjoihin, MS PowerPoint -esityksiin, Adobe Photoshop -tiedostoihin ja erilaisiin kuvamuotoihin. Asiakkaat voivat allekirjoittaa asiakirjansa ja päivittää, etsiä, tarkistaa, poistaa tai esikatsella asiakirjoihin lisättyjä sähköisiä allekirjoituksia. Lisäksi tarjolla on paljon mahdollisuuksia allekirjoitusten mukauttamiseen."
+  },
+  "system-requirements": {
+    "title": "Laitteistovaatimukset",
+    "content": {
+      "description": "{{ProductFullName}} on tuettu kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Hanki uusin {{ProductFullName}} käyttäjältä [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "digital-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "image-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "metadata-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "text-steps": {
+    "title": "Vaiheet {{Fileformat}}:n allekirjoittamiseen {{Signaturetype}} -sovelluksella {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa mahdollisuuden allekirjoittaa {{Fileformat}}-asiakirjoja {{Signaturetype}}-allekirjoituksella nopeasti ja helposti.",
+      "step_1": "Luo Signature-luokan ilmentymä, joka tarjoaa {{Fileformat}}-tiedoston, joka on tarkoitus allekirjoittaa polkuna tai muistivirtana",
+      "step_2": "Luo SignOptions-luokka ja aseta kaikki vaaditut tiedot.",
+      "step_3": "Kutsu Signature.Sign() -menetelmä, joka välittää {{Fileformat}} -tiedoston tai muistivirran"
+    }
+  },
+  "demos": {
+    "title": "Allekirjoitetaan {{Fileformat}} asiakirjoja {{Signaturetype}} Live-demolla",
+    "content": "Allekirjoita {{Fileformat}}-tiedosto useilla allekirjoituksilla heti käymällä [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) -sivustolla. Ilmainen online-demo odottaa sinua."
+  },
+  "more_formats": {
+    "title": "Muut tuetut {{Signaturetype}} allekirjoitukset ohjelmalle {{ProgLang}}",
+    "content": "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Universaali tuotekoodi on viivakoodisymboliikka, jota käytetään laajasti maailmanlaajuisesti myymälöissä olevien tuotteiden seuraamiseen.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "Täsmälleen 11 numeroa + 1 tarkistusnumero."
+    },
+    "UPCE": {
+      "details": "Universaali tuotekoodi on viivakoodisymboliikka, jota käytetään laajasti maailmanlaajuisesti myymälöissä olevien tuotteiden seuraamiseen. UPCE on 8-numeroinen muunnelma, jos UPC.",
+      "characterset": "Tukee vain numeerisia numeroita (0-9).",
+      "codetextcapacity": "Kooditekstin kapasiteetti: täsmälleen 7 numeroa + 1 tarkistusnumero."
+    },
+    "EAN13": {
+      "details": "Yleisimmin käytetty EAN-standardi on 13-numeroinen EAN-13, joka on alkuperäisen 12-numeroisen Universal Product Code -standardin superjoukko.",
+      "characterset": "Vain numeeriset numerot (0-9).",
+      "codetextcapacity": "Kooditekstin kapasiteetti: täsmälleen 12 numeroa + 1 tarkistusnumero."
+    },
+    "EAN14": {
+      "details": "Eurooppalainen artikkelinumero tai EAN on standardi, joka kuvaa viivakoodisymboliaa ja numerointijärjestelmää, jota käytetään maailmanlaajuisessa kaupassa tietyn valmistajan tietyn vähittäismyyntituotetyypin tunnistamiseen tietyssä pakkauskokoonpanossa.",
+      "characterset": "Numerot (0-9) ja erikoismerkit.",
+      "codetextcapacity": "Täsmälleen 14 numeroa."
+    },
+    "Code39": {
+      "details": "Koodi 39 (tunnetaan myös nimellä Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 tai USD-3) on muuttuvapituinen, erillinen viivakoodisymboliikka.",
+      "characterset": "Numerot (0-9) ja isot kirjaimet (A-Z) ja joukko erikoismerkkejä (-, ., $, /, +, % ja välilyönti).",
+      "codetextcapacity": "Ei erityisiä rajoituksia."
+    },
+    "Code39Extended": {
+      "details": "Koodi 39 (tunnetaan myös nimellä Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39 tai USD-3) on muuttuvapituinen, erillinen viivakoodisymboliikka.",
+      "characterset": "Merkistö: kaikki 128 ASCII-merkkiä.",
+      "codetextcapacity": "Ei erityisiä rajoituksia."
+    },
+    "Code128": {
+      "details": "Koodi 128 on suuritiheyksinen lineaarinen viivakoodisymboliikka, joka on määritelty standardissa ISO/IEC 15417:2007. Sitä käytetään aakkosnumeerisissa tai vain numeerisissa viivakoodeissa.",
+      "characterset": "Kaikki 128 ASCII-merkkiä.",
+      "codetextcapacity": "Ei erityisiä rajoituksia."
+    },
+    "Codabar": {
+      "details": "Codabar on lineaarinen viivakoodisymboliikka, joka on suunniteltu luettavaksi tarkasti myös silloin, kun se tulostetaan pistematriisitulostimilla moniosaisille lomakkeille, kuten FedEx-lentolaitteille ja veripankkilomakkeille.",
+      "characterset": "Numerot (0-9) ja erikoismerkit $/-:+.",
+      "codetextcapacity": "Ei erityisiä rajoituksia."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) on viivakoodisymboliikka, jota Yhdysvaltain postipalvelu käyttää postin ohjaamiseen.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "Enintään 11 ​​merkkiä."
+    },
+    "ISBN": {
+      "details": "ISBN (International Standard Book Number) on kaupallisten kirjojen numeerinen tunniste, jonka on tarkoitus olla yksilöllinen.[a][b] Kustantajat ostavat ISBN-numeroita kansainvälisen ISBN-toimiston tytäryhtiöltä.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "Täsmälleen 9 numeroa + 1 tarkistusnumero."
+    },
+    "ITF14": {
+      "details": "ITF-14 on Interleaved 2 of 5 (ITF) -viivakoodin GS1-toteutus globaalin kauppanumeron koodaamiseksi.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "13 numeroa + 1 tarkistusnumero."
+    },
+    "Pdf417": {
+      "details": "PDF417 on pinottu lineaarinen viivakoodimuoto, jota käytetään useissa sovelluksissa, kuten kuljetuksessa, henkilökorteissa ja varastonhallinnassa.",
+      "characterset": "Kaikki 256 ASCII-merkkiä.",
+      "codetextcapacity": "Enintään 800 merkkiä."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) on jatkuva kahden leveyden viivakoodisymboliikkakoodaus numeroita. Sitä käytetään kaupallisesti 135-kalvoon, ITF-14-viivakoodeihin ja joidenkin tuotteiden laatikoihin, kun taas sisällä olevat tuotteet on merkitty UPC- tai EAN-merkinnöillä.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "Vaihteleva pituus."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, joka tunnetaan myös nimellä Pharmaceutical Binary Code, on viivakoodistandardi, jota käytetään lääketeollisuudessa pakkausten valvontajärjestelmänä.",
+      "characterset": "Numeeriset numerot (0-9).",
+      "codetextcapacity": "Edustaa vain yhtä kokonaislukua väliltä 3 - 131070."
+    },
+    "Aztec": {
+      "details": "Aztec Code on kaksiulotteinen (2-D) yleiskäyttöinen matriisisymboliikka, jonka tarkkuus on suurempi kuin muilla 2-D-symbolioilla. Aztec Code -symboli voi koodata jopa 3 832 numeroa; 3 067 aakkosmerkkiä; tai 1 914 tavua tietoa.",
+      "characterset": "Kaikki 256 ASCII-merkkiä.",
+      "codetextcapacity": "Enintään 3 832 numeerista numeroa tai 3 067 aakkosmerkkiä tai 1 914 tavua tietoa."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix on kaksiulotteinen koodi, joka koostuu mustista ja valkoisista \"soluista\" tai pisteistä, jotka on järjestetty joko neliön tai suorakaiteen muotoiseksi kuvioksi, joka tunnetaan myös matriisina. Koodattava tieto voi olla tekstiä tai numeerista tietoa.",
+      "characterset": "Tukee kaikkia 256 ASCII-merkkiä, kaikkia ISO-merkkejä ja kaikkia Extended Binary Coded Decimal Interchange Code (EBCDIC) -merkkejä.",
+      "codetextcapacity": "Enintään 3116 numeerista numeroa tai 2335 aakkosnumeerista merkkiä tai 1556 binaarimerkkiä."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix on Data Matrixin muunnos, joka on GS1-spesifikaatioiden mukainen. Käytä GS1 DataMatrixia koodataksesi tiedot, kuten, mutta ei rajoittuen, seuraavat tiedot: AI(01) Global Trade Item Number (GTIN), AI(17) Viimeinen voimassaolopäivä, AI(10) Eränumero, AI(21) Sarjanumero .",
+      "characterset": "Merkistö: isot ja pienet kirjaimet ja erikoismerkit $@%*+-./:=<>;&*_,'! kaikilla oikeilla sovellustunnisteilla.",
+      "codetextcapacity": "Kooditekstin kapasiteetti: jopa 3116 numeerista numeroa tai 2335 aakkosnumeerista merkkiä."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code on QR-koodin muunnos, joka on GS1-spesifikaatioiden mukainen. Se on suunniteltu erityisesti laajennettujen pakkaustietojen, kuten eränumeron, tuotetunnuksen ja määrän jakamiseen.",
+      "characterset": "Isot ja pienet kirjaimet ja erikoismerkit $%*+-./: kaikki oikeilla sovellustunnisteilla",
+      "codetextcapacity": "Enintään 7089 numeerista merkkiä, 4296 aakkosnumeerista merkkiä"
+    },
+    "QR": {
+      "details": "QR Code (lyhenne sanoista Quick Response Code) on tavaramerkki matriisiviivakoodille (tai kaksiulotteiselle viivakoodille). Se on suosituin ja laajimmin käytetty kaksiulotteisen koodin tyyppi. Käytännössä QR-koodit sisältävät usein tietoja paikantimelle, tunnisteelle tai seurantaohjelmalle, joka osoittaa verkkosivustolle tai sovellukseen.",
+      "characterset": "Kaikki 256 ASCII-merkkiä + Kanji",
+      "codetextcapacity": "Enintään 7089 numeerista merkkiä, 4296 aakkosnumeerista merkkiä, 2953 tavua (binääridata) tai 1817 kanji-merkkiä."
+    }
+  }
+}

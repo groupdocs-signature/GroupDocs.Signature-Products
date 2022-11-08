@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Scrios {{Signaturetype}} sínithe ó chomhaid {{Fileformat}} trí {{ProgLang}}",
+    "meta_description": "Seans go ndéanfaí scriosadh sínithe {{Signaturetype}} ar leith ó dhoiciméid shínithe {{Fileformat}} le cód gearr {{ProductName}}.",
+    "h1": "Bain {{Signaturetype}} sínithe a chuirtear i gcomhaid {{Fileformat}}",
+    "h2": "Scrios {{Signaturetype}} sínithe éagsúla ó {{Fileformat}} doiciméid. Teastaíonn cód simplí {{ProgLang}} chun sínithe {{Signaturetype}} a bhaint."
+  },
+  "about": {
+    "title": "Faigh faisnéis faoi ghnéithe API {{ProductFullName}}",
+    "content": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) API go leor bealaí chun do dhoiciméid a phróiseáil le sínithe leictreonacha. Tá sínithe digiteacha amhail téacsanna, íomhánna, teastais dhigiteacha, barrachóid, cóid QR, stampaí nó meiteashonraí ar fáil. Féadfaidh custaiméirí sínithe digiteacha a chur leis, a scriosadh, a nuashonrú, a fhíorú nó a chuardach ag PDFs, doiciméid MS Word, leabhair oibre MS Excel, láithreoireachtaí MS PowerPoint, comhaid Adobe Photoshop agus formáidí éagsúla íomhá. Soláthraítear líon mór gnéithe agus socruithe úsáideacha."
+  },
+  "steps": {
+    "title_left": "Conas {{Signaturetype}} sínithe a bhaint de do dhoiciméad {{Fileformat}}",
+    "content_left": {
+      "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) gné úsáideach chun {{Fileformat}} doiciméad de {{Signaturetype}} sínithe a ghlanadh le cúpla líne de chód.",
+      "step_1": "Ar an gcéad dul síos, cuir an réad Síniú ar an toirt ag dul chuig do dhoiciméad mar pharaiméadar cruthaitheoir.",
+      "step_2": "Ansin, cruthaigh réad sínithe cuí agus socraigh a aitheantóir uathúil.",
+      "step_3": "Tar éis sin, agairt modh Scrios réad sínithe a rith a chaithfear a scriosadh.",
+      "step_4": "Ar deireadh, torthaí oibríochta próisis."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "Tacaítear le {{ProductFullName}} ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí forbartha: {{DevEnv}}",
+      "step_3": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ag síniú le {{Signaturetype}} sínithe Live Demo",
+    "content": "Cuir sínithe leictreonacha éagsúla le comhad {{Fileformat}} faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Scrios do {{Signaturetype}} sínithe le {{ProgLang}}",
+    "content": "Scriosadh ríomhshínithe a cuireadh le formáidí éagsúla doiciméad. Bain sínithe go tapa gan cód breise."
+  }
+}

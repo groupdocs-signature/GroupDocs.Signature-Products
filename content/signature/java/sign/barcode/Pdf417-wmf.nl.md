@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Wmf for Java
 
 ############################# Head ############################
 head_title: "eSign Wmf document met Pdf417 Barcode in Java"
-head_description: "Maak Pdf417 Barcode Signature en plaats deze op Wmf document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Pdf417 Barcode Signature en plaats deze op het Wmf document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Pdf417 Barcode handtekening voor Wmf document in Java"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Wmf-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Wmf-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Wmf-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |
@@ -109,7 +109,7 @@ about_formats:
         - icon: "fas fa-barcode"
           title: "About Pdf417 Barcode"
           content: |
-            PDF417 is een gestapeld lineair barcodeformaat dat wordt gebruikt in een verscheidenheid aan toepassingen, zoals transport, identificatiekaarten en voorraadbeheer.
+            PDF417 is een gestapeld lineair barcodeformaat dat wordt gebruikt in verschillende toepassingen, zoals transport, identificatiekaarten en voorraadbeheer.
           characterset: |
              Alle 256 ASCII-tekens.
           textcapacity: |

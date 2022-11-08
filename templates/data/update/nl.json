@@ -7,7 +7,7 @@
   },
   "about": {
     "title": "Meer informatie over {{ProductFullName}} API-functies",
-    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-functionaliteit bevat een uitgebreide selectie van middelen om in-demand documentformaten te verwerken met behulp van elektronische handtekeningen. Een breed spectrum aan elektronische handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata wordt ondersteund. Klanten kunnen digitale handtekeningen toevoegen, verwijderen, bewerken, valideren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Er zijn tal van handige functies en instellingen beschikbaar."
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-functionaliteit bevat een uitgebreide selectie van middelen om in-demand documentformaten te verwerken met behulp van elektronische handtekeningen. Breed spectrum aan elektronische handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata worden ondersteund. Klanten kunnen digitale handtekeningen toevoegen, verwijderen, bewerken, valideren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Er zijn tal van handige functies en instellingen beschikbaar."
   },
   "steps": {
     "title_left": "Hoe u {{Signaturetype}} handtekeningen in uw {{Fileformat}} document kunt wijzigen",

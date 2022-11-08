@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Potm-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Potm-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Potm-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

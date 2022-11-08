@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Docx for C#
 
 ############################# Head ############################
 head_title: "eSign Docx document met ISBN Barcode in C#"
-head_description: "Maak ISBN Barcode Signature en plaats deze op Docx document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een ISBN Barcode Signature en plaats deze op het Docx document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer ISBN Barcode handtekening voor Docx document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Docx-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Docx-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Docx-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

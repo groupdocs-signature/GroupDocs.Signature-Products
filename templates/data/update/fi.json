@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Päivitä tiedostoihin {{Fileformat}} sijoitetut allekirjoitukset {{Signaturetype}} käyttämällä {{ProgLang}}",
+    "meta_description": "Käytä yksinkertaista ja helposti ymmärrettävää {{ProductName}}-koodia {{Signaturetype}} allekirjoitusten päivittämiseen allekirjoitetuissa {{Fileformat}}-asiakirjoissa.",
+    "h1": "Muokkaa ja päivitä {{Signaturetype}}-allekirjoituksia, jotka on sijoitettu {{Fileformat}}-tiedostoihin",
+    "h2": "API for {{ProductName}} tarjoaa toiminnot {{Signaturetype}} allekirjoitusten päivittämiseen {{Fileformat}} asiakirjoissa. Päivitä {{Fileformat}}-asiakirjojen sähköiset allekirjoitukset muutamalla rivillä {{ProgLang}}-koodia nopeasti ja helposti."
+  },
+  "about": {
+    "title": "Lisätietoja {{ProductFullName}} API-ominaisuuksista",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-toiminnallisuus sisältää laajan valikoiman tapoja käsitellä vaadittuja asiakirjamuotoja käyttämällä sähköisiä allekirjoituksia. Laaja kirjo sähköisiä allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja, tuetaan. Asiakkaat voivat lisätä, poistaa, muokata, vahvistaa tai etsiä digitaalisia allekirjoituksia PDF-tiedostoista, MS Word -asiakirjoista, MS Excel -työkirjoista, MS PowerPoint -esityksistä, Adobe Photoshop -tiedostoista ja erilaisista kuvaformaateista. Saatavilla on lukuisia hyödyllisiä ominaisuuksia ja asetuksia."
+  },
+  "steps": {
+    "title_left": "Allekirjoitusten {{Signaturetype}} muuttaminen asiakirjassasi {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) sisältää hyödyllisiä ominaisuuksia, kuten {{Signaturetype}}-allekirjoitusten päivittämisen {{Fileformat}}-asiakirjoihin. Sen avulla on mahdollista muuttaa allekirjoitusominaisuuksia ilman ylimääräistä koodia.",
+      "step_1": "Aloita luomalla Signature-objekti, joka kulkee rakentajan parametripoluna dokumenttiin, joka on tarkoitus päivittää.",
+      "step_2": "Luo sitten sopiva tietty allekirjoitusobjekti ja määritä sen tunniste ja ominaisuudet, jotka on muutettava.",
+      "step_3": "Lopuksi kutsu Signature's Update -menetelmä ohittaen tietyn allekirjoitusobjektin.",
+      "step_4": "Päivitä tulokset ilmoituksesi mukaan."
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "{{ProductFullName}} on tuettu kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Lataa tuotteen {{ProductFullName}} uusin versio osoitteesta [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Päivitetään {{Signaturetype}} allekirjoituksia asiakirjasivuilla - Live Demo",
+    "content": "Muokkaa asiakirjan {{Fileformat}} erilaisia ​​sähköisiä allekirjoituksia juuri nyt käymällä [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) -sivustolla."
+  },
+  "more_formats": {
+    "title": "Päivitä erilaisia ​​{{Signaturetype}} allekirjoituksia {{ProgLang}}:n kautta",
+    "content": "Muokkaa digitaalisia allekirjoituksia, jotka on sijoitettu eri asiakirjamuotoihin. Päivitä allekirjoitustiedot ilman ylimääräistä koodia."
+  }
+}

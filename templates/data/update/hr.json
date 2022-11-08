@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Ažurirajte {{Signaturetype}} potpise postavljene u datoteke {{Fileformat}} s {{ProgLang}}",
+    "meta_description": "Koristite jednostavan i razumljiv {{ProductName}} kod za ažuriranje potpisa {{Signaturetype}} u potpisanim {{Fileformat}} dokumentima.",
+    "h1": "Uredite i ažurirajte {{Signaturetype}} potpise postavljene u {{Fileformat}} datoteke",
+    "h2": "API za {{ProductName}} pruža funkcionalnost za ažuriranje potpisa {{Signaturetype}} u dokumentima {{Fileformat}}. Ažurirajte e-potpise unutar svojih {{Fileformat}} dokumenata s nekoliko redaka {{ProgLang}} koda brzo i jednostavno."
+  },
+  "about": {
+    "title": "Saznajte više o {{ProductFullName}} API značajkama",
+    "content": "Funkcionalnost API-ja [{{ProductFullName}}]({{ProductUrl}}) sadrži velik izbor sredstava za obradu formata dokumenata na zahtjev korištenjem elektroničkih potpisa. Podržan je širok spektar e-potpisa kao što su tekstovi, slike, digitalni certifikati, bar kodovi, QR kodovi, pečati ili metapodaci. Korisnici mogu dodavati, uklanjati, uređivati, potvrđivati ​​ili pretraživati ​​digitalne potpise u PDF-ovima, MS Word dokumentima, MS Excel radnim knjigama, MS PowerPoint prezentacijama, Adobe Photoshop datotekama i raznim formatima slika. Dostupne su brojne korisne značajke i postavke."
+  },
+  "steps": {
+    "title_left": "Kako promijeniti {{Signaturetype}} potpise u vašem {{Fileformat}} dokumentu",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) uključuje korisne značajke kao što je ažuriranje {{Signaturetype}} potpisa postavljenih u dokumente {{Fileformat}}. Omogućuje promjenu značajki potpisa bez dodatnog koda.",
+      "step_1": "Za početak, stvorite objekt Potpis koji prosljeđuje kao put parametra konstruktora do dokumenta koji bi trebao biti ažuriran.",
+      "step_2": "Zatim instancirajte odgovarajući određeni objekt potpisa i postavite njegov identifikator i svojstva koja je potrebno promijeniti.",
+      "step_3": "Na kraju, pozovite metodu ažuriranja potpisa prosljeđujući određeni objekt potpisa.",
+      "step_4": "Proces ažuriranja rezultata prema vašoj obavijesti."
+    },
+    "title_right": "Zahtjevi sustava",
+    "content_right": {
+      "description": "{{ProductFullName}} podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Preuzmite najnoviju verziju {{ProductFullName}} s [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ažuriranje {{Signaturetype}} potpisa na stranicama dokumenta - Demo uživo",
+    "content": "Odmah uredite različite elektroničke potpise dokumenta {{Fileformat}} tako da posjetite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web mjesto."
+  },
+  "more_formats": {
+    "title": "Ažurirajte razne {{Signaturetype}} potpise putem {{ProgLang}}",
+    "content": "Uređivanje digitalnih potpisa koji se nalaze u različitim formatima dokumenata. Ažurirajte podatke o potpisima bez dodatnog koda."
+  }
+}

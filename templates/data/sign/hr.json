@@ -1,0 +1,230 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokument s {{Codetype}} crtičnim kodom u {{ProgLang}}",
+    "meta_description": "Stvorite {{Codetype}} potpis crtičnog koda i stavite ga na {{Fileformat}} dokument s {{ProductName}} pomoću nekoliko redaka koda. Koristite GroupDocs Document Signature API za potpisivanje različitih formata datoteka.",
+    "h1": "Generirajte {{Codetype}} potpis crtičnog koda za {{Fileformat}} dokument u {{ProgLang}}",
+    "h2": "ePotpišite svoje {{Fileformat}} poslovne dokumente pomoću {{Codetype}} crtičnog koda. Brzo i jednostavno generirajte potpis crtičnog koda s nekoliko redaka koda za postavljanje opcija potpisivanja."
+  },
+  "digital-content": {
+    "meta_title": "Dodavanje digitalnih elektroničkih potpisa u datoteku {{Fileformat}} s {{ProgLang}}",
+    "meta_description": "Stavite digitalni potpis na datoteku {{Fileformat}} za {{ProductName}} pomoću nekoliko redaka koda. Koristite GroupDocs Document Signature API za potpisivanje desetaka formata datoteka.",
+    "h1": "eSign {{Fileformat}} datoteke s {{Signaturetype}} potpisima u {{ProgLang}}",
+    "h2": "Kako dodati {{Signaturetype}} potpis s nekoliko redaka {{ProductName}} koda"
+  },
+  "image-content": {
+    "meta_title": "Dodavanje potpisa {{Signaturetype}} u datoteku {{Fileformat}} s {{ProgLang}}",
+    "meta_description": "Stavite potpis {{Signaturetype}} na datoteku {{Fileformat}} za {{ProductName}} pomoću nekoliko redaka koda. Koristite GroupDocs Document Signature API za potpisivanje desetaka formata datoteka.",
+    "h1": "Potpišite {{Fileformat}} datoteke s {{Signaturetype}} potpisima u {{ProgLang}}",
+    "h2": "Kako dodati {{Signaturetype}} potpis s nekoliko redaka {{ProductName}} koda"
+  },
+  "metadata-content": {
+    "meta_title": "Dodajte elektroničke potpise metapodataka {{Fileformat}} dokumentima putem {{ProgLang}}",
+    "meta_description": "Koristite metapodatke kao skrivene elektroničke potpise unutar svojih {{Fileformat}} dokumenata pomoću nekoliko redaka {{ProgLang}} koda. Upotrijebite GroupDocs Document Signature API za e-potpisivanje vaših poslovnih dokumenata i datoteka s informacijama o metapodacima.",
+    "h1": "Elektronički potpisi metapodataka za {{Fileformat}} dokument putem {{ProductName}} jednostavni su i laki za korištenje!",
+    "h2": "ePotpišite svoje {{Fileformat}} dokumente i ugovore sa skrivenim unosima metapodataka. Generirajte metapodatke za PDF-ove, MS Word dokumente, MS Excel radne knjige, MS PowerPoint prezentacije i razne formate slika bez problema i dodatnog kodiranja."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokument s {{Codetype}} QR kodom u {{ProgLang}}",
+    "meta_description": "Napravite {{Codetype}} QR kod i stavite ga u datoteku {{Fileformat}} koristeći {{ProductName}} s kratkim dijelom {{ProgLang}} koda. Koristite GroupDocs Document Signature API za e-potpisivanje vaših poslovnih dokumenata i datoteka pomoću QR koda.",
+    "h1": "Generiraj {{Codetype}} potpis QR koda za {{Fileformat}} dokument u {{ProgLang}}",
+    "h2": "ePotpišite svoje {{Fileformat}} dokumente i ugovore s {{Codetype}} QR kodom. Brzo i jednostavno generirajte potpis QR koda."
+  },
+  "text-content": {
+    "meta_title": "Stvorite tekstualne elektroničke potpise u datoteku {{Fileformat}} s {{ProgLang}}",
+    "meta_description": "Stavite e-potpis {{Signaturetype}} na datoteku {{Fileformat}} za {{ProductName}} pomoću nekoliko redaka koda. Koristite GroupDocs Document Signature API za potpisivanje desetaka formata datoteka.",
+    "h1": "Potpišite {{Fileformat}} datoteke s {{Signaturetype}} potpisima u {{ProgLang}}",
+    "h2": "Kako dodati {{Signaturetype}} potpis s nekoliko redaka {{ProductName}} koda"
+  },
+  "barcode-about": {
+    "title": "O API-ju za potpise crtičnog koda {{ProductFullName}}.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je brz i jednostavan API za upravljanje e-potpisivanjem digitalnih dokumenata pomoću vrsta crtičnog koda kao što su UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 i mnogi drugi. Kupci mogu jednostavno kreirati crtične kodove sa potrebnim tekstom i staviti ih u PDF, Microsoft Office Words dokumente, Microsoft Office Excel radne knjige, MS PowerPoint prezentacije, Adobe Photoshop datoteke i razne formate slika. Crtični kodovi postavljeni u dokumente mogu se ažurirati, pretraživati, verificirati, brisati ili pregledavati. Štoviše, podržana je prilagodba crtičnih kodova."
+  },
+  "digital-about": {
+    "title": "O {{ProductFullName}} API-ju za digitalne potpise",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je popularan API za izradu dokumenata s digitalnim elektroničkim potpisima, s digitalnim certifikatima. Za digitalne potpise API koristi PFX datoteke certifikata za izradu dokumenata s privatnim i javnim ključevima zaštićenim lozinkom. Digitalni potpisi mogu se koristiti za certificiranje poslovnih dokumenata s eSign PDF određenom stranicom, certificiranje cijelih Microsoft Office dokumenata kao što su Words, Excel, Powerpoint datoteke i Open Office dokumenti. Korisnici mogu jednostavno manipulirati potpisima poput uređivanja, uklanjanja ili prilagođavanja. API pruža način pretraživanja i provjere potpisa. Štoviše, pruža se mnogo mogućnosti za prilagodbu potpisa."
+  },
+  "image-about": {
+    "title": "O {{ProductFullName}} API-ju za potpise slika",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je popularan API za e-potpisivanje digitalnih dokumenata. Dostupni su potpisi kao što su tekstovi, slike, digitalni certifikati, crtični kodovi, QR kodovi, pečati ili metapodaci. Potpisi se mogu staviti na PDF-ove, MS Word dokumente, MS Excel radne knjige, MS PowerPoint prezentacije, Adobe Photoshop datoteke i razne formate slika. Korisnici mogu potpisati svoj dokument i ažurirati, pretraživati, verificirati, brisati ili pregledavati e-potpise koji su stavljeni na te dokumente. Štoviše, pruža se mnogo mogućnosti za prilagodbu potpisa."
+  },
+  "metadata-about": {
+    "title": "O API-ju za potpise metapodataka {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je popularan API za e-potpisivanje digitalnih dokumenata. Dostupni su potpisi kao što su tekstovi, slike, digitalni certifikati, crtični kodovi, QR kodovi, pečati ili metapodaci. Potpisi se mogu staviti na PDF-ove, MS Word dokumente, MS Excel radne knjige, MS PowerPoint prezentacije, Adobe Photoshop datoteke i razne formate slika. Korisnici mogu potpisati svoj dokument i ažurirati, pretraživati, verificirati, brisati ili pregledavati e-potpise koji su stavljeni na te dokumente. Štoviše, pruža se mnogo mogućnosti za prilagodbu potpisa."
+  },
+  "qrcode-about": {
+    "title": "O API-ju za potpis QR koda {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je zreli API za stvaranje i generiranje potpisa QR koda za dokumente. Korisnici mogu generirati potpise QR koda koji daju tekst za preuzimanje ili dijeljenje putem društvenih medija kao sliku. Potpisani dokument se može skenirati API-jem ili jednostavno preko mobilne kamere! Potpišite elektroničkim putem svoje poslovne ugovore i službene dokumente uz dodavanje potpisa QR koda i njime manipulirajte. Svaki potpis QR koda sadržavat će jedinstvene prilagođene informacije za identifikaciju potpisnika ili autorizaciju dokumenta. Nadalje, sadržaj QR koda može se šifrirati i dešifrirati osobnim ključevima programski. To otvara mnoge mogućnosti za dijeljenje osjetljivih podataka unutar javnih dokumenata. Nakon potpisivanja korisnik može ažurirati, potvrditi, izbrisati, pregledati ili pretraživati ​​QR kodove unutar PDF-ova, MS Word dokumenata, MS Excel radnih knjiga, MS PowerPoint prezentacija, Adobe Photoshop datoteka i raznih formata slika. QR kodovi se mogu dodatno prilagoditi."
+  },
+  "text-about": {
+    "title": "O {{ProductFullName}} API-ju",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je popularan API za e-potpisivanje digitalnih dokumenata. Dostupni su potpisi kao što su tekstovi, slike, digitalni certifikati, crtični kodovi, QR kodovi, pečati ili metapodaci. Potpisi se mogu staviti na PDF-ove, MS Word dokumente, MS Excel radne knjige, MS PowerPoint prezentacije, Adobe Photoshop datoteke i razne formate slika. Korisnici mogu potpisati svoj dokument i ažurirati, pretraživati, verificirati, brisati ili pregledavati e-potpise koji su stavljeni na te dokumente. Štoviše, pruža se mnogo mogućnosti za prilagodbu potpisa."
+  },
+  "system-requirements": {
+    "title": "Zahtjevi sustava",
+    "content": {
+      "description": "{{ProductFullName}} podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Preuzmite najnoviji {{ProductFullName}} od [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "digital-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "image-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "metadata-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "text-steps": {
+    "title": "Koraci za potpisivanje {{Fileformat}} s {{Signaturetype}} u {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) pruža mogućnost brzog i jednostavnog potpisivanja {{Fileformat}} dokumenata s {{Signaturetype}} potpisima.",
+      "step_1": "Stvorite instancu klase potpisa koja daje {{Fileformat}} datoteku koja bi se trebala potpisati kao put ili memorijski tok",
+      "step_2": "Instancirajte klasu SignOptions i postavite sve tražene podatke.",
+      "step_3": "Pozovite metodu Signature.Sign() prosljeđujući izlaznu datoteku {{Fileformat}} ili memorijski tok"
+    }
+  },
+  "demos": {
+    "title": "Potpisivanje {{Fileformat}} dokumenata s {{Signaturetype}} Live Demo",
+    "content": "Potpišite datoteku {{Fileformat}} raznim potpisima upravo sada tako da posjetite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web mjesto. Besplatan online demo čeka na vas."
+  },
+  "more_formats": {
+    "title": "Drugi podržani potpisi {{Signaturetype}} za {{ProgLang}}",
+    "content": "Također možete potpisati {{Fileformat}} drugim vrstama potpisa. Pogledajte popis u nastavku."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Univerzalni kod proizvoda simbol je crtičnog koda koji se širom svijeta široko koristi za praćenje trgovačkih jedinica u trgovinama.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "Točno 11 znamenki + 1 kontrolna znamenka."
+    },
+    "UPCE": {
+      "details": "Univerzalni kod proizvoda simbol je crtičnog koda koji se širom svijeta široko koristi za praćenje trgovačkih jedinica u trgovinama. UPCE je 8-znamenkasta varijacija ako je UPC.",
+      "characterset": "Podržava samo numeričke znamenke (0-9).",
+      "codetextcapacity": "Kapacitet kodnog teksta: točno 7 znamenki + 1 kontrolna znamenka."
+    },
+    "EAN13": {
+      "details": "Najčešće korišteni EAN standard je trinaesteroznamenkasti EAN-13, nadskup originalnog 12-znamenkasti standard univerzalnog koda proizvoda.",
+      "characterset": "Samo numeričke znamenke (0-9).",
+      "codetextcapacity": "Kapacitet kodnog teksta: točno 12 znamenki + 1 kontrolna znamenka."
+    },
+    "EAN14": {
+      "details": "Europski broj artikla ili EAN standard je koji opisuje simbologiju crtičnog koda i sustav numeriranja koji se koristi u globalnoj trgovini za identifikaciju određene vrste maloprodajnog proizvoda, u specifičnoj konfiguraciji pakiranja, od određenog proizvođača.",
+      "characterset": "Brojčane znamenke (0-9) i posebni znakovi.",
+      "codetextcapacity": "Točno 14 brojčanih znamenki."
+    },
+    "Code39": {
+      "details": "Kod 39 (također poznat kao Alpha39, kod 3 od 9, kod 3/9, tip 39, USS kod 39 ili USD-3) diskretna je simbologija crtičnog koda promjenjive duljine.",
+      "characterset": "Brojčane znamenke (0-9) i velika slova (A-Z) i određeni broj posebnih znakova (-, ., $, /, +, % i razmak).",
+      "codetextcapacity": "Nema posebnih ograničenja."
+    },
+    "Code39Extended": {
+      "details": "Kod 39 (također poznat kao Alpha39, kod 3 od 9, kod 3/9, tip 39, USS kod 39 ili USD-3) diskretna je simbologija crtičnog koda promjenjive duljine.",
+      "characterset": "Skup znakova: svih 128 ASCII znakova.",
+      "codetextcapacity": "Nema posebnih ograničenja."
+    },
+    "Code128": {
+      "details": "Kod 128 je simbologija linearnog crtičnog koda visoke gustoće definirana u ISO/IEC 15417:2007. Koristi se za alfanumeričke ili samo numeričke crtične kodove.",
+      "characterset": "Svih 128 znakova ASCII.",
+      "codetextcapacity": "Nema posebnih ograničenja."
+    },
+    "Codabar": {
+      "details": "Codabar je simbologija linearnog crtičnog koda koja je dizajnirana za točno čitanje čak i kada se ispisuje na matričnim pisačima za višedijelne obrasce kao što su FedEx zračni računi i obrasci banke krvi.",
+      "characterset": "Brojčane znamenke (0-9) i posebni znakovi $/-:+.",
+      "codetextcapacity": "Nema posebnih ograničenja."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) je simbologija crtičnog koda koju koristi poštanska služba Sjedinjenih Država za pomoć pri usmjeravanju pošte.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "Do 11 znakova."
+    },
+    "ISBN": {
+      "details": "Međunarodni standardni broj knjige (ISBN) numerički je komercijalni identifikator knjige koji je namijenjen da bude jedinstven.[a][b] Izdavači kupuju ISBN od podružnice Međunarodne agencije za ISBN.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "Točno 9 znamenki + 1 kontrolna znamenka."
+    },
+    "ITF14": {
+      "details": "ITF-14 je GS1 implementacija interleaved 2 of 5 (ITF) bar koda za kodiranje globalnog broja trgovačke jedinice.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "13 znamenki + 1 kontrolna znamenka."
+    },
+    "Pdf417": {
+      "details": "PDF417 je naslagani linearni format crtičnog koda koji se koristi u različitim aplikacijama kao što su transport, identifikacijske kartice i upravljanje inventarom.",
+      "characterset": "Svih 256 ASCII znakova.",
+      "codetextcapacity": "Do 800 znakova."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) kontinuirana je simbologija crtičnog koda dvije širine koja kodira znamenke. Komercijalno se koristi na 135 filmu, za ITF-14 barkodove i na kartonima nekih proizvoda, dok su proizvodi unutar njih označeni s UPC ili EAN.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "Promjenjive duljine."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, također poznat kao Pharmaceutical Binary Code, standard je crtičnog koda koji se koristi u farmaceutskoj industriji kao sustav kontrole pakiranja.",
+      "characterset": "Brojčane znamenke (0-9).",
+      "codetextcapacity": "Predstavlja samo jedan cijeli broj od 3 do 131070."
+    },
+    "Aztec": {
+      "details": "Aztec Code je dvodimenzionalna (2-D) matrična simbologija opće namjene koja je dizajnirana da ima veću točnost od ostalih 2-D simbologija. Aztec Code simbol može kodirati do 3832 numeričke znamenke; 3.067 abecednih znakova; ili 1914 bajtova podataka.",
+      "characterset": "Svih 256 ASCII znakova.",
+      "codetextcapacity": "Do 3832 numeričke znamenke ili 3067 abecednih znakova ili 1914 bajtova podataka."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix je dvodimenzionalni kod koji se sastoji od crnih i bijelih 'ćelija' ili točaka raspoređenih u kvadratni ili pravokutni uzorak, također poznat kao matrica. Informacije koje treba kodirati mogu biti tekstualni ili numerički podaci.",
+      "characterset": "Podržava svih 256 ASCII znakova, sve ISO znakove i sve znakove Extended Binary Coded Decimal Interchange Code (EBCDIC).",
+      "codetextcapacity": "Do 3116 numeričkih znamenki, ili 2335 alfanumeričkih znakova, ili 1556 binarnih znakova."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix je varijanta Data Matrixa koja je u skladu sa GS1 specifikacijama. Koristite GS1 DataMatrix za kodiranje informacija kao što su, ali ne ograničavajući se na sljedeće: AI(01) Globalni broj trgovinske jedinice (GTIN), AI(17) Datum isteka, AI(10) Broj serije, AI(21) Serijski broj .",
+      "characterset": "Skup znakova: velika i mala slova i posebni znakovi $@%*+-./:=<>;&*_,'! sve s ispravnim aplikacijskim identifikatorima.",
+      "codetextcapacity": "Kapacitet kodnog teksta: do 3116 numeričkih znamenki ili 2335 alfanumeričkih znakova."
+    },
+    "GS1QR": {
+      "details": "GS1 QR kod je varijanta QR koda koji je u skladu sa GS1 specifikacijama. Osmišljen je posebno za dijeljenje proširenih informacija o pakiranju, kao što su broj serije, ID proizvoda i količina.",
+      "characterset": "Velika i mala slova i posebni znakovi $%*+-./: svi s ispravnim aplikacijskim identifikatorima",
+      "codetextcapacity": "Do 7089 numeričkih znakova, 4296 alfanumeričkih znakova"
+    },
+    "QR": {
+      "details": "QR kod (skraćeno od Quick Response Code) zaštitni je znak za vrstu matričnog barkoda (ili dvodimenzionalnog barkoda). To je najpopularnija i najraširenija vrsta dvodimenzionalnog koda. U praksi, QR kodovi često sadrže podatke za lokator, identifikator ili tragač koji upućuje na web mjesto ili aplikaciju.",
+      "characterset": "Svih 256 ASCII znakova + Kanji",
+      "codetextcapacity": "Do 7089 numeričkih znakova, 4296 alfanumeričkih znakova, 2953 bajta (binarni podaci) ili 1817 Kanji znakova."
+    }
+  }
+}

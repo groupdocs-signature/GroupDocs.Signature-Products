@@ -1,7 +1,7 @@
 {
   "barcode-content": {
     "meta_title": "eSign {{Fileformat}} document met {{Codetype}} Barcode in {{ProgLang}}",
-    "meta_description": "Maak {{Codetype}} Barcode Signature en plaats deze op {{Fileformat}} document met {{ProductName}} met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen.",
+    "meta_description": "Maak een {{Codetype}} Barcode Signature en plaats deze op het {{Fileformat}} document met {{ProductName}} met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen.",
     "h1": "Genereer {{Codetype}} Barcode handtekening voor {{Fileformat}} document in {{ProgLang}}",
     "h2": "Onderteken uw {{Fileformat}} zakelijke documenten met {{Codetype}} Barcode. Genereer snel en eenvoudig een barcodehandtekening met een paar regels code om ondertekeningsopties in te stellen."
   },
@@ -74,7 +74,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "digital-steps": {
@@ -83,7 +83,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "image-steps": {
@@ -92,7 +92,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "metadata-steps": {
@@ -101,7 +101,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "qrcode-steps": {
@@ -110,7 +110,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "text-steps": {
@@ -119,7 +119,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) biedt de mogelijkheid om {{Fileformat}} documenten snel en gemakkelijk te ondertekenen met {{Signaturetype}} handtekeningen.",
       "step_1": "Maak een instantie van de Signature-klasse die een {{Fileformat}}-bestand levert dat moet worden ondertekend als pad of geheugenstroom",
       "step_2": "Instantieer SignOptions klasse en stel alle gevraagde gegevens in.",
-      "step_3": "Roep de methode Signature.Sign() op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
+      "step_3": "Roep de Signature.Sign()-methode op en geef uitvoer {{Fileformat}}-bestand of geheugenstroom"
     }
   },
   "demos": {
@@ -147,7 +147,7 @@
       "codetextcapacity": "Codetekstcapaciteit: exact 12 cijfers + 1 controlecijfer."
     },
     "EAN14": {
-      "details": "Europees artikelnummer of EAN is een norm die een barcodesymboliek en nummeringsysteem beschrijft dat in de wereldhandel wordt gebruikt om een ​​specifiek retailproducttype, in een specifieke verpakkingsconfiguratie, van een specifieke fabrikant te identificeren.",
+      "details": "Europees artikelnummer of EAN is een norm die een barcodesymboliek en nummeringssysteem beschrijft dat in de wereldhandel wordt gebruikt om een ​​specifiek retailproducttype, in een specifieke verpakkingsconfiguratie, van een specifieke fabrikant te identificeren.",
       "characterset": "Numerieke cijfers (0-9) en speciale tekens.",
       "codetextcapacity": "Precies 14 cijfers."
     },
@@ -187,12 +187,12 @@
       "codetextcapacity": "13 cijfers + 1 controlecijfer."
     },
     "Pdf417": {
-      "details": "PDF417 is een gestapeld lineair barcodeformaat dat wordt gebruikt in een verscheidenheid aan toepassingen, zoals transport, identificatiekaarten en voorraadbeheer.",
+      "details": "PDF417 is een gestapeld lineair barcodeformaat dat wordt gebruikt in verschillende toepassingen, zoals transport, identificatiekaarten en voorraadbeheer.",
       "characterset": "Alle 256 ASCII-tekens.",
       "codetextcapacity": "Tot 800 tekens."
     },
     "Interleaved2of5": {
-      "details": "Interleaved 2 of 5 (ITF) is een continue twee-breedte barcode symbologie coderende cijfers. Het wordt commercieel gebruikt op 135-film, voor ITF-14-barcodes en op dozen van sommige producten, terwijl de producten binnenin zijn gelabeld met UPC of EAN.",
+      "details": "Interleaved 2 of 5 (ITF) is een continue twee-breedte barcode symbologie coderende cijfers. Het wordt commercieel gebruikt op 135-film, voor ITF-14-barcodes en op dozen van sommige producten, terwijl de producten aan de binnenkant zijn gelabeld met UPC of EAN.",
       "characterset": "Numerieke cijfers (0-9).",
       "codetextcapacity": "Variabele lengte."
     },
@@ -202,7 +202,7 @@
       "codetextcapacity": "Vertegenwoordigt slechts één geheel getal van 3 tot 131070."
     },
     "Aztec": {
-      "details": "Azteekse code is een tweedimensionale (2D) matrixsymboliek voor algemene doeleinden die is ontworpen om een ​​hogere nauwkeurigheid te hebben dan andere 2D-symbolen. Een Azteeks codesymbool kan maximaal 3.832 numerieke cijfers coderen; 3.067 alfabetische tekens; of 1.914 bytes aan gegevens.",
+      "details": "Azteekse code is een tweedimensionale (2-D) matrixsymboliek voor algemene doeleinden die is ontworpen om een ​​hogere nauwkeurigheid te hebben dan andere 2D-symbolen. Een Azteeks codesymbool kan maximaal 3.832 numerieke cijfers coderen; 3.067 alfabetische tekens; of 1.914 bytes aan gegevens.",
       "characterset": "Alle 256 ASCII-tekens.",
       "codetextcapacity": "Tot 3.832 numerieke cijfers, of 3.067 alfabetische tekens, of 1.914 bytes aan gegevens."
     },

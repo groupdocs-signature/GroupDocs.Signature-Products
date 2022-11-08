@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Bmp for C#
 
 ############################# Head ############################
 head_title: "eSign Bmp document met Pharmacode Barcode in C#"
-head_description: "Maak Pharmacode Barcode Signature en plaats deze op Bmp document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Pharmacode Barcode Signature en plaats deze op het Bmp document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Pharmacode Barcode handtekening voor Bmp document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Bmp-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Bmp-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Bmp-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

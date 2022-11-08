@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Potm for C#
 
 ############################# Head ############################
 head_title: "eSign Potm document met Code39 Barcode in C#"
-head_description: "Maak Code39 Barcode Signature en plaats deze op Potm document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code39 Barcode Signature en plaats deze op het Potm document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code39 Barcode handtekening voor Potm document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Potm-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Potm-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Potm-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

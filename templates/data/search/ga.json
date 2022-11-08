@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Cuardaigh {{Signaturetype}} síniú i gcomhad {{Fileformat}} i {{ProgLang}}",
+    "meta_description": "Úsáid {{ProductName}} chun sínithe {{Signaturetype}} a chuardach i gcomhaid {{Fileformat}} ag úsáid cúpla líne de chód.",
+    "h1": "Cuardaigh le haghaidh {{Signaturetype}} sínithe i gcomhad {{Fileformat}}",
+    "h2": "Ceadaíonn API dúchais {{ProductName}} cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid {{Fileformat}} ag úsáid cúpla líne cód."
+  },
+  "about": {
+    "title": "Maidir le {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) soláthraíonn {{ProductName}} API chun doiciméid a phróiseáil ag baint úsáide as cineálacha sínithe éagsúla ar nós téacsanna, íomhánna, teastais dhigiteacha, barrachóid, QR-cóid, stampaí nó meiteashonraí. Is féidir le húsáideoirí sínithe leictreonacha a chur leis, a scriosadh, a nuashonrú, a fhíorú nó a chuardach laistigh de PDFs, doiciméid MS Word, leabhair oibre MS Excel, cur i láthair MS PowerPoint, comhaid Adobe Photoshop agus formáidí íomhá éagsúla, le tacaíocht bhreise chun airíonna sínithe a shaincheapadh de réir mar is gá."
+  },
+  "steps": {
+    "title_left": "Conas síniú {{Signaturetype}} a chuardach i {{Fileformat}}",
+    "content_left": {
+      "description": "Déanann [{{ProductFullName}}]({{ProductUrl}}) é níos fusa d’fhorbróirí {{ProductName}} cuardach a dhéanamh ar shínithe {{Signaturetype}} i gcomhaid {{Fileformat}} óna bhfeidhmchláir trí roinnt céimeanna éasca a chur i bhfeidhm.",
+      "step_1": "Cruthaigh sampla nua den rang Sínithe agus pas a fháil ar chonair an doiciméid foinse mar pharaiméadar cruthaitheoir.",
+      "step_2": "Cuir an oibiacht SearchOptions ar bun de réir do riachtanais agus sonraigh roghanna cuardaigh.",
+      "step_3": "Glaoigh ar an modh cuardaigh ar shampla rang Sínithe agus cuir SearchOptions chuige.",
+      "step_4": "Próiseáil torthaí cuardaigh de réir d'éilimh."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "Tacaítear le {{ProductFullName}} ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí forbartha: {{DevEnv}}",
+      "step_3": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Cuardaigh le haghaidh {{Signaturetype}} sínithe leictreonacha Live Demo",
+    "content": "Cuardaigh an doiciméad le haghaidh sínithe leictreonacha éagsúla ar chomhaid {{Fileformat}} faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Cuardaigh sínithe {{Signaturetype}} eile ag úsáid {{ProgLang}}",
+    "content": "Cuardach sínithe leictreonacha i ndoiciméid éagsúla. Faigh sínithe ón gceann de na formáidí comhaid coitianta mar a thaispeántar thíos."
+  }
+}

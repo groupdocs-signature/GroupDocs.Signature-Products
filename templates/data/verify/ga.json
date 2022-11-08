@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Fíorú {{Signaturetype}} sínithe do chomhaid {{Fileformat}} trí {{ProgLang}}",
+    "meta_description": "Ná húsáid ach cúpla líne de chód {{ProductName}} chun doiciméid {{Fileformat}} agus a gcuid sínithe {{Signaturetype}} a fhíorú.",
+    "h1": "{{Signaturetype}} fíorú sínithe le haghaidh comhad {{Fileformat}}",
+    "h2": "Soláthraíonn API do {{ProductName}} deis chun {{Signaturetype}} sínithe ag {{Fileformat}} doiciméid a fhíorú. Seans go ndéanfar ríomhshínithe laistigh de do dhoiciméid {{Fileformat}} a fhíorú go tapa agus go héasca."
+  },
+  "about": {
+    "title": "Faigh amach gnéithe nua API {{ProductFullName}}",
+    "content": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) API raon leathan bealaí chun go leor formáidí doiciméad a phróiseáil trí úsáid a bhaint as sínithe leictreonacha. Tacaítear le go leor cineálacha sínithe digiteacha mar théacsanna, íomhánna, deimhnithe digiteacha, barrachóid, cóid QR, stampaí nó meiteashonraí. Is féidir le custaiméirí sínithe digiteacha a chur leis, a bhaint, a chur in eagar, a bhailíochtú nó a chuardach ag comhaid PDF, doiciméid MS Word, leabhair oibre MS Excel, láithreoireachtaí MS PowerPoint, comhaid Adobe Photoshop agus formáidí éagsúla íomhá. Tá líon iontach gnéithe agus socruithe breise ar fáil."
+  },
+  "steps": {
+    "title_left": "Conas {{Signaturetype}} sínithe i do dhoiciméad {{Fileformat}} a bhailíochtú",
+    "content_left": {
+      "description": "Áiríonn [{{ProductFullName}}]({{ProductUrl}}) gnéithe úsáideacha amhail fíorú {{Signaturetype}} sínithe atá curtha ag {{Fileformat}} doiciméad. Bain úsáid as an deis seo gan cód breise a chur i bhfeidhm.",
+      "step_1": "Ar an gcéad dul síos, aicme Sínithe meandrach ag soláthar mar chonair paraiméadar cruthaitheoir chuig doiciméad atá ceaptha a fhíorú.",
+      "step_2": "Ar an dara dul síos, cruthaigh réad VerifyOptions nua agus socraigh na hairíonna riachtanacha go léir.",
+      "step_3": "Ar deireadh, agairt oibiacht Signature Fíoraigh modh a rith VerifyOptions mar shampla.",
+      "step_4": "Ansin próiseáil na torthaí fíoraithe."
+    },
+    "title_right": "Riachtanais Chórais",
+    "content_right": {
+      "description": "Tacaítear le {{ProductFullName}} ar gach mór-ardán agus córas oibriúcháin. Sula ndéanann tú an cód thíos, déan cinnte go bhfuil na réamhriachtanais seo a leanas suiteáilte ar do chóras.",
+      "step_1": "Córais oibriúcháin: Microsoft Windows, Linux, MacOS",
+      "step_2": "Timpeallachtaí forbartha: {{DevEnv}}",
+      "step_3": "Íoslódáil an leagan is déanaí de {{ProductFullName}} ó [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Ag síniú le {{Signaturetype}} sínithe Live Demo",
+    "content": "Cuir sínithe leictreonacha éagsúla le comhad {{Fileformat}} faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Fíoraigh {{Signaturetype}} sínithe eile ag úsáid {{ProgLang}}",
+    "content": "Sínithe leictreonacha a chuirtear i ndoiciméid éagsúla a fhíorú. Seiceáil cáilíocht na sínithe sna formáidí comhaid coitianta mar a léirítear thíos."
+  }
+}

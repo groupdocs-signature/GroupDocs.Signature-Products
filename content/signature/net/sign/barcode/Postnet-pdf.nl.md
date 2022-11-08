@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Pdf for C#
 
 ############################# Head ############################
 head_title: "eSign Pdf document met Postnet Barcode in C#"
-head_description: "Maak Postnet Barcode Signature en plaats deze op Pdf document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Postnet Barcode Signature en plaats deze op het Pdf document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Postnet Barcode handtekening voor Pdf document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Pdf-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Pdf-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Pdf-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

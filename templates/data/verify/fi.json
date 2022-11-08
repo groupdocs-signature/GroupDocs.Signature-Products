@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Allekirjoitusten {{Signaturetype}} vahvistaminen tiedostoille {{Fileformat}} {{ProgLang}}:n kautta",
+    "meta_description": "Käytä vain muutamaa riviä {{ProductName}}-koodia {{Fileformat}}-asiakirjojen ja niiden allekirjoitusten {{Signaturetype}} vahvistamiseen.",
+    "h1": "{{Signaturetype}} allekirjoitusten vahvistus tiedostoille {{Fileformat}}",
+    "h2": "API for {{ProductName}} tarjoaa mahdollisuuden tarkistaa {{Signaturetype}} allekirjoitukset {{Fileformat}} asiakirjoissa. {{Fileformat}}-asiakirjojen sisällä olevien sähköisten allekirjoitusten varmennus voidaan suorittaa nopeasti ja helposti."
+  },
+  "about": {
+    "title": "Tutustu uusiin {{ProductFullName}} API -ominaisuuksiin",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API tarjoaa laajan valikoiman tapoja käsitellä useita dokumenttimuotoja käyttämällä sähköisiä allekirjoituksia. Monen tyyppisiä digitaalisia allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja, tuetaan. Asiakkaat voivat lisätä, poistaa, muokata, vahvistaa tai etsiä digitaalisia allekirjoituksia PDF-tiedostoista, MS Word -asiakirjoista, MS Excel -työkirjoista, MS PowerPoint -esityksistä, Adobe Photoshop -tiedostoista ja erilaisista kuvaformaateista. Saatavilla on hämmästyttävä määrä lisäominaisuuksia ja asetuksia."
+  },
+  "steps": {
+    "title_left": "Allekirjoitusten {{Signaturetype}} vahvistaminen asiakirjassasi {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) sisältää hyödyllisiä ominaisuuksia, kuten {{Signaturetype}}-allekirjoituksia, jotka on sijoitettu {{Fileformat}}-asiakirjoihin. Käytä tätä mahdollisuutta ilman ylimääräistä koodia.",
+      "step_1": "Ensinnäkin ilmennä Signature-luokka, joka tarjoaa konstruktoriparametripolun dokumenttiin, joka on tarkoitus varmentaa.",
+      "step_2": "Toiseksi luo uusi VerifyOptions-objekti ja määritä kaikki tarvittavat ominaisuudet.",
+      "step_3": "Lopuksi kutsu Signaturen objektin Verify-menetelmä, joka välittää VerifyOptions-ilmentymän.",
+      "step_4": "Käsittele sitten vahvistustulokset."
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "{{ProductFullName}} on tuettu kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Lataa tuotteen {{ProductFullName}} uusin versio osoitteesta [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Allekirjoitus {{Signaturetype}} allekirjoituksilla Live-demo",
+    "content": "Lisää erilaisia ​​sähköisiä allekirjoituksia {{Fileformat}}-tiedostoon heti käymällä [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) -sivustolla."
+  },
+  "more_formats": {
+    "title": "Vahvista muut {{Signaturetype}} allekirjoitukset käyttämällä {{ProgLang}}",
+    "content": "Eri asiakirjoihin asetettujen sähköisten allekirjoitusten todentaminen. Tarkista suosituimpien tiedostomuotojen allekirjoitusten laatu, kuten alla on kerrottu."
+  }
+}

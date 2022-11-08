@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Csv for Java
 
 ############################# Head ############################
 head_title: "eSign Csv document met UPCA Barcode in Java"
-head_description: "Maak UPCA Barcode Signature en plaats deze op Csv document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een UPCA Barcode Signature en plaats deze op het Csv document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer UPCA Barcode handtekening voor Csv document in Java"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Csv-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Csv-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Csv-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

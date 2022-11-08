@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Png for C#
 
 ############################# Head ############################
 head_title: "eSign Png document met Code128 Barcode in C#"
-head_description: "Maak Code128 Barcode Signature en plaats deze op Png document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code128 Barcode Signature en plaats deze op het Png document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code128 Barcode handtekening voor Png document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Png-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Png-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Png-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

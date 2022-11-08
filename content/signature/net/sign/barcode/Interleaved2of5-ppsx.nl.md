@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Ppsx for C#
 
 ############################# Head ############################
 head_title: "eSign Ppsx document met Interleaved2of5 Barcode in C#"
-head_description: "Maak Interleaved2of5 Barcode Signature en plaats deze op Ppsx document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Interleaved2of5 Barcode Signature en plaats deze op het Ppsx document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Interleaved2of5 Barcode handtekening voor Ppsx document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Ppsx-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Ppsx-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Ppsx-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |
@@ -111,7 +111,7 @@ about_formats:
         - icon: "fas fa-barcode"
           title: "About Interleaved2of5 Barcode"
           content: |
-            Interleaved 2 of 5 (ITF) is een continue twee-breedte barcode symbologie coderende cijfers. Het wordt commercieel gebruikt op 135-film, voor ITF-14-barcodes en op dozen van sommige producten, terwijl de producten binnenin zijn gelabeld met UPC of EAN.
+            Interleaved 2 of 5 (ITF) is een continue twee-breedte barcode symbologie coderende cijfers. Het wordt commercieel gebruikt op 135-film, voor ITF-14-barcodes en op dozen van sommige producten, terwijl de producten aan de binnenkant zijn gelabeld met UPC of EAN.
           characterset: |
              Numerieke cijfers (0-9).
           textcapacity: |

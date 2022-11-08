@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Potražite {{Signaturetype}} potpise u datoteci {{Fileformat}} u {{ProgLang}}",
+    "meta_description": "Upotrijebite {{ProductName}} za traženje potpisa {{Signaturetype}} u datotekama {{Fileformat}} pomoću nekoliko redaka koda.",
+    "h1": "Potražite {{Signaturetype}} potpise u {{Fileformat}} datoteci",
+    "h2": "Izvorni API za {{ProductName}} omogućuje pretraživanje potpisa {{Signaturetype}} u već potpisanim {{Fileformat}} datotekama. Izvršite napredno pretraživanje e-potpisa unutar svojih {{Fileformat}} dokumenata pomoću nekoliko redaka koda."
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API-ju",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) pruža {{ProductName}} API za obradu dokumenata koji koriste različite vrste potpisa kao što su tekstovi, slike, digitalni certifikati, crtični kodovi, QR kodovi, pečati ili metapodaci. Korisnici mogu dodavati, brisati, ažurirati, verificirati ili pretraživati ​​elektroničke potpise unutar PDF-ova, MS Word dokumenata, MS Excel radnih knjiga, MS PowerPoint prezentacija, Adobe Photoshop datoteka i raznih formata slika, uz dodatnu podršku za prilagođavanje svojstava potpisa prema potrebi."
+  },
+  "steps": {
+    "title_left": "Kako tražiti {{Signaturetype}} potpise u {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) programerima proizvoda {{ProductName}} olakšava traženje potpisa {{Signaturetype}} u datotekama {{Fileformat}} iz njihovih aplikacija implementacijom nekoliko jednostavnih koraka.",
+      "step_1": "Stvorite novu instancu klase Signature i proslijedite putanju izvornog dokumenta kao parametar konstruktora.",
+      "step_2": "Instancirajte SearchOptions objekt prema svojim zahtjevima i odredite opcije pretraživanja.",
+      "step_3": "Pozovite metodu Search instance klase Signature i proslijedite joj SearchOptions.",
+      "step_4": "Obradite rezultate pretraživanja u skladu s vašim zahtjevima."
+    },
+    "title_right": "Zahtjevi sustava",
+    "content_right": {
+      "description": "{{ProductFullName}} podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Preuzmite najnoviju verziju {{ProductFullName}} s [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Potražite {{Signaturetype}} elektroničke potpise Demo uživo",
+    "content": "Potražite u dokumentu različite elektroničke potpise za {{Fileformat}} datoteke upravo sada tako da posjetite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web mjesto."
+  },
+  "more_formats": {
+    "title": "Potražite druge {{Signaturetype}} potpise koristeći {{ProgLang}}",
+    "content": "Pretraživanje elektroničkih potpisa u raznim dokumentima. Pronađite potpise jednog od popularnih formata datoteka kao što je prikazano u nastavku."
+  }
+}

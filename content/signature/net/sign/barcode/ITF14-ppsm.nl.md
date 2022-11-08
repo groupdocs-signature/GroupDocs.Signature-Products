@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Ppsm for C#
 
 ############################# Head ############################
 head_title: "eSign Ppsm document met I T F14 Barcode in C#"
-head_description: "Maak I T F14 Barcode Signature en plaats deze op Ppsm document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een I T F14 Barcode Signature en plaats deze op het Ppsm document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer I T F14 Barcode handtekening voor Ppsm document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Ppsm-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Ppsm-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Ppsm-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

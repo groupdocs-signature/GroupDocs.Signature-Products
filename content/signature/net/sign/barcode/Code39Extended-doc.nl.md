@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Doc for C#
 
 ############################# Head ############################
 head_title: "eSign Doc document met Code39 Extended Barcode in C#"
-head_description: "Maak Code39 Extended Barcode Signature en plaats deze op Doc document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code39 Extended Barcode Signature en plaats deze op het Doc document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code39 Extended Barcode handtekening voor Doc document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Doc-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Doc-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Doc-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

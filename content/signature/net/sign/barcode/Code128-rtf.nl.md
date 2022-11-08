@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Rtf for C#
 
 ############################# Head ############################
 head_title: "eSign Rtf document met Code128 Barcode in C#"
-head_description: "Maak Code128 Barcode Signature en plaats deze op Rtf document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code128 Barcode Signature en plaats deze op het Rtf document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code128 Barcode handtekening voor Rtf document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Rtf-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Rtf-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Rtf-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

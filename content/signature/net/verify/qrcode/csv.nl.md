@@ -53,7 +53,7 @@ steps:
         
         * Ten eerste, instantiëren Signature-klasse die als een constructorparameterpad biedt naar een document dat moet worden geverifieerd.
         * Maak vervolgens een nieuw VerifyOptions-object en stel alle vereiste eigenschappen in.
-        * Roep ten slotte Signature's object Verify-methode aan die de instantie van VerifyOptions doorgeeft.
+        * Roep ten slotte de object Verify-methode van Signature aan die de instantie van VerifyOptions doorgeeft.
         * Verwerk vervolgens de verificatieresultaten.
 
     title_right: "systeem vereisten"

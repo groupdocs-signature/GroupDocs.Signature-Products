@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Poista {{Signaturetype}} allekirjoitukset {{Fileformat}}-tiedostoista {{ProgLang}}:n kautta",
+    "meta_description": "Tiettyjen {{Signaturetype}}-allekirjoitusten poistaminen allekirjoitetuista {{Fileformat}}-asiakirjoista voidaan tehdä helposti lyhyellä {{ProductName}}-koodilla.",
+    "h1": "Poista {{Signaturetype}}-allekirjoitukset, jotka on sijoitettu {{Fileformat}}-tiedostoihin",
+    "h2": "Poista erilaisia ​​{{Signaturetype}}-allekirjoituksia {{Fileformat}}-asiakirjoista. Allekirjoitusten {{Signaturetype}} poistaminen vaatii yksinkertaisen {{ProgLang}}-koodin."
+  },
+  "about": {
+    "title": "Hanki tietoja {{ProductFullName}} API-ominaisuuksista",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API tarjoaa monia tapoja käsitellä asiakirjojasi sähköisten allekirjoitusten avulla. Saatavilla on digitaalisia allekirjoituksia, kuten tekstejä, kuvia, digitaalisia varmenteita, viivakoodeja, QR-koodeja, leimoja tai metatietoja. Asiakkailla on mahdollisuus lisätä, poistaa, päivittää, tarkistaa tai etsiä digitaalisia allekirjoituksia PDF-tiedostoista, MS Word -asiakirjoista, MS Excel -työkirjoista, MS PowerPoint -esityksistä, Adobe Photoshop -tiedostoista ja erilaisista kuvaformaateista. Tarjolla on suuri määrä hyödyllisiä ominaisuuksia ja asetuksia."
+  },
+  "steps": {
+    "title_left": "Allekirjoituksen {{Signaturetype}} poistaminen asiakirjasta {{Fileformat}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tarjoaa hyödyllisen ominaisuuden {{Fileformat}}-dokumenttien poistamiseen {{Signaturetype}}-allekirjoituksista muutamalla koodirivillä.",
+      "step_1": "Ensinnäkin Allekirjoitusobjekti, joka välittää polun dokumenttiin konstruktoriparametrina.",
+      "step_2": "Luo sitten sopiva allekirjoitusobjekti ja määritä sen yksilöllinen tunniste.",
+      "step_3": "Tämän jälkeen käynnistä Delete-menetelmä, joka välittää allekirjoitusobjektin, joka on poistettava.",
+      "step_4": "Lopuksi prosessitoiminnan tulokset."
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "{{ProductFullName}} on tuettu kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että sinulla on seuraavat edellytykset asennettuna järjestelmääsi.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Lataa tuotteen {{ProductFullName}} uusin versio osoitteesta [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Allekirjoitus {{Signaturetype}} allekirjoituksilla Live-demo",
+    "content": "Lisää erilaisia ​​sähköisiä allekirjoituksia {{Fileformat}}-tiedostoon heti käymällä [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) -sivustolla."
+  },
+  "more_formats": {
+    "title": "Poista allekirjoituksesi {{Signaturetype}} käyttämällä {{ProgLang}}",
+    "content": "Eri asiakirjamuotoihin lisättyjen sähköisten allekirjoitusten poistaminen. Poista allekirjoitukset nopeasti ilman ylimääräistä koodia."
+  }
+}

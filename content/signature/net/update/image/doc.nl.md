@@ -41,7 +41,7 @@ about:
     enable: true
     title: "Meer informatie over GroupDocs.Signature for .NET API-functies"
     content: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API-functionaliteit bevat een uitgebreide selectie van middelen om in-demand documentformaten te verwerken met behulp van elektronische handtekeningen. Een breed spectrum aan elektronische handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata wordt ondersteund. Klanten kunnen digitale handtekeningen toevoegen, verwijderen, bewerken, valideren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Er zijn tal van handige functies en instellingen beschikbaar.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) API-functionaliteit bevat een uitgebreide selectie van middelen om in-demand documentformaten te verwerken met behulp van elektronische handtekeningen. Breed spectrum aan elektronische handtekeningen zoals teksten, afbeeldingen, digitale certificaten, barcodes, QR-codes, stempels of metadata worden ondersteund. Klanten kunnen digitale handtekeningen toevoegen, verwijderen, bewerken, valideren of zoeken in PDF's, MS Word-documenten, MS Excel-werkmappen, MS PowerPoint-presentaties, Adobe Photoshop-bestanden en verschillende afbeeldingsformaten. Er zijn tal van handige functies en instellingen beschikbaar.
     
 
 ############################# Steps ############################

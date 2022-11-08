@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Tiff for Java
 
 ############################# Head ############################
 head_title: "eSign Tiff document met Code128 Barcode in Java"
-head_description: "Maak Code128 Barcode Signature en plaats deze op Tiff document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Code128 Barcode Signature en plaats deze op het Tiff document met Java met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Code128 Barcode handtekening voor Tiff document in Java"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Tiff-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Tiff-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Tiff-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

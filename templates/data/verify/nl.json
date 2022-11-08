@@ -15,7 +15,7 @@
       "description": "[{{ProductFullName}}]({{ProductUrl}}) bevat handige functies zoals verificatie van {{Signaturetype}} handtekeningen die bij {{Fileformat}} documenten zijn geplaatst. Gebruik deze mogelijkheid zonder extra code te implementeren.",
       "step_1": "Ten eerste, instantiëren Signature-klasse die als een constructorparameterpad biedt naar een document dat moet worden geverifieerd.",
       "step_2": "Maak vervolgens een nieuw VerifyOptions-object en stel alle vereiste eigenschappen in.",
-      "step_3": "Roep ten slotte Signature's object Verify-methode aan die de instantie van VerifyOptions doorgeeft.",
+      "step_3": "Roep ten slotte de object Verify-methode van Signature aan die de instantie van VerifyOptions doorgeeft.",
       "step_4": "Verwerk vervolgens de verificatieresultaten."
     },
     "title_right": "systeem vereisten",

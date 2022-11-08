@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Provjera {{Signaturetype}} potpisa za {{Fileformat}} datoteke putem {{ProgLang}}",
+    "meta_description": "Upotrijebite samo nekoliko redaka {{ProductName}} koda za provjeru {{Fileformat}} dokumenata i njihovih {{Signaturetype}} potpisa.",
+    "h1": "Provjera potpisa {{Signaturetype}} za {{Fileformat}} datoteke",
+    "h2": "API za {{ProductName}} pruža priliku za provjeru potpisa {{Signaturetype}} u dokumentima {{Fileformat}}. Provjera e-potpisa unutar vaših {{Fileformat}} dokumenata može se izvršiti brzo i jednostavno."
+  },
+  "about": {
+    "title": "Otkrijte nove {{ProductFullName}} API značajke",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API pruža širok raspon načina za obradu brojnih formata dokumenata korištenjem elektroničkih potpisa. Podržane su mnoge vrste digitalnih potpisa kao što su tekstovi, slike, digitalni certifikati, crtični kodovi, QR kodovi, pečati ili metapodaci. Korisnici mogu dodavati, uklanjati, uređivati, potvrđivati ​​ili pretraživati ​​digitalne potpise u PDF-ovima, MS Word dokumentima, MS Excel radnim knjigama, MS PowerPoint prezentacijama, Adobe Photoshop datotekama i raznim formatima slika. Dostupan je nevjerojatan broj dodatnih značajki i postavki."
+  },
+  "steps": {
+    "title_left": "Kako provjeriti valjanost potpisa {{Signaturetype}} u vašem {{Fileformat}} dokumentu",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) uključuje korisne značajke kao što je provjera potpisa {{Signaturetype}} postavljenih na dokumente {{Fileformat}}. Iskoristite ovu priliku bez implementacije dodatnog koda.",
+      "step_1": "Prvo, instancirajte klasu potpisa koja kao parametar konstruktora daje put do dokumenta koji bi trebao biti verificiran.",
+      "step_2": "Drugo, stvorite novi objekt VerifyOptions i postavite sva potrebna svojstva.",
+      "step_3": "Na kraju, pozovite metodu Verify objekta Signature prolazeći instancu VerifyOptions.",
+      "step_4": "Zatim obradite rezultate provjere."
+    },
+    "title_right": "Zahtjevi sustava",
+    "content_right": {
+      "description": "{{ProductFullName}} podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Preuzmite najnoviju verziju {{ProductFullName}} s [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Potpisivanje s {{Signaturetype}} potpisima Demo uživo",
+    "content": "Odmah dodajte različite elektroničke potpise u datoteku {{Fileformat}} tako da posjetite [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) web mjesto."
+  },
+  "more_formats": {
+    "title": "Provjerite druge {{Signaturetype}} potpise koristeći {{ProgLang}}",
+    "content": "Provjera elektroničkih potpisa postavljenih u različite dokumente. Provjerite kvalitetu potpisa u popularnim formatima datoteka kao što je otkriveno u nastavku."
+  }
+}

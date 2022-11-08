@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Webp for C#
 
 ############################# Head ############################
 head_title: "eSign Webp document met Pharmacode Barcode in C#"
-head_description: "Maak Pharmacode Barcode Signature en plaats deze op Webp document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een Pharmacode Barcode Signature en plaats deze op het Webp document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer Pharmacode Barcode handtekening voor Webp document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Webp-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Webp-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Webp-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

@@ -53,7 +53,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Rtf-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Rtf-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Rtf-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |

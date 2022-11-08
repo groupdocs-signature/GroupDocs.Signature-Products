@@ -15,7 +15,7 @@ breadcrumb: Put  Barcode signature on Svg for C#
 
 ############################# Head ############################
 head_title: "eSign Svg document met UPCE Barcode in C#"
-head_description: "Maak UPCE Barcode Signature en plaats deze op Svg document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
+head_description: "Maak een UPCE Barcode Signature en plaats deze op het Svg document met .NET met behulp van een paar regels code. Gebruik de GroupDocs Document Signature API voor het ondertekenen van verschillende bestandsindelingen."
 
 ############################# Header ############################
 title: "Genereer UPCE Barcode handtekening voor Svg document in C#"
@@ -54,7 +54,7 @@ steps:
         
         * Maak een instantie van de Signature-klasse die een Svg-bestand levert dat moet worden ondertekend als pad of geheugenstroom
         * Instantieer SignOptions klasse en stel alle gevraagde gegevens in.
-        * Roep de methode Signature.Sign() op en geef uitvoer Svg-bestand of geheugenstroom
+        * Roep de Signature.Sign()-methode op en geef uitvoer Svg-bestand of geheugenstroom
 
     title_right: " systeem vereisten"
     content_right: |
