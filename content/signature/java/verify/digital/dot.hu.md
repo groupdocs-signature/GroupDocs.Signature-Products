@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Digital aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Digital aláírások érvényesítése a Dot dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Digital aláírások ellenőrzése a Dot dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

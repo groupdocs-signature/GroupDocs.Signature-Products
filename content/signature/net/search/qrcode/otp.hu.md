@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Qrcode aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Qrcode aláírások keresése a Otp fájlban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) néhány egyszerű lépés végrehajtásával megkönnyíti a .NET fejlesztői számára, hogy Qrcode aláírásokat keressenek alkalmazásaik Otp fájljaiban.
         

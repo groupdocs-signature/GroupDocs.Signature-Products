@@ -17,8 +17,8 @@ head_title: "Törölje a Qrcode aláírásokat a Xlsb fájlokból a Java segíts
 head_description: "Az aláírt Xlsb dokumentumokból bizonyos Qrcode aláírások törlése egyszerűen végrehajtható rövid Java kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Qrcode aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Qrcode aláírásokat a {{Fájlformátum}} dokumentumokból. A Qrcode aláírások eltávolításához egyszerű Java kód szükséges."
+title: "Távolítsa el a Qrcode aláírásokat, amelyek a Xlsb fájlokban vannak elhelyezve"
+description: "Törölje a különböző Qrcode aláírásokat a Xlsb dokumentumokból. A Qrcode aláírások eltávolításához egyszerű Java kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

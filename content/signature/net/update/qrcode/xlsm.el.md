@@ -109,7 +109,7 @@ demos:
     enable: true
     title: "Ενημέρωση των υπογραφών Qrcode στις σελίδες του εγγράφου - Ζωντανή επίδειξη"
     content: |
-       Επεξεργαστείτε διάφορες ηλεκτρονικές υπογραφές του εγγράφου {{Μορφή αρχείου}} αυτήν τη στιγμή, μεταβαίνοντας στον ιστότοπο [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
+       Επεξεργαστείτε διάφορες ηλεκτρονικές υπογραφές του εγγράφου Xlsm αυτήν τη στιγμή, μεταβαίνοντας στον ιστότοπο [GroupDocs.Signature App](https://products.groupdocs.app/signature/family).          
 
 ############################# More Formats ############################
 more_formats:

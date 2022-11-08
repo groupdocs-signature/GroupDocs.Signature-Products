@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Digital i Java"
+    title_left: "Steg för att signera Xlsm med Digital i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Xlsm-dokument med Digital-signaturer snabbt och enkelt.
         
@@ -95,7 +95,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Digital Live Demo"
+    title: "Signerar Xlsm dokument med Digital Live Demo"
     content: |
        Signera filen Xlsm med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -104,7 +104,7 @@ more_formats:
     enable: true
     title: "Andra stödda Digital-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Xlsm med andra signaturtyper. Se listan nedan."
     format: 
        
        

@@ -18,7 +18,7 @@ head_description: "Metadata wekî îmzeyên elektronîkî yên veşartî di hund
 
 ############################# Header ############################
 title: "Îmzeyên elektronîkî yên metadata ji bo belgeya Webp bi rêya Java ji bo karanîna hêsan û hêsan in!"
-description: "Belge û peymanên xwe yên {{Pelformat}} bi navnîşên Metadata veşartî re îmze bikin. Ji bo PDF, belgeyên MS Word, pirtûkên xebatê MS Excel, pêşandanên MS PowerPoint û cûrbecûr formatên wêneyê bêyî pirsgirêk û kodkirina zêde Metadata biafirînin."
+description: "Belge û peymanên xwe yên Webp bi navnîşên Metadata veşartî re îmze bikin. Ji bo PDF, belgeyên MS Word, pirtûkên xebatê MS Excel, pêşandanên MS PowerPoint û cûrbecûr formatên wêneyê bêyî pirsgirêk û kodkirina zêde Metadata biafirînin."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -51,9 +51,9 @@ steps:
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) îmzakirina belgeyên Webp bi îmzeyên Metadata zû û bi hêsanî peyda dike.
         
-        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê Webp pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
         * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
-        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+        * Rêbaza Signature.Sign() vexwend ku derana pelê Webp an jî herikîna bîrê derbas dike
 
     title_right: " Pêdiviyên Sîstemê"
     content_right: |
@@ -102,7 +102,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Îmzekirina belgeyên {{Pelformat}} bi Metadata Demoya Zindî"
+    title: "Îmzekirina belgeyên Webp bi Metadata Demoya Zindî"
     content: |
        Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Webp bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.          
 
@@ -111,7 +111,7 @@ more_formats:
     enable: true
     title: "Îmzeyên din ên piştgirî yên Metadata ji bo Java"
     content: |
-        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+        "Her weha hûn dikarin Webp bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
     format: 
        
        

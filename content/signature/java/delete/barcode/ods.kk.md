@@ -14,10 +14,10 @@ breadcrumb: Put Barcode signature on Ods for Java
 
 ############################# Head ############################
 head_title: "Barcode қолтаңбаларды Ods файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Ods құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Ods файлдарына орналастырылған Barcode қолтаңбаларды жойыңыз"
 description: "Ods құжаттарынан әртүрлі Barcode қолтаңбаларды жойыңыз. Barcode қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

@@ -14,10 +14,10 @@ breadcrumb: Put Text signature on Rtf for Java
 
 ############################# Head ############################
 head_title: "Text қолтаңбаларды Rtf файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Text қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Rtf құжаттарынан арнайы Text қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Rtf файлдарына орналастырылған Text қолтаңбаларды жойыңыз"
 description: "Rtf құжаттарынан әртүрлі Text қолтаңбаларды жойыңыз. Text қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

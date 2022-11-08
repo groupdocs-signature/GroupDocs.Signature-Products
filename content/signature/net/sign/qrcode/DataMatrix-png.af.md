@@ -18,8 +18,8 @@ head_title: "eSign Png-dokument met Data Matrix QR-kode in C#"
 head_description: "Skep Data Matrix QR-kode en plaas dit op Png-lêer deur .NET met 'n kort stukkie C#-kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en lêers met QR-kode te e-teken."
 
 ############################# Header ############################
-title: "Genereer Data Matrix QR-kode handtekening vir {{Lêerformaat}} dokument in C#"
-description: "eTeken jou {{Lêerformaat}} dokumente en kontrakte met Data Matrix QR-kode. Genereer QR-kode handtekening vinnig en maklik."
+title: "Genereer Data Matrix QR-kode handtekening vir Png dokument in C#"
+description: "eTeken jou Png dokumente en kontrakte met Data Matrix QR-kode. Genereer QR-kode handtekening vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,9 +48,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Qrcode in C# te onderteken"
+    title_left: "Stappe om Png met Qrcode in C# te onderteken"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om {{Lêerformaat}} dokumente met Qrcode handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om Png dokumente met Qrcode handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Png-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Qrcode Regstreekse Demo"
+    title: "Teken Png dokumente met Qrcode Regstreekse Demo"
     content: |
        Teken nou die Png-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Qrcode handtekeninge vir C#"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Png met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
         
        

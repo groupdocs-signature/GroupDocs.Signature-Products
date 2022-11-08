@@ -18,7 +18,7 @@ head_description: "Gebruik Java om na Metadata-handtekeninge in Jpg-lêers te so
 
 ############################# Header ############################
 title: "Soek vir Metadata handtekeninge in Jpg lêer"
-description: "Java se inheemse API laat toe om vir Metadata handtekeninge te soek in reeds ondertekende Jpg lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Lêerformaat}} dokumente uit deur 'n paar reëls kode te gebruik."
+description: "Java se inheemse API laat toe om vir Metadata handtekeninge te soek in reeds ondertekende Jpg lêers. Voer gevorderde e-handtekeningsoektog binne jou Jpg dokumente uit deur 'n paar reëls kode te gebruik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om te soek vir Metadata handtekeninge in {{Lêerformaat}}"
+    title_left: "Hoe om te soek vir Metadata handtekeninge in Jpg"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) maak dit makliker vir Java-ontwikkelaars om vir Metadata-handtekeninge in Jpg-lêers vanaf hul toepassings te soek deur 'n paar maklike stappe te implementeer.
         

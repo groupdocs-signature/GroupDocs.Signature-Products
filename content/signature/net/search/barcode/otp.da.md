@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Barcode signatures at Otp with C#
 
 ############################# Head ############################
-head_title: "Søg efter Barcode signaturer i filen {{Filformat}} i C#"
+head_title: "Søg efter Barcode signaturer i filen Otp i C#"
 head_description: "Brug .NET til at søge efter Barcode-signaturer i Otp-filer ved hjælp af et par linjer kode."
 
 ############################# Header ############################
-title: "Søg efter Barcode-signaturer i filen {{Filformat}}"
-description: ".NET native API gør det muligt at søge efter Barcode-signaturer i allerede signerede Otp-filer. Udfør avanceret e-signatursøgning i dine {{Filformat}} dokumenter ved hjælp af et par linjer kode."
+title: "Søg efter Barcode-signaturer i filen Otp"
+description: ".NET native API gør det muligt at søge efter Barcode-signaturer i allerede signerede Otp-filer. Udfør avanceret e-signatursøgning i dine Otp dokumenter ved hjælp af et par linjer kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan søger du efter Barcode-signaturer i {{Filformat}}"
+    title_left: "Sådan søger du efter Barcode-signaturer i Otp"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gør det nemmere for .NET-udviklere at søge efter Barcode-signaturer i Otp-filer fra deres applikationer ved at implementere nogle få nemme trin.
         

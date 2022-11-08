@@ -99,7 +99,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Text allekirjoitukset ohjelmalle Java"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Xlsx muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
        
        

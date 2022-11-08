@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Dotx for C#
 
 ############################# Head ############################
-head_title: "eSign {{ Fileformat }} doiciméad le {{ Codetype }} Cód QR in C#"
+head_title: "eSign Dotx doiciméad le G S1 Data Matrix Cód QR in C#"
 head_description: "Cruthaigh G S1 Data Matrix Cód QR agus cuir ar chomhad Dotx é ag úsáid .NET le píosa gairid de chód C#. Bain úsáid as an GroupDocs Document Signature API chun do dhoiciméid agus do chomhaid ghnó a ríomhshíniú le Cód QR."
 
 ############################# Header ############################
 title: "Gin síniú an Chóid QR G S1 Data Matrix don doiciméad Dotx in C#"
-description: "eSínigh do dhoiciméid agus conarthaí Dotx le {{ Codetype}} Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
+description: "eSínigh do dhoiciméid agus conarthaí Dotx le G S1 Data Matrix Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -54,7 +54,7 @@ steps:
         
         * Cruthaigh sampla d'aicme Sínithe ag soláthar Dotx comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne
         * Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.
-        * Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith
+        * Iarr ar an modh Signature.Sign() aschuir Dotx comhad nó sruth cuimhne a rith
 
     title_right: " Riachtanais Chórais"
     content_right: |
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Ag síniú Dotx doiciméad le {{ Signaturetype}} Taispeántas Beo"
+    title: "Ag síniú Dotx doiciméad le Qrcode Taispeántas Beo"
     content: |
        Sínigh Dotx comhad le sínithe éagsúla faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Saor in aisce taispeána ar líne ag fanacht leat.
 

@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Text aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Text aláírások érvényesítése a Odt dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Text aláírások ellenőrzése a Odt dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

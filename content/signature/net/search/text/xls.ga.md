@@ -18,7 +18,7 @@ head_description: "Úsáid .NET chun sínithe Text a chuardach i gcomhaid Xls ag
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Text sínithe i gcomhad Xls"
-description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Xls ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar Text sínithe i gcomhaid Xls atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Xls ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

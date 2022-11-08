@@ -18,7 +18,7 @@ head_description: "Gebruik Java om na Text-handtekeninge in Xlsb-lêers te soek 
 
 ############################# Header ############################
 title: "Soek vir Text handtekeninge in Xlsb lêer"
-description: "Java se inheemse API laat toe om vir Text handtekeninge te soek in reeds ondertekende Xlsb lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Lêerformaat}} dokumente uit deur 'n paar reëls kode te gebruik."
+description: "Java se inheemse API laat toe om vir Text handtekeninge te soek in reeds ondertekende Xlsb lêers. Voer gevorderde e-handtekeningsoektog binne jou Xlsb dokumente uit deur 'n paar reëls kode te gebruik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om te soek vir Text handtekeninge in {{Lêerformaat}}"
+    title_left: "Hoe om te soek vir Text handtekeninge in Xlsb"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) maak dit makliker vir Java-ontwikkelaars om vir Text-handtekeninge in Xlsb-lêers vanaf hul toepassings te soek deur 'n paar maklike stappe te implementeer.
         

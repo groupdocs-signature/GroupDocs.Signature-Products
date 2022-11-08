@@ -14,11 +14,11 @@ breadcrumb: Put Image signature on Ppsm for C#
 
 ############################# Head ############################
 head_title: "Slet Image signaturer fra Ppsm filer via C#"
-head_description: "Sletning af specifikke Image-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort .NET-kode."
+head_description: "Sletning af specifikke Image-signaturer fra signerede Ppsm-dokumenter kan udføres nemt med en kort .NET-kode."
 
 ############################# Header ############################
-title: "Fjern Image-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Image-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Image signaturer kræver simpel C# kode."
+title: "Fjern Image-signaturer, der er placeret i Ppsm-filer"
+description: "Slet forskellige Image-signaturer fra Ppsm-dokumenter. Fjernelse af Image signaturer kræver simpel C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Image-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Image-signaturer fra dit Ppsm-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Image signaturer med et par linjer kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde Ppsm dokumenter for Image signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

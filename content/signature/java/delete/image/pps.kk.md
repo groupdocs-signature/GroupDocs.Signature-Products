@@ -14,10 +14,10 @@ breadcrumb: Put Image signature on Pps for Java
 
 ############################# Head ############################
 head_title: "Image қолтаңбаларды Pps файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Pps құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Pps файлдарына орналастырылған Image қолтаңбаларды жойыңыз"
 description: "Pps құжаттарынан әртүрлі Image қолтаңбаларды жойыңыз. Image қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

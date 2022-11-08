@@ -14,10 +14,10 @@ breadcrumb: Put Digital signature on Doc for C#
 
 ############################# Head ############################
 head_title: "Digital қолтаңбаларды Doc файлдарынан C# арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Doc құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Doc файлдарына орналастырылған Digital қолтаңбаларды жойыңыз"
 description: "Doc құжаттарынан әртүрлі Digital қолтаңбаларды жойыңыз. Digital қолтаңбаларын жою қарапайым C# кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

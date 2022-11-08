@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Otpን በ{{Signturetype}} በJava ለመፈረም ደረጃዎች"
+    title_left: "Otpን በMetadata በJava ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የOtp ሰነዶችን በMetadata ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -103,7 +103,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለJava"
+    title: "ሌሎች የሚደገፉ የMetadata ፊርማዎች ለJava"
     content: |
         "እንዲሁም Otpን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

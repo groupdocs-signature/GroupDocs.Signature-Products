@@ -2,17 +2,17 @@
   "content": {
     "meta_title": "Ta bort {{Signaturetype}}-signaturer från {{Fileformat}}-filer via {{ProgLang}}",
     "meta_description": "Radering av specifika {{Signaturetype}}-signaturer från signerade {{Fileformat}}-dokument kan enkelt utföras med kort {{ProductName}}-kod.",
-    "h1": "Ta bort {{Signaturetype}}-signaturer som är placerade i {{Filformat}}-filer",
-    "h2": "Ta bort olika {{Signaturetype}}-signaturer från {{Filformat}}-dokument. Att ta bort {{Signaturetype}}-signaturer kräver enkel {{ProgLang}}-kod."
+    "h1": "Ta bort {{Signaturetype}}-signaturer som är placerade i {{Fileformat}}-filer",
+    "h2": "Ta bort olika {{Signaturetype}}-signaturer från {{Fileformat}}-dokument. Att ta bort {{Signaturetype}}-signaturer kräver enkel {{ProgLang}}-kod."
   },
   "about": {
     "title": "Få information om {{ProductFullName}} API-funktioner",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) API ger många sätt att behandla dina dokument med elektroniska signaturer. Digitala signaturer som texter, bilder, digitala certifikat, streckkoder, QR-koder, stämplar eller metadata finns tillgängliga. Kunder har möjlighet att lägga till, ta bort, uppdatera, verifiera eller söka digitala signaturer i PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer, Adobe Photoshop-filer och olika bildformat. Ett stort antal användbara funktioner och inställningar tillhandahålls."
   },
   "steps": {
-    "title_left": "Hur man tar bort {{Signaturetype}}-signaturer från ditt {{Filformat}}-dokument",
+    "title_left": "Hur man tar bort {{Signaturetype}}-signaturer från ditt {{Fileformat}}-dokument",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från {{Signaturetype}} signaturer med några rader kod.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tillhandahåller användbar funktion för att rensa {{Fileformat}} dokument från {{Signaturetype}} signaturer med några rader kod.",
       "step_1": "Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.",
       "step_2": "Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.",
       "step_3": "Efter det, åberopa Delete-metoden som skickar signaturobjekt som måste tas bort.",
@@ -35,3 +35,146 @@
     "content": "Radering av e-signaturer som lagts till i olika dokumentformat. Ta bort signaturer snabbt utan extra kod."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

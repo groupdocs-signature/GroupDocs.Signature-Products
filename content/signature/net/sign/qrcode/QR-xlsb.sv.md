@@ -18,8 +18,8 @@ head_title: "eSign Xlsb-dokument med QR QR-kod i C#"
 head_description: "Skapa QR QR-kod och lägg den i filen Xlsb med .NET med en kort bit av C#-koden. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med QR-kod."
 
 ############################# Header ############################
-title: "Generera QR QR-kodsignatur för {{Filformat}} dokument i C#"
-description: "esignera dina {{Filformat}}-dokument och kontrakt med QR QR-kod. Generera QR-kodsignatur snabbt och enkelt."
+title: "Generera QR QR-kodsignatur för Xlsb dokument i C#"
+description: "esignera dina Xlsb-dokument och kontrakt med QR QR-kod. Generera QR-kodsignatur snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Qrcode i C#"
+    title_left: "Steg för att signera Xlsb med Qrcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ger möjlighet att signera Xlsb-dokument med Qrcode-signaturer snabbt och enkelt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Qrcode Live Demo"
+    title: "Signerar Xlsb dokument med Qrcode Live Demo"
     content: |
        Signera filen Xlsb med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andra stödda Qrcode-signaturer för C#"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Xlsb med andra signaturtyper. Se listan nedan."
     format: 
         
        

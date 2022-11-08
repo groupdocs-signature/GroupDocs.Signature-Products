@@ -17,7 +17,7 @@ head_title: "Frissítse a Xltx fájlokban elhelyezett Qrcode aláírásokat a C#
 head_description: "Használjon egyszerű és könnyen érthető .NET kódot a Qrcode aláírások frissítéséhez az aláírt Xltx dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Qrcode aláírásokat"
+title: "Szerkessze és frissítse a Xltx fájlokban elhelyezett Qrcode aláírásokat"
 description: "A(z) .NET API a(z) Qrcode aláírások frissítését biztosítja a(z) Xltx dokumentumokban. Frissítse az e-aláírásokat Xltx dokumentumaiban néhány soros C# kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Qrcode aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Qrcode aláírások módosítása a Xltx dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Qrcode aláírások frissítése a Xltx dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

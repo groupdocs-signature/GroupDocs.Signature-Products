@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Qrcode signaturer for Svg filer via Java"
 head_description: "Brug kun et par linjer med Java-kode til at bekræfte Svg-dokumenter og deres Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturbekræftelse for {{Filformat}} filer"
-description: "API for Java giver mulighed for at bekræfte Qrcode-signaturer på Svg-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Qrcode signaturbekræftelse for Svg filer"
+description: "API for Java giver mulighed for at bekræfte Qrcode-signaturer på Svg-dokumenter. Bekræftelse af e-signaturer i dine Svg-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Qrcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Qrcode-signaturer i dit Svg-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner såsom bekræftelse af Qrcode signaturer placeret på Svg dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

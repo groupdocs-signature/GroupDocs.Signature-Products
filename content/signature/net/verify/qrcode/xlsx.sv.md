@@ -17,8 +17,8 @@ head_title: "Verifiering av Qrcode-signaturer för Xlsx-filer via C#"
 head_description: "Använd bara några rader med .NET-kod för att verifiera Xlsx-dokument och deras Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturverifiering för {{Filformat}}-filer"
-description: "API för .NET ger möjlighet att verifiera Qrcode-signaturer i Xlsx-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Qrcode signaturverifiering för Xlsx-filer"
+description: "API för .NET ger möjlighet att verifiera Qrcode-signaturer i Xlsx-dokument. Verifiering av e-signaturer i dina Xlsx-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

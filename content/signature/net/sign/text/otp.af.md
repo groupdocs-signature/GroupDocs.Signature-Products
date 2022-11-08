@@ -17,7 +17,7 @@ head_title: "Skep teks elektroniese handtekeninge na Otp lêer met C#"
 head_description: "Plaas Text eSignature op Otp lêer vir .NET deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API om dosyne lêerformate te onderteken."
 
 ############################# Header ############################
-title: "Teken {{Lêerformaat}} lêers met Text handtekeninge in C#"
+title: "Teken Otp lêers met Text handtekeninge in C#"
 description: "Hoe om Text handtekening by te voeg met 'n paar reëls van .NET kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Text in C# te onderteken"
+    title_left: "Stappe om Otp met Text in C# te onderteken"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om {{Lêerformaat}} dokumente met Text handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om Otp dokumente met Text handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Otp-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -92,7 +92,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Text Regstreekse Demo"
+    title: "Teken Otp dokumente met Text Regstreekse Demo"
     content: |
        Teken nou die Otp-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -101,7 +101,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Text handtekeninge vir C#"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Otp met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

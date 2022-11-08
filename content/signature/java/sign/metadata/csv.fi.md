@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Metadata allekirjoitukset ohjelmalle Java"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Csv muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
        
        

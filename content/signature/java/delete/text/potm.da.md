@@ -14,11 +14,11 @@ breadcrumb: Put Text signature on Potm for Java
 
 ############################# Head ############################
 head_title: "Slet Text signaturer fra Potm filer via Java"
-head_description: "Sletning af specifikke Text-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort Java-kode."
+head_description: "Sletning af specifikke Text-signaturer fra signerede Potm-dokumenter kan udføres nemt med en kort Java-kode."
 
 ############################# Header ############################
-title: "Fjern Text-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Text-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Text signaturer kræver simpel Java kode."
+title: "Fjern Text-signaturer, der er placeret i Potm-filer"
+description: "Slet forskellige Text-signaturer fra Potm-dokumenter. Fjernelse af Text signaturer kræver simpel Java kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Text-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Text-signaturer fra dit Potm-dokument"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Text signaturer med et par linjer kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde Potm dokumenter for Text signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

@@ -8,7 +8,7 @@
   "digital-content": {
     "meta_title": "Sínithe leictreonacha digiteacha á gcur le comhad {{Fileformat}} le {{ProgLang}}",
     "meta_description": "Cuir Síniú Digiteach ar chomhad {{Fileformat}} le haghaidh {{ProductName}} ag baint úsáide as cúpla líne de chód. Úsáid an GroupDocs Document Signature API chun mórán formáidí comhaid a shíniú.",
-    "h1": "eSínigh {{Fileformat}} comhaid le {{ Signaturetype}} sínithe in {{ProgLang}}",
+    "h1": "eSínigh {{Fileformat}} comhaid le {{Signaturetype}} sínithe in {{ProgLang}}",
     "h2": "Conas {{Signaturetype}} síniú a chur leis le cúpla líne de chód {{ProductName}}"
   },
   "image-content": {
@@ -24,10 +24,10 @@
     "h2": "eSigh do dhoiciméid agus do chonarthaí {{Fileformat}} le hiontrálacha Meiteashonraí folaithe. Gin Meiteashonraí do PDFs, doiciméid MS Word, leabhair oibre MS Excel, cur i láthair MS PowerPoint agus formáidí íomhá éagsúla gan aon fhadhbanna agus códú breise."
   },
   "qrcode-content": {
-    "meta_title": "eSign {{ Fileformat }} doiciméad le {{ Codetype }} Cód QR in {{ProgLang}}",
+    "meta_title": "eSign {{Fileformat}} doiciméad le {{Codetype}} Cód QR in {{ProgLang}}",
     "meta_description": "Cruthaigh {{Codetype}} Cód QR agus cuir ar chomhad {{Fileformat}} é ag úsáid {{ProductName}} le píosa gairid de chód {{ProgLang}}. Bain úsáid as an GroupDocs Document Signature API chun do dhoiciméid agus do chomhaid ghnó a ríomhshíniú le Cód QR.",
     "h1": "Gin síniú an Chóid QR {{Codetype}} don doiciméad {{Fileformat}} in {{ProgLang}}",
-    "h2": "eSínigh do dhoiciméid agus conarthaí {{Fileformat}} le {{ Codetype}} Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
+    "h2": "eSínigh do dhoiciméid agus conarthaí {{Fileformat}} le {{Codetype}} Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
   },
   "text-content": {
     "meta_title": "Cruthaigh sínithe leictreonacha Téacs chun {{Fileformat}} a chomhdú le {{ProgLang}}",
@@ -74,7 +74,7 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "digital-steps": {
@@ -83,7 +83,7 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "image-steps": {
@@ -92,7 +92,7 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "metadata-steps": {
@@ -101,7 +101,7 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "qrcode-steps": {
@@ -110,7 +110,7 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "text-steps": {
@@ -119,11 +119,11 @@
       "description": "Soláthraíonn [{{ProductFullName}}]({{ProductUrl}}) cumas chun doiciméid {{Fileformat}} a shíniú le sínithe {{Signaturetype}} go tapa agus go héasca.",
       "step_1": "Cruthaigh sampla d'aicme Sínithe ag soláthar {{Fileformat}} comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne",
       "step_2": "Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.",
-      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith"
+      "step_3": "Iarr ar an modh Signature.Sign() aschuir {{Fileformat}} comhad nó sruth cuimhne a rith"
     }
   },
   "demos": {
-    "title": "Ag síniú {{Fileformat}} doiciméad le {{ Signaturetype}} Taispeántas Beo",
+    "title": "Ag síniú {{Fileformat}} doiciméad le {{Signaturetype}} Taispeántas Beo",
     "content": "Sínigh {{Fileformat}} comhad le sínithe éagsúla faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Saor in aisce taispeána ar líne ag fanacht leat."
   },
   "more_formats": {
@@ -228,3 +228,146 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,8 @@
 {
   "content": {
-    "meta_title": "በ{{ProgLang}} ውስጥ በ{{Fileformat}} ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ",
+    "meta_title": "በ{{ProgLang}} ውስጥ በ{{Fileformat}} ፋይል ውስጥ የ{{Signaturetype}} ፊርማዎችን ይፈልጉ",
     "meta_description": "ጥቂት የኮድ መስመሮችን በመጠቀም በ{{Fileformat}} ፋይሎች ውስጥ የ{{Signaturetype}} ፊርማዎችን ለመፈለግ {{ProductName}}ን ይጠቀሙ።",
-    "h1": "በ{{Fileformat}} ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ",
+    "h1": "በ{{Fileformat}} ፋይል ውስጥ የ{{Signaturetype}} ፊርማዎችን ይፈልጉ",
     "h2": "{{ProductName}} ቤተኛ ኤፒአይ አስቀድሞ በተፈረሙ {{Fileformat}} ፋይሎች ውስጥ የ{{Signaturetype}} ፊርማዎችን ለመፈለግ ይፈቅዳል። ጥቂት የኮድ መስመሮችን በመጠቀም በ{{Fileformat}} ሰነዶችዎ ውስጥ የላቀ የኢ-ፊርማ ፍለጋን ያድርጉ።"
   },
   "about": {
@@ -10,7 +10,7 @@
     "content": "[{{ProductFullName}}]({{ProductUrl}}) እንደ ጽሁፎች፣ ምስሎች፣ ዲጂታል ሰርተፊኬቶች፣ ባርኮዶች፣ QR-ኮዶች፣ ማህተሞች ወይም ሜታዳታ ያሉ የተለያዩ የፊርማ አይነቶችን በመጠቀም ሰነዶችን ለመስራት {{ProductName}} ኤፒአይን ያቀርባል። ተጠቃሚዎች እንደ አስፈላጊነቱ የፊርማ ንብረቶችን ለማበጀት ተጨማሪ ድጋፍ በፒዲኤፍ፣ MS Word ሰነዶች፣ MS ኤክሴል የስራ ደብተሮች፣ MS PowerPoint አቀራረቦች፣ አዶቤ ፎቶሾፕ ፋይሎች እና የተለያዩ የምስል ቅርጸቶች ውስጥ የኤሌክትሮኒክ ፊርማዎችን ማከል፣ መሰረዝ፣ ማዘመን፣ ማረጋገጥ ወይም መፈለግ ይችላሉ።"
   },
   "steps": {
-    "title_left": "በ{{Fileformat}} ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል",
+    "title_left": "በ{{Fileformat}} ውስጥ የ{{Signaturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ለ{{ProductName}} ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በ{{Fileformat}} ፋይሎች ውስጥ ፊርማዎችን መፈለግ ቀላል ያደርገዋል።",
       "step_1": "አዲስ የፊርማ ክፍል ይፍጠሩ እና የምንጭ ሰነድ መንገድን እንደ ግንበኛ መለኪያ ይለፉ።",
@@ -27,11 +27,154 @@
     }
   },
   "demos": {
-    "title": "የ{{Signturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ",
+    "title": "የ{{Signaturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ",
     "content": "የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት ሰነዱን አሁን በ{{Fileformat}} ፋይሎች ላይ የተለያዩ የኤሌክትሮኒክ ፊርማዎችን ይፈልጉ።"
   },
   "more_formats": {
-    "title": "{{ProgLang}}ን በመጠቀም ሌሎች {{የፊርማ አይነት}} ፊርማዎችን ይፈልጉ",
+    "title": "{{ProgLang}}ን በመጠቀም ሌሎች {{Signaturetype}} ፊርማዎችን ይፈልጉ",
     "content": "የኤሌክትሮኒክ ፊርማዎች በተለያዩ ሰነዶች ውስጥ ይፈልጉ. ከታች እንደሚታየው ከታዋቂው የፋይል ቅርጸቶች ፊርማዎችን ያግኙ።"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

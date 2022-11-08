@@ -17,7 +17,7 @@ head_title: "Frissítse a Xlsm fájlokban elhelyezett Text aláírásokat a Java
 head_description: "Használjon egyszerű és könnyen érthető Java kódot a Text aláírások frissítéséhez az aláírt Xlsm dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Text aláírásokat"
+title: "Szerkessze és frissítse a Xlsm fájlokban elhelyezett Text aláírásokat"
 description: "A(z) Java API a(z) Text aláírások frissítését biztosítja a(z) Xlsm dokumentumokban. Frissítse az e-aláírásokat Xlsm dokumentumaiban néhány soros Java kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Text aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Text aláírások módosítása a Xlsm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Text aláírások frissítése a Xlsm dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

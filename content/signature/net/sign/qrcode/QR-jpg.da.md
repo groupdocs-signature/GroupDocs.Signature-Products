@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Jpg for C#
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med QR QR-kode i C#"
+head_title: "eSign Jpg-dokument med QR QR-kode i C#"
 head_description: "Opret QR QR-kode og læg den i Jpg-filen ved hjælp af .NET med et kort stykke C#-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med QR-kode."
 
 ############################# Header ############################
-title: "Generer QR QR-kodesignatur for {{Filformat}} dokument i C#"
-description: "eSignér dine {{Filformat}}-dokumenter og kontrakter med QR QR-kode. Generer QR-kodesignatur hurtigt og nemt."
+title: "Generer QR QR-kodesignatur for Jpg dokument i C#"
+description: "eSignér dine Jpg-dokumenter og kontrakter med QR QR-kode. Generer QR-kodesignatur hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Qrcode i C#"
+    title_left: "Trin til at signere Jpg med Qrcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver mulighed for at signere Jpg dokumenter med Qrcode signaturer hurtigt og nemt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Qrcode Live Demo"
+    title: "Signering af Jpg dokumenter med Qrcode Live Demo"
     content: |
        Signer Jpg-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Qrcode-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Jpg med andre signaturtyper. Se venligst listen nedenfor."
     format: 
         
        

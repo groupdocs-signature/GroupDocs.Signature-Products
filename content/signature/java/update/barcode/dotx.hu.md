@@ -17,7 +17,7 @@ head_title: "Frissítse a Dotx fájlokban elhelyezett Barcode aláírásokat a J
 head_description: "Használjon egyszerű és könnyen érthető Java kódot a Barcode aláírások frissítéséhez az aláírt Dotx dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Barcode aláírásokat"
+title: "Szerkessze és frissítse a Dotx fájlokban elhelyezett Barcode aláírásokat"
 description: "A(z) Java API a(z) Barcode aláírások frissítését biztosítja a(z) Dotx dokumentumokban. Frissítse az e-aláírásokat Dotx dokumentumaiban néhány soros Java kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Barcode aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Barcode aláírások módosítása a Dotx dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Barcode aláírások frissítése a Dotx dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

@@ -14,11 +14,11 @@ breadcrumb: Put Text signature on Pdf for C#
 
 ############################# Head ############################
 head_title: "Opdater Text signaturer placeret på Pdf filer med C#"
-head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Text-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Text-signaturer i signerede Pdf-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Text signaturer placeret på {{Filformat}} filer"
-description: "API for .NET giver funktionalitet til Text signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med C# kode hurtigt og nemt."
+title: "Rediger og opdater Text signaturer placeret på Pdf filer"
+description: "API for .NET giver funktionalitet til Text signaturer, der opdateres i Pdf dokumenter. Opdater e-signaturer i dine Pdf dokumenter med et par linjer med C# kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Text-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Text-signaturer i dit Pdf-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner som f.eks. opdatering af Text signaturer placeret på Pdf dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Odp for C#
 
 ############################# Head ############################
 head_title: "Opdater Qrcode signaturer placeret på Odp filer med C#"
-head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Qrcode-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Qrcode-signaturer i signerede Odp-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Qrcode signaturer placeret på {{Filformat}} filer"
-description: "API for .NET giver funktionalitet til Qrcode signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med C# kode hurtigt og nemt."
+title: "Rediger og opdater Qrcode signaturer placeret på Odp filer"
+description: "API for .NET giver funktionalitet til Qrcode signaturer, der opdateres i Odp dokumenter. Opdater e-signaturer i dine Odp dokumenter med et par linjer med C# kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Qrcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Qrcode-signaturer i dit Odp-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner som f.eks. opdatering af Qrcode signaturer placeret på Odp dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

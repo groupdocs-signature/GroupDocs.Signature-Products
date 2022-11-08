@@ -14,11 +14,11 @@ breadcrumb: Put Image signature on Xltm for Java
 
 ############################# Head ############################
 head_title: "Dateer Image-handtekeninge wat by Xltm-lêers geplaas is op met Java"
-head_description: "Gebruik eenvoudig en maklik om Java-kode te verstaan ​​vir opdatering van Image-handtekeninge in ondertekende {{Lêerformaat}}-dokumente."
+head_description: "Gebruik eenvoudig en maklik om Java-kode te verstaan ​​vir opdatering van Image-handtekeninge in ondertekende Xltm-dokumente."
 
 ############################# Header ############################
 title: "Wysig en werk Image-handtekeninge op wat by Xltm-lêers geplaas is"
-description: "API vir Java verskaf funksionaliteit vir Image handtekeninge wat by {{Lêerformaat}} dokumente opdateer. Dateer e-handtekeninge binne jou {{Lêerformaat}} dokumente op met 'n paar reëls van Java kode vinnig en maklik."
+description: "API vir Java verskaf funksionaliteit vir Image handtekeninge wat by Xltm dokumente opdateer. Dateer e-handtekeninge binne jou Xltm dokumente op met 'n paar reëls van Java kode vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Image-handtekeninge in jou {{Lêerformaat}}-dokument te verander"
+    title_left: "Hoe om Image-handtekeninge in jou Xltm-dokument te verander"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) sluit nuttige kenmerke in soos opdatering van Image-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) sluit nuttige kenmerke in soos opdatering van Image-handtekeninge wat by Xltm-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
         
         * Om mee te begin, skep Signature-objek wat as 'n konstruktor-parameterpad na 'n dokument wat veronderstel is om opgedateer te word, deurgaan.
         * Instansieer dan 'n toepaslike spesifieke handtekeningvoorwerp en stel sy identifiseerder en eienskappe op wat verander moet word.

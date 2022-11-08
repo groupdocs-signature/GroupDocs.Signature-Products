@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Image signatures at Dot with C#
 
 ############################# Head ############################
-head_title: "Sök efter Image-signaturer i filen {{Filformat}} i C#"
+head_title: "Sök efter Image-signaturer i filen Dot i C#"
 head_description: "Använd .NET för att söka efter Image-signaturer i Dot-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Image-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för .NET gör det möjligt att söka efter Image-signaturer i redan signerade Dot-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Image-signaturer i filen Dot"
+description: "Inbyggt API för .NET gör det möjligt att söka efter Image-signaturer i redan signerade Dot-filer. Utför avancerad e-signatursökning i dina Dot-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Image-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Image-signaturer i Dot"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gör det enklare för .NET-utvecklare att söka efter Image-signaturer i Dot-filer från sina applikationer genom att implementera några enkla steg.
         

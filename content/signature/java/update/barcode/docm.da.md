@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Docm for Java
 
 ############################# Head ############################
 head_title: "Opdater Barcode signaturer placeret på Docm filer med Java"
-head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Barcode-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Barcode-signaturer i signerede Docm-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Barcode signaturer placeret på {{Filformat}} filer"
-description: "API for Java giver funktionalitet til Barcode signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med Java kode hurtigt og nemt."
+title: "Rediger og opdater Barcode signaturer placeret på Docm filer"
+description: "API for Java giver funktionalitet til Barcode signaturer, der opdateres i Docm dokumenter. Opdater e-signaturer i dine Docm dokumenter med et par linjer med Java kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Barcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Barcode-signaturer i dit Docm-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner som f.eks. opdatering af Barcode signaturer placeret på Docm dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

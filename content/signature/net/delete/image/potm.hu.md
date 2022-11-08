@@ -17,8 +17,8 @@ head_title: "Törölje a Image aláírásokat a Potm fájlokból a C# segítség
 head_description: "Az aláírt Potm dokumentumokból bizonyos Image aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Image aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Image aláírásokat a {{Fájlformátum}} dokumentumokból. A Image aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Image aláírásokat, amelyek a Potm fájlokban vannak elhelyezve"
+description: "Törölje a különböző Image aláírásokat a Potm dokumentumokból. A Image aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

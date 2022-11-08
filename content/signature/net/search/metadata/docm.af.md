@@ -18,7 +18,7 @@ head_description: "Gebruik .NET om na Metadata-handtekeninge in Docm-lêers te s
 
 ############################# Header ############################
 title: "Soek vir Metadata handtekeninge in Docm lêer"
-description: ".NET se inheemse API laat toe om vir Metadata handtekeninge te soek in reeds ondertekende Docm lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Lêerformaat}} dokumente uit deur 'n paar reëls kode te gebruik."
+description: ".NET se inheemse API laat toe om vir Metadata handtekeninge te soek in reeds ondertekende Docm lêers. Voer gevorderde e-handtekeningsoektog binne jou Docm dokumente uit deur 'n paar reëls kode te gebruik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om te soek vir Metadata handtekeninge in {{Lêerformaat}}"
+    title_left: "Hoe om te soek vir Metadata handtekeninge in Docm"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) maak dit makliker vir .NET-ontwikkelaars om vir Metadata-handtekeninge in Docm-lêers vanaf hul toepassings te soek deur 'n paar maklike stappe te implementeer.
         

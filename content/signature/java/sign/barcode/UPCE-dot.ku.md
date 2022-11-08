@@ -19,7 +19,7 @@ head_description: "Îmzeya barkodê ya UPCE biafirîne û bi çend rêzikên kod
 
 ############################# Header ############################
 title: "Di Java de ji bo belgeya UPCE îmzeya barkodê çêbike"
-description: "Belgeyên karsaziya xwe yên {{Pelformat}} bi UPCE Barkodê îmze bikin. Bi çend rêzikên kodê re zû û bi hêsanî îmzeya Barkodê biafirînin da ku vebijarkên îmzekirinê saz bikin."
+description: "Belgeyên karsaziya xwe yên Dot bi UPCE Barkodê îmze bikin. Bi çend rêzikên kodê re zû û bi hêsanî îmzeya Barkodê biafirînin da ku vebijarkên îmzekirinê saz bikin."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -52,9 +52,9 @@ steps:
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) îmzakirina belgeyên Dot bi îmzeyên Barcode zû û bi hêsanî peyda dike.
         
-        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê Dot pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
         * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
-        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+        * Rêbaza Signature.Sign() vexwend ku derana pelê Dot an jî herikîna bîrê derbas dike
 
     title_right: " Pêdiviyên Sîstemê"
     content_right: |
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Îmzekirina belgeyên {{Pelformat}} bi Barcode Demoya Zindî"
+    title: "Îmzekirina belgeyên Dot bi Barcode Demoya Zindî"
     content: |
        Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Dot bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Îmzeyên din ên piştgirî yên Barcode ji bo Java"
     content: |
-        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+        "Her weha hûn dikarin Dot bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
     format: 
         
        

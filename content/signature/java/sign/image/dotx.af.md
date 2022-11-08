@@ -17,7 +17,7 @@ head_title: "Voeg Image handtekeninge by Dotx lêer met Java"
 head_description: "Plaas Image Handtekening op Dotx lêer vir Java deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API om dosyne lêerformate te onderteken."
 
 ############################# Header ############################
-title: "Teken {{Lêerformaat}} lêers met Image handtekeninge in Java"
+title: "Teken Dotx lêers met Image handtekeninge in Java"
 description: "Hoe om Image handtekening by te voeg met 'n paar reëls van Java kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Image in Java te onderteken"
+    title_left: "Stappe om Dotx met Image in Java te onderteken"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om {{Lêerformaat}} dokumente met Image handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om Dotx dokumente met Image handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Dotx-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -91,7 +91,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Image Regstreekse Demo"
+    title: "Teken Dotx dokumente met Image Regstreekse Demo"
     content: |
        Teken nou die Dotx-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -100,7 +100,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Image handtekeninge vir Java"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Dotx met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

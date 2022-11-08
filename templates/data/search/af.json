@@ -3,14 +3,14 @@
     "meta_title": "Soek vir {{Signaturetype}} handtekeninge in {{Fileformat}} lêer in {{ProgLang}}",
     "meta_description": "Gebruik {{ProductName}} om na {{Signaturetype}}-handtekeninge in {{Fileformat}}-lêers te soek deur 'n paar reëls kode te gebruik.",
     "h1": "Soek vir {{Signaturetype}} handtekeninge in {{Fileformat}} lêer",
-    "h2": "{{ProductName}} se inheemse API laat toe om vir {{Signaturetype}} handtekeninge te soek in reeds ondertekende {{Fileformat}} lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Lêerformaat}} dokumente uit deur 'n paar reëls kode te gebruik."
+    "h2": "{{ProductName}} se inheemse API laat toe om vir {{Signaturetype}} handtekeninge te soek in reeds ondertekende {{Fileformat}} lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Fileformat}} dokumente uit deur 'n paar reëls kode te gebruik."
   },
   "about": {
     "title": "Oor {{ProductFullName}} API",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) verskaf {{ProductName}} API vir die verwerking van dokumente met behulp van verskeie handtekeningtipes soos tekste, beelde, digitale sertifikate, strepieskodes, QR-kodes, seëls of metadata. Gebruikers kan elektroniese handtekeninge byvoeg, uitvee, opdateer, verifieer of soek binne PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings, Adobe Photoshop-lêers en verskeie beeldformate, met bykomende ondersteuning vir die pasmaak van handtekeningeienskappe soos benodig."
   },
   "steps": {
-    "title_left": "Hoe om te soek vir {{Signaturetype}} handtekeninge in {{Lêerformaat}}",
+    "title_left": "Hoe om te soek vir {{Signaturetype}} handtekeninge in {{Fileformat}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) maak dit makliker vir {{ProductName}}-ontwikkelaars om vir {{Signaturetype}}-handtekeninge in {{Fileformat}}-lêers vanaf hul toepassings te soek deur 'n paar maklike stappe te implementeer.",
       "step_1": "Skep 'n nuwe instansie van Signature-klas en gee brondokumentpad as 'n konstruktorparameter deur.",
@@ -35,3 +35,146 @@
     "content": "Elektroniese handtekeninge soek in verskeie dokumente. Soek handtekeninge van die een van die gewilde lêerformate soos hieronder getoon."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,11 +14,11 @@ breadcrumb: Put Text signature on Pps for Java
 
 ############################# Head ############################
 head_title: "Opdater Text signaturer placeret på Pps filer med Java"
-head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Text-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Text-signaturer i signerede Pps-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Text signaturer placeret på {{Filformat}} filer"
-description: "API for Java giver funktionalitet til Text signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med Java kode hurtigt og nemt."
+title: "Rediger og opdater Text signaturer placeret på Pps filer"
+description: "API for Java giver funktionalitet til Text signaturer, der opdateres i Pps dokumenter. Opdater e-signaturer i dine Pps dokumenter med et par linjer med Java kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Text-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Text-signaturer i dit Pps-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner som f.eks. opdatering af Text signaturer placeret på Pps dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

@@ -14,10 +14,10 @@ breadcrumb: Put Barcode signature on Pdf for C#
 
 ############################# Head ############################
 head_title: "Barcode қолтаңбаларды Pdf файлдарынан C# арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Pdf құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Pdf файлдарына орналастырылған Barcode қолтаңбаларды жойыңыз"
 description: "Pdf құжаттарынан әртүрлі Barcode қолтаңбаларды жойыңыз. Barcode қолтаңбаларын жою қарапайым C# кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

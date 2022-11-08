@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Dotx with Java
 
 ############################# Head ############################
-head_title: "Søg efter Text signaturer i filen {{Filformat}} i Java"
+head_title: "Søg efter Text signaturer i filen Dotx i Java"
 head_description: "Brug Java til at søge efter Text-signaturer i Dotx-filer ved hjælp af et par linjer kode."
 
 ############################# Header ############################
-title: "Søg efter Text-signaturer i filen {{Filformat}}"
-description: "Java native API gør det muligt at søge efter Text-signaturer i allerede signerede Dotx-filer. Udfør avanceret e-signatursøgning i dine {{Filformat}} dokumenter ved hjælp af et par linjer kode."
+title: "Søg efter Text-signaturer i filen Dotx"
+description: "Java native API gør det muligt at søge efter Text-signaturer i allerede signerede Dotx-filer. Udfør avanceret e-signatursøgning i dine Dotx dokumenter ved hjælp af et par linjer kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan søger du efter Text-signaturer i {{Filformat}}"
+    title_left: "Sådan søger du efter Text-signaturer i Dotx"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gør det nemmere for Java-udviklere at søge efter Text-signaturer i Dotx-filer fra deres applikationer ved at implementere nogle få nemme trin.
         

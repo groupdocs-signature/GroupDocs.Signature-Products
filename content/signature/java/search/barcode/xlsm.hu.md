@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Barcode aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Barcode aláírások keresése a Xlsm fájlban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) néhány egyszerű lépés végrehajtásával megkönnyíti a Java fejlesztői számára, hogy Barcode aláírásokat keressenek alkalmazásaik Xlsm fájljaiban.
         

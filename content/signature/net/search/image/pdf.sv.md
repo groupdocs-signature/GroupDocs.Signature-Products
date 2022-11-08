@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Image signatures at Pdf with C#
 
 ############################# Head ############################
-head_title: "Sök efter Image-signaturer i filen {{Filformat}} i C#"
+head_title: "Sök efter Image-signaturer i filen Pdf i C#"
 head_description: "Använd .NET för att söka efter Image-signaturer i Pdf-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Image-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för .NET gör det möjligt att söka efter Image-signaturer i redan signerade Pdf-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Image-signaturer i filen Pdf"
+description: "Inbyggt API för .NET gör det möjligt att söka efter Image-signaturer i redan signerade Pdf-filer. Utför avancerad e-signatursökning i dina Pdf-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Image-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Image-signaturer i Pdf"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gör det enklare för .NET-utvecklare att söka efter Image-signaturer i Pdf-filer från sina applikationer genom att implementera några enkla steg.
         

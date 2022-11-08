@@ -17,8 +17,8 @@ head_title: "Törölje a Text aláírásokat a Xls fájlokból a C# segítségé
 head_description: "Az aláírt Xls dokumentumokból bizonyos Text aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Text aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Text aláírásokat a {{Fájlformátum}} dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Text aláírásokat, amelyek a Xls fájlokban vannak elhelyezve"
+description: "Törölje a különböző Text aláírásokat a Xls dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

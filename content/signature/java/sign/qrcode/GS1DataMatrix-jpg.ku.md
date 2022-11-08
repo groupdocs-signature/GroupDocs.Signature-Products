@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Jpg for Java
 
 ############################# Head ############################
-head_title: "Belgeya eSign {{Pelformat}} bi G S1 Data Matrix Koda QR di Java"
+head_title: "Belgeya eSign Jpg bi G S1 Data Matrix Koda QR di Java"
 head_description: "Koda QR-a G S1 Data Matrix biafirînin û bi koda Java bi koda Java li pelê Jpg bixin. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku belge û pelên karsaziya xwe bi QR Code e-îmza bikin."
 
 ############################# Header ############################
 title: "Di Java de ji bo belgeya G S1 Data Matrix îmzeya Koda QR çêbike"
-description: "Belge û peymanên xwe yên {{Pelformat}} bi koda QR-a G S1 Data Matrix îmze bikin. Zû û bi hêsanî îmzeya QR Code biafirînin."
+description: "Belge û peymanên xwe yên Jpg bi koda QR-a G S1 Data Matrix îmze bikin. Zû û bi hêsanî îmzeya QR Code biafirînin."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -52,9 +52,9 @@ steps:
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) îmzakirina belgeyên Jpg bi îmzeyên Qrcode zû û bi hêsanî peyda dike.
         
-        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê Jpg pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
         * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
-        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+        * Rêbaza Signature.Sign() vexwend ku derana pelê Jpg an jî herikîna bîrê derbas dike
 
     title_right: " Pêdiviyên Sîstemê"
     content_right: |
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Îmzekirina belgeyên {{Pelformat}} bi Qrcode Demoya Zindî"
+    title: "Îmzekirina belgeyên Jpg bi Qrcode Demoya Zindî"
     content: |
        Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Jpg bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Îmzeyên din ên piştgirî yên Qrcode ji bo Java"
     content: |
-        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+        "Her weha hûn dikarin Jpg bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
     format: 
         
        

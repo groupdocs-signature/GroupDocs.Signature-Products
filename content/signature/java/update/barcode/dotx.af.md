@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Dotx for Java
 
 ############################# Head ############################
 head_title: "Dateer Barcode-handtekeninge wat by Dotx-lêers geplaas is op met Java"
-head_description: "Gebruik eenvoudig en maklik om Java-kode te verstaan ​​vir opdatering van Barcode-handtekeninge in ondertekende {{Lêerformaat}}-dokumente."
+head_description: "Gebruik eenvoudig en maklik om Java-kode te verstaan ​​vir opdatering van Barcode-handtekeninge in ondertekende Dotx-dokumente."
 
 ############################# Header ############################
 title: "Wysig en werk Barcode-handtekeninge op wat by Dotx-lêers geplaas is"
-description: "API vir Java verskaf funksionaliteit vir Barcode handtekeninge wat by {{Lêerformaat}} dokumente opdateer. Dateer e-handtekeninge binne jou {{Lêerformaat}} dokumente op met 'n paar reëls van Java kode vinnig en maklik."
+description: "API vir Java verskaf funksionaliteit vir Barcode handtekeninge wat by Dotx dokumente opdateer. Dateer e-handtekeninge binne jou Dotx dokumente op met 'n paar reëls van Java kode vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Barcode-handtekeninge in jou {{Lêerformaat}}-dokument te verander"
+    title_left: "Hoe om Barcode-handtekeninge in jou Dotx-dokument te verander"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) sluit nuttige kenmerke in soos opdatering van Barcode-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) sluit nuttige kenmerke in soos opdatering van Barcode-handtekeninge wat by Dotx-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
         
         * Om mee te begin, skep Signature-objek wat as 'n konstruktor-parameterpad na 'n dokument wat veronderstel is om opgedateer te word, deurgaan.
         * Instansieer dan 'n toepaslike spesifieke handtekeningvoorwerp en stel sy identifiseerder en eienskappe op wat verander moet word.

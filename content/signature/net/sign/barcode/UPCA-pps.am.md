@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Ppsን በ{{Signturetype}} በC# ለመፈረም ደረጃዎች"
+    title_left: "Ppsን በBarcode በC# ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የPps ሰነዶችን በBarcode ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -124,7 +124,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለC#"
+    title: "ሌሎች የሚደገፉ የBarcode ፊርማዎች ለC#"
     content: |
         "እንዲሁም Ppsን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

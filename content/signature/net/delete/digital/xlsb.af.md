@@ -14,11 +14,11 @@ breadcrumb: Put Digital signature on Xlsb for C#
 
 ############################# Head ############################
 head_title: "Vee Digital handtekeninge van Xlsb lêers uit via C#"
-head_description: "Die uitvee van spesifieke Digital handtekeninge van getekende {{Lêerformaat}} dokumente kan maklik uitgevoer word met kort .NET kode."
+head_description: "Die uitvee van spesifieke Digital handtekeninge van getekende Xlsb dokumente kan maklik uitgevoer word met kort .NET kode."
 
 ############################# Header ############################
-title: "Verwyder Digital handtekeninge wat in {{Lêerformaat}} lêers geplaas is"
-description: "Vee verskeie Digital handtekeninge uit {{Lêerformaat}} dokumente uit. Die verwydering van Digital handtekeninge vereis eenvoudige C# kode."
+title: "Verwyder Digital handtekeninge wat in Xlsb lêers geplaas is"
+description: "Vee verskeie Digital handtekeninge uit Xlsb dokumente uit. Die verwydering van Digital handtekeninge vereis eenvoudige C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Digital-handtekeninge uit jou {{Lêerformaat}}-dokument te verwyder"
+    title_left: "Hoe om Digital-handtekeninge uit jou Xlsb-dokument te verwyder"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van {{Lêerformaat}} dokumente van Digital handtekeninge met 'n paar reëls kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van Xlsb dokumente van Digital handtekeninge met 'n paar reëls kode.
         
         * Eerstens, instansieer Handtekening-objek wat deurgaanpad na jou dokument as 'n konstruktor parameter.
         * Skep dan 'n toepaslike handtekeningvoorwerp en stel sy unieke identifiseerder op.

@@ -17,8 +17,8 @@ head_title: "የImage ፊርማዎችን ከDotx ፋይሎች በJava በኩል 
 head_description: "ከተፈረሙ Dotx ሰነዶች የተወሰኑ የImage ፊርማዎችን መሰረዝ በአጭር የJava ኮድ በቀላሉ ሊከናወን ይችላል።"
 
 ############################# Header ############################
-title: "በDotx ፋይሎች ውስጥ የተቀመጡትን የ{{Signturetype}} ፊርማዎችን ያስወግዱ"
-description: "የተለያዩ የ{{Signturetype}} ፊርማዎችን ከDotx ሰነዶች ሰርዝ። የ{{Signturetype}} ፊርማዎችን ማስወገድ ቀላል የJava ኮድ ያስፈልገዋል።"
+title: "በDotx ፋይሎች ውስጥ የተቀመጡትን የImage ፊርማዎችን ያስወግዱ"
+description: "የተለያዩ የImage ፊርማዎችን ከDotx ሰነዶች ሰርዝ። የImage ፊርማዎችን ማስወገድ ቀላል የJava ኮድ ያስፈልገዋል።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{{Signturetype}} ፊርማዎችን ከDotx ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
+    title_left: "Image ፊርማዎችን ከDotx ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የDotx ሰነዶችን የImage ፊርማዎችን በጥቂት የኮድ መስመሮች ለማጽዳት ጠቃሚ ባህሪን ይሰጣል።
         
@@ -96,14 +96,14 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም"
+    title: "በImage ፊርማዎች ቀጥታ ማሳያ መፈረም"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ Dotx ፋይል አሁኑኑ ያክሉ።          
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የእርስዎን {{Signturetype}} ፊርማዎች በJava ይሰርዙ"
+    title: "የእርስዎን Image ፊርማዎች በJava ይሰርዙ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች ላይ የታከሉ ኢ-ፊርማዎችን መሰረዝ። ያለ ተጨማሪ ኮድ ፊርማዎችን በፍጥነት ያስወግዱ።"
     format: 

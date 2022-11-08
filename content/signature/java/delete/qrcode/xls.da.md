@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Xls for Java
 
 ############################# Head ############################
 head_title: "Slet Qrcode signaturer fra Xls filer via Java"
-head_description: "Sletning af specifikke Qrcode-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort Java-kode."
+head_description: "Sletning af specifikke Qrcode-signaturer fra signerede Xls-dokumenter kan udføres nemt med en kort Java-kode."
 
 ############################# Header ############################
-title: "Fjern Qrcode-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Qrcode-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Qrcode signaturer kræver simpel Java kode."
+title: "Fjern Qrcode-signaturer, der er placeret i Xls-filer"
+description: "Slet forskellige Qrcode-signaturer fra Xls-dokumenter. Fjernelse af Qrcode signaturer kræver simpel Java kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Qrcode-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Qrcode-signaturer fra dit Xls-dokument"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Qrcode signaturer med et par linjer kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde Xls dokumenter for Qrcode signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

@@ -18,7 +18,7 @@ head_description: "Tenê çend rêzên koda .NET bikar bînin da ku belgeyên Do
 
 ############################# Header ############################
 title: "Verastkirina îmzeyan ji bo pelên Digital"
-description: "API ji bo .NET firsendê dide ku hûn îmzeyên Digital li ser belgeyên Dot verast bikin. Verastkirina e-îmzeyan di hundirê belgeyên we yên {{Pelformat}} de dibe ku zû û bi hêsanî were kirin."
+description: "API ji bo .NET firsendê dide ku hûn îmzeyên Digital li ser belgeyên Dot verast bikin. Verastkirina e-îmzeyan di hundirê belgeyên we yên Dot de dibe ku zû û bi hêsanî were kirin."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

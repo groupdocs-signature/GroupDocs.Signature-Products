@@ -14,10 +14,10 @@ breadcrumb: Put Digital signature on Xlsb for Java
 
 ############################# Head ############################
 head_title: "Digital қолтаңбаларды Xlsb файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Digital қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Xlsb құжаттарынан арнайы Digital қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Xlsb файлдарына орналастырылған Digital қолтаңбаларды жойыңыз"
 description: "Xlsb құжаттарынан әртүрлі Digital қолтаңбаларды жойыңыз. Digital қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

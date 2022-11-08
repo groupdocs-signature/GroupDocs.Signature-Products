@@ -1,18 +1,18 @@
 {
   "content": {
     "meta_title": "Slet {{Signaturetype}} signaturer fra {{Fileformat}} filer via {{ProgLang}}",
-    "meta_description": "Sletning af specifikke {{Signaturetype}}-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort {{ProductName}}-kode.",
-    "h1": "Fjern {{Signaturetype}}-signaturer, der er placeret i {{Filformat}}-filer",
-    "h2": "Slet forskellige {{Signaturetype}}-signaturer fra {{Filformat}}-dokumenter. Fjernelse af {{Signaturetype}} signaturer kræver simpel {{ProgLang}} kode."
+    "meta_description": "Sletning af specifikke {{Signaturetype}}-signaturer fra signerede {{Fileformat}}-dokumenter kan udføres nemt med en kort {{ProductName}}-kode.",
+    "h1": "Fjern {{Signaturetype}}-signaturer, der er placeret i {{Fileformat}}-filer",
+    "h2": "Slet forskellige {{Signaturetype}}-signaturer fra {{Fileformat}}-dokumenter. Fjernelse af {{Signaturetype}} signaturer kræver simpel {{ProgLang}} kode."
   },
   "about": {
     "title": "Få oplysninger om {{ProductFullName}} API-funktioner",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) API giver mange måder at behandle dine dokumenter ved hjælp af elektroniske signaturer. Digitale signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata er tilgængelige. Kunder har mulighed for at tilføje, slette, opdatere, verificere eller søge i digitale signaturer i PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Der er et stort antal nyttige funktioner og indstillinger."
   },
   "steps": {
-    "title_left": "Sådan fjerner du {{Signaturetype}}-signaturer fra dit {{Filformat}}-dokument",
+    "title_left": "Sådan fjerner du {{Signaturetype}}-signaturer fra dit {{Fileformat}}-dokument",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for {{Signaturetype}} signaturer med et par linjer kode.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) giver nyttige funktioner til at rydde {{Fileformat}} dokumenter for {{Signaturetype}} signaturer med et par linjer kode.",
       "step_1": "For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.",
       "step_2": "Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.",
       "step_3": "Kald derefter Slet-metoden, der passerer signaturobjekt, som skal slettes.",
@@ -35,3 +35,146 @@
     "content": "Sletning af e-signaturer som blev tilføjet til forskellige dokumentformater. Fjern signaturer hurtigt uden ekstra kode."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

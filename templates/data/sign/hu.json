@@ -69,57 +69,57 @@
     }
   },
   "barcode-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "digital-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "image-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "metadata-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "qrcode-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "text-steps": {
-    "title": "A {{Fájlformátum}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
+    "title": "A {{Fileformat}} aláírásának lépései a {{Signaturetype}} segítségével a {{ProgLang}} programban",
     "content": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a {{Fileformat}} dokumentumok gyors és egyszerű aláírását {{Signaturetype}} aláírással.",
-      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
+      "step_1": "Hozzon létre egy példányt a Signature osztályból, amely {{Fileformat}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni",
       "step_2": "Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.",
-      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot"
+      "step_3": "Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fileformat}} fájlt vagy memóriafolyamot"
     }
   },
   "demos": {
@@ -128,7 +128,7 @@
   },
   "more_formats": {
     "title": "Egyéb támogatott {{Signaturetype}} aláírások a {{ProgLang}} számára",
-    "content": "A {{Fájlformátum}} más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
+    "content": "A {{Fileformat}} más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
   },
   "bar_qr_codes": {
     "UPCA": {
@@ -228,3 +228,146 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

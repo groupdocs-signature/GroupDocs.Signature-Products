@@ -17,8 +17,8 @@ head_title: "Verifikasie van Digital handtekeninge vir Xltx lêers via C#"
 head_description: "Gebruik slegs 'n paar reëls van .NET-kode om Xltx-dokumente en hul Digital-handtekeninge te verifieer."
 
 ############################# Header ############################
-title: "Digital handtekeningverifikasie vir {{Lêerformaat}} lêers"
-description: "API vir .NET bied geleentheid om Digital handtekeninge by Xltx dokumente te verifieer. Verifikasie van e-handtekeninge binne jou {{Lêerformaat}} dokumente kan vinnig en maklik uitgevoer word."
+title: "Digital handtekeningverifikasie vir Xltx lêers"
+description: "API vir .NET bied geleentheid om Digital handtekeninge by Xltx dokumente te verifieer. Verifikasie van e-handtekeninge binne jou Xltx dokumente kan vinnig en maklik uitgevoer word."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Hoe om Digital handtekeninge in jou Xltx dokument te bekragtig"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Digital-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Digital-handtekeninge wat by Xltx-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
         
         * Eerstens, instansieer Handtekeningklas wat as 'n konstruktor parameter pad verskaf na 'n dokument wat veronderstel is om geverifieer te word.
         * Tweedens, skep 'n nuwe VerifyOptions-objek en stel alle vereiste eienskappe op.

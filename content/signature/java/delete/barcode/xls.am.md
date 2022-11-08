@@ -17,8 +17,8 @@ head_title: "የBarcode ፊርማዎችን ከXls ፋይሎች በJava በኩል
 head_description: "ከተፈረሙ Xls ሰነዶች የተወሰኑ የBarcode ፊርማዎችን መሰረዝ በአጭር የJava ኮድ በቀላሉ ሊከናወን ይችላል።"
 
 ############################# Header ############################
-title: "በXls ፋይሎች ውስጥ የተቀመጡትን የ{{Signturetype}} ፊርማዎችን ያስወግዱ"
-description: "የተለያዩ የ{{Signturetype}} ፊርማዎችን ከXls ሰነዶች ሰርዝ። የ{{Signturetype}} ፊርማዎችን ማስወገድ ቀላል የJava ኮድ ያስፈልገዋል።"
+title: "በXls ፋይሎች ውስጥ የተቀመጡትን የBarcode ፊርማዎችን ያስወግዱ"
+description: "የተለያዩ የBarcode ፊርማዎችን ከXls ሰነዶች ሰርዝ። የBarcode ፊርማዎችን ማስወገድ ቀላል የJava ኮድ ያስፈልገዋል።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{{Signturetype}} ፊርማዎችን ከXls ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
+    title_left: "Barcode ፊርማዎችን ከXls ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የXls ሰነዶችን የBarcode ፊርማዎችን በጥቂት የኮድ መስመሮች ለማጽዳት ጠቃሚ ባህሪን ይሰጣል።
         
@@ -96,14 +96,14 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም"
+    title: "በBarcode ፊርማዎች ቀጥታ ማሳያ መፈረም"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ Xls ፋይል አሁኑኑ ያክሉ።          
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የእርስዎን {{Signturetype}} ፊርማዎች በJava ይሰርዙ"
+    title: "የእርስዎን Barcode ፊርማዎች በJava ይሰርዙ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች ላይ የታከሉ ኢ-ፊርማዎችን መሰረዝ። ያለ ተጨማሪ ኮድ ፊርማዎችን በፍጥነት ያስወግዱ።"
     format: 

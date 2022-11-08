@@ -14,11 +14,11 @@ breadcrumb: Put Image signature on Odt for C#
 
 ############################# Head ############################
 head_title: "Uppdatera Image-signaturer placerade i Odt-filer med C#"
-head_description: "Använd enkel och lätt att förstå .NET-koden för uppdatering av Image-signaturer i signerade {{Filformat}}-dokument."
+head_description: "Använd enkel och lätt att förstå .NET-koden för uppdatering av Image-signaturer i signerade Odt-dokument."
 
 ############################# Header ############################
-title: "Redigera och uppdatera Image-signaturer placerade i {{Filformat}}-filer"
-description: "API för .NET tillhandahåller funktionalitet för Image-signaturer som uppdateras i {{Filformat}}-dokument. Uppdatera e-signaturer i dina {{Filformat}}-dokument med ett par rader C#-kod snabbt och enkelt."
+title: "Redigera och uppdatera Image-signaturer placerade i Odt-filer"
+description: "API för .NET tillhandahåller funktionalitet för Image-signaturer som uppdateras i Odt-dokument. Uppdatera e-signaturer i dina Odt-dokument med ett par rader C#-kod snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Så här ändrar du Image-signaturer i ditt {{Filformat}}-dokument"
+    title_left: "Så här ändrar du Image-signaturer i ditt Odt-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) innehåller användbara funktioner som uppdatering av Image-signaturer placerade i {{Filformat}}-dokument. Det gör det möjligt att ändra signaturfunktioner utan extra kod.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) innehåller användbara funktioner som uppdatering av Image-signaturer placerade i Odt-dokument. Det gör det möjligt att ändra signaturfunktioner utan extra kod.
         
         * Till att börja med, skapa signaturobjekt som passerar som en konstruktorparametersökväg till ett dokument som ska uppdateras.
         * Instantiera sedan ett lämpligt särskilt signaturobjekt och ställ in dess identifierare och egenskaper som behöver ändras.

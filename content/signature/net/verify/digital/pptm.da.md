@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Digital signaturer for Pptm filer via C#"
 head_description: "Brug kun et par linjer med .NET-kode til at bekræfte Pptm-dokumenter og deres Digital-signaturer."
 
 ############################# Header ############################
-title: "Digital signaturbekræftelse for {{Filformat}} filer"
-description: "API for .NET giver mulighed for at bekræfte Digital-signaturer på Pptm-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Digital signaturbekræftelse for Pptm filer"
+description: "API for .NET giver mulighed for at bekræfte Digital-signaturer på Pptm-dokumenter. Bekræftelse af e-signaturer i dine Pptm-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Digital-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Digital-signaturer i dit Pptm-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner såsom bekræftelse af Digital signaturer placeret på Pptm dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

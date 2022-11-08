@@ -14,7 +14,7 @@ breadcrumb: Put Digital signature on Ott for Java
 
 ############################# Head ############################
 head_title: "Zêdekirina îmzeyên elektronîkî yên dîjîtal li pelê Ott bi Java"
-head_description: "Ji bo Java bi çend rêzikên kodê Îmzeya Dîjîtal bixin ser pelê {{Pelformat}}. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin."
+head_description: "Ji bo Java bi çend rêzikên kodê Îmzeya Dîjîtal bixin ser pelê Ott. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin."
 
 ############################# Header ############################
 title: "eSign Ott pelên bi Digital di Java de"
@@ -51,9 +51,9 @@ steps:
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) îmzakirina belgeyên Ott bi îmzeyên Digital zû û bi hêsanî peyda dike.
         
-        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê Ott pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
         * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
-        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+        * Rêbaza Signature.Sign() vexwend ku derana pelê Ott an jî herikîna bîrê derbas dike
 
     title_right: " Pêdiviyên Sîstemê"
     content_right: |
@@ -95,7 +95,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Îmzekirina belgeyên {{Pelformat}} bi Digital Demoya Zindî"
+    title: "Îmzekirina belgeyên Ott bi Digital Demoya Zindî"
     content: |
        Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Ott bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.          
 
@@ -104,7 +104,7 @@ more_formats:
     enable: true
     title: "Îmzeyên din ên piştgirî yên Digital ji bo Java"
     content: |
-        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+        "Her weha hûn dikarin Ott bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
     format: 
        
        

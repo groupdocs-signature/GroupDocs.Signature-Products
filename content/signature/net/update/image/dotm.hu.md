@@ -17,7 +17,7 @@ head_title: "Frissítse a Dotm fájlokban elhelyezett Image aláírásokat a C# 
 head_description: "Használjon egyszerű és könnyen érthető .NET kódot a Image aláírások frissítéséhez az aláírt Dotm dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Image aláírásokat"
+title: "Szerkessze és frissítse a Dotm fájlokban elhelyezett Image aláírásokat"
 description: "A(z) .NET API a(z) Image aláírások frissítését biztosítja a(z) Dotm dokumentumokban. Frissítse az e-aláírásokat Dotm dokumentumaiban néhány soros C# kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Image aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Image aláírások módosítása a Dotm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Image aláírások frissítése a Dotm dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

@@ -17,8 +17,8 @@ head_title: "Verifiering av Barcode-signaturer för Docm-filer via C#"
 head_description: "Använd bara några rader med .NET-kod för att verifiera Docm-dokument och deras Barcode-signaturer."
 
 ############################# Header ############################
-title: "Barcode signaturverifiering för {{Filformat}}-filer"
-description: "API för .NET ger möjlighet att verifiera Barcode-signaturer i Docm-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Barcode signaturverifiering för Docm-filer"
+description: "API för .NET ger möjlighet att verifiera Barcode-signaturer i Docm-dokument. Verifiering av e-signaturer i dina Docm-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

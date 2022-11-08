@@ -17,8 +17,8 @@ head_title: "Törölje a Digital aláírásokat a Docm fájlokból a C# segíts�
 head_description: "Az aláírt Docm dokumentumokból bizonyos Digital aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Digital aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Digital aláírásokat a {{Fájlformátum}} dokumentumokból. A Digital aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Digital aláírásokat, amelyek a Docm fájlokban vannak elhelyezve"
+description: "Törölje a különböző Digital aláírásokat a Docm dokumentumokból. A Digital aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

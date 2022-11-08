@@ -18,7 +18,7 @@ head_description: "Úsáid Java chun sínithe Digital a chuardach i gcomhaid Ods
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Digital sínithe i gcomhad Ods"
-description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Ods ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar Digital sínithe i gcomhaid Ods atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Ods ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

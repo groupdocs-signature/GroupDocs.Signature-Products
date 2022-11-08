@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Pps for Java
 
 ############################# Head ############################
-head_title: "Tilføj metadata elektroniske signaturer til {{Filformat}} dokumenter via Java"
-head_description: "Brug Metadata som skjulte elektroniske signaturer i dine {{Filformat}}-dokumenter ved at bruge et par linjer med Java-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med metadataoplysninger."
+head_title: "Tilføj metadata elektroniske signaturer til Pps dokumenter via Java"
+head_description: "Brug Metadata som skjulte elektroniske signaturer i dine Pps-dokumenter ved at bruge et par linjer med Java-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med metadataoplysninger."
 
 ############################# Header ############################
-title: "Metadata elektroniske signaturer for {{Filformat}} dokument via Java er enkle og nemme at bruge!"
-description: "eSignér dine {{Filformat}} dokumenter og kontrakter med skjulte metadataposter. Generer metadata til PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer og forskellige billedformater uden problemer og ekstra kodning."
+title: "Metadata elektroniske signaturer for Pps dokument via Java er enkle og nemme at bruge!"
+description: "eSignér dine Pps dokumenter og kontrakter med skjulte metadataposter. Generer metadata til PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer og forskellige billedformater uden problemer og ekstra kodning."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Metadata i Java"
+    title_left: "Trin til at signere Pps med Metadata i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver mulighed for at signere Pps dokumenter med Metadata signaturer hurtigt og nemt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Metadata Live Demo"
+    title: "Signering af Pps dokumenter med Metadata Live Demo"
     content: |
        Signer Pps-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Metadata-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Pps med andre signaturtyper. Se venligst listen nedenfor."
     format: 
        
        

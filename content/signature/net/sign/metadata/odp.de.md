@@ -18,7 +18,7 @@ head_description: "Verwenden Sie Metadaten als versteckte elektronische Signatur
 
 ############################# Header ############################
 title: "Elektronische Metadaten-Signaturen für das Dokument Odp über .NET sind einfach und benutzerfreundlich!"
-description: "Unterschreiben Sie Ihre {{Dateiformat}}-Dokumente und Verträge mit versteckten Metadateneinträgen. Generieren Sie Metadaten für PDFs, MS Word-Dokumente, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen und verschiedene Bildformate ohne Probleme und zusätzliche Codierung."
+description: "Unterschreiben Sie Ihre Odp-Dokumente und Verträge mit versteckten Metadateneinträgen. Generieren Sie Metadaten für PDFs, MS Word-Dokumente, MS Excel-Arbeitsmappen, MS PowerPoint-Präsentationen und verschiedene Bildformate ohne Probleme und zusätzliche Codierung."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

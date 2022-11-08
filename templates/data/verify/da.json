@@ -2,15 +2,15 @@
   "content": {
     "meta_title": "Bekræftelse af {{Signaturetype}} signaturer for {{Fileformat}} filer via {{ProgLang}}",
     "meta_description": "Brug kun et par linjer med {{ProductName}}-kode til at bekræfte {{Fileformat}}-dokumenter og deres {{Signaturetype}}-signaturer.",
-    "h1": "{{Signaturetype}} signaturbekræftelse for {{Filformat}} filer",
-    "h2": "API for {{ProductName}} giver mulighed for at bekræfte {{Signaturetype}}-signaturer på {{Fileformat}}-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+    "h1": "{{Signaturetype}} signaturbekræftelse for {{Fileformat}} filer",
+    "h2": "API for {{ProductName}} giver mulighed for at bekræfte {{Signaturetype}}-signaturer på {{Fileformat}}-dokumenter. Bekræftelse af e-signaturer i dine {{Fileformat}}-dokumenter kan udføres hurtigt og nemt."
   },
   "about": {
     "title": "Oplev nye {{ProductFullName}} API-funktioner",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) API giver en bred vifte af måder at behandle adskillige dokumentformater ved at bruge elektroniske signaturer. Mange typer digitale signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata understøttes. Kunder kan tilføje, fjerne, redigere, validere eller søge i digitale signaturer i PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Et forbløffende antal ekstra funktioner og indstillinger er tilgængelige."
   },
   "steps": {
-    "title_left": "Sådan validerer du {{Signaturetype}}-signaturer i dit {{Filformat}}-dokument",
+    "title_left": "Sådan validerer du {{Signaturetype}}-signaturer i dit {{Fileformat}}-dokument",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) inkluderer nyttige funktioner såsom bekræftelse af {{Signaturetype}} signaturer placeret på {{Fileformat}} dokumenter. Brug denne mulighed uden at implementere ekstra kode.",
       "step_1": "For det første instansierer Signature-klassen, der som en konstruktørparametersti til et dokument, der formodes at være verificeret.",
@@ -35,3 +35,146 @@
     "content": "Verifikation af elektroniske signaturer placeret i forskellige dokumenter. Tjek kvaliteten af ​​signaturer i de populære filformater som vist nedenfor."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

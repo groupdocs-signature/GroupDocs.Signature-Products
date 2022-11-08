@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Digital aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Digital aláírások keresése a Xlsm fájlban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) néhány egyszerű lépés végrehajtásával megkönnyíti a .NET fejlesztői számára, hogy Digital aláírásokat keressenek alkalmazásaik Xlsm fájljaiban.
         

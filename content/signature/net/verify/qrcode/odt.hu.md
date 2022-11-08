@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Qrcode aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Qrcode aláírások érvényesítése a Odt dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Qrcode aláírások ellenőrzése a Odt dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

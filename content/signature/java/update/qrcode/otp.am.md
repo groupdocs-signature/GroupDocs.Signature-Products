@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Qrcode signature on Otp for Java
 
 ############################# Head ############################
-head_title: "በOtp ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+head_title: "በOtp ፋይሎች ላይ የተቀመጡ የQrcode ፊርማዎችን በJava ያዘምኑ"
 head_description: "በተፈረሙ የOtp ሰነዶች ውስጥ ለQrcode የፊርማ ማሻሻያ የJava ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በOtp ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ"
+title: "በOtp ፋይሎች ላይ የተቀመጡ የQrcode ፊርማዎችን ያርትዑ እና ያዘምኑ"
 description: "ኤፒአይ ለJava ለQrcode ፊርማዎች በOtp ሰነዶች ላይ ማዘመንን ያቀርባል። በOtp ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር Java ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Otp ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል"
+    title_left: "በእርስዎ Otp ሰነድ ውስጥ የQrcode ፊርማዎችን እንዴት መቀየር እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) በOtp ሰነዶች ላይ የተቀመጡ የQrcode ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።
         
@@ -113,7 +113,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የተለያዩ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+    title: "የተለያዩ የQrcode ፊርማዎችን በJava ያዘምኑ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
     format: 

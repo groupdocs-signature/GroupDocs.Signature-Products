@@ -18,7 +18,7 @@ head_description: "Gebruik .NET om na Qrcode-handtekeninge in Odp-lêers te soek
 
 ############################# Header ############################
 title: "Soek vir Qrcode handtekeninge in Odp lêer"
-description: ".NET se inheemse API laat toe om vir Qrcode handtekeninge te soek in reeds ondertekende Odp lêers. Voer gevorderde e-handtekeningsoektog binne jou {{Lêerformaat}} dokumente uit deur 'n paar reëls kode te gebruik."
+description: ".NET se inheemse API laat toe om vir Qrcode handtekeninge te soek in reeds ondertekende Odp lêers. Voer gevorderde e-handtekeningsoektog binne jou Odp dokumente uit deur 'n paar reëls kode te gebruik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om te soek vir Qrcode handtekeninge in {{Lêerformaat}}"
+    title_left: "Hoe om te soek vir Qrcode handtekeninge in Odp"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) maak dit makliker vir .NET-ontwikkelaars om vir Qrcode-handtekeninge in Odp-lêers vanaf hul toepassings te soek deur 'n paar maklike stappe te implementeer.
         

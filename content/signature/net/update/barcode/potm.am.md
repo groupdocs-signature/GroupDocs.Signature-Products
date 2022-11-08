@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Barcode signature on Potm for C#
 
 ############################# Head ############################
-head_title: "በPotm ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በC# ያዘምኑ"
+head_title: "በPotm ፋይሎች ላይ የተቀመጡ የBarcode ፊርማዎችን በC# ያዘምኑ"
 head_description: "በተፈረሙ የPotm ሰነዶች ውስጥ ለBarcode የፊርማ ማሻሻያ የ.NET ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በPotm ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ"
+title: "በPotm ፋይሎች ላይ የተቀመጡ የBarcode ፊርማዎችን ያርትዑ እና ያዘምኑ"
 description: "ኤፒአይ ለ.NET ለBarcode ፊርማዎች በPotm ሰነዶች ላይ ማዘመንን ያቀርባል። በPotm ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር C# ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Potm ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል"
+    title_left: "በእርስዎ Potm ሰነድ ውስጥ የBarcode ፊርማዎችን እንዴት መቀየር እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) በPotm ሰነዶች ላይ የተቀመጡ የBarcode ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።
         
@@ -113,7 +113,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የተለያዩ የ{{Signturetype}} ፊርማዎችን በC# ያዘምኑ"
+    title: "የተለያዩ የBarcode ፊርማዎችን በC# ያዘምኑ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
     format: 

@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Odsን በ{{Signturetype}} በJava ለመፈረም ደረጃዎች"
+    title_left: "Odsን በBarcode በJava ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የOds ሰነዶችን በBarcode ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -122,7 +122,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለJava"
+    title: "ሌሎች የሚደገፉ የBarcode ፊርማዎች ለJava"
     content: |
         "እንዲሁም Odsን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

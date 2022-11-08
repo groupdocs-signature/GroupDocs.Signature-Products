@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Text aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Text aláírások keresése a Rtf fájlban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) néhány egyszerű lépés végrehajtásával megkönnyíti a .NET fejlesztői számára, hogy Text aláírásokat keressenek alkalmazásaik Rtf fájljaiban.
         

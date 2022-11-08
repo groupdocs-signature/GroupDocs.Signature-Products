@@ -18,7 +18,7 @@ head_description: "Úsáid .NET chun sínithe Image a chuardach i gcomhaid Ots a
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Image sínithe i gcomhad Ots"
-description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Ots ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar Image sínithe i gcomhaid Ots atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Ots ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

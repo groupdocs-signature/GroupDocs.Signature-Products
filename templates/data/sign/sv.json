@@ -14,25 +14,25 @@
   "image-content": {
     "meta_title": "Lägger till {{Signaturetype}}-signaturer i filen {{Fileformat}} med {{ProgLang}}",
     "meta_description": "Sätt {{Signaturetype}} Signatur på {{Fileformat}}-filen för {{ProductName}} med några rader kod. Använd GroupDocs Document Signature API för att signera dussintals filformat.",
-    "h1": "Signera {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h1": "Signera {{Fileformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
     "h2": "Hur man lägger till {{Signaturetype}}-signatur med några rader med {{ProductName}}-kod"
   },
   "metadata-content": {
     "meta_title": "Bifoga metadata elektroniska signaturer till {{Fileformat}} dokument via {{ProgLang}}",
     "meta_description": "Använd metadata som dolda elektroniska signaturer i dina {{Fileformat}}-dokument med ett par rader med {{ProgLang}}-kod. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med metadatainformation.",
-    "h1": "Metadata elektroniska signaturer för {{Filformat}} dokument via {{ProductName}} är enkla och lätta att använda!",
-    "h2": "esignera dina {{Filformat}} dokument och kontrakt med dolda metadataposter. Generera metadata för PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer och olika bildformat utan problem och extra kodning."
+    "h1": "Metadata elektroniska signaturer för {{Fileformat}} dokument via {{ProductName}} är enkla och lätta att använda!",
+    "h2": "esignera dina {{Fileformat}} dokument och kontrakt med dolda metadataposter. Generera metadata för PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer och olika bildformat utan problem och extra kodning."
   },
   "qrcode-content": {
     "meta_title": "eSign {{Fileformat}}-dokument med {{Codetype}} QR-kod i {{ProgLang}}",
     "meta_description": "Skapa {{Codetype}} QR-kod och lägg den i filen {{Fileformat}} med {{ProductName}} med en kort bit av {{ProgLang}}-koden. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med QR-kod.",
-    "h1": "Generera {{Codetype}} QR-kodsignatur för {{Filformat}} dokument i {{ProgLang}}",
-    "h2": "esignera dina {{Filformat}}-dokument och kontrakt med {{Codetype}} QR-kod. Generera QR-kodsignatur snabbt och enkelt."
+    "h1": "Generera {{Codetype}} QR-kodsignatur för {{Fileformat}} dokument i {{ProgLang}}",
+    "h2": "esignera dina {{Fileformat}}-dokument och kontrakt med {{Codetype}} QR-kod. Generera QR-kodsignatur snabbt och enkelt."
   },
   "text-content": {
     "meta_title": "Skapa elektroniska textsignaturer till filen {{Fileformat}} med {{ProgLang}}",
     "meta_description": "Sätt {{Signaturetype}} eSignature på filen {{Fileformat}} för {{ProductName}} med några rader kod. Använd GroupDocs Document Signature API för att signera dussintals filformat.",
-    "h1": "Signera {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h1": "Signera {{Fileformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
     "h2": "Hur man lägger till {{Signaturetype}}-signatur med några rader med {{ProductName}}-kod"
   },
   "barcode-about": {
@@ -69,7 +69,7 @@
     }
   },
   "barcode-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -78,7 +78,7 @@
     }
   },
   "digital-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -87,7 +87,7 @@
     }
   },
   "image-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -96,7 +96,7 @@
     }
   },
   "metadata-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -105,7 +105,7 @@
     }
   },
   "qrcode-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -114,7 +114,7 @@
     }
   },
   "text-steps": {
-    "title": "Steg för att signera {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Steg för att signera {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) ger möjlighet att signera {{Fileformat}}-dokument med {{Signaturetype}}-signaturer snabbt och enkelt.",
       "step_1": "Skapa en instans av Signature class som tillhandahåller {{Fileformat}} fil som ska signera som sökväg eller minnesström",
@@ -123,12 +123,12 @@
     }
   },
   "demos": {
-    "title": "Signerar {{Filformat}} dokument med {{Signaturetype}} Live Demo",
+    "title": "Signerar {{Fileformat}} dokument med {{Signaturetype}} Live Demo",
     "content": "Signera filen {{Fileformat}} med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig."
   },
   "more_formats": {
     "title": "Andra stödda {{Signaturetype}}-signaturer för {{ProgLang}}",
-    "content": "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+    "content": "Du kan också signera {{Fileformat}} med andra signaturtyper. Se listan nedan."
   },
   "bar_qr_codes": {
     "UPCA": {
@@ -228,3 +228,146 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

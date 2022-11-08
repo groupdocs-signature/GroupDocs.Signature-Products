@@ -14,11 +14,11 @@ breadcrumb: Put Image signature on Rtf for C#
 
 ############################# Head ############################
 head_title: "Vee Image handtekeninge van Rtf lêers uit via C#"
-head_description: "Die uitvee van spesifieke Image handtekeninge van getekende {{Lêerformaat}} dokumente kan maklik uitgevoer word met kort .NET kode."
+head_description: "Die uitvee van spesifieke Image handtekeninge van getekende Rtf dokumente kan maklik uitgevoer word met kort .NET kode."
 
 ############################# Header ############################
-title: "Verwyder Image handtekeninge wat in {{Lêerformaat}} lêers geplaas is"
-description: "Vee verskeie Image handtekeninge uit {{Lêerformaat}} dokumente uit. Die verwydering van Image handtekeninge vereis eenvoudige C# kode."
+title: "Verwyder Image handtekeninge wat in Rtf lêers geplaas is"
+description: "Vee verskeie Image handtekeninge uit Rtf dokumente uit. Die verwydering van Image handtekeninge vereis eenvoudige C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Image-handtekeninge uit jou {{Lêerformaat}}-dokument te verwyder"
+    title_left: "Hoe om Image-handtekeninge uit jou Rtf-dokument te verwyder"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van {{Lêerformaat}} dokumente van Image handtekeninge met 'n paar reëls kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van Rtf dokumente van Image handtekeninge met 'n paar reëls kode.
         
         * Eerstens, instansieer Handtekening-objek wat deurgaanpad na jou dokument as 'n konstruktor parameter.
         * Skep dan 'n toepaslike handtekeningvoorwerp en stel sy unieke identifiseerder op.

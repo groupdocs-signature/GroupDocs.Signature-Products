@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Pptx for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}} dokument med Code39 stregkode i Java"
+head_title: "eSign Pptx dokument med Code39 stregkode i Java"
 head_description: "Opret Code39 stregkodesignatur og læg den på Pptx dokument med Java ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere forskellige filformater."
 
 ############################# Header ############################
-title: "Generer Code39 Stregkodesignatur for {{Filformat}} dokument i Java"
+title: "Generer Code39 Stregkodesignatur for Pptx dokument i Java"
 description: "eSignér dine Pptx forretningsdokumenter med Code39 stregkode. Generer stregkodesignatur hurtigt og nemt med et par linjer kode for at opsætte signeringsmuligheder."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Barcode i Java"
+    title_left: "Trin til at signere Pptx med Barcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver mulighed for at signere Pptx dokumenter med Barcode signaturer hurtigt og nemt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering af Pptx dokumenter med Barcode Live Demo"
     content: |
        Signer Pptx-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Barcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Pptx med andre signaturtyper. Se venligst listen nedenfor."
     format: 
         
        

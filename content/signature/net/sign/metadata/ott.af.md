@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Ott for C#
 
 ############################# Head ############################
-head_title: "Voeg metadata elektroniese handtekeninge by {{Lêerformaat}} dokumente via C#"
+head_title: "Voeg metadata elektroniese handtekeninge by Ott dokumente via C#"
 head_description: "Gebruik Metadata as versteekte elektroniese handtekeninge binne jou Ott dokumente deur 'n paar reëls van C# kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en -lêers met Metadata-inligting te e-teken."
 
 ############################# Header ############################
-title: "Metadata elektroniese handtekeninge vir {{Lêerformaat}} dokument via .NET is eenvoudig en maklik om te gebruik!"
-description: "eTeken jou {{Lêerformaat}} dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
+title: "Metadata elektroniese handtekeninge vir Ott dokument via .NET is eenvoudig en maklik om te gebruik!"
+description: "eTeken jou Ott dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Metadata in C# te onderteken"
+    title_left: "Stappe om Ott met Metadata in C# te onderteken"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om {{Lêerformaat}} dokumente met Metadata handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om Ott dokumente met Metadata handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Ott-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -97,7 +97,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Metadata Regstreekse Demo"
+    title: "Teken Ott dokumente met Metadata Regstreekse Demo"
     content: |
        Teken nou die Ott-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -106,7 +106,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Metadata handtekeninge vir C#"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Ott met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

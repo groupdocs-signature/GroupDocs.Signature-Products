@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Docx with Java
 
 ############################# Head ############################
-head_title: "በJava ውስጥ በDocx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+head_title: "በJava ውስጥ በDocx ፋይል ውስጥ የText ፊርማዎችን ይፈልጉ"
 head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም በDocx ፋይሎች ውስጥ የText ፊርማዎችን ለመፈለግ Javaን ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በDocx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+title: "በDocx ፋይል ውስጥ የText ፊርማዎችን ይፈልጉ"
 description: "Java ቤተኛ ኤፒአይ አስቀድሞ በተፈረሙ Docx ፋይሎች ውስጥ የText ፊርማዎችን ለመፈለግ ይፈቅዳል። ጥቂት የኮድ መስመሮችን በመጠቀም በDocx ሰነዶችዎ ውስጥ የላቀ የኢ-ፊርማ ፍለጋን ያድርጉ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በDocx ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
+    title_left: "በDocx ውስጥ የText ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ለJava ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በDocx ፋይሎች ውስጥ ፊርማዎችን መፈለግ ቀላል ያደርገዋል።
         
@@ -97,7 +97,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "የ{{Signturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
+    title: "የText ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት ሰነዱን አሁን በDocx ፋይሎች ላይ የተለያዩ የኤሌክትሮኒክ ፊርማዎችን ይፈልጉ።
 
@@ -105,7 +105,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Javaን በመጠቀም ሌሎች {{የፊርማ አይነት}} ፊርማዎችን ይፈልጉ"
+    title: "Javaን በመጠቀም ሌሎች Text ፊርማዎችን ይፈልጉ"
     content: |
         "የኤሌክትሮኒክ ፊርማዎች በተለያዩ ሰነዶች ውስጥ ይፈልጉ. ከታች እንደሚታየው ከታዋቂው የፋይል ቅርጸቶች ፊርማዎችን ያግኙ።"
     format: 

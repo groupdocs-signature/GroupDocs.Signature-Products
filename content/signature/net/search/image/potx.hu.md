@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Image aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Image aláírások keresése a Potx fájlban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) néhány egyszerű lépés végrehajtásával megkönnyíti a .NET fejlesztői számára, hogy Image aláírásokat keressenek alkalmazásaik Potx fájljaiban.
         

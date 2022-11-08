@@ -109,7 +109,7 @@ demos:
     enable: true
     title: "Nûvekirina îmzeyên Qrcode li ser rûpelên belgeyê - Demo Zindî"
     content: |
-       Bi seredana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî yên belgeya {{Pelformat}} biguherînin.          
+       Bi seredana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî yên belgeya Odt biguherînin.          
 
 ############################# More Formats ############################
 more_formats:

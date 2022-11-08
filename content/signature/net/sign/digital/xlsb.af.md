@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Digital in C# te onderteken"
+    title_left: "Stappe om Xlsb met Digital in C# te onderteken"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om {{Lêerformaat}} dokumente met Digital handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om Xlsb dokumente met Digital handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Xlsb-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Digital Regstreekse Demo"
+    title: "Teken Xlsb dokumente met Digital Regstreekse Demo"
     content: |
        Teken nou die Xlsb-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Digital handtekeninge vir C#"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Xlsb met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

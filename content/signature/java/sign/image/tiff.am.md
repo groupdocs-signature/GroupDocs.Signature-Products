@@ -18,7 +18,7 @@ head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም የIma
 
 ############################# Header ############################
 title: "Tiff ፋይሎችን በImage ፊርማዎች በJava ይፈርሙ"
-description: "{{የፊርማ አይነት}} ፊርማ ከጥቂት መስመሮች Java ኮድ ጋር እንዴት እንደሚታከል"
+description: "Image ፊርማ ከጥቂት መስመሮች Java ኮድ ጋር እንዴት እንደሚታከል"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Tiffን በ{{Signturetype}} በJava ለመፈረም ደረጃዎች"
+    title_left: "Tiffን በImage በJava ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የTiff ሰነዶችን በImage ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -98,7 +98,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለJava"
+    title: "ሌሎች የሚደገፉ የImage ፊርማዎች ለJava"
     content: |
         "እንዲሁም Tiffን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

@@ -17,8 +17,8 @@ head_title: "Verifiering av Digital-signaturer för Xltx-filer via C#"
 head_description: "Använd bara några rader med .NET-kod för att verifiera Xltx-dokument och deras Digital-signaturer."
 
 ############################# Header ############################
-title: "Digital signaturverifiering för {{Filformat}}-filer"
-description: "API för .NET ger möjlighet att verifiera Digital-signaturer i Xltx-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Digital signaturverifiering för Xltx-filer"
+description: "API för .NET ger möjlighet att verifiera Digital-signaturer i Xltx-dokument. Verifiering av e-signaturer i dina Xltx-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

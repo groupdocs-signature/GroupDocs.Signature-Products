@@ -17,7 +17,7 @@ head_title: "Frissítse a Xltm fájlokban elhelyezett Text aláírásokat a C# s
 head_description: "Használjon egyszerű és könnyen érthető .NET kódot a Text aláírások frissítéséhez az aláírt Xltm dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Text aláírásokat"
+title: "Szerkessze és frissítse a Xltm fájlokban elhelyezett Text aláírásokat"
 description: "A(z) .NET API a(z) Text aláírások frissítését biztosítja a(z) Xltm dokumentumokban. Frissítse az e-aláírásokat Xltm dokumentumaiban néhány soros C# kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Text aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Text aláírások módosítása a Xltm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Text aláírások frissítése a Xltm dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

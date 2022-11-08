@@ -17,8 +17,8 @@ head_title: "የDigital ፊርማዎችን ከXltm ፋይሎች በC# በኩል 
 head_description: "ከተፈረሙ Xltm ሰነዶች የተወሰኑ የDigital ፊርማዎችን መሰረዝ በአጭር የ.NET ኮድ በቀላሉ ሊከናወን ይችላል።"
 
 ############################# Header ############################
-title: "በXltm ፋይሎች ውስጥ የተቀመጡትን የ{{Signturetype}} ፊርማዎችን ያስወግዱ"
-description: "የተለያዩ የ{{Signturetype}} ፊርማዎችን ከXltm ሰነዶች ሰርዝ። የ{{Signturetype}} ፊርማዎችን ማስወገድ ቀላል የC# ኮድ ያስፈልገዋል።"
+title: "በXltm ፋይሎች ውስጥ የተቀመጡትን የDigital ፊርማዎችን ያስወግዱ"
+description: "የተለያዩ የDigital ፊርማዎችን ከXltm ሰነዶች ሰርዝ። የDigital ፊርማዎችን ማስወገድ ቀላል የC# ኮድ ያስፈልገዋል።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{{Signturetype}} ፊርማዎችን ከXltm ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
+    title_left: "Digital ፊርማዎችን ከXltm ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የXltm ሰነዶችን የDigital ፊርማዎችን በጥቂት የኮድ መስመሮች ለማጽዳት ጠቃሚ ባህሪን ይሰጣል።
         
@@ -96,14 +96,14 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም"
+    title: "በDigital ፊርማዎች ቀጥታ ማሳያ መፈረም"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ Xltm ፋይል አሁኑኑ ያክሉ።          
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የእርስዎን {{Signturetype}} ፊርማዎች በC# ይሰርዙ"
+    title: "የእርስዎን Digital ፊርማዎች በC# ይሰርዙ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች ላይ የታከሉ ኢ-ፊርማዎችን መሰረዝ። ያለ ተጨማሪ ኮድ ፊርማዎችን በፍጥነት ያስወግዱ።"
     format: 

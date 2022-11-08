@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Qrcode aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Qrcode aláírások érvényesítése a Pptx dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Qrcode aláírások ellenőrzése a Pptx dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

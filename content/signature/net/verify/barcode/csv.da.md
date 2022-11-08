@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Barcode signaturer for Csv filer via C#"
 head_description: "Brug kun et par linjer med .NET-kode til at bekræfte Csv-dokumenter og deres Barcode-signaturer."
 
 ############################# Header ############################
-title: "Barcode signaturbekræftelse for {{Filformat}} filer"
-description: "API for .NET giver mulighed for at bekræfte Barcode-signaturer på Csv-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Barcode signaturbekræftelse for Csv filer"
+description: "API for .NET giver mulighed for at bekræfte Barcode-signaturer på Csv-dokumenter. Bekræftelse af e-signaturer i dine Csv-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Barcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Barcode-signaturer i dit Csv-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner såsom bekræftelse af Barcode signaturer placeret på Csv dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

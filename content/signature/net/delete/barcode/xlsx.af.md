@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Xlsx for C#
 
 ############################# Head ############################
 head_title: "Vee Barcode handtekeninge van Xlsx lêers uit via C#"
-head_description: "Die uitvee van spesifieke Barcode handtekeninge van getekende {{Lêerformaat}} dokumente kan maklik uitgevoer word met kort .NET kode."
+head_description: "Die uitvee van spesifieke Barcode handtekeninge van getekende Xlsx dokumente kan maklik uitgevoer word met kort .NET kode."
 
 ############################# Header ############################
-title: "Verwyder Barcode handtekeninge wat in {{Lêerformaat}} lêers geplaas is"
-description: "Vee verskeie Barcode handtekeninge uit {{Lêerformaat}} dokumente uit. Die verwydering van Barcode handtekeninge vereis eenvoudige C# kode."
+title: "Verwyder Barcode handtekeninge wat in Xlsx lêers geplaas is"
+description: "Vee verskeie Barcode handtekeninge uit Xlsx dokumente uit. Die verwydering van Barcode handtekeninge vereis eenvoudige C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Barcode-handtekeninge uit jou {{Lêerformaat}}-dokument te verwyder"
+    title_left: "Hoe om Barcode-handtekeninge uit jou Xlsx-dokument te verwyder"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van {{Lêerformaat}} dokumente van Barcode handtekeninge met 'n paar reëls kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied nuttige kenmerk vir die skoonmaak van Xlsx dokumente van Barcode handtekeninge met 'n paar reëls kode.
         
         * Eerstens, instansieer Handtekening-objek wat deurgaanpad na jou dokument as 'n konstruktor parameter.
         * Skep dan 'n toepaslike handtekeningvoorwerp en stel sy unieke identifiseerder op.

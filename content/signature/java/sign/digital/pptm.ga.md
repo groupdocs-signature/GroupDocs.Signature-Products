@@ -17,7 +17,7 @@ head_title: "Sínithe leictreonacha digiteacha á gcur le comhad Pptm le Java"
 head_description: "Cuir Síniú Digiteach ar chomhad Pptm le haghaidh Java ag baint úsáide as cúpla líne de chód. Úsáid an GroupDocs Document Signature API chun mórán formáidí comhaid a shíniú."
 
 ############################# Header ############################
-title: "eSínigh Pptm comhaid le {{ Signaturetype}} sínithe in Java"
+title: "eSínigh Pptm comhaid le Digital sínithe in Java"
 description: "Conas Digital síniú a chur leis le cúpla líne de chód Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -53,7 +53,7 @@ steps:
         
         * Cruthaigh sampla d'aicme Sínithe ag soláthar Pptm comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne
         * Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.
-        * Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith
+        * Iarr ar an modh Signature.Sign() aschuir Pptm comhad nó sruth cuimhne a rith
 
     title_right: " Riachtanais Chórais"
     content_right: |
@@ -95,7 +95,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Ag síniú Pptm doiciméad le {{ Signaturetype}} Taispeántas Beo"
+    title: "Ag síniú Pptm doiciméad le Digital Taispeántas Beo"
     content: |
        Sínigh Pptm comhad le sínithe éagsúla faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Saor in aisce taispeána ar líne ag fanacht leat.          
 

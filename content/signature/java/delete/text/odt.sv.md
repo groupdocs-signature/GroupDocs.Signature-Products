@@ -17,8 +17,8 @@ head_title: "Ta bort Text-signaturer från Odt-filer via Java"
 head_description: "Radering av specifika Text-signaturer från signerade Odt-dokument kan enkelt utföras med kort Java-kod."
 
 ############################# Header ############################
-title: "Ta bort Text-signaturer som är placerade i {{Filformat}}-filer"
-description: "Ta bort olika Text-signaturer från {{Filformat}}-dokument. Att ta bort Text-signaturer kräver enkel Java-kod."
+title: "Ta bort Text-signaturer som är placerade i Odt-filer"
+description: "Ta bort olika Text-signaturer från Odt-dokument. Att ta bort Text-signaturer kräver enkel Java-kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man tar bort Text-signaturer från ditt {{Filformat}}-dokument"
+    title_left: "Hur man tar bort Text-signaturer från ditt Odt-dokument"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från Text signaturer med några rader kod.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) tillhandahåller användbar funktion för att rensa Odt dokument från Text signaturer med några rader kod.
         
         * Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.
         * Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.

@@ -1,16 +1,16 @@
 {
   "content": {
     "meta_title": "Opdater {{Signaturetype}} signaturer placeret på {{Fileformat}} filer med {{ProgLang}}",
-    "meta_description": "Brug enkel og nem at forstå {{ProductName}}-koden til opdatering af {{Signaturetype}}-signaturer i signerede {{Filformat}}-dokumenter.",
-    "h1": "Rediger og opdater {{Signaturetype}} signaturer placeret på {{Filformat}} filer",
-    "h2": "API for {{ProductName}} giver funktionalitet til {{Signaturetype}} signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med {{ProgLang}} kode hurtigt og nemt."
+    "meta_description": "Brug enkel og nem at forstå {{ProductName}}-koden til opdatering af {{Signaturetype}}-signaturer i signerede {{Fileformat}}-dokumenter.",
+    "h1": "Rediger og opdater {{Signaturetype}} signaturer placeret på {{Fileformat}} filer",
+    "h2": "API for {{ProductName}} giver funktionalitet til {{Signaturetype}} signaturer, der opdateres i {{Fileformat}} dokumenter. Opdater e-signaturer i dine {{Fileformat}} dokumenter med et par linjer med {{ProgLang}} kode hurtigt og nemt."
   },
   "about": {
     "title": "Lær om {{ProductFullName}} API-funktioner",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) API-funktionalitet indeholder et stort udvalg af metoder til at behandle efterspurgte dokumentformater ved at bruge elektroniske signaturer. Bredt spektrum af e-signaturer som tekster, billeder, digitale certifikater, stregkoder, QR-koder, stempler eller metadata understøttes. Kunder kan tilføje, fjerne, redigere, validere eller søge i digitale signaturer i PDF-filer, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer, Adobe Photoshop-filer og forskellige billedformater. Adskillige nyttige funktioner og indstillinger er tilgængelige."
   },
   "steps": {
-    "title_left": "Sådan ændrer du {{Signaturetype}}-signaturer i dit {{Filformat}}-dokument",
+    "title_left": "Sådan ændrer du {{Signaturetype}}-signaturer i dit {{Fileformat}}-dokument",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) inkluderer nyttige funktioner som f.eks. opdatering af {{Signaturetype}} signaturer placeret på {{Fileformat}} dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.",
       "step_1": "Til at starte med skal du oprette signaturobjekt, der passerer som en konstruktørparametersti til et dokument, som formodes at blive opdateret.",
@@ -35,3 +35,146 @@
     "content": "Redigering af digitale signaturer, som er placeret i forskellige dokumentformater. Opdater signaturdata uden ekstra kode."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

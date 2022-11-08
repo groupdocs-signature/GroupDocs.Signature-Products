@@ -17,7 +17,7 @@ head_title: "Opret elektroniske tekstsignaturer til filen Potx med C#"
 head_description: "Sæt Text eSignature på filen Potx for .NET ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere snesevis af filformater."
 
 ############################# Header ############################
-title: "Signer {{Filformat}}-filer med Text-signaturer i C#"
+title: "Signer Potx-filer med Text-signaturer i C#"
 description: "Sådan tilføjer du Text-signatur med et par linjer med .NET-kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Text i C#"
+    title_left: "Trin til at signere Potx med Text i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver mulighed for at signere Potx dokumenter med Text signaturer hurtigt og nemt.
         
@@ -92,7 +92,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Text Live Demo"
+    title: "Signering af Potx dokumenter med Text Live Demo"
     content: |
        Signer Potx-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.          
 
@@ -101,7 +101,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Text-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Potx med andre signaturtyper. Se venligst listen nedenfor."
     format: 
        
        

@@ -103,7 +103,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Image allekirjoitukset ohjelmalle C#"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Bmp muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
        
        

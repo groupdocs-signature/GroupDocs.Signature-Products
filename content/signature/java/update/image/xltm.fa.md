@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "به روز رسانی امضاهای Image در صفحات سند - نسخه نمایشی زنده"
     content: |
-       اکنون با مراجعه به وب‌سایت [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)، امضاهای الکترونیکی مختلف سند {{فرمت فایل}} را ویرایش کنید.          
+       اکنون با مراجعه به وب‌سایت [GroupDocs.Signature App](https://products.groupdocs.app/signature/family)، امضاهای الکترونیکی مختلف سند Xltm را ویرایش کنید.          
 
 ############################# More Formats ############################
 more_formats:

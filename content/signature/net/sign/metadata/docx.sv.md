@@ -17,8 +17,8 @@ head_title: "Bifoga metadata elektroniska signaturer till Docx dokument via C#"
 head_description: "Använd metadata som dolda elektroniska signaturer i dina Docx-dokument med ett par rader med C#-kod. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med metadatainformation."
 
 ############################# Header ############################
-title: "Metadata elektroniska signaturer för {{Filformat}} dokument via .NET är enkla och lätta att använda!"
-description: "esignera dina {{Filformat}} dokument och kontrakt med dolda metadataposter. Generera metadata för PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer och olika bildformat utan problem och extra kodning."
+title: "Metadata elektroniska signaturer för Docx dokument via .NET är enkla och lätta att använda!"
+description: "esignera dina Docx dokument och kontrakt med dolda metadataposter. Generera metadata för PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer och olika bildformat utan problem och extra kodning."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Metadata i C#"
+    title_left: "Steg för att signera Docx med Metadata i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ger möjlighet att signera Docx-dokument med Metadata-signaturer snabbt och enkelt.
         
@@ -97,7 +97,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Metadata Live Demo"
+    title: "Signerar Docx dokument med Metadata Live Demo"
     content: |
        Signera filen Docx med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -106,7 +106,7 @@ more_formats:
     enable: true
     title: "Andra stödda Metadata-signaturer för C#"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Docx med andra signaturtyper. Se listan nedan."
     format: 
        
        

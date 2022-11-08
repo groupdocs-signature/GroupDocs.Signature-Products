@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Digital i C#"
+    title_left: "Steg för att signera Dotx med Digital i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ger möjlighet att signera Dotx-dokument med Digital-signaturer snabbt och enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Digital Live Demo"
+    title: "Signerar Dotx dokument med Digital Live Demo"
     content: |
        Signera filen Dotx med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Andra stödda Digital-signaturer för C#"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Dotx med andra signaturtyper. Se listan nedan."
     format: 
        
        

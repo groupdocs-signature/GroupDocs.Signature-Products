@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Nûvekirina îmzeyên Image li ser rûpelên belgeyê - Demo Zindî"
     content: |
-       Bi seredana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî yên belgeya {{Pelformat}} biguherînin.          
+       Bi seredana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) aniha gelek îmzeyên elektronîkî yên belgeya Xls biguherînin.          
 
 ############################# More Formats ############################
 more_formats:

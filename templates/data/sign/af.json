@@ -1,9 +1,9 @@
 {
   "barcode-content": {
-    "meta_title": "eSign {{Lêerformaat}}-dokument met {{Codetype}} Strepiekode in {{ProgLang}}",
+    "meta_title": "eSign {{Fileformat}}-dokument met {{Codetype}} Strepiekode in {{ProgLang}}",
     "meta_description": "Skep {{Codetype}} Strepiekode Handtekening en plaas dit op {{Fileformat}} dokument met {{ProductName}} deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API vir die ondertekening van verskeie lêerformate.",
     "h1": "Genereer {{Codetype}} strepieskode-handtekening vir {{Fileformat}}-dokument in {{ProgLang}}",
-    "h2": "eTeken jou {{Lêerformaat}} besigheidsdokumente met {{Codetype}} Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
+    "h2": "eTeken jou {{Fileformat}} besigheidsdokumente met {{Codetype}} Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
   },
   "digital-content": {
     "meta_title": "Voeg digitale elektroniese handtekeninge by {{Fileformat}}-lêer met {{ProgLang}}",
@@ -14,25 +14,25 @@
   "image-content": {
     "meta_title": "Voeg {{Signaturetype}} handtekeninge by {{Fileformat}} lêer met {{ProgLang}}",
     "meta_description": "Plaas {{Signaturetype}} Handtekening op {{Fileformat}} lêer vir {{ProductName}} deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API om dosyne lêerformate te onderteken.",
-    "h1": "Teken {{Lêerformaat}} lêers met {{Signaturetype}} handtekeninge in {{ProgLang}}",
+    "h1": "Teken {{Fileformat}} lêers met {{Signaturetype}} handtekeninge in {{ProgLang}}",
     "h2": "Hoe om {{Signaturetype}} handtekening by te voeg met 'n paar reëls van {{ProductName}} kode"
   },
   "metadata-content": {
-    "meta_title": "Voeg metadata elektroniese handtekeninge by {{Lêerformaat}} dokumente via {{ProgLang}}",
+    "meta_title": "Voeg metadata elektroniese handtekeninge by {{Fileformat}} dokumente via {{ProgLang}}",
     "meta_description": "Gebruik Metadata as versteekte elektroniese handtekeninge binne jou {{Fileformat}} dokumente deur 'n paar reëls van {{ProgLang}} kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en -lêers met Metadata-inligting te e-teken.",
-    "h1": "Metadata elektroniese handtekeninge vir {{Lêerformaat}} dokument via {{ProductName}} is eenvoudig en maklik om te gebruik!",
-    "h2": "eTeken jou {{Lêerformaat}} dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
+    "h1": "Metadata elektroniese handtekeninge vir {{Fileformat}} dokument via {{ProductName}} is eenvoudig en maklik om te gebruik!",
+    "h2": "eTeken jou {{Fileformat}} dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
   },
   "qrcode-content": {
     "meta_title": "eSign {{Fileformat}}-dokument met {{Codetype}} QR-kode in {{ProgLang}}",
     "meta_description": "Skep {{Codetype}} QR-kode en plaas dit op {{Fileformat}}-lêer deur {{ProductName}} met 'n kort stukkie {{ProgLang}}-kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en lêers met QR-kode te e-teken.",
-    "h1": "Genereer {{Codetype}} QR-kode handtekening vir {{Lêerformaat}} dokument in {{ProgLang}}",
-    "h2": "eTeken jou {{Lêerformaat}} dokumente en kontrakte met {{Codetype}} QR-kode. Genereer QR-kode handtekening vinnig en maklik."
+    "h1": "Genereer {{Codetype}} QR-kode handtekening vir {{Fileformat}} dokument in {{ProgLang}}",
+    "h2": "eTeken jou {{Fileformat}} dokumente en kontrakte met {{Codetype}} QR-kode. Genereer QR-kode handtekening vinnig en maklik."
   },
   "text-content": {
     "meta_title": "Skep teks elektroniese handtekeninge na {{Fileformat}} lêer met {{ProgLang}}",
     "meta_description": "Plaas {{Signaturetype}} eSignature op {{Fileformat}} lêer vir {{ProductName}} deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API om dosyne lêerformate te onderteken.",
-    "h1": "Teken {{Lêerformaat}} lêers met {{Signaturetype}} handtekeninge in {{ProgLang}}",
+    "h1": "Teken {{Fileformat}} lêers met {{Signaturetype}} handtekeninge in {{ProgLang}}",
     "h2": "Hoe om {{Signaturetype}} handtekening by te voeg met 'n paar reëls van {{ProductName}} kode"
   },
   "barcode-about": {
@@ -69,66 +69,66 @@
     }
   },
   "barcode-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "digital-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "image-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "metadata-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "qrcode-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "text-steps": {
-    "title": "Stappe om {{Lêerformaat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
+    "title": "Stappe om {{Fileformat}} met {{Signaturetype}} in {{ProgLang}} te onderteken",
     "content": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Lêerformaat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) bied die vermoë om {{Fileformat}} dokumente met {{Signaturetype}} handtekeninge vinnig en maklik te onderteken.",
       "step_1": "Skep 'n instansie van Signature-klas wat {{Fileformat}}-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom",
       "step_2": "Instansieer SignOptions-klas en stel alle verlangde data in.",
       "step_3": "Roep die Signature.Sign()-metode deur die uitvoer {{Fileformat}}-lêer of geheuestroom deur te gee"
     }
   },
   "demos": {
-    "title": "Teken {{Lêerformaat}} dokumente met {{Signaturetype}} Regstreekse Demo",
+    "title": "Teken {{Fileformat}} dokumente met {{Signaturetype}} Regstreekse Demo",
     "content": "Teken nou die {{Fileformat}}-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou."
   },
   "more_formats": {
     "title": "Ander ondersteunde {{Signaturetype}} handtekeninge vir {{ProgLang}}",
-    "content": "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+    "content": "Jy kan ook {{Fileformat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
   },
   "bar_qr_codes": {
     "UPCA": {
@@ -228,3 +228,146 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

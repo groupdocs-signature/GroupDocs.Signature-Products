@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Search Digital signatures at Xltx with Java
 
 ############################# Head ############################
-head_title: "Sök efter Digital-signaturer i filen {{Filformat}} i Java"
+head_title: "Sök efter Digital-signaturer i filen Xltx i Java"
 head_description: "Använd Java för att söka efter Digital-signaturer i Xltx-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Digital-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för Java gör det möjligt att söka efter Digital-signaturer i redan signerade Xltx-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Digital-signaturer i filen Xltx"
+description: "Inbyggt API för Java gör det möjligt att söka efter Digital-signaturer i redan signerade Xltx-filer. Utför avancerad e-signatursökning i dina Xltx-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Digital-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Digital-signaturer i Xltx"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gör det enklare för Java-utvecklare att söka efter Digital-signaturer i Xltx-filer från sina applikationer genom att implementera några enkla steg.
         

@@ -18,8 +18,8 @@ head_title: "eSign Xlsx-dokument met QR QR-kode in Java"
 head_description: "Skep QR QR-kode en plaas dit op Xlsx-lêer deur Java met 'n kort stukkie Java-kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en lêers met QR-kode te e-teken."
 
 ############################# Header ############################
-title: "Genereer QR QR-kode handtekening vir {{Lêerformaat}} dokument in Java"
-description: "eTeken jou {{Lêerformaat}} dokumente en kontrakte met QR QR-kode. Genereer QR-kode handtekening vinnig en maklik."
+title: "Genereer QR QR-kode handtekening vir Xlsx dokument in Java"
+description: "eTeken jou Xlsx dokumente en kontrakte met QR QR-kode. Genereer QR-kode handtekening vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,9 +48,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Qrcode in Java te onderteken"
+    title_left: "Stappe om Xlsx met Qrcode in Java te onderteken"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om {{Lêerformaat}} dokumente met Qrcode handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om Xlsx dokumente met Qrcode handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Xlsx-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Qrcode Regstreekse Demo"
+    title: "Teken Xlsx dokumente met Qrcode Regstreekse Demo"
     content: |
        Teken nou die Xlsx-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Qrcode handtekeninge vir Java"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Xlsx met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
         
        

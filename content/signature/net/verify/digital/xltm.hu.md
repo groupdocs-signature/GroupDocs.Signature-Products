@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Digital aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Digital aláírások érvényesítése a Xltm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Digital aláírások ellenőrzése a Xltm dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

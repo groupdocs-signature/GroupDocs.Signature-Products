@@ -17,8 +17,8 @@ head_title: "Verifiering av Digital-signaturer för Ods-filer via Java"
 head_description: "Använd bara några rader med Java-kod för att verifiera Ods-dokument och deras Digital-signaturer."
 
 ############################# Header ############################
-title: "Digital signaturverifiering för {{Filformat}}-filer"
-description: "API för Java ger möjlighet att verifiera Digital-signaturer i Ods-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Digital signaturverifiering för Ods-filer"
+description: "API för Java ger möjlighet att verifiera Digital-signaturer i Ods-dokument. Verifiering av e-signaturer i dina Ods-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

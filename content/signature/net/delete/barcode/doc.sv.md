@@ -17,8 +17,8 @@ head_title: "Ta bort Barcode-signaturer från Doc-filer via C#"
 head_description: "Radering av specifika Barcode-signaturer från signerade Doc-dokument kan enkelt utföras med kort .NET-kod."
 
 ############################# Header ############################
-title: "Ta bort Barcode-signaturer som är placerade i {{Filformat}}-filer"
-description: "Ta bort olika Barcode-signaturer från {{Filformat}}-dokument. Att ta bort Barcode-signaturer kräver enkel C#-kod."
+title: "Ta bort Barcode-signaturer som är placerade i Doc-filer"
+description: "Ta bort olika Barcode-signaturer från Doc-dokument. Att ta bort Barcode-signaturer kräver enkel C#-kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man tar bort Barcode-signaturer från ditt {{Filformat}}-dokument"
+    title_left: "Hur man tar bort Barcode-signaturer från ditt Doc-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från Barcode signaturer med några rader kod.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa Doc dokument från Barcode signaturer med några rader kod.
         
         * Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.
         * Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.

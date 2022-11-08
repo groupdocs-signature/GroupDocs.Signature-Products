@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Barcode signatures at Ppsx with C#
 
 ############################# Head ############################
-head_title: "በC# ውስጥ በPpsx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+head_title: "በC# ውስጥ በPpsx ፋይል ውስጥ የBarcode ፊርማዎችን ይፈልጉ"
 head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም በPpsx ፋይሎች ውስጥ የBarcode ፊርማዎችን ለመፈለግ .NETን ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በPpsx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+title: "በPpsx ፋይል ውስጥ የBarcode ፊርማዎችን ይፈልጉ"
 description: ".NET ቤተኛ ኤፒአይ አስቀድሞ በተፈረሙ Ppsx ፋይሎች ውስጥ የBarcode ፊርማዎችን ለመፈለግ ይፈቅዳል። ጥቂት የኮድ መስመሮችን በመጠቀም በPpsx ሰነዶችዎ ውስጥ የላቀ የኢ-ፊርማ ፍለጋን ያድርጉ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በPpsx ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
+    title_left: "በPpsx ውስጥ የBarcode ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ለ.NET ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በPpsx ፋይሎች ውስጥ ፊርማዎችን መፈለግ ቀላል ያደርገዋል።
         
@@ -106,7 +106,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "የ{{Signturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
+    title: "የBarcode ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት ሰነዱን አሁን በPpsx ፋይሎች ላይ የተለያዩ የኤሌክትሮኒክ ፊርማዎችን ይፈልጉ።
 
@@ -114,7 +114,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "C#ን በመጠቀም ሌሎች {{የፊርማ አይነት}} ፊርማዎችን ይፈልጉ"
+    title: "C#ን በመጠቀም ሌሎች Barcode ፊርማዎችን ይፈልጉ"
     content: |
         "የኤሌክትሮኒክ ፊርማዎች በተለያዩ ሰነዶች ውስጥ ይፈልጉ. ከታች እንደሚታየው ከታዋቂው የፋይል ቅርጸቶች ፊርማዎችን ያግኙ።"
     format: 

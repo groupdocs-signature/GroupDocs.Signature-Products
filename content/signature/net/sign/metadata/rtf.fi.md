@@ -106,7 +106,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Metadata allekirjoitukset ohjelmalle C#"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Rtf muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
        
        

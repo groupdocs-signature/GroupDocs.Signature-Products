@@ -17,7 +17,7 @@ head_title: "Frissítse a Ppt fájlokban elhelyezett Barcode aláírásokat a Ja
 head_description: "Használjon egyszerű és könnyen érthető Java kódot a Barcode aláírások frissítéséhez az aláírt Ppt dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Barcode aláírásokat"
+title: "Szerkessze és frissítse a Ppt fájlokban elhelyezett Barcode aláírásokat"
 description: "A(z) Java API a(z) Barcode aláírások frissítését biztosítja a(z) Ppt dokumentumokban. Frissítse az e-aláírásokat Ppt dokumentumaiban néhány soros Java kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Barcode aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Barcode aláírások módosítása a Ppt dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Barcode aláírások frissítése a Ppt dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

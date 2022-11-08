@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Odpን በ{{Signturetype}} በC# ለመፈረም ደረጃዎች"
+    title_left: "Odpን በQrcode በC# ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የOdp ሰነዶችን በQrcode ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -124,7 +124,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለC#"
+    title: "ሌሎች የሚደገፉ የQrcode ፊርማዎች ለC#"
     content: |
         "እንዲሁም Odpን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

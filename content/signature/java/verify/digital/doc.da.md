@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Digital signaturer for Doc filer via Java"
 head_description: "Brug kun et par linjer med Java-kode til at bekræfte Doc-dokumenter og deres Digital-signaturer."
 
 ############################# Header ############################
-title: "Digital signaturbekræftelse for {{Filformat}} filer"
-description: "API for Java giver mulighed for at bekræfte Digital-signaturer på Doc-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Digital signaturbekræftelse for Doc filer"
+description: "API for Java giver mulighed for at bekræfte Digital-signaturer på Doc-dokumenter. Bekræftelse af e-signaturer i dine Doc-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Digital-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Digital-signaturer i dit Doc-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner såsom bekræftelse af Digital signaturer placeret på Doc dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

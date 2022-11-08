@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Search Digital signatures at Docm with C#
 
 ############################# Head ############################
-head_title: "Sök efter Digital-signaturer i filen {{Filformat}} i C#"
+head_title: "Sök efter Digital-signaturer i filen Docm i C#"
 head_description: "Använd .NET för att söka efter Digital-signaturer i Docm-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Digital-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för .NET gör det möjligt att söka efter Digital-signaturer i redan signerade Docm-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Digital-signaturer i filen Docm"
+description: "Inbyggt API för .NET gör det möjligt att söka efter Digital-signaturer i redan signerade Docm-filer. Utför avancerad e-signatursökning i dina Docm-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Digital-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Digital-signaturer i Docm"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gör det enklare för .NET-utvecklare att söka efter Digital-signaturer i Docm-filer från sina applikationer genom att implementera några enkla steg.
         

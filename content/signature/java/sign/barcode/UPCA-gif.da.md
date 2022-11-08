@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Gif for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}} dokument med UPCA stregkode i Java"
+head_title: "eSign Gif dokument med UPCA stregkode i Java"
 head_description: "Opret UPCA stregkodesignatur og læg den på Gif dokument med Java ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere forskellige filformater."
 
 ############################# Header ############################
-title: "Generer UPCA Stregkodesignatur for {{Filformat}} dokument i Java"
+title: "Generer UPCA Stregkodesignatur for Gif dokument i Java"
 description: "eSignér dine Gif forretningsdokumenter med UPCA stregkode. Generer stregkodesignatur hurtigt og nemt med et par linjer kode for at opsætte signeringsmuligheder."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Barcode i Java"
+    title_left: "Trin til at signere Gif med Barcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver mulighed for at signere Gif dokumenter med Barcode signaturer hurtigt og nemt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering af Gif dokumenter med Barcode Live Demo"
     content: |
        Signer Gif-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Barcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Gif med andre signaturtyper. Se venligst listen nedenfor."
     format: 
         
        

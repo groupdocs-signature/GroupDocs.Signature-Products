@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Dotx for C#
 
 ############################# Head ############################
 head_title: "Opdater Barcode signaturer placeret på Dotx filer med C#"
-head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Barcode-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Barcode-signaturer i signerede Dotx-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Barcode signaturer placeret på {{Filformat}} filer"
-description: "API for .NET giver funktionalitet til Barcode signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med C# kode hurtigt og nemt."
+title: "Rediger og opdater Barcode signaturer placeret på Dotx filer"
+description: "API for .NET giver funktionalitet til Barcode signaturer, der opdateres i Dotx dokumenter. Opdater e-signaturer i dine Dotx dokumenter med et par linjer med C# kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Barcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Barcode-signaturer i dit Dotx-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner som f.eks. opdatering af Barcode signaturer placeret på Dotx dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Qrcode signaturer for Odt filer via Java"
 head_description: "Brug kun et par linjer med Java-kode til at bekræfte Odt-dokumenter og deres Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturbekræftelse for {{Filformat}} filer"
-description: "API for Java giver mulighed for at bekræfte Qrcode-signaturer på Odt-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Qrcode signaturbekræftelse for Odt filer"
+description: "API for Java giver mulighed for at bekræfte Qrcode-signaturer på Odt-dokumenter. Bekræftelse af e-signaturer i dine Odt-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Qrcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Qrcode-signaturer i dit Odt-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner såsom bekræftelse af Qrcode signaturer placeret på Odt dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Barcode signatures at Dotx with Java
 
 ############################# Head ############################
-head_title: "በJava ውስጥ በDotx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+head_title: "በJava ውስጥ በDotx ፋይል ውስጥ የBarcode ፊርማዎችን ይፈልጉ"
 head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም በDotx ፋይሎች ውስጥ የBarcode ፊርማዎችን ለመፈለግ Javaን ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በDotx ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+title: "በDotx ፋይል ውስጥ የBarcode ፊርማዎችን ይፈልጉ"
 description: "Java ቤተኛ ኤፒአይ አስቀድሞ በተፈረሙ Dotx ፋይሎች ውስጥ የBarcode ፊርማዎችን ለመፈለግ ይፈቅዳል። ጥቂት የኮድ መስመሮችን በመጠቀም በDotx ሰነዶችዎ ውስጥ የላቀ የኢ-ፊርማ ፍለጋን ያድርጉ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በDotx ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
+    title_left: "በDotx ውስጥ የBarcode ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ለJava ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በDotx ፋይሎች ውስጥ ፊርማዎችን መፈለግ ቀላል ያደርገዋል።
         
@@ -101,7 +101,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "የ{{Signturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
+    title: "የBarcode ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት ሰነዱን አሁን በDotx ፋይሎች ላይ የተለያዩ የኤሌክትሮኒክ ፊርማዎችን ይፈልጉ።
 
@@ -109,7 +109,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Javaን በመጠቀም ሌሎች {{የፊርማ አይነት}} ፊርማዎችን ይፈልጉ"
+    title: "Javaን በመጠቀም ሌሎች Barcode ፊርማዎችን ይፈልጉ"
     content: |
         "የኤሌክትሮኒክ ፊርማዎች በተለያዩ ሰነዶች ውስጥ ይፈልጉ. ከታች እንደሚታየው ከታዋቂው የፋይል ቅርጸቶች ፊርማዎችን ያግኙ።"
     format: 

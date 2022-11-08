@@ -18,8 +18,8 @@ head_title: "eSign Dotm-dokument med Aztec QR-kod i C#"
 head_description: "Skapa Aztec QR-kod och lägg den i filen Dotm med .NET med en kort bit av C#-koden. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med QR-kod."
 
 ############################# Header ############################
-title: "Generera Aztec QR-kodsignatur för {{Filformat}} dokument i C#"
-description: "esignera dina {{Filformat}}-dokument och kontrakt med Aztec QR-kod. Generera QR-kodsignatur snabbt och enkelt."
+title: "Generera Aztec QR-kodsignatur för Dotm dokument i C#"
+description: "esignera dina Dotm-dokument och kontrakt med Aztec QR-kod. Generera QR-kodsignatur snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Qrcode i C#"
+    title_left: "Steg för att signera Dotm med Qrcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ger möjlighet att signera Dotm-dokument med Qrcode-signaturer snabbt och enkelt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Qrcode Live Demo"
+    title: "Signerar Dotm dokument med Qrcode Live Demo"
     content: |
        Signera filen Dotm med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andra stödda Qrcode-signaturer för C#"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Dotm med andra signaturtyper. Se listan nedan."
     format: 
         
        

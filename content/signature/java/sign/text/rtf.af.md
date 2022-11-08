@@ -17,7 +17,7 @@ head_title: "Skep teks elektroniese handtekeninge na Rtf lêer met Java"
 head_description: "Plaas Text eSignature op Rtf lêer vir Java deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API om dosyne lêerformate te onderteken."
 
 ############################# Header ############################
-title: "Teken {{Lêerformaat}} lêers met Text handtekeninge in Java"
+title: "Teken Rtf lêers met Text handtekeninge in Java"
 description: "Hoe om Text handtekening by te voeg met 'n paar reëls van Java kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Text in Java te onderteken"
+    title_left: "Stappe om Rtf met Text in Java te onderteken"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om {{Lêerformaat}} dokumente met Text handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om Rtf dokumente met Text handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Rtf-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -90,7 +90,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Text Regstreekse Demo"
+    title: "Teken Rtf dokumente met Text Regstreekse Demo"
     content: |
        Teken nou die Rtf-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -99,7 +99,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Text handtekeninge vir Java"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Rtf met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

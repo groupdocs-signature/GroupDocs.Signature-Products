@@ -17,7 +17,7 @@ head_title: "Lägger till Image-signaturer i filen Png med C#"
 head_description: "Sätt Image Signatur på Png-filen för .NET med några rader kod. Använd GroupDocs Document Signature API för att signera dussintals filformat."
 
 ############################# Header ############################
-title: "Signera {{Filformat}}-filer med Image-signaturer i C#"
+title: "Signera Png-filer med Image-signaturer i C#"
 description: "Hur man lägger till Image-signatur med några rader med .NET-kod"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Image i C#"
+    title_left: "Steg för att signera Png med Image i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ger möjlighet att signera Png-dokument med Image-signaturer snabbt och enkelt.
         
@@ -94,7 +94,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Image Live Demo"
+    title: "Signerar Png dokument med Image Live Demo"
     content: |
        Signera filen Png med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -103,7 +103,7 @@ more_formats:
     enable: true
     title: "Andra stödda Image-signaturer för C#"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Png med andra signaturtyper. Se listan nedan."
     format: 
        
        

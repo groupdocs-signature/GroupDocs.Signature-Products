@@ -14,10 +14,10 @@ breadcrumb: Put Barcode signature on Dotm for C#
 
 ############################# Head ############################
 head_title: "Barcode қолтаңбаларды Dotm файлдарынан C# арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Dotm құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Dotm файлдарына орналастырылған Barcode қолтаңбаларды жойыңыз"
 description: "Dotm құжаттарынан әртүрлі Barcode қолтаңбаларды жойыңыз. Barcode қолтаңбаларын жою қарапайым C# кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

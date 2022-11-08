@@ -2,15 +2,15 @@
   "content": {
     "meta_title": "የ{{Signaturetype}} ፊርማዎችን ከ{{Fileformat}} ፋይሎች በ{{ProgLang}} በኩል ሰርዝ",
     "meta_description": "ከተፈረሙ {{Fileformat}} ሰነዶች የተወሰኑ የ{{Signaturetype}} ፊርማዎችን መሰረዝ በአጭር የ{{ProductName}} ኮድ በቀላሉ ሊከናወን ይችላል።",
-    "h1": "በ{{Fileformat}} ፋይሎች ውስጥ የተቀመጡትን የ{{Signturetype}} ፊርማዎችን ያስወግዱ",
-    "h2": "የተለያዩ የ{{Signturetype}} ፊርማዎችን ከ{{Fileformat}} ሰነዶች ሰርዝ። የ{{Signturetype}} ፊርማዎችን ማስወገድ ቀላል የ{{ProgLang}} ኮድ ያስፈልገዋል።"
+    "h1": "በ{{Fileformat}} ፋይሎች ውስጥ የተቀመጡትን የ{{Signaturetype}} ፊርማዎችን ያስወግዱ",
+    "h2": "የተለያዩ የ{{Signaturetype}} ፊርማዎችን ከ{{Fileformat}} ሰነዶች ሰርዝ። የ{{Signaturetype}} ፊርማዎችን ማስወገድ ቀላል የ{{ProgLang}} ኮድ ያስፈልገዋል።"
   },
   "about": {
     "title": "ስለ {{ProductFullName}} API ባህሪያት መረጃ ያግኙ",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) ኤፒአይ የኤሌክትሮኒክ ፊርማዎችን በመጠቀም ሰነዶችዎን ለማስኬድ ብዙ መንገዶችን ይሰጣል። እንደ ጽሑፎች፣ ምስሎች፣ ዲጂታል የምስክር ወረቀቶች፣ ባርኮዶች፣ QR-codes፣ ማህተሞች ወይም ዲበ ዳታ ያሉ ዲጂታል ፊርማዎች አሉ። ደንበኞች በፒዲኤፍ ፣ MS Word ሰነዶች ፣ በኤምኤስኤክሴል የስራ ደብተሮች ፣ MS PowerPoint አቀራረቦች ፣ አዶቤ ፎቶሾፕ ፋይሎች እና በተለያዩ የምስል ቅርጸቶች ላይ ዲጂታል ፊርማዎችን ማከል ፣ መሰረዝ ፣ ማዘመን ፣ ማረጋገጥ ወይም መፈለግ ይችላሉ። እጅግ በጣም ብዙ ጠቃሚ ባህሪያት እና ቅንብሮች ቀርበዋል."
   },
   "steps": {
-    "title_left": "{{Signturetype}} ፊርማዎችን ከ{{Fileformat}} ሰነድዎ እንዴት ማስወገድ እንደሚቻል",
+    "title_left": "{{Signaturetype}} ፊርማዎችን ከ{{Fileformat}} ሰነድዎ እንዴት ማስወገድ እንደሚቻል",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን የ{{Signaturetype}} ፊርማዎችን በጥቂት የኮድ መስመሮች ለማጽዳት ጠቃሚ ባህሪን ይሰጣል።",
       "step_1": "በመጀመሪያ፣ ወደ ሰነድዎ የሚያልፈውን ፊርማ ነገር እንደ ግንበኛ መለኪያ።",
@@ -27,11 +27,154 @@
     }
   },
   "demos": {
-    "title": "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም",
+    "title": "በ{{Signaturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም",
     "content": "የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ {{Fileformat}} ፋይል አሁኑኑ ያክሉ።"
   },
   "more_formats": {
-    "title": "የእርስዎን {{Signturetype}} ፊርማዎች በ{{ProgLang}} ይሰርዙ",
+    "title": "የእርስዎን {{Signaturetype}} ፊርማዎች በ{{ProgLang}} ይሰርዙ",
     "content": "በተለያዩ የሰነድ ቅርጸቶች ላይ የታከሉ ኢ-ፊርማዎችን መሰረዝ። ያለ ተጨማሪ ኮድ ፊርማዎችን በፍጥነት ያስወግዱ።"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

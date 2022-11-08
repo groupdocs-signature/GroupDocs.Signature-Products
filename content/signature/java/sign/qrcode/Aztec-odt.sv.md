@@ -18,8 +18,8 @@ head_title: "eSign Odt-dokument med Aztec QR-kod i Java"
 head_description: "Skapa Aztec QR-kod och lägg den i filen Odt med Java med en kort bit av Java-koden. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med QR-kod."
 
 ############################# Header ############################
-title: "Generera Aztec QR-kodsignatur för {{Filformat}} dokument i Java"
-description: "esignera dina {{Filformat}}-dokument och kontrakt med Aztec QR-kod. Generera QR-kodsignatur snabbt och enkelt."
+title: "Generera Aztec QR-kodsignatur för Odt dokument i Java"
+description: "esignera dina Odt-dokument och kontrakt med Aztec QR-kod. Generera QR-kodsignatur snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Qrcode i Java"
+    title_left: "Steg för att signera Odt med Qrcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Odt-dokument med Qrcode-signaturer snabbt och enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Qrcode Live Demo"
+    title: "Signerar Odt dokument med Qrcode Live Demo"
     content: |
        Signera filen Odt med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andra stödda Qrcode-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Odt med andra signaturtyper. Se listan nedan."
     format: 
         
        

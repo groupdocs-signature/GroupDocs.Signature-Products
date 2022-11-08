@@ -18,7 +18,7 @@ head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም የIma
 
 ############################# Header ############################
 title: "Pptm ፋይሎችን በImage ፊርማዎች በJava ይፈርሙ"
-description: "{{የፊርማ አይነት}} ፊርማ ከጥቂት መስመሮች Java ኮድ ጋር እንዴት እንደሚታከል"
+description: "Image ፊርማ ከጥቂት መስመሮች Java ኮድ ጋር እንዴት እንደሚታከል"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Pptmን በ{{Signturetype}} በJava ለመፈረም ደረጃዎች"
+    title_left: "Pptmን በImage በJava ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የPptm ሰነዶችን በImage ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -98,7 +98,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለJava"
+    title: "ሌሎች የሚደገፉ የImage ፊርማዎች ለJava"
     content: |
         "እንዲሁም Pptmን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

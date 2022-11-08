@@ -17,8 +17,8 @@ head_title: "Ta bort Digital-signaturer från Odt-filer via C#"
 head_description: "Radering av specifika Digital-signaturer från signerade Odt-dokument kan enkelt utföras med kort .NET-kod."
 
 ############################# Header ############################
-title: "Ta bort Digital-signaturer som är placerade i {{Filformat}}-filer"
-description: "Ta bort olika Digital-signaturer från {{Filformat}}-dokument. Att ta bort Digital-signaturer kräver enkel C#-kod."
+title: "Ta bort Digital-signaturer som är placerade i Odt-filer"
+description: "Ta bort olika Digital-signaturer från Odt-dokument. Att ta bort Digital-signaturer kräver enkel C#-kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man tar bort Digital-signaturer från ditt {{Filformat}}-dokument"
+    title_left: "Hur man tar bort Digital-signaturer från ditt Odt-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från Digital signaturer med några rader kod.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa Odt dokument från Digital signaturer med några rader kod.
         
         * Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.
         * Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.

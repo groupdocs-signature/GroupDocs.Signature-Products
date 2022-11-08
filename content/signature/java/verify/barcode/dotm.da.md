@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Barcode signaturer for Dotm filer via Java"
 head_description: "Brug kun et par linjer med Java-kode til at bekræfte Dotm-dokumenter og deres Barcode-signaturer."
 
 ############################# Header ############################
-title: "Barcode signaturbekræftelse for {{Filformat}} filer"
-description: "API for Java giver mulighed for at bekræfte Barcode-signaturer på Dotm-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Barcode signaturbekræftelse for Dotm filer"
+description: "API for Java giver mulighed for at bekræfte Barcode-signaturer på Dotm-dokumenter. Bekræftelse af e-signaturer i dine Dotm-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Barcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Barcode-signaturer i dit Dotm-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner såsom bekræftelse af Barcode signaturer placeret på Dotm dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

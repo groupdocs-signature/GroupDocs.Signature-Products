@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Image signature on Ots for Java
 
 ############################# Head ############################
-head_title: "በOts ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+head_title: "በOts ፋይሎች ላይ የተቀመጡ የImage ፊርማዎችን በJava ያዘምኑ"
 head_description: "በተፈረሙ የOts ሰነዶች ውስጥ ለImage የፊርማ ማሻሻያ የJava ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በOts ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ"
+title: "በOts ፋይሎች ላይ የተቀመጡ የImage ፊርማዎችን ያርትዑ እና ያዘምኑ"
 description: "ኤፒአይ ለJava ለImage ፊርማዎች በOts ሰነዶች ላይ ማዘመንን ያቀርባል። በOts ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር Java ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Ots ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል"
+    title_left: "በእርስዎ Ots ሰነድ ውስጥ የImage ፊርማዎችን እንዴት መቀየር እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) በOts ሰነዶች ላይ የተቀመጡ የImage ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።
         
@@ -113,7 +113,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የተለያዩ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+    title: "የተለያዩ የImage ፊርማዎችን በJava ያዘምኑ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
     format: 

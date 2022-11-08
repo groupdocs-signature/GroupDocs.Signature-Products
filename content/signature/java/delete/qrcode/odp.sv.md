@@ -17,8 +17,8 @@ head_title: "Ta bort Qrcode-signaturer från Odp-filer via Java"
 head_description: "Radering av specifika Qrcode-signaturer från signerade Odp-dokument kan enkelt utföras med kort Java-kod."
 
 ############################# Header ############################
-title: "Ta bort Qrcode-signaturer som är placerade i {{Filformat}}-filer"
-description: "Ta bort olika Qrcode-signaturer från {{Filformat}}-dokument. Att ta bort Qrcode-signaturer kräver enkel Java-kod."
+title: "Ta bort Qrcode-signaturer som är placerade i Odp-filer"
+description: "Ta bort olika Qrcode-signaturer från Odp-dokument. Att ta bort Qrcode-signaturer kräver enkel Java-kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man tar bort Qrcode-signaturer från ditt {{Filformat}}-dokument"
+    title_left: "Hur man tar bort Qrcode-signaturer från ditt Odp-dokument"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från Qrcode signaturer med några rader kod.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) tillhandahåller användbar funktion för att rensa Odp dokument från Qrcode signaturer med några rader kod.
         
         * Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.
         * Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.

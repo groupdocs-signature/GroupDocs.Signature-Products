@@ -17,8 +17,8 @@ head_title: "የImage ፊርማዎችን ከOtt ፋይሎች በC# በኩል ሰ
 head_description: "ከተፈረሙ Ott ሰነዶች የተወሰኑ የImage ፊርማዎችን መሰረዝ በአጭር የ.NET ኮድ በቀላሉ ሊከናወን ይችላል።"
 
 ############################# Header ############################
-title: "በOtt ፋይሎች ውስጥ የተቀመጡትን የ{{Signturetype}} ፊርማዎችን ያስወግዱ"
-description: "የተለያዩ የ{{Signturetype}} ፊርማዎችን ከOtt ሰነዶች ሰርዝ። የ{{Signturetype}} ፊርማዎችን ማስወገድ ቀላል የC# ኮድ ያስፈልገዋል።"
+title: "በOtt ፋይሎች ውስጥ የተቀመጡትን የImage ፊርማዎችን ያስወግዱ"
+description: "የተለያዩ የImage ፊርማዎችን ከOtt ሰነዶች ሰርዝ። የImage ፊርማዎችን ማስወገድ ቀላል የC# ኮድ ያስፈልገዋል።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{{Signturetype}} ፊርማዎችን ከOtt ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
+    title_left: "Image ፊርማዎችን ከOtt ሰነድዎ እንዴት ማስወገድ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የOtt ሰነዶችን የImage ፊርማዎችን በጥቂት የኮድ መስመሮች ለማጽዳት ጠቃሚ ባህሪን ይሰጣል።
         
@@ -96,14 +96,14 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም"
+    title: "በImage ፊርማዎች ቀጥታ ማሳያ መፈረም"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ Ott ፋይል አሁኑኑ ያክሉ።          
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የእርስዎን {{Signturetype}} ፊርማዎች በC# ይሰርዙ"
+    title: "የእርስዎን Image ፊርማዎች በC# ይሰርዙ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች ላይ የታከሉ ኢ-ፊርማዎችን መሰረዝ። ያለ ተጨማሪ ኮድ ፊርማዎችን በፍጥነት ያስወግዱ።"
     format: 

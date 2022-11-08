@@ -14,7 +14,7 @@ breadcrumb: Put Digital signature on Docx for C#
 
 ############################# Head ############################
 head_title: "Zêdekirina îmzeyên elektronîkî yên dîjîtal li pelê Docx bi C#"
-head_description: "Ji bo .NET bi çend rêzikên kodê Îmzeya Dîjîtal bixin ser pelê {{Pelformat}}. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin."
+head_description: "Ji bo .NET bi çend rêzikên kodê Îmzeya Dîjîtal bixin ser pelê Docx. API-ya Îmzekirina Belgeya GroupDocs bikar bînin da ku bi dehan formatên pelan îmze bikin."
 
 ############################# Header ############################
 title: "eSign Docx pelên bi Digital di C# de"
@@ -51,9 +51,9 @@ steps:
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) îmzakirina belgeyên Docx bi îmzeyên Digital zû û bi hêsanî peyda dike.
         
-        * Nimûneyek ji çîna îmzayê biafirîne ku pelê {{Pelformat}} pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
+        * Nimûneyek ji çîna îmzayê biafirîne ku pelê Docx pêşkêş dike ku divê wekî rêyek an herikîna bîranînê were îmzekirin
         * Dersa SignOptions destnîşan bikin û hemî daneyên daxwazkirî bicîh bikin.
-        * Rêbaza Signature.Sign() vexwend ku derana pelê {{Pelformat}} an jî herikîna bîrê derbas dike
+        * Rêbaza Signature.Sign() vexwend ku derana pelê Docx an jî herikîna bîrê derbas dike
 
     title_right: " Pêdiviyên Sîstemê"
     content_right: |
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Îmzekirina belgeyên {{Pelformat}} bi Digital Demoya Zindî"
+    title: "Îmzekirina belgeyên Docx bi Digital Demoya Zindî"
     content: |
        Naha bi serdana malpera [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) pelê Docx bi îmzeyên cihêreng îmze bikin. Demoya serhêl a belaş li benda we ye.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Îmzeyên din ên piştgirî yên Digital ji bo C#"
     content: |
-        "Her weha hûn dikarin {{Pelformat}} bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
+        "Her weha hûn dikarin Docx bi celebên din ên îmzayê re îmze bikin. Ji kerema xwe lîsteya jêrîn bibînin."
     format: 
        
        

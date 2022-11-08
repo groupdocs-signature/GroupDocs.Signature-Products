@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Ppt for C#
 
 ############################# Head ############################
 head_title: "Opdater Barcode signaturer placeret på Ppt filer med C#"
-head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Barcode-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå .NET-koden til opdatering af Barcode-signaturer i signerede Ppt-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Barcode signaturer placeret på {{Filformat}} filer"
-description: "API for .NET giver funktionalitet til Barcode signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med C# kode hurtigt og nemt."
+title: "Rediger og opdater Barcode signaturer placeret på Ppt filer"
+description: "API for .NET giver funktionalitet til Barcode signaturer, der opdateres i Ppt dokumenter. Opdater e-signaturer i dine Ppt dokumenter med et par linjer med C# kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Barcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Barcode-signaturer i dit Ppt-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner som f.eks. opdatering af Barcode signaturer placeret på Ppt dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

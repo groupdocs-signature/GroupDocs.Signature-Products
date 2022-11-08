@@ -2,7 +2,7 @@
   "content": {
     "meta_title": "Frissítse a {{Fileformat}} fájlokban elhelyezett {{Signaturetype}} aláírásokat a {{ProgLang}} segítségével",
     "meta_description": "Használjon egyszerű és könnyen érthető {{ProductName}} kódot a {{Signaturetype}} aláírások frissítéséhez az aláírt {{Fileformat}} dokumentumokban.",
-    "h1": "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett {{Signaturetype}} aláírásokat",
+    "h1": "Szerkessze és frissítse a {{Fileformat}} fájlokban elhelyezett {{Signaturetype}} aláírásokat",
     "h2": "A(z) {{ProductName}} API a(z) {{Signaturetype}} aláírások frissítését biztosítja a(z) {{Fileformat}} dokumentumokban. Frissítse az e-aláírásokat {{Fileformat}} dokumentumaiban néhány soros {{ProgLang}} kóddal gyorsan és egyszerűen."
   },
   "about": {
@@ -10,7 +10,7 @@
     "content": "A [{{ProductFullName}}]({{ProductUrl}}) API-funkciók számos eszközt tartalmaznak az igény szerinti dokumentumformátumok elektronikus aláírással történő feldolgozására. Az e-aláírások széles spektruma támogatott, mint például szövegek, képek, digitális tanúsítványok, vonalkódok, QR-kódok, bélyegzők vagy metaadatok. Az ügyfelek hozzáadhatnak, eltávolíthatnak, szerkeszthetnek, érvényesíthetnek vagy kereshetnek digitális aláírásokban PDF-ekben, MS Word dokumentumokban, MS Excel munkafüzetekben, MS PowerPoint prezentációkban, Adobe Photoshop fájlokban és különféle képformátumokban. Számos hasznos funkció és beállítás érhető el."
   },
   "steps": {
-    "title_left": "A {{Signaturetype}} aláírások módosítása a {{Fájlformátum}} dokumentumban",
+    "title_left": "A {{Signaturetype}} aláírások módosítása a {{Fileformat}} dokumentumban",
     "content_left": {
       "description": "A [{{ProductFullName}}]({{ProductUrl}}) olyan hasznos funkciókat tartalmaz, mint a {{Signaturetype}} aláírások frissítése a {{Fileformat}} dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.",
       "step_1": "Kezdésként hozzon létre egy aláírás objektumot, amely konstruktor paraméter elérési útjaként adja át azt a dokumentumot, amelyet frissíteni kell.",
@@ -35,3 +35,146 @@
     "content": "Különféle dokumentumformátumokban elhelyezett digitális aláírások szerkesztése. Az aláírási adatok frissítése extra kód nélkül."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

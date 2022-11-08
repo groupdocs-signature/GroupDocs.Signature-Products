@@ -17,8 +17,8 @@ head_title: "Törölje a Text aláírásokat a Dot fájlokból a C# segítségé
 head_description: "Az aláírt Dot dokumentumokból bizonyos Text aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Text aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Text aláírásokat a {{Fájlformátum}} dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Text aláírásokat, amelyek a Dot fájlokban vannak elhelyezve"
+description: "Törölje a különböző Text aláírásokat a Dot dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

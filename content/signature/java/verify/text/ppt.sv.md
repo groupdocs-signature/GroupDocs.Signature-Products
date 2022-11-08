@@ -17,8 +17,8 @@ head_title: "Verifiering av Text-signaturer för Ppt-filer via Java"
 head_description: "Använd bara några rader med Java-kod för att verifiera Ppt-dokument och deras Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturverifiering för {{Filformat}}-filer"
-description: "API för Java ger möjlighet att verifiera Text-signaturer i Ppt-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Text signaturverifiering för Ppt-filer"
+description: "API för Java ger möjlighet att verifiera Text-signaturer i Ppt-dokument. Verifiering av e-signaturer i dina Ppt-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

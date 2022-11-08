@@ -17,7 +17,7 @@ head_title: "Frissítse a Xlsm fájlokban elhelyezett Image aláírásokat a C# 
 head_description: "Használjon egyszerű és könnyen érthető .NET kódot a Image aláírások frissítéséhez az aláírt Xlsm dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Image aláírásokat"
+title: "Szerkessze és frissítse a Xlsm fájlokban elhelyezett Image aláírásokat"
 description: "A(z) .NET API a(z) Image aláírások frissítését biztosítja a(z) Xlsm dokumentumokban. Frissítse az e-aláírásokat Xlsm dokumentumaiban néhány soros C# kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Image aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Image aláírások módosítása a Xlsm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Image aláírások frissítése a Xlsm dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

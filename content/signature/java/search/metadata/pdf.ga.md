@@ -18,7 +18,7 @@ head_description: "Úsáid Java chun sínithe Metadata a chuardach i gcomhaid Pd
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Metadata sínithe i gcomhad Pdf"
-description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Pdf ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar Metadata sínithe i gcomhaid Pdf atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Pdf ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

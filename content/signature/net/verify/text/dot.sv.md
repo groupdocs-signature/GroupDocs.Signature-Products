@@ -17,8 +17,8 @@ head_title: "Verifiering av Text-signaturer för Dot-filer via C#"
 head_description: "Använd bara några rader med .NET-kod för att verifiera Dot-dokument och deras Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturverifiering för {{Filformat}}-filer"
-description: "API för .NET ger möjlighet att verifiera Text-signaturer i Dot-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Text signaturverifiering för Dot-filer"
+description: "API för .NET ger möjlighet att verifiera Text-signaturer i Dot-dokument. Verifiering av e-signaturer i dina Dot-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

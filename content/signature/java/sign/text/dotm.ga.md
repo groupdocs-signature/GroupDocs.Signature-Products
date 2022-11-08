@@ -53,7 +53,7 @@ steps:
         
         * Cruthaigh sampla d'aicme Sínithe ag soláthar Dotm comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne
         * Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.
-        * Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith
+        * Iarr ar an modh Signature.Sign() aschuir Dotm comhad nó sruth cuimhne a rith
 
     title_right: " Riachtanais Chórais"
     content_right: |
@@ -90,7 +90,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Ag síniú Dotm doiciméad le {{ Signaturetype}} Taispeántas Beo"
+    title: "Ag síniú Dotm doiciméad le Text Taispeántas Beo"
     content: |
        Sínigh Dotm comhad le sínithe éagsúla faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Saor in aisce taispeána ar líne ag fanacht leat.          
 

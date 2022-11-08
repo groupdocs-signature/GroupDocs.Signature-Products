@@ -17,8 +17,8 @@ head_title: "Verifikasie van Qrcode handtekeninge vir Pdf lêers via C#"
 head_description: "Gebruik slegs 'n paar reëls van .NET-kode om Pdf-dokumente en hul Qrcode-handtekeninge te verifieer."
 
 ############################# Header ############################
-title: "Qrcode handtekeningverifikasie vir {{Lêerformaat}} lêers"
-description: "API vir .NET bied geleentheid om Qrcode handtekeninge by Pdf dokumente te verifieer. Verifikasie van e-handtekeninge binne jou {{Lêerformaat}} dokumente kan vinnig en maklik uitgevoer word."
+title: "Qrcode handtekeningverifikasie vir Pdf lêers"
+description: "API vir .NET bied geleentheid om Qrcode handtekeninge by Pdf dokumente te verifieer. Verifikasie van e-handtekeninge binne jou Pdf dokumente kan vinnig en maklik uitgevoer word."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Hoe om Qrcode handtekeninge in jou Pdf dokument te bekragtig"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Qrcode-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Qrcode-handtekeninge wat by Pdf-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
         
         * Eerstens, instansieer Handtekeningklas wat as 'n konstruktor parameter pad verskaf na 'n dokument wat veronderstel is om geverifieer te word.
         * Tweedens, skep 'n nuwe VerifyOptions-objek en stel alle vereiste eienskappe op.

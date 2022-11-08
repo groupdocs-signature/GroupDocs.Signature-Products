@@ -17,8 +17,8 @@ head_title: "Törölje a Text aláírásokat a Otp fájlokból a C# segítségé
 head_description: "Az aláírt Otp dokumentumokból bizonyos Text aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Text aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Text aláírásokat a {{Fájlformátum}} dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Text aláírásokat, amelyek a Otp fájlokban vannak elhelyezve"
+description: "Törölje a különböző Text aláírásokat a Otp dokumentumokból. A Text aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

@@ -14,10 +14,10 @@ breadcrumb: Put Image signature on Ppsm for Java
 
 ############################# Head ############################
 head_title: "Image қолтаңбаларды Ppsm файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Ppsm құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Ppsm файлдарына орналастырылған Image қолтаңбаларды жойыңыз"
 description: "Ppsm құжаттарынан әртүрлі Image қолтаңбаларды жойыңыз. Image қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

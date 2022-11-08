@@ -17,8 +17,8 @@ head_title: "Verifikasie van Text handtekeninge vir Csv lêers via C#"
 head_description: "Gebruik slegs 'n paar reëls van .NET-kode om Csv-dokumente en hul Text-handtekeninge te verifieer."
 
 ############################# Header ############################
-title: "Text handtekeningverifikasie vir {{Lêerformaat}} lêers"
-description: "API vir .NET bied geleentheid om Text handtekeninge by Csv dokumente te verifieer. Verifikasie van e-handtekeninge binne jou {{Lêerformaat}} dokumente kan vinnig en maklik uitgevoer word."
+title: "Text handtekeningverifikasie vir Csv lêers"
+description: "API vir .NET bied geleentheid om Text handtekeninge by Csv dokumente te verifieer. Verifikasie van e-handtekeninge binne jou Csv dokumente kan vinnig en maklik uitgevoer word."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -49,7 +49,7 @@ steps:
     enable: true
     title_left: "Hoe om Text handtekeninge in jou Csv dokument te bekragtig"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Text-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos verifikasie van Text-handtekeninge wat by Csv-dokumente geplaas word. Gebruik hierdie geleentheid sonder om ekstra kode te implementeer.
         
         * Eerstens, instansieer Handtekeningklas wat as 'n konstruktor parameter pad verskaf na 'n dokument wat veronderstel is om geverifieer te word.
         * Tweedens, skep 'n nuwe VerifyOptions-objek en stel alle vereiste eienskappe op.

@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Ods for Java
 
 ############################# Head ############################
 head_title: "Slet Barcode signaturer fra Ods filer via Java"
-head_description: "Sletning af specifikke Barcode-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort Java-kode."
+head_description: "Sletning af specifikke Barcode-signaturer fra signerede Ods-dokumenter kan udføres nemt med en kort Java-kode."
 
 ############################# Header ############################
-title: "Fjern Barcode-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Barcode-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Barcode signaturer kræver simpel Java kode."
+title: "Fjern Barcode-signaturer, der er placeret i Ods-filer"
+description: "Slet forskellige Barcode-signaturer fra Ods-dokumenter. Fjernelse af Barcode signaturer kræver simpel Java kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Barcode-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Barcode-signaturer fra dit Ods-dokument"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Barcode signaturer med et par linjer kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver nyttige funktioner til at rydde Ods dokumenter for Barcode signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

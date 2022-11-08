@@ -17,8 +17,8 @@ head_title: "Törölje a Image aláírásokat a Docx fájlokból a C# segítség
 head_description: "Az aláírt Docx dokumentumokból bizonyos Image aláírások törlése egyszerűen végrehajtható rövid .NET kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Image aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Image aláírásokat a {{Fájlformátum}} dokumentumokból. A Image aláírások eltávolításához egyszerű C# kód szükséges."
+title: "Távolítsa el a Image aláírásokat, amelyek a Docx fájlokban vannak elhelyezve"
+description: "Törölje a különböző Image aláírásokat a Docx dokumentumokból. A Image aláírások eltávolításához egyszerű C# kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

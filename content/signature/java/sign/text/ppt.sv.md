@@ -17,7 +17,7 @@ head_title: "Skapa elektroniska textsignaturer till filen Ppt med Java"
 head_description: "Sätt Text eSignature på filen Ppt för Java med några rader kod. Använd GroupDocs Document Signature API för att signera dussintals filformat."
 
 ############################# Header ############################
-title: "Signera {{Filformat}}-filer med Text-signaturer i Java"
+title: "Signera Ppt-filer med Text-signaturer i Java"
 description: "Hur man lägger till Text-signatur med några rader med Java-kod"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Text i Java"
+    title_left: "Steg för att signera Ppt med Text i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Ppt-dokument med Text-signaturer snabbt och enkelt.
         
@@ -90,7 +90,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Text Live Demo"
+    title: "Signerar Ppt dokument med Text Live Demo"
     content: |
        Signera filen Ppt med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -99,7 +99,7 @@ more_formats:
     enable: true
     title: "Andra stödda Text-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Ppt med andra signaturtyper. Se listan nedan."
     format: 
        
        

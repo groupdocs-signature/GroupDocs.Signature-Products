@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Digital i Java"
+    title_left: "Trin til at signere Doc med Digital i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver mulighed for at signere Doc dokumenter med Digital signaturer hurtigt og nemt.
         
@@ -95,7 +95,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Digital Live Demo"
+    title: "Signering af Doc dokumenter med Digital Live Demo"
     content: |
        Signer Doc-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.          
 
@@ -104,7 +104,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Digital-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Doc med andre signaturtyper. Se venligst listen nedenfor."
     format: 
        
        

@@ -14,11 +14,11 @@ breadcrumb: Put Text signature on Xltm for C#
 
 ############################# Head ############################
 head_title: "Dateer Text-handtekeninge wat by Xltm-lêers geplaas is op met C#"
-head_description: "Gebruik eenvoudig en maklik om .NET-kode te verstaan ​​vir opdatering van Text-handtekeninge in ondertekende {{Lêerformaat}}-dokumente."
+head_description: "Gebruik eenvoudig en maklik om .NET-kode te verstaan ​​vir opdatering van Text-handtekeninge in ondertekende Xltm-dokumente."
 
 ############################# Header ############################
 title: "Wysig en werk Text-handtekeninge op wat by Xltm-lêers geplaas is"
-description: "API vir .NET verskaf funksionaliteit vir Text handtekeninge wat by {{Lêerformaat}} dokumente opdateer. Dateer e-handtekeninge binne jou {{Lêerformaat}} dokumente op met 'n paar reëls van C# kode vinnig en maklik."
+description: "API vir .NET verskaf funksionaliteit vir Text handtekeninge wat by Xltm dokumente opdateer. Dateer e-handtekeninge binne jou Xltm dokumente op met 'n paar reëls van C# kode vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Text-handtekeninge in jou {{Lêerformaat}}-dokument te verander"
+    title_left: "Hoe om Text-handtekeninge in jou Xltm-dokument te verander"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos opdatering van Text-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos opdatering van Text-handtekeninge wat by Xltm-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
         
         * Om mee te begin, skep Signature-objek wat as 'n konstruktor-parameterpad na 'n dokument wat veronderstel is om opgedateer te word, deurgaan.
         * Instansieer dan 'n toepaslike spesifieke handtekeningvoorwerp en stel sy identifiseerder en eienskappe op wat verander moet word.

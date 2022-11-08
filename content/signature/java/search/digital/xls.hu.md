@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Digital aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Digital aláírások keresése a Xls fájlban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) néhány egyszerű lépés végrehajtásával megkönnyíti a Java fejlesztői számára, hogy Digital aláírásokat keressenek alkalmazásaik Xls fájljaiban.
         

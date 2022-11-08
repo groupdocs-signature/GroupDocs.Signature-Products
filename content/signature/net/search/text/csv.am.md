@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Csv with C#
 
 ############################# Head ############################
-head_title: "በC# ውስጥ በCsv ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+head_title: "በC# ውስጥ በCsv ፋይል ውስጥ የText ፊርማዎችን ይፈልጉ"
 head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም በCsv ፋይሎች ውስጥ የText ፊርማዎችን ለመፈለግ .NETን ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በCsv ፋይል ውስጥ የ{{Signturetype}} ፊርማዎችን ይፈልጉ"
+title: "በCsv ፋይል ውስጥ የText ፊርማዎችን ይፈልጉ"
 description: ".NET ቤተኛ ኤፒአይ አስቀድሞ በተፈረሙ Csv ፋይሎች ውስጥ የText ፊርማዎችን ለመፈለግ ይፈቅዳል። ጥቂት የኮድ መስመሮችን በመጠቀም በCsv ሰነዶችዎ ውስጥ የላቀ የኢ-ፊርማ ፍለጋን ያድርጉ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በCsv ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
+    title_left: "በCsv ውስጥ የText ፊርማዎችን እንዴት መፈለግ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) ለ.NET ገንቢዎች ጥቂት ቀላል ደረጃዎችን በመተግበር በCsv ፋይሎች ውስጥ ፊርማዎችን መፈለግ ቀላል ያደርገዋል።
         
@@ -102,7 +102,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "የ{{Signturetype}} ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
+    title: "የText ኤሌክትሮኒክ ፊርማዎችን የቀጥታ ማሳያን ይፈልጉ"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት ሰነዱን አሁን በCsv ፋይሎች ላይ የተለያዩ የኤሌክትሮኒክ ፊርማዎችን ይፈልጉ።
 
@@ -110,7 +110,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "C#ን በመጠቀም ሌሎች {{የፊርማ አይነት}} ፊርማዎችን ይፈልጉ"
+    title: "C#ን በመጠቀም ሌሎች Text ፊርማዎችን ይፈልጉ"
     content: |
         "የኤሌክትሮኒክ ፊርማዎች በተለያዩ ሰነዶች ውስጥ ይፈልጉ. ከታች እንደሚታየው ከታዋቂው የፋይል ቅርጸቶች ፊርማዎችን ያግኙ።"
     format: 

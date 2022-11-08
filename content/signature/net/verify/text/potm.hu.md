@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Text aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Text aláírások érvényesítése a Potm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Text aláírások ellenőrzése a Potm dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

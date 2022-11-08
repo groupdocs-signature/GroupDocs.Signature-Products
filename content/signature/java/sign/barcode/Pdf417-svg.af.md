@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Svg for Java
 
 ############################# Head ############################
-head_title: "eSign {{Lêerformaat}}-dokument met Pdf417 Strepiekode in Java"
+head_title: "eSign Svg-dokument met Pdf417 Strepiekode in Java"
 head_description: "Skep Pdf417 Strepiekode Handtekening en plaas dit op Svg dokument met Java deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API vir die ondertekening van verskeie lêerformate."
 
 ############################# Header ############################
 title: "Genereer Pdf417 strepieskode-handtekening vir Svg-dokument in Java"
-description: "eTeken jou {{Lêerformaat}} besigheidsdokumente met Pdf417 Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
+description: "eTeken jou Svg besigheidsdokumente met Pdf417 Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,9 +48,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Barcode in Java te onderteken"
+    title_left: "Stappe om Svg met Barcode in Java te onderteken"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om {{Lêerformaat}} dokumente met Barcode handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om Svg dokumente met Barcode handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Svg-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Barcode Regstreekse Demo"
+    title: "Teken Svg dokumente met Barcode Regstreekse Demo"
     content: |
        Teken nou die Svg-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Barcode handtekeninge vir Java"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Svg met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
         
        

@@ -18,8 +18,8 @@ head_title: "eSign Bmp-dokument med Data Matrix QR-kod i Java"
 head_description: "Skapa Data Matrix QR-kod och lägg den i filen Bmp med Java med en kort bit av Java-koden. Använd GroupDocs Document Signature API för att e-signera dina affärsdokument och filer med QR-kod."
 
 ############################# Header ############################
-title: "Generera Data Matrix QR-kodsignatur för {{Filformat}} dokument i Java"
-description: "esignera dina {{Filformat}}-dokument och kontrakt med Data Matrix QR-kod. Generera QR-kodsignatur snabbt och enkelt."
+title: "Generera Data Matrix QR-kodsignatur för Bmp dokument i Java"
+description: "esignera dina Bmp-dokument och kontrakt med Data Matrix QR-kod. Generera QR-kodsignatur snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Qrcode i Java"
+    title_left: "Steg för att signera Bmp med Qrcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Bmp-dokument med Qrcode-signaturer snabbt och enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Qrcode Live Demo"
+    title: "Signerar Bmp dokument med Qrcode Live Demo"
     content: |
        Signera filen Bmp med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andra stödda Qrcode-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Bmp med andra signaturtyper. Se listan nedan."
     format: 
         
        

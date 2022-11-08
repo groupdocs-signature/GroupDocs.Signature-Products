@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Odt for C#
 
 ############################# Head ############################
 head_title: "Dateer Barcode-handtekeninge wat by Odt-lêers geplaas is op met C#"
-head_description: "Gebruik eenvoudig en maklik om .NET-kode te verstaan ​​vir opdatering van Barcode-handtekeninge in ondertekende {{Lêerformaat}}-dokumente."
+head_description: "Gebruik eenvoudig en maklik om .NET-kode te verstaan ​​vir opdatering van Barcode-handtekeninge in ondertekende Odt-dokumente."
 
 ############################# Header ############################
 title: "Wysig en werk Barcode-handtekeninge op wat by Odt-lêers geplaas is"
-description: "API vir .NET verskaf funksionaliteit vir Barcode handtekeninge wat by {{Lêerformaat}} dokumente opdateer. Dateer e-handtekeninge binne jou {{Lêerformaat}} dokumente op met 'n paar reëls van C# kode vinnig en maklik."
+description: "API vir .NET verskaf funksionaliteit vir Barcode handtekeninge wat by Odt dokumente opdateer. Dateer e-handtekeninge binne jou Odt dokumente op met 'n paar reëls van C# kode vinnig en maklik."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Barcode-handtekeninge in jou {{Lêerformaat}}-dokument te verander"
+    title_left: "Hoe om Barcode-handtekeninge in jou Odt-dokument te verander"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos opdatering van Barcode-handtekeninge wat by {{Lêerformaat}}-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) sluit nuttige kenmerke in soos opdatering van Barcode-handtekeninge wat by Odt-dokumente geplaas is. Dit maak dit moontlik om handtekeningkenmerke te verander sonder ekstra kode.
         
         * Om mee te begin, skep Signature-objek wat as 'n konstruktor-parameterpad na 'n dokument wat veronderstel is om opgedateer te word, deurgaan.
         * Instansieer dan 'n toepaslike spesifieke handtekeningvoorwerp en stel sy identifiseerder en eienskappe op wat verander moet word.

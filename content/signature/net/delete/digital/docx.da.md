@@ -14,11 +14,11 @@ breadcrumb: Put Digital signature on Docx for C#
 
 ############################# Head ############################
 head_title: "Slet Digital signaturer fra Docx filer via C#"
-head_description: "Sletning af specifikke Digital-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort .NET-kode."
+head_description: "Sletning af specifikke Digital-signaturer fra signerede Docx-dokumenter kan udføres nemt med en kort .NET-kode."
 
 ############################# Header ############################
-title: "Fjern Digital-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Digital-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Digital signaturer kræver simpel C# kode."
+title: "Fjern Digital-signaturer, der er placeret i Docx-filer"
+description: "Slet forskellige Digital-signaturer fra Docx-dokumenter. Fjernelse af Digital signaturer kræver simpel C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Digital-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Digital-signaturer fra dit Docx-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Digital signaturer med et par linjer kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde Docx dokumenter for Digital signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

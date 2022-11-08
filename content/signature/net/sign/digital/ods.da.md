@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Digital i C#"
+    title_left: "Trin til at signere Ods med Digital i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver mulighed for at signere Ods dokumenter med Digital signaturer hurtigt og nemt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Digital Live Demo"
+    title: "Signering af Ods dokumenter med Digital Live Demo"
     content: |
        Signer Ods-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Digital-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Ods med andre signaturtyper. Se venligst listen nedenfor."
     format: 
        
        

@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Dotm for C#
 
 ############################# Head ############################
 head_title: "Uppdatera Qrcode-signaturer placerade i Dotm-filer med C#"
-head_description: "Använd enkel och lätt att förstå .NET-koden för uppdatering av Qrcode-signaturer i signerade {{Filformat}}-dokument."
+head_description: "Använd enkel och lätt att förstå .NET-koden för uppdatering av Qrcode-signaturer i signerade Dotm-dokument."
 
 ############################# Header ############################
-title: "Redigera och uppdatera Qrcode-signaturer placerade i {{Filformat}}-filer"
-description: "API för .NET tillhandahåller funktionalitet för Qrcode-signaturer som uppdateras i {{Filformat}}-dokument. Uppdatera e-signaturer i dina {{Filformat}}-dokument med ett par rader C#-kod snabbt och enkelt."
+title: "Redigera och uppdatera Qrcode-signaturer placerade i Dotm-filer"
+description: "API för .NET tillhandahåller funktionalitet för Qrcode-signaturer som uppdateras i Dotm-dokument. Uppdatera e-signaturer i dina Dotm-dokument med ett par rader C#-kod snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Så här ändrar du Qrcode-signaturer i ditt {{Filformat}}-dokument"
+    title_left: "Så här ändrar du Qrcode-signaturer i ditt Dotm-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) innehåller användbara funktioner som uppdatering av Qrcode-signaturer placerade i {{Filformat}}-dokument. Det gör det möjligt att ändra signaturfunktioner utan extra kod.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) innehåller användbara funktioner som uppdatering av Qrcode-signaturer placerade i Dotm-dokument. Det gör det möjligt att ändra signaturfunktioner utan extra kod.
         
         * Till att börja med, skapa signaturobjekt som passerar som en konstruktorparametersökväg till ett dokument som ska uppdateras.
         * Instantiera sedan ett lämpligt särskilt signaturobjekt och ställ in dess identifierare och egenskaper som behöver ändras.

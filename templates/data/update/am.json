@@ -1,8 +1,8 @@
 {
   "content": {
-    "meta_title": "በ{{Fileformat}} ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በ{{ProgLang}} ያዘምኑ",
+    "meta_title": "በ{{Fileformat}} ፋይሎች ላይ የተቀመጡ የ{{Signaturetype}} ፊርማዎችን በ{{ProgLang}} ያዘምኑ",
     "meta_description": "በተፈረሙ የ{{Fileformat}} ሰነዶች ውስጥ ለ{{Signaturetype}} የፊርማ ማሻሻያ የ{{ProductName}} ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።",
-    "h1": "በ{{Fileformat}} ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ",
+    "h1": "በ{{Fileformat}} ፋይሎች ላይ የተቀመጡ የ{{Signaturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ",
     "h2": "ኤፒአይ ለ{{ProductName}} ለ{{Signaturetype}} ፊርማዎች በ{{Fileformat}} ሰነዶች ላይ ማዘመንን ያቀርባል። በ{{Fileformat}} ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር {{ProgLang}} ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
   },
   "about": {
@@ -10,7 +10,7 @@
     "content": "[{{ProductFullName}}]({{ProductUrl}}) የኤፒአይ ተግባር ኤሌክትሮኒካዊ ፊርማዎችን በመጠቀም በፍላጎት ሰነዶች ቅርጸቶችን ለማስኬድ ሰፊ ምርጫዎችን ይዟል። እንደ ጽሁፎች፣ ምስሎች፣ ዲጂታል ሰርተፊኬቶች፣ ባርኮዶች፣ QR-codes፣ ማህተሞች ወይም ሜታዳታ ያሉ ሰፊ የኢ-ፊርማዎች ስፔክትረም ይደገፋሉ። ደንበኞች ዲጂታል ፊርማዎችን በፒዲኤፍ፣ MS Word ሰነዶች፣ በኤምኤስ ኤክሴል የስራ ደብተሮች፣ MS PowerPoint ማቅረቢያዎች፣ አዶቤ ፎቶሾፕ ፋይሎች እና የተለያዩ የምስል ቅርጸቶችን ማከል፣ ማስወገድ፣ ማረም፣ ማረጋገጥ ወይም መፈለግ ይችላሉ። ብዙ ጠቃሚ ባህሪያት እና ቅንብሮች ይገኛሉ."
   },
   "steps": {
-    "title_left": "በእርስዎ {{Fileformat}} ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል",
+    "title_left": "በእርስዎ {{Fileformat}} ሰነድ ውስጥ የ{{Signaturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) በ{{Fileformat}} ሰነዶች ላይ የተቀመጡ የ{{Signaturetype}} ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።",
       "step_1": "ለመጀመር፣ መዘመን አለበት ወደተባለው ሰነድ እንደ ግንበኛ መለኪያ መንገድ የሚያልፍ የፊርማ ነገር ይፍጠሩ።",
@@ -31,7 +31,150 @@
     "content": "የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የ{{Fileformat}} ሰነድ የተለያዩ ኤሌክትሮኒክ ፊርማዎችን አሁኑኑ ያርትዑ።"
   },
   "more_formats": {
-    "title": "የተለያዩ የ{{Signturetype}} ፊርማዎችን በ{{ProgLang}} ያዘምኑ",
+    "title": "የተለያዩ የ{{Signaturetype}} ፊርማዎችን በ{{ProgLang}} ያዘምኑ",
     "content": "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

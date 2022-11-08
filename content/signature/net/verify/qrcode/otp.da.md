@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Qrcode signaturer for Otp filer via C#"
 head_description: "Brug kun et par linjer med .NET-kode til at bekræfte Otp-dokumenter og deres Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturbekræftelse for {{Filformat}} filer"
-description: "API for .NET giver mulighed for at bekræfte Qrcode-signaturer på Otp-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Qrcode signaturbekræftelse for Otp filer"
+description: "API for .NET giver mulighed for at bekræfte Qrcode-signaturer på Otp-dokumenter. Bekræftelse af e-signaturer i dine Otp-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Qrcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Qrcode-signaturer i dit Otp-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner såsom bekræftelse af Qrcode signaturer placeret på Otp dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Barcode signatures at Dot with Java
 
 ############################# Head ############################
-head_title: "Sök efter Barcode-signaturer i filen {{Filformat}} i Java"
+head_title: "Sök efter Barcode-signaturer i filen Dot i Java"
 head_description: "Använd Java för att söka efter Barcode-signaturer i Dot-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Barcode-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för Java gör det möjligt att söka efter Barcode-signaturer i redan signerade Dot-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Barcode-signaturer i filen Dot"
+description: "Inbyggt API för Java gör det möjligt att söka efter Barcode-signaturer i redan signerade Dot-filer. Utför avancerad e-signatursökning i dina Dot-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Barcode-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Barcode-signaturer i Dot"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gör det enklare för Java-utvecklare att söka efter Barcode-signaturer i Dot-filer från sina applikationer genom att implementera några enkla steg.
         

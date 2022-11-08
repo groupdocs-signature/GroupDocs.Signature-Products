@@ -17,7 +17,7 @@ head_title: "Frissítse a Pptm fájlokban elhelyezett Barcode aláírásokat a C
 head_description: "Használjon egyszerű és könnyen érthető .NET kódot a Barcode aláírások frissítéséhez az aláírt Pptm dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Barcode aláírásokat"
+title: "Szerkessze és frissítse a Pptm fájlokban elhelyezett Barcode aláírásokat"
 description: "A(z) .NET API a(z) Barcode aláírások frissítését biztosítja a(z) Pptm dokumentumokban. Frissítse az e-aláírásokat Pptm dokumentumaiban néhány soros C# kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Barcode aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Barcode aláírások módosítása a Pptm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) olyan hasznos funkciókat tartalmaz, mint a Barcode aláírások frissítése a Pptm dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

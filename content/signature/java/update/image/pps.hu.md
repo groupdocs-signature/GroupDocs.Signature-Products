@@ -17,7 +17,7 @@ head_title: "Frissítse a Pps fájlokban elhelyezett Image aláírásokat a Java
 head_description: "Használjon egyszerű és könnyen érthető Java kódot a Image aláírások frissítéséhez az aláírt Pps dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Image aláírásokat"
+title: "Szerkessze és frissítse a Pps fájlokban elhelyezett Image aláírásokat"
 description: "A(z) Java API a(z) Image aláírások frissítését biztosítja a(z) Pps dokumentumokban. Frissítse az e-aláírásokat Pps dokumentumaiban néhány soros Java kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Image aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Image aláírások módosítása a Pps dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Image aláírások frissítése a Pps dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

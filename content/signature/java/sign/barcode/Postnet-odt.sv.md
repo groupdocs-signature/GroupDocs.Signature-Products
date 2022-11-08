@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Barcode i Java"
+    title_left: "Steg för att signera Odt med Barcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Odt-dokument med Barcode-signaturer snabbt och enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Barcode Live Demo"
+    title: "Signerar Odt dokument med Barcode Live Demo"
     content: |
        Signera filen Odt med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andra stödda Barcode-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Odt med andra signaturtyper. Se listan nedan."
     format: 
         
        

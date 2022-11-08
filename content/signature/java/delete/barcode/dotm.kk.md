@@ -14,10 +14,10 @@ breadcrumb: Put Barcode signature on Dotm for Java
 
 ############################# Head ############################
 head_title: "Barcode қолтаңбаларды Dotm файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Dotm құжаттарынан арнайы Barcode қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Dotm файлдарына орналастырылған Barcode қолтаңбаларды жойыңыз"
 description: "Dotm құжаттарынан әртүрлі Barcode қолтаңбаларды жойыңыз. Barcode қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

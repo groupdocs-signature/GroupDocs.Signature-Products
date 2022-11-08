@@ -17,7 +17,7 @@ head_title: "Frissítse a Ots fájlokban elhelyezett Qrcode aláírásokat a Jav
 head_description: "Használjon egyszerű és könnyen érthető Java kódot a Qrcode aláírások frissítéséhez az aláírt Ots dokumentumokban."
 
 ############################# Header ############################
-title: "Szerkessze és frissítse a {{Fájlformátum}} fájlokban elhelyezett Qrcode aláírásokat"
+title: "Szerkessze és frissítse a Ots fájlokban elhelyezett Qrcode aláírásokat"
 description: "A(z) Java API a(z) Qrcode aláírások frissítését biztosítja a(z) Ots dokumentumokban. Frissítse az e-aláírásokat Ots dokumentumaiban néhány soros Java kóddal gyorsan és egyszerűen."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Qrcode aláírások módosítása a {{Fájlformátum}} dokumentumban"
+    title_left: "A Qrcode aláírások módosítása a Ots dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Qrcode aláírások frissítése a Ots dokumentumokban. Lehetővé teszi az aláírási funkciók módosítását extra kód nélkül.
         

@@ -48,13 +48,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A {{Fájlformátum}} aláírásának lépései a Qrcode segítségével a Java programban"
+    title_left: "A Ott aláírásának lépései a Qrcode segítségével a Java programban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) lehetővé teszi a Ott dokumentumok gyors és egyszerű aláírását Qrcode aláírással.
         
-        * Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni
+        * Hozzon létre egy példányt a Signature osztályból, amely Ott fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni
         * Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.
-        * Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot
+        * Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti Ott fájlt vagy memóriafolyamot
 
     title_right: " rendszerkövetelmények"
     content_right: |
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Egyéb támogatott Qrcode aláírások a Java számára"
     content: |
-        "A {{Fájlformátum}} más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
+        "A Ott más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
     format: 
         
        

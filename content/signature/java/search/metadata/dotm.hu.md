@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Metadata aláírások keresése a {{Fájlformátum}} fájlban"
+    title_left: "Metadata aláírások keresése a Dotm fájlban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) néhány egyszerű lépés végrehajtásával megkönnyíti a Java fejlesztői számára, hogy Metadata aláírásokat keressenek alkalmazásaik Dotm fájljaiban.
         

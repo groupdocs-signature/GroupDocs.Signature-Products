@@ -14,10 +14,10 @@ breadcrumb: Put Digital signature on Ods for C#
 
 ############################# Head ############################
 head_title: "Digital қолтаңбаларды Ods файлдарынан C# арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Ods құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Ods файлдарына орналастырылған Digital қолтаңбаларды жойыңыз"
 description: "Ods құжаттарынан әртүрлі Digital қолтаңбаларды жойыңыз. Digital қолтаңбаларын жою қарапайым C# кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

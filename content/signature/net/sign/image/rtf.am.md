@@ -18,7 +18,7 @@ head_description: "ጥቂት የኮድ መስመሮችን በመጠቀም የIma
 
 ############################# Header ############################
 title: "Rtf ፋይሎችን በImage ፊርማዎች በC# ይፈርሙ"
-description: "{{የፊርማ አይነት}} ፊርማ ከጥቂት መስመሮች .NET ኮድ ጋር እንዴት እንደሚታከል"
+description: "Image ፊርማ ከጥቂት መስመሮች .NET ኮድ ጋር እንዴት እንደሚታከል"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Rtfን በ{{Signturetype}} በC# ለመፈረም ደረጃዎች"
+    title_left: "Rtfን በImage በC# ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የRtf ሰነዶችን በImage ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -101,7 +101,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለC#"
+    title: "ሌሎች የሚደገፉ የImage ፊርማዎች ለC#"
     content: |
         "እንዲሁም Rtfን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

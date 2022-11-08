@@ -17,8 +17,8 @@ head_title: "Ta bort Qrcode-signaturer från Dotm-filer via C#"
 head_description: "Radering av specifika Qrcode-signaturer från signerade Dotm-dokument kan enkelt utföras med kort .NET-kod."
 
 ############################# Header ############################
-title: "Ta bort Qrcode-signaturer som är placerade i {{Filformat}}-filer"
-description: "Ta bort olika Qrcode-signaturer från {{Filformat}}-dokument. Att ta bort Qrcode-signaturer kräver enkel C#-kod."
+title: "Ta bort Qrcode-signaturer som är placerade i Dotm-filer"
+description: "Ta bort olika Qrcode-signaturer från Dotm-dokument. Att ta bort Qrcode-signaturer kräver enkel C#-kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man tar bort Qrcode-signaturer från ditt {{Filformat}}-dokument"
+    title_left: "Hur man tar bort Qrcode-signaturer från ditt Dotm-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa {{Filformat}} dokument från Qrcode signaturer med några rader kod.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) tillhandahåller användbar funktion för att rensa Dotm dokument från Qrcode signaturer med några rader kod.
         
         * Först, instansiera signaturobjekt som skickar sökvägen till ditt dokument som en konstruktorparameter.
         * Skapa sedan ett lämpligt signaturobjekt och ställ in dess unika identifierare.

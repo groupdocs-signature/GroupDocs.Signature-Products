@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Barcode allekirjoitukset ohjelmalle C#"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Xlsb muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
         
        

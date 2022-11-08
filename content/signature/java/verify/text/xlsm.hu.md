@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Text aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Text aláírások érvényesítése a Xlsm dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Text aláírások ellenőrzése a Xlsm dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

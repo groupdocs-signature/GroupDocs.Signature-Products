@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Text signaturer for Pdf filer via Java"
 head_description: "Brug kun et par linjer med Java-kode til at bekræfte Pdf-dokumenter og deres Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturbekræftelse for {{Filformat}} filer"
-description: "API for Java giver mulighed for at bekræfte Text-signaturer på Pdf-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Text signaturbekræftelse for Pdf filer"
+description: "API for Java giver mulighed for at bekræfte Text-signaturer på Pdf-dokumenter. Bekræftelse af e-signaturer i dine Pdf-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Text-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Text-signaturer i dit Pdf-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner såsom bekræftelse af Text signaturer placeret på Pdf dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         

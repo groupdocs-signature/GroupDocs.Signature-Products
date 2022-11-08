@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Ppsm for C#
 
 ############################# Head ############################
-head_title: "Tilføj metadata elektroniske signaturer til {{Filformat}} dokumenter via C#"
-head_description: "Brug Metadata som skjulte elektroniske signaturer i dine {{Filformat}}-dokumenter ved at bruge et par linjer med C#-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med metadataoplysninger."
+head_title: "Tilføj metadata elektroniske signaturer til Ppsm dokumenter via C#"
+head_description: "Brug Metadata som skjulte elektroniske signaturer i dine Ppsm-dokumenter ved at bruge et par linjer med C#-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med metadataoplysninger."
 
 ############################# Header ############################
-title: "Metadata elektroniske signaturer for {{Filformat}} dokument via .NET er enkle og nemme at bruge!"
-description: "eSignér dine {{Filformat}} dokumenter og kontrakter med skjulte metadataposter. Generer metadata til PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer og forskellige billedformater uden problemer og ekstra kodning."
+title: "Metadata elektroniske signaturer for Ppsm dokument via .NET er enkle og nemme at bruge!"
+description: "eSignér dine Ppsm dokumenter og kontrakter med skjulte metadataposter. Generer metadata til PDF'er, MS Word-dokumenter, MS Excel-projektmapper, MS PowerPoint-præsentationer og forskellige billedformater uden problemer og ekstra kodning."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Metadata i C#"
+    title_left: "Trin til at signere Ppsm med Metadata i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver mulighed for at signere Ppsm dokumenter med Metadata signaturer hurtigt og nemt.
         
@@ -97,7 +97,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Metadata Live Demo"
+    title: "Signering af Ppsm dokumenter med Metadata Live Demo"
     content: |
        Signer Ppsm-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.          
 
@@ -106,7 +106,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Metadata-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Ppsm med andre signaturtyper. Se venligst listen nedenfor."
     format: 
        
        

@@ -15,7 +15,7 @@
     "meta_title": "የ{{Signaturetype}} ፊርማዎችን ወደ {{Fileformat}} ፋይል በ{{ProgLang}} ማከል",
     "meta_description": "ጥቂት የኮድ መስመሮችን በመጠቀም የ{{Signaturetype}} ፊርማ በ{{Fileformat}} ፋይል ላይ ለ{{ProductName}} ያድርጉ። በደርዘን የሚቆጠሩ የፋይል ቅርጸቶችን ለመፈረም የGroupDocs Document Signature API ይጠቀሙ።",
     "h1": "{{Fileformat}} ፋይሎችን በ{{Signaturetype}} ፊርማዎች በ{{ProgLang}} ይፈርሙ",
-    "h2": "{{የፊርማ አይነት}} ፊርማ ከጥቂት መስመሮች {{ProductName}} ኮድ ጋር እንዴት እንደሚታከል"
+    "h2": "{{Signaturetype}} ፊርማ ከጥቂት መስመሮች {{ProductName}} ኮድ ጋር እንዴት እንደሚታከል"
   },
   "metadata-content": {
     "meta_title": "ሜታዳታ ኤሌክትሮኒካዊ ፊርማዎችን ወደ {{Fileformat}} ሰነዶች በ{{ProgLang}} በኩል ጨምር",
@@ -33,7 +33,7 @@
     "meta_title": "የጽሁፍ ኤሌክትሮኒክ ፊርማዎችን ወደ {{Fileformat}} ፋይል በ{{ProgLang}} ይፍጠሩ",
     "meta_description": "ጥቂት የኮድ መስመሮችን በመጠቀም {{Signaturetype}} eSigntureን በ{{Fileformat}} ፋይል ላይ ለ{{ProductName}} ያድርጉ። በደርዘን የሚቆጠሩ የፋይል ቅርጸቶችን ለመፈረም የGroupDocs Document Signature API ይጠቀሙ።",
     "h1": "{{Fileformat}} ፋይሎችን በ{{Signaturetype}} ፊርማዎች በ{{ProgLang}} ይፈርሙ",
-    "h2": "{{የፊርማ አይነት}} ፊርማ ከጥቂት መስመሮች {{ProductName}} ኮድ ጋር እንዴት እንደሚታከል"
+    "h2": "{{Signaturetype}} ፊርማ ከጥቂት መስመሮች {{ProductName}} ኮድ ጋር እንዴት እንደሚታከል"
   },
   "barcode-about": {
     "title": "ስለ {{ProductFullName}} የአሞሌ ፊርማዎች ኤፒአይ።",
@@ -69,7 +69,7 @@
     }
   },
   "barcode-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -78,7 +78,7 @@
     }
   },
   "digital-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -87,7 +87,7 @@
     }
   },
   "image-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -96,7 +96,7 @@
     }
   },
   "metadata-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -105,7 +105,7 @@
     }
   },
   "qrcode-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -114,7 +114,7 @@
     }
   },
   "text-steps": {
-    "title": "{{Fileformat}}ን በ{{Signturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
+    "title": "{{Fileformat}}ን በ{{Signaturetype}} በ{{ProgLang}} ለመፈረም ደረጃዎች",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) የ{{Fileformat}} ሰነዶችን በ{{Signaturetype}} ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።",
       "step_1": "እንደ ዱካ ወይም የማህደረ ትውስታ ዥረት መፈረም ያለበትን {{Fileformat}} ፋይል የሚያቀርብ የፊርማ ክፍል ምሳሌ ይፍጠሩ",
@@ -127,7 +127,7 @@
     "content": "የ[GroupDocs.Signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የ{{Fileformat}} ፋይልን በተለያዩ ፊርማዎች አሁን ይፈርሙ። ነፃ የመስመር ላይ ማሳያ እርስዎን እየጠበቀዎት ነው።"
   },
   "more_formats": {
-    "title": "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለ{{ProgLang}}",
+    "title": "ሌሎች የሚደገፉ የ{{Signaturetype}} ፊርማዎች ለ{{ProgLang}}",
     "content": "እንዲሁም {{Fileformat}}ን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
   },
   "bar_qr_codes": {
@@ -228,3 +228,146 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

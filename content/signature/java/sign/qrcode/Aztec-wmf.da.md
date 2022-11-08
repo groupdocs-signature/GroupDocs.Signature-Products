@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Wmf for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med Aztec QR-kode i Java"
+head_title: "eSign Wmf-dokument med Aztec QR-kode i Java"
 head_description: "Opret Aztec QR-kode og læg den i Wmf-filen ved hjælp af Java med et kort stykke Java-kode. Brug GroupDocs Document Signature API til at e-signere dine forretningsdokumenter og filer med QR-kode."
 
 ############################# Header ############################
-title: "Generer Aztec QR-kodesignatur for {{Filformat}} dokument i Java"
-description: "eSignér dine {{Filformat}}-dokumenter og kontrakter med Aztec QR-kode. Generer QR-kodesignatur hurtigt og nemt."
+title: "Generer Aztec QR-kodesignatur for Wmf dokument i Java"
+description: "eSignér dine Wmf-dokumenter og kontrakter med Aztec QR-kode. Generer QR-kodesignatur hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Qrcode i Java"
+    title_left: "Trin til at signere Wmf med Qrcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) giver mulighed for at signere Wmf dokumenter med Qrcode signaturer hurtigt og nemt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Qrcode Live Demo"
+    title: "Signering af Wmf dokumenter med Qrcode Live Demo"
     content: |
        Signer Wmf-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Qrcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Wmf med andre signaturtyper. Se venligst listen nedenfor."
     format: 
         
        

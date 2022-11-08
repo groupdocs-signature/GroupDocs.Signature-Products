@@ -14,10 +14,10 @@ breadcrumb: Put Digital signature on Dotx for Java
 
 ############################# Head ############################
 head_title: "Digital қолтаңбаларды Dotx файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Digital қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Dotx құжаттарынан арнайы Digital қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Dotx файлдарына орналастырылған Digital қолтаңбаларды жойыңыз"
 description: "Dotx құжаттарынан әртүрлі Digital қолтаңбаларды жойыңыз. Digital қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

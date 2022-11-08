@@ -17,8 +17,8 @@ head_title: "Törölje a Image aláírásokat a Odt fájlokból a Java segítsé
 head_description: "Az aláírt Odt dokumentumokból bizonyos Image aláírások törlése egyszerűen végrehajtható rövid Java kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Image aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Image aláírásokat a {{Fájlformátum}} dokumentumokból. A Image aláírások eltávolításához egyszerű Java kód szükséges."
+title: "Távolítsa el a Image aláírásokat, amelyek a Odt fájlokban vannak elhelyezve"
+description: "Törölje a különböző Image aláírásokat a Odt dokumentumokból. A Image aláírások eltávolításához egyszerű Java kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

@@ -17,8 +17,8 @@ head_title: "Törölje a Digital aláírásokat a Pptm fájlokból a Java segít
 head_description: "Az aláírt Pptm dokumentumokból bizonyos Digital aláírások törlése egyszerűen végrehajtható rövid Java kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Digital aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Digital aláírásokat a {{Fájlformátum}} dokumentumokból. A Digital aláírások eltávolításához egyszerű Java kód szükséges."
+title: "Távolítsa el a Digital aláírásokat, amelyek a Pptm fájlokban vannak elhelyezve"
+description: "Törölje a különböző Digital aláírásokat a Pptm dokumentumokból. A Digital aláírások eltávolításához egyszerű Java kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

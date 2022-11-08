@@ -17,7 +17,7 @@ head_title: "Lägger till Image-signaturer i filen Potx med Java"
 head_description: "Sätt Image Signatur på Potx-filen för Java med några rader kod. Använd GroupDocs Document Signature API för att signera dussintals filformat."
 
 ############################# Header ############################
-title: "Signera {{Filformat}}-filer med Image-signaturer i Java"
+title: "Signera Potx-filer med Image-signaturer i Java"
 description: "Hur man lägger till Image-signatur med några rader med Java-kod"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steg för att signera {{Filformat}} med Image i Java"
+    title_left: "Steg för att signera Potx med Image i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ger möjlighet att signera Potx-dokument med Image-signaturer snabbt och enkelt.
         
@@ -91,7 +91,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signerar {{Filformat}} dokument med Image Live Demo"
+    title: "Signerar Potx dokument med Image Live Demo"
     content: |
        Signera filen Potx med olika signaturer just nu genom att besöka webbplatsen [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis onlinedemo väntar på dig.          
 
@@ -100,7 +100,7 @@ more_formats:
     enable: true
     title: "Andra stödda Image-signaturer för Java"
     content: |
-        "Du kan också signera {{Filformat}} med andra signaturtyper. Se listan nedan."
+        "Du kan också signera Potx med andra signaturtyper. Se listan nedan."
     format: 
        
        

@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Xlsm for Java
 
 ############################# Head ############################
-head_title: "በXlsm ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+head_title: "በXlsm ፋይሎች ላይ የተቀመጡ የText ፊርማዎችን በJava ያዘምኑ"
 head_description: "በተፈረሙ የXlsm ሰነዶች ውስጥ ለText የፊርማ ማሻሻያ የJava ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በXlsm ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ"
+title: "በXlsm ፋይሎች ላይ የተቀመጡ የText ፊርማዎችን ያርትዑ እና ያዘምኑ"
 description: "ኤፒአይ ለJava ለText ፊርማዎች በXlsm ሰነዶች ላይ ማዘመንን ያቀርባል። በXlsm ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር Java ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Xlsm ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል"
+    title_left: "በእርስዎ Xlsm ሰነድ ውስጥ የText ፊርማዎችን እንዴት መቀየር እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) በXlsm ሰነዶች ላይ የተቀመጡ የText ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።
         
@@ -115,7 +115,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የተለያዩ የ{{Signturetype}} ፊርማዎችን በJava ያዘምኑ"
+    title: "የተለያዩ የText ፊርማዎችን በJava ያዘምኑ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
     format: 

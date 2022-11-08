@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Pptx for Java
 
 ############################# Head ############################
 head_title: "განაახლეთ Qrcode ხელმოწერები, რომლებიც განთავსებულია Pptx ფაილებზე Java-ით"
-head_description: "გამოიყენეთ მარტივი და გასაგები Java კოდი Qrcode ხელმოწერების განახლებისთვის ხელმოწერილ {{ფაილის ფორმატი}} დოკუმენტებში."
+head_description: "გამოიყენეთ მარტივი და გასაგები Java კოდი Qrcode ხელმოწერების განახლებისთვის ხელმოწერილ Pptx დოკუმენტებში."
 
 ############################# Header ############################
 title: "შეცვალეთ და განაახლეთ Qrcode ხელმოწერები, რომლებიც განთავსებულია Pptx ფაილზე"
-description: "API Java-ისთვის უზრუნველყოფს ფუნქციონირებას Qrcode ხელმოწერების განახლებისთვის Pptx დოკუმენტებში. განაახლეთ ელექტრონული ხელმოწერები თქვენს {{ფაილის ფორმატში}} დოკუმენტებში Java კოდის რამდენიმე სტრიქონით სწრაფად და მარტივად."
+description: "API Java-ისთვის უზრუნველყოფს ფუნქციონირებას Qrcode ხელმოწერების განახლებისთვის Pptx დოკუმენტებში. განაახლეთ ელექტრონული ხელმოწერები თქვენს Pptx დოკუმენტებში Java კოდის რამდენიმე სტრიქონით სწრაფად და მარტივად."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Qrcode ხელმოწერების განახლება დოკუმენტის გვერდებზე - ცოცხალი დემო"
     content: |
-       შეცვალეთ {{ფაილის ფორმატი}} დოკუმენტის სხვადასხვა ელექტრონული ხელმოწერა ახლავე, ეწვიეთ [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) ვებსაიტს.          
+       შეცვალეთ Pptx დოკუმენტის სხვადასხვა ელექტრონული ხელმოწერა ახლავე, ეწვიეთ [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) ვებსაიტს.          
 
 ############################# More Formats ############################
 more_formats:

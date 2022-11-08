@@ -18,7 +18,7 @@ head_description: "Úsáid Java chun sínithe Barcode a chuardach i gcomhaid Xlt
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Barcode sínithe i gcomhad Xltm"
-description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Xltm ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais Java cuardach a dhéanamh ar Barcode sínithe i gcomhaid Xltm atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Xltm ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

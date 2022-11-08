@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Ots for Java
 
 ############################# Head ############################
 head_title: "განაახლეთ Barcode ხელმოწერები, რომლებიც განთავსებულია Ots ფაილებზე Java-ით"
-head_description: "გამოიყენეთ მარტივი და გასაგები Java კოდი Barcode ხელმოწერების განახლებისთვის ხელმოწერილ {{ფაილის ფორმატი}} დოკუმენტებში."
+head_description: "გამოიყენეთ მარტივი და გასაგები Java კოდი Barcode ხელმოწერების განახლებისთვის ხელმოწერილ Ots დოკუმენტებში."
 
 ############################# Header ############################
 title: "შეცვალეთ და განაახლეთ Barcode ხელმოწერები, რომლებიც განთავსებულია Ots ფაილზე"
-description: "API Java-ისთვის უზრუნველყოფს ფუნქციონირებას Barcode ხელმოწერების განახლებისთვის Ots დოკუმენტებში. განაახლეთ ელექტრონული ხელმოწერები თქვენს {{ფაილის ფორმატში}} დოკუმენტებში Java კოდის რამდენიმე სტრიქონით სწრაფად და მარტივად."
+description: "API Java-ისთვის უზრუნველყოფს ფუნქციონირებას Barcode ხელმოწერების განახლებისთვის Ots დოკუმენტებში. განაახლეთ ელექტრონული ხელმოწერები თქვენს Ots დოკუმენტებში Java კოდის რამდენიმე სტრიქონით სწრაფად და მარტივად."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -108,7 +108,7 @@ demos:
     enable: true
     title: "Barcode ხელმოწერების განახლება დოკუმენტის გვერდებზე - ცოცხალი დემო"
     content: |
-       შეცვალეთ {{ფაილის ფორმატი}} დოკუმენტის სხვადასხვა ელექტრონული ხელმოწერა ახლავე, ეწვიეთ [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) ვებსაიტს.          
+       შეცვალეთ Ots დოკუმენტის სხვადასხვა ელექტრონული ხელმოწერა ახლავე, ეწვიეთ [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) ვებსაიტს.          
 
 ############################# More Formats ############################
 more_formats:

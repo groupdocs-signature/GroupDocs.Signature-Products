@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A Barcode aláírások érvényesítése a {{Fájlformátum}} dokumentumban"
+    title_left: "A Barcode aláírások érvényesítése a Tiff dokumentumban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) olyan hasznos funkciókat tartalmaz, mint a Barcode aláírások ellenőrzése a Tiff dokumentumokban. Használja ki ezt a lehetőséget extra kód alkalmazása nélkül.
         

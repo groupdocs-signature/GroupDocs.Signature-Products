@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Muut tuetut Qrcode allekirjoitukset ohjelmalle Java"
     content: |
-        "Voit myös allekirjoittaa {{Tiedostomuoto}} muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
+        "Voit myös allekirjoittaa Xls muilla allekirjoitustyypeillä. Katso alla oleva luettelo."
     format: 
         
        

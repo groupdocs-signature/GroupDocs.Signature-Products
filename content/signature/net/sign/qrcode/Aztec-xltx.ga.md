@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Xltx for C#
 
 ############################# Head ############################
-head_title: "eSign {{ Fileformat }} doiciméad le {{ Codetype }} Cód QR in C#"
+head_title: "eSign Xltx doiciméad le Aztec Cód QR in C#"
 head_description: "Cruthaigh Aztec Cód QR agus cuir ar chomhad Xltx é ag úsáid .NET le píosa gairid de chód C#. Bain úsáid as an GroupDocs Document Signature API chun do dhoiciméid agus do chomhaid ghnó a ríomhshíniú le Cód QR."
 
 ############################# Header ############################
 title: "Gin síniú an Chóid QR Aztec don doiciméad Xltx in C#"
-description: "eSínigh do dhoiciméid agus conarthaí Xltx le {{ Codetype}} Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
+description: "eSínigh do dhoiciméid agus conarthaí Xltx le Aztec Cód QR. Gin síniú an Chóid QR go tapa agus go héasca."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -54,7 +54,7 @@ steps:
         
         * Cruthaigh sampla d'aicme Sínithe ag soláthar Xltx comhad atá ceaptha a shíniú mar chonair nó mar shruth cuimhne
         * Cuir rang SignOptions ar bun agus socraigh na sonraí go léir a éilítear.
-        * Iarr ar an modh Signature.Sign() aschuir {{ Fileformat}} comhad nó sruth cuimhne a rith
+        * Iarr ar an modh Signature.Sign() aschuir Xltx comhad nó sruth cuimhne a rith
 
     title_right: " Riachtanais Chórais"
     content_right: |
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Ag síniú Xltx doiciméad le {{ Signaturetype}} Taispeántas Beo"
+    title: "Ag síniú Xltx doiciméad le Qrcode Taispeántas Beo"
     content: |
        Sínigh Xltx comhad le sínithe éagsúla faoi láthair trí chuairt a thabhairt ar an suíomh Gréasáin [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Saor in aisce taispeána ar líne ag fanacht leat.
 

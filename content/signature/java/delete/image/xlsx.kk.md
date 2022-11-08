@@ -14,10 +14,10 @@ breadcrumb: Put Image signature on Xlsx for Java
 
 ############################# Head ############################
 head_title: "Image қолтаңбаларды Xlsx файлдарынан Java арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Xlsx құжаттарынан арнайы Image қолтаңбаларын жою қысқа Java кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Xlsx файлдарына орналастырылған Image қолтаңбаларды жойыңыз"
 description: "Xlsx құжаттарынан әртүрлі Image қолтаңбаларды жойыңыз. Image қолтаңбаларын жою қарапайым Java кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

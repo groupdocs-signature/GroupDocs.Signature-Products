@@ -14,10 +14,10 @@ breadcrumb: Put Digital signature on Xlsm for C#
 
 ############################# Head ############################
 head_title: "Digital қолтаңбаларды Xlsm файлдарынан C# арқылы жою"
-head_description: "Қол қойылған {{Файлпішімі}} құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
+head_description: "Қол қойылған Xlsm құжаттарынан арнайы Digital қолтаңбаларын жою қысқа .NET кодымен оңай орындалуы мүмкін."
 
 ############################# Header ############################
-title: "{{Файл пішімі}} файлдарына орналастырылған {{Сигнатуратүрі}} қолтаңбаларды жойыңыз"
+title: "Xlsm файлдарына орналастырылған Digital қолтаңбаларды жойыңыз"
 description: "Xlsm құжаттарынан әртүрлі Digital қолтаңбаларды жойыңыз. Digital қолтаңбаларын жою қарапайым C# кодын қажет етеді."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false

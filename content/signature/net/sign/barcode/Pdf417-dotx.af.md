@@ -14,12 +14,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Dotx for C#
 
 ############################# Head ############################
-head_title: "eSign {{Lêerformaat}}-dokument met Pdf417 Strepiekode in C#"
+head_title: "eSign Dotx-dokument met Pdf417 Strepiekode in C#"
 head_description: "Skep Pdf417 Strepiekode Handtekening en plaas dit op Dotx dokument met .NET deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Signature API vir die ondertekening van verskeie lêerformate."
 
 ############################# Header ############################
 title: "Genereer Pdf417 strepieskode-handtekening vir Dotx-dokument in C#"
-description: "eTeken jou {{Lêerformaat}} besigheidsdokumente met Pdf417 Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
+description: "eTeken jou Dotx besigheidsdokumente met Pdf417 Streepkode. Genereer strepieskode-handtekening vinnig en maklik met 'n paar reëls kode om ondertekenopsies op te stel."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -48,9 +48,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Barcode in C# te onderteken"
+    title_left: "Stappe om Dotx met Barcode in C# te onderteken"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om {{Lêerformaat}} dokumente met Barcode handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) bied die vermoë om Dotx dokumente met Barcode handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Dotx-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Barcode Regstreekse Demo"
+    title: "Teken Dotx dokumente met Barcode Regstreekse Demo"
     content: |
        Teken nou die Dotx-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Barcode handtekeninge vir C#"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Dotx met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
         
        

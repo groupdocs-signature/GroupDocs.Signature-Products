@@ -17,8 +17,8 @@ head_title: "Törölje a Text aláírásokat a Dotx fájlokból a Java segítsé
 head_description: "Az aláírt Dotx dokumentumokból bizonyos Text aláírások törlése egyszerűen végrehajtható rövid Java kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Text aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Text aláírásokat a {{Fájlformátum}} dokumentumokból. A Text aláírások eltávolításához egyszerű Java kód szükséges."
+title: "Távolítsa el a Text aláírásokat, amelyek a Dotx fájlokban vannak elhelyezve"
+description: "Törölje a különböző Text aláírásokat a Dotx dokumentumokból. A Text aláírások eltávolításához egyszerű Java kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

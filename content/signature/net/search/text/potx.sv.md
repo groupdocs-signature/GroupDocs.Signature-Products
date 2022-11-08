@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Potx with C#
 
 ############################# Head ############################
-head_title: "Sök efter Text-signaturer i filen {{Filformat}} i C#"
+head_title: "Sök efter Text-signaturer i filen Potx i C#"
 head_description: "Använd .NET för att söka efter Text-signaturer i Potx-filer med några rader kod."
 
 ############################# Header ############################
-title: "Sök efter Text-signaturer i filen {{Filformat}}"
-description: "Inbyggt API för .NET gör det möjligt att söka efter Text-signaturer i redan signerade Potx-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+title: "Sök efter Text-signaturer i filen Potx"
+description: "Inbyggt API för .NET gör det möjligt att söka efter Text-signaturer i redan signerade Potx-filer. Utför avancerad e-signatursökning i dina Potx-dokument med några rader kod."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hur man söker efter Text-signaturer i {{Filformat}}"
+    title_left: "Hur man söker efter Text-signaturer i Potx"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gör det enklare för .NET-utvecklare att söka efter Text-signaturer i Potx-filer från sina applikationer genom att implementera några enkla steg.
         

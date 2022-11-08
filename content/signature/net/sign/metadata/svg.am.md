@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Svgን በ{{Signturetype}} በC# ለመፈረም ደረጃዎች"
+    title_left: "Svgን በMetadata በC# ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) የSvg ሰነዶችን በMetadata ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -110,7 +110,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለC#"
+    title: "ሌሎች የሚደገፉ የMetadata ፊርማዎች ለC#"
     content: |
         "እንዲሁም Svgን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

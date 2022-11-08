@@ -18,7 +18,7 @@ head_description: "Úsáid .NET chun sínithe Barcode a chuardach i gcomhaid Csv
 
 ############################# Header ############################
 title: "Cuardaigh le haghaidh Barcode sínithe i gcomhad Csv"
-description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar {{ Signaturetype}} sínithe i gcomhaid {{ Fileformat}} atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Csv ag úsáid cúpla líne cód."
+description: "Ceadaíonn API dúchais .NET cuardach a dhéanamh ar Barcode sínithe i gcomhaid Csv atá sínithe cheana féin. Déan ard-chuardach ríomhshínithe laistigh de do dhoiciméid Csv ag úsáid cúpla líne cód."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

@@ -1,16 +1,16 @@
 {
   "content": {
-    "meta_title": "Sök efter {{Signaturetype}}-signaturer i filen {{Filformat}} i {{ProgLang}}",
+    "meta_title": "Sök efter {{Signaturetype}}-signaturer i filen {{Fileformat}} i {{ProgLang}}",
     "meta_description": "Använd {{ProductName}} för att söka efter {{Signaturetype}}-signaturer i {{Fileformat}}-filer med några rader kod.",
-    "h1": "Sök efter {{Signaturetype}}-signaturer i filen {{Filformat}}",
-    "h2": "Inbyggt API för {{ProductName}} gör det möjligt att söka efter {{Signaturetype}}-signaturer i redan signerade {{Fileformat}}-filer. Utför avancerad e-signatursökning i dina {{Filformat}}-dokument med några rader kod."
+    "h1": "Sök efter {{Signaturetype}}-signaturer i filen {{Fileformat}}",
+    "h2": "Inbyggt API för {{ProductName}} gör det möjligt att söka efter {{Signaturetype}}-signaturer i redan signerade {{Fileformat}}-filer. Utför avancerad e-signatursökning i dina {{Fileformat}}-dokument med några rader kod."
   },
   "about": {
     "title": "Om {{ProductFullName}} API",
     "content": "[{{ProductFullName}}]({{ProductUrl}}) tillhandahåller {{ProductName}} API för att bearbeta dokument med olika signaturtyper som texter, bilder, digitala certifikat, streckkoder, QR-koder, stämplar eller metadata. Användare kan lägga till, ta bort, uppdatera, verifiera eller söka efter elektroniska signaturer i PDF-filer, MS Word-dokument, MS Excel-arbetsböcker, MS PowerPoint-presentationer, Adobe Photoshop-filer och olika bildformat, med ytterligare stöd för att anpassa signaturegenskaper efter behov."
   },
   "steps": {
-    "title_left": "Hur man söker efter {{Signaturetype}}-signaturer i {{Filformat}}",
+    "title_left": "Hur man söker efter {{Signaturetype}}-signaturer i {{Fileformat}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gör det enklare för {{ProductName}}-utvecklare att söka efter {{Signaturetype}}-signaturer i {{Fileformat}}-filer från sina applikationer genom att implementera några enkla steg.",
       "step_1": "Skapa en ny instans av Signature-klassen och skicka källdokumentsökvägen som en konstruktorparameter.",
@@ -35,3 +35,146 @@
     "content": "Sök efter elektroniska signaturer i olika dokument. Hitta signaturer från ett av de populära filformaten som visas nedan."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

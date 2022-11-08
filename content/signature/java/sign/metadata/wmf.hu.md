@@ -47,13 +47,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "A {{Fájlformátum}} aláírásának lépései a Metadata segítségével a Java programban"
+    title_left: "A Wmf aláírásának lépései a Metadata segítségével a Java programban"
     content_left: |
         A [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) lehetővé teszi a Wmf dokumentumok gyors és egyszerű aláírását Metadata aláírással.
         
-        * Hozzon létre egy példányt a Signature osztályból, amely {{Fájlformátum}} fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni
+        * Hozzon létre egy példányt a Signature osztályból, amely Wmf fájlt tartalmaz, amelyet elérési útként vagy memóriafolyamként kell aláírni
         * Példányosítsa a SignOptions osztályt, és állítsa be az összes kért adatot.
-        * Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti {{Fájlformátum}} fájlt vagy memóriafolyamot
+        * Hívja meg a Signature.Sign() metódust, amely átadja a kimeneti Wmf fájlt vagy memóriafolyamot
 
     title_right: " rendszerkövetelmények"
     content_right: |
@@ -111,7 +111,7 @@ more_formats:
     enable: true
     title: "Egyéb támogatott Metadata aláírások a Java számára"
     content: |
-        "A {{Fájlformátum}} más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
+        "A Wmf más aláírástípusokkal is aláírható. Kérjük, tekintse meg az alábbi listát."
     format: 
        
        

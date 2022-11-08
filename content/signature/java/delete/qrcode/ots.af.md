@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Ots for Java
 
 ############################# Head ############################
 head_title: "Vee Qrcode handtekeninge van Ots lêers uit via Java"
-head_description: "Die uitvee van spesifieke Qrcode handtekeninge van getekende {{Lêerformaat}} dokumente kan maklik uitgevoer word met kort Java kode."
+head_description: "Die uitvee van spesifieke Qrcode handtekeninge van getekende Ots dokumente kan maklik uitgevoer word met kort Java kode."
 
 ############################# Header ############################
-title: "Verwyder Qrcode handtekeninge wat in {{Lêerformaat}} lêers geplaas is"
-description: "Vee verskeie Qrcode handtekeninge uit {{Lêerformaat}} dokumente uit. Die verwydering van Qrcode handtekeninge vereis eenvoudige Java kode."
+title: "Verwyder Qrcode handtekeninge wat in Ots lêers geplaas is"
+description: "Vee verskeie Qrcode handtekeninge uit Ots dokumente uit. Die verwydering van Qrcode handtekeninge vereis eenvoudige Java kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hoe om Qrcode-handtekeninge uit jou {{Lêerformaat}}-dokument te verwyder"
+    title_left: "Hoe om Qrcode-handtekeninge uit jou Ots-dokument te verwyder"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied nuttige kenmerk vir die skoonmaak van {{Lêerformaat}} dokumente van Qrcode handtekeninge met 'n paar reëls kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied nuttige kenmerk vir die skoonmaak van Ots dokumente van Qrcode handtekeninge met 'n paar reëls kode.
         
         * Eerstens, instansieer Handtekening-objek wat deurgaanpad na jou dokument as 'n konstruktor parameter.
         * Skep dan 'n toepaslike handtekeningvoorwerp en stel sy unieke identifiseerder op.

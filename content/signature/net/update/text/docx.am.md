@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Text signature on Docx for C#
 
 ############################# Head ############################
-head_title: "በDocx ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን በC# ያዘምኑ"
+head_title: "በDocx ፋይሎች ላይ የተቀመጡ የText ፊርማዎችን በC# ያዘምኑ"
 head_description: "በተፈረሙ የDocx ሰነዶች ውስጥ ለText የፊርማ ማሻሻያ የ.NET ኮድ ለመረዳት ቀላል እና ቀላል ይጠቀሙ።"
 
 ############################# Header ############################
-title: "በDocx ፋይሎች ላይ የተቀመጡ የ{{Signturetype}} ፊርማዎችን ያርትዑ እና ያዘምኑ"
+title: "በDocx ፋይሎች ላይ የተቀመጡ የText ፊርማዎችን ያርትዑ እና ያዘምኑ"
 description: "ኤፒአይ ለ.NET ለText ፊርማዎች በDocx ሰነዶች ላይ ማዘመንን ያቀርባል። በDocx ሰነዶችዎ ውስጥ ያሉ ኢ-ፊርማዎችን በሁለት መስመር C# ኮድ በፍጥነት እና በቀላሉ ያዘምኑ።"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Docx ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት መቀየር እንደሚቻል"
+    title_left: "በእርስዎ Docx ሰነድ ውስጥ የText ፊርማዎችን እንዴት መቀየር እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) በDocx ሰነዶች ላይ የተቀመጡ የText ፊርማዎችን ማዘመንን የመሳሰሉ ጠቃሚ ባህሪያትን ያካትታል። ያለ ተጨማሪ ኮድ የፊርማ ባህሪያትን ለመለወጥ ያስችላል።
         
@@ -116,7 +116,7 @@ demos:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "የተለያዩ የ{{Signturetype}} ፊርማዎችን በC# ያዘምኑ"
+    title: "የተለያዩ የText ፊርማዎችን በC# ያዘምኑ"
     content: |
         "በተለያዩ የሰነድ ቅርጸቶች የተቀመጡ ዲጂታል ፊርማዎችን ማስተካከል። ያለ ተጨማሪ ኮድ የፊርማዎችን ውሂብ ያዘምኑ።"
     format: 

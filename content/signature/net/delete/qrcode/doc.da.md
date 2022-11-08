@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Doc for C#
 
 ############################# Head ############################
 head_title: "Slet Qrcode signaturer fra Doc filer via C#"
-head_description: "Sletning af specifikke Qrcode-signaturer fra signerede {{Filformat}}-dokumenter kan udføres nemt med en kort .NET-kode."
+head_description: "Sletning af specifikke Qrcode-signaturer fra signerede Doc-dokumenter kan udføres nemt med en kort .NET-kode."
 
 ############################# Header ############################
-title: "Fjern Qrcode-signaturer, der er placeret i {{Filformat}}-filer"
-description: "Slet forskellige Qrcode-signaturer fra {{Filformat}}-dokumenter. Fjernelse af Qrcode signaturer kræver simpel C# kode."
+title: "Fjern Qrcode-signaturer, der er placeret i Doc-filer"
+description: "Slet forskellige Qrcode-signaturer fra Doc-dokumenter. Fjernelse af Qrcode signaturer kræver simpel C# kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan fjerner du Qrcode-signaturer fra dit {{Filformat}}-dokument"
+    title_left: "Sådan fjerner du Qrcode-signaturer fra dit Doc-dokument"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde {{Filformat}} dokumenter for Qrcode signaturer med et par linjer kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver nyttige funktioner til at rydde Doc dokumenter for Qrcode signaturer med et par linjer kode.
         
         * For det første skal du instansiere Signatur-objektets sti til dit dokument som en konstruktørparameter.
         * Opret derefter et passende signaturobjekt og opsæt dets unikke identifikator.

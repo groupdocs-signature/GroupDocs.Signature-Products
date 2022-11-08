@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Ppt for Java
 
 ############################# Head ############################
 head_title: "Opdater Qrcode signaturer placeret på Ppt filer med Java"
-head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Qrcode-signaturer i signerede {{Filformat}}-dokumenter."
+head_description: "Brug enkel og nem at forstå Java-koden til opdatering af Qrcode-signaturer i signerede Ppt-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og opdater Qrcode signaturer placeret på {{Filformat}} filer"
-description: "API for Java giver funktionalitet til Qrcode signaturer, der opdateres i {{Filformat}} dokumenter. Opdater e-signaturer i dine {{Filformat}} dokumenter med et par linjer med Java kode hurtigt og nemt."
+title: "Rediger og opdater Qrcode signaturer placeret på Ppt filer"
+description: "API for Java giver funktionalitet til Qrcode signaturer, der opdateres i Ppt dokumenter. Opdater e-signaturer i dine Ppt dokumenter med et par linjer med Java kode hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan ændrer du Qrcode-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan ændrer du Qrcode-signaturer i dit Ppt-dokument"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funktioner som f.eks. opdatering af Qrcode signaturer placeret på Ppt dokumenter. Det gør det muligt at ændre signaturfunktioner uden ekstra kode.
         

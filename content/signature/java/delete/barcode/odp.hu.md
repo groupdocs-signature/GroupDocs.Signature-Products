@@ -17,8 +17,8 @@ head_title: "Törölje a Barcode aláírásokat a Odp fájlokból a Java segíts
 head_description: "Az aláírt Odp dokumentumokból bizonyos Barcode aláírások törlése egyszerűen végrehajtható rövid Java kóddal."
 
 ############################# Header ############################
-title: "Távolítsa el a Barcode aláírásokat, amelyek a {{Fájlformátum}} fájlokban vannak elhelyezve"
-description: "Törölje a különböző Barcode aláírásokat a {{Fájlformátum}} dokumentumokból. A Barcode aláírások eltávolításához egyszerű Java kód szükséges."
+title: "Távolítsa el a Barcode aláírásokat, amelyek a Odp fájlokban vannak elhelyezve"
+description: "Törölje a különböző Barcode aláírásokat a Odp dokumentumokból. A Barcode aláírások eltávolításához egyszerű Java kód szükséges."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

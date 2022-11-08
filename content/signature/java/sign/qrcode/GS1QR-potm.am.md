@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Potmን በ{{Signturetype}} በJava ለመፈረም ደረጃዎች"
+    title_left: "Potmን በQrcode በJava ለመፈረም ደረጃዎች"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) የPotm ሰነዶችን በQrcode ፊርማ በፍጥነት እና በቀላሉ የመፈረም ችሎታን ይሰጣል።
         
@@ -122,7 +122,7 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "ሌሎች የሚደገፉ የ{{Signturetype}} ፊርማዎች ለJava"
+    title: "ሌሎች የሚደገፉ የQrcode ፊርማዎች ለJava"
     content: |
         "እንዲሁም Potmን ከሌሎች የፊርማ አይነቶች ጋር መፈረም ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
     format: 

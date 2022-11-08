@@ -13,12 +13,12 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Ppsx for Java
 
 ############################# Head ############################
-head_title: "Voeg metadata elektroniese handtekeninge by {{Lêerformaat}} dokumente via Java"
+head_title: "Voeg metadata elektroniese handtekeninge by Ppsx dokumente via Java"
 head_description: "Gebruik Metadata as versteekte elektroniese handtekeninge binne jou Ppsx dokumente deur 'n paar reëls van Java kode te gebruik. Gebruik die GroupDocs Document Signature API om jou besigheidsdokumente en -lêers met Metadata-inligting te e-teken."
 
 ############################# Header ############################
-title: "Metadata elektroniese handtekeninge vir {{Lêerformaat}} dokument via Java is eenvoudig en maklik om te gebruik!"
-description: "eTeken jou {{Lêerformaat}} dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
+title: "Metadata elektroniese handtekeninge vir Ppsx dokument via Java is eenvoudig en maklik om te gebruik!"
+description: "eTeken jou Ppsx dokumente en kontrakte met versteekte Metadata-inskrywings. Genereer metadata vir PDF's, MS Word-dokumente, MS Excel-werkboeke, MS PowerPoint-aanbiedings en verskeie beeldformate sonder probleme en ekstra kodering."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Stappe om {{Lêerformaat}} met Metadata in Java te onderteken"
+    title_left: "Stappe om Ppsx met Metadata in Java te onderteken"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om {{Lêerformaat}} dokumente met Metadata handtekeninge vinnig en maklik te onderteken.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) bied die vermoë om Ppsx dokumente met Metadata handtekeninge vinnig en maklik te onderteken.
         
         * Skep 'n instansie van Signature-klas wat Ppsx-lêer verskaf wat veronderstel is om te onderteken as pad of geheuestroom
         * Instansieer SignOptions-klas en stel alle verlangde data in.
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Teken {{Lêerformaat}} dokumente met Metadata Regstreekse Demo"
+    title: "Teken Ppsx dokumente met Metadata Regstreekse Demo"
     content: |
        Teken nou die Ppsx-lêer met verskeie handtekeninge deur die [GroupDocs.Signature App](https://products.groupdocs.app/signature/family) webwerf te besoek. Gratis aanlyn demo wag vir jou.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Ander ondersteunde Metadata handtekeninge vir Java"
     content: |
-        "Jy kan ook {{Lêerformaat}} met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
+        "Jy kan ook Ppsx met ander handtekeningtipes onderteken. Sien asseblief die lys hieronder."
     format: 
        
        

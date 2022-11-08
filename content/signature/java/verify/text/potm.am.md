@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "በእርስዎ Potm ሰነድ ውስጥ የ{{Signturetype}} ፊርማዎችን እንዴት ማረጋገጥ እንደሚቻል"
+    title_left: "በእርስዎ Potm ሰነድ ውስጥ የText ፊርማዎችን እንዴት ማረጋገጥ እንደሚቻል"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) በPotm ሰነዶች ላይ የተቀመጡ የText ፊርማዎችን ማረጋገጥ ያሉ ጠቃሚ ባህሪያትን ያካትታል። ተጨማሪ ኮድ ሳይተገብሩ ይህንን እድል ይጠቀሙ።
         
@@ -98,14 +98,14 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "በ{{Signturetype}} ፊርማዎች ቀጥታ ማሳያ መፈረም"
+    title: "በText ፊርማዎች ቀጥታ ማሳያ መፈረም"
     content: |
        የ[GroupDocs.signature መተግበሪያ](https://products.groupdocs.app/signature/family) ድህረ ገጽን በመጎብኘት የተለያዩ ኤሌክትሮኒክ ፊርማዎችን ወደ Potm ፋይል አሁኑኑ ያክሉ።          
 
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Javaን በመጠቀም ሌሎች የ{{Signturetype}} ፊርማዎችን ያረጋግጡ"
+    title: "Javaን በመጠቀም ሌሎች የText ፊርማዎችን ያረጋግጡ"
     content: |
         "በተለያዩ ሰነዶች ውስጥ የተቀመጡ የኤሌክትሮኒክ ፊርማዎችን ማረጋገጥ. ከታች እንደተገለጸው የፊርማዎችን ጥራት በታዋቂው የፋይል ቅርጸቶች ያረጋግጡ።"
     format: 

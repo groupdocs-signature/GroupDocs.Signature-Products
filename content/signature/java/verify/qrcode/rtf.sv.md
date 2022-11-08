@@ -17,8 +17,8 @@ head_title: "Verifiering av Qrcode-signaturer för Rtf-filer via Java"
 head_description: "Använd bara några rader med Java-kod för att verifiera Rtf-dokument och deras Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturverifiering för {{Filformat}}-filer"
-description: "API för Java ger möjlighet att verifiera Qrcode-signaturer i Rtf-dokument. Verifiering av e-signaturer i dina {{Filformat}}-dokument kan utföras snabbt och enkelt."
+title: "Qrcode signaturverifiering för Rtf-filer"
+description: "API för Java ger möjlighet att verifiera Qrcode-signaturer i Rtf-dokument. Verifiering av e-signaturer i dina Rtf-dokument kan utföras snabbt och enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:

@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Png for C#
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}} dokument med Postnet stregkode i C#"
+head_title: "eSign Png dokument med Postnet stregkode i C#"
 head_description: "Opret Postnet stregkodesignatur og læg den på Png dokument med .NET ved hjælp af et par linjer kode. Brug GroupDocs Document Signature API til at signere forskellige filformater."
 
 ############################# Header ############################
-title: "Generer Postnet Stregkodesignatur for {{Filformat}} dokument i C#"
+title: "Generer Postnet Stregkodesignatur for Png dokument i C#"
 description: "eSignér dine Png forretningsdokumenter med Postnet stregkode. Generer stregkodesignatur hurtigt og nemt med et par linjer kode for at opsætte signeringsmuligheder."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trin til at signere {{Filformat}} med Barcode i C#"
+    title_left: "Trin til at signere Png med Barcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) giver mulighed for at signere Png dokumenter med Barcode signaturer hurtigt og nemt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering af {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering af Png dokumenter med Barcode Live Demo"
     content: |
        Signer Png-filen med forskellige signaturer lige nu ved at besøge webstedet [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Gratis online demo venter på dig.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andre understøttede Barcode-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Se venligst listen nedenfor."
+        "Du kan også signere Png med andre signaturtyper. Se venligst listen nedenfor."
     format: 
         
        

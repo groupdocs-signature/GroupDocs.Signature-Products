@@ -17,8 +17,8 @@ head_title: "Bekræftelse af Text signaturer for Rtf filer via C#"
 head_description: "Brug kun et par linjer med .NET-kode til at bekræfte Rtf-dokumenter og deres Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturbekræftelse for {{Filformat}} filer"
-description: "API for .NET giver mulighed for at bekræfte Text-signaturer på Rtf-dokumenter. Bekræftelse af e-signaturer i dine {{Filformat}}-dokumenter kan udføres hurtigt og nemt."
+title: "Text signaturbekræftelse for Rtf filer"
+description: "API for .NET giver mulighed for at bekræfte Text-signaturer på Rtf-dokumenter. Bekræftelse af e-signaturer i dine Rtf-dokumenter kan udføres hurtigt og nemt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Sådan validerer du Text-signaturer i dit {{Filformat}}-dokument"
+    title_left: "Sådan validerer du Text-signaturer i dit Rtf-dokument"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funktioner såsom bekræftelse af Text signaturer placeret på Rtf dokumenter. Brug denne mulighed uden at implementere ekstra kode.
         
