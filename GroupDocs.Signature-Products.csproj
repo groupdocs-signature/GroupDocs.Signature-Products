@@ -33,10 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="content\**" />
     <Content Include="templates\data\**" />
+    <Content Include="templates\landings\**" />
     <Content Include="templates\examples\**" />
+    <Content Include="templates\src\**" />
   </ItemGroup>
-  
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
