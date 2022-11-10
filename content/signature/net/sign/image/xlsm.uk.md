@@ -1,0 +1,112 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Sign
+signaturetype: Image
+fileformat: Xlsm
+productName: .NET
+lang: uk
+productCode: net
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+breadcrumb: Put Image signature on Xlsm for C#
+
+############################# Head ############################
+head_title: "Додавання підписів Image до файлу Xlsm за допомогою C#"
+head_description: "Додайте підпис Image до файлу Xlsm для .NET за допомогою кількох рядків коду. Використовуйте API підпису документів GroupDocs, щоб підписувати десятки форматів файлів."
+
+############################# Header ############################
+title: "Підпишіть файли Xlsm підписами Image у C#"
+description: "Як додати підпис Image із кількома рядками коду .NET"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-net.png"
+        product: "GroupDocs.Signature"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Про API підписів зображень GroupDocs.Signature for .NET"
+    content: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) — популярний API для електронного підпису цифрових документів. Доступні такі підписи, як тексти, зображення, цифрові сертифікати, штрих-коди, QR-коди, штампи або метадані. Підписи можна розміщувати на PDF-файлах, документах MS Word, робочих книгах MS Excel, презентаціях MS PowerPoint, файлах Adobe Photoshop і різних форматах зображень. Клієнти можуть підписувати свій документ і оновлювати, шукати, перевіряти, видаляти або переглядати електронні підписи, які були розміщені на цих документах. Крім того, передбачено безліч можливостей для налаштування підписів.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Кроки для підпису Xlsm за допомогою Image у C#"
+    content_left: |
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) надає можливість швидко та легко підписувати документи Xlsm за допомогою підписів Image.
+        
+        * Створіть екземпляр класу підпису, який надає файл Xlsm, який має бути підписаний як шлях або потік пам’яті
+        * Створіть екземпляр класу SignOptions і встановіть усі потрібні дані.
+        * Викликати метод Signature.Sign(), передаючи вихідний файл Xlsm або потік пам’яті
+
+    title_right: " Системні вимоги"
+    content_right: |
+        GroupDocs.Signature for .NET підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що у вашій системі встановлено такі передумови.
+
+        * Операційні системи: Microsoft Windows, Linux, MacOS
+        * Середовища розробки: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Отримайте останню версію GroupDocs.Signature for .NET від [Nuget](https://www.nuget.org/packages/groupdocs.signature)
+         
+    code: |
+        ```csharp    
+                
+        // Set up input Xlsm file
+        string filePath = "input.xlsm";
+        // Set up output file
+        string outputFilePath = "output.xlsm";
+        // Provide image file
+        string imageFilePath = "image.png";
+
+        // Instantiate Signature for input file
+        using (GroupDocs.Signature.Signature signature = new GroupDocs.Signature.Signature(filePath))
+        {
+            //Provide sign options
+            ImageSignOptions options = new ImageSignOptions(imageFilePath)
+            {
+                // set signature position
+                Left = 50,
+                Top = 200
+            };
+
+            // sign Xlsm document
+            SignResult result = signature.Sign(outputFilePath, options);
+        }
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Підпис документів Xlsm за допомогою Image Live Demo"
+    content: |
+       Підпишіть файл Xlsm різними підписами просто зараз, відвідавши веб-сайт [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Безкоштовна онлайн-демоверсія чекає на вас.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Інші підтримувані підписи Image для C#"
+    content: |
+        "Ви також можете підписати Xlsm іншими типами підписів. Перегляньте список нижче."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---

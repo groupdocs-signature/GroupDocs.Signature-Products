@@ -1,0 +1,108 @@
+---
+############################# Static ############################
+layout: "auto-gen-signature"
+date: 2022-03-01T15:12:22
+draft: false
+operation: Sign
+signaturetype: Text
+fileformat: Rtf
+productName: Java
+lang: ms
+productCode: java
+otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv ods ots xltx xltm ppt pptx pps ppsx odp otp potx potm pptm ppsm png jpg bmp gif tiff svg webp wmf
+breadcrumb: Put Text signature on Rtf for Java
+
+############################# Head ############################
+head_title: "Cipta tandatangan elektronik Teks ke fail Rtf dengan Java"
+head_description: "Letakkan Text eSignature pada fail Rtf untuk Java menggunakan beberapa baris kod. Gunakan API Tandatangan Dokumen GroupDocs untuk menandatangani berpuluh-puluh format fail."
+
+############################# Header ############################
+title: "Tandatangani fail Rtf dengan tandatangan Text dalam Java"
+description: "Bagaimana untuk menambah Text Tandatangan dengan beberapa baris kod Java."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Signature for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-signature-java.png"
+        product: "GroupDocs.Signature"
+        platform: "Java"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Mengenai API GroupDocs.Signature for Java."
+    content: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) ialah API popular untuk tandatangan elektronik dokumen digital. Tandatangan seperti teks, imej, sijil digital, kod bar, kod QR, setem atau metadata tersedia. Tandatangan mungkin diletakkan pada PDF, dokumen MS Word, buku kerja MS Excel, persembahan MS PowerPoint, fail Adobe Photoshop dan pelbagai format imej. Pelanggan boleh menandatangani dokumen mereka dan mengemas kini, mencari, mengesahkan, memadam atau pratonton e-tandatangan yang diletakkan pada dokumen tersebut. Selain itu, banyak kebolehan untuk penyesuaian tandatangan disediakan.
+    
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Langkah-langkah untuk menandatangani Rtf dengan Text dalam Java"
+    content_left: |
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) menyediakan keupayaan untuk menandatangani dokumen Rtf dengan tandatangan Text dengan cepat dan mudah.
+        
+        * Buat contoh kelas Tandatangan yang menyediakan fail Rtf yang sepatutnya ditandatangani sebagai laluan atau aliran memori
+        * Segerakan kelas SignOptions dan tetapkan semua data yang diminta.
+        * Guna kaedah Signature.Sign() yang menghantar fail keluaran Rtf atau aliran memori
+
+    title_right: " Keperluan Sistem"
+    content_right: |
+        GroupDocs.Signature for Java disokong pada semua platform dan sistem pengendalian utama. Sebelum melaksanakan kod di bawah, sila pastikan anda mempunyai prasyarat berikut dipasang pada sistem anda.
+
+        * Sistem pengendalian: Microsoft Windows, Linux, MacOS
+        * Persekitaran pembangunan: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Dapatkan GroupDocs.Signature for Java terkini daripada [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature)
+         
+    code: |
+        ```java    
+                
+        // Set up input Rtf file
+        String filePath = "input.rtf";
+        // Set up output file
+        String outputFilePath = "output.rtf";
+
+        // Instantiate Signature for input file
+        Signature signature = new Signature(filePath);
+
+        //Provide sign options
+        TextSignOptions options = new TextSignOptions("John Smith");
+
+        // set signature position
+        options.setLeft(50);
+        options.setTop(200);
+
+        // sign Rtf document
+        SignResult result = signature.sign(outputFilePath, options);
+
+        ```
+
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Menandatangani dokumen Rtf dengan Text Demo Langsung"
+    content: |
+       Tandatangani fail Rtf dengan pelbagai tandatangan sekarang dengan melawati tapak web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demo dalam talian percuma menanti anda.          
+
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Tandatangan Text lain yang disokong untuk Java"
+    content: |
+        "Anda juga boleh menandatangani Rtf dengan jenis tandatangan lain. Sila lihat senarai di bawah."
+    format: 
+       
+       
+back_to_top:
+    enable: true
+---
