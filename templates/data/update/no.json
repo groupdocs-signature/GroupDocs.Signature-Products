@@ -1,0 +1,37 @@
+{
+  "content": {
+    "meta_title": "Oppdater {{Signaturetype}}-signaturer plassert på {{Fileformat}}-filer med {{ProgLang}}",
+    "meta_description": "Bruk enkel og enkel for å forstå {{ProductName}}-koden for {{Signaturetype}}-signaturoppdatering i signerte {{Filformat}}-dokumenter.",
+    "h1": "Rediger og oppdater {{Signaturetype}}-signaturer plassert i {{Filformat}}-filer",
+    "h2": "API for {{ProductName}} gir funksjonalitet for {{Signaturetype}}-signaturer som oppdateres i {{Filformat}}-dokumenter. Oppdater e-signaturer i {{Filformat}}-dokumentene dine med et par linjer med {{ProgLang}}-kode raskt og enkelt."
+  },
+  "about": {
+    "title": "Lær om {{ProductFullName}} API-funksjoner",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) API-funksjonalitet inneholder et stort utvalg måter å behandle etterspurte dokumentformater ved å bruke elektroniske signaturer. Et bredt spekter av e-signaturer som tekster, bilder, digitale sertifikater, strekkoder, QR-koder, stempler eller metadata støttes. Kunder kan legge til, fjerne, redigere, validere eller søke i digitale signaturer i PDF-er, MS Word-dokumenter, MS Excel-arbeidsbøker, MS PowerPoint-presentasjoner, Adobe Photoshop-filer og ulike bildeformater. Mange nyttige funksjoner og innstillinger er tilgjengelige."
+  },
+  "steps": {
+    "title_left": "Hvordan endre {{Signaturetype}}-signaturer i {{Filformat}}-dokumentet ditt",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) inkluderer nyttige funksjoner som oppdatering av {{Signaturetype}}-signaturer plassert i {{Filformat}}-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.",
+      "step_1": "Til å begynne med, lag signaturobjekt som passerer som en konstruktørparameterbane til et dokument som skal oppdateres.",
+      "step_2": "Deretter instansierer du et passende bestemt signaturobjekt og setter opp identifikatoren og egenskapene som må endres.",
+      "step_3": "Til slutt kaller du Signatures oppdateringsmetode som sender et bestemt signaturobjekt.",
+      "step_4": "Behandle oppdatering av resultater til din varsel."
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "{{ProductFullName}} støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Utviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Last ned den nyeste versjonen av {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "demos": {
+    "title": "Oppdatering av {{Signaturetype}}-signaturene på dokumentsidene - Live Demo",
+    "content": "Rediger ulike elektroniske signaturer til {{Fileformat}}-dokumentet akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family)."
+  },
+  "more_formats": {
+    "title": "Oppdater forskjellige {{Signaturetype}}-signaturer via {{ProgLang}}",
+    "content": "Redigering av digitale signaturer som er plassert i ulike dokumentformater. Oppdater signaturdata uten ekstra kode."
+  }
+}
