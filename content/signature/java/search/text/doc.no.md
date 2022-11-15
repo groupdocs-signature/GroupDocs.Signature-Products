@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Text signatures at Doc with Java
 
 ############################# Head ############################
-head_title: "Søk etter Text-signaturer i filen {{Filformat}} i Java"
+head_title: "Søk etter Text-signaturer i filen Doc i Java"
 head_description: "Bruk Java for å søke etter Text-signaturer i Doc-filer ved å bruke noen få linjer med kode."
 
 ############################# Header ############################
-title: "Søk etter Text-signaturer i filen {{Filformat}}"
+title: "Søk etter Text-signaturer i filen Doc"
 description: "Java native API gjør det mulig å søke etter Text-signaturer i allerede signerte Doc-filer. Utfør avansert e-signatursøk i Doc-dokumentene dine ved å bruke noen få linjer med kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik søker du etter Text-signaturer i {{Filformat}}"
+    title_left: "Slik søker du etter Text-signaturer i Doc"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gjør det enklere for Java-utviklere å søke etter Text-signaturer i Doc-filer fra applikasjonene deres ved å implementere noen få enkle trinn.
         

@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Barcode signaturer for Dotx filer via Java"
 head_description: "Bruk bare noen få linjer med Java-kode for å bekrefte Dotx-dokumenter og deres Barcode-signaturer."
 
 ############################# Header ############################
-title: "Barcode signaturbekreftelse for {{Filformat}}-filer"
+title: "Barcode signaturbekreftelse for Dotx-filer"
 description: "API for Java gir mulighet til å bekrefte Barcode-signaturer i Dotx-dokumenter. Verifisering av e-signaturer i Dotx-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Barcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Barcode-signaturer i Dotx-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som bekreftelse av Barcode-signaturer plassert på Dotx-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

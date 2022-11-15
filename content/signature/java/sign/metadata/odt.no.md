@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put Metadata signature on Odt for Java
 
 ############################# Head ############################
-head_title: "Legg til metadata elektroniske signaturer til {{Filformat}} dokumenter via Java"
+head_title: "Legg til metadata elektroniske signaturer til Odt dokumenter via Java"
 head_description: "Bruk Metadata som skjulte elektroniske signaturer i Odt-dokumentene dine ved å bruke et par linjer med Java-kode. Bruk GroupDocs Document Signature API til å e-signere forretningsdokumentene og filene dine med metadatainformasjon."
 
 ############################# Header ############################
-title: "Metadata elektroniske signaturer for {{Filformat}} dokument via Java er enkle og enkle å bruke!"
+title: "Metadata elektroniske signaturer for Odt dokument via Java er enkle og enkle å bruke!"
 description: "eSigner Odt-dokumentene og kontraktene dine med skjulte metadataoppføringer. Generer metadata for PDF-er, MS Word-dokumenter, MS Excel-arbeidsbøker, MS PowerPoint-presentasjoner og ulike bildeformater uten problemer og ekstra koding."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Metadata i Java"
+    title_left: "Trinn for å signere Odt med Metadata i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Odt-dokumenter med Metadata-signaturer raskt og enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Metadata Live Demo"
+    title: "Signering av Odt dokumenter med Metadata Live Demo"
     content: |
        Signer Odt-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.          
 
@@ -105,7 +105,7 @@ more_formats:
     enable: true
     title: "Andre støttede Metadata-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Odt med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
        
        

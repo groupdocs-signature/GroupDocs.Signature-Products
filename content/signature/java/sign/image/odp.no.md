@@ -17,7 +17,7 @@ head_title: "Legger til Image-signaturer til Odp-filen med Java"
 head_description: "Sett Image-signatur på Odp-filen for Java ved å bruke noen få linjer med kode. Bruk GroupDocs Document Signature API til å signere dusinvis av filformater."
 
 ############################# Header ############################
-title: "Signer {{Filformat}}-filer med Image-signaturer i Java"
+title: "Signer Odp-filer med Image-signaturer i Java"
 description: "Slik legger du til Image-signatur med noen få linjer med Java-kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Image i Java"
+    title_left: "Trinn for å signere Odp med Image i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Odp-dokumenter med Image-signaturer raskt og enkelt.
         
@@ -91,7 +91,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Image Live Demo"
+    title: "Signering av Odp dokumenter med Image Live Demo"
     content: |
        Signer Odp-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.          
 
@@ -100,7 +100,7 @@ more_formats:
     enable: true
     title: "Andre støttede Image-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Odp med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
        
        

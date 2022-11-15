@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Text signaturer for Dotx filer via C#"
 head_description: "Bruk bare noen få linjer med .NET-kode for å bekrefte Dotx-dokumenter og deres Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturbekreftelse for {{Filformat}}-filer"
+title: "Text signaturbekreftelse for Dotx-filer"
 description: "API for .NET gir mulighet til å bekrefte Text-signaturer i Dotx-dokumenter. Verifisering av e-signaturer i Dotx-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Text-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Text-signaturer i Dotx-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som bekreftelse av Text-signaturer plassert på Dotx-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

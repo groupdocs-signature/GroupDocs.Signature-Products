@@ -17,7 +17,7 @@ head_title: "Opprett elektroniske tekstsignaturer til filen Svg med Java"
 head_description: "Sett Text eSignature på Svg-filen for Java ved å bruke noen få linjer med kode. Bruk GroupDocs Document Signature API til å signere dusinvis av filformater."
 
 ############################# Header ############################
-title: "Signer {{Filformat}}-filer med Text-signaturer i Java"
+title: "Signer Svg-filer med Text-signaturer i Java"
 description: "Slik legger du til Text-signatur med noen få linjer med Java-kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Text i Java"
+    title_left: "Trinn for å signere Svg med Text i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Svg-dokumenter med Text-signaturer raskt og enkelt.
         
@@ -90,7 +90,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Text Live Demo"
+    title: "Signering av Svg dokumenter med Text Live Demo"
     content: |
        Signer Svg-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.          
 
@@ -99,7 +99,7 @@ more_formats:
     enable: true
     title: "Andre støttede Text-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Svg med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
        
        

@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Doc for C#
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med QR QR-kode i C#"
+head_title: "eSign Doc-dokument med QR QR-kode i C#"
 head_description: "Lag QR QR-kode og legg den til Doc-filen ved å bruke .NET med en kort bit av C#-koden. Bruk GroupDocs Document Signature API til å e-signere forretningsdokumentene og filene dine med QR-kode."
 
 ############################# Header ############################
-title: "Generer QR QR-kodesignatur for {{Filformat}}-dokument i C#"
+title: "Generer QR QR-kodesignatur for Doc-dokument i C#"
 description: "eSigner Doc-dokumentene og kontraktene dine med QR-koden QR. Generer QR-kodesignatur raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Qrcode i C#"
+    title_left: "Trinn for å signere Doc med Qrcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gir mulighet til å signere Doc-dokumenter med Qrcode-signaturer raskt og enkelt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Qrcode Live Demo"
+    title: "Signering av Doc dokumenter med Qrcode Live Demo"
     content: |
        Signer Doc-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andre støttede Qrcode-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Doc med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
         
        

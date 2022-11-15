@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Pdf for C#
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med Code39 Extended strekkode i C#"
+head_title: "eSign Pdf-dokument med Code39 Extended strekkode i C#"
 head_description: "Opprett Code39 Extended strekkodesignatur og legg den på Pdf-dokumentet med .NET ved å bruke et par linjer med kode. Bruk GroupDocs Document Signature API for å signere ulike filformater."
 
 ############################# Header ############################
-title: "Generer Code39 Extended strekkodesignatur for {{Filformat}} dokument i C#"
+title: "Generer Code39 Extended strekkodesignatur for Pdf dokument i C#"
 description: "eSignér Pdf-bedriftsdokumentene dine med Code39 Extended strekkode. Generer strekkodesignatur raskt og enkelt med noen få linjer med kode for å sette opp signeringsalternativer."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Barcode i C#"
+    title_left: "Trinn for å signere Pdf med Barcode i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gir mulighet til å signere Pdf-dokumenter med Barcode-signaturer raskt og enkelt.
         
@@ -98,7 +98,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering av Pdf dokumenter med Barcode Live Demo"
     content: |
        Signer Pdf-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.
 
@@ -126,7 +126,7 @@ more_formats:
     enable: true
     title: "Andre støttede Barcode-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Pdf med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
         
        

@@ -1,8 +1,8 @@
 {
   "barcode-content": {
-    "meta_title": "eSign {{Filformat}}-dokument med {{Codetype}} strekkode i {{ProgLang}}",
+    "meta_title": "eSign {{Fileformat}}-dokument med {{Codetype}} strekkode i {{ProgLang}}",
     "meta_description": "Opprett {{Codetype}} strekkodesignatur og legg den på {{Fileformat}}-dokumentet med {{ProductName}} ved å bruke et par linjer med kode. Bruk GroupDocs Document Signature API for å signere ulike filformater.",
-    "h1": "Generer {{Codetype}} strekkodesignatur for {{Filformat}} dokument i {{ProgLang}}",
+    "h1": "Generer {{Codetype}} strekkodesignatur for {{Fileformat}} dokument i {{ProgLang}}",
     "h2": "eSignér {{Fileformat}}-bedriftsdokumentene dine med {{Codetype}} strekkode. Generer strekkodesignatur raskt og enkelt med noen få linjer med kode for å sette opp signeringsalternativer."
   },
   "digital-content": {
@@ -14,25 +14,25 @@
   "image-content": {
     "meta_title": "Legger til {{Signaturetype}}-signaturer til {{Fileformat}}-filen med {{ProgLang}}",
     "meta_description": "Sett {{Signaturetype}}-signatur på {{Fileformat}}-filen for {{ProductName}} ved å bruke noen få linjer med kode. Bruk GroupDocs Document Signature API til å signere dusinvis av filformater.",
-    "h1": "Signer {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h1": "Signer {{Fileformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
     "h2": "Slik legger du til {{Signaturetype}}-signatur med noen få linjer med {{ProductName}}-kode"
   },
   "metadata-content": {
-    "meta_title": "Legg til metadata elektroniske signaturer til {{Filformat}} dokumenter via {{ProgLang}}",
+    "meta_title": "Legg til metadata elektroniske signaturer til {{Fileformat}} dokumenter via {{ProgLang}}",
     "meta_description": "Bruk Metadata som skjulte elektroniske signaturer i {{Fileformat}}-dokumentene dine ved å bruke et par linjer med {{ProgLang}}-kode. Bruk GroupDocs Document Signature API til å e-signere forretningsdokumentene og filene dine med metadatainformasjon.",
-    "h1": "Metadata elektroniske signaturer for {{Filformat}} dokument via {{ProductName}} er enkle og enkle å bruke!",
+    "h1": "Metadata elektroniske signaturer for {{Fileformat}} dokument via {{ProductName}} er enkle og enkle å bruke!",
     "h2": "eSigner {{Fileformat}}-dokumentene og kontraktene dine med skjulte metadataoppføringer. Generer metadata for PDF-er, MS Word-dokumenter, MS Excel-arbeidsbøker, MS PowerPoint-presentasjoner og ulike bildeformater uten problemer og ekstra koding."
   },
   "qrcode-content": {
-    "meta_title": "eSign {{Filformat}}-dokument med {{Codetype}} QR-kode i {{ProgLang}}",
+    "meta_title": "eSign {{Fileformat}}-dokument med {{Codetype}} QR-kode i {{ProgLang}}",
     "meta_description": "Lag {{Codetype}} QR-kode og legg den til {{Fileformat}}-filen ved å bruke {{ProductName}} med en kort bit av {{ProgLang}}-koden. Bruk GroupDocs Document Signature API til å e-signere forretningsdokumentene og filene dine med QR-kode.",
-    "h1": "Generer {{Codetype}} QR-kodesignatur for {{Filformat}}-dokument i {{ProgLang}}",
+    "h1": "Generer {{Codetype}} QR-kodesignatur for {{Fileformat}}-dokument i {{ProgLang}}",
     "h2": "eSigner {{Fileformat}}-dokumentene og kontraktene dine med QR-koden {{Codetype}}. Generer QR-kodesignatur raskt og enkelt."
   },
   "text-content": {
     "meta_title": "Opprett elektroniske tekstsignaturer til filen {{Fileformat}} med {{ProgLang}}",
     "meta_description": "Sett {{Signaturetype}} eSignature på {{Fileformat}}-filen for {{ProductName}} ved å bruke noen få linjer med kode. Bruk GroupDocs Document Signature API til å signere dusinvis av filformater.",
-    "h1": "Signer {{Filformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
+    "h1": "Signer {{Fileformat}}-filer med {{Signaturetype}}-signaturer i {{ProgLang}}",
     "h2": "Slik legger du til {{Signaturetype}}-signatur med noen få linjer med {{ProductName}}-kode"
   },
   "barcode-about": {
@@ -69,7 +69,7 @@
     }
   },
   "barcode-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -78,7 +78,7 @@
     }
   },
   "digital-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -87,7 +87,7 @@
     }
   },
   "image-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -96,7 +96,7 @@
     }
   },
   "metadata-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -105,7 +105,7 @@
     }
   },
   "qrcode-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -114,7 +114,7 @@
     }
   },
   "text-steps": {
-    "title": "Trinn for å signere {{Filformat}} med {{Signaturetype}} i {{ProgLang}}",
+    "title": "Trinn for å signere {{Fileformat}} med {{Signaturetype}} i {{ProgLang}}",
     "content": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gir mulighet til å signere {{Fileformat}}-dokumenter med {{Signaturetype}}-signaturer raskt og enkelt.",
       "step_1": "Opprett en forekomst av signaturklassen som gir {{Fileformat}}-fil som skal signere som bane eller minnestrøm",
@@ -123,12 +123,12 @@
     }
   },
   "demos": {
-    "title": "Signering av {{Filformat}} dokumenter med {{Signaturetype}} Live Demo",
+    "title": "Signering av {{Fileformat}} dokumenter med {{Signaturetype}} Live Demo",
     "content": "Signer {{Fileformat}}-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg."
   },
   "more_formats": {
     "title": "Andre støttede {{Signaturetype}}-signaturer for {{ProgLang}}",
-    "content": "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+    "content": "Du kan også signere {{Fileformat}} med andre signaturtyper. Vennligst se listen nedenfor."
   },
   "bar_qr_codes": {
     "UPCA": {
@@ -228,3 +228,25 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

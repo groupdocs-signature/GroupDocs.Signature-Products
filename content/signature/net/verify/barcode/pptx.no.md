@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Barcode signaturer for Pptx filer via C#"
 head_description: "Bruk bare noen få linjer med .NET-kode for å bekrefte Pptx-dokumenter og deres Barcode-signaturer."
 
 ############################# Header ############################
-title: "Barcode signaturbekreftelse for {{Filformat}}-filer"
+title: "Barcode signaturbekreftelse for Pptx-filer"
 description: "API for .NET gir mulighet til å bekrefte Barcode-signaturer i Pptx-dokumenter. Verifisering av e-signaturer i Pptx-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Barcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Barcode-signaturer i Pptx-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som bekreftelse av Barcode-signaturer plassert på Pptx-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

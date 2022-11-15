@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Qrcode signature on Ppsm for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med Aztec QR-kode i Java"
+head_title: "eSign Ppsm-dokument med Aztec QR-kode i Java"
 head_description: "Lag Aztec QR-kode og legg den til Ppsm-filen ved å bruke Java med en kort bit av Java-koden. Bruk GroupDocs Document Signature API til å e-signere forretningsdokumentene og filene dine med QR-kode."
 
 ############################# Header ############################
-title: "Generer Aztec QR-kodesignatur for {{Filformat}}-dokument i Java"
+title: "Generer Aztec QR-kodesignatur for Ppsm-dokument i Java"
 description: "eSigner Ppsm-dokumentene og kontraktene dine med QR-koden Aztec. Generer QR-kodesignatur raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Qrcode i Java"
+    title_left: "Trinn for å signere Ppsm med Qrcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Ppsm-dokumenter med Qrcode-signaturer raskt og enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Qrcode Live Demo"
+    title: "Signering av Ppsm dokumenter med Qrcode Live Demo"
     content: |
        Signer Ppsm-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre støttede Qrcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Ppsm med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
         
        

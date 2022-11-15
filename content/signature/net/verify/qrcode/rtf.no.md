@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Qrcode signaturer for Rtf filer via C#"
 head_description: "Bruk bare noen få linjer med .NET-kode for å bekrefte Rtf-dokumenter og deres Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturbekreftelse for {{Filformat}}-filer"
+title: "Qrcode signaturbekreftelse for Rtf-filer"
 description: "API for .NET gir mulighet til å bekrefte Qrcode-signaturer i Rtf-dokumenter. Verifisering av e-signaturer i Rtf-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Qrcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Qrcode-signaturer i Rtf-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som bekreftelse av Qrcode-signaturer plassert på Rtf-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

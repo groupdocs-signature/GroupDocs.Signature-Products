@@ -17,8 +17,8 @@ head_title: "Slett Qrcode-signaturer fra Ppt-filer via Java"
 head_description: "Sletting av spesifikke Qrcode-signaturer fra signerte Ppt-dokumenter kan enkelt utføres med kort Java-kode."
 
 ############################# Header ############################
-title: "Fjern Qrcode-signaturer som er plassert i {{Filformat}}-filer"
-description: "Slett forskjellige Qrcode-signaturer fra {{Filformat}}-dokumenter. Fjerning av Qrcode-signaturer krever enkel Java-kode."
+title: "Fjern Qrcode-signaturer som er plassert i Ppt-filer"
+description: "Slett forskjellige Qrcode-signaturer fra Ppt-dokumenter. Fjerning av Qrcode-signaturer krever enkel Java-kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik fjerner du Qrcode-signaturer fra {{Filformat}}-dokumentet"
+    title_left: "Slik fjerner du Qrcode-signaturer fra Ppt-dokumentet"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir nyttig funksjon for å tømme {{Filformat}} dokumenter for Qrcode signaturer med noen få linjer med kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir nyttig funksjon for å tømme Ppt dokumenter for Qrcode signaturer med noen få linjer med kode.
         
         * For det første, instansierer Signatur-objektets bane til dokumentet som en konstruktørparameter.
         * Deretter oppretter du et passende signaturobjekt og setter opp dets unike identifikator.

@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Barcode signatures at Dotm with C#
 
 ############################# Head ############################
-head_title: "Søk etter Barcode-signaturer i filen {{Filformat}} i C#"
+head_title: "Søk etter Barcode-signaturer i filen Dotm i C#"
 head_description: "Bruk .NET for å søke etter Barcode-signaturer i Dotm-filer ved å bruke noen få linjer med kode."
 
 ############################# Header ############################
-title: "Søk etter Barcode-signaturer i filen {{Filformat}}"
+title: "Søk etter Barcode-signaturer i filen Dotm"
 description: ".NET native API gjør det mulig å søke etter Barcode-signaturer i allerede signerte Dotm-filer. Utfør avansert e-signatursøk i Dotm-dokumentene dine ved å bruke noen få linjer med kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik søker du etter Barcode-signaturer i {{Filformat}}"
+    title_left: "Slik søker du etter Barcode-signaturer i Dotm"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gjør det enklere for .NET-utviklere å søke etter Barcode-signaturer i Dotm-filer fra applikasjonene deres ved å implementere noen få enkle trinn.
         

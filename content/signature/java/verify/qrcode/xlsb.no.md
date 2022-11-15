@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Qrcode signaturer for Xlsb filer via Java"
 head_description: "Bruk bare noen få linjer med Java-kode for å bekrefte Xlsb-dokumenter og deres Qrcode-signaturer."
 
 ############################# Header ############################
-title: "Qrcode signaturbekreftelse for {{Filformat}}-filer"
+title: "Qrcode signaturbekreftelse for Xlsb-filer"
 description: "API for Java gir mulighet til å bekrefte Qrcode-signaturer i Xlsb-dokumenter. Verifisering av e-signaturer i Xlsb-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Qrcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Qrcode-signaturer i Xlsb-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som bekreftelse av Qrcode-signaturer plassert på Xlsb-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

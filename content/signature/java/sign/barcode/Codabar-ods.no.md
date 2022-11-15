@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Ods for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med Codabar strekkode i Java"
+head_title: "eSign Ods-dokument med Codabar strekkode i Java"
 head_description: "Opprett Codabar strekkodesignatur og legg den på Ods-dokumentet med Java ved å bruke et par linjer med kode. Bruk GroupDocs Document Signature API for å signere ulike filformater."
 
 ############################# Header ############################
-title: "Generer Codabar strekkodesignatur for {{Filformat}} dokument i Java"
+title: "Generer Codabar strekkodesignatur for Ods dokument i Java"
 description: "eSignér Ods-bedriftsdokumentene dine med Codabar strekkode. Generer strekkodesignatur raskt og enkelt med noen få linjer med kode for å sette opp signeringsalternativer."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Barcode i Java"
+    title_left: "Trinn for å signere Ods med Barcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Ods-dokumenter med Barcode-signaturer raskt og enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering av Ods dokumenter med Barcode Live Demo"
     content: |
        Signer Ods-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre støttede Barcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Ods med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
         
        

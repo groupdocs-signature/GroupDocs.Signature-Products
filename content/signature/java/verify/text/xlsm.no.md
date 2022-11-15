@@ -17,7 +17,7 @@ head_title: "Bekreftelse av Text signaturer for Xlsm filer via Java"
 head_description: "Bruk bare noen få linjer med Java-kode for å bekrefte Xlsm-dokumenter og deres Text-signaturer."
 
 ############################# Header ############################
-title: "Text signaturbekreftelse for {{Filformat}}-filer"
+title: "Text signaturbekreftelse for Xlsm-filer"
 description: "API for Java gir mulighet til å bekrefte Text-signaturer i Xlsm-dokumenter. Verifisering av e-signaturer i Xlsm-dokumentene dine kan utføres raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik validerer du Text-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Slik validerer du Text-signaturer i Xlsm-dokumentet ditt"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som bekreftelse av Text-signaturer plassert på Xlsm-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.
         

@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Xlsx for Java
 
 ############################# Head ############################
 head_title: "Oppdater Qrcode-signaturer plassert på Xlsx-filer med Java"
-head_description: "Bruk enkel og enkel for å forstå Java-koden for Qrcode-signaturoppdatering i signerte {{Filformat}}-dokumenter."
+head_description: "Bruk enkel og enkel for å forstå Java-koden for Qrcode-signaturoppdatering i signerte Xlsx-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og oppdater Qrcode-signaturer plassert i {{Filformat}}-filer"
-description: "API for Java gir funksjonalitet for Qrcode-signaturer som oppdateres i {{Filformat}}-dokumenter. Oppdater e-signaturer i {{Filformat}}-dokumentene dine med et par linjer med Java-kode raskt og enkelt."
+title: "Rediger og oppdater Qrcode-signaturer plassert i Xlsx-filer"
+description: "API for Java gir funksjonalitet for Qrcode-signaturer som oppdateres i Xlsx-dokumenter. Oppdater e-signaturer i Xlsx-dokumentene dine med et par linjer med Java-kode raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hvordan endre Qrcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Hvordan endre Qrcode-signaturer i Xlsx-dokumentet ditt"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som oppdatering av Qrcode-signaturer plassert i {{Filformat}}-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som oppdatering av Qrcode-signaturer plassert i Xlsx-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
         
         * Til å begynne med, lag signaturobjekt som passerer som en konstruktørparameterbane til et dokument som skal oppdateres.
         * Deretter instansierer du et passende bestemt signaturobjekt og setter opp identifikatoren og egenskapene som må endres.

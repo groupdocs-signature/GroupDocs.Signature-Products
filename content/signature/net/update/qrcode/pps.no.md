@@ -14,11 +14,11 @@ breadcrumb: Put Qrcode signature on Pps for C#
 
 ############################# Head ############################
 head_title: "Oppdater Qrcode-signaturer plassert på Pps-filer med C#"
-head_description: "Bruk enkel og enkel for å forstå .NET-koden for Qrcode-signaturoppdatering i signerte {{Filformat}}-dokumenter."
+head_description: "Bruk enkel og enkel for å forstå .NET-koden for Qrcode-signaturoppdatering i signerte Pps-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og oppdater Qrcode-signaturer plassert i {{Filformat}}-filer"
-description: "API for .NET gir funksjonalitet for Qrcode-signaturer som oppdateres i {{Filformat}}-dokumenter. Oppdater e-signaturer i {{Filformat}}-dokumentene dine med et par linjer med C#-kode raskt og enkelt."
+title: "Rediger og oppdater Qrcode-signaturer plassert i Pps-filer"
+description: "API for .NET gir funksjonalitet for Qrcode-signaturer som oppdateres i Pps-dokumenter. Oppdater e-signaturer i Pps-dokumentene dine med et par linjer med C#-kode raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hvordan endre Qrcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Hvordan endre Qrcode-signaturer i Pps-dokumentet ditt"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som oppdatering av Qrcode-signaturer plassert i {{Filformat}}-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som oppdatering av Qrcode-signaturer plassert i Pps-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
         
         * Til å begynne med, lag signaturobjekt som passerer som en konstruktørparameterbane til et dokument som skal oppdateres.
         * Deretter instansierer du et passende bestemt signaturobjekt og setter opp identifikatoren og egenskapene som må endres.

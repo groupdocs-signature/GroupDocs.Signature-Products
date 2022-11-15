@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Metadata signatures at Tiff with Java
 
 ############################# Head ############################
-head_title: "Søk etter Metadata-signaturer i filen {{Filformat}} i Java"
+head_title: "Søk etter Metadata-signaturer i filen Tiff i Java"
 head_description: "Bruk Java for å søke etter Metadata-signaturer i Tiff-filer ved å bruke noen få linjer med kode."
 
 ############################# Header ############################
-title: "Søk etter Metadata-signaturer i filen {{Filformat}}"
+title: "Søk etter Metadata-signaturer i filen Tiff"
 description: "Java native API gjør det mulig å søke etter Metadata-signaturer i allerede signerte Tiff-filer. Utfør avansert e-signatursøk i Tiff-dokumentene dine ved å bruke noen få linjer med kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik søker du etter Metadata-signaturer i {{Filformat}}"
+    title_left: "Slik søker du etter Metadata-signaturer i Tiff"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gjør det enklere for Java-utviklere å søke etter Metadata-signaturer i Tiff-filer fra applikasjonene deres ved å implementere noen få enkle trinn.
         

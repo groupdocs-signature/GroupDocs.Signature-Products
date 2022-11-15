@@ -17,7 +17,7 @@ head_title: "Opprett elektroniske tekstsignaturer til filen Tiff med C#"
 head_description: "Sett Text eSignature på Tiff-filen for .NET ved å bruke noen få linjer med kode. Bruk GroupDocs Document Signature API til å signere dusinvis av filformater."
 
 ############################# Header ############################
-title: "Signer {{Filformat}}-filer med Text-signaturer i C#"
+title: "Signer Tiff-filer med Text-signaturer i C#"
 description: "Slik legger du til Text-signatur med noen få linjer med .NET-kode"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Text i C#"
+    title_left: "Trinn for å signere Tiff med Text i C#"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gir mulighet til å signere Tiff-dokumenter med Text-signaturer raskt og enkelt.
         
@@ -92,7 +92,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Text Live Demo"
+    title: "Signering av Tiff dokumenter med Text Live Demo"
     content: |
        Signer Tiff-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.          
 
@@ -101,7 +101,7 @@ more_formats:
     enable: true
     title: "Andre støttede Text-signaturer for C#"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Tiff med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
        
        

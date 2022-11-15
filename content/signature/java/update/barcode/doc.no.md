@@ -14,11 +14,11 @@ breadcrumb: Put Barcode signature on Doc for Java
 
 ############################# Head ############################
 head_title: "Oppdater Barcode-signaturer plassert på Doc-filer med Java"
-head_description: "Bruk enkel og enkel for å forstå Java-koden for Barcode-signaturoppdatering i signerte {{Filformat}}-dokumenter."
+head_description: "Bruk enkel og enkel for å forstå Java-koden for Barcode-signaturoppdatering i signerte Doc-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og oppdater Barcode-signaturer plassert i {{Filformat}}-filer"
-description: "API for Java gir funksjonalitet for Barcode-signaturer som oppdateres i {{Filformat}}-dokumenter. Oppdater e-signaturer i {{Filformat}}-dokumentene dine med et par linjer med Java-kode raskt og enkelt."
+title: "Rediger og oppdater Barcode-signaturer plassert i Doc-filer"
+description: "API for Java gir funksjonalitet for Barcode-signaturer som oppdateres i Doc-dokumenter. Oppdater e-signaturer i Doc-dokumentene dine med et par linjer med Java-kode raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hvordan endre Barcode-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Hvordan endre Barcode-signaturer i Doc-dokumentet ditt"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som oppdatering av Barcode-signaturer plassert i {{Filformat}}-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) inkluderer nyttige funksjoner som oppdatering av Barcode-signaturer plassert i Doc-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
         
         * Til å begynne med, lag signaturobjekt som passerer som en konstruktørparameterbane til et dokument som skal oppdateres.
         * Deretter instansierer du et passende bestemt signaturobjekt og setter opp identifikatoren og egenskapene som må endres.

@@ -14,11 +14,11 @@ breadcrumb: Put Text signature on Xltm for C#
 
 ############################# Head ############################
 head_title: "Oppdater Text-signaturer plassert på Xltm-filer med C#"
-head_description: "Bruk enkel og enkel for å forstå .NET-koden for Text-signaturoppdatering i signerte {{Filformat}}-dokumenter."
+head_description: "Bruk enkel og enkel for å forstå .NET-koden for Text-signaturoppdatering i signerte Xltm-dokumenter."
 
 ############################# Header ############################
-title: "Rediger og oppdater Text-signaturer plassert i {{Filformat}}-filer"
-description: "API for .NET gir funksjonalitet for Text-signaturer som oppdateres i {{Filformat}}-dokumenter. Oppdater e-signaturer i {{Filformat}}-dokumentene dine med et par linjer med C#-kode raskt og enkelt."
+title: "Rediger og oppdater Text-signaturer plassert i Xltm-filer"
+description: "API for .NET gir funksjonalitet for Text-signaturer som oppdateres i Xltm-dokumenter. Oppdater e-signaturer i Xltm-dokumentene dine med et par linjer med C#-kode raskt og enkelt."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Hvordan endre Text-signaturer i {{Filformat}}-dokumentet ditt"
+    title_left: "Hvordan endre Text-signaturer i Xltm-dokumentet ditt"
     content_left: |
-        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som oppdatering av Text-signaturer plassert i {{Filformat}}-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
+        [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) inkluderer nyttige funksjoner som oppdatering av Text-signaturer plassert i Xltm-dokumenter. Det gjør det mulig å endre signaturfunksjoner uten ekstra kode.
         
         * Til å begynne med, lag signaturobjekt som passerer som en konstruktørparameterbane til et dokument som skal oppdateres.
         * Deretter instansierer du et passende bestemt signaturobjekt og setter opp identifikatoren og egenskapene som må endres.

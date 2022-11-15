@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotx odt ott xls xlsx xlsm xlsb ods ots xltx
 breadcrumb: Search Digital signatures at Xlsb with C#
 
 ############################# Head ############################
-head_title: "Søk etter Digital-signaturer i filen {{Filformat}} i C#"
+head_title: "Søk etter Digital-signaturer i filen Xlsb i C#"
 head_description: "Bruk .NET for å søke etter Digital-signaturer i Xlsb-filer ved å bruke noen få linjer med kode."
 
 ############################# Header ############################
-title: "Søk etter Digital-signaturer i filen {{Filformat}}"
+title: "Søk etter Digital-signaturer i filen Xlsb"
 description: ".NET native API gjør det mulig å søke etter Digital-signaturer i allerede signerte Xlsb-filer. Utfør avansert e-signatursøk i Xlsb-dokumentene dine ved å bruke noen få linjer med kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik søker du etter Digital-signaturer i {{Filformat}}"
+    title_left: "Slik søker du etter Digital-signaturer i Xlsb"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gjør det enklere for .NET-utviklere å søke etter Digital-signaturer i Xlsb-filer fra applikasjonene deres ved å implementere noen få enkle trinn.
         

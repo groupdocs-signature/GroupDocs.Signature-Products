@@ -14,11 +14,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Put  Barcode signature on Gif for Java
 
 ############################# Head ############################
-head_title: "eSign {{Filformat}}-dokument med I T F14 strekkode i Java"
+head_title: "eSign Gif-dokument med I T F14 strekkode i Java"
 head_description: "Opprett I T F14 strekkodesignatur og legg den på Gif-dokumentet med Java ved å bruke et par linjer med kode. Bruk GroupDocs Document Signature API for å signere ulike filformater."
 
 ############################# Header ############################
-title: "Generer I T F14 strekkodesignatur for {{Filformat}} dokument i Java"
+title: "Generer I T F14 strekkodesignatur for Gif dokument i Java"
 description: "eSignér Gif-bedriftsdokumentene dine med I T F14 strekkode. Generer strekkodesignatur raskt og enkelt med noen få linjer med kode for å sette opp signeringsalternativer."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -48,7 +48,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Trinn for å signere {{Filformat}} med Barcode i Java"
+    title_left: "Trinn for å signere Gif med Barcode i Java"
     content_left: |
         [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir mulighet til å signere Gif-dokumenter med Barcode-signaturer raskt og enkelt.
         
@@ -96,7 +96,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Signering av {{Filformat}} dokumenter med Barcode Live Demo"
+    title: "Signering av Gif dokumenter med Barcode Live Demo"
     content: |
        Signer Gif-filen med forskjellige signaturer akkurat nå ved å gå til nettstedet [GroupDocs.Signature-appen](https://products.groupdocs.app/signature/family). Gratis online demo venter på deg.
 
@@ -124,7 +124,7 @@ more_formats:
     enable: true
     title: "Andre støttede Barcode-signaturer for Java"
     content: |
-        "Du kan også signere {{Filformat}} med andre signaturtyper. Vennligst se listen nedenfor."
+        "Du kan også signere Gif med andre signaturtyper. Vennligst se listen nedenfor."
     format: 
         
        

@@ -13,11 +13,11 @@ otherformats: pdf doc docx docm dot dotm dotx odt ott rtf xls xlsx xlsm xlsb csv
 breadcrumb: Search Metadata signatures at Png with C#
 
 ############################# Head ############################
-head_title: "Søk etter Metadata-signaturer i filen {{Filformat}} i C#"
+head_title: "Søk etter Metadata-signaturer i filen Png i C#"
 head_description: "Bruk .NET for å søke etter Metadata-signaturer i Png-filer ved å bruke noen få linjer med kode."
 
 ############################# Header ############################
-title: "Søk etter Metadata-signaturer i filen {{Filformat}}"
+title: "Søk etter Metadata-signaturer i filen Png"
 description: ".NET native API gjør det mulig å søke etter Metadata-signaturer i allerede signerte Png-filer. Utfør avansert e-signatursøk i Png-dokumentene dine ved å bruke noen få linjer med kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -47,7 +47,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik søker du etter Metadata-signaturer i {{Filformat}}"
+    title_left: "Slik søker du etter Metadata-signaturer i Png"
     content_left: |
         [GroupDocs.Signature for .NET](https://products.groupdocs.com/signature/net/) gjør det enklere for .NET-utviklere å søke etter Metadata-signaturer i Png-filer fra applikasjonene deres ved å implementere noen få enkle trinn.
         

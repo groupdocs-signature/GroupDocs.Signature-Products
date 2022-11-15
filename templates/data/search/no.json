@@ -1,8 +1,8 @@
 {
   "content": {
-    "meta_title": "Søk etter {{Signaturetype}}-signaturer i filen {{Filformat}} i {{ProgLang}}",
+    "meta_title": "Søk etter {{Signaturetype}}-signaturer i filen {{Fileformat}} i {{ProgLang}}",
     "meta_description": "Bruk {{ProductName}} for å søke etter {{Signaturetype}}-signaturer i {{Fileformat}}-filer ved å bruke noen få linjer med kode.",
-    "h1": "Søk etter {{Signaturetype}}-signaturer i filen {{Filformat}}",
+    "h1": "Søk etter {{Signaturetype}}-signaturer i filen {{Fileformat}}",
     "h2": "{{ProductName}} native API gjør det mulig å søke etter {{Signaturetype}}-signaturer i allerede signerte {{Fileformat}}-filer. Utfør avansert e-signatursøk i {{Fileformat}}-dokumentene dine ved å bruke noen få linjer med kode."
   },
   "about": {
@@ -10,7 +10,7 @@
     "content": "[{{ProductFullName}}]({{ProductUrl}}) gir {{ProductName}} API for behandling av dokumenter ved hjelp av ulike signaturtyper som tekster, bilder, digitale sertifikater, strekkoder, QR-koder, stempler eller metadata. Brukere kan legge til, slette, oppdatere, bekrefte eller søke i elektroniske signaturer i PDF-er, MS Word-dokumenter, MS Excel-arbeidsbøker, MS PowerPoint-presentasjoner, Adobe Photoshop-filer og ulike bildeformater, med ekstra støtte for å tilpasse signaturegenskaper etter behov."
   },
   "steps": {
-    "title_left": "Slik søker du etter {{Signaturetype}}-signaturer i {{Filformat}}",
+    "title_left": "Slik søker du etter {{Signaturetype}}-signaturer i {{Fileformat}}",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) gjør det enklere for {{ProductName}}-utviklere å søke etter {{Signaturetype}}-signaturer i {{Fileformat}}-filer fra applikasjonene deres ved å implementere noen få enkle trinn.",
       "step_1": "Opprett en ny forekomst av Signature-klassen og send kildedokumentbanen som en konstruktørparameter.",
@@ -35,3 +35,25 @@
     "content": "Elektroniske signaturer søk i ulike dokumenter. Finn signaturer fra et av de populære filformatene som vist nedenfor."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

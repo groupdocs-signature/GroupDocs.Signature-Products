@@ -2,7 +2,7 @@
   "content": {
     "meta_title": "Bekreftelse av {{Signaturetype}} signaturer for {{Fileformat}} filer via {{ProgLang}}",
     "meta_description": "Bruk bare noen få linjer med {{ProductName}}-kode for å bekrefte {{Fileformat}}-dokumenter og deres {{Signaturetype}}-signaturer.",
-    "h1": "{{Signaturetype}} signaturbekreftelse for {{Filformat}}-filer",
+    "h1": "{{Signaturetype}} signaturbekreftelse for {{Fileformat}}-filer",
     "h2": "API for {{ProductName}} gir mulighet til å bekrefte {{Signaturetype}}-signaturer i {{Fileformat}}-dokumenter. Verifisering av e-signaturer i {{Fileformat}}-dokumentene dine kan utføres raskt og enkelt."
   },
   "about": {
@@ -10,7 +10,7 @@
     "content": "[{{ProductFullName}}]({{ProductUrl}}) API gir et bredt spekter av måter å behandle en rekke dokumentformater ved å bruke elektroniske signaturer. Mange typer digitale signaturer som tekster, bilder, digitale sertifikater, strekkoder, QR-koder, stempler eller metadata støttes. Kunder kan legge til, fjerne, redigere, validere eller søke i digitale signaturer i PDF-er, MS Word-dokumenter, MS Excel-arbeidsbøker, MS PowerPoint-presentasjoner, Adobe Photoshop-filer og ulike bildeformater. Utrolig mange tilleggsfunksjoner og innstillinger er tilgjengelige."
   },
   "steps": {
-    "title_left": "Slik validerer du {{Signaturetype}}-signaturer i {{Filformat}}-dokumentet ditt",
+    "title_left": "Slik validerer du {{Signaturetype}}-signaturer i {{Fileformat}}-dokumentet ditt",
     "content_left": {
       "description": "[{{ProductFullName}}]({{ProductUrl}}) inkluderer nyttige funksjoner som bekreftelse av {{Signaturetype}}-signaturer plassert på {{Fileformat}}-dokumenter. Bruk denne muligheten uten å implementere ekstra kode.",
       "step_1": "For det første instansierer Signature-klassen som gir en konstruktørparameterbane til et dokument som skal verifiseres.",
@@ -35,3 +35,25 @@
     "content": "Verifikasjon av elektroniske signaturer plassert i ulike dokumenter. Sjekk kvaliteten på signaturene i de populære filformatene som vist nedenfor."
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

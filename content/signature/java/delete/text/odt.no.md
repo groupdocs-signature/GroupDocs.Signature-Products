@@ -17,8 +17,8 @@ head_title: "Slett Text-signaturer fra Odt-filer via Java"
 head_description: "Sletting av spesifikke Text-signaturer fra signerte Odt-dokumenter kan enkelt utføres med kort Java-kode."
 
 ############################# Header ############################
-title: "Fjern Text-signaturer som er plassert i {{Filformat}}-filer"
-description: "Slett forskjellige Text-signaturer fra {{Filformat}}-dokumenter. Fjerning av Text-signaturer krever enkel Java-kode."
+title: "Fjern Text-signaturer som er plassert i Odt-filer"
+description: "Slett forskjellige Text-signaturer fra Odt-dokumenter. Fjerning av Text-signaturer krever enkel Java-kode."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -47,9 +47,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Slik fjerner du Text-signaturer fra {{Filformat}}-dokumentet"
+    title_left: "Slik fjerner du Text-signaturer fra Odt-dokumentet"
     content_left: |
-        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir nyttig funksjon for å tømme {{Filformat}} dokumenter for Text signaturer med noen få linjer med kode.
+        [GroupDocs.Signature for Java](https://products.groupdocs.com/signature/java/) gir nyttig funksjon for å tømme Odt dokumenter for Text signaturer med noen få linjer med kode.
         
         * For det første, instansierer Signatur-objektets bane til dokumentet som en konstruktørparameter.
         * Deretter oppretter du et passende signaturobjekt og setter opp dets unike identifikator.
