@@ -11,11 +11,11 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java 数字签名 API，将电子签名添加到 PDF Word Excel 图像"
-head_description: "Java 数字签名 API。电子签名库，用于对 PDF、Microsoft Word、Excel 电子表格、PowerPoint 演示文稿和图像文档格式进行数字签名."
+head_description: "Java数字签名API。电子签名库，用于对 PDF、Microsoft Word、Excel 电子表格、PowerPoint 演示文稿和图像文档格式进行数字签名。"
 
 ############################# Header ############################
 title: "用于管理数字签名的 Java API"
-description: "在用于签署图像和数字文档文件格式的 Java 应用程序中管理图像、二维码、条形码、元数据、文本和图章类型的电子签名。"
+description: "在 Java 应用程序中管理图像、二维码、条形码、元数据、文本和图章类型的电子签名，用于签署图像和数字文档文件格式。"
 button:
     enable: true
 
@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Signature for Java"
-        image: "/border/groupdocs-signature-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
         product: "GroupDocs.Signature"
         platform: "Java"
 
@@ -41,11 +41,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "支持"
 
             # button loop
             - link: "https://products.groupdocs.app/signature"
-              text: "Live Demo"
+              text: "现场演示"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/signature/java"
@@ -56,46 +56,46 @@ submenu:
         link_learn: "https://docs.groupdocs.com/signature/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Signature for Java API 可帮助您开发具有电子签名功能的 Java 应用程序，以签署支持格式的数字文档，而无需安装任何外部软件。它支持对各种类型的电子签名进行操作和管理，例如图像、条形码、二维码、印章、文本、光学和元数据。您的所有电子商务文档（如微软办公软件 Word、PowerPoint 演示文稿、Excel 电子表格、图像和 PDF 文件）都可以通过自定义签名属性进行数字签名，例如根据您的要求，阴影、尺寸、对齐等。数字签名库简单轻量，由一个 DLL 文件组成，可以轻松集成到新的或现有的 Java 应用程序中。 
+      GroupDocs.Signature for Java API 帮助您开发具有电子签名功能的 Java 应用程序，无需安装任何外部软件即可签署支持格式的数字文档。它支持操作和管理各种类型的电子签名，例如图像、条形码、QR 码、图章、文本、光学和元数据。您的所有电子业务文档，如 Microsoft Office Word、PowerPoint 演示文稿、Excel 电子表格、图像和 PDF 文件，都可以通过自定义签名属性进行数字签名，例如根据您的要求添加阴影、尺寸、对齐方式等。数字签名库简单轻便，由单个 DLL 文件组成，可以轻松集成到新的或现有的 Java 应用程序中。  
 
-      通过 GroupDocs.Signature for Java API，您可以从系统中加载所有已注册的证书，或者使用简单和高级的搜索来查找现有签名。使用受密码保护的文档的选项，指定常见的签名属性（文本大小、不透明度、旋转、验证、字体属性、颜色选项、页码、宽度、顶部、左侧等）以及实现不同电子签名类型的支持使其成为可靠的数字文档的电子签名管理解决方案。
+      通过 GroupDocs.Signature for Java API，您可以从系统加载所有已注册的证书，或使用简单和高级搜索找到现有签名。使用密码保护文档的选项，指定通用签名属性（文本大小、不透明度、旋转、验证、字体属性、颜色选项、页码、宽度、顶部、左侧等）以及支持实现不同的电子签名类型使其成为可靠的数字文档的电子签名管理解决方案。  
 
       GroupDocs.Signature for Java 与所有 Java 版本兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、MacOS）
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          以下是 Java 的 GroupDocs.Signature 的概述：
-
+          这是 GroupDocs.Signature Java 特征的概述：
+      
         right:
           enable: true
           icon: "fab fa-html5"
           title: "签名类型"
           content: |
-            * 文字签名
+            * 文本签名
             * 图像签名
             * 数字签名
             * 二维码签名
-            * 条码签名
+            * 条形码签名
             * 盖章签名
-            * 表单域签名
+            * 表单字段签名
       
       ## TAB TWO ##
       tab_two:
         description: |
-          Java 电子签名 API 支持 [文档文件格式](https://docs.groupdocs.com/signature/java/supported-document-formats/)，如下所示。
+          Java 电子签名 API 支持如下所列的[文档文件格式](https://docs.groupdocs.com/signature/java/supported-document-formats/)。
 
         left:
           enable: true
           table:
             # table loop
-            - title: "微软办公软件"
+            - title: "Microsoft Office"
               content: |
                 * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
@@ -105,21 +105,21 @@ overview:
           enable: true
           table:
             # table loop
-            - title: "Images & 其他格式"
+            - title: "Images & Other Formats"
               content: |
-                * **图像**：JPG、BMP、PNG、TIFF、GIF、DCM、WEBP
-                * **OpenDocument**：ODT、OTT、OTS、ODS、ODP、OTP、ODG
-                * **Jpeg2000**：JP2、JPF、JPX、J2K、J2C、JPM
-                * **元文件**：EMF、WMF、CMX
-                * **便携式**：PDF
-                * **可缩放矢量图形**：CDR、SVG
-                * **Adobe Photoshop**：PSD
-                * **其他**：DJV
+                * **图片**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
+                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
+                * **图元文件**: EMF, WMF, CMX
+                * **便携的**: PDF
+                * **可缩放矢量图形**: CDR, SVG
+                * **Adobe Photoshop**: PSD
+                * **其他的**: DJVU
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Signature for Java 支持以下操作系统、框架和包管理器:
+          GroupDocs.Signature for Java 支持以下操作系统、框架和包管理器：
         
         left:
           enable: true
@@ -137,7 +137,7 @@ overview:
             - icon: "fas fa-code"
               title: "支持的框架"
               content: |
-                * Java 7 (1.7) 及更高版本
+                * Java 7 (1.7) and above
 
         right:
           enable: true
@@ -155,10 +155,10 @@ overview:
               content: |
                 * Maven
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Signature for Java 特征"
+    title: "Java 功能的 GroupDocs.Signature"
 
     feature:
       # feature loop
@@ -167,15 +167,15 @@ features:
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "从流、相对路径或绝对路径访问要签名的文档"
+        content: "从流、相对路径或绝对路径访问签名文档"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "将签名签名应用于文档、电子表格、演示文稿、图像和 PDF 文件"
+        content: "将文本签名应用于文档、电子表格、演示文稿、图像和 PDF 文件"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "添加文字签名作为注释、贴纸、图像到 PDF 文件还配置样式和颜色"
+        content: "将文本签名作为注释、贴纸、图像添加到 PDF 文件还可以配置样式和颜色"
 
       # feature loop
       - icon: "fas fa-code"
@@ -183,7 +183,7 @@ features:
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "使用文字签名作为水印对图像进行数字签名并添加透明度、旋转到电子签名"
+        content: "使用文本签名作为水印对图像进行数字签名并为电子签名添加透明度、旋转"
 
       # feature loop
       - icon: "fas fa-remove-format"
@@ -191,23 +191,23 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "使用本机文本水印为文字处理文档格式签名"
+        content: "使用本机文本水印对文字处理文档格式进行签名"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "使用 QR 码、条形码签署 Word、幻灯片、单元格、PDF 和图像文件"
+        content: "使用 QR 码、条形码对 Word、幻灯片、单元格、PDF 和图像文件进行签名"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "配置和应用盖章签名以保护支持的文件格式"
+        content: "配置和应用图章签名以保护支持的文件格式"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "设置和分配图像签名到文档、电子表格、演示文稿、图像和 PDF 文件"
+        content: "为文档、电子表格、演示文稿、图像和 PDF 文件设置和分配图像签名"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "配置签名属性，例如外观、边距、对齐等."
+        content: "配置签名属性，例如外观、边距、对齐方式等。"
 
       # feature loop
       - icon: "fas fa-file-word"
@@ -219,15 +219,15 @@ features:
 
       # feature loop
       - icon: "fas fa-print"
-        content: "使用 .CER 和 .PFX 证书容器对 Word、Excel、PDF 文档进行数字验证"
+        content: "使用 .CER 和 .PFX 证书容器对 Word、Cell、PDF 文档进行数字验证"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "为 PDF 文字签名指定不同的度量单位类型（例如毫米、像素等）"
+        content: "为 PDF 文本签名指定不同的度量单位类型（例如毫米、像素等）"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "通过文件或 URL 获取文档信息 - 将表单字段签名添加到 PDF 文档"
+        content: "通过文件或 URL 获取文档信息 - 添加表单字段签名到 PDF 文档"
 
       # feature loop
       - icon: "fas fa-file-code"
@@ -251,19 +251,19 @@ features:
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "使用单元格文档中的像素放置签名和用于盖章签名的文本定位"
+        content: "在单元格文档中使用像素放置签名和图章签名的文本定位"
 
       # feature loop
       - icon: "fab fa-uncharted"
-        content: "用圆角实现矩形盖章签名"
+        content: "实现带圆角的矩形图章签名"
 
        # feature loop
       - icon: "fab fa-uncharted"
-        content: "用图像数据内容扩展条形码和二维码签名"
+        content: "使用图像数据内容扩展条形码和二维码签名"
 
        # feature loop
       - icon: "fab fa-uncharted"
-        content: "在使用签名和搜索选项时添加加密元数据签名"
+        content: "使用签名和搜索选项时添加加密的元数据签名"
 
        # feature loop
       - icon: "fab fa-uncharted"
@@ -273,8 +273,8 @@ features:
       # more_feature_loop
       - title: "轻松配置和应用电子签名"
         content: |
-          GroupDocs.Signature for Java API 可以配置和添加电子签名到支持的文档格式。以下是一个代码示例，展示了将文本签名应用于 PDF 文件是多么简单：
-          
+          GroupDocs.Signature for Java API 支持配置电子签名并将其添加到支持的文档格式。以下代码示例显示了将文本签名应用于 PDF 文件是多么简单：
+
           ```java
           Signature signature = new Signature("sample.pdf");
 
@@ -287,7 +287,7 @@ features:
           options.setWidth(100);
           options.setHeight(30);
 
-          // 设置文本颜色和字体
+          // 设置文字颜色和字体
           options.setForeColor(Color.RED);
           SignatureFont signatureFont = new SignatureFont();
           signatureFont.setSize(12);
@@ -298,24 +298,25 @@ features:
           // 签署文件归档
           signature.sign("sample_signed.pdf", options);
           ```
+
       # more_feature_loop
       - title: "电子签名支持的条形码编码类型"
         content: |
-          使用 GroupDocs.Signature for Java API，您可以将条形码和 QR 码签名应用于支持的文件格式。 GroupDocs.Signature for Java 支持大量条形码编码类型以满足大多数需求。支持的条码编码类型包括 Code 11、Code 128、Code 16K/32、Databar 码、GS1 Codeblock、ISBN、ISMN、ISSN、ITF16、Pdf147、EAN8、EAN13、EAN14、UPCA、UPCE、ITF14、Code39 Standard 和Code39 扩展。
+          使用 GroupDocs.Signature for Java API，您可以将条形码和二维码签名应用于支持的文件格式。 GroupDocs.Signature for Java 支持范围广泛的条码编码类型以满足大多数需求。支持的条码编码类型包括 Code 11、Code 128、Code 16K/32、Databar codes、GS1 Codeblock、ISBN、ISMN、ISSN、ITF16、Pdf147、EAN8、EAN13、EAN14、UPCA、UPCE、ITF14、Code39 Standard 和Code39 扩展。
 
-          同样，Java API 的 GroupDocs.Signature 允许您使用 QR 码类型，例如 QR、Aztec 和 Data Matrix。支持的 QR 码编码类型包括 Aztec、DataMatrix、GS1 DataMatrix 和 GS1 QR。
+          同样，GroupDocs.Signature for Java API 允许您使用 QR 码类型，例如 QR、Aztec 和 Data Matrix。支持的二维码编码类型包括 Aztec、DataMatrix、GS1 DataMatrix 和 GS1 QR。
 
       # more_feature_loop
       - title: "搜索签名和证书"
         content: |
-          通过 GroupDocs.Signature for Java API，您可以在任何文档、演示文稿、电子表格、图像以及 PDF 文件中搜索二维码和条形码签名，并获取搜索结果。您还可以从二维签名码签名的文档中搜索自定义数据对象，以及从二维签名签名的文档中搜索标准 VCard 和电子邮件对象。还支持验证二维码签名的加密文本以及在 PDF 文档中搜索元数据签名。对 Words & Cells 文档的数字签名应用额外的搜索条件。 
+          通过 GroupDocs.Signature for Java API，您可以在任何文档、演示文稿、电子表格、图像以及 PDF 文件中搜索 QR 码和条码签名，并获取搜索结果。您还可以从使用 QR 码签名的文档中搜索自定义数据对象，以及从使用 QR 码签名的文档中搜索标准 VCard 和电子邮件对象。还支持验证二维码签名的加密文本以及在 PDF 文档中搜索元数据签名。对 Words & Cells 文档的数字签名应用附加搜索条件。  
 
-          搜索选项也可用于 word 文档、幻灯片和电子表格的元数据签名，而表单域搜索可用于 PDF 文档。
+          搜索选项也可用于 word 文档、幻灯片和电子表格的元数据签名，而表单字段搜索可用于 PDF 文档。
 
       # more_feature_loop
       - title: "配置电子签名属性"
         content: |
-          为了增强最终用户的 UX，GroupDocs.Signature for Java API 提供了许多可以很容易配置的属性。您可以设置字体和颜色选项（背景颜色、前景色、粗体、斜体、下划线、字体系列、字体大小等）、背景和边框选项（背景颜色、背景透明度、边框颜色、边框虚线样式、边框粗细、边框透明度等），签名边距（左侧，顶部，宽度，高度，填充等），以及设置图像签名区域和签名对齐（水平对齐，垂直对齐等）。
+          为了增强最终用户的用户体验，GroupDocs.Signature for Java API 提供了许多可以很容易配置的属性。您可以设置字体和颜色选项（背景颜色、前景色、粗体、斜体、下划线、字体系列、字体大小等）、背景和边框选项（背景颜色、背景透明度、边框颜色、边框虚线样式、边框粗细、边框透明度等）、签名边距（左、上、宽、高、填充等），以及设置图像签名区域和签名对齐（水平对齐、垂直对齐等）。
 
 ############################# Support ############################
 support:
@@ -329,7 +330,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Signature for .NET"
-          image: "/border/groupdocs-signature-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
           product: "GroupDocs.Signature"
           platform: ".NET"
           link: "/signature/net/"

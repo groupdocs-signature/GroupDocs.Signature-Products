@@ -1,16 +1,23 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-03-01T15:12:22
 draft: false
-
+#operation: 
+#signaturetype: 
+#fileformat: 
+#productName: Java
+lang: en
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API – Electronic Sign PDF Word Excel Images"
+head_title: ".NET Digital Signature API - Electronic Sign PDF Word Excel Images"
 head_description: "C# .NET digital signature API, eSignature library to electronically sign PDF, Word, Excel spreadsheets, PowerPoint, images & graphics document formats."
 
 ############################# Header ############################
@@ -307,9 +314,11 @@ features:
           signature.Sign("D:\\signed.pdf", options);
           }
           ```
+
       # more_feature_loop
       - title: "Supported Barcode Signature Types"
-        content: "Our signature manipulation API offers you feature to apply barcode signatures to supported document formats. GroupDocs.Signature for .NET supports various barcode types, such as, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA, and UPCE. A static object named “AllTypes” is also provided to support all registered barcode types."
+        content: |
+          Our signature manipulation API offers you feature to apply barcode signatures to supported document formats. GroupDocs.Signature for .NET supports various barcode types, such as, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA, and UPCE. A static object named “AllTypes” is also provided to support all registered barcode types.
 
       # more_feature_loop
       - title: "Search Signatures & Certificates"
@@ -320,7 +329,8 @@ features:
 
       # more_feature_loop
       - title: "Advanced Search Options for Barcode"
-        content: "You can search and locate your required barcode through GroupDocs.Signature for.NET API very easily, as our signature API offers advanced search options. These enable you to search barcode on a particular page, search throughout a document, specify different pages to search (first, last, even, odd), search for barcode of particular encoding type, search barcode based on specific text string, or search barcode based on string with “contains” option."
+        content: |
+          You can search and locate your required barcode through GroupDocs.Signature for.NET API very easily, as our signature API offers advanced search options. These enable you to search barcode on a particular page, search throughout a document, specify different pages to search (first, last, even, odd), search for barcode of particular encoding type, search barcode based on specific text string, or search barcode based on string with “contains” option.
 
 ############################# Support ############################
 support:

@@ -1,9 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-03-01T15:12:22
 draft: false
-
+#operation: 
+#signaturetype: 
+#fileformat: 
+#productName: Java
+lang: es
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 
@@ -28,15 +35,15 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/border/groupdocs-signature-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
-          content: "API nativa de .NET para agregar, buscar y verificar los tipos de firmas digitales más populares en oficina de Microsoft, PDF, imágenes y varios otros formatos en aplicaciones .NET."
+          content: "API .NET nativa para agregar, buscar y verificar los tipos de firmas digitales más populares en Microsoft Office, PDF, imágenes y varios otros formatos en aplicaciones .NET."
 
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/border/groupdocs-signature-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Potencie las aplicaciones Java con capacidades de firma electrónica para firmar digitalmente una amplia gama de documentos e imágenes en cualquier sistema operativo con JDK instalado."
@@ -49,26 +56,26 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/signature/curl"
           img_alt: "GroupDocs.Signature Cloud for cURL"
-          image: "/sdk/groupdocs_signature-for-curl.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-curl.png"
           product: "GroupDocs.Signature"
           platform: "Cloud for cURL"
-          content: "Trabaje con la API de firma de documentos cURL RESTful para agregar y manipular diferentes tipos de firmas en todos los formatos de documentos populares, incluidos PDF, Word, Excel e imágenes.."
+          content: "Trabaje con la API de firma de documentos cURL RESTful para agregar y manipular diferentes tipos de firmas en todos los formatos de documentos populares, incluidos PDF, Word, Excel e imágenes."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/signature/net"
           img_alt: "GroupDocs.Signature Cloud SDK for .NET"
-          image: "/sdk/groupdocs_signature-for-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-net.png"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for .NET"
-          content: "Use la API RESTful de firma electrónica fácilmente con .NET SDK para administrar la firma digital en varios formatos de documentos dentro de las aplicaciones .NET."
+          content: "Utilice la API RESTful de firma electrónica fácilmente con .NET SDK para administrar la firma digital en varios formatos de documentos dentro de las aplicaciones .NET."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/signature/java"
           img_alt: "GroupDocs.Signature Cloud SDK for Java"
-          image: "/sdk/groupdocs_signature-for-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_signature-for-java.png"
           product: "GroupDocs.Signature"
           platform: "Cloud SDK for Java"
-          content: "Implemente funciones avanzadas de firma de documentos en sus aplicaciones Java con SDK de firma de documentos especialmente diseñado para Java."
+          content: "Implemente funciones avanzadas de firma de documentos en sus aplicaciones Java con el SDK de firma de documentos especialmente diseñado para Java."
 
     # api loop
     - title: "GroupDocs.Signature Sin código Las aplicaciones incluyen"
@@ -78,7 +85,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/signature/total"
           img_alt: "GroupDocs.Signature Total"
-          image: "/app/groupdocs_signature-app.svg"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_signature-app.png"
           product: "GroupDocs.Signature"
           platform: "Total"
           content: "Firme archivos de Microsoft Word, Excel, PowerPoint, Visio y PDF con texto, imagen, código de barras o código QR."
@@ -86,7 +93,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/signature/docx"
           img_alt: "GroupDocs.Signature DOCX"
-          image: "/app/groupdocs_words-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Signature"
           platform: "DOCX"
           content: "Firme digitalmente documentos de Word en línea directamente desde su navegador de forma gratuita."
@@ -94,7 +101,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/signature/pdf"
           img_alt: "GroupDocs.Signature PDF"
-          image: "/app/groupdocs_pdf-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Signature"
           platform: "PDF"
           content: "Firme electrónicamente archivos PDF con texto, imagen o código de barras desde cualquier navegador web."

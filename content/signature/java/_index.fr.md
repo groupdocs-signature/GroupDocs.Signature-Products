@@ -25,7 +25,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Signature for Java"
-        image: "/border/groupdocs-signature-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
         product: "GroupDocs.Signature"
         platform: "Java"
 
@@ -41,38 +41,38 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Soutien"
 
             # button loop
             - link: "https://products.groupdocs.app/signature"
-              text: "Live Demo"
+              text: "Démo en direct"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/signature/java"
-              text: "Pricing"
+              text: "Tarification"
 
     right:
         link_download: "https://downloads.groupdocs.com/signature"
         link_learn: "https://docs.groupdocs.com/signature/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      L'API GroupDocs.Signature pour Java vous aide à développer des applications Java avec des fonctionnalités de signatures électroniques pour signer des documents numériques aux formats pris en charge sans installer de logiciel externe. Il prend en charge la manipulation et la gestion de divers types de signatures électroniques telles que l'image, le code-barres, le code QR, le tampon, le texte, l'optique et les métadonnées. Tous vos documents commerciaux électroniques tels que Microsoft Office Word, les présentations PowerPoint, les feuilles de calcul Excel, les images et les fichiers PDF peuvent être signés numériquement en personnalisant les propriétés de signature, par ex. ombre, dimensions, alignement et plus selon vos besoins. La bibliothèque de signature numérique est simple et légère, consistant en un seul fichier DLL qui peut être facilement intégré dans une application Java nouvelle ou existante.
+      L'API GroupDocs.Signature pour Java vous aide à développer des applications Java avec des fonctionnalités de signatures électroniques pour signer des documents numériques aux formats pris en charge sans installer de logiciel externe. Il prend en charge la manipulation et la gestion de divers types de signatures électroniques telles que l'image, le code-barres, le code QR, le tampon, le texte, l'optique et les métadonnées. Tous vos documents commerciaux électroniques tels que Microsoft Office Word, les présentations PowerPoint, les feuilles de calcul Excel, les images et les fichiers PDF peuvent être signés numériquement en personnalisant les propriétés de signature, par ex. ombre, dimensions, alignement et plus selon vos besoins. La bibliothèque de signature numérique est simple et légère, consistant en un seul fichier DLL qui peut être facilement intégré dans une application Java nouvelle ou existante.  
 
-      Grâce à l'API GroupDocs.Signature pour Java, vous pouvez charger tous les certificats enregistrés à partir du système ou localiser les signatures existantes à l'aide d'une recherche simple et avancée. Les options pour travailler avec des documents protégés par mot de passe, en spécifiant les propriétés de signature communes (taille du texte, opacité, rotation, vérification, propriétés de la police, options de couleur, numéro de page, largeur, haut, gauche, etc.) et la prise en charge de la mise en œuvre de différents types de signature électronique en font un outil fiable. Solution de gestion des signatures électroniques pour les documents numériques.
+      Grâce à l'API GroupDocs.Signature pour Java, vous pouvez charger tous les certificats enregistrés à partir du système ou localiser les signatures existantes à l'aide d'une recherche simple et avancée. Les options pour travailler avec des documents protégés par mot de passe, en spécifiant les propriétés de signature communes (taille du texte, opacité, rotation, vérification, propriétés de la police, options de couleur, numéro de page, largeur, haut, gauche, etc.) et la prise en charge de la mise en œuvre de différents types de signature électronique en font un outil fiable. Solution de gestion des signatures électroniques pour les documents numériques.  
 
-      GroupDocs.Signature pour Java est compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation courants (Windows, Linux, Mac OS) capables d'exécuter Java Runtime.
+      GroupDocs.Signature pour Java est compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation courants (Windows, Linux, MacOS) capables d'exécuter Java Runtime
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Voici un aperçu de GroupDocs.Signature pour Java :
-
+          Voici un aperçu des fonctionnalités de GroupDocs.Signature pour Java :
+      
         right:
           enable: true
           icon: "fab fa-html5"
@@ -81,7 +81,7 @@ overview:
             * Signature de texte
             * Signature d'image
             * Signatures numériques
-            * Signature QR Code
+            * Signature du code QR
             * Signature du code-barres
             * Cachet Signature
             * Formulaire-champ Signature
@@ -105,21 +105,21 @@ overview:
           enable: true
           table:
             # table loop
-            - title: "Images & Autres formats"
+            - title: "Images & Other Formats"
               content: |
-                * **Images** : JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **Document ouvert** : ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **JPEG2000** : JP2, JPF, JPX, J2K, J2C, JPM
-                * **Métafichiers** : EMF, WMF, CMX
-                * **Portable** : PDF
-                * **Graphiques vectoriels évolutifs** : CDR, SVG
-                * **Adobe Photoshop** : PSD
-                * **Autres** : DJVU
+                * **Images**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
+                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
+                * **Métafichiers**: EMF, WMF, CMX
+                * **Portable**: PDF
+                * **Image Vectorielle**: CDR, SVG
+                * **Adobe Photoshop**: PSD
+                * **Autres**: DJVU
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Signature for Java prend en charge la suite Systèmes d'exploitation, Frameworks et gestionnaires de packages:
+          GroupDocs.Signature pour Java prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants :
         
         left:
           enable: true
@@ -128,16 +128,16 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Microsoft Windows
-                * Serveur Microsoft Windows
+                * Microsoft Windows Desktop
+                * Microsoft Windows Server
                 * Linux
-                * Mac OS
+                * MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Cadres pris en charge"
               content: |
-                * Java 7 (1.7) et supérieur
+                * Java 7 (1.7) and above
 
         right:
           enable: true
@@ -147,18 +147,18 @@ overview:
               title: "Environnements de développement"
               content: |
                 * NetBeans
-                * IDÉE IntelliJ
-                * Éclipse
+                * IntelliJ IDEA
+                * Eclipse
             # table loop
             - icon: "fas fa-tools"
               title: "Outil d'automatisation de construction"
               content: |
                 * Maven
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Signature for Java Caractéristiques"
+    title: "GroupDocs.Signature pour les fonctionnalités Java"
 
     feature:
       # feature loop
@@ -207,7 +207,7 @@ features:
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Configurez les propriétés de la signature, par exemple, l'aspect et la convivialité, les marges, l'alignement, etc.."
+        content: "Configurez les propriétés de la signature, par exemple, l'aspect et la convivialité, les marges, l'alignement, etc."
 
       # feature loop
       - icon: "fas fa-file-word"
@@ -223,7 +223,7 @@ features:
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Spécifiez différents types d'unités de mesure (par exemple. millimètres, pixels, etc.) pour les signatures de texte PDF"
+        content: "Spécifiez différents types d'unités de mesure (par exemple, millimètres, pixels, etc.) pour les signatures de texte PDF"
 
       # feature loop
       - icon: "fas fa-lock"
@@ -269,12 +269,12 @@ features:
       - icon: "fab fa-uncharted"
         content: "Intégrez des objets personnalisés aux signatures de métadonnées dans Word, Excel et les présentations"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "Configurez et appliquez facilement des signatures électroniques"
         content: |
-          L'API GroupDocs.Signature pour Java permet de configurer et d'ajouter des signatures électroniques aux formats de document pris en charge. Voici un exemple de code qui montre à quel point il est simple d'appliquer une signature de texte à un fichier PDF :
-          
+          L'API GroupDocs.Signature pour Java permet de configurer et d'ajouter des signatures électroniques aux formats de document pris en charge. Voici un exemple de code qui montre à quel point il est simple d'appliquer une signature de texte à un fichier PDF :
+
           ```java
           Signature signature = new Signature("sample.pdf");
 
@@ -298,24 +298,25 @@ features:
           // signer le document à classer
           signature.sign("sample_signed.pdf", options);
           ```
+
       # more_feature_loop
       - title: "Types d'encodage de code-barres pris en charge pour la signature électronique"
         content: |
-          À l'aide de GroupDocs.Signature pour l'API Java, vous pouvez appliquer des signatures de code-barres et de code QR aux formats de fichiers pris en charge. GroupDocs.Signature pour Java prend en charge une vaste gamme de types d'encodage de codes à barres pour répondre à la plupart des exigences. Les types d'encodage de code-barres pris en charge incluent, Code 11, Code 128, Code 16K/32, Codes Databar, GS1 Codeblock, ISBN, ISMN, ISSN, ITF16, Pdf147, EAN8, EAN13, EAN14, UPCA, UPCE, ITF14, Code39 Standard et Code39 étendu.
+          À l'aide de GroupDocs.Signature pour l'API Java, vous pouvez appliquer des signatures de code-barres et de code QR aux formats de fichiers pris en charge. GroupDocs.Signature pour Java prend en charge une vaste gamme de types d'encodage de codes-barres pour répondre à la plupart des exigences. Les types d'encodage de code-barres pris en charge incluent, Code 11, Code 128, Code 16K/32, Codes Databar, GS1 Codeblock, ISBN, ISMN, ISSN, ITF16, Pdf147, EAN8, EAN13, EAN14, UPCA, UPCE, ITF14, Code39 Standard et Code39 étendu.
 
           De même, l'API GroupDocs.Signature pour Java vous permet d'utiliser des types de code QR, tels que QR, Aztec et Data Matrix. Les types d'encodage QR-Code pris en charge incluent Aztec, DataMatrix, GS1 DataMatrix et GS1 QR.
 
       # more_feature_loop
       - title: "Rechercher des signatures et des certificats"
         content: |
-          Grâce à l'API GroupDocs.Signature pour Java, vous pouvez rechercher des signatures QR-Code et Barcode dans n'importe quel document, présentation, feuille de calcul, image, ainsi que dans un fichier PDF, et récupérer le résultat de la recherche. Vous pouvez également rechercher un objet de données personnalisé à partir de documents signés avec un code QR de signature, ainsi que rechercher une carte virtuelle standard et un objet de courrier électronique à partir de documents signés avec un code QR. La vérification du texte crypté des signatures QR-Code ainsi que la recherche de signature de métadonnées dans les documents PDF sont également prises en charge. Appliquer des critères de recherche supplémentaires pour les signatures numériques des documents Words et Excel.  
+          Grâce à l'API GroupDocs.Signature pour Java, vous pouvez rechercher des signatures QR-Code et Barcode dans n'importe quel document, présentation, feuille de calcul, image, ainsi que dans un fichier PDF, et récupérer le résultat de la recherche. Vous pouvez également rechercher un objet de données personnalisé à partir de documents signés avec une signature QR-Code ainsi que rechercher une carte virtuelle standard et un objet de courrier électronique à partir de documents signés avec un code QR. La vérification du texte crypté des signatures QR-Code ainsi que la recherche de signature de métadonnées dans les documents PDF sont également prises en charge. Appliquer des critères de recherche supplémentaires pour les signatures numériques des documents Words & Cells.  
 
           L'option de recherche est également disponible pour la signature des métadonnées pour les documents Word, les diapositives et les feuilles de calcul, tandis que la recherche par champ de formulaire est disponible pour les documents PDF.
 
       # more_feature_loop
       - title: "Configurer les propriétés de signature électronique"
         content: |
-          Pour améliorer l'expérience utilisateur des utilisateurs finaux, l'API GroupDocs.Signature pour Java fournit de nombreuses propriétés qui peuvent être configurées assez facilement. Vous pouvez définir les options de police et de couleur (couleur d'arrière-plan, couleur de premier plan, gras, italique, souligné, famille de police, taille de police, etc.), les options d'arrière-plan et de bordure (couleur d'arrière-plan, transparence d'arrière-plan, couleur de bordure, style de tiret de bordure, épaisseur de bordure, Border Transparency etc.), Signature Margins (Left, Top, Width, Height, Padding etc.) et Setup Signature d'image Area & Signature Alignment (Horizontal Alignment, Vertical Alignment etc.).
+          Pour améliorer l'expérience utilisateur des utilisateurs finaux, l'API GroupDocs.Signature pour Java fournit de nombreuses propriétés qui peuvent être configurées assez facilement. Vous pouvez définir les options de police et de couleur (couleur d'arrière-plan, couleur de premier plan, gras, italique, souligné, famille de police, taille de police, etc.), les options d'arrière-plan et de bordure (couleur d'arrière-plan, transparence d'arrière-plan, couleur de bordure, style de tiret de bordure, épaisseur de bordure, Transparence des bordures, etc.), marges de signature (gauche, haut, largeur, hauteur, remplissage, etc.) et configuration de la zone de signature de l'image et de l'alignement de la signature (alignement horizontal, alignement vertical, etc.).
 
 ############################# Support ############################
 support:
@@ -329,7 +330,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Signature for .NET"
-          image: "/border/groupdocs-signature-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
           product: "GroupDocs.Signature"
           platform: ".NET"
           link: "/signature/net/"

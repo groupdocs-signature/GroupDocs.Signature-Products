@@ -1,21 +1,28 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-03-01T15:12:22
 draft: false
-
+#operation: 
+#signaturetype: 
+#fileformat: 
+#productName: Java
+lang: fr
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "API de signature numérique .NET – Signe électronique PDF Word Excel Images"
+head_title: "API de signature numérique .NET - Signe électronique PDF Word Excel Images"
 head_description: "API de signature numérique C# .NET, bibliothèque eSignature pour signer électroniquement les formats de documents PDF, Word, Excel, PowerPoint, images et graphiques."
 
 ############################# Header ############################
 title: "API .NET native pour les signatures électroniques"
-description: "Ajoutez des signatures numériques aux formats de document et implémentez les eTypes de signatures populaires (texte, image, code QR, code-barres, tampon et métadonnées) dans les applications .NET."
+description: "Ajoutez des signatures numériques aux formats de document et implémentez les types de signature électronique populaires (texte, image, code QR, code-barres, tampon et métadonnées) dans les applications .NET."
 button:
     enable: true
 
@@ -25,7 +32,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Signature for .NET"
-        image: "/border/groupdocs-signature-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
         product: "GroupDocs.Signature"
         platform: ".NET"
 
@@ -41,31 +48,30 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Soutien"
 
             # button loop
             - link: "https://products.groupdocs.app/signature"
-              text: "Live Demo"
+              text: "Démo en direct"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Pricing"
+              text: "Tarification"
 
     right:
         link_download: "https://downloads.groupdocs.com/signature"
         link_learn: "https://docs.groupdocs.com/signature/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      Utilisez GroupDocs.Signature pour l'API .NET pour créer des applications en C#, ASP.NET et d'autres technologies basées sur .NET, qui vous permettent de signer des documents commerciaux numériques tels que PDF, Microsoft Word, des feuilles de calcul Excel, des présentations PowerPoint, des images, OpenDocument et d'autres formats de fichiers standard de l'industrie sans avoir à installer de logiciel supplémentaire. Cette bibliothèque de signatures électroniques est simple à utiliser et les développeurs .NET peuvent facilement ajouter des fonctionnalités de signature numérique avancées dans leurs applications, permettant aux utilisateurs de signer, de rechercher et de vérifier en toute sécurité des signatures électroniques à partir de formats de documents courants. Il prend en charge la mise en œuvre d'une variété de types de signature comme le texte, l'image, le code-barres, le code QR, le champ de formulaire, le tampon et les métadonnées.
+      Utilisez GroupDocs.Signature pour l'API .NET pour créer des applications en C#, ASP.NET et d'autres technologies basées sur .NET, qui vous permettent de signer des documents commerciaux numériques tels que PDF, Microsoft Word, des feuilles de calcul Excel, des présentations PowerPoint, des images, OpenDocument et d'autres formats de fichiers standard de l'industrie sans avoir à installer de logiciel supplémentaire. Cette bibliothèque de signatures électroniques est simple à utiliser et les développeurs .NET peuvent facilement ajouter des fonctionnalités de signature numérique avancées dans leurs applications, permettant aux utilisateurs de signer, de rechercher et de vérifier en toute sécurité des signatures électroniques à partir de formats de documents courants. Il prend en charge la mise en œuvre d'une variété de types de signature comme le texte, l'image, le code-barres, le code QR, le champ de formulaire, le tampon et les métadonnées.  
 
-      L'API de signature de document vous offre des options de recherche simples et avancées pour localiser vos signatures requises sur un document en un clin d'œil. Les options permettant d'appliquer le style de signature, la gestion de l'apparence et de personnaliser les propriétés de signature telles que les dimensions, l'ombre, l'alignement, etc. sont également réalisables avec cette API de signature de document riche en fonctionnalités.
+      L'API de signature de document vous offre des options de recherche simples et avancées pour localiser vos signatures requises sur un document en un clin d'œil. Les options permettant d'appliquer le style de signature, la gestion de l'apparence et de personnaliser les propriétés de signature telles que les dimensions, l'ombre, l'alignement, etc. sont également réalisables avec cette API de signature de document riche en fonctionnalités.  
 
-      GroupDocs.Signature pour .NET peut être utilisé dans n'importe quel environnement de développement prenant en charge la plate-forme .NET. Il est compatible avec tous les langages basés sur .NET et prend en charge les systèmes d'exploitation populaires (Windows, Linux, Mac OS) où les frameworks Mono ou .NET (y compris .NET Core) peuvent être installés.
-
+      GroupDocs.Signature pour .NET peut être utilisé dans n'importe quel environnement de développement prenant en charge la plate-forme .NET. Il est compatible avec tous les langages basés sur .NET et prend en charge les systèmes d'exploitation populaires (Windows, Linux, MacOS) sur lesquels les frameworks Mono ou .NET (y compris .NET Core) peuvent être installés.
     tabs:
       enable: true
       
@@ -82,7 +88,7 @@ overview:
             * Signature de texte
             * Signature d'image
             * Signatures numériques
-            * Signature QR Code
+            * Signature du code QR
             * Signature du code-barres
             * Cachet Signature
             * Signature des métadonnées
@@ -90,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature pour .NET prend en charge l'affichage de tous les [formats de fichiers de documents] courants (https://docs.groupdocs.com/signature/net/supported-document-formats/). Avec seulement quelques lignes de code, ajoutez une signature PDF, Microsoft Office Word, une feuille de calcul Excel, une image, HTML, un e-mail Outlook, OneNote, des capacités de visualisation de projets et de graphiques dans vos applications .NET.
+          GroupDocs.Signature pour .NET prend en charge l'affichage de tous les [formats de fichiers de documents] courants (https://docs.groupdocs.com/signature/net/supported-document-formats/). Avec seulement quelques lignes de code, ajoutez une signature PDF, Microsoft Office Word, une feuille de calcul Excel, une image, HTML, un e-mail Outlook, OneNote, un projet et des capacités de visualisation de graphiques dans vos applications .NET.
 
         left:
           enable: true
@@ -106,21 +112,21 @@ overview:
           enable: true
           table:
             # table loop
-            - title: "Images & Autres formats"
+            - title: "Images & Other Formats"
               content: |
-                * **Images** : JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **Document ouvert** : ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **JPEG2000** : JP2, JPF, JPX, J2K, J2C, JPM
-                * **Métafichiers** : EMF, WMF, CMX
-                * **Portable** : PDF
-                * **Graphiques vectoriels évolutifs** : CDR, SVG
-                * **Adobe Photoshop** : PSD
-                * **Autres** : DJVU
+                * **Images**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
+                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
+                * **Métafichiers**: EMF, WMF, CMX
+                * **Portable**: PDF
+                * **Image Vectorielle**: CDR, SVG
+                * **Adobe Photoshop**: PSD
+                * **Autres**: DJVU
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Signature pour .NET prend en charge les systèmes d'exploitation, les frameworks et le directeur chargé d'emballages suivants:
+          GroupDocs.Signature pour .NET prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants :
         
         left:
           enable: true
@@ -129,19 +135,19 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Windows
-                * Serveur Windows
-                * windows Azure
+                * Windows Desktop
+                * Windows Server
+                * Windows Azure
                 * Linux
-                * Mac OS
+                * MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Cadres pris en charge"
               content: |
-                * .NET Framework 2.0 ou supérieur
-                * Mono Framework 1.2 ou supérieur
-                * Norme .NET 2.0
+                * .NET Framework 2.0 or higher
+                * Mono Framework 1.2 or higher
+                * .NET Standard 2.0
                 * .NET Core 2.0
                 * .NET Core 2.1
 
@@ -164,10 +170,10 @@ overview:
                 * Xamarin.Mac
                 * MonoDevelop
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Signature for .NET Caractéristiques"
+    title: "GroupDocs.Signature pour les fonctionnalités .NET"
 
     feature:
       # feature loop
@@ -196,7 +202,7 @@ features:
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Prend en charge les coins arrondis pour les types de signatures rectangulaires."
+        content: "Prend en charge les coins arrondis pour les types de signature de tampon rectangulaire"
 
       # feature loop
       - icon: "fas fa-comment-slash"
@@ -216,7 +222,7 @@ features:
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Définir le type de signature d'image, par exemple. Rond ou carré et configurer les marges, la couleur de la police, la rotation"
+        content: "Définissez le type de signature d'image, par ex. Rond ou carré et configurer les marges, la couleur de la police, la rotation"
 
       # feature loop
       - icon: "fas fa-file-word"
@@ -240,7 +246,7 @@ features:
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Signez des documents PDF avec un champ de formulaire numérique et une signature de texte sous forme d'image, d'annotation, d'autocollant ou de filigrane"
+        content: "Signez des documents PDF avec un champ de formulaire numérique et une signature textuelle sous forme d'image, d'annotation, d'autocollant ou de filigrane"
       
       # feature loop
       - icon: "fas fa-fill-drip"
@@ -290,7 +296,7 @@ features:
       - icon: "fab fa-uncharted"
         content: "Ajouter un objet de données personnalisé, une VCard ou un objet de courrier électronique au code QR et vérifier le code QR crypté dans les fichiers PDF"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "Ajoutez facilement des signatures numériques"
         content: |
@@ -299,28 +305,32 @@ features:
           ```cs
           using (Signature signature = new Signature("D:\\sample.pdf"))
           {
-            TextSignOptions options = new TextSignOptions("John Smith")
-            {
-              ForeColor = Color.Red
-            };
-
-            signature.Sign("D:\\signed.pdf", options);
+          TextSignOptions options = new TextSignOptions("John Smith")
+          {
+          // définir la couleur du texte
+          ForeColor = Color.Red
+          };
+          // signer le document à classer
+          signature.Sign("D:\\signed.pdf", options);
           }
           ```
+
       # more_feature_loop
-      - title: "Supported Barcode Types de signatures"
-        content: "Notre API de manipulation de signature vous offre une fonctionnalité pour appliquer des signatures de codes-barres aux formats de documents pris en charge. GroupDocs.Signature pour .NET prend en charge divers types de codes à barres, tels que Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA et UPCE. Un objet statique nommé \"AllTypes\" est également fourni pour prendre en charge tous les types de codes-barres enregistrés."
+      - title: "Types de signature de code-barres pris en charge"
+        content: |
+          Notre API de manipulation de signature vous offre une fonctionnalité pour appliquer des signatures de code-barres aux formats de document pris en charge. GroupDocs.Signature pour .NET prend en charge divers types de codes à barres, tels que Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA et UPCE. Un objet statique nommé "AllTypes" est également fourni pour prendre en charge tous les types de codes-barres enregistrés.
 
       # more_feature_loop
       - title: "Rechercher des signatures et des certificats"
         content: |
-          GroupDocs.Signature pour l'API .NET vous permet de rechercher des certificats numériques à partir de documents Word, de feuilles de calcul Excel et de fichiers PDF. Vous pouvez également récupérer tous les certificats numériques enregistrés dans le système. Les signatures de métadonnées peuvent également être recherchées dans des documents Word, des feuilles de calcul Excel, des images et des fichiers PDF, à l'aide de GroupDocs.Signature pour l'API .NET.
+          GroupDocs.Signature pour l'API .NET vous permet de rechercher des certificats numériques à partir de documents Word, de feuilles de calcul Excel et de fichiers PDF. Vous pouvez également récupérer tous les certificats numériques enregistrés dans le système. Les signatures de métadonnées peuvent également être recherchées dans des documents Word, des feuilles de calcul Excel, des images et des fichiers PDF, à l'aide de GroupDocs.Signature pour l'API .NET.  
 
-          Grâce à l'API GroupDocs.Signature pour .NET, vous pouvez rechercher des signatures QR-Code et Barcode dans n'importe quel document, présentation, feuille de calcul, image, ainsi que dans un fichier PDF, et récupérer la progression de la recherche. Vous pouvez également rechercher un objet de données personnalisé à partir de documents signés avec Signature QR Code.
+          Grâce à l'API GroupDocs.Signature pour .NET, vous pouvez rechercher des signatures QR-Code et Barcode dans n'importe quel document, présentation, feuille de calcul, image, ainsi que dans un fichier PDF, et récupérer la progression de la recherche. Vous pouvez également rechercher un objet de données personnalisé à partir de documents signés avec QR-Code Signature.
 
       # more_feature_loop
       - title: "Options de recherche avancées pour le code-barres"
-        content: "Vous pouvez rechercher et localiser votre code-barres requis via l'API GroupDocs.Signature for.NET très facilement, car notre API de signature offre des options de recherche avancées.. Ceux-ci vous permettent de rechercher un code-barres sur une page particulière, de rechercher dans un document, de spécifier différentes pages à rechercher (première, dernière, paire, impaire), de rechercher un code-barres d'un type d'encodage particulier, de rechercher un code-barres basé sur une chaîne de texte spécifique ou de rechercher un code-barres basé sur une chaîne avec l'option \"contient\"."
+        content: |
+          Vous pouvez rechercher et localiser très facilement le code-barres requis via l'API GroupDocs.Signature for.NET, car notre API de signature offre des options de recherche avancées. Ceux-ci vous permettent de rechercher un code-barres sur une page particulière, de rechercher dans un document, de spécifier différentes pages à rechercher (première, dernière, paire, impaire), de rechercher un code-barres d'un type d'encodage particulier, de rechercher un code-barres basé sur une chaîne de texte spécifique ou de rechercher un code-barres basé sur une chaîne avec l'option "contient".
 
 ############################# Support ############################
 support:
@@ -334,7 +344,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Signature for Java"
-          image: "/border/groupdocs-signature-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
           product: "GroupDocs.Signature"
           platform: "Java"
           link: "/signature/java/"

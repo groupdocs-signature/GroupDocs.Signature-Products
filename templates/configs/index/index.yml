@@ -1,0 +1,7 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias:  operation
+  values: [sign] 
+
+outputPath: "signature\\_index.{lang}.md"
