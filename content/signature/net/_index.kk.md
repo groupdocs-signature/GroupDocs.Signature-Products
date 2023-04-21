@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          .NET үшін GroupDocs.Signature бағдарламасы барлық танымал [құжат файл пішімдерін] (https://docs.groupdocs.com/signature/net/supported-document-formats/) қарауды қолдайды. Кодтың бірнеше жолы арқылы .NET қолданбаларында PDF қолтаңбасын, Microsoft Office Word, Excel электрондық кестесін, кескінді, HTML, Outlook электрондық поштасын, OneNote, Жобаны және графиканы көру мүмкіндіктерін қосыңыз.
+          .NET үшін GroupDocs.Signature бағдарламасы барлық танымал құжаттар пішімдеріне қол қоюды қолдайды. Кодтың бірнеше жолы арқылы .NET қолданбаларында PDF қолтаңбасын, Microsoft Office Word, Excel электрондық кестесін, кескін, HTML, Outlook электрондық поштасы, OneNote, Жоба және графикалық қол қою мүмкіндіктерін қосыңыз. [Қолдау көрсетілетін құжаттар пішімдері.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature басқа танымал әзірлеу орталары үшін құжаттарды қарау API интерфейстерін ұсынады"
+    title: "GroupDocs.Signature басқа танымал әзірлеу орталары үшін құжатқа қол қою API интерфейстерін ұсынады"
 
     solution:
         # solution loop

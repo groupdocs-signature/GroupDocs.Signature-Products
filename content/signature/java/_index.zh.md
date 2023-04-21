@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          这是 GroupDocs.Signature Java 特征的概述：
+          这是 GroupDocs.Signature Java 功能的概述：
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java 电子签名 API 支持如下所列的[文档文件格式](https://docs.groupdocs.com/signature/java/supported-document-formats/)。
+          Java 电子签名 API 支持如下所列的各种文档文件格式。 [支持的文档格式。](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           通过 GroupDocs.Signature for Java API，您可以在任何文档、演示文稿、电子表格、图像以及 PDF 文件中搜索 QR 码和条码签名，并获取搜索结果。您还可以从使用 QR 码签名的文档中搜索自定义数据对象，以及从使用 QR 码签名的文档中搜索标准 VCard 和电子邮件对象。还支持验证二维码签名的加密文本以及在 PDF 文档中搜索元数据签名。对 Words & Cells 文档的数字签名应用附加搜索条件。  
 
-          搜索选项也可用于 word 文档、幻灯片和电子表格的元数据签名，而表单字段搜索可用于 PDF 文档。
+          搜索选项也可用于 word 文档、幻灯片和电子表格的元数据签名，而表单域搜索可用于 PDF 文档。
 
       # more_feature_loop
       - title: "配置电子签名属性"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature 为其他流行的开发环境提供文档查看 API"
+    title: "GroupDocs.Signature 为其他流行的开发环境提供文档签名 API"
 
     solution:
         # solution loop

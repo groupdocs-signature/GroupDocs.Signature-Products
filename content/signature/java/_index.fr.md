@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          L'API de signature électronique Java prend en charge les [formats de fichier de document](https://docs.groupdocs.com/signature/java/supported-document-formats/) comme indiqué ci-dessous.
+          L'API de signature électronique Java prend en charge divers formats de fichiers de documents répertoriés ci-dessous. [Formats de documents pris en charge.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+    title: "GroupDocs.Signature propose des API de signature de documents pour d'autres environnements de développement populaires"
 
     solution:
         # solution loop

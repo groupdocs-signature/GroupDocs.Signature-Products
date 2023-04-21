@@ -245,7 +245,8 @@
     "api_nocodelabel": "Ver todos os aplicativos sem código",
     "api_nocode_1_content": "Assine arquivos do Microsoft Word, Excel, PowerPoint, Visio e PDF com texto, imagem, código de barras ou QR-Code.",
     "api_nocode_2_content": "Assine digitalmente documentos do Word online diretamente do seu navegador gratuitamente.",
-    "api_nocode_3_content": "Assine arquivos PDF usando texto, imagem ou código de barras de qualquer navegador da web."
+    "api_nocode_3_content": "Assine arquivos PDF usando texto, imagem ou código de barras de qualquer navegador da web.",
+    "supported_formats": "Formatos de documentos suportados."
   },
   "index-content-net": {
     "head_title": "API de Assinatura Digital .NET - Assinatura Eletrônica PDF Word Excel Images",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Assinatura de código de barras",
     "overview_tab1_left_content_6": "Carimbo Assinatura",
     "overview_tab1_left_content_7": "Assinatura de metadados",
-    "overview_tab2_description": "GroupDocs.Signature para .NET suporta a visualização de todos os [formatos de arquivo de documento] populares (https://docs.groupdocs.com/signature/net/supported-document-formats/). Com apenas algumas linhas de código, adicione assinatura PDF, Microsoft Office Word, planilha Excel, imagem, HTML, e-mail Outlook, OneNote, Project e recursos de visualização de gráficos em seus aplicativos .NET.",
+    "overview_tab2_description": "GroupDocs.Signature para .NET oferece suporte à assinatura de todos os formatos de documentos populares. Com apenas algumas linhas de código, adicione assinatura PDF, Microsoft Office Word, planilha Excel, imagem, HTML, e-mail Outlook, OneNote, Project e recursos de assinatura gráfica em seus aplicativos .NET.",
     "overview_tab2_right_title": "Imagens e outros formatos",
     "overview_tab2_right_content_1": "Imagens",
     "overview_tab2_right_content_2": "Metarquivos",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Por meio da API GroupDocs.Signature para .NET, você pode pesquisar assinaturas de código QR e código de barras em qualquer documento, apresentação, planilha, imagem, bem como arquivo PDF, e obter o andamento da pesquisa. Você também pode pesquisar objetos de dados personalizados a partir de documentos assinados com QR-Code Signature.",
     "more_feature_4_title": "Opções de pesquisa avançada para código de barras",
     "more_feature_4_content": "Você pode pesquisar e localizar o código de barras necessário por meio da API GroupDocs.Signature for.NET com muita facilidade, pois nossa API de assinatura oferece opções de pesquisa avançada. Eles permitem que você pesquise o código de barras em uma página específica, pesquise em um documento, especifique páginas diferentes para pesquisar (primeira, última, par, ímpar), pesquise o código de barras de um tipo de codificação específico, pesquise o código de barras com base em uma sequência de texto específica ou pesquise o código de barras com base na string com a opção \"contém\".",
-    "solutions_title": "GroupDocs.Signature oferece APIs de visualização de documentos para outros ambientes de desenvolvimento populares"
+    "solutions_title": "GroupDocs.Signature oferece APIs de assinatura de documentos para outros ambientes de desenvolvimento populares"
   },
   "index-content-java": {
     "head_title": "API de assinatura digital Java, adicionar assinatura eletrônica a PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Assinatura de código de barras",
     "overview_tab1_left_content_6": "Carimbo Assinatura",
     "overview_tab1_left_content_7": "Assinatura do campo de formulário",
-    "overview_tab2_description": "A API de assinatura eletrônica Java suporta [formatos de arquivo de documento](https://docs.groupdocs.com/signature/java/supported-document-formats/) conforme listado abaixo.",
+    "overview_tab2_description": "A API de assinatura eletrônica Java oferece suporte a vários formatos de arquivo de documento, conforme listado abaixo.",
     "overview_tab2_right_title": "Imagens e outros formatos",
     "overview_tab2_right_content_1": "Imagens",
     "overview_tab2_right_content_2": "Metarquivos",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "A opção de pesquisa também está disponível para assinatura de metadados para documentos do Word, slides e planilhas, enquanto a pesquisa de campos de formulário está disponível para documentos PDF.",
     "more_feature_4_title": "Configurar propriedades de assinatura eletrônica",
     "more_feature_4_content": "Para aprimorar o UX dos usuários finais, o GroupDocs.Signature for Java API fornece várias propriedades que podem ser configuradas com bastante facilidade. Você pode definir as opções de fonte e cor (cor de fundo, cor de primeiro plano, negrito, itálico, sublinhado, família de fontes, tamanho da fonte, etc.), opções de plano de fundo e borda (cor de fundo, transparência de fundo, cor de borda, estilo de traço de borda, espessura de borda, Transparência de borda etc.), Margens de assinatura (esquerda, superior, largura, altura, preenchimento etc.) e Área de assinatura de imagem de configuração e Alinhamento de assinatura (Alinhamento horizontal, Alinhamento vertical etc.).",
-    "solutions_title": "GroupDocs.Signature oferece APIs de visualização de documentos para outros ambientes de desenvolvimento populares"
+    "solutions_title": "GroupDocs.Signature oferece APIs de assinatura de documentos para outros ambientes de desenvolvimento populares"
   }
 }

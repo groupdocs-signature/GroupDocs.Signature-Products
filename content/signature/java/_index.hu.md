@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Ez a GroupDocs.Signature faetures for Java áttekintése:
+          Ez a GroupDocs.Signature Java szolgáltatásainak áttekintése:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          A Java elektronikus aláírási API támogatja a [dokumentumfájl-formátumokat](https://docs.groupdocs.com/signature/java/supported-document-formats/), az alábbiak szerint.
+          A Java elektronikus aláírási API támogatja az alább felsorolt ​​különféle dokumentumfájl-formátumokat. [Támogatott dokumentumformátumok.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           A GroupDocs.Signature for Java API-n keresztül QR-kód és vonalkód aláírások között kereshet bármilyen dokumentumban, prezentációban, táblázatban, képben, valamint PDF-fájlban, és lekérheti a keresési eredményt. Egyéni adatobjektumokat kereshet QR-kód aláírással aláírt dokumentumok között, valamint szabványos VCard és e-mail objektumok keresését a QR-kóddal aláírt dokumentumokból. A QR-kódos aláírások titkosított szövegének ellenőrzése, valamint a metaadat-aláírások keresése PDF dokumentumokban szintén támogatott. Alkalmazzon további keresési feltételeket a Words & Cells dokumentumok digitális aláírására.  
 
-          A keresési lehetőség a Word dokumentumok, diák és táblázatok metaadat-aláírására is elérhető, míg az űrlapmezős keresés a PDF dokumentumokhoz.
+          A keresési lehetőség a Word-dokumentumok, diák és táblázatok metaadat-aláírására is elérhető, míg a PDF-dokumentumok esetében az űrlapmezős keresés.
 
       # more_feature_loop
       - title: "Konfigurálja az eAláírás tulajdonságait"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "A GroupDocs.Signature dokumentummegtekintési API-kat kínál más népszerű fejlesztői környezetekhez"
+    title: "A GroupDocs.Signature dokumentum-aláíró API-kat kínál más népszerű fejlesztői környezetekhez"
 
     solution:
         # solution loop

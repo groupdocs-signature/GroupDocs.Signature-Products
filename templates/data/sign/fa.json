@@ -245,7 +245,8 @@
     "api_nocodelabel": "مشاهده همه برنامه های بدون کد",
     "api_nocode_1_content": "فایل های Microsoft Word، Excel، PowerPoint، Visio و PDF را با متن، تصویر، بارکد یا QR-Code امضا کنید.",
     "api_nocode_2_content": "به صورت دیجیتالی اسناد Word را مستقیماً از مرورگر خود به صورت رایگان امضا کنید.",
-    "api_nocode_3_content": "فایل های PDF را با استفاده از متن، تصویر یا بارکد از داخل هر مرورگر وب امضا کنید."
+    "api_nocode_3_content": "فایل های PDF را با استفاده از متن، تصویر یا بارکد از داخل هر مرورگر وب امضا کنید.",
+    "supported_formats": "فرمت های اسناد پشتیبانی شده"
   },
   "index-content-net": {
     "head_title": "NET Digital Signature API - امضای الکترونیکی PDF Word Excel Images",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "امضای بارکد",
     "overview_tab1_left_content_6": "امضای مهر",
     "overview_tab1_left_content_7": "امضای فراداده",
-    "overview_tab2_description": "GroupDocs.Signature for .NET از مشاهده همه [قالب‌های فایل سند] محبوب پشتیبانی می‌کند (https://docs.groupdocs.com/signature/net/supported-document-formats/). تنها با چند خط کد، امضای PDF، Microsoft Office Word، صفحه گسترده اکسل، تصویر، HTML، ایمیل Outlook، OneNote، پروژه و قابلیت‌های مشاهده گرافیک را در برنامه‌های NET خود اضافه کنید.",
+    "overview_tab2_description": "GroupDocs.Signature برای دات نت از امضای تمام فرمت های اسناد محبوب پشتیبانی می کند. تنها با چند خط کد، امضای PDF، Microsoft Office Word، صفحه گسترده اکسل، تصویر، HTML، ایمیل Outlook، OneNote، پروژه و قابلیت‌های امضای گرافیکی را در برنامه‌های NET خود اضافه کنید.",
     "overview_tab2_right_title": "تصاویر و سایر فرمت ها",
     "overview_tab2_right_content_1": "تصاویر",
     "overview_tab2_right_content_2": "متافایل ها",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "از طریق GroupDocs.Signature برای NET API، می توانید امضاهای QR-Code و Barcode را در هر سند، ارائه، صفحه گسترده، تصویر و همچنین فایل PDF جستجو کنید و پیشرفت جستجو را واکشی کنید. همچنین می توانید شی داده سفارشی را از اسناد امضا شده با امضای کد QR جستجو کنید.",
     "more_feature_4_title": "گزینه های جستجوی پیشرفته برای بارکد",
     "more_feature_4_content": "شما می توانید بارکد مورد نیاز خود را از طریق GroupDocs.Signature for.NET API به راحتی جستجو و پیدا کنید، زیرا API امضای ما گزینه های جستجوی پیشرفته ای را ارائه می دهد. اینها به شما امکان می دهند بارکد را در یک صفحه خاص جستجو کنید، در سراسر یک سند جستجو کنید، صفحات مختلف را برای جستجو مشخص کنید (اول، آخرین، زوج، فرد)، بارکد از نوع رمزگذاری خاص، بارکد بر اساس رشته متن خاص یا بارکد جستجو را جستجو کنید. بر اساس رشته با گزینه “contains”.",
-    "solutions_title": "GroupDocs.Signature API های مشاهده اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
+    "solutions_title": "GroupDocs.Signature API های امضای سند را برای سایر محیط های توسعه محبوب ارائه می دهد"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API، eSignature را به تصویر PDF Word Excel اضافه کنید",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "امضای بارکد",
     "overview_tab1_left_content_6": "امضای مهر",
     "overview_tab1_left_content_7": "امضای فیلد فرم",
-    "overview_tab2_description": "API امضای الکترونیکی جاوا از [قالب‌های فایل سند] (https://docs.groupdocs.com/signature/java/supported-document-formats/) به شرح زیر پشتیبانی می‌کند.",
+    "overview_tab2_description": "API امضای الکترونیکی جاوا از فرمت‌های فایل سند مختلف به شرح زیر پشتیبانی می‌کند.",
     "overview_tab2_right_title": "تصاویر و سایر فرمت ها",
     "overview_tab2_right_content_1": "تصاویر",
     "overview_tab2_right_content_2": "متافایل ها",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "گزینه جستجو همچنین برای امضای ابرداده برای اسناد word، اسلایدها و صفحات گسترده در دسترس است، در حالی که جستجوی فیلد فرم برای اسناد PDF در دسترس است.",
     "more_feature_4_title": "مشخصات eSignature را پیکربندی کنید",
     "more_feature_4_content": "برای افزایش UX کاربران نهایی، GroupDocs.Signature برای Java API ویژگی های زیادی را ارائه می دهد که می توانند به راحتی پیکربندی شوند. می‌توانید گزینه‌های فونت و رنگ (رنگ پس‌زمینه، رنگ پیش‌زمینه، پررنگ، مورب، زیرخط، خانواده قلم، اندازه قلم و غیره)، پس‌زمینه و گزینه‌های حاشیه (رنگ پس‌زمینه، شفافیت پس‌زمینه، رنگ حاشیه، سبک خط تیره حاشیه، وزن حاشیه، شفافیت مرزی و غیره)، حاشیه‌های امضا (چپ، بالا، عرض، ارتفاع، لایه‌بندی و غیره)، و تنظیم منطقه امضای تصویر و ترازبندی امضا (تراز افقی، تراز عمودی و غیره).",
-    "solutions_title": "GroupDocs.Signature API های مشاهده اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
+    "solutions_title": "GroupDocs.Signature API های امضای سند را برای سایر محیط های توسعه محبوب ارائه می دهد"
   }
 }

@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          ያ የቡድን ሰነዶች አጠቃላይ እይታ ነው። ለጃቫ ፊርማዎች፡-
+          ያ የቡድን ሰነዶች አጠቃላይ እይታ ነው። ለጃቫ ፊርማ ባህሪያት፡-
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          ጃቫ በኤሌክትሮኒክ መንገድ የሚፈርም ኤፒአይ ከዚህ በታች እንደተዘረዘረው [የሰነድ ፋይል ቅርጸቶች](https://docs.groupdocs.com/signature/java/supported-document-formats/) ይደግፋል።
+          ጃቫ በኤሌክትሮኒክ መንገድ የሚፈርም ኤፒአይ ከዚህ በታች የተዘረዘሩትን የተለያዩ የሰነድ ፋይል ቅርጸቶችን ይደግፋል። [የሚደገፉ ሰነዶች ቅርጸቶች.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           በGroupDocs.ፊርማ ለጃቫ ኤፒአይ በማንኛውም ሰነድ፣ የዝግጅት አቀራረብ፣ የተመን ሉህ፣ ምስል እና ፒዲኤፍ ፋይል የQR-ኮድ እና የባርኮድ ፊርማዎችን መፈለግ እና የፍለጋ ውጤቱን ማምጣት ይችላሉ። እንዲሁም በQR-code ፊርማ ከተፈረሙ ሰነዶች እንዲሁም የፍለጋ መደበኛ ቪካርድ እና በQR-code ከተፈረሙ ሰነዶች ውስጥ ብጁ ውሂብን መፈለግ ይችላሉ። የተመሰጠረ የQR-code ፊርማዎችን ማረጋገጥ እና በፒዲኤፍ ሰነዶች ውስጥ የዲበ ዳታ ፊርማ መፈለግም ይደገፋል። ለቃላት እና ህዋሳት ሰነዶች ዲጂታል ፊርማዎች ተጨማሪ የፍለጋ መስፈርቶችን ተግብር።  
 
-          የፍለጋ አማራጭ ለቃላት ሰነዶች፣ ስላይዶች እና የተመን ሉሆች የዲበ ዳታ ፊርማ የሚገኝ ሲሆን ቅጽ-መስክ ፍለጋ ደግሞ ለፒዲኤፍ ሰነዶች ይገኛል።
+          የፍለጋ አማራጭ ለቃላት ሰነዶች፣ ስላይዶች እና የተመን ሉሆች የዲበ ዳታ ፊርማ አለ፣ ቅጽ-መስክ ፍለጋ ደግሞ ለፒዲኤፍ ሰነዶች ይገኛል።
 
       # more_feature_loop
       - title: "eSignture Propertiesን ያዋቅሩ"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signture ለሌሎች ታዋቂ የልማት አካባቢዎች የሰነድ መመልከቻ ኤፒአይዎችን ያቀርባል"
+    title: "GroupDocs.Signture ለሌሎች ታዋቂ የልማት አካባቢዎች የሰነድ መፈረሚያ ኤፒአይዎችን ያቀርባል"
 
     solution:
         # solution loop

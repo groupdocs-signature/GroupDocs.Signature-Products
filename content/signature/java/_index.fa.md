@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API امضای الکترونیکی جاوا از [قالب‌های فایل سند] (https://docs.groupdocs.com/signature/java/supported-document-formats/) به شرح زیر پشتیبانی می‌کند.
+          API امضای الکترونیکی جاوا از فرمت‌های فایل سند مختلف به شرح زیر پشتیبانی می‌کند. [فرمت های اسناد پشتیبانی شده](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature API های مشاهده اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
+    title: "GroupDocs.Signature API های امضای سند را برای سایر محیط های توسعه محبوب ارائه می دهد"
 
     solution:
         # solution loop

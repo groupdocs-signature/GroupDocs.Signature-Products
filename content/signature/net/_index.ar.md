@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          يدعم GroupDocs.Signature for .NET عرض جميع [تنسيقات ملفات المستندات] الشائعة (https://docs.groupdocs.com/signature/net/supported-document-formats/). باستخدام بضعة أسطر فقط من التعليمات البرمجية ، أضف توقيع PDF و Microsoft Office Word وجداول بيانات Excel والصورة و HTML والبريد الإلكتروني في Outlook و OneNote وإمكانيات عرض المشروع والرسومات في تطبيقات .NET الخاصة بك.
+          GroupDocs.Signature for .NET يدعم توقيع جميع تنسيقات المستندات الشائعة. باستخدام بضعة أسطر من التعليمات البرمجية ، أضف توقيع PDF و Microsoft Office Word وجداول بيانات Excel والصورة و HTML والبريد الإلكتروني في Outlook و OneNote وإمكانيات توقيع المشروع والرسومات في تطبيقات .NET الخاصة بك. [تنسيقات المستندات المدعومة.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature يعرض واجهات برمجة التطبيقات لعرض المستندات لبيئات التطوير الشائعة الأخرى"
+    title: "GroupDocs.Signature يوفر توقيع المستندات API لبيئات التطوير الشائعة الأخرى"
 
     solution:
         # solution loop

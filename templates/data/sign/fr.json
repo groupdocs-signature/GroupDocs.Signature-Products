@@ -245,7 +245,8 @@
     "api_nocodelabel": "Voir toutes les applications sans code",
     "api_nocode_1_content": "Signez des fichiers Microsoft Word, Excel, PowerPoint, Visio et PDF avec du texte, une image, un code-barres ou un code QR.",
     "api_nocode_2_content": "Signez numériquement des documents Word en ligne directement depuis votre navigateur gratuitement.",
-    "api_nocode_3_content": "Signez en ligne des fichiers PDF à l'aide de texte, d'image ou de code-barres depuis n'importe quel navigateur Web."
+    "api_nocode_3_content": "Signez en ligne des fichiers PDF à l'aide de texte, d'image ou de code-barres depuis n'importe quel navigateur Web.",
+    "supported_formats": "Formats de documents pris en charge."
   },
   "index-content-net": {
     "head_title": "API de signature numérique .NET - Signe électronique PDF Word Excel Images",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Signature du code-barres",
     "overview_tab1_left_content_6": "Cachet Signature",
     "overview_tab1_left_content_7": "Signature des métadonnées",
-    "overview_tab2_description": "GroupDocs.Signature pour .NET prend en charge l'affichage de tous les [formats de fichiers de documents] courants (https://docs.groupdocs.com/signature/net/supported-document-formats/). Avec seulement quelques lignes de code, ajoutez une signature PDF, Microsoft Office Word, une feuille de calcul Excel, une image, HTML, un e-mail Outlook, OneNote, un projet et des capacités de visualisation de graphiques dans vos applications .NET.",
+    "overview_tab2_description": "GroupDocs.Signature pour .NET prend en charge la signature de tous les formats de documents courants. Avec seulement quelques lignes de code, ajoutez des fonctionnalités de signature PDF, Microsoft Office Word, feuille de calcul Excel, image, HTML, messagerie Outlook, OneNote, projet et graphiques dans vos applications .NET.",
     "overview_tab2_right_title": "Images et autres formats",
     "overview_tab2_right_content_1": "Images",
     "overview_tab2_right_content_2": "Métafichiers",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Grâce à l'API GroupDocs.Signature pour .NET, vous pouvez rechercher des signatures QR-Code et Barcode dans n'importe quel document, présentation, feuille de calcul, image, ainsi que dans un fichier PDF, et récupérer la progression de la recherche. Vous pouvez également rechercher un objet de données personnalisé à partir de documents signés avec QR-Code Signature.",
     "more_feature_4_title": "Options de recherche avancées pour le code-barres",
     "more_feature_4_content": "Vous pouvez rechercher et localiser très facilement le code-barres requis via l'API GroupDocs.Signature for.NET, car notre API de signature offre des options de recherche avancées. Ceux-ci vous permettent de rechercher un code-barres sur une page particulière, de rechercher dans un document, de spécifier différentes pages à rechercher (première, dernière, paire, impaire), de rechercher un code-barres d'un type d'encodage particulier, de rechercher un code-barres basé sur une chaîne de texte spécifique ou de rechercher un code-barres basé sur une chaîne avec l'option \"contient\".",
-    "solutions_title": "GroupDocs.Signature propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+    "solutions_title": "GroupDocs.Signature propose des API de signature de documents pour d'autres environnements de développement populaires"
   },
   "index-content-java": {
     "head_title": "API de signature numérique Java, ajouter une signature électronique à une image PDF Word Excel",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Signature du code-barres",
     "overview_tab1_left_content_6": "Cachet Signature",
     "overview_tab1_left_content_7": "Formulaire-champ Signature",
-    "overview_tab2_description": "L'API de signature électronique Java prend en charge les [formats de fichier de document](https://docs.groupdocs.com/signature/java/supported-document-formats/) comme indiqué ci-dessous.",
+    "overview_tab2_description": "L'API de signature électronique Java prend en charge divers formats de fichiers de documents répertoriés ci-dessous.",
     "overview_tab2_right_title": "Images et autres formats",
     "overview_tab2_right_content_1": "Images",
     "overview_tab2_right_content_2": "Métafichiers",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "L'option de recherche est également disponible pour la signature des métadonnées pour les documents Word, les diapositives et les feuilles de calcul, tandis que la recherche par champ de formulaire est disponible pour les documents PDF.",
     "more_feature_4_title": "Configurer les propriétés de signature électronique",
     "more_feature_4_content": "Pour améliorer l'expérience utilisateur des utilisateurs finaux, l'API GroupDocs.Signature pour Java fournit de nombreuses propriétés qui peuvent être configurées assez facilement. Vous pouvez définir les options de police et de couleur (couleur d'arrière-plan, couleur de premier plan, gras, italique, souligné, famille de police, taille de police, etc.), les options d'arrière-plan et de bordure (couleur d'arrière-plan, transparence d'arrière-plan, couleur de bordure, style de tiret de bordure, épaisseur de bordure, Transparence des bordures, etc.), marges de signature (gauche, haut, largeur, hauteur, remplissage, etc.) et configuration de la zone de signature de l'image et de l'alignement de la signature (alignement horizontal, alignement vertical, etc.).",
-    "solutions_title": "GroupDocs.Signature propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+    "solutions_title": "GroupDocs.Signature propose des API de signature de documents pour d'autres environnements de développement populaires"
   }
 }

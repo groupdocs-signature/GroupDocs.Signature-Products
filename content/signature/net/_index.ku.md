@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature ji bo .NET piştgirî dide dîtina hemî [formên pelên pelgeyê] yên populer (https://docs.groupdocs.com/signature/net/supported-document-formats/). Bi tenê çend rêzikên kodê, îmzeya PDF-ê, Microsoft Office Word, pelgeya Excel, Wêne, HTML, e-nameya Outlook, OneNote, Proje û şiyanên dîtina grafîkê di sepanên xwe yên .NET de zêde bikin.
+          GroupDocs.Signature ji bo .NET piştgirî dide îmzekirina hemî formatên belgeyên populer. Bi tenê çend rêzikên kodê, îmzeya PDF-ê, Microsoft Office Word, pelgeya Excel, Wêne, HTML, e-nameya Outlook, OneNote, Proje û îmzakirina grafîkê di sepanên xwe yên .NET de zêde bikin. [Formatên belgeyên piştgirî kirin.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature API-yên dîtina belgeyan ji bo hawîrdorên din ên pêşkeftinê yên populer pêşkêşî dike"
+    title: "GroupDocs.Signature ji bo hawîrdorên din ên pêşkeftina populer API-yên îmzekirina belgeyê pêşkêşî dike"
 
     solution:
         # solution loop

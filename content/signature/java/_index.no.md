@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektronisk signering API støtter [dokumentfilformater](https://docs.groupdocs.com/signature/java/supported-document-formats/) som oppført nedenfor.
+          Java elektronisk signering API støtter ulike dokumentfilformater som er oppført nedenfor. [Støttede dokumentformater.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature tilbyr API-er for dokumentvisning for andre populære utviklingsmiljøer"
+    title: "GroupDocs.Signature tilbyr API-er for dokumentsignering for andre populære utviklingsmiljøer"
 
     solution:
         # solution loop

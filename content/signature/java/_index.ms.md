@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Itulah gambaran keseluruhan GroupDocs.Signature faetures untuk Java:
+          Itulah gambaran keseluruhan ciri GroupDocs.Signature untuk Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API penandatanganan elektronik Java menyokong [format fail dokumen](https://docs.groupdocs.com/signature/java/supported-document-formats/) seperti yang disenaraikan di bawah.
+          API penandatanganan elektronik Java menyokong pelbagai format fail dokumen seperti yang disenaraikan di bawah. [Format dokumen yang disokong.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature menawarkan API paparan dokumen untuk persekitaran pembangunan popular yang lain"
+    title: "GroupDocs.Signature menawarkan API tandatangan dokumen untuk persekitaran pembangunan popular yang lain"
 
     solution:
         # solution loop

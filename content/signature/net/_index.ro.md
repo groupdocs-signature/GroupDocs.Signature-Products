@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature pentru .NET acceptă vizualizarea tuturor [formatelor de fișiere de documente] populare (https://docs.groupdocs.com/signature/net/supported-document-formats/). Cu doar câteva linii de cod, adăugați semnătură PDF, Microsoft Office Word, foaie de calcul Excel, imagine, HTML, e-mail Outlook, OneNote, proiect și capabilități de vizualizare a graficelor în aplicațiile dvs. .NET.
+          GroupDocs.Signature pentru .NET acceptă semnarea tuturor formatelor de documente populare. Cu doar câteva linii de cod, adăugați semnătură PDF, Microsoft Office Word, foaie de calcul Excel, Imagine, HTML, e-mail Outlook, OneNote, Capabilități de semnare de proiect și grafică în aplicațiile dvs. .NET. [Formate de documente acceptate.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+    title: "GroupDocs.Signature oferă API-uri de semnare a documentelor pentru alte medii de dezvoltare populare"
 
     solution:
         # solution loop

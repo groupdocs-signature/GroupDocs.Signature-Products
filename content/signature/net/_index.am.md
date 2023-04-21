@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.signature for NET ሁሉንም ታዋቂ [የሰነድ ፋይል ቅርጸቶች](https://docs.groupdocs.com/signature/net/supported-document-formats/) ማየትን ይደግፋል። በጥቂት የኮድ መስመሮች ብቻ የፒዲኤፍ ፊርማ፣ ማይክሮሶፍት ኦፊስ ዎርድ፣ ኤክሴል የተመን ሉህ፣ ምስል፣ ኤችቲኤምኤል፣ አውትሉክ ኢሜል፣ OneNote፣ የፕሮጀክት እና የግራፊክስ እይታ ችሎታዎችን በእርስዎ .NET መተግበሪያዎች ውስጥ ይጨምሩ።
+          የቡድን ሰነዶች ለ .NET ፊርማ ሁሉንም ታዋቂ የሰነዶች ቅርጸቶች መፈረም ይደግፋል። በጥቂት የኮድ መስመሮች ብቻ የፒዲኤፍ ፊርማ፣ ማይክሮሶፍት ኦፊስ ዎርድ፣ ኤክሴል የተመን ሉህ፣ ምስል፣ ኤችቲኤምኤል፣ አውትሉክ ኢሜል፣ OneNote፣ የፕሮጀክት እና የግራፊክስ ፊርማ ችሎታዎችን በእርስዎ .NET መተግበሪያዎች ውስጥ ይጨምሩ። [የሚደገፉ ሰነዶች ቅርጸቶች.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signture ለሌሎች ታዋቂ የልማት አካባቢዎች የሰነድ መመልከቻ ኤፒአይዎችን ያቀርባል"
+    title: "GroupDocs.Signture ለሌሎች ታዋቂ የልማት አካባቢዎች የሰነድ መፈረሚያ ኤፒአይዎችን ያቀርባል"
 
     solution:
         # solution loop

@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java электрондық қолтаңбалау API төменде көрсетілгендей [құжат файл пішімдерін](https://docs.groupdocs.com/signature/java/supported-document-formats/) қолдайды.
+          Java электрондық қолтаңбалау API төменде көрсетілгендей әртүрлі құжат файл пішімдерін қолдайды. [Қолдау көрсетілетін құжаттар пішімдері.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature басқа танымал әзірлеу орталары үшін құжаттарды қарау API интерфейстерін ұсынады"
+    title: "GroupDocs.Signature басқа танымал әзірлеу орталары үшін құжатқа қол қою API интерфейстерін ұсынады"
 
     solution:
         # solution loop

@@ -245,7 +245,8 @@
     "api_nocodelabel": "Skoða öll forrit án kóða",
     "api_nocode_1_content": "Skrifaðu undir Microsoft Word, Excel, PowerPoint, Visio og PDF skrár með texta, mynd, strikamerki eða QR-kóða.",
     "api_nocode_2_content": "Skrifaðu undir Word skjöl á netinu beint úr vafranum þínum ókeypis.",
-    "api_nocode_3_content": "E-Signaðu PDF skrár með texta, myndum eða strikamerki innan hvaða vafra sem er."
+    "api_nocode_3_content": "E-Signaðu PDF skrár með texta, myndum eða strikamerki innan hvaða vafra sem er.",
+    "supported_formats": "Stuðningur skjalasnið."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Rafræn skilti PDF Word Excel myndir",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Strikamerki undirskrift",
     "overview_tab1_left_content_6": "Stimpill Undirskrift",
     "overview_tab1_left_content_7": "Lýsigögn undirskrift",
-    "overview_tab2_description": "GroupDocs.Signature fyrir .NET styður að skoða öll vinsæl [skjalaskráarsnið](https://docs.groupdocs.com/signature/net/supported-document-formats/). Með örfáum línum af kóða skaltu bæta við PDF undirskrift, Microsoft Office Word, Excel töflureikni, mynd, HTML, Outlook tölvupósti, OneNote, Project og grafík skoðunargetu í .NET forritunum þínum.",
+    "overview_tab2_description": "GroupDocs.Signature fyrir .NET styður undirritun á öllum vinsælum skjalasniðum. Með örfáum línum af kóða skaltu bæta við PDF undirskrift, Microsoft Office Word, Excel töflureikni, mynd, HTML, Outlook tölvupósti, OneNote, Project og grafík undirritunargetu í .NET forritunum þínum.",
     "overview_tab2_right_title": "Myndir og önnur snið",
     "overview_tab2_right_content_1": "Myndir",
     "overview_tab2_right_content_2": "Metafiles",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Í gegnum GroupDocs.Signature fyrir .NET API geturðu leitað í QR-kóða og strikamerkjaundirskriftum í hvaða skjali, kynningu, töflureikni, mynd, sem og PDF skrá, og sótt leitarframvindu. Þú getur líka leitað að sérsniðnum gagnahlut úr skjölum sem eru undirrituð með QR-kóða undirskrift.",
     "more_feature_4_title": "Ítarlegir leitarmöguleikar fyrir strikamerki",
     "more_feature_4_content": "Þú getur leitað og fundið strikamerki sem þú þarft í gegnum GroupDocs.Signature for.NET API mjög auðveldlega, þar sem undirskriftar-API okkar býður upp á háþróaða leitarmöguleika. Þetta gerir þér kleift að leita í strikamerki á tiltekinni síðu, leita í gegnum skjalið, tilgreina mismunandi síður til að leita (fyrstu, síðustu, sléttu, odda), leita að strikamerki af tiltekinni kóðun, leita í strikamerki byggt á tilteknum textastreng eða leitarstrikamerkja. byggt á streng með valkostinum „inniheldur“.",
-    "solutions_title": "GroupDocs.Signature býður upp á API fyrir skjalaskoðun fyrir önnur vinsæl þróunarumhverfi"
+    "solutions_title": "GroupDocs.Signature býður upp á API undirritun skjala fyrir önnur vinsæl þróunarumhverfi"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Bættu eSignature við PDF Word Excel mynd",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Strikamerki undirskrift",
     "overview_tab1_left_content_6": "Stimpill Undirskrift",
     "overview_tab1_left_content_7": "Form-reitur Undirskrift",
-    "overview_tab2_description": "Java rafrænt undirskrift API styður [skjalaskráarsnið](https://docs.groupdocs.com/signature/java/supported-document-formats/) eins og skráð er hér að neðan.",
+    "overview_tab2_description": "Java rafræn undirritun API styður ýmis skjalaskráarsnið eins og skráð eru hér að neðan.",
     "overview_tab2_right_title": "Myndir og önnur snið",
     "overview_tab2_right_content_1": "Myndir",
     "overview_tab2_right_content_2": "Metafiles",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Á sama hátt gerir GroupDocs.Signature fyrir Java API þér kleift að nota QR-kóðategundir, svo sem QR, Aztec og Data Matrix. Stuðlar QR-kóða kóðun eru ma Aztec, DataMatrix, GS1 DataMatrix og GS1 QR.",
     "more_feature_3_title": "Leitaðu að undirskriftum og skírteinum",
     "more_feature_3_content_1": "Í gegnum GroupDocs.Signature fyrir Java API geturðu leitað í QR-kóða og strikamerkjaundirskriftum í hvaða skjali, kynningu, töflureikni, mynd sem og PDF-skrá, og sótt leitarniðurstöðuna. Þú getur líka leitað í sérsniðnum gagnahlut úr skjölum sem eru undirrituð með QR-kóða undirskrift sem og Leita í venjulegu VCard og tölvupósthlut úr skjölum sem eru undirrituð með QR-kóða. Staðfesting á dulkóðuðum texta QR-kóða undirskrifta sem og leit að undirskrift lýsigagna í PDF skjölum er einnig studd. Notaðu viðbótarleitarskilyrði fyrir stafrænar undirskriftir Words & Cells Documents.",
-    "more_feature_3_content_2": "Leitarmöguleiki er einnig tiltækur fyrir undirskrift lýsigagna fyrir Word skjöl, skyggnur og töflureikni, en leit á formreitum er í boði fyrir PDF skjöl.",
+    "more_feature_3_content_2": "Leitarmöguleiki er einnig tiltækur fyrir undirskrift lýsigagna fyrir word skjöl, skyggnur og töflureikna, en leit á formreitum er í boði fyrir PDF skjöl.",
     "more_feature_4_title": "Stilla eSignature Properties",
     "more_feature_4_content": "Til að auka notendanotkun notenda býður GroupDocs.Signature fyrir Java API upp á mikið af eiginleikum sem hægt er að stilla frekar auðveldlega. Þú getur stillt letur- og litavalkosti (bakgrunnslit, forgrunnslit, feitletrað, skáletrað, undirstrikað, leturfjölskyldu, leturstærð o.s.frv.), Bakgrunns- og rammavalkosti (bakgrunnslit, gagnsæi bakgrunns, rammalit, rammastíll, rammaþyngd, Gagnsæi ramma o.s.frv.), Undirskriftarjaðrar (vinstri, efst, breidd, hæð, bólstrun o.s.frv.), og Uppsetning myndundirskriftarsvæðis og undirskriftarjöfnun (lárétt jöfnun, lóðrétt jöfnun osfrv.).",
-    "solutions_title": "GroupDocs.Signature býður upp á API fyrir skjalaskoðun fyrir önnur vinsæl þróunarumhverfi"
+    "solutions_title": "GroupDocs.Signature býður upp á API undirritun skjala fyrir önnur vinsæl þróunarumhverfi"
   }
 }

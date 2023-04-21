@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Aceasta este o prezentare generală a caracteristicilor GroupDocs.Signature pentru Java:
+          Aceasta este o prezentare generală a funcțiilor GroupDocs.Signature pentru Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API-ul de semnare electronică Java acceptă [formate de fișiere de document](https://docs.groupdocs.com/signature/java/supported-document-formats/), după cum este enumerat mai jos.
+          API-ul de semnare electronică Java acceptă diferite formate de fișiere de documente, după cum sunt enumerate mai jos. [Formate de documente acceptate.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Prin API-ul GroupDocs.Signature pentru Java, puteți căuta semnături QR-Code și coduri de bare în orice document, prezentare, foaie de calcul, imagine, precum și fișier PDF și puteți prelua rezultatul căutării. De asemenea, puteți căuta obiecte de date personalizate din documente semnate cu QR-Code Signature, precum și Căutare VCard standard și obiect de e-mail din documente semnate cu QR-Code. De asemenea, este acceptată verificarea textului criptat al semnăturilor QR-Code, precum și căutarea semnăturii metadate în documentele PDF. Aplicați criterii de căutare suplimentare pentru semnăturile digitale ale documentelor Words & Cells.  
 
-          Opțiunea de căutare este disponibilă și pentru semnătura de metadate pentru documente Word, diapozitive și foi de calcul, în timp ce căutarea în câmpuri de formular este disponibilă pentru documentele PDF.
+          Opțiunea de căutare este disponibilă și pentru semnătura metadatelor pentru documente Word, diapozitive și foi de calcul, în timp ce căutarea în câmpuri de formular este disponibilă pentru documentele PDF.
 
       # more_feature_loop
       - title: "Configurați proprietățile semnăturii electronice"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+    title: "GroupDocs.Signature oferă API-uri de semnare a documentelor pentru alte medii de dezvoltare populare"
 
     solution:
         # solution loop

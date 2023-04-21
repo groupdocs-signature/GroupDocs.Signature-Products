@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          A GroupDocs.Signature for .NET támogatja az összes népszerű [dokumentumfájl-formátum] megtekintését (https://docs.groupdocs.com/signature/net/supported-document-formats/). Néhány sornyi kóddal PDF-aláírást, Microsoft Office Word-öt, Excel-táblázatot, képet, HTML-t, Outlook e-mailt, OneNote-ot, projekt- és grafikamegtekintési lehetőségeket ad hozzá .NET-alkalmazásaihoz.
+          A GroupDocs.Signature for .NET támogatja az összes népszerű dokumentumformátum aláírását. Néhány sornyi kóddal PDF-aláírási, Microsoft Office Word-, Excel-táblázat-, kép-, HTML-, Outlook-e-mail-, OneNote-, projekt- és grafikus aláírási lehetőségeket adhat hozzá .NET-alkalmazásaihoz. [Támogatott dokumentumformátumok.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "A GroupDocs.Signature dokumentummegtekintési API-kat kínál más népszerű fejlesztői környezetekhez"
+    title: "A GroupDocs.Signature dokumentum-aláíró API-kat kínál más népszerű fejlesztői környezetekhez"
 
     solution:
         # solution loop

@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API penandatanganan elektronik Java mendukung [format file dokumen](https://docs.groupdocs.com/signature/java/supported-document-formats/) seperti yang tercantum di bawah ini.
+          API penandatanganan elektronik Java mendukung berbagai format file dokumen seperti yang tercantum di bawah ini. [Format dokumen yang didukung.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Melalui GroupDocs.Signature untuk Java API, Anda dapat mencari tanda tangan QR-Code dan Barcode di dokumen, presentasi, spreadsheet, gambar, serta file PDF apa pun, dan mengambil hasil pencarian. Anda juga dapat mencari objek data khusus dari dokumen yang ditandatangani dengan Tanda Tangan QR-Code serta Cari VCard Standar dan Objek Email dari Dokumen yang Ditandatangani dengan QR-Code. Memverifikasi teks terenkripsi dari tanda tangan QR-Code serta mencari tanda tangan metadata dalam dokumen PDF juga didukung. Terapkan kriteria pencarian tambahan untuk tanda tangan digital dari Words & Cells Documents.  
 
-          Opsi pencarian juga tersedia untuk tanda tangan metadata untuk dokumen kata, slide, dan spreadsheet, sedangkan pencarian form-field tersedia untuk dokumen PDF.
+          Opsi pencarian juga tersedia untuk tanda tangan metadata untuk dokumen kata, slide, dan spreadsheet, sementara pencarian bidang formulir tersedia untuk dokumen PDF.
 
       # more_feature_loop
       - title: "Konfigurasikan Properti eSignature"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+    title: "GroupDocs.Signature menawarkan API penandatanganan dokumen untuk lingkungan pengembangan populer lainnya"
 
     solution:
         # solution loop

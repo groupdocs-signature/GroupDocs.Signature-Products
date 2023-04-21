@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature สำหรับ .NET รองรับการดู [รูปแบบไฟล์เอกสาร] ยอดนิยมทั้งหมด (https://docs.groupdocs.com/signature/net/supported-document-formats/) ด้วยโค้ดเพียงไม่กี่บรรทัด คุณสามารถเพิ่มลายเซ็น PDF, Microsoft Office Word, สเปรดชีต Excel, รูปภาพ, HTML, อีเมล Outlook, OneNote, โครงการ และความสามารถในการดูกราฟิกในแอปพลิเคชัน .NET ของคุณ
+          GroupDocs.Signature สำหรับ .NET รองรับการลงนามในเอกสารยอดนิยมทุกรูปแบบ ด้วยโค้ดเพียงไม่กี่บรรทัด คุณสามารถเพิ่มลายเซ็น PDF, Microsoft Office Word, สเปรดชีต Excel, รูปภาพ, HTML, อีเมล Outlook, OneNote, Project และความสามารถในการลงนามกราฟิกในแอปพลิเคชัน .NET ของคุณ [รูปแบบเอกสารที่รองรับ](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature นำเสนอ API การดูเอกสารสำหรับสภาพแวดล้อมการพัฒนายอดนิยมอื่นๆ"
+    title: "GroupDocs.Signature เสนอ API การเซ็นเอกสารสำหรับสภาพแวดล้อมการพัฒนายอดนิยมอื่นๆ"
 
     solution:
         # solution loop

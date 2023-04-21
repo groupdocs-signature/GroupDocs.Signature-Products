@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java-API voor elektronische ondertekening ondersteunt [documentbestandsindelingen](https://docs.groupdocs.com/signature/java/supported-document-formats/) zoals hieronder vermeld.
+          Java-API voor elektronische ondertekening ondersteunt verschillende documentbestandsindelingen, zoals hieronder vermeld. [Ondersteunde documentformaten.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Via GroupDocs.Signature for Java API kunt u zoeken naar handtekeningen van QR-codes en streepjescodes in elk document, presentatie, spreadsheet, afbeelding en PDF-bestand, en het zoekresultaat ophalen. U kunt ook aangepaste gegevensobjecten zoeken in documenten die zijn ondertekend met QR-Code-handtekening, evenals in standaard VCard- en e-mailobjecten zoeken in documenten die zijn ondertekend met QR-code. Het verifiëren van gecodeerde tekst van QR-codehandtekeningen en het zoeken naar metadatahandtekeningen in PDF-documenten wordt ook ondersteund. Pas aanvullende zoekcriteria toe voor digitale handtekeningen van Words & Cells-documenten.  
 
-          De zoekoptie is ook beschikbaar voor metadatahandtekeningen voor Word-documenten, dia's en spreadsheets, terwijl zoeken in formuliervelden beschikbaar is voor PDF-documenten.
+          De zoekoptie is ook beschikbaar voor het ondertekenen van metagegevens voor Word-documenten, dia's en spreadsheets, terwijl zoeken in formuliervelden beschikbaar is voor PDF-documenten.
 
       # more_feature_loop
       - title: "Configureer eSignature-eigenschappen"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature biedt API's voor het bekijken van documenten voor andere populaire ontwikkelomgevingen"
+    title: "GroupDocs.Signature biedt API's voor het ondertekenen van documenten voor andere populaire ontwikkelomgevingen"
 
     solution:
         # solution loop

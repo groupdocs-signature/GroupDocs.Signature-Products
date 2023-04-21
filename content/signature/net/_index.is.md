@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature fyrir .NET styður að skoða öll vinsæl [skjalaskráarsnið](https://docs.groupdocs.com/signature/net/supported-document-formats/). Með örfáum línum af kóða skaltu bæta við PDF undirskrift, Microsoft Office Word, Excel töflureikni, mynd, HTML, Outlook tölvupósti, OneNote, Project og grafík skoðunargetu í .NET forritunum þínum.
+          GroupDocs.Signature fyrir .NET styður undirritun á öllum vinsælum skjalasniðum. Með örfáum línum af kóða skaltu bæta við PDF undirskrift, Microsoft Office Word, Excel töflureikni, mynd, HTML, Outlook tölvupósti, OneNote, Project og grafík undirritunargetu í .NET forritunum þínum. [Stuðningur skjalasnið.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature býður upp á API fyrir skjalaskoðun fyrir önnur vinsæl þróunarumhverfi"
+    title: "GroupDocs.Signature býður upp á API undirritun skjala fyrir önnur vinsæl þróunarumhverfi"
 
     solution:
         # solution loop

@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          <% "{index-content-java.overview_tab2_description}" %>
+          <% "{index-content-java.overview_tab2_description} [{index-content.supported_formats}](https://docs.groupdocs.com/signature/java/supported-document-formats/)" %>
 
         left:
           enable: true

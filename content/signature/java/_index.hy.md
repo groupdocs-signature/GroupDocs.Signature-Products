@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Սա GroupDocs.Signature գործառույթների ակնարկ է Java-ի համար.
+          Սա GroupDocs.Signature-ի առանձնահատկությունների ակնարկն է Java-ի համար.
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java-ի էլեկտրոնային ստորագրման API-ն աջակցում է [փաստաթղթի ֆայլերի ձևաչափերը] (https://docs.groupdocs.com/signature/java/supported-document-formats/), ինչպես նշված է ստորև:
+          Java էլեկտրոնային ստորագրման API-ն աջակցում է փաստաթղթերի ֆայլերի տարբեր ձևաչափերին, ինչպես նշված է ստորև: [Աջակցվող փաստաթղթերի ձևաչափեր:](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature-ն առաջարկում է փաստաթղթերի դիտման API-ներ մշակման այլ հայտնի միջավայրերի համար"
+    title: "GroupDocs.Signature-ն առաջարկում է փաստաթղթերի ստորագրման API-ներ մշակման այլ հայտնի միջավայրերի համար"
 
     solution:
         # solution loop

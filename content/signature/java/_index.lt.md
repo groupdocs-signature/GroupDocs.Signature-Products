@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Tai yra „GroupDocs.Signature“ savybių, skirtų „Java“, apžvalga:
+          Tai yra „Java“ skirtų „GroupDocs.Signature“ funkcijų apžvalga:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          „Java“ elektroninio pasirašymo API palaiko [dokumentų failų formatus](https://docs.groupdocs.com/signature/java/supported-document-formats/), kaip nurodyta toliau.
+          „Java“ elektroninio pasirašymo API palaiko įvairius toliau išvardytus dokumentų failų formatus. [Palaikomi dokumentų formatai.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Naudodami GroupDocs.Signature, skirtą Java API, galite ieškoti QR kodo ir brūkšninio kodo parašų bet kuriame dokumente, pristatyme, skaičiuoklėje, paveikslėlyje, taip pat PDF faile ir gauti paieškos rezultatą. Taip pat galite ieškoti pasirinktinių duomenų objektų iš dokumentų, pasirašytų QR kodo parašu, taip pat ieškoti standartinių VCard ir el. pašto objektų iš dokumentų, pasirašytų QR kodu. Taip pat palaikomas QR kodo parašų užšifruoto teksto tikrinimas ir metaduomenų parašo paieška PDF dokumentuose. Taikykite papildomus paieškos kriterijus Words & Cells dokumentų skaitmeniniams parašams.  
 
-          Paieškos parinktis taip pat galima rasti „Word“ dokumentų, skaidrių ir skaičiuoklių metaduomenų parašui, o PDF dokumentų paieška formos lauke.
+          Paieškos parinktis taip pat pasiekiama „Word“ dokumentų, skaidrių ir skaičiuoklių metaduomenų parašui, o PDF dokumentų paieška formos lauke.
 
       # more_feature_loop
       - title: "Konfigūruokite el. parašo ypatybes"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature siūlo dokumentų peržiūros API kitoms populiarioms kūrimo aplinkoms"
+    title: "GroupDocs.Signature siūlo dokumentų pasirašymo API kitoms populiarioms kūrimo aplinkoms"
 
     solution:
         # solution loop

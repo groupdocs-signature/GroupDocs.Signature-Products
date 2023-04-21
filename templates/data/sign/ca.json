@@ -245,7 +245,8 @@
     "api_nocodelabel": "Veure totes les aplicacions sense codi",
     "api_nocode_1_content": "Signa fitxers de Microsoft Word, Excel, PowerPoint, Visio i PDF amb text, imatge, codi de barres o codi QR.",
     "api_nocode_2_content": "Signeu digitalment documents de Word en línia directament des del vostre navegador de manera gratuïta.",
-    "api_nocode_3_content": "E-Sign fitxers PDF amb text, imatge o codi de barres des de qualsevol navegador web."
+    "api_nocode_3_content": "E-Sign fitxers PDF amb text, imatge o codi de barres des de qualsevol navegador web.",
+    "supported_formats": "Formats de documents admesos."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Signe electrònic PDF Word Excel Imatges",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Signatura del codi de barres",
     "overview_tab1_left_content_6": "Signatura del segell",
     "overview_tab1_left_content_7": "Signatura de metadades",
-    "overview_tab2_description": "GroupDocs.Signature per a .NET admet la visualització de tots els [formats de fitxer de document] populars (https://docs.groupdocs.com/signature/net/supported-document-formats/). Amb només unes poques línies de codi, afegiu signatura PDF, Microsoft Office Word, full de càlcul Excel, imatge, HTML, correu electrònic d'Outlook, OneNote, Projecte i capacitats de visualització de gràfics a les vostres aplicacions .NET.",
+    "overview_tab2_description": "GroupDocs.Signature per a .NET admet la signatura de tots els formats de documents populars. Amb només unes poques línies de codi, afegiu signatura PDF, Microsoft Office Word, full de càlcul Excel, imatge, HTML, correu electrònic d'Outlook, OneNote, capacitats de signatura de projectes i gràfics a les vostres aplicacions .NET.",
     "overview_tab2_right_title": "Imatges i altres formats",
     "overview_tab2_right_content_1": "Imatges",
     "overview_tab2_right_content_2": "Metafitxers",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Mitjançant l'API de GroupDocs.Signature per a .NET, podeu cercar signatures de codi QR i codi de barres en qualsevol document, presentació, full de càlcul, imatge i fitxer PDF, i obtenir el progrés de la cerca. També podeu cercar objectes de dades personalitzats a partir de documents signats amb la signatura del codi QR.",
     "more_feature_4_title": "Opcions de cerca avançada per al codi de barres",
     "more_feature_4_content": "Podeu cercar i localitzar el codi de barres necessari mitjançant l'API GroupDocs.Signature for.NET amb molta facilitat, ja que la nostra API de signatures ofereix opcions de cerca avançades. Aquests us permeten cercar codi de barres en una pàgina determinada, cercar en un document, especificar diferents pàgines per cercar (primera, darrera, parell, senar), cercar codi de barres d'un tipus de codificació particular, cercar codi de barres basant-se en una cadena de text específica o cercar codi de barres. basat en una cadena amb l'opció \"conté\".",
-    "solutions_title": "GroupDocs.Signature ofereix API de visualització de documents per a altres entorns de desenvolupament populars"
+    "solutions_title": "GroupDocs.Signature ofereix API de signatura de documents per a altres entorns de desenvolupament populars"
   },
   "index-content-java": {
     "head_title": "API de signatura digital de Java, afegeix una signatura electrònica a la imatge PDF Word Excel",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Signatura del codi de barres",
     "overview_tab1_left_content_6": "Signatura del segell",
     "overview_tab1_left_content_7": "Formulari-camp Signatura",
-    "overview_tab2_description": "L'API de signatura electrònica de Java admet [formats de fitxer de document](https://docs.groupdocs.com/signature/java/supported-document-formats/) tal com s'indica a continuació.",
+    "overview_tab2_description": "L'API de signatura electrònica de Java admet diversos formats de fitxers de documents tal com s'enumeren a continuació.",
     "overview_tab2_right_title": "Imatges i altres formats",
     "overview_tab2_right_content_1": "Imatges",
     "overview_tab2_right_content_2": "Metafitxers",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "L'opció de cerca també està disponible per a la signatura de metadades per a documents de Word, diapositives i fulls de càlcul, mentre que la cerca de camp de formulari està disponible per a documents PDF.",
     "more_feature_4_title": "Configura les propietats de la signatura electrònica",
     "more_feature_4_content": "Per millorar la UX dels usuaris finals, l'API de GroupDocs.Signature for Java ofereix moltes propietats que es poden configurar amb força facilitat. Podeu definir les opcions de tipus de lletra i color (Color de fons, Color de primer pla, Negreta, Cursiva, Subratllat, Família de tipus de lletra, Mida de la lletra, etc.), Opcions de fons i vores (Color de fons, Transparència de fons, Color de vora, Estil de guió de vora, Pes de vora, Transparència de la vora, etc.), Marges de signatura (esquerra, superior, amplada, alçada, farciment, etc.) i Configuració de l'àrea de signatura de la imatge i alineació de la signatura (alineació horitzontal, alineació vertical, etc.).",
-    "solutions_title": "GroupDocs.Signature ofereix API de visualització de documents per a altres entorns de desenvolupament populars"
+    "solutions_title": "GroupDocs.Signature ofereix API de signatura de documents per a altres entorns de desenvolupament populars"
   }
 }

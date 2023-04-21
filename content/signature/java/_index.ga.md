@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Tacaíonn API sínithe go leictreonach Java le [formáidí comhaid doiciméad](https://docs.groupdocs.com/signature/java/supported-document-formats/) mar atá liostaithe thíos.
+          Tacaíonn API sínithe go leictreonach Java le formáidí éagsúla comhaid doiciméad mar atá liostaithe thíos. [Formáidí doiciméad tacaithe.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Trí GroupDocs.Signature le haghaidh Java API, is féidir leat sínithe QR-Code agus Barcode a chuardach in aon doiciméad, cur i láthair, scarbhileog, íomhá, chomh maith le comhad PDF, agus toradh an chuardaigh a fháil. Is féidir leat réad sonraí saincheaptha a chuardach freisin ó dhoiciméid atá sínithe le Síniú QR-Code chomh maith le Cuardach Vcard Caighdeánach agus Réad Ríomhphost ó Dhoiciméid Sínithe le QR-Cod. Tacaítear freisin le fíorú téacs criptithe sínithe QR-Cod chomh maith le síniú meiteashonraí a chuardach i ndoiciméid PDF. Cuir critéir chuardaigh bhreise i bhfeidhm le haghaidh sínithe digiteacha ar Dhoiciméid Focail & Cealla.  
 
-          Tá rogha cuardaigh ar fáil freisin le haghaidh síniú meiteashonraí do dhoiciméid focal, sleamhnáin agus scarbhileoga, agus tá cuardach foirm-réimse ar fáil do dhoiciméid PDF.
+          Tá rogha cuardaigh ar fáil freisin le haghaidh síniú meiteashonraí do dhoiciméid Word, sleamhnáin agus scarbhileoga, agus tá cuardach foirm-réimse ar fáil do dhoiciméid PDF.
 
       # more_feature_loop
       - title: "Cumraigh Airíonna eSignature"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "Tairgeann GroupDocs.Signature APIanna féachana doiciméad do thimpeallachtaí forbartha eile a bhfuil tóir orthu"
+    title: "Cuireann GroupDocs.Signature API sínithe doiciméad ar fáil do thimpeallachtaí forbartha tóir eile"
 
     solution:
         # solution loop

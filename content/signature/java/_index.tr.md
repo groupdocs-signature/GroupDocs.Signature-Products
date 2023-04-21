@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektronik olarak imzalama API'si, aşağıda listelendiği gibi [belge dosyası biçimlerini](https://docs.groupdocs.com/signature/java/supported-document-formats/) destekler.
+          Java elektronik olarak imzalama API'si, aşağıda listelenen çeşitli belge dosyası biçimlerini destekler. [Desteklenen belge biçimleri.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           GroupDocs.Signature for Java API aracılığıyla, herhangi bir belgede, sunumda, elektronik tabloda, görselde ve ayrıca PDF dosyasında QR-Code ve Barkod imzalarını arayabilir ve arama sonucunu alabilirsiniz. Ayrıca, QR-Code Signature ile imzalanmış belgelerden özel veri nesnesini ve QR-Code ile İmzalanmış Belgelerden Standart VCard ve E-posta Nesnesini arayabilirsiniz. PDF belgelerinde meta veri imzası aramanın yanı sıra QR-Code imzalarının şifrelenmiş metninin doğrulanması da desteklenir. Words & Cells Belgelerinin dijital imzaları için ek arama kriterleri uygulayın.  
 
-          Word belgeleri, slaytlar ve elektronik tablolar için meta veri imzası için arama seçeneği, PDF belgeleri için form alanı araması da mevcuttur.
+          Word belgeleri, slaytlar ve elektronik tablolar için meta veri imzası için arama seçeneği de mevcuttur, form alanı araması ise PDF belgeleri için kullanılabilir.
 
       # more_feature_loop
       - title: "e-İmza Özelliklerini Yapılandırma"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge görüntüleme API'leri sunar"
+    title: "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge imzalama API'leri sunar"
 
     solution:
         # solution loop

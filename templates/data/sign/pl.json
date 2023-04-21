@@ -245,7 +245,8 @@
     "api_nocodelabel": "Wyświetl wszystkie aplikacje bez kodu",
     "api_nocode_1_content": "Podpisuj pliki Microsoft Word, Excel, PowerPoint, Visio i PDF tekstem, obrazem, kodem kreskowym lub kodem QR.",
     "api_nocode_2_content": "Podpisuj cyfrowo dokumenty programu Word online za darmo bezpośrednio z przeglądarki.",
-    "api_nocode_3_content": "Podpisuj elektronicznie pliki PDF za pomocą tekstu, obrazu lub kodu kreskowego z poziomu dowolnej przeglądarki internetowej."
+    "api_nocode_3_content": "Podpisuj elektronicznie pliki PDF za pomocą tekstu, obrazu lub kodu kreskowego z poziomu dowolnej przeglądarki internetowej.",
+    "supported_formats": "Obsługiwane formaty dokumentów."
   },
   "index-content-net": {
     "head_title": "Interfejs API podpisu cyfrowego platformy .NET — podpis elektroniczny w formacie PDF Word Excel, obrazy",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Podpis kodu kreskowego",
     "overview_tab1_left_content_6": "Pieczęć podpisu",
     "overview_tab1_left_content_7": "Podpis metadanych",
-    "overview_tab2_description": "GroupDocs.Signature for .NET obsługuje przeglądanie wszystkich popularnych [formatów plików dokumentów](https://docs.groupdocs.com/signature/net/supported-document-formats/). Wystarczy kilka wierszy kodu, aby dodać podpis PDF, Microsoft Office Word, arkusz kalkulacyjny Excel, obraz, HTML, pocztę e-mail programu Outlook, program OneNote, wyświetlanie projektów i grafik w aplikacjach .NET.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET obsługuje podpisywanie wszystkich popularnych formatów dokumentów. Wystarczy kilka wierszy kodu, aby dodać podpis PDF, Microsoft Office Word, arkusz kalkulacyjny Excel, obraz, HTML, pocztę e-mail programu Outlook, program OneNote, podpisywanie projektów i grafiki w aplikacjach .NET.",
     "overview_tab2_right_title": "Obrazy i inne formaty",
     "overview_tab2_right_content_1": "Obrazy",
     "overview_tab2_right_content_2": "Metapliki",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Dzięki GroupDocs.Signature for .NET API możesz wyszukiwać podpisy QR-Code i Barcode w dowolnym dokumencie, prezentacji, arkuszu kalkulacyjnym, obrazie, a także w pliku PDF i pobierać postęp wyszukiwania. Możesz także wyszukiwać niestandardowe obiekty danych z dokumentów podpisanych podpisem QR-Code.",
     "more_feature_4_title": "Zaawansowane opcje wyszukiwania kodu kreskowego",
     "more_feature_4_content": "Możesz bardzo łatwo wyszukać i zlokalizować wymagany kod kreskowy za pomocą interfejsu API GroupDocs.Signature for.NET, ponieważ nasz interfejs API podpisu oferuje zaawansowane opcje wyszukiwania. Umożliwiają one wyszukiwanie kodu kreskowego na określonej stronie, wyszukiwanie w całym dokumencie, określanie różnych stron do przeszukania (pierwsza, ostatnia, parzysta, nieparzysta), wyszukiwanie kodu kreskowego o określonym typie kodowania, wyszukiwanie kodu kreskowego na podstawie określonego ciągu tekstowego lub wyszukiwanie kodu kreskowego na podstawie ciągu znaków z opcją „zawiera”.",
-    "solutions_title": "GroupDocs.Signature oferuje interfejsy API przeglądania dokumentów dla innych popularnych środowisk programistycznych"
+    "solutions_title": "GroupDocs.Signature oferuje interfejsy API do podpisywania dokumentów dla innych popularnych środowisk programistycznych"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, dodaj podpis elektroniczny do obrazu PDF Word Excel",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Podpis kodu kreskowego",
     "overview_tab1_left_content_6": "Pieczęć podpisu",
     "overview_tab1_left_content_7": "Podpis pola formularza",
-    "overview_tab2_description": "Interfejs API elektronicznego podpisu Java obsługuje [formaty plików dokumentów](https://docs.groupdocs.com/signature/java/supported-document-formats/) wymienione poniżej.",
+    "overview_tab2_description": "Interfejs API podpisu elektronicznego Java obsługuje różne formaty plików dokumentów, które wymieniono poniżej.",
     "overview_tab2_right_title": "Obrazy i inne formaty",
     "overview_tab2_right_content_1": "Obrazy",
     "overview_tab2_right_content_2": "Metapliki",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "Opcja wyszukiwania jest również dostępna dla sygnatur metadanych dla dokumentów Word, slajdów i arkuszy kalkulacyjnych, podczas gdy wyszukiwanie pól formularza jest dostępne dla dokumentów PDF.",
     "more_feature_4_title": "Skonfiguruj właściwości podpisu elektronicznego",
     "more_feature_4_content": "Aby poprawić UX użytkowników końcowych, GroupDocs.Signature for Java API zapewnia wiele właściwości, które można dość łatwo skonfigurować. Można ustawić opcje czcionek i kolorów (kolor tła, kolor pierwszego planu, pogrubienie, kursywa, podkreślenie, rodzina czcionek, rozmiar czcionki itp.), opcje tła i obramowania (kolor tła, przezroczystość tła, kolor obramowania, styl kreski obramowania, grubość obramowania, Przezroczystość obramowania itp.), Marginesy podpisu (lewy, górny, szerokość, wysokość, dopełnienie itp.) oraz Ustaw obszar podpisu obrazu i wyrównanie podpisu (wyrównanie w poziomie, wyrównanie w pionie itp.).",
-    "solutions_title": "GroupDocs.Signature oferuje interfejsy API przeglądania dokumentów dla innych popularnych środowisk programistycznych"
+    "solutions_title": "GroupDocs.Signature oferuje interfejsy API do podpisywania dokumentów dla innych popularnych środowisk programistycznych"
   }
 }

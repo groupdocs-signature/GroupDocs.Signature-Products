@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektroniskt signerings-API stöder [dokumentfilformat](https://docs.groupdocs.com/signature/java/supported-document-formats/) enligt listan nedan.
+          Java elektronisk signering API stöder olika dokumentfilformat enligt listan nedan. [Dokumentformat som stöds.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Genom GroupDocs.Signature for Java API kan du söka efter QR-kod- och streckkodsignaturer i alla dokument, presentationer, kalkylblad, bilder, samt PDF-filer, och hämta sökresultatet. Du kan också söka efter anpassade dataobjekt från dokument signerade med QR-kodsignatur samt Sök efter standard VCard och e-postobjekt från dokument signerade med QR-kod. Verifiering av krypterad text av QR-kodsignaturer samt sökning efter metadatasignatur i PDF-dokument stöds också. Tillämpa ytterligare sökkriterier för digitala signaturer av Words & Cells-dokument.  
 
-          Sökalternativ är också tillgängligt för metadatasignatur för word-dokument, bilder och kalkylblad, medan formulärfältssökning är tillgängligt för PDF-dokument.
+          Sökalternativ är också tillgängligt för metadatasignatur för word-dokument, bilder och kalkylblad, medan formulärfältssökning är tillgänglig för PDF-dokument.
 
       # more_feature_loop
       - title: "Konfigurera eSignature-egenskaper"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature erbjuder API:er för dokumentvisning för andra populära utvecklingsmiljöer"
+    title: "GroupDocs.Signature erbjuder API:er för dokumentsignering för andra populära utvecklingsmiljöer"
 
     solution:
         # solution loop

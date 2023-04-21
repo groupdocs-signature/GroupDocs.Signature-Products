@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Rozhranie Java pre elektronické podpisovanie podporuje [formáty súborov dokumentov] (https://docs.groupdocs.com/signature/java/supported-document-formats/), ako je uvedené nižšie.
+          Rozhranie API na elektronické podpisovanie Java podporuje rôzne formáty súborov dokumentov, ako je uvedené nižšie. [Podporované formáty dokumentov.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Prostredníctvom GroupDocs.Signature for Java API môžete vyhľadávať podpisy QR-Code a čiarových kódov v akomkoľvek dokumente, prezentácii, tabuľke, obrázku, ako aj súbore PDF a získať výsledok vyhľadávania. Môžete tiež vyhľadávať vlastné dátové objekty v dokumentoch podpísaných podpisom QR-Code, ako aj v štandardných VCard a e-mailových objektoch v dokumentoch podpísaných QR-kódom. Podporované je aj overovanie zašifrovaného textu podpisov QR-Code, ako aj vyhľadávanie podpisu metadát v dokumentoch PDF. Použite dodatočné kritériá vyhľadávania pre digitálne podpisy dokumentov Words & Cells.  
 
-          Možnosť vyhľadávania je k dispozícii aj pre podpis metadát pre dokumenty Word, snímky a tabuľky, zatiaľ čo vyhľadávanie v poli formulára je dostupné pre dokumenty PDF.
+          K dispozícii je aj možnosť vyhľadávania pre podpis metadát pre dokumenty Word, snímky a tabuľky, zatiaľ čo vyhľadávanie v poli formulára je dostupné pre dokumenty PDF.
 
       # more_feature_loop
       - title: "Nakonfigurujte vlastnosti elektronického podpisu"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature ponúka rozhrania API na prezeranie dokumentov pre ďalšie populárne vývojové prostredia"
+    title: "GroupDocs.Signature ponúka rozhrania API na podpisovanie dokumentov pre ďalšie populárne vývojové prostredia"
 
     solution:
         # solution loop

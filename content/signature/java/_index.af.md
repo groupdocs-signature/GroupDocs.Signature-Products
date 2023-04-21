@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektroniese ondertekening-API ondersteun [dokumentlêerformate](https://docs.groupdocs.com/signature/java/supported-document-formats/) soos hieronder gelys.
+          Java elektroniese ondertekening API ondersteun verskeie dokument lêer formate soos hieronder gelys. [Ondersteunde dokumentformate.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Deur GroupDocs.Signature vir Java API kan jy QR-kode en strepieskode-handtekeninge in enige dokument, aanbieding, sigblad, prent sowel as PDF-lêer soek en die soekresultaat haal. Jy kan ook pasgemaakte data-objek soek vanaf dokumente wat met QR-kode-handtekening onderteken is, sowel as deursoek na standaard-VCard en e-posvoorwerp van dokumente wat met QR-kode onderteken is. Die verifikasie van geënkripteerde teks van QR-kode-handtekeninge sowel as soek na metadata-handtekening in PDF-dokumente word ook ondersteun. Pas bykomende soekkriteria toe vir digitale handtekeninge van Words & Cells-dokumente.  
 
-          Soekopsie is ook beskikbaar vir metadata-handtekeninge vir word-dokumente, skyfies en sigblaaie, terwyl vormveldsoektog beskikbaar is vir PDF-dokumente.
+          Soekopsie is ook beskikbaar vir metadata-handtekening vir word-dokumente, skyfies en sigblaaie, terwyl vormveldsoektog vir PDF-dokumente beskikbaar is.
 
       # more_feature_loop
       - title: "Stel eSignature-eienskappe op"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature bied API's vir dokumentbesigtiging vir ander gewilde ontwikkelingsomgewings"
+    title: "GroupDocs.Signature bied API's vir dokumentondertekening vir ander gewilde ontwikkelingsomgewings"
 
     solution:
         # solution loop

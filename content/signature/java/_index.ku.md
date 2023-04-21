@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Ew nihêrînek li ser taybetmendiyên GroupDocs.Signature ji bo Java ye:
+          Ew nihêrînek taybetmendiyên GroupDocs.Signature ji bo Java ye:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API-ya îmzekirina elektronîkî ya Java piştgirî dike [formên pelên pelgeyê] (https://docs.groupdocs.com/signature/java/supported-document-formats/) wekî ku li jêr hatî destnîşan kirin.
+          Java-ya îmzakirina elektronîkî API-ya pelê pelgeya cûrbecûr wekî ku li jêr hatî destnîşan kirin piştgirî dike. [Formatên belgeyên piştgirî kirin.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Bi navgîniya GroupDocs.Signature ji bo Java API-ê, hûn dikarin li her belge, pêşkêşî, pelgeya berbelav, wêne, û hem jî pelê PDF-ê li îmzeyên QR-Code û Barcode bigerin û encama lêgerînê bistînin. Her weha hûn dikarin ji belgeyên ku bi Îmzeya QR-Kodê hatine imzekirin û hem jî ji Belgeyên ku bi QR-Kodê hatine îmzekirin li VCard-ya Standard û Tişta E-nameyê Bigerin li tiştên daneya xwerû bigerin. Verastkirina nivîsa şîfrekirî ya îmzeyên QR-Code û her weha lêgerîna li îmzeya metadata di belgeyên PDF de jî piştgirî ye. Ji bo îmzeyên dîjîtal ên Belgeyên Peyv û Hucreyan pîvanên lêgerînê yên din bicîh bînin.  
 
-          Vebijarka lêgerînê di heman demê de ji bo îmzaya metadata ji bo belgeyên peyvan, slayd û pelgeyan jî heye, dema ku lêgerîna form-qadê ji bo belgeyên PDF-ê heye.
+          Vebijarka lêgerînê di heman demê de ji bo îmzeya metadata ji bo belgeyên peyvan, slayd û pelgeyan jî heye, dema ku lêgerîna form-qadê ji bo belgeyên PDF-ê heye.
 
       # more_feature_loop
       - title: "Taybetmendiyên eSignature mîheng bikin"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature API-yên dîtina belgeyan ji bo hawîrdorên din ên pêşkeftinê yên populer pêşkêşî dike"
+    title: "GroupDocs.Signature ji bo hawîrdorên din ên pêşkeftina populer API-yên îmzekirina belgeyê pêşkêşî dike"
 
     solution:
         # solution loop

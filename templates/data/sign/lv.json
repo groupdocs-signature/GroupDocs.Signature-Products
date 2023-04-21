@@ -245,7 +245,8 @@
     "api_nocodelabel": "Skatīt visas bezkoda lietotnes",
     "api_nocode_1_content": "Parakstiet Microsoft Word, Excel, PowerPoint, Visio un PDF failus ar tekstu, attēlu, svītrkodu vai QR kodu.",
     "api_nocode_2_content": "Ciparu parakstiet Word dokumentus tiešsaistē tieši no pārlūkprogrammas bez maksas.",
-    "api_nocode_3_content": "e-Parakstīt PDF failus, izmantojot tekstu, attēlu vai svītrkodu no jebkuras tīmekļa pārlūkprogrammas."
+    "api_nocode_3_content": "e-Parakstīt PDF failus, izmantojot tekstu, attēlu vai svītrkodu no jebkuras tīmekļa pārlūkprogrammas.",
+    "supported_formats": "Atbalstītie dokumentu formāti."
   },
   "index-content-net": {
     "head_title": ".NET digitālā paraksta API — elektroniskā paraksta PDF Word Excel attēli",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Svītrkoda paraksts",
     "overview_tab1_left_content_6": "Zīmogs Paraksts",
     "overview_tab1_left_content_7": "Metadatu paraksts",
-    "overview_tab2_description": "GroupDocs.Signature for .NET atbalsta visu populāro [dokumentu failu formātu] skatīšanu (https://docs.groupdocs.com/signature/net/supported-document-formats/). Izmantojot tikai dažas koda rindiņas, pievienojiet PDF parakstu, Microsoft Office Word, Excel izklājlapu, attēlu, HTML, Outlook e-pastu, OneNote, projektu un grafikas skatīšanas iespējas savās .NET lietojumprogrammās.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET atbalsta visu populāro dokumentu formātu parakstīšanu. Izmantojot tikai dažas koda rindiņas, savās .NET lietojumprogrammās pievienojiet PDF parakstu, Microsoft Office Word, Excel izklājlapu, attēlu, HTML, Outlook e-pastu, OneNote, projektu un grafikas parakstīšanas iespējas.",
     "overview_tab2_right_title": "Attēli un citi formāti",
     "overview_tab2_right_content_1": "Attēli",
     "overview_tab2_right_content_2": "Metafaili",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Izmantojot GroupDocs.Signature for .NET API, varat meklēt QR koda un svītrkoda parakstus jebkurā dokumentā, prezentācijā, izklājlapā, attēlā, kā arī PDF failā un iegūt meklēšanas gaitu. Varat arī meklēt pielāgotu datu objektu no dokumentiem, kas parakstīti ar QR koda parakstu.",
     "more_feature_4_title": "Svītrkoda izvērstās meklēšanas opcijas",
     "more_feature_4_content": "Izmantojot GroupDocs.Signature for.NET API, varat ļoti vienkārši meklēt un atrast vajadzīgo svītrkodu, jo mūsu paraksta API piedāvā izvērstās meklēšanas opcijas. Tie ļauj meklēt svītrkodu noteiktā lapā, meklēt visā dokumentā, norādīt dažādas meklēšanas lapas (pirmā, pēdējā, pāra, nepāra), meklēt noteikta veida kodējuma svītrkodu, meklēt svītrkodu, pamatojoties uz noteiktu teksta virkni, vai meklēt svītrkodu. pamatojoties uz virkni ar opciju “satur”.",
-    "solutions_title": "GroupDocs.Signature piedāvā dokumentu skatīšanas API citām populārām izstrādes vidēm"
+    "solutions_title": "GroupDocs.Signature piedāvā dokumentu parakstīšanas API citām populārām izstrādes vidēm"
   },
   "index-content-java": {
     "head_title": "Java digitālā paraksta API, pievienojiet e-parakstu PDF Word Excel attēlam",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API palīdz izstrādāt Java lietojumprogrammas ar elektroniskā paraksta funkcionalitāti, lai parakstītu atbalstīto formātu digitālos dokumentus, neinstalējot ārēju programmatūru. Tā atbalsta dažādu veidu e-parakstu, piemēram, attēlu, svītrkodu, QR kodu, zīmogu, tekstu, optisko un metadatu, manipulācijas un pārvaldību. Visus jūsu elektroniskos biznesa dokumentus, piemēram, Microsoft Office Word, PowerPoint prezentācijas, Excel izklājlapas, attēlus un PDF failus, var digitāli parakstīt, pielāgojot paraksta rekvizītus, piemēram, ēna, izmēri, izlīdzināšana un daudz kas cits atbilstoši jūsu prasībām. Digitālā paraksta bibliotēka ir vienkārša un viegla, un tā sastāv no viena DLL faila, ko var viegli integrēt jaunā vai esošā Java lietojumprogrammā.",
     "overview_content_2": "Izmantojot GroupDocs.Signature for Java API, jūs varat ielādēt visus reģistrētos sertifikātus no sistēmas vai atrast esošos parakstus, izmantojot vienkāršu un izvērsto meklēšanu. Iespējas strādāt ar paroli aizsargātiem dokumentiem, norādot parastos paraksta rekvizītus (teksta lielumu, necaurredzamību, pagriešanu, verifikāciju, fonta īpašības, krāsu opcijas, lapas numuru, platumu, augšējo, kreiso utt.) un dažādu e-paraksta veidu ieviešanas atbalstu padara to par uzticamu. E-parakstu pārvaldības risinājums digitālajiem dokumentiem.",
     "overview_content_3": "GroupDocs.Signature for Java ir saderīgs ar visām Java versijām un atbalsta populāras operētājsistēmas (Windows, Linux, MacOS), kas spēj palaist Java izpildlaiku",
-    "overview_tab1_description": "Šis ir pārskats par GroupDocs.Signature faetures for Java:",
+    "overview_tab1_description": "Šis ir pārskats par GroupDocs.Signature līdzekļiem Java:",
     "overview_tab1_left_title": "Parakstu veidi",
     "overview_tab1_left_content_1": "Teksta paraksts",
     "overview_tab1_left_content_2": "Attēla paraksts",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Svītrkoda paraksts",
     "overview_tab1_left_content_6": "Zīmogs Paraksts",
     "overview_tab1_left_content_7": "Veidlapas lauka paraksts",
-    "overview_tab2_description": "Java elektroniskās parakstīšanas API atbalsta [dokumentu failu formātus](https://docs.groupdocs.com/signature/java/supported-document-formats/), kā norādīts tālāk.",
+    "overview_tab2_description": "Java elektroniskās parakstīšanas API atbalsta dažādus tālāk norādītos dokumentu failu formātus.",
     "overview_tab2_right_title": "Attēli un citi formāti",
     "overview_tab2_right_content_1": "Attēli",
     "overview_tab2_right_content_2": "Metafaili",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "Meklēšanas opcija ir pieejama arī Word dokumentu, slaidu un izklājlapu metadatu parakstiem, savukārt PDF dokumentiem ir pieejama meklēšana veidlapas laukā.",
     "more_feature_4_title": "Konfigurējiet e-paraksta rekvizītus",
     "more_feature_4_content": "Lai uzlabotu galalietotāju UX, GroupDocs.Signature for Java API nodrošina daudz rekvizītu, kurus var diezgan vienkārši konfigurēt. Varat iestatīt fonta un krāsu opcijas (fona krāsa, priekšplāna krāsa, treknraksts, slīpraksts, pasvītrojums, fontu saime, fonta lielums utt.), fona un apmales opcijas (fona krāsa, fona caurspīdīgums, apmales krāsa, apmales domuzīmes stils, apmales svars, Robežu caurspīdīgums utt.), parakstu piemales (pa kreisi, augšpusē, platums, augstums, polsterējums utt.) un iestatiet attēla paraksta apgabalu un paraksta līdzināšanu (horizontālā līdzināšana, vertikālā līdzināšana utt.).",
-    "solutions_title": "GroupDocs.Signature piedāvā dokumentu skatīšanas API citām populārām izstrādes vidēm"
+    "solutions_title": "GroupDocs.Signature piedāvā dokumentu parakstīšanas API citām populārām izstrādes vidēm"
   }
 }

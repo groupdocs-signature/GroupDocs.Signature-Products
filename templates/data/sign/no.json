@@ -245,7 +245,8 @@
     "api_nocodelabel": "Se alle No Code-apper",
     "api_nocode_1_content": "Signer Microsoft Word, Excel, PowerPoint, Visio og PDF-filer med tekst, bilde, strekkode eller QR-kode.",
     "api_nocode_2_content": "Signer Word-dokumenter digitalt online direkte fra nettleseren din gratis.",
-    "api_nocode_3_content": "e-signer PDF-filer med tekst, bilde eller strekkode fra en hvilken som helst nettleser."
+    "api_nocode_3_content": "e-signer PDF-filer med tekst, bilde eller strekkode fra en hvilken som helst nettleser.",
+    "supported_formats": "Støttede dokumentformater."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Electronic Sign PDF Word Excel-bilder",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Strekkodesignatur",
     "overview_tab1_left_content_6": "Stempel signatur",
     "overview_tab1_left_content_7": "Metadatasignatur",
-    "overview_tab2_description": "GroupDocs.Signature for .NET støtter visning av alle populære [dokumentfilformater](https://docs.groupdocs.com/signature/net/supported-document-formats/). Med bare noen få linjer med kode kan du legge til PDF-signatur, Microsoft Office Word, Excel-regneark, bilde, HTML, Outlook-e-post, OneNote, Project og grafikkvisning i .NET-applikasjonene dine.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET støtter signering av alle populære dokumentformater. Med bare noen få linjer med kode kan du legge til PDF-signatur, Microsoft Office Word, Excel-regneark, bilde, HTML, Outlook-e-post, OneNote, Project og grafikksigneringsfunksjoner i .NET-applikasjonene dine.",
     "overview_tab2_right_title": "Bilder og andre formater",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metafiler",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Gjennom GroupDocs.Signature for .NET API kan du søke etter QR-kode- og strekkodesignaturer i alle dokumenter, presentasjoner, regneark, bilder, samt PDF-filer, og hente søkefremdriften. Du kan også søke etter egendefinerte dataobjekter fra dokumenter signert med QR-kodesignatur.",
     "more_feature_4_title": "Avanserte søkealternativer for strekkode",
     "more_feature_4_content": "Du kan søke og finne strekkoden du trenger gjennom GroupDocs.Signature for.NET API veldig enkelt, siden vår signatur-API tilbyr avanserte søkealternativer. Disse lar deg søke etter strekkode på en bestemt side, søke gjennom et dokument, spesifisere forskjellige sider som skal søkes (første, siste, partall, oddetall), søke etter strekkode av en bestemt kodetype, søke strekkode basert på spesifikk tekststreng, eller søkestrekkode basert på streng med \"inneholder\"-alternativet.",
-    "solutions_title": "GroupDocs.Signature tilbyr API-er for dokumentvisning for andre populære utviklingsmiljøer"
+    "solutions_title": "GroupDocs.Signature tilbyr API-er for dokumentsignering for andre populære utviklingsmiljøer"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Legg til eSignatur til PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Strekkodesignatur",
     "overview_tab1_left_content_6": "Stempel signatur",
     "overview_tab1_left_content_7": "Skjemafeltsignatur",
-    "overview_tab2_description": "Java elektronisk signering API støtter [dokumentfilformater](https://docs.groupdocs.com/signature/java/supported-document-formats/) som oppført nedenfor.",
+    "overview_tab2_description": "Java elektronisk signering API støtter ulike dokumentfilformater som er oppført nedenfor.",
     "overview_tab2_right_title": "Bilder og andre formater",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metafiler",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "Søkealternativ er også tilgjengelig for metadatasignatur for word-dokumenter, lysbilder og regneark, mens skjemafeltsøk er tilgjengelig for PDF-dokumenter.",
     "more_feature_4_title": "Konfigurer eSignature-egenskaper",
     "more_feature_4_content": "For å forbedre brukeropplevelsen til sluttbrukere tilbyr GroupDocs.Signature for Java API mange egenskaper som kan konfigureres ganske enkelt. Du kan angi font- og fargealternativer (bakgrunnsfarge, forgrunnsfarge, fet, kursiv, understreking, skriftfamilie, skriftstørrelse osv.), Bakgrunns- og kantalternativer (bakgrunnsfarge, bakgrunnsgjennomsiktighet, kantfarge, kantstrekstil, kantlinje, kantvekt, Border Transparency etc.), Signaturmarger (Venstre, Topp, Bredde, Høyde, Polstring etc.), og Oppsett bildesignaturområde og signaturjustering (Horisontal justering, Vertikal justering etc.).",
-    "solutions_title": "GroupDocs.Signature tilbyr API-er for dokumentvisning for andre populære utviklingsmiljøer"
+    "solutions_title": "GroupDocs.Signature tilbyr API-er for dokumentsignering for andre populære utviklingsmiljøer"
   }
 }

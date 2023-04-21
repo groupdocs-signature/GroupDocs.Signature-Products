@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature für .NET unterstützt die Anzeige aller gängigen [Dokumentdateiformate](https://docs.groupdocs.com/signature/net/supported-document-formats/). Mit nur wenigen Codezeilen fügen Sie Ihren .NET-Anwendungen PDF-Signaturen, Microsoft Office Word, Excel-Tabellen, Bilder, HTML, Outlook-E-Mails, OneNote, Project und Grafikanzeigefunktionen hinzu.
+          GroupDocs.Signature für .NET unterstützt das Signieren aller gängigen Dokumentformate. Mit nur wenigen Codezeilen fügen Sie Ihren .NET-Anwendungen PDF-Signaturen, Microsoft Office Word, Excel-Tabellen, Bilder, HTML, Outlook-E-Mails, OneNote, Project und Grafik-Signaturfunktionen hinzu. [Unterstützte Dokumentenformate.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    title: "GroupDocs.Signature bietet APIs zum Signieren von Dokumenten für andere beliebte Entwicklungsumgebungen"
 
     solution:
         # solution loop

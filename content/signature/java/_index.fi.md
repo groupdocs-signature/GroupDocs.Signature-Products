@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Tämä on yleiskatsaus GroupDocs.Signature faetures for Java:
+          Tämä on yleiskatsaus Java:n GroupDocs.Signature-ominaisuuksiin:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java sähköisen allekirjoituksen sovellusliittymä tukee [asiakirjatiedostomuotoja](https://docs.groupdocs.com/signature/java/supported-document-formats/), kuten alla on lueteltu.
+          Java sähköisen allekirjoituksen API tukee useita alla lueteltuja asiakirjatiedostomuotoja. [Tuetut asiakirjamuodot.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           GroupDocs.Signature for Java API:n avulla voit etsiä QR-koodi- ja viivakoodiallekirjoituksia mistä tahansa dokumentista, esityksestä, laskentataulukosta, kuvasta sekä PDF-tiedostosta ja hakea hakutuloksen. Voit myös etsiä mukautettuja tietoobjekteja QR-koodiallekirjoituksella allekirjoitetuista asiakirjoista sekä etsiä standardista VCard- ja sähköpostiobjektia QR-koodilla allekirjoitetuista asiakirjoista. Tuetaan myös QR-koodiallekirjoitusten salatun tekstin tarkistamista sekä metadata-allekirjoituksen etsimistä PDF-dokumenteista. Käytä lisähakuehtoja Words & Cells -dokumenttien digitaalisille allekirjoituksille.  
 
-          Hakuvaihtoehto on saatavana myös Word-dokumenttien, diojen ja laskentataulukoiden metatietoallekirjoitukselle, kun taas lomakekenttähaku on käytettävissä PDF-dokumenteille.
+          Hakuvaihtoehto on saatavilla myös Word-dokumenttien, diojen ja laskentataulukoiden metatietoallekirjoitukselle, kun taas lomakekenttähaku on käytettävissä PDF-dokumenteille.
 
       # more_feature_loop
       - title: "Määritä sähköisen allekirjoituksen ominaisuudet"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature tarjoaa asiakirjojen katselusovellusliittymiä muihin suosittuihin kehitysympäristöihin"
+    title: "GroupDocs.Signature tarjoaa dokumenttien allekirjoitussovellusliittymiä muihin suosittuihin kehitysympäristöihin"
 
     solution:
         # solution loop

@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          That is an overview of GroupDocs.Signature faetures for Java:
+          That is an overview of GroupDocs.Signature features for Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java electronically signing API supports [document file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/) as listed below.
+          Java electronically signing API supports various document file formats as listed below. [Supported documents formats.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Through GroupDocs.Signature for Java API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search result. You can also search custom data object from documents signed with QR-Code Signature as well as Search Standard VCard and Email Object from Documents Signed with QR-Code. Verifying encrypted text of QR-Code signatures as well as searching for metadata signature in PDF documents is also supported. Apply additional search criteria for digital signatures of Words & Cells Documents.  
 
-          Search option is also avaialble for metadata signature for word documents, slides and spreadsheets, while form-field search is avaialble for PDF documents.
+          Search option is also available for metadata signature for word documents, slides and spreadsheets, while form-field search is available for PDF documents.
 
       # more_feature_loop
       - title: "Configure eSignature Properties"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Signature offers document signing APIs for other popular development environments"
 
     solution:
         # solution loop

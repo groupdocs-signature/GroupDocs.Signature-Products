@@ -245,7 +245,8 @@
     "api_nocodelabel": "コードなしのアプリをすべて表示",
     "api_nocode_1_content": "Microsoft Word、Excel、PowerPoint、Visio、PDF ファイルにテキスト、画像、バーコード、または QR コードで署名します。",
     "api_nocode_2_content": "無料で、ブラウザーから直接オンラインで Word 文書にデジタル署名します。",
-    "api_nocode_3_content": "任意の Web ブラウザー内からテキスト、画像、またはバーコードを使用して PDF ファイルに電子署名します。"
+    "api_nocode_3_content": "任意の Web ブラウザー内からテキスト、画像、またはバーコードを使用して PDF ファイルに電子署名します。",
+    "supported_formats": "サポートされているドキュメント形式。"
   },
   "index-content-net": {
     "head_title": ".NET デジタル署名 API - 電子署名 PDF Word Excel 画像",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "バーコード署名",
     "overview_tab1_left_content_6": "印鑑署名",
     "overview_tab1_left_content_7": "メタデータ署名",
-    "overview_tab2_description": "GroupDocs.Signature for .NET は、すべての一般的な [ドキュメント ファイル形式] (https://docs.groupdocs.com/signature/net/supported-document-formats/) の表示をサポートしています。わずか数行のコードで、.NET アプリケーションに PDF 署名、Microsoft Office Word、Excel スプレッドシート、画像、HTML、Outlook 電子メール、OneNote、Project、およびグラフィック表示機能を追加します。",
+    "overview_tab2_description": "GroupDocs.Signature for .NET は、すべての一般的なドキュメント形式への署名をサポートしています。わずか数行のコードで、PDF 署名、Microsoft Office Word、Excel スプレッドシート、画像、HTML、Outlook 電子メール、OneNote、Project、およびグラフィック署名機能を .NET アプリケーションに追加します。",
     "overview_tab2_right_title": "画像とその他の形式",
     "overview_tab2_right_content_1": "画像",
     "overview_tab2_right_content_2": "メタファイル",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "GroupDocs.Signature for .NET API を介して、ドキュメント、プレゼンテーション、スプレッドシート、画像、PDF ファイルの QR コードとバーコードの署名を検索し、検索の進行状況を取得できます。また、QR コード署名で署名されたドキュメントからカスタム データ オブジェクトを検索することもできます。",
     "more_feature_4_title": "バーコードの高度な検索オプション",
     "more_feature_4_content": "GroupDocs.Signature for .NET API を介して、必要なバーコードを非常に簡単に検索して見つけることができます。署名 API には高度な検索オプションが用意されています。これらを使用すると、特定のページのバーコードを検索したり、ドキュメント全体を検索したり、検索する別のページ (最初、最後、偶数、奇数) を指定したり、特定のエンコード タイプのバーコードを検索したり、特定のテキスト文字列に基づいてバーコードを検索したり、バーコードを検索したりできます。 「含む」オプションを使用した文字列に基づいています。",
-    "solutions_title": "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+    "solutions_title": "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント署名 API を提供します"
   },
   "index-content-java": {
     "head_title": "Java デジタル署名 API、電子署名を PDF Word Excel 画像に追加",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "バーコード署名",
     "overview_tab1_left_content_6": "印鑑署名",
     "overview_tab1_left_content_7": "フォームフィールド署名",
-    "overview_tab2_description": "Java 電子署名 API は、以下に示す [ドキュメント ファイル形式](https://docs.groupdocs.com/signature/java/supported-document-formats/) をサポートしています。",
+    "overview_tab2_description": "Java 電子署名 API は、次に示すさまざまなドキュメント ファイル形式をサポートしています。",
     "overview_tab2_right_title": "画像とその他の形式",
     "overview_tab2_right_content_1": "画像",
     "overview_tab2_right_content_2": "メタファイル",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "同様に、GroupDocs.Signature for Java API を使用すると、QR、Aztec、Data Matrix などの QR コード タイプを使用できます。サポートされている QR コードのエンコード タイプには、Aztec、DataMatrix、GS1 DataMatrix、および GS1 QR が含まれます。",
     "more_feature_3_title": "署名と証明書を検索",
     "more_feature_3_content_1": "GroupDocs.Signature for Java API を使用すると、ドキュメント、プレゼンテーション、スプレッドシート、画像、PDF ファイルで QR コードとバーコードの署名を検索し、検索結果を取得できます。また、QR コード署名で署名されたドキュメントからカスタム データ オブジェクトを検索したり、QR コードで署名されたドキュメントから標準 VCard および電子メール オブジェクトを検索したりすることもできます。 QR コード署名の暗号化テキストの検証や、PDF ドキュメント内のメタデータ署名の検索もサポートされています。 Words & Cells Documents のデジタル署名に追加の検索条件を適用します。",
-    "more_feature_3_content_2": "検索オプションは、Word ドキュメント、スライド、スプレッドシートのメタデータ署名にも利用でき、PDF ドキュメントにはフォーム フィールド検索を利用できます。",
+    "more_feature_3_content_2": "検索オプションは、Word 文書、スライド、スプレッドシートのメタデータ署名にも使用でき、フォームフィールド検索は PDF 文書で使用できます。",
     "more_feature_4_title": "電子署名のプロパティを構成する",
     "more_feature_4_content": "エンド ユーザーの UX を強化するために、GroupDocs.Signature for Java API は、非常に簡単に構成できる多くのプロパティを提供します。フォントと色のオプション (背景色、前景色、太字、斜体、下線、フォント ファミリー、フォント サイズなど)、背景と境界線のオプション (背景色、背景の透明度、境界線の色、境界線のダッシュ スタイル、境界線の太さ、境界透明度など)、署名マージン (左、上、幅、高さ、パディングなど)、画像署名領域と署名の配置の設定 (水平方向の配置、垂直方向の配置など)。",
-    "solutions_title": "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+    "solutions_title": "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント署名 API を提供します"
   }
 }

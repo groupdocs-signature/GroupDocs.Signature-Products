@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature per a .NET admet la visualització de tots els [formats de fitxer de document] populars (https://docs.groupdocs.com/signature/net/supported-document-formats/). Amb només unes poques línies de codi, afegiu signatura PDF, Microsoft Office Word, full de càlcul Excel, imatge, HTML, correu electrònic d'Outlook, OneNote, Projecte i capacitats de visualització de gràfics a les vostres aplicacions .NET.
+          GroupDocs.Signature per a .NET admet la signatura de tots els formats de documents populars. Amb només unes poques línies de codi, afegiu signatura PDF, Microsoft Office Word, full de càlcul Excel, imatge, HTML, correu electrònic d'Outlook, OneNote, capacitats de signatura de projectes i gràfics a les vostres aplicacions .NET. [Formats de documents admesos.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature ofereix API de visualització de documents per a altres entorns de desenvolupament populars"
+    title: "GroupDocs.Signature ofereix API de signatura de documents per a altres entorns de desenvolupament populars"
 
     solution:
         # solution loop

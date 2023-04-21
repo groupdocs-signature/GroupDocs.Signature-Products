@@ -245,7 +245,8 @@
     "api_nocodelabel": "View All No Code Apps",
     "api_nocode_1_content": "Sign Microsoft Word, Excel, PowerPoint, Visio & PDF files with text, image, Barcode or QR-Code.",
     "api_nocode_2_content": "Digitally sign Word documents online directly from your browser for free.",
-    "api_nocode_3_content": "e-Sign PDF files using text, image or barcode from within any web browser."
+    "api_nocode_3_content": "e-Sign PDF files using text, image or barcode from within any web browser.",
+    "supported_formats": "Supported documents formats."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Electronic Sign PDF Word Excel Images",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Barcode Signature",
     "overview_tab1_left_content_6": "Stamp Signature",
     "overview_tab1_left_content_7": "Metadata Signature",
-    "overview_tab2_description": "GroupDocs.Signature for .NET supports viewing all popular [document file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/). With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET supports signing all popular documents formats. With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics signing capabilities in your .NET applications.",
     "overview_tab2_right_title": "Images & Other Formats",
     "overview_tab2_right_content_1": "Images",
     "overview_tab2_right_content_2": "Metafiles",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Through GroupDocs.Signature for .NET API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search progress. You can also search custom data object from documents signed with QR-Code Signature.",
     "more_feature_4_title": "Advanced Search Options for Barcode",
     "more_feature_4_content": "You can search and locate your required barcode through GroupDocs.Signature for.NET API very easily, as our signature API offers advanced search options. These enable you to search barcode on a particular page, search throughout a document, specify different pages to search (first, last, even, odd), search for barcode of particular encoding type, search barcode based on specific text string, or search barcode based on string with “contains” option.",
-    "solutions_title": "GroupDocs.Signature offers document viewing APIs for other popular development environments"
+    "solutions_title": "GroupDocs.Signature offers document signing APIs for other popular development environments"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Add eSignature to PDF Word Excel Image",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API helps you develop Java applications with electronic signatures functionality to sign digital documents of supported formats without installing any external software. It supports manipulation and management of various types of eSignatures such as Image, Barcode, QR-Code, Stamp, Text, Optical and Metadata. All your electronic business documents like Microsoft Office Word, PowerPoint presentations, Excel spreadsheets, images, & PDF files can be digitally signed by customizing signature properties e.g. shadow, dimensions, alignment and more as per your requirements. The digital signature library is simple and lightweight, consisting of a single DLL file that can be integrated easily within new or an existing Java application.",
     "overview_content_2": "Through GroupDocs.Signature for Java API you can load all registered certificates from system, or locate existing signatures using simple and advanced search. The options to work with password protected documents, specifying common signature properties (text size, opacity, rotation, verification, font properties, color options, page number, width, top, left etc) and support of implementing different eSignature types make it a reliable e-Signatures management solution for digital documents.",
     "overview_content_3": "GroupDocs.Signature for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run Java runtime",
-    "overview_tab1_description": "That is an overview of GroupDocs.Signature faetures for Java:",
+    "overview_tab1_description": "That is an overview of GroupDocs.Signature features for Java:",
     "overview_tab1_left_title": "Signature Types",
     "overview_tab1_left_content_1": "Text Signature",
     "overview_tab1_left_content_2": "Image Signature",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Barcode Signature",
     "overview_tab1_left_content_6": "Stamp Signature",
     "overview_tab1_left_content_7": "Form-field Signature",
-    "overview_tab2_description": "Java electronically signing API supports [document file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/) as listed below.",
+    "overview_tab2_description": "Java electronically signing API supports various document file formats as listed below.",
     "overview_tab2_right_title": "Images & Other Formats",
     "overview_tab2_right_content_1": "Images",
     "overview_tab2_right_content_2": "Metafiles",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Similarly GroupDocs.Signature for Java API allows you to use QR-code types, such as, QR, Aztec, and Data Matrix. Supported QR-Code encoding types include, Aztec, DataMatrix, GS1 DataMatrix, and GS1 QR.",
     "more_feature_3_title": "Search Signatures & Certificates",
     "more_feature_3_content_1": "Through GroupDocs.Signature for Java API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search result. You can also search custom data object from documents signed with QR-Code Signature as well as Search Standard VCard and Email Object from Documents Signed with QR-Code. Verifying encrypted text of QR-Code signatures as well as searching for metadata signature in PDF documents is also supported. Apply additional search criteria for digital signatures of Words & Cells Documents.",
-    "more_feature_3_content_2": "Search option is also avaialble for metadata signature for word documents, slides and spreadsheets, while form-field search is avaialble for PDF documents.",
+    "more_feature_3_content_2": "Search option is also available for metadata signature for word documents, slides and spreadsheets, while form-field search is available for PDF documents.",
     "more_feature_4_title": "Configure eSignature Properties",
     "more_feature_4_content": "To enhance the UX of end-users GroupDocs.Signature for Java API provides a lot of properties that can be configured pretty easily. You can set font and color options (Background Color, Foreground Color, Bold, Italic, Underline, Font Family, Font Size etc.), Background and Border Options (Background Color, Background Transparency, Border Color, Border Dash Style, Border Weight, Border Transparency etc.), Signature Margins (Left, Top, Width, Height, Padding etc.), and Setup Image Signature Area & Signature Alignment (Horizontal Alignment, Vertical Alignment etc.).",
-    "solutions_title": "GroupDocs.Signature offers document viewing APIs for other popular development environments"
+    "solutions_title": "GroupDocs.Signature offers document signing APIs for other popular development environments"
   }
 }

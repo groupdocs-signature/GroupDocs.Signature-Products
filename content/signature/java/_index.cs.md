@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java pro elektronické podepisování API podporuje [formáty souborů dokumentů] (https://docs.groupdocs.com/signature/java/supported-document-formats/), jak je uvedeno níže.
+          Java pro elektronické podepisování API podporuje různé formáty souborů dokumentů, jak je uvedeno níže. [Podporované formáty dokumentů.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Prostřednictvím GroupDocs.Signature for Java API můžete vyhledávat podpisy QR-Code a Barcode v jakémkoli dokumentu, prezentaci, tabulce, obrázku i souboru PDF a získat výsledek vyhledávání. Můžete také vyhledávat vlastní datové objekty z dokumentů podepsaných podpisem QR-Code a také prohledávat standardní VCard a e-mailový objekt z dokumentů podepsaných QR-kódem. Podporováno je také ověřování zašifrovaného textu podpisů QR-Code a hledání podpisu metadat v dokumentech PDF. Použijte další vyhledávací kritéria pro digitální podpisy dokumentů Words & Cells.  
 
-          Možnost vyhledávání je také dostupná pro podpis metadat pro dokumenty Word, snímky a tabulky, zatímco pro dokumenty PDF je k dispozici vyhledávání v poli formuláře.
+          K dispozici je také možnost vyhledávání pro podpis metadat pro dokumenty Word, snímky a tabulky, zatímco pro dokumenty PDF je k dispozici vyhledávání pomocí polí formuláře.
 
       # more_feature_loop
       - title: "Nakonfigurujte vlastnosti elektronického podpisu"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature nabízí rozhraní API pro prohlížení dokumentů pro další populární vývojová prostředí"
+    title: "GroupDocs.Signature nabízí rozhraní API pro podepisování dokumentů pro další populární vývojová prostředí"
 
     solution:
         # solution loop

@@ -245,7 +245,8 @@
     "api_nocodelabel": "Lihat Semua Aplikasi Tanpa Kode",
     "api_nocode_1_content": "Tandatangani file Microsoft Word, Excel, PowerPoint, Visio & PDF dengan teks, gambar, Barcode, atau QR-Code.",
     "api_nocode_2_content": "Tandatangani dokumen Word secara digital secara online langsung dari browser Anda secara gratis.",
-    "api_nocode_3_content": "e-Sign file PDF menggunakan teks, gambar, atau kode batang dari dalam browser web apa pun."
+    "api_nocode_3_content": "e-Sign file PDF menggunakan teks, gambar, atau kode batang dari dalam browser web apa pun.",
+    "supported_formats": "Format dokumen yang didukung."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Tanda Tangan Elektronik Gambar PDF Word Excel",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Tanda Tangan Kode Batang",
     "overview_tab1_left_content_6": "Tanda Tangan Stempel",
     "overview_tab1_left_content_7": "Tanda Tangan Metadata",
-    "overview_tab2_description": "GroupDocs.Signature untuk .NET mendukung melihat semua [format file dokumen] populer (https://docs.groupdocs.com/signature/net/supported-document-formats/). Hanya dengan beberapa baris kode, tambahkan tanda tangan PDF, Microsoft Office Word, spreadsheet Excel, Gambar, HTML, email Outlook, OneNote, Proyek, dan kemampuan tampilan grafik di aplikasi .NET Anda.",
+    "overview_tab2_description": "GroupDocs.Signature untuk .NET mendukung penandatanganan semua format dokumen populer. Hanya dengan beberapa baris kode, tambahkan tanda tangan PDF, Microsoft Office Word, spreadsheet Excel, Gambar, HTML, email Outlook, OneNote, Proyek, dan kemampuan penandatanganan grafik di aplikasi .NET Anda.",
     "overview_tab2_right_title": "Gambar & Format Lainnya",
     "overview_tab2_right_content_1": "Gambar-gambar",
     "overview_tab2_right_content_2": "Metafile",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Melalui GroupDocs.Signature untuk .NET API, Anda dapat mencari tanda tangan QR-Code dan Barcode di dokumen, presentasi, spreadsheet, gambar, serta file PDF apa pun, dan mengambil kemajuan pencarian. Anda juga dapat mencari objek data khusus dari dokumen yang ditandatangani dengan Tanda Tangan Kode QR.",
     "more_feature_4_title": "Opsi Pencarian Lanjutan untuk Barcode",
     "more_feature_4_content": "Anda dapat mencari dan menemukan kode batang yang diperlukan melalui GroupDocs.Signature for.NET API dengan sangat mudah, karena API tanda tangan kami menawarkan opsi pencarian lanjutan. Ini memungkinkan Anda untuk mencari kode batang pada halaman tertentu, mencari di seluruh dokumen, menentukan halaman berbeda untuk mencari (pertama, terakhir, genap, ganjil), mencari kode batang dari jenis penyandian tertentu, mencari kode batang berdasarkan string teks tertentu, atau mencari kode batang berdasarkan string dengan opsi \"berisi\".",
-    "solutions_title": "GroupDocs.Signature menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+    "solutions_title": "GroupDocs.Signature menawarkan API penandatanganan dokumen untuk lingkungan pengembangan populer lainnya"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Tambahkan eSignature ke PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Tanda Tangan Kode Batang",
     "overview_tab1_left_content_6": "Tanda Tangan Stempel",
     "overview_tab1_left_content_7": "Tanda tangan bidang formulir",
-    "overview_tab2_description": "API penandatanganan elektronik Java mendukung [format file dokumen](https://docs.groupdocs.com/signature/java/supported-document-formats/) seperti yang tercantum di bawah ini.",
+    "overview_tab2_description": "API penandatanganan elektronik Java mendukung berbagai format file dokumen seperti yang tercantum di bawah ini.",
     "overview_tab2_right_title": "Gambar & Format Lainnya",
     "overview_tab2_right_content_1": "Gambar-gambar",
     "overview_tab2_right_content_2": "Metafile",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Demikian pula GroupDocs.Signature untuk Java API memungkinkan Anda menggunakan jenis kode QR, seperti, QR, Aztec, dan Data Matrix. Jenis pengkodean QR-Code yang didukung meliputi, Aztec, DataMatrix, GS1 DataMatrix, dan GS1 QR.",
     "more_feature_3_title": "Cari Tanda Tangan & Sertifikat",
     "more_feature_3_content_1": "Melalui GroupDocs.Signature untuk Java API, Anda dapat mencari tanda tangan QR-Code dan Barcode di dokumen, presentasi, spreadsheet, gambar, serta file PDF apa pun, dan mengambil hasil pencarian. Anda juga dapat mencari objek data khusus dari dokumen yang ditandatangani dengan Tanda Tangan QR-Code serta Cari VCard Standar dan Objek Email dari Dokumen yang Ditandatangani dengan QR-Code. Memverifikasi teks terenkripsi dari tanda tangan QR-Code serta mencari tanda tangan metadata dalam dokumen PDF juga didukung. Terapkan kriteria pencarian tambahan untuk tanda tangan digital dari Words & Cells Documents.",
-    "more_feature_3_content_2": "Opsi pencarian juga tersedia untuk tanda tangan metadata untuk dokumen kata, slide, dan spreadsheet, sedangkan pencarian form-field tersedia untuk dokumen PDF.",
+    "more_feature_3_content_2": "Opsi pencarian juga tersedia untuk tanda tangan metadata untuk dokumen kata, slide, dan spreadsheet, sementara pencarian bidang formulir tersedia untuk dokumen PDF.",
     "more_feature_4_title": "Konfigurasikan Properti eSignature",
     "more_feature_4_content": "Untuk meningkatkan UX pengguna akhir GroupDocs.Signature untuk Java API menyediakan banyak properti yang dapat dikonfigurasi dengan cukup mudah. Anda dapat mengatur opsi font dan warna (Warna Latar Belakang, Warna Latar Depan, Tebal, Miring, Garis Bawah, Keluarga Font, Ukuran Font, dll.), Opsi Latar Belakang dan Perbatasan (Warna Latar Belakang, Transparansi Latar Belakang, Warna Perbatasan, Gaya Garis Perbatasan, Berat Perbatasan, Transparansi Perbatasan, dll.), Margin Tanda Tangan (Kiri, Atas, Lebar, Tinggi, Padding, dll.), dan Atur Area Tanda Tangan Gambar & Perataan Tanda Tangan (Perataan Horizontal, Perataan Vertikal, dll.).",
-    "solutions_title": "GroupDocs.Signature menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+    "solutions_title": "GroupDocs.Signature menawarkan API penandatanganan dokumen untuk lingkungan pengembangan populer lainnya"
   }
 }

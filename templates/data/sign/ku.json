@@ -245,7 +245,8 @@
     "api_nocodelabel": "Hemî Serlêdanên No Kodê bibînin",
     "api_nocode_1_content": "Pelên Microsoft Word, Excel, PowerPoint, Visio & PDF bi nivîs, wêne, Barcode an QR-Code îmze bikin.",
     "api_nocode_2_content": "Belgeyên Word-ê bi dîjîtal rasterast ji geroka xwe belaş îmza bikin.",
-    "api_nocode_3_content": "e-Pelên PDF-ê bi karanîna nivîs, wêne an barkodê ji hundurê gerokek webê îmze bikin."
+    "api_nocode_3_content": "e-Pelên PDF-ê bi karanîna nivîs, wêne an barkodê ji hundurê gerokek webê îmze bikin.",
+    "supported_formats": "Formatên belgeyên piştgirî kirin."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Nîşana Elektronîkî PDF Word Excel Wêneyên",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Îmzeya Barcode",
     "overview_tab1_left_content_6": "Îmza Stamp",
     "overview_tab1_left_content_7": "Îmzeya Metadata",
-    "overview_tab2_description": "GroupDocs.Signature ji bo .NET piştgirî dide dîtina hemî [formên pelên pelgeyê] yên populer (https://docs.groupdocs.com/signature/net/supported-document-formats/). Bi tenê çend rêzikên kodê, îmzeya PDF-ê, Microsoft Office Word, pelgeya Excel, Wêne, HTML, e-nameya Outlook, OneNote, Proje û şiyanên dîtina grafîkê di sepanên xwe yên .NET de zêde bikin.",
+    "overview_tab2_description": "GroupDocs.Signature ji bo .NET piştgirî dide îmzekirina hemî formatên belgeyên populer. Bi tenê çend rêzikên kodê, îmzeya PDF-ê, Microsoft Office Word, pelgeya Excel, Wêne, HTML, e-nameya Outlook, OneNote, Proje û îmzakirina grafîkê di sepanên xwe yên .NET de zêde bikin.",
     "overview_tab2_right_title": "Wêne & Formên Din",
     "overview_tab2_right_content_1": "Wêne",
     "overview_tab2_right_content_2": "Metafiles",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Bi navgîniya GroupDocs.Signature ji bo .NET API-ê, hûn dikarin di her belge, pêşkêşî, pelgeş, wêne û her weha pelê PDF-ê de li îmzeyên QR-Code û Barcode bigerin û pêşkeftina lêgerînê bistînin. Her weha hûn dikarin ji belgeyên ku bi îmzeya QR-Code hatine îmzekirin li tiştên daneya xwerû bigerin.",
     "more_feature_4_title": "Vebijarkên Lêgerîna Pêşketî ji bo Barkodê",
     "more_feature_4_content": "Hûn dikarin barkoda xweya pêwîst bi navgîniya GroupDocs.Signature for.NET API pir bi hêsanî bigerin û bibînin, ji ber ku API-ya îmzeya me vebijarkên lêgerîna pêşkeftî pêşkêşî dike. Ev rê dide we ku hûn li ser rûpelek taybetî li barkodê bigerin, li seranserê belgeyekê bigerin, rûpelên cihê yên lêgerînê diyar bikin (yekemîn, dawîn, tewra, cewher), li barkodê bi celebek kodkirina taybetî bigerin, li barkodê li ser bingeha rêzika nivîsê ya taybetî, an barkodê lêgerînê bigerin. li ser bingeha rêzika bi vebijarka \"dihewîne\".",
-    "solutions_title": "GroupDocs.Signature API-yên dîtina belgeyan ji bo hawîrdorên din ên pêşkeftinê yên populer pêşkêşî dike"
+    "solutions_title": "GroupDocs.Signature ji bo hawîrdorên din ên pêşkeftina populer API-yên îmzekirina belgeyê pêşkêşî dike"
   },
   "index-content-java": {
     "head_title": "API-ya Îmzeya Dîjîtal a Java, eSignature li Wêneya PDF Word Excel zêde bikin",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature ji bo Java API ji we re dibe alîkar ku hûn serîlêdanên Java-yê bi fonksiyonên îmzeyên elektronîkî pêşve bibin da ku belgeyên dîjîtal ên formên piştgirî îmze bikin bêyî ku hûn nermalava derveyî saz bikin. Ew manîpulasyon û rêvebirina cûrbecûr e-Îmzeyan ên wekî Wêne, Barcode, QR-Code, Stamp, Text, Optical û Metadata piştgirî dike. Hemî belgeyên karsaziya weya elektronîkî yên mîna Microsoft Office Word, pêşandanên PowerPoint, pelên berbelav ên Excel, wêne û pelên PDF-ê dikarin bi dîjîtalî bi xweşkirina taybetmendiyên îmzeyê ve werin îmze kirin, mînakî. siya, pîvan, rêzkirin û bêtir li gorî daxwazên we. Pirtûkxaneya îmzeya dîjîtal sade û sivik e, ji pelek yek DLL pêk tê ku dikare bi hêsanî di nav serîlêdana Java ya nû an heyî de were yek kirin.",
     "overview_content_2": "Bi navgîniya GroupDocs.Signature ji bo Java API-yê hûn dikarin hemî sertîfîkayên qeydkirî ji pergalê bar bikin, an jî bi karanîna lêgerîna hêsan û pêşkeftî îmzeyên heyî bibînin. Vebijarkên ku bi belgeyên parastî yên şîfreyê re bixebitin, diyarkirina taybetmendiyên îmzeya hevpar (mezinahiya nivîsê, nezelalbûn, zivirandin, verastkirin, taybetmendiyên tîpan, vebijarkên rengan, hejmara rûpelê, firehî, jor, çep û hwd.) û piştgirîkirina pêkanîna cûreyên cûda yên eSignature wê pêbawer dike. Ji bo belgeyên dîjîtal çareseriya rêveberiya e-Îmzeyan.",
     "overview_content_3": "GroupDocs.Signature ji bo Java-yê bi hemî guhertoyên Java-yê re hevaheng e û pergalên xebitandinê yên populer (Windows, Linux, MacOS) piştgirî dike ku dikarin dema xebitandina Java-yê bimeşînin.",
-    "overview_tab1_description": "Ew nihêrînek li ser taybetmendiyên GroupDocs.Signature ji bo Java ye:",
+    "overview_tab1_description": "Ew nihêrînek taybetmendiyên GroupDocs.Signature ji bo Java ye:",
     "overview_tab1_left_title": "Cureyên Îmzeyê",
     "overview_tab1_left_content_1": "Îmzeya Nivîsê",
     "overview_tab1_left_content_2": "Îmzeya Wêne",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Îmzeya Barcode",
     "overview_tab1_left_content_6": "Îmza Stamp",
     "overview_tab1_left_content_7": "Form-qada Îmza",
-    "overview_tab2_description": "API-ya îmzekirina elektronîkî ya Java piştgirî dike [formên pelên pelgeyê] (https://docs.groupdocs.com/signature/java/supported-document-formats/) wekî ku li jêr hatî destnîşan kirin.",
+    "overview_tab2_description": "Java-ya îmzakirina elektronîkî API-ya pelê pelgeya cûrbecûr wekî ku li jêr hatî destnîşan kirin piştgirî dike.",
     "overview_tab2_right_title": "Wêne & Formên Din",
     "overview_tab2_right_content_1": "Wêne",
     "overview_tab2_right_content_2": "Metafiles",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Bi heman rengî GroupDocs.Signature ji bo Java API destûrê dide te ku hûn cûreyên koda QR-ê, wekî QR, Aztec, û Matrixa Daneyê bikar bînin. Cûreyên kodkirina QR-Code yên piştgirî têne, Aztec, DataMatrix, GS1 DataMatrix, û GS1 QR.",
     "more_feature_3_title": "Li Îmze & Sertîfîkayan Bigerin",
     "more_feature_3_content_1": "Bi navgîniya GroupDocs.Signature ji bo Java API-ê, hûn dikarin li her belge, pêşkêşî, pelgeya berbelav, wêne, û hem jî pelê PDF-ê li îmzeyên QR-Code û Barcode bigerin û encama lêgerînê bistînin. Her weha hûn dikarin ji belgeyên ku bi Îmzeya QR-Kodê hatine imzekirin û hem jî ji Belgeyên ku bi QR-Kodê hatine îmzekirin li VCard-ya Standard û Tişta E-nameyê Bigerin li tiştên daneya xwerû bigerin. Verastkirina nivîsa şîfrekirî ya îmzeyên QR-Code û her weha lêgerîna li îmzeya metadata di belgeyên PDF de jî piştgirî ye. Ji bo îmzeyên dîjîtal ên Belgeyên Peyv û Hucreyan pîvanên lêgerînê yên din bicîh bînin.",
-    "more_feature_3_content_2": "Vebijarka lêgerînê di heman demê de ji bo îmzaya metadata ji bo belgeyên peyvan, slayd û pelgeyan jî heye, dema ku lêgerîna form-qadê ji bo belgeyên PDF-ê heye.",
+    "more_feature_3_content_2": "Vebijarka lêgerînê di heman demê de ji bo îmzeya metadata ji bo belgeyên peyvan, slayd û pelgeyan jî heye, dema ku lêgerîna form-qadê ji bo belgeyên PDF-ê heye.",
     "more_feature_4_title": "Taybetmendiyên eSignature mîheng bikin",
     "more_feature_4_content": "Ji bo zêdekirina UX-ya bikarhênerên dawîn GroupDocs.Signature ji bo Java API gelek taybetmendiyan peyda dike ku bi hêsanî têne mîheng kirin. Hûn dikarin vebijarkên font û rengan (Rengê Paşê, Rengê Pêşî, Stûr, Îtalîk, Binxetê, Malbata tîpan, Mezinahiya tîpan hwd.), Vebijarkên Paşgir û Sînor (Rengê Paşê, Zelalbûna paşxanê, Rengê Serhedê, Şêweya Kevirê Serhedê, Giraniya Serhedê), Zelalbûna Sînor hwd.), Rêzên Îmzekirinê (Çep, Ser, Berfireh, Bilindahî, Padding hwd.), û Sazkirina Qada Îmzekirina Wêne & Rêzkirina Îmzekirinê (Rêvekirina Horizontal, Rêzkirina Vertîkal hwd.).",
-    "solutions_title": "GroupDocs.Signature API-yên dîtina belgeyan ji bo hawîrdorên din ên pêşkeftinê yên populer pêşkêşî dike"
+    "solutions_title": "GroupDocs.Signature ji bo hawîrdorên din ên pêşkeftina populer API-yên îmzekirina belgeyê pêşkêşî dike"
   }
 }

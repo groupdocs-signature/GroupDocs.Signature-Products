@@ -245,7 +245,8 @@
     "api_nocodelabel": "Näytä kaikki koodittomat sovellukset",
     "api_nocode_1_content": "Allekirjoita Microsoft Word-, Excel-, PowerPoint-, Visio- ja PDF-tiedostot tekstillä, kuvalla, viivakoodilla tai QR-koodilla.",
     "api_nocode_2_content": "Allekirjoita Word-asiakirjoja digitaalisesti verkossa suoraan selaimestasi ilmaiseksi.",
-    "api_nocode_3_content": "e-Allekirjoita PDF-tiedostoja tekstin, kuvan tai viivakoodin avulla mistä tahansa verkkoselaimesta."
+    "api_nocode_3_content": "e-Allekirjoita PDF-tiedostoja tekstin, kuvan tai viivakoodin avulla mistä tahansa verkkoselaimesta.",
+    "supported_formats": "Tuetut asiakirjamuodot."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Sähköinen allekirjoitus PDF Word Excel -kuvat",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Viivakoodin allekirjoitus",
     "overview_tab1_left_content_6": "Leima Allekirjoitus",
     "overview_tab1_left_content_7": "Metatietojen allekirjoitus",
-    "overview_tab2_description": "GroupDocs.Signature for .NET tukee kaikkien suosittujen [asiakirjatiedostomuotojen] tarkastelua (https://docs.groupdocs.com/signature/net/supported-document-formats/). Lisää vain muutamalla koodirivillä PDF-allekirjoitus, Microsoft Office Word, Excel-laskentataulukko, kuva, HTML, Outlook-sähköposti, OneNote, projektin ja grafiikan katseluominaisuudet .NET-sovelluksiin.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET tukee kaikkien suosittujen asiakirjamuotojen allekirjoittamista. Lisää vain muutamalla koodirivillä PDF-allekirjoitus, Microsoft Office Word, Excel-laskentataulukko, kuva, HTML, Outlook-sähköposti, OneNote, projekti- ja grafiikkaallekirjoitusominaisuudet .NET-sovelluksiin.",
     "overview_tab2_right_title": "Kuvat ja muut muodot",
     "overview_tab2_right_content_1": "Kuvat",
     "overview_tab2_right_content_2": "Metatiedostot",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "GroupDocs.Signature for .NET API:n avulla voit etsiä QR-koodi- ja viivakoodiallekirjoituksia mistä tahansa asiakirjasta, esityksestä, laskentataulukosta, kuvasta sekä PDF-tiedostosta ja noutaa haun edistymisen. Voit myös etsiä mukautettuja tietoobjekteja QR-koodiallekirjoituksella allekirjoitetuista asiakirjoista.",
     "more_feature_4_title": "Viivakoodin haun lisäasetukset",
     "more_feature_4_content": "Voit etsiä ja paikantaa tarvitsemasi viivakoodin GroupDocs.Signature for.NET API:n kautta erittäin helposti, sillä allekirjoitussovellusliittymämme tarjoaa edistyneitä hakuvaihtoehtoja. Niiden avulla voit etsiä viivakoodia tietyltä sivulta, etsiä koko asiakirjasta, määrittää eri sivut haettavaksi (ensimmäinen, viimeinen, parillinen, pariton), etsiä tietyn tyyppistä viivakoodia, etsiä viivakoodia tietyn tekstijonon perusteella tai etsiä viivakoodia perustuu merkkijonoon \"sisältää\"-vaihtoehdon kanssa.",
-    "solutions_title": "GroupDocs.Signature tarjoaa asiakirjojen katselusovellusliittymiä muihin suosittuihin kehitysympäristöihin"
+    "solutions_title": "GroupDocs.Signature tarjoaa dokumenttien allekirjoitussovellusliittymiä muihin suosittuihin kehitysympäristöihin"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, lisää eAllekirjoitus PDF Word Excel -kuvaan",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API auttaa sinua kehittämään Java-sovelluksia, joissa on sähköinen allekirjoitustoiminto tuettujen muotojen digitaalisten asiakirjojen allekirjoittamiseen ilman ulkoisten ohjelmistojen asentamista. Se tukee erityyppisten sähköisten allekirjoitusten, kuten kuvan, viivakoodin, QR-koodin, leiman, tekstin, optisten ja metatietojen, käsittelyä ja hallintaa. Kaikki sähköiset yritysasiakirjasi, kuten Microsoft Office Word, PowerPoint-esitykset, Excel-laskentataulukot, kuvat ja PDF-tiedostot, voidaan allekirjoittaa digitaalisesti mukauttamalla allekirjoitusominaisuuksia esim. varjo, mitat, kohdistus ja paljon muuta tarpeidesi mukaan. Digitaalinen allekirjoituskirjasto on yksinkertainen ja kevyt, ja se koostuu yhdestä DLL-tiedostosta, joka voidaan integroida helposti uuteen tai olemassa olevaan Java-sovellukseen.",
     "overview_content_2": "GroupDocs.Signature for Java API:n kautta voit ladata kaikki rekisteröidyt varmenteet järjestelmästä tai paikantaa olemassa olevat allekirjoitukset yksinkertaisen ja tarkennetun haun avulla. Mahdollisuudet työskennellä salasanalla suojattujen asiakirjojen kanssa, määrittämällä yleiset allekirjoitusominaisuudet (tekstin koko, peittävyys, kierto, vahvistus, fontin ominaisuudet, värivaihtoehdot, sivunumero, leveys, yläreuna, vasen jne.) ja tuki erilaisten eAllekirjoitustyyppien käyttöönotolle tekevät siitä luotettavan Sähköisten allekirjoitusten hallintaratkaisu digitaalisille asiakirjoille.",
     "overview_content_3": "GroupDocs.Signature for Java on yhteensopiva kaikkien Java-versioiden kanssa ja tukee suosittuja käyttöjärjestelmiä (Windows, Linux, MacOS), jotka pystyvät ajamaan Java-ajonaikaa",
-    "overview_tab1_description": "Tämä on yleiskatsaus GroupDocs.Signature faetures for Java:",
+    "overview_tab1_description": "Tämä on yleiskatsaus Java:n GroupDocs.Signature-ominaisuuksiin:",
     "overview_tab1_left_title": "Allekirjoitustyypit",
     "overview_tab1_left_content_1": "Teksti allekirjoitus",
     "overview_tab1_left_content_2": "Kuvan allekirjoitus",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Viivakoodin allekirjoitus",
     "overview_tab1_left_content_6": "Leima Allekirjoitus",
     "overview_tab1_left_content_7": "Lomakekentän allekirjoitus",
-    "overview_tab2_description": "Java sähköisen allekirjoituksen sovellusliittymä tukee [asiakirjatiedostomuotoja](https://docs.groupdocs.com/signature/java/supported-document-formats/), kuten alla on lueteltu.",
+    "overview_tab2_description": "Java sähköisen allekirjoituksen API tukee useita alla lueteltuja asiakirjatiedostomuotoja.",
     "overview_tab2_right_title": "Kuvat ja muut muodot",
     "overview_tab2_right_content_1": "Kuvat",
     "overview_tab2_right_content_2": "Metatiedostot",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Samoin GroupDocs.Signature for Java API antaa sinun käyttää QR-koodityyppejä, kuten QR, Aztec ja Data Matrix. Tuetut QR-koodin koodaustyypit ovat Aztec, DataMatrix, GS1 DataMatrix ja GS1 QR.",
     "more_feature_3_title": "Hae allekirjoituksia ja sertifikaatteja",
     "more_feature_3_content_1": "GroupDocs.Signature for Java API:n avulla voit etsiä QR-koodi- ja viivakoodiallekirjoituksia mistä tahansa dokumentista, esityksestä, laskentataulukosta, kuvasta sekä PDF-tiedostosta ja hakea hakutuloksen. Voit myös etsiä mukautettuja tietoobjekteja QR-koodiallekirjoituksella allekirjoitetuista asiakirjoista sekä etsiä standardista VCard- ja sähköpostiobjektia QR-koodilla allekirjoitetuista asiakirjoista. Tuetaan myös QR-koodiallekirjoitusten salatun tekstin tarkistamista sekä metadata-allekirjoituksen etsimistä PDF-dokumenteista. Käytä lisähakuehtoja Words & Cells -dokumenttien digitaalisille allekirjoituksille.",
-    "more_feature_3_content_2": "Hakuvaihtoehto on saatavana myös Word-dokumenttien, diojen ja laskentataulukoiden metatietoallekirjoitukselle, kun taas lomakekenttähaku on käytettävissä PDF-dokumenteille.",
+    "more_feature_3_content_2": "Hakuvaihtoehto on saatavilla myös Word-dokumenttien, diojen ja laskentataulukoiden metatietoallekirjoitukselle, kun taas lomakekenttähaku on käytettävissä PDF-dokumenteille.",
     "more_feature_4_title": "Määritä sähköisen allekirjoituksen ominaisuudet",
     "more_feature_4_content": "Parantaakseen loppukäyttäjien käyttökokemusta GroupDocs.Signature for Java API tarjoaa monia ominaisuuksia, jotka voidaan määrittää melko helposti. Voit määrittää fontti- ja väriasetukset (taustaväri, etualan väri, lihavoitu, kursivoitu, alleviivaus, kirjasinperhe, kirjasinkoko jne.), tausta- ja reunusasetukset (taustaväri, taustan läpinäkyvyys, reunuksen väri, reunaviivatyyli, reunuksen paino, Reunuksen läpinäkyvyys jne.), Allekirjoitusmarginaalit (vasen, Ylä, Leveys, Korkeus, Padding jne.) ja Määritä kuvan allekirjoitusalue ja allekirjoituksen kohdistus (vaakasuuntainen kohdistus, pystysuuntainen kohdistus jne.).",
-    "solutions_title": "GroupDocs.Signature tarjoaa asiakirjojen katselusovellusliittymiä muihin suosittuihin kehitysympäristöihin"
+    "solutions_title": "GroupDocs.Signature tarjoaa dokumenttien allekirjoitussovellusliittymiä muihin suosittuihin kehitysympäristöihin"
   }
 }

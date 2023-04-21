@@ -245,7 +245,8 @@
     "api_nocodelabel": "Peržiūrėti visas be kodo programas",
     "api_nocode_1_content": "Pasirašykite Microsoft Word, Excel, PowerPoint, Visio ir PDF failus su tekstu, vaizdu, brūkšniniu kodu arba QR kodu.",
     "api_nocode_2_content": "Skaitmeniškai pasirašykite Word dokumentus internetu tiesiai iš naršyklės nemokamai.",
-    "api_nocode_3_content": "Pasirašykite PDF failus naudodami tekstą, vaizdą arba brūkšninį kodą iš bet kurios interneto naršyklės."
+    "api_nocode_3_content": "Pasirašykite PDF failus naudodami tekstą, vaizdą arba brūkšninį kodą iš bet kurios interneto naršyklės.",
+    "supported_formats": "Palaikomi dokumentų formatai."
   },
   "index-content-net": {
     "head_title": ".NET skaitmeninio parašo API – elektroninio parašo PDF Word Excel vaizdai",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Brūkšninio kodo parašas",
     "overview_tab1_left_content_6": "Antspaudas Parašas",
     "overview_tab1_left_content_7": "Metaduomenų parašas",
-    "overview_tab2_description": "GroupDocs.Signature for .NET palaiko visų populiarių [dokumentų failų formatų] peržiūrą (https://docs.groupdocs.com/signature/net/supported-document-formats/). Vos keliomis kodo eilutėmis pridėkite PDF parašo, „Microsoft Office Word“, „Excel“ skaičiuoklės, vaizdo, HTML, „Outlook“ el. pašto, „OneNote“, projekto ir grafikos peržiūros galimybių savo .NET programose.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET palaiko visų populiarių dokumentų formatų pasirašymą. Vos keliomis kodo eilutėmis pridėkite PDF parašo, „Microsoft Office Word“, „Excel“ skaičiuoklės, vaizdo, HTML, „Outlook“ el. pašto, „OneNote“, projekto ir grafikos pasirašymo galimybių savo .NET programose.",
     "overview_tab2_right_title": "Vaizdai ir kiti formatai",
     "overview_tab2_right_content_1": "Vaizdai",
     "overview_tab2_right_content_2": "Metafailai",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Naudodami GroupDocs.Signature, skirtą .NET API, galite ieškoti QR kodo ir brūkšninio kodo parašų bet kuriame dokumente, pristatyme, skaičiuoklėje, paveikslėlyje, taip pat PDF faile ir gauti paieškos eigą. Taip pat galite ieškoti pasirinktinių duomenų objektų iš dokumentų, pasirašytų QR kodo parašu.",
     "more_feature_4_title": "Išplėstinės brūkšninio kodo paieškos parinktys",
     "more_feature_4_content": "Naudodami GroupDocs.Signature for.NET API galite labai lengvai ieškoti ir rasti reikiamą brūkšninį kodą, nes mūsų parašo API siūlo išplėstines paieškos parinktis. Tai leidžia ieškoti brūkšninio kodo konkrečiame puslapyje, ieškoti visame dokumente, nurodyti skirtingus puslapius, kuriuose reikia ieškoti (pirmame, paskutiniame, lyginiame, nelyginiame), ieškoti tam tikro kodavimo tipo brūkšninio kodo, ieškoti brūkšninio kodo pagal konkrečią teksto eilutę arba ieškoti brūkšninio kodo. remiantis eilute su parinktimi „yra“.",
-    "solutions_title": "GroupDocs.Signature siūlo dokumentų peržiūros API kitoms populiarioms kūrimo aplinkoms"
+    "solutions_title": "GroupDocs.Signature siūlo dokumentų pasirašymo API kitoms populiarioms kūrimo aplinkoms"
   },
   "index-content-java": {
     "head_title": "„Java“ skaitmeninio parašo API, pridėkite el. parašą prie PDF „Word Excel“ vaizdo",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API padeda kurti Java programas su elektroninio parašo funkcija, kad būtų galima pasirašyti palaikomų formatų skaitmeninius dokumentus neįdiegiant jokios išorinės programinės įrangos. Jis palaiko manipuliavimą ir valdymą įvairių tipų el. parašais, tokiais kaip vaizdas, brūkšninis kodas, QR kodas, antspaudas, tekstas, optiniai ir metaduomenys. Visi jūsų elektroniniai verslo dokumentai, pvz., „Microsoft Office Word“, „PowerPoint“ pristatymai, „Excel“ skaičiuoklės, vaizdai ir PDF failai, gali būti pasirašyti skaitmeniniu būdu, tinkinant parašo ypatybes, pvz., šešėlis, matmenys, lygiavimas ir daugiau pagal jūsų poreikius. Skaitmeninio parašo biblioteka yra paprasta ir lengva, susidedanti iš vieno DLL failo, kurį galima lengvai integruoti į naują arba esamą Java programą.",
     "overview_content_2": "Naudodami GroupDocs.Signature for Java API galite įkelti visus registruotus sertifikatus iš sistemos arba rasti esamus parašus naudodami paprastą ir išplėstinę paiešką. Galimybės dirbti su slaptažodžiu apsaugotais dokumentais, nurodant bendras parašo ypatybes (teksto dydį, neskaidrumą, pasukimą, patikrinimą, šrifto ypatybes, spalvų parinktis, puslapio numerį, plotį, viršuje, kairėje ir tt) ir įvairių tipų el. parašo diegimo palaikymas daro jį patikimu. Elektroninių parašų valdymo sprendimas skaitmeniniams dokumentams.",
     "overview_content_3": "GroupDocs.Signature for Java yra suderinamas su visomis Java versijomis ir palaiko populiarias operacines sistemas (Windows, Linux, MacOS), kurios gali paleisti Java Runtime",
-    "overview_tab1_description": "Tai yra „GroupDocs.Signature“ savybių, skirtų „Java“, apžvalga:",
+    "overview_tab1_description": "Tai yra „Java“ skirtų „GroupDocs.Signature“ funkcijų apžvalga:",
     "overview_tab1_left_title": "Parašo tipai",
     "overview_tab1_left_content_1": "Teksto parašas",
     "overview_tab1_left_content_2": "Vaizdo parašas",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Brūkšninio kodo parašas",
     "overview_tab1_left_content_6": "Antspaudas Parašas",
     "overview_tab1_left_content_7": "Formos lauko parašas",
-    "overview_tab2_description": "„Java“ elektroninio pasirašymo API palaiko [dokumentų failų formatus](https://docs.groupdocs.com/signature/java/supported-document-formats/), kaip nurodyta toliau.",
+    "overview_tab2_description": "„Java“ elektroninio pasirašymo API palaiko įvairius toliau išvardytus dokumentų failų formatus.",
     "overview_tab2_right_title": "Vaizdai ir kiti formatai",
     "overview_tab2_right_content_1": "Vaizdai",
     "overview_tab2_right_content_2": "Metafailai",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Panašiai GroupDocs.Signature for Java API leidžia naudoti QR kodo tipus, pvz., QR, Aztec ir Data Matrix. Palaikomi QR kodo kodavimo tipai: Aztec, DataMatrix, GS1 DataMatrix ir GS1 QR.",
     "more_feature_3_title": "Ieškoti parašų ir sertifikatų",
     "more_feature_3_content_1": "Naudodami GroupDocs.Signature, skirtą Java API, galite ieškoti QR kodo ir brūkšninio kodo parašų bet kuriame dokumente, pristatyme, skaičiuoklėje, paveikslėlyje, taip pat PDF faile ir gauti paieškos rezultatą. Taip pat galite ieškoti pasirinktinių duomenų objektų iš dokumentų, pasirašytų QR kodo parašu, taip pat ieškoti standartinių VCard ir el. pašto objektų iš dokumentų, pasirašytų QR kodu. Taip pat palaikomas QR kodo parašų užšifruoto teksto tikrinimas ir metaduomenų parašo paieška PDF dokumentuose. Taikykite papildomus paieškos kriterijus Words & Cells dokumentų skaitmeniniams parašams.",
-    "more_feature_3_content_2": "Paieškos parinktis taip pat galima rasti „Word“ dokumentų, skaidrių ir skaičiuoklių metaduomenų parašui, o PDF dokumentų paieška formos lauke.",
+    "more_feature_3_content_2": "Paieškos parinktis taip pat pasiekiama „Word“ dokumentų, skaidrių ir skaičiuoklių metaduomenų parašui, o PDF dokumentų paieška formos lauke.",
     "more_feature_4_title": "Konfigūruokite el. parašo ypatybes",
     "more_feature_4_content": "Siekiant pagerinti galutinių naudotojų UX, GroupDocs.Signature for Java API suteikia daug ypatybių, kurias galima gana lengvai konfigūruoti. Galite nustatyti šrifto ir spalvų parinktis (fono spalva, priekinio plano spalva, paryškintas, kursyvas, pabrauktas, šriftų šeima, šrifto dydis ir tt), fono ir kraštinės parinktis (fono spalva, fono skaidrumas, kraštinės spalva, kraštinės brūkšnio stilius, kraštinės svoris, Kraštinių skaidrumas ir tt), parašo paraštės (kairė, viršuje, plotis, aukštis, užpildymas ir tt) ir vaizdo parašo srities bei parašo lygiavimo nustatymas (horizontalus lygiavimas, vertikalus lygiavimas ir tt).",
-    "solutions_title": "GroupDocs.Signature siūlo dokumentų peržiūros API kitoms populiarioms kūrimo aplinkoms"
+    "solutions_title": "GroupDocs.Signature siūlo dokumentų pasirašymo API kitoms populiarioms kūrimo aplinkoms"
   }
 }

@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java 전자 서명 API는 아래와 같이 [문서 파일 형식](https://docs.groupdocs.com/signature/java/supported-document-formats/)을 지원합니다.
+          Java 전자 서명 API는 아래와 같은 다양한 문서 파일 형식을 지원합니다. [지원되는 문서 형식.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature는 널리 사용되는 다른 개발 환경을 위한 문서 보기 API를 제공합니다."
+    title: "GroupDocs.Signature는 널리 사용되는 다른 개발 환경을 위한 문서 서명 API를 제공합니다."
 
     solution:
         # solution loop

@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature for .NET supports viewing all popular [document file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/). With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.
+          GroupDocs.Signature for .NET supports signing all popular documents formats. With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics signing capabilities in your .NET applications. [Supported documents formats.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Signature offers document signing APIs for other popular development environments"
 
     solution:
         # solution loop

@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          .NET용 GroupDocs.Signature는 널리 사용되는 모든 [문서 파일 형식](https://docs.groupdocs.com/signature/net/supported-document-formats/) 보기를 지원합니다. 몇 줄의 코드만으로 PDF 서명, Microsoft Office Word, Excel 스프레드시트, 이미지, HTML, Outlook 전자 메일, OneNote, Project 및 그래픽 보기 기능을 .NET 응용 프로그램에 추가할 수 있습니다.
+          .NET용 GroupDocs.Signature는 널리 사용되는 모든 문서 형식 서명을 지원합니다. 몇 줄의 코드만으로 .NET 애플리케이션에 PDF 서명, Microsoft Office Word, Excel 스프레드시트, 이미지, HTML, Outlook 전자 메일, OneNote, Project 및 그래픽 서명 기능을 추가할 수 있습니다. [지원되는 문서 형식.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature는 널리 사용되는 다른 개발 환경을 위한 문서 보기 API를 제공합니다."
+    title: "GroupDocs.Signature는 널리 사용되는 다른 개발 환경을 위한 문서 서명 API를 제공합니다."
 
     solution:
         # solution loop

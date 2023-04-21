@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          L'API de signatura electrònica de Java admet [formats de fitxer de document](https://docs.groupdocs.com/signature/java/supported-document-formats/) tal com s'indica a continuació.
+          L'API de signatura electrònica de Java admet diversos formats de fitxers de documents tal com s'enumeren a continuació. [Formats de documents admesos.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature ofereix API de visualització de documents per a altres entorns de desenvolupament populars"
+    title: "GroupDocs.Signature ofereix API de signatura de documents per a altres entorns de desenvolupament populars"
 
     solution:
         # solution loop

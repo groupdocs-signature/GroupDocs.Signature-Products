@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Το API ηλεκτρονικής υπογραφής Java υποστηρίζει [μορφές αρχείων εγγράφων](https://docs.groupdocs.com/signature/java/supported-document-formats/) όπως αναφέρονται παρακάτω.
+          Το API ηλεκτρονικής υπογραφής Java υποστηρίζει διάφορες μορφές αρχείων εγγράφων όπως αναφέρονται παρακάτω. [Υποστηριζόμενες μορφές εγγράφων.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "Το GroupDocs.Signature προσφέρει API προβολής εγγράφων για άλλα δημοφιλή περιβάλλοντα ανάπτυξης"
+    title: "Το GroupDocs.Signature προσφέρει API υπογραφής εγγράφων για άλλα δημοφιλή περιβάλλοντα ανάπτυξης"
 
     solution:
         # solution loop

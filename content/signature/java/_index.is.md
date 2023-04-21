@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java rafrænt undirskrift API styður [skjalaskráarsnið](https://docs.groupdocs.com/signature/java/supported-document-formats/) eins og skráð er hér að neðan.
+          Java rafræn undirritun API styður ýmis skjalaskráarsnið eins og skráð eru hér að neðan. [Stuðningur skjalasnið.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Í gegnum GroupDocs.Signature fyrir Java API geturðu leitað í QR-kóða og strikamerkjaundirskriftum í hvaða skjali, kynningu, töflureikni, mynd sem og PDF-skrá, og sótt leitarniðurstöðuna. Þú getur líka leitað í sérsniðnum gagnahlut úr skjölum sem eru undirrituð með QR-kóða undirskrift sem og Leita í venjulegu VCard og tölvupósthlut úr skjölum sem eru undirrituð með QR-kóða. Staðfesting á dulkóðuðum texta QR-kóða undirskrifta sem og leit að undirskrift lýsigagna í PDF skjölum er einnig studd. Notaðu viðbótarleitarskilyrði fyrir stafrænar undirskriftir Words & Cells Documents.  
 
-          Leitarmöguleiki er einnig tiltækur fyrir undirskrift lýsigagna fyrir Word skjöl, skyggnur og töflureikni, en leit á formreitum er í boði fyrir PDF skjöl.
+          Leitarmöguleiki er einnig tiltækur fyrir undirskrift lýsigagna fyrir word skjöl, skyggnur og töflureikna, en leit á formreitum er í boði fyrir PDF skjöl.
 
       # more_feature_loop
       - title: "Stilla eSignature Properties"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature býður upp á API fyrir skjalaskoðun fyrir önnur vinsæl þróunarumhverfi"
+    title: "GroupDocs.Signature býður upp á API undirritun skjala fyrir önnur vinsæl þróunarumhverfi"
 
     solution:
         # solution loop

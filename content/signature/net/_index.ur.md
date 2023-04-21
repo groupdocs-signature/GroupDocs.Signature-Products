@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          .NET کے لیے GroupDocs.Signature تمام مقبول [دستاویزی فائل فارمیٹس](https://docs.groupdocs.com/signature/net/supported-document-formats/) دیکھنے کی حمایت کرتا ہے۔ کوڈ کی صرف چند سطروں کے ساتھ، اپنی .NET ایپلیکیشنز میں پی ڈی ایف دستخط، مائیکروسافٹ آفس ورڈ، ایکسل اسپریڈشیٹ، امیج، ایچ ٹی ایم ایل، آؤٹ لک ای میل، ون نوٹ، پروجیکٹ اور گرافکس دیکھنے کی صلاحیتیں شامل کریں۔
+          .NET کے لیے GroupDocs.Signature تمام مشہور دستاویزات فارمیٹس پر دستخط کرنے کی حمایت کرتا ہے۔ کوڈ کی صرف چند لائنوں کے ساتھ، اپنی .NET ایپلیکیشنز میں PDF دستخط، Microsoft Office Word، Excel اسپریڈشیٹ، امیج، HTML، Outlook ای میل، OneNote، پروجیکٹ اور گرافکس پر دستخط کرنے کی صلاحیتیں شامل کریں۔ [تائید شدہ دستاویزات کی شکلیں۔](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature دیگر مقبول ترقیاتی ماحول کے لیے دستاویز دیکھنے والے APIs پیش کرتا ہے۔"
+    title: "GroupDocs.Signature دیگر مقبول ترقیاتی ماحول کے لیے دستاویز پر دستخط کرنے والے APIs پیش کرتا ہے۔"
 
     solution:
         # solution loop

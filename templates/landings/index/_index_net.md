@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          <% "{index-content-net.overview_tab2_description}" %>
+          <% "{index-content-net.overview_tab2_description} [{index-content.supported_formats}](https://docs.groupdocs.com/signature/net/supported-document-formats/)" %>
 
         left:
           enable: true

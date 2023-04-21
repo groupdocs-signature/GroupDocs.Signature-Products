@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API za elektronsko podpisovanje Java podpira [formate datotek dokumentov](https://docs.groupdocs.com/signature/java/supported-document-formats/), kot je navedeno spodaj.
+          API za elektronsko podpisovanje Java podpira različne formate datotek dokumentov, kot je navedeno spodaj. [Podprti formati dokumentov.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature ponuja API-je za ogled dokumentov za druga priljubljena razvojna okolja"
+    title: "GroupDocs.Signature ponuja API-je za podpisovanje dokumentov za druga priljubljena razvojna okolja"
 
     solution:
         # solution loop

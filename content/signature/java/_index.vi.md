@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Đó là tổng quan về GroupDocs.Signature faetures cho Java:
+          Đó là tổng quan về các tính năng của GroupDocs.Signature dành cho Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API ký điện tử Java hỗ trợ [các định dạng tệp tài liệu](https://docs.groupdocs.com/signature/java/supported-document-formats/) như được liệt kê bên dưới.
+          API ký điện tử Java hỗ trợ các định dạng tệp tài liệu khác nhau như được liệt kê bên dưới. [Các định dạng tài liệu được hỗ trợ.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Thông qua API GroupDocs.Signature cho Java, bạn có thể tìm kiếm chữ ký Mã QR và Mã vạch trong mọi tài liệu, bản trình bày, bảng tính, hình ảnh cũng như tệp PDF và tìm nạp kết quả tìm kiếm. Bạn cũng có thể tìm kiếm đối tượng dữ liệu tùy chỉnh từ các tài liệu được ký bằng Chữ ký Mã QR cũng như Tìm kiếm Đối tượng Email và VCard Chuẩn từ các Tài liệu được ký bằng Mã QR. Xác minh văn bản được mã hóa của chữ ký QR-Code cũng như tìm kiếm chữ ký siêu dữ liệu trong tài liệu PDF cũng được hỗ trợ. Áp dụng các tiêu chí tìm kiếm bổ sung cho chữ ký số của Words & Cells Documents.  
 
-          Tùy chọn tìm kiếm cũng khả dụng đối với chữ ký siêu dữ liệu đối với tài liệu từ, trang trình bày và bảng tính, trong khi tìm kiếm trường biểu mẫu khả dụng đối với tài liệu PDF.
+          Tùy chọn tìm kiếm cũng khả dụng cho chữ ký siêu dữ liệu đối với tài liệu từ, trang trình bày và bảng tính, trong khi tìm kiếm trường biểu mẫu khả dụng đối với tài liệu PDF.
 
       # more_feature_loop
       - title: "Định cấu hình Thuộc tính chữ ký điện tử"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature cung cấp API xem tài liệu cho các môi trường phát triển phổ biến khác"
+    title: "GroupDocs.Signature cung cấp API ký tài liệu cho các môi trường phát triển phổ biến khác"
 
     solution:
         # solution loop

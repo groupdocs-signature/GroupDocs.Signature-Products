@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature for .NET 支持查看所有流行的[文档文件格式](https://docs.groupdocs.com/signature/net/supported-document-formats/)。只需几行代码，即可在您的 .NET 应用程序中添加 PDF 签名、Microsoft Office Word、Excel 电子表格、图像、HTML、Outlook 电子邮件、OneNote、项目和图形查看功能。
+          GroupDocs.Signature for .NET 支持签署所有流行的文档格式。只需几行代码，即可在您的 .NET 应用程序中添加 PDF 签名、Microsoft Office Word、Excel 电子表格、图像、HTML、Outlook 电子邮件、OneNote、项目和图形签名功能。 [支持的文档格式。](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature 为其他流行的开发环境提供文档查看 API"
+    title: "GroupDocs.Signature 为其他流行的开发环境提供文档签名 API"
 
     solution:
         # solution loop

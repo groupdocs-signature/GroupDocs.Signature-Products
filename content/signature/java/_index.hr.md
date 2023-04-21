@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API za elektroničko potpisivanje Java podržava [formate datoteka dokumenata](https://docs.groupdocs.com/signature/java/supported-document-formats/) kako je navedeno u nastavku.
+          API za elektroničko potpisivanje Java podržava različite formate datoteka dokumenata kako je navedeno u nastavku. [Podržani formati dokumenata.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Putem API-ja GroupDocs.Signature za Java možete pretraživati ​​potpise QR-kodova i crtičnih kodova u bilo kojem dokumentu, prezentaciji, proračunskoj tablici, slici, kao i PDF datoteci, te dohvatiti rezultate pretraživanja. Također možete pretraživati ​​prilagođeni podatkovni objekt iz dokumenata potpisanih potpisom QR-koda kao i pretraživati ​​standardnu ​​VCard i objekt e-pošte iz dokumenata potpisanih QR-kodom. Također je podržana provjera šifriranog teksta QR-Code potpisa kao i traženje potpisa metapodataka u PDF dokumentima. Primijenite dodatne kriterije pretraživanja za digitalne potpise Words & Cells dokumenata.  
 
-          Opcija pretraživanja također je dostupna za potpis metapodataka za Word dokumente, slajdove i proračunske tablice, dok je pretraživanje polja obrasca dostupno za PDF dokumente.
+          Opcija pretraživanja dostupna je i za potpis metapodataka za Word dokumente, slajdove i proračunske tablice, dok je pretraživanje polja obrasca dostupno za PDF dokumente.
 
       # more_feature_loop
       - title: "Konfigurirajte svojstva e-potpisa"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature nudi API-je za pregledavanje dokumenata za druga popularna razvojna okruženja"
+    title: "GroupDocs.Signature nudi API-je za potpisivanje dokumenata za druga popularna razvojna okruženja"
 
     solution:
         # solution loop

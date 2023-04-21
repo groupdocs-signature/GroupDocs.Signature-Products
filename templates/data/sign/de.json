@@ -245,7 +245,8 @@
     "api_nocodelabel": "Alle No-Code-Apps anzeigen",
     "api_nocode_1_content": "Signieren Sie Microsoft Word-, Excel-, PowerPoint-, Visio- und PDF-Dateien mit Text, Bild, Barcode oder QR-Code.",
     "api_nocode_2_content": "Signieren Sie Word-Dokumente kostenlos online direkt in Ihrem Browser.",
-    "api_nocode_3_content": "e-Signieren Sie PDF-Dateien mit Text, Bild oder Barcode in jedem Webbrowser."
+    "api_nocode_3_content": "e-Signieren Sie PDF-Dateien mit Text, Bild oder Barcode in jedem Webbrowser.",
+    "supported_formats": "Unterstützte Dokumentenformate."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Elektronisches Signieren von PDF-Word-Excel-Bildern",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Barcode-Signatur",
     "overview_tab1_left_content_6": "Stempel Unterschrift",
     "overview_tab1_left_content_7": "Metadaten-Signatur",
-    "overview_tab2_description": "GroupDocs.Signature für .NET unterstützt die Anzeige aller gängigen [Dokumentdateiformate](https://docs.groupdocs.com/signature/net/supported-document-formats/). Mit nur wenigen Codezeilen fügen Sie Ihren .NET-Anwendungen PDF-Signaturen, Microsoft Office Word, Excel-Tabellen, Bilder, HTML, Outlook-E-Mails, OneNote, Project und Grafikanzeigefunktionen hinzu.",
+    "overview_tab2_description": "GroupDocs.Signature für .NET unterstützt das Signieren aller gängigen Dokumentformate. Mit nur wenigen Codezeilen fügen Sie Ihren .NET-Anwendungen PDF-Signaturen, Microsoft Office Word, Excel-Tabellen, Bilder, HTML, Outlook-E-Mails, OneNote, Project und Grafik-Signaturfunktionen hinzu.",
     "overview_tab2_right_title": "Bilder und andere Formate",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metadateien",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Über GroupDocs.Signature for .NET API können Sie QR-Code- und Barcode-Signaturen in allen Dokumenten, Präsentationen, Tabellenkalkulationen, Bildern sowie PDF-Dateien suchen und den Suchfortschritt abrufen. Sie können auch benutzerdefinierte Datenobjekte aus mit QR-Code-Signatur signierten Dokumenten suchen.",
     "more_feature_4_title": "Erweiterte Suchoptionen für Barcode",
     "more_feature_4_content": "Sie können Ihren erforderlichen Barcode über GroupDocs.Signature for.NET API sehr einfach suchen und finden, da unsere Signatur-API erweiterte Suchoptionen bietet. Diese ermöglichen es Ihnen, Barcodes auf einer bestimmten Seite zu suchen, ein Dokument zu durchsuchen, verschiedene zu durchsuchende Seiten anzugeben (erste, letzte, gerade, ungerade), nach Barcodes mit einem bestimmten Codierungstyp zu suchen, Barcodes basierend auf einer bestimmten Textzeichenfolge zu suchen oder Barcodes zu suchen basierend auf einer Zeichenfolge mit der Option „enthält“.",
-    "solutions_title": "GroupDocs.Signature bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    "solutions_title": "GroupDocs.Signature bietet APIs zum Signieren von Dokumenten für andere beliebte Entwicklungsumgebungen"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Hinzufügen von eSignatur zu PDF Word Excel Image",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API unterstützt Sie bei der Entwicklung von Java-Anwendungen mit Funktionen für elektronische Signaturen, um digitale Dokumente in unterstützten Formaten zu signieren, ohne externe Software installieren zu müssen. Es unterstützt die Manipulation und Verwaltung verschiedener Arten von elektronischen Signaturen wie Bild, Barcode, QR-Code, Stempel, Text, optische und Metadaten. Alle Ihre elektronischen Geschäftsdokumente wie Microsoft Office Word, PowerPoint-Präsentationen, Excel-Tabellen, Bilder und PDF-Dateien können digital signiert werden, indem Sie Signatureigenschaften anpassen, z. Schatten, Abmessungen, Ausrichtung und mehr nach Ihren Wünschen. Die digitale Signaturbibliothek ist einfach und leichtgewichtig und besteht aus einer einzigen DLL-Datei, die problemlos in eine neue oder eine vorhandene Java-Anwendung integriert werden kann.",
     "overview_content_2": "Über GroupDocs.Signature for Java API können Sie alle registrierten Zertifikate aus dem System laden oder vorhandene Signaturen mit einer einfachen und erweiterten Suche finden. Die Optionen zum Arbeiten mit passwortgeschützten Dokumenten, das Festlegen gemeinsamer Signatureigenschaften (Textgröße, Deckkraft, Drehung, Überprüfung, Schriftarteigenschaften, Farboptionen, Seitenzahl, Breite, oben, links usw.) und die Unterstützung der Implementierung verschiedener eSignatur-Typen machen es zu einer zuverlässigen E-Signaturen-Verwaltungslösung für digitale Dokumente.",
     "overview_content_3": "GroupDocs.Signature for Java ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), die Java-Runtime ausführen können",
-    "overview_tab1_description": "Das ist eine Übersicht der GroupDocs.Signature-Funktionen für Java:",
+    "overview_tab1_description": "Das ist ein Überblick über GroupDocs.Signature-Funktionen für Java:",
     "overview_tab1_left_title": "Signaturtypen",
     "overview_tab1_left_content_1": "Textsignatur",
     "overview_tab1_left_content_2": "Bildsignatur",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Barcode-Signatur",
     "overview_tab1_left_content_6": "Stempel Unterschrift",
     "overview_tab1_left_content_7": "Formularfeld-Signatur",
-    "overview_tab2_description": "Die Java-API für elektronische Signaturen unterstützt [Dokumentdateiformate](https://docs.groupdocs.com/signature/java/supported-document-formats/) wie unten aufgeführt.",
+    "overview_tab2_description": "Die elektronische Java-Signatur-API unterstützt verschiedene Dokumentdateiformate, wie unten aufgeführt.",
     "overview_tab2_right_title": "Bilder und andere Formate",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metadateien",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "In ähnlicher Weise können Sie mit GroupDocs.Signature for Java API QR-Code-Typen wie QR, Aztec und Data Matrix verwenden. Zu den unterstützten QR-Code-Codierungstypen gehören Aztec, DataMatrix, GS1 DataMatrix und GS1 QR.",
     "more_feature_3_title": "Suchen Sie nach Signaturen und Zertifikaten",
     "more_feature_3_content_1": "Über GroupDocs.Signature for Java API können Sie QR-Code- und Barcode-Signaturen in allen Dokumenten, Präsentationen, Tabellenkalkulationen, Bildern sowie PDF-Dateien suchen und das Suchergebnis abrufen. Sie können auch benutzerdefinierte Datenobjekte aus mit QR-Code-Signatur signierten Dokumenten sowie Standard-VCard- und E-Mail-Objekte aus mit QR-Code signierten Dokumenten durchsuchen. Die Überprüfung des verschlüsselten Textes von QR-Code-Signaturen sowie die Suche nach Metadaten-Signaturen in PDF-Dokumenten wird ebenfalls unterstützt. Wenden Sie zusätzliche Suchkriterien für digitale Signaturen von Words & Cells-Dokumenten an.",
-    "more_feature_3_content_2": "Die Suchoption ist auch für Metadaten-Signaturen für Word-Dokumente, Folien und Tabellenkalkulationen verfügbar, während die Formularfeldsuche für PDF-Dokumente verfügbar ist.",
+    "more_feature_3_content_2": "Die Suchoption ist auch für die Metadatensignatur für Word-Dokumente, Folien und Tabellenkalkulationen verfügbar, während die Formularfeldsuche für PDF-Dokumente verfügbar ist.",
     "more_feature_4_title": "Konfigurieren Sie eSignatur-Eigenschaften",
     "more_feature_4_content": "Um die UX von Endbenutzern zu verbessern, bietet GroupDocs.Signature for Java API viele Eigenschaften, die ziemlich einfach konfiguriert werden können. Sie können Schriftart- und Farboptionen (Hintergrundfarbe, Vordergrundfarbe, Fett, Kursiv, Unterstrichen, Schriftfamilie, Schriftgröße usw.), Hintergrund- und Rahmenoptionen (Hintergrundfarbe, Hintergrundtransparenz, Rahmenfarbe, Rahmenstrichstil, Rahmenstärke, Rahmentransparenz usw.), Unterschriftsränder (Links, Oben, Breite, Höhe, Auffüllung usw.) und Einrichtung des Bildunterschriftsbereichs und der Unterschriftsausrichtung (Horizontale Ausrichtung, Vertikale Ausrichtung usw.).",
-    "solutions_title": "GroupDocs.Signature bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    "solutions_title": "GroupDocs.Signature bietet APIs zum Signieren von Dokumenten für andere beliebte Entwicklungsumgebungen"
   }
 }

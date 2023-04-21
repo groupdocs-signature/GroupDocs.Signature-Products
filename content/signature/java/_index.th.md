@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          นั่นคือภาพรวมของ GroupDocs.Signature faetures สำหรับ Java:
+          นั่นคือภาพรวมของคุณสมบัติ GroupDocs.Signature สำหรับ Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API การลงนามทางอิเล็กทรอนิกส์ของ Java รองรับ [รูปแบบไฟล์เอกสาร] (https://docs.groupdocs.com/signature/java/supported-document-formats/) ตามรายการด้านล่าง
+          API การเซ็นชื่อแบบอิเล็กทรอนิกส์ของ Java รองรับรูปแบบไฟล์เอกสารต่างๆ ตามรายการด้านล่าง [รูปแบบเอกสารที่รองรับ](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           GroupDocs.Signature สำหรับ Java API คุณสามารถค้นหาลายเซ็น QR-Code และบาร์โค้ดในเอกสาร งานนำเสนอ สเปรดชีต รูปภาพ ตลอดจนไฟล์ PDF และดึงผลการค้นหา คุณยังสามารถค้นหาวัตถุข้อมูลที่กำหนดเองจากเอกสารที่ลงนามด้วยลายเซ็น QR-Code เช่นเดียวกับการค้นหา VCard มาตรฐานและวัตถุอีเมลจากเอกสารที่ลงนามด้วย QR-Code รองรับการตรวจสอบข้อความที่เข้ารหัสของลายเซ็น QR-Code รวมถึงการค้นหาลายเซ็นข้อมูลเมตาในเอกสาร PDF ใช้เกณฑ์การค้นหาเพิ่มเติมสำหรับลายเซ็นดิจิทัลของ Words & Cells Documents  
 
-          ตัวเลือกการค้นหายังใช้ได้สำหรับลายเซ็นข้อมูลเมตาสำหรับเอกสารคำ สไลด์ และสเปรดชีต ในขณะที่การค้นหาในฟิลด์แบบฟอร์มมีให้ใช้งานสำหรับเอกสาร PDF
+          ตัวเลือกการค้นหายังใช้ได้สำหรับลายเซ็นข้อมูลเมตาสำหรับเอกสารคำ สไลด์ และสเปรดชีต ขณะที่การค้นหาในฟิลด์แบบฟอร์มมีให้ใช้งานสำหรับเอกสาร PDF
 
       # more_feature_loop
       - title: "กำหนดค่าคุณสมบัติ eSignature"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature นำเสนอ API การดูเอกสารสำหรับสภาพแวดล้อมการพัฒนายอดนิยมอื่นๆ"
+    title: "GroupDocs.Signature เสนอ API การเซ็นเอกสารสำหรับสภาพแวดล้อมการพัฒนายอดนิยมอื่นๆ"
 
     solution:
         # solution loop

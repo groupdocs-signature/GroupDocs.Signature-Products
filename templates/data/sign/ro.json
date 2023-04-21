@@ -245,7 +245,8 @@
     "api_nocodelabel": "Vizualizați toate aplicațiile fără cod",
     "api_nocode_1_content": "Semnează fișiere Microsoft Word, Excel, PowerPoint, Visio și PDF cu text, imagine, cod de bare sau cod QR.",
     "api_nocode_2_content": "Semnează digital documentele Word online, direct din browser, gratuit.",
-    "api_nocode_3_content": "E-Sign fișiere PDF folosind text, imagine sau cod de bare din orice browser web."
+    "api_nocode_3_content": "E-Sign fișiere PDF folosind text, imagine sau cod de bare din orice browser web.",
+    "supported_formats": "Formate de documente acceptate."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Semnă electronică PDF Word Excel Imagini",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Semnătura codului de bare",
     "overview_tab1_left_content_6": "Semnătura ștampilă",
     "overview_tab1_left_content_7": "Semnătura metadatelor",
-    "overview_tab2_description": "GroupDocs.Signature pentru .NET acceptă vizualizarea tuturor [formatelor de fișiere de documente] populare (https://docs.groupdocs.com/signature/net/supported-document-formats/). Cu doar câteva linii de cod, adăugați semnătură PDF, Microsoft Office Word, foaie de calcul Excel, imagine, HTML, e-mail Outlook, OneNote, proiect și capabilități de vizualizare a graficelor în aplicațiile dvs. .NET.",
+    "overview_tab2_description": "GroupDocs.Signature pentru .NET acceptă semnarea tuturor formatelor de documente populare. Cu doar câteva linii de cod, adăugați semnătură PDF, Microsoft Office Word, foaie de calcul Excel, Imagine, HTML, e-mail Outlook, OneNote, Capabilități de semnare de proiect și grafică în aplicațiile dvs. .NET.",
     "overview_tab2_right_title": "Imagini și alte formate",
     "overview_tab2_right_content_1": "Imagini",
     "overview_tab2_right_content_2": "Metafișiere",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Prin GroupDocs.Signature pentru .NET API, puteți căuta semnături QR-Code și coduri de bare în orice document, prezentare, foaie de calcul, imagine, precum și fișier PDF și puteți prelua progresul căutării. De asemenea, puteți căuta obiecte de date personalizate din documente semnate cu QR-Code Signature.",
     "more_feature_4_title": "Opțiuni de căutare avansată pentru codul de bare",
     "more_feature_4_content": "Puteți căuta și găsi codul de bare necesar prin GroupDocs.Signature for.NET API foarte ușor, deoarece API-ul nostru semnătură oferă opțiuni avansate de căutare. Acestea vă permit să căutați un cod de bare pe o anumită pagină, să căutați într-un document, să specificați diferite pagini de căutat (prima, ultima, par, impar), să căutați un cod de bare de un anumit tip de codificare, să căutați un cod de bare pe baza unui anumit șir de text sau să căutați un cod de bare bazat pe șir cu opțiunea „conține”.",
-    "solutions_title": "GroupDocs.Signature oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+    "solutions_title": "GroupDocs.Signature oferă API-uri de semnare a documentelor pentru alte medii de dezvoltare populare"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Adăugați eSignature la imaginea PDF Word Excel",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API vă ajută să dezvoltați aplicații Java cu funcționalitate de semnătură electronică pentru a semna documente digitale de formate acceptate fără a instala niciun software extern. Acceptă manipularea și gestionarea diferitelor tipuri de semnături electronice, cum ar fi imagine, cod de bare, cod QR, ștampilă, text, optică și metadate. Toate documentele dvs. electronice de afaceri precum Microsoft Office Word, prezentările PowerPoint, foile de calcul Excel, imaginile și fișierele PDF pot fi semnate digital prin personalizarea proprietăților semnăturii, de ex. umbră, dimensiuni, aliniere și multe altele, conform cerințelor dvs. Biblioteca de semnături digitale este simplă și ușoară, constând dintr-un singur fișier DLL care poate fi integrat cu ușurință într-o aplicație Java nouă sau existentă.",
     "overview_content_2": "Prin API-ul GroupDocs.Signature pentru Java, puteți încărca toate certificatele înregistrate din sistem sau puteți găsi semnăturile existente utilizând căutare simplă și avansată. Opțiunile de lucru cu documente protejate cu parolă, specificând proprietățile comune ale semnăturii (dimensiunea textului, opacitatea, rotația, verificarea, proprietățile fontului, opțiunile de culoare, numărul paginii, lățimea, sus, stânga etc.) și suportul pentru implementarea diferitelor tipuri de semnătură electronică îl fac un fiabil Soluție de gestionare a semnăturilor electronice pentru documente digitale.",
     "overview_content_3": "GroupDocs.Signature pentru Java este compatibil cu toate versiunile Java și acceptă sisteme de operare populare (Windows, Linux, MacOS) care sunt capabile să ruleze Java runtime",
-    "overview_tab1_description": "Aceasta este o prezentare generală a caracteristicilor GroupDocs.Signature pentru Java:",
+    "overview_tab1_description": "Aceasta este o prezentare generală a funcțiilor GroupDocs.Signature pentru Java:",
     "overview_tab1_left_title": "Tipuri de semnătură",
     "overview_tab1_left_content_1": "Semnătura text",
     "overview_tab1_left_content_2": "Semnătura imaginii",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Semnătura codului de bare",
     "overview_tab1_left_content_6": "Semnătura ștampilă",
     "overview_tab1_left_content_7": "Semnătura câmp-formular",
-    "overview_tab2_description": "API-ul de semnare electronică Java acceptă [formate de fișiere de document](https://docs.groupdocs.com/signature/java/supported-document-formats/), după cum este enumerat mai jos.",
+    "overview_tab2_description": "API-ul de semnare electronică Java acceptă diferite formate de fișiere de documente, după cum sunt enumerate mai jos.",
     "overview_tab2_right_title": "Imagini și alte formate",
     "overview_tab2_right_content_1": "Imagini",
     "overview_tab2_right_content_2": "Metafișiere",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "În mod similar, GroupDocs.Signature pentru Java API vă permite să utilizați tipuri de coduri QR, cum ar fi QR, Aztec și Data Matrix. Tipurile de codare QR-Code acceptate includ Aztec, DataMatrix, GS1 DataMatrix și GS1 QR.",
     "more_feature_3_title": "Căutați semnături și certificate",
     "more_feature_3_content_1": "Prin API-ul GroupDocs.Signature pentru Java, puteți căuta semnături QR-Code și coduri de bare în orice document, prezentare, foaie de calcul, imagine, precum și fișier PDF și puteți prelua rezultatul căutării. De asemenea, puteți căuta obiecte de date personalizate din documente semnate cu QR-Code Signature, precum și Căutare VCard standard și obiect de e-mail din documente semnate cu QR-Code. De asemenea, este acceptată verificarea textului criptat al semnăturilor QR-Code, precum și căutarea semnăturii metadate în documentele PDF. Aplicați criterii de căutare suplimentare pentru semnăturile digitale ale documentelor Words & Cells.",
-    "more_feature_3_content_2": "Opțiunea de căutare este disponibilă și pentru semnătura de metadate pentru documente Word, diapozitive și foi de calcul, în timp ce căutarea în câmpuri de formular este disponibilă pentru documentele PDF.",
+    "more_feature_3_content_2": "Opțiunea de căutare este disponibilă și pentru semnătura metadatelor pentru documente Word, diapozitive și foi de calcul, în timp ce căutarea în câmpuri de formular este disponibilă pentru documentele PDF.",
     "more_feature_4_title": "Configurați proprietățile semnăturii electronice",
     "more_feature_4_content": "Pentru a îmbunătăți UX-ul utilizatorilor finali, API-ul GroupDocs.Signature pentru Java oferă o mulțime de proprietăți care pot fi configurate destul de ușor. Puteți seta opțiunile de font și culoare (Culoare fundal, Culoare prim plan, Bold, Italic, Subliniat, Familie de fonturi, Dimensiune font etc.), Opțiuni pentru fundal și chenar (Culoare fundal, Transparență fundal, Culoare chenar, Stil chenar, Greutate chenar, Transparența chenarului etc.), Marginile semnăturii (Stânga, Sus, Lățimea, Înălțimea, Căptușeala etc.) și Configurarea zonei semnăturii imaginii și alinierea semnăturii (Aliniere orizontală, Aliniere verticală etc.).",
-    "solutions_title": "GroupDocs.Signature oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
+    "solutions_title": "GroupDocs.Signature oferă API-uri de semnare a documentelor pentru alte medii de dezvoltare populare"
   }
 }

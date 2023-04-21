@@ -245,7 +245,8 @@
     "api_nocodelabel": "Kuva kõik koodita rakendused",
     "api_nocode_1_content": "Signeerige Microsoft Wordi, Exceli, PowerPointi, Visio ja PDF-failid teksti, pildi, vöötkoodi või QR-koodiga.",
     "api_nocode_2_content": "Allkirjastage Wordi dokumente veebis tasuta otse brauserist.",
-    "api_nocode_3_content": "PDF-failide e-allkirjastamine teksti, pildi või vöötkoodi abil mis tahes veebibrauseris."
+    "api_nocode_3_content": "PDF-failide e-allkirjastamine teksti, pildi või vöötkoodi abil mis tahes veebibrauseris.",
+    "supported_formats": "Toetatud dokumendivormingud."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API – elektrooniline allkirjastamine PDF Word Exceli pildid",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Vöötkoodi allkiri",
     "overview_tab1_left_content_6": "Templi allkiri",
     "overview_tab1_left_content_7": "Metaandmete allkiri",
-    "overview_tab2_description": "GroupDocs.Signature for .NET toetab kõigi populaarsete [dokumendifailivormingute] vaatamist (https://docs.groupdocs.com/signature/net/supported-document-formats/). Vaid mõne koodirea abil saate oma .NET-i rakendustesse lisada PDF-i allkirja, Microsoft Office Wordi, Exceli arvutustabeli, pildi, HTML-i, Outlooki meili, OneNote'i, projekti ja graafika vaatamise võimalused.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET toetab kõigi populaarsete dokumendivormingute allkirjastamist. Vaid mõne koodirea abil saate oma .NET-i rakendustesse lisada PDF-i allkirja, Microsoft Office Wordi, Exceli arvutustabeli, pildi, HTML-i, Outlooki meili, OneNote'i, projekti ja graafika allkirjastamise võimalused.",
     "overview_tab2_right_title": "Pildid ja muud vormingud",
     "overview_tab2_right_content_1": "Pildid",
     "overview_tab2_right_content_2": "Metafailid",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "NET API jaoks mõeldud GroupDocs.Signature'i kaudu saate otsida QR-koodi ja vöötkoodi allkirju mis tahes dokumendis, esitluses, arvutustabelis, pildis ja PDF-failis ning tuua otsingu edenemist. Kohandatud andmeobjekte saate otsida ka QR-koodi allkirjaga allkirjastatud dokumentidest.",
     "more_feature_4_title": "Vöötkoodi täpsemad otsinguvalikud",
     "more_feature_4_content": "GroupDocs.Signature for.NET API kaudu saate oma nõutud vöötkoodi otsida ja leida väga lihtsalt, kuna meie signatuur-API pakub täpsemaid otsinguvalikuid. Need võimaldavad teil otsida kindlal lehel vöötkoodi, otsida kogu dokumendist, määrata otsimiseks erinevad leheküljed (esimene, viimane, paaris, paaritu), otsida kindlat kodeeringutüüpi vöötkoodi, otsida kindla tekstistringi alusel vöötkoodi või otsida vöötkoodi põhineb stringil valikuga \"sisaldab\".",
-    "solutions_title": "GroupDocs.Signature pakub dokumentide vaatamise API-sid teiste populaarsete arenduskeskkondade jaoks"
+    "solutions_title": "GroupDocs.Signature pakub dokumentide allkirjastamise API-sid teiste populaarsete arenduskeskkondade jaoks"
   },
   "index-content-java": {
     "head_title": "Java digitaalallkirja API, lisage PDF Wordi Exceli pildile e-allkiri",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API aitab teil arendada elektrooniliste allkirjade funktsiooniga Java-rakendusi toetatud vormingus digitaaldokumentide allkirjastamiseks ilma välist tarkvara installimata. See toetab erinevat tüüpi e-allkirjade, näiteks pildi, vöötkoodi, QR-koodi, templi, teksti, optilise ja metaandmetega manipuleerimist ja haldamist. Kõiki teie elektroonilisi äridokumente, nagu Microsoft Office Word, PowerPointi esitlused, Exceli tabelid, pildid ja PDF-failid, saab digitaalselt allkirjastada, kohandades allkirja atribuute nt. vari, mõõtmed, joondus ja palju muud vastavalt teie vajadustele. Digitaalallkirja teek on lihtne ja kerge ning koosneb ühest DLL-failist, mida saab hõlpsasti integreerida uude või olemasolevasse Java-rakendusse.",
     "overview_content_2": "Programmi GroupDocs.Signature for Java API kaudu saate laadida süsteemist kõik registreeritud sertifikaadid või lihtsa ja täpsema otsingu abil leida olemasolevaid allkirju. Parooliga kaitstud dokumentidega töötamise võimalused, ühiste allkirja atribuutide (teksti suurus, läbipaistmatus, pööramine, kinnitamine, fondi omadused, värvivalikud, lehekülje number, laius, ülemine, vasak jne) määramine ja erinevate e-allkirja tüüpide juurutamise tugi muudavad selle usaldusväärseks. Digitaaldokumentide e-allkirjade halduslahendus.",
     "overview_content_3": "GroupDocs.Signature for Java ühildub kõigi Java versioonidega ja toetab populaarseid operatsioonisüsteeme (Windows, Linux, MacOS), mis on võimelised käivitama Java käitusaega",
-    "overview_tab1_description": "See on ülevaade GroupDocs.Signature'i omadustest Java jaoks:",
+    "overview_tab1_description": "See on ülevaade Java jaoks mõeldud GroupDocs.Signature funktsioonidest:",
     "overview_tab1_left_title": "Allkirja tüübid",
     "overview_tab1_left_content_1": "Teksti allkiri",
     "overview_tab1_left_content_2": "Pildi allkiri",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Vöötkoodi allkiri",
     "overview_tab1_left_content_6": "Templi allkiri",
     "overview_tab1_left_content_7": "Vormivälja allkiri",
-    "overview_tab2_description": "Java elektroonilise allkirjastamise API toetab [dokumendifailivorminguid](https://docs.groupdocs.com/signature/java/supported-document-formats/), nagu on loetletud allpool.",
+    "overview_tab2_description": "Java elektrooniliselt allkirjastav API toetab mitmesuguseid allpool loetletud dokumendifailivorminguid.",
     "overview_tab2_right_title": "Pildid ja muud vormingud",
     "overview_tab2_right_content_1": "Pildid",
     "overview_tab2_right_content_2": "Metafailid",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Samamoodi võimaldab GroupDocs.Signature for Java API kasutada QR-koodi tüüpe, nagu QR, Aztec ja Data Matrix. Toetatud QR-koodi kodeeringu tüübid on asteek, DataMatrix, GS1 DataMatrix ja GS1 QR.",
     "more_feature_3_title": "Otsige allkirju ja sertifikaate",
     "more_feature_3_content_1": "Java API jaoks mõeldud GroupDocs.Signature'i kaudu saate otsida QR-koodi ja vöötkoodi allkirju mis tahes dokumendis, esitluses, arvutustabelis, pildis ja PDF-failis ning tuua otsingutulemused. Kohandatud andmeobjekte saate otsida ka QR-koodi allkirjaga allkirjastatud dokumentidest ning standardse VCardi ja meiliobjekti otsingust QR-koodiga allkirjastatud dokumentidest. Toetatud on ka QR-koodi allkirjade krüptitud teksti kontrollimine ja metaandmete allkirja otsimine PDF-dokumentidest. Rakendage Words & Cells Dokumendi digitaalallkirjade jaoks täiendavaid otsingukriteeriume.",
-    "more_feature_3_content_2": "Otsinguvalik on saadaval ka Wordi dokumentide, slaidide ja arvutustabelite metaandmete allkirjade jaoks, samas kui vormiväljaotsing on saadaval PDF-dokumentide jaoks.",
+    "more_feature_3_content_2": "Otsinguvalik on saadaval ka Wordi dokumentide, slaidide ja arvutustabelite metaandmete allkirja jaoks, samas kui vormiväljaotsing on saadaval PDF-dokumentide jaoks.",
     "more_feature_4_title": "Seadistage e-allkirja atribuudid",
     "more_feature_4_content": "Lõppkasutajate kasutuskogemuse täiustamiseks pakub GroupDocs.Signature for Java API palju atribuute, mida saab üsna lihtsalt konfigureerida. Saate määrata fondi- ja värvivalikuid (taustavärv, esiplaani värv, paks, kaldkiri, allajoonitud, fondiperekond, fondi suurus jne), tausta- ja äärisvalikuid (taustavärv, tausta läbipaistvus, äärise värv, äärise kriipsu stiil, äärise kaal, Ääriste läbipaistvus jne), allkirjade veerised (vasak, ülemine, laius, kõrgus, polsterdus jne) ning pildi allkirjaala ja allkirja joondamise seadistamine (horisontaalne joondus, vertikaalne joondus jne).",
-    "solutions_title": "GroupDocs.Signature pakub dokumentide vaatamise API-sid teiste populaarsete arenduskeskkondade jaoks"
+    "solutions_title": "GroupDocs.Signature pakub dokumentide allkirjastamise API-sid teiste populaarsete arenduskeskkondade jaoks"
   }
 }

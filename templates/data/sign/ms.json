@@ -245,7 +245,8 @@
     "api_nocodelabel": "Lihat Semua Apl Tanpa Kod",
     "api_nocode_1_content": "Tandatangani fail Microsoft Word, Excel, PowerPoint, Visio & PDF dengan teks, imej, Kod Bar atau Kod QR.",
     "api_nocode_2_content": "Tandatangan dokumen Word secara digital dalam talian terus dari penyemak imbas anda secara percuma.",
-    "api_nocode_3_content": "e-Tandatangani fail PDF menggunakan teks, imej atau kod bar dari dalam mana-mana pelayar web."
+    "api_nocode_3_content": "e-Tandatangani fail PDF menggunakan teks, imej atau kod bar dari dalam mana-mana pelayar web.",
+    "supported_formats": "Format dokumen yang disokong."
   },
   "index-content-net": {
     "head_title": "API Tandatangan Digital BERSIH - Tanda Elektronik PDF Word Excel Imej",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Tandatangan Kod Bar",
     "overview_tab1_left_content_6": "Tandatangan Setem",
     "overview_tab1_left_content_7": "Tandatangan Metadata",
-    "overview_tab2_description": "GroupDocs.Signature untuk .NET menyokong melihat semua [format fail dokumen] (https://docs.groupdocs.com/signature/net/supported-document-formats/). Dengan hanya beberapa baris kod, tambahkan tandatangan PDF, Microsoft Office Word, hamparan Excel, Imej, HTML, e-mel Outlook, OneNote, Projek dan keupayaan melihat grafik dalam aplikasi .NET anda.",
+    "overview_tab2_description": "GroupDocs.Signature untuk .NET menyokong menandatangani semua format dokumen popular. Dengan hanya beberapa baris kod, tambahkan tandatangan PDF, Microsoft Office Word, hamparan Excel, Imej, HTML, e-mel Outlook, OneNote, Projek dan keupayaan menandatangani grafik dalam aplikasi .NET anda.",
     "overview_tab2_right_title": "Imej & Format Lain",
     "overview_tab2_right_content_1": "Imej",
     "overview_tab2_right_content_2": "Metafiles",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Melalui GroupDocs.Signature untuk API .NET, anda boleh mencari tandatangan Kod QR dan Kod Bar dalam mana-mana dokumen, pembentangan, hamparan, imej serta fail PDF dan mengambil kemajuan carian. Anda juga boleh mencari objek data tersuai daripada dokumen yang ditandatangani dengan Tandatangan Kod QR.",
     "more_feature_4_title": "Pilihan Carian Terperinci untuk Kod Bar",
     "more_feature_4_content": "Anda boleh mencari dan mencari kod bar yang diperlukan melalui API GroupDocs.Signature for.NET dengan mudah, kerana API tandatangan kami menawarkan pilihan carian lanjutan. Ini membolehkan anda mencari kod bar pada halaman tertentu, mencari di seluruh dokumen, menentukan halaman berbeza untuk dicari (pertama, terakhir, genap, ganjil), mencari kod bar jenis pengekodan tertentu, mencari kod bar berdasarkan rentetan teks tertentu atau mencari kod bar berdasarkan rentetan dengan pilihan \"mengandungi\".",
-    "solutions_title": "GroupDocs.Signature menawarkan API paparan dokumen untuk persekitaran pembangunan popular yang lain"
+    "solutions_title": "GroupDocs.Signature menawarkan API tandatangan dokumen untuk persekitaran pembangunan popular yang lain"
   },
   "index-content-java": {
     "head_title": "API Tandatangan Digital Java, Tambah eSignature pada Imej PDF Word Excel",
@@ -338,7 +339,7 @@
     "overview_content_1": "GroupDocs.Signature for Java API membantu anda membangunkan aplikasi Java dengan fungsi tandatangan elektronik untuk menandatangani dokumen digital dengan format yang disokong tanpa memasang sebarang perisian luaran. Ia menyokong manipulasi dan pengurusan pelbagai jenis eSignatures seperti Imej, Kod Bar, Kod QR, Setem, Teks, Optik dan Metadata. Semua dokumen perniagaan elektronik anda seperti Microsoft Office Word, persembahan PowerPoint, hamparan Excel, imej & fail PDF boleh ditandatangani secara digital dengan menyesuaikan sifat tandatangan cth. bayang, dimensi, penjajaran dan banyak lagi mengikut keperluan anda. Pustaka tandatangan digital adalah ringkas dan ringan, terdiri daripada satu fail DLL yang boleh disepadukan dengan mudah dalam aplikasi Java baharu atau sedia ada.",
     "overview_content_2": "Melalui GroupDocs.Signature untuk API Java anda boleh memuatkan semua sijil berdaftar daripada sistem, atau mencari tandatangan sedia ada menggunakan carian mudah dan lanjutan. Pilihan untuk berfungsi dengan dokumen yang dilindungi kata laluan, menentukan sifat tandatangan biasa (saiz teks, kelegapan, putaran, pengesahan, sifat fon, pilihan warna, nombor halaman, lebar, atas, kiri dll) dan sokongan untuk melaksanakan jenis eSignature yang berbeza menjadikannya boleh dipercayai penyelesaian pengurusan e-Tandatangan untuk dokumen digital.",
     "overview_content_3": "GroupDocs.Signature untuk Java serasi dengan semua versi Java dan menyokong sistem pengendalian popular (Windows, Linux, MacOS) yang mampu menjalankan masa jalan Java",
-    "overview_tab1_description": "Itulah gambaran keseluruhan GroupDocs.Signature faetures untuk Java:",
+    "overview_tab1_description": "Itulah gambaran keseluruhan ciri GroupDocs.Signature untuk Java:",
     "overview_tab1_left_title": "Jenis Tandatangan",
     "overview_tab1_left_content_1": "Tandatangan Teks",
     "overview_tab1_left_content_2": "Tandatangan Imej",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Tandatangan Kod Bar",
     "overview_tab1_left_content_6": "Tandatangan Setem",
     "overview_tab1_left_content_7": "Tandatangan medan borang",
-    "overview_tab2_description": "API penandatanganan elektronik Java menyokong [format fail dokumen](https://docs.groupdocs.com/signature/java/supported-document-formats/) seperti yang disenaraikan di bawah.",
+    "overview_tab2_description": "API penandatanganan elektronik Java menyokong pelbagai format fail dokumen seperti yang disenaraikan di bawah.",
     "overview_tab2_right_title": "Imej & Format Lain",
     "overview_tab2_right_content_1": "Imej",
     "overview_tab2_right_content_2": "Metafiles",
@@ -401,6 +402,6 @@
     "more_feature_3_content_2": "Pilihan carian juga tersedia untuk tandatangan metadata untuk dokumen perkataan, slaid dan hamparan, manakala carian medan borang tersedia untuk dokumen PDF.",
     "more_feature_4_title": "Konfigurasikan Sifat eSignature",
     "more_feature_4_content": "Untuk meningkatkan UX pengguna akhir GroupDocs.Signature untuk Java API menyediakan banyak sifat yang boleh dikonfigurasikan dengan mudah. Anda boleh menetapkan pilihan fon dan warna (Warna Latar Belakang, Warna Latar Depan, Tebal, Italic, Garis Bawah, Keluarga Fon, Saiz Fon dll.), Pilihan Latar Belakang dan Sempadan (Warna Latar Belakang, Ketelusan Latar Belakang, Warna Sempadan, Gaya Dash Sempadan, Berat Sempadan, Ketelusan Sempadan dsb.), Margin Tandatangan (Kiri, Atas, Lebar, Tinggi, Padding dsb.), dan Sediakan Kawasan Tandatangan Imej & Penjajaran Tandatangan (Penjajaran Mendatar, Penjajaran Menegak dll.).",
-    "solutions_title": "GroupDocs.Signature menawarkan API paparan dokumen untuk persekitaran pembangunan popular yang lain"
+    "solutions_title": "GroupDocs.Signature menawarkan API tandatangan dokumen untuk persekitaran pembangunan popular yang lain"
   }
 }

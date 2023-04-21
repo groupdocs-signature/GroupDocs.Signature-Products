@@ -245,7 +245,8 @@
     "api_nocodelabel": "Zobraziť všetky aplikácie bez kódu",
     "api_nocode_1_content": "Podpíšte súbory Microsoft Word, Excel, PowerPoint, Visio a PDF pomocou textu, obrázka, čiarového kódu alebo QR-kódu.",
     "api_nocode_2_content": "Digitálne podpisujte dokumenty programu Word online priamo z vášho prehliadača zadarmo.",
-    "api_nocode_3_content": "e-Sign PDF súbory pomocou textu, obrázka alebo čiarového kódu z ľubovoľného webového prehliadača."
+    "api_nocode_3_content": "e-Sign PDF súbory pomocou textu, obrázka alebo čiarového kódu z ľubovoľného webového prehliadača.",
+    "supported_formats": "Podporované formáty dokumentov."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Elektronický podpis PDF Word Excel Obrázky",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Podpis čiarového kódu",
     "overview_tab1_left_content_6": "Pečiatka Podpis",
     "overview_tab1_left_content_7": "Podpis metadát",
-    "overview_tab2_description": "GroupDocs.Signature for .NET podporuje prezeranie všetkých populárnych [formátov súborov dokumentov] (https://docs.groupdocs.com/signature/net/supported-document-formats/). Pomocou niekoľkých riadkov kódu pridajte do svojich aplikácií .NET podpis PDF, Microsoft Office Word, tabuľku Excel, obrázok, HTML, Outlook e-mail, OneNote, Project a možnosti prezerania grafiky.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET podporuje podpisovanie všetkých populárnych formátov dokumentov. Pomocou niekoľkých riadkov kódu pridajte do svojich aplikácií .NET podpis PDF, Microsoft Office Word, tabuľku Excel, obrázok, HTML, Outlook e-mail, OneNote, Project a možnosti podpisovania grafiky.",
     "overview_tab2_right_title": "Obrázky a iné formáty",
     "overview_tab2_right_content_1": "snímky",
     "overview_tab2_right_content_2": "Metasúbory",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Prostredníctvom GroupDocs.Signature for .NET API môžete vyhľadávať podpisy QR-Code a čiarových kódov v akomkoľvek dokumente, prezentácii, tabuľkovom hárku, obrázku, ako aj súbore PDF a získať tak priebeh vyhľadávania. Vlastné dátové objekty môžete vyhľadávať aj v dokumentoch podpísaných podpisom QR-Code.",
     "more_feature_4_title": "Rozšírené možnosti vyhľadávania pre čiarový kód",
     "more_feature_4_content": "Pomocou GroupDocs.Signature for.NET API môžete vyhľadať a nájsť požadovaný čiarový kód veľmi jednoducho, pretože naše rozhranie API pre podpis ponúka pokročilé možnosti vyhľadávania. Umožňujú vám vyhľadávať čiarový kód na konkrétnej stránke, prehľadávať v dokumente, špecifikovať rôzne strany na vyhľadávanie (prvá, posledná, párna, nepárna), vyhľadávať čiarový kód konkrétneho typu kódovania, vyhľadávať čiarový kód na základe špecifického textového reťazca alebo vyhľadávať čiarový kód. na základe reťazca s možnosťou „obsahuje“.",
-    "solutions_title": "GroupDocs.Signature ponúka rozhrania API na prezeranie dokumentov pre ďalšie populárne vývojové prostredia"
+    "solutions_title": "GroupDocs.Signature ponúka rozhrania API na podpisovanie dokumentov pre ďalšie populárne vývojové prostredia"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, pridanie elektronického podpisu do obrázka PDF Word Excel",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Podpis čiarového kódu",
     "overview_tab1_left_content_6": "Pečiatka Podpis",
     "overview_tab1_left_content_7": "Pole formulára Podpis",
-    "overview_tab2_description": "Rozhranie Java pre elektronické podpisovanie podporuje [formáty súborov dokumentov] (https://docs.groupdocs.com/signature/java/supported-document-formats/), ako je uvedené nižšie.",
+    "overview_tab2_description": "Rozhranie API na elektronické podpisovanie Java podporuje rôzne formáty súborov dokumentov, ako je uvedené nižšie.",
     "overview_tab2_right_title": "Obrázky a iné formáty",
     "overview_tab2_right_content_1": "snímky",
     "overview_tab2_right_content_2": "Metasúbory",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Podobne GroupDocs.Signature for Java API vám umožňuje používať typy QR kódov, ako sú QR, Aztec a Data Matrix. Medzi podporované typy kódovania QR-Code patria Aztec, DataMatrix, GS1 DataMatrix a GS1 QR.",
     "more_feature_3_title": "Vyhľadajte podpisy a certifikáty",
     "more_feature_3_content_1": "Prostredníctvom GroupDocs.Signature for Java API môžete vyhľadávať podpisy QR-Code a čiarových kódov v akomkoľvek dokumente, prezentácii, tabuľke, obrázku, ako aj súbore PDF a získať výsledok vyhľadávania. Môžete tiež vyhľadávať vlastné dátové objekty v dokumentoch podpísaných podpisom QR-Code, ako aj v štandardných VCard a e-mailových objektoch v dokumentoch podpísaných QR-kódom. Podporované je aj overovanie zašifrovaného textu podpisov QR-Code, ako aj vyhľadávanie podpisu metadát v dokumentoch PDF. Použite dodatočné kritériá vyhľadávania pre digitálne podpisy dokumentov Words & Cells.",
-    "more_feature_3_content_2": "Možnosť vyhľadávania je k dispozícii aj pre podpis metadát pre dokumenty Word, snímky a tabuľky, zatiaľ čo vyhľadávanie v poli formulára je dostupné pre dokumenty PDF.",
+    "more_feature_3_content_2": "K dispozícii je aj možnosť vyhľadávania pre podpis metadát pre dokumenty Word, snímky a tabuľky, zatiaľ čo vyhľadávanie v poli formulára je dostupné pre dokumenty PDF.",
     "more_feature_4_title": "Nakonfigurujte vlastnosti elektronického podpisu",
     "more_feature_4_content": "Na vylepšenie UX koncových používateľov GroupDocs.Signature for Java API poskytuje množstvo vlastností, ktoré sa dajú veľmi jednoducho nakonfigurovať. Môžete nastaviť možnosti písma a farieb (Farba pozadia, Farba popredia, Tučné, Kurzíva, Podčiarknutie, Rodina písma, Veľkosť písma atď.), Možnosti pozadia a orámovania (Farba pozadia, Priehľadnosť pozadia, Farba orámovania, Štýl pomlčky orámovania, Hrúbka orámovania, Priehľadnosť okrajov atď.), Okraje podpisu (vľavo, Hore, Šírka, Výška, Výplň atď.) a Nastavenie oblasti podpisu a zarovnania podpisu (horizontálne zarovnanie, zvislé zarovnanie atď.).",
-    "solutions_title": "GroupDocs.Signature ponúka rozhrania API na prezeranie dokumentov pre ďalšie populárne vývojové prostredia"
+    "solutions_title": "GroupDocs.Signature ponúka rozhrania API na podpisovanie dokumentov pre ďalšie populárne vývojové prostredia"
   }
 }

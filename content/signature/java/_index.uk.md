@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Це огляд функцій GroupDocs.Signature для Java:
+          Ось огляд функцій GroupDocs.Signature для Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          API електронного підпису Java підтримує [формати файлів документів](https://docs.groupdocs.com/signature/java/supported-document-formats/), як зазначено нижче.
+          API електронного підпису Java підтримує різні формати файлів документів, перелічені нижче. [Підтримувані формати документів.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature пропонує API перегляду документів для інших популярних середовищ розробки"
+    title: "GroupDocs.Signature пропонує API для підпису документів для інших популярних середовищ розробки"
 
     solution:
         # solution loop

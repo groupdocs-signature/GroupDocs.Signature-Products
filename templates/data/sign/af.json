@@ -245,7 +245,8 @@
     "api_nocodelabel": "Bekyk Alle No Code Apps",
     "api_nocode_1_content": "Teken Microsoft Word-, Excel-, PowerPoint-, Visio- en PDF-lêers met teks, beeld, strepieskode of QR-kode.",
     "api_nocode_2_content": "Teken Word-dokumente digitaal aanlyn direk vanaf jou blaaier gratis.",
-    "api_nocode_3_content": "e-Sign PDF-lêers met teks, beeld of strepieskode van binne enige webblaaier."
+    "api_nocode_3_content": "e-Sign PDF-lêers met teks, beeld of strepieskode van binne enige webblaaier.",
+    "supported_formats": "Ondersteunde dokumentformate."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Elektroniese Teken PDF Word Excel Beelde",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Streepkode handtekening",
     "overview_tab1_left_content_6": "Stempel Handtekening",
     "overview_tab1_left_content_7": "Metadata Handtekening",
-    "overview_tab2_description": "GroupDocs.Signature vir .NET ondersteun die besigtiging van alle gewilde [dokumentlêerformate](https://docs.groupdocs.com/signature/net/supported-document-formats/). Met net 'n paar reëls kode, voeg PDF-handtekening, Microsoft Office Word, Excel-sigblad, Beeld, HTML, Outlook-e-pos, OneNote, Project en grafiese besigtigingsvermoëns in jou .NET-toepassings by.",
+    "overview_tab2_description": "GroupDocs.Signature vir .NET ondersteun die ondertekening van alle gewilde dokumentformate. Met net 'n paar reëls kode, voeg PDF-handtekening, Microsoft Office Word, Excel-sigblad, Beeld, HTML, Outlook-e-pos, OneNote, Project en grafiese ondertekeningvermoëns in jou .NET-toepassings by.",
     "overview_tab2_right_title": "Prente en ander formate",
     "overview_tab2_right_content_1": "Beelde",
     "overview_tab2_right_content_2": "Metafile",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Deur GroupDocs.Signature vir .NET API kan jy QR-kode- en strepieskode-handtekeninge in enige dokument, aanbieding, sigblad, prent, sowel as PDF-lêer deursoek en die soekvordering gaan haal. Jy kan ook pasgemaakte data-voorwerp soek vanaf dokumente wat met QR-kode-handtekening onderteken is.",
     "more_feature_4_title": "Gevorderde soekopsies vir strepieskode",
     "more_feature_4_content": "Jy kan jou vereiste strepieskode deur GroupDocs.Signature for.NET API baie maklik soek en opspoor, aangesien ons handtekening-API gevorderde soekopsies bied. Dit stel jou in staat om strepieskode op 'n spesifieke bladsy te soek, deur 'n dokument te soek, verskillende bladsye te spesifiseer om te soek (eerste, laaste, ewe, onewe), soek vir strepieskode van spesifieke enkoderingstipe, soek strepieskode gebaseer op spesifieke teksstring, of soek strepieskode gebaseer op string met \"bevat\" opsie.",
-    "solutions_title": "GroupDocs.Signature bied API's vir dokumentbesigtiging vir ander gewilde ontwikkelingsomgewings"
+    "solutions_title": "GroupDocs.Signature bied API's vir dokumentondertekening vir ander gewilde ontwikkelingsomgewings"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Voeg eSignature by PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Streepkode handtekening",
     "overview_tab1_left_content_6": "Stempel Handtekening",
     "overview_tab1_left_content_7": "Vorm-veld Handtekening",
-    "overview_tab2_description": "Java elektroniese ondertekening-API ondersteun [dokumentlêerformate](https://docs.groupdocs.com/signature/java/supported-document-formats/) soos hieronder gelys.",
+    "overview_tab2_description": "Java elektroniese ondertekening API ondersteun verskeie dokument lêer formate soos hieronder gelys.",
     "overview_tab2_right_title": "Prente en ander formate",
     "overview_tab2_right_content_1": "Beelde",
     "overview_tab2_right_content_2": "Metafile",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Net so laat GroupDocs.Signature vir Java API jou toe om QR-kodetipes te gebruik, soos QR, Aztec en Data Matrix. Ondersteunde QR-kode-enkoderingstipes sluit in Aztec, DataMatrix, GS1 DataMatrix en GS1 QR.",
     "more_feature_3_title": "Soek handtekeninge en sertifikate",
     "more_feature_3_content_1": "Deur GroupDocs.Signature vir Java API kan jy QR-kode en strepieskode-handtekeninge in enige dokument, aanbieding, sigblad, prent sowel as PDF-lêer soek en die soekresultaat haal. Jy kan ook pasgemaakte data-objek soek vanaf dokumente wat met QR-kode-handtekening onderteken is, sowel as deursoek na standaard-VCard en e-posvoorwerp van dokumente wat met QR-kode onderteken is. Die verifikasie van geënkripteerde teks van QR-kode-handtekeninge sowel as soek na metadata-handtekening in PDF-dokumente word ook ondersteun. Pas bykomende soekkriteria toe vir digitale handtekeninge van Words & Cells-dokumente.",
-    "more_feature_3_content_2": "Soekopsie is ook beskikbaar vir metadata-handtekeninge vir word-dokumente, skyfies en sigblaaie, terwyl vormveldsoektog beskikbaar is vir PDF-dokumente.",
+    "more_feature_3_content_2": "Soekopsie is ook beskikbaar vir metadata-handtekening vir word-dokumente, skyfies en sigblaaie, terwyl vormveldsoektog vir PDF-dokumente beskikbaar is.",
     "more_feature_4_title": "Stel eSignature-eienskappe op",
     "more_feature_4_content": "Om die UX van eindgebruikers te verbeter, bied GroupDocs.Signature vir Java API baie eienskappe wat redelik maklik gekonfigureer kan word. U kan lettertipe- en kleuropsies instel (agtergrondkleur, voorgrondkleur, vetdruk, kursief, onderstreep, lettertipefamilie, lettergrootte, ens.), Agtergrond- en randopsies (agtergrondkleur, agtergronddeursigtigheid, randkleur, randstreepstyl, grensgewig, Grensdeursigtigheid, ens.), Handtekeningkantlyne (links, bo, breedte, hoogte, opvulling ens.), en Stel beeldhandtekeningarea en handtekeningbelyning op (horisontale belyning, vertikale belyning ens.).",
-    "solutions_title": "GroupDocs.Signature bied API's vir dokumentbesigtiging vir ander gewilde ontwikkelingsomgewings"
+    "solutions_title": "GroupDocs.Signature bied API's vir dokumentondertekening vir ander gewilde ontwikkelingsomgewings"
   }
 }

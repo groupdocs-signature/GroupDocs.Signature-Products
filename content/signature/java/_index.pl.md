@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Interfejs API elektronicznego podpisu Java obsługuje [formaty plików dokumentów](https://docs.groupdocs.com/signature/java/supported-document-formats/) wymienione poniżej.
+          Interfejs API podpisu elektronicznego Java obsługuje różne formaty plików dokumentów, które wymieniono poniżej. [Obsługiwane formaty dokumentów.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature oferuje interfejsy API przeglądania dokumentów dla innych popularnych środowisk programistycznych"
+    title: "GroupDocs.Signature oferuje interfejsy API do podpisywania dokumentów dla innych popularnych środowisk programistycznych"
 
     solution:
         # solution loop

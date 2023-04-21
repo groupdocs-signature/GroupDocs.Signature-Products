@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature for .NET atbalsta visu populāro [dokumentu failu formātu] skatīšanu (https://docs.groupdocs.com/signature/net/supported-document-formats/). Izmantojot tikai dažas koda rindiņas, pievienojiet PDF parakstu, Microsoft Office Word, Excel izklājlapu, attēlu, HTML, Outlook e-pastu, OneNote, projektu un grafikas skatīšanas iespējas savās .NET lietojumprogrammās.
+          GroupDocs.Signature for .NET atbalsta visu populāro dokumentu formātu parakstīšanu. Izmantojot tikai dažas koda rindiņas, savās .NET lietojumprogrammās pievienojiet PDF parakstu, Microsoft Office Word, Excel izklājlapu, attēlu, HTML, Outlook e-pastu, OneNote, projektu un grafikas parakstīšanas iespējas. [Atbalstītie dokumentu formāti.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature piedāvā dokumentu skatīšanas API citām populārām izstrādes vidēm"
+    title: "GroupDocs.Signature piedāvā dokumentu parakstīšanas API citām populārām izstrādes vidēm"
 
     solution:
         # solution loop

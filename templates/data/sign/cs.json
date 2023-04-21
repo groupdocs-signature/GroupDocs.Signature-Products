@@ -245,7 +245,8 @@
     "api_nocodelabel": "Zobrazit všechny aplikace bez kódu",
     "api_nocode_1_content": "Podepisujte soubory Microsoft Word, Excel, PowerPoint, Visio a PDF pomocí textu, obrázku, čárového kódu nebo QR-kódu.",
     "api_nocode_2_content": "Digitálně podepisujte dokumenty Word online přímo z vašeho prohlížeče zdarma.",
-    "api_nocode_3_content": "e-Sign PDF soubory pomocí textu, obrázku nebo čárového kódu z libovolného webového prohlížeče."
+    "api_nocode_3_content": "e-Sign PDF soubory pomocí textu, obrázku nebo čárového kódu z libovolného webového prohlížeče.",
+    "supported_formats": "Podporované formáty dokumentů."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Elektronický podpis Obrázky PDF Word Excel",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Podpis čárového kódu",
     "overview_tab1_left_content_6": "Razítko Podpis",
     "overview_tab1_left_content_7": "Podpis metadat",
-    "overview_tab2_description": "GroupDocs.Signature for .NET podporuje zobrazení všech oblíbených [formátů souborů dokumentů] (https://docs.groupdocs.com/signature/net/supported-document-formats/). Pomocí několika řádků kódu přidejte do svých aplikací .NET podpis PDF, Microsoft Office Word, tabulku Excel, obrázek, HTML, Outlook e-mail, OneNote, Project a možnosti zobrazení grafiky.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET podporuje podepisování všech oblíbených formátů dokumentů. Pomocí několika řádků kódu přidejte do svých aplikací .NET podpis PDF, Microsoft Office Word, tabulku Excel, obrázek, HTML, Outlook e-mail, OneNote, Project a možnosti podepisování grafiky.",
     "overview_tab2_right_title": "Obrázky a další formáty",
     "overview_tab2_right_content_1": "snímky",
     "overview_tab2_right_content_2": "Metasoubory",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Prostřednictvím GroupDocs.Signature for .NET API můžete vyhledávat podpisy QR-Code a čárových kódů v jakémkoli dokumentu, prezentaci, tabulce, obrázku i souboru PDF a načítat průběh vyhledávání. Můžete také vyhledávat vlastní datové objekty z dokumentů podepsaných podpisem QR-Code.",
     "more_feature_4_title": "Rozšířené možnosti vyhledávání pro čárový kód",
     "more_feature_4_content": "Pomocí GroupDocs.Signature for.NET API můžete velmi snadno vyhledat a najít požadovaný čárový kód, protože naše podpisové API nabízí pokročilé možnosti vyhledávání. Umožňují vám vyhledávat čárový kód na konkrétní stránce, prohledávat celý dokument, specifikovat různé stránky k prohledávání (první, poslední, sudé, liché), vyhledávat čárový kód konkrétního typu kódování, hledat čárový kód na základě konkrétního textového řetězce nebo hledat čárový kód. na základě řetězce s možností „obsahuje“.",
-    "solutions_title": "GroupDocs.Signature nabízí rozhraní API pro prohlížení dokumentů pro další populární vývojová prostředí"
+    "solutions_title": "GroupDocs.Signature nabízí rozhraní API pro podepisování dokumentů pro další populární vývojová prostředí"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, přidání elektronického podpisu do PDF Word Excel obrázku",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Podpis čárového kódu",
     "overview_tab1_left_content_6": "Razítko Podpis",
     "overview_tab1_left_content_7": "Podpis pole formuláře",
-    "overview_tab2_description": "Java pro elektronické podepisování API podporuje [formáty souborů dokumentů] (https://docs.groupdocs.com/signature/java/supported-document-formats/), jak je uvedeno níže.",
+    "overview_tab2_description": "Java pro elektronické podepisování API podporuje různé formáty souborů dokumentů, jak je uvedeno níže.",
     "overview_tab2_right_title": "Obrázky a další formáty",
     "overview_tab2_right_content_1": "snímky",
     "overview_tab2_right_content_2": "Metasoubory",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Podobně GroupDocs.Signature for Java API vám umožňuje používat typy QR kódů, jako jsou QR, Aztec a Data Matrix. Mezi podporované typy kódování QR-Code patří Aztec, DataMatrix, GS1 DataMatrix a GS1 QR.",
     "more_feature_3_title": "Hledat podpisy a certifikáty",
     "more_feature_3_content_1": "Prostřednictvím GroupDocs.Signature for Java API můžete vyhledávat podpisy QR-Code a Barcode v jakémkoli dokumentu, prezentaci, tabulce, obrázku i souboru PDF a získat výsledek vyhledávání. Můžete také vyhledávat vlastní datové objekty z dokumentů podepsaných podpisem QR-Code a také prohledávat standardní VCard a e-mailový objekt z dokumentů podepsaných QR-kódem. Podporováno je také ověřování zašifrovaného textu podpisů QR-Code a hledání podpisu metadat v dokumentech PDF. Použijte další vyhledávací kritéria pro digitální podpisy dokumentů Words & Cells.",
-    "more_feature_3_content_2": "Možnost vyhledávání je také dostupná pro podpis metadat pro dokumenty Word, snímky a tabulky, zatímco pro dokumenty PDF je k dispozici vyhledávání v poli formuláře.",
+    "more_feature_3_content_2": "K dispozici je také možnost vyhledávání pro podpis metadat pro dokumenty Word, snímky a tabulky, zatímco pro dokumenty PDF je k dispozici vyhledávání pomocí polí formuláře.",
     "more_feature_4_title": "Nakonfigurujte vlastnosti elektronického podpisu",
     "more_feature_4_content": "Pro vylepšení uživatelského rozhraní koncových uživatelů GroupDocs.Signature for Java API poskytuje mnoho vlastností, které lze velmi snadno konfigurovat. Můžete nastavit možnosti písma a barvy (Barva pozadí, Barva popředí, Tučné, Kurzíva, Podtržení, Rodina písem, Velikost písma atd.), Možnosti pozadí a ohraničení (Barva pozadí, Průhlednost pozadí, Barva ohraničení, Styl čárky ohraničení, Tloušťka ohraničení, Průhlednost okrajů atd.), Okraje podpisu (vlevo, nahoře, šířka, výška, odsazení atd.) a nastavení oblasti podpisu obrazu a zarovnání podpisu (horizontální zarovnání, svislé zarovnání atd.).",
-    "solutions_title": "GroupDocs.Signature nabízí rozhraní API pro prohlížení dokumentů pro další populární vývojová prostředí"
+    "solutions_title": "GroupDocs.Signature nabízí rozhraní API pro podepisování dokumentů pro další populární vývojová prostředí"
   }
 }

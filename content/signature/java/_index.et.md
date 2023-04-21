@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          See on ülevaade GroupDocs.Signature'i omadustest Java jaoks:
+          See on ülevaade Java jaoks mõeldud GroupDocs.Signature funktsioonidest:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektroonilise allkirjastamise API toetab [dokumendifailivorminguid](https://docs.groupdocs.com/signature/java/supported-document-formats/), nagu on loetletud allpool.
+          Java elektrooniliselt allkirjastav API toetab mitmesuguseid allpool loetletud dokumendifailivorminguid. [Toetatud dokumendivormingud.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Java API jaoks mõeldud GroupDocs.Signature'i kaudu saate otsida QR-koodi ja vöötkoodi allkirju mis tahes dokumendis, esitluses, arvutustabelis, pildis ja PDF-failis ning tuua otsingutulemused. Kohandatud andmeobjekte saate otsida ka QR-koodi allkirjaga allkirjastatud dokumentidest ning standardse VCardi ja meiliobjekti otsingust QR-koodiga allkirjastatud dokumentidest. Toetatud on ka QR-koodi allkirjade krüptitud teksti kontrollimine ja metaandmete allkirja otsimine PDF-dokumentidest. Rakendage Words & Cells Dokumendi digitaalallkirjade jaoks täiendavaid otsingukriteeriume.  
 
-          Otsinguvalik on saadaval ka Wordi dokumentide, slaidide ja arvutustabelite metaandmete allkirjade jaoks, samas kui vormiväljaotsing on saadaval PDF-dokumentide jaoks.
+          Otsinguvalik on saadaval ka Wordi dokumentide, slaidide ja arvutustabelite metaandmete allkirja jaoks, samas kui vormiväljaotsing on saadaval PDF-dokumentide jaoks.
 
       # more_feature_loop
       - title: "Seadistage e-allkirja atribuudid"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature pakub dokumentide vaatamise API-sid teiste populaarsete arenduskeskkondade jaoks"
+    title: "GroupDocs.Signature pakub dokumentide allkirjastamise API-sid teiste populaarsete arenduskeskkondade jaoks"
 
     solution:
         # solution loop

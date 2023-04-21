@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          هذه نظرة عامة على GroupDocs. توقيعات Java:
+          هذه نظرة عامة على GroupDocs. ميزات التوقيع لجافا:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          تدعم واجهة برمجة تطبيقات جافا للتوقيع إلكترونيًا [تنسيقات ملفات المستندات] (https://docs.groupdocs.com/signature/java/supported-document-formats/) كما هو موضح أدناه.
+          يدعم توقيع Java إلكترونيًا API تنسيقات ملفات المستندات المختلفة كما هو موضح أدناه. [تنسيقات المستندات المدعومة.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature يعرض واجهات برمجة التطبيقات لعرض المستندات لبيئات التطوير الشائعة الأخرى"
+    title: "GroupDocs.Signature يوفر توقيع المستندات API لبيئات التطوير الشائعة الأخرى"
 
     solution:
         # solution loop

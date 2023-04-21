@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Tacaíonn GroupDocs.Signature le haghaidh .NET le breathnú ar gach [formáid comhaid doiciméad] a bhfuil tóir orthu (https://docs.groupdocs.com/signature/net/supported-document-formats/). Gan ach cúpla líne de chód, cuir síniú PDF, Microsoft Office Word, scarbhileog Excel, Íomhá, HTML, ríomhphost Outlook, OneNote, Tionscadal agus cumais féachana grafaic i d'fheidhmchláir .NET.
+          Tacaíonn GroupDocs.Signature le haghaidh .NET le síniú gach formáid doiciméad coitianta. Gan ach cúpla líne de chód, cuir síniú PDF, Microsoft Office Word, scarbhileog Excel, Íomhá, HTML, ríomhphost Outlook, OneNote, cumais sínithe Tionscadal agus grafaicí i d’fheidhmchláir .NET. [Formáidí doiciméad tacaithe.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "Tairgeann GroupDocs.Signature APIanna féachana doiciméad do thimpeallachtaí forbartha eile a bhfuil tóir orthu"
+    title: "Cuireann GroupDocs.Signature API sínithe doiciméad ar fáil do thimpeallachtaí forbartha tóir eile"
 
     solution:
         # solution loop

@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Šis ir pārskats par GroupDocs.Signature faetures for Java:
+          Šis ir pārskats par GroupDocs.Signature līdzekļiem Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java elektroniskās parakstīšanas API atbalsta [dokumentu failu formātus](https://docs.groupdocs.com/signature/java/supported-document-formats/), kā norādīts tālāk.
+          Java elektroniskās parakstīšanas API atbalsta dažādus tālāk norādītos dokumentu failu formātus. [Atbalstītie dokumentu formāti.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature piedāvā dokumentu skatīšanas API citām populārām izstrādes vidēm"
+    title: "GroupDocs.Signature piedāvā dokumentu parakstīšanas API citām populārām izstrādes vidēm"
 
     solution:
         # solution loop

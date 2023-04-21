@@ -245,7 +245,8 @@
     "api_nocodelabel": "Tüm No Code Uygulamalarını Görüntüle",
     "api_nocode_1_content": "Microsoft Word, Excel, PowerPoint, Visio ve PDF dosyalarını metin, resim, Barkod veya QR-Kodu ile imzalayın.",
     "api_nocode_2_content": "Word belgelerini doğrudan tarayıcınızdan ücretsiz olarak çevrimiçi olarak dijital olarak imzalayın.",
-    "api_nocode_3_content": "Herhangi bir web tarayıcısından metin, resim veya barkod kullanarak PDF dosyalarını e-İmzalayın."
+    "api_nocode_3_content": "Herhangi bir web tarayıcısından metin, resim veya barkod kullanarak PDF dosyalarını e-İmzalayın.",
+    "supported_formats": "Desteklenen belge biçimleri."
   },
   "index-content-net": {
     "head_title": ".NET Dijital İmza API'si - Elektronik İmza PDF Word Excel Görselleri",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Barkod İmzası",
     "overview_tab1_left_content_6": "Kaşe İmza",
     "overview_tab1_left_content_7": "Meta veri imzası",
-    "overview_tab2_description": "GroupDocs.Signature for .NET, tüm popüler [belge dosyası biçimlerinin](https://docs.groupdocs.com/signature/net/supported-document-formats/) görüntülenmesini destekler. Yalnızca birkaç satır kodla, .NET uygulamalarınıza PDF imzası, Microsoft Office Word, Excel elektronik tablosu, Resim, HTML, Outlook e-postası, OneNote, Proje ve grafik görüntüleme özellikleri ekleyin.",
+    "overview_tab2_description": "GroupDocs.Signature for .NET, tüm popüler belge biçimlerinin imzalanmasını destekler. Yalnızca birkaç satır kodla, .NET uygulamalarınıza PDF imzası, Microsoft Office Word, Excel elektronik tablosu, Görüntü, HTML, Outlook e-postası, OneNote, Proje ve grafik imzalama özellikleri ekleyin.",
     "overview_tab2_right_title": "Görseller ve Diğer Formatlar",
     "overview_tab2_right_content_1": "Görüntüler",
     "overview_tab2_right_content_2": "Meta dosyalar",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "GroupDocs.Signature for .NET API aracılığıyla, herhangi bir belgede, sunumda, elektronik tabloda, görselde ve ayrıca PDF dosyasında QR Kodu ve Barkod imzalarını arayabilir ve arama ilerlemesini alabilirsiniz. Özel veri nesnesini, QR-Kod İmzası ile imzalanmış belgelerden de arayabilirsiniz.",
     "more_feature_4_title": "Barkod için Gelişmiş Arama Seçenekleri",
     "more_feature_4_content": "İmza API'miz gelişmiş arama seçenekleri sunduğundan, GroupDocs.Signature for.NET API aracılığıyla gerekli barkodunuzu çok kolay bir şekilde arayabilir ve bulabilirsiniz. Bunlar, belirli bir sayfada barkod aramanıza, bir belge boyunca arama yapmanıza, aranacak farklı sayfaları belirtmenize (ilk, son, çift, tek), belirli kodlama tipinde barkod aramanıza, belirli metin dizesine göre barkod aramanıza veya barkod aramanıza olanak tanır. \"içerir\" seçeneğiyle dizeye dayalı.",
-    "solutions_title": "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge görüntüleme API'leri sunar"
+    "solutions_title": "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge imzalama API'leri sunar"
   },
   "index-content-java": {
     "head_title": "Java Dijital İmza API'si, PDF Word Excel Görüntüsüne e-İmza Ekleyin",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Barkod İmzası",
     "overview_tab1_left_content_6": "Kaşe İmza",
     "overview_tab1_left_content_7": "Form alanı İmzası",
-    "overview_tab2_description": "Java elektronik olarak imzalama API'si, aşağıda listelendiği gibi [belge dosyası biçimlerini](https://docs.groupdocs.com/signature/java/supported-document-formats/) destekler.",
+    "overview_tab2_description": "Java elektronik olarak imzalama API'si, aşağıda listelenen çeşitli belge dosyası biçimlerini destekler.",
     "overview_tab2_right_title": "Görseller ve Diğer Formatlar",
     "overview_tab2_right_content_1": "Görüntüler",
     "overview_tab2_right_content_2": "Meta dosyalar",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Benzer şekilde GroupDocs.Signature for Java API, QR, Aztec ve Data Matrix gibi QR kodu türlerini kullanmanıza olanak tanır. Desteklenen QR Kodu kodlama türleri arasında Aztec, DataMatrix, GS1 DataMatrix ve GS1 QR yer alır.",
     "more_feature_3_title": "İmzaları ve Sertifikaları Ara",
     "more_feature_3_content_1": "GroupDocs.Signature for Java API aracılığıyla, herhangi bir belgede, sunumda, elektronik tabloda, görselde ve ayrıca PDF dosyasında QR-Code ve Barkod imzalarını arayabilir ve arama sonucunu alabilirsiniz. Ayrıca, QR-Code Signature ile imzalanmış belgelerden özel veri nesnesini ve QR-Code ile İmzalanmış Belgelerden Standart VCard ve E-posta Nesnesini arayabilirsiniz. PDF belgelerinde meta veri imzası aramanın yanı sıra QR-Code imzalarının şifrelenmiş metninin doğrulanması da desteklenir. Words & Cells Belgelerinin dijital imzaları için ek arama kriterleri uygulayın.",
-    "more_feature_3_content_2": "Word belgeleri, slaytlar ve elektronik tablolar için meta veri imzası için arama seçeneği, PDF belgeleri için form alanı araması da mevcuttur.",
+    "more_feature_3_content_2": "Word belgeleri, slaytlar ve elektronik tablolar için meta veri imzası için arama seçeneği de mevcuttur, form alanı araması ise PDF belgeleri için kullanılabilir.",
     "more_feature_4_title": "e-İmza Özelliklerini Yapılandırma",
     "more_feature_4_content": "Son kullanıcıların UX'ini geliştirmek için GroupDocs.Signature for Java API, kolayca yapılandırılabilen birçok özellik sağlar. Yazı tipi ve renk seçeneklerini (Arka Plan Rengi, Ön Plan Rengi, Kalın, İtalik, Altı Çizili, Yazı Ailesi, Yazı Tipi Boyutu vb.), Arka Plan ve Kenarlık Seçeneklerini (Arka Plan Rengi, Arka Plan Saydamlığı, Kenarlık Rengi, Kenar Çizgi Stili, Kenarlık Kalınlığı, Kenar Saydamlığı vb.), İmza Kenar Boşlukları (Sol, Üst, Genişlik, Yükseklik, Dolgu vb.) ve Kurulum Görüntüsü İmza Alanı ve İmza Hizalaması (Yatay Hizalama, Dikey Hizalama vb.).",
-    "solutions_title": "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge görüntüleme API'leri sunar"
+    "solutions_title": "GroupDocs.Signature, diğer popüler geliştirme ortamları için belge imzalama API'leri sunar"
   }
 }

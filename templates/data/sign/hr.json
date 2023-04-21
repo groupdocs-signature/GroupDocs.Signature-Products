@@ -245,7 +245,8 @@
     "api_nocodelabel": "Pogledajte sve aplikacije bez koda",
     "api_nocode_1_content": "Potpišite Microsoft Word, Excel, PowerPoint, Visio i PDF datoteke tekstom, slikom, crtičnim kodom ili QR kodom.",
     "api_nocode_2_content": "Besplatno digitalno potpišite Word dokumente izravno iz svog preglednika.",
-    "api_nocode_3_content": "e-potpišite PDF datoteke pomoću teksta, slike ili crtičnog koda iz bilo kojeg web preglednika."
+    "api_nocode_3_content": "e-potpišite PDF datoteke pomoću teksta, slike ili crtičnog koda iz bilo kojeg web preglednika.",
+    "supported_formats": "Podržani formati dokumenata."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - elektronički potpis PDF Word Excel slike",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Potpis crtičnog koda",
     "overview_tab1_left_content_6": "Pečat Potpis",
     "overview_tab1_left_content_7": "Potpis metapodataka",
-    "overview_tab2_description": "GroupDocs.Signature za .NET podržava pregled svih popularnih [formata datoteka dokumenata](https://docs.groupdocs.com/signature/net/supported-document-formats/). Sa samo nekoliko redaka koda dodajte PDF potpis, Microsoft Office Word, Excel proračunsku tablicu, sliku, HTML, Outlook e-poštu, OneNote, Project i mogućnosti pregledavanja grafike u vašim .NET aplikacijama.",
+    "overview_tab2_description": "GroupDocs.Signature za .NET podržava potpisivanje svih popularnih formata dokumenata. Sa samo nekoliko redaka koda dodajte PDF potpis, Microsoft Office Word, Excel proračunsku tablicu, sliku, HTML, Outlook e-poštu, OneNote, Project i mogućnosti potpisivanja grafike u svoje .NET aplikacije.",
     "overview_tab2_right_title": "Slike i drugi formati",
     "overview_tab2_right_content_1": "Slike",
     "overview_tab2_right_content_2": "Metadatoteke",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Putem API-ja GroupDocs.Signature za .NET možete pretraživati ​​potpise QR-kodova i crtičnih kodova u bilo kojem dokumentu, prezentaciji, proračunskoj tablici, slici, kao i PDF datoteci te dohvaćati napredak pretraživanja. Također možete pretraživati ​​prilagođeni podatkovni objekt iz dokumenata potpisanih QR-Code Signature.",
     "more_feature_4_title": "Napredne opcije pretraživanja za crtični kod",
     "more_feature_4_content": "Možete vrlo jednostavno pretraživati ​​i locirati traženi crtični kod putem API-ja GroupDocs.Signature for.NET, budući da naš API za potpis nudi napredne opcije pretraživanja. Oni vam omogućuju pretraživanje crtičnog koda na određenoj stranici, pretraživanje kroz cijeli dokument, određivanje različitih stranica za pretraživanje (prva, zadnja, parna, neparna), traženje crtičnog koda određene vrste kodiranja, pretraživanje crtičnog koda na temelju određenog tekstualnog niza ili pretraživanje crtičnog koda na temelju niza s opcijom \"sadrži\".",
-    "solutions_title": "GroupDocs.Signature nudi API-je za pregledavanje dokumenata za druga popularna razvojna okruženja"
+    "solutions_title": "GroupDocs.Signature nudi API-je za potpisivanje dokumenata za druga popularna razvojna okruženja"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, dodajte e-potpis u PDF Word Excel sliku",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Potpis crtičnog koda",
     "overview_tab1_left_content_6": "Pečat Potpis",
     "overview_tab1_left_content_7": "Potpis polja obrasca",
-    "overview_tab2_description": "API za elektroničko potpisivanje Java podržava [formate datoteka dokumenata](https://docs.groupdocs.com/signature/java/supported-document-formats/) kako je navedeno u nastavku.",
+    "overview_tab2_description": "API za elektroničko potpisivanje Java podržava različite formate datoteka dokumenata kako je navedeno u nastavku.",
     "overview_tab2_right_title": "Slike i drugi formati",
     "overview_tab2_right_content_1": "Slike",
     "overview_tab2_right_content_2": "Metadatoteke",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Slično GroupDocs.Signature za Java API omogućuje vam korištenje vrsta QR kodova, kao što su QR, Aztec i Data Matrix. Podržane vrste kodiranja QR-koda uključuju Aztec, DataMatrix, GS1 DataMatrix i GS1 QR.",
     "more_feature_3_title": "Pretražite potpise i potvrde",
     "more_feature_3_content_1": "Putem API-ja GroupDocs.Signature za Java možete pretraživati ​​potpise QR-kodova i crtičnih kodova u bilo kojem dokumentu, prezentaciji, proračunskoj tablici, slici, kao i PDF datoteci, te dohvatiti rezultate pretraživanja. Također možete pretraživati ​​prilagođeni podatkovni objekt iz dokumenata potpisanih potpisom QR-koda kao i pretraživati ​​standardnu ​​VCard i objekt e-pošte iz dokumenata potpisanih QR-kodom. Također je podržana provjera šifriranog teksta QR-Code potpisa kao i traženje potpisa metapodataka u PDF dokumentima. Primijenite dodatne kriterije pretraživanja za digitalne potpise Words & Cells dokumenata.",
-    "more_feature_3_content_2": "Opcija pretraživanja također je dostupna za potpis metapodataka za Word dokumente, slajdove i proračunske tablice, dok je pretraživanje polja obrasca dostupno za PDF dokumente.",
+    "more_feature_3_content_2": "Opcija pretraživanja dostupna je i za potpis metapodataka za Word dokumente, slajdove i proračunske tablice, dok je pretraživanje polja obrasca dostupno za PDF dokumente.",
     "more_feature_4_title": "Konfigurirajte svojstva e-potpisa",
     "more_feature_4_content": "Kako bi se poboljšao korisnički doživljaj krajnjih korisnika GroupDocs.Signature za Java API pruža mnogo svojstava koja se mogu konfigurirati prilično jednostavno. Možete postaviti opcije fonta i boje (boja pozadine, boja prednjeg plana, podebljano, kurziv, podcrtano, obitelj fontova, veličina fonta itd.), opcije pozadine i obruba (boja pozadine, prozirnost pozadine, boja obruba, stil obrubne crtice, debljina obruba, Prozirnost obruba itd.), margine potpisa (lijevo, vrh, širina, visina, ispuna itd.) i postavljanje područja potpisa slike i poravnanja potpisa (horizontalno poravnanje, okomito poravnanje itd.).",
-    "solutions_title": "GroupDocs.Signature nudi API-je za pregledavanje dokumenata za druga popularna razvojna okruženja"
+    "solutions_title": "GroupDocs.Signature nudi API-je za potpisivanje dokumenata za druga popularna razvojna okruženja"
   }
 }

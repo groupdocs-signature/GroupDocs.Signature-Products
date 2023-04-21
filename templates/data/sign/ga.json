@@ -245,7 +245,8 @@
     "api_nocodelabel": "Féach ar All No Code Apps",
     "api_nocode_1_content": "Sínigh comhaid Microsoft Word, Excel, PowerPoint, Visio & PDF le téacs, íomhá, Barcode nó QR-Cod.",
     "api_nocode_2_content": "Sínigh doiciméid Word go digiteach ar líne go díreach ó do bhrabhsálaí saor in aisce.",
-    "api_nocode_3_content": "Ríomhchomhaid PDF ag baint úsáide as téacs, íomhá nó barrachóid laistigh d'aon bhrabhsálaí gréasáin."
+    "api_nocode_3_content": "Ríomhchomhaid PDF ag baint úsáide as téacs, íomhá nó barrachóid laistigh d'aon bhrabhsálaí gréasáin.",
+    "supported_formats": "Formáidí doiciméad tacaithe."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Comhartha Leictreonach PDF Word Excel Images",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Síniú Barcode",
     "overview_tab1_left_content_6": "Síniú Stampa",
     "overview_tab1_left_content_7": "Síniú Meiteashonraí",
-    "overview_tab2_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET le breathnú ar gach [formáid comhaid doiciméad] a bhfuil tóir orthu (https://docs.groupdocs.com/signature/net/supported-document-formats/). Gan ach cúpla líne de chód, cuir síniú PDF, Microsoft Office Word, scarbhileog Excel, Íomhá, HTML, ríomhphost Outlook, OneNote, Tionscadal agus cumais féachana grafaic i d'fheidhmchláir .NET.",
+    "overview_tab2_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET le síniú gach formáid doiciméad coitianta. Gan ach cúpla líne de chód, cuir síniú PDF, Microsoft Office Word, scarbhileog Excel, Íomhá, HTML, ríomhphost Outlook, OneNote, cumais sínithe Tionscadal agus grafaicí i d’fheidhmchláir .NET.",
     "overview_tab2_right_title": "Íomhánna & Formáidí Eile",
     "overview_tab2_right_content_1": "Íomhánna",
     "overview_tab2_right_content_2": "Meiteashonraí",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Trí GroupDocs.Signature le haghaidh .NET API, is féidir leat sínithe QR-Code agus Barcode a chuardach in aon doiciméad, cur i láthair, scarbhileog, íomhá, chomh maith le comhad PDF, agus dul chun cinn an chuardaigh a fháil. Is féidir leat réad sonraí saincheaptha a chuardach freisin ó dhoiciméid atá sínithe le Síniú QR-Code.",
     "more_feature_4_title": "Roghanna Cuardach Casta le haghaidh Barrachóid",
     "more_feature_4_content": "Is féidir leat do bharrachód riachtanach a chuardach agus a aimsiú go héasca trí GroupDocs.Signature for.NET API, mar go dtugann ár n-API sínithe roghanna cuardaigh casta. Cuireann siad seo ar do chumas barrachóid a chuardach ar leathanach ar leith, cuardach a dhéanamh ar fud cáipéise, leathanaigh éagsúla a shonrú le cuardach a dhéanamh (ar dtús, go deireanach, fiú, corr), cuardach a dhéanamh ar bharrachód de chineál ionchódaithe ar leith, barrachód a chuardach bunaithe ar theaghrán téacs ar leith, nó barrachód a chuardach bunaithe ar teaghrán le \"Tá\" rogha.",
-    "solutions_title": "Tairgeann GroupDocs.Signature APIanna féachana doiciméad do thimpeallachtaí forbartha eile a bhfuil tóir orthu"
+    "solutions_title": "Cuireann GroupDocs.Signature API sínithe doiciméad ar fáil do thimpeallachtaí forbartha tóir eile"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Cuir eSignature le PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Síniú Barcode",
     "overview_tab1_left_content_6": "Síniú Stampa",
     "overview_tab1_left_content_7": "Síniú réimse foirm",
-    "overview_tab2_description": "Tacaíonn API sínithe go leictreonach Java le [formáidí comhaid doiciméad](https://docs.groupdocs.com/signature/java/supported-document-formats/) mar atá liostaithe thíos.",
+    "overview_tab2_description": "Tacaíonn API sínithe go leictreonach Java le formáidí éagsúla comhaid doiciméad mar atá liostaithe thíos.",
     "overview_tab2_right_title": "Íomhánna & Formáidí Eile",
     "overview_tab2_right_content_1": "Íomhánna",
     "overview_tab2_right_content_2": "Meiteashonraí",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Ar an gcaoi chéanna ligeann GroupDocs.Signature do Java API duit cineálacha cód QR a úsáid, mar shampla, QR, Aztec, agus Maitrís Sonraí. I measc na gcineálacha ionchódaithe QR-Cód tacaithe tá Aztec, DataMatrix, GS1 DataMatrix, agus GS1 QR.",
     "more_feature_3_title": "Cuardaigh Sínithe & Deimhnithe",
     "more_feature_3_content_1": "Trí GroupDocs.Signature le haghaidh Java API, is féidir leat sínithe QR-Code agus Barcode a chuardach in aon doiciméad, cur i láthair, scarbhileog, íomhá, chomh maith le comhad PDF, agus toradh an chuardaigh a fháil. Is féidir leat réad sonraí saincheaptha a chuardach freisin ó dhoiciméid atá sínithe le Síniú QR-Code chomh maith le Cuardach Vcard Caighdeánach agus Réad Ríomhphost ó Dhoiciméid Sínithe le QR-Cod. Tacaítear freisin le fíorú téacs criptithe sínithe QR-Cod chomh maith le síniú meiteashonraí a chuardach i ndoiciméid PDF. Cuir critéir chuardaigh bhreise i bhfeidhm le haghaidh sínithe digiteacha ar Dhoiciméid Focail & Cealla.",
-    "more_feature_3_content_2": "Tá rogha cuardaigh ar fáil freisin le haghaidh síniú meiteashonraí do dhoiciméid focal, sleamhnáin agus scarbhileoga, agus tá cuardach foirm-réimse ar fáil do dhoiciméid PDF.",
+    "more_feature_3_content_2": "Tá rogha cuardaigh ar fáil freisin le haghaidh síniú meiteashonraí do dhoiciméid Word, sleamhnáin agus scarbhileoga, agus tá cuardach foirm-réimse ar fáil do dhoiciméid PDF.",
     "more_feature_4_title": "Cumraigh Airíonna eSignature",
     "more_feature_4_content": "Chun UX na n-úsáideoirí deiridh a fheabhsú, soláthraíonn GroupDocs.Signature do Java API a lán maoine ar féidir iad a chumrú go héasca. Is féidir leat roghanna cló agus dath a shocrú (Dath Cúlra, Dath Tulra, Trom, Iodálach, Faoi Líne, Cló Teaghlaigh, Clómhéid srl.), Roghanna Cúlra agus Teorainn (Dath Cúlra, Trédhearcacht Cúlra, Dath Teorann, Stíl Fleasc Teorann, Meáchan Teorann, Trédhearcacht Teorann srl.), Corrlaigh Sínithe (Clé, Barr, Leithead, Airde, Stuála srl.), agus Socrú Réimse Sínithe Íomhá & Ailíniú Sínithe (Ailíniú Cothrománach, Ailíniú Ingearach etc.).",
-    "solutions_title": "Tairgeann GroupDocs.Signature APIanna féachana doiciméad do thimpeallachtaí forbartha eile a bhfuil tóir orthu"
+    "solutions_title": "Cuireann GroupDocs.Signature API sínithe doiciméad ar fáil do thimpeallachtaí forbartha tóir eile"
   }
 }

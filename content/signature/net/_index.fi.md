@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature for .NET tukee kaikkien suosittujen [asiakirjatiedostomuotojen] tarkastelua (https://docs.groupdocs.com/signature/net/supported-document-formats/). Lisää vain muutamalla koodirivillä PDF-allekirjoitus, Microsoft Office Word, Excel-laskentataulukko, kuva, HTML, Outlook-sähköposti, OneNote, projektin ja grafiikan katseluominaisuudet .NET-sovelluksiin.
+          GroupDocs.Signature for .NET tukee kaikkien suosittujen asiakirjamuotojen allekirjoittamista. Lisää vain muutamalla koodirivillä PDF-allekirjoitus, Microsoft Office Word, Excel-laskentataulukko, kuva, HTML, Outlook-sähköposti, OneNote, projekti- ja grafiikkaallekirjoitusominaisuudet .NET-sovelluksiin. [Tuetut asiakirjamuodot.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature tarjoaa asiakirjojen katselusovellusliittymiä muihin suosittuihin kehitysympäristöihin"
+    title: "GroupDocs.Signature tarjoaa dokumenttien allekirjoitussovellusliittymiä muihin suosittuihin kehitysympäristöihin"
 
     solution:
         # solution loop

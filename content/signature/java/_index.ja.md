@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Java 電子署名 API は、以下に示す [ドキュメント ファイル形式](https://docs.groupdocs.com/signature/java/supported-document-formats/) をサポートしています。
+          Java 電子署名 API は、次に示すさまざまなドキュメント ファイル形式をサポートしています。 [サポートされているドキュメント形式。](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           GroupDocs.Signature for Java API を使用すると、ドキュメント、プレゼンテーション、スプレッドシート、画像、PDF ファイルで QR コードとバーコードの署名を検索し、検索結果を取得できます。また、QR コード署名で署名されたドキュメントからカスタム データ オブジェクトを検索したり、QR コードで署名されたドキュメントから標準 VCard および電子メール オブジェクトを検索したりすることもできます。 QR コード署名の暗号化テキストの検証や、PDF ドキュメント内のメタデータ署名の検索もサポートされています。 Words & Cells Documents のデジタル署名に追加の検索条件を適用します。  
 
-          検索オプションは、Word ドキュメント、スライド、スプレッドシートのメタデータ署名にも利用でき、PDF ドキュメントにはフォーム フィールド検索を利用できます。
+          検索オプションは、Word 文書、スライド、スプレッドシートのメタデータ署名にも使用でき、フォームフィールド検索は PDF 文書で使用できます。
 
       # more_feature_loop
       - title: "電子署名のプロパティを構成する"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+    title: "GroupDocs.Signature は、他の一般的な開発環境向けのドキュメント署名 API を提供します"
 
     solution:
         # solution loop

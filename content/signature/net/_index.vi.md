@@ -96,7 +96,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Signature dành cho .NET hỗ trợ xem tất cả [các định dạng tệp tài liệu] phổ biến(https://docs.groupdocs.com/signature/net/supported-document-formats/). Chỉ với một vài dòng mã, hãy thêm chữ ký PDF, Microsoft Office Word, bảng tính Excel, Hình ảnh, HTML, email Outlook, OneNote, Dự án và khả năng xem đồ họa trong các ứng dụng .NET của bạn.
+          GroupDocs.Signature cho .NET hỗ trợ ký tất cả các định dạng tài liệu phổ biến. Chỉ với một vài dòng mã, hãy thêm chữ ký PDF, Microsoft Office Word, bảng tính Excel, Hình ảnh, HTML, email Outlook, OneNote, Dự án và khả năng ký đồ họa trong các ứng dụng .NET của bạn. [Các định dạng tài liệu được hỗ trợ.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
 
         left:
           enable: true
@@ -339,7 +339,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature cung cấp API xem tài liệu cho các môi trường phát triển phổ biến khác"
+    title: "GroupDocs.Signature cung cấp API ký tài liệu cho các môi trường phát triển phổ biến khác"
 
     solution:
         # solution loop

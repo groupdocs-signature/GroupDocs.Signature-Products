@@ -245,7 +245,8 @@
     "api_nocodelabel": "Visa alla No Code-appar",
     "api_nocode_1_content": "Signera Microsoft Word, Excel, PowerPoint, Visio och PDF-filer med text, bild, streckkod eller QR-kod.",
     "api_nocode_2_content": "Signera Word-dokument digitalt online direkt från din webbläsare gratis.",
-    "api_nocode_3_content": "e-signera PDF-filer med text, bild eller streckkod från vilken webbläsare som helst."
+    "api_nocode_3_content": "e-signera PDF-filer med text, bild eller streckkod från vilken webbläsare som helst.",
+    "supported_formats": "Dokumentformat som stöds."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API - Electronic Sign PDF Word Excel-bilder",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Streckkodssignatur",
     "overview_tab1_left_content_6": "Stämpel Signatur",
     "overview_tab1_left_content_7": "Metadatasignatur",
-    "overview_tab2_description": "GroupDocs.Signature för .NET stöder visning av alla populära [dokumentfilformat](https://docs.groupdocs.com/signature/net/supported-document-formats/). Med bara några rader kod kan du lägga till PDF-signatur, Microsoft Office Word, Excel-kalkylblad, bild, HTML, Outlook e-post, OneNote, projekt och grafikvisningsmöjligheter i dina .NET-program.",
+    "overview_tab2_description": "GroupDocs.Signature för .NET stöder signering av alla populära dokumentformat. Med bara några rader kod kan du lägga till PDF-signatur, Microsoft Office Word, Excel-kalkylblad, bild, HTML, Outlook e-post, OneNote, projekt och grafiksigneringsfunktioner i dina .NET-program.",
     "overview_tab2_right_title": "Bilder och andra format",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metafiler",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "Genom GroupDocs.Signature för .NET API kan du söka efter QR-kod- och streckkodsignaturer i alla dokument, presentationer, kalkylblad, bilder samt PDF-filer och hämta sökresultatet. Du kan också söka efter anpassade dataobjekt från dokument signerade med QR-kodsignatur.",
     "more_feature_4_title": "Avancerade sökalternativ för streckkod",
     "more_feature_4_content": "Du kan söka och hitta din önskade streckkod genom GroupDocs.Signature for.NET API mycket enkelt, eftersom vårt signatur-API erbjuder avancerade sökalternativ. Dessa gör att du kan söka efter streckkod på en viss sida, söka igenom ett dokument, ange olika sidor att söka (första, sista, jämna, udda), söka efter streckkod av speciell kodningstyp, söka streckkod baserat på specifik textsträng eller sök streckkod baserat på sträng med alternativet \"innehåller\".",
-    "solutions_title": "GroupDocs.Signature erbjuder API:er för dokumentvisning för andra populära utvecklingsmiljöer"
+    "solutions_title": "GroupDocs.Signature erbjuder API:er för dokumentsignering för andra populära utvecklingsmiljöer"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, Lägg till eSignatur till PDF Word Excel Image",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Streckkodssignatur",
     "overview_tab1_left_content_6": "Stämpel Signatur",
     "overview_tab1_left_content_7": "Formfältsignatur",
-    "overview_tab2_description": "Java elektroniskt signerings-API stöder [dokumentfilformat](https://docs.groupdocs.com/signature/java/supported-document-formats/) enligt listan nedan.",
+    "overview_tab2_description": "Java elektronisk signering API stöder olika dokumentfilformat enligt listan nedan.",
     "overview_tab2_right_title": "Bilder och andra format",
     "overview_tab2_right_content_1": "Bilder",
     "overview_tab2_right_content_2": "Metafiler",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "På samma sätt låter GroupDocs.Signature för Java API använda QR-kodtyper, såsom QR, Aztec och Data Matrix. QR-kodstyper som stöds inkluderar Aztec, DataMatrix, GS1 DataMatrix och GS1 QR.",
     "more_feature_3_title": "Sök efter signaturer och certifikat",
     "more_feature_3_content_1": "Genom GroupDocs.Signature for Java API kan du söka efter QR-kod- och streckkodsignaturer i alla dokument, presentationer, kalkylblad, bilder, samt PDF-filer, och hämta sökresultatet. Du kan också söka efter anpassade dataobjekt från dokument signerade med QR-kodsignatur samt Sök efter standard VCard och e-postobjekt från dokument signerade med QR-kod. Verifiering av krypterad text av QR-kodsignaturer samt sökning efter metadatasignatur i PDF-dokument stöds också. Tillämpa ytterligare sökkriterier för digitala signaturer av Words & Cells-dokument.",
-    "more_feature_3_content_2": "Sökalternativ är också tillgängligt för metadatasignatur för word-dokument, bilder och kalkylblad, medan formulärfältssökning är tillgängligt för PDF-dokument.",
+    "more_feature_3_content_2": "Sökalternativ är också tillgängligt för metadatasignatur för word-dokument, bilder och kalkylblad, medan formulärfältssökning är tillgänglig för PDF-dokument.",
     "more_feature_4_title": "Konfigurera eSignature-egenskaper",
     "more_feature_4_content": "För att förbättra användarupplevelsen för slutanvändare tillhandahåller GroupDocs.Signature för Java API många egenskaper som kan konfigureras ganska enkelt. Du kan ställa in teckensnitt och färgalternativ (bakgrundsfärg, förgrundsfärg, fetstil, kursiv, understruken, teckensnittsfamilj, teckenstorlek etc.), bakgrunds- och ramalternativ (bakgrundsfärg, bakgrundstransparens, kantfärg, kantstreckstil, kantvikt, Kantgenomskinlighet etc.), Signaturmarginaler (vänster, topp, bredd, höjd, stoppning etc.), och ställ in bildsignaturområde & signaturjustering (horisontell justering, vertikal justering etc.).",
-    "solutions_title": "GroupDocs.Signature erbjuder API:er för dokumentvisning för andra populära utvecklingsmiljöer"
+    "solutions_title": "GroupDocs.Signature erbjuder API:er för dokumentsignering för andra populära utvecklingsmiljöer"
   }
 }

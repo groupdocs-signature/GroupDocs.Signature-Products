@@ -71,7 +71,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          Das ist eine Übersicht der GroupDocs.Signature-Funktionen für Java:
+          Das ist ein Überblick über GroupDocs.Signature-Funktionen für Java:
       
         right:
           enable: true
@@ -89,7 +89,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          Die Java-API für elektronische Signaturen unterstützt [Dokumentdateiformate](https://docs.groupdocs.com/signature/java/supported-document-formats/) wie unten aufgeführt.
+          Die elektronische Java-Signatur-API unterstützt verschiedene Dokumentdateiformate, wie unten aufgeführt. [Unterstützte Dokumentenformate.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
 
         left:
           enable: true
@@ -311,7 +311,7 @@ features:
         content: |
           Über GroupDocs.Signature for Java API können Sie QR-Code- und Barcode-Signaturen in allen Dokumenten, Präsentationen, Tabellenkalkulationen, Bildern sowie PDF-Dateien suchen und das Suchergebnis abrufen. Sie können auch benutzerdefinierte Datenobjekte aus mit QR-Code-Signatur signierten Dokumenten sowie Standard-VCard- und E-Mail-Objekte aus mit QR-Code signierten Dokumenten durchsuchen. Die Überprüfung des verschlüsselten Textes von QR-Code-Signaturen sowie die Suche nach Metadaten-Signaturen in PDF-Dokumenten wird ebenfalls unterstützt. Wenden Sie zusätzliche Suchkriterien für digitale Signaturen von Words & Cells-Dokumenten an.  
 
-          Die Suchoption ist auch für Metadaten-Signaturen für Word-Dokumente, Folien und Tabellenkalkulationen verfügbar, während die Formularfeldsuche für PDF-Dokumente verfügbar ist.
+          Die Suchoption ist auch für die Metadatensignatur für Word-Dokumente, Folien und Tabellenkalkulationen verfügbar, während die Formularfeldsuche für PDF-Dokumente verfügbar ist.
 
       # more_feature_loop
       - title: "Konfigurieren Sie eSignatur-Eigenschaften"
@@ -325,7 +325,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Signature bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    title: "GroupDocs.Signature bietet APIs zum Signieren von Dokumenten für andere beliebte Entwicklungsumgebungen"
 
     solution:
         # solution loop

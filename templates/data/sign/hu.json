@@ -245,7 +245,8 @@
     "api_nocodelabel": "Az összes kód nélküli alkalmazás megtekintése",
     "api_nocode_1_content": "Írjon alá Microsoft Word, Excel, PowerPoint, Visio és PDF fájlokat szöveggel, képpel, vonalkóddal vagy QR-kóddal.",
     "api_nocode_2_content": "Ingyenesen írjon alá Word dokumentumokat online, közvetlenül a böngészőből.",
-    "api_nocode_3_content": "e-Sign PDF fájlokat szöveg, kép vagy vonalkód használatával bármely webböngészőből."
+    "api_nocode_3_content": "e-Sign PDF fájlokat szöveg, kép vagy vonalkód használatával bármely webböngészőből.",
+    "supported_formats": "Támogatott dokumentumformátumok."
   },
   "index-content-net": {
     "head_title": ".NET Digital Signature API – Elektronikus aláírás PDF Word Excel képek",
@@ -269,7 +270,7 @@
     "overview_tab1_left_content_5": "Vonalkód aláírás",
     "overview_tab1_left_content_6": "Bélyegző aláírás",
     "overview_tab1_left_content_7": "Metaadat aláírás",
-    "overview_tab2_description": "A GroupDocs.Signature for .NET támogatja az összes népszerű [dokumentumfájl-formátum] megtekintését (https://docs.groupdocs.com/signature/net/supported-document-formats/). Néhány sornyi kóddal PDF-aláírást, Microsoft Office Word-öt, Excel-táblázatot, képet, HTML-t, Outlook e-mailt, OneNote-ot, projekt- és grafikamegtekintési lehetőségeket ad hozzá .NET-alkalmazásaihoz.",
+    "overview_tab2_description": "A GroupDocs.Signature for .NET támogatja az összes népszerű dokumentumformátum aláírását. Néhány sornyi kóddal PDF-aláírási, Microsoft Office Word-, Excel-táblázat-, kép-, HTML-, Outlook-e-mail-, OneNote-, projekt- és grafikus aláírási lehetőségeket adhat hozzá .NET-alkalmazásaihoz.",
     "overview_tab2_right_title": "Képek és egyéb formátumok",
     "overview_tab2_right_content_1": "Képek",
     "overview_tab2_right_content_2": "Metafájlok",
@@ -323,7 +324,7 @@
     "more_feature_3_content_2": "A GroupDocs.Signature for .NET API-n keresztül bármilyen dokumentumban, prezentációban, táblázatban, képben, valamint PDF-fájlban kereshet QR-kód és vonalkód aláírások között, és lekérheti a keresés folyamatát. Egyéni adatobjektumokat kereshet a QR-kód aláírással aláírt dokumentumokból is.",
     "more_feature_4_title": "Speciális keresési beállítások a vonalkódhoz",
     "more_feature_4_content": "A GroupDocs.Signature for.NET API-n keresztül nagyon egyszerűen megkeresheti és megtalálhatja a kívánt vonalkódot, mivel aláírási API-nk speciális keresési lehetőségeket kínál. Ezek lehetővé teszik a vonalkód keresését egy adott oldalon, keresést a dokumentumban, különböző oldalak megadását a kereséshez (első, utolsó, páros, páratlan), adott kódolási típusú vonalkód keresését, vonalkód keresését meghatározott szöveges karakterlánc alapján vagy vonalkód keresését. karakterlánc alapján a „contains” opcióval.",
-    "solutions_title": "A GroupDocs.Signature dokumentummegtekintési API-kat kínál más népszerű fejlesztői környezetekhez"
+    "solutions_title": "A GroupDocs.Signature dokumentum-aláíró API-kat kínál más népszerű fejlesztői környezetekhez"
   },
   "index-content-java": {
     "head_title": "Java Digital Signature API, eAláírás hozzáadása PDF Word Excel képhez",
@@ -338,7 +339,7 @@
     "overview_content_1": "A GroupDocs.Signature for Java API segítségével elektronikus aláírási funkcióval rendelkező Java-alkalmazásokat fejleszthet a támogatott formátumú digitális dokumentumok aláírásához külső szoftver telepítése nélkül. Támogatja a különféle típusú e-aláírások, például kép, vonalkód, QR-kód, bélyegző, szöveg, optikai és metaadatok kezelését és kezelését. Az összes elektronikus üzleti dokumentuma, például a Microsoft Office Word, a PowerPoint prezentációk, az Excel-táblázatok, a képek és a PDF-fájlok digitálisan aláírhatók az aláírási tulajdonságok testreszabásával, pl. árnyék, méretek, igazítás és még sok más az Ön igényei szerint. A digitális aláírás könyvtár egyszerű és könnyű, egyetlen DLL fájlból áll, amely könnyen integrálható új vagy meglévő Java alkalmazásba.",
     "overview_content_2": "A GroupDocs.Signature for Java API-n keresztül betöltheti az összes regisztrált tanúsítványt a rendszerből, vagy megkeresheti a meglévő aláírásokat egyszerű és speciális kereséssel. A jelszóval védett dokumentumokkal való munkavégzés, a közös aláírási tulajdonságok megadása (szövegméret, átlátszatlanság, elforgatás, ellenőrzés, betűtípus tulajdonságai, színbeállítások, oldalszám, szélesség, felső, bal stb.), valamint a különböző e-aláírás-típusok megvalósításának támogatása megbízhatóvá teszi. e-Aláírás-kezelési megoldás digitális dokumentumokhoz.",
     "overview_content_3": "A GroupDocs.Signature for Java kompatibilis az összes Java-verzióval, és támogatja a népszerű operációs rendszereket (Windows, Linux, MacOS), amelyek képesek Java futási környezet futtatására",
-    "overview_tab1_description": "Ez a GroupDocs.Signature faetures for Java áttekintése:",
+    "overview_tab1_description": "Ez a GroupDocs.Signature Java szolgáltatásainak áttekintése:",
     "overview_tab1_left_title": "Aláírás típusok",
     "overview_tab1_left_content_1": "Szöveges aláírás",
     "overview_tab1_left_content_2": "Képaláírás",
@@ -347,7 +348,7 @@
     "overview_tab1_left_content_5": "Vonalkód aláírás",
     "overview_tab1_left_content_6": "Bélyegző aláírás",
     "overview_tab1_left_content_7": "Űrlapmező Aláírás",
-    "overview_tab2_description": "A Java elektronikus aláírási API támogatja a [dokumentumfájl-formátumokat](https://docs.groupdocs.com/signature/java/supported-document-formats/), az alábbiak szerint.",
+    "overview_tab2_description": "A Java elektronikus aláírási API támogatja az alább felsorolt ​​különféle dokumentumfájl-formátumokat.",
     "overview_tab2_right_title": "Képek és egyéb formátumok",
     "overview_tab2_right_content_1": "Képek",
     "overview_tab2_right_content_2": "Metafájlok",
@@ -398,9 +399,9 @@
     "more_feature_2_content_2": "Hasonlóképpen, a GroupDocs.Signature for Java API lehetővé teszi a QR-kód típusok, például QR, Aztec és Data Matrix használatát. A támogatott QR-kód kódolási típusok közé tartozik az Aztec, a DataMatrix, a GS1 DataMatrix és a GS1 QR.",
     "more_feature_3_title": "Keresés aláírások és tanúsítványok között",
     "more_feature_3_content_1": "A GroupDocs.Signature for Java API-n keresztül QR-kód és vonalkód aláírások között kereshet bármilyen dokumentumban, prezentációban, táblázatban, képben, valamint PDF-fájlban, és lekérheti a keresési eredményt. Egyéni adatobjektumokat kereshet QR-kód aláírással aláírt dokumentumok között, valamint szabványos VCard és e-mail objektumok keresését a QR-kóddal aláírt dokumentumokból. A QR-kódos aláírások titkosított szövegének ellenőrzése, valamint a metaadat-aláírások keresése PDF dokumentumokban szintén támogatott. Alkalmazzon további keresési feltételeket a Words & Cells dokumentumok digitális aláírására.",
-    "more_feature_3_content_2": "A keresési lehetőség a Word dokumentumok, diák és táblázatok metaadat-aláírására is elérhető, míg az űrlapmezős keresés a PDF dokumentumokhoz.",
+    "more_feature_3_content_2": "A keresési lehetőség a Word-dokumentumok, diák és táblázatok metaadat-aláírására is elérhető, míg a PDF-dokumentumok esetében az űrlapmezős keresés.",
     "more_feature_4_title": "Konfigurálja az eAláírás tulajdonságait",
     "more_feature_4_content": "A végfelhasználók felhasználói élményének javítása érdekében a GroupDocs.Signature for Java API számos olyan tulajdonságot kínál, amelyek meglehetősen egyszerűen konfigurálhatók. Beállíthatja a betűtípus- és színbeállításokat (háttérszín, előtérszín, félkövér, dőlt, aláhúzott, betűcsalád, betűméret stb.), háttér- és szegélybeállításokat (háttérszín, háttér átlátszósága, szegély színe, szegély stílusa, szegély súlya, Szegély átlátszósága stb.), Aláírási margók (bal, felső, szélesség, magasság, kitöltés stb.), valamint a képaláírási terület és az aláírás igazításának beállítása (vízszintes igazítás, függőleges igazítás stb.).",
-    "solutions_title": "A GroupDocs.Signature dokumentummegtekintési API-kat kínál más népszerű fejlesztői környezetekhez"
+    "solutions_title": "A GroupDocs.Signature dokumentum-aláíró API-kat kínál más népszerű fejlesztői környezetekhez"
   }
 }
