@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: hr
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - elektronički potpis PDF Word Excel slike"
-head_description: "C# .NET API za digitalni potpis, biblioteka e-potpisa za elektroničko potpisivanje PDF, Word, Excel proračunskih tablica, PowerPoint, slikovnih i grafičkih formata dokumenata."
+head_title: ".NET, Java, Cloud API-ji i online aplikacije za potpisivanje dokumenata"
+head_description: "Nabavite sveobuhvatno rješenje za e-potpis dokumenata za .NET, Java i aplikacije temeljene na oblaku. Potpišite uobičajene formate dokumenata na mreži koristeći jednostavnu značajku povlačenja i ispuštanja"
 
 ############################# Header ############################
-title: "Izvorni .NET API za elektroničke potpise"
-description: "Dodajte digitalne potpise formatima dokumenata i implementirajte popularne vrste e-potpisa (tekst, slika, QR-kod, crtični kod, pečat i metapodaci) u .NET aplikacijama."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Potpišite digitalne dokumente i slike na bilo kojoj platformi koristeći naše fleksibilne API-je i rješenja temeljena na aplikacijama za programere i krajnje korisnike."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Značajke"
-
-            # button loop
-            - link: "#support"
-              text: "podrška"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Demo uživo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Cijene"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Koristite GroupDocs.Signature za .NET API za izradu aplikacija u C#, ASP.NET i drugim tehnologijama temeljenim na .NET-u, koje vam omogućuju potpisivanje digitalnih poslovnih dokumenata kao što su PDF, Microsoft Word, Excel proračunske tablice, PowerPoint prezentacije, slike, OpenDocument i druge industrijske standardne formate datoteka bez potrebe za instaliranjem dodatnog softvera. S ovom bibliotekom elektroničkih potpisa jednostavno je raditi, a .NET programeri mogu jednostavno dodati napredne značajke digitalnog potpisa u svoje aplikacije, omogućujući korisnicima sigurno potpisivanje, pretraživanje i provjeru e-potpisa iz popularnih formata dokumenata. Podržava implementaciju različitih vrsta potpisa kao što su tekst, slika, crtični kod, QR kod, polje obrasca, pečat i metapodaci.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      API za potpis dokumenta omogućuje vam jednostavne i napredne opcije pretraživanja za lociranje potrebnih potpisa na dokumentu u trenu. Opcije za primjenu stila potpisa, upravljanje izgledom i prilagodbu svojstava potpisa kao što su dimenzije, sjena, poravnanje i drugo također su izvedive s ovim značajkama bogatim API-jem za potpisivanje dokumenata.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature za .NET može se koristiti u bilo kojem razvojnom okruženju koje podržava .NET platformu. Kompatibilan je sa svim jezicima koji se temelje na .NET-u i podržava popularne operativne sustave (Windows, Linux, MacOS) gdje se mogu instalirati Mono ili .NET okviri (uključujući .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Slijedi pregled GroupDocs.Signature za .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Vrste potpisa"
-          content: |
-            * Potpis teksta
-            * Potpis slike
-            * Digitalni potpisi
-            * Potpis QR koda
-            * Potpis crtičnog koda
-            * Pečat Potpis
-            * Potpis metapodataka
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature za .NET podržava potpisivanje svih popularnih formata dokumenata. Sa samo nekoliko redaka koda dodajte PDF potpis, Microsoft Office Word, Excel proračunsku tablicu, sliku, HTML, Outlook e-poštu, OneNote, Project i mogućnosti potpisivanja grafike u svoje .NET aplikacije. [Podržani formati dokumenata.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Slike**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metadatoteke**: EMF, WMF, CMX
-                * **Prijenosni**: PDF
-                * **Skalabilna vektorska grafika**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Drugi**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sustavi"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podržani okviri"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Upravitelj paketa"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Razvojna okruženja"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature za .NET značajke"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Stvaranje, pretraživanje, ažuriranje, skrivanje, provjera i brisanje e-potpisa iz podržanih formata dokumenata"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Navedite XML napredne elektroničke potpise (XAdES) za Excel proračunske tablice"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Dohvaćanje slikovnog sadržaja iz dokumenata potpisanih QR kodom, crtičnim kodom i slikovnim potpisima"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Postavite visinu, širinu, margine i poravnanje za potpis teksta ili slike i mjesto na određenoj stranici"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Pretraživanje, provjera i digitalni potpis PowerPoint prezentacijskih dokumenata"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Potpišite formate dokumenata za obradu teksta izvornim tekstualnim vodenim žigovima"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Podržava zaobljene kutove za pravokutne vrste potpisa pečata"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Primijenite tekstualni ili slikovni potpis na određeni Excel list ili postavite e-potpis na sve listove"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Odredite određeni broj retka i stupca za postavljanje teksta ili slikovnog potpisa u Excel list"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Primijenite sjenu na tekstualni potpis u programu Microsoft PowerPoint i postavite njegovu boju, kut i prozirnost"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Konfigurirajte stilove obruba potpisa teksta i opcije fonta za Excel listove"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Postavite vrstu potpisa slike, npr. Okrugli ili kvadratni i konfigurirajte margine, boju fonta, rotaciju"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Primijenite digitalne certifikate na dokumente, proračunske tablice i PDF datoteke s linijom potpisa"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Izvršite postavke boja, primijenite prozirnost i rotaciju na tekstualni potpis"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Postavite opcije svjetline i sivih tonova i odredite uvlačenje potpisa slike na slici"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Ugradite prilagođene objekte, serijalizirajte, kao i šifrirajte i dekriptirajte vrijednosti potpisa metapodataka PDF dokumenta"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Sakrijte, uklonite ili prilagodite izgled digitalnih potpisa iz PDF dokumenata"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Potpišite PDF dokumente digitalnim poljem obrasca i tekstualnim potpisom kao sliku, komentar, naljepnicu ili vodeni žig"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Stavite tekstualni potpis u polja obrazaca MS Word i PDF dokumenata"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Navedite proizvoljne stranice dokumenata za obradu potpisa ili proširene provjere e-potpisa za Word datoteke"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Spremite potpisanu slikovnu datoteku u drugom formatu i izvezite potpisanu proračunsku tablicu kao sliku ili TIFF s više stranica"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Dodijelite, izmijenite i uklonite lozinku za potpisane datoteke i primijenite e-potpis na datoteke zaštićene lozinkom"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Radni listovi eSign, PowerPoint slajdovi, Wordovi dokumenti i slike s prilagođenim objektima u metapodacima"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Postavite prepoznatljive stilove kista kao što su Solid, Texture, Linear Gradient i Radial Gradient"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Potpišite dokumente tekstom ili podacima prilagođenog šifriranog QR koda"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pretraživanje i potpisivanje datoteka s DjVu formatom kao slikovni dokument"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Izdvojite informacije o dokumentu, npr. broj stranica, putem URL-a datoteke"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pretražite, potpišite i potvrdite CorelDraw datoteke kao slikovne dokumente"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Čuvajte podatke o povijesti obrađenih ili izbrisanih potpisa pohranjenih u metapodacima"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Dodajte objekt prilagođenih podataka, VCard ili objekt e-pošte u QR-kod i provjerite šifrirani QR-kod u PDF datotekama"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Jednostavno dodajte digitalne potpise"
-        content: |
-          GroupDocs.Signature for .NET API omogućuje vam dodavanje različitih vrsta potpisa podržanim formatima datoteka. Vrste potpisa, kao što su tekst, slika, digitalni, pečat, QR-kod, crtični kod i metapodaci mogu se primijeniti pomoću GroupDocs.Signature za .NET. Sljedeći primjer koda pokazuje kako primijeniti tekstualni potpis na PDF dokument:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // postavite boju teksta
-          ForeColor = Color.Red
-          };
-          // potpisati dokument u datoteku
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Podržane vrste potpisa crtičnog koda"
-        content: |
-          Naš API za manipulaciju potpisom nudi vam značajku za primjenu potpisa crtičnog koda na podržane formate dokumenata. GroupDocs.Signature za .NET podržava različite vrste crtičnih kodova, kao što su Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA i UPCE. Statički objekt pod nazivom "AllTypes" također je osiguran za podršku svim registriranim vrstama crtičnog koda.
-
-      # more_feature_loop
-      - title: "Pretražite potpise i potvrde"
-        content: |
-          GroupDocs.Signature for .NET API omogućuje vam pretraživanje digitalnih certifikata iz Word dokumenata, Excel proračunskih tablica i PDF datoteka. Također možete dohvatiti sve digitalne certifikate registrirane u sustavu. Potpisi metapodataka također se mogu pretraživati ​​u Word dokumentima, Excel proračunskim tablicama, slikama i PDF datotekama, koristeći GroupDocs.Signature za .NET API.  
-
-          Putem API-ja GroupDocs.Signature za .NET možete pretraživati ​​potpise QR-kodova i crtičnih kodova u bilo kojem dokumentu, prezentaciji, proračunskoj tablici, slici, kao i PDF datoteci te dohvaćati napredak pretraživanja. Također možete pretraživati ​​prilagođeni podatkovni objekt iz dokumenata potpisanih QR-Code Signature.
-
-      # more_feature_loop
-      - title: "Napredne opcije pretraživanja za crtični kod"
-        content: |
-          Možete vrlo jednostavno pretraživati ​​i locirati traženi crtični kod putem API-ja GroupDocs.Signature for.NET, budući da naš API za potpis nudi napredne opcije pretraživanja. Oni vam omogućuju pretraživanje crtičnog koda na određenoj stranici, pretraživanje kroz cijeli dokument, određivanje različitih stranica za pretraživanje (prva, zadnja, parna, neparna), traženje crtičnog koda određene vrste kodiranja, pretraživanje crtičnog koda na temelju određenog tekstualnog niza ili pretraživanje crtičnog koda na temelju niza s opcijom "sadrži".
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature nudi API-je za potpisivanje dokumenata za druga popularna razvojna okruženja"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: is
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - Rafræn skilti PDF Word Excel myndir"
-head_description: "C# .NET stafræna undirskrift API, eSignature bókasafn til að undirrita rafrænt PDF, Word, Excel töflureikni, PowerPoint, myndir og grafík skjalasnið."
+head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
+head_description: "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika"
 
 ############################# Header ############################
-title: "Native .NET API fyrir rafrænar undirskriftir"
-description: "Bættu stafrænum undirskriftum við skjalasnið og innleiddu vinsælar rafrænar undirskriftargerðir (texti, mynd, QR-kóði, strikamerki, stimpill og lýsigögn) í .NET forritum."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Skrifaðu undir stafræn skjöl og myndir á hvaða vettvang sem er með því að nota sveigjanleg API og app byggðar lausnir fyrir forritara og endanotendur."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Yfirlit"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Eiginleikar"
-
-            # button loop
-            - link: "#support"
-              text: "Stuðningur"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Sýning í beinni"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Verðlag"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Notaðu GroupDocs.Signature fyrir .NET API til að smíða forrit í C#, ASP.NET og annarri .NET tækni sem gerir þér kleift að undirrita stafræn viðskiptaskjöl eins og PDF, Microsoft Word, Excel töflureikna, PowerPoint kynningar, myndir, OpenDocument og önnur iðnaðarstaðlað skráarsnið án þess að þurfa að setja upp neinn viðbótarhugbúnað. Þetta rafræna undirskriftasafn er einfalt að vinna með og .NET forritarar geta auðveldlega bætt við háþróuðum stafrænum undirskriftareiginleikum í forritum sínum, sem gerir notendum kleift að undirrita, leita og sannreyna rafrænar undirskriftir á öruggan hátt frá vinsælum skjalasniðum. Það styður innleiðingu á margs konar undirskriftartegundum eins og texta, mynd, strikamerki, QR-kóða, formreit, stimpil og lýsigögn.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      Skjalaundirskriftarforritaskilin gera þér kleift með einföldum og háþróaðri leitarmöguleikum til að finna nauðsynlegar undirskriftir þínar á skjali í fljótu bragði. Valmöguleikarnir til að beita undirskriftarstíl, útlitsstjórnun og sérsníða undirskriftareiginleika eins og víddir, skugga, röðun og fleira er einnig framkvæmanlegt með þessu eiginleikaríka forritaskilum undirritunar skjala.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature fyrir .NET er hægt að nota í hvaða þróunarumhverfi sem styður .NET vettvang. Það er samhæft við öll .NET byggð tungumál og styður vinsæl stýrikerfi (Windows, Linux, MacOS) þar sem hægt er að setja upp Mono eða .NET ramma (þar á meðal .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Eftirfarandi er yfirlit yfir GroupDocs.Signature fyrir .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Undirskriftargerðir"
-          content: |
-            * Texti Undirskrift
-            * Mynd Undirskrift
-            * Stafrænar undirskriftir
-            * QR-kóða undirskrift
-            * Strikamerki undirskrift
-            * Stimpill Undirskrift
-            * Lýsigögn undirskrift
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature fyrir .NET styður undirritun á öllum vinsælum skjalasniðum. Með örfáum línum af kóða skaltu bæta við PDF undirskrift, Microsoft Office Word, Excel töflureikni, mynd, HTML, Outlook tölvupósti, OneNote, Project og grafík undirritunargetu í .NET forritunum þínum. [Stuðningur skjalasnið.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Myndir**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metafiles**: EMF, WMF, CMX
-                * **Færanlegt**: PDF
-                * **Skalanleg vektorgrafík**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Aðrir**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature fyrir .NET styður eftirfarandi stýrikerfi, ramma og pakkastjóra:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Stýrikerfi"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Stutt rammar"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakkastjóri"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Þróunarumhverfi"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature fyrir .NET eiginleikar"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Búa til, leita, uppfæra, fela, staðfesta og eyða rafrænum undirskriftum úr studdum skjalasniðum"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Tilgreindu XML Advanced Electronic Signatures (XAdES) fyrir Excel töflureikna"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Sæktu myndefni úr skjölum sem eru undirrituð með QR-kóða, strikamerkjum og myndundirskriftum"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Stilltu hæð, breidd, spássíur og röðun fyrir texta eða myndundirskrift og settu á tiltekna síðu"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Leitaðu, staðfestu og undirritaðu PowerPoint kynningarskjöl stafrænt"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Skrifaðu undir ritvinnsluskjalasnið með innfæddum textavatnsmerkjum"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Styður ávöl horn fyrir rétthyrndar undirskriftargerðir"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Notaðu texta eða myndundirskrift á tilteknu Excel blaði eða settu rafræna undirskrift yfir öll blöð"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Tilgreindu tiltekið línu- og dálknúmer til að setja texta eða myndundirskrift í Excel blað"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Notaðu skugga á textaundirskrift í Microsoft PowerPoint og settu upp lit, horn og gagnsæi"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Stilla textaundirskrift ramma stíl og leturgerðir fyrir Excel blöð"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Stilltu Image Signature Type, t.d. Kringlótt eða ferningur og stilltu spássíur, leturlit, snúning"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Notaðu stafræn vottorð á skjöl, töflureikna og PDF skrá með undirskriftarlínu"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Framkvæmdu litastillingar, beittu gagnsæi og snúningi á textaundirskrift"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Setja upp birtustig og grátónavalkosti og tilgreina inndrátt myndundirskriftar á mynd"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Fella inn sérsniðna hluti, raðgreina sem og dulkóða og afkóða lýsigögn undirskriftargildi PDF skjals"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Fela, fjarlægja eða sérsníða útlit stafrænna undirskrifta úr PDF skjölum"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Undirritaðu PDF skjöl með stafrænu formsviði og textaundirskrift sem mynd, athugasemd, límmiða eða vatnsmerki"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Settu textaundirskrift í formsvið MS Word og PDF skjala"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Tilgreindu handahófskenndar síður af skjölum til að vinna með undirskrift eða eSignature útbreidda staðfestingu fyrir Word skrár"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Vistaðu undirritaða myndskrá á mismunandi sniði og fluttu út undirritaða töflureikni sem mynd eða margsíðna TIFF"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Úthlutaðu, breyttu og fjarlægðu lykilorð á undirritaðar skrár og notaðu rafræna undirskrift á lykilorðsvarðar skrár"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "eSign vinnublöð, PowerPoint skyggnur, Word skjöl og myndir með sérsniðnum hlutum í lýsigögnum"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Settu upp undirskriftarbursta stíla sem solid, áferð, línulegan halla og geislalaga halla"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Skrifaðu undir skjöl með sérsniðnum dulkóðuðum QR-kóða texta eða gögnum"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Leitaðu og undirritaðu skrár með DjVu sniði sem myndskjal"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Dragðu út skjalaupplýsingar, t.d. síðutalningu, í gegnum skráarslóð"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Leitaðu, undirritaðu og staðfestu CorelDraw skrár sem myndskjöl"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Geymdu sögu um unnar eða eyddar undirskriftarupplýsingar sem geymdar eru í lýsigögnunum"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Bættu sérsniðnum gagnahlut, VCard eða tölvupóstshlut við QR-kóða og staðfestu dulkóðaðan QR-kóða í PDF skjölum"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Bættu auðveldlega við stafrænum undirskriftum"
-        content: |
-          GroupDocs.Signature fyrir .NET API gerir þér kleift að bæta ýmsum gerðum undirskrifta við studd skráarsnið. Undirskriftargerðirnar, eins og texti, mynd, stafrænt, stimpil, QR-kóða, strikamerki og lýsigögn er hægt að nota með GroupDocs.Signature fyrir .NET. Eftirfarandi kóðadæmi sýnir hvernig á að beita textaundirskrift á PDF skjal:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // stilltu textalit
-          ForeColor = Color.Red
-          };
-          // undirrita skjal til að skrá
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Stuðlar strikamerkjaundirskriftargerðir"
-        content: |
-          Forritaskil okkar fyrir meðhöndlun undirskrifta býður þér upp á eiginleika til að beita strikamerkjaundirskriftum á studd skjalasnið. GroupDocs.Signature fyrir .NET styður ýmsar strikamerkjategundir, svo sem Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA og UPCE. Stöðugur hlutur sem heitir „AllTypes“ er einnig til staðar til að styðja allar skráðar strikamerkjategundir.
-
-      # more_feature_loop
-      - title: "Leitaðu að undirskriftum og skírteinum"
-        content: |
-          GroupDocs.Signature fyrir .NET API, gerir þér kleift að leita að stafrænum vottorðum úr Word skjölum, Excel töflureiknum og PDF skjölum. Þú getur líka sótt öll stafræn skilríki sem skráð eru í kerfið. Einnig er hægt að leita að undirskriftum lýsigagna í Word skjölum, Excel töflureiknum, myndum og PDF skjölum með því að nota GroupDocs.Signature fyrir .NET API.  
-
-          Í gegnum GroupDocs.Signature fyrir .NET API geturðu leitað í QR-kóða og strikamerkjaundirskriftum í hvaða skjali, kynningu, töflureikni, mynd, sem og PDF skrá, og sótt leitarframvindu. Þú getur líka leitað að sérsniðnum gagnahlut úr skjölum sem eru undirrituð með QR-kóða undirskrift.
-
-      # more_feature_loop
-      - title: "Ítarlegir leitarmöguleikar fyrir strikamerki"
-        content: |
-          Þú getur leitað og fundið strikamerki sem þú þarft í gegnum GroupDocs.Signature for.NET API mjög auðveldlega, þar sem undirskriftar-API okkar býður upp á háþróaða leitarmöguleika. Þetta gerir þér kleift að leita í strikamerki á tiltekinni síðu, leita í gegnum skjalið, tilgreina mismunandi síður til að leita (fyrstu, síðustu, sléttu, odda), leita að strikamerki af tiltekinni kóðun, leita í strikamerki byggt á tilteknum textastreng eða leitarstrikamerkja. byggt á streng með valkostinum „inniheldur“.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature býður upp á API undirritun skjala fyrir önnur vinsæl þróunarumhverfi"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

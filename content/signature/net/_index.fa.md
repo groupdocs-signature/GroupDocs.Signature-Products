@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: fa
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "NET Digital Signature API - امضای الکترونیکی PDF Word Excel Images"
-head_description: "C#.NET امضای دیجیتال API، کتابخانه eSignature برای امضای الکترونیکی PDF، Word، صفحات گسترده اکسل، پاورپوینت، تصاویر و فرمت های اسناد گرافیکی."
+head_title: "NET، جاوا، APIهای ابری و برنامه‌های امضای سند آنلاین"
+head_description: "راه حل امضای الکترونیک سند یکپارچه برای دات نت، جاوا و برنامه های کاربردی مبتنی بر ابر دریافت کنید. با استفاده از قابلیت ساده کشیدن و رها کردن، فرمت های رایج اسناد را به صورت آنلاین امضا کنید"
 
 ############################# Header ############################
-title: "API دات نت بومی برای امضاهای الکترونیکی"
-description: "امضای دیجیتال را به فرمت‌های سند اضافه کنید و انواع محبوب امضای الکترونیکی (متن، تصویر، کد QR، بارکد، مهر و فراداده) را در برنامه‌های NET اجرا کنید."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "با استفاده از APIهای منعطف و راه حل های مبتنی بر برنامه برای برنامه نویسان و کاربران نهایی، اسناد و تصاویر دیجیتال را روی هر پلتفرمی امضا کنید."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "بررسی اجمالی"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "امکانات"
-
-            # button loop
-            - link: "#support"
-              text: "حمایت کردن"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "نسخه نمایشی زنده"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "قیمت گذاری"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      از GroupDocs.Signature برای NET API برای ساخت برنامه های کاربردی در C#، ASP.NET و سایر فناوری های مبتنی بر NET استفاده کنید، که به شما امکان می دهد اسناد تجاری دیجیتال مانند PDF، Microsoft Word، صفحات گسترده اکسل، ارائه های پاورپوینت، تصاویر، OpenDocument و سایر فرمت های فایل استاندارد صنعتی بدون نیاز به نصب نرم افزار اضافی. کار با این کتابخانه امضای الکترونیکی ساده است و توسعه دهندگان دات نت می توانند به راحتی ویژگی های پیشرفته امضای دیجیتال را در برنامه های خود اضافه کنند و به کاربران این امکان را می دهد تا امضا، جستجو و تأیید امضای الکترونیکی را از فرمت های رایج سند به طور ایمن امضا کنند. از اجرای انواع امضا مانند متن، تصویر، بارکد، کد QR، فیلد فرم، مهر و ابرداده پشتیبانی می کند.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      API امضای سند به شما امکان می‌دهد تا با گزینه‌های جستجوی ساده و پیشرفته، امضاهای مورد نیاز خود را در یک سند بیابید. گزینه های اعمال سبک امضا، مدیریت ظاهر و سفارشی کردن ویژگی های امضا مانند ابعاد، سایه، تراز و موارد دیگر نیز با این API امضای سند غنی از ویژگی قابل انجام است.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature برای دات نت را می توان در هر محیط توسعه ای که از پلتفرم دات نت پشتیبانی می کند استفاده کرد. این برنامه با تمام زبان های مبتنی بر دات نت سازگار است و از سیستم عامل های محبوب (ویندوز، لینوکس، مک او اس) پشتیبانی می کند که در آن فریم ورک های مونو یا دات نت (از جمله NET Core) قابل نصب هستند.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          در زیر یک نمای کلی از GroupDocs.Signature برای دات نت ارائه شده است:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "انواع امضا"
-          content: |
-            * امضای متن
-            * امضای تصویر
-            * امضاهای دیجیتال
-            * امضای کد QR
-            * امضای بارکد
-            * امضای مهر
-            * امضای فراداده
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature برای دات نت از امضای تمام فرمت های اسناد محبوب پشتیبانی می کند. تنها با چند خط کد، امضای PDF، Microsoft Office Word، صفحه گسترده اکسل، تصویر، HTML، ایمیل Outlook، OneNote، پروژه و قابلیت‌های امضای گرافیکی را در برنامه‌های NET خود اضافه کنید. [فرمت های اسناد پشتیبانی شده](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **تصاویر**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **متافایل ها**: EMF, WMF, CMX
-                * **قابل حمل**: PDF
-                * **گرافیک برداری مقیاس پذیر**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **دیگران**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature برای دات نت از سیستم عامل ها، فریم ورک ها و مدیران بسته زیر پشتیبانی می کند:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "سیستم های عامل"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "چارچوب های پشتیبانی شده"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "مدیر بسته"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "محیط های توسعه"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature برای ویژگی های NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "ایجاد، جستجو، به‌روزرسانی، مخفی کردن، تأیید و حذف امضاهای الکترونیکی از فرمت‌های سند پشتیبانی شده"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "مشخص کردن امضاهای الکترونیکی پیشرفته XML (XAdES) برای صفحات گسترده اکسل"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "بازیابی محتوای تصویر از اسناد امضا شده با کد QR، بارکد و امضای تصویر"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "تنظیم ارتفاع، عرض، حاشیه و تراز برای امضای متن یا تصویر و مکان در صفحه خاص"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "جستجو، تأیید و امضای دیجیتالی اسناد ارائه پاورپوینت"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "فرمت‌های سند پردازش کلمه را با واترمارک‌های متنی امضا کنید"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "از گوشه های گرد برای انواع امضای مهر مستطیلی پشتیبانی می کند"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "امضای متن یا تصویر را در برگه اکسل خاص اعمال کنید یا امضای الکترونیکی را در همه برگه‌ها تنظیم کنید"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "برای قرار دادن امضای متن یا تصویر در برگه اکسل، شماره ردیف و ستون خاصی را مشخص کنید"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "اعمال سایه روی امضای متن در مایکروسافت پاورپوینت و تنظیم رنگ، زاویه و شفافیت آن"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "پیکربندی متن امضای سبک های حاشیه و گزینه های قلم برای برگه های اکسل"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "نوع امضای تصویر را تنظیم کنید، به عنوان مثال. گرد یا مربع و پیکربندی حاشیه، رنگ قلم، چرخش"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "گواهی‌های دیجیتال را روی اسناد، صفحات گسترده و فایل PDF با خط امضا اعمال کنید"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "تنظیمات رنگ را انجام دهید، شفافیت و چرخش را روی امضای متن اعمال کنید"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "تنظیم گزینه های روشنایی و مقیاس خاکستری و مشخص کردن تورفتگی امضای تصویر در یک تصویر"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "جاسازی اشیاء سفارشی، سریال سازی و همچنین رمزگذاری و رمزگشایی ارزش های امضای فراداده سند PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "پنهان کردن، حذف یا سفارشی کردن ظاهر امضاهای دیجیتال از اسناد PDF"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "امضای اسناد PDF با فیلد فرم دیجیتال و امضای متن به عنوان تصویر، حاشیه نویسی، برچسب یا واترمارک"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "امضای متن را در فیلدهای فرم اسناد MS Word و PDF قرار دهید"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "مشخص کردن صفحات دلخواه از اسناد برای پردازش امضا یا تاییدیه توسعه یافته eSignature برای فایل های Word"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "فایل تصویر امضا شده را در قالب های مختلف ذخیره کنید و صفحه گسترده امضا شده را به عنوان تصویر یا TIFF چند صفحه ای صادر کنید"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "اختصاص، تغییر و حذف رمز عبور به فایل های امضا شده و اعمال امضای الکترونیکی در فایل های محافظت شده با رمز عبور"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "کاربرگ های eSign، اسلایدهای پاورپوینت، اسناد و تصاویر Word با اشیاء سفارشی در متادیتا"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "راه‌اندازی سبک‌های براش امضایی به صورت جامد، بافت، گرادیان خطی و گرادیان شعاعی"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "اسناد را با متن یا داده کد QR رمزگذاری شده سفارشی امضا کنید"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "فایل‌ها را با فرمت DjVu به عنوان سند تصویری جستجو و امضا کنید"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "استخراج اطلاعات سند، به عنوان مثال، تعداد صفحات، از طریق URL فایل"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "جستجو، امضا و تأیید فایل های CorelDraw به عنوان اسناد تصویری"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "تاریخچه اطلاعات امضاهای پردازش شده یا حذف شده را در فراداده ذخیره کنید"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "افزودن شی داده سفارشی، کارت مجازی یا شیء ایمیل به QR-Code و تأیید کد QR رمزگذاری شده در فایل های PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "به راحتی امضاهای دیجیتال را اضافه کنید"
-        content: |
-          GroupDocs.Signature for .NET API به شما امکان می دهد انواع مختلفی از امضاها را به فرمت های فایل پشتیبانی شده اضافه کنید. انواع امضا، مانند Text، Image، Digital، Stamp، QR-Code، Barcode و Metadata را می توان با استفاده از GroupDocs.Signature برای دات نت اعمال کرد. مثال کد زیر نحوه اعمال امضای متنی را در یک سند PDF نشان می دهد:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // تنظیم رنگ متن
-          ForeColor = Color.Red
-          };
-          // سند به پرونده را امضا کنید
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "پشتیبانی از انواع امضای بارکد"
-        content: |
-          API دستکاری امضای ما ویژگی اعمال امضاهای بارکد را در قالب های سند پشتیبانی شده به شما ارائه می دهد. GroupDocs.Signature برای دات نت از انواع بارکد مانند Code128، Code39Extended، Code39Standard، EAN14، EAN8، ITF14، UPCA و UPCE پشتیبانی می کند. یک شی استاتیک به نام "AllTypes" نیز برای پشتیبانی از انواع بارکدهای ثبت شده ارائه شده است.
-
-      # more_feature_loop
-      - title: "جستجوی امضاها و گواهی ها"
-        content: |
-          GroupDocs.Signature for .NET API، به شما امکان می دهد گواهی های دیجیتال را از اسناد Word، صفحات گسترده Excel و فایل های PDF جستجو کنید. شما همچنین می توانید تمام گواهی های دیجیتال ثبت شده در سیستم را دریافت کنید. امضاهای فراداده را می توان با استفاده از GroupDocs.Signature برای NET API در اسناد Word، صفحات گسترده اکسل، تصاویر و فایل های PDF جستجو کرد.  
-
-          از طریق GroupDocs.Signature برای NET API، می توانید امضاهای QR-Code و Barcode را در هر سند، ارائه، صفحه گسترده، تصویر و همچنین فایل PDF جستجو کنید و پیشرفت جستجو را واکشی کنید. همچنین می توانید شی داده سفارشی را از اسناد امضا شده با امضای کد QR جستجو کنید.
-
-      # more_feature_loop
-      - title: "گزینه های جستجوی پیشرفته برای بارکد"
-        content: |
-          شما می توانید بارکد مورد نیاز خود را از طریق GroupDocs.Signature for.NET API به راحتی جستجو و پیدا کنید، زیرا API امضای ما گزینه های جستجوی پیشرفته ای را ارائه می دهد. اینها به شما امکان می دهند بارکد را در یک صفحه خاص جستجو کنید، در سراسر یک سند جستجو کنید، صفحات مختلف را برای جستجو مشخص کنید (اول، آخرین، زوج، فرد)، بارکد از نوع رمزگذاری خاص، بارکد بر اساس رشته متن خاص یا بارکد جستجو را جستجو کنید. بر اساس رشته با گزینه “contains”.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature API های امضای سند را برای سایر محیط های توسعه محبوب ارائه می دهد"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

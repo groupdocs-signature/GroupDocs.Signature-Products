@@ -11,7 +11,11 @@
             "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
             "repoName": "Nuget",
             "repoUrl": "https://www.nuget.org/packages/groupdocs.signature",
-            "url": "https://products.groupdocs.com/signature/net/"
+            "url": "https://products.groupdocs.com/signature/net/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png",
+            "main_link": "https://www.nuget.org/packages/GroupDocs.Signature",
+            "alt_link": "https://purchase.groupdocs.com/pricing/signature/net",
+            "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
         },
         "java": {
             "name": "Java",
@@ -24,7 +28,10 @@
             "runtime": "Java runtime: J2SE 6.0 and above",
             "repoName": "Maven",
             "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature",
-            "url": "https://products.groupdocs.com/signature/java/"
+            "url": "https://products.groupdocs.com/signature/java/",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png",
+            "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/",
+            "alt_link": "https://purchase.groupdocs.com/pricing/signature/java"
         }
     }
 }

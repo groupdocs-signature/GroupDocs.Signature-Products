@@ -20,7 +20,7 @@ head_description: "Get all-in-one document e-signature solution for .NET, Java a
 
 ############################# Header ############################
 title: "Document e-Signing Solution"
-description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end users."
+description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
 
 ############################# APIs ###############################
 apis:

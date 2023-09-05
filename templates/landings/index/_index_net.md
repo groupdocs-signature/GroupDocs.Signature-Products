@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: <% date "utcnow" %>
 draft: false
 #operation: <% get "Operation" %>
 #signaturetype: <% get "Signaturetype" %>
@@ -13,343 +13,250 @@ lang: <% lower ( get "lang") %>
 #breadcrumb: Put <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "<% "{index-content-net.head_title}" %>"
-head_description: "<% "{index-content-net.head_description}" %>"
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "<% "{index-content-net.title}" %>"
-description: "<% "{index-content-net.description}" %>"
-button:
-    enable: true
+title: "<% "{index-content.title_1}" %><br><% "{index-content-net.title_2}" %>"
+description: "<% "{index-content.description}" %>"
+words:
+  for: "<% "{index-content.words_for}" %>"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "<% "{index-content-net.actions_main}" %>"
+  main_link: "<% dict "products.net.main_link" %>"
+  alt: "<% "{index-content.actions_alt}" %>"
+  alt_link: "<% dict "products.net.alt_link" %>"
+  title: "<% "{index-content.actions_title}" %>"
+  description: "<% "{index-content.actions_description}" %>"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "<% "{index-content-net.submenu_overview}" %>"
+release:
+  title: "<% "{index-content.release_title}" %>"
+  notes: "<% "{index-content.release_notes}" %>"
+  downloads: "<% "{index-content.release_downloads}" %>"
 
-            # button loop
-            - link: "#features"
-              text: "<% "{index-content-net.submenu_features}" %>"
-
-            # button loop
-            - link: "#support"
-              text: "<% "{index-content-net.submenu_support}" %>"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "<% "{index-content-net.submenu_live_demo}" %>"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "<% "{index-content-net.submenu_pricing}" %>"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "<% "{index-content-net.code_title}" %>"
+  more: "<% "{index-content.code_more}" %>"
+  more_link: "<% dict "products.net.more_link" %>"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // <% "{index-content.code_comment_1}" %>
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // <% "{index-content.code_comment_2}" %>
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // <% "{index-content.code_comment_3}" %>
+            ForeColor = Color.Red
+        };
+        // <% "{index-content.code_comment_4}" %>
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      <% "{index-content-net.overview_content_1}" %>  
+  enable: true
+  title: "<% "{index-content.overview_title}" %>"
+  description: "<% "{index-content-net.overview_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{index-content-net.overview_feature_1.title}" %>"
+      content: "<% "{index-content-net.overview_feature_1.description}" %>"
 
-      <% "{index-content-net.overview_content_2}" %>  
+    # feature loop
+    - title: "<% "{index-content-net.overview_feature_2.title}" %>"
+      content: "<% "{index-content-net.overview_feature_2.description}" %>"
 
-      <% "{index-content-net.overview_content_3}" %>
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          <% "{index-content-net.overview_tab1_description}" %>
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "<% "{index-content-net.overview_tab1_left_title}" %>"
-          content: |
-            * <% "{index-content-net.overview_tab1_left_content_1}" %>
-            * <% "{index-content-net.overview_tab1_left_content_2}" %>
-            * <% "{index-content-net.overview_tab1_left_content_3}" %>
-            * <% "{index-content-net.overview_tab1_left_content_4}" %>
-            * <% "{index-content-net.overview_tab1_left_content_5}" %>
-            * <% "{index-content-net.overview_tab1_left_content_6}" %>
-            * <% "{index-content-net.overview_tab1_left_content_7}" %>
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          <% "{index-content-net.overview_tab2_description} [{index-content.supported_formats}](https://docs.groupdocs.com/signature/net/supported-document-formats/)" %>
+    # feature loop
+    - title: "<% "{index-content-net.overview_feature_3.title}" %>"
+      content: "<% "{index-content-net.overview_feature_3.description}" %>"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "<% "{index-content.platforms_title}" %>"
+  description: "<% "{index-content-net.platforms_description}" %>"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **<% "{index-content-net.overview_tab2_right_content_1}" %>**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **<% "{index-content-net.overview_tab2_right_content_2}" %>**: EMF, WMF, CMX
-                * **<% "{index-content-net.overview_tab2_right_content_3}" %>**: PDF
-                * **<% "{index-content-net.overview_tab2_right_content_4}" %>**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **<% "{index-content-net.overview_tab2_right_content_5}" %>**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          <% "{index-content-net.overview_tab3_description}" %>
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "<% "{index-content-net.overview_tab3_left_title_1}" %>"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "<% "{index-content-net.overview_tab3_left_title_2}" %>"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "<% "{index-content-net.overview_tab3_right_title_1}" %>"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "<% "{index-content-net.overview_tab3_right_title_2}" %>"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "<% "{index-content.formats_title}" %>"
+  description: |
+    <% "{index-content-net.formats_description}" %>
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### <% "{index-content.formats_groups.title_1}" %>
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### <% "{index-content.formats_groups.title_2}" %>
+        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF
+        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### <% "{index-content.formats_groups.title_3}" %>
+        * **<% "{index-content.formats_groups.format_web}" %>:** HTML, MHTML
+        * **<% "{index-content.formats_groups.format_archives}" %>:** ZIP, TAR, 7Z
+        * **<% "{index-content.formats_groups.format_certificates}" %>:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "<% "{index-content-net.features_title}" %>"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "<% "{index-content-net.features_content_1}" %>"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "<% "{index-content-net.features_content_2}" %>"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "<% "{index-content-net.features_content_3}" %>"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "<% "{index-content-net.features_content_4}" %>"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "<% "{index-content-net.features_content_5}" %>"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "<% "{index-content-net.features_content_6}" %>"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "<% "{index-content-net.features_content_7}" %>"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "<% "{index-content-net.features_content_8}" %>"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "<% "{index-content-net.features_content_9}" %>"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "<% "{index-content-net.features_content_10}" %>"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "<% "{index-content-net.features_content_11}" %>"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "<% "{index-content-net.features_content_12}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "<% "{index-content-net.features_content_13}" %>"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "<% "{index-content-net.features_content_14}" %>"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "<% "{index-content-net.features_content_15}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "<% "{index-content-net.features_content_16}" %>"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "<% "{index-content-net.features_content_17}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "<% "{index-content-net.features_content_18}" %>"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "<% "{index-content-net.features_content_19}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "<% "{index-content-net.features_content_20}" %>"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "<% "{index-content-net.features_content_21}" %>"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "<% "{index-content-net.features_content_22}" %>"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "<% "{index-content-net.features_content_23}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_24}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_25}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_26}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_27}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_28}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_29}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-net.features_content_30}" %>"
-
-    more_feature:
-      # more_feature_loop
-      - title: "<% "{index-content-net.more_feature_1_title}" %>"
-        content: |
-          <% "{index-content-net.more_feature_1_content}" %>
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // <% "{index-content-net.more_feature_1_comment_1}" %>
-          ForeColor = Color.Red
-          };
-          // <% "{index-content-net.more_feature_1_comment_2}" %>
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "<% "{index-content-net.more_feature_2_title}" %>"
-        content: |
-          <% "{index-content-net.more_feature_2_content}" %>
-
-      # more_feature_loop
-      - title: "<% "{index-content-net.more_feature_3_title}" %>"
-        content: |
-          <% "{index-content-net.more_feature_3_content_1}" %>  
-
-          <% "{index-content-net.more_feature_3_content_2}" %>
-
-      # more_feature_loop
-      - title: "<% "{index-content-net.more_feature_4_title}" %>"
-        content: |
-          <% "{index-content-net.more_feature_4_content}" %>
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "<% "{index-content-net.solutions_title}" %>"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "<% "{index-content.features.title}" %>"
+  description: "<% "{index-content.features.description}" %>"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "<% "{index-content.features.feature_1.title}" %>"
+      content: "<% "{index-content.features.feature_1.content}" %>"
+
+    # feature loop
+    - icon: "split"
+      title: "<% "{index-content.features.feature_2.title}" %>"
+      content: "<% "{index-content.features.feature_2.content}" %>"
+
+    # feature loop
+    - icon: "move"
+      title: "<% "{index-content.features.feature_3.title}" %>"
+      content: "<% "{index-content.features.feature_3.content}" %>"
+
+    # feature loop
+    - icon: "remove"
+      title: "<% "{index-content.features.feature_4.title}" %>"
+      content: "<% "{index-content.features.feature_4.content}" %>"
+
+    # feature loop
+    - icon: "rotate"
+      title: "<% "{index-content.features.feature_5.title}" %>"
+      content: "<% "{index-content.features.feature_5.content}" %>"
+
+    # feature loop
+    - icon: "swap"
+      title: "<% "{index-content.features.feature_6.title}" %>"
+      content: "<% "{index-content.features.feature_6.content}" %>"
+
+    # feature loop
+    - icon: "extract"
+      title: "<% "{index-content.features.feature_7.title}" %>"
+      content: "<% "{index-content.features.feature_7.content}" %>"
+
+    # feature loop
+    - icon: "orientation"
+      title: "<% "{index-content.features.feature_8.title}" %>"
+      content: "<% "{index-content.features.feature_8.content}" %>"
+
+    # feature loop
+    - icon: "preview"
+      title: "<% "{index-content.features.feature_9.title}" %>"
+      content: "<% "{index-content.features.feature_9.content}" %>"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "<% "{index-content-net.code_samples.title}" %>"
+  description: "<% "{index-content-net.code_samples.description}" %>"
+  items:
+    # code sample loop
+    - title: "<% "{index-content-net.code_samples.sample_1.title}" %>"
+      content: |
+        <% "{index-content-net.code_samples.sample_1.content_1}" %> <% "{index-content-net.code_samples.sample_1.content_2}" %>
+        {{< landing/code title="<% "{index-content-net.code_samples.sample_1.code_title}" %>">}}
+        ```csharp {style=abap}
+        // <% "{index-content-net.code_samples.sample_1.comment_1}" %>
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // <% "{index-content-net.code_samples.sample_1.comment_2}" %>
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // <% "{index-content-net.code_samples.sample_1.comment_3}" %>
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // <% "{index-content-net.code_samples.sample_1.comment_4}" %>
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "<% "{index-content-net.code_samples.sample_2.title}" %>"
+      content: |
+        <% "{index-content-net.code_samples.sample_2.content_1}" %> <% "{index-content-net.code_samples.sample_2.content_2}" %>
+        {{< landing/code title="<% "{index-content-net.code_samples.sample_2.code_title}" %>">}}
+        ```csharp {style=abap}   
+        // <% "{index-content-net.code_samples.sample_2.comment_1}" %>
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // <% "{index-content-net.code_samples.sample_2.comment_2}" %>
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // <% "{index-content-net.code_samples.sample_2.comment_3}" %>
+                Password = "1234567890"
+            };
+            // <% "{index-content-net.code_samples.sample_2.comment_4}" %>
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "<% "{reviews.title}" %>"
+# description: "<% "{reviews.description}" %>"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "<% "{reviews.review_1.content}" %>"
+#     author: "<% "{reviews.review_1.author}" %>"
+#     company: "<% "{reviews.review_1.company}" %>"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "<% "{reviews.review_2.content}" %>"
+#     author: "<% "{reviews.review_2.author}" %>"
+#     company: "<% "{reviews.review_2.company}" %>"
 ---

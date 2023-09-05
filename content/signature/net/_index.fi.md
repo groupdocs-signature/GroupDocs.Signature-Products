@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: fi
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - Sähköinen allekirjoitus PDF Word Excel -kuvat"
-head_description: "C# .NET digitaalisen allekirjoituksen sovellusliittymä, eSignature-kirjasto PDF-, Word-, Excel-laskentataulukoiden, PowerPoint-, kuvien ja grafiikkadokumenttimuotojen sähköiseen allekirjoittamiseen."
+head_title: ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirjoitussovellukset"
+head_description: "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla"
 
 ############################# Header ############################
-title: "Native .NET API sähköisille allekirjoituksille"
-description: "Lisää digitaalisia allekirjoituksia asiakirjamuotoihin ja ota käyttöön suosittuja sähköisiä allekirjoitustyyppejä (teksti, kuva, QR-koodi, viivakoodi, leima ja metatiedot) .NET-sovelluksissa."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Allekirjoita digitaalisia asiakirjoja ja kuvia millä tahansa alustalla käyttämällä ohjelmoijille ja loppukäyttäjille joustavia API- ja sovelluspohjaisia ​​ratkaisujamme."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Yleiskatsaus"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "ominaisuudet"
-
-            # button loop
-            - link: "#support"
-              text: "Tuki"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Live-demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Hinnoittelu"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Käytä GroupDocs.Signature for .NET APIa rakentaaksesi sovelluksia C#-, ASP.NET- ja muissa .NET-pohjaisissa teknologioissa, joiden avulla voit allekirjoittaa digitaalisia yritysasiakirjoja, kuten PDF-, Microsoft Word-, Excel-laskentataulukoita, PowerPoint-esityksiä, kuvia, OpenDocument- ja muita alan standardeja tiedostomuotoja tarvitsematta asentaa lisäohjelmistoja. Tämän sähköisen allekirjoituksen kirjaston kanssa on helppo työskennellä, ja .NET-kehittäjät voivat helposti lisätä kehittyneitä digitaalisen allekirjoituksen ominaisuuksia sovelluksiinsa, mikä antaa käyttäjille mahdollisuuden allekirjoittaa, etsiä ja tarkistaa sähköisiä allekirjoituksia turvallisesti suosituista asiakirjamuodoista. Se tukee erilaisten allekirjoitustyyppien, kuten tekstin, kuvan, viivakoodin, QR-koodin, lomakekentän, leiman ja metatietojen, käyttöönottoa.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      Asiakirjan allekirjoitussovellusliittymä antaa sinulle yksinkertaiset ja edistyneet hakuvaihtoehdot, joiden avulla voit etsiä tarvittavat allekirjoitukset asiakirjasta nopeasti. Vaihtoehdot allekirjoituksen muotoilun, ulkoasun hallinnan ja allekirjoituksen ominaisuuksien, kuten mittojen, varjon, tasauksen ja muiden mukauttamiseen, ovat myös mahdollisia tämän monipuolisen asiakirjan allekirjoitussovellusliittymän avulla.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature for .NET voidaan käyttää missä tahansa kehitysympäristössä, joka tukee .NET-alustaa. Se on yhteensopiva kaikkien .NET-pohjaisten kielten kanssa ja tukee suosittuja käyttöjärjestelmiä (Windows, Linux, MacOS), joihin voidaan asentaa Mono- tai .NET-kehykset (mukaan lukien .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Seuraavassa on katsaus GroupDocs.Signature for .NET:iin:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Allekirjoitustyypit"
-          content: |
-            * Teksti allekirjoitus
-            * Kuvan allekirjoitus
-            * Digitaaliset allekirjoitukset
-            * QR-koodin allekirjoitus
-            * Viivakoodin allekirjoitus
-            * Leima Allekirjoitus
-            * Metatietojen allekirjoitus
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature for .NET tukee kaikkien suosittujen asiakirjamuotojen allekirjoittamista. Lisää vain muutamalla koodirivillä PDF-allekirjoitus, Microsoft Office Word, Excel-laskentataulukko, kuva, HTML, Outlook-sähköposti, OneNote, projekti- ja grafiikkaallekirjoitusominaisuudet .NET-sovelluksiin. [Tuetut asiakirjamuodot.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Kuvat**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metatiedostot**: EMF, WMF, CMX
-                * **Kannettava**: PDF
-                * **Skaalautuva vektorigrafiikka**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **muut**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature for .NET tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Käyttöjärjestelmät"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Tuetut puitteet"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Paketinhallinta"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Kehitysympäristöt"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature .NET-ominaisuuksille"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Luo, etsi, päivitä, piilota, vahvista ja poista sähköisiä allekirjoituksia tuetuista asiakirjamuodoista"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Määritä XML Advanced Electronic Signatures (XAdES) Excel-laskentataulukoille"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Hae kuvasisältöä QR-koodilla, viivakoodilla ja kuva-allekirjoituksella allekirjoitetuista asiakirjoista"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Aseta korkeus, leveys, marginaalit ja kohdistus tekstille tai kuvalle allekirjoitus ja paikka tietylle sivulle"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Etsi, vahvista ja allekirjoita digitaalisesti PowerPoint-esitysasiakirjoja"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Merkitse tekstinkäsittely-asiakirjamuodot alkuperäistekstin vesileimoilla"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Tukee pyöristettyjä kulmia suorakaiteen muotoisille leima-allekirjoitustyypeille"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Käytä teksti- tai kuva-allekirjoitusta tietyssä Excel-taulukossa tai aseta sähköinen allekirjoitus kaikille taulukoille"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Määritä tietty rivi- ja sarakenumero sijoittaaksesi tekstin tai kuvan allekirjoituksen Excel-taulukkoon"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Käytä varjoa tekstin allekirjoitukseen Microsoft PowerPointissa ja määritä sen väri, kulma ja läpinäkyvyys"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Määritä Excel-taulukoiden tekstin allekirjoituksen reunatyylejä ja fonttiasetuksia"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Aseta kuvan allekirjoitustyyppi, esim. Pyöreä tai neliö ja määritä marginaalit, fontin väri, kierto"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Käytä digitaalisia varmenteita asiakirjoihin, laskentataulukoihin ja PDF-tiedostoihin allekirjoitusrivillä"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Suorita väriasetukset, käytä läpinäkyvyyttä ja kiertoa tekstin allekirjoituksessa"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Aseta kirkkaus- ja harmaasävyasetukset ja määritä kuvan allekirjoituksen sisennys"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Upota mukautettuja objekteja, sarjoita sekä salaa ja pura PDF-dokumentin metatietojen allekirjoitusarvot"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Piilota, poista tai mukauta digitaalisten allekirjoitusten ulkoasua PDF-dokumenteista"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Allekirjoita PDF-asiakirjat digitaalisella lomakekentällä ja tekstiallekirjoituksella kuvana, huomautuksena, tarrana tai vesileimana"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Aseta tekstiallekirjoitus MS Word- ja PDF-asiakirjojen lomakekenttiin"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Määritä mielivaltaiset asiakirjojen sivut allekirjoituksen käsittelyä tai eSignature Extended -tarkistusta varten Word-tiedostoille"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Tallenna allekirjoitettu kuvatiedosto eri muodossa ja vie allekirjoitettu laskentataulukko kuvana tai monisivuisena TIFF-tiedostona"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Määritä, muokkaa ja poista salasana allekirjoitetuille tiedostoille ja käytä sähköistä allekirjoitusta salasanasuojattuihin tiedostoihin"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "eSign-työarkit, PowerPoint-diat, Word-asiakirjat ja kuvat, joissa on mukautettuja objekteja metatiedoissa"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Määritä allekirjoitetut siveltimen tyylit kiinteäksi, tekstuuriksi, lineaariseksi kaltevuudeksi ja säteittäiseksi liukuväriksi"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Allekirjoita asiakirjat mukautetulla salatulla QR-kooditekstillä tai tiedoilla"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Etsi ja allekirjoita tiedostoja DjVu-muodossa kuvadokumenttina"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Poimi asiakirjan tiedot, kuten sivumäärä, tiedoston URL-osoitteen kautta"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Etsi, allekirjoita ja vahvista CorelDraw-tiedostoja kuvaasiakirjoina"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Säilytä metatietoihin tallennettu käsiteltyjen tai poistettujen allekirjoitusten historia"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Lisää mukautettu tietoobjekti, VCard- tai sähköpostiobjekti QR-koodiin ja vahvista salattu QR-koodi PDF-tiedostoissa"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Lisää digitaalisia allekirjoituksia helposti"
-        content: |
-          GroupDocs.Signature for .NET API mahdollistaa erityyppisten allekirjoitusten lisäämisen tuettuihin tiedostomuotoihin. Allekirjoitustyyppejä, kuten teksti, kuva, digitaalinen, leima, QR-koodi, viivakoodi ja metatiedot, voidaan käyttää GroupDocs.Signature for .NET -sovelluksella. Seuraava koodiesimerkki näyttää, kuinka tekstiallekirjoitus käytetään PDF-dokumenttiin:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // aseta tekstin väri
-          ForeColor = Color.Red
-          };
-          // allekirjoittaa asiakirja tiedostoon
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Tuetut viivakoodiallekirjoitustyypit"
-        content: |
-          Allekirjoituksen käsittelysovellusliittymämme tarjoaa sinulle ominaisuuden, jolla voit käyttää viivakoodiallekirjoituksia tuetuissa asiakirjamuodoissa. GroupDocs.Signature for .NET tukee erilaisia ​​viivakoodityyppejä, kuten Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA ja UPCE. Staattinen objekti nimeltä "AllTypes" on myös saatavilla tukemaan kaikkia rekisteröityjä viivakoodityyppejä.
-
-      # more_feature_loop
-      - title: "Hae allekirjoituksia ja sertifikaatteja"
-        content: |
-          GroupDocs.Signature for .NET API:n avulla voit etsiä digitaalisia varmenteita Word-asiakirjoista, Excel-laskentataulukoista ja PDF-tiedostoista. Voit myös hakea kaikki järjestelmään rekisteröidyt digitaaliset varmenteet. Metadataallekirjoituksia voidaan etsiä myös Word-asiakirjoista, Excel-laskentataulukoista, kuvista ja PDF-tiedostoista GroupDocs.Signature for .NET API:n avulla.  
-
-          GroupDocs.Signature for .NET API:n avulla voit etsiä QR-koodi- ja viivakoodiallekirjoituksia mistä tahansa asiakirjasta, esityksestä, laskentataulukosta, kuvasta sekä PDF-tiedostosta ja noutaa haun edistymisen. Voit myös etsiä mukautettuja tietoobjekteja QR-koodiallekirjoituksella allekirjoitetuista asiakirjoista.
-
-      # more_feature_loop
-      - title: "Viivakoodin haun lisäasetukset"
-        content: |
-          Voit etsiä ja paikantaa tarvitsemasi viivakoodin GroupDocs.Signature for.NET API:n kautta erittäin helposti, sillä allekirjoitussovellusliittymämme tarjoaa edistyneitä hakuvaihtoehtoja. Niiden avulla voit etsiä viivakoodia tietyltä sivulta, etsiä koko asiakirjasta, määrittää eri sivut haettavaksi (ensimmäinen, viimeinen, parillinen, pariton), etsiä tietyn tyyppistä viivakoodia, etsiä viivakoodia tietyn tekstijonon perusteella tai etsiä viivakoodia perustuu merkkijonoon "sisältää"-vaihtoehdon kanssa.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature tarjoaa dokumenttien allekirjoitussovellusliittymiä muihin suosittuihin kehitysympäristöihin"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

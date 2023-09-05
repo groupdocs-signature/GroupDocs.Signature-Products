@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:30
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: en
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - Electronic Sign PDF Word Excel Images"
-head_description: "C# .NET digital signature API, eSignature library to electronically sign PDF, Word, Excel spreadsheets, PowerPoint, images & graphics document formats."
+head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
+head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
 
 ############################# Header ############################
-title: "Native .NET API for Electronic Signatures"
-description: "Add Digital Signatures to Document Formats & Implement popular eSignature Types (Text, Image, QR-Code, Barcode, Stamp, & Metadata) in .NET Applications."
-button:
-    enable: true
+title: "Sign documents<br>via .NET API"
+description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "Free NuGet Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Sign PDF files in C#"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // Select PDF document
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // Provide text
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // Set color
+            ForeColor = Color.Red
+        };
+        // Sign document and save to file
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Use GroupDocs.Signature for .NET API to build applications in C#, ASP.NET and other .NET-based technologies, that allow you to sign digital business documents such as PDF, Microsoft Word, Excel spreadsheets, PowerPoint presentations, images, OpenDocument and other industry standard file formats without needing to install any additional software. This electronic signature library is simple to work with and .NET Developers can easily add advanced digital signature features in their applications, empowering users to securely sign, search and verify e-Signatures from popular document formats. It supports implementing a variety of signature types like text, image, barcode, QR-code, form field, stamp and metadata.  
+  enable: true
+  title: "GroupDocs.Signature Overview"
+  description: "API for performing document signing and related operations in .NET applications"
+  features:
+    # feature loop
+    - title: "Adding Signatures to Business Documents in C#"
+      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including invisible metadata."
 
-      The document signature API empowers you with simple and advanced search options to locate your required signatures on a document in a flash. The options to apply signature styling, appearance management and customize signature properties such as dimensions, shadow, alignment and more is also doable with this feature-rich document signing API.  
+    # feature loop
+    - title: "Processing Signed Documents"
+      content: "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
 
-      GroupDocs.Signature for .NET can be used in any development environment that supports .NET platform. It is compatible with all .NET based languages and supports popular operating systems (Windows, Linux, MacOS) where Mono or .NET frameworks (including .NET Core) can be installed.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Signature for .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Signature Types"
-          content: |
-            * Text Signature
-            * Image Signature
-            * Digital Signatures
-            * QR-Code Signature
-            * Barcode Signature
-            * Stamp Signature
-            * Metadata Signature
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature for .NET supports signing all popular documents formats. With just a few lines of code, add PDF signature, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics signing capabilities in your .NET applications. [Supported documents formats.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "Customizing Results"
+      content: "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Images**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metafiles**: EMF, WMF, CMX
-                * **Portable**: PDF
-                * **Scalable Vector Graphics**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Others**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature for .NET supports following Operating Systems, Frameworks & Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Create, Search, Update, Hide, Verify and Delete e-Signatures from Supported Document Formats"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Specify XML Advanced Electronic Signatures (XAdES) for Excel Spreadsheets"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Retrieve Image Content from Documents Signed with QR-Code, BarCode & Image Signatures"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Set Height, Width, Margins & Alignment for Text or Image Signature & Place on Specific Page"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Search, Verify and Digitally Sign PowerPoint Presentation Documents"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Sign Word Processing Document Formats with Native Text Watermarks"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Supports Rounded Corners for Rectangular Stamp Signature Types"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Apply Text or Image Signature on Specific Excel Sheet or Set eSignature across all Sheets"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Specify Particular Row & Column Number to Place Text or Image Signature in Excel Sheet"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Apply Shadow to Text Signature in Microsoft PowerPoint & Setup its Color, Angle & Transparency"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Configure Text Signature Border Styles & Font Options for Excel Sheets"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Set Image Signature Type, e.g. Round or Square & Configure Margins, Font Color, Rotation"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Apply Digital Certificates to Documents, Spreadsheets & PDF File with Signature Line"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Perform Color Settings, Apply Transparency & Rotation to Text Signature"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Setup Brightness & Grayscale Options & Specify Indentation of Image Signature in an Image"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Embed Custom Objects, Serialize as well as Encrypt and Decrypt Metadata Signature Values of PDF Document"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Hide, Remove or Customize the Appearance of Digital Signatures from PDF Documents"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Sign PDF Documents with Digital Form Field, and Text Signature as Image, Annotation, Sticker or Watermark"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Put Text Signature into Form Fields of MS Word & PDF Documents"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Specify Arbitrary Pages of Documents for Processing Signature or eSignature Extended Verification for Word Files"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Save Signed Image File in Different Format & Export Signed Spreadsheet as Image or Multi-Page TIFF"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Assign, Modify & Remove Password to Signed Files & Apply eSignature to Password Protected Files"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "eSign Worksheets, PowerPoint Slides, Word Documents & Images with Custom Objects in Metadata"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Setup Signature Brush Styles as Solid, Texture, Linear Gradient & Radial Gradient"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Sign Documents with Custom Encrypted QR-Code Text or Data"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Search & Sign Files with DjVu Format as Image Document"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extract Document Information, e.g., Page Count, through File URL"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Search, Sign & Verify CorelDraw Files as Image Documents"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Keep History of Processed or Deleted Signatures Information Stored in the Metadata"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Add Custom Data Object, VCard or Email Object to QR-Code & Verify Encrypted QR-Code in PDF Files"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Add Digital Signatures"
-        content: |
-          GroupDocs.Signature for .NET API allows you to add various types of signatures to supported file formats. The signature types, such as Text, Image, Digital, Stamp, QR-Code, Barcode, and Metadata can be applied using GroupDocs.Signature for .NET. Following code example shows how to apply text signature to a PDF document:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // set Text color
-          ForeColor = Color.Red
-          };
-          // sign document to file
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Supported Barcode Signature Types"
-        content: |
-          Our signature manipulation API offers you feature to apply barcode signatures to supported document formats. GroupDocs.Signature for .NET supports various barcode types, such as, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA, and UPCE. A static object named “AllTypes” is also provided to support all registered barcode types.
-
-      # more_feature_loop
-      - title: "Search Signatures & Certificates"
-        content: |
-          GroupDocs.Signature for .NET API, allows you to search for Digital certificates from Word documents, Excel spreadsheets, and PDF files. You can also fetch all digital certificates registered in system. Metadata signatures can also be searched in Word documents, Excel spreadsheets, images and PDF files, using GroupDocs.Signature for .NET API.  
-
-          Through GroupDocs.Signature for .NET API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search progress. You can also search custom data object from documents signed with QR-Code Signature.
-
-      # more_feature_loop
-      - title: "Advanced Search Options for Barcode"
-        content: |
-          You can search and locate your required barcode through GroupDocs.Signature for.NET API very easily, as our signature API offers advanced search options. These enable you to search barcode on a particular page, search throughout a document, specify different pages to search (first, last, even, odd), search for barcode of particular encoding type, search barcode based on specific text string, or search barcode based on string with “contains” option.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature offers document signing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Signature features"
+  description: "Signing PDFs, Office Documents, and Images Swiftly and Accurately"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Document signing"
+      content: "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+
+    # feature loop
+    - icon: "split"
+      title: "Customize signatures"
+      content: "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+
+    # feature loop
+    - icon: "move"
+      title: "Document password protection"
+      content: "Secure certain document types by setting a password after signing."
+
+    # feature loop
+    - icon: "remove"
+      title: "Protection from changes"
+      content: "Prevent changes to important business documents after appending a signature with a digital certificate."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Convert signed files to other formats"
+      content: "Convert signed files to desired formats, such as saving a Word document as a PDF."
+
+    # feature loop
+    - icon: "swap"
+      title: "Extract page previews"
+      content: "Extract pages from signed documents as individual images for future processing."
+
+    # feature loop
+    - icon: "extract"
+      title: "Signature search in documents"
+      content: "Retrieve information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Validate signed documents"
+      content: "Verify the proper signing of documents using validation features."
+
+    # feature loop
+    - icon: "preview"
+      title: "Update or delete signatures"
+      content: "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Signature for .NET operations"
+  items:
+    # code sample loop
+    - title: "Add QR-code to PDF"
+      content: |
+        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using C#: 
+        {{< landing/code title="How to put QR code to PDF in C#">}}
+        ```csharp {style=abap}
+        // Load the document to sign
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Create QR code options with predefined text
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // Configure QR code encoding type and position on the page
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // Sign the document and save it as the result file
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Protecting a DOCX document using a digital certificate"
+      content: |
+        You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Such protected documents cannot be modified without invalidating the signature.
+        {{< landing/code title="Here's how to ensure document integrity.">}}
+        ```csharp {style=abap}   
+        // Load the document to be digitally signed
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Specify digital signing options and provide the path to the certificate file
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // Set the certificate password
+                Password = "1234567890"
+            };
+            // Sign the document and save it to the desired path
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

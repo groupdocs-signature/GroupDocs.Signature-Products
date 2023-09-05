@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: cs
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - Elektronický podpis Obrázky PDF Word Excel"
-head_description: "C# .NET API pro digitální podpis, knihovna eSignature pro elektronické podepisování PDF, Word, Excel, PowerPoint, obrázky a formáty grafických dokumentů."
+head_title: ".NET, Java, Cloud API a online aplikace pro podpis dokumentů"
+head_description: "Získejte komplexní řešení elektronického podpisu dokumentů pro .NET, Java a cloudové aplikace. Podepisujte běžné formáty dokumentů online pomocí jednoduché funkce drag and drop"
 
 ############################# Header ############################
-title: "Nativní rozhraní .NET API pro elektronické podpisy"
-description: "Přidejte digitální podpisy do formátů dokumentů a implementujte oblíbené typy elektronických podpisů (text, obrázek, QR kód, čárový kód, razítko a metadata) v aplikacích .NET."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Podepisujte digitální dokumenty a obrázky na jakékoli platformě pomocí našich flexibilních rozhraní API a řešení založených na aplikacích pro programátory a koncové uživatele."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Přehled"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Funkce"
-
-            # button loop
-            - link: "#support"
-              text: "Podpěra, podpora"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Živá ukázka"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Ceny"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Použijte GroupDocs.Signature for .NET API k vytváření aplikací v C#, ASP.NET a dalších technologiích založených na .NET, které vám umožňují podepisovat digitální obchodní dokumenty, jako jsou PDF, Microsoft Word, tabulky Excel, prezentace PowerPoint, obrázky, OpenDocument a jiné průmyslové standardní formáty souborů bez nutnosti instalace dalšího softwaru. S touto knihovnou elektronických podpisů se snadno pracuje a vývojáři .NET mohou do svých aplikací snadno přidávat pokročilé funkce digitálního podpisu, které uživatelům umožňují bezpečně podepisovat, vyhledávat a ověřovat elektronické podpisy z oblíbených formátů dokumentů. Podporuje implementaci různých typů podpisů, jako je text, obrázek, čárový kód, QR kód, pole formuláře, razítko a metadata.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      Rozhraní API pro podpis dokumentů vám umožňuje jednoduché a pokročilé možnosti vyhledávání, které vám umožní rychle najít požadované podpisy v dokumentu. Pomocí tohoto rozhraní API pro podepisování dokumentů je také možné použít styl podpisu, správu vzhledu a přizpůsobit vlastnosti podpisu, jako jsou rozměry, stín, zarovnání a další.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature for .NET lze použít v jakémkoli vývojovém prostředí, které podporuje platformu .NET. Je kompatibilní se všemi jazyky založenými na .NET a podporuje oblíbené operační systémy (Windows, Linux, MacOS), kde lze nainstalovat rámce Mono nebo .NET (včetně .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Následuje přehled GroupDocs.Signature pro .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Typy podpisů"
-          content: |
-            * Textový podpis
-            * Obrazový podpis
-            * Digitální podpisy
-            * Podpis QR kódu
-            * Podpis čárového kódu
-            * Razítko Podpis
-            * Podpis metadat
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature for .NET podporuje podepisování všech oblíbených formátů dokumentů. Pomocí několika řádků kódu přidejte do svých aplikací .NET podpis PDF, Microsoft Office Word, tabulku Excel, obrázek, HTML, Outlook e-mail, OneNote, Project a možnosti podepisování grafiky. [Podporované formáty dokumentů.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **snímky**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metasoubory**: EMF, WMF, CMX
-                * **Přenosný**: PDF
-                * **Škálovatelná vektorová grafika**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Ostatní**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature for .NET podporuje následující operační systémy, rámce a správce balíčků:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operační systémy"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podporované rámce"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Správce balíčků"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Vývojová prostředí"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Vytvářejte, prohledávejte, aktualizujte, schovávejte, ověřujte a mažte elektronické podpisy z podporovaných formátů dokumentů"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Zadejte pokročilé elektronické podpisy XML (XAdES) pro tabulky Excel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Získejte obrazový obsah z dokumentů podepsaných QR-kódem, čárovým kódem a obrazovým podpisem"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Nastavte výšku, šířku, okraje a zarovnání pro podpis textu nebo obrázku a umístění na konkrétní stránku"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Vyhledávejte, ověřujte a digitálně podepisujte prezentační dokumenty aplikace PowerPoint"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Podepisujte formáty dokumentů pro zpracování textu pomocí nativních textových vodoznaků"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Podporuje zaoblené rohy pro obdélníkové typy podpisu razítka"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Použijte textový nebo obrázkový podpis na konkrétní list aplikace Excel nebo nastavte elektronický podpis ve všech listech"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Zadejte konkrétní číslo řádku a sloupce pro umístění podpisu textu nebo obrázku do listu aplikace Excel"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Použijte stín na textový podpis v aplikaci Microsoft PowerPoint a nastavte jeho barvu, úhel a průhlednost"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Konfigurace stylů ohraničení textového podpisu a možností písma pro listy aplikace Excel"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Nastavte typ podpisu obrázku, např. Kulaté nebo čtvercové & Konfigurace okrajů, barvy písma, rotace"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Aplikujte digitální certifikáty na dokumenty, tabulky a soubory PDF s podpisovým řádkem"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Proveďte nastavení barev, použijte průhlednost a otočení na podpis textu"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Možnosti nastavení jasu a stupňů šedi a zadání odsazení podpisu obrázku v obrázku"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Vkládejte vlastní objekty, serializujte a také šifrujte a dešifrujte hodnoty podpisu metadat dokumentu PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Skrýt, odstranit nebo upravit vzhled digitálních podpisů z dokumentů PDF"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Podepisujte dokumenty PDF pomocí pole digitálního formuláře a textového podpisu jako obrázek, anotace, nálepka nebo vodoznak"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Vložte textový podpis do polí formuláře v dokumentech MS Word a PDF"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Zadejte libovolné stránky dokumentů pro zpracování podpisu nebo rozšířeného ověření elektronického podpisu pro soubory aplikace Word"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Uložte soubor s podepsaným obrázkem v jiném formátu a exportujte podepsanou tabulku jako obrázek nebo vícestránkový TIFF"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Přiřaďte, upravte a odstraňte heslo k podepsaným souborům a použijte eSignature na soubory chráněné heslem"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "eSign Worksheets, PowerPoint Slides, Word dokumenty a obrázky s vlastními objekty v metadatech"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Nastavte styly podpisového štětce jako plný, textura, lineární přechod a radiální přechod"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Podepisujte dokumenty pomocí vlastního šifrovaného textu nebo dat QR-kódu"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Vyhledávejte a podepisujte soubory ve formátu DjVu jako obrázkový dokument"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extrahujte informace o dokumentu, např. počet stránek, prostřednictvím URL souboru"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Vyhledávejte, podepisujte a ověřujte soubory CorelDraw jako obrázkové dokumenty"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Uchovávejte informace o historii zpracovaných nebo odstraněných podpisů uložených v metadatech"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Přidejte vlastní datový objekt, VCard nebo e-mailový objekt do QR kódu a ověřte šifrovaný QR kód v souborech PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Snadno přidávejte digitální podpisy"
-        content: |
-          GroupDocs.Signature for .NET API umožňuje přidávat různé typy podpisů do podporovaných formátů souborů. Typy podpisů, jako je text, obrázek, digitální, razítko, QR-kód, čárový kód a metadata, lze použít pomocí GroupDocs.Signature for .NET. Následující příklad kódu ukazuje, jak použít textový podpis na dokument PDF:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // nastavit barvu textu
-          ForeColor = Color.Red
-          };
-          // podepsat dokument do souboru
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Podporované typy podpisů čárových kódů"
-        content: |
-          Naše rozhraní API pro manipulaci s podpisy vám nabízí funkci pro použití podpisů čárových kódů na podporované formáty dokumentů. GroupDocs.Signature for .NET podporuje různé typy čárových kódů, například Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA a UPCE. K dispozici je také statický objekt s názvem „AllTypes“, který podporuje všechny registrované typy čárových kódů.
-
-      # more_feature_loop
-      - title: "Hledat podpisy a certifikáty"
-        content: |
-          GroupDocs.Signature for .NET API umožňuje vyhledávat digitální certifikáty z dokumentů aplikace Word, tabulek aplikace Excel a souborů PDF. Můžete také načíst všechny digitální certifikáty registrované v systému. Podpisy metadat lze také vyhledávat v dokumentech aplikace Word, tabulkách aplikace Excel, obrázcích a souborech PDF pomocí GroupDocs.Signature for .NET API.  
-
-          Prostřednictvím GroupDocs.Signature for .NET API můžete vyhledávat podpisy QR-Code a čárových kódů v jakémkoli dokumentu, prezentaci, tabulce, obrázku i souboru PDF a načítat průběh vyhledávání. Můžete také vyhledávat vlastní datové objekty z dokumentů podepsaných podpisem QR-Code.
-
-      # more_feature_loop
-      - title: "Rozšířené možnosti vyhledávání pro čárový kód"
-        content: |
-          Pomocí GroupDocs.Signature for.NET API můžete velmi snadno vyhledat a najít požadovaný čárový kód, protože naše podpisové API nabízí pokročilé možnosti vyhledávání. Umožňují vám vyhledávat čárový kód na konkrétní stránce, prohledávat celý dokument, specifikovat různé stránky k prohledávání (první, poslední, sudé, liché), vyhledávat čárový kód konkrétního typu kódování, hledat čárový kód na základě konkrétního textového řetězce nebo hledat čárový kód. na základě řetězce s možností „obsahuje“.
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature nabízí rozhraní API pro podepisování dokumentů pro další populární vývojová prostředí"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

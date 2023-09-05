@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: it
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Digital Signature API - Firma elettronica PDF Word Excel Immagini"
-head_description: "API di firma digitale C# .NET, libreria di firme elettroniche per firmare elettronicamente PDF, Word, fogli di calcolo Excel, PowerPoint, immagini e formati di documenti grafici."
+head_title: ".NET, Java, API cloud e app per la firma di documenti online"
+head_description: "Ottieni una soluzione completa per la firma elettronica dei documenti per .NET, Java e applicazioni basate su cloud. Firma formati di documenti comuni online utilizzando la semplice funzionalità di trascinamento della selezione"
 
 ############################# Header ############################
-title: "API .NET nativa per firme elettroniche"
-description: "Aggiungi firme digitali ai formati di documenti e implementa i tipi di firma elettronica più diffusi (testo, immagine, codice QR, codice a barre, timbro e metadati) nelle applicazioni .NET."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Firma documenti digitali e immagini su qualsiasi piattaforma utilizzando le nostre API flessibili e soluzioni basate su app per programmatori e utenti finali."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Panoramica"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Caratteristiche"
-
-            # button loop
-            - link: "#support"
-              text: "Supporto"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Dimostrazione dal vivo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "Prezzi"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Utilizza GroupDocs.Signature per l'API .NET per creare applicazioni in C#, ASP.NET e altre tecnologie basate su .NET, che ti consentono di firmare documenti aziendali digitali come PDF, Microsoft Word, fogli di calcolo Excel, presentazioni PowerPoint, immagini, OpenDocument e altri formati di file standard del settore senza la necessità di installare alcun software aggiuntivo. Questa libreria di firme elettroniche è semplice da utilizzare e gli sviluppatori .NET possono facilmente aggiungere funzionalità avanzate di firma digitale nelle loro applicazioni, consentendo agli utenti di firmare, cercare e verificare in modo sicuro le firme elettroniche dai formati di documenti più diffusi. Supporta l'implementazione di una varietà di tipi di firma come testo, immagine, codice a barre, codice QR, campo modulo, timbro e metadati.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      L'API per la firma del documento ti offre opzioni di ricerca semplici e avanzate per individuare in un lampo le firme richieste su un documento. Le opzioni per applicare lo stile della firma, la gestione dell'aspetto e personalizzare le proprietà della firma come dimensioni, ombreggiatura, allineamento e altro sono possibili anche con questa API per la firma di documenti ricca di funzionalità.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature per .NET può essere utilizzato in qualsiasi ambiente di sviluppo che supporti la piattaforma .NET. È compatibile con tutti i linguaggi basati su .NET e supporta i sistemi operativi più diffusi (Windows, Linux, MacOS) in cui è possibile installare framework Mono o .NET (incluso .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Di seguito è riportata una panoramica di GroupDocs.Signature per .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Tipi di firma"
-          content: |
-            * Firma del testo
-            * Firma dell'immagine
-            * Firme digitali
-            * Firma del codice QR
-            * Firma del codice a barre
-            * Timbro Firma
-            * Firma dei metadati
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature per .NET supporta la firma di tutti i formati di documenti più diffusi. Con poche righe di codice, aggiungi firma PDF, Microsoft Office Word, foglio di calcolo Excel, immagine, HTML, e-mail di Outlook, OneNote, progetto e funzionalità di firma grafica nelle tue applicazioni .NET. [Formati di documenti supportati.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **immagini**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metafile**: EMF, WMF, CMX
-                * **Portatile**: PDF
-                * **Grafica vettoriale scalabile**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Altri**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature per .NET supporta i seguenti sistemi operativi, framework e gestori di pacchetti:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistemi operativi"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Framework supportati"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Gestore dei pacchetti"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Ambienti di sviluppo"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature per le funzionalità .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Crea, cerca, aggiorna, nascondi, verifica ed elimina firme elettroniche dai formati di documenti supportati"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Specifica le firme elettroniche avanzate XML (XAdES) per i fogli di calcolo Excel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Recupera il contenuto dell'immagine da documenti firmati con codici QR, codici a barre e firme di immagini"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Imposta altezza, larghezza, margini e allineamento per la firma del testo o dell'immagine e posizionala su una pagina specifica"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Cerca, verifica e firma digitalmente documenti di presentazione PowerPoint"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Firma formati di documenti di elaborazione testi con filigrane di testo nativo"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Supporta gli angoli arrotondati per i tipi di firma del timbro rettangolare"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Applica la firma di testo o immagine su un foglio Excel specifico o imposta la firma elettronica su tutti i fogli"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Specifica un particolare numero di riga e colonna per posizionare il testo o la firma dell'immagine nel foglio Excel"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Applica l'ombreggiatura alla firma del testo in Microsoft PowerPoint e imposta il colore, l'angolo e la trasparenza"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Configura gli stili del bordo della firma del testo e le opzioni dei caratteri per i fogli Excel"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Imposta il tipo di firma dell'immagine, ad es. Rotondo o quadrato e configura i margini, il colore del carattere, la rotazione"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Applica certificati digitali a documenti, fogli di calcolo e file PDF con la riga della firma"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Eseguire le impostazioni del colore, applicare trasparenza e rotazione alla firma del testo"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Imposta le opzioni di luminosità e scala di grigi e specifica il rientro della firma dell'immagine in un'immagine"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Incorpora oggetti personalizzati, serializza, crittografa e decrittografa i valori di firma dei metadati del documento PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Nascondi, rimuovi o personalizza l'aspetto delle firme digitali dai documenti PDF"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Firma documenti PDF con campo modulo digitale e firma testuale come immagine, annotazione, adesivo o filigrana"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Inserisci la firma del testo nei campi del modulo di documenti MS Word e PDF"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Specifica pagine arbitrarie di documenti per l'elaborazione della firma o della verifica estesa della firma elettronica per i file Word"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Salva il file immagine firmato in un formato diverso ed esporta il foglio di calcolo firmato come immagine o TIFF multipagina"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Assegna, modifica e rimuovi la password ai file firmati e applica la firma elettronica ai file protetti da password"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Firma elettronica di fogli di lavoro, diapositive PowerPoint, documenti Word e immagini con oggetti personalizzati nei metadati"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Imposta gli stili del pennello firma come Solido, Texture, Gradiente lineare e Gradiente radiale"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Firma documenti con testo o dati QR-Code crittografati personalizzati"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Cerca e firma file con il formato DjVu come documento immagine"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Estrai le informazioni sul documento, ad es. Conteggio pagine, tramite l'URL del file"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Cerca, firma e verifica i file CorelDraw come documenti immagine"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Mantieni la cronologia delle informazioni sulle firme elaborate o cancellate memorizzate nei metadati"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Aggiungi oggetto dati personalizzato, VCard o oggetto e-mail al codice QR e verifica il codice QR crittografato nei file PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Aggiungi facilmente firme digitali"
-        content: |
-          GroupDocs.Signature per l'API .NET consente di aggiungere vari tipi di firme ai formati di file supportati. I tipi di firma, come testo, immagine, digitale, timbro, codice QR, codice a barre e metadati possono essere applicati utilizzando GroupDocs.Signature per .NET. Il seguente esempio di codice mostra come applicare la firma di testo a un documento PDF:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // imposta il colore del testo
-          ForeColor = Color.Red
-          };
-          // firmare il documento da archiviare
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Tipi di firma di codici a barre supportati"
-        content: |
-          La nostra API per la manipolazione delle firme offre funzionalità per applicare le firme dei codici a barre ai formati di documenti supportati. GroupDocs.Signature per .NET supporta vari tipi di codici a barre, come Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA e UPCE. Viene inoltre fornito un oggetto statico denominato "AllTypes" per supportare tutti i tipi di codici a barre registrati.
-
-      # more_feature_loop
-      - title: "Cerca firme e certificati"
-        content: |
-          GroupDocs.Signature per .NET API, consente di cercare certificati digitali da documenti Word, fogli di calcolo Excel e file PDF. Puoi anche recuperare tutti i certificati digitali registrati nel sistema. Le firme dei metadati possono anche essere cercate in documenti Word, fogli di calcolo Excel, immagini e file PDF, utilizzando GroupDocs.Signature per l'API .NET.  
-
-          Tramite GroupDocs.Signature per l'API .NET, puoi cercare firme di codici QR e codici a barre in qualsiasi documento, presentazione, foglio di calcolo, immagine e file PDF e recuperare l'avanzamento della ricerca. Puoi anche cercare oggetti dati personalizzati da documenti firmati con QR-Code Signature.
-
-      # more_feature_loop
-      - title: "Opzioni di ricerca avanzate per codice a barre"
-        content: |
-          Puoi cercare e individuare il codice a barre richiesto tramite GroupDocs.Signature for.NET API molto facilmente, poiché la nostra API di firma offre opzioni di ricerca avanzate. Questi consentono di cercare il codice a barre su una determinata pagina, cercare in un documento, specificare diverse pagine da cercare (prima, ultima, pari, dispari), cercare il codice a barre di un particolare tipo di codifica, cercare il codice a barre in base a una stringa di testo specifica o cercare il codice a barre basato sulla stringa con l'opzione "contiene".
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature offre API per la firma di documenti per altri ambienti di sviluppo diffusi"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

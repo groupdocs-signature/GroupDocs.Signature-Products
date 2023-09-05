@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-03-01T15:12:22
+layout: "landing"
+date: 2023-09-05T16:50:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -13,343 +13,250 @@ lang: ms
 #breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "API Tandatangan Digital BERSIH - Tanda Elektronik PDF Word Excel Imej"
-head_description: "API tandatangan digital C# .NET, perpustakaan eSignature untuk menandatangani PDF, Word, hamparan Excel, PowerPoint, imej & format dokumen grafik secara elektronik."
+head_title: ".NET, Java, Cloud API & Apl Tandatangan Dokumen Dalam Talian"
+head_description: "Dapatkan penyelesaian e-tandatangan dokumen semua-dalam-satu untuk .NET, Java dan aplikasi berasaskan awan. Tandatangani format dokumen biasa dalam talian menggunakan ciri seret dan lepas mudah"
 
 ############################# Header ############################
-title: "API .NET Asli untuk Tandatangan Elektronik"
-description: "Tambahkan Tandatangan Digital pada Format Dokumen & Laksanakan Jenis eTandatangan yang popular (Teks, Imej, Kod QR, Kod Bar, Setem & Metadata) dalam Aplikasi .NET."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "Tandatangani dokumen dan imej digital pada mana-mana platform menggunakan API fleksibel dan penyelesaian berasaskan aplikasi kami untuk pengaturcara dan pengguna akhir."
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Signature for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-        product: "GroupDocs.Signature"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Gambaran keseluruhan"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "ciri-ciri"
-
-            # button loop
-            - link: "#support"
-              text: "Sokongan"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/net"
-              text: "penentuan harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("D:\\sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        TextSignOptions options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("D:\\signed.pdf", options);
+     }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Gunakan GroupDocs.Signature untuk API .NET untuk membina aplikasi dalam C#, ASP.NET dan teknologi berasaskan .NET lain, yang membolehkan anda menandatangani dokumen perniagaan digital seperti PDF, Microsoft Word, hamparan Excel, persembahan PowerPoint, imej, OpenDocument dan format fail standard industri lain tanpa perlu memasang sebarang perisian tambahan. Pustaka tandatangan elektronik ini mudah digunakan dan Pembangun .NET boleh dengan mudah menambah ciri tandatangan digital termaju dalam aplikasi mereka, memperkasakan pengguna untuk menandatangani, mencari dan mengesahkan e-Tandatangan dengan selamat daripada format dokumen yang popular. Ia menyokong pelaksanaan pelbagai jenis tandatangan seperti teks, imej, kod bar, kod QR, medan borang, setem dan metadata.  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
 
-      API tandatangan dokumen memperkasakan anda dengan pilihan carian yang mudah dan lanjutan untuk mencari tandatangan anda yang diperlukan pada dokumen dalam sekelip mata. Pilihan untuk menggunakan penggayaan tandatangan, pengurusan penampilan dan menyesuaikan sifat tandatangan seperti dimensi, bayangan, penjajaran dan banyak lagi juga boleh dilakukan dengan API tandatangan dokumen yang kaya dengan ciri ini.  
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
 
-      GroupDocs.Signature untuk .NET boleh digunakan dalam mana-mana persekitaran pembangunan yang menyokong platform .NET. Ia serasi dengan semua bahasa berasaskan .NET dan menyokong sistem pengendalian popular (Windows, Linux, MacOS) di mana rangka kerja Mono atau .NET (termasuk Teras .NET) boleh dipasang.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Berikut ialah gambaran keseluruhan GroupDocs.Signature untuk .NET:
-      
-        left:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Jenis Tandatangan"
-          content: |
-            * Tandatangan Teks
-            * Tandatangan Imej
-            * Tandatangan Digital
-            * Tandatangan Kod QR
-            * Tandatangan Kod Bar
-            * Tandatangan Setem
-            * Tandatangan Metadata
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Signature untuk .NET menyokong menandatangani semua format dokumen popular. Dengan hanya beberapa baris kod, tambahkan tandatangan PDF, Microsoft Office Word, hamparan Excel, Imej, HTML, e-mel Outlook, OneNote, Projek dan keupayaan menandatangani grafik dalam aplikasi .NET anda. [Format dokumen yang disokong.](https://docs.groupdocs.com/signature/net/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Imej**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metafiles**: EMF, WMF, CMX
-                * **Mudah alih**: PDF
-                * **Grafik Vektor Boleh Skala**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Lain-lain**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature untuk .NET menyokong Sistem Operasi, Rangka Kerja & Pengurus Pakej berikut:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Rangka Kerja yang Disokong"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pengurus Pakej"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Persekitaran Pembangunan"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Tandatangan untuk Ciri .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Cipta, Cari, Kemas Kini, Sembunyikan, Sahkan dan Padam e-Tandatangan daripada Format Dokumen yang Disokong"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Tentukan Tandatangan Elektronik Lanjutan XML (XAdES) untuk Hamparan Excel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Dapatkan Kandungan Imej daripada Dokumen yang Ditandatangani dengan Kod QR, Kod Bar & Tandatangan Imej"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Tetapkan Tinggi, Lebar, Jidar & Penjajaran untuk Teks atau Imej Tandatangan & Tempat pada Halaman Tertentu"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Cari, Sahkan dan Tandatangan Dokumen Persembahan PowerPoint Secara Digital"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Tandatangani Format Dokumen Pemprosesan Perkataan dengan Tera Air Teks Asli"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Menyokong Sudut Bulat untuk Jenis Tandatangan Setem Segi Empat"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Gunakan Teks atau Tandatangan Imej pada Helaian Excel Tertentu atau Tetapkan eSignature pada semua Helaian"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Tentukan Nombor Baris & Lajur Tertentu untuk Meletakkan Teks atau Tandatangan Imej dalam Helaian Excel"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Gunakan Bayangan pada Tandatangan Teks dalam Microsoft PowerPoint & Sediakan Warna, Sudut & Ketelusannya"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Konfigurasikan Gaya Sempadan Tandatangan Teks & Pilihan Fon untuk Helaian Excel"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Tetapkan Jenis Tandatangan Imej, mis. Bulat atau Segi Empat & Konfigurasikan Margin, Warna Fon, Putaran"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Gunakan Sijil Digital pada Dokumen, Hamparan & Fail PDF dengan Talian Tandatangan"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Lakukan Tetapan Warna, Gunakan Ketelusan & Putaran pada Tandatangan Teks"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Sediakan Pilihan Kecerahan & Skala Kelabu & Tentukan Inden Tandatangan Imej dalam Imej"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Benamkan Objek Tersuai, Serialkan serta Sulitkan dan Nyahsulit Nilai Tandatangan Metadata Dokumen PDF"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Sembunyikan, Alih Keluar atau Sesuaikan Kemunculan Tandatangan Digital daripada Dokumen PDF"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Tandatangani Dokumen PDF dengan Medan Borang Digital dan Tandatangan Teks sebagai Imej, Anotasi, Pelekat atau Tera Air"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Letakkan Tandatangan Teks ke dalam Medan Borang MS Word & Dokumen PDF"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Tentukan Halaman Sewenang-wenangnya Dokumen untuk Memproses Tandatangan atau Pengesahan Lanjutan eSignature untuk Fail Word"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Simpan Fail Imej Bertandatangan dalam Format Berbeza & Eksport Hamparan Bertandatangan sebagai Imej atau TIFF Berbilang Halaman"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Berikan, Ubah Suai & Alih Keluar Kata Laluan kepada Fail yang Ditandatangani & Gunakan eTandatangan pada Fail yang Dilindungi Kata Laluan"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Lembaran Kerja eSign, Slaid PowerPoint, Dokumen Word & Imej dengan Objek Tersuai dalam Metadata"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Sediakan Gaya Berus Tandatangan sebagai Pepejal, Tekstur, Kecerunan Linear & Kecerunan Jejari"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Tandatangani Dokumen dengan Teks atau Data Kod QR Disulitkan Tersuai"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Cari & Tandatangani Fail dengan Format DjVu sebagai Dokumen Imej"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Ekstrak Maklumat Dokumen, cth., Pengiraan Halaman, melalui URL Fail"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Cari, Tandatangan & Sahkan Fail CorelDraw sebagai Dokumen Imej"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Simpan Sejarah Maklumat Tandatangan yang Diproses atau Dipadam Disimpan dalam Metadata"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Tambah Objek Data Tersuai, VCard atau Objek E-mel pada Kod QR & Sahkan Kod QR Disulitkan dalam Fail PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Tambah Tandatangan Digital dengan Mudah"
-        content: |
-          GroupDocs.Signature untuk API .NET membolehkan anda menambah pelbagai jenis tandatangan pada format fail yang disokong. Jenis tandatangan, seperti Teks, Imej, Digital, Setem, Kod QR, Kod Bar dan Metadata boleh digunakan menggunakan GroupDocs.Signature untuk .NET. Contoh kod berikut menunjukkan cara menggunakan tandatangan teks pada dokumen PDF:
-
-          ```cs
-          using (Signature signature = new Signature("D:\\sample.pdf"))
-          {
-          TextSignOptions options = new TextSignOptions("John Smith")
-          {
-          // tetapkan warna teks
-          ForeColor = Color.Red
-          };
-          // menandatangani dokumen untuk difailkan
-          signature.Sign("D:\\signed.pdf", options);
-          }
-          ```
-
-      # more_feature_loop
-      - title: "Jenis Tandatangan Kod Bar yang Disokong"
-        content: |
-          API manipulasi tandatangan kami menawarkan anda ciri untuk menggunakan tandatangan kod bar pada format dokumen yang disokong. GroupDocs.Signature untuk .NET menyokong pelbagai jenis kod bar, seperti, Code128, Code39Extended, Code39Standard, EAN14, EAN8, ITF14, UPCA dan UPCE. Objek statik bernama "AllTypes" juga disediakan untuk menyokong semua jenis kod bar berdaftar.
-
-      # more_feature_loop
-      - title: "Cari Tandatangan & Sijil"
-        content: |
-          GroupDocs.Signature untuk API .NET, membolehkan anda mencari sijil Digital daripada dokumen Word, hamparan Excel dan fail PDF. Anda juga boleh mengambil semua sijil digital yang didaftarkan dalam sistem. Tandatangan metadata juga boleh dicari dalam dokumen Word, hamparan Excel, imej dan fail PDF, menggunakan GroupDocs.Signature untuk API .NET.  
-
-          Melalui GroupDocs.Signature untuk API .NET, anda boleh mencari tandatangan Kod QR dan Kod Bar dalam mana-mana dokumen, pembentangan, hamparan, imej serta fail PDF dan mengambil kemajuan carian. Anda juga boleh mencari objek data tersuai daripada dokumen yang ditandatangani dengan Tandatangan Kod QR.
-
-      # more_feature_loop
-      - title: "Pilihan Carian Terperinci untuk Kod Bar"
-        content: |
-          Anda boleh mencari dan mencari kod bar yang diperlukan melalui API GroupDocs.Signature for.NET dengan mudah, kerana API tandatangan kami menawarkan pilihan carian lanjutan. Ini membolehkan anda mencari kod bar pada halaman tertentu, mencari di seluruh dokumen, menentukan halaman berbeza untuk dicari (pertama, terakhir, genap, ganjil), mencari kod bar jenis pengekodan tertentu, mencari kod bar berdasarkan rentetan teks tertentu atau mencari kod bar berdasarkan rentetan dengan pilihan "mengandungi".
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature menawarkan API tandatangan dokumen untuk persekitaran pembangunan popular yang lain"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-          product: "GroupDocs.Signature"
-          platform: "Java"
-          link: "/signature/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.features.title}"
+  description: "{index-content.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content.features.feature_1.title}"
+      content: "{index-content.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content.features.feature_2.title}"
+      content: "{index-content.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content.features.feature_3.title}"
+      content: "{index-content.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content.features.feature_4.title}"
+      content: "{index-content.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content.features.feature_5.title}"
+      content: "{index-content.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content.features.feature_6.title}"
+      content: "{index-content.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content.features.feature_7.title}"
+      content: "{index-content.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content.features.feature_8.title}"
+      content: "{index-content.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content.features.feature_9.title}"
+      content: "{index-content.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content-net.code_samples.title}"
+  description: "{index-content-net.code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_1.title}"
+      content: |
+        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content-net.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content-net.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content-net.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_samples.sample_2.title}"
+      content: |
+        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
+        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content-net.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content-net.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content-net.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content-net.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+
+
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---
