@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-05T16:50:30
+date: 2023-09-07T17:17:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -47,17 +47,17 @@ code:
   content: |
     ```csharp {style=abap}   
     // Select PDF document
-    using (Signature signature = new Signature("D:\\sample.pdf"))
+    using (Signature signature = new Signature("sample.pdf"))
     {
         // Provide text
-        TextSignOptions options = new TextSignOptions("John Smith")
+        var options = new TextSignOptions("John Smith")
         {
             // Set color
             ForeColor = Color.Red
         };
         // Sign document and save to file
-        signature.Sign("D:\\signed.pdf", options);
-     }
+        signature.Sign("signed.pdf", options);
+    }
     ```
 
 ############################# Overview ############################
@@ -67,15 +67,15 @@ overview:
   description: "API for performing document signing and related operations in .NET applications"
   features:
     # feature loop
-    - title: "Adding Signatures to Business Documents in C#"
-      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including invisible metadata."
+    - title: "Adding signatures to business documents in C#"
+      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
 
     # feature loop
-    - title: "Processing Signed Documents"
+    - title: "Processing signed documents"
       content: "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
 
     # feature loop
-    - title: "Customizing Results"
+    - title: "Customizing results"
       content: "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
 
 ############################# Platforms ############################
@@ -128,7 +128,7 @@ formats:
       content: |
         ### Images & Other Formats
         * **Portable:** PDF
-        * **Images:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
         * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
@@ -142,7 +142,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Signature features"
-  description: "Signing PDFs, Office Documents, and Images Swiftly and Accurately"
+  description: "Signing PDFs, Office Documents, and Images swiftly and accurately"
 
   items:
     # feature loop
@@ -199,8 +199,8 @@ code_samples:
     # code sample loop
     - title: "Add QR-code to PDF"
       content: |
-        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using C#: 
-        {{< landing/code title="How to put QR code to PDF in C#">}}
+        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using GroupDocs.Signature.
+        {{< landing/code title="How to put QR code to PDF.">}}
         ```csharp {style=abap}
         // Load the document to sign
         using (Signature signature = new Signature("file_to_sign.pdf"))
@@ -222,7 +222,7 @@ code_samples:
     - title: "Protecting a DOCX document using a digital certificate"
       content: |
         You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Such protected documents cannot be modified without invalidating the signature.
-        {{< landing/code title="Here's how to ensure document integrity.">}}
+        {{< landing/code title="Here is how to ensure document integrity.">}}
         ```csharp {style=abap}   
         // Load the document to be digitally signed
         using (Signature signature = new Signature("file_to_sign.pdf"))
@@ -236,8 +236,6 @@ code_samples:
             // Sign the document and save it to the desired path
             signature.Sign("digitally_signed.pdf", options);
         }
-
-
         ```
         {{< /landing/code >}}
 

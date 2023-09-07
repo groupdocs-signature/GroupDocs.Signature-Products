@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-05T16:50:31
+date: 2023-09-07T17:17:31
 draft: false
 #operation: 
 #signaturetype: 
@@ -47,17 +47,17 @@ code:
   content: |
     ```csharp {style=abap}   
     // {index-content.code_comment_1}
-    using (Signature signature = new Signature("D:\\sample.pdf"))
+    using (Signature signature = new Signature("sample.pdf"))
     {
         // {index-content.code_comment_2}
-        TextSignOptions options = new TextSignOptions("John Smith")
+        var options = new TextSignOptions("John Smith")
         {
             // {index-content.code_comment_3}
             ForeColor = Color.Red
         };
         // {index-content.code_comment_4}
-        signature.Sign("D:\\signed.pdf", options);
-     }
+        signature.Sign("signed.pdf", options);
+    }
     ```
 
 ############################# Overview ############################
@@ -128,7 +128,7 @@ formats:
       content: |
         ### {index-content.formats_groups.title_2}
         * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
         * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
@@ -141,103 +141,101 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content.features.title}"
-  description: "{index-content.features.description}"
+  title: "{index-content-net.features.title}"
+  description: "{index-content-net.features.description}"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content.features.feature_1.title}"
-      content: "{index-content.features.feature_1.content}"
+      title: "{index-content-net.features.feature_1.title}"
+      content: "{index-content-net.features.feature_1.content}"
 
     # feature loop
     - icon: "split"
-      title: "{index-content.features.feature_2.title}"
-      content: "{index-content.features.feature_2.content}"
+      title: "{index-content-net.features.feature_2.title}"
+      content: "{index-content-net.features.feature_2.content}"
 
     # feature loop
     - icon: "move"
-      title: "{index-content.features.feature_3.title}"
-      content: "{index-content.features.feature_3.content}"
+      title: "{index-content-net.features.feature_3.title}"
+      content: "{index-content-net.features.feature_3.content}"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content.features.feature_4.title}"
-      content: "{index-content.features.feature_4.content}"
+      title: "{index-content-net.features.feature_4.title}"
+      content: "{index-content-net.features.feature_4.content}"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content.features.feature_5.title}"
-      content: "{index-content.features.feature_5.content}"
+      title: "{index-content-net.features.feature_5.title}"
+      content: "{index-content-net.features.feature_5.content}"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content.features.feature_6.title}"
-      content: "{index-content.features.feature_6.content}"
+      title: "{index-content-net.features.feature_6.title}"
+      content: "{index-content-net.features.feature_6.content}"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content.features.feature_7.title}"
-      content: "{index-content.features.feature_7.content}"
+      title: "{index-content-net.features.feature_7.title}"
+      content: "{index-content-net.features.feature_7.content}"
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content.features.feature_8.title}"
-      content: "{index-content.features.feature_8.content}"
+      title: "{index-content-net.features.feature_8.title}"
+      content: "{index-content-net.features.feature_8.content}"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content.features.feature_9.title}"
-      content: "{index-content.features.feature_9.content}"
+      title: "{index-content-net.features.feature_9.title}"
+      content: "{index-content-net.features.feature_9.content}"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content-net.code_samples.title}"
-  description: "{index-content-net.code_samples.description}"
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-net.code_samples_description}"
   items:
     # code sample loop
-    - title: "{index-content-net.code_samples.sample_1.title}"
+    - title: "{index-content-net.code_title_sample_1}"
       content: |
-        {index-content-net.code_samples.sample_1.content_1} {index-content-net.code_samples.sample_1.content_2}
-        {{< landing/code title="{index-content-net.code_samples.sample_1.code_title}">}}
+        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
         ```csharp {style=abap}
-        // {index-content-net.code_samples.sample_1.comment_1}
+        // {index-content.code_samples.sample_1.comment_1}
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content-net.code_samples.sample_1.comment_2}
+            // {index-content.code_samples.sample_1.comment_2}
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content-net.code_samples.sample_1.comment_3}
+                // {index-content.code_samples.sample_1.comment_3}
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content-net.code_samples.sample_1.comment_4}
+            // {index-content.code_samples.sample_1.comment_4}
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_samples.sample_2.title}"
+    - title: "{index-content-net.code_title_sample_2}"
       content: |
-        {index-content-net.code_samples.sample_2.content_1} {index-content-net.code_samples.sample_2.content_2}
-        {{< landing/code title="{index-content-net.code_samples.sample_2.code_title}">}}
+        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
         ```csharp {style=abap}   
-        // {index-content-net.code_samples.sample_2.comment_1}
+        // {index-content.code_samples.sample_2.comment_1}
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content-net.code_samples.sample_2.comment_2}
+            // {index-content.code_samples.sample_2.comment_2}
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content-net.code_samples.sample_2.comment_3}
+                // {index-content.code_samples.sample_2.comment_3}
                 Password = "1234567890"
             };
-            // {index-content-net.code_samples.sample_2.comment_4}
+            // {index-content.code_samples.sample_2.comment_4}
             signature.Sign("digitally_signed.pdf", options);
         }
-
-
         ```
         {{< /landing/code >}}
 

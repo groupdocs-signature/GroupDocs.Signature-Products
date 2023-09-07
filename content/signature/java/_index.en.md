@@ -1,341 +1,261 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-09-07T17:17:29
 draft: false
-
+#operation: 
+#signaturetype: 
+#fileformat: 
+#productName: Java
+lang: en
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java Digital Signature API, Add eSignature to PDF Word Excel Image"
-head_description: "Java digital signature API. Electronic signature library to digitally sign PDF, Microsoft Word, Excel spreadsheets, PowerPoint presentations & image document formats."
+head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
+head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
 
 ############################# Header ############################
-title: "Java API to Manage Digital Signatures"
-description: "Manage eSignature of Image, QR-Code, Barcode, Metadata, Text & Stamp Types in Java Applications for Signing Images & Digital Document File Formats."
-button:
-    enable: true
+title: "Sign documents<br>via Java API"
+description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Free Maven Download"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
+
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+
+code:
+  title: "Sign PDF files in Java"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Select PDF document
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Signature for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-        product: "GroupDocs.Signature"
-        platform: "Java"
+    // Provide text
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
-
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Sign document and save to file
+    signature.sign("signed.pdf", options);
+    
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Signature for Java API helps you develop Java applications with electronic signatures functionality to sign digital documents of supported formats without installing any external software. It supports manipulation and management of various types of eSignatures such as Image, Barcode, QR-Code, Stamp, Text, Optical and Metadata. All your electronic business documents like Microsoft Office Word, PowerPoint presentations, Excel spreadsheets, images, & PDF files can be digitally signed by customizing signature properties e.g. shadow, dimensions, alignment and more as per your requirements. The digital signature library is simple and lightweight, consisting of a single DLL file that can be integrated easily within new or an existing Java application.  
+  enable: true
+  title: "GroupDocs.Signature Overview"
+  description: "API for performing document signing and related operations in Java applications"
+  features:
+    # feature loop
+    - title: "Improved business documents with digital signatures in Java"
+      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
 
-      Through GroupDocs.Signature for Java API you can load all registered certificates from system, or locate existing signatures using simple and advanced search. The options to work with password protected documents, specifying common signature properties (text size, opacity, rotation, verification, font properties, color options, page number, width, top, left etc) and support of implementing different eSignature types make it a reliable e-Signatures management solution for digital documents.  
+    # feature loop
+    - title: "Manipulating signed documents"
+      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
 
-      GroupDocs.Signature for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run Java runtime
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          That is an overview of GroupDocs.Signature features for Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Signature Types"
-          content: |
-            * Text Signature
-            * Image Signature
-            * Digital Signatures
-            * QR-Code Signature
-            * Barcode Signature
-            * Stamp Signature
-            * Form-field Signature
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Java electronically signing API supports various document file formats as listed below. [Supported documents formats.](https://docs.groupdocs.com/signature/java/supported-document-formats/)
+    # feature loop
+    - title: "Variety of output choices"
+      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **Images**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **Metafiles**: EMF, WMF, CMX
-                * **Portable**: PDF
-                * **Scalable Vector Graphics**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **Others**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature for Java supports following Operating Systems, Frameworks & Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Development Environments"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Signature for Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Create, Read, Modify, Hide and Delete e-Signatures from Supported Document Formats"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Access to be Signed Document from Stream, Relative Path or Absolute Path"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Apply Text Signature to Documents, Spreadsheets, Presentations, Images & PDF Files"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Add Text Signature as Annotation, Sticker, Image to PDF Files also Configure Style & Color"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Sign PDF Document, Image File and Get Output in Different File Format"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Digitally Sign Images with Text Signature as Watermark & Add Transparency, Rotation to eSignature"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Search Certificates & Sign Microsoft Word, Excel, & PDF Documents with Digital Certificates"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Sign Word Processing Document Formats with Native Text Watermarks"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Use QR-Code, Barcode to Sign Word, Slide, Cell, PDF & Image Files"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Configure & Apply Stamp Signatures to Secure Supported File Formats"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Setup and Assign Image Signatures to Documents, Spreadsheets, Presentations, Images & PDF Files"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Configure Signature Properties, e.g., Look and Feel, Margins, Alignment etc."
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Apply Digital Signature to Password Protected Document"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Perform Text Verification of PDF Documents using the Signature Handler"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Digital Verification of Word, Cell, PDF Documents with .CER, and .PFX Certificate Containers"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Specify Different Measure Unit Types (e.g. Millimeters, Pixels etc.) for PDF Text Signatures"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Obtain Document Information via File or URL - Add Form Field Signatures to PDF Documents"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Add Custom Data Object, Embedded VCard, Email, EPC, MeCard or Event Object to QR-Code"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Apply Different Brush Styles to Signatures, e.g., Gradient, Radial, Solid, and Texture Brush"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Sign Document Located at FTP or Azure Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Set Text Alignment inside Shapes for Documents, Slides, Images & PDF Files"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Search, Verify and Digitally Sign PowerPoint Presentation Documents"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Place Signature using Pixels in Cell Documents & Text Positioning for Stamp Signatures"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Implement Rectangle Stamp Signature with Rounded Corners"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Extend Barcode & QR-Code Signatures with Image Data Content"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Add Encrypted Metadata Signatures while Working with Signing & Searching Options"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Embed Custom Objects to Metadata Signatures within Word, Excel and Presentations"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Configure & Apply eSignatures"
-        content: |
-          GroupDocs.Signature for Java API enables to configure and add eSignatures to supported document formats. Following is a code example that shows how simple it is to apply a text signature to a PDF file:
-
-          ```java
-          Signature signature = new Signature("sample.pdf");
-
-          TextSignOptions options = new TextSignOptions("John Smith");
-          // set signature position
-          options.setLeft(100);
-          options.setTop(100);
-          
-          // set signature rectangle
-          options.setWidth(100);
-          options.setHeight(30);
-
-          // set text color and Font
-          options.setForeColor(Color.RED);
-          SignatureFont signatureFont = new SignatureFont();
-          signatureFont.setSize(12);
-          signatureFont.setFamilyName("Comic Sans MS");
-          options.setFont(signatureFont);
-          options.setSignatureImplementation(TextSignatureImplementation.Sticker)
-
-          // sign document to file
-          signature.sign("sample_signed.pdf", options);
-          ```
-
-      # more_feature_loop
-      - title: "Supported Barcode Encoding Types for eSignature"
-        content: |
-          Using GroupDocs.Signature for Java API you can apply barcode and QR-code Signatures to supported file formats. GroupDocs.Signature for Java supports a huge range of barcode encoding types to cater to most requirements. The supported barcode encoding types include, Code 11, Code 128, Code 16K/32, Databar codes, GS1 Codeblock, ISBN, ISMN, ISSN, ITF16, Pdf147, EAN8, EAN13, EAN14, UPCA, UPCE, ITF14, Code39 Standard, and Code39 Extended.
-
-          Similarly GroupDocs.Signature for Java API allows you to use QR-code types, such as, QR, Aztec, and Data Matrix. Supported QR-Code encoding types include, Aztec, DataMatrix, GS1 DataMatrix, and GS1 QR.
-
-      # more_feature_loop
-      - title: "Search Signatures & Certificates"
-        content: |
-          Through GroupDocs.Signature for Java API, you can search QR-Code and Barcode signatures in any document, presentation, spreadsheet, image, as well as PDF file, and fetch the search result. You can also search custom data object from documents signed with QR-Code Signature as well as Search Standard VCard and Email Object from Documents Signed with QR-Code. Verifying encrypted text of QR-Code signatures as well as searching for metadata signature in PDF documents is also supported. Apply additional search criteria for digital signatures of Words & Cells Documents.  
-
-          Search option is also available for metadata signature for word documents, slides and spreadsheets, while form-field search is available for PDF documents.
-
-      # more_feature_loop
-      - title: "Configure eSignature Properties"
-        content: |
-          To enhance the UX of end-users GroupDocs.Signature for Java API provides a lot of properties that can be configured pretty easily. You can set font and color options (Background Color, Foreground Color, Bold, Italic, Underline, Font Family, Font Size etc.), Background and Border Options (Background Color, Background Transparency, Border Color, Border Dash Style, Border Weight, Border Transparency etc.), Signature Margins (Left, Top, Width, Height, Padding etc.), and Setup Image Signature Area & Signature Alignment (Horizontal Alignment, Vertical Alignment etc.).
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature offers document signing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-          product: "GroupDocs.Signature"
-          platform: ".NET"
-          link: "/signature/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Signature features"
+  description: "Signing PDFs, Office Documents, and images with digital signatures"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Adding Signatures"
+      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+
+    # feature loop
+    - icon: "split"
+      title: "Customizing results"
+      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+
+    # feature loop
+    - icon: "move"
+      title: "Securing documents with password"
+      content: "For many supported document types, you can protect the signed document with a password."
+
+    # feature loop
+    - icon: "remove"
+      title: "Preventing unauthorized changes"
+      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Obtaining results in desired formats"
+      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+
+    # feature loop
+    - icon: "swap"
+      title: "Document preview"
+      content: "Save any page of a document as an image for future processing."
+
+    # feature loop
+    - icon: "extract"
+      title: "Searching for signatures"
+      content: "It is possible to get information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Validating documents"
+      content: "Validate the correctness of signatures on any signed document."
+
+    # feature loop
+    - icon: "preview"
+      title: "Managing signatures"
+      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Signature for Java operations"
+  items:
+    # code sample loop
+    - title: "Enchance PDF document with QR-code"
+      content: |
+        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
+        {{< landing/code title="Enchance PDF document with QR-code">}}
+        ```java {style=abap}
+        // Load the document to sign
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Create QR code options with predefined text
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // Configure QR code encoding type and position on the page
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // Sign the document and save it as the result file
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Use digital signature to protect a DOCX"
+      content: |
+        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
+        {{< landing/code title="Use digital signature to protect a DOCX">}}
+        ```java {style=abap}   
+        // Load the document to be digitally signed
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Specify digital signing options and provide the path to the certificate file
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // Set the certificate password
+        options.setPassword("1234567890");
+
+        // Sign the document and save it to the desired path
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

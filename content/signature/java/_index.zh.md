@@ -1,341 +1,261 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-09-07T17:17:29
 draft: false
-
+#operation: 
+#signaturetype: 
+#fileformat: 
+#productName: Java
+lang: zh
+#productCode: java
+#otherformats: 
+#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java 数字签名 API，将电子签名添加到 PDF Word Excel 图像"
-head_description: "Java数字签名API。电子签名库，用于对 PDF、Microsoft Word、Excel 电子表格、PowerPoint 演示文稿和图像文档格式进行数字签名。"
+head_title: ".NET、Java、云 API 和在线文档签名应用程序"
+head_description: "获得适用于 .NET、Java 和基于云的应用程序的一体化文档电子签名解决方案。使用简单的拖放功能在线签署常见文档格式"
 
 ############################# Header ############################
-title: "用于管理数字签名的 Java API"
-description: "在 Java 应用程序中管理图像、二维码、条形码、元数据、文本和图章类型的电子签名，用于签署图像和数字文档文件格式。"
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-java.title_2}"
+description: "使用我们面向程序员和最终用户的灵活的 API 和基于应用程序的解决方案，在任何平台上签署数字文档和图像。"
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{index-content-java.actions_main}"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
+
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
+
+code:
+  title: "{index-content-java.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // {index-content.code_comment_1}
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Signature for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-        product: "GroupDocs.Signature"
-        platform: "Java"
+    // {index-content.code_comment_2}
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
-
-            # button loop
-            - link: "#features"
-              text: "特征"
-
-            # button loop
-            - link: "#support"
-              text: "支持"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "现场演示"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/java"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // {index-content.code_comment_4}
+    signature.sign("signed.pdf", options);
+    
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Signature for Java API 帮助您开发具有电子签名功能的 Java 应用程序，无需安装任何外部软件即可签署支持格式的数字文档。它支持操作和管理各种类型的电子签名，例如图像、条形码、QR 码、图章、文本、光学和元数据。您的所有电子业务文档，如 Microsoft Office Word、PowerPoint 演示文稿、Excel 电子表格、图像和 PDF 文件，都可以通过自定义签名属性进行数字签名，例如根据您的要求添加阴影、尺寸、对齐方式等。数字签名库简单轻便，由单个 DLL 文件组成，可以轻松集成到新的或现有的 Java 应用程序中。  
+  enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-java.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-java.overview_feature_1.title}"
+      content: "{index-content-java.overview_feature_1.description}"
 
-      通过 GroupDocs.Signature for Java API，您可以从系统加载所有已注册的证书，或使用简单和高级搜索找到现有签名。使用密码保护文档的选项，指定通用签名属性（文本大小、不透明度、旋转、验证、字体属性、颜色选项、页码、宽度、顶部、左侧等）以及支持实现不同的电子签名类型使其成为可靠的数字文档的电子签名管理解决方案。  
+    # feature loop
+    - title: "{index-content-java.overview_feature_2.title}"
+      content: "{index-content-java.overview_feature_2.description}"
 
-      GroupDocs.Signature for Java 与所有 Java 版本兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、MacOS）
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          这是 GroupDocs.Signature Java 功能的概述：
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "签名类型"
-          content: |
-            * 文本签名
-            * 图像签名
-            * 数字签名
-            * 二维码签名
-            * 条形码签名
-            * 盖章签名
-            * 表单字段签名
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Java 电子签名 API 支持如下所列的各种文档文件格式。 [支持的文档格式。](https://docs.groupdocs.com/signature/java/supported-document-formats/)
+    # feature loop
+    - title: "{index-content-java.overview_feature_3.title}"
+      content: "{index-content-java.overview_feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-java.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **图片**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **图元文件**: EMF, WMF, CMX
-                * **便携的**: PDF
-                * **可缩放矢量图形**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **其他的**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Signature for Java 支持以下操作系统、框架和包管理器：
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "开发环境"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "构建自动化工具"
-              content: |
-                * Maven
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-java.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Java 功能的 GroupDocs.Signature"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "从支持的文档格式创建、读取、修改、隐藏和删除电子签名"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "从流、相对路径或绝对路径访问签名文档"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "将文本签名应用于文档、电子表格、演示文稿、图像和 PDF 文件"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "将文本签名作为注释、贴纸、图像添加到 PDF 文件还可以配置样式和颜色"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "签署 PDF 文档、图像文件并以不同的文件格式获取输出"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "使用文本签名作为水印对图像进行数字签名并为电子签名添加透明度、旋转"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "搜索证书并使用数字证书签署 Microsoft Word、Excel 和 PDF 文档"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "使用本机文本水印对文字处理文档格式进行签名"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "使用 QR 码、条形码对 Word、幻灯片、单元格、PDF 和图像文件进行签名"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "配置和应用图章签名以保护支持的文件格式"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "为文档、电子表格、演示文稿、图像和 PDF 文件设置和分配图像签名"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "配置签名属性，例如外观、边距、对齐方式等。"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "将数字签名应用于受密码保护的文档"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "使用签名处理程序执行 PDF 文档的文本验证"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "使用 .CER 和 .PFX 证书容器对 Word、Cell、PDF 文档进行数字验证"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "为 PDF 文本签名指定不同的度量单位类型（例如毫米、像素等）"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "通过文件或 URL 获取文档信息 - 添加表单字段签名到 PDF 文档"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "将自定义数据对象、嵌入式 VCard、电子邮件、EPC、MeCard 或事件对象添加到 QR 码"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "将不同的画笔样式应用于签名，例如渐变、径向、实体和纹理画笔"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "签署位于 FTP 或 Azure 云存储的文档"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "为文档、幻灯片、图像和 PDF 文件设置形状内的文本对齐方式"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "搜索、验证和数字签名 PowerPoint 演示文档"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "在单元格文档中使用像素放置签名和图章签名的文本定位"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "实现带圆角的矩形图章签名"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "使用图像数据内容扩展条形码和二维码签名"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "使用签名和搜索选项时添加加密的元数据签名"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "将自定义对象嵌入 Word、Excel 和演示文稿中的元数据签名"
-
-    more_feature:
-      # more_feature_loop
-      - title: "轻松配置和应用电子签名"
-        content: |
-          GroupDocs.Signature for Java API 支持配置电子签名并将其添加到支持的文档格式。以下代码示例显示了将文本签名应用于 PDF 文件是多么简单：
-
-          ```java
-          Signature signature = new Signature("sample.pdf");
-
-          TextSignOptions options = new TextSignOptions("John Smith");
-          // 设置签名位置
-          options.setLeft(100);
-          options.setTop(100);
-          
-          // 设置签名矩形
-          options.setWidth(100);
-          options.setHeight(30);
-
-          // 设置文字颜色和字体
-          options.setForeColor(Color.RED);
-          SignatureFont signatureFont = new SignatureFont();
-          signatureFont.setSize(12);
-          signatureFont.setFamilyName("Comic Sans MS");
-          options.setFont(signatureFont);
-          options.setSignatureImplementation(TextSignatureImplementation.Sticker)
-
-          // 签署文件归档
-          signature.sign("sample_signed.pdf", options);
-          ```
-
-      # more_feature_loop
-      - title: "电子签名支持的条形码编码类型"
-        content: |
-          使用 GroupDocs.Signature for Java API，您可以将条形码和二维码签名应用于支持的文件格式。 GroupDocs.Signature for Java 支持范围广泛的条码编码类型以满足大多数需求。支持的条码编码类型包括 Code 11、Code 128、Code 16K/32、Databar codes、GS1 Codeblock、ISBN、ISMN、ISSN、ITF16、Pdf147、EAN8、EAN13、EAN14、UPCA、UPCE、ITF14、Code39 Standard 和Code39 扩展。
-
-          同样，GroupDocs.Signature for Java API 允许您使用 QR 码类型，例如 QR、Aztec 和 Data Matrix。支持的二维码编码类型包括 Aztec、DataMatrix、GS1 DataMatrix 和 GS1 QR。
-
-      # more_feature_loop
-      - title: "搜索签名和证书"
-        content: |
-          通过 GroupDocs.Signature for Java API，您可以在任何文档、演示文稿、电子表格、图像以及 PDF 文件中搜索 QR 码和条码签名，并获取搜索结果。您还可以从使用 QR 码签名的文档中搜索自定义数据对象，以及从使用 QR 码签名的文档中搜索标准 VCard 和电子邮件对象。还支持验证二维码签名的加密文本以及在 PDF 文档中搜索元数据签名。对 Words & Cells 文档的数字签名应用附加搜索条件。  
-
-          搜索选项也可用于 word 文档、幻灯片和电子表格的元数据签名，而表单域搜索可用于 PDF 文档。
-
-      # more_feature_loop
-      - title: "配置电子签名属性"
-        content: |
-          为了增强最终用户的用户体验，GroupDocs.Signature for Java API 提供了许多可以很容易配置的属性。您可以设置字体和颜色选项（背景颜色、前景色、粗体、斜体、下划线、字体系列、字体大小等）、背景和边框选项（背景颜色、背景透明度、边框颜色、边框虚线样式、边框粗细、边框透明度等）、签名边距（左、上、宽、高、填充等），以及设置图像签名区域和签名对齐（水平对齐、垂直对齐等）。
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Signature 为其他流行的开发环境提供文档签名 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-          product: "GroupDocs.Signature"
-          platform: ".NET"
-          link: "/signature/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content-java.features.title}"
+  description: "{index-content-java.features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{index-content-java.features.feature_1.title}"
+      content: "{index-content-java.features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{index-content-java.features.feature_2.title}"
+      content: "{index-content-java.features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{index-content-java.features.feature_3.title}"
+      content: "{index-content-java.features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{index-content-java.features.feature_4.title}"
+      content: "{index-content-java.features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{index-content-java.features.feature_5.title}"
+      content: "{index-content-java.features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{index-content-java.features.feature_6.title}"
+      content: "{index-content-java.features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{index-content-java.features.feature_7.title}"
+      content: "{index-content-java.features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{index-content-java.features.feature_8.title}"
+      content: "{index-content-java.features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-java.features.feature_9.title}"
+      content: "{index-content-java.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-java.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_1}"
+      content: |
+        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        ```java {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_1.comment_2}
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // {index-content.code_samples.sample_1.comment_3}
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // {index-content.code_samples.sample_1.comment_4}
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_2}"
+      content: |
+        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        ```java {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_2.comment_2}
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // {index-content.code_samples.sample_2.comment_3}
+        options.setPassword("1234567890");
+
+        // {index-content.code_samples.sample_2.comment_4}
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

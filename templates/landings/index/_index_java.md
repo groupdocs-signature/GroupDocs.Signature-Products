@@ -1,341 +1,261 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: <% date "utcnow" %>
 draft: false
-
+#operation: <% get "Operation" %>
+#signaturetype: <% get "Signaturetype" %>
+#fileformat: <% get "Fileformat" %>
+#productName: <% get "ProductName" %>
+lang: <% lower ( get "lang") %>
+#productCode: <% lower ( get "ProductCode") %>
+#otherformats: <% get "OtherFormats" %>
+#breadcrumb: Put <% get "Signaturetype" %> signature on <% get "Fileformat" %> for <% get "ProgLang" %>
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "<% "{index-content-java.head_title}" %>"
-head_description: "<% "{index-content-java.head_description}" %>"
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "<% "{index-content-java.title}" %>"
-description: "<% "{index-content-java.description}" %>"
-button:
-    enable: true
+title: "<% "{index-content.title_1}" %><br><% "{index-content-java.title_2}" %>"
+description: "<% "{index-content.description}" %>"
+words:
+  for: "<% "{index-content.words_for}" %>"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "<% "{index-content-java.actions_main}" %>"
+  main_link: "<% dict "products.java.main_link" %>"
+  alt: "<% "{index-content.actions_alt}" %>"
+  alt_link: "<% dict "products.java.alt_link" %>"
+  title: "<% "{index-content.actions_title}" %>"
+  description: "<% "{index-content.actions_description}" %>"
+
+release:
+  title: "<% "{index-content.release_title}" %>"
+  notes: "<% "{index-content.release_notes}" %>"
+  downloads: "<% "{index-content.release_downloads}" %>"
+
+code:
+  title: "<% "{index-content-java.code_title}" %>"
+  more: "<% "{index-content.code_more}" %>"
+  more_link: "<% dict "products.java.more_link" %>"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // <% "{index-content.code_comment_1}" %>
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Signature for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
-        product: "GroupDocs.Signature"
-        platform: "Java"
+    // <% "{index-content.code_comment_2}" %>
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "<% "{index-content-java.submenu_overview}" %>"
-
-            # button loop
-            - link: "#features"
-              text: "<% "{index-content-java.submenu_features}" %>"
-
-            # button loop
-            - link: "#support"
-              text: "<% "{index-content-java.submenu_support}" %>"
-
-            # button loop
-            - link: "https://products.groupdocs.app/signature"
-              text: "<% "{index-content-java.submenu_live_demo}" %>"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/signature/java"
-              text: "<% "{index-content-java.submenu_pricing}" %>"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/signature"
-        link_learn: "https://docs.groupdocs.com/signature/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // <% "{index-content.code_comment_4}" %>
+    signature.sign("signed.pdf", options);
+    
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      <% "{index-content-java.overview_content_1}" %>  
+  enable: true
+  title: "<% "{index-content.overview_title}" %>"
+  description: "<% "{index-content-java.overview_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{index-content-java.overview_feature_1.title}" %>"
+      content: "<% "{index-content-java.overview_feature_1.description}" %>"
 
-      <% "{index-content-java.overview_content_2}" %>  
+    # feature loop
+    - title: "<% "{index-content-java.overview_feature_2.title}" %>"
+      content: "<% "{index-content-java.overview_feature_2.description}" %>"
 
-      <% "{index-content-java.overview_content_3}" %>
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          <% "{index-content-java.overview_tab1_description}" %>
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "<% "{index-content-java.overview_tab1_left_title}" %>"
-          content: |
-            * <% "{index-content-java.overview_tab1_left_content_1}" %>
-            * <% "{index-content-java.overview_tab1_left_content_2}" %>
-            * <% "{index-content-java.overview_tab1_left_content_3}" %>
-            * <% "{index-content-java.overview_tab1_left_content_4}" %>
-            * <% "{index-content-java.overview_tab1_left_content_5}" %>
-            * <% "{index-content-java.overview_tab1_left_content_6}" %>
-            * <% "{index-content-java.overview_tab1_left_content_7}" %>
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          <% "{index-content-java.overview_tab2_description} [{index-content.supported_formats}](https://docs.groupdocs.com/signature/java/supported-document-formats/)" %>
+    # feature loop
+    - title: "<% "{index-content-java.overview_feature_3.title}" %>"
+      content: "<% "{index-content-java.overview_feature_3.description}" %>"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "<% "{index-content.platforms_title}" %>"
+  description: "<% "{index-content-java.platforms_description}" %>"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Images & Other Formats"
-              content: |
-                * **<% "{index-content-java.overview_tab2_right_content_1}" %>**: JPG, BMP, PNG, TIFF, GIF, DCM, WEBP
-                * **OpenDocument**: ODT, OTT, OTS, ODS, ODP, OTP, ODG
-                * **Jpeg2000**: JP2, JPF, JPX, J2K, J2C, JPM
-                * **<% "{index-content-java.overview_tab2_right_content_2}" %>**: EMF, WMF, CMX
-                * **<% "{index-content-java.overview_tab2_right_content_3}" %>**: PDF
-                * **<% "{index-content-java.overview_tab2_right_content_4}" %>**: CDR, SVG
-                * **Adobe Photoshop**: PSD
-                * **<% "{index-content-java.overview_tab2_right_content_5}" %>**: DJVU
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          <% "{index-content-java.overview_tab3_description}" %>
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "<% "{index-content-java.overview_tab3_left_title_1}" %>"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "<% "{index-content-java.overview_tab3_left_title_2}" %>"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "<% "{index-content-java.overview_tab3_right_title_1}" %>"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "<% "{index-content-java.overview_tab3_right_title_2}" %>"
-              content: |
-                * Maven
+############################# File formats ############################
+formats:
+  enable: true
+  title: "<% "{index-content.formats_title}" %>"
+  description: |
+    <% "{index-content-java.formats_description}" %>
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### <% "{index-content.formats_groups.title_1}" %>
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### <% "{index-content.formats_groups.title_2}" %>
+        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF
+        * **<% "{index-content.formats_groups.format_images}" %>:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **<% "{index-content.formats_groups.format_other_office}" %>:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### <% "{index-content.formats_groups.title_3}" %>
+        * **<% "{index-content.formats_groups.format_web}" %>:** HTML, MHTML
+        * **<% "{index-content.formats_groups.format_archives}" %>:** ZIP, TAR, 7Z
+        * **<% "{index-content.formats_groups.format_certificates}" %>:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "<% "{index-content-java.features_title}" %>"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "<% "{index-content-java.features_content_1}" %>"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "<% "{index-content-java.features_content_2}" %>"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "<% "{index-content-java.features_content_3}" %>"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "<% "{index-content-java.features_content_4}" %>"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "<% "{index-content-java.features_content_5}" %>"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "<% "{index-content-java.features_content_6}" %>"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "<% "{index-content-java.features_content_7}" %>"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "<% "{index-content-java.features_content_8}" %>"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "<% "{index-content-java.features_content_9}" %>"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "<% "{index-content-java.features_content_10}" %>"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "<% "{index-content-java.features_content_11}" %>"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "<% "{index-content-java.features_content_12}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "<% "{index-content-java.features_content_13}" %>"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "<% "{index-content-java.features_content_14}" %>"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "<% "{index-content-java.features_content_15}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "<% "{index-content-java.features_content_16}" %>"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "<% "{index-content-java.features_content_17}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "<% "{index-content-java.features_content_18}" %>"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "<% "{index-content-java.features_content_19}" %>"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "<% "{index-content-java.features_content_20}" %>"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "<% "{index-content-java.features_content_21}" %>"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "<% "{index-content-java.features_content_22}" %>"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "<% "{index-content-java.features_content_23}" %>"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-java.features_content_24}" %>"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-java.features_content_25}" %>"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-java.features_content_26}" %>"
-
-       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "<% "{index-content-java.features_content_27}" %>"
-
-    more_feature:
-      # more_feature_loop
-      - title: "<% "{index-content-java.more_feature_1_title}" %>"
-        content: |
-          <% "{index-content-java.more_feature_1_content}" %>
-
-          ```java
-          Signature signature = new Signature("sample.pdf");
-
-          TextSignOptions options = new TextSignOptions("John Smith");
-          // <% "{index-content-java.more_feature_1_comment_1}" %>
-          options.setLeft(100);
-          options.setTop(100);
-          
-          // <% "{index-content-java.more_feature_1_comment_2}" %>
-          options.setWidth(100);
-          options.setHeight(30);
-
-          // <% "{index-content-java.more_feature_1_comment_3}" %>
-          options.setForeColor(Color.RED);
-          SignatureFont signatureFont = new SignatureFont();
-          signatureFont.setSize(12);
-          signatureFont.setFamilyName("Comic Sans MS");
-          options.setFont(signatureFont);
-          options.setSignatureImplementation(TextSignatureImplementation.Sticker)
-
-          // <% "{index-content-java.more_feature_1_comment_4}" %>
-          signature.sign("sample_signed.pdf", options);
-          ```
-
-      # more_feature_loop
-      - title: "<% "{index-content-java.more_feature_2_title}" %>"
-        content: |
-          <% "{index-content-java.more_feature_2_content_1}" %>
-
-          <% "{index-content-java.more_feature_2_content_2}" %>
-
-      # more_feature_loop
-      - title: "<% "{index-content-java.more_feature_3_title}" %>"
-        content: |
-          <% "{index-content-java.more_feature_3_content_1}" %>  
-
-          <% "{index-content-java.more_feature_3_content_2}" %>
-
-      # more_feature_loop
-      - title: "<% "{index-content-java.more_feature_4_title}" %>"
-        content: |
-          <% "{index-content-java.more_feature_4_content}" %>
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "<% "{index-content-java.solutions_title}" %>"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
-          product: "GroupDocs.Signature"
-          platform: ".NET"
-          link: "/signature/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "<% "{index-content-java.features.title}" %>"
+  description: "<% "{index-content-java.features.description}" %>"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "<% "{index-content-java.features.feature_1.title}" %>"
+      content: "<% "{index-content-java.features.feature_1.content}" %>"
+
+    # feature loop
+    - icon: "split"
+      title: "<% "{index-content-java.features.feature_2.title}" %>"
+      content: "<% "{index-content-java.features.feature_2.content}" %>"
+
+    # feature loop
+    - icon: "move"
+      title: "<% "{index-content-java.features.feature_3.title}" %>"
+      content: "<% "{index-content-java.features.feature_3.content}" %>"
+
+    # feature loop
+    - icon: "remove"
+      title: "<% "{index-content-java.features.feature_4.title}" %>"
+      content: "<% "{index-content-java.features.feature_4.content}" %>"
+
+    # feature loop
+    - icon: "rotate"
+      title: "<% "{index-content-java.features.feature_5.title}" %>"
+      content: "<% "{index-content-java.features.feature_5.content}" %>"
+
+    # feature loop
+    - icon: "swap"
+      title: "<% "{index-content-java.features.feature_6.title}" %>"
+      content: "<% "{index-content-java.features.feature_6.content}" %>"
+
+    # feature loop
+    - icon: "extract"
+      title: "<% "{index-content-java.features.feature_7.title}" %>"
+      content: "<% "{index-content-java.features.feature_7.content}" %>"
+
+    # feature loop
+    - icon: "orientation"
+      title: "<% "{index-content-java.features.feature_8.title}" %>"
+      content: "<% "{index-content-java.features.feature_8.content}" %>"
+
+    # feature loop
+    - icon: "preview"
+      title: "<% "{index-content-java.features.feature_9.title}" %>"
+      content: "<% "{index-content-java.features.feature_9.content}" %>"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "<% "{index-content.code_samples.title}" %>"
+  description: "<% "{index-content-java.code_samples_description}" %>"
+  items:
+    # code sample loop
+    - title: "<% "{index-content-java.code_title_sample_1}" %>"
+      content: |
+        <% "{index-content-java.code_samples_sample_1_content_1}" %> <% "{index-content-java.code_samples_sample_1_content_2}" %>
+        {{< landing/code title="<% "{index-content-java.code_title_sample_1}" %>">}}
+        ```java {style=abap}
+        // <% "{index-content.code_samples.sample_1.comment_1}" %>
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // <% "{index-content.code_samples.sample_1.comment_2}" %>
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // <% "{index-content.code_samples.sample_1.comment_3}" %>
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // <% "{index-content.code_samples.sample_1.comment_4}" %>
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "<% "{index-content-java.code_title_sample_2}" %>"
+      content: |
+        <% "{index-content-java.code_samples_sample_2_content_1}" %> <% "{index-content-java.code_samples_sample_2_content_2}" %>
+        {{< landing/code title="<% "{index-content-java.code_title_sample_2}" %>">}}
+        ```java {style=abap}   
+        // <% "{index-content.code_samples.sample_2.comment_1}" %>
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // <% "{index-content.code_samples.sample_2.comment_2}" %>
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // <% "{index-content.code_samples.sample_2.comment_3}" %>
+        options.setPassword("1234567890");
+
+        // <% "{index-content.code_samples.sample_2.comment_4}" %>
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "<% "{reviews.title}" %>"
+# description: "<% "{reviews.description}" %>"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "<% "{reviews.review_1.content}" %>"
+#     author: "<% "{reviews.review_1.author}" %>"
+#     company: "<% "{reviews.review_1.company}" %>"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "<% "{reviews.review_2.content}" %>"
+#     author: "<% "{reviews.review_2.author}" %>"
+#     company: "<% "{reviews.review_2.company}" %>"
 ---

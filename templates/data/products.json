@@ -31,7 +31,8 @@
             "url": "https://products.groupdocs.com/signature/java/",
             "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png",
             "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/",
-            "alt_link": "https://purchase.groupdocs.com/pricing/signature/java"
+            "alt_link": "https://purchase.groupdocs.com/pricing/signature/java",
+            "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
         }
     }
 }
