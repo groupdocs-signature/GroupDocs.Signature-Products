@@ -245,12 +245,186 @@
     "api_nocodelabel": "Skoða öll forrit án kóða",
     "api_nocode_1_content": "Skrifaðu undir Microsoft Word, Excel, PowerPoint, Visio og PDF skrár með texta, mynd, strikamerki eða QR-kóða.",
     "api_nocode_2_content": "Skrifaðu undir Word skjöl á netinu beint úr vafranum þínum ókeypis.",
-    "api_nocode_3_content": "E-Signaðu PDF skrár með texta, myndum eða strikamerki innan hvaða vafra sem er."
+    "api_nocode_3_content": "E-Signaðu PDF skrár með texta, myndum eða strikamerki innan hvaða vafra sem er.",
+    "title_1": "Skrifaðu undir skjöl",
+    "words_for": "fyrir",
+    "actions_alt": "Leyfisveitingar",
+    "actions_title": "Tilbúinn til að byrja?",
+    "actions_description": "Prófaðu GroupDocs.Signature eiginleika ókeypis eða biddu um leyfi",
+    "release_title": "Útgáfa {0} gefin út",
+    "release_notes": "Sjáðu hvað er nýtt",
+    "release_downloads": "Niðurhal",
+    "code_more": "Fleiri dæmi",
+    "code_comment_1": "Veldu PDF skjal",
+    "code_comment_2": "Gefðu upp texta",
+    "code_comment_3": "Stilltu lit",
+    "code_comment_4": "Skrifaðu undir skjal og vistaðu í skrá",
+    "overview_title": "GroupDocs.Signature Yfirlit",
+    "platforms_title": "Sjálfstæði vettvangs",
+    "formats_title": "Stutt skráarsnið",
+    "formats_groups": {
+      "title_1": "Microsoft Office snið",
+      "title_2": "Myndir og önnur snið",
+      "title_3": "Önnur snið",
+      "format_portable": "Færanlegt",
+      "format_other_office": "Önnur skrifstofusnið",
+      "format_images": "Myndir",
+      "format_web": "vefur",
+      "format_archives": "Skjalasafn",
+      "format_certificates": "Skírteini"
+    },
+    "code_samples": {
+      "title": "Kóða sýnishorn",
+      "sample_1": {
+        "code_title": "Hvernig á að setja QR kóða á PDF.",
+        "comment_1": "Hladdu skjalinu til að undirrita",
+        "comment_2": "Búðu til QR kóða valkosti með fyrirfram skilgreindum texta",
+        "comment_3": "Stilltu QR kóða kóðun gerð og staðsetningu á síðunni",
+        "comment_4": "Skrifaðu undir skjalið og vistaðu það sem niðurstöðuskrá"
+      },
+      "sample_2": {
+        "code_title": "Hér er hvernig á að tryggja heilindi skjalsins.",
+        "comment_1": "Hladdu skjalinu sem á að skrifa undir stafrænt",
+        "comment_2": "Tilgreindu valkosti fyrir stafræna undirskrift og gefðu upp slóðina að vottorðaskránni",
+        "comment_3": "Stilltu lykilorð vottorðsins",
+        "comment_4": "Skrifaðu undir skjalið og vistaðu það á viðkomandi slóð"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API fyrir rafrænar undirskriftir"
+    "title": "Native .NET API fyrir rafrænar undirskriftir",
+    "title_2": "í gegnum .NET API",
+    "actions_main": "Ókeypis niðurhal NuGet",
+    "code_title": "Skráðu PDF skjöl í C#",
+    "overview_description": "API til að framkvæma undirritun skjala og tengdar aðgerðir í .NET forritum",
+    "overview_feature_1": {
+      "title": "Bætir undirskriftum við viðskiptaskjöl í C#",
+      "description": "Skjalaundirskrift: Með GroupDocs.Signature fyrir .NET geturðu bætt ýmsum gerðum undirskrifta, svo sem texta, myndum, strikamerkjum og stafrænum skilríkjum, við PDF og Office skjöl. Þetta API gerir þér kleift að undirrita skjölin þín með næstum hvaða gagnategund sem er, þar á meðal falin lýsigögn."
+    },
+    "overview_feature_2": {
+      "title": "Vinnsla undirritaðra skjala",
+      "description": "Viðbótarvinnsla: Þú getur framkvæmt öflugar aðgerðir á undirrituðum skjölum með GroupDocs.Signature. Þetta felur í sér að leita að núverandi undirskriftum í viðskiptaskjölum og sannreyna þær með sérstökum forsendum. Að auki geturðu sótt skjalaupplýsingar og forskoðað síður í gegnum þetta .NET API."
+    },
+    "overview_feature_3": {
+      "title": "Sérsníða niðurstöður",
+      "description": "GroupDocs.Signature fyrir .NET býður upp á víðtæka aðlögunarmöguleika. Þú getur staðsett undirskriftir nákvæmlega hvar sem er á skjalasíðu og stillt útlit þeirra með ýmsum stillingum. Ennfremur styður þetta API vistun unnum skjölum á fjölmörgum studdum sniðum."
+    },
+    "features": {
+      "title": "GroupDocs.Signature eiginleikar",
+      "description": "Undirritun PDF skjöl, skrifstofuskjöl og myndir hratt og örugglega",
+      "feature_1": {
+        "title": "Undirritun skjala",
+        "content": "Bættu við einni eða mörgum studdum gerðum undirskrifta nákvæmlega á hvaða tilteknu stað sem er á viðskiptaskjölum."
+      },
+      "feature_2": {
+        "title": "Sérsníða undirskriftir",
+        "content": "Notaðu eiginleika eins og lit, leturgerð, ramma, snúning osfrv., til að stilla útlit undirskrifta."
+      },
+      "feature_3": {
+        "title": "Skjalavörn með lykilorði",
+        "content": "Tryggðu ákveðnar skjalagerðir með því að setja lykilorð eftir undirritun."
+      },
+      "feature_4": {
+        "title": "Vernd gegn breytingum",
+        "content": "Koma í veg fyrir breytingar á mikilvægum viðskiptaskjölum eftir að hafa bætt við undirskrift með stafrænu skilríki."
+      },
+      "feature_5": {
+        "title": "Umbreyttu undirrituðum skrám í önnur snið",
+        "content": "Umbreyttu undirrituðum skrám í æskileg snið, svo sem að vista Word skjal sem PDF."
+      },
+      "feature_6": {
+        "title": "Dragðu út forsýningar á síðu",
+        "content": "Dragðu út síður úr undirrituðum skjölum sem einstakar myndir til framtíðarvinnslu."
+      },
+      "feature_7": {
+        "title": "Undirskriftarleit í skjölum",
+        "content": "Sæktu upplýsingar um áður bættar undirskriftir í tilteknum skjölum."
+      },
+      "feature_8": {
+        "title": "Staðfesta undirrituð skjöl",
+        "content": "Staðfestu rétta undirritun skjala með því að nota löggildingareiginleika."
+      },
+      "feature_9": {
+        "title": "Uppfæra eða eyða undirskriftum",
+        "content": "Breyttu ákveðnum undirskriftum auðveldlega á síðu, breyttu texta þeirra eða eyddu þeim án vandræða."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature fyrir .NET styður eftirfarandi stýrikerfi, ramma og pakkastjóra",
+    "formats_description": "GroupDocs.Signature fyrir .NET styður aðgerðir með eftirfarandi [skráarsniðum](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Sumir nota dæmigerða GroupDocs.Signature fyrir .NET aðgerðir",
+    "code_title_sample_1": "Bættu QR-kóða við PDF",
+    "code_samples_sample_1_content_1": "Að bæta [QR-kóðum](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) við sérstakar síður af PDF skjölum getur aukið viðskiptaferla.",
+    "code_samples_sample_1_content_2": "Hér að neðan er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature.",
+    "code_title_sample_2": "Að vernda DOCX skjal með stafrænu vottorði",
+    "code_samples_sample_2_content_1": "Þú getur [verndað skjal](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki.",
+    "code_samples_sample_2_content_2": "Slíkum vernduðum skjölum er ekki hægt að breyta án þess að ógilda undirskriftina."
   },
   "index-content-java": {
-    "title": "Java API til að stjórna stafrænum undirskriftum"
+    "title": "Java API til að stjórna stafrænum undirskriftum",
+    "title_2": "í gegnum Java API",
+    "actions_main": "Maven niðurhal ókeypis",
+    "code_title": "Skráðu PDF skjöl í Java",
+    "overview_description": "API til að framkvæma undirritun skjala og tengdar aðgerðir í Java forritum",
+    "overview_feature_1": {
+      "title": "Bætt viðskiptaskjöl með stafrænum undirskriftum í Java",
+      "description": "Fljótleg og sérhannaðar undirskrift: GroupDocs.Signature fyrir Java býður upp á fjölbreytt úrval af stafrænum undirskriftarmöguleikum fyrir PDF-skjöl, myndir og Office-skjöl. Þú getur notað texta, strikamerki, QR-kóða, stafræn skilríki, myndir eða falin lýsigögn. Skjalavinnslan er hröð og skilvirk."
+    },
+    "overview_feature_2": {
+      "title": "Meðhöndla undirrituð skjöl",
+      "description": "Ítarleg skjalavinnsla felur í sér öflugar aðgerðir á undirrituðum skjölum með GroupDocs.Signature fyrir Java. Hægt er að leita að og staðfesta undirskriftir sem hafa verið bætt við viðskiptaskjöl með ýmsum gagnlegum forsendum. Að auki geturðu nálgast nákvæmar upplýsingar um skjalið eða fengið forskoðunarmyndir af síðum þess."
+    },
+    "overview_feature_3": {
+      "title": "Fjölbreytt framleiðsluval",
+      "description": "Öflugir undirskriftarvalkostir gera þér kleift að sérsníða úttakið fyrir skjöl sem eru undirrituð með GroupDocs.Signature fyrir Java. Þú getur staðsett hvaða undirskrift sem er nákvæmlega á hvaða skjalasíðu sem er og stillt útlit hennar á ýmsa vegu. Java API styður vistun undirritaðra viðskiptaskjala á fjölmörgum studdum sniðum og býður upp á möguleika til að tryggja þau með lykilorðum."
+    },
+    "features": {
+      "title": "GroupDocs.Signature eiginleikar",
+      "description": "Undirritun PDF skjöl, skrifstofuskjöl og myndir með stafrænum undirskriftum",
+      "feature_1": {
+        "title": "Að bæta við undirskriftum",
+        "content": "Skrifaðu undir skjal með því að nota ýmsar studdar undirskriftargerðir með því að setja stafræna undirskrift nákvæmlega hvar sem er á hvaða síðu sem er."
+      },
+      "feature_2": {
+        "title": "Sérsníða niðurstöður",
+        "content": "Sérsníddu einkennisútlitið með því að stilla lit, leturgerð, ramma, snúning og aðra eiginleika til að ná tilætluðum árangri."
+      },
+      "feature_3": {
+        "title": "Að tryggja skjöl með lykilorði",
+        "content": "Fyrir margar studdar skjalagerðir geturðu verndað undirritaða skjalið með lykilorði."
+      },
+      "feature_4": {
+        "title": "Koma í veg fyrir óheimilar breytingar",
+        "content": "Verndaðu mikilvæg viðskiptaskjöl sem eru undirrituð með stafrænu vottorði gegn óheimilum breytingum."
+      },
+      "feature_5": {
+        "title": "Að fá niðurstöður í æskilegu sniði",
+        "content": "Fáðu auðveldlega undirritaðar niðurstöðuskrár á hvaða studdu sniði sem er. Þú getur líka umbreytt MS Word skjölum í PDF áreynslulaust."
+      },
+      "feature_6": {
+        "title": "Forskoðun skjala",
+        "content": "Vistaðu hvaða síðu sem er í skjali sem mynd til framtíðarvinnslu."
+      },
+      "feature_7": {
+        "title": "Er að leita að undirskriftum",
+        "content": "Hægt er að fá upplýsingar um áður bættar undirskriftir í ákveðin skjöl."
+      },
+      "feature_8": {
+        "title": "Staðfesta skjöl",
+        "content": "Staðfestu réttmæti undirskrifta á hverju undirrituðu skjali."
+      },
+      "feature_9": {
+        "title": "Umsjón með undirskriftum",
+        "content": "Þegar undirskrift hefur verið sett á skjalasíðu er hægt að eyða henni, færa hana eða uppfæra eftir þörfum."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature fyrir Java styður eftirfarandi stýrikerfi, ramma og pakkastjóra",
+    "formats_description": "GroupDocs.Signature fyrir Java styður aðgerðir með eftirfarandi [skráarsniðum](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Sumir nota dæmigerða GroupDocs.Signature fyrir Java aðgerðir",
+    "code_title_sample_1": "Bættu PDF skjal með QR-kóða",
+    "code_samples_sample_1_content_1": "Það getur verið dýrmætt að bæta viðskiptaferla með því að bæta [QR-kóðum](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) við sérstakar síður af PDF skjölum.",
+    "code_samples_sample_1_content_2": "Það er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature fyrir Java.",
+    "code_title_sample_2": "Notaðu stafræna undirskrift til að vernda DOCX",
+    "code_samples_sample_2_content_1": "Þú getur [verndað skjal](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki.",
+    "code_samples_sample_2_content_2": "Ekki er hægt að breyta skjölum sem eru tryggð með vottorði án þess að ógilda undirskriftina."
   }
 }

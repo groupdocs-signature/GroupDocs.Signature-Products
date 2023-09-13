@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:52
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud APIer og nettbaserte dokumentsignaturapper"
 head_description: "Få alt-i-ett dokument-e-signaturløsning for .NET, Java og skybaserte applikasjoner. Signer vanlige dokumentformater på nettet ved hjelp av enkel dra og slipp-funksjon"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Signer dokumenter<br>via .NET API"
 description: "Signer digitale dokumenter og bilder på hvilken som helst plattform ved å bruke våre fleksible APIer og appbaserte løsninger for programmerere og sluttbrukere."
 words:
-  for: "{index-content.words_for}"
+  for: "til"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Gratis nedlasting av NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Lisensering"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Klar til å komme i gang?"
+  description: "Prøv GroupDocs.Signature-funksjonene gratis eller be om en lisens"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versjon {0} utgitt"
+  notes: "Se hva som er nytt"
+  downloads: "Nedlastinger"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Signer PDF-filer i C#"
+  more: "Flere eksempler"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Velg PDF-dokument
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Gi tekst
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Sett farge
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Signer dokument og lagre til fil
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature Oversikt"
+  description: "API for å utføre dokumentsignering og relaterte operasjoner i .NET-applikasjoner"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Legge til signaturer til forretningsdokumenter i C#"
+      content: "Dokumentsignering: Med GroupDocs.Signature for .NET kan du legge til ulike typer signaturer, som tekst, bilder, strekkoder og digitale sertifikater, til PDF- og Office-dokumenter. Denne API-en lar deg signere dokumentene dine med nesten alle typer data, inkludert skjulte metadata."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Behandling av signerte dokumenter"
+      content: "Ytterligere behandling: Du kan utføre kraftige operasjoner på signerte dokumenter ved å bruke GroupDocs.Signature. Dette inkluderer å søke etter eksisterende signaturer i forretningsdokumenter og verifisere dem ved å bruke spesifikke kriterier. I tillegg kan du hente dokumentinformasjon og forhåndsvise sider gjennom denne .NET API."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Tilpasse resultater"
+      content: "GroupDocs.Signature for .NET tilbyr omfattende tilpasningsmuligheter. Du kan plassere signaturer nøyaktig hvor som helst på en dokumentside og justere utseendet ved hjelp av en rekke innstillinger. Videre støtter denne API-en lagring av behandlede dokumenter i et bredt spekter av støttede formater."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Plattformuavhengighet"
+  description: "GroupDocs.Signature for .NET støtter følgende operativsystemer, rammeverk og pakkeadministratorer"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Støttede filformater"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET støtter operasjoner med følgende [filformater](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office-formater
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Bilder og andre formater
+        * **Bærbar:** PDF
+        * **Bilder:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Andre kontorformater:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Andre formater
+        * **Web:** HTML, MHTML
+        * **Arkiv:** ZIP, TAR, 7Z
+        * **Sertifikater:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature-funksjoner"
+  description: "Signering av PDF-er, Office-dokumenter og bilder raskt og nøyaktig"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Dokumentsignering"
+      content: "Legg til én eller flere støttede typer signaturer nøyaktig på en hvilken som helst spesifisert posisjon på forretningsdokumenter."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Tilpass signaturer"
+      content: "Bruk funksjoner som farge, font, kantlinje, rotasjon osv. for å konfigurere utseendet til signaturer."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Dokumentpassordbeskyttelse"
+      content: "Sikre visse dokumenttyper ved å angi et passord etter signering."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Beskyttelse mot endringer"
+      content: "Forhindre endringer i viktige forretningsdokumenter etter å ha lagt til en signatur med et digitalt sertifikat."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Konverter signerte filer til andre formater"
+      content: "Konverter signerte filer til ønskede formater, for eksempel å lagre et Word-dokument som en PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Trekk ut forhåndsvisninger av siden"
+      content: "Trekk ut sider fra signerte dokumenter som individuelle bilder for fremtidig behandling."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Signatursøk i dokumenter"
+      content: "Hent informasjon om tidligere lagt til signaturer i spesifikke dokumenter."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Validere signerte dokumenter"
+      content: "Bekreft riktig signering av dokumenter ved hjelp av valideringsfunksjoner."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Oppdater eller slett signaturer"
+      content: "Flytt enkelt spesifikke signaturer på en side, endre teksten eller slett dem uten problemer."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Kodeprøver"
+  description: "Noen bruker tilfeller av typiske GroupDocs.Signature for .NET-operasjoner"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Legg til QR-kode i PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Å legge til [QR-koder](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) til bestemte sider med PDF-dokumenter kan forbedre forretningsprosessene. Nedenfor er et eksempel på hvordan du legger til en QR-kode ved hjelp av GroupDocs.Signature.
+        {{< landing/code title="Hvordan sette QR-kode til PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Last inn dokumentet for å signere
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Lag QR-kodealternativer med forhåndsdefinert tekst
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Konfigurer QR-kodekodingstype og plassering på siden
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Signer dokumentet og lagre det som resultatfil
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Beskytte et DOCX-dokument ved hjelp av et digitalt sertifikat"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Du kan [Beskytt et dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ved å bruke personlige eller bedriftssignaturer lagret som digitale sertifikater. Slike beskyttede dokumenter kan ikke endres uten å ugyldiggjøre signaturen.
+        {{< landing/code title="Slik sikrer du dokumentets integritet.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Last inn dokumentet som skal signeres digitalt
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Angi alternativer for digital signering og oppgi banen til sertifikatfilen
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Angi sertifikatpassordet
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Signer dokumentet og lagre det på ønsket bane
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

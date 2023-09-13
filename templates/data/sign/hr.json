@@ -245,12 +245,186 @@
     "api_nocodelabel": "Pogledajte sve aplikacije bez koda",
     "api_nocode_1_content": "Potpišite Microsoft Word, Excel, PowerPoint, Visio i PDF datoteke tekstom, slikom, crtičnim kodom ili QR kodom.",
     "api_nocode_2_content": "Besplatno digitalno potpišite Word dokumente izravno iz svog preglednika.",
-    "api_nocode_3_content": "e-potpišite PDF datoteke pomoću teksta, slike ili crtičnog koda iz bilo kojeg web preglednika."
+    "api_nocode_3_content": "e-potpišite PDF datoteke pomoću teksta, slike ili crtičnog koda iz bilo kojeg web preglednika.",
+    "title_1": "Potpišite dokumente",
+    "words_for": "za",
+    "actions_alt": "Licenciranje",
+    "actions_title": "Jeste li spremni za početak?",
+    "actions_description": "Isprobajte značajke GroupDocs.Signature besplatno ili zatražite licencu",
+    "release_title": "Objavljena verzija {0}",
+    "release_notes": "Pogledajte što je novo",
+    "release_downloads": "Preuzimanja",
+    "code_more": "Više primjera",
+    "code_comment_1": "Odaberite PDF dokument",
+    "code_comment_2": "Navedite tekst",
+    "code_comment_3": "Postavite boju",
+    "code_comment_4": "Potpišite dokument i spremite ga u datoteku",
+    "overview_title": "Pregled GroupDocs.Signature",
+    "platforms_title": "Neovisnost o platformi",
+    "formats_title": "Podržani formati datoteka",
+    "formats_groups": {
+      "title_1": "Microsoft Office formati",
+      "title_2": "Slike i drugi formati",
+      "title_3": "Ostali formati",
+      "format_portable": "Prijenosni",
+      "format_other_office": "Ostali uredski formati",
+      "format_images": "Slike",
+      "format_web": "mreža",
+      "format_archives": "Arhiva",
+      "format_certificates": "Certifikati"
+    },
+    "code_samples": {
+      "title": "Uzorci kodova",
+      "sample_1": {
+        "code_title": "Kako staviti QR kod u PDF.",
+        "comment_1": "Učitajte dokument za potpisivanje",
+        "comment_2": "Stvorite opcije QR koda s unaprijed definiranim tekstom",
+        "comment_3": "Konfigurirajte vrstu kodiranja QR koda i položaj na stranici",
+        "comment_4": "Potpišite dokument i spremite ga kao datoteku rezultata"
+      },
+      "sample_2": {
+        "code_title": "Evo kako osigurati integritet dokumenta.",
+        "comment_1": "Učitajte dokument koji želite digitalno potpisati",
+        "comment_2": "Navedite opcije digitalnog potpisivanja i navedite put do datoteke certifikata",
+        "comment_3": "Postavite lozinku certifikata",
+        "comment_4": "Potpišite dokument i spremite ga na željenu putanju"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Izvorni .NET API za elektroničke potpise"
+    "title": "Izvorni .NET API za elektroničke potpise",
+    "title_2": "putem .NET API-ja",
+    "actions_main": "Besplatno preuzimanje NuGet-a",
+    "code_title": "Potpišite PDF datoteke u C#",
+    "overview_description": "API za izvođenje potpisivanja dokumenata i povezanih operacija u .NET aplikacijama",
+    "overview_feature_1": {
+      "title": "Dodavanje potpisa poslovnim dokumentima u C#",
+      "description": "Potpisivanje dokumenata: s GroupDocs.Signature za .NET možete dodati različite vrste potpisa, kao što su tekst, slike, crtični kodovi i digitalni certifikati, u PDF i Office dokumente. Ovaj API omogućuje potpisivanje dokumenata s gotovo svim vrstama podataka, uključujući skrivene metapodatke."
+    },
+    "overview_feature_2": {
+      "title": "Obrada potpisanih dokumenata",
+      "description": "Dodatna obrada: Možete izvoditi moćne operacije na potpisanim dokumentima pomoću GroupDocs.Signature. To uključuje traženje postojećih potpisa unutar poslovnih dokumenata i njihovu provjeru pomoću posebnih kriterija. Osim toga, možete dohvatiti informacije o dokumentu i pregledati stranice putem ovog .NET API-ja."
+    },
+    "overview_feature_3": {
+      "title": "Prilagodba rezultata",
+      "description": "GroupDocs.Signature za .NET nudi opsežne mogućnosti prilagodbe. Potpise možete precizno pozicionirati bilo gdje na stranici dokumenta i prilagoditi njihov izgled pomoću raznih postavki. Nadalje, ovaj API podržava spremanje obrađenih dokumenata u širokom rasponu podržanih formata."
+    },
+    "features": {
+      "title": "Značajke GroupDocs.Signature",
+      "description": "Potpisivanje PDF-ova, Office dokumenata i slika brzo i točno",
+      "feature_1": {
+        "title": "Potpisivanje dokumenata",
+        "content": "Dodajte jednu ili više podržanih vrsta potpisa točno na bilo koje određeno mjesto u poslovnim dokumentima."
+      },
+      "feature_2": {
+        "title": "Prilagodite potpise",
+        "content": "Upotrijebite značajke kao što su boja, font, obrub, rotacija itd. za konfiguraciju izgleda potpisa."
+      },
+      "feature_3": {
+        "title": "Zaštita dokumenta lozinkom",
+        "content": "Osigurajte određene vrste dokumenata postavljanjem lozinke nakon potpisivanja."
+      },
+      "feature_4": {
+        "title": "Zaštita od promjena",
+        "content": "Spriječite izmjene važnih poslovnih dokumenata nakon dodavanja potpisa digitalnim certifikatom."
+      },
+      "feature_5": {
+        "title": "Pretvorite potpisane datoteke u druge formate",
+        "content": "Pretvorite potpisane datoteke u željene formate, kao što je spremanje Word dokumenta kao PDF."
+      },
+      "feature_6": {
+        "title": "Izdvojite preglede stranica",
+        "content": "Izdvojite stranice iz potpisanih dokumenata kao pojedinačne slike za buduću obradu."
+      },
+      "feature_7": {
+        "title": "Pretraga potpisa u dokumentima",
+        "content": "Dohvaćanje informacija o prethodno dodanim potpisima u određenim dokumentima."
+      },
+      "feature_8": {
+        "title": "Potvrdite potpisane dokumente",
+        "content": "Provjerite ispravno potpisivanje dokumenata pomoću značajki provjere valjanosti."
+      },
+      "feature_9": {
+        "title": "Ažurirajte ili izbrišite potpise",
+        "content": "Jednostavno promijenite položaj određenih potpisa na stranici, izmijenite njihov tekst ili ih izbrišite bez ikakvih problema."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa",
+    "formats_description": "GroupDocs.Signature za .NET podržava rad sa sljedećim [formatima datoteka](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Neki slučajevi upotrebe tipičnog GroupDocs.Signature za .NET operacije",
+    "code_title_sample_1": "Dodajte QR kod u PDF",
+    "code_samples_sample_1_content_1": "Dodavanje [QR kodova](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) određenim stranicama PDF dokumenata može poboljšati poslovne procese.",
+    "code_samples_sample_1_content_2": "Ispod je primjer kako dodati QR kod pomoću GroupDocs.Signature.",
+    "code_title_sample_2": "Zaštita DOCX dokumenta pomoću digitalnog certifikata",
+    "code_samples_sample_2_content_1": "Možete [zaštititi dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) pomoću osobnih ili korporativnih potpisa pohranjenih kao digitalni certifikati.",
+    "code_samples_sample_2_content_2": "Takvi zaštićeni dokumenti ne mogu se mijenjati bez poništavanja potpisa."
   },
   "index-content-java": {
-    "title": "Java API za upravljanje digitalnim potpisima"
+    "title": "Java API za upravljanje digitalnim potpisima",
+    "title_2": "putem Java API-ja",
+    "actions_main": "Besplatno preuzimanje Mavena",
+    "code_title": "Potpišite PDF datoteke u Javi",
+    "overview_description": "API za izvođenje potpisivanja dokumenata i povezanih operacija u Java aplikacijama",
+    "overview_feature_1": {
+      "title": "Poboljšani poslovni dokumenti s digitalnim potpisima u Javi",
+      "description": "Brzo i prilagodljivo potpisivanje: GroupDocs.Signature za Javu nudi širok raspon opcija digitalnog potpisa za PDF-ove, slike i Office dokumente. Možete koristiti tekst, crtične kodove, QR kodove, digitalne certifikate, slike ili skrivene metapodatke. Obrada dokumenata je brza i učinkovita."
+    },
+    "overview_feature_2": {
+      "title": "Manipuliranje potpisanim dokumentima",
+      "description": "Napredna obrada dokumenata uključuje moćne operacije na potpisanim dokumentima pomoću GroupDocs.Signature za Javu. Potpise koji su dodani poslovnim dokumentima možete pretraživati ​​i provjeravati pomoću različitih korisnih kriterija. Osim toga, možete pristupiti detaljnim informacijama o dokumentu ili dobiti pregled slika njegovih stranica."
+    },
+    "overview_feature_3": {
+      "title": "Raznolikost izbora izlaza",
+      "description": "Robusne opcije potpisivanja omogućuju vam da prilagodite izlaz za dokumente potpisane s GroupDocs.Signature for Java. Možete precizno postaviti bilo koji potpis na bilo koju stranicu dokumenta i konfigurirati njegov izgled na razne načine. Java API podržava spremanje potpisanih poslovnih dokumenata u brojnim podržanim formatima i pruža opcije za njihovu zaštitu lozinkama."
+    },
+    "features": {
+      "title": "Značajke GroupDocs.Signature",
+      "description": "Potpisivanje PDF-ova, Office dokumenata i slika digitalnim potpisima",
+      "feature_1": {
+        "title": "Dodavanje potpisa",
+        "content": "Potpišite dokument pomoću različitih podržanih vrsta potpisa postavljanjem digitalnog potpisa precizno na bilo koje mjesto na bilo kojoj stranici."
+      },
+      "feature_2": {
+        "title": "Prilagodba rezultata",
+        "content": "Prilagodite izgled potpisa podešavanjem boje, fonta, obruba, rotacije i drugih značajki kako biste postigli željeni rezultat."
+      },
+      "feature_3": {
+        "title": "Zaštita dokumenata lozinkom",
+        "content": "Za mnoge podržane vrste dokumenata možete zaštititi potpisani dokument lozinkom."
+      },
+      "feature_4": {
+        "title": "Sprječavanje neovlaštenih promjena",
+        "content": "Zaštitite važne poslovne dokumente potpisane digitalnim certifikatom od neovlaštenih izmjena."
+      },
+      "feature_5": {
+        "title": "Dobivanje rezultata u željenim formatima",
+        "content": "Jednostavno nabavite potpisane datoteke rezultata u bilo kojem podržanom formatu. Također možete pretvoriti MS Word dokumente u PDF bez napora."
+      },
+      "feature_6": {
+        "title": "Pregled dokumenta",
+        "content": "Spremite bilo koju stranicu dokumenta kao sliku za buduću obradu."
+      },
+      "feature_7": {
+        "title": "Traženje potpisa",
+        "content": "Moguće je dobiti podatke o prethodno dodanim potpisima u određenim dokumentima."
+      },
+      "feature_8": {
+        "title": "Potvrđivanje dokumenata",
+        "content": "Potvrdite ispravnost potpisa na svakom potpisanom dokumentu."
+      },
+      "feature_9": {
+        "title": "Upravljanje potpisima",
+        "content": "Nakon što se potpis postavi na stranicu dokumenta, može se po potrebi izbrisati, premjestiti ili ažurirati."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature za Javu podržava sljedeće operativne sustave, okvire i upravitelje paketa",
+    "formats_description": "GroupDocs.Signature za Javu podržava rad sa sljedećim [formatima datoteka](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Neki slučajevi upotrebe tipičnih GroupDocs.Signature za Java operacije",
+    "code_title_sample_1": "Poboljšajte PDF dokument QR kodom",
+    "code_samples_sample_1_content_1": "Poboljšanje poslovnih procesa dodavanjem [QR-kodova](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) na određene stranice PDF dokumenata može biti dragocjeno.",
+    "code_samples_sample_1_content_2": "Postoji primjer kako dodati QR kod pomoću GroupDocs.Signature za Javu.",
+    "code_title_sample_2": "Koristite digitalni potpis za zaštitu DOCX-a",
+    "code_samples_sample_2_content_1": "Možete [zaštititi dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomoću osobnih ili korporativnih potpisa pohranjenih kao digitalni certifikati.",
+    "code_samples_sample_2_content_2": "Dokumenti osigurani certifikatom ne mogu se mijenjati bez poništavanja potpisa."
   }
 }

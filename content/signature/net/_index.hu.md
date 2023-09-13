@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, felhő API-k és online dokumentum-aláíró alkalmazá
 head_description: "Szerezzen minden az egyben dokumentum-aláírási megoldást .NET, Java és felhőalapú alkalmazásokhoz. A gyakori dokumentumformátumok online aláírása egyszerű fogd és vidd funkcióval"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Írja alá a dokumentumokat<br>.NET API-n keresztül"
 description: "A programozóknak és végfelhasználóknak szánt rugalmas API-jaink és alkalmazásalapú megoldásaink segítségével bármilyen platformon aláírhat digitális dokumentumokat és képeket."
 words:
-  for: "{index-content.words_for}"
+  for: "számára"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Ingyenes NuGet letöltés"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Engedélyezés"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki a GroupDocs.Signature szolgáltatásait ingyenesen, vagy kérjen licencet"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "A(z) {0} verzió megjelent"
+  notes: "Tekintse meg az újdonságokat"
+  downloads: "Letöltések"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "PDF fájlok aláírása C#-ban"
+  more: "További példák"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Válassza ki a PDF dokumentumot
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Szöveg megadása
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Állítsa be a színt
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Írja alá a dokumentumot és mentse el a fájlba
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature áttekintése"
+  description: "API dokumentumok aláírására és kapcsolódó műveletek végrehajtására .NET alkalmazásokban"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Aláírások hozzáadása üzleti dokumentumokhoz C#-ban"
+      content: "Dokumentumok aláírása: A GroupDocs.Signature for .NET segítségével különféle típusú aláírásokat, például szöveget, képeket, vonalkódokat és digitális tanúsítványokat adhat hozzá PDF és Office dokumentumokhoz. Ez az API lehetővé teszi a dokumentumok aláírását szinte bármilyen adattípussal, beleértve a rejtett metaadatokat is."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Aláírt dokumentumok feldolgozása"
+      content: "További feldolgozás: Hatékony műveleteket hajthat végre aláírt dokumentumokon a GroupDocs.Signature segítségével. Ez magában foglalja a meglévő aláírások keresését az üzleti dokumentumokban, és azok ellenőrzését meghatározott kritériumok alapján. Ezenkívül ezen a .NET API-n keresztül lekérheti a dokumentuminformációkat és megtekintheti az oldalakat."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Az eredmények testreszabása"
+      content: "A GroupDocs.Signature for .NET kiterjedt testreszabási lehetőségeket kínál. Pontosan elhelyezheti az aláírásokat a dokumentumoldalon bárhol, és különféle beállításokkal módosíthatja megjelenésüket. Ezenkívül ez az API támogatja a feldolgozott dokumentumok mentését a támogatott formátumok széles körében."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Platformfüggetlenség"
+  description: "A GroupDocs.Signature for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Támogatott fájlformátumok"
   description: |
-    {index-content-net.formats_description}
+    A GroupDocs.Signature for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office formátumok
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Képek és egyéb formátumok
+        * **Hordozható:** PDF
+        * **Képek:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Egyéb irodai formátumok:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Egyéb formátumok
+        * **Web:** HTML, MHTML
+        * **Levéltár:** ZIP, TAR, 7Z
+        * **Tanúsítványok:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature funkciók"
+  description: "PDF-ek, Office-dokumentumok és képek gyors és pontos aláírása"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Dokumentum aláírása"
+      content: "Adjon hozzá egy vagy több támogatott aláírástípust pontosan az üzleti dokumentumok bármely meghatározott helyén."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Az aláírások testreszabása"
+      content: "Használjon olyan funkciókat, mint a szín, a betűtípus, a keret, az elforgatás stb., az aláírások megjelenésének konfigurálásához."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Dokumentum jelszavas védelme"
+      content: "Biztosítson bizonyos dokumentumtípusokat az aláírás utáni jelszó beállításával."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Védelem a változások ellen"
+      content: "Megakadályozza a fontos üzleti dokumentumok módosításait, miután egy aláírást csatolt egy digitális tanúsítvánnyal."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Az aláírt fájlok konvertálása más formátumba"
+      content: "Az aláírt fájlokat konvertálja a kívánt formátumba, például mentse el a Word-dokumentumot PDF-ként."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Oldal-előnézetek kibontása"
+      content: "Kivonja az oldalakat az aláírt dokumentumokból egyedi képként a későbbi feldolgozáshoz."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Aláírás keresés a dokumentumokban"
+      content: "Információk lekérése az adott dokumentumokban korábban hozzáadott aláírásokról."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Érvényesítse az aláírt dokumentumokat"
+      content: "Ellenőrizze a dokumentumok megfelelő aláírását az érvényesítési funkciók segítségével."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Az aláírások frissítése vagy törlése"
+      content: "Könnyen áthelyezheti az adott aláírásokat az oldalon, módosíthatja a szövegüket vagy törölheti őket probléma nélkül."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Kódminták"
+  description: "Néhány eset a tipikus GroupDocs.Signature használatához .NET műveletekhez"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "QR-kód hozzáadása a PDF-hez"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        A [QR-kódok](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) hozzáadása a PDF-dokumentumok egyes oldalaihoz javíthatja az üzleti folyamatokat. Az alábbiakban egy példa látható QR-kód hozzáadására a GroupDocs.Signature használatával.
+        {{< landing/code title="Hogyan helyezhet el QR-kódot PDF-be.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Töltse be az aláírandó dokumentumot
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Hozzon létre QR-kód opciókat előre meghatározott szöveggel
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Konfigurálja a QR-kód kódolási típusát és pozícióját az oldalon
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Írja alá a dokumentumot, és mentse el eredményfájlként
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX-dokumentum védelme digitális tanúsítvánnyal"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        A [Dokumentum védelmét](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) használhatja digitális tanúsítványként tárolt személyes vagy vállalati aláírásokkal. Az ilyen védett dokumentumok az aláírás érvénytelenítése nélkül nem módosíthatók.
+        {{< landing/code title="Így biztosíthatja a dokumentum integritását.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Töltse be a digitálisan aláírandó dokumentumot
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Adja meg a digitális aláírás beállításait, és adja meg a tanúsítványfájl elérési útját
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Állítsa be a tanúsítvány jelszavát
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Írja alá a dokumentumot, és mentse el a kívánt útvonalra
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

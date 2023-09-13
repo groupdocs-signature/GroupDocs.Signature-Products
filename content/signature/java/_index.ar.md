@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: "NET و Java و Cloud APIs وتطبيقات توقيع المستن�
 head_description: "احصل على حل التوقيع الإلكتروني الشامل للمستند للتطبيقات المستندة إلى .NET و Java والتطبيقات المستندة إلى السحابة. قم بتوقيع تنسيقات المستندات الشائعة عبر الإنترنت باستخدام ميزة السحب والإفلات البسيطة"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "التوقيع على وثائق<br>عبر جافا API"
 description: "قم بتوقيع المستندات والصور الرقمية على أي نظام أساسي باستخدام واجهات برمجة التطبيقات المرنة والحلول القائمة على التطبيقات للمبرمجين والمستخدمين النهائيين."
 words:
-  for: "{index-content.words_for}"
+  for: "ل"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "تحميل مافن مجانا"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "الترخيص"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "على استعداد للبدء؟"
+  description: "جرب ميزات GroupDocs.Signature مجانًا أو اطلب ترخيصًا"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "تم إصدار الإصدار {0}."
+  notes: "ترى ما هو الجديد"
+  downloads: "التحميلات"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "تسجيل ملفات PDF في جافا"
+  more: "مزيد من الأمثلة"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // حدد مستند PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // تقديم النص
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // قم بتوقيع الوثيقة وحفظها في ملف
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.نظرة عامة على التوقيع"
+  description: "واجهة برمجة التطبيقات (API) لتنفيذ توقيع المستندات والعمليات ذات الصلة في تطبيقات Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "تحسين مستندات الأعمال باستخدام التوقيعات الرقمية في Java"
+      content: "التوقيع السريع والقابل للتخصيص: يقدم GroupDocs.Signature for Java مجموعة واسعة من خيارات التوقيع الرقمي لملفات PDF والصور ومستندات Office. يمكنك استخدام النصوص أو الرموز الشريطية أو رموز QR أو الشهادات الرقمية أو الصور أو البيانات الوصفية المخفية. معالجة المستندات سريعة وفعالة."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "التلاعب بالوثائق الموقعة"
+      content: "تتضمن المعالجة المتقدمة للمستندات عمليات قوية على المستندات الموقعة باستخدام GroupDocs.Signature لـ Java. يمكنك البحث عن التوقيعات التي تمت إضافتها إلى مستندات الأعمال والتحقق من صحتها باستخدام معايير مفيدة متعددة. بالإضافة إلى ذلك، يمكنك الوصول إلى معلومات تفصيلية حول المستند أو الحصول على صور معاينة لصفحاته."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "مجموعة متنوعة من خيارات الإخراج"
+      content: "تتيح لك خيارات التوقيع القوية تخصيص مخرجات المستندات الموقعة باستخدام GroupDocs.Signature for Java. يمكنك وضع أي توقيع بدقة على أي صفحة مستند وتكوين مظهره بطرق مختلفة. تدعم Java API حفظ مستندات الأعمال الموقعة في العديد من التنسيقات المدعومة وتوفر خيارات لتأمينها بكلمات مرور."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "استقلالية المنصة"
+  description: "يدعم GroupDocs.Signature for Java أنظمة التشغيل وأطر العمل ومديري الحزم التالية"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "تنسيقات الملفات المدعومة"
   description: |
-    {index-content-java.formats_description}
+    يدعم GroupDocs.Signature for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### تنسيقات مايكروسوفت أوفيس
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### الصور والتنسيقات الأخرى
+        * **محمول:** PDF
+        * **الصور:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **أشكال مكتبية أخرى:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### تنسيقات أخرى
+        * **ويب:** HTML, MHTML
+        * **أرشيف:** ZIP, TAR, 7Z
+        * **الشهادات:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "ميزات GroupDocs.Signature"
+  description: "توقيع ملفات PDF ومستندات Office والصور بالتوقيعات الرقمية"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "إضافة التوقيعات"
+      content: "قم بتوقيع مستند باستخدام أنواع التوقيع المدعومة المختلفة عن طريق وضع التوقيع الرقمي بدقة في أي موضع على أي صفحة."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "تخصيص النتائج"
+      content: "قم بتخصيص مظهر التوقيع عن طريق ضبط اللون والخط والحدود والتدوير والميزات الأخرى لتحقيق النتيجة المرجوة."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "تأمين المستندات بكلمة مرور"
+      content: "بالنسبة للعديد من أنواع المستندات المدعومة، يمكنك حماية المستند الموقع بكلمة مرور."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "منع التغييرات غير المصرح بها"
+      content: "حماية مستندات العمل المهمة الموقعة بشهادة رقمية من التعديلات غير المصرح بها."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "الحصول على النتائج بالصيغ المطلوبة"
+      content: "يمكنك بسهولة الحصول على ملفات النتائج الموقعة بأي تنسيق مدعوم. يمكنك أيضًا تحويل مستندات MS Word إلى PDF بسهولة."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "معاينة الوثيقة"
+      content: "احفظ أي صفحة من المستند كصورة للمعالجة المستقبلية."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "البحث عن التوقيعات"
+      content: "من الممكن الحصول على معلومات حول التوقيعات المضافة مسبقًا في مستندات محددة."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "التحقق من صحة الوثائق"
+      content: "التحقق من صحة التوقيعات على أي وثيقة موقعة."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "إدارة التوقيعات"
+      content: "بمجرد وضع التوقيع على صفحة المستند، يمكن حذفه أو نقله أو تحديثه حسب الحاجة."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "عينات التعليمات البرمجية"
+  description: "تستخدم بعض حالات GroupDocs.Signature النموذجية لعمليات Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Enchance وثيقة PDF مع رمز الاستجابة السريعة"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        يمكن أن يكون تحسين العمليات التجارية عن طريق إضافة [رموز QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) إلى صفحات محددة من مستندات PDF أمرًا ذا قيمة. يوجد مثال لكيفية إضافة رمز QR باستخدام GroupDocs.Signature لـ Java.
+        {{< landing/code title="Enchance وثيقة PDF مع رمز الاستجابة السريعة">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // قم بتحميل المستند للتوقيع
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // قم بإنشاء خيارات رمز الاستجابة السريعة بنص محدد مسبقًا
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // قم بتكوين نوع ترميز رمز الاستجابة السريعة وموضعه على الصفحة
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // قم بتوقيع المستند واحفظه كملف النتيجة
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "استخدم التوقيع الرقمي لحماية DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        يمكنك [حماية مستند](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) باستخدام التوقيعات الشخصية أو توقيعات الشركة المخزنة كشهادات رقمية. لا يمكن تغيير المستندات المؤمنة بالشهادة دون إبطال التوقيع.
+        {{< landing/code title="استخدم التوقيع الرقمي لحماية DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // قم بتحميل المستند ليتم توقيعه رقميًا
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // حدد خيارات التوقيع الرقمي وقم بتوفير المسار إلى ملف الشهادة
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // قم بتعيين كلمة مرور الشهادة
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // قم بتوقيع المستند وحفظه في المسار المطلوب
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

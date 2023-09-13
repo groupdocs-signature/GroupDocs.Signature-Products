@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: "NET፣ Java፣ Cloud APIs እና የመስመር ላይ ሰነድ �
 head_description: "ለ NET ፣ Java እና ደመና-ተኮር መተግበሪያዎች ሁሉንም-በአንድ ሰነድ ኢ-ፊርማ መፍትሄ ያግኙ። ቀላል የመጎተት እና የመጣል ባህሪን በመጠቀም የተለመዱ የሰነድ ቅርጸቶችን በመስመር ላይ ይፈርሙ"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "ሰነዶችን ይፈርሙ<br>በጃቫ ኤፒአይ"
 description: "የእኛን ተለዋዋጭ APIs እና መተግበሪያን ለፕሮግራመሮች እና ለዋና ተጠቃሚዎች በመጠቀም ዲጂታል ሰነዶችን እና ምስሎችን በማንኛውም መድረክ ላይ ይፈርሙ።"
 words:
-  for: "{index-content.words_for}"
+  for: "ለ"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "ነጻ Maven ማውረድ"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "ፍቃድ መስጠት"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "ለመጀመር ዝግጁ ነዎት?"
+  description: "የቡድንDocs.የፊርማ ባህሪያትን በነጻ ይሞክሩ ወይም ፍቃድ ይጠይቁ"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "ስሪት {0} ተለቋል"
+  notes: "ምን አዲስ ነገር እንዳለ ይመልከቱ"
+  downloads: "ውርዶች"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "ፒዲኤፍ ፋይሎችን በጃቫ ይፈርሙ"
+  more: "ተጨማሪ ምሳሌዎች"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // ፒዲኤፍ ሰነድ ይምረጡ
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // ጽሑፍ ያቅርቡ
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // ሰነድ ይፈርሙ እና ወደ ፋይል ያስቀምጡ
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "የቡድን ሰነዶች.የፊርማ አጠቃላይ እይታ"
+  description: "በጃቫ አፕሊኬሽኖች ውስጥ የሰነድ ፊርማ እና ተዛማጅ ስራዎችን ለመስራት API"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "በጃቫ ውስጥ በዲጂታል ፊርማዎች የተሻሻሉ የንግድ ሰነዶች"
+      content: "ፈጣን እና ሊበጅ የሚችል ፊርማ፡ GroupDocs.ፊርማ ለጃቫ ለፒዲኤፍ፣ ምስሎች እና የቢሮ ሰነዶች ሰፊ የዲጂታል ፊርማ አማራጮችን ይሰጣል። ጽሑፍ፣ ባርኮዶች፣ QR-codes፣ ዲጂታል ሰርተፊኬቶች፣ ስዕሎች ወይም የተደበቀ ሜታዳታ መጠቀም ይችላሉ። የሰነዱ ሂደት ፈጣን እና ቀልጣፋ ነው።"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "የተፈረሙ ሰነዶችን ማቀናበር"
+      content: "የላቀ ሰነድ ማቀናበር በGroupDocs በመጠቀም በተፈረሙ ሰነዶች ላይ ኃይለኛ ስራዎችን ያካትታል።ለጃቫ ፊርማ። የተለያዩ ጠቃሚ መስፈርቶችን በመጠቀም ወደ የንግድ ሰነዶች የተጨመሩ ፊርማዎችን መፈለግ እና ማረጋገጥ ይችላሉ። በተጨማሪም፣ ስለ ሰነዱ ዝርዝር መረጃ ማግኘት ወይም የገጾቹን ቅድመ እይታ ምስሎች ማግኘት ይችላሉ።"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "የተለያዩ የውጤት ምርጫዎች"
+      content: "ጠንካራ የመፈረሚያ አማራጮች በGroupDocs የተፈረሙ ሰነዶችን ውፅዓት እንዲያበጁ ያስችሉዎታል።ለጃቫ ፊርማ። በማንኛውም የሰነድ ገጽ ላይ ማንኛውንም ፊርማ በትክክል ማስቀመጥ እና መልክውን በተለያዩ መንገዶች ማዋቀር ይችላሉ. የጃቫ ኤፒአይ የተፈረሙ የንግድ ሰነዶችን በብዙ የሚደገፉ ቅርጸቶች ማስቀመጥን ይደግፋል እና በይለፍ ቃል ለመጠበቅ አማራጮችን ይሰጣል።"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "የመድረክ ነፃነት"
+  description: "የቡድን ሰነዶች. ለጃቫ ፊርማ የሚከተሉትን ኦፕሬቲንግ ሲስተሞች፣ ማዕቀፎችን እና የጥቅል አስተዳዳሪዎችን ይደግፋል"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "የሚደገፉ የፋይል ቅርጸቶች"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signture for Java በሚከተሉት [የፋይል ቅርጸቶች](https://docs.groupdocs.com/signature/java/supported-document-formats/) ስራዎችን ይደግፋል።
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### የማይክሮሶፍት ኦፊስ ቅርጸቶች
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### ምስሎች እና ሌሎች ቅርጸቶች
+        * **ተንቀሳቃሽ:** PDF
+        * **ምስሎች:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **ሌሎች የቢሮ ቅርጸቶች:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### ሌሎች ቅርጸቶች
+        * **ድር:** HTML, MHTML
+        * **ማህደሮች:** ZIP, TAR, 7Z
+        * **የምስክር ወረቀቶች:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "የቡድን ሰነዶች.የፊርማ ባህሪያት"
+  description: "ፒዲኤፎችን፣ የቢሮ ሰነዶችን እና ምስሎችን በዲጂታል ፊርማዎች መፈረም"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "ፊርማዎችን በማከል ላይ"
+      content: "ዲጂታል ፊርማ በማንኛውም ገጽ ላይ በትክክል በማስቀመጥ የተለያዩ የሚደገፉ የፊርማ ዓይነቶችን በመጠቀም ሰነድ ይፈርሙ።"
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "ውጤቶችን ማበጀት።"
+      content: "የሚፈለገውን ውጤት ለማግኘት ቀለም፣ ቅርጸ-ቁምፊ፣ ድንበር፣ መዞር እና ሌሎች ባህሪያትን በማስተካከል የፊርማውን ገጽታ አብጅ።"
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "ሰነዶችን በይለፍ ቃል በማስጠበቅ ላይ"
+      content: "ለብዙ የሚደገፉ የሰነድ ዓይነቶች፣ የተፈረመውን ሰነድ በይለፍ ቃል መጠበቅ ይችላሉ።"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "ያልተፈቀዱ ለውጦችን መከላከል"
+      content: "በዲጂታል ሰርተፍኬት የተፈረሙ አስፈላጊ የንግድ ሰነዶችን ካልተፈቀዱ ማሻሻያዎች ይጠብቁ።"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "በተፈለገው ቅርጸቶች ውጤቶች ማግኘት"
+      content: "በማንኛውም የሚደገፍ ቅርጸት በቀላሉ የተፈረሙ የውጤት ፋይሎችን ያግኙ። እንዲሁም የ MS Word ሰነዶችን ያለምንም ጥረት ወደ ፒዲኤፍ መለወጥ ይችላሉ።"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "የሰነድ ቅድመ እይታ"
+      content: "ለወደፊቱ ሂደት ማንኛውንም የሰነድ ገጽ እንደ ምስል ያስቀምጡ።"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "ፊርማዎችን በመፈለግ ላይ"
+      content: "በተወሰኑ ሰነዶች ውስጥ ቀደም ሲል ስለተጨመሩ ፊርማዎች መረጃ ማግኘት ይቻላል."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "ሰነዶችን በማረጋገጥ ላይ"
+      content: "በማንኛውም የተፈረመ ሰነድ ላይ የፊርማዎችን ትክክለኛነት ያረጋግጡ።"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "ፊርማዎችን ማስተዳደር"
+      content: "አንድ ጊዜ ፊርማ በሰነድ ገጽ ላይ ከተቀመጠ በኋላ እንደ አስፈላጊነቱ ሊሰረዝ፣ ሊንቀሳቀስ ወይም ሊዘመን ይችላል።"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "የኮድ ናሙናዎች"
+  description: "አንዳንዶች የተለመዱ የቡድን ሰነዶችን ይጠቀማሉ።ፊርማ ለጃቫ ኦፕሬሽኖች"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "ፒዲኤፍ ሰነድን በQR-code ያሳድጉ"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        ወደ ተወሰኑ የፒዲኤፍ ሰነዶች ገጾች [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) በማከል የንግድ ሂደቶችን ማሻሻል ጠቃሚ ሊሆን ይችላል። የቡድን ሰነዶችን በመጠቀም የQR ኮድ እንዴት ማከል እንደሚቻል የሚያሳይ ምሳሌ አለ።ለጃቫ ፊርማ።
+        {{< landing/code title="ፒዲኤፍ ሰነድን በQR-code ያሳድጉ">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // ለመፈረም ሰነዱን ይጫኑ
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // አስቀድሞ ከተገለጸ ጽሑፍ ጋር የQR ኮድ አማራጮችን ይፍጠሩ
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // በገጹ ላይ ያለውን የQR ኮድ ኮድ አይነት እና አቀማመጥ ያዋቅሩ
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // ሰነዱን ይፈርሙ እና እንደ የውጤት ፋይል ያስቀምጡት
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "DOCXን ለመጠበቅ ዲጂታል ፊርማ ይጠቀሙ"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        እንደ ዲጂታል ሰርተፍኬት የተቀመጡ የግል ወይም የድርጅት ፊርማዎችን በመጠቀም [ሰነዱን ይጠብቁ](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ይችላሉ። በሰርቲፊኬት የተያዙ ሰነዶች ፊርማውን ሳያጠፉ ሊለወጡ አይችሉም።
+        {{< landing/code title="DOCXን ለመጠበቅ ዲጂታል ፊርማ ይጠቀሙ">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // ሰነዱን በዲጂታል ፊርማ ይጫኑ
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // የዲጂታል ፊርማ አማራጮችን ይግለጹ እና ወደ የምስክር ወረቀት ፋይል የሚወስደውን መንገድ ያቅርቡ
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // የምስክር ወረቀቱን የይለፍ ቃል ያዘጋጁ
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // ሰነዱን ይፈርሙ እና ወደሚፈልጉት መንገድ ያስቀምጡት
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

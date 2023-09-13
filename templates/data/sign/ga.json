@@ -245,12 +245,186 @@
     "api_nocodelabel": "Féach ar All No Code Apps",
     "api_nocode_1_content": "Sínigh comhaid Microsoft Word, Excel, PowerPoint, Visio & PDF le téacs, íomhá, Barcode nó QR-Cod.",
     "api_nocode_2_content": "Sínigh doiciméid Word go digiteach ar líne go díreach ó do bhrabhsálaí saor in aisce.",
-    "api_nocode_3_content": "Ríomhchomhaid PDF ag baint úsáide as téacs, íomhá nó barrachóid laistigh d'aon bhrabhsálaí gréasáin."
+    "api_nocode_3_content": "Ríomhchomhaid PDF ag baint úsáide as téacs, íomhá nó barrachóid laistigh d'aon bhrabhsálaí gréasáin.",
+    "title_1": "Doiciméid a shíniú",
+    "words_for": "le haghaidh",
+    "actions_alt": "Ceadúnú",
+    "actions_title": "Réidh le tosú?",
+    "actions_description": "Bain triail as gnéithe GroupDocs.Signature saor in aisce nó iarr ceadúnas",
+    "release_title": "Leagan {0} eisithe",
+    "release_notes": "Féach cad atá nua",
+    "release_downloads": "Íoslódálacha",
+    "code_more": "Tuilleadh samplaí",
+    "code_comment_1": "Roghnaigh doiciméad PDF",
+    "code_comment_2": "Cuir téacs ar fáil",
+    "code_comment_3": "Socraigh dath",
+    "code_comment_4": "Sínigh an doiciméad agus sábháil i gcomhad",
+    "overview_title": "Forbhreathnú GroupDocs.Signature",
+    "platforms_title": "Neamhspleáchas ardán",
+    "formats_title": "Formáidí comhaid tacaithe",
+    "formats_groups": {
+      "title_1": "Formáidí microsoft office",
+      "title_2": "Íomhánna & Formáidí Eile",
+      "title_3": "Formáidí eile",
+      "format_portable": "Inaistrithe",
+      "format_other_office": "Formáidí oifige eile",
+      "format_images": "Íomhánna",
+      "format_web": "Gréasán",
+      "format_archives": "Cartlanna",
+      "format_certificates": "Deimhnithe"
+    },
+    "code_samples": {
+      "title": "Cóid samplaí",
+      "sample_1": {
+        "code_title": "Conas a cuir an cód QR i bhformáid pdf.",
+        "comment_1": "Íoslódáil an doiciméad le síniú",
+        "comment_2": "Cruthaigh roghanna cód QR le téacs réamhshainithe",
+        "comment_3": "Cumraigh cineál ionchódaithe cód QR agus suíomh ar an leathanach",
+        "comment_4": "Sínigh an doiciméad agus sábháil é mar chomhad toraidh"
+      },
+      "sample_2": {
+        "code_title": "Seo conas sláine doiciméad a chinntiú.",
+        "comment_1": "Íoslódáil an doiciméad le síniú digiteach",
+        "comment_2": "Sonraigh roghanna sínithe digiteacha agus cuir an cosán chuig an gcomhad teastais ar fáil",
+        "comment_3": "Socraigh focal faire an teastais",
+        "comment_4": "Sínigh an doiciméad agus é a shábháil ar an cosán atá ag teastáil"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Dúchasach .NET API do Shínithe Leictreonach"
+    "title": "Dúchasach .NET API do Shínithe Leictreonach",
+    "title_2": "via .NET API",
+    "actions_main": "Íoslódáil saor in aisce Nuga",
+    "code_title": "Sínigh comhaid PDF i C #",
+    "overview_description": "API chun doiciméid a shíniú agus oibríochtaí gaolmhara a dhéanamh in feidhmchláir .NET",
+    "overview_feature_1": {
+      "title": "Sínithe á gcur le doiciméid ghnó in C#",
+      "description": "Síniú doiciméad: Le GroupDocs.Signature do .NET, is féidir leat cineálacha éagsúla sínithe, mar shampla téacs, íomhánna, barrachóid, agus deimhnithe digiteacha, a chur le doiciméid PDF agus Oifige. Ligeann an API seo duit do dhoiciméid a shíniú le beagnach aon chineál sonraí, meiteashonraí folaithe san áireamh."
+    },
+    "overview_feature_2": {
+      "title": "Doiciméid sínithe a phróiseáil",
+      "description": "Próiseáil bhreise: Is féidir leat oibríochtaí cumhachtacha a dhéanamh ar dhoiciméid sínithe ag baint úsáide as GroupDocs.Signature. Áiríonn sé seo cuardach do shínithe atá ann cheana féin laistigh de dhoiciméid ghnó agus iad a fhíorú ag baint úsáide as critéir shonracha. Ina theannta sin, is féidir leat faisnéis doiciméad agus leathanaigh réamhamharc a aisghabháil tríd an API .NET seo."
+    },
+    "overview_feature_3": {
+      "title": "Torthaí a shaincheapadh",
+      "description": "Cuireann GroupDocs.Signature le haghaidh .NET roghanna saincheaptha fairsinge ar fáil. Is féidir leat sínithe a shuíomh go beacht áit ar bith ar leathanach doiciméid agus a gcuma a choigeartú ag baint úsáide as socruithe éagsúla. Ina theannta sin, tacaíonn an API seo le doiciméid phróiseáilte a shábháil i raon leathan formáidí tacaithe."
+    },
+    "features": {
+      "title": "Gnéithe GroupDocs.Signature",
+      "description": "PDFs, Doiciméid Oifige, agus Íomhánna a shíniú go tapa agus go cruinn",
+      "feature_1": {
+        "title": "Síniú doiciméad",
+        "content": "Cuir síniú tacaithe amháin nó iolrach leis go cruinn ag aon suíomh sonraithe ar dhoiciméid ghnó."
+      },
+      "feature_2": {
+        "title": "Saincheap sínithe",
+        "content": "Bain úsáid as gnéithe cosúil le dath, cló, teorainn, rothlú, etc., chun cuma sínithe a chumrú."
+      },
+      "feature_3": {
+        "title": "Cosaint do phasfhocal doiciméad",
+        "content": "Déan cineálacha áirithe doiciméad a dhaingniú trí phasfhocal a shocrú tar éis duit a shíniú."
+      },
+      "feature_4": {
+        "title": "Cosaint ar athruithe",
+        "content": "Cosc a chur ar athruithe ar dhoiciméid ghnó tábhachtacha tar éis síniú a chur i gceangal le deimhniú digiteach."
+      },
+      "feature_5": {
+        "title": "Tiontaigh comhaid sínithe go formáidí eile",
+        "content": "Tiontaigh comhaid sínithe go formáidí inmhianaithe, mar shampla doiciméad Word a shábháil mar PDF."
+      },
+      "feature_6": {
+        "title": "Sliocht réamhamhairc leathanach",
+        "content": "Sliocht leathanaigh ó dhoiciméid sínithe mar íomhánna aonair le haghaidh próiseála amach anseo."
+      },
+      "feature_7": {
+        "title": "Cuardach sínithe i ndoiciméid",
+        "content": "Aisghabh faisnéis faoi shínithe a cuireadh leis roimhe seo i ndoiciméid ar leith."
+      },
+      "feature_8": {
+        "title": "Doiciméid shínithe a bhailíochtú",
+        "content": "Fíoraigh síniú ceart doiciméad ag baint úsáide as gnéithe bailíochtaithe."
+      },
+      "feature_9": {
+        "title": "Nuashonraigh nó scrios sínithe",
+        "content": "Déan sínithe sonracha a athshuíomh go héasca ar leathanach, a dtéacs a mhodhnú, nó iad a scriosadh gan aon fhadhbanna."
+      }
+    },
+    "platforms_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas",
+    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Úsáideann roinnt cásanna de ghnáth GroupDocs.Signature le haghaidh oibríochtaí .NET",
+    "code_title_sample_1": "Cuir QR-cód le PDF",
+    "code_samples_sample_1_content_1": "Má chuirtear [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) le leathanaigh ar leith de dhoiciméid PDF, féadtar próisis ghnó a fheabhsú.",
+    "code_samples_sample_1_content_2": "Seo thíos sampla de conas cód QR a chur leis ag baint úsáide as GroupDocs.Signature.",
+    "code_title_sample_2": "Doiciméad DOCX a chosaint ag baint úsáide as deimhniú digiteach",
+    "code_samples_sample_2_content_1": "Is féidir leat [Doiciméad a chosaint](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha.",
+    "code_samples_sample_2_content_2": "Ní féidir doiciméid chosanta den sórt sin a mhodhnú gan an síniú a chur ó bhail."
   },
   "index-content-java": {
-    "title": "Java API chun Sínithe Digiteacha a Bhainistiú"
+    "title": "Java API chun Sínithe Digiteacha a Bhainistiú",
+    "title_2": "trí Java API",
+    "actions_main": "Maven saor in aisce, íoslódáil",
+    "code_title": "Sínigh comhaid pdf i java",
+    "overview_description": "API chun síniú doiciméad agus oibríochtaí gaolmhara a dhéanamh i bhfeidhmchláir Java",
+    "overview_feature_1": {
+      "title": "Doiciméid ghnó feabhsaithe le sínithe digiteacha i Java",
+      "description": "Síniú tapa agus inoiriúnaithe: Tairgeann GroupDocs.Signature do Java raon leathan roghanna sínithe digiteacha do PDFs, íomhánna agus doiciméid Oifige. Is féidir leat téacs, barrachóid, QR-cóid, teastais dhigiteacha, pictiúir, nó meiteashonraí ceilte a úsáid. Tá próiseáil doiciméad tapa agus éifeachtach."
+    },
+    "overview_feature_2": {
+      "title": "Ag ionramháil doiciméad sínithe",
+      "description": "Is éard atá i gceist le hardphróiseáil doiciméad ná oibríochtaí cumhachtacha ar dhoiciméid sínithe ag baint úsáide as GroupDocs.Signature do Java. Is féidir leat sínithe a cuireadh le doiciméid ghnó a chuardach agus a bhailíochtú ag baint úsáide as critéir úsáideacha éagsúla. Ina theannta sin, is féidir leat rochtain a fháil ar fhaisnéis mhionsonraithe faoin doiciméad nó íomhánna réamhamhairc dá leathanaigh a fháil."
+    },
+    "overview_feature_3": {
+      "title": "Éagsúlacht roghanna aschuir",
+      "description": "Ligeann roghanna sínithe láidre duit an t-aschur a shaincheapadh do dhoiciméid sínithe le GroupDocs.Signature do Java. Is féidir leat aon síniú a shuíomh go beacht ar aon leathanach doiciméid agus a chuma a chumrú ar bhealaí éagsúla. Tacaíonn an Java API le doiciméid ghnó sínithe a shábháil i bhformáidí iomadúla tacaithe agus cuireann sé roghanna ar fáil chun iad a dhaingniú le pasfhocail."
+    },
+    "features": {
+      "title": "Gnéithe GroupDocs.Signature",
+      "description": "PDFs, Doiciméid Oifige, agus íomhánna le sínithe digiteacha a shíniú",
+      "feature_1": {
+        "title": "Ag Cur Sínithe",
+        "content": "Sínigh doiciméad ag baint úsáide as cineálacha éagsúla sínithe tacaithe trí shíniú digiteach a chur go beacht in aon áit ar aon leathanach."
+      },
+      "feature_2": {
+        "title": "Torthaí a shaincheapadh",
+        "content": "Saincheap an chuma sínithe trí dath, cló, teorainn, rothlú agus gnéithe eile a choigeartú chun an toradh inmhianaithe a bhaint amach."
+      },
+      "feature_3": {
+        "title": "Doiciméid a dhaingniú le pasfhocal",
+        "content": "I gcás go leor cineálacha doiciméad tacaithe, is féidir leat an doiciméad sínithe a chosaint le pasfhocal."
+      },
+      "feature_4": {
+        "title": "Cosc ar athruithe neamhúdaraithe",
+        "content": "Cosain doiciméid thábhachtacha gnó sínithe le deimhniú digiteach ó mhodhnuithe neamhúdaraithe."
+      },
+      "feature_5": {
+        "title": "Torthaí a fháil sna formáidí inmhianaithe",
+        "content": "Faigh comhaid toraidh sínithe go héasca i bhformáid ar bith a dtacaítear léi. Is féidir leat doiciméid MS Word a thiontú go PDF freisin gan stró."
+      },
+      "feature_6": {
+        "title": "Réamhamharc doiciméad",
+        "content": "Sábháil aon leathanach de dhoiciméad mar íomhá le próiseáil amach anseo."
+      },
+      "feature_7": {
+        "title": "Ag cuardach sínithe",
+        "content": "Is féidir faisnéis a fháil faoi shínithe a cuireadh leis roimhe seo i ndoiciméid ar leith."
+      },
+      "feature_8": {
+        "title": "Doiciméid a bhailíochtú",
+        "content": "Bailíochtaigh cruinneas na sínithe ar aon doiciméad sínithe."
+      },
+      "feature_9": {
+        "title": "Sínithe a bhainistiú",
+        "content": "Nuair a chuirtear síniú ar leathanach doiciméid, is féidir é a scriosadh, a bhogadh nó a nuashonrú de réir mar is gá."
+      }
+    },
+    "platforms_description": "Tacaíonn GroupDocs.Signature do Java leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas",
+    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Úsáideann roinnt cásanna de ghnáth GroupDocs.Signature le haghaidh oibríochtaí Java",
+    "code_title_sample_1": "Enchance doiciméad PDF le QR-cód",
+    "code_samples_sample_1_content_1": "D’fhéadfadh sé a bheith luachmhar próisis ghnó a fheabhsú trí [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a chur le leathanaigh ar leith de dhoiciméid PDF.",
+    "code_samples_sample_1_content_2": "Tá sampla de conas cód QR a chur leis ag baint úsáide as GroupDocs.Signature do Java.",
+    "code_title_sample_2": "Úsáid síniú digiteach chun DOCX a chosaint",
+    "code_samples_sample_2_content_1": "Is féidir leat [Doiciméad a Chosaint](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha.",
+    "code_samples_sample_2_content_2": "Ní féidir doiciméid atá daingnithe le teastas a athrú gan an síniú a chur ó bhail."
   }
 }

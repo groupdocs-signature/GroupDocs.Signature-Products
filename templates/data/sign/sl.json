@@ -245,12 +245,186 @@
     "api_nocodelabel": "Oglejte si vse aplikacije brez kode",
     "api_nocode_1_content": "Datoteke Microsoft Word, Excel, PowerPoint, Visio in PDF podpišite z besedilom, sliko, črtno kodo ali kodo QR.",
     "api_nocode_2_content": "Brezplačno digitalno podpišite Wordove dokumente neposredno iz brskalnika.",
-    "api_nocode_3_content": "e-Podpišite datoteke PDF z uporabo besedila, slike ali črtne kode v katerem koli spletnem brskalniku."
+    "api_nocode_3_content": "e-Podpišite datoteke PDF z uporabo besedila, slike ali črtne kode v katerem koli spletnem brskalniku.",
+    "title_1": "Podpišite dokumente",
+    "words_for": "za",
+    "actions_alt": "Licenciranje",
+    "actions_title": "Ste pripravljeni začeti?",
+    "actions_description": "Preizkusite funkcije GroupDocs.Signature brezplačno ali zahtevajte licenco",
+    "release_title": "Izdana različica {0}",
+    "release_notes": "Oglejte si, kaj je novega",
+    "release_downloads": "Prenosi",
+    "code_more": "Več primerov",
+    "code_comment_1": "Izberite dokument PDF",
+    "code_comment_2": "Navedite besedilo",
+    "code_comment_3": "Nastavite barvo",
+    "code_comment_4": "Podpišite dokument in ga shranite v datoteko",
+    "overview_title": "GroupDocs.Signature Pregled",
+    "platforms_title": "Neodvisnost platforme",
+    "formats_title": "Podprti formati datotek",
+    "formats_groups": {
+      "title_1": "Microsoft Office formati",
+      "title_2": "Slike in drugi formati",
+      "title_3": "Drugi formati",
+      "format_portable": "Prenosni",
+      "format_other_office": "Drugi pisarniški formati",
+      "format_images": "Slike",
+      "format_web": "Splet",
+      "format_archives": "Arhivi",
+      "format_certificates": "Certifikati"
+    },
+    "code_samples": {
+      "title": "Vzorci kod",
+      "sample_1": {
+        "code_title": "Kako vstaviti QR kodo v PDF.",
+        "comment_1": "Naložite dokument za podpis",
+        "comment_2": "Ustvarite možnosti kode QR z vnaprej določenim besedilom",
+        "comment_3": "Konfigurirajte vrsto in položaj kodiranja kode QR na strani",
+        "comment_4": "Podpišite dokument in ga shranite kot datoteko z rezultati"
+      },
+      "sample_2": {
+        "code_title": "Tukaj je opisano, kako zagotoviti celovitost dokumenta.",
+        "comment_1": "Naložite dokument, ki ga želite digitalno podpisati",
+        "comment_2": "Določite možnosti digitalnega podpisovanja in navedite pot do datoteke potrdila",
+        "comment_3": "Nastavite geslo za potrdilo",
+        "comment_4": "Podpišite dokument in ga shranite na želeno pot"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API za elektronske podpise"
+    "title": "Native .NET API za elektronske podpise",
+    "title_2": "preko .NET API",
+    "actions_main": "Brezplačen prenos NuGet",
+    "code_title": "Podpišite datoteke PDF v C#",
+    "overview_description": "API za izvajanje podpisovanja dokumentov in povezanih operacij v aplikacijah .NET",
+    "overview_feature_1": {
+      "title": "Dodajanje podpisov poslovnim dokumentom v C#",
+      "description": "Podpisovanje dokumentov: Z GroupDocs.Signature za .NET lahko dokumentom PDF in Office dodate različne vrste podpisov, kot so besedilo, slike, črtne kode in digitalna potrdila. Ta API vam omogoča podpisovanje dokumentov s skoraj vsemi vrstami podatkov, vključno s skritimi metapodatki."
+    },
+    "overview_feature_2": {
+      "title": "Obdelava podpisanih dokumentov",
+      "description": "Dodatna obdelava: z GroupDocs.Signature lahko izvajate zmogljive operacije na podpisanih dokumentih. To vključuje iskanje obstoječih podpisov v poslovnih dokumentih in njihovo preverjanje z uporabo posebnih kriterijev. Poleg tega lahko prek tega API-ja .NET pridobite informacije o dokumentu in predogledate strani."
+    },
+    "overview_feature_3": {
+      "title": "Prilagajanje rezultatov",
+      "description": "GroupDocs.Signature za .NET ponuja obsežne možnosti prilagajanja. Podpise lahko natančno postavite kamor koli na strani dokumenta in prilagodite njihov videz z različnimi nastavitvami. Poleg tega ta API podpira shranjevanje obdelanih dokumentov v številnih podprtih formatih."
+    },
+    "features": {
+      "title": "Funkcije GroupDocs.Signature",
+      "description": "Hitro in natančno podpisovanje PDF-jev, pisarniških dokumentov in slik",
+      "feature_1": {
+        "title": "Podpisovanje dokumentov",
+        "content": "Natančno dodajte eno ali več podprtih vrst podpisov na katerem koli določenem mestu v poslovnih dokumentih."
+      },
+      "feature_2": {
+        "title": "Prilagodite podpise",
+        "content": "Uporabite funkcije, kot so barva, pisava, obroba, vrtenje itd., da konfigurirate videz podpisov."
+      },
+      "feature_3": {
+        "title": "Zaščita dokumenta z geslom",
+        "content": "Zavarujte določene vrste dokumentov z nastavitvijo gesla po podpisu."
+      },
+      "feature_4": {
+        "title": "Zaščita pred spremembami",
+        "content": "Preprečite spremembe pomembnih poslovnih dokumentov po podpisu z digitalnim potrdilom."
+      },
+      "feature_5": {
+        "title": "Pretvorite podpisane datoteke v druge formate",
+        "content": "Pretvorite podpisane datoteke v želene formate, kot je shranjevanje Wordovega dokumenta kot PDF."
+      },
+      "feature_6": {
+        "title": "Izvleček predogledov strani",
+        "content": "Izvlecite strani iz podpisanih dokumentov kot posamezne slike za prihodnjo obdelavo."
+      },
+      "feature_7": {
+        "title": "Iskanje podpisov v dokumentih",
+        "content": "Pridobite informacije o predhodno dodanih podpisih v določenih dokumentih."
+      },
+      "feature_8": {
+        "title": "Potrdite podpisane dokumente",
+        "content": "Preverite pravilno podpisovanje dokumentov s funkcijami za preverjanje veljavnosti."
+      },
+      "feature_9": {
+        "title": "Posodobite ali izbrišite podpise",
+        "content": "Preprosto prestavite določene podpise na strani, spremenite njihovo besedilo ali jih izbrišite brez težav."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature za .NET podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov",
+    "formats_description": "GroupDocs.Signature za .NET podpira operacije z naslednjimi [formati datotek](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Nekateri primeri uporabe tipičnega GroupDocs.Signature za operacije .NET",
+    "code_title_sample_1": "Dodajte kodo QR v PDF",
+    "code_samples_sample_1_content_1": "Dodajanje [QR-kod](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) na določene strani dokumentov PDF lahko izboljša poslovne procese.",
+    "code_samples_sample_1_content_2": "Spodaj je primer dodajanja kode QR z uporabo GroupDocs.Signature.",
+    "code_title_sample_2": "Zaščita DOCX dokumenta z digitalnim potrdilom",
+    "code_samples_sample_2_content_1": "[Dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) lahko [zaščitite] z uporabo osebnih podpisov ali podpisov podjetij, shranjenih kot digitalna potrdila.",
+    "code_samples_sample_2_content_2": "Takšnih zaščitenih dokumentov ni mogoče spremeniti brez razveljavitve podpisa."
   },
   "index-content-java": {
-    "title": "Java API za upravljanje digitalnih podpisov"
+    "title": "Java API za upravljanje digitalnih podpisov",
+    "title_2": "preko Java API",
+    "actions_main": "Brezplačen prenos Maven",
+    "code_title": "Podpišite datoteke PDF v Javi",
+    "overview_description": "API za izvajanje podpisovanja dokumentov in povezanih operacij v aplikacijah Java",
+    "overview_feature_1": {
+      "title": "Izboljšani poslovni dokumenti z digitalnimi podpisi v Javi",
+      "description": "Hitro in prilagodljivo podpisovanje: GroupDocs.Signature for Java ponuja široko paleto možnosti digitalnega podpisovanja za PDF-je, slike in dokumente Office. Uporabite lahko besedilo, črtne kode, QR-kode, digitalna potrdila, slike ali skrite metapodatke. Obdelava dokumentov je hitra in učinkovita."
+    },
+    "overview_feature_2": {
+      "title": "Manipulacija podpisanih dokumentov",
+      "description": "Napredna obdelava dokumentov vključuje zmogljive operacije na podpisanih dokumentih z uporabo GroupDocs.Signature for Java. Podpise, ki so bili dodani poslovnim dokumentom, lahko iščete in preverjate z različnimi uporabnimi kriteriji. Poleg tega lahko dostopate do podrobnih informacij o dokumentu ali pridobite slike predogleda njegovih strani."
+    },
+    "overview_feature_3": {
+      "title": "Raznolikost izbire izhoda",
+      "description": "Robustne možnosti podpisovanja vam omogočajo, da prilagodite izpis za dokumente, podpisane s GroupDocs.Signature for Java. Vsak podpis lahko natančno postavite na katero koli stran dokumenta in na različne načine konfigurirate njegov videz. Java API podpira shranjevanje podpisanih poslovnih dokumentov v številnih podprtih formatih in ponuja možnosti za njihovo zaščito z gesli."
+    },
+    "features": {
+      "title": "Funkcije GroupDocs.Signature",
+      "description": "Podpisovanje PDF-jev, pisarniških dokumentov in slik z digitalnimi podpisi",
+      "feature_1": {
+        "title": "Dodajanje podpisov",
+        "content": "Podpišite dokument z različnimi podprtimi vrstami podpisov tako, da postavite digitalni podpis natančno na poljubno mesto na kateri koli strani."
+      },
+      "feature_2": {
+        "title": "Prilagajanje rezultatov",
+        "content": "Prilagodite videz podpisa tako, da prilagodite barvo, pisavo, rob, vrtenje in druge funkcije, da dosežete želeni rezultat."
+      },
+      "feature_3": {
+        "title": "Varovanje dokumentov z geslom",
+        "content": "Za številne podprte vrste dokumentov lahko podpisan dokument zaščitite z geslom."
+      },
+      "feature_4": {
+        "title": "Preprečevanje nepooblaščenih sprememb",
+        "content": "Zaščitite pomembne poslovne dokumente, podpisane z digitalnim potrdilom, pred nepooblaščenimi spremembami."
+      },
+      "feature_5": {
+        "title": "Pridobivanje rezultatov v želenih oblikah",
+        "content": "Enostavno pridobite podpisane datoteke rezultatov v katerem koli podprtem formatu. Dokumente MS Word lahko tudi preprosto pretvorite v PDF."
+      },
+      "feature_6": {
+        "title": "Predogled dokumenta",
+        "content": "Shranite katero koli stran dokumenta kot sliko za prihodnjo obdelavo."
+      },
+      "feature_7": {
+        "title": "Iskanje podpisov",
+        "content": "V določenih dokumentih je možno pridobiti podatke o predhodno dodanih podpisih."
+      },
+      "feature_8": {
+        "title": "Potrjevanje dokumentov",
+        "content": "Preverite pravilnost podpisov na katerem koli podpisanem dokumentu."
+      },
+      "feature_9": {
+        "title": "Upravljanje podpisov",
+        "content": "Ko je podpis postavljen na stran dokumenta, ga je mogoče po potrebi izbrisati, premakniti ali posodobiti."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov",
+    "formats_description": "GroupDocs.Signature za Javo podpira operacije z naslednjimi [formati datotek](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Nekateri primeri uporabe tipičnih operacij GroupDocs.Signature za Java",
+    "code_title_sample_1": "Izboljšajte dokument PDF s kodo QR",
+    "code_samples_sample_1_content_1": "Izboljšanje poslovnih procesov z dodajanjem [QR-kod](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) na določene strani dokumentov PDF je lahko koristno.",
+    "code_samples_sample_1_content_2": "Obstaja primer, kako dodati kodo QR z uporabo GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Za zaščito DOCX uporabite digitalni podpis",
+    "code_samples_sample_2_content_1": "[Dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) lahko [zaščitite] z uporabo osebnih podpisov ali podpisov podjetij, shranjenih kot digitalna potrdila.",
+    "code_samples_sample_2_content_2": "Dokumentov, zavarovanih s potrdilom, ni mogoče spremeniti brez razveljavitve podpisa."
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, API cloud et applications de signature de documents en 
 head_description: "Obtenez une solution de signature électronique de documents tout-en-un pour les applications .NET, Java et cloud. Signez des formats de documents courants en ligne à l'aide d'une simple fonctionnalité de glisser-déposer"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Signer des documents<br>via l'API .NET"
 description: "Signez des documents et des images numériques sur n'importe quelle plate-forme à l'aide de nos API flexibles et de nos solutions basées sur des applications pour les programmeurs et les utilisateurs finaux."
 words:
-  for: "{index-content.words_for}"
+  for: "pour"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Téléchargement gratuit de NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Licence"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Prêt à commencer?"
+  description: "Essayez les fonctionnalités de GroupDocs.Signature gratuitement ou demandez une licence"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Version {0} publiée"
+  notes: "Regardez ce qu'il y a de nouveau"
+  downloads: "Téléchargements"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Signer des fichiers PDF en C#"
+  more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Sélectionnez un document PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Fournir du texte
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Définir la couleur
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Signer le document et l'enregistrer dans un fichier
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Présentation de GroupDocs.Signature"
+  description: "API pour effectuer la signature de documents et les opérations associées dans les applications .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Ajout de signatures aux documents commerciaux en C#"
+      content: "Signature de documents : avec GroupDocs.Signature pour .NET, vous pouvez ajouter différents types de signatures, telles que du texte, des images, des codes-barres et des certificats numériques, aux documents PDF et Office. Cette API vous permet de signer vos documents avec presque n'importe quel type de données, y compris les métadonnées cachées."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Traitement des documents signés"
+      content: "Traitement supplémentaire : vous pouvez effectuer des opérations puissantes sur des documents signés à l'aide de GroupDocs.Signature. Cela inclut la recherche de signatures existantes dans les documents commerciaux et leur vérification à l'aide de critères spécifiques. De plus, vous pouvez récupérer des informations sur le document et prévisualiser les pages via cette API .NET."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Personnalisation des résultats"
+      content: "GroupDocs.Signature pour .NET offre des options de personnalisation étendues. Vous pouvez positionner avec précision les signatures n'importe où sur une page de document et ajuster leur apparence à l'aide de divers paramètres. De plus, cette API prend en charge l'enregistrement des documents traités dans un large éventail de formats pris en charge."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Indépendance de la plateforme"
+  description: "GroupDocs.Signature pour .NET prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formats de fichiers pris en charge"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature pour .NET prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/signature/net/supported-document-formats/) suivants.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formats Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images et autres formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Autres formats de bureaux:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Autres formats
+        * **la toile:** HTML, MHTML
+        * **Les archives:** ZIP, TAR, 7Z
+        * **Certificats:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Fonctionnalités GroupDocs.Signature"
+  description: "Signature rapide et précise de PDF, de documents Office et d'images"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Signature de documents"
+      content: "Ajoutez avec précision un ou plusieurs types de signatures pris en charge à n’importe quelle position spécifiée sur les documents commerciaux."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Personnaliser les signatures"
+      content: "Utilisez des fonctionnalités telles que la couleur, la police, la bordure, la rotation, etc., pour configurer l'apparence des signatures."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Protection par mot de passe des documents"
+      content: "Sécurisez certains types de documents en définissant un mot de passe après la signature."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Protection contre les changements"
+      content: "Empêchez les modifications apportées aux documents commerciaux importants après avoir apposé une signature avec un certificat numérique."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Convertir les fichiers signés vers d'autres formats"
+      content: "Convertissez les fichiers signés aux formats souhaités, par exemple en enregistrant un document Word au format PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Extraire les aperçus des pages"
+      content: "Extrayez les pages des documents signés sous forme d’images individuelles pour un traitement ultérieur."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Recherche de signature dans les documents"
+      content: "Récupérez des informations sur les signatures précédemment ajoutées dans des documents spécifiques."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Valider les documents signés"
+      content: "Vérifiez la bonne signature des documents à l’aide des fonctionnalités de validation."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Mettre à jour ou supprimer des signatures"
+      content: "Repositionnez facilement des signatures spécifiques sur une page, modifiez leur texte ou supprimez-les sans aucun problème."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Exemples de codes"
+  description: "Quelques cas d'utilisation d'opérations GroupDocs.Signature typiques pour .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Ajouter un code QR au PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        L'ajout de [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) à des pages spécifiques de documents PDF peut améliorer les processus métier. Vous trouverez ci-dessous un exemple de la façon d'ajouter un code QR à l'aide de GroupDocs.Signature.
+        {{< landing/code title="Comment mettre le code QR au format PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Chargez le document à signer
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Créer des options de code QR avec du texte prédéfini
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Configurer le type d'encodage du code QR et la position sur la page
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Signez le document et enregistrez-le comme fichier de résultat
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Protéger un document DOCX à l'aide d'un certificat numérique"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Vous pouvez [Protéger un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) en utilisant des signatures personnelles ou d'entreprise stockées sous forme de certificats numériques. Ces documents protégés ne peuvent être modifiés sans invalider la signature.
+        {{< landing/code title="Voici comment garantir l’intégrité des documents.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Charger le document à signer numériquement
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Spécifiez les options de signature numérique et fournissez le chemin d'accès au fichier de certificat
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Définir le mot de passe du certificat
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Signez le document et enregistrez-le dans le chemin souhaité
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

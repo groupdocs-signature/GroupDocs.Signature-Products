@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirj
 head_description: "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Allekirjoita asiakirjat<br>Java API:n kautta"
 description: "Allekirjoita digitaalisia asiakirjoja ja kuvia millä tahansa alustalla käyttämällä ohjelmoijille ja loppukäyttäjille joustavia API- ja sovelluspohjaisia ​​ratkaisujamme."
 words:
-  for: "{index-content.words_for}"
+  for: "varten"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Ilmainen Maven lataus"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Lisensointi"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Oletko valmis aloittamaan?"
+  description: "Kokeile GroupDocs.Signature-ominaisuuksia ilmaiseksi tai pyydä lisenssi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versio {0} julkaistu"
+  notes: "Katso mitä uutta"
+  downloads: "Lataukset"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Allekirjoita PDF-tiedostoja Javalla"
+  more: "Lisää esimerkkejä"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Valitse PDF-dokumentti
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Anna tekstiä
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Allekirjoita asiakirja ja tallenna tiedostoon
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Yleiskatsaus"
+  description: "API dokumenttien allekirjoittamiseen ja siihen liittyvien toimintojen suorittamiseen Java-sovelluksissa"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Parannetut yritysasiakirjat digitaalisilla allekirjoituksilla Javassa"
+      content: "Nopea ja muokattavissa oleva allekirjoitus: GroupDocs.Signature for Java tarjoaa laajan valikoiman digitaalisia allekirjoitusvaihtoehtoja PDF-tiedostoille, kuville ja Office-asiakirjoille. Voit käyttää tekstiä, viivakoodeja, QR-koodeja, digitaalisia varmenteita, kuvia tai piilotettuja metatietoja. Asiakirjojen käsittely on nopeaa ja tehokasta."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Allekirjoitettujen asiakirjojen käsittely"
+      content: "Edistyksellinen asiakirjojen käsittely sisältää tehokkaita toimintoja allekirjoitetuille asiakirjoille käyttäen GroupDocs.Signature for Javaa. Voit etsiä ja vahvistaa yritysasiakirjoihin lisättyjä allekirjoituksia useilla hyödyllisillä kriteereillä. Lisäksi voit tarkastella asiakirjan yksityiskohtaisia ​​tietoja tai saada esikatselukuvia sen sivuista."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Erilaisia ​​lähtövaihtoehtoja"
+      content: "Vahvat allekirjoitusasetukset mahdollistavat GroupDocs.Signature for Java -sovelluksella allekirjoitettujen asiakirjojen tulosteen mukauttamisen. Voit sijoittaa minkä tahansa allekirjoituksen tarkasti mille tahansa asiakirjasivulle ja määrittää sen ulkoasun eri tavoin. Java API tukee allekirjoitettujen yritysasiakirjojen tallentamista useissa tuetuissa muodoissa ja tarjoaa vaihtoehtoja niiden suojaamiseen salasanoilla."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Alustan riippumattomuus"
+  description: "GroupDocs.Signature for Java tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Tuetut tiedostomuodot"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature for Java tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office -muodot
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Kuvat ja muut muodot
+        * **Kannettava:** PDF
+        * **Kuvat:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Muut toimistomuodot:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Muut muodot
+        * **Web:** HTML, MHTML
+        * **Arkistot:** ZIP, TAR, 7Z
+        * **Sertifikaatit:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature-ominaisuudet"
+  description: "PDF-tiedostojen, Office-asiakirjojen ja kuvien allekirjoittaminen digitaalisilla allekirjoituksilla"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Allekirjoitusten lisääminen"
+      content: "Allekirjoita asiakirja käyttämällä erilaisia ​​tuettuja allekirjoitustyyppejä asettamalla digitaalinen allekirjoitus tarkasti mihin tahansa kohtaan millä tahansa sivulla."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Tulosten mukauttaminen"
+      content: "Mukauta allekirjoituksen ulkoasua säätämällä väriä, fonttia, reunusta, kiertoa ja muita ominaisuuksia halutun tuloksen saavuttamiseksi."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Asiakirjojen suojaaminen salasanalla"
+      content: "Monissa tuetuissa asiakirjatyypeissä voit suojata allekirjoitetun asiakirjan salasanalla."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Estä luvattomat muutokset"
+      content: "Suojaa tärkeät digitaalisella varmenteella allekirjoitetut liikeasiakirjat luvattomilta muutoksilta."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Tulosten saaminen halutussa muodossa"
+      content: "Hanki allekirjoitetut tulostiedostot helposti missä tahansa tuetussa muodossa. Voit myös muuntaa MS Word -asiakirjoja PDF-muotoon vaivattomasti."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Asiakirjan esikatselu"
+      content: "Tallenna mikä tahansa asiakirjan sivu kuvana myöhempää käsittelyä varten."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Allekirjoituksia etsimässä"
+      content: "Tiettyihin asiakirjoihin on mahdollista saada tietoa aiemmin lisätyistä allekirjoituksista."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Asiakirjojen vahvistaminen"
+      content: "Tarkista minkä tahansa allekirjoitetun asiakirjan allekirjoitusten oikeellisuus."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Allekirjoitusten hallinta"
+      content: "Kun allekirjoitus on asetettu asiakirjan sivulle, se voidaan poistaa, siirtää tai päivittää tarpeen mukaan."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Koodinäytteet"
+  description: "Jotkut käyttävät tyypillisiä GroupDocs.Signature-tapauksia Java-operaatioille"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Paranna PDF-dokumenttia QR-koodilla"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Liiketoimintaprosessien parantaminen lisäämällä [QR-koodeja](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) PDF-dokumenttien tietyille sivuille voi olla arvokasta. Tässä on esimerkki QR-koodin lisäämisestä GroupDocs.Signature for Java -sovelluksella.
+        {{< landing/code title="Paranna PDF-dokumenttia QR-koodilla">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Lataa allekirjoitettava asiakirja
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Luo QR-koodivaihtoehtoja ennalta määritetyllä tekstillä
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Määritä QR-koodin koodaustyyppi ja sijainti sivulla
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Allekirjoita asiakirja ja tallenna se tulostiedostona
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Suojaa DOCX käyttämällä digitaalista allekirjoitusta"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Voit [suojata asiakirjan](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia. Varmenteella suojattuja asiakirjoja ei voi muuttaa ilman allekirjoitusta mitätöimättä.
+        {{< landing/code title="Suojaa DOCX käyttämällä digitaalista allekirjoitusta">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Lataa asiakirja digitaalisesti allekirjoitettavaa varten
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Määritä digitaalisen allekirjoituksen asetukset ja anna polku varmennetiedostoon
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Aseta varmenteen salasana
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Allekirjoita asiakirja ja tallenna se haluamaasi polkuun
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

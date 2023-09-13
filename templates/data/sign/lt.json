@@ -245,12 +245,186 @@
     "api_nocodelabel": "Peržiūrėti visas be kodo programas",
     "api_nocode_1_content": "Pasirašykite Microsoft Word, Excel, PowerPoint, Visio ir PDF failus su tekstu, vaizdu, brūkšniniu kodu arba QR kodu.",
     "api_nocode_2_content": "Skaitmeniškai pasirašykite Word dokumentus internetu tiesiai iš naršyklės nemokamai.",
-    "api_nocode_3_content": "Pasirašykite PDF failus naudodami tekstą, vaizdą arba brūkšninį kodą iš bet kurios interneto naršyklės."
+    "api_nocode_3_content": "Pasirašykite PDF failus naudodami tekstą, vaizdą arba brūkšninį kodą iš bet kurios interneto naršyklės.",
+    "title_1": "Pasirašykite dokumentus",
+    "words_for": "dėl",
+    "actions_alt": "Licencijavimas",
+    "actions_title": "Pasiruošę pradėti?",
+    "actions_description": "Išbandykite GroupDocs.Signature funkcijas nemokamai arba paprašykite licencijos",
+    "release_title": "Išleista {0} versija",
+    "release_notes": "Pažiūrėkite, kas naujo",
+    "release_downloads": "Atsisiuntimai",
+    "code_more": "Daugiau pavyzdžių",
+    "code_comment_1": "Pasirinkite PDF dokumentą",
+    "code_comment_2": "Pateikite tekstą",
+    "code_comment_3": "Nustatyti spalvą",
+    "code_comment_4": "Pasirašykite dokumentą ir išsaugokite faile",
+    "overview_title": "GroupDocs.Parašo apžvalga",
+    "platforms_title": "Platformos nepriklausomybė",
+    "formats_title": "Palaikomi failų formatai",
+    "formats_groups": {
+      "title_1": "Microsoft Office formatai",
+      "title_2": "Vaizdai ir kiti formatai",
+      "title_3": "Kiti formatai",
+      "format_portable": "Nešiojami",
+      "format_other_office": "Kiti biuro formatai",
+      "format_images": "Vaizdai",
+      "format_web": "Žiniatinklis",
+      "format_archives": "Archyvai",
+      "format_certificates": "Sertifikatai"
+    },
+    "code_samples": {
+      "title": "Kodo pavyzdžiai",
+      "sample_1": {
+        "code_title": "Kaip įdėti QR kodą į PDF.",
+        "comment_1": "Įdėkite dokumentą pasirašyti",
+        "comment_2": "Sukurkite QR kodo parinktis su iš anksto nustatytu tekstu",
+        "comment_3": "Konfigūruokite QR kodo kodavimo tipą ir vietą puslapyje",
+        "comment_4": "Pasirašykite dokumentą ir išsaugokite jį kaip rezultato failą"
+      },
+      "sample_2": {
+        "code_title": "Štai kaip užtikrinti dokumento vientisumą.",
+        "comment_1": "Įkelkite dokumentą, kurį norite pasirašyti skaitmeniniu būdu",
+        "comment_2": "Nurodykite skaitmeninio pasirašymo parinktis ir nurodykite kelią į sertifikato failą",
+        "comment_3": "Nustatykite sertifikato slaptažodį",
+        "comment_4": "Pasirašykite dokumentą ir išsaugokite jį norimame kelyje"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API elektroniniams parašams"
+    "title": "Native .NET API elektroniniams parašams",
+    "title_2": "per .NET API",
+    "actions_main": "Nemokamas NuGet atsisiuntimas",
+    "code_title": "Pasirašykite PDF failus C#",
+    "overview_description": "API, skirta dokumentų pasirašymui ir susijusioms operacijoms .NET programose atlikti",
+    "overview_feature_1": {
+      "title": "Parašų pridėjimas prie verslo dokumentų C#",
+      "description": "Dokumentų pasirašymas: Naudodami GroupDocs.Signature, skirtą .NET, galite pridėti įvairių tipų parašų, tokių kaip tekstas, vaizdai, brūkšniniai kodai ir skaitmeniniai sertifikatai, prie PDF ir Office dokumentų. Ši API leidžia pasirašyti dokumentus naudojant beveik bet kokį duomenų tipą, įskaitant paslėptus metaduomenis."
+    },
+    "overview_feature_2": {
+      "title": "Pasirašytų dokumentų tvarkymas",
+      "description": "Papildomas apdorojimas: galite atlikti galingas operacijas su pasirašytais dokumentais naudodami GroupDocs.Signature. Tai apima esamų parašų paiešką verslo dokumentuose ir jų patikrinimą pagal konkrečius kriterijus. Be to, naudodami šią .NET API galite gauti dokumento informaciją ir peržiūrėti puslapius."
+    },
+    "overview_feature_3": {
+      "title": "Rezultatų pritaikymas",
+      "description": "GroupDocs.Signature for .NET siūlo plačias tinkinimo parinktis. Galite tiksliai išdėstyti parašus bet kurioje dokumento puslapio vietoje ir koreguoti jų išvaizdą naudodami įvairius nustatymus. Be to, ši API palaiko apdorotų dokumentų išsaugojimą įvairiais palaikomais formatais."
+    },
+    "features": {
+      "title": "GroupDocs.Parašo funkcijos",
+      "description": "Greitas ir tikslus PDF, biuro dokumentų ir vaizdų pasirašymas",
+      "feature_1": {
+        "title": "Dokumento pasirašymas",
+        "content": "Tiksliai pridėkite vieną ar kelis palaikomus parašų tipus bet kurioje nurodytoje verslo dokumentų vietoje."
+      },
+      "feature_2": {
+        "title": "Tinkinkite parašus",
+        "content": "Norėdami sukonfigūruoti parašų išvaizdą, naudokite tokias funkcijas kaip spalva, šriftas, kraštinė, pasukimas ir kt."
+      },
+      "feature_3": {
+        "title": "Dokumento slaptažodžio apsauga",
+        "content": "Apsaugokite tam tikrų tipų dokumentus po pasirašymo nustatydami slaptažodį."
+      },
+      "feature_4": {
+        "title": "Apsauga nuo pokyčių",
+        "content": "Neleiskite svarbių verslo dokumentų pakeitimų pridėję parašą su skaitmeniniu sertifikatu."
+      },
+      "feature_5": {
+        "title": "Konvertuoti pasirašytus failus į kitus formatus",
+        "content": "Konvertuokite pasirašytus failus į norimus formatus, pvz., išsaugokite Word dokumentą kaip PDF."
+      },
+      "feature_6": {
+        "title": "Ištraukite puslapių peržiūras",
+        "content": "Išskleiskite puslapius iš pasirašytų dokumentų kaip atskirus vaizdus, ​​​​kad galėtumėte juos apdoroti ateityje."
+      },
+      "feature_7": {
+        "title": "Parašo paieška dokumentuose",
+        "content": "Gaukite informaciją apie anksčiau pridėtus parašus konkrečiuose dokumentuose."
+      },
+      "feature_8": {
+        "title": "Patvirtinti pasirašytus dokumentus",
+        "content": "Patikrinkite, ar tinkamai pasirašyti dokumentai, naudodami patvirtinimo funkcijas."
+      },
+      "feature_9": {
+        "title": "Atnaujinkite arba ištrinkite parašus",
+        "content": "Lengvai pakeiskite konkrečių parašų vietą puslapyje, keiskite jų tekstą arba ištrinkite juos be jokių problemų."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET palaiko šias operacines sistemas, sistemas ir paketų tvarkykles",
+    "formats_description": "GroupDocs.Signature for .NET palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Kai kurie .NET operacijoms naudojami tipiški GroupDocs.Signature atvejai",
+    "code_title_sample_1": "Pridėkite QR kodą prie PDF",
+    "code_samples_sample_1_content_1": "Pridėjus [QR kodus] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) prie konkrečių PDF dokumentų puslapių galima pagerinti verslo procesus.",
+    "code_samples_sample_1_content_2": "Toliau pateikiamas pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature.",
+    "code_title_sample_2": "DOCX dokumento apsauga naudojant skaitmeninį sertifikatą",
+    "code_samples_sample_2_content_1": "Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus.",
+    "code_samples_sample_2_content_2": "Tokie saugomi dokumentai negali būti modifikuojami nepakeitus parašo negaliojančiu."
   },
   "index-content-java": {
-    "title": "Java API skaitmeniniams parašams tvarkyti"
+    "title": "Java API skaitmeniniams parašams tvarkyti",
+    "title_2": "per Java API",
+    "actions_main": "Nemokamas Maven atsisiuntimas",
+    "code_title": "Pasirašykite PDF failus Java",
+    "overview_description": "API, skirta dokumentų pasirašymui ir susijusioms operacijoms atlikti Java programose",
+    "overview_feature_1": {
+      "title": "Patobulinti verslo dokumentai su skaitmeniniu parašu Java",
+      "description": "Greitas ir pritaikomas pasirašymas: „GroupDocs.Signature“, skirta „Java“, siūlo daugybę skaitmeninio parašo parinkčių PDF rinkmenoms, vaizdams ir „Office“ dokumentams. Galite naudoti tekstą, brūkšninius kodus, QR kodus, skaitmeninius sertifikatus, paveikslėlius arba paslėptus metaduomenis. Dokumentų tvarkymas yra greitas ir efektyvus."
+    },
+    "overview_feature_2": {
+      "title": "Manipuliavimas pasirašytais dokumentais",
+      "description": "Išplėstinis dokumentų apdorojimas apima galingas operacijas su pasirašytais dokumentais naudojant GroupDocs.Signature for Java. Galite ieškoti ir patvirtinti parašus, kurie buvo pridėti prie verslo dokumentų, naudodami įvairius naudingus kriterijus. Be to, galite pasiekti išsamią informaciją apie dokumentą arba peržiūrėti jo puslapių vaizdus."
+    },
+    "overview_feature_3": {
+      "title": "Išvesties pasirinkimų įvairovė",
+      "description": "Tvirtas pasirašymo parinktys leidžia tinkinti su GroupDocs.Signature for Java pasirašytų dokumentų išvestį. Galite tiksliai išdėstyti bet kurį parašą bet kuriame dokumento puslapyje ir įvairiais būdais konfigūruoti jo išvaizdą. „Java“ API palaiko pasirašytų verslo dokumentų išsaugojimą įvairiais palaikomais formatais ir suteikia galimybes apsaugoti juos slaptažodžiais."
+    },
+    "features": {
+      "title": "GroupDocs.Parašo funkcijos",
+      "description": "PDF, Office dokumentų ir vaizdų pasirašymas skaitmeniniais parašais",
+      "feature_1": {
+        "title": "Parašų pridėjimas",
+        "content": "Pasirašykite dokumentą naudodami įvairius palaikomus parašo tipus, tiksliai padėdami skaitmeninį parašą bet kurioje bet kurio puslapio vietoje."
+      },
+      "feature_2": {
+        "title": "Rezultatų pritaikymas",
+        "content": "Tinkinkite parašo išvaizdą koreguodami spalvą, šriftą, kraštinę, pasukimą ir kitas funkcijas, kad pasiektumėte norimą rezultatą."
+      },
+      "feature_3": {
+        "title": "Dokumentų apsauga slaptažodžiu",
+        "content": "Daugelio palaikomų dokumentų tipų atveju pasirašytą dokumentą galite apsaugoti slaptažodžiu."
+      },
+      "feature_4": {
+        "title": "Neleistinų pakeitimų prevencija",
+        "content": "Apsaugokite svarbius verslo dokumentus, pasirašytus skaitmeniniu sertifikatu, nuo neteisėtų pakeitimų."
+      },
+      "feature_5": {
+        "title": "Rezultatų gavimas norimais formatais",
+        "content": "Lengvai gaukite pasirašytus rezultatų failus bet kokiu palaikomu formatu. Taip pat galite lengvai konvertuoti MS Word dokumentus į PDF."
+      },
+      "feature_6": {
+        "title": "Dokumento peržiūra",
+        "content": "Išsaugokite bet kurį dokumento puslapį kaip vaizdą, kad galėtumėte jį apdoroti ateityje."
+      },
+      "feature_7": {
+        "title": "Parašų paieška",
+        "content": "Informaciją apie anksčiau pridėtus parašus galima gauti konkrečiuose dokumentuose."
+      },
+      "feature_8": {
+        "title": "Dokumentų tvirtinimas",
+        "content": "Patvirtinkite parašų teisingumą ant bet kurio pasirašyto dokumento."
+      },
+      "feature_9": {
+        "title": "Parašų tvarkymas",
+        "content": "Įdėjus parašą dokumento puslapyje, jį galima ištrinti, perkelti arba atnaujinti, jei reikia."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java palaiko šias operacines sistemas, sistemas ir paketų tvarkykles",
+    "formats_description": "GroupDocs.Signature for Java palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Kai kurie naudoja tipinius GroupDocs.Signature Java operacijoms atvejus",
+    "code_title_sample_1": "Patobulinkite PDF dokumentą su QR kodu",
+    "code_samples_sample_1_content_1": "Verslo procesų tobulinimas pridedant [QR kodus] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) prie konkrečių PDF dokumentų puslapių gali būti naudingas.",
+    "code_samples_sample_1_content_2": "Yra pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Norėdami apsaugoti DOCX, naudokite skaitmeninį parašą",
+    "code_samples_sample_2_content_1": "Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus.",
+    "code_samples_sample_2_content_2": "Sertifikatu apsaugoti dokumentai negali būti keičiami nepažeidžiant parašo."
   }
 }

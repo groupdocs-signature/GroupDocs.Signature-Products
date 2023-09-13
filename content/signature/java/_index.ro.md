@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, API-uri cloud și aplicații online pentru semnătura d
 head_description: "Obțineți o soluție de semnătură electronică pentru documente all-in-one pentru .NET, Java și aplicații bazate pe cloud. Semnează online formate comune de documente folosind funcția simplă de glisare și plasare"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Semnează documente<br>prin API-ul Java"
 description: "Semnează documente și imagini digitale pe orice platformă folosind API-urile noastre flexibile și soluțiile bazate pe aplicații pentru programatori și utilizatori finali."
 words:
-  for: "{index-content.words_for}"
+  for: "pentru"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Descărcare gratuită Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Licențiere"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Sunteți gata să începeți?"
+  description: "Încercați gratuit funcțiile GroupDocs.Signature sau solicitați o licență"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versiunea {0} a fost lansată"
+  notes: "Vezi ce este nou"
+  downloads: "Descărcări"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Semnează fișiere PDF în Java"
+  more: "Mai multe exemple"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Selectați documentul PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Furnizați text
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Semnează documentul și salvează în fișier
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Prezentare generală GroupDocs.Signature"
+  description: "API pentru efectuarea semnării documentelor și a operațiunilor conexe în aplicațiile Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Documente de afaceri îmbunătățite cu semnături digitale în Java"
+      content: "Semnare rapidă și personalizabilă: GroupDocs.Signature pentru Java oferă o gamă largă de opțiuni de semnătură digitală pentru PDF-uri, imagini și documente Office. Puteți utiliza text, coduri de bare, coduri QR, certificate digitale, imagini sau metadate ascunse. Procesarea documentelor este rapidă și eficientă."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipularea documentelor semnate"
+      content: "Procesarea avansată a documentelor implică operații puternice asupra documentelor semnate folosind GroupDocs.Signature pentru Java. Puteți căuta și valida semnăturile care au fost adăugate în documentele de afaceri folosind diverse criterii utile. În plus, puteți accesa informații detaliate despre document sau puteți obține imagini de previzualizare ale paginilor acestuia."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Varietate de opțiuni de ieșire"
+      content: "Opțiunile de semnare robuste vă permit să personalizați rezultatul documentelor semnate cu GroupDocs.Signature pentru Java. Puteți poziționa cu precizie orice semnătură pe orice pagină de document și puteți configura aspectul acesteia în diverse moduri. API-ul Java acceptă salvarea documentelor comerciale semnate în numeroase formate acceptate și oferă opțiuni pentru securizarea lor cu parole."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Independenta platformei"
+  description: "GroupDocs.Signature pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formate de fișiere acceptate"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature pentru Java acceptă operațiuni cu următoarele [formate de fișiere](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### formatele Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Imagini și alte formate
+        * **Portabil:** PDF
+        * **Imagini:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Alte formate de birou:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Alte formate
+        * **Web:** HTML, MHTML
+        * **Arhive:** ZIP, TAR, 7Z
+        * **Certificate:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Funcții GroupDocs.Signature"
+  description: "Semnează PDF-uri, documente Office și imagini cu semnături digitale"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Adăugarea de semnături"
+      content: "Semnați un document folosind diferite tipuri de semnături acceptate, plasând o semnătură digitală exact în orice poziție de pe orice pagină."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Personalizarea rezultatelor"
+      content: "Personalizați aspectul semnăturii ajustând culoarea, fontul, chenarul, rotația și alte caracteristici pentru a obține rezultatul dorit."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Securizarea documentelor cu parola"
+      content: "Pentru multe tipuri de documente acceptate, puteți proteja documentul semnat cu o parolă."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Prevenirea modificărilor neautorizate"
+      content: "Protejați documentele importante de afaceri semnate cu un certificat digital de modificările neautorizate."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Obținerea rezultatelor în formatele dorite"
+      content: "Obțineți cu ușurință fișiere cu rezultate semnate în orice format acceptat. De asemenea, puteți converti documente MS Word în PDF fără efort."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Previzualizarea documentului"
+      content: "Salvați orice pagină a unui document ca imagine pentru procesare ulterioară."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Căutarea semnăturilor"
+      content: "Este posibil să obțineți informații despre semnăturile adăugate anterior în anumite documente."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Validarea documentelor"
+      content: "Validați corectitudinea semnăturilor pe orice document semnat."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Gestionarea semnăturilor"
+      content: "Odată ce o semnătură este plasată pe pagina unui document, aceasta poate fi ștearsă, mutată sau actualizată după cum este necesar."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Exemple de cod"
+  description: "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Signature pentru Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Îmbunătățiți documentul PDF cu codul QR"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Îmbunătățirea proceselor de afaceri prin adăugarea [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) în anumite pagini de documente PDF poate fi valoroasă. Există un exemplu despre cum să adăugați un cod QR utilizând GroupDocs.Signature pentru Java.
+        {{< landing/code title="Îmbunătățiți documentul PDF cu codul QR">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Încărcați documentul pentru semnare
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Creați opțiuni de cod QR cu text predefinit
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Configurați tipul și poziția de codare a codului QR pe ​​pagină
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Semnați documentul și salvați-l ca fișier rezultat
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Utilizați semnătura digitală pentru a proteja un DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Puteți [Proteza un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) folosind semnături personale sau corporative stocate ca certificate digitale. Documentele securizate cu certificat nu pot fi modificate fără invalidarea semnăturii.
+        {{< landing/code title="Utilizați semnătura digitală pentru a proteja un DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Încărcați documentul pentru a fi semnat digital
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Specificați opțiunile de semnare digitală și furnizați calea către fișierul de certificat
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Setați parola certificatului
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Semnează documentul și salvează-l în calea dorită
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

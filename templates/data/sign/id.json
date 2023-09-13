@@ -245,12 +245,186 @@
     "api_nocodelabel": "Lihat Semua Aplikasi Tanpa Kode",
     "api_nocode_1_content": "Tandatangani file Microsoft Word, Excel, PowerPoint, Visio & PDF dengan teks, gambar, Barcode, atau QR-Code.",
     "api_nocode_2_content": "Tandatangani dokumen Word secara digital secara online langsung dari browser Anda secara gratis.",
-    "api_nocode_3_content": "e-Sign file PDF menggunakan teks, gambar, atau kode batang dari dalam browser web apa pun."
+    "api_nocode_3_content": "e-Sign file PDF menggunakan teks, gambar, atau kode batang dari dalam browser web apa pun.",
+    "title_1": "Menandatangani dokumen",
+    "words_for": "untuk",
+    "actions_alt": "Perizinan",
+    "actions_title": "Siap untuk memulai?",
+    "actions_description": "Coba fitur GroupDocs.Signature secara gratis atau minta lisensi",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Pilih dokumen PDF",
+    "code_comment_2": "Berikan teks",
+    "code_comment_3": "Tetapkan warna",
+    "code_comment_4": "Tanda tangani dokumen dan simpan ke file",
+    "overview_title": "GroupDocs.Ikhtisar Tanda Tangan",
+    "platforms_title": "Independensi platform",
+    "formats_title": "Format file yang didukung",
+    "formats_groups": {
+      "title_1": "format Microsoft Office",
+      "title_2": "Gambar & Format Lainnya",
+      "title_3": "Format lainnya",
+      "format_portable": "Portabel",
+      "format_other_office": "Format kantor lainnya",
+      "format_images": "Gambar-gambar",
+      "format_web": "jaring",
+      "format_archives": "Arsip",
+      "format_certificates": "Sertifikat"
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "sample_1": {
+        "code_title": "Cara memasukkan kode QR ke PDF.",
+        "comment_1": "Muat dokumen yang akan ditandatangani",
+        "comment_2": "Buat opsi kode QR dengan teks yang telah ditentukan sebelumnya",
+        "comment_3": "Konfigurasikan jenis dan posisi pengkodean kode QR pada halaman",
+        "comment_4": "Tanda tangani dokumen dan simpan sebagai file hasil"
+      },
+      "sample_2": {
+        "code_title": "Berikut cara memastikan integritas dokumen.",
+        "comment_1": "Muat dokumen yang akan ditandatangani secara digital",
+        "comment_2": "Tentukan opsi penandatanganan digital dan berikan jalur ke file sertifikat",
+        "comment_3": "Tetapkan kata sandi sertifikat",
+        "comment_4": "Tanda tangani dokumen dan simpan ke jalur yang diinginkan"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API untuk Tanda Tangan Elektronik"
+    "title": "API .NET asli untuk Tanda Tangan Elektronik",
+    "title_2": "melalui .NET API",
+    "actions_main": "Unduh NuGet Gratis",
+    "code_title": "Menandatangani file PDF di C#",
+    "overview_description": "API untuk melakukan penandatanganan dokumen dan operasi terkait dalam aplikasi .NET",
+    "overview_feature_1": {
+      "title": "Menambahkan tanda tangan ke dokumen bisnis di C#",
+      "description": "Penandatanganan dokumen: Dengan GroupDocs.Signature untuk .NET, Anda dapat menambahkan berbagai jenis tanda tangan, seperti teks, gambar, kode batang, dan sertifikat digital, ke dokumen PDF dan Office. API ini memungkinkan Anda menandatangani dokumen dengan hampir semua tipe data, termasuk metadata tersembunyi."
+    },
+    "overview_feature_2": {
+      "title": "Memproses dokumen yang ditandatangani",
+      "description": "Pemrosesan tambahan: Anda dapat melakukan operasi canggih pada dokumen yang ditandatangani menggunakan GroupDocs.Signature. Ini termasuk mencari tanda tangan yang ada dalam dokumen bisnis dan memverifikasinya menggunakan kriteria tertentu. Selain itu, Anda dapat mengambil informasi dokumen dan melihat halaman pratinjau melalui .NET API ini."
+    },
+    "overview_feature_3": {
+      "title": "Menyesuaikan hasil",
+      "description": "GroupDocs.Signature untuk .NET menawarkan opsi penyesuaian yang luas. Anda dapat secara tepat memposisikan tanda tangan di mana saja pada halaman dokumen dan menyesuaikan tampilannya menggunakan berbagai pengaturan. Selain itu, API ini mendukung penyimpanan dokumen yang diproses dalam berbagai format yang didukung."
+    },
+    "features": {
+      "title": "Fitur GroupDocs.Signature",
+      "description": "Menandatangani PDF, Dokumen Office, dan Gambar dengan cepat dan akurat",
+      "feature_1": {
+        "title": "Penandatanganan dokumen",
+        "content": "Tambahkan satu atau beberapa jenis tanda tangan yang didukung secara akurat pada posisi tertentu pada dokumen bisnis."
+      },
+      "feature_2": {
+        "title": "Sesuaikan tanda tangan",
+        "content": "Manfaatkan fitur seperti warna, font, batas, rotasi, dll., untuk mengonfigurasi tampilan tanda tangan."
+      },
+      "feature_3": {
+        "title": "Perlindungan kata sandi dokumen",
+        "content": "Amankan jenis dokumen tertentu dengan menetapkan kata sandi setelah penandatanganan."
+      },
+      "feature_4": {
+        "title": "Perlindungan dari perubahan",
+        "content": "Cegah perubahan pada dokumen bisnis penting setelah menambahkan tanda tangan dengan sertifikat digital."
+      },
+      "feature_5": {
+        "title": "Konversikan file yang ditandatangani ke format lain",
+        "content": "Konversikan file yang ditandatangani ke format yang diinginkan, seperti menyimpan dokumen Word sebagai PDF."
+      },
+      "feature_6": {
+        "title": "Ekstrak pratinjau halaman",
+        "content": "Ekstrak halaman dari dokumen yang ditandatangani sebagai gambar individual untuk diproses di masa mendatang."
+      },
+      "feature_7": {
+        "title": "Pencarian tanda tangan dalam dokumen",
+        "content": "Ambil informasi tentang tanda tangan yang ditambahkan sebelumnya dalam dokumen tertentu."
+      },
+      "feature_8": {
+        "title": "Validasi dokumen yang ditandatangani",
+        "content": "Verifikasi penandatanganan dokumen yang benar menggunakan fitur validasi."
+      },
+      "feature_9": {
+        "title": "Perbarui atau hapus tanda tangan",
+        "content": "Ubah posisi tanda tangan tertentu dengan mudah di halaman, ubah teksnya, atau hapus tanpa masalah apa pun."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats_description": "GroupDocs.Signature untuk .NET mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Beberapa kasus penggunaan GroupDocs.Signature untuk operasi .NET",
+    "code_title_sample_1": "Tambahkan kode QR ke PDF",
+    "code_samples_sample_1_content_1": "Menambahkan [kode QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) ke halaman tertentu dokumen PDF dapat meningkatkan proses bisnis.",
+    "code_samples_sample_1_content_2": "Di bawah ini adalah contoh cara menambahkan kode QR menggunakan GroupDocs.Signature.",
+    "code_title_sample_2": "Melindungi dokumen DOCX menggunakan sertifikat digital",
+    "code_samples_sample_2_content_1": "Anda dapat [Melindungi Dokumen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) menggunakan tanda tangan pribadi atau perusahaan yang disimpan sebagai sertifikat digital.",
+    "code_samples_sample_2_content_2": "Dokumen yang dilindungi tersebut tidak dapat diubah tanpa membatalkan tanda tangannya."
   },
   "index-content-java": {
-    "title": "Java API untuk Mengelola Tanda Tangan Digital"
+    "title": "Java API untuk Mengelola Tanda Tangan Digital",
+    "title_2": "melalui API Java",
+    "actions_main": "Unduhan Maven Gratis",
+    "code_title": "Tanda tangani file PDF di Java",
+    "overview_description": "API untuk melakukan penandatanganan dokumen dan operasi terkait dalam aplikasi Java",
+    "overview_feature_1": {
+      "title": "Peningkatan dokumen bisnis dengan tanda tangan digital di Java",
+      "description": "Penandatanganan yang cepat dan dapat disesuaikan: GroupDocs.Signature untuk Java menawarkan beragam opsi tanda tangan digital untuk PDF, gambar, dan dokumen Office. Anda dapat menggunakan teks, kode batang, kode QR, sertifikat digital, gambar, atau metadata tersembunyi. Pemrosesan dokumen cepat dan efisien."
+    },
+    "overview_feature_2": {
+      "title": "Memanipulasi dokumen yang ditandatangani",
+      "description": "Pemrosesan dokumen tingkat lanjut melibatkan operasi yang kuat pada dokumen yang ditandatangani menggunakan GroupDocs.Signature untuk Java. Anda dapat mencari dan memvalidasi tanda tangan yang telah ditambahkan ke dokumen bisnis menggunakan berbagai kriteria yang berguna. Selain itu, Anda dapat mengakses informasi rinci tentang dokumen atau mendapatkan gambar pratinjau halamannya."
+    },
+    "overview_feature_3": {
+      "title": "Berbagai pilihan keluaran",
+      "description": "Opsi penandatanganan yang kuat memungkinkan Anda menyesuaikan output untuk dokumen yang ditandatangani dengan GroupDocs.Signature untuk Java. Anda dapat secara tepat memposisikan tanda tangan apa pun di halaman dokumen mana pun dan mengonfigurasi tampilannya dengan berbagai cara. Java API mendukung penyimpanan dokumen bisnis yang ditandatangani dalam berbagai format yang didukung dan menyediakan opsi untuk mengamankannya dengan kata sandi."
+    },
+    "features": {
+      "title": "Fitur GroupDocs.Signature",
+      "description": "Menandatangani PDF, Dokumen Office, dan gambar dengan tanda tangan digital",
+      "feature_1": {
+        "title": "Menambahkan Tanda Tangan",
+        "content": "Tanda tangani dokumen menggunakan berbagai jenis tanda tangan yang didukung dengan menempatkan tanda tangan digital secara tepat di posisi mana pun di halaman mana pun."
+      },
+      "feature_2": {
+        "title": "Menyesuaikan hasil",
+        "content": "Sesuaikan tampilan tanda tangan dengan menyesuaikan warna, font, batas, rotasi, dan fitur lainnya untuk mencapai hasil yang diinginkan."
+      },
+      "feature_3": {
+        "title": "Mengamankan dokumen dengan kata sandi",
+        "content": "Untuk banyak tipe dokumen yang didukung, Anda dapat melindungi dokumen yang ditandatangani dengan kata sandi."
+      },
+      "feature_4": {
+        "title": "Mencegah perubahan yang tidak sah",
+        "content": "Lindungi dokumen bisnis penting yang ditandatangani dengan sertifikat digital dari modifikasi yang tidak sah."
+      },
+      "feature_5": {
+        "title": "Memperoleh hasil dalam format yang diinginkan",
+        "content": "Dapatkan file hasil yang ditandatangani dengan mudah dalam format apa pun yang didukung. Anda juga dapat mengonversi dokumen MS Word ke PDF dengan mudah."
+      },
+      "feature_6": {
+        "title": "Pratinjau dokumen",
+        "content": "Simpan halaman mana pun dari dokumen sebagai gambar untuk diproses di masa mendatang."
+      },
+      "feature_7": {
+        "title": "Mencari tanda tangan",
+        "content": "Dimungkinkan untuk mendapatkan informasi tentang tanda tangan yang ditambahkan sebelumnya dalam dokumen tertentu."
+      },
+      "feature_8": {
+        "title": "Memvalidasi dokumen",
+        "content": "Validasi kebenaran tanda tangan pada setiap dokumen yang ditandatangani."
+      },
+      "feature_9": {
+        "title": "Mengelola tanda tangan",
+        "content": "Setelah tanda tangan ditempatkan pada halaman dokumen, tanda tangan tersebut dapat dihapus, dipindahkan, atau diperbarui sesuai kebutuhan."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats_description": "GroupDocs.Signature untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Beberapa kasus penggunaan GroupDocs.Signature khas untuk operasi Java",
+    "code_title_sample_1": "Tingkatkan dokumen PDF dengan kode QR",
+    "code_samples_sample_1_content_1": "Meningkatkan proses bisnis dengan menambahkan [kode QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ke halaman tertentu dokumen PDF dapat bermanfaat.",
+    "code_samples_sample_1_content_2": "Ada contoh cara menambahkan kode QR menggunakan GroupDocs.Signature untuk Java.",
+    "code_title_sample_2": "Gunakan tanda tangan digital untuk melindungi DOCX",
+    "code_samples_sample_2_content_1": "Anda dapat [Melindungi Dokumen](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) menggunakan tanda tangan pribadi atau perusahaan yang disimpan sebagai sertifikat digital.",
+    "code_samples_sample_2_content_2": "Dokumen yang diamankan dengan sertifikat tidak dapat diubah tanpa membatalkan tanda tangannya."
   }
 }

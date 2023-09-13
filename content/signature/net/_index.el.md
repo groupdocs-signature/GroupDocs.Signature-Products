@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
 head_description: "Αποκτήστε ολοκληρωμένη λύση ηλεκτρονικής υπογραφής εγγράφων για .NET, Java και εφαρμογές που βασίζονται σε cloud. Υπογράψτε κοινές μορφές εγγράφων στο διαδίκτυο χρησιμοποιώντας την απλή λειτουργία μεταφοράς και απόθεσης"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Υπογράψτε έγγραφα<br>μέσω .NET API"
 description: "Υπογράψτε ψηφιακά έγγραφα και εικόνες σε οποιαδήποτε πλατφόρμα χρησιμοποιώντας τα ευέλικτα API και τις λύσεις που βασίζονται σε εφαρμογές για προγραμματιστές και τελικούς χρήστες."
 words:
-  for: "{index-content.words_for}"
+  for: "Για"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Δωρεάν λήψη NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Αδειοδότηση"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες GroupDocs.Signature δωρεάν ή ζητήστε άδεια"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Κυκλοφόρησε η έκδοση {0}"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Υπογραφή αρχείων PDF σε C#"
+  more: "Περισσότερα παραδείγματα"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Επιλέξτε έγγραφο PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Δώστε κείμενο
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Σετ χρώματος
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Υπογράψτε το έγγραφο και αποθηκεύστε στο αρχείο
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Επισκόπηση GroupDocs.Signature"
+  description: "API για την εκτέλεση υπογραφής εγγράφων και σχετικών λειτουργιών σε εφαρμογές .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Προσθήκη υπογραφών σε επαγγελματικά έγγραφα σε C#"
+      content: "Υπογραφή εγγράφων: Με το GroupDocs.Signature για .NET, μπορείτε να προσθέσετε διάφορους τύπους υπογραφών, όπως κείμενο, εικόνες, γραμμωτούς κώδικες και ψηφιακά πιστοποιητικά, σε έγγραφα PDF και Office. Αυτό το API σάς επιτρέπει να υπογράφετε τα έγγραφά σας με σχεδόν οποιονδήποτε τύπο δεδομένων, συμπεριλαμβανομένων των κρυφών μεταδεδομένων."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Επεξεργασία υπογεγραμμένων εγγράφων"
+      content: "Πρόσθετη επεξεργασία: Μπορείτε να εκτελέσετε ισχυρές λειτουργίες σε υπογεγραμμένα έγγραφα χρησιμοποιώντας το GroupDocs.Signature. Αυτό περιλαμβάνει την αναζήτηση για υπάρχουσες υπογραφές εντός των επιχειρηματικών εγγράφων και την επαλήθευση τους χρησιμοποιώντας συγκεκριμένα κριτήρια. Επιπλέον, μπορείτε να ανακτήσετε πληροφορίες εγγράφων και να κάνετε προεπισκόπηση σελίδων μέσω αυτού του .NET API."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Προσαρμογή αποτελεσμάτων"
+      content: "Το GroupDocs.Signature για .NET προσφέρει εκτενείς επιλογές προσαρμογής. Μπορείτε να τοποθετήσετε με ακρίβεια τις υπογραφές οπουδήποτε σε μια σελίδα εγγράφου και να προσαρμόσετε την εμφάνισή τους χρησιμοποιώντας μια ποικιλία ρυθμίσεων. Επιπλέον, αυτό το API υποστηρίζει την αποθήκευση επεξεργασμένων εγγράφων σε ένα ευρύ φάσμα υποστηριζόμενων μορφών."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Signature για .NET υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Υποστηριζόμενες μορφές αρχείων"
   description: |
-    {index-content-net.formats_description}
+    Το GroupDocs.Signature για .NET υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Μορφές Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Εικόνες & Άλλες Μορφές
+        * **Φορητός:** PDF
+        * **εικόνες:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Άλλες μορφές γραφείου:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Άλλες μορφές
+        * **Ιστός:** HTML, MHTML
+        * **Αρχεία:** ZIP, TAR, 7Z
+        * **Πιστοποιητικά:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Λειτουργίες GroupDocs.Signature"
+  description: "Υπογραφή αρχείων PDF, εγγράφων του Office και εικόνων γρήγορα και με ακρίβεια"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Υπογραφή εγγράφου"
+      content: "Προσθέστε έναν ή πολλούς υποστηριζόμενους τύπους υπογραφών με ακρίβεια σε οποιαδήποτε καθορισμένη θέση στα επαγγελματικά έγγραφα."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Προσαρμόστε τις υπογραφές"
+      content: "Χρησιμοποιήστε λειτουργίες όπως χρώμα, γραμματοσειρά, περίγραμμα, περιστροφή κ.λπ., για να διαμορφώσετε την εμφάνιση των υπογραφών."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Προστασία με κωδικό πρόσβασης εγγράφου"
+      content: "Ασφαλίστε ορισμένους τύπους εγγράφων ορίζοντας έναν κωδικό πρόσβασης μετά την υπογραφή."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Προστασία από αλλαγές"
+      content: "Αποτρέψτε αλλαγές σε σημαντικά επιχειρηματικά έγγραφα μετά την προσάρτηση μιας υπογραφής με ψηφιακό πιστοποιητικό."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Μετατροπή υπογεγραμμένων αρχείων σε άλλες μορφές"
+      content: "Μετατρέψτε τα υπογεγραμμένα αρχεία σε επιθυμητές μορφές, όπως η αποθήκευση ενός εγγράφου του Word ως PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Εξαγωγή προεπισκοπήσεων σελίδων"
+      content: "Εξαγωγή σελίδων από υπογεγραμμένα έγγραφα ως μεμονωμένες εικόνες για μελλοντική επεξεργασία."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Αναζήτηση υπογραφών σε έγγραφα"
+      content: "Ανακτήστε πληροφορίες σχετικά με υπογραφές που προστέθηκαν προηγουμένως σε συγκεκριμένα έγγραφα."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Επικύρωση υπογεγραμμένων εγγράφων"
+      content: "Επαληθεύστε τη σωστή υπογραφή των εγγράφων χρησιμοποιώντας λειτουργίες επικύρωσης."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Ενημερώστε ή διαγράψτε τις υπογραφές"
+      content: "Τοποθετήστε εύκολα συγκεκριμένες υπογραφές σε μια σελίδα, τροποποιήστε το κείμενό τους ή διαγράψτε τις χωρίς προβλήματα."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένες περιπτώσεις χρησιμοποιούν τυπικά GroupDocs.Signature για λειτουργίες .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Προσθήκη QR-code σε PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Η προσθήκη [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) σε συγκεκριμένες σελίδες εγγράφων PDF μπορεί να βελτιώσει τις επιχειρηματικές διαδικασίες. Παρακάτω είναι ένα παράδειγμα για το πώς μπορείτε να προσθέσετε έναν κωδικό QR χρησιμοποιώντας το GroupDocs.Signature.
+        {{< landing/code title="Πώς να τοποθετήσετε τον κωδικό QR σε PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Φορτώστε το έγγραφο για υπογραφή
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Δημιουργήστε επιλογές κωδικού QR με προκαθορισμένο κείμενο
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Διαμορφώστε τον τύπο και τη θέση κωδικοποίησης κώδικα QR στη σελίδα
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Υπογράψτε το έγγραφο και αποθηκεύστε το ως αρχείο αποτελεσμάτων
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Προστασία ενός εγγράφου DOCX με χρήση ψηφιακού πιστοποιητικού"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Μπορείτε να [Προστασία εγγράφου](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) χρησιμοποιώντας προσωπικές ή εταιρικές υπογραφές που είναι αποθηκευμένες ως ψηφιακά πιστοποιητικά. Τέτοια προστατευόμενα έγγραφα δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή.
+        {{< landing/code title="Ακολουθεί ο τρόπος διασφάλισης της ακεραιότητας του εγγράφου.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Φορτώστε το έγγραφο που πρόκειται να υπογραφεί ψηφιακά
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Καθορίστε τις επιλογές ψηφιακής υπογραφής και δώστε τη διαδρομή προς το αρχείο πιστοποιητικού
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Ορίστε τον κωδικό πρόσβασης του πιστοποιητικού
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Υπογράψτε το έγγραφο και αποθηκεύστε το στην επιθυμητή διαδρομή
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

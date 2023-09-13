@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET、Java、クラウド API、オンライン ドキュメント
 head_description: ".NET、Java、およびクラウドベースのアプリケーション向けのオールインワンのドキュメント電子署名ソリューションを入手してください。シンプルなドラッグ アンド ドロップ機能を使用して、一般的なドキュメント形式にオンラインで署名する"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "書類に署名する<br>.NET API経由"
 description: "プログラマーとエンド ユーザー向けの柔軟な API とアプリ ベースのソリューションを使用して、任意のプラットフォームでデジタル ドキュメントと画像に署名します。"
 words:
-  for: "{index-content.words_for}"
+  for: "のために"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "無料の NuGet ダウンロード"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "ライセンス"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "始める準備はできていますか?"
+  description: "GroupDocs.Signature 機能を無料で試すか、ライセンスをリクエストしてください"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "バージョン {0} がリリースされました"
+  notes: "新機能を見る"
+  downloads: "ダウンロード"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "C# で PDF ファイルに署名する"
+  more: "他の例"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // PDFドキュメントを選択
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // テキストを提供する
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // 色を設定する
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // 文書に署名してファイルに保存
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature の概要"
+  description: ".NET アプリケーションでドキュメント署名および関連操作を実行するための API"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "C# でビジネス文書に署名を追加する"
+      content: "ドキュメントの署名: GroupDocs.Signature for .NET を使用すると、テキスト、画像、バーコード、デジタル証明書などのさまざまな種類の署名を PDF ドキュメントや Office ドキュメントに追加できます。この API を使用すると、非表示のメタデータを含むほぼすべてのデータ型でドキュメントに署名できます。"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "署名された文書の処理"
+      content: "追加の処理: GroupDocs.Signature を使用して、署名されたドキュメントに対して強力な操作を実行できます。これには、ビジネス文書内の既存の署名を検索し、特定の基準を使用して検証することが含まれます。さらに、この .NET API を通じてドキュメント情報を取得し、ページをプレビューすることができます。"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "結果のカスタマイズ"
+      content: "GroupDocs.Signature for .NET は、広範なカスタマイズ オプションを提供します。文書ページ上の任意の場所に署名を正確に配置し、さまざまな設定を使用して外観を調整できます。さらに、この API は、処理されたドキュメントを幅広いサポート形式で保存することをサポートします。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "プラットフォームの独立性"
+  description: "GroupDocs.Signature for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "サポートされているファイル形式"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET は、次の [ファイル形式](https://docs.groupdocs.com/signature/net/supported-document-formats/) での操作をサポートします。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office形式
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### 画像とその他の形式
+        * **ポータブル:** PDF
+        * **画像:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **その他のオフィス形式:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### その他のフォーマット
+        * **ウェブ:** HTML, MHTML
+        * **アーカイブ:** ZIP, TAR, 7Z
+        * **証明書:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature 機能"
+  description: "PDF、Office ドキュメント、画像に迅速かつ正確に署名"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "文書への署名"
+      content: "ビジネス文書上の任意の指定位置に、サポートされている 1 つまたは複数の種類の署名を正確に追加します。"
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "署名をカスタマイズする"
+      content: "色、フォント、境界線、回転などの機能を利用して、署名の外観を構成します。"
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "文書のパスワード保護"
+      content: "署名後にパスワードを設定して、特定の種類の文書を保護します。"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "変更からの保護"
+      content: "デジタル証明書による署名を追加した後、重要なビジネス文書が変更されるのを防ぎます。"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "署名されたファイルを他の形式に変換する"
+      content: "Word 文書を PDF として保存するなど、署名されたファイルを目的の形式に変換します。"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "ページのプレビューを抽出する"
+      content: "署名された文書からページを個別の画像として抽出し、将来の処理に備えます。"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "文書内の署名検索"
+      content: "特定のドキュメントに以前に追加された署名に関する情報を取得します。"
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "署名された文書を検証する"
+      content: "検証機能を使用して、ドキュメントが適切に署名されていることを検証します。"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "署名を更新または削除する"
+      content: "ページ上の特定の署名の位置変更、テキストの変更、削除を問題なく簡単に行うことができます。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "コードサンプル"
+  description: ".NET 操作の典型的な GroupDocs.Signature の使用例"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "QRコードをPDFに追加する"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        [QR コード](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) を PDF ドキュメントの特定のページに追加すると、ビジネス プロセスを強化できます。 以下は、GroupDocs.Signature を使用して QR コードを追加する方法の例です。
+        {{< landing/code title="QRコードをPDFに貼り付ける方法。">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // 署名する文書をロードします
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // 事前定義されたテキストを使用して QR コード オプションを作成する
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // QRコードのエンコードタイプとページ上の位置を設定する
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // 文書に署名し、結果ファイルとして保存します
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "デジタル証明書を使用した DOCX ドキュメントの保護"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        デジタル証明書として保存されている個人または企業の署名を使用して、[ドキュメントを保護](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) できます。 このような保護されたドキュメントは、署名を無効にすることなく変更することはできません。
+        {{< landing/code title="文書の整合性を確保する方法は次のとおりです。">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // デジタル署名する文書をロードします
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // デジタル署名オプションを指定し、証明書ファイルへのパスを指定します。
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // 証明書のパスワードを設定する
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // 文書に署名し、目的のパスに保存します
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

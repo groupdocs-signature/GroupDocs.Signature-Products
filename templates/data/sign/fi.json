@@ -245,12 +245,186 @@
     "api_nocodelabel": "Näytä kaikki koodittomat sovellukset",
     "api_nocode_1_content": "Allekirjoita Microsoft Word-, Excel-, PowerPoint-, Visio- ja PDF-tiedostot tekstillä, kuvalla, viivakoodilla tai QR-koodilla.",
     "api_nocode_2_content": "Allekirjoita Word-asiakirjoja digitaalisesti verkossa suoraan selaimestasi ilmaiseksi.",
-    "api_nocode_3_content": "e-Allekirjoita PDF-tiedostoja tekstin, kuvan tai viivakoodin avulla mistä tahansa verkkoselaimesta."
+    "api_nocode_3_content": "e-Allekirjoita PDF-tiedostoja tekstin, kuvan tai viivakoodin avulla mistä tahansa verkkoselaimesta.",
+    "title_1": "Allekirjoita asiakirjat",
+    "words_for": "varten",
+    "actions_alt": "Lisensointi",
+    "actions_title": "Oletko valmis aloittamaan?",
+    "actions_description": "Kokeile GroupDocs.Signature-ominaisuuksia ilmaiseksi tai pyydä lisenssi",
+    "release_title": "Versio {0} julkaistu",
+    "release_notes": "Katso mitä uutta",
+    "release_downloads": "Lataukset",
+    "code_more": "Lisää esimerkkejä",
+    "code_comment_1": "Valitse PDF-dokumentti",
+    "code_comment_2": "Anna tekstiä",
+    "code_comment_3": "Aseta väri",
+    "code_comment_4": "Allekirjoita asiakirja ja tallenna tiedostoon",
+    "overview_title": "GroupDocs.Signature Yleiskatsaus",
+    "platforms_title": "Alustan riippumattomuus",
+    "formats_title": "Tuetut tiedostomuodot",
+    "formats_groups": {
+      "title_1": "Microsoft Office -muodot",
+      "title_2": "Kuvat ja muut muodot",
+      "title_3": "Muut muodot",
+      "format_portable": "Kannettava",
+      "format_other_office": "Muut toimistomuodot",
+      "format_images": "Kuvat",
+      "format_web": "Web",
+      "format_archives": "Arkistot",
+      "format_certificates": "Sertifikaatit"
+    },
+    "code_samples": {
+      "title": "Koodinäytteet",
+      "sample_1": {
+        "code_title": "Kuinka laittaa QR-koodi PDF-tiedostoon.",
+        "comment_1": "Lataa allekirjoitettava asiakirja",
+        "comment_2": "Luo QR-koodivaihtoehtoja ennalta määritetyllä tekstillä",
+        "comment_3": "Määritä QR-koodin koodaustyyppi ja sijainti sivulla",
+        "comment_4": "Allekirjoita asiakirja ja tallenna se tulostiedostona"
+      },
+      "sample_2": {
+        "code_title": "Näin varmistat asiakirjan eheyden.",
+        "comment_1": "Lataa asiakirja digitaalisesti allekirjoitettavaa varten",
+        "comment_2": "Määritä digitaalisen allekirjoituksen asetukset ja anna polku varmennetiedostoon",
+        "comment_3": "Aseta varmenteen salasana",
+        "comment_4": "Allekirjoita asiakirja ja tallenna se haluamaasi polkuun"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API sähköisille allekirjoituksille"
+    "title": "Native .NET API sähköisille allekirjoituksille",
+    "title_2": ".NET API:n kautta",
+    "actions_main": "Ilmainen NuGet-lataus",
+    "code_title": "Allekirjoita PDF-tiedostot C#:lla",
+    "overview_description": "API asiakirjan allekirjoittamiseen ja niihin liittyvien toimintojen suorittamiseen .NET-sovelluksissa",
+    "overview_feature_1": {
+      "title": "Allekirjoitusten lisääminen yritysasiakirjoihin C#:ssa",
+      "description": "Asiakirjojen allekirjoittaminen: GroupDocs.Signature for .NET -sovelluksella voit lisätä PDF- ja Office-asiakirjoihin erilaisia ​​allekirjoituksia, kuten tekstiä, kuvia, viivakoodeja ja digitaalisia varmenteita. Tämän API:n avulla voit allekirjoittaa asiakirjasi lähes kaikilla tietotyypeillä, mukaan lukien piilotetut metatiedot."
+    },
+    "overview_feature_2": {
+      "title": "Allekirjoitettujen asiakirjojen käsittely",
+      "description": "Lisäkäsittely: Voit suorittaa tehokkaita toimintoja allekirjoitetuille asiakirjoille GroupDocs.Signaturen avulla. Tämä sisältää olemassa olevien allekirjoitusten etsimisen yritysasiakirjoista ja niiden tarkistamisen tietyillä kriteereillä. Lisäksi voit hakea asiakirjan tietoja ja esikatsella sivuja tämän .NET API:n kautta."
+    },
+    "overview_feature_3": {
+      "title": "Tulosten mukauttaminen",
+      "description": "GroupDocs.Signature for .NET tarjoaa laajat mukautusvaihtoehdot. Voit sijoittaa allekirjoitukset tarkasti mihin tahansa asiakirjan sivulle ja säätää niiden ulkoasua useiden asetusten avulla. Lisäksi tämä API tukee käsiteltyjen asiakirjojen tallentamista useissa tuetuissa muodoissa."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-ominaisuudet",
+      "description": "PDF-tiedostojen, Office-asiakirjojen ja kuvien allekirjoittaminen nopeasti ja tarkasti",
+      "feature_1": {
+        "title": "Asiakirjan allekirjoittaminen",
+        "content": "Lisää yksi tai useita tuettuja allekirjoitustyyppejä tarkasti mihin tahansa määritettyyn paikkaan yritysasiakirjoissa."
+      },
+      "feature_2": {
+        "title": "Muokkaa allekirjoituksia",
+        "content": "Käytä ominaisuuksia, kuten väriä, fonttia, reunusta, kiertoa jne., määrittääksesi allekirjoitusten ulkoasun."
+      },
+      "feature_3": {
+        "title": "Asiakirjan salasanasuojaus",
+        "content": "Suojaa tietyt asiakirjatyypit asettamalla salasana allekirjoituksen jälkeen."
+      },
+      "feature_4": {
+        "title": "Suojaus muutoksilta",
+        "content": "Estä tärkeiden yritysasiakirjojen muutokset liittämällä allekirjoituksen digitaalisella varmenteella."
+      },
+      "feature_5": {
+        "title": "Muunna allekirjoitetut tiedostot muihin muotoihin",
+        "content": "Muunna allekirjoitetut tiedostot haluttuihin muotoihin, kuten tallenna Word-asiakirja PDF-muodossa."
+      },
+      "feature_6": {
+        "title": "Pura sivujen esikatselut",
+        "content": "Poimi sivut allekirjoitetuista asiakirjoista yksittäisinä kuvina tulevaa käsittelyä varten."
+      },
+      "feature_7": {
+        "title": "Allekirjoitushaku asiakirjoista",
+        "content": "Hae tiedot aiemmin lisätyistä allekirjoituksista tiettyihin asiakirjoihin."
+      },
+      "feature_8": {
+        "title": "Vahvista allekirjoitetut asiakirjat",
+        "content": "Tarkista asiakirjojen oikea allekirjoitus vahvistusominaisuuksien avulla."
+      },
+      "feature_9": {
+        "title": "Päivitä tai poista allekirjoituksia",
+        "content": "Voit helposti sijoittaa tietyt allekirjoitukset sivulle, muokata niiden tekstiä tai poistaa ne ilman ongelmia."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia",
+    "formats_description": "GroupDocs.Signature for .NET tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Jotkut käyttävät tyypillisiä GroupDocs.Signature-tapauksia .NET-toimintoihin",
+    "code_title_sample_1": "Lisää QR-koodi PDF-tiedostoon",
+    "code_samples_sample_1_content_1": "[QR-koodien] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja.",
+    "code_samples_sample_1_content_2": "Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.",
+    "code_title_sample_2": "DOCX-asiakirjan suojaaminen digitaalisella varmenteella",
+    "code_samples_sample_2_content_1": "Voit [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",
+    "code_samples_sample_2_content_2": "Tällaisia ​​suojattuja asiakirjoja ei voida muuttaa ilman allekirjoituksen mitätöintiä."
   },
   "index-content-java": {
-    "title": "Java-sovellusliittymä digitaalisten allekirjoitusten hallintaan"
+    "title": "Java-sovellusliittymä digitaalisten allekirjoitusten hallintaan",
+    "title_2": "Java API:n kautta",
+    "actions_main": "Ilmainen Maven lataus",
+    "code_title": "Allekirjoita PDF-tiedostoja Javalla",
+    "overview_description": "API dokumenttien allekirjoittamiseen ja siihen liittyvien toimintojen suorittamiseen Java-sovelluksissa",
+    "overview_feature_1": {
+      "title": "Parannetut yritysasiakirjat digitaalisilla allekirjoituksilla Javassa",
+      "description": "Nopea ja muokattavissa oleva allekirjoitus: GroupDocs.Signature for Java tarjoaa laajan valikoiman digitaalisia allekirjoitusvaihtoehtoja PDF-tiedostoille, kuville ja Office-asiakirjoille. Voit käyttää tekstiä, viivakoodeja, QR-koodeja, digitaalisia varmenteita, kuvia tai piilotettuja metatietoja. Asiakirjojen käsittely on nopeaa ja tehokasta."
+    },
+    "overview_feature_2": {
+      "title": "Allekirjoitettujen asiakirjojen käsittely",
+      "description": "Edistyksellinen asiakirjojen käsittely sisältää tehokkaita toimintoja allekirjoitetuille asiakirjoille käyttäen GroupDocs.Signature for Javaa. Voit etsiä ja vahvistaa yritysasiakirjoihin lisättyjä allekirjoituksia useilla hyödyllisillä kriteereillä. Lisäksi voit tarkastella asiakirjan yksityiskohtaisia ​​tietoja tai saada esikatselukuvia sen sivuista."
+    },
+    "overview_feature_3": {
+      "title": "Erilaisia ​​lähtövaihtoehtoja",
+      "description": "Vahvat allekirjoitusasetukset mahdollistavat GroupDocs.Signature for Java -sovelluksella allekirjoitettujen asiakirjojen tulosteen mukauttamisen. Voit sijoittaa minkä tahansa allekirjoituksen tarkasti mille tahansa asiakirjasivulle ja määrittää sen ulkoasun eri tavoin. Java API tukee allekirjoitettujen yritysasiakirjojen tallentamista useissa tuetuissa muodoissa ja tarjoaa vaihtoehtoja niiden suojaamiseen salasanoilla."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-ominaisuudet",
+      "description": "PDF-tiedostojen, Office-asiakirjojen ja kuvien allekirjoittaminen digitaalisilla allekirjoituksilla",
+      "feature_1": {
+        "title": "Allekirjoitusten lisääminen",
+        "content": "Allekirjoita asiakirja käyttämällä erilaisia ​​tuettuja allekirjoitustyyppejä asettamalla digitaalinen allekirjoitus tarkasti mihin tahansa kohtaan millä tahansa sivulla."
+      },
+      "feature_2": {
+        "title": "Tulosten mukauttaminen",
+        "content": "Mukauta allekirjoituksen ulkoasua säätämällä väriä, fonttia, reunusta, kiertoa ja muita ominaisuuksia halutun tuloksen saavuttamiseksi."
+      },
+      "feature_3": {
+        "title": "Asiakirjojen suojaaminen salasanalla",
+        "content": "Monissa tuetuissa asiakirjatyypeissä voit suojata allekirjoitetun asiakirjan salasanalla."
+      },
+      "feature_4": {
+        "title": "Estä luvattomat muutokset",
+        "content": "Suojaa tärkeät digitaalisella varmenteella allekirjoitetut liikeasiakirjat luvattomilta muutoksilta."
+      },
+      "feature_5": {
+        "title": "Tulosten saaminen halutussa muodossa",
+        "content": "Hanki allekirjoitetut tulostiedostot helposti missä tahansa tuetussa muodossa. Voit myös muuntaa MS Word -asiakirjoja PDF-muotoon vaivattomasti."
+      },
+      "feature_6": {
+        "title": "Asiakirjan esikatselu",
+        "content": "Tallenna mikä tahansa asiakirjan sivu kuvana myöhempää käsittelyä varten."
+      },
+      "feature_7": {
+        "title": "Allekirjoituksia etsimässä",
+        "content": "Tiettyihin asiakirjoihin on mahdollista saada tietoa aiemmin lisätyistä allekirjoituksista."
+      },
+      "feature_8": {
+        "title": "Asiakirjojen vahvistaminen",
+        "content": "Tarkista minkä tahansa allekirjoitetun asiakirjan allekirjoitusten oikeellisuus."
+      },
+      "feature_9": {
+        "title": "Allekirjoitusten hallinta",
+        "content": "Kun allekirjoitus on asetettu asiakirjan sivulle, se voidaan poistaa, siirtää tai päivittää tarpeen mukaan."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia",
+    "formats_description": "GroupDocs.Signature for Java tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Jotkut käyttävät tyypillisiä GroupDocs.Signature-tapauksia Java-operaatioille",
+    "code_title_sample_1": "Paranna PDF-dokumenttia QR-koodilla",
+    "code_samples_sample_1_content_1": "Liiketoimintaprosessien parantaminen lisäämällä [QR-koodeja](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) PDF-dokumenttien tietyille sivuille voi olla arvokasta.",
+    "code_samples_sample_1_content_2": "Tässä on esimerkki QR-koodin lisäämisestä GroupDocs.Signature for Java -sovelluksella.",
+    "code_title_sample_2": "Suojaa DOCX käyttämällä digitaalista allekirjoitusta",
+    "code_samples_sample_2_content_1": "Voit [suojata asiakirjan](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",
+    "code_samples_sample_2_content_2": "Varmenteella suojattuja asiakirjoja ei voi muuttaa ilman allekirjoitusta mitätöimättä."
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:52
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
 head_description: "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Skrifaðu undir skjöl<br>í gegnum .NET API"
 description: "Skrifaðu undir stafræn skjöl og myndir á hvaða vettvang sem er með því að nota sveigjanleg API og app byggðar lausnir fyrir forritara og endanotendur."
 words:
-  for: "{index-content.words_for}"
+  for: "fyrir"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Ókeypis niðurhal NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Leyfisveitingar"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Tilbúinn til að byrja?"
+  description: "Prófaðu GroupDocs.Signature eiginleika ókeypis eða biddu um leyfi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Útgáfa {0} gefin út"
+  notes: "Sjáðu hvað er nýtt"
+  downloads: "Niðurhal"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Skráðu PDF skjöl í C#"
+  more: "Fleiri dæmi"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Veldu PDF skjal
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Gefðu upp texta
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Stilltu lit
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Skrifaðu undir skjal og vistaðu í skrá
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature Yfirlit"
+  description: "API til að framkvæma undirritun skjala og tengdar aðgerðir í .NET forritum"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Bætir undirskriftum við viðskiptaskjöl í C#"
+      content: "Skjalaundirskrift: Með GroupDocs.Signature fyrir .NET geturðu bætt ýmsum gerðum undirskrifta, svo sem texta, myndum, strikamerkjum og stafrænum skilríkjum, við PDF og Office skjöl. Þetta API gerir þér kleift að undirrita skjölin þín með næstum hvaða gagnategund sem er, þar á meðal falin lýsigögn."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Vinnsla undirritaðra skjala"
+      content: "Viðbótarvinnsla: Þú getur framkvæmt öflugar aðgerðir á undirrituðum skjölum með GroupDocs.Signature. Þetta felur í sér að leita að núverandi undirskriftum í viðskiptaskjölum og sannreyna þær með sérstökum forsendum. Að auki geturðu sótt skjalaupplýsingar og forskoðað síður í gegnum þetta .NET API."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Sérsníða niðurstöður"
+      content: "GroupDocs.Signature fyrir .NET býður upp á víðtæka aðlögunarmöguleika. Þú getur staðsett undirskriftir nákvæmlega hvar sem er á skjalasíðu og stillt útlit þeirra með ýmsum stillingum. Ennfremur styður þetta API vistun unnum skjölum á fjölmörgum studdum sniðum."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Sjálfstæði vettvangs"
+  description: "GroupDocs.Signature fyrir .NET styður eftirfarandi stýrikerfi, ramma og pakkastjóra"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Stutt skráarsnið"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature fyrir .NET styður aðgerðir með eftirfarandi [skráarsniðum](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office snið
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Myndir og önnur snið
+        * **Færanlegt:** PDF
+        * **Myndir:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Önnur skrifstofusnið:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Önnur snið
+        * **vefur:** HTML, MHTML
+        * **Skjalasafn:** ZIP, TAR, 7Z
+        * **Skírteini:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature eiginleikar"
+  description: "Undirritun PDF skjöl, skrifstofuskjöl og myndir hratt og örugglega"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Undirritun skjala"
+      content: "Bættu við einni eða mörgum studdum gerðum undirskrifta nákvæmlega á hvaða tilteknu stað sem er á viðskiptaskjölum."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Sérsníða undirskriftir"
+      content: "Notaðu eiginleika eins og lit, leturgerð, ramma, snúning osfrv., til að stilla útlit undirskrifta."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Skjalavörn með lykilorði"
+      content: "Tryggðu ákveðnar skjalagerðir með því að setja lykilorð eftir undirritun."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Vernd gegn breytingum"
+      content: "Koma í veg fyrir breytingar á mikilvægum viðskiptaskjölum eftir að hafa bætt við undirskrift með stafrænu skilríki."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Umbreyttu undirrituðum skrám í önnur snið"
+      content: "Umbreyttu undirrituðum skrám í æskileg snið, svo sem að vista Word skjal sem PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Dragðu út forsýningar á síðu"
+      content: "Dragðu út síður úr undirrituðum skjölum sem einstakar myndir til framtíðarvinnslu."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Undirskriftarleit í skjölum"
+      content: "Sæktu upplýsingar um áður bættar undirskriftir í tilteknum skjölum."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Staðfesta undirrituð skjöl"
+      content: "Staðfestu rétta undirritun skjala með því að nota löggildingareiginleika."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Uppfæra eða eyða undirskriftum"
+      content: "Breyttu ákveðnum undirskriftum auðveldlega á síðu, breyttu texta þeirra eða eyddu þeim án vandræða."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Kóða sýnishorn"
+  description: "Sumir nota dæmigerða GroupDocs.Signature fyrir .NET aðgerðir"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Bættu QR-kóða við PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Að bæta [QR-kóðum](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) við sérstakar síður af PDF skjölum getur aukið viðskiptaferla. Hér að neðan er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature.
+        {{< landing/code title="Hvernig á að setja QR kóða á PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Hladdu skjalinu til að undirrita
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Búðu til QR kóða valkosti með fyrirfram skilgreindum texta
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Stilltu QR kóða kóðun gerð og staðsetningu á síðunni
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Skrifaðu undir skjalið og vistaðu það sem niðurstöðuskrá
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Að vernda DOCX skjal með stafrænu vottorði"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Þú getur [verndað skjal](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki. Slíkum vernduðum skjölum er ekki hægt að breyta án þess að ógilda undirskriftina.
+        {{< landing/code title="Hér er hvernig á að tryggja heilindi skjalsins.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Hladdu skjalinu sem á að skrifa undir stafrænt
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Tilgreindu valkosti fyrir stafræna undirskrift og gefðu upp slóðina að vottorðaskránni
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Stilltu lykilorð vottorðsins
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Skrifaðu undir skjalið og vistaðu það á viðkomandi slóð
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API och onlinedokumentsignaturappar"
 head_description: "Få en allt-i-ett-dokumentlösning för e-signaturer för .NET, Java och molnbaserade applikationer. Signera vanliga dokumentformat online med en enkel dra och släpp-funktion"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Signera dokument<br>via Java API"
 description: "Signera digitala dokument och bilder på vilken plattform som helst med hjälp av våra flexibla API:er och appbaserade lösningar för programmerare och slutanvändare."
 words:
-  for: "{index-content.words_for}"
+  for: "för"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Gratis nedladdning av Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Licensiering"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Redo att komma igång?"
+  description: "Prova GroupDocs.Signature-funktioner gratis eller begär en licens"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Version {0} släpptes"
+  notes: "Se vad som är nytt"
+  downloads: "Nedladdningar"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Signera PDF-filer i Java"
+  more: "Fler exempel"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Välj PDF-dokument
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Ge text
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Signera dokument och spara till fil
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Översikt"
+  description: "API för att utföra dokumentsignering och relaterade operationer i Java-applikationer"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Förbättrade affärsdokument med digitala signaturer i Java"
+      content: "Snabb och anpassningsbar signering: GroupDocs.Signature för Java erbjuder ett brett utbud av digitala signaturalternativ för PDF-filer, bilder och Office-dokument. Du kan använda text, streckkoder, QR-koder, digitala certifikat, bilder eller dold metadata. Dokumentbehandlingen är snabb och effektiv."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipulera undertecknade dokument"
+      content: "Avancerad dokumentbehandling involverar kraftfulla operationer på signerade dokument med GroupDocs.Signature för Java. Du kan söka efter och validera signaturer som har lagts till i affärsdokument med hjälp av olika användbara kriterier. Dessutom kan du få tillgång till detaljerad information om dokumentet eller få förhandsvisningsbilder av dess sidor."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Olika utgångsalternativ"
+      content: "Robusta signeringsalternativ låter dig anpassa utdata för dokument signerade med GroupDocs.Signature for Java. Du kan placera vilken signatur som helst på vilken dokumentsida som helst och konfigurera dess utseende på olika sätt. Java API stöder att spara signerade affärsdokument i många format som stöds och ger alternativ för att skydda dem med lösenord."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Plattformsoberoende"
+  description: "GroupDocs.Signature för Java stöder följande operativsystem, ramverk och pakethanterare"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Filformat som stöds"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature för Java stöder operationer med följande [filformat](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office-format
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Bilder och andra format
+        * **Bärbar:** PDF
+        * **Bilder:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Andra kontorsformat:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Andra format
+        * **webb:** HTML, MHTML
+        * **Arkiv:** ZIP, TAR, 7Z
+        * **Certifikat:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature-funktioner"
+  description: "Signera PDF-filer, Office-dokument och bilder med digitala signaturer"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Lägga till signaturer"
+      content: "Signera ett dokument med olika signaturtyper som stöds genom att placera en digital signatur exakt var som helst på vilken sida som helst."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Anpassa resultat"
+      content: "Anpassa signaturutseendet genom att justera färg, teckensnitt, ram, rotation och andra funktioner för att uppnå önskat resultat."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Säkra dokument med lösenord"
+      content: "För många dokumenttyper som stöds kan du skydda det signerade dokumentet med ett lösenord."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Förhindra obehöriga ändringar"
+      content: "Skydda viktiga affärsdokument signerade med ett digitalt certifikat från obehöriga ändringar."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Få resultat i önskade format"
+      content: "Få enkelt signerade resultatfiler i alla format som stöds. Du kan också konvertera MS Word-dokument till PDF utan ansträngning."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Förhandsgranskning av dokument"
+      content: "Spara vilken sida som helst i ett dokument som en bild för framtida bearbetning."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Söker efter signaturer"
+      content: "Det är möjligt att få information om tidigare tillagda signaturer i specifika dokument."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Validera dokument"
+      content: "Validera riktigheten av underskrifter på alla undertecknade dokument."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Hantera signaturer"
+      content: "När en signatur väl har placerats på en dokumentsida kan den tas bort, flyttas eller uppdateras efter behov."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Kodprover"
+  description: "Vissa använder fall av typiska GroupDocs.Signature för Java-operationer"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Förbättra PDF-dokument med QR-kod"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Att förbättra affärsprocesser genom att lägga till [QR-koder](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) på specifika sidor i PDF-dokument kan vara värdefullt. Det finns ett exempel på hur man lägger till en QR-kod med GroupDocs.Signature för Java.
+        {{< landing/code title="Förbättra PDF-dokument med QR-kod">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Ladda dokumentet för att signera
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Skapa QR-kodalternativ med fördefinierad text
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Konfigurera QR-kodskodningstyp och position på sidan
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Signera dokumentet och spara det som resultatfil
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Använd digital signatur för att skydda en DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Du kan [Skydda ett dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) genom att använda personliga eller företagssignaturer som lagras som digitala certifikat. Dokument säkrade med certifikat kan inte ändras utan att signaturen ogiltigförklaras.
+        {{< landing/code title="Använd digital signatur för att skydda en DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Ladda dokumentet som ska signeras digitalt
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Ange alternativ för digital signering och ange sökvägen till certifikatfilen
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Ställ in certifikatlösenordet
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Signera dokumentet och spara det på önskad sökväg
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

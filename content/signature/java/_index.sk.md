@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API a online aplikácie na podpisovanie dokumento
 head_description: "Získajte komplexné riešenie elektronického podpisu dokumentov pre .NET, Java a cloudové aplikácie. Podpíšte bežné formáty dokumentov online pomocou jednoduchej funkcie drag and drop"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Podpíšte dokumenty<br>cez Java API"
 description: "Podpisujte digitálne dokumenty a obrázky na akejkoľvek platforme pomocou našich flexibilných rozhraní API a riešení založených na aplikáciách pre programátorov a koncových používateľov."
 words:
-  for: "{index-content.words_for}"
+  for: "pre"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Maven na stiahnutie zadarmo"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Licencovanie"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Ste pripravení začať?"
+  description: "Vyskúšajte bezplatne funkcie GroupDocs.Signature alebo požiadajte o licenciu"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Vydaná verzia {0}"
+  notes: "Pozrite sa, čo je nové"
+  downloads: "K stiahnutiu"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Podpíšte súbory PDF v jazyku Java"
+  more: "Viac príkladov"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Vyberte dokument PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Poskytnite text
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Dokument podpíšte a uložte do súboru
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Prehľad GroupDocs.Signature"
+  description: "API na vykonávanie podpisovania dokumentov a súvisiacich operácií v aplikáciách Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Vylepšené obchodné dokumenty s digitálnymi podpismi v jazyku Java"
+      content: "Rýchle a prispôsobiteľné podpisovanie: GroupDocs.Signature for Java ponúka širokú škálu možností digitálneho podpisu pre súbory PDF, obrázky a dokumenty balíka Office. Môžete použiť text, čiarové kódy, QR kódy, digitálne certifikáty, obrázky alebo skryté metadáta. Spracovanie dokumentov je rýchle a efektívne."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipulácia s podpísanými dokumentmi"
+      content: "Pokročilé spracovanie dokumentov zahŕňa výkonné operácie s podpísanými dokumentmi pomocou GroupDocs.Signature pre Java. Pomocou rôznych užitočných kritérií môžete vyhľadávať a overovať podpisy, ktoré boli pridané do obchodných dokumentov. Okrem toho môžete získať prístup k podrobným informáciám o dokumente alebo získať ukážky obrázkov jeho strán."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Rôzne možnosti výberu výstupu"
+      content: "Rozsiahle možnosti podpisovania vám umožňujú prispôsobiť výstup pre dokumenty podpísané pomocou GroupDocs.Signature for Java. Akýkoľvek podpis môžete presne umiestniť na akúkoľvek stránku dokumentu a rôznymi spôsobmi nakonfigurovať jeho vzhľad. Java API podporuje ukladanie podpísaných obchodných dokumentov v mnohých podporovaných formátoch a poskytuje možnosti na ich zabezpečenie heslom."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Nezávislosť na platforme"
+  description: "GroupDocs.Signature for Java podporuje nasledujúce operačné systémy, rámce a správcov balíkov"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Podporované formáty súborov"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature for Java podporuje operácie s nasledujúcimi [formátmi súborov](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formáty Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Obrázky a iné formáty
+        * **Prenosný:** PDF
+        * **snímky:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Iné kancelárske formáty:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Iné formáty
+        * **Web:** HTML, MHTML
+        * **Archívy:** ZIP, TAR, 7Z
+        * **Certifikáty:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Funkcie GroupDocs.Signature"
+  description: "Podpisovanie PDF, Office dokumentov a obrázkov digitálnymi podpismi"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Pridávanie podpisov"
+      content: "Podpíšte dokument pomocou rôznych podporovaných typov podpisov umiestnením digitálneho podpisu presne na ľubovoľné miesto na ľubovoľnej strane."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Prispôsobenie výsledkov"
+      content: "Prispôsobte si vzhľad podpisu úpravou farby, písma, orámovania, otočenia a ďalších funkcií, aby ste dosiahli požadovaný výsledok."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Zabezpečenie dokumentov heslom"
+      content: "Pri mnohých podporovaných typoch dokumentov môžete podpísaný dokument chrániť heslom."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Zabránenie neoprávneným zmenám"
+      content: "Chráňte dôležité obchodné dokumenty podpísané digitálnym certifikátom pred neoprávnenými úpravami."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Získanie výsledkov v požadovaných formátoch"
+      content: "Ľahko získajte podpísané súbory výsledkov v akomkoľvek podporovanom formáte. Môžete tiež bez námahy previesť dokumenty MS Word do PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Ukážka dokumentu"
+      content: "Uložte ľubovoľnú stranu dokumentu ako obrázok pre budúce spracovanie."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Hľadanie podpisov"
+      content: "V konkrétnych dokumentoch je možné získať informácie o predtým pridaných podpisoch."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Overovanie dokumentov"
+      content: "Overte správnosť podpisov na akomkoľvek podpísanom dokumente."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Správa podpisov"
+      content: "Po umiestnení podpisu na stranu dokumentu ho možno podľa potreby odstrániť, presunúť alebo aktualizovať."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Vzorky kódu"
+  description: "Niektoré prípady použitia typických GroupDocs.Signature pre operácie Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Vylepšite dokument PDF pomocou QR kódu"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Vylepšenie obchodných procesov pridaním [QR-kódov](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) na konkrétne strany dokumentov PDF môže byť cenné. Existuje príklad, ako pridať QR kód pomocou GroupDocs.Signature pre Java.
+        {{< landing/code title="Vylepšite dokument PDF pomocou QR kódu">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Vložte dokument, ktorý chcete podpísať
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Vytvorte možnosti QR kódu s preddefinovaným textom
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Nakonfigurujte typ kódovania QR kódu a pozíciu na stránke
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Podpíšte dokument a uložte ho ako výsledný súbor
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Použite digitálny podpis na ochranu DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Môžete [Zabezpečiť dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomocou osobných alebo firemných podpisov uložených ako digitálne certifikáty. Dokumenty zabezpečené certifikátom nie je možné meniť bez znehodnotenia podpisu.
+        {{< landing/code title="Použite digitálny podpis na ochranu DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Vložte dokument, ktorý sa má digitálne podpísať
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Zadajte voľby digitálneho podpisovania a zadajte cestu k súboru certifikátu
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Nastavte heslo certifikátu
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Podpíšte dokument a uložte ho na požadovanú cestu
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Wolk API's en Aanlyn Dokument Handtekening Apps"
 head_description: "Kry alles-in-een dokument e-handtekening oplossing vir .NET, Java en wolk-gebaseerde toepassings. Teken algemene dokumentformate aanlyn met 'n eenvoudige sleep-en-losfunksie"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Teken dokumente<br>via Java API"
 description: "Teken digitale dokumente en beelde op enige platform deur ons buigsame API's en toepassingsgebaseerde oplossings vir programmeerders en eindgebruikers te gebruik."
 words:
-  for: "{index-content.words_for}"
+  for: "vir"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Gratis Maven-aflaai"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Lisensiëring"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Gereed om te begin?"
+  description: "Probeer GroupDocs.Signature-kenmerke gratis of versoek 'n lisensie"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Weergawe {0} vrygestel"
+  notes: "Kyk wat nuut is"
+  downloads: "Aflaaie"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Teken PDF-lêers in Java"
+  more: "Meer voorbeelde"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Kies PDF-dokument
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Verskaf teks
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Teken dokument en stoor in lêer
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Oorsig"
+  description: "API vir die uitvoer van dokumentondertekening en verwante bewerkings in Java-toepassings"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Verbeterde besigheidsdokumente met digitale handtekeninge in Java"
+      content: "Vinnige en aanpasbare ondertekening: GroupDocs.Signature vir Java bied 'n wye reeks digitale handtekeningopsies vir PDF's, beelde en Office-dokumente. Jy kan teks, strepieskodes, QR-kodes, digitale sertifikate, prente of versteekte metadata gebruik. Die dokumentverwerking is vinnig en doeltreffend."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipuleer ondertekende dokumente"
+      content: "Gevorderde dokumentverwerking behels kragtige bewerkings op ondertekende dokumente deur GroupDocs.Signature vir Java te gebruik. U kan handtekeninge wat by besigheidsdokumente gevoeg is soek en bekragtig met behulp van verskeie nuttige kriteria. Daarbenewens kan jy toegang tot gedetailleerde inligting oor die dokument kry of voorskoubeelde van sy bladsye kry."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Verskeidenheid uitsetkeuses"
+      content: "Robuuste ondertekenopsies laat jou toe om die uitvoer vir dokumente wat met GroupDocs.Signature vir Java onderteken is, aan te pas. Jy kan enige handtekening presies op enige dokumentbladsy posisioneer en die voorkoms daarvan op verskeie maniere instel. Die Java API ondersteun die stoor van ondertekende besigheidsdokumente in talle ondersteunde formate en bied opsies om dit met wagwoorde te beveilig."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Platform onafhanklikheid"
+  description: "GroupDocs.Signature vir Java ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Ondersteunde lêerformate"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature vir Java ondersteun bedrywighede met die volgende [lêerformate](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office-formate
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Prente en ander formate
+        * **Draagbaar:** PDF
+        * **Beelde:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Ander kantoorformate:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Ander formate
+        * **Web:** HTML, MHTML
+        * **Argiewe:** ZIP, TAR, 7Z
+        * **Sertifikate:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature kenmerke"
+  description: "Ondertekening van PDF's, Office Documents en beelde met digitale handtekeninge"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Voeg handtekeninge by"
+      content: "Teken 'n dokument deur verskeie ondersteunde handtekeningtipes te gebruik deur 'n digitale handtekening presies op enige posisie op enige bladsy te plaas."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Pasmaak van resultate"
+      content: "Pas die kenmerkende voorkoms aan deur kleur, lettertipe, rand, rotasie en ander kenmerke aan te pas om die gewenste resultaat te bereik."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Beveilig dokumente met wagwoord"
+      content: "Vir baie ondersteunde dokumenttipes kan jy die ondertekende dokument met 'n wagwoord beskerm."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Voorkoming van ongemagtigde veranderinge"
+      content: "Beskerm belangrike sakedokumente wat met 'n digitale sertifikaat onderteken is teen ongemagtigde wysigings."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Verkry resultate in gewenste formate"
+      content: "Kry maklik getekende resultaatlêers in enige ondersteunde formaat. Jy kan ook moeiteloos MS Word-dokumente na PDF omskakel."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Dokumentvoorskou"
+      content: "Stoor enige bladsy van 'n dokument as 'n prent vir toekomstige verwerking."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Soek na handtekeninge"
+      content: "Dit is moontlik om inligting oor voorheen bygevoegde handtekeninge in spesifieke dokumente te kry."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Valideer dokumente"
+      content: "Bekragtig die korrektheid van handtekeninge op enige ondertekende dokument."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Die bestuur van handtekeninge"
+      content: "Sodra 'n handtekening op 'n dokumentbladsy geplaas is, kan dit uitgevee, geskuif of opgedateer word soos nodig."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Kode monsters"
+  description: "Sommige gebruik gevalle van tipiese GroupDocs.Signature vir Java-bewerkings"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Verbeter PDF-dokument met QR-kode"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Om besigheidsprosesse te verbeter deur [QR-kodes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) by spesifieke bladsye van PDF-dokumente by te voeg, kan waardevol wees. Daar is 'n voorbeeld van hoe om 'n QR-kode by te voeg deur GroupDocs.Signature vir Java te gebruik.
+        {{< landing/code title="Verbeter PDF-dokument met QR-kode">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Laai die dokument om te onderteken
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Skep QR-kode-opsies met voorafbepaalde teks
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Stel QR-kode enkodering tipe en posisie op die bladsy op
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Teken die dokument en stoor dit as die resultaatlêer
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Gebruik digitale handtekening om 'n DOCX te beskerm"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Jy kan [Beveilig 'n dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) met persoonlike of korporatiewe handtekeninge wat as digitale sertifikate gestoor is. Dokumente wat met sertifikaat beveilig is, kan nie verander word sonder om die handtekening ongeldig te maak nie.
+        {{< landing/code title="Gebruik digitale handtekening om 'n DOCX te beskerm">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Laai die dokument wat digitaal onderteken moet word
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Spesifiseer opsies vir digitale ondertekening en verskaf die pad na die sertifikaatlêer
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Stel die sertifikaatwagwoord in
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Teken die dokument en stoor dit op die verlangde pad
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

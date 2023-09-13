@@ -245,12 +245,186 @@
     "api_nocodelabel": "Xem tất cả ứng dụng không có mã",
     "api_nocode_1_content": "Ký các tệp Microsoft Word, Excel, PowerPoint, Visio & PDF bằng văn bản, hình ảnh, Mã vạch hoặc Mã QR.",
     "api_nocode_2_content": "Ký điện tử tài liệu Word trực tuyến miễn phí từ trình duyệt của bạn.",
-    "api_nocode_3_content": "e-Ký các tệp PDF bằng văn bản, hình ảnh hoặc mã vạch từ bên trong bất kỳ trình duyệt web nào."
+    "api_nocode_3_content": "e-Ký các tệp PDF bằng văn bản, hình ảnh hoặc mã vạch từ bên trong bất kỳ trình duyệt web nào.",
+    "title_1": "Ký văn bản",
+    "words_for": "vì",
+    "actions_alt": "Cấp phép",
+    "actions_title": "Sẵn sàng để bắt đầu?",
+    "actions_description": "Dùng thử miễn phí các tính năng của GroupDocs.Signature hoặc yêu cầu giấy phép",
+    "release_title": "Đã phát hành phiên bản {0}",
+    "release_notes": "Xem có gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "code_comment_1": "Chọn tài liệu PDF",
+    "code_comment_2": "Cung cấp văn bản",
+    "code_comment_3": "Đặt màu",
+    "code_comment_4": "Ký tài liệu và lưu vào tập tin",
+    "overview_title": "Tổng quan về GroupDocs.Signature",
+    "platforms_title": "Nền tảng độc lập",
+    "formats_title": "Các định dạng tập tin được hỗ trợ",
+    "formats_groups": {
+      "title_1": "Các định dạng Microsoft Office",
+      "title_2": "Hình ảnh & Định dạng khác",
+      "title_3": "Các định dạng khác",
+      "format_portable": "Cầm tay",
+      "format_other_office": "Các dạng văn phòng khác",
+      "format_images": "Hình ảnh",
+      "format_web": "Web",
+      "format_archives": "Lưu trữ",
+      "format_certificates": "Chứng chỉ"
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "sample_1": {
+        "code_title": "Cách đặt mã QR vào PDF.",
+        "comment_1": "Tải tài liệu để ký",
+        "comment_2": "Tạo tùy chọn mã QR với văn bản được xác định trước",
+        "comment_3": "Định cấu hình loại và vị trí mã hóa mã QR trên trang",
+        "comment_4": "Ký tài liệu và lưu nó dưới dạng tệp kết quả"
+      },
+      "sample_2": {
+        "code_title": "Đây là cách đảm bảo tính toàn vẹn của tài liệu.",
+        "comment_1": "Tải tài liệu cần được ký điện tử",
+        "comment_2": "Chỉ định các tùy chọn ký kỹ thuật số và cung cấp đường dẫn đến tệp chứng chỉ",
+        "comment_3": "Đặt mật khẩu chứng chỉ",
+        "comment_4": "Ký tài liệu và lưu nó vào đường dẫn mong muốn"
+      }
+    }
   },
   "index-content-net": {
-    "title": "API .NET gốc cho chữ ký điện tử"
+    "title": "API .NET gốc cho chữ ký điện tử",
+    "title_2": "thông qua API .NET",
+    "actions_main": "Tải xuống NuGet miễn phí",
+    "code_title": "Ký tệp PDF trong C#",
+    "overview_description": "API để thực hiện ký tài liệu và các hoạt động liên quan trong ứng dụng .NET",
+    "overview_feature_1": {
+      "title": "Thêm chữ ký vào tài liệu kinh doanh trong C#",
+      "description": "Ký tài liệu: Với GroupDocs.Signature cho .NET, bạn có thể thêm nhiều loại chữ ký khác nhau, chẳng hạn như văn bản, hình ảnh, mã vạch và chứng chỉ kỹ thuật số vào tài liệu PDF và Office. API này cho phép bạn ký tài liệu của mình với hầu hết mọi loại dữ liệu, bao gồm cả siêu dữ liệu ẩn."
+    },
+    "overview_feature_2": {
+      "title": "Xử lý văn bản đã ký",
+      "description": "Xử lý bổ sung: Bạn có thể thực hiện các thao tác mạnh mẽ trên các tài liệu đã ký bằng GroupDocs.Signature. Điều này bao gồm tìm kiếm chữ ký hiện có trong tài liệu kinh doanh và xác minh chúng bằng các tiêu chí cụ thể. Ngoài ra, bạn có thể truy xuất thông tin tài liệu và xem trước các trang thông qua API .NET này."
+    },
+    "overview_feature_3": {
+      "title": "Tùy chỉnh kết quả",
+      "description": "GroupDocs.Signature cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng. Bạn có thể định vị chính xác chữ ký ở bất kỳ đâu trên trang tài liệu và điều chỉnh giao diện của chúng bằng nhiều cài đặt khác nhau. Hơn nữa, API này hỗ trợ lưu các tài liệu đã xử lý ở nhiều định dạng được hỗ trợ."
+    },
+    "features": {
+      "title": "Tính năng GroupDocs.Signature",
+      "description": "Ký các tệp PDF, Tài liệu Office và Hình ảnh nhanh chóng và chính xác",
+      "feature_1": {
+        "title": "Ký tài liệu",
+        "content": "Thêm một hoặc nhiều loại chữ ký được hỗ trợ một cách chính xác tại bất kỳ vị trí nào được chỉ định trên tài liệu kinh doanh."
+      },
+      "feature_2": {
+        "title": "Tùy chỉnh chữ ký",
+        "content": "Sử dụng các tính năng như màu sắc, phông chữ, đường viền, xoay, v.v. để định cấu hình giao diện của chữ ký."
+      },
+      "feature_3": {
+        "title": "Bảo vệ mật khẩu tài liệu",
+        "content": "Bảo mật một số loại tài liệu nhất định bằng cách đặt mật khẩu sau khi ký."
+      },
+      "feature_4": {
+        "title": "Bảo vệ khỏi những thay đổi",
+        "content": "Ngăn chặn những thay đổi đối với các tài liệu kinh doanh quan trọng sau khi thêm chữ ký bằng chứng chỉ số."
+      },
+      "feature_5": {
+        "title": "Chuyển đổi tập tin đã ký sang các định dạng khác",
+        "content": "Chuyển đổi các tệp đã ký sang các định dạng mong muốn, chẳng hạn như lưu tài liệu Word dưới dạng PDF."
+      },
+      "feature_6": {
+        "title": "Trích xuất bản xem trước trang",
+        "content": "Trích xuất các trang từ tài liệu đã ký dưới dạng hình ảnh riêng lẻ để xử lý trong tương lai."
+      },
+      "feature_7": {
+        "title": "Tìm kiếm chữ ký trong tài liệu",
+        "content": "Truy xuất thông tin về chữ ký đã thêm trước đó trong các tài liệu cụ thể."
+      },
+      "feature_8": {
+        "title": "Xác thực các tài liệu đã ký",
+        "content": "Xác minh việc ký tài liệu phù hợp bằng cách sử dụng các tính năng xác thực."
+      },
+      "feature_9": {
+        "title": "Cập nhật hoặc xóa chữ ký",
+        "content": "Dễ dàng định vị lại các chữ ký cụ thể trên một trang, sửa đổi văn bản hoặc xóa chúng mà không gặp bất kỳ sự cố nào."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
+    "formats_description": "GroupDocs.Signature cho .NET hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Một số trường hợp sử dụng GroupDocs.Signature điển hình cho các hoạt động .NET",
+    "code_title_sample_1": "Thêm mã QR vào PDF",
+    "code_samples_sample_1_content_1": "Việc thêm [mã QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) vào các trang cụ thể của tài liệu PDF có thể nâng cao quy trình kinh doanh.",
+    "code_samples_sample_1_content_2": "Dưới đây là ví dụ về cách thêm mã QR bằng GroupDocs.Signature.",
+    "code_title_sample_2": "Bảo vệ tài liệu DOCX bằng chứng chỉ kỹ thuật số",
+    "code_samples_sample_2_content_1": "Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số.",
+    "code_samples_sample_2_content_2": "Những tài liệu được bảo vệ như vậy không thể được sửa đổi nếu không làm mất hiệu lực chữ ký."
   },
   "index-content-java": {
-    "title": "API Java để quản lý chữ ký số"
+    "title": "API Java để quản lý chữ ký số",
+    "title_2": "thông qua API Java",
+    "actions_main": "Tải xuống Maven miễn phí",
+    "code_title": "Ký các tệp PDF trong Java",
+    "overview_description": "API để thực hiện ký tài liệu và các hoạt động liên quan trong ứng dụng Java",
+    "overview_feature_1": {
+      "title": "Tài liệu kinh doanh được cải thiện với chữ ký số trong Java",
+      "description": "Ký nhanh chóng và có thể tùy chỉnh: GroupDocs.Signature cho Java cung cấp nhiều tùy chọn chữ ký số cho tệp PDF, hình ảnh và tài liệu Office. Bạn có thể sử dụng văn bản, mã vạch, mã QR, chứng chỉ kỹ thuật số, hình ảnh hoặc siêu dữ liệu ẩn. Quá trình xử lý tài liệu nhanh chóng và hiệu quả."
+    },
+    "overview_feature_2": {
+      "title": "Thao tác các tài liệu đã ký",
+      "description": "Xử lý tài liệu nâng cao bao gồm các thao tác mạnh mẽ trên các tài liệu đã ký bằng GroupDocs.Signature cho Java. Bạn có thể tìm kiếm và xác thực chữ ký đã được thêm vào tài liệu kinh doanh bằng nhiều tiêu chí hữu ích khác nhau. Ngoài ra, bạn có thể truy cập thông tin chi tiết về tài liệu hoặc lấy hình ảnh xem trước của các trang trong tài liệu."
+    },
+    "overview_feature_3": {
+      "title": "Sự lựa chọn đầu ra đa dạng",
+      "description": "Các tùy chọn ký mạnh mẽ cho phép bạn tùy chỉnh đầu ra cho các tài liệu được ký bằng GroupDocs.Signature cho Java. Bạn có thể định vị chính xác bất kỳ chữ ký nào trên bất kỳ trang tài liệu nào và định cấu hình giao diện của nó theo nhiều cách khác nhau. API Java hỗ trợ lưu các tài liệu kinh doanh đã ký ở nhiều định dạng được hỗ trợ và cung cấp các tùy chọn để bảo mật chúng bằng mật khẩu."
+    },
+    "features": {
+      "title": "Tính năng GroupDocs.Signature",
+      "description": "Ký các tệp PDF, Tài liệu Office và hình ảnh bằng chữ ký số",
+      "feature_1": {
+        "title": "Thêm chữ ký",
+        "content": "Ký tài liệu bằng nhiều loại chữ ký được hỗ trợ khác nhau bằng cách đặt chữ ký điện tử chính xác ở bất kỳ vị trí nào trên bất kỳ trang nào."
+      },
+      "feature_2": {
+        "title": "Tùy chỉnh kết quả",
+        "content": "Tùy chỉnh giao diện chữ ký bằng cách điều chỉnh màu sắc, phông chữ, đường viền, xoay và các tính năng khác để đạt được kết quả mong muốn."
+      },
+      "feature_3": {
+        "title": "Bảo mật tài liệu bằng mật khẩu",
+        "content": "Đối với nhiều loại tài liệu được hỗ trợ, bạn có thể bảo vệ tài liệu đã ký bằng mật khẩu."
+      },
+      "feature_4": {
+        "title": "Ngăn chặn những thay đổi trái phép",
+        "content": "Bảo vệ các tài liệu kinh doanh quan trọng được ký bằng chứng chỉ kỹ thuật số khỏi những sửa đổi trái phép."
+      },
+      "feature_5": {
+        "title": "Thu được kết quả ở định dạng mong muốn",
+        "content": "Dễ dàng có được các tệp kết quả đã ký ở bất kỳ định dạng được hỗ trợ nào. Bạn cũng có thể chuyển đổi tài liệu MS Word sang PDF một cách dễ dàng."
+      },
+      "feature_6": {
+        "title": "Xem trước tài liệu",
+        "content": "Lưu bất kỳ trang nào của tài liệu dưới dạng hình ảnh để xử lý trong tương lai."
+      },
+      "feature_7": {
+        "title": "Tìm kiếm chữ ký",
+        "content": "Có thể lấy thông tin về chữ ký đã thêm trước đó trong các tài liệu cụ thể."
+      },
+      "feature_8": {
+        "title": "Xác thực tài liệu",
+        "content": "Xác thực tính chính xác của chữ ký trên bất kỳ tài liệu đã ký nào."
+      },
+      "feature_9": {
+        "title": "Quản lý chữ ký",
+        "content": "Sau khi chữ ký được đặt trên trang tài liệu, nó có thể bị xóa, di chuyển hoặc cập nhật nếu cần."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
+    "formats_description": "GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Một số trường hợp sử dụng GroupDocs.Signature điển hình cho các hoạt động Java",
+    "code_title_sample_1": "Nâng cao tài liệu PDF bằng mã QR",
+    "code_samples_sample_1_content_1": "Nâng cao quy trình kinh doanh bằng cách thêm [mã QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) vào các trang cụ thể của tài liệu PDF có thể có giá trị.",
+    "code_samples_sample_1_content_2": "Có một ví dụ về cách thêm mã QR bằng GroupDocs.Signature cho Java.",
+    "code_title_sample_2": "Sử dụng chữ ký số để bảo vệ DOCX",
+    "code_samples_sample_2_content_1": "Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số.",
+    "code_samples_sample_2_content_2": "Các tài liệu được bảo đảm bằng chứng chỉ không thể bị thay đổi nếu không làm mất hiệu lực chữ ký."
   }
 }

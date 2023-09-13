@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API-ներ և առցանց փաստաթղթերի
 head_description: "Ստացեք փաստաթղթի էլեկտրոնային ստորագրության ամբողջական լուծում .NET, Java և ամպի վրա հիմնված հավելվածների համար: Ստորագրեք սովորական փաստաթղթերի ձևաչափերը առցանց՝ օգտագործելով պարզ քաշել և թողնել հնարավորությունը"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Ստորագրեք փաստաթղթերը<br>.NET API-ի միջոցով"
 description: "Ստորագրեք թվային փաստաթղթեր և պատկերներ ցանկացած հարթակում՝ օգտագործելով մեր ճկուն API-ները և հավելվածների վրա հիմնված լուծումները ծրագրավորողների և վերջնական օգտագործողների համար:"
 words:
-  for: "{index-content.words_for}"
+  for: "համար"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "NuGet անվճար ներբեռնում"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Լիցենզավորում"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Պատրա՞ստ եք սկսել:"
+  description: "Փորձեք GroupDocs.Signature-ի գործառույթները անվճար կամ խնդրեք լիցենզիա"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "{0} տարբերակը թողարկվել է"
+  notes: "Տեսեք, թե ինչ նորություն կա"
+  downloads: "Ներբեռնումներ"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Ստորագրեք PDF ֆայլերը C#-ով"
+  more: "Ավելի շատ օրինակներ"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Ընտրեք PDF փաստաթուղթ
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Տրամադրել տեքստ
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Սահմանել գույնը
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Ստորագրեք փաստաթուղթը և պահեք ֆայլում
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature ակնարկ"
+  description: "API .NET հավելվածներում փաստաթղթերի ստորագրման և հարակից գործողություններ կատարելու համար"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "C#-ով բիզնես փաստաթղթերին ստորագրություններ ավելացնելը"
+      content: "Փաստաթղթերի ստորագրում. GroupDocs.Signature-ի միջոցով .NET-ի համար դուք կարող եք ավելացնել տարբեր տեսակի ստորագրություններ, ինչպիսիք են տեքստը, պատկերները, շտրիխ կոդերը և թվային վկայագրերը, PDF և Office փաստաթղթերում: Այս API-ն թույլ է տալիս ստորագրել ձեր փաստաթղթերը տվյալների գրեթե ցանկացած տեսակի, ներառյալ թաքնված մետատվյալները:"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Ստորագրված փաստաթղթերի մշակում"
+      content: "Լրացուցիչ մշակում. Դուք կարող եք հզոր գործողություններ կատարել ստորագրված փաստաթղթերի վրա՝ օգտագործելով GroupDocs.Signature: Սա ներառում է գործարար փաստաթղթերում առկա ստորագրությունների որոնումը և դրանց ստուգումը` օգտագործելով հատուկ չափանիշներ: Բացի այդ, դուք կարող եք առբերել փաստաթղթերի տեղեկատվությունը և նախադիտել էջերը այս .NET API-ի միջոցով:"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Արդյունքների հարմարեցում"
+      content: "GroupDocs.Signature-ը .NET-ի համար առաջարկում է անհատականացման լայն ընտրանքներ: Դուք կարող եք ճշգրիտ տեղադրել ստորագրությունները փաստաթղթի էջի ցանկացած վայրում և կարգավորել դրանց տեսքը՝ օգտագործելով տարբեր կարգավորումներ: Ավելին, այս API-ն աջակցում է մշակված փաստաթղթերի պահպանմանը աջակցվող ձևաչափերի լայն տեսականիով:"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Պլատֆորմի անկախություն"
+  description: "GroupDocs.Signature-ը .NET-ի համար աջակցում է հետևյալ օպերացիոն համակարգերին, շրջանակներին և փաթեթների կառավարիչներին"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Աջակցվող ֆայլի ձևաչափեր"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature-ը .NET-ի համար աջակցում է հետևյալ [ֆայլի ձևաչափերով] գործողություններին (https://docs.groupdocs.com/signature/net/supported-document-formats/):
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office ձևաչափեր
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Պատկերներ և այլ ձևաչափեր
+        * **Դյուրակիր:** PDF
+        * **Պատկերներ:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Գրասենյակային այլ ձևաչափեր:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Այլ ձևաչափեր
+        * **Վեբ:** HTML, MHTML
+        * **Արխիվներ:** ZIP, TAR, 7Z
+        * **Վկայականներ:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature-ի առանձնահատկությունները"
+  description: "PDF ֆայլերի, գրասենյակային փաստաթղթերի և պատկերների ստորագրում արագ և ճշգրիտ"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Փաստաթղթի ստորագրում"
+      content: "Ստորագրությունների մեկ կամ մի քանի աջակցվող տեսակներ ճշգրիտ ավելացրեք բիզնես փաստաթղթերի ցանկացած նշված դիրքում:"
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Անհատականացրեք ստորագրությունները"
+      content: "Օգտագործեք այնպիսի հատկանիշներ, ինչպիսիք են գույնը, տառատեսակը, եզրագիծը, ռոտացիան և այլն՝ ստորագրությունների տեսքը կարգավորելու համար:"
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Փաստաթղթի գաղտնաբառի պաշտպանություն"
+      content: "Ապահովեք փաստաթղթերի որոշակի տեսակներ՝ ստորագրելուց հետո գաղտնաբառ դնելով:"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Պաշտպանություն փոփոխություններից"
+      content: "Կանխել կարևոր բիզնես փաստաթղթերի փոփոխությունները թվային վկայականով ստորագրություն կցելուց հետո:"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Ստորագրված ֆայլերը փոխակերպեք այլ ձևաչափերի"
+      content: "Ստորագրված ֆայլերը փոխակերպեք ցանկալի ձևաչափերի, օրինակ՝ Word փաստաթուղթը որպես PDF պահելը:"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Քաղեք էջի նախադիտումները"
+      content: "Ստորագրված փաստաթղթերից հանեք էջերը որպես առանձին պատկերներ՝ հետագա մշակման համար:"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Փաստաթղթերում ստորագրությունների որոնում"
+      content: "Ստացեք տեղեկատվությունը հատուկ փաստաթղթերում նախկինում ավելացված ստորագրությունների մասին:"
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Ստորագրված փաստաթղթերի վավերացում"
+      content: "Ստուգեք փաստաթղթերի պատշաճ ստորագրությունը՝ օգտագործելով վավերացման հնարավորությունները:"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Թարմացրեք կամ ջնջեք ստորագրությունները"
+      content: "Հեշտությամբ վերադիրքավորեք կոնկրետ ստորագրությունները էջի վրա, փոփոխեք դրանց տեքստը կամ ջնջեք դրանք առանց որևէ խնդրի:"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Կոդի նմուշներ"
+  description: "Ոմանք օգտագործում են տիպիկ GroupDocs.Signature դեպքերը .NET գործառնությունների համար"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Ավելացնել QR-կոդ PDF-ում"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        PDF փաստաթղթերի որոշակի էջերին [QR-codes] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) ավելացնելը կարող է բարելավել բիզնես գործընթացները: Ստորև բերված է մի օրինակ, թե ինչպես ավելացնել QR կոդ՝ օգտագործելով GroupDocs.Signature:
+        {{< landing/code title="Ինչպես տեղադրել QR կոդը PDF-ում:">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Ներբեռնեք փաստաթուղթը ստորագրելու համար
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Ստեղծեք QR կոդի ընտրանքներ նախապես սահմանված տեքստով
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Կարգավորեք QR կոդի կոդավորման տեսակը և դիրքը էջում
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Ստորագրեք փաստաթուղթը և պահպանեք այն որպես արդյունքի ֆայլ
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX փաստաթղթի պաշտպանություն՝ օգտագործելով թվային վկայական"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Դուք կարող եք [Պաշտպանել փաստաթուղթը](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/)՝ օգտագործելով անձնական կամ կորպորատիվ ստորագրությունները, որոնք պահվում են որպես թվային վկայագրեր: Նման պաշտպանված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրության անվավեր ճանաչման:
+        {{< landing/code title="Ահա թե ինչպես կարելի է ապահովել փաստաթղթի ամբողջականությունը:">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Բեռնել փաստաթուղթը, որը պետք է թվայնորեն ստորագրվի
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Նշեք թվային ստորագրման տարբերակները և տրամադրեք վկայագրի ֆայլի ուղին
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Սահմանեք վկայագրի գաղտնաբառը
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Ստորագրեք փաստաթուղթը և պահեք այն ցանկալի ուղու վրա
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

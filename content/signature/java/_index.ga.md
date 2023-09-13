@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud APIs & Aipeanna Sínithe Doiciméad Ar Líne"
 head_description: "Faigh réiteach ríomhshínithe doiciméad uile-i-amháin le haghaidh .NET, Java agus feidhmchláir scamall-bhunaithe. Sínigh formáidí coiteanna doiciméad ar líne ag baint úsáide as gné simplí tarraing agus scaoil"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Doiciméid a shíniú<br>trí Java API"
 description: "Sínigh doiciméid agus íomhánna digiteacha ar aon ardán ag baint úsáide as ár n-APIanna solúbtha agus ár réitigh app-bhunaithe do ríomhchláraitheoirí agus úsáideoirí deiridh."
 words:
-  for: "{index-content.words_for}"
+  for: "le haghaidh"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Maven saor in aisce, íoslódáil"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Ceadúnú"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Réidh le tosú?"
+  description: "Bain triail as gnéithe GroupDocs.Signature saor in aisce nó iarr ceadúnas"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Leagan {0} eisithe"
+  notes: "Féach cad atá nua"
+  downloads: "Íoslódálacha"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Sínigh comhaid pdf i java"
+  more: "Tuilleadh samplaí"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Roghnaigh doiciméad PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Cuir téacs ar fáil
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Sínigh an doiciméad agus sábháil i gcomhad
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Forbhreathnú GroupDocs.Signature"
+  description: "API chun síniú doiciméad agus oibríochtaí gaolmhara a dhéanamh i bhfeidhmchláir Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Doiciméid ghnó feabhsaithe le sínithe digiteacha i Java"
+      content: "Síniú tapa agus inoiriúnaithe: Tairgeann GroupDocs.Signature do Java raon leathan roghanna sínithe digiteacha do PDFs, íomhánna agus doiciméid Oifige. Is féidir leat téacs, barrachóid, QR-cóid, teastais dhigiteacha, pictiúir, nó meiteashonraí ceilte a úsáid. Tá próiseáil doiciméad tapa agus éifeachtach."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Ag ionramháil doiciméad sínithe"
+      content: "Is éard atá i gceist le hardphróiseáil doiciméad ná oibríochtaí cumhachtacha ar dhoiciméid sínithe ag baint úsáide as GroupDocs.Signature do Java. Is féidir leat sínithe a cuireadh le doiciméid ghnó a chuardach agus a bhailíochtú ag baint úsáide as critéir úsáideacha éagsúla. Ina theannta sin, is féidir leat rochtain a fháil ar fhaisnéis mhionsonraithe faoin doiciméad nó íomhánna réamhamhairc dá leathanaigh a fháil."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Éagsúlacht roghanna aschuir"
+      content: "Ligeann roghanna sínithe láidre duit an t-aschur a shaincheapadh do dhoiciméid sínithe le GroupDocs.Signature do Java. Is féidir leat aon síniú a shuíomh go beacht ar aon leathanach doiciméid agus a chuma a chumrú ar bhealaí éagsúla. Tacaíonn an Java API le doiciméid ghnó sínithe a shábháil i bhformáidí iomadúla tacaithe agus cuireann sé roghanna ar fáil chun iad a dhaingniú le pasfhocail."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Neamhspleáchas ardán"
+  description: "Tacaíonn GroupDocs.Signature do Java leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formáidí comhaid tacaithe"
   description: |
-    {index-content-java.formats_description}
+    Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formáidí microsoft office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Íomhánna & Formáidí Eile
+        * **Inaistrithe:** PDF
+        * **Íomhánna:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Formáidí oifige eile:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Formáidí eile
+        * **Gréasán:** HTML, MHTML
+        * **Cartlanna:** ZIP, TAR, 7Z
+        * **Deimhnithe:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Gnéithe GroupDocs.Signature"
+  description: "PDFs, Doiciméid Oifige, agus íomhánna le sínithe digiteacha a shíniú"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Ag Cur Sínithe"
+      content: "Sínigh doiciméad ag baint úsáide as cineálacha éagsúla sínithe tacaithe trí shíniú digiteach a chur go beacht in aon áit ar aon leathanach."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Torthaí a shaincheapadh"
+      content: "Saincheap an chuma sínithe trí dath, cló, teorainn, rothlú agus gnéithe eile a choigeartú chun an toradh inmhianaithe a bhaint amach."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Doiciméid a dhaingniú le pasfhocal"
+      content: "I gcás go leor cineálacha doiciméad tacaithe, is féidir leat an doiciméad sínithe a chosaint le pasfhocal."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Cosc ar athruithe neamhúdaraithe"
+      content: "Cosain doiciméid thábhachtacha gnó sínithe le deimhniú digiteach ó mhodhnuithe neamhúdaraithe."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Torthaí a fháil sna formáidí inmhianaithe"
+      content: "Faigh comhaid toraidh sínithe go héasca i bhformáid ar bith a dtacaítear léi. Is féidir leat doiciméid MS Word a thiontú go PDF freisin gan stró."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Réamhamharc doiciméad"
+      content: "Sábháil aon leathanach de dhoiciméad mar íomhá le próiseáil amach anseo."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Ag cuardach sínithe"
+      content: "Is féidir faisnéis a fháil faoi shínithe a cuireadh leis roimhe seo i ndoiciméid ar leith."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Doiciméid a bhailíochtú"
+      content: "Bailíochtaigh cruinneas na sínithe ar aon doiciméad sínithe."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Sínithe a bhainistiú"
+      content: "Nuair a chuirtear síniú ar leathanach doiciméid, is féidir é a scriosadh, a bhogadh nó a nuashonrú de réir mar is gá."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Cóid samplaí"
+  description: "Úsáideann roinnt cásanna de ghnáth GroupDocs.Signature le haghaidh oibríochtaí Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Enchance doiciméad PDF le QR-cód"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        D’fhéadfadh sé a bheith luachmhar próisis ghnó a fheabhsú trí [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a chur le leathanaigh ar leith de dhoiciméid PDF. Tá sampla de conas cód QR a chur leis ag baint úsáide as GroupDocs.Signature do Java.
+        {{< landing/code title="Enchance doiciméad PDF le QR-cód">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Íoslódáil an doiciméad le síniú
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Cruthaigh roghanna cód QR le téacs réamhshainithe
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Cumraigh cineál ionchódaithe cód QR agus suíomh ar an leathanach
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Sínigh an doiciméad agus sábháil é mar chomhad toraidh
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Úsáid síniú digiteach chun DOCX a chosaint"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Is féidir leat [Doiciméad a Chosaint](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha. Ní féidir doiciméid atá daingnithe le teastas a athrú gan an síniú a chur ó bhail.
+        {{< landing/code title="Úsáid síniú digiteach chun DOCX a chosaint">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Íoslódáil an doiciméad le síniú digiteach
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Sonraigh roghanna sínithe digiteacha agus cuir an cosán chuig an gcomhad teastais ar fáil
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Socraigh focal faire an teastais
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Sínigh an doiciméad agus é a shábháil ar an cosán atá ag teastáil
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

@@ -245,12 +245,186 @@
     "api_nocodelabel": "Alle No-Code-Apps anzeigen",
     "api_nocode_1_content": "Signieren Sie Microsoft Word-, Excel-, PowerPoint-, Visio- und PDF-Dateien mit Text, Bild, Barcode oder QR-Code.",
     "api_nocode_2_content": "Signieren Sie Word-Dokumente kostenlos online direkt in Ihrem Browser.",
-    "api_nocode_3_content": "e-Signieren Sie PDF-Dateien mit Text, Bild oder Barcode in jedem Webbrowser."
+    "api_nocode_3_content": "e-Signieren Sie PDF-Dateien mit Text, Bild oder Barcode in jedem Webbrowser.",
+    "title_1": "Dokumente unterschreiben",
+    "words_for": "für",
+    "actions_alt": "Lizenzierung",
+    "actions_title": "Bereit anzufangen?",
+    "actions_description": "Testen Sie die Funktionen von GroupDocs.Signature kostenlos oder fordern Sie eine Lizenz an",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Schau was neu ist",
+    "release_downloads": "Downloads",
+    "code_more": "Mehr Beispiele",
+    "code_comment_1": "PDF-Dokument auswählen",
+    "code_comment_2": "Text bereitstellen",
+    "code_comment_3": "Farbe einstellen",
+    "code_comment_4": "Dokument unterschreiben und in Datei speichern",
+    "overview_title": "GroupDocs.Signature-Übersicht",
+    "platforms_title": "Plattformunabhängigkeit",
+    "formats_title": "Unterstützte Dateiformate",
+    "formats_groups": {
+      "title_1": "Microsoft Office-Formate",
+      "title_2": "Bilder und andere Formate",
+      "title_3": "Andere Formate",
+      "format_portable": "tragbar",
+      "format_other_office": "Andere Büroformate",
+      "format_images": "Bilder",
+      "format_web": "Netz",
+      "format_archives": "Archiv",
+      "format_certificates": "Zertifikate"
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "sample_1": {
+        "code_title": "So fügen Sie einen QR-Code in ein PDF ein.",
+        "comment_1": "Laden Sie das zu signierende Dokument",
+        "comment_2": "Erstellen Sie QR-Code-Optionen mit vordefiniertem Text",
+        "comment_3": "Konfigurieren Sie den Kodierungstyp und die Position des QR-Codes auf der Seite",
+        "comment_4": "Signieren Sie das Dokument und speichern Sie es als Ergebnisdatei"
+      },
+      "sample_2": {
+        "code_title": "So stellen Sie die Dokumentenintegrität sicher.",
+        "comment_1": "Laden Sie das Dokument, das digital signiert werden soll",
+        "comment_2": "Geben Sie Optionen für die digitale Signatur an und geben Sie den Pfad zur Zertifikatsdatei an",
+        "comment_3": "Legen Sie das Zertifikatspasswort fest",
+        "comment_4": "Signieren Sie das Dokument und speichern Sie es im gewünschten Pfad"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET-API für elektronische Signaturen"
+    "title": "Native .NET-API für elektronische Signaturen",
+    "title_2": "über die .NET-API",
+    "actions_main": "Kostenloser NuGet-Download",
+    "code_title": "PDF-Dateien in C# signieren",
+    "overview_description": "API zum Durchführen der Dokumentensignierung und verwandter Vorgänge in .NET-Anwendungen",
+    "overview_feature_1": {
+      "title": "Hinzufügen von Signaturen zu Geschäftsdokumenten in C#",
+      "description": "Signieren von Dokumenten: Mit GroupDocs.Signature für .NET können Sie PDF- und Office-Dokumenten verschiedene Arten von Signaturen hinzufügen, z. B. Text, Bilder, Barcodes und digitale Zertifikate. Mit dieser API können Sie Ihre Dokumente mit nahezu jedem Datentyp signieren, einschließlich versteckter Metadaten."
+    },
+    "overview_feature_2": {
+      "title": "Bearbeitung signierter Dokumente",
+      "description": "Zusätzliche Verarbeitung: Mit GroupDocs.Signature können Sie leistungsstarke Vorgänge an signierten Dokumenten durchführen. Dazu gehört die Suche nach vorhandenen Signaturen in Geschäftsdokumenten und deren Überprüfung anhand bestimmter Kriterien. Darüber hinaus können Sie über diese .NET-API Dokumentinformationen und Vorschauseiten abrufen."
+    },
+    "overview_feature_3": {
+      "title": "Anpassen der Ergebnisse",
+      "description": "GroupDocs.Signature für .NET bietet umfangreiche Anpassungsmöglichkeiten. Sie können Signaturen überall auf einer Dokumentseite präzise positionieren und ihr Erscheinungsbild mithilfe verschiedener Einstellungen anpassen. Darüber hinaus unterstützt diese API das Speichern verarbeiteter Dokumente in einer Vielzahl unterstützter Formate."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-Funktionen",
+      "description": "PDFs, Office-Dokumente und Bilder schnell und präzise signieren",
+      "feature_1": {
+        "title": "Unterzeichnung des Dokuments",
+        "content": "Fügen Sie eine oder mehrere unterstützte Signaturarten präzise an jeder angegebenen Position in Geschäftsdokumenten hinzu."
+      },
+      "feature_2": {
+        "title": "Passen Sie Signaturen an",
+        "content": "Nutzen Sie Funktionen wie Farbe, Schriftart, Rahmen, Drehung usw., um das Erscheinungsbild von Signaturen zu konfigurieren."
+      },
+      "feature_3": {
+        "title": "Passwortschutz für Dokumente",
+        "content": "Sichern Sie bestimmte Dokumenttypen, indem Sie nach dem Signieren ein Passwort festlegen."
+      },
+      "feature_4": {
+        "title": "Schutz vor Veränderungen",
+        "content": "Verhindern Sie Änderungen an wichtigen Geschäftsdokumenten, nachdem Sie eine Signatur mit einem digitalen Zertifikat angehängt haben."
+      },
+      "feature_5": {
+        "title": "Konvertieren Sie signierte Dateien in andere Formate",
+        "content": "Konvertieren Sie signierte Dateien in gewünschte Formate, z. B. Speichern eines Word-Dokuments als PDF."
+      },
+      "feature_6": {
+        "title": "Extrahieren Sie Seitenvorschauen",
+        "content": "Extrahieren Sie Seiten aus signierten Dokumenten als einzelne Bilder für die zukünftige Verarbeitung."
+      },
+      "feature_7": {
+        "title": "Signatursuche in Dokumenten",
+        "content": "Rufen Sie Informationen zu zuvor hinzugefügten Signaturen in bestimmten Dokumenten ab."
+      },
+      "feature_8": {
+        "title": "Validieren Sie signierte Dokumente",
+        "content": "Überprüfen Sie die ordnungsgemäße Signatur von Dokumenten mithilfe von Validierungsfunktionen."
+      },
+      "feature_9": {
+        "title": "Signaturen aktualisieren oder löschen",
+        "content": "Positionieren Sie bestimmte Signaturen ganz einfach auf einer Seite neu, ändern Sie ihren Text oder löschen Sie sie ohne Probleme."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature für .NET unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager",
+    "formats_description": "GroupDocs.Signature für .NET unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Einige Anwendungsfälle typischer GroupDocs.Signature für .NET-Vorgänge",
+    "code_title_sample_1": "QR-Code zum PDF hinzufügen",
+    "code_samples_sample_1_content_1": "Das Hinzufügen von [QR-Codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) zu bestimmten Seiten von PDF-Dokumenten kann Geschäftsprozesse verbessern.",
+    "code_samples_sample_1_content_2": "Nachfolgend finden Sie ein Beispiel für das Hinzufügen eines QR-Codes mithilfe von GroupDocs.Signature.",
+    "code_title_sample_2": "Schützen eines DOCX-Dokuments mithilfe eines digitalen Zertifikats",
+    "code_samples_sample_2_content_1": "Sie können [ein Dokument schützen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), indem Sie persönliche oder Unternehmenssignaturen verwenden, die als digitale Zertifikate gespeichert sind.",
+    "code_samples_sample_2_content_2": "Solche geschützten Dokumente können nicht geändert werden, ohne dass die Signatur ungültig wird."
   },
   "index-content-java": {
-    "title": "Java-API zum Verwalten digitaler Signaturen"
+    "title": "Java-API zum Verwalten digitaler Signaturen",
+    "title_2": "über Java API",
+    "actions_main": "Kostenloser Maven-Download",
+    "code_title": "Signieren Sie PDF-Dateien in Java",
+    "overview_description": "API zum Durchführen der Dokumentensignierung und verwandter Vorgänge in Java-Anwendungen",
+    "overview_feature_1": {
+      "title": "Verbesserte Geschäftsdokumente mit digitalen Signaturen in Java",
+      "description": "Schnelles und anpassbares Signieren: GroupDocs.Signature für Java bietet eine breite Palette digitaler Signaturoptionen für PDFs, Bilder und Office-Dokumente. Sie können Text, Barcodes, QR-Codes, digitale Zertifikate, Bilder oder versteckte Metadaten verwenden. Die Dokumentenverarbeitung ist schnell und effizient."
+    },
+    "overview_feature_2": {
+      "title": "Manipulation signierter Dokumente",
+      "description": "Die erweiterte Dokumentenverarbeitung umfasst leistungsstarke Vorgänge an signierten Dokumenten mithilfe von GroupDocs.Signature für Java. Sie können anhand verschiedener nützlicher Kriterien nach Signaturen suchen und diese validieren, die Geschäftsdokumenten hinzugefügt wurden. Darüber hinaus können Sie detaillierte Informationen zum Dokument abrufen oder Vorschaubilder seiner Seiten abrufen."
+    },
+    "overview_feature_3": {
+      "title": "Vielzahl von Ausgabeoptionen",
+      "description": "Mithilfe robuster Signaturoptionen können Sie die Ausgabe für mit GroupDocs.Signature für Java signierte Dokumente anpassen. Sie können jede Signatur auf jeder Dokumentseite präzise positionieren und ihr Erscheinungsbild auf verschiedene Weise konfigurieren. Die Java-API unterstützt das Speichern signierter Geschäftsdokumente in zahlreichen unterstützten Formaten und bietet Möglichkeiten, diese mit Passwörtern zu sichern."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-Funktionen",
+      "description": "Signieren von PDFs, Office-Dokumenten und Bildern mit digitalen Signaturen",
+      "feature_1": {
+        "title": "Signaturen hinzufügen",
+        "content": "Signieren Sie ein Dokument mit verschiedenen unterstützten Signaturtypen, indem Sie eine digitale Signatur genau an jeder Position auf jeder Seite platzieren."
+      },
+      "feature_2": {
+        "title": "Anpassen der Ergebnisse",
+        "content": "Passen Sie das Erscheinungsbild der Signatur an, indem Sie Farbe, Schriftart, Rahmen, Drehung und andere Funktionen anpassen, um das gewünschte Ergebnis zu erzielen."
+      },
+      "feature_3": {
+        "title": "Dokumente mit Passwort sichern",
+        "content": "Bei vielen unterstützten Dokumenttypen können Sie das signierte Dokument mit einem Passwort schützen."
+      },
+      "feature_4": {
+        "title": "Verhindern Sie unbefugte Änderungen",
+        "content": "Schützen Sie wichtige, mit einem digitalen Zertifikat signierte Geschäftsdokumente vor unbefugten Änderungen."
+      },
+      "feature_5": {
+        "title": "Erzielen von Ergebnissen in gewünschten Formaten",
+        "content": "Erhalten Sie ganz einfach signierte Ergebnisdateien in jedem unterstützten Format. Sie können MS Word-Dokumente auch mühelos in PDF konvertieren."
+      },
+      "feature_6": {
+        "title": "Dokumentvorschau",
+        "content": "Speichern Sie jede Seite eines Dokuments als Bild für die zukünftige Verarbeitung."
+      },
+      "feature_7": {
+        "title": "Suche nach Unterschriften",
+        "content": "Es ist möglich, Informationen über zuvor hinzugefügte Signaturen in bestimmten Dokumenten abzurufen."
+      },
+      "feature_8": {
+        "title": "Dokumente validieren",
+        "content": "Überprüfen Sie die Richtigkeit der Unterschriften auf jedem unterzeichneten Dokument."
+      },
+      "feature_9": {
+        "title": "Signaturen verwalten",
+        "content": "Sobald eine Signatur auf einer Dokumentseite platziert ist, kann sie nach Bedarf gelöscht, verschoben oder aktualisiert werden."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature für Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager",
+    "formats_description": "GroupDocs.Signature für Java unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Einige Anwendungsfälle typischer GroupDocs.Signature für Java-Operationen",
+    "code_title_sample_1": "PDF-Dokument mit QR-Code erweitern",
+    "code_samples_sample_1_content_1": "Die Verbesserung von Geschäftsprozessen durch das Hinzufügen von [QR-Codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) zu bestimmten Seiten von PDF-Dokumenten kann wertvoll sein.",
+    "code_samples_sample_1_content_2": "Es gibt ein Beispiel für das Hinzufügen eines QR-Codes mit GroupDocs.Signature für Java.",
+    "code_title_sample_2": "Verwenden Sie eine digitale Signatur, um ein DOCX zu schützen",
+    "code_samples_sample_2_content_1": "Sie können [ein Dokument schützen](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), indem Sie persönliche oder Unternehmenssignaturen verwenden, die als digitale Zertifikate gespeichert sind.",
+    "code_samples_sample_2_content_2": "Mit einem Zertifikat gesicherte Dokumente können nicht verändert werden, ohne dass die Signatur ungültig wird."
   }
 }

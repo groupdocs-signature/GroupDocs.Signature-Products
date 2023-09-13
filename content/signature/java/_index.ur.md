@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET، Java، Cloud APIs اور آن لائن دستاویز دست
 head_description: ".NET، Java اور کلاؤڈ بیسڈ ایپلی کیشنز کے لیے آل ان ون دستاویز کا ای دستخطی حل حاصل کریں۔ سادہ ڈریگ اینڈ ڈراپ فیچر کا استعمال کرتے ہوئے عام دستاویز کے فارمیٹس پر دستخط کریں۔"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "دستاویزات پر دستخط کریں۔<br>جاوا API کے ذریعے"
 description: "پروگرامرز اور اختتامی صارفین کے لیے ہمارے لچکدار APIs اور ایپ پر مبنی حل کا استعمال کرتے ہوئے کسی بھی پلیٹ فارم پر ڈیجیٹل دستاویزات اور تصاویر پر دستخط کریں۔"
 words:
-  for: "{index-content.words_for}"
+  for: "کے لیے"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "مفت ماون ڈاؤن لوڈ کریں۔"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "لائسنسنگ"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "شروع کرنے کے لیے تیار ہیں؟"
+  description: "GroupDocs.Signature کی خصوصیات مفت میں آزمائیں یا لائسنس کی درخواست کریں۔"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "ورژن {0} جاری کیا گیا۔"
+  notes: "دیکھیں کہ نیا کیا ہے۔"
+  downloads: "ڈاؤن لوڈ"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "جاوا میں پی ڈی ایف فائلوں پر دستخط کریں۔"
+  more: "مزید مثالیں۔"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // پی ڈی ایف دستاویز کو منتخب کریں۔
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // متن فراہم کریں۔
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // دستاویز پر دستخط کریں اور فائل میں محفوظ کریں۔
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature کا جائزہ"
+  description: "جاوا ایپلیکیشنز میں دستاویز پر دستخط کرنے اور متعلقہ کارروائیوں کے لیے API"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "جاوا میں ڈیجیٹل دستخطوں کے ساتھ بہتر کاروباری دستاویزات"
+      content: "تیز اور حسب ضرورت دستخط: GroupDocs.Signature for Java PDFs، تصاویر اور آفس دستاویزات کے لیے ڈیجیٹل دستخطی اختیارات کی ایک وسیع رینج پیش کرتا ہے۔ آپ ٹیکسٹ، بارکوڈز، کیو آر کوڈز، ڈیجیٹل سرٹیفکیٹ، تصاویر، یا پوشیدہ میٹا ڈیٹا استعمال کر سکتے ہیں۔ دستاویز کی پروسیسنگ تیز اور موثر ہے۔"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "دستخط شدہ دستاویزات میں ہیرا پھیری"
+      content: "اعلی درجے کی دستاویز کی پروسیسنگ میں جاوا کے لیے GroupDocs.Signature کا استعمال کرتے ہوئے دستخط شدہ دستاویزات پر طاقتور آپریشن شامل ہیں۔ آپ مختلف مفید معیارات کا استعمال کرتے ہوئے کاروباری دستاویزات میں شامل کیے گئے دستخطوں کو تلاش اور ان کی تصدیق کر سکتے ہیں۔ مزید برآں، آپ دستاویز کے بارے میں تفصیلی معلومات تک رسائی حاصل کرسکتے ہیں یا اس کے صفحات کی پیش نظارہ تصاویر حاصل کرسکتے ہیں۔"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "مختلف قسم کے آؤٹ پٹ انتخاب"
+      content: "مضبوط دستخط کے اختیارات آپ کو جاوا کے لیے GroupDocs.Signature کے ساتھ دستخط شدہ دستاویزات کے لیے آؤٹ پٹ کو اپنی مرضی کے مطابق کرنے کی اجازت دیتے ہیں۔ آپ کسی بھی دستاویز کے صفحہ پر کسی بھی دستخط کو درست طریقے سے پوزیشن میں رکھ سکتے ہیں اور اس کی ظاہری شکل کو مختلف طریقوں سے ترتیب دے سکتے ہیں۔ Java API دستخط شدہ کاروباری دستاویزات کو متعدد معاون فارمیٹس میں محفوظ کرنے کی حمایت کرتا ہے اور انہیں پاس ورڈ کے ساتھ محفوظ کرنے کے اختیارات فراہم کرتا ہے۔"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "پلیٹ فارم کی آزادی"
+  description: "GroupDocs.Signature for Java درج ذیل آپریٹنگ سسٹمز، فریم ورکس اور پیکیج مینیجرز کو سپورٹ کرتا ہے۔"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "تائید شدہ فائل فارمیٹس"
   description: |
-    {index-content-java.formats_description}
+    جاوا کے لیے GroupDocs.Signature درج ذیل [فائل فارمیٹس](https://docs.groupdocs.com/signature/java/supported-document-formats/) کے ساتھ کارروائیوں کی حمایت کرتا ہے۔
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### مائیکروسافٹ آفس فارمیٹس
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### امیجز اور دیگر فارمیٹس
+        * **پورٹیبل:** PDF
+        * **امیجز:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **دیگر دفتری فارمیٹس:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### دیگر فارمیٹس
+        * **ویب:** HTML, MHTML
+        * **آرکائیوز:** ZIP, TAR, 7Z
+        * **سرٹیفکیٹس:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature کی خصوصیات"
+  description: "ڈیجیٹل دستخطوں کے ساتھ PDFs، آفس دستاویزات، اور تصاویر پر دستخط کرنا"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "دستخط شامل کرنا"
+      content: "کسی بھی صفحہ پر کسی بھی پوزیشن پر ٹھیک ٹھیک ڈیجیٹل دستخط رکھ کر مختلف معاون دستخطی اقسام کا استعمال کرتے ہوئے دستاویز پر دستخط کریں۔"
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "نتائج کو حسب ضرورت بنانا"
+      content: "مطلوبہ نتیجہ حاصل کرنے کے لیے رنگ، فونٹ، بارڈر، گردش اور دیگر خصوصیات کو ایڈجسٹ کرکے دستخط کی ظاہری شکل کو اپنی مرضی کے مطابق بنائیں۔"
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "پاس ورڈ کے ساتھ دستاویزات کو محفوظ کرنا"
+      content: "متعدد معاون دستاویز کی اقسام کے لیے، آپ پاس ورڈ کے ساتھ دستخط شدہ دستاویز کی حفاظت کر سکتے ہیں۔"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "غیر مجاز تبدیلیوں کو روکنا"
+      content: "ڈیجیٹل سرٹیفکیٹ کے ساتھ دستخط شدہ اہم کاروباری دستاویزات کو غیر مجاز ترمیم سے محفوظ رکھیں۔"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "مطلوبہ فارمیٹس میں نتائج حاصل کرنا"
+      content: "کسی بھی معاون فارمیٹ میں دستخط شدہ نتائج کی فائلیں آسانی سے حاصل کریں۔ آپ ایم ایس ورڈ دستاویزات کو آسانی سے پی ڈی ایف میں بھی تبدیل کر سکتے ہیں۔"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "دستاویز کا پیش نظارہ"
+      content: "کسی دستاویز کے کسی بھی صفحے کو مستقبل کی پروسیسنگ کے لیے بطور تصویر محفوظ کریں۔"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "دستخطوں کی تلاش"
+      content: "مخصوص دستاویزات میں پہلے شامل کیے گئے دستخطوں کے بارے میں معلومات حاصل کرنا ممکن ہے۔"
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "دستاویزات کی تصدیق کرنا"
+      content: "کسی بھی دستخط شدہ دستاویز پر دستخطوں کی درستگی کی توثیق کریں۔"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "دستخطوں کا انتظام کرنا"
+      content: "ایک بار جب دستخط کسی دستاویز کے صفحے پر رکھے جاتے ہیں، تو اسے ضرورت کے مطابق حذف، منتقل یا اپ ڈیٹ کیا جا سکتا ہے۔"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "کوڈ کے نمونے"
+  description: "کچھ جاوا آپریشنز کے لیے مخصوص GroupDocs.Signature کے کیسز استعمال کرتے ہیں۔"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "QR-code کے ساتھ PDF دستاویز کو بہتر بنائیں"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        پی ڈی ایف دستاویزات کے مخصوص صفحات میں [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) شامل کرکے کاروباری عمل کو بہتر بنانا قیمتی ہوسکتا ہے۔ جاوا کے لیے GroupDocs.Signature کا استعمال کرتے ہوئے QR کوڈ شامل کرنے کے طریقے کی ایک مثال موجود ہے۔
+        {{< landing/code title="QR-code کے ساتھ PDF دستاویز کو بہتر بنائیں">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // دستخط کرنے کے لیے دستاویز لوڈ کریں۔
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // پہلے سے طے شدہ متن کے ساتھ QR کوڈ کے اختیارات بنائیں
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // QR کوڈ انکوڈنگ کی قسم اور صفحہ پر پوزیشن کو ترتیب دیں۔
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // دستاویز پر دستخط کریں اور اسے رزلٹ فائل کے طور پر محفوظ کریں۔
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "DOCX کی حفاظت کے لیے ڈیجیٹل دستخط استعمال کریں۔"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        آپ ڈیجیٹل سرٹیفکیٹس کے بطور محفوظ کردہ ذاتی یا کارپوریٹ دستخطوں کا استعمال کرتے ہوئے [دستاویز کی حفاظت](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) کر سکتے ہیں۔ سرٹیفکیٹ کے ساتھ محفوظ دستاویزات کو دستخط کو باطل کیے بغیر تبدیل نہیں کیا جاسکتا۔
+        {{< landing/code title="DOCX کی حفاظت کے لیے ڈیجیٹل دستخط استعمال کریں۔">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // ڈیجیٹل طور پر دستخط کرنے کے لیے دستاویز لوڈ کریں۔
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // ڈیجیٹل دستخط کرنے کے اختیارات کی وضاحت کریں اور سرٹیفکیٹ فائل کا راستہ فراہم کریں۔
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // سرٹیفکیٹ پاس ورڈ سیٹ کریں۔
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // دستاویز پر دستخط کریں اور اسے مطلوبہ راستے پر محفوظ کریں۔
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

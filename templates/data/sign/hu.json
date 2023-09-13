@@ -245,12 +245,186 @@
     "api_nocodelabel": "Az összes kód nélküli alkalmazás megtekintése",
     "api_nocode_1_content": "Írjon alá Microsoft Word, Excel, PowerPoint, Visio és PDF fájlokat szöveggel, képpel, vonalkóddal vagy QR-kóddal.",
     "api_nocode_2_content": "Ingyenesen írjon alá Word dokumentumokat online, közvetlenül a böngészőből.",
-    "api_nocode_3_content": "e-Sign PDF fájlokat szöveg, kép vagy vonalkód használatával bármely webböngészőből."
+    "api_nocode_3_content": "e-Sign PDF fájlokat szöveg, kép vagy vonalkód használatával bármely webböngészőből.",
+    "title_1": "Írja alá a dokumentumokat",
+    "words_for": "számára",
+    "actions_alt": "Engedélyezés",
+    "actions_title": "Készen áll az indulásra?",
+    "actions_description": "Próbálja ki a GroupDocs.Signature szolgáltatásait ingyenesen, vagy kérjen licencet",
+    "release_title": "A(z) {0} verzió megjelent",
+    "release_notes": "Tekintse meg az újdonságokat",
+    "release_downloads": "Letöltések",
+    "code_more": "További példák",
+    "code_comment_1": "Válassza ki a PDF dokumentumot",
+    "code_comment_2": "Szöveg megadása",
+    "code_comment_3": "Állítsa be a színt",
+    "code_comment_4": "Írja alá a dokumentumot és mentse el a fájlba",
+    "overview_title": "GroupDocs.Signature áttekintése",
+    "platforms_title": "Platformfüggetlenség",
+    "formats_title": "Támogatott fájlformátumok",
+    "formats_groups": {
+      "title_1": "Microsoft Office formátumok",
+      "title_2": "Képek és egyéb formátumok",
+      "title_3": "Egyéb formátumok",
+      "format_portable": "Hordozható",
+      "format_other_office": "Egyéb irodai formátumok",
+      "format_images": "Képek",
+      "format_web": "Web",
+      "format_archives": "Levéltár",
+      "format_certificates": "Tanúsítványok"
+    },
+    "code_samples": {
+      "title": "Kódminták",
+      "sample_1": {
+        "code_title": "Hogyan helyezhet el QR-kódot PDF-be.",
+        "comment_1": "Töltse be az aláírandó dokumentumot",
+        "comment_2": "Hozzon létre QR-kód opciókat előre meghatározott szöveggel",
+        "comment_3": "Konfigurálja a QR-kód kódolási típusát és pozícióját az oldalon",
+        "comment_4": "Írja alá a dokumentumot, és mentse el eredményfájlként"
+      },
+      "sample_2": {
+        "code_title": "Így biztosíthatja a dokumentum integritását.",
+        "comment_1": "Töltse be a digitálisan aláírandó dokumentumot",
+        "comment_2": "Adja meg a digitális aláírás beállításait, és adja meg a tanúsítványfájl elérési útját",
+        "comment_3": "Állítsa be a tanúsítvány jelszavát",
+        "comment_4": "Írja alá a dokumentumot, és mentse el a kívánt útvonalra"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Natív .NET API elektronikus aláírásokhoz"
+    "title": "Natív .NET API elektronikus aláírásokhoz",
+    "title_2": ".NET API-n keresztül",
+    "actions_main": "Ingyenes NuGet letöltés",
+    "code_title": "PDF fájlok aláírása C#-ban",
+    "overview_description": "API dokumentumok aláírására és kapcsolódó műveletek végrehajtására .NET alkalmazásokban",
+    "overview_feature_1": {
+      "title": "Aláírások hozzáadása üzleti dokumentumokhoz C#-ban",
+      "description": "Dokumentumok aláírása: A GroupDocs.Signature for .NET segítségével különféle típusú aláírásokat, például szöveget, képeket, vonalkódokat és digitális tanúsítványokat adhat hozzá PDF és Office dokumentumokhoz. Ez az API lehetővé teszi a dokumentumok aláírását szinte bármilyen adattípussal, beleértve a rejtett metaadatokat is."
+    },
+    "overview_feature_2": {
+      "title": "Aláírt dokumentumok feldolgozása",
+      "description": "További feldolgozás: Hatékony műveleteket hajthat végre aláírt dokumentumokon a GroupDocs.Signature segítségével. Ez magában foglalja a meglévő aláírások keresését az üzleti dokumentumokban, és azok ellenőrzését meghatározott kritériumok alapján. Ezenkívül ezen a .NET API-n keresztül lekérheti a dokumentuminformációkat és megtekintheti az oldalakat."
+    },
+    "overview_feature_3": {
+      "title": "Az eredmények testreszabása",
+      "description": "A GroupDocs.Signature for .NET kiterjedt testreszabási lehetőségeket kínál. Pontosan elhelyezheti az aláírásokat a dokumentumoldalon bárhol, és különféle beállításokkal módosíthatja megjelenésüket. Ezenkívül ez az API támogatja a feldolgozott dokumentumok mentését a támogatott formátumok széles körében."
+    },
+    "features": {
+      "title": "GroupDocs.Signature funkciók",
+      "description": "PDF-ek, Office-dokumentumok és képek gyors és pontos aláírása",
+      "feature_1": {
+        "title": "Dokumentum aláírása",
+        "content": "Adjon hozzá egy vagy több támogatott aláírástípust pontosan az üzleti dokumentumok bármely meghatározott helyén."
+      },
+      "feature_2": {
+        "title": "Az aláírások testreszabása",
+        "content": "Használjon olyan funkciókat, mint a szín, a betűtípus, a keret, az elforgatás stb., az aláírások megjelenésének konfigurálásához."
+      },
+      "feature_3": {
+        "title": "Dokumentum jelszavas védelme",
+        "content": "Biztosítson bizonyos dokumentumtípusokat az aláírás utáni jelszó beállításával."
+      },
+      "feature_4": {
+        "title": "Védelem a változások ellen",
+        "content": "Megakadályozza a fontos üzleti dokumentumok módosításait, miután egy aláírást csatolt egy digitális tanúsítvánnyal."
+      },
+      "feature_5": {
+        "title": "Az aláírt fájlok konvertálása más formátumba",
+        "content": "Az aláírt fájlokat konvertálja a kívánt formátumba, például mentse el a Word-dokumentumot PDF-ként."
+      },
+      "feature_6": {
+        "title": "Oldal-előnézetek kibontása",
+        "content": "Kivonja az oldalakat az aláírt dokumentumokból egyedi képként a későbbi feldolgozáshoz."
+      },
+      "feature_7": {
+        "title": "Aláírás keresés a dokumentumokban",
+        "content": "Információk lekérése az adott dokumentumokban korábban hozzáadott aláírásokról."
+      },
+      "feature_8": {
+        "title": "Érvényesítse az aláírt dokumentumokat",
+        "content": "Ellenőrizze a dokumentumok megfelelő aláírását az érvényesítési funkciók segítségével."
+      },
+      "feature_9": {
+        "title": "Az aláírások frissítése vagy törlése",
+        "content": "Könnyen áthelyezheti az adott aláírásokat az oldalon, módosíthatja a szövegüket vagy törölheti őket probléma nélkül."
+      }
+    },
+    "platforms_description": "A GroupDocs.Signature for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja",
+    "formats_description": "A GroupDocs.Signature for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.",
+    "code_samples_description": "Néhány eset a tipikus GroupDocs.Signature használatához .NET műveletekhez",
+    "code_title_sample_1": "QR-kód hozzáadása a PDF-hez",
+    "code_samples_sample_1_content_1": "A [QR-kódok](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) hozzáadása a PDF-dokumentumok egyes oldalaihoz javíthatja az üzleti folyamatokat.",
+    "code_samples_sample_1_content_2": "Az alábbiakban egy példa látható QR-kód hozzáadására a GroupDocs.Signature használatával.",
+    "code_title_sample_2": "DOCX-dokumentum védelme digitális tanúsítvánnyal",
+    "code_samples_sample_2_content_1": "A [Dokumentum védelmét](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) használhatja digitális tanúsítványként tárolt személyes vagy vállalati aláírásokkal.",
+    "code_samples_sample_2_content_2": "Az ilyen védett dokumentumok az aláírás érvénytelenítése nélkül nem módosíthatók."
   },
   "index-content-java": {
-    "title": "Java API a digitális aláírások kezelésére"
+    "title": "Java API a digitális aláírások kezelésére",
+    "title_2": "Java API-n keresztül",
+    "actions_main": "Ingyenes Maven letöltés",
+    "code_title": "PDF fájlok aláírása Java nyelven",
+    "overview_description": "API dokumentum-aláírási és kapcsolódó műveletek végrehajtásához Java alkalmazásokban",
+    "overview_feature_1": {
+      "title": "Továbbfejlesztett üzleti dokumentumok digitális aláírással Java nyelven",
+      "description": "Gyors és testreszabható aláírás: A GroupDocs.Signature for Java a digitális aláírási lehetőségek széles skáláját kínálja PDF-ekhez, képekhez és Office-dokumentumokhoz. Használhat szöveget, vonalkódokat, QR-kódokat, digitális tanúsítványokat, képeket vagy rejtett metaadatokat. A dokumentumfeldolgozás gyors és hatékony."
+    },
+    "overview_feature_2": {
+      "title": "Az aláírt dokumentumok kezelése",
+      "description": "A fejlett dokumentumfeldolgozás hatékony műveleteket foglal magában az aláírt dokumentumokon a GroupDocs.Signature for Java használatával. Különféle hasznos kritériumok segítségével megkeresheti és ellenőrizheti az üzleti dokumentumokhoz hozzáadott aláírásokat. Ezenkívül hozzáférhet a dokumentumra vonatkozó részletes információkhoz, vagy előnézeti képeket kaphat az oldalairól."
+    },
+    "overview_feature_3": {
+      "title": "Különféle kimeneti lehetőségek",
+      "description": "A robusztus aláírási lehetőségek lehetővé teszik a GroupDocs.Signature for Java programmal aláírt dokumentumok kimenetének testreszabását. Bármely aláírást pontosan elhelyezhet bármely dokumentumoldalon, és különféle módokon konfigurálhatja annak megjelenését. A Java API támogatja az aláírt üzleti dokumentumok mentését számos támogatott formátumban, és lehetőséget biztosít ezek jelszavas biztosítására."
+    },
+    "features": {
+      "title": "GroupDocs.Signature funkciók",
+      "description": "PDF-ek, Office-dokumentumok és képek aláírása digitális aláírással",
+      "feature_1": {
+        "title": "Aláírások hozzáadása",
+        "content": "Aláírjon egy dokumentumot különböző támogatott aláírástípusokkal úgy, hogy digitális aláírást helyez el precízen, bármely oldal bármely pontján."
+      },
+      "feature_2": {
+        "title": "Az eredmények testreszabása",
+        "content": "Testreszabhatja az aláírás megjelenését a szín, a betűtípus, a szegély, az elforgatás és egyéb funkciók módosításával a kívánt eredmény elérése érdekében."
+      },
+      "feature_3": {
+        "title": "Dokumentumok titkosítása jelszóval",
+        "content": "Számos támogatott dokumentumtípus esetén az aláírt dokumentumot jelszóval védheti."
+      },
+      "feature_4": {
+        "title": "A jogosulatlan változtatások megakadályozása",
+        "content": "Védje meg a digitális tanúsítvánnyal aláírt fontos üzleti dokumentumokat a jogosulatlan módosításoktól."
+      },
+      "feature_5": {
+        "title": "Eredmények elérése a kívánt formátumban",
+        "content": "Könnyen beszerezhet aláírt eredményfájlokat bármilyen támogatott formátumban. Az MS Word dokumentumokat könnyedén PDF formátumba konvertálhatja."
+      },
+      "feature_6": {
+        "title": "Dokumentum előnézete",
+        "content": "Mentse el a dokumentum bármely oldalát képként a későbbi feldolgozáshoz."
+      },
+      "feature_7": {
+        "title": "Aláírások keresése",
+        "content": "A korábban hozzáadott aláírásokról konkrét dokumentumokban lehet tájékozódni."
+      },
+      "feature_8": {
+        "title": "A dokumentumok érvényesítése",
+        "content": "Minden aláírt dokumentumon ellenőrizze az aláírások helyességét."
+      },
+      "feature_9": {
+        "title": "Aláírások kezelése",
+        "content": "Miután egy aláírást elhelyezett egy dokumentumoldalon, szükség szerint törölheti, áthelyezheti vagy frissítheti."
+      }
+    },
+    "platforms_description": "A GroupDocs.Signature for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja",
+    "formats_description": "A GroupDocs.Signature for Java a következő [fájlformátumokkal] támogatja a műveleteket (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Egyes esetekben a tipikus GroupDocs.Signature Java műveleteket használják",
+    "code_title_sample_1": "Javítsa a PDF dokumentumot QR-kóddal",
+    "code_samples_sample_1_content_1": "Értékes lehet az üzleti folyamatok fejlesztése a [QR-kódok](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) hozzáadásával a PDF-dokumentumok egyes oldalaihoz.",
+    "code_samples_sample_1_content_2": "Van egy példa QR-kód hozzáadására a GroupDocs.Signature for Java használatával.",
+    "code_title_sample_2": "Használjon digitális aláírást a DOCX védelméhez",
+    "code_samples_sample_2_content_1": "A digitális tanúsítványként tárolt személyes vagy vállalati aláírások használatával [megvédheti a dokumentumokat](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/).",
+    "code_samples_sample_2_content_2": "A tanúsítvánnyal védett dokumentumok az aláírás érvénytelenítése nélkül nem módosíthatók."
   }
 }

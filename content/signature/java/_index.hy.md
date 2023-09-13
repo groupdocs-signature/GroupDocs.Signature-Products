@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API-ներ և առցանց փաստաթղթերի
 head_description: "Ստացեք փաստաթղթի էլեկտրոնային ստորագրության ամբողջական լուծում .NET, Java և ամպի վրա հիմնված հավելվածների համար: Ստորագրեք սովորական փաստաթղթերի ձևաչափերը առցանց՝ օգտագործելով պարզ քաշել և թողնել հնարավորությունը"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Ստորագրեք փաստաթղթերը<br>Java API-ի միջոցով"
 description: "Ստորագրեք թվային փաստաթղթեր և պատկերներ ցանկացած հարթակում՝ օգտագործելով մեր ճկուն API-ները և հավելվածների վրա հիմնված լուծումները ծրագրավորողների և վերջնական օգտագործողների համար:"
 words:
-  for: "{index-content.words_for}"
+  for: "համար"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Անվճար Maven Ներբեռնում"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Լիցենզավորում"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Պատրա՞ստ եք սկսել:"
+  description: "Փորձեք GroupDocs.Signature-ի գործառույթները անվճար կամ խնդրեք լիցենզիա"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "{0} տարբերակը թողարկվել է"
+  notes: "Տեսեք, թե ինչ նորություն կա"
+  downloads: "Ներբեռնումներ"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Ստորագրեք PDF ֆայլերը Java-ում"
+  more: "Ավելի շատ օրինակներ"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Ընտրեք PDF փաստաթուղթ
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Տրամադրել տեքստ
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Ստորագրեք փաստաթուղթը և պահեք ֆայլում
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature ակնարկ"
+  description: "API՝ Java հավելվածներում փաստաթղթերի ստորագրման և հարակից գործողություններ կատարելու համար"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Բարելավված բիզնես փաստաթղթեր թվային ստորագրություններով Java-ում"
+      content: "Արագ և կարգավորելի ստորագրում. GroupDocs.Signature-ը Java-ի համար առաջարկում է թվային ստորագրության ընտրանքների լայն շրջանակ PDF ֆայլերի, պատկերների և Office փաստաթղթերի համար: Դուք կարող եք օգտագործել տեքստ, շտրիխ կոդեր, QR-կոդեր, թվային վկայագրեր, նկարներ կամ թաքնված մետատվյալներ: Փաստաթղթերի մշակումն արագ և արդյունավետ է:"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Ստորագրված փաստաթղթերի մշակում"
+      content: "Փաստաթղթերի առաջադեմ մշակումը ներառում է հզոր գործողություններ ստորագրված փաստաթղթերի վրա՝ օգտագործելով GroupDocs.Signature Java-ի համար: Դուք կարող եք որոնել և հաստատել ստորագրությունները, որոնք ավելացվել են բիզնես փաստաթղթերին՝ օգտագործելով տարբեր օգտակար չափանիշներ: Բացի այդ, դուք կարող եք մուտք գործել փաստաթղթի մասին մանրամասն տեղեկություններ կամ ստանալ դրա էջերի նախադիտման պատկերները:"
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Արդյունքների ընտրության բազմազանություն"
+      content: "Ստորագրման ամուր ընտրանքները թույլ են տալիս հարմարեցնել ելքը GroupDocs.Signature-ով Java-ի համար ստորագրված փաստաթղթերի համար: Դուք կարող եք ճշգրիտ տեղադրել ցանկացած ստորագրություն ցանկացած փաստաթղթի էջում և կարգավորել դրա տեսքը տարբեր ձևերով: Java API-ն աջակցում է ստորագրված բիզնես փաստաթղթերի պահպանմանը բազմաթիվ աջակցվող ձևաչափերով և տրամադրում է տարբերակներ՝ դրանք գաղտնաբառերով ապահովելու համար:"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Պլատֆորմի անկախություն"
+  description: "GroupDocs.Signature-ը Java-ի համար աջակցում է հետևյալ օպերացիոն համակարգերին, շրջանակներին և փաթեթների կառավարիչներին"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Աջակցվող ֆայլի ձևաչափեր"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature-ը Java-ի համար աջակցում է գործողություններ հետևյալ [ֆայլի ձևաչափերով] (https://docs.groupdocs.com/signature/java/supported-document-formats/):
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office ձևաչափեր
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Պատկերներ և այլ ձևաչափեր
+        * **Դյուրակիր:** PDF
+        * **Պատկերներ:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Գրասենյակային այլ ձևաչափեր:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Այլ ձևաչափեր
+        * **Վեբ:** HTML, MHTML
+        * **Արխիվներ:** ZIP, TAR, 7Z
+        * **Վկայականներ:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature-ի առանձնահատկությունները"
+  description: "Թվային ստորագրություններով PDF-ների, գրասենյակային փաստաթղթերի և պատկերների ստորագրում"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Ստորագրությունների ավելացում"
+      content: "Ստորագրեք փաստաթուղթ՝ օգտագործելով տարբեր աջակցվող ստորագրության տեսակներ՝ տեղադրելով թվային ստորագրություն ցանկացած էջի ցանկացած դիրքում:"
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Արդյունքների հարմարեցում"
+      content: "Անհատականացրեք ստորագրության տեսքը՝ հարմարեցնելով գույնը, տառատեսակը, եզրագիծը, ռոտացիան և այլ հնարավորություններ՝ ցանկալի արդյունքի հասնելու համար:"
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Փաստաթղթերի պաշտպանություն գաղտնաբառով"
+      content: "Աջակցվող փաստաթղթերի շատ տեսակների համար դուք կարող եք պաշտպանել ստորագրված փաստաթուղթը գաղտնաբառով:"
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Չթույլատրված փոփոխությունների կանխարգելում"
+      content: "Պաշտպանեք թվային վկայականով ստորագրված կարևոր բիզնես փաստաթղթերը չարտոնված փոփոխություններից:"
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Արդյունքների ստացում ցանկալի ձևաչափերով"
+      content: "Հեշտությամբ ձեռք բերեք ստորագրված արդյունքների ֆայլեր ցանկացած աջակցվող ձևաչափով: Դուք կարող եք նաև հեշտությամբ փոխարկել MS Word փաստաթղթերը PDF-ի:"
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Փաստաթղթի նախադիտում"
+      content: "Պահպանեք փաստաթղթի ցանկացած էջ որպես պատկեր՝ հետագա մշակման համար:"
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Ստորագրությունների որոնում"
+      content: "Հնարավոր է տեղեկատվություն ստանալ կոնկրետ փաստաթղթերում նախկինում ավելացված ստորագրությունների մասին։"
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Փաստաթղթերի վավերացում"
+      content: "Ստուգեք ստորագրությունների ճշգրտությունը ցանկացած ստորագրված փաստաթղթի վրա:"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Ստորագրությունների կառավարում"
+      content: "Երբ ստորագրությունը տեղադրվում է փաստաթղթի էջում, այն կարող է ջնջվել, տեղափոխվել կամ թարմացվել ըստ անհրաժեշտության:"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Կոդի նմուշներ"
+  description: "Ոմանք օգտագործում են տիպիկ GroupDocs.Signature-ի դեպքեր Java գործողությունների համար"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Բարելավեք PDF փաստաթուղթը QR կոդով"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Կարող է արժեքավոր լինել PDF փաստաթղթերի որոշակի էջերին [QR-codes] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ավելացնելով բիզնես գործընթացները: Կա մի օրինակ, թե ինչպես կարելի է ավելացնել QR կոդը՝ օգտագործելով GroupDocs.Signature Java-ի համար:
+        {{< landing/code title="Բարելավեք PDF փաստաթուղթը QR կոդով">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Ներբեռնեք փաստաթուղթը ստորագրելու համար
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Ստեղծեք QR կոդի ընտրանքներ նախապես սահմանված տեքստով
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Կարգավորեք QR կոդի կոդավորման տեսակը և դիրքը էջում
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Ստորագրեք փաստաթուղթը և պահպանեք այն որպես արդյունքի ֆայլ
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "DOCX-ը պաշտպանելու համար օգտագործեք թվային ստորագրություն"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Դուք կարող եք [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) օգտագործելով անձնական կամ կորպորատիվ ստորագրությունները, որոնք պահվում են որպես թվային վկայականներ: Վկայականով ապահովված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրությունը անվավեր ճանաչելու:
+        {{< landing/code title="DOCX-ը պաշտպանելու համար օգտագործեք թվային ստորագրություն">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Բեռնել փաստաթուղթը, որը պետք է թվայնորեն ստորագրվի
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Նշեք թվային ստորագրման տարբերակները և տրամադրեք վկայագրի ֆայլի ուղին
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Սահմանեք վկայագրի գաղտնաբառը
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Ստորագրեք փաստաթուղթը և պահեք այն ցանկալի ուղու վրա
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
 head_description: "Αποκτήστε ολοκληρωμένη λύση ηλεκτρονικής υπογραφής εγγράφων για .NET, Java και εφαρμογές που βασίζονται σε cloud. Υπογράψτε κοινές μορφές εγγράφων στο διαδίκτυο χρησιμοποιώντας την απλή λειτουργία μεταφοράς και απόθεσης"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Υπογράψτε έγγραφα<br>μέσω Java API"
 description: "Υπογράψτε ψηφιακά έγγραφα και εικόνες σε οποιαδήποτε πλατφόρμα χρησιμοποιώντας τα ευέλικτα API και τις λύσεις που βασίζονται σε εφαρμογές για προγραμματιστές και τελικούς χρήστες."
 words:
-  for: "{index-content.words_for}"
+  for: "Για"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Δωρεάν λήψη Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Αδειοδότηση"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες GroupDocs.Signature δωρεάν ή ζητήστε άδεια"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Κυκλοφόρησε η έκδοση {0}"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Υπογραφή αρχείων PDF σε Java"
+  more: "Περισσότερα παραδείγματα"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Επιλέξτε έγγραφο PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Δώστε κείμενο
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Υπογράψτε το έγγραφο και αποθηκεύστε στο αρχείο
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Επισκόπηση GroupDocs.Signature"
+  description: "API για την εκτέλεση υπογραφής εγγράφων και σχετικών λειτουργιών σε εφαρμογές Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Βελτιωμένα επαγγελματικά έγγραφα με ψηφιακές υπογραφές σε Java"
+      content: "Γρήγορη και προσαρμόσιμη υπογραφή: Το GroupDocs.Signature για Java προσφέρει ένα ευρύ φάσμα επιλογών ψηφιακής υπογραφής για αρχεία PDF, εικόνες και έγγραφα του Office. Μπορείτε να χρησιμοποιήσετε κείμενο, γραμμωτούς κώδικες, κωδικούς QR, ψηφιακά πιστοποιητικά, εικόνες ή κρυφά μεταδεδομένα. Η επεξεργασία των εγγράφων είναι γρήγορη και αποτελεσματική."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Χειρισμός υπογεγραμμένων εγγράφων"
+      content: "Η προηγμένη επεξεργασία εγγράφων περιλαμβάνει ισχυρές λειτουργίες σε υπογεγραμμένα έγγραφα χρησιμοποιώντας GroupDocs.Signature για Java. Μπορείτε να αναζητήσετε και να επικυρώσετε υπογραφές που έχουν προστεθεί σε επιχειρηματικά έγγραφα χρησιμοποιώντας διάφορα χρήσιμα κριτήρια. Επιπλέον, μπορείτε να αποκτήσετε πρόσβαση σε λεπτομερείς πληροφορίες σχετικά με το έγγραφο ή να λάβετε εικόνες προεπισκόπησης των σελίδων του."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Ποικιλία επιλογών εξόδου"
+      content: "Οι ισχυρές επιλογές υπογραφής σάς επιτρέπουν να προσαρμόσετε την έξοδο για έγγραφα που υπογράφονται με GroupDocs.Signature για Java. Μπορείτε να τοποθετήσετε με ακρίβεια οποιαδήποτε υπογραφή σε οποιαδήποτε σελίδα εγγράφου και να διαμορφώσετε την εμφάνισή της με διάφορους τρόπους. Το Java API υποστηρίζει την αποθήκευση υπογεγραμμένων επιχειρηματικών εγγράφων σε πολλές υποστηριζόμενες μορφές και παρέχει επιλογές για την ασφάλειά τους με κωδικούς πρόσβασης."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Signature για Java υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Υποστηριζόμενες μορφές αρχείων"
   description: |
-    {index-content-java.formats_description}
+    Το GroupDocs.Signature για Java υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Μορφές Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Εικόνες & Άλλες Μορφές
+        * **Φορητός:** PDF
+        * **εικόνες:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Άλλες μορφές γραφείου:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Άλλες μορφές
+        * **Ιστός:** HTML, MHTML
+        * **Αρχεία:** ZIP, TAR, 7Z
+        * **Πιστοποιητικά:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Λειτουργίες GroupDocs.Signature"
+  description: "Υπογραφή αρχείων PDF, εγγράφων γραφείου και εικόνων με ψηφιακές υπογραφές"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Προσθήκη υπογραφών"
+      content: "Υπογράψτε ένα έγγραφο χρησιμοποιώντας διάφορους υποστηριζόμενους τύπους υπογραφής τοποθετώντας μια ψηφιακή υπογραφή ακριβώς σε οποιαδήποτε θέση σε οποιαδήποτε σελίδα."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Προσαρμογή αποτελεσμάτων"
+      content: "Προσαρμόστε την εμφάνιση της υπογραφής προσαρμόζοντας το χρώμα, τη γραμματοσειρά, το περίγραμμα, την περιστροφή και άλλες λειτουργίες για να επιτύχετε το επιθυμητό αποτέλεσμα."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Προστασία εγγράφων με κωδικό πρόσβασης"
+      content: "Για πολλούς υποστηριζόμενους τύπους εγγράφων, μπορείτε να προστατεύσετε το υπογεγραμμένο έγγραφο με κωδικό πρόσβασης."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Αποτροπή μη εξουσιοδοτημένων αλλαγών"
+      content: "Προστατέψτε σημαντικά επιχειρηματικά έγγραφα που υπογράφονται με ψηφιακό πιστοποιητικό από μη εξουσιοδοτημένες τροποποιήσεις."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Λήψη αποτελεσμάτων σε επιθυμητές μορφές"
+      content: "Αποκτήστε εύκολα υπογεγραμμένα αρχεία αποτελεσμάτων σε οποιαδήποτε υποστηριζόμενη μορφή. Μπορείτε επίσης να μετατρέψετε έγγραφα MS Word σε PDF χωρίς κόπο."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Προεπισκόπηση εγγράφου"
+      content: "Αποθηκεύστε οποιαδήποτε σελίδα ενός εγγράφου ως εικόνα για μελλοντική επεξεργασία."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Ψάχνοντας για υπογραφές"
+      content: "Είναι δυνατό να λάβετε πληροφορίες σχετικά με υπογραφές που έχουν προστεθεί προηγουμένως σε συγκεκριμένα έγγραφα."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Επικύρωση εγγράφων"
+      content: "Επικυρώστε την ορθότητα των υπογραφών σε οποιοδήποτε υπογεγραμμένο έγγραφο."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Διαχείριση υπογραφών"
+      content: "Μόλις τοποθετηθεί μια υπογραφή σε μια σελίδα εγγράφου, μπορεί να διαγραφεί, να μετακινηθεί ή να ενημερωθεί ανάλογα με τις ανάγκες."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένοι χρησιμοποιούν περιπτώσεις τυπικών GroupDocs.Signature για λειτουργίες Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Βελτιώστε το έγγραφο PDF με κωδικό QR"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Η βελτίωση των επιχειρηματικών διαδικασιών με την προσθήκη [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) σε συγκεκριμένες σελίδες εγγράφων PDF μπορεί να είναι πολύτιμη. Υπάρχει ένα παράδειγμα για το πώς μπορείτε να προσθέσετε έναν κωδικό QR χρησιμοποιώντας το GroupDocs.Signature για Java.
+        {{< landing/code title="Βελτιώστε το έγγραφο PDF με κωδικό QR">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Φορτώστε το έγγραφο για υπογραφή
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Δημιουργήστε επιλογές κωδικού QR με προκαθορισμένο κείμενο
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Διαμορφώστε τον τύπο και τη θέση κωδικοποίησης κώδικα QR στη σελίδα
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Υπογράψτε το έγγραφο και αποθηκεύστε το ως αρχείο αποτελεσμάτων
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Χρησιμοποιήστε ψηφιακή υπογραφή για την προστασία ενός DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Μπορείτε να [Διασφαλίστε ένα έγγραφο](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) χρησιμοποιώντας προσωπικές ή εταιρικές υπογραφές που είναι αποθηκευμένες ως ψηφιακά πιστοποιητικά. Τα έγγραφα που είναι ασφαλισμένα με πιστοποιητικό δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή.
+        {{< landing/code title="Χρησιμοποιήστε ψηφιακή υπογραφή για την προστασία ενός DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Φορτώστε το έγγραφο που πρόκειται να υπογραφεί ψηφιακά
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Καθορίστε τις επιλογές ψηφιακής υπογραφής και δώστε τη διαδρομή προς το αρχείο πιστοποιητικού
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Ορίστε τον κωδικό πρόσβασης του πιστοποιητικού
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Υπογράψτε το έγγραφο και αποθηκεύστε το στην επιθυμητή διαδρομή
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

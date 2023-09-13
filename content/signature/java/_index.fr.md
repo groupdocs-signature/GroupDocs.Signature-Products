@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:02
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, API cloud et applications de signature de documents en 
 head_description: "Obtenez une solution de signature électronique de documents tout-en-un pour les applications .NET, Java et cloud. Signez des formats de documents courants en ligne à l'aide d'une simple fonctionnalité de glisser-déposer"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Signer des documents<br>via l'API Java"
 description: "Signez des documents et des images numériques sur n'importe quelle plate-forme à l'aide de nos API flexibles et de nos solutions basées sur des applications pour les programmeurs et les utilisateurs finaux."
 words:
-  for: "{index-content.words_for}"
+  for: "pour"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Téléchargement gratuit de Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Licence"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Prêt à commencer?"
+  description: "Essayez les fonctionnalités de GroupDocs.Signature gratuitement ou demandez une licence"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Version {0} publiée"
+  notes: "Regardez ce qu'il y a de nouveau"
+  downloads: "Téléchargements"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Signer des fichiers PDF en Java"
+  more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Sélectionnez un document PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Fournir du texte
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Signer le document et l'enregistrer dans un fichier
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Présentation de GroupDocs.Signature"
+  description: "API pour effectuer la signature de documents et les opérations associées dans les applications Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Documents commerciaux améliorés avec signatures numériques en Java"
+      content: "Signature rapide et personnalisable : GroupDocs.Signature pour Java offre une large gamme d'options de signature numérique pour les PDF, les images et les documents Office. Vous pouvez utiliser du texte, des codes-barres, des codes QR, des certificats numériques, des images ou des métadonnées cachées. Le traitement des documents est rapide et efficace."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipulation de documents signés"
+      content: "Le traitement avancé des documents implique des opérations puissantes sur les documents signés à l'aide de GroupDocs.Signature pour Java. Vous pouvez rechercher et valider les signatures ajoutées aux documents commerciaux à l'aide de divers critères utiles. De plus, vous pouvez accéder à des informations détaillées sur le document ou obtenir des images d'aperçu de ses pages."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Variété de choix de sortie"
+      content: "Des options de signature robustes vous permettent de personnaliser la sortie des documents signés avec GroupDocs.Signature pour Java. Vous pouvez positionner avec précision n'importe quelle signature sur n'importe quelle page de document et configurer son apparence de différentes manières. L'API Java prend en charge l'enregistrement des documents commerciaux signés dans de nombreux formats pris en charge et propose des options pour les sécuriser avec des mots de passe."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Indépendance de la plateforme"
+  description: "GroupDocs.Signature pour Java prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formats de fichiers pris en charge"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature pour Java prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/signature/java/supported-document-formats/) suivants.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formats Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images et autres formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Autres formats de bureaux:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Autres formats
+        * **la toile:** HTML, MHTML
+        * **Les archives:** ZIP, TAR, 7Z
+        * **Certificats:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Fonctionnalités GroupDocs.Signature"
+  description: "Signature de PDF, de documents Office et d'images avec des signatures numériques"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Ajout de signatures"
+      content: "Signez un document à l'aide de différents types de signature pris en charge en plaçant une signature numérique précisément à n'importe quel endroit de n'importe quelle page."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Personnalisation des résultats"
+      content: "Personnalisez l'apparence de la signature en ajustant la couleur, la police, la bordure, la rotation et d'autres fonctionnalités pour obtenir le résultat souhaité."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Sécurisation des documents avec mot de passe"
+      content: "Pour de nombreux types de documents pris en charge, vous pouvez protéger le document signé avec un mot de passe."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Empêcher les modifications non autorisées"
+      content: "Protégez les documents commerciaux importants signés avec un certificat numérique contre les modifications non autorisées."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Obtention des résultats dans les formats souhaités"
+      content: "Obtenez facilement des fichiers de résultats signés dans n’importe quel format pris en charge. Vous pouvez également convertir des documents MS Word en PDF sans effort."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Aperçu du document"
+      content: "Enregistrez n'importe quelle page d'un document sous forme d'image pour un traitement ultérieur."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Recherche de signatures"
+      content: "Il est possible d'obtenir des informations sur les signatures précédemment ajoutées dans des documents spécifiques."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Validation des documents"
+      content: "Validez l’exactitude des signatures sur tout document signé."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Gestion des signatures"
+      content: "Une fois qu'une signature est placée sur une page de document, elle peut être supprimée, déplacée ou mise à jour selon les besoins."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Exemples de codes"
+  description: "Quelques cas d'utilisation d'opérations GroupDocs.Signature typiques pour Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Améliorez le document PDF avec le code QR"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        L'amélioration des processus métier en ajoutant des [codes QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) à des pages spécifiques de documents PDF peut s'avérer utile. Il existe un exemple de la façon d'ajouter un code QR à l'aide de GroupDocs.Signature pour Java.
+        {{< landing/code title="Améliorez le document PDF avec le code QR">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Chargez le document à signer
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Créer des options de code QR avec du texte prédéfini
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Configurer le type d'encodage du code QR et la position sur la page
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Signez le document et enregistrez-le comme fichier de résultat
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Utiliser la signature numérique pour protéger un DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Vous pouvez [Protéger un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) en utilisant des signatures personnelles ou d'entreprise stockées sous forme de certificats numériques. Les documents sécurisés par un certificat ne peuvent être modifiés sans invalider la signature.
+        {{< landing/code title="Utiliser la signature numérique pour protéger un DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Charger le document à signer numériquement
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Spécifiez les options de signature numérique et fournissez le chemin d'accès au fichier de certificat
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Définir le mot de passe du certificat
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Signez le document et enregistrez-le dans le chemin souhaité
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

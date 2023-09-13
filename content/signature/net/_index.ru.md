@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, облачные API и онлайн-приложени
 head_description: "Получите универсальное решение для электронной подписи документов для .NET, Java и облачных приложений. Подписывайте распространенные форматы документов онлайн с помощью простой функции перетаскивания"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Подписывать документы<br>через .NET API"
 description: "Подписывайте цифровые документы и изображения на любой платформе, используя наши гибкие API и решения на базе приложений для программистов и конечных пользователей."
 words:
-  for: "{index-content.words_for}"
+  for: "для"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Бесплатная загрузка NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Лицензирование"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Signature бесплатно или запросите лицензию."
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Версия {0} выпущена"
+  notes: "Посмотрите, что нового"
+  downloads: "Загрузки"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Подписание PDF-файлов на C#"
+  more: "Больше примеров"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Выберите PDF-документ
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Предоставить текст
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Установить цвет
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Подписать документ и сохранить в файл
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Обзор GroupDocs.Signature"
+  description: "API для подписания документов и связанных с ним операций в приложениях .NET."
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Добавление подписей к деловым документам в C#"
+      content: "Подписание документов. С помощью GroupDocs.Signature для .NET вы можете добавлять в документы PDF и Office различные типы подписей, такие как текст, изображения, штрих-коды и цифровые сертификаты. Этот API позволяет подписывать документы практически с любым типом данных, включая скрытые метаданные."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Обработка подписанных документов"
+      content: "Дополнительная обработка. Вы можете выполнять мощные операции с подписанными документами, используя GroupDocs.Signature. Это включает в себя поиск существующих подписей в деловых документах и ​​их проверку по определенным критериям. Кроме того, вы можете получать информацию о документе и просматривать страницы с помощью этого .NET API."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Настройка результатов"
+      content: "GroupDocs.Signature для .NET предлагает широкие возможности настройки. Вы можете точно расположить подписи в любом месте страницы документа и настроить их внешний вид, используя различные настройки. Кроме того, этот API поддерживает сохранение обработанных документов в широком диапазоне поддерживаемых форматов."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Независимость от платформы"
+  description: "GroupDocs.Signature для .NET поддерживает следующие операционные системы, платформы и менеджеры пакетов."
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Поддерживаемые форматы файлов"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature для .NET поддерживает операции со следующими [форматами файлов](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Форматы Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Изображения и другие форматы
+        * **Портативный:** PDF
+        * **Изображений:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Другие форматы офисов:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Другие форматы
+        * **Интернет:** HTML, MHTML
+        * **Архивы:** ZIP, TAR, 7Z
+        * **Сертификаты:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Возможности GroupDocs.Signature"
+  description: "Подписание PDF-файлов, документов Office и изображений быстро и точно"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Подписание документов"
+      content: "Точно добавляйте один или несколько поддерживаемых типов подписей в любом указанном месте деловых документов."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Настройка подписей"
+      content: "Используйте такие функции, как цвет, шрифт, граница, поворот и т. д., чтобы настроить внешний вид подписей."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Защита документа паролем"
+      content: "Защитите определенные типы документов, установив пароль после подписания."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Защита от изменений"
+      content: "Предотвратите изменение важных деловых документов после добавления подписи с помощью цифрового сертификата."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Конвертируйте подписанные файлы в другие форматы"
+      content: "Преобразуйте подписанные файлы в нужные форматы, например сохраняя документ Word в формате PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Извлечение превью страниц"
+      content: "Извлекайте страницы из подписанных документов как отдельные изображения для дальнейшей обработки."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Поиск подписи в документах"
+      content: "Получить информацию о ранее добавленных подписях в определенных документах."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Проверка подписанных документов"
+      content: "Проверьте правильность подписания документов, используя функции проверки."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Обновить или удалить подписи"
+      content: "Легко перемещайте определенные подписи на странице, изменяйте их текст или удаляйте их без каких-либо проблем."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Примеры кода"
+  description: "Некоторые варианты использования типичных операций GroupDocs.Signature для .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Добавить QR-код в PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Добавление [QR-кодов](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) на определенные страницы PDF-документов может улучшить бизнес-процессы. Ниже приведен пример добавления QR-кода с помощью GroupDocs.Signature.
+        {{< landing/code title="Как вставить QR-код в PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Загрузите документ для подписи
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Создание вариантов QR-кода с заранее заданным текстом
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Настройте тип и положение кодировки QR-кода на странице.
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Подпишите документ и сохраните его как файл результатов.
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Защита документа DOCX с помощью цифрового сертификата"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Вы можете [защитить документ](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), используя личные или корпоративные подписи, хранящиеся в виде цифровых сертификатов. Такие защищенные документы не могут быть изменены без аннулирования подписи.
+        {{< landing/code title="Вот как обеспечить целостность документа.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Загрузите документ для цифровой подписи
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Укажите параметры цифровой подписи и укажите путь к файлу сертификата.
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Установите пароль сертификата
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Подпишите документ и сохраните его по нужному пути.
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

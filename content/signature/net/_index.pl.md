@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:52
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, interfejsy API w chmurze i aplikacje do podpisywania do
 head_description: "Uzyskaj kompleksowe rozwiązanie do podpisu elektronicznego dokumentów dla aplikacji .NET, Java i opartych na chmurze. Podpisuj online popularne formaty dokumentów za pomocą prostej funkcji przeciągania i upuszczania"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Podpisz dokumenty<br>poprzez API .NET"
 description: "Podpisuj cyfrowe dokumenty i obrazy na dowolnej platformie, korzystając z naszych elastycznych interfejsów API i rozwiązań opartych na aplikacjach dla programistów i użytkowników końcowych."
 words:
-  for: "{index-content.words_for}"
+  for: "Do"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Bezpłatne pobieranie NuGeta"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Koncesjonowanie"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Gotowy żeby zacząć?"
+  description: "Wypróbuj bezpłatnie funkcje GroupDocs.Signature lub poproś o licencję"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Wydano wersję {0}"
+  notes: "Zobacz co nowego"
+  downloads: "Pliki do pobrania"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Podpisuj pliki PDF w C#"
+  more: "Więcej przykładów"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Wybierz dokument PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Podaj tekst
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Ustaw kolor
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Podpisz dokument i zapisz do pliku
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Przegląd GroupDocs.Signature"
+  description: "API do wykonywania podpisywania dokumentów i operacji z tym związanych w aplikacjach .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Dodawanie podpisów do dokumentów biznesowych w C#"
+      content: "Podpisywanie dokumentów: Dzięki GroupDocs.Signature for .NET możesz dodawać różne typy podpisów, takie jak tekst, obrazy, kody kreskowe i certyfikaty cyfrowe, do dokumentów PDF i dokumentów pakietu Office. Ten interfejs API umożliwia podpisywanie dokumentów niemal dowolnym typem danych, w tym ukrytymi metadanymi."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Przetwarzanie podpisanych dokumentów"
+      content: "Dodatkowe przetwarzanie: możesz wykonywać zaawansowane operacje na podpisanych dokumentach za pomocą GroupDocs.Signature. Obejmuje to wyszukiwanie istniejących podpisów w dokumentach biznesowych i weryfikację ich według określonych kryteriów. Dodatkowo możesz pobierać informacje o dokumentach i przeglądać strony za pośrednictwem tego interfejsu API .NET."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Dostosowywanie wyników"
+      content: "GroupDocs.Signature dla .NET oferuje szerokie możliwości dostosowywania. Możesz precyzyjnie umieszczać podpisy w dowolnym miejscu strony dokumentu i dostosowywać ich wygląd, korzystając z różnych ustawień. Co więcej, ten interfejs API obsługuje zapisywanie przetworzonych dokumentów w szerokiej gamie obsługiwanych formatów."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Niezależność platformy"
+  description: "GroupDocs.Signature for .NET obsługuje następujące systemy operacyjne, struktury i menedżery pakietów"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Obsługiwane formaty plików"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET obsługuje operacje na następujących [formatach plików] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formaty pakietu Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Obrazy i inne formaty
+        * **Przenośny:** PDF
+        * **Obrazy:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Inne formaty biurowe:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Inne formaty
+        * **Sieć:** HTML, MHTML
+        * **Archiwa:** ZIP, TAR, 7Z
+        * **Certyfikaty:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Funkcje GroupDocs.Signature"
+  description: "Szybkie i dokładne podpisywanie plików PDF, dokumentów biurowych i obrazów"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Podpisanie dokumentu"
+      content: "Dokładne dodawanie jednego lub wielu obsługiwanych typów podpisów w dowolnym określonym miejscu dokumentów biznesowych."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Dostosuj podpisy"
+      content: "Wykorzystaj funkcje takie jak kolor, czcionka, obramowanie, obrót itp., aby skonfigurować wygląd podpisów."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Ochrona hasłem dokumentu"
+      content: "Zabezpiecz określone typy dokumentów, ustawiając hasło po podpisaniu."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Ochrona przed zmianami"
+      content: "Zapobiegaj zmianom w ważnych dokumentach biznesowych po złożeniu podpisu za pomocą certyfikatu cyfrowego."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Konwertuj podpisane pliki na inne formaty"
+      content: "Konwertuj podpisane pliki do żądanych formatów, na przykład zapisując dokument programu Word jako plik PDF."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Wyodrębnij podglądy stron"
+      content: "Wyodrębnij strony z podpisanych dokumentów jako pojedyncze obrazy do przyszłego przetwarzania."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Wyszukiwanie podpisów w dokumentach"
+      content: "Odzyskaj informacje o wcześniej dodanych podpisach w konkretnych dokumentach."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Zweryfikuj podpisane dokumenty"
+      content: "Sprawdź poprawność podpisywania dokumentów za pomocą funkcji walidacji."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Zaktualizuj lub usuń podpisy"
+      content: "Z łatwością zmieniaj położenie określonych podpisów na stronie, modyfikuj ich tekst lub usuwaj je bez żadnych problemów."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Próbki kodu"
+  description: "Niektóre przypadki użycia typowych operacji GroupDocs.Signature dla .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Dodaj kod QR do pliku PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Dodanie [kodów QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) do określonych stron dokumentów PDF może usprawnić procesy biznesowe. Poniżej znajduje się przykład dodania kodu QR za pomocą GroupDocs.Signature.
+        {{< landing/code title="Jak umieścić kod QR w formacie PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Załaduj dokument do podpisu
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Twórz opcje kodów QR z predefiniowanym tekstem
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Skonfiguruj typ i położenie kodowania kodu QR na stronie
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Podpisz dokument i zapisz go jako plik wynikowy
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Ochrona dokumentu DOCX za pomocą certyfikatu cyfrowego"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Możesz [Chroń dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), używając podpisów osobistych lub firmowych przechowywanych jako certyfikaty cyfrowe. Tak chronionych dokumentów nie można modyfikować bez unieważnienia podpisu.
+        {{< landing/code title="Oto, jak zapewnić integralność dokumentów.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Załaduj dokument, który ma zostać podpisany cyfrowo
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Określ opcje podpisu cyfrowego i podaj ścieżkę do pliku certyfikatu
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Ustaw hasło certyfikatu
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Podpisz dokument i zapisz go w wybranej ścieżce
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API & Apl Tandatangan Dokumen Dalam Talian"
 head_description: "Dapatkan penyelesaian e-tandatangan dokumen semua-dalam-satu untuk .NET, Java dan aplikasi berasaskan awan. Tandatangani format dokumen biasa dalam talian menggunakan ciri seret dan lepas mudah"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Menandatangani dokumen<br>melalui Java API"
 description: "Tandatangani dokumen dan imej digital pada mana-mana platform menggunakan API fleksibel dan penyelesaian berasaskan aplikasi kami untuk pengaturcara dan pengguna akhir."
 words:
-  for: "{index-content.words_for}"
+  for: "untuk"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Muat Turun Maven Percuma"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Pelesenan"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Bersedia untuk bermula?"
+  description: "Cuba ciri GroupDocs.Signature secara percuma atau minta lesen"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versi {0} dikeluarkan"
+  notes: "Lihat perkara baharu"
+  downloads: "Muat turun"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Tandatangani fail PDF dalam Java"
+  more: "Lagi contoh"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Pilih dokumen PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Sediakan teks
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Tandatangan dokumen dan simpan ke fail
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Overview"
+  description: "API untuk melaksanakan menandatangani dokumen dan operasi berkaitan dalam aplikasi Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Dokumen perniagaan yang dipertingkatkan dengan tandatangan digital di Jawa"
+      content: "Tandatangan pantas dan boleh disesuaikan: GroupDocs.Signature untuk Java menawarkan pelbagai pilihan tandatangan digital untuk PDF, imej dan dokumen Office. Anda boleh menggunakan teks, kod bar, kod QR, sijil digital, gambar atau metadata tersembunyi. Pemprosesan dokumen adalah pantas dan cekap."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Memanipulasi dokumen yang ditandatangani"
+      content: "Pemprosesan dokumen lanjutan melibatkan operasi berkuasa pada dokumen yang ditandatangani menggunakan GroupDocs.Signature untuk Java. Anda boleh mencari dan mengesahkan tandatangan yang telah ditambahkan pada dokumen perniagaan menggunakan pelbagai kriteria berguna. Selain itu, anda boleh mengakses maklumat terperinci tentang dokumen atau mendapatkan imej pratonton halamannya."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Pelbagai pilihan keluaran"
+      content: "Pilihan tandatangan yang mantap membolehkan anda menyesuaikan output untuk dokumen yang ditandatangani dengan GroupDocs.Signature untuk Java. Anda boleh meletakkan mana-mana tandatangan dengan tepat pada mana-mana halaman dokumen dan mengkonfigurasi penampilannya dalam pelbagai cara. API Java menyokong penyimpanan dokumen perniagaan yang ditandatangani dalam pelbagai format yang disokong dan menyediakan pilihan untuk melindunginya dengan kata laluan."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Kemerdekaan platform"
+  description: "GroupDocs.Signature untuk Java menyokong sistem pengendalian, rangka kerja dan pengurus pakej berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Format fail yang disokong"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature untuk Java menyokong operasi dengan [format fail] berikut (https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Format Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Imej & Format Lain
+        * **Mudah alih:** PDF
+        * **Imej:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Format pejabat lain:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Format lain
+        * **Web:** HTML, MHTML
+        * **Arkib:** ZIP, TAR, 7Z
+        * **Sijil:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Ciri tandatangan"
+  description: "Menandatangani PDF, Dokumen Pejabat dan imej dengan tandatangan digital"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Menambah Tandatangan"
+      content: "Tandatangan dokumen menggunakan pelbagai jenis tandatangan yang disokong dengan meletakkan tandatangan digital dengan tepat pada sebarang kedudukan pada mana-mana halaman."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Menyesuaikan hasil"
+      content: "Sesuaikan penampilan tandatangan dengan melaraskan warna, fon, jidar, putaran dan ciri lain untuk mencapai hasil yang diinginkan."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Melindungi dokumen dengan kata laluan"
+      content: "Untuk banyak jenis dokumen yang disokong, anda boleh melindungi dokumen yang ditandatangani dengan kata laluan."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Mencegah perubahan yang tidak dibenarkan"
+      content: "Lindungi dokumen perniagaan penting yang ditandatangani dengan sijil digital daripada pengubahsuaian yang tidak dibenarkan."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Mendapatkan hasil dalam format yang diingini"
+      content: "Dapatkan fail hasil yang ditandatangani dengan mudah dalam sebarang format yang disokong. Anda juga boleh menukar dokumen MS Word kepada PDF dengan mudah."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Pratonton dokumen"
+      content: "Simpan mana-mana halaman dokumen sebagai imej untuk pemprosesan masa hadapan."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Mencari tandatangan"
+      content: "Adalah mungkin untuk mendapatkan maklumat tentang tandatangan yang ditambahkan sebelum ini dalam dokumen tertentu."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Mengesahkan dokumen"
+      content: "Sahkan ketepatan tandatangan pada mana-mana dokumen yang ditandatangani."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Menguruskan tandatangan"
+      content: "Sebaik sahaja tandatangan diletakkan pada halaman dokumen, ia boleh dipadamkan, dialihkan atau dikemas kini mengikut keperluan."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Sampel kod"
+  description: "Sesetengah menggunakan kes biasa GroupDocs.Signature untuk operasi Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Tingkatkan dokumen PDF dengan kod QR"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Meningkatkan proses perniagaan dengan menambahkan [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) pada halaman tertentu dokumen PDF boleh menjadi berharga. Terdapat contoh cara menambah kod QR menggunakan GroupDocs.Signature untuk Java.
+        {{< landing/code title="Tingkatkan dokumen PDF dengan kod QR">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Muatkan dokumen untuk ditandatangani
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Buat pilihan kod QR dengan teks yang dipratentukan
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Konfigurasikan jenis pengekodan kod QR dan kedudukan pada halaman
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Tandatangani dokumen dan simpan sebagai fail hasil
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Gunakan tandatangan digital untuk melindungi DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Anda boleh [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) menggunakan tandatangan peribadi atau korporat yang disimpan sebagai sijil digital. Dokumen yang dicagarkan dengan sijil tidak boleh diubah tanpa membatalkan tandatangan.
+        {{< landing/code title="Gunakan tandatangan digital untuk melindungi DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Muatkan dokumen untuk ditandatangani secara digital
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Tentukan pilihan tandatangan digital dan berikan laluan ke fail sijil
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Tetapkan kata laluan sijil
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Tandatangani dokumen dan simpan ke laluan yang dikehendaki
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

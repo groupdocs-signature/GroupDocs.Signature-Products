@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, felhő API-k és online dokumentum-aláíró alkalmazá
 head_description: "Szerezzen minden az egyben dokumentum-aláírási megoldást .NET, Java és felhőalapú alkalmazásokhoz. A gyakori dokumentumformátumok online aláírása egyszerű fogd és vidd funkcióval"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Írja alá a dokumentumokat<br>Java API-n keresztül"
 description: "A programozóknak és végfelhasználóknak szánt rugalmas API-jaink és alkalmazásalapú megoldásaink segítségével bármilyen platformon aláírhat digitális dokumentumokat és képeket."
 words:
-  for: "{index-content.words_for}"
+  for: "számára"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Ingyenes Maven letöltés"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Engedélyezés"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki a GroupDocs.Signature szolgáltatásait ingyenesen, vagy kérjen licencet"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "A(z) {0} verzió megjelent"
+  notes: "Tekintse meg az újdonságokat"
+  downloads: "Letöltések"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "PDF fájlok aláírása Java nyelven"
+  more: "További példák"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Válassza ki a PDF dokumentumot
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Szöveg megadása
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Írja alá a dokumentumot és mentse el a fájlba
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature áttekintése"
+  description: "API dokumentum-aláírási és kapcsolódó műveletek végrehajtásához Java alkalmazásokban"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Továbbfejlesztett üzleti dokumentumok digitális aláírással Java nyelven"
+      content: "Gyors és testreszabható aláírás: A GroupDocs.Signature for Java a digitális aláírási lehetőségek széles skáláját kínálja PDF-ekhez, képekhez és Office-dokumentumokhoz. Használhat szöveget, vonalkódokat, QR-kódokat, digitális tanúsítványokat, képeket vagy rejtett metaadatokat. A dokumentumfeldolgozás gyors és hatékony."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Az aláírt dokumentumok kezelése"
+      content: "A fejlett dokumentumfeldolgozás hatékony műveleteket foglal magában az aláírt dokumentumokon a GroupDocs.Signature for Java használatával. Különféle hasznos kritériumok segítségével megkeresheti és ellenőrizheti az üzleti dokumentumokhoz hozzáadott aláírásokat. Ezenkívül hozzáférhet a dokumentumra vonatkozó részletes információkhoz, vagy előnézeti képeket kaphat az oldalairól."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Különféle kimeneti lehetőségek"
+      content: "A robusztus aláírási lehetőségek lehetővé teszik a GroupDocs.Signature for Java programmal aláírt dokumentumok kimenetének testreszabását. Bármely aláírást pontosan elhelyezhet bármely dokumentumoldalon, és különféle módokon konfigurálhatja annak megjelenését. A Java API támogatja az aláírt üzleti dokumentumok mentését számos támogatott formátumban, és lehetőséget biztosít ezek jelszavas biztosítására."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Platformfüggetlenség"
+  description: "A GroupDocs.Signature for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Támogatott fájlformátumok"
   description: |
-    {index-content-java.formats_description}
+    A GroupDocs.Signature for Java a következő [fájlformátumokkal] támogatja a műveleteket (https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office formátumok
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Képek és egyéb formátumok
+        * **Hordozható:** PDF
+        * **Képek:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Egyéb irodai formátumok:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Egyéb formátumok
+        * **Web:** HTML, MHTML
+        * **Levéltár:** ZIP, TAR, 7Z
+        * **Tanúsítványok:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature funkciók"
+  description: "PDF-ek, Office-dokumentumok és képek aláírása digitális aláírással"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Aláírások hozzáadása"
+      content: "Aláírjon egy dokumentumot különböző támogatott aláírástípusokkal úgy, hogy digitális aláírást helyez el precízen, bármely oldal bármely pontján."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Az eredmények testreszabása"
+      content: "Testreszabhatja az aláírás megjelenését a szín, a betűtípus, a szegély, az elforgatás és egyéb funkciók módosításával a kívánt eredmény elérése érdekében."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Dokumentumok titkosítása jelszóval"
+      content: "Számos támogatott dokumentumtípus esetén az aláírt dokumentumot jelszóval védheti."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "A jogosulatlan változtatások megakadályozása"
+      content: "Védje meg a digitális tanúsítvánnyal aláírt fontos üzleti dokumentumokat a jogosulatlan módosításoktól."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Eredmények elérése a kívánt formátumban"
+      content: "Könnyen beszerezhet aláírt eredményfájlokat bármilyen támogatott formátumban. Az MS Word dokumentumokat könnyedén PDF formátumba konvertálhatja."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Dokumentum előnézete"
+      content: "Mentse el a dokumentum bármely oldalát képként a későbbi feldolgozáshoz."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Aláírások keresése"
+      content: "A korábban hozzáadott aláírásokról konkrét dokumentumokban lehet tájékozódni."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "A dokumentumok érvényesítése"
+      content: "Minden aláírt dokumentumon ellenőrizze az aláírások helyességét."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Aláírások kezelése"
+      content: "Miután egy aláírást elhelyezett egy dokumentumoldalon, szükség szerint törölheti, áthelyezheti vagy frissítheti."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Kódminták"
+  description: "Egyes esetekben a tipikus GroupDocs.Signature Java műveleteket használják"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Javítsa a PDF dokumentumot QR-kóddal"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Értékes lehet az üzleti folyamatok fejlesztése a [QR-kódok](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) hozzáadásával a PDF-dokumentumok egyes oldalaihoz. Van egy példa QR-kód hozzáadására a GroupDocs.Signature for Java használatával.
+        {{< landing/code title="Javítsa a PDF dokumentumot QR-kóddal">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Töltse be az aláírandó dokumentumot
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Hozzon létre QR-kód opciókat előre meghatározott szöveggel
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Konfigurálja a QR-kód kódolási típusát és pozícióját az oldalon
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Írja alá a dokumentumot, és mentse el eredményfájlként
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Használjon digitális aláírást a DOCX védelméhez"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        A digitális tanúsítványként tárolt személyes vagy vállalati aláírások használatával [megvédheti a dokumentumokat](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/). A tanúsítvánnyal védett dokumentumok az aláírás érvénytelenítése nélkül nem módosíthatók.
+        {{< landing/code title="Használjon digitális aláírást a DOCX védelméhez">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Töltse be a digitálisan aláírandó dokumentumot
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Adja meg a digitális aláírás beállításait, és adja meg a tanúsítványfájl elérési útját
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Állítsa be a tanúsítvány jelszavát
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Írja alá a dokumentumot, és mentse el a kívánt útvonalra
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}

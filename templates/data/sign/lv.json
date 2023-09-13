@@ -245,12 +245,186 @@
     "api_nocodelabel": "Skatīt visas bezkoda lietotnes",
     "api_nocode_1_content": "Parakstiet Microsoft Word, Excel, PowerPoint, Visio un PDF failus ar tekstu, attēlu, svītrkodu vai QR kodu.",
     "api_nocode_2_content": "Ciparu parakstiet Word dokumentus tiešsaistē tieši no pārlūkprogrammas bez maksas.",
-    "api_nocode_3_content": "e-Parakstīt PDF failus, izmantojot tekstu, attēlu vai svītrkodu no jebkuras tīmekļa pārlūkprogrammas."
+    "api_nocode_3_content": "e-Parakstīt PDF failus, izmantojot tekstu, attēlu vai svītrkodu no jebkuras tīmekļa pārlūkprogrammas.",
+    "title_1": "Parakstiet dokumentus",
+    "words_for": "priekš",
+    "actions_alt": "Licencēšana",
+    "actions_title": "Vai esat gatavs sākt?",
+    "actions_description": "Izmēģiniet GroupDocs.Signature funkcijas bez maksas vai pieprasiet licenci",
+    "release_title": "Izlaista versija {0}",
+    "release_notes": "Skatiet, kas jauns",
+    "release_downloads": "Lejupielādes",
+    "code_more": "Vairāk piemēru",
+    "code_comment_1": "Atlasiet PDF dokumentu",
+    "code_comment_2": "Sniedziet tekstu",
+    "code_comment_3": "Iestatīt krāsu",
+    "code_comment_4": "Parakstiet dokumentu un saglabājiet to failā",
+    "overview_title": "GroupDocs.Paraksta pārskats",
+    "platforms_title": "Platformas neatkarība",
+    "formats_title": "Atbalstītie failu formāti",
+    "formats_groups": {
+      "title_1": "Microsoft Office formāti",
+      "title_2": "Attēli un citi formāti",
+      "title_3": "Citi formāti",
+      "format_portable": "Pārnēsājams",
+      "format_other_office": "Citi biroja formāti",
+      "format_images": "Attēli",
+      "format_web": "Web",
+      "format_archives": "Arhīvi",
+      "format_certificates": "Sertifikāti"
+    },
+    "code_samples": {
+      "title": "Koda paraugi",
+      "sample_1": {
+        "code_title": "Kā ievietot QR kodu PDF failā.",
+        "comment_1": "Ievietojiet dokumentu parakstīšanai",
+        "comment_2": "Izveidojiet QR koda opcijas ar iepriekš definētu tekstu",
+        "comment_3": "Konfigurējiet QR koda kodēšanas veidu un pozīciju lapā",
+        "comment_4": "Parakstiet dokumentu un saglabājiet to kā rezultāta failu"
+      },
+      "sample_2": {
+        "code_title": "Lūk, kā nodrošināt dokumenta integritāti.",
+        "comment_1": "Ielādējiet dokumentu, kas jāparaksta digitāli",
+        "comment_2": "Norādiet ciparparaksta opcijas un norādiet ceļu uz sertifikāta failu",
+        "comment_3": "Iestatiet sertifikāta paroli",
+        "comment_4": "Parakstiet dokumentu un saglabājiet to vajadzīgajā ceļā"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Vietējā .NET API elektroniskajiem parakstiem"
+    "title": "Vietējā .NET API elektroniskajiem parakstiem",
+    "title_2": "izmantojot .NET API",
+    "actions_main": "Bezmaksas NuGet lejupielāde",
+    "code_title": "Parakstīt PDF failus C#",
+    "overview_description": "API dokumentu parakstīšanas un saistīto darbību veikšanai .NET lietojumprogrammās",
+    "overview_feature_1": {
+      "title": "Parakstu pievienošana biznesa dokumentiem C#",
+      "description": "Dokumentu parakstīšana: Izmantojot GroupDocs.Signature for .NET, varat pievienot dažādu veidu parakstus, piemēram, tekstu, attēlus, svītrkodus un digitālos sertifikātus, PDF un Office dokumentiem. Šī API ļauj parakstīt dokumentus ar gandrīz jebkura veida datiem, tostarp slēptiem metadatiem."
+    },
+    "overview_feature_2": {
+      "title": "Parakstīto dokumentu apstrāde",
+      "description": "Papildu apstrāde: varat veikt spēcīgas darbības ar parakstītiem dokumentiem, izmantojot GroupDocs.Signature. Tas ietver esošo parakstu meklēšanu biznesa dokumentos un to pārbaudi, izmantojot īpašus kritērijus. Turklāt, izmantojot šo .NET API, varat izgūt dokumenta informāciju un priekšskatīt lapas."
+    },
+    "overview_feature_3": {
+      "title": "Rezultātu pielāgošana",
+      "description": "GroupDocs.Signature for .NET piedāvā plašas pielāgošanas iespējas. Varat precīzi novietot parakstus jebkurā dokumenta lapā un pielāgot to izskatu, izmantojot dažādus iestatījumus. Turklāt šī API atbalsta apstrādāto dokumentu saglabāšanu plašā atbalstīto formātu klāstā."
+    },
+    "features": {
+      "title": "GroupDocs.Paraksta funkcijas",
+      "description": "Ātra un precīza PDF, Office dokumentu un attēlu parakstīšana",
+      "feature_1": {
+        "title": "Dokumentu parakstīšana",
+        "content": "Precīzi pievienojiet vienu vai vairākus atbalstītos parakstu veidus jebkurā norādītajā biznesa dokumentu pozīcijā."
+      },
+      "feature_2": {
+        "title": "Pielāgojiet parakstus",
+        "content": "Izmantojiet tādas funkcijas kā krāsa, fonts, apmale, pagriešana utt., lai konfigurētu parakstu izskatu."
+      },
+      "feature_3": {
+        "title": "Dokumenta paroles aizsardzība",
+        "content": "Nodrošiniet noteiktus dokumentu veidus, pēc parakstīšanas iestatot paroli."
+      },
+      "feature_4": {
+        "title": "Aizsardzība pret izmaiņām",
+        "content": "Novērsiet izmaiņas svarīgos biznesa dokumentos pēc paraksta pievienošanas ar digitālo sertifikātu."
+      },
+      "feature_5": {
+        "title": "Konvertējiet parakstītos failus citos formātos",
+        "content": "Konvertējiet parakstītos failus vajadzīgajos formātos, piemēram, saglabājiet Word dokumentu kā PDF."
+      },
+      "feature_6": {
+        "title": "Izvilkt lapu priekšskatījumus",
+        "content": "Izņemiet lapas no parakstītiem dokumentiem kā atsevišķus attēlus turpmākai apstrādei."
+      },
+      "feature_7": {
+        "title": "Parakstu meklēšana dokumentos",
+        "content": "Izgūt informāciju par iepriekš pievienotajiem parakstiem konkrētos dokumentos."
+      },
+      "feature_8": {
+        "title": "Apstipriniet parakstītos dokumentus",
+        "content": "Pārbaudiet dokumentu pareizu parakstīšanu, izmantojot validācijas līdzekļus."
+      },
+      "feature_9": {
+        "title": "Atjauniniet vai dzēsiet parakstus",
+        "content": "Ērti pārvietojiet konkrētus parakstus lapā, mainiet to tekstu vai izdzēsiet tos bez problēmām."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus",
+    "formats_description": "GroupDocs.Signature for .NET atbalsta darbības ar šādiem [failu formātiem](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Daži tipiski GroupDocs.Signature izmantošanas gadījumi .NET operācijām",
+    "code_title_sample_1": "Pievienojiet QR kodu PDF failam",
+    "code_samples_sample_1_content_1": "[QR-kodu] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) pievienošana noteiktām PDF dokumentu lapām var uzlabot biznesa procesus.",
+    "code_samples_sample_1_content_2": "Tālāk ir sniegts piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature.",
+    "code_title_sample_2": "DOCX dokumenta aizsardzība, izmantojot digitālo sertifikātu",
+    "code_samples_sample_2_content_1": "Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā ciparsertifikāti.",
+    "code_samples_sample_2_content_2": "Šādus aizsargātus dokumentus nevar mainīt, nepadarot parakstu par nederīgu."
   },
   "index-content-java": {
-    "title": "Java API digitālo parakstu pārvaldībai"
+    "title": "Java API digitālo parakstu pārvaldībai",
+    "title_2": "izmantojot Java API",
+    "actions_main": "Bezmaksas Maven lejupielāde",
+    "code_title": "Parakstiet PDF failus Java",
+    "overview_description": "API dokumentu parakstīšanas un saistīto darbību veikšanai Java lietojumprogrammās",
+    "overview_feature_1": {
+      "title": "Uzlaboti biznesa dokumenti ar ciparparakstiem Java",
+      "description": "Ātra un pielāgojama parakstīšana: GroupDocs.Signature for Java piedāvā plašu digitālā paraksta iespēju klāstu PDF failiem, attēliem un Office dokumentiem. Varat izmantot tekstu, svītrkodus, QR kodus, digitālos sertifikātus, attēlus vai slēptos metadatus. Dokumentu apstrāde ir ātra un efektīva."
+    },
+    "overview_feature_2": {
+      "title": "Manipulēšana ar parakstītiem dokumentiem",
+      "description": "Uzlabotā dokumentu apstrāde ietver spēcīgas darbības ar parakstītiem dokumentiem, izmantojot GroupDocs.Signature for Java. Jūs varat meklēt un apstiprināt parakstus, kas pievienoti biznesa dokumentiem, izmantojot dažādus noderīgus kritērijus. Turklāt varat piekļūt detalizētai informācijai par dokumentu vai iegūt tā lapu priekšskatījuma attēlus."
+    },
+    "overview_feature_3": {
+      "title": "Izvades iespēju daudzveidība",
+      "description": "Izturīgas parakstīšanas opcijas ļauj pielāgot izvadi dokumentiem, kas parakstīti ar GroupDocs.Signature for Java. Jūs varat precīzi novietot jebkuru parakstu jebkurā dokumenta lapā un konfigurēt tā izskatu dažādos veidos. Java API atbalsta parakstīto biznesa dokumentu saglabāšanu daudzos atbalstītos formātos un nodrošina iespējas tos aizsargāt ar parolēm."
+    },
+    "features": {
+      "title": "GroupDocs.Paraksta funkcijas",
+      "description": "PDF, Office dokumentu un attēlu parakstīšana ar digitālajiem parakstiem",
+      "feature_1": {
+        "title": "Parakstu pievienošana",
+        "content": "Parakstiet dokumentu, izmantojot dažādus atbalstītos paraksta veidus, precīzi ievietojot ciparparakstu jebkurā vietā jebkurā lapā."
+      },
+      "feature_2": {
+        "title": "Rezultātu pielāgošana",
+        "content": "Pielāgojiet paraksta izskatu, pielāgojot krāsu, fontu, apmali, rotāciju un citas funkcijas, lai sasniegtu vēlamo rezultātu."
+      },
+      "feature_3": {
+        "title": "Dokumentu nodrošināšana ar paroli",
+        "content": "Daudziem atbalstītajiem dokumentu veidiem varat aizsargāt parakstīto dokumentu ar paroli."
+      },
+      "feature_4": {
+        "title": "Neatļautu izmaiņu novēršana",
+        "content": "Aizsargājiet svarīgus biznesa dokumentus, kas parakstīti ar digitālo sertifikātu, no nesankcionētām izmaiņām."
+      },
+      "feature_5": {
+        "title": "Rezultātu iegūšana vēlamajos formātos",
+        "content": "Viegli iegūstiet parakstītus rezultātu failus jebkurā atbalstītā formātā. Varat arī bez pūlēm pārvērst MS Word dokumentus PDF formātā."
+      },
+      "feature_6": {
+        "title": "Dokumenta priekšskatījums",
+        "content": "Saglabājiet jebkuru dokumenta lapu kā attēlu turpmākai apstrādei."
+      },
+      "feature_7": {
+        "title": "Parakstu meklēšana",
+        "content": "Konkrētos dokumentos iespējams iegūt informāciju par iepriekš pievienotajiem parakstiem."
+      },
+      "feature_8": {
+        "title": "Dokumentu apstiprināšana",
+        "content": "Apstipriniet parakstu pareizību uz jebkura parakstīta dokumenta."
+      },
+      "feature_9": {
+        "title": "Parakstu pārvaldība",
+        "content": "Kad paraksts ir ievietots dokumenta lapā, to var dzēst, pārvietot vai atjaunināt pēc vajadzības."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus",
+    "formats_description": "GroupDocs.Signature for Java atbalsta darbības ar šādiem [failu formātiem](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Daži izmanto tipisku GroupDocs.Signature gadījumu Java operācijām",
+    "code_title_sample_1": "Uzlabojiet PDF dokumentu ar QR kodu",
+    "code_samples_sample_1_content_1": "Uzņēmējdarbības procesu uzlabošana, pievienojot [QR-kodus](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) konkrētām PDF dokumentu lapām, var būt vērtīgi.",
+    "code_samples_sample_1_content_2": "Ir piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Izmantojiet digitālo parakstu, lai aizsargātu DOCX",
+    "code_samples_sample_2_content_1": "Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā digitālie sertifikāti.",
+    "code_samples_sample_2_content_2": "Ar sertifikātu nodrošinātos dokumentus nevar mainīt, nepadarot parakstu par nederīgu."
   }
 }

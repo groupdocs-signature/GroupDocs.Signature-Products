@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-13T10:36:52
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API және онлайн құжат қолтаң
 head_description: ".NET, Java және бұлтқа негізделген қолданбалар үшін барлығы бір құжаттың электрондық қолтаңба шешімін алыңыз. Қарапайым апарып тастау мүмкіндігін пайдаланып, жалпы құжат пішіміне онлайн қол қойыңыз"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Құжаттарға қол қою<br>.NET API арқылы"
 description: "Бағдарламашылар мен түпкі пайдаланушыларға арналған икемді API және қолданбаға негізделген шешімдерді пайдаланып, кез келген платформада сандық құжаттар мен кескіндерге қол қойыңыз."
 words:
-  for: "{index-content.words_for}"
+  for: "үшін"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "NuGet тегін жүктеп алу"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Лицензиялау"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Бастауға дайынсыз ба?"
+  description: "GroupDocs.Signature мүмкіндіктерін тегін пайдаланып көріңіз немесе лицензия сұраңыз"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "{0} нұсқасы шығарылды"
+  notes: "Жаңалықтарды қараңыз"
+  downloads: "Жүктеулер"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "C# тілінде PDF файлдарына қол қою"
+  more: "Қосымша мысалдар"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // PDF құжатын таңдаңыз
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Мәтінді беру
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Түс орнату
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Құжатқа қол қойып, файлға сақтаңыз
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature шолу"
+  description: ".NET қолданбаларында құжатқа қол қоюды және қатысты әрекеттерді орындауға арналған API"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "C# тілінде іскери құжаттарға қолтаңбаларды қосу"
+      content: "Құжаттарға қол қою: .NET үшін GroupDocs.Signature көмегімен PDF және Office құжаттарына мәтін, кескіндер, штрих-кодтар және сандық сертификаттар сияқты әртүрлі қолтаңба түрлерін қосуға болады. Бұл API құжаттарыңызға кез келген дерлік деректер түрімен, соның ішінде жасырын метадеректермен қол қоюға мүмкіндік береді."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Қол қойылған құжаттарды өңдеу"
+      content: "Қосымша өңдеу: GroupDocs.Signature арқылы қол қойылған құжаттарда күшті әрекеттерді орындауға болады. Бұған бизнес құжаттарында бар қолтаңбаларды іздеу және оларды нақты критерийлер арқылы тексеру кіреді. Сонымен қатар, құжат ақпаратын шығарып алуға және осы .NET API арқылы беттерді алдын ала қарауға болады."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Нәтижелерді теңшеу"
+      content: ".NET үшін GroupDocs.Signature кеңейтілген теңшеу опцияларын ұсынады. Қолтаңбаларды құжат бетінің кез келген жеріне дәл орналастырып, әртүрлі параметрлерді пайдаланып олардың көрінісін реттеуге болады. Сонымен қатар, бұл API өңделген құжаттарды қолдау көрсетілетін пішімдердің кең ауқымында сақтауды қолдайды."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Платформаның тәуелсіздігі"
+  description: "GroupDocs.Signature for .NET келесі операциялық жүйелерге, фреймворктарға және пакет менеджерлеріне қолдау көрсетеді"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,128 +112,128 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Қолдау көрсетілетін файл пішімдері"
   description: |
-    {index-content-net.formats_description}
+    .NET үшін GroupDocs.Signature келесі [файл пішімдері](https://docs.groupdocs.com/signature/net/supported-document-formats/) бар әрекеттерді қолдайды.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office пішімдері
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Суреттер және басқа пішімдер
+        * **Портативті:** PDF
+        * **Суреттер:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Басқа кеңсе пішімдері:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Басқа форматтар
+        * **желі:** HTML, MHTML
+        * **Мұрағаттар:** ZIP, TAR, 7Z
+        * **Сертификаттар:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Қол қою мүмкіндіктері"
+  description: "PDF файлдарына, кеңсе құжаттарына және кескіндерге жылдам және дәл қол қою"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+      title: "Құжатқа қол қою"
+      content: "Іскерлік құжаттардағы кез келген көрсетілген орынға бір немесе бірнеше қолдау көрсетілетін қолтаңба түрлерін дәл қосыңыз."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+      title: "Қолтаңбаларды теңшеу"
+      content: "Қолтаңбалардың көрінісін конфигурациялау үшін түс, қаріп, жиек, бұру, т.б. сияқты мүмкіндіктерді пайдаланыңыз."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+      title: "Құжатты құпия сөзбен қорғау"
+      content: "Қол қойғаннан кейін құпия сөз орнату арқылы белгілі бір құжат түрлерін қорғаңыз."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+      title: "Өзгерістерден қорғау"
+      content: "Сандық сертификаты бар қолтаңбаны қосқаннан кейін маңызды бизнес құжаттарына өзгерістер енгізуге жол бермеңіз."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
+      title: "Қол қойылған файлдарды басқа пішімдерге түрлендіру"
+      content: "Қол қойылған файлдарды қажетті пішімдерге түрлендіру, мысалы, Word құжатын PDF ретінде сақтау."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
+      title: "Беттің алдын ала қарауларын шығарып алыңыз"
+      content: "Болашақта өңдеу үшін жеке кескіндер ретінде қол қойылған құжаттардан беттерді шығарып алыңыз."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
+      title: "Құжаттардағы қолтаңбаны іздеу"
+      content: "Арнайы құжаттардағы бұрын қосылған қолтаңбалар туралы ақпаратты шығарып алыңыз."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+      title: "Қол қойылған құжаттарды растау"
+      content: "Валидация мүмкіндіктерін пайдаланып құжаттарға дұрыс қол қоюды тексеріңіз."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Қолтаңбаларды жаңарту немесе жою"
+      content: "Беттегі арнайы қолтаңбалардың орнын оңай өзгертіңіз, олардың мәтінін өзгертіңіз немесе ешбір мәселесіз жойыңыз."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Код үлгілері"
+  description: "Кейбіреулер .NET операциялары үшін әдеттегі GroupDocs.Signature жағдайларын пайдаланады"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "PDF файлына QR кодын қосыңыз"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        PDF құжаттарының арнайы беттеріне [QR-кодтарын](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) қосу бизнес процестерін жақсартады. Төменде GroupDocs.Signature арқылы QR кодын қосудың мысалы берілген.
+        {{< landing/code title="QR кодын PDF файлына қалай қоюға болады.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Қол қою үшін құжатты жүктеңіз
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Алдын ала анықталған мәтінмен QR коды опцияларын жасаңыз
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Беттегі QR кодын кодтау түрі мен орнын конфигурациялаңыз
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Құжатқа қол қойыңыз және оны нәтиже файлы ретінде сақтаңыз
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX құжатын цифрлық сертификат арқылы қорғау"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Сандық сертификаттар ретінде сақталған жеке немесе корпоративтік қолтаңбаларды пайдаланып, [Құжатты қорғауға](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) болады. Мұндай қорғалған құжаттарды қолды жарамсыз деп өзгертуге болмайды.
+        {{< landing/code title="Міне, құжаттың тұтастығын қамтамасыз ету жолы.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Цифрлық қол қою үшін құжатты жүктеңіз
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Сандық қол қою опцияларын көрсетіңіз және сертификат файлына жолды беріңіз
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Сертификат құпия сөзін орнатыңыз
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Құжатқа қол қойып, оны қажетті жолға сақтаңыз
             signature.Sign("digitally_signed.pdf", options);
         }
         ```

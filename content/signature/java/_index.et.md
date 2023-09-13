@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-13T10:36:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, pilve API-d ja veebipõhised dokumendiallkirjarakenduse
 head_description: "Hankige kõik-ühes dokumendi e-allkirja lahendus .NET-i, Java- ja pilvepõhiste rakenduste jaoks. Allkirjastage levinud dokumendivormingud veebis, kasutades lihtsat pukseerimisfunktsiooni"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Allkirjastada dokumendid<br>Java API kaudu"
 description: "Allkirjastage digitaalseid dokumente ja pilte mis tahes platvormil, kasutades meie paindlikke API-sid ja rakendusepõhiseid lahendusi programmeerijatele ja lõppkasutajatele."
 words:
-  for: "{index-content.words_for}"
+  for: "jaoks"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Tasuta Maveni allalaadimine"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Litsentsi andmine"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Kas olete valmis alustama?"
+  description: "Proovige GroupDocs.Signature'i funktsioone tasuta või taotlege litsentsi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Välja antud versioon {0}"
+  notes: "Vaadake, mis on uut"
+  downloads: "Allalaadimised"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "PDF-failide allkirjastamine Javas"
+  more: "Veel näiteid"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Valige PDF-dokument
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Esitage tekst
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Allkirjastage dokument ja salvestage faili
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Allkirja ülevaade"
+  description: "API dokumentide allkirjastamiseks ja sellega seotud toimingute tegemiseks Java rakendustes"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Täiustatud äridokumendid Java digiallkirjadega"
+      content: "Kiire ja kohandatav allkirjastamine: GroupDocs.Signature for Java pakub PDF-ide, piltide ja Office'i dokumentide jaoks laias valikus digitaalallkirjade valikuid. Saate kasutada teksti, vöötkoode, QR-koode, digitaalseid sertifikaate, pilte või peidetud metaandmeid. Dokumentide töötlemine on kiire ja tõhus."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Allkirjastatud dokumentidega manipuleerimine"
+      content: "Täiustatud dokumenditöötlus hõlmab võimsaid toiminguid allkirjastatud dokumentidega, kasutades Java jaoks mõeldud GroupDocs.Signature'i. Saate otsida ja kinnitada äridokumentidele lisatud allkirju, kasutades erinevaid kasulikke kriteeriume. Lisaks pääsete juurde üksikasjalikule teabele dokumendi kohta või saate selle lehtede eelvaatepilte."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Erinevad väljundi valikud"
+      content: "Tugevad allkirjastamisvalikud võimaldavad teil kohandada GroupDocs.Signature for Java-ga allkirjastatud dokumentide väljundit. Saate täpselt paigutada mis tahes allkirja mis tahes dokumendi lehele ja konfigureerida selle välimust mitmel viisil. Java API toetab allkirjastatud äridokumentide salvestamist paljudes toetatud vormingutes ja pakub võimalusi nende turvamiseks paroolidega."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Platvormi sõltumatus"
+  description: "GroupDocs.Signature for Java toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,127 +115,127 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Toetatud failivormingud"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature for Java toetab toiminguid järgmiste [failivormingutega](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office'i vormingud
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Pildid ja muud vormingud
+        * **Kaasaskantav:** PDF
+        * **Pildid:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Muud kontorivormingud:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Muud vormingud
+        * **võrk:** HTML, MHTML
+        * **Arhiivid:** ZIP, TAR, 7Z
+        * **Sertifikaadid:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Allkirja funktsioonid"
+  description: "PDF-ide, Office'i dokumentide ja piltide allkirjastamine digitaalallkirjadega"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+      title: "Allkirjade lisamine"
+      content: "Allkirjastage dokument, kasutades erinevaid toetatud allkirjatüüpe, asetades digitaalallkirja täpselt mis tahes lehe mis tahes kohta."
 
     # feature loop
     - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+      title: "Tulemuste kohandamine"
+      content: "Kohandage allkirja välimust, kohandades soovitud tulemuse saavutamiseks värvi, fonti, äärist, pööramist ja muid funktsioone."
 
     # feature loop
     - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+      title: "Dokumentide turvamine parooliga"
+      content: "Paljude toetatud dokumenditüüpide puhul saate allkirjastatud dokumenti kaitsta parooliga."
 
     # feature loop
     - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+      title: "Volitamata muudatuste vältimine"
+      content: "Kaitske digitaalse sertifikaadiga allkirjastatud olulisi äridokumente volitamata muutmise eest."
 
     # feature loop
     - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
+      title: "Tulemuste saamine soovitud vormingus"
+      content: "Hankige hõlpsasti allkirjastatud tulemusfailid mis tahes toetatud vormingus. Samuti saate MS Wordi dokumente hõlpsalt PDF-vormingusse teisendada."
 
     # feature loop
     - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
+      title: "Dokumendi eelvaade"
+      content: "Salvestage dokumendi mis tahes leht pildina edaspidiseks töötlemiseks."
 
     # feature loop
     - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
+      title: "Allkirjade otsimine"
+      content: "Varem lisatud allkirjade kohta on võimalik saada infot konkreetsetes dokumentides."
 
     # feature loop
     - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+      title: "Dokumentide kinnitamine"
+      content: "Kontrollige mis tahes allkirjastatud dokumendi allkirjade õigsust."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Allkirjade haldamine"
+      content: "Kui allkiri on dokumendi lehele pandud, saab seda vastavalt vajadusele kustutada, teisaldada või värskendada."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Koodi näidised"
+  description: "Mõned kasutavad tüüpilisi GroupDocs.Signature'i Java-operatsioonide jaoks"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Täiustage PDF-dokumenti QR-koodiga"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Äriprotsesside täiustamine PDF-dokumentide konkreetsetele lehtedele [QR-koodide](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) lisamisega võib olla väärtuslik. Seal on näide QR-koodi lisamise kohta, kasutades GroupDocs.Signature for Java.
+        {{< landing/code title="Täiustage PDF-dokumenti QR-koodiga">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Laadige alla allkirjastatav dokument
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Looge QR-koodi valikud eelnevalt määratletud tekstiga
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Konfigureerige QR-koodi kodeeringu tüüp ja asukoht lehel
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Allkirjastage dokument ja salvestage see tulemusfailina
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Kasutage DOCX-i kaitsmiseks digitaalallkirja"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju. Sertifikaadiga tagatud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata.
+        {{< landing/code title="Kasutage DOCX-i kaitsmiseks digitaalallkirja">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Laadige digitaalselt allkirjastatav dokument
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Määrake digitaalse allkirjastamise suvandid ja määrake sertifikaadi faili tee
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Määrake sertifikaadi parool
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Allkirjastage dokument ja salvestage see soovitud teele
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
