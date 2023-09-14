@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "دستاویز پر دستخط"
       content: "کاروباری دستاویزات پر کسی بھی مخصوص پوزیشن پر درست طریقے سے ایک یا متعدد معاون قسم کے دستخط شامل کریں۔"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "دستخطوں کو حسب ضرورت بنائیں"
       content: "دستخطوں کی ظاہری شکل کو ترتیب دینے کے لیے رنگ، فونٹ، بارڈر، گردش وغیرہ جیسی خصوصیات کا استعمال کریں۔"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "دستاویز پاس ورڈ کی حفاظت"
       content: "دستخط کرنے کے بعد پاس ورڈ ترتیب دے کر دستاویز کی مخصوص اقسام کو محفوظ کریں۔"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "تبدیلیوں سے تحفظ"
       content: "ڈیجیٹل سرٹیفکیٹ کے ساتھ دستخط شامل کرنے کے بعد اہم کاروباری دستاویزات میں تبدیلیوں کو روکیں۔"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "دستخط شدہ فائلوں کو دوسرے فارمیٹس میں تبدیل کریں۔"
       content: "دستخط شدہ فائلوں کو مطلوبہ فارمیٹس میں تبدیل کریں، جیسے کہ ورڈ دستاویز کو پی ڈی ایف کے طور پر محفوظ کرنا۔"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "صفحہ پیش نظارہ نکالیں۔"
       content: "مستقبل کی پروسیسنگ کے لیے انفرادی تصاویر کے طور پر دستخط شدہ دستاویزات سے صفحات نکالیں۔"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "دستاویزات میں دستخط تلاش کریں۔"
       content: "مخصوص دستاویزات میں پہلے شامل کیے گئے دستخطوں کے بارے میں معلومات حاصل کریں۔"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "دستخط شدہ دستاویزات کی توثیق کریں۔"
       content: "توثیق کی خصوصیات کا استعمال کرتے ہوئے دستاویزات پر صحیح دستخط کی تصدیق کریں۔"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "دستخطوں کو اپ ڈیٹ کریں یا حذف کریں۔"
       content: "کسی صفحہ پر مخصوص دستخطوں کو آسانی سے جگہ دیں، ان کے متن میں ترمیم کریں، یا بغیر کسی مسئلے کے انہیں حذف کریں۔"
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

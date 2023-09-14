@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Firma del documento"
       content: "Aggiungi con precisione uno o più tipi di firme supportate in qualsiasi posizione specificata sui documenti aziendali."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalizza le firme"
       content: "Utilizza funzionalità come colore, carattere, bordo, rotazione, ecc. per configurare l'aspetto delle firme."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Protezione dei documenti tramite password"
       content: "Proteggi determinati tipi di documenti impostando una password dopo la firma."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Protezione dai cambiamenti"
       content: "Impedisci modifiche a documenti aziendali importanti dopo aver aggiunto una firma con un certificato digitale."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Converti file firmati in altri formati"
       content: "Converti file firmati nei formati desiderati, ad esempio salvando un documento Word come PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Estrai le anteprime delle pagine"
       content: "Estrai pagine da documenti firmati come singole immagini per elaborazioni future."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Ricerca della firma nei documenti"
       content: "Recupera informazioni sulle firme aggiunte in precedenza in documenti specifici."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Convalidare i documenti firmati"
       content: "Verifica la corretta firma dei documenti utilizzando le funzionalità di convalida."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Aggiorna o elimina le firme"
       content: "Riposiziona facilmente firme specifiche su una pagina, modificane il testo o eliminale senza problemi."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

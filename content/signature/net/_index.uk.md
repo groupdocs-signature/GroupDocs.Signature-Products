@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Підписання документа"
       content: "Точно додайте один або кілька підтримуваних типів підписів у будь-яку вказану позицію ділових документів."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Налаштувати підписи"
       content: "Використовуйте такі функції, як колір, шрифт, рамка, поворот тощо, щоб налаштувати вигляд підписів."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Захист документів паролем"
       content: "Захистіть певні типи документів, встановивши пароль після підписання."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Захист від змін"
       content: "Запобігайте змінам важливих ділових документів після додавання підпису за допомогою цифрового сертифіката."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Перетворення підписаних файлів в інші формати"
       content: "Перетворіть підписані файли у потрібні формати, наприклад збережіть документ Word у форматі PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Витягти попередній перегляд сторінки"
       content: "Витягуйте сторінки з підписаних документів як окремі зображення для подальшої обробки."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Пошук підпису в документах"
       content: "Отримати інформацію про раніше додані підписи в певних документах."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Перевірте підписані документи"
       content: "Перевірте належне підписання документів за допомогою функцій перевірки."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Оновіть або видаліть підписи"
       content: "Легко змінюйте розташування певних підписів на сторінці, змінюйте їхній текст або видаляйте їх без проблем."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

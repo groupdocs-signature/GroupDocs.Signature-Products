@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
-    "formats_description": "GroupDocs.Signature untuk .NET mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature untuk .NET mendukung operasi dengan [format file](https://docs.groupdocs.com/signature/net/supported-document-formats/) berikut.",
     "code_samples_description": "Beberapa kasus penggunaan GroupDocs.Signature untuk operasi .NET",
     "code_title_sample_1": "Tambahkan kode QR ke PDF",
     "code_samples_sample_1_content_1": "Menambahkan [kode QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) ke halaman tertentu dokumen PDF dapat meningkatkan proses bisnis.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
-    "formats_description": "GroupDocs.Signature untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature untuk Java mendukung operasi dengan [format file](https://docs.groupdocs.com/signature/java/supported-document-formats/) berikut.",
     "code_samples_description": "Beberapa kasus penggunaan GroupDocs.Signature khas untuk operasi Java",
     "code_title_sample_1": "Tingkatkan dokumen PDF dengan kode QR",
     "code_samples_sample_1_content_1": "Meningkatkan proses bisnis dengan menambahkan [kode QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ke halaman tertentu dokumen PDF dapat bermanfaat.",

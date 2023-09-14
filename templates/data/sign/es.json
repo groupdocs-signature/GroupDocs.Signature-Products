@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature para .NET admite los siguientes sistemas operativos, marcos y administradores de paquetes",
-    "formats_description": "GroupDocs.Signature para .NET admite operaciones con los siguientes [formatos de archivo] (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature para .NET admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Algunos casos de uso de operaciones típicas de GroupDocs.Signature para .NET",
     "code_title_sample_1": "Agregar código QR a PDF",
     "code_samples_sample_1_content_1": "Agregar [códigos QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF puede mejorar los procesos comerciales.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature para Java admite los siguientes sistemas operativos, marcos y administradores de paquetes",
-    "formats_description": "GroupDocs.Signature para Java admite operaciones con los siguientes [formatos de archivo] (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature para Java admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
     "code_samples_description": "Algunos casos de uso de operaciones típicas de GroupDocs.Signature para Java",
     "code_title_sample_1": "Mejore el documento PDF con código QR",
     "code_samples_sample_1_content_1": "Puede resultar valioso mejorar los procesos comerciales agregando [códigos QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF.",

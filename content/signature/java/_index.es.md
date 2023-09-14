@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Formatos de archivo admitidos"
   description: |
-    GroupDocs.Signature para Java admite operaciones con los siguientes [formatos de archivo] (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature para Java admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Agregar firmas"
       content: "Firme un documento utilizando varios tipos de firma admitidos colocando una firma digital con precisión en cualquier posición de cualquier página."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalización de resultados"
       content: "Personalice la apariencia de la firma ajustando el color, la fuente, el borde, la rotación y otras características para lograr el resultado deseado."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Proteger documentos con contraseña"
       content: "Para muchos tipos de documentos admitidos, puede proteger el documento firmado con una contraseña."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Prevención de cambios no autorizados"
       content: "Proteja los documentos comerciales importantes firmados con un certificado digital contra modificaciones no autorizadas."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Obtención de resultados en los formatos deseados"
       content: "Obtenga fácilmente archivos de resultados firmados en cualquier formato compatible. También puedes convertir documentos de MS Word a PDF sin esfuerzo."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Vista previa del documento"
       content: "Guarde cualquier página de un documento como una imagen para su procesamiento futuro."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Buscando firmas"
       content: "Es posible obtener información sobre firmas agregadas previamente en documentos específicos."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validación de documentos"
       content: "Validar la exactitud de las firmas en cualquier documento firmado."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Gestionar firmas"
       content: "Una vez que se coloca una firma en la página de un documento, se puede eliminar, mover o actualizar según sea necesario."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

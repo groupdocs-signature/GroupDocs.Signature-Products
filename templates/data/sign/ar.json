@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "يدعم GroupDocs.Signature for .NET أنظمة التشغيل وأطر العمل ومديري الحزم التالية",
-    "formats_description": "يدعم GroupDocs.Signature for .NET العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "يدعم GroupDocs.Signature for .NET تنسيقات الملفات [التالية](https://docs.groupdocs.com/signature/net/supported-document-formats/) العمليات باستخدام.",
     "code_samples_description": "تستخدم بعض حالات GroupDocs.Signature النموذجية لعمليات .NET",
     "code_title_sample_1": "إضافة رمز الاستجابة السريعة إلى PDF",
     "code_samples_sample_1_content_1": "يمكن أن تؤدي إضافة [رموز QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) إلى صفحات محددة من مستندات PDF إلى تحسين العمليات التجارية.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "يدعم GroupDocs.Signature for Java أنظمة التشغيل وأطر العمل ومديري الحزم التالية",
-    "formats_description": "يدعم GroupDocs.Signature for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "يدعم GroupDocs.Signature for Java تنسيقات الملفات [التالية](https://docs.groupdocs.com/signature/java/supported-document-formats/) العمليات باستخدام.",
     "code_samples_description": "تستخدم بعض حالات GroupDocs.Signature النموذجية لعمليات Java",
     "code_title_sample_1": "Enchance وثيقة PDF مع رمز الاستجابة السريعة",
     "code_samples_sample_1_content_1": "يمكن أن يكون تحسين العمليات التجارية عن طريق إضافة [رموز QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) إلى صفحات محددة من مستندات PDF أمرًا ذا قيمة.",

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Подписване на документ"
       content: "Добавете един или няколко поддържани типа подписи точно на всяка определена позиция в бизнес документи."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Персонализиране на подписите"
       content: "Използвайте функции като цвят, шрифт, рамка, ротация и т.н., за да конфигурирате външния вид на подписите."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Защита на документа с парола"
       content: "Защитете определени типове документи, като зададете парола след подписване."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Защита от промени"
       content: "Предотвратете промени във важни бизнес документи след добавяне на подпис с цифров сертификат."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Конвертирайте подписани файлове в други формати"
       content: "Конвертирайте подписани файлове в желани формати, като например запазване на Word документ като PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Извличане на визуализации на страници"
       content: "Извличайте страници от подписани документи като отделни изображения за бъдеща обработка."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Търсене на подпис в документи"
       content: "Извличане на информация за добавени преди това подписи в конкретни документи."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Валидирайте подписаните документи"
       content: "Проверете правилното подписване на документи с помощта на функции за валидиране."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Актуализирайте или изтрийте подписи"
       content: "Лесно препозиционирайте конкретни подписи на страница, модифицирайте техния текст или ги изтрийте без никакви проблеми."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

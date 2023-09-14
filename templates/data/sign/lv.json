@@ -353,7 +353,7 @@
     "formats_description": "GroupDocs.Signature for .NET atbalsta darbības ar šādiem [failu formātiem](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Daži tipiski GroupDocs.Signature izmantošanas gadījumi .NET operācijām",
     "code_title_sample_1": "Pievienojiet QR kodu PDF failam",
-    "code_samples_sample_1_content_1": "[QR-kodu] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) pievienošana noteiktām PDF dokumentu lapām var uzlabot biznesa procesus.",
+    "code_samples_sample_1_content_1": "[QR-kodu](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) pievienošana noteiktām PDF dokumentu lapām var uzlabot biznesa procesus.",
     "code_samples_sample_1_content_2": "Tālāk ir sniegts piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature.",
     "code_title_sample_2": "DOCX dokumenta aizsardzība, izmantojot digitālo sertifikātu",
     "code_samples_sample_2_content_1": "Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā ciparsertifikāti.",

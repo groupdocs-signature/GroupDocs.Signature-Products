@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Document signing"
       content: "Add one or multiple supported types of signatures accurately at any specified position on business documents."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Customize signatures"
       content: "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Document password protection"
       content: "Secure certain document types by setting a password after signing."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Protection from changes"
       content: "Prevent changes to important business documents after appending a signature with a digital certificate."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Convert signed files to other formats"
       content: "Convert signed files to desired formats, such as saving a Word document as a PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extract page previews"
       content: "Extract pages from signed documents as individual images for future processing."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Signature search in documents"
       content: "Retrieve information about previously added signatures in specific documents."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validate signed documents"
       content: "Verify the proper signing of documents using validation features."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Update or delete signatures"
       content: "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

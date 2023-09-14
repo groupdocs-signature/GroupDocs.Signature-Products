@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "تنسيقات الملفات المدعومة"
   description: |
-    يدعم GroupDocs.Signature for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    يدعم GroupDocs.Signature for Java تنسيقات الملفات [التالية](https://docs.groupdocs.com/signature/java/supported-document-formats/) العمليات باستخدام.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "إضافة التوقيعات"
       content: "قم بتوقيع مستند باستخدام أنواع التوقيع المدعومة المختلفة عن طريق وضع التوقيع الرقمي بدقة في أي موضع على أي صفحة."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "تخصيص النتائج"
       content: "قم بتخصيص مظهر التوقيع عن طريق ضبط اللون والخط والحدود والتدوير والميزات الأخرى لتحقيق النتيجة المرجوة."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "تأمين المستندات بكلمة مرور"
       content: "بالنسبة للعديد من أنواع المستندات المدعومة، يمكنك حماية المستند الموقع بكلمة مرور."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "منع التغييرات غير المصرح بها"
       content: "حماية مستندات العمل المهمة الموقعة بشهادة رقمية من التعديلات غير المصرح بها."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "الحصول على النتائج بالصيغ المطلوبة"
       content: "يمكنك بسهولة الحصول على ملفات النتائج الموقعة بأي تنسيق مدعوم. يمكنك أيضًا تحويل مستندات MS Word إلى PDF بسهولة."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "معاينة الوثيقة"
       content: "احفظ أي صفحة من المستند كصورة للمعالجة المستقبلية."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "البحث عن التوقيعات"
       content: "من الممكن الحصول على معلومات حول التوقيعات المضافة مسبقًا في مستندات محددة."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "التحقق من صحة الوثائق"
       content: "التحقق من صحة التوقيعات على أي وثيقة موقعة."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "إدارة التوقيعات"
       content: "بمجرد وضع التوقيع على صفحة المستند، يمكن حذفه أو نقله أو تحديثه حسب الحاجة."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp](https://docs.groupdocs.com/signature/java/supported-document-formats/) sau.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Thêm chữ ký"
       content: "Ký tài liệu bằng nhiều loại chữ ký được hỗ trợ khác nhau bằng cách đặt chữ ký điện tử chính xác ở bất kỳ vị trí nào trên bất kỳ trang nào."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tùy chỉnh kết quả"
       content: "Tùy chỉnh giao diện chữ ký bằng cách điều chỉnh màu sắc, phông chữ, đường viền, xoay và các tính năng khác để đạt được kết quả mong muốn."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Bảo mật tài liệu bằng mật khẩu"
       content: "Đối với nhiều loại tài liệu được hỗ trợ, bạn có thể bảo vệ tài liệu đã ký bằng mật khẩu."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Ngăn chặn những thay đổi trái phép"
       content: "Bảo vệ các tài liệu kinh doanh quan trọng được ký bằng chứng chỉ kỹ thuật số khỏi những sửa đổi trái phép."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Thu được kết quả ở định dạng mong muốn"
       content: "Dễ dàng có được các tệp kết quả đã ký ở bất kỳ định dạng được hỗ trợ nào. Bạn cũng có thể chuyển đổi tài liệu MS Word sang PDF một cách dễ dàng."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Xem trước tài liệu"
       content: "Lưu bất kỳ trang nào của tài liệu dưới dạng hình ảnh để xử lý trong tương lai."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Tìm kiếm chữ ký"
       content: "Có thể lấy thông tin về chữ ký đã thêm trước đó trong các tài liệu cụ thể."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Xác thực tài liệu"
       content: "Xác thực tính chính xác của chữ ký trên bất kỳ tài liệu đã ký nào."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Quản lý chữ ký"
       content: "Sau khi chữ ký được đặt trên trang tài liệu, nó có thể bị xóa, di chuyển hoặc cập nhật nếu cần."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

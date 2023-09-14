@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Добавление подписей"
       content: "Подпишите документ, используя различные поддерживаемые типы подписей, разместив цифровую подпись точно в любом месте на любой странице."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Настройка результатов"
       content: "Настройте внешний вид подписи, настроив цвет, шрифт, рамку, поворот и другие функции для достижения желаемого результата."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Защита документов паролем"
       content: "Для многих поддерживаемых типов документов вы можете защитить подписанный документ паролем."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Предотвращение несанкционированных изменений"
       content: "Защитите важные деловые документы, подписанные цифровым сертификатом, от несанкционированных изменений."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Получение результатов в желаемых форматах"
       content: "Легко получайте подписанные файлы результатов в любом поддерживаемом формате. Вы также можете легко конвертировать документы MS Word в PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Предварительный просмотр документа"
       content: "Сохраните любую страницу документа как изображение для дальнейшей обработки."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Ищем подписи"
       content: "Есть возможность получить информацию о ранее добавленных подписях в конкретных документах."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Проверка документов"
       content: "Проверка правильности подписей на любом подписанном документе."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Управление подписями"
       content: "После размещения подписи на странице документа ее можно удалить, переместить или обновить по мере необходимости."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Добавяне на подписи"
       content: "Подпишете документ, като използвате различни поддържани типове подписи, като поставите цифров подпис точно на всяка позиция на всяка страница."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Персонализиране на резултатите"
       content: "Персонализирайте външния вид на подписа, като коригирате цвят, шрифт, рамка, ротация и други функции, за да постигнете желания резултат."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Защита на документи с парола"
       content: "За много поддържани типове документи можете да защитите подписания документ с парола."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Предотвратяване на неоторизирани промени"
       content: "Защитете важни бизнес документи, подписани с цифров сертификат, от неоторизирани модификации."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Получаване на резултати в желани формати"
       content: "Получавайте лесно подписани файлове с резултати във всеки поддържан формат. Можете също така да конвертирате MS Word документи в PDF без усилие."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Визуализация на документа"
       content: "Запазете всяка страница от документ като изображение за бъдеща обработка."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Търсене на подписи"
       content: "Възможно е да получите информация за предварително добавени подписи в конкретни документи."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Валидиране на документи"
       content: "Потвърдете правилността на подписите върху всеки подписан документ."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Управление на подписи"
       content: "След като подписът е поставен върху страница на документ, той може да бъде изтрит, преместен или актуализиран, ако е необходимо."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

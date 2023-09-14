@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Աջակցվող ֆայլի ձևաչափեր"
   description: |
-    GroupDocs.Signature-ը Java-ի համար աջակցում է գործողություններ հետևյալ [ֆայլի ձևաչափերով] (https://docs.groupdocs.com/signature/java/supported-document-formats/):
+    GroupDocs.Signature-ը Java-ի համար աջակցում է գործողություններ հետևյալ [ֆայլի ձևաչափերով](https://docs.groupdocs.com/signature/java/supported-document-formats/):
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Ստորագրությունների ավելացում"
       content: "Ստորագրեք փաստաթուղթ՝ օգտագործելով տարբեր աջակցվող ստորագրության տեսակներ՝ տեղադրելով թվային ստորագրություն ցանկացած էջի ցանկացած դիրքում:"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Արդյունքների հարմարեցում"
       content: "Անհատականացրեք ստորագրության տեսքը՝ հարմարեցնելով գույնը, տառատեսակը, եզրագիծը, ռոտացիան և այլ հնարավորություններ՝ ցանկալի արդյունքի հասնելու համար:"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Փաստաթղթերի պաշտպանություն գաղտնաբառով"
       content: "Աջակցվող փաստաթղթերի շատ տեսակների համար դուք կարող եք պաշտպանել ստորագրված փաստաթուղթը գաղտնաբառով:"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Չթույլատրված փոփոխությունների կանխարգելում"
       content: "Պաշտպանեք թվային վկայականով ստորագրված կարևոր բիզնես փաստաթղթերը չարտոնված փոփոխություններից:"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Արդյունքների ստացում ցանկալի ձևաչափերով"
       content: "Հեշտությամբ ձեռք բերեք ստորագրված արդյունքների ֆայլեր ցանկացած աջակցվող ձևաչափով: Դուք կարող եք նաև հեշտությամբ փոխարկել MS Word փաստաթղթերը PDF-ի:"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Փաստաթղթի նախադիտում"
       content: "Պահպանեք փաստաթղթի ցանկացած էջ որպես պատկեր՝ հետագա մշակման համար:"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Ստորագրությունների որոնում"
       content: "Հնարավոր է տեղեկատվություն ստանալ կոնկրետ փաստաթղթերում նախկինում ավելացված ստորագրությունների մասին։"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Փաստաթղթերի վավերացում"
       content: "Ստուգեք ստորագրությունների ճշգրտությունը ցանկացած ստորագրված փաստաթղթի վրա:"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Ստորագրությունների կառավարում"
       content: "Երբ ստորագրությունը տեղադրվում է փաստաթղթի էջում, այն կարող է ջնջվել, տեղափոխվել կամ թարմացվել ըստ անհրաժեշտության:"
 
@@ -202,7 +202,7 @@ code_samples:
     # code sample loop
     - title: "Բարելավեք PDF փաստաթուղթը QR կոդով"
       content: |
-        Կարող է արժեքավոր լինել PDF փաստաթղթերի որոշակի էջերին [QR-codes] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ավելացնելով բիզնես գործընթացները: Կա մի օրինակ, թե ինչպես կարելի է ավելացնել QR կոդը՝ օգտագործելով GroupDocs.Signature Java-ի համար:
+        Կարող է արժեքավոր լինել PDF փաստաթղթերի որոշակի էջերին [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ավելացնելով բիզնես գործընթացները: Կա մի օրինակ, թե ինչպես կարելի է ավելացնել QR կոդը՝ օգտագործելով GroupDocs.Signature Java-ի համար:
         {{< landing/code title="Բարելավեք PDF փաստաթուղթը QR կոդով">}}
         ```java {style=abap}
         // Ներբեռնեք փաստաթուղթը ստորագրելու համար
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

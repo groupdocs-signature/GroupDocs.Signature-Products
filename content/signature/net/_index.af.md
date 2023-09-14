@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokument ondertekening"
       content: "Voeg een of meer ondersteunde tipes handtekeninge akkuraat by enige gespesifiseerde posisie op besigheidsdokumente."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Pas handtekeninge aan"
       content: "Gebruik kenmerke soos kleur, lettertipe, rand, rotasie, ens., om die voorkoms van handtekeninge op te stel."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokument wagwoordbeskerming"
       content: "Beveilig sekere dokumenttipes deur 'n wagwoord in te stel na ondertekening."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Beskerming teen veranderinge"
       content: "Voorkom veranderinge aan belangrike sakedokumente nadat 'n handtekening met 'n digitale sertifikaat bygevoeg is."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Skakel ondertekende lêers om na ander formate"
       content: "Skakel ondertekende lêers om na gewenste formate, soos om 'n Word-dokument as 'n PDF te stoor."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Onttrek bladsyvoorskoue"
       content: "Onttrek bladsye uit getekende dokumente as individuele beelde vir toekomstige verwerking."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Handtekeningsoektog in dokumente"
       content: "Kry inligting oor voorheen bygevoeg handtekeninge in spesifieke dokumente."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Valideer ondertekende dokumente"
       content: "Verifieer die behoorlike ondertekening van dokumente deur valideringskenmerke te gebruik."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Dateer handtekeninge op of vee dit uit"
       content: "Herposisioneer spesifieke handtekeninge maklik op 'n bladsy, wysig hul teks, of vee dit uit sonder enige probleme."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

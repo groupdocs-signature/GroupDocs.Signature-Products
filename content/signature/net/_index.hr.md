@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Potpisivanje dokumenata"
       content: "Dodajte jednu ili više podržanih vrsta potpisa točno na bilo koje određeno mjesto u poslovnim dokumentima."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prilagodite potpise"
       content: "Upotrijebite značajke kao što su boja, font, obrub, rotacija itd. za konfiguraciju izgleda potpisa."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zaštita dokumenta lozinkom"
       content: "Osigurajte određene vrste dokumenata postavljanjem lozinke nakon potpisivanja."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Zaštita od promjena"
       content: "Spriječite izmjene važnih poslovnih dokumenata nakon dodavanja potpisa digitalnim certifikatom."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Pretvorite potpisane datoteke u druge formate"
       content: "Pretvorite potpisane datoteke u željene formate, kao što je spremanje Word dokumenta kao PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Izdvojite preglede stranica"
       content: "Izdvojite stranice iz potpisanih dokumenata kao pojedinačne slike za buduću obradu."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Pretraga potpisa u dokumentima"
       content: "Dohvaćanje informacija o prethodno dodanim potpisima u određenim dokumentima."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Potvrdite potpisane dokumente"
       content: "Provjerite ispravno potpisivanje dokumenata pomoću značajki provjere valjanosti."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Ažurirajte ili izbrišite potpise"
       content: "Jednostavno promijenite položaj određenih potpisa na stranici, izmijenite njihov tekst ili ih izbrišite bez ikakvih problema."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

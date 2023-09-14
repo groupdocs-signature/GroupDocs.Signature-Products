@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "การเพิ่มลายเซ็น"
       content: "ลงนามในเอกสารโดยใช้ลายเซ็นหลายประเภทที่รองรับโดยการวางลายเซ็นดิจิทัลในตำแหน่งใดก็ได้บนหน้าใดก็ได้อย่างแม่นยำ"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "การปรับแต่งผลลัพธ์"
       content: "ปรับแต่งลักษณะลายเซ็นโดยการปรับสี แบบอักษร เส้นขอบ การหมุน และคุณสมบัติอื่นๆ เพื่อให้ได้ผลลัพธ์ตามที่ต้องการ"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "การรักษาความปลอดภัยเอกสารด้วยรหัสผ่าน"
       content: "สำหรับเอกสารที่รองรับหลายประเภท คุณสามารถป้องกันเอกสารที่ลงนามด้วยรหัสผ่านได้"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "ป้องกันการเปลี่ยนแปลงโดยไม่ได้รับอนุญาต"
       content: "ปกป้องเอกสารทางธุรกิจที่สำคัญที่ลงนามด้วยใบรับรองดิจิทัลจากการแก้ไขโดยไม่ได้รับอนุญาต"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "ได้ผลลัพธ์ในรูปแบบที่ต้องการ"
       content: "รับไฟล์ผลลัพธ์ที่ลงนามในรูปแบบที่รองรับได้อย่างง่ายดาย คุณยังสามารถแปลงเอกสาร MS Word เป็น PDF ได้อย่างง่ายดาย"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "การแสดงตัวอย่างเอกสาร"
       content: "บันทึกหน้าใดๆ ของเอกสารเป็นรูปภาพสำหรับการประมวลผลในอนาคต"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "กำลังค้นหาลายเซ็น"
       content: "สามารถรับข้อมูลเกี่ยวกับลายเซ็นที่เพิ่มไว้ก่อนหน้านี้ในเอกสารเฉพาะได้"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "กำลังตรวจสอบเอกสาร"
       content: "ตรวจสอบความถูกต้องของลายเซ็นในเอกสารที่ลงนาม"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "การจัดการลายเซ็น"
       content: "เมื่อวางลายเซ็นบนหน้าเอกสารแล้ว จะสามารถลบ ย้าย หรืออัปเดตลายเซ็นได้ตามต้องการ"
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

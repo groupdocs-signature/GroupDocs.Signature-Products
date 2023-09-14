@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Allkirjade lisamine"
       content: "Allkirjastage dokument, kasutades erinevaid toetatud allkirjatüüpe, asetades digitaalallkirja täpselt mis tahes lehe mis tahes kohta."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tulemuste kohandamine"
       content: "Kohandage allkirja välimust, kohandades soovitud tulemuse saavutamiseks värvi, fonti, äärist, pööramist ja muid funktsioone."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentide turvamine parooliga"
       content: "Paljude toetatud dokumenditüüpide puhul saate allkirjastatud dokumenti kaitsta parooliga."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Volitamata muudatuste vältimine"
       content: "Kaitske digitaalse sertifikaadiga allkirjastatud olulisi äridokumente volitamata muutmise eest."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Tulemuste saamine soovitud vormingus"
       content: "Hankige hõlpsasti allkirjastatud tulemusfailid mis tahes toetatud vormingus. Samuti saate MS Wordi dokumente hõlpsalt PDF-vormingusse teisendada."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Dokumendi eelvaade"
       content: "Salvestage dokumendi mis tahes leht pildina edaspidiseks töötlemiseks."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Allkirjade otsimine"
       content: "Varem lisatud allkirjade kohta on võimalik saada infot konkreetsetes dokumentides."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Dokumentide kinnitamine"
       content: "Kontrollige mis tahes allkirjastatud dokumendi allkirjade õigsust."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Allkirjade haldamine"
       content: "Kui allkiri on dokumendi lehele pandud, saab seda vastavalt vajadusele kustutada, teisaldada või värskendada."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

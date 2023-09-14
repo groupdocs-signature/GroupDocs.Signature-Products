@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature for .NET podporuje následující operační systémy, rámce a správce balíčků",
-    "formats_description": "GroupDocs.Signature for .NET podporuje operace s následujícími [formáty souborů] (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature for .NET podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Některé případy použití typických GroupDocs.Signature pro operace .NET",
     "code_title_sample_1": "Přidejte QR kód do PDF",
     "code_samples_sample_1_content_1": "Přidání [QR-kódů](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) na konkrétní stránky dokumentů PDF může zlepšit obchodní procesy.",

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Undirritun skjala"
       content: "Bættu við einni eða mörgum studdum gerðum undirskrifta nákvæmlega á hvaða tilteknu stað sem er á viðskiptaskjölum."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Sérsníða undirskriftir"
       content: "Notaðu eiginleika eins og lit, leturgerð, ramma, snúning osfrv., til að stilla útlit undirskrifta."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Skjalavörn með lykilorði"
       content: "Tryggðu ákveðnar skjalagerðir með því að setja lykilorð eftir undirritun."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Vernd gegn breytingum"
       content: "Koma í veg fyrir breytingar á mikilvægum viðskiptaskjölum eftir að hafa bætt við undirskrift með stafrænu skilríki."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Umbreyttu undirrituðum skrám í önnur snið"
       content: "Umbreyttu undirrituðum skrám í æskileg snið, svo sem að vista Word skjal sem PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Dragðu út forsýningar á síðu"
       content: "Dragðu út síður úr undirrituðum skjölum sem einstakar myndir til framtíðarvinnslu."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Undirskriftarleit í skjölum"
       content: "Sæktu upplýsingar um áður bættar undirskriftir í tilteknum skjölum."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Staðfesta undirrituð skjöl"
       content: "Staðfestu rétta undirritun skjala með því að nota löggildingareiginleika."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Uppfæra eða eyða undirskriftum"
       content: "Breyttu ákveðnum undirskriftum auðveldlega á síðu, breyttu texta þeirra eða eyddu þeim án vandræða."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Assinatura de documento"
       content: "Adicione um ou vários tipos de assinaturas compatíveis com precisão em qualquer posição especificada em documentos comerciais."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalize assinaturas"
       content: "Utilize recursos como cor, fonte, borda, rotação, etc., para configurar a aparência das assinaturas."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Proteção por senha de documento"
       content: "Proteja determinados tipos de documentos definindo uma senha após a assinatura."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Proteção contra mudanças"
       content: "Evite alterações em documentos comerciais importantes após anexar uma assinatura com um certificado digital."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Converta arquivos assinados para outros formatos"
       content: "Converta arquivos assinados nos formatos desejados, como salvar um documento do Word como PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extraia visualizações de páginas"
       content: "Extraia páginas de documentos assinados como imagens individuais para processamento futuro."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Pesquisa de assinatura em documentos"
       content: "Recuperar informações sobre assinaturas adicionadas anteriormente em documentos específicos."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validar documentos assinados"
       content: "Verifique a assinatura adequada dos documentos usando recursos de validação."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Atualizar ou excluir assinaturas"
       content: "Reposicione facilmente assinaturas específicas em uma página, modifique seu texto ou exclua-as sem problemas."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

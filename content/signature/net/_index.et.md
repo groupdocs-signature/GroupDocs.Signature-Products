@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumendi allkirjastamine"
       content: "Lisage täpselt üks või mitu toetatud allkirjatüüpi äridokumentide mis tahes määratud kohta."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Kohandage allkirju"
       content: "Kasutage allkirjade välimuse konfigureerimiseks selliseid funktsioone nagu värv, font, ääris, pööramine jne."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentide paroolikaitse"
       content: "Kaitske teatud tüüpi dokumendid, määrates pärast allkirjastamist parooli."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Kaitse muutuste eest"
       content: "Vältige oluliste äridokumentide muutmist pärast digitaalse sertifikaadiga allkirja lisamist."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Teisendage allkirjastatud failid muudesse vormingutesse"
       content: "Teisendage allkirjastatud failid soovitud vormingusse, näiteks salvestage Wordi dokument PDF-vormingus."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Ekstraktige lehe eelvaated"
       content: "Eraldage allkirjastatud dokumentidest lehed üksikute piltidena edaspidiseks töötlemiseks."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Allkirjaotsing dokumentides"
       content: "Hankige teavet konkreetsetes dokumentides varem lisatud allkirjade kohta."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Kinnitage allkirjastatud dokumendid"
       content: "Kontrollige dokumentide õiget allkirjastamist valideerimisfunktsioonide abil."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Allkirjade värskendamine või kustutamine"
       content: "Saate hõlpsalt lehel konkreetseid allkirju ümber paigutada, nende teksti muuta või kustutada ilma probleemideta."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

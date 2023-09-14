@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Semnarea documentelor"
       content: "Adăugați unul sau mai multe tipuri de semnături acceptate cu precizie la orice poziție specificată pe documentele de afaceri."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalizați semnăturile"
       content: "Utilizați caracteristici precum culoarea, fontul, chenarul, rotația etc., pentru a configura aspectul semnăturilor."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Protecția prin parolă a documentului"
       content: "Securizați anumite tipuri de documente setând o parolă după semnare."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Protecție împotriva schimbărilor"
       content: "Preveniți modificările documentelor importante de afaceri după ce adăugați o semnătură cu un certificat digital."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Convertiți fișierele semnate în alte formate"
       content: "Convertiți fișierele semnate în formatele dorite, cum ar fi salvarea unui document Word ca PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extrageți previzualizările paginii"
       content: "Extrageți pagini din documente semnate ca imagini individuale pentru procesări viitoare."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Căutarea semnăturilor în documente"
       content: "Preluați informații despre semnăturile adăugate anterior în anumite documente."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validați documentele semnate"
       content: "Verificați semnarea corectă a documentelor folosind funcții de validare."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Actualizați sau ștergeți semnăturile"
       content: "Repoziționați cu ușurință anumite semnături pe o pagină, modificați-le textul sau ștergeți-le fără probleme."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

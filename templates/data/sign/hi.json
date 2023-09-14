@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": ".NET के लिए GroupDocs.Signature निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज मैनेजर का समर्थन करता है",
-    "formats_description": ".NET के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों] (https://docs.groupdocs.com/signature/net/supported-document-formats/) के साथ संचालन का समर्थन करता है।",
+    "formats_description": ".NET के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/signature/net/supported-document-formats/) के साथ संचालन का समर्थन करता है।",
     "code_samples_description": "कुछ लोग .NET संचालन के लिए विशिष्ट GroupDocs.Signature के मामलों का उपयोग करते हैं",
     "code_title_sample_1": "पीडीएफ में क्यूआर-कोड जोड़ें",
     "code_samples_sample_1_content_1": "पीडीएफ दस्तावेज़ों के विशिष्ट पृष्ठों में [क्यूआर-कोड](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) जोड़ने से व्यावसायिक प्रक्रियाओं में सुधार हो सकता है।",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "जावा के लिए GroupDocs.Signature निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज प्रबंधकों का समर्थन करता है",
-    "formats_description": "जावा के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों] (https://docs.groupdocs.com/signature/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।",
+    "formats_description": "जावा के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/signature/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।",
     "code_samples_description": "कुछ लोग जावा संचालन के लिए विशिष्ट GroupDocs.Signature के मामलों का उपयोग करते हैं",
     "code_title_sample_1": "क्यूआर-कोड के साथ पीडीएफ दस्तावेज़ को बेहतर बनाएं",
     "code_samples_sample_1_content_1": "पीडीएफ दस्तावेज़ों के विशिष्ट पृष्ठों में [क्यूआर-कोड](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) जोड़कर व्यावसायिक प्रक्रियाओं को बढ़ाना मूल्यवान हो सकता है।",

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Formatên pelê piştgirî kirin"
   description: |
-    GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan] yên jêrîn piştgirî dike (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan](https://docs.groupdocs.com/signature/net/supported-document-formats/) yên jêrîn piştgirî dike.
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "îmzekirina belgeyê"
       content: "Li ser her pozîsyonek diyarkirî li ser belgeyên karsaziyê yek an çend celebên piştgirîkirî yên îmzeyan rast lê zêde bikin."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Kesayetî îmzeyan"
       content: "Taybetmendiyên wekî reng, font, sînor, zivirandin, hwd., bikar bînin da ku xuyabûna îmzeyan mîheng bikin."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Parastina şîfreya belgeyê"
       content: "Piştî îmzekirinê bi danîna şîfreyek hin celeb belgeyan ewle bikin."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Parastina ji guhertinan"
       content: "Piştî pêvekirina îmzeyek bi sertîfîkayek dîjîtal re pêşî li guhertinên belgeyên karsaziyê yên girîng bigirin."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Pelên îmzekirî bi formatên din veguherînin"
       content: "Pelên îmzekirî veguherînin formên xwestinê, wekî tomarkirina belgeyek Word-ê wekî PDF-ê."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Pêşdîtinên rûpelê derxînin"
       content: "Rûpelên ji belgeyên îmzekirî wekî wêneyên kesane ji bo pêvajoyek pêşerojê derxînin."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Di belgeyan de lêgerîna îmzeyan"
       content: "Agahdariya li ser îmzeyên ku berê di belgeyên taybetî de hatine zêdekirin bistînin."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Belgeyên îmzekirî rast bikin"
       content: "Bi karanîna taybetmendiyên pejirandinê, îmzekirina rast a belgeyan verast bikin."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Îmzeyan nûve bikin an jêbikin"
       content: "Bi hêsanî îmzeyên taybetî li ser rûpelek ji nû ve bi cîh bikin, nivîsa wan biguhezînin, an bêyî pirsgirêk wan jêbirin."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

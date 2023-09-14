@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Legge til signaturer"
       content: "Signer et dokument ved å bruke ulike støttede signaturtyper ved å plassere en digital signatur nøyaktig hvor som helst på hvilken som helst side."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tilpasse resultater"
       content: "Tilpass signaturutseendet ved å justere farge, skrift, kantlinje, rotasjon og andre funksjoner for å oppnå ønsket resultat."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Sikring av dokumenter med passord"
       content: "For mange støttede dokumenttyper kan du beskytte det signerte dokumentet med et passord."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Forhindre uautoriserte endringer"
       content: "Beskytt viktige forretningsdokumenter signert med et digitalt sertifikat mot uautoriserte endringer."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Oppnå resultater i ønskede formater"
       content: "Få enkelt signerte resultatfiler i alle støttede formater. Du kan også konvertere MS Word-dokumenter til PDF uten problemer."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Forhåndsvisning av dokument"
       content: "Lagre hvilken som helst side i et dokument som et bilde for fremtidig behandling."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Søker etter signaturer"
       content: "Det er mulig å få informasjon om tidligere tilførte signaturer i spesifikke dokumenter."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validering av dokumenter"
       content: "Validere riktigheten av signaturer på ethvert signert dokument."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Håndtering av signaturer"
       content: "Når en signatur er plassert på en dokumentside, kan den slettes, flyttes eller oppdateres etter behov."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

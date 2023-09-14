@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Format fail yang disokong"
   description: |
-    GroupDocs.Signature untuk .NET menyokong operasi dengan [format fail] berikut (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature untuk .NET menyokong operasi dengan [format fail](https://docs.groupdocs.com/signature/net/supported-document-formats/) berikut.
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Menandatangani dokumen"
       content: "Tambahkan satu atau berbilang jenis tandatangan yang disokong dengan tepat pada mana-mana kedudukan tertentu pada dokumen perniagaan."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Sesuaikan tandatangan"
       content: "Gunakan ciri seperti warna, fon, sempadan, putaran, dsb., untuk mengkonfigurasi penampilan tandatangan."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Perlindungan kata laluan dokumen"
       content: "Lindungi jenis dokumen tertentu dengan menetapkan kata laluan selepas menandatangani."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Perlindungan daripada perubahan"
       content: "Cegah perubahan pada dokumen perniagaan penting selepas melampirkan tandatangan dengan sijil digital."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Tukar fail yang ditandatangani kepada format lain"
       content: "Tukar fail yang ditandatangani kepada format yang diingini, seperti menyimpan dokumen Word sebagai PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Ekstrak pratonton halaman"
       content: "Ekstrak halaman daripada dokumen yang ditandatangani sebagai imej individu untuk pemprosesan masa hadapan."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Carian tandatangan dalam dokumen"
       content: "Dapatkan maklumat tentang tandatangan yang ditambahkan sebelum ini dalam dokumen tertentu."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Mengesahkan dokumen yang ditandatangani"
       content: "Sahkan tandatangan dokumen yang betul menggunakan ciri pengesahan."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Kemas kini atau padamkan tandatangan"
       content: "Letakkan semula tandatangan tertentu dengan mudah pada halaman, ubah suai teksnya atau padamkannya tanpa sebarang masalah."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

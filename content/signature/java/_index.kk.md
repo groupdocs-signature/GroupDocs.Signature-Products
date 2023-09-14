@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Қолтаңбаларды қосу"
       content: "ЭЦҚ-ны кез келген беттегі кез келген орынға дәл қою арқылы әртүрлі қолдау көрсетілетін қолтаңба түрлерін пайдаланып құжатқа қол қойыңыз."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Нәтижелерді теңшеу"
       content: "Қажетті нәтижеге қол жеткізу үшін түсті, қаріпті, жиекті, айналдыруды және басқа мүмкіндіктерді реттеу арқылы қолтаңба көрінісін теңшеңіз."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Құжаттарды құпия сөзбен қорғау"
       content: "Көптеген қолдау көрсетілетін құжат түрлері үшін қол қойылған құжатты құпия сөзбен қорғауға болады."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Рұқсат етілмеген өзгертулердің алдын алу"
       content: "Сандық сертификатпен қол қойылған маңызды бизнес құжаттарын рұқсат етілмеген өзгертулерден қорғаңыз."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Қажетті пішімдердегі нәтижелерді алу"
       content: "Қол қойылған нәтиже файлдарын кез келген қолдау көрсетілетін пішімде оңай алыңыз. Сондай-ақ MS Word құжаттарын PDF форматына еш қиындықсыз түрлендіруге болады."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Құжатты алдын ала қарау"
       content: "Құжаттың кез келген бетін болашақта өңдеу үшін сурет ретінде сақтаңыз."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Қолтаңбаларды іздеу"
       content: "Белгілі бір құжаттарда бұрын қосылған қолдар туралы ақпаратты алуға болады."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Құжаттарды растау"
       content: "Кез келген қол қойылған құжаттағы қолдардың дұрыстығын тексеріңіз."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Қолтаңбаларды басқару"
       content: "Құжат бетіне қол қойылғаннан кейін оны қажетінше жоюға, жылжытуға немесе жаңартуға болады."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

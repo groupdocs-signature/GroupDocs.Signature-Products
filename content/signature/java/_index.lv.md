@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Parakstu pievienošana"
       content: "Parakstiet dokumentu, izmantojot dažādus atbalstītos paraksta veidus, precīzi ievietojot ciparparakstu jebkurā vietā jebkurā lapā."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Rezultātu pielāgošana"
       content: "Pielāgojiet paraksta izskatu, pielāgojot krāsu, fontu, apmali, rotāciju un citas funkcijas, lai sasniegtu vēlamo rezultātu."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentu nodrošināšana ar paroli"
       content: "Daudziem atbalstītajiem dokumentu veidiem varat aizsargāt parakstīto dokumentu ar paroli."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Neatļautu izmaiņu novēršana"
       content: "Aizsargājiet svarīgus biznesa dokumentus, kas parakstīti ar digitālo sertifikātu, no nesankcionētām izmaiņām."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Rezultātu iegūšana vēlamajos formātos"
       content: "Viegli iegūstiet parakstītus rezultātu failus jebkurā atbalstītā formātā. Varat arī bez pūlēm pārvērst MS Word dokumentus PDF formātā."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Dokumenta priekšskatījums"
       content: "Saglabājiet jebkuru dokumenta lapu kā attēlu turpmākai apstrādei."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Parakstu meklēšana"
       content: "Konkrētos dokumentos iespējams iegūt informāciju par iepriekš pievienotajiem parakstiem."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Dokumentu apstiprināšana"
       content: "Apstipriniet parakstu pareizību uz jebkura parakstīta dokumenta."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Parakstu pārvaldība"
       content: "Kad paraksts ir ievietots dokumenta lapā, to var dzēst, pārvietot vai atjaunināt pēc vajadzības."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

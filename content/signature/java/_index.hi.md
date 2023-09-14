@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "समर्थित फ़ाइल स्वरूप"
   description: |
-    जावा के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों] (https://docs.groupdocs.com/signature/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।
+    जावा के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/signature/java/supported-document-formats/) के साथ संचालन का समर्थन करता है।
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "हस्ताक्षर जोड़ना"
       content: "किसी भी पृष्ठ पर किसी भी स्थान पर सटीक रूप से डिजिटल हस्ताक्षर रखकर विभिन्न समर्थित हस्ताक्षर प्रकारों का उपयोग करके एक दस्तावेज़ पर हस्ताक्षर करें।"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "परिणामों को अनुकूलित करना"
       content: "वांछित परिणाम प्राप्त करने के लिए रंग, फ़ॉन्ट, बॉर्डर, रोटेशन और अन्य सुविधाओं को समायोजित करके हस्ताक्षर उपस्थिति को अनुकूलित करें।"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "दस्तावेज़ों को पासवर्ड से सुरक्षित करना"
       content: "कई समर्थित दस्तावेज़ प्रकारों के लिए, आप हस्ताक्षरित दस्तावेज़ को पासवर्ड से सुरक्षित कर सकते हैं।"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "अनधिकृत परिवर्तनों को रोकना"
       content: "डिजिटल प्रमाणपत्र से हस्ताक्षरित महत्वपूर्ण व्यावसायिक दस्तावेज़ों को अनधिकृत संशोधनों से सुरक्षित रखें।"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "वांछित प्रारूपों में परिणाम प्राप्त करना"
       content: "किसी भी समर्थित प्रारूप में हस्ताक्षरित परिणाम फ़ाइलें आसानी से प्राप्त करें। आप एमएस वर्ड दस्तावेज़ों को भी आसानी से पीडीएफ में परिवर्तित कर सकते हैं।"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "दस्तावेज़ पूर्वावलोकन"
       content: "भविष्य में प्रसंस्करण के लिए दस्तावेज़ के किसी भी पृष्ठ को एक छवि के रूप में सहेजें।"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "हस्ताक्षर खोजे जा रहे हैं"
       content: "विशिष्ट दस्तावेज़ों में पहले जोड़े गए हस्ताक्षरों के बारे में जानकारी प्राप्त करना संभव है।"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "दस्तावेज़ों का सत्यापन"
       content: "किसी भी हस्ताक्षरित दस्तावेज़ पर हस्ताक्षरों की शुद्धता को सत्यापित करें।"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "हस्ताक्षर प्रबंधित करना"
       content: "एक बार जब किसी दस्तावेज़ पृष्ठ पर हस्ताक्षर रख दिया जाता है, तो उसे आवश्यकतानुसार हटाया, स्थानांतरित या अद्यतन किया जा सकता है।"
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

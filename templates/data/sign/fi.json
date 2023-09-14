@@ -353,7 +353,7 @@
     "formats_description": "GroupDocs.Signature for .NET tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Jotkut käyttävät tyypillisiä GroupDocs.Signature-tapauksia .NET-toimintoihin",
     "code_title_sample_1": "Lisää QR-koodi PDF-tiedostoon",
-    "code_samples_sample_1_content_1": "[QR-koodien] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja.",
+    "code_samples_sample_1_content_1": "[QR-koodien](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja.",
     "code_samples_sample_1_content_2": "Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.",
     "code_title_sample_2": "DOCX-asiakirjan suojaaminen digitaalisella varmenteella",
     "code_samples_sample_2_content_1": "Voit [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",

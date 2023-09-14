@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Ondersteunde bestandsformaten"
   description: |
-    GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Ondertekening van documenten"
       content: "Voeg nauwkeurig een of meerdere ondersteunde typen handtekeningen toe op elke opgegeven positie in zakelijke documenten."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Pas handtekeningen aan"
       content: "Gebruik functies zoals kleur, lettertype, rand, rotatie, enz. om de weergave van handtekeningen te configureren."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Wachtwoordbeveiliging voor documenten"
       content: "Beveilig bepaalde documenttypen door na ondertekening een wachtwoord in te stellen."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Bescherming tegen veranderingen"
       content: "Voorkom wijzigingen in belangrijke zakelijke documenten na het plaatsen van een handtekening met een digitaal certificaat."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Converteer ondertekende bestanden naar andere formaten"
       content: "Converteer ondertekende bestanden naar gewenste formaten, zoals het opslaan van een Word-document als PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Paginavoorbeelden extraheren"
       content: "Extraheer pagina's uit ondertekende documenten als individuele afbeeldingen voor toekomstige verwerking."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Handtekeningen zoeken in documenten"
       content: "Haal informatie op over eerder toegevoegde handtekeningen in specifieke documenten."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Valideer ondertekende documenten"
       content: "Controleer de juiste ondertekening van documenten met behulp van validatiefuncties."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Handtekeningen bijwerken of verwijderen"
       content: "Verplaats specifieke handtekeningen eenvoudig op een pagina, wijzig de tekst ervan of verwijder ze zonder problemen."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

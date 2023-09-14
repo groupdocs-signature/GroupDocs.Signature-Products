@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Podpisovanie dokumentov"
       content: "Pridajte jeden alebo viacero podporovaných typov podpisov presne na ľubovoľné miesto v obchodných dokumentoch."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prispôsobte podpisy"
       content: "Na konfiguráciu vzhľadu podpisov použite funkcie, ako je farba, písmo, orámovanie, otočenie atď."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Ochrana dokumentov heslom"
       content: "Zabezpečte určité typy dokumentov nastavením hesla po podpísaní."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Ochrana pred zmenami"
       content: "Zabráňte zmenám dôležitých obchodných dokumentov po pripojení podpisu pomocou digitálneho certifikátu."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konvertujte podpísané súbory do iných formátov"
       content: "Preveďte podpísané súbory do požadovaných formátov, ako je napríklad uloženie dokumentu programu Word vo formáte PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extrahujte náhľady stránok"
       content: "Extrahujte strany z podpísaných dokumentov ako jednotlivé obrázky pre budúce spracovanie."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Vyhľadávanie podpisov v dokumentoch"
       content: "Získajte informácie o predtým pridaných podpisoch v konkrétnych dokumentoch."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Overte podpísané dokumenty"
       content: "Overte správne podpisovanie dokumentov pomocou overovacích funkcií."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Aktualizujte alebo odstráňte podpisy"
       content: "Jednoducho premiestnite konkrétne podpisy na stránku, upravte ich text alebo ich bez problémov odstráňte."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

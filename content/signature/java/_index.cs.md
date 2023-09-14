@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Přidávání podpisů"
       content: "Podepište dokument pomocí různých podporovaných typů podpisů umístěním digitálního podpisu přesně na libovolné místo na jakékoli stránce."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Přizpůsobení výsledků"
       content: "Přizpůsobte si vzhled podpisu úpravou barvy, písma, ohraničení, otočení a dalších funkcí, abyste dosáhli požadovaného výsledku."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zabezpečení dokumentů heslem"
       content: "U mnoha podporovaných typů dokumentů můžete podepsaný dokument chránit heslem."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Zabránění neoprávněným změnám"
       content: "Chraňte důležité obchodní dokumenty podepsané digitálním certifikátem před neoprávněnými úpravami."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Získání výsledků v požadovaných formátech"
       content: "Snadno získejte podepsané soubory výsledků v jakémkoli podporovaném formátu. Můžete také bez námahy převést dokumenty MS Word do PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Náhled dokumentu"
       content: "Uložte libovolnou stránku dokumentu jako obrázek pro budoucí zpracování."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Hledání podpisů"
       content: "Je možné získat informace o dříve přidaných podpisech v konkrétních dokumentech."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Ověřování dokumentů"
       content: "Ověřte správnost podpisů na jakémkoli podepsaném dokumentu."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Správa podpisů"
       content: "Jakmile je podpis umístěn na stránku dokumentu, lze jej podle potřeby odstranit, přesunout nebo aktualizovat."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

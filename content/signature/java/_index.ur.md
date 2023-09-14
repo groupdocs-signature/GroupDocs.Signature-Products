@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "دستخط شامل کرنا"
       content: "کسی بھی صفحہ پر کسی بھی پوزیشن پر ٹھیک ٹھیک ڈیجیٹل دستخط رکھ کر مختلف معاون دستخطی اقسام کا استعمال کرتے ہوئے دستاویز پر دستخط کریں۔"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "نتائج کو حسب ضرورت بنانا"
       content: "مطلوبہ نتیجہ حاصل کرنے کے لیے رنگ، فونٹ، بارڈر، گردش اور دیگر خصوصیات کو ایڈجسٹ کرکے دستخط کی ظاہری شکل کو اپنی مرضی کے مطابق بنائیں۔"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "پاس ورڈ کے ساتھ دستاویزات کو محفوظ کرنا"
       content: "متعدد معاون دستاویز کی اقسام کے لیے، آپ پاس ورڈ کے ساتھ دستخط شدہ دستاویز کی حفاظت کر سکتے ہیں۔"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "غیر مجاز تبدیلیوں کو روکنا"
       content: "ڈیجیٹل سرٹیفکیٹ کے ساتھ دستخط شدہ اہم کاروباری دستاویزات کو غیر مجاز ترمیم سے محفوظ رکھیں۔"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "مطلوبہ فارمیٹس میں نتائج حاصل کرنا"
       content: "کسی بھی معاون فارمیٹ میں دستخط شدہ نتائج کی فائلیں آسانی سے حاصل کریں۔ آپ ایم ایس ورڈ دستاویزات کو آسانی سے پی ڈی ایف میں بھی تبدیل کر سکتے ہیں۔"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "دستاویز کا پیش نظارہ"
       content: "کسی دستاویز کے کسی بھی صفحے کو مستقبل کی پروسیسنگ کے لیے بطور تصویر محفوظ کریں۔"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "دستخطوں کی تلاش"
       content: "مخصوص دستاویزات میں پہلے شامل کیے گئے دستخطوں کے بارے میں معلومات حاصل کرنا ممکن ہے۔"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "دستاویزات کی تصدیق کرنا"
       content: "کسی بھی دستخط شدہ دستاویز پر دستخطوں کی درستگی کی توثیق کریں۔"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "دستخطوں کا انتظام کرنا"
       content: "ایک بار جب دستخط کسی دستاویز کے صفحے پر رکھے جاتے ہیں، تو اسے ضرورت کے مطابق حذف، منتقل یا اپ ڈیٹ کیا جا سکتا ہے۔"
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

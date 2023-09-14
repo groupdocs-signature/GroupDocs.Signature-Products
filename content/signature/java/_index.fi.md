@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Allekirjoitusten lisääminen"
       content: "Allekirjoita asiakirja käyttämällä erilaisia ​​tuettuja allekirjoitustyyppejä asettamalla digitaalinen allekirjoitus tarkasti mihin tahansa kohtaan millä tahansa sivulla."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tulosten mukauttaminen"
       content: "Mukauta allekirjoituksen ulkoasua säätämällä väriä, fonttia, reunusta, kiertoa ja muita ominaisuuksia halutun tuloksen saavuttamiseksi."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Asiakirjojen suojaaminen salasanalla"
       content: "Monissa tuetuissa asiakirjatyypeissä voit suojata allekirjoitetun asiakirjan salasanalla."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Estä luvattomat muutokset"
       content: "Suojaa tärkeät digitaalisella varmenteella allekirjoitetut liikeasiakirjat luvattomilta muutoksilta."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Tulosten saaminen halutussa muodossa"
       content: "Hanki allekirjoitetut tulostiedostot helposti missä tahansa tuetussa muodossa. Voit myös muuntaa MS Word -asiakirjoja PDF-muotoon vaivattomasti."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Asiakirjan esikatselu"
       content: "Tallenna mikä tahansa asiakirjan sivu kuvana myöhempää käsittelyä varten."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Allekirjoituksia etsimässä"
       content: "Tiettyihin asiakirjoihin on mahdollista saada tietoa aiemmin lisätyistä allekirjoituksista."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Asiakirjojen vahvistaminen"
       content: "Tarkista minkä tahansa allekirjoitetun asiakirjan allekirjoitusten oikeellisuus."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Allekirjoitusten hallinta"
       content: "Kun allekirjoitus on asetettu asiakirjan sivulle, se voidaan poistaa, siirtää tai päivittää tarpeen mukaan."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

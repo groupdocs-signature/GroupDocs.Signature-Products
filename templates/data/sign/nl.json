@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders",
-    "formats_description": "GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen] (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Enkele gebruiksscenario's van typische GroupDocs.Signature voor .NET-bewerkingen",
     "code_title_sample_1": "Voeg QR-code toe aan PDF",
     "code_samples_sample_1_content_1": "Het toevoegen van [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) aan specifieke pagina's van PDF-documenten kan bedrijfsprocessen verbeteren.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature voor Java ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders",
-    "formats_description": "GroupDocs.Signature voor Java ondersteunt bewerkingen met de volgende [bestandsindelingen] (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature voor Java ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
     "code_samples_description": "Enkele gebruiksscenario's van typische GroupDocs.Signature voor Java-bewerkingen",
     "code_title_sample_1": "Verbeter het PDF-document met QR-code",
     "code_samples_sample_1_content_1": "Het kan waardevol zijn om bedrijfsprocessen te verbeteren door [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) toe te voegen aan specifieke pagina's van PDF-documenten.",

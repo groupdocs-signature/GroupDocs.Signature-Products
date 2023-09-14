@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Formatos de archivo admitidos"
   description: |
-    GroupDocs.Signature para .NET admite operaciones con los siguientes [formatos de archivo] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature para .NET admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Firma de documentos"
       content: "Agregue uno o varios tipos de firmas compatibles con precisión en cualquier posición especificada de los documentos comerciales."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalizar firmas"
       content: "Utilice funciones como color, fuente, borde, rotación, etc., para configurar la apariencia de las firmas."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Protección de documentos con contraseña"
       content: "Proteja ciertos tipos de documentos estableciendo una contraseña después de firmar."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Protección contra cambios"
       content: "Evite cambios en documentos comerciales importantes después de agregar una firma con un certificado digital."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Convertir archivos firmados a otros formatos"
       content: "Convierta archivos firmados a los formatos deseados, como guardar un documento de Word como PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extraer vistas previas de páginas"
       content: "Extraiga páginas de documentos firmados como imágenes individuales para su procesamiento futuro."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Búsqueda de firmas en documentos."
       content: "Recupera información sobre firmas agregadas previamente en documentos específicos."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validar documentos firmados"
       content: "Verifique la firma adecuada de documentos utilizando funciones de validación."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Actualizar o eliminar firmas"
       content: "Reposicione fácilmente firmas específicas en una página, modifique su texto o elimínelas sin ningún problema."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

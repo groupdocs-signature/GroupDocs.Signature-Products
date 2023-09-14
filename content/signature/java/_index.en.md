@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Adding Signatures"
       content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Customizing results"
       content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Securing documents with password"
       content: "For many supported document types, you can protect the signed document with a password."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Preventing unauthorized changes"
       content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Obtaining results in desired formats"
       content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Document preview"
       content: "Save any page of a document as an image for future processing."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Searching for signatures"
       content: "It is possible to get information about previously added signatures in specific documents."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validating documents"
       content: "Validate the correctness of signatures on any signed document."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Managing signatures"
       content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

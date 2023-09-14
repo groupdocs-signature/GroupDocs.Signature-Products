@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "समर्थित फ़ाइल स्वरूप"
   description: |
-    .NET के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों] (https://docs.groupdocs.com/signature/net/supported-document-formats/) के साथ संचालन का समर्थन करता है।
+    .NET के लिए GroupDocs.Signature निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/signature/net/supported-document-formats/) के साथ संचालन का समर्थन करता है।
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "दस्तावेज़ पर हस्ताक्षर"
       content: "व्यावसायिक दस्तावेज़ों पर किसी भी निर्दिष्ट स्थान पर एक या एकाधिक समर्थित प्रकार के हस्ताक्षर सटीक रूप से जोड़ें।"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "हस्ताक्षर अनुकूलित करें"
       content: "हस्ताक्षरों की उपस्थिति को कॉन्फ़िगर करने के लिए रंग, फ़ॉन्ट, बॉर्डर, रोटेशन इत्यादि जैसी सुविधाओं का उपयोग करें।"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "दस्तावेज़ पासवर्ड सुरक्षा"
       content: "हस्ताक्षर करने के बाद पासवर्ड सेट करके कुछ दस्तावेज़ प्रकारों को सुरक्षित करें।"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "परिवर्तनों से सुरक्षा"
       content: "डिजिटल प्रमाणपत्र के साथ हस्ताक्षर जोड़ने के बाद महत्वपूर्ण व्यावसायिक दस्तावेज़ों में परिवर्तन रोकें।"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "हस्ताक्षरित फ़ाइलों को अन्य प्रारूपों में कनवर्ट करें"
       content: "हस्ताक्षरित फ़ाइलों को वांछित प्रारूपों में परिवर्तित करें, जैसे किसी Word दस्तावेज़ को PDF के रूप में सहेजना।"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "पृष्ठ पूर्वावलोकन निकालें"
       content: "भविष्य के प्रसंस्करण के लिए हस्ताक्षरित दस्तावेज़ों से अलग-अलग छवियों के रूप में पृष्ठ निकालें।"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "दस्तावेजों में हस्ताक्षर खोज"
       content: "विशिष्ट दस्तावेज़ों में पहले जोड़े गए हस्ताक्षरों के बारे में जानकारी प्राप्त करें।"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "हस्ताक्षरित दस्तावेज़ों को मान्य करें"
       content: "सत्यापन सुविधाओं का उपयोग करके दस्तावेज़ों पर उचित हस्ताक्षर की पुष्टि करें।"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "हस्ताक्षर अद्यतन करें या हटाएँ"
       content: "किसी पृष्ठ पर आसानी से विशिष्ट हस्ताक्षरों का स्थान बदलें, उनके पाठ को संशोधित करें, या बिना किसी समस्या के उन्हें हटा दें।"
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

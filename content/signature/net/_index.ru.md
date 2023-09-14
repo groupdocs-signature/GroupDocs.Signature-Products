@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Подписание документов"
       content: "Точно добавляйте один или несколько поддерживаемых типов подписей в любом указанном месте деловых документов."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Настройка подписей"
       content: "Используйте такие функции, как цвет, шрифт, граница, поворот и т. д., чтобы настроить внешний вид подписей."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Защита документа паролем"
       content: "Защитите определенные типы документов, установив пароль после подписания."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Защита от изменений"
       content: "Предотвратите изменение важных деловых документов после добавления подписи с помощью цифрового сертификата."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Конвертируйте подписанные файлы в другие форматы"
       content: "Преобразуйте подписанные файлы в нужные форматы, например сохраняя документ Word в формате PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Извлечение превью страниц"
       content: "Извлекайте страницы из подписанных документов как отдельные изображения для дальнейшей обработки."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Поиск подписи в документах"
       content: "Получить информацию о ранее добавленных подписях в определенных документах."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Проверка подписанных документов"
       content: "Проверьте правильность подписания документов, используя функции проверки."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Обновить или удалить подписи"
       content: "Легко перемещайте определенные подписи на странице, изменяйте их текст или удаляйте их без каких-либо проблем."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dodavanje potpisa"
       content: "Potpišite dokument pomoću različitih podržanih vrsta potpisa postavljanjem digitalnog potpisa precizno na bilo koje mjesto na bilo kojoj stranici."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prilagodba rezultata"
       content: "Prilagodite izgled potpisa podešavanjem boje, fonta, obruba, rotacije i drugih značajki kako biste postigli željeni rezultat."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zaštita dokumenata lozinkom"
       content: "Za mnoge podržane vrste dokumenata možete zaštititi potpisani dokument lozinkom."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Sprječavanje neovlaštenih promjena"
       content: "Zaštitite važne poslovne dokumente potpisane digitalnim certifikatom od neovlaštenih izmjena."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Dobivanje rezultata u željenim formatima"
       content: "Jednostavno nabavite potpisane datoteke rezultata u bilo kojem podržanom formatu. Također možete pretvoriti MS Word dokumente u PDF bez napora."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Pregled dokumenta"
       content: "Spremite bilo koju stranicu dokumenta kao sliku za buduću obradu."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Traženje potpisa"
       content: "Moguće je dobiti podatke o prethodno dodanim potpisima u određenim dokumentima."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Potvrđivanje dokumenata"
       content: "Potvrdite ispravnost potpisa na svakom potpisanom dokumentu."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Upravljanje potpisima"
       content: "Nakon što se potpis postavi na stranicu dokumenta, može se po potrebi izbrisati, premjestiti ili ažurirati."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

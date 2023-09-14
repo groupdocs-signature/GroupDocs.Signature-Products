@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "მხარდაჭერილი ფაილის ფორმატები"
   description: |
-    GroupDocs.Signature .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "დოკუმენტის ხელმოწერა"
       content: "დაამატეთ ერთი ან რამდენიმე მხარდაჭერილი ტიპის ხელმოწერა ზუსტად ნებისმიერ მითითებულ პოზიციაზე ბიზნეს დოკუმენტებზე."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "ხელმოწერების მორგება"
       content: "გამოიყენეთ ისეთი ფუნქციები, როგორიცაა ფერი, შრიფტი, საზღვარი, როტაცია და ა.შ. ხელმოწერების გარეგნობის კონფიგურაციისთვის."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "დოკუმენტის პაროლის დაცვა"
       content: "დაიცავით გარკვეული ტიპის დოკუმენტები ხელმოწერის შემდეგ პაროლის დაყენებით."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "დაცვა ცვლილებებისგან"
       content: "თავიდან აიცილეთ ცვლილებები მნიშვნელოვან ბიზნეს დოკუმენტებში ციფრული სერთიფიკატით ხელმოწერის დამატების შემდეგ."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "ხელმოწერილი ფაილების სხვა ფორმატებში გადაყვანა"
       content: "ხელმოწერილი ფაილების კონვერტაცია სასურველ ფორმატებში, როგორიცაა Word დოკუმენტის PDF-ად შენახვა."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "გვერდის გადახედვის ამონაწერი"
       content: "ამოიღეთ გვერდები ხელმოწერილი დოკუმენტებიდან, როგორც ინდივიდუალური სურათები მომავალი დამუშავებისთვის."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "ხელმოწერების ძებნა დოკუმენტებში"
       content: "მოიძიეთ ინფორმაცია კონკრეტულ დოკუმენტებში ადრე დამატებული ხელმოწერების შესახებ."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "დაადასტურეთ ხელმოწერილი დოკუმენტები"
       content: "შეამოწმეთ დოკუმენტების სათანადო ხელმოწერა ვალიდაციის ფუნქციების გამოყენებით."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "განაახლეთ ან წაშალეთ ხელმოწერები"
       content: "მარტივად გადაანაწილეთ კონკრეტული ხელმოწერები გვერდზე, შეცვალეთ მათი ტექსტი ან წაშალეთ ისინი უპრობლემოდ."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

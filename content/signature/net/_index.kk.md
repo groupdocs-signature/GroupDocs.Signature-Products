@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Құжатқа қол қою"
       content: "Іскерлік құжаттардағы кез келген көрсетілген орынға бір немесе бірнеше қолдау көрсетілетін қолтаңба түрлерін дәл қосыңыз."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Қолтаңбаларды теңшеу"
       content: "Қолтаңбалардың көрінісін конфигурациялау үшін түс, қаріп, жиек, бұру, т.б. сияқты мүмкіндіктерді пайдаланыңыз."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Құжатты құпия сөзбен қорғау"
       content: "Қол қойғаннан кейін құпия сөз орнату арқылы белгілі бір құжат түрлерін қорғаңыз."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Өзгерістерден қорғау"
       content: "Сандық сертификаты бар қолтаңбаны қосқаннан кейін маңызды бизнес құжаттарына өзгерістер енгізуге жол бермеңіз."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Қол қойылған файлдарды басқа пішімдерге түрлендіру"
       content: "Қол қойылған файлдарды қажетті пішімдерге түрлендіру, мысалы, Word құжатын PDF ретінде сақтау."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Беттің алдын ала қарауларын шығарып алыңыз"
       content: "Болашақта өңдеу үшін жеке кескіндер ретінде қол қойылған құжаттардан беттерді шығарып алыңыз."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Құжаттардағы қолтаңбаны іздеу"
       content: "Арнайы құжаттардағы бұрын қосылған қолтаңбалар туралы ақпаратты шығарып алыңыз."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Қол қойылған құжаттарды растау"
       content: "Валидация мүмкіндіктерін пайдаланып құжаттарға дұрыс қол қоюды тексеріңіз."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Қолтаңбаларды жаңарту немесе жою"
       content: "Беттегі арнайы қолтаңбалардың орнын оңай өзгертіңіз, олардың мәтінін өзгертіңіз немесе ешбір мәселесіз жойыңыз."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

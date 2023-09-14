@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Adăugarea de semnături"
       content: "Semnați un document folosind diferite tipuri de semnături acceptate, plasând o semnătură digitală exact în orice poziție de pe orice pagină."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalizarea rezultatelor"
       content: "Personalizați aspectul semnăturii ajustând culoarea, fontul, chenarul, rotația și alte caracteristici pentru a obține rezultatul dorit."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Securizarea documentelor cu parola"
       content: "Pentru multe tipuri de documente acceptate, puteți proteja documentul semnat cu o parolă."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Prevenirea modificărilor neautorizate"
       content: "Protejați documentele importante de afaceri semnate cu un certificat digital de modificările neautorizate."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Obținerea rezultatelor în formatele dorite"
       content: "Obțineți cu ușurință fișiere cu rezultate semnate în orice format acceptat. De asemenea, puteți converti documente MS Word în PDF fără efort."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Previzualizarea documentului"
       content: "Salvați orice pagină a unui document ca imagine pentru procesare ulterioară."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Căutarea semnăturilor"
       content: "Este posibil să obțineți informații despre semnăturile adăugate anterior în anumite documente."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validarea documentelor"
       content: "Validați corectitudinea semnăturilor pe orice document semnat."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Gestionarea semnăturilor"
       content: "Odată ce o semnătură este plasată pe pagina unui document, aceasta poate fi ștearsă, mutată sau actualizată după cum este necesar."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

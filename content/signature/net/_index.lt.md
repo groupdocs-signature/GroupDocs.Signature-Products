@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumento pasirašymas"
       content: "Tiksliai pridėkite vieną ar kelis palaikomus parašų tipus bet kurioje nurodytoje verslo dokumentų vietoje."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tinkinkite parašus"
       content: "Norėdami sukonfigūruoti parašų išvaizdą, naudokite tokias funkcijas kaip spalva, šriftas, kraštinė, pasukimas ir kt."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumento slaptažodžio apsauga"
       content: "Apsaugokite tam tikrų tipų dokumentus po pasirašymo nustatydami slaptažodį."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Apsauga nuo pokyčių"
       content: "Neleiskite svarbių verslo dokumentų pakeitimų pridėję parašą su skaitmeniniu sertifikatu."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konvertuoti pasirašytus failus į kitus formatus"
       content: "Konvertuokite pasirašytus failus į norimus formatus, pvz., išsaugokite Word dokumentą kaip PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Ištraukite puslapių peržiūras"
       content: "Išskleiskite puslapius iš pasirašytų dokumentų kaip atskirus vaizdus, ​​​​kad galėtumėte juos apdoroti ateityje."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Parašo paieška dokumentuose"
       content: "Gaukite informaciją apie anksčiau pridėtus parašus konkrečiuose dokumentuose."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Patvirtinti pasirašytus dokumentus"
       content: "Patikrinkite, ar tinkamai pasirašyti dokumentai, naudodami patvirtinimo funkcijas."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Atnaujinkite arba ištrinkite parašus"
       content: "Lengvai pakeiskite konkrečių parašų vietą puslapyje, keiskite jų tekstą arba ištrinkite juos be jokių problemų."
 
@@ -199,7 +199,7 @@ code_samples:
     # code sample loop
     - title: "Pridėkite QR kodą prie PDF"
       content: |
-        Pridėjus [QR kodus] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) prie konkrečių PDF dokumentų puslapių galima pagerinti verslo procesus. Toliau pateikiamas pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature.
+        Pridėjus [QR kodus](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) prie konkrečių PDF dokumentų puslapių galima pagerinti verslo procesus. Toliau pateikiamas pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature.
         {{< landing/code title="Kaip įdėti QR kodą į PDF.">}}
         ```csharp {style=abap}
         // Įdėkite dokumentą pasirašyti
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

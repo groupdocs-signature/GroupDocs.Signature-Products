@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "تنسيقات الملفات المدعومة"
   description: |
-    يدعم GroupDocs.Signature for .NET العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    يدعم GroupDocs.Signature for .NET تنسيقات الملفات [التالية](https://docs.groupdocs.com/signature/net/supported-document-formats/) العمليات باستخدام.
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "توقيع الوثيقة"
       content: "أضف واحدًا أو أكثر من أنواع التوقيعات المدعومة بدقة في أي موضع محدد في مستندات العمل."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "تخصيص التوقيعات"
       content: "استخدم ميزات مثل اللون والخط والحدود والتدوير وما إلى ذلك لتكوين مظهر التوقيعات."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "حماية كلمة المرور للوثيقة"
       content: "تأمين أنواع معينة من المستندات عن طريق تعيين كلمة مرور بعد التوقيع."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "الحماية من التغييرات"
       content: "منع إجراء تغييرات على مستندات العمل المهمة بعد إلحاق توقيع بشهادة رقمية."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "تحويل الملفات الموقعة إلى صيغ أخرى"
       content: "تحويل الملفات الموقعة إلى التنسيقات المطلوبة، مثل حفظ مستند Word كملف PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "استخراج معاينات الصفحة"
       content: "استخرج الصفحات من المستندات الموقعة كصور فردية للمعالجة المستقبلية."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "البحث عن التوقيع في المستندات"
       content: "استرجاع المعلومات حول التوقيعات المضافة مسبقًا في مستندات محددة."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "التحقق من صحة الوثائق الموقعة"
       content: "تحقق من التوقيع الصحيح للمستندات باستخدام ميزات التحقق من الصحة."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "تحديث أو حذف التوقيعات"
       content: "يمكنك بسهولة تغيير موضع توقيعات محددة على الصفحة، أو تعديل نصها، أو حذفها دون أي مشاكل."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

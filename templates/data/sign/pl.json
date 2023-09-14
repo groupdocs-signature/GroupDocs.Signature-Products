@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature for .NET obsługuje następujące systemy operacyjne, struktury i menedżery pakietów",
-    "formats_description": "GroupDocs.Signature for .NET obsługuje operacje na następujących [formatach plików] (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature for .NET obsługuje operacje na następujących [formatach plików](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "Niektóre przypadki użycia typowych operacji GroupDocs.Signature dla .NET",
     "code_title_sample_1": "Dodaj kod QR do pliku PDF",
     "code_samples_sample_1_content_1": "Dodanie [kodów QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) do określonych stron dokumentów PDF może usprawnić procesy biznesowe.",

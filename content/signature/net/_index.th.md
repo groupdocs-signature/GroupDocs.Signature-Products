@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "การลงนามเอกสาร"
       content: "เพิ่มลายเซ็นที่รองรับหนึ่งหรือหลายประเภทอย่างถูกต้องในตำแหน่งที่ระบุในเอกสารทางธุรกิจ"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "ปรับแต่งลายเซ็น"
       content: "ใช้คุณสมบัติต่างๆ เช่น สี แบบอักษร เส้นขอบ การหมุน ฯลฯ เพื่อกำหนดค่าลักษณะที่ปรากฏของลายเซ็น"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "การป้องกันรหัสผ่านเอกสาร"
       content: "รักษาความปลอดภัยเอกสารบางประเภทโดยการตั้งรหัสผ่านหลังจากลงนาม"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "การป้องกันจากการเปลี่ยนแปลง"
       content: "ป้องกันการเปลี่ยนแปลงเอกสารทางธุรกิจที่สำคัญหลังจากต่อท้ายลายเซ็นด้วยใบรับรองดิจิทัล"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "แปลงไฟล์ที่ลงนามเป็นรูปแบบอื่น"
       content: "แปลงไฟล์ที่ลงนามเป็นรูปแบบที่ต้องการ เช่น การบันทึกเอกสาร Word เป็น PDF"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "แยกตัวอย่างหน้า"
       content: "แยกหน้าออกจากเอกสารที่ลงนามเป็นภาพแต่ละภาพเพื่อการประมวลผลในอนาคต"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "ค้นหาลายเซ็นในเอกสาร"
       content: "รับข้อมูลเกี่ยวกับลายเซ็นที่เพิ่มไว้ก่อนหน้านี้ในเอกสารเฉพาะ"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "ตรวจสอบเอกสารที่ลงนาม"
       content: "ตรวจสอบการลงนามเอกสารที่เหมาะสมโดยใช้คุณสมบัติการตรวจสอบ"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "อัปเดตหรือลบลายเซ็น"
       content: "เปลี่ยนตำแหน่งลายเซ็นเฉพาะบนหน้า แก้ไขข้อความ หรือลบลายเซ็นได้อย่างง่ายดายโดยไม่มีปัญหาใดๆ"
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Προσθήκη υπογραφών"
       content: "Υπογράψτε ένα έγγραφο χρησιμοποιώντας διάφορους υποστηριζόμενους τύπους υπογραφής τοποθετώντας μια ψηφιακή υπογραφή ακριβώς σε οποιαδήποτε θέση σε οποιαδήποτε σελίδα."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Προσαρμογή αποτελεσμάτων"
       content: "Προσαρμόστε την εμφάνιση της υπογραφής προσαρμόζοντας το χρώμα, τη γραμματοσειρά, το περίγραμμα, την περιστροφή και άλλες λειτουργίες για να επιτύχετε το επιθυμητό αποτέλεσμα."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Προστασία εγγράφων με κωδικό πρόσβασης"
       content: "Για πολλούς υποστηριζόμενους τύπους εγγράφων, μπορείτε να προστατεύσετε το υπογεγραμμένο έγγραφο με κωδικό πρόσβασης."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Αποτροπή μη εξουσιοδοτημένων αλλαγών"
       content: "Προστατέψτε σημαντικά επιχειρηματικά έγγραφα που υπογράφονται με ψηφιακό πιστοποιητικό από μη εξουσιοδοτημένες τροποποιήσεις."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Λήψη αποτελεσμάτων σε επιθυμητές μορφές"
       content: "Αποκτήστε εύκολα υπογεγραμμένα αρχεία αποτελεσμάτων σε οποιαδήποτε υποστηριζόμενη μορφή. Μπορείτε επίσης να μετατρέψετε έγγραφα MS Word σε PDF χωρίς κόπο."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Προεπισκόπηση εγγράφου"
       content: "Αποθηκεύστε οποιαδήποτε σελίδα ενός εγγράφου ως εικόνα για μελλοντική επεξεργασία."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Ψάχνοντας για υπογραφές"
       content: "Είναι δυνατό να λάβετε πληροφορίες σχετικά με υπογραφές που έχουν προστεθεί προηγουμένως σε συγκεκριμένα έγγραφα."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Επικύρωση εγγράφων"
       content: "Επικυρώστε την ορθότητα των υπογραφών σε οποιοδήποτε υπογεγραμμένο έγγραφο."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Διαχείριση υπογραφών"
       content: "Μόλις τοποθετηθεί μια υπογραφή σε μια σελίδα εγγράφου, μπορεί να διαγραφεί, να μετακινηθεί ή να ενημερωθεί ανάλογα με τις ανάγκες."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

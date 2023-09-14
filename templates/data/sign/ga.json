@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas",
-    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh .NET le hoibríochtaí leis na [formáidí comhaid](https://docs.groupdocs.com/signature/net/supported-document-formats/) seo a leanas.",
     "code_samples_description": "Úsáideann roinnt cásanna de ghnáth GroupDocs.Signature le haghaidh oibríochtaí .NET",
     "code_title_sample_1": "Cuir QR-cód le PDF",
     "code_samples_sample_1_content_1": "Má chuirtear [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) le leathanaigh ar leith de dhoiciméid PDF, féadtar próisis ghnó a fheabhsú.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "Tacaíonn GroupDocs.Signature do Java leis na córais oibriúcháin, creataí agus bainisteoirí pacáiste seo a leanas",
-    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid](https://docs.groupdocs.com/signature/java/supported-document-formats/) seo a leanas.",
     "code_samples_description": "Úsáideann roinnt cásanna de ghnáth GroupDocs.Signature le haghaidh oibríochtaí Java",
     "code_title_sample_1": "Enchance doiciméad PDF le QR-cód",
     "code_samples_sample_1_content_1": "D’fhéadfadh sé a bheith luachmhar próisis ghnó a fheabhsú trí [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a chur le leathanaigh ar leith de dhoiciméid PDF.",

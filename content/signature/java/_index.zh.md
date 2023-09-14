@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "添加签名"
       content: "通过将数字签名精确地放置在任何页面上的任何位置，使用各种支持的签名类型来签署文档。"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "定制结果"
       content: "通过调整颜色、字体、边框、旋转和其他功能来自定义签名外观，以达到所需的结果。"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "使用密码保护文档"
       content: "对于许多受支持的文档类型，您可以使用密码保护签名文档。"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "防止未经授权的更改"
       content: "保护使用数字证书签名的重要业务文档免遭未经授权的修改。"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "获得所需格式的结果"
       content: "轻松获取任何受支持格式的签名结果文件。您还可以轻松地将 MS Word 文档转换为 PDF。"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "文档预览"
       content: "将文档的任何页面保存为图像以供将来处理。"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "寻找签名"
       content: "可以获得有关特定文档中先前添加的签名的信息。"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "验证文件"
       content: "验证任何已签名文档上签名的正确性。"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "管理签名"
       content: "将签名放置在文档页面上后，可以根据需要将其删除、移动或更新。"
 
@@ -202,7 +202,7 @@ code_samples:
     # code sample loop
     - title: "使用 QR 码增强 PDF 文档"
       content: |
-        通过将 QR 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。 有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。
+        通过将 [QR](https://docs.groupdocs.com/signature/java/supported-document-formats/) 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。 有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。
         {{< landing/code title="使用 QR 码增强 PDF 文档">}}
         ```java {style=abap}
         // 加载要签名的文档
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

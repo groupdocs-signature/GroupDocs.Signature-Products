@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Aggiunta di firme"
       content: "Firma un documento utilizzando vari tipi di firma supportati inserendo una firma digitale esattamente in qualsiasi posizione su qualsiasi pagina."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalizzazione dei risultati"
       content: "Personalizza l'aspetto della firma regolando colore, carattere, bordo, rotazione e altre funzionalità per ottenere il risultato desiderato."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Protezione dei documenti con password"
       content: "Per molti tipi di documenti supportati, puoi proteggere il documento firmato con una password."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Prevenire modifiche non autorizzate"
       content: "Proteggi importanti documenti aziendali firmati con un certificato digitale da modifiche non autorizzate."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Ottenere risultati nei formati desiderati"
       content: "Ottieni facilmente file di risultati firmati in qualsiasi formato supportato. Puoi anche convertire documenti MS Word in PDF senza sforzo."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Anteprima del documento"
       content: "Salva qualsiasi pagina di un documento come immagine per elaborazioni future."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Alla ricerca delle firme"
       content: "È possibile ottenere informazioni sulle firme aggiunte in precedenza in documenti specifici."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Convalida dei documenti"
       content: "Convalida la correttezza delle firme su qualsiasi documento firmato."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Gestione delle firme"
       content: "Una volta inserita una firma su una pagina del documento, è possibile eliminarla, spostarla o aggiornarla secondo necessità."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

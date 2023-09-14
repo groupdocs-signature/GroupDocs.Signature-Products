@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Podpisovanje dokumentov"
       content: "Natančno dodajte eno ali več podprtih vrst podpisov na katerem koli določenem mestu v poslovnih dokumentih."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prilagodite podpise"
       content: "Uporabite funkcije, kot so barva, pisava, obroba, vrtenje itd., da konfigurirate videz podpisov."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zaščita dokumenta z geslom"
       content: "Zavarujte določene vrste dokumentov z nastavitvijo gesla po podpisu."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Zaščita pred spremembami"
       content: "Preprečite spremembe pomembnih poslovnih dokumentov po podpisu z digitalnim potrdilom."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Pretvorite podpisane datoteke v druge formate"
       content: "Pretvorite podpisane datoteke v želene formate, kot je shranjevanje Wordovega dokumenta kot PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Izvleček predogledov strani"
       content: "Izvlecite strani iz podpisanih dokumentov kot posamezne slike za prihodnjo obdelavo."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Iskanje podpisov v dokumentih"
       content: "Pridobite informacije o predhodno dodanih podpisih v določenih dokumentih."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Potrdite podpisane dokumente"
       content: "Preverite pravilno podpisovanje dokumentov s funkcijami za preverjanje veljavnosti."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Posodobite ali izbrišite podpise"
       content: "Preprosto prestavite določene podpise na strani, spremenite njihovo besedilo ali jih izbrišite brez težav."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

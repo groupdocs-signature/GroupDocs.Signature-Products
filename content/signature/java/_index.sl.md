@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dodajanje podpisov"
       content: "Podpišite dokument z različnimi podprtimi vrstami podpisov tako, da postavite digitalni podpis natančno na poljubno mesto na kateri koli strani."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prilagajanje rezultatov"
       content: "Prilagodite videz podpisa tako, da prilagodite barvo, pisavo, rob, vrtenje in druge funkcije, da dosežete želeni rezultat."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Varovanje dokumentov z geslom"
       content: "Za številne podprte vrste dokumentov lahko podpisan dokument zaščitite z geslom."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Preprečevanje nepooblaščenih sprememb"
       content: "Zaščitite pomembne poslovne dokumente, podpisane z digitalnim potrdilom, pred nepooblaščenimi spremembami."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Pridobivanje rezultatov v želenih oblikah"
       content: "Enostavno pridobite podpisane datoteke rezultatov v katerem koli podprtem formatu. Dokumente MS Word lahko tudi preprosto pretvorite v PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Predogled dokumenta"
       content: "Shranite katero koli stran dokumenta kot sliko za prihodnjo obdelavo."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Iskanje podpisov"
       content: "V določenih dokumentih je možno pridobiti podatke o predhodno dodanih podpisih."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Potrjevanje dokumentov"
       content: "Preverite pravilnost podpisov na katerem koli podpisanem dokumentu."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Upravljanje podpisov"
       content: "Ko je podpis postavljen na stran dokumenta, ga je mogoče po potrebi izbrisati, premakniti ali posodobiti."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

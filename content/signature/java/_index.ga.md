@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Formáidí comhaid tacaithe"
   description: |
-    Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    Tacaíonn GroupDocs.Signature le haghaidh Java le hoibríochtaí leis na [formáidí comhaid](https://docs.groupdocs.com/signature/java/supported-document-formats/) seo a leanas.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Ag Cur Sínithe"
       content: "Sínigh doiciméad ag baint úsáide as cineálacha éagsúla sínithe tacaithe trí shíniú digiteach a chur go beacht in aon áit ar aon leathanach."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Torthaí a shaincheapadh"
       content: "Saincheap an chuma sínithe trí dath, cló, teorainn, rothlú agus gnéithe eile a choigeartú chun an toradh inmhianaithe a bhaint amach."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Doiciméid a dhaingniú le pasfhocal"
       content: "I gcás go leor cineálacha doiciméad tacaithe, is féidir leat an doiciméad sínithe a chosaint le pasfhocal."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Cosc ar athruithe neamhúdaraithe"
       content: "Cosain doiciméid thábhachtacha gnó sínithe le deimhniú digiteach ó mhodhnuithe neamhúdaraithe."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Torthaí a fháil sna formáidí inmhianaithe"
       content: "Faigh comhaid toraidh sínithe go héasca i bhformáid ar bith a dtacaítear léi. Is féidir leat doiciméid MS Word a thiontú go PDF freisin gan stró."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Réamhamharc doiciméad"
       content: "Sábháil aon leathanach de dhoiciméad mar íomhá le próiseáil amach anseo."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Ag cuardach sínithe"
       content: "Is féidir faisnéis a fháil faoi shínithe a cuireadh leis roimhe seo i ndoiciméid ar leith."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Doiciméid a bhailíochtú"
       content: "Bailíochtaigh cruinneas na sínithe ar aon doiciméad sínithe."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Sínithe a bhainistiú"
       content: "Nuair a chuirtear síniú ar leathanach doiciméid, is féidir é a scriosadh, a bhogadh nó a nuashonrú de réir mar is gá."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

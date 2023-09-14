@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature ji bo .NET pergalên xebitandinê yên jêrîn, çarçove û rêveberên pakêtê piştgirî dike",
-    "formats_description": "GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan] yên jêrîn piştgirî dike (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan](https://docs.groupdocs.com/signature/net/supported-document-formats/) yên jêrîn piştgirî dike.",
     "code_samples_description": "Hinek rewşên tîpîk GroupDocs.Signature ji bo operasyonên .NET bikar tînin",
     "code_title_sample_1": "QR-kodê li PDF-ê zêde bikin",
     "code_samples_sample_1_content_1": "Zêdekirina [QR-kod](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF dikare pêvajoyên karsaziyê zêde bike.",
@@ -418,10 +418,10 @@
       }
     },
     "platforms_description": "GroupDocs.Signature ji bo Java pergalên xebitandinê, çarçove û rêveberên pakêtê yên jêrîn piştgirî dike",
-    "formats_description": "GroupDocs.Signature ji bo Java operasyonên bi [formên pelan] yên jêrîn piştgirî dike (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature ji bo Java operasyonên bi [formên pelan](https://docs.groupdocs.com/signature/java/supported-document-formats/) yên jêrîn piştgirî dike.",
     "code_samples_description": "Hin rewşên tîpîk GroupDocs.Signature ji bo operasyonên Java bikar tînin",
     "code_title_sample_1": "Belgeya PDF-ê bi QR-kodê xweş bikin",
-    "code_samples_sample_1_content_1": "Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be.",
+    "code_samples_sample_1_content_1": "Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be.",
     "code_samples_sample_1_content_2": "Mînakek heye ku meriv çawa kodek QR bi karanîna GroupDocs.Signature ji bo Java-yê zêde dike.",
     "code_title_sample_2": "Ji bo parastina DOCX-ê îmzeya dîjîtal bikar bînin",
     "code_samples_sample_2_content_1": "Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin.",

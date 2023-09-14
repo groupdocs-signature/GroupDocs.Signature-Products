@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
-    "formats_description": "GroupDocs.Signature cho .NET hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature cho .NET hỗ trợ các thao tác với [định dạng tệp](https://docs.groupdocs.com/signature/net/supported-document-formats/) sau.",
     "code_samples_description": "Một số trường hợp sử dụng GroupDocs.Signature điển hình cho các hoạt động .NET",
     "code_title_sample_1": "Thêm mã QR vào PDF",
     "code_samples_sample_1_content_1": "Việc thêm [mã QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) vào các trang cụ thể của tài liệu PDF có thể nâng cao quy trình kinh doanh.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
-    "formats_description": "GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp](https://docs.groupdocs.com/signature/java/supported-document-formats/) sau.",
     "code_samples_description": "Một số trường hợp sử dụng GroupDocs.Signature điển hình cho các hoạt động Java",
     "code_title_sample_1": "Nâng cao tài liệu PDF bằng mã QR",
     "code_samples_sample_1_content_1": "Nâng cao quy trình kinh doanh bằng cách thêm [mã QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) vào các trang cụ thể của tài liệu PDF có thể có giá trị.",

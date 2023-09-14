@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumentunderskrivelse"
       content: "Tilføj en eller flere understøttede typer signaturer nøjagtigt på enhver specificeret position på forretningsdokumenter."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Tilpas signaturer"
       content: "Brug funktioner som farve, skrifttype, kant, rotation osv. til at konfigurere udseendet af signaturer."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentadgangskodebeskyttelse"
       content: "Sikre visse dokumenttyper ved at angive en adgangskode efter signering."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Beskyttelse mod ændringer"
       content: "Forhindr ændringer af vigtige forretningsdokumenter efter tilføjelse af en signatur med et digitalt certifikat."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konverter signerede filer til andre formater"
       content: "Konverter signerede filer til ønskede formater, såsom at gemme et Word-dokument som en PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Uddrag sideforhåndsvisninger"
       content: "Uddrag sider fra underskrevne dokumenter som individuelle billeder til fremtidig behandling."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Signatursøgning i dokumenter"
       content: "Hent information om tidligere tilføjede signaturer i specifikke dokumenter."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validere underskrevne dokumenter"
       content: "Bekræft den korrekte underskrift af dokumenter ved hjælp af valideringsfunktioner."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Opdater eller slet signaturer"
       content: "Flyt nemt bestemte signaturer på en side, rediger deres tekst eller slet dem uden problemer."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

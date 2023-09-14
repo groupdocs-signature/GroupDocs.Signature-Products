@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Formatên pelê piştgirî kirin"
   description: |
-    GroupDocs.Signature ji bo Java operasyonên bi [formên pelan] yên jêrîn piştgirî dike (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature ji bo Java operasyonên bi [formên pelan](https://docs.groupdocs.com/signature/java/supported-document-formats/) yên jêrîn piştgirî dike.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Zêdekirina Îmzeyan"
       content: "Bi danîna îmzayek dîjîtal tam li her cîhek li ser her rûpelê, belgeyek bi karanîna cûrbecûr cûrbecûr îmzeyên piştgirîkirî îmze bikin."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Xweserkirina encamên"
       content: "Bi eyarkirina reng, font, sînor, zivirandin, û taybetmendiyên din re xuyangê îmzeyê xweş bikin da ku bigihîjin encama xwestinê."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Ewlekirina belgeyên bi şîfre"
       content: "Ji bo gelek celeb belgeyên piştgirî, hûn dikarin belgeya îmzekirî bi şîfreyek biparêzin."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Pêşîlêgirtina guhertinên bê destûr"
       content: "Belgeyên karsaziya girîng ên ku bi sertîfîkayek dîjîtal ve hatine îmzekirin ji guhertinên bêdestûr biparêzin."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Di formên xwestî de encam digirin"
       content: "Pelên encamên îmzekirî di her formatek piştgirî de bi hêsanî bistînin. Di heman demê de hûn dikarin belgeyên MS Word-ê jî bêyî hewldan veguherînin PDF-ê."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Pêşdîtina belgeyê"
       content: "Her rûpelek belgeyek wekî wêneyek ji bo pêvajoyek pêşerojê hilînin."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Li îmzeyan digere"
       content: "Mimkun e ku meriv di belgeyên taybetî de li ser îmzeyên ku berê hatine zêdekirin agahdarî bistînin."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Belgeyên erêkirin"
       content: "Rastiya îmzeyan li ser her belgeyek îmzekirî rast bikin."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Îmzeyan îdare dikin"
       content: "Dema ku îmzeyek li ser rûpelek belgeyê were danîn, li gorî hewcedariyê dikare were jêbirin, barkirin an nûvekirin."
 
@@ -202,7 +202,7 @@ code_samples:
     # code sample loop
     - title: "Belgeya PDF-ê bi QR-kodê xweş bikin"
       content: |
-        Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be. Mînakek heye ku meriv çawa kodek QR bi karanîna GroupDocs.Signature ji bo Java-yê zêde dike.
+        Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be. Mînakek heye ku meriv çawa kodek QR bi karanîna GroupDocs.Signature ji bo Java-yê zêde dike.
         {{< landing/code title="Belgeya PDF-ê bi QR-kodê xweş bikin">}}
         ```java {style=abap}
         // Belgeyê ji bo îmzekirinê barkirin
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

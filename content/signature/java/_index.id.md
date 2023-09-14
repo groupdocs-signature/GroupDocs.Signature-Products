@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    GroupDocs.Signature untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature untuk Java mendukung operasi dengan [format file](https://docs.groupdocs.com/signature/java/supported-document-formats/) berikut.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Menambahkan Tanda Tangan"
       content: "Tanda tangani dokumen menggunakan berbagai jenis tanda tangan yang didukung dengan menempatkan tanda tangan digital secara tepat di posisi mana pun di halaman mana pun."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Menyesuaikan hasil"
       content: "Sesuaikan tampilan tanda tangan dengan menyesuaikan warna, font, batas, rotasi, dan fitur lainnya untuk mencapai hasil yang diinginkan."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Mengamankan dokumen dengan kata sandi"
       content: "Untuk banyak tipe dokumen yang didukung, Anda dapat melindungi dokumen yang ditandatangani dengan kata sandi."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Mencegah perubahan yang tidak sah"
       content: "Lindungi dokumen bisnis penting yang ditandatangani dengan sertifikat digital dari modifikasi yang tidak sah."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Memperoleh hasil dalam format yang diinginkan"
       content: "Dapatkan file hasil yang ditandatangani dengan mudah dalam format apa pun yang didukung. Anda juga dapat mengonversi dokumen MS Word ke PDF dengan mudah."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Pratinjau dokumen"
       content: "Simpan halaman mana pun dari dokumen sebagai gambar untuk diproses di masa mendatang."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Mencari tanda tangan"
       content: "Dimungkinkan untuk mendapatkan informasi tentang tanda tangan yang ditambahkan sebelumnya dalam dokumen tertentu."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Memvalidasi dokumen"
       content: "Validasi kebenaran tanda tangan pada setiap dokumen yang ditandatangani."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Mengelola tanda tangan"
       content: "Setelah tanda tangan ditempatkan pada halaman dokumen, tanda tangan tersebut dapat dihapus, dipindahkan, atau diperbarui sesuai kebutuhan."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature .NET-ისთვის მხარს უჭერს შემდეგ ოპერაციულ სისტემებს, ჩარჩოებსა და პაკეტის მენეჯერებს",
-    "formats_description": "GroupDocs.Signature .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
     "code_samples_description": "ზოგიერთი იყენებს ტიპიური GroupDocs.Signature-ის შემთხვევებს .NET ოპერაციებისთვის",
     "code_title_sample_1": "დაამატეთ QR კოდი PDF-ში",
     "code_samples_sample_1_content_1": "[QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) დამატება PDF დოკუმენტების კონკრეტულ გვერდებზე შეიძლება გააუმჯობესოს ბიზნეს პროცესები.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "GroupDocs.Signature for Java მხარს უჭერს შემდეგ ოპერაციულ სისტემებს, ჩარჩოებსა და პაკეტის მენეჯერებს",
-    "formats_description": "GroupDocs.Signature Java-სთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature Java-სთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
     "code_samples_description": "ზოგიერთი იყენებს ტიპიური GroupDocs.Signature-ს Java ოპერაციებისთვის",
     "code_title_sample_1": "გააუმჯობესეთ PDF დოკუმენტი QR-კოდით",
     "code_samples_sample_1_content_1": "ბიზნეს პროცესების გაძლიერება PDF დოკუმენტების კონკრეტულ გვერდებზე [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) დამატებით შეიძლება იყოს ღირებული.",

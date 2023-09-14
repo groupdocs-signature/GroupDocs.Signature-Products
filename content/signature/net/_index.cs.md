@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Podporované formáty souborů"
   description: |
-    GroupDocs.Signature for .NET podporuje operace s následujícími [formáty souborů] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature for .NET podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Podepisování dokumentů"
       content: "Přidejte přesně jeden nebo více podporovaných typů podpisů na libovolné zadané místo v obchodních dokumentech."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Přizpůsobte podpisy"
       content: "Ke konfiguraci vzhledu podpisů využijte funkce, jako je barva, písmo, ohraničení, otočení atd."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Ochrana dokumentů heslem"
       content: "Zabezpečte určité typy dokumentů nastavením hesla po podpisu."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Ochrana před změnami"
       content: "Zabraňte změnám důležitých obchodních dokumentů po připojení podpisu pomocí digitálního certifikátu."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Převeďte podepsané soubory do jiných formátů"
       content: "Převeďte podepsané soubory do požadovaných formátů, jako je uložení dokumentu aplikace Word jako PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extrahujte náhledy stránek"
       content: "Extrahujte stránky z podepsaných dokumentů jako jednotlivé obrázky pro budoucí zpracování."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Vyhledávání podpisů v dokumentech"
       content: "Získejte informace o dříve přidaných podpisech v konkrétních dokumentech."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Ověřte podepsané dokumenty"
       content: "Ověřte správné podepisování dokumentů pomocí funkcí ověřování."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Aktualizujte nebo odstraňte podpisy"
       content: "Snadno přemístěte konkrétní podpisy na stránce, upravte jejich text nebo je bez problémů odstraňte."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

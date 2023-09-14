@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumentsignering"
       content: "Lägg till en eller flera typer av signaturer som stöds exakt på valfri specificerad plats på affärsdokument."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Anpassa signaturer"
       content: "Använd funktioner som färg, typsnitt, kantlinje, rotation etc. för att konfigurera utseendet på signaturer."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentlösenordsskydd"
       content: "Säkra vissa dokumenttyper genom att ange ett lösenord efter signering."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Skydd mot förändringar"
       content: "Förhindra ändringar i viktiga affärsdokument efter att du har lagt till en signatur med ett digitalt certifikat."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konvertera signerade filer till andra format"
       content: "Konvertera signerade filer till önskade format, till exempel att spara ett Word-dokument som en PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Extrahera förhandsvisningar av sidan"
       content: "Extrahera sidor från signerade dokument som individuella bilder för framtida bearbetning."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Signatursökning i dokument"
       content: "Hämta information om tidigare tillagda signaturer i specifika dokument."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validera undertecknade dokument"
       content: "Verifiera korrekt signering av dokument med hjälp av valideringsfunktioner."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Uppdatera eller ta bort signaturer"
       content: "Placera enkelt specifika signaturer på en sida, ändra deras text eller ta bort dem utan problem."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

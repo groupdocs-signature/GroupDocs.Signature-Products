@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "<% "{reviews.title}" %>"
-# description: "<% "{reviews.description}" %>"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "<% "{reviews.review_1.content}" %>"
-#     author: "<% "{reviews.review_1.author}" %>"
-#     company: "<% "{reviews.review_1.company}" %>"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "<% "{reviews.review_2.content}" %>"
-#     author: "<% "{reviews.review_2.author}" %>"
-#     company: "<% "{reviews.review_2.company}" %>"
 ---

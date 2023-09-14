@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "İmza Ekleme"
       content: "Dijital imzayı herhangi bir sayfada herhangi bir konuma tam olarak yerleştirerek, desteklenen çeşitli imza türlerini kullanarak bir belgeyi imzalayın."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Sonuçları özelleştirme"
       content: "İstenilen sonucu elde etmek için rengi, yazı tipini, kenarlığı, döndürmeyi ve diğer özellikleri ayarlayarak imza görünümünü özelleştirin."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Belgeleri şifreyle koruma"
       content: "Desteklenen birçok belge türü için imzalı belgeyi bir parolayla koruyabilirsiniz."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Yetkisiz değişikliklerin önlenmesi"
       content: "Dijital sertifikayla imzalanmış önemli iş belgelerini yetkisiz değişikliklere karşı koruyun."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "İstenilen formatlarda sonuçların elde edilmesi"
       content: "Desteklenen herhangi bir formattaki imzalı sonuç dosyalarını kolayca edinin. Ayrıca MS Word belgelerini zahmetsizce PDF'ye dönüştürebilirsiniz."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Belge önizlemesi"
       content: "Gelecekteki işlemler için belgenin herhangi bir sayfasını görüntü olarak kaydedin."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "İmza aranıyor"
       content: "Belirli belgelerde daha önce eklenen imzalar hakkında bilgi almak mümkündür."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Belgeleri doğrulama"
       content: "İmzalı herhangi bir belgedeki imzaların doğruluğunu doğrulayın."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "İmzaları yönetme"
       content: "İmza bir belge sayfasına yerleştirildikten sonra gerektiğinde silinebilir, taşınabilir veya güncellenebilir."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

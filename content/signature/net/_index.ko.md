@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "문서 서명"
       content: "비즈니스 문서의 지정된 위치에 하나 이상의 지원되는 서명 유형을 정확하게 추가하세요."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "서명 사용자 정의"
       content: "색상, 글꼴, 테두리, 회전 등의 기능을 활용하여 서명의 모양을 구성합니다."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "문서 비밀번호 보호"
       content: "서명 후 비밀번호를 설정하여 특정 문서 유형을 보호하세요."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "변경으로부터 보호"
       content: "디지털 인증서로 서명을 추가한 후 중요한 비즈니스 문서가 변경되는 것을 방지하세요."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "서명된 파일을 다른 형식으로 변환"
       content: "Word 문서를 PDF로 저장하는 등 서명된 파일을 원하는 형식으로 변환합니다."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "페이지 미리보기 추출"
       content: "향후 처리를 위해 서명된 문서의 페이지를 개별 이미지로 추출합니다."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "문서에서 서명 검색"
       content: "특정 문서에 이전에 추가된 서명에 대한 정보를 검색합니다."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "서명된 문서 유효성 검사"
       content: "유효성 검사 기능을 사용하여 문서의 올바른 서명을 확인하세요."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "서명 업데이트 또는 삭제"
       content: "페이지에서 특정 서명의 위치를 ​​쉽게 변경하고, 텍스트를 수정하고, 문제 없이 삭제할 수 있습니다."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

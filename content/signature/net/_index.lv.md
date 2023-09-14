@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumentu parakstīšana"
       content: "Precīzi pievienojiet vienu vai vairākus atbalstītos parakstu veidus jebkurā norādītajā biznesa dokumentu pozīcijā."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Pielāgojiet parakstus"
       content: "Izmantojiet tādas funkcijas kā krāsa, fonts, apmale, pagriešana utt., lai konfigurētu parakstu izskatu."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumenta paroles aizsardzība"
       content: "Nodrošiniet noteiktus dokumentu veidus, pēc parakstīšanas iestatot paroli."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Aizsardzība pret izmaiņām"
       content: "Novērsiet izmaiņas svarīgos biznesa dokumentos pēc paraksta pievienošanas ar digitālo sertifikātu."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konvertējiet parakstītos failus citos formātos"
       content: "Konvertējiet parakstītos failus vajadzīgajos formātos, piemēram, saglabājiet Word dokumentu kā PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Izvilkt lapu priekšskatījumus"
       content: "Izņemiet lapas no parakstītiem dokumentiem kā atsevišķus attēlus turpmākai apstrādei."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Parakstu meklēšana dokumentos"
       content: "Izgūt informāciju par iepriekš pievienotajiem parakstiem konkrētos dokumentos."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Apstipriniet parakstītos dokumentus"
       content: "Pārbaudiet dokumentu pareizu parakstīšanu, izmantojot validācijas līdzekļus."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Atjauniniet vai dzēsiet parakstus"
       content: "Ērti pārvietojiet konkrētus parakstus lapā, mainiet to tekstu vai izdzēsiet tos bez problēmām."
 
@@ -199,7 +199,7 @@ code_samples:
     # code sample loop
     - title: "Pievienojiet QR kodu PDF failam"
       content: |
-        [QR-kodu] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) pievienošana noteiktām PDF dokumentu lapām var uzlabot biznesa procesus. Tālāk ir sniegts piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature.
+        [QR-kodu](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) pievienošana noteiktām PDF dokumentu lapām var uzlabot biznesa procesus. Tālāk ir sniegts piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature.
         {{< landing/code title="Kā ievietot QR kodu PDF failā.">}}
         ```csharp {style=abap}
         // Ievietojiet dokumentu parakstīšanai
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

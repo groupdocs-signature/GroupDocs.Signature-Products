@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "ፊርማዎችን በማከል ላይ"
       content: "ዲጂታል ፊርማ በማንኛውም ገጽ ላይ በትክክል በማስቀመጥ የተለያዩ የሚደገፉ የፊርማ ዓይነቶችን በመጠቀም ሰነድ ይፈርሙ።"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "ውጤቶችን ማበጀት።"
       content: "የሚፈለገውን ውጤት ለማግኘት ቀለም፣ ቅርጸ-ቁምፊ፣ ድንበር፣ መዞር እና ሌሎች ባህሪያትን በማስተካከል የፊርማውን ገጽታ አብጅ።"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "ሰነዶችን በይለፍ ቃል በማስጠበቅ ላይ"
       content: "ለብዙ የሚደገፉ የሰነድ ዓይነቶች፣ የተፈረመውን ሰነድ በይለፍ ቃል መጠበቅ ይችላሉ።"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "ያልተፈቀዱ ለውጦችን መከላከል"
       content: "በዲጂታል ሰርተፍኬት የተፈረሙ አስፈላጊ የንግድ ሰነዶችን ካልተፈቀዱ ማሻሻያዎች ይጠብቁ።"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "በተፈለገው ቅርጸቶች ውጤቶች ማግኘት"
       content: "በማንኛውም የሚደገፍ ቅርጸት በቀላሉ የተፈረሙ የውጤት ፋይሎችን ያግኙ። እንዲሁም የ MS Word ሰነዶችን ያለምንም ጥረት ወደ ፒዲኤፍ መለወጥ ይችላሉ።"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "የሰነድ ቅድመ እይታ"
       content: "ለወደፊቱ ሂደት ማንኛውንም የሰነድ ገጽ እንደ ምስል ያስቀምጡ።"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "ፊርማዎችን በመፈለግ ላይ"
       content: "በተወሰኑ ሰነዶች ውስጥ ቀደም ሲል ስለተጨመሩ ፊርማዎች መረጃ ማግኘት ይቻላል."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "ሰነዶችን በማረጋገጥ ላይ"
       content: "በማንኛውም የተፈረመ ሰነድ ላይ የፊርማዎችን ትክክለኛነት ያረጋግጡ።"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "ፊርማዎችን ማስተዳደር"
       content: "አንድ ጊዜ ፊርማ በሰነድ ገጽ ላይ ከተቀመጠ በኋላ እንደ አስፈላጊነቱ ሊሰረዝ፣ ሊንቀሳቀስ ወይም ሊዘመን ይችላል።"
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

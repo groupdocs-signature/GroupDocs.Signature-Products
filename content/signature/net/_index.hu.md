@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Támogatott fájlformátumok"
   description: |
-    A GroupDocs.Signature for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.
+    A GroupDocs.Signature for .NET a következő [fájlformátumokkal](https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dokumentum aláírása"
       content: "Adjon hozzá egy vagy több támogatott aláírástípust pontosan az üzleti dokumentumok bármely meghatározott helyén."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Az aláírások testreszabása"
       content: "Használjon olyan funkciókat, mint a szín, a betűtípus, a keret, az elforgatás stb., az aláírások megjelenésének konfigurálásához."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumentum jelszavas védelme"
       content: "Biztosítson bizonyos dokumentumtípusokat az aláírás utáni jelszó beállításával."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Védelem a változások ellen"
       content: "Megakadályozza a fontos üzleti dokumentumok módosításait, miután egy aláírást csatolt egy digitális tanúsítvánnyal."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Az aláírt fájlok konvertálása más formátumba"
       content: "Az aláírt fájlokat konvertálja a kívánt formátumba, például mentse el a Word-dokumentumot PDF-ként."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Oldal-előnézetek kibontása"
       content: "Kivonja az oldalakat az aláírt dokumentumokból egyedi képként a későbbi feldolgozáshoz."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Aláírás keresés a dokumentumokban"
       content: "Információk lekérése az adott dokumentumokban korábban hozzáadott aláírásokról."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Érvényesítse az aláírt dokumentumokat"
       content: "Ellenőrizze a dokumentumok megfelelő aláírását az érvényesítési funkciók segítségével."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Az aláírások frissítése vagy törlése"
       content: "Könnyen áthelyezheti az adott aláírásokat az oldalon, módosíthatja a szövegüket vagy törölheti őket probléma nélkül."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

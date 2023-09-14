@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "Obsługiwane formaty plików"
   description: |
-    GroupDocs.Signature for .NET obsługuje operacje na następujących [formatach plików] (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature for .NET obsługuje operacje na następujących [formatach plików](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Podpisanie dokumentu"
       content: "Dokładne dodawanie jednego lub wielu obsługiwanych typów podpisów w dowolnym określonym miejscu dokumentów biznesowych."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Dostosuj podpisy"
       content: "Wykorzystaj funkcje takie jak kolor, czcionka, obramowanie, obrót itp., aby skonfigurować wygląd podpisów."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Ochrona hasłem dokumentu"
       content: "Zabezpiecz określone typy dokumentów, ustawiając hasło po podpisaniu."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Ochrona przed zmianami"
       content: "Zapobiegaj zmianom w ważnych dokumentach biznesowych po złożeniu podpisu za pomocą certyfikatu cyfrowego."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Konwertuj podpisane pliki na inne formaty"
       content: "Konwertuj podpisane pliki do żądanych formatów, na przykład zapisując dokument programu Word jako plik PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Wyodrębnij podglądy stron"
       content: "Wyodrębnij strony z podpisanych dokumentów jako pojedyncze obrazy do przyszłego przetwarzania."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Wyszukiwanie podpisów w dokumentach"
       content: "Odzyskaj informacje o wcześniej dodanych podpisach w konkretnych dokumentach."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Zweryfikuj podpisane dokumenty"
       content: "Sprawdź poprawność podpisywania dokumentów za pomocą funkcji walidacji."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Zaktualizuj lub usuń podpisy"
       content: "Z łatwością zmieniaj położenie określonych podpisów na stronie, modyfikuj ich tekst lub usuwaj je bez żadnych problemów."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

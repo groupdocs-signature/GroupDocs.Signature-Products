@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Afegir signatures"
       content: "Signeu un document amb diversos tipus de signatura compatibles col·locant una signatura digital precisament en qualsevol posició de qualsevol pàgina."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Personalització dels resultats"
       content: "Personalitzeu l'aspecte de la signatura ajustant el color, el tipus de lletra, la vora, la rotació i altres funcions per aconseguir el resultat desitjat."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Protecció de documents amb contrasenya"
       content: "Per a molts tipus de documents admesos, podeu protegir el document signat amb una contrasenya."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Prevenció de canvis no autoritzats"
       content: "Protegiu els documents comercials importants signats amb un certificat digital de modificacions no autoritzades."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Obtenció de resultats en els formats desitjats"
       content: "Obteniu fàcilment fitxers de resultats signats en qualsevol format compatible. També podeu convertir documents de MS Word a PDF sense esforç."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Vista prèvia del document"
       content: "Deseu qualsevol pàgina d'un document com a imatge per a un processament futur."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Recerca de signatures"
       content: "És possible obtenir informació sobre signatures afegides anteriorment en documents específics."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Validació de documents"
       content: "Valida la correcció de les signatures en qualsevol document signat."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Gestió de signatures"
       content: "Un cop s'ha col·locat una signatura a la pàgina d'un document, es pot esborrar, moure o actualitzar segons sigui necessari."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

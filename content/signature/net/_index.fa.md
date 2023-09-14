@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -114,7 +114,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Signature برای دات نت از عملیات با [فرمت های فایل] زیر پشتیبانی می کند (https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature فرمت های فایل [زیر پشتیبانی می کند](https://docs.groupdocs.com/signature/net/supported-document-formats/) برای دات نت از عملیات با.
   groups:
     # group loop
     - color: "green"
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "امضای سند"
       content: "یک یا چند نوع امضای پشتیبانی شده را با دقت در هر موقعیت مشخصی در اسناد تجاری اضافه کنید."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "سفارشی کردن امضاها"
       content: "از ویژگی هایی مانند رنگ، فونت، حاشیه، چرخش و غیره برای پیکربندی ظاهر امضاها استفاده کنید."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "حفاظت از رمز عبور سند"
       content: "پس از امضا، انواع اسناد خاص را با تنظیم رمز عبور ایمن کنید."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "محافظت در برابر تغییرات"
       content: "پس از ضمیمه کردن یک امضا با گواهی دیجیتال، از تغییرات اسناد تجاری مهم جلوگیری کنید."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "تبدیل فایل های امضا شده به فرمت های دیگر"
       content: "تبدیل فایل های امضا شده به فرمت های دلخواه، مانند ذخیره یک سند Word به عنوان PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "استخراج پیش نمایش صفحه"
       content: "صفحات را از اسناد امضا شده به عنوان تصاویر جداگانه برای پردازش آینده استخراج کنید."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "جستجوی امضا در اسناد"
       content: "اطلاعات مربوط به امضاهای اضافه شده قبلی در اسناد خاص را بازیابی کنید."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "اسناد امضا شده را تأیید کنید"
       content: "با استفاده از ویژگی‌های اعتبارسنجی، امضای صحیح اسناد را تأیید کنید."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "امضاها را به روز کنید یا حذف کنید"
       content: "امضاهای خاص را به راحتی در یک صفحه تغییر مکان دهید، متن آنها را تغییر دهید یا آنها را بدون هیچ مشکلی حذف کنید."
 
@@ -199,7 +199,7 @@ code_samples:
     # code sample loop
     - title: "کد QR را به PDF اضافه کنید"
       content: |
-        افزودن [QR-codes] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می‌تواند فرآیندهای تجاری را بهبود بخشد. در زیر مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature آورده شده است.
+        افزودن [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می‌تواند فرآیندهای تجاری را بهبود بخشد. در زیر مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature آورده شده است.
         {{< landing/code title="نحوه قرار دادن کد QR در PDF.">}}
         ```csharp {style=abap}
         // سند را برای امضا بارگیری کنید
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

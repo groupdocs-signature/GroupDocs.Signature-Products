@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Dodawanie podpisów"
       content: "Podpisz dokument, korzystając z różnych obsługiwanych typów podpisów, umieszczając podpis cyfrowy dokładnie w dowolnym miejscu na dowolnej stronie."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Dostosowywanie wyników"
       content: "Dostosuj wygląd podpisu, dostosowując kolor, czcionkę, obramowanie, obrót i inne funkcje, aby osiągnąć pożądany rezultat."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zabezpieczanie dokumentów hasłem"
       content: "W przypadku wielu obsługiwanych typów dokumentów można chronić podpisany dokument hasłem."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Zapobieganie nieautoryzowanym zmianom"
       content: "Chroń ważne dokumenty biznesowe podpisane certyfikatem cyfrowym przed nieautoryzowanymi modyfikacjami."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Uzyskiwanie wyników w pożądanych formatach"
       content: "Z łatwością uzyskaj podpisane pliki wynikowe w dowolnym obsługiwanym formacie. Możesz także bez wysiłku konwertować dokumenty MS Word do formatu PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Podgląd dokumentu"
       content: "Zapisz dowolną stronę dokumentu jako obraz do przyszłego przetwarzania."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Szukanie podpisów"
       content: "Istnieje możliwość uzyskania informacji o wcześniej dodanych podpisach w konkretnych dokumentach."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Walidacja dokumentów"
       content: "Sprawdź poprawność podpisów na każdym podpisanym dokumencie."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Zarządzanie podpisami"
       content: "Po umieszczeniu podpisu na stronie dokumentu można go usunąć, przenieść lub zaktualizować w razie potrzeby."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

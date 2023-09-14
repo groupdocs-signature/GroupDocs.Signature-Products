@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Að bæta við undirskriftum"
       content: "Skrifaðu undir skjal með því að nota ýmsar studdar undirskriftargerðir með því að setja stafræna undirskrift nákvæmlega hvar sem er á hvaða síðu sem er."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Sérsníða niðurstöður"
       content: "Sérsníddu einkennisútlitið með því að stilla lit, leturgerð, ramma, snúning og aðra eiginleika til að ná tilætluðum árangri."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Að tryggja skjöl með lykilorði"
       content: "Fyrir margar studdar skjalagerðir geturðu verndað undirritaða skjalið með lykilorði."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Koma í veg fyrir óheimilar breytingar"
       content: "Verndaðu mikilvæg viðskiptaskjöl sem eru undirrituð með stafrænu vottorði gegn óheimilum breytingum."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Að fá niðurstöður í æskilegu sniði"
       content: "Fáðu auðveldlega undirritaðar niðurstöðuskrár á hvaða studdu sniði sem er. Þú getur líka umbreytt MS Word skjölum í PDF áreynslulaust."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Forskoðun skjala"
       content: "Vistaðu hvaða síðu sem er í skjali sem mynd til framtíðarvinnslu."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Er að leita að undirskriftum"
       content: "Hægt er að fá upplýsingar um áður bættar undirskriftir í ákveðin skjöl."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Staðfesta skjöl"
       content: "Staðfestu réttmæti undirskrifta á hverju undirrituðu skjali."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Umsjón með undirskriftum"
       content: "Þegar undirskrift hefur verið sett á skjalasíðu er hægt að eyða henni, færa hana eða uppfæra eftir þörfum."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

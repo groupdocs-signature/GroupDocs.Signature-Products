@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Voeg handtekeninge by"
       content: "Teken 'n dokument deur verskeie ondersteunde handtekeningtipes te gebruik deur 'n digitale handtekening presies op enige posisie op enige bladsy te plaas."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Pasmaak van resultate"
       content: "Pas die kenmerkende voorkoms aan deur kleur, lettertipe, rand, rotasie en ander kenmerke aan te pas om die gewenste resultaat te bereik."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Beveilig dokumente met wagwoord"
       content: "Vir baie ondersteunde dokumenttipes kan jy die ondertekende dokument met 'n wagwoord beskerm."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Voorkoming van ongemagtigde veranderinge"
       content: "Beskerm belangrike sakedokumente wat met 'n digitale sertifikaat onderteken is teen ongemagtigde wysigings."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Verkry resultate in gewenste formate"
       content: "Kry maklik getekende resultaatlêers in enige ondersteunde formaat. Jy kan ook moeiteloos MS Word-dokumente na PDF omskakel."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Dokumentvoorskou"
       content: "Stoor enige bladsy van 'n dokument as 'n prent vir toekomstige verwerking."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Soek na handtekeninge"
       content: "Dit is moontlik om inligting oor voorheen bygevoegde handtekeninge in spesifieke dokumente te kry."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Valideer dokumente"
       content: "Bekragtig die korrektheid van handtekeninge op enige ondertekende dokument."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Die bestuur van handtekeninge"
       content: "Sodra 'n handtekening op 'n dokumentbladsy geplaas is, kan dit uitgevee, geskuif of opgedateer word soos nodig."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

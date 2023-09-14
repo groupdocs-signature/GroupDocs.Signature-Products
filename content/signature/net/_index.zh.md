@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "文件签署"
       content: "在业务文档的任何指定位置准确添加一种或多种支持类型的签名。"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "自定义签名"
       content: "利用颜色、字体、边框、旋转等功能来配置签名的外观。"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "文档密码保护"
       content: "通过在签名后设置密码来保护某些文档类型。"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "防止变化"
       content: "附加数字证书签名后，防止重要业务文档发生更改。"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "将签名文件转换为其他格式"
       content: "将签名文件转换为所需格式，例如将 Word 文档另存为 PDF。"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "提取页面预览"
       content: "从签名文档中提取页面作为单独的图像以供将来处理。"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "文档中的签名搜索"
       content: "检索有关特定文档中先前添加的签名的信息。"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "验证签署的文件"
       content: "使用验证功能验证文档的正确签名。"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "更新或删除签名"
       content: "轻松地在页面上重新定位特定签名、修改其文本或删除它们，没有任何问题。"
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -350,7 +350,7 @@
       }
     },
     "platforms_description": "A GroupDocs.Signature for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja",
-    "formats_description": "A GroupDocs.Signature for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.",
+    "formats_description": "A GroupDocs.Signature for .NET a következő [fájlformátumokkal](https://docs.groupdocs.com/signature/net/supported-document-formats/) támogatja a műveleteket.",
     "code_samples_description": "Néhány eset a tipikus GroupDocs.Signature használatához .NET műveletekhez",
     "code_title_sample_1": "QR-kód hozzáadása a PDF-hez",
     "code_samples_sample_1_content_1": "A [QR-kódok](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) hozzáadása a PDF-dokumentumok egyes oldalaihoz javíthatja az üzleti folyamatokat.",
@@ -418,7 +418,7 @@
       }
     },
     "platforms_description": "A GroupDocs.Signature for Java a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja",
-    "formats_description": "A GroupDocs.Signature for Java a következő [fájlformátumokkal] támogatja a műveleteket (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "A GroupDocs.Signature for Java a következő [fájlformátumokkal](https://docs.groupdocs.com/signature/java/supported-document-formats/) támogatja a műveleteket.",
     "code_samples_description": "Egyes esetekben a tipikus GroupDocs.Signature Java műveleteket használják",
     "code_title_sample_1": "Javítsa a PDF dokumentumot QR-kóddal",
     "code_samples_sample_1_content_1": "Értékes lehet az üzleti folyamatok fejlesztése a [QR-kódok](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) hozzáadásával a PDF-dokumentumok egyes oldalaihoz.",

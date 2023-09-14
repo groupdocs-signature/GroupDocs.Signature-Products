@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Pridávanie podpisov"
       content: "Podpíšte dokument pomocou rôznych podporovaných typov podpisov umiestnením digitálneho podpisu presne na ľubovoľné miesto na ľubovoľnej strane."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Prispôsobenie výsledkov"
       content: "Prispôsobte si vzhľad podpisu úpravou farby, písma, orámovania, otočenia a ďalších funkcií, aby ste dosiahli požadovaný výsledok."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Zabezpečenie dokumentov heslom"
       content: "Pri mnohých podporovaných typoch dokumentov môžete podpísaný dokument chrániť heslom."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Zabránenie neoprávneným zmenám"
       content: "Chráňte dôležité obchodné dokumenty podpísané digitálnym certifikátom pred neoprávnenými úpravami."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Získanie výsledkov v požadovaných formátoch"
       content: "Ľahko získajte podpísané súbory výsledkov v akomkoľvek podporovanom formáte. Môžete tiež bez námahy previesť dokumenty MS Word do PDF."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Ukážka dokumentu"
       content: "Uložte ľubovoľnú stranu dokumentu ako obrázok pre budúce spracovanie."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Hľadanie podpisov"
       content: "V konkrétnych dokumentoch je možné získať informácie o predtým pridaných podpisoch."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Overovanie dokumentov"
       content: "Overte správnosť podpisov na akomkoľvek podpísanom dokumente."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Správa podpisov"
       content: "Po umiestnení podpisu na stranu dokumentu ho možno podľa potreby odstrániť, presunúť alebo aktualizovať."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

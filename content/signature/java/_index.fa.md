@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -117,7 +117,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Signature برای جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature قالب‌های فایل [زیر پشتیبانی می‌کند](https://docs.groupdocs.com/signature/java/supported-document-formats/) برای جاوا از عملیات با.
   groups:
     # group loop
     - color: "green"
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "اضافه کردن امضاها"
       content: "با قرار دادن یک امضای دیجیتال دقیقاً در هر موقعیتی در هر صفحه، یک سند را با استفاده از انواع مختلف امضای پشتیبانی شده امضا کنید."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "سفارشی کردن نتایج"
       content: "برای دستیابی به نتیجه دلخواه، ظاهر امضا را با تنظیم رنگ، فونت، حاشیه، چرخش و سایر ویژگی‌ها سفارشی کنید."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "ایمن سازی اسناد با رمز عبور"
       content: "برای بسیاری از انواع سند پشتیبانی شده، می توانید سند امضا شده را با رمز عبور محافظت کنید."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "جلوگیری از تغییرات غیرمجاز"
       content: "از اسناد تجاری مهم امضا شده با گواهی دیجیتال در برابر تغییرات غیرمجاز محافظت کنید."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "به دست آوردن نتایج در فرمت های دلخواه"
       content: "به راحتی فایل های نتیجه امضا شده را در هر قالب پشتیبانی شده به دست آورید. همچنین می توانید اسناد MS Word را بدون زحمت به PDF تبدیل کنید."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "پیش نمایش سند"
       content: "هر صفحه از یک سند را به عنوان تصویر برای پردازش بعدی ذخیره کنید."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "جستجو برای امضا"
       content: "امکان دریافت اطلاعات در مورد امضاهای اضافه شده قبلی در اسناد خاص وجود دارد."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "تایید مدارک"
       content: "صحت امضاها را در هر سند امضا شده تأیید کنید."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "مدیریت امضاها"
       content: "هنگامی که یک امضا در صفحه سند قرار می گیرد، می توان آن را در صورت نیاز حذف، منتقل یا به روز کرد."
 
@@ -202,7 +202,7 @@ code_samples:
     # code sample loop
     - title: "سند PDF را با کد QR بهبود بخشید"
       content: |
-        بهبود فرآیندهای تجاری با افزودن [QR-codes] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می تواند ارزشمند باشد. مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature برای جاوا وجود دارد.
+        بهبود فرآیندهای تجاری با افزودن [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می تواند ارزشمند باشد. مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature برای جاوا وجود دارد.
         {{< landing/code title="سند PDF را با کد QR بهبود بخشید">}}
         ```java {style=abap}
         // سند را برای امضا بارگیری کنید
@@ -223,7 +223,7 @@ code_samples:
     # code sample loop
     - title: "از امضای دیجیتال برای محافظت از DOCX استفاده کنید"
       content: |
-        می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید] (https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/). اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد.
+        می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/). اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد.
         {{< landing/code title="از امضای دیجیتال برای محافظت از DOCX استفاده کنید">}}
         ```java {style=abap}   
         // سند را برای امضای دیجیتال بارگیری کنید
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

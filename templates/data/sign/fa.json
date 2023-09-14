@@ -350,10 +350,10 @@
       }
     },
     "platforms_description": "GroupDocs.Signature برای دات نت از سیستم عامل ها، فریم ورک ها و مدیران بسته های زیر پشتیبانی می کند",
-    "formats_description": "GroupDocs.Signature برای دات نت از عملیات با [فرمت های فایل] زیر پشتیبانی می کند (https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature فرمت های فایل [زیر پشتیبانی می کند](https://docs.groupdocs.com/signature/net/supported-document-formats/) برای دات نت از عملیات با.",
     "code_samples_description": "برخی از موارد معمولی GroupDocs.Signature برای عملیات NET استفاده می کنند",
     "code_title_sample_1": "کد QR را به PDF اضافه کنید",
-    "code_samples_sample_1_content_1": "افزودن [QR-codes] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می‌تواند فرآیندهای تجاری را بهبود بخشد.",
+    "code_samples_sample_1_content_1": "افزودن [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می‌تواند فرآیندهای تجاری را بهبود بخشد.",
     "code_samples_sample_1_content_2": "در زیر مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature آورده شده است.",
     "code_title_sample_2": "محافظت از یک سند DOCX با استفاده از گواهی دیجیتال",
     "code_samples_sample_2_content_1": "می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/).",
@@ -418,13 +418,13 @@
       }
     },
     "platforms_description": "GroupDocs.Signature برای جاوا از سیستم عامل ها، چارچوب ها و مدیران بسته های زیر پشتیبانی می کند",
-    "formats_description": "GroupDocs.Signature برای جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Signature قالب‌های فایل [زیر پشتیبانی می‌کند](https://docs.groupdocs.com/signature/java/supported-document-formats/) برای جاوا از عملیات با.",
     "code_samples_description": "برخی از موارد معمولی GroupDocs.Signature برای عملیات جاوا استفاده می کنند",
     "code_title_sample_1": "سند PDF را با کد QR بهبود بخشید",
-    "code_samples_sample_1_content_1": "بهبود فرآیندهای تجاری با افزودن [QR-codes] (https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می تواند ارزشمند باشد.",
+    "code_samples_sample_1_content_1": "بهبود فرآیندهای تجاری با افزودن [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می تواند ارزشمند باشد.",
     "code_samples_sample_1_content_2": "مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature برای جاوا وجود دارد.",
     "code_title_sample_2": "از امضای دیجیتال برای محافظت از DOCX استفاده کنید",
-    "code_samples_sample_2_content_1": "می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید] (https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/).",
+    "code_samples_sample_2_content_1": "می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/).",
     "code_samples_sample_2_content_2": "اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد."
   }
 }

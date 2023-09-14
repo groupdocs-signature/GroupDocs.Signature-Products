@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:52
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Belge imzalama"
       content: "İş belgelerinde belirtilen herhangi bir konuma bir veya daha fazla desteklenen imza türünü doğru bir şekilde ekleyin."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "İmzaları özelleştirin"
       content: "İmzaların görünümünü yapılandırmak için renk, yazı tipi, kenarlık, döndürme vb. özelliklerden yararlanın."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Belge şifre koruması"
       content: "İmzaladıktan sonra bir parola belirleyerek belirli belge türlerini güvence altına alın."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Değişikliklere karşı koruma"
       content: "Dijital sertifikayla imza ekledikten sonra önemli iş belgelerinde değişiklik yapılmasını önleyin."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "İmzalı dosyaları diğer formatlara dönüştürün"
       content: "İmzalı dosyaları, örneğin bir Word belgesini PDF olarak kaydetmek gibi istediğiniz biçimlere dönüştürün."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Sayfa önizlemelerini çıkar"
       content: "İmzalı belgelerdeki sayfaları ileride işlenmek üzere ayrı ayrı görüntüler olarak çıkarın."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Belgelerde imza arama"
       content: "Belirli belgelere önceden eklenen imzalar hakkında bilgi alın."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "İmzalı belgeleri doğrulayın"
       content: "Doğrulama özelliklerini kullanarak belgelerin doğru şekilde imzalandığını doğrulayın."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "İmzaları güncelleme veya silme"
       content: "Belirli imzaları bir sayfada kolayca yeniden konumlandırın, metinlerini değiştirin veya herhangi bir sorun yaşamadan silin."
 
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

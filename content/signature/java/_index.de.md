@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:50
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Signaturen hinzufügen"
       content: "Signieren Sie ein Dokument mit verschiedenen unterstützten Signaturtypen, indem Sie eine digitale Signatur genau an jeder Position auf jeder Seite platzieren."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Anpassen der Ergebnisse"
       content: "Passen Sie das Erscheinungsbild der Signatur an, indem Sie Farbe, Schriftart, Rahmen, Drehung und andere Funktionen anpassen, um das gewünschte Ergebnis zu erzielen."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Dokumente mit Passwort sichern"
       content: "Bei vielen unterstützten Dokumenttypen können Sie das signierte Dokument mit einem Passwort schützen."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Verhindern Sie unbefugte Änderungen"
       content: "Schützen Sie wichtige, mit einem digitalen Zertifikat signierte Geschäftsdokumente vor unbefugten Änderungen."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Erzielen von Ergebnissen in gewünschten Formaten"
       content: "Erhalten Sie ganz einfach signierte Ergebnisdateien in jedem unterstützten Format. Sie können MS Word-Dokumente auch mühelos in PDF konvertieren."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Dokumentvorschau"
       content: "Speichern Sie jede Seite eines Dokuments als Bild für die zukünftige Verarbeitung."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Suche nach Unterschriften"
       content: "Es ist möglich, Informationen über zuvor hinzugefügte Signaturen in bestimmten Dokumenten abzurufen."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Dokumente validieren"
       content: "Überprüfen Sie die Richtigkeit der Unterschriften auf jedem unterzeichneten Dokument."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Signaturen verwalten"
       content: "Sobald eine Signatur auf einer Dokumentseite platziert ist, kann sie nach Bedarf gelöscht, verschoben oder aktualisiert werden."
 
@@ -240,22 +240,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

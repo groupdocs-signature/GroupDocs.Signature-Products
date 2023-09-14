@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-13T10:36:51
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -146,47 +146,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "Asiakirjan allekirjoittaminen"
       content: "Lisää yksi tai useita tuettuja allekirjoitustyyppejä tarkasti mihin tahansa määritettyyn paikkaan yritysasiakirjoissa."
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "Muokkaa allekirjoituksia"
       content: "Käytä ominaisuuksia, kuten väriä, fonttia, reunusta, kiertoa jne., määrittääksesi allekirjoitusten ulkoasun."
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "Asiakirjan salasanasuojaus"
       content: "Suojaa tietyt asiakirjatyypit asettamalla salasana allekirjoituksen jälkeen."
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "Suojaus muutoksilta"
       content: "Estä tärkeiden yritysasiakirjojen muutokset liittämällä allekirjoituksen digitaalisella varmenteella."
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "Muunna allekirjoitetut tiedostot muihin muotoihin"
       content: "Muunna allekirjoitetut tiedostot haluttuihin muotoihin, kuten tallenna Word-asiakirja PDF-muodossa."
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "Pura sivujen esikatselut"
       content: "Poimi sivut allekirjoitetuista asiakirjoista yksittäisinä kuvina tulevaa käsittelyä varten."
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "Allekirjoitushaku asiakirjoista"
       content: "Hae tiedot aiemmin lisätyistä allekirjoituksista tiettyihin asiakirjoihin."
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "Vahvista allekirjoitetut asiakirjat"
       content: "Tarkista asiakirjojen oikea allekirjoitus vahvistusominaisuuksien avulla."
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "Päivitä tai poista allekirjoituksia"
       content: "Voit helposti sijoittaa tietyt allekirjoitukset sivulle, muokata niiden tekstiä tai poistaa ne ilman ongelmia."
 
@@ -199,7 +199,7 @@ code_samples:
     # code sample loop
     - title: "Lisää QR-koodi PDF-tiedostoon"
       content: |
-        [QR-koodien] (https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja. Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.
+        [QR-koodien](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja. Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.
         {{< landing/code title="Kuinka laittaa QR-koodi PDF-tiedostoon.">}}
         ```csharp {style=abap}
         // Lataa allekirjoitettava asiakirja
@@ -239,22 +239,4 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---
