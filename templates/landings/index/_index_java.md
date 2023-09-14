@@ -149,47 +149,47 @@ features:
 
   items:
     # feature loop
-    - icon: "merge"
+    - icon: "sign"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "split"
+    - icon: "custom"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "move"
+    - icon: "password"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "remove"
+    - icon: "protect"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "rotate"
+    - icon: "convert"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "swap"
+    - icon: "preview"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "extract"
+    - icon: "search"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "orientation"
+    - icon: "validate"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "update"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
 
