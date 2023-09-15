@@ -245,12 +245,186 @@
     "api_nocodelabel": "Kuva kõik koodita rakendused",
     "api_nocode_1_content": "Signeerige Microsoft Wordi, Exceli, PowerPointi, Visio ja PDF-failid teksti, pildi, vöötkoodi või QR-koodiga.",
     "api_nocode_2_content": "Allkirjastage Wordi dokumente veebis tasuta otse brauserist.",
-    "api_nocode_3_content": "PDF-failide e-allkirjastamine teksti, pildi või vöötkoodi abil mis tahes veebibrauseris."
+    "api_nocode_3_content": "PDF-failide e-allkirjastamine teksti, pildi või vöötkoodi abil mis tahes veebibrauseris.",
+    "title_1": "Allkirjastada dokumendid",
+    "words_for": "jaoks",
+    "actions_alt": "Litsentsi andmine",
+    "actions_title": "Kas olete valmis alustama?",
+    "actions_description": "Proovige GroupDocs.Signature'i funktsioone tasuta või taotlege litsentsi",
+    "release_title": "Välja antud versioon {0}",
+    "release_notes": "Vaadake, mis on uut",
+    "release_downloads": "Allalaadimised",
+    "code_more": "Veel näiteid",
+    "code_comment_1": "Valige PDF-dokument",
+    "code_comment_2": "Esitage tekst",
+    "code_comment_3": "Määra värv",
+    "code_comment_4": "Allkirjastage dokument ja salvestage faili",
+    "overview_title": "GroupDocs.Allkirja ülevaade",
+    "platforms_title": "Platvormi sõltumatus",
+    "formats_title": "Toetatud failivormingud",
+    "formats_groups": {
+      "title_1": "Microsoft Office'i vormingud",
+      "title_2": "Pildid ja muud vormingud",
+      "title_3": "Muud vormingud",
+      "format_portable": "Kaasaskantav",
+      "format_other_office": "Muud kontorivormingud",
+      "format_images": "Pildid",
+      "format_web": "võrk",
+      "format_archives": "Arhiivid",
+      "format_certificates": "Sertifikaadid"
+    },
+    "code_samples": {
+      "title": "Koodi näidised",
+      "sample_1": {
+        "code_title": "Kuidas panna QR-kood PDF-i.",
+        "comment_1": "Laadige alla allkirjastatav dokument",
+        "comment_2": "Looge QR-koodi valikud eelnevalt määratletud tekstiga",
+        "comment_3": "Konfigureerige QR-koodi kodeeringu tüüp ja asukoht lehel",
+        "comment_4": "Allkirjastage dokument ja salvestage see tulemusfailina"
+      },
+      "sample_2": {
+        "code_title": "Siin on, kuidas tagada dokumendi terviklikkus.",
+        "comment_1": "Laadige digitaalselt allkirjastatav dokument",
+        "comment_2": "Määrake digitaalse allkirjastamise suvandid ja määrake sertifikaadi faili tee",
+        "comment_3": "Määrake sertifikaadi parool",
+        "comment_4": "Allkirjastage dokument ja salvestage see soovitud teele"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API elektrooniliste allkirjade jaoks"
+    "title": "Native .NET API elektrooniliste allkirjade jaoks",
+    "title_2": ".NET API kaudu",
+    "actions_main": "Tasuta NuGeti allalaadimine",
+    "code_title": "PDF-failide allkirjastamine C#-s",
+    "overview_description": "API dokumentide allkirjastamiseks ja sellega seotud toimingute tegemiseks .NET-i rakendustes",
+    "overview_feature_1": {
+      "title": "Allkirjade lisamine äridokumentidele C#-s",
+      "description": "Dokumentide allkirjastamine: GroupDocs.Signature for .NET abil saate PDF- ja Office'i dokumentidele lisada erinevat tüüpi allkirju, näiteks teksti, pilte, vöötkoode ja digitaalseid sertifikaate. See API võimaldab teil oma dokumente allkirjastada peaaegu iga andmetüübiga, sealhulgas peidetud metaandmetega."
+    },
+    "overview_feature_2": {
+      "title": "Allkirjastatud dokumentide töötlemine",
+      "description": "Täiendav töötlemine: saate teha võimsaid toiminguid allkirjastatud dokumentidega, kasutades GroupDocs.Signature'i. See hõlmab olemasolevate allkirjade otsimist äridokumentides ja nende kontrollimist konkreetsete kriteeriumide alusel. Lisaks saate selle .NET API kaudu hankida dokumenditeavet ja vaadata lehti."
+    },
+    "overview_feature_3": {
+      "title": "Tulemuste kohandamine",
+      "description": "GroupDocs.Signature for .NET pakub ulatuslikke kohandamisvõimalusi. Saate täpselt paigutada allkirjad kõikjal dokumendilehel ja kohandada nende välimust, kasutades erinevaid seadeid. Lisaks toetab see API töödeldud dokumentide salvestamist paljudes toetatud vormingutes."
+    },
+    "features": {
+      "title": "GroupDocs.Allkirja funktsioonid",
+      "description": "PDF-ide, Office'i dokumentide ja piltide kiire ja täpne allkirjastamine",
+      "feature_1": {
+        "title": "Dokumendi allkirjastamine",
+        "content": "Lisage täpselt üks või mitu toetatud allkirjatüüpi äridokumentide mis tahes määratud kohta."
+      },
+      "feature_2": {
+        "title": "Kohandage allkirju",
+        "content": "Kasutage allkirjade välimuse konfigureerimiseks selliseid funktsioone nagu värv, font, ääris, pööramine jne."
+      },
+      "feature_3": {
+        "title": "Dokumentide paroolikaitse",
+        "content": "Kaitske teatud tüüpi dokumendid, määrates pärast allkirjastamist parooli."
+      },
+      "feature_4": {
+        "title": "Kaitse muutuste eest",
+        "content": "Vältige oluliste äridokumentide muutmist pärast digitaalse sertifikaadiga allkirja lisamist."
+      },
+      "feature_5": {
+        "title": "Teisendage allkirjastatud failid muudesse vormingutesse",
+        "content": "Teisendage allkirjastatud failid soovitud vormingusse, näiteks salvestage Wordi dokument PDF-vormingus."
+      },
+      "feature_6": {
+        "title": "Ekstraktige lehe eelvaated",
+        "content": "Eraldage allkirjastatud dokumentidest lehed üksikute piltidena edaspidiseks töötlemiseks."
+      },
+      "feature_7": {
+        "title": "Allkirjaotsing dokumentides",
+        "content": "Hankige teavet konkreetsetes dokumentides varem lisatud allkirjade kohta."
+      },
+      "feature_8": {
+        "title": "Kinnitage allkirjastatud dokumendid",
+        "content": "Kontrollige dokumentide õiget allkirjastamist valideerimisfunktsioonide abil."
+      },
+      "feature_9": {
+        "title": "Allkirjade värskendamine või kustutamine",
+        "content": "Saate hõlpsalt lehel konkreetseid allkirju ümber paigutada, nende teksti muuta või kustutada ilma probleemideta."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid",
+    "formats_description": "GroupDocs.Signature for .NET toetab toiminguid järgmiste [failivormingutega](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Mõned tüüpilised GroupDocs.Signature'i kasutamise juhtumid .NET-i toimingute jaoks",
+    "code_title_sample_1": "Lisage PDF-i QR-kood",
+    "code_samples_sample_1_content_1": "[QR-koodide](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisamine PDF-dokumentide konkreetsetele lehtedele võib äriprotsesse täiustada.",
+    "code_samples_sample_1_content_2": "Allpool on näide QR-koodi lisamisest GroupDocs.Signature abil.",
+    "code_title_sample_2": "DOCX-dokumendi kaitsmine digitaalse sertifikaadi abil",
+    "code_samples_sample_2_content_1": "Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju.",
+    "code_samples_sample_2_content_2": "Selliseid kaitstud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata."
   },
   "index-content-java": {
-    "title": "Java API digitaalallkirjade haldamiseks"
+    "title": "Java API digitaalallkirjade haldamiseks",
+    "title_2": "Java API kaudu",
+    "actions_main": "Tasuta Maveni allalaadimine",
+    "code_title": "PDF-failide allkirjastamine Javas",
+    "overview_description": "API dokumentide allkirjastamiseks ja sellega seotud toimingute tegemiseks Java rakendustes",
+    "overview_feature_1": {
+      "title": "Täiustatud äridokumendid Java digiallkirjadega",
+      "description": "Kiire ja kohandatav allkirjastamine: GroupDocs.Signature for Java pakub PDF-ide, piltide ja Office'i dokumentide jaoks laias valikus digitaalallkirjade valikuid. Saate kasutada teksti, vöötkoode, QR-koode, digitaalseid sertifikaate, pilte või peidetud metaandmeid. Dokumentide töötlemine on kiire ja tõhus."
+    },
+    "overview_feature_2": {
+      "title": "Allkirjastatud dokumentidega manipuleerimine",
+      "description": "Täiustatud dokumenditöötlus hõlmab võimsaid toiminguid allkirjastatud dokumentidega, kasutades Java jaoks mõeldud GroupDocs.Signature'i. Saate otsida ja kinnitada äridokumentidele lisatud allkirju, kasutades erinevaid kasulikke kriteeriume. Lisaks pääsete juurde üksikasjalikule teabele dokumendi kohta või saate selle lehtede eelvaatepilte."
+    },
+    "overview_feature_3": {
+      "title": "Erinevad väljundi valikud",
+      "description": "Tugevad allkirjastamisvalikud võimaldavad teil kohandada GroupDocs.Signature for Java-ga allkirjastatud dokumentide väljundit. Saate täpselt paigutada mis tahes allkirja mis tahes dokumendi lehele ja konfigureerida selle välimust mitmel viisil. Java API toetab allkirjastatud äridokumentide salvestamist paljudes toetatud vormingutes ja pakub võimalusi nende turvamiseks paroolidega."
+    },
+    "features": {
+      "title": "GroupDocs.Allkirja funktsioonid",
+      "description": "PDF-ide, Office'i dokumentide ja piltide allkirjastamine digitaalallkirjadega",
+      "feature_1": {
+        "title": "Allkirjade lisamine",
+        "content": "Allkirjastage dokument, kasutades erinevaid toetatud allkirjatüüpe, asetades digitaalallkirja täpselt mis tahes lehe mis tahes kohta."
+      },
+      "feature_2": {
+        "title": "Tulemuste kohandamine",
+        "content": "Kohandage allkirja välimust, kohandades soovitud tulemuse saavutamiseks värvi, fonti, äärist, pööramist ja muid funktsioone."
+      },
+      "feature_3": {
+        "title": "Dokumentide turvamine parooliga",
+        "content": "Paljude toetatud dokumenditüüpide puhul saate allkirjastatud dokumenti kaitsta parooliga."
+      },
+      "feature_4": {
+        "title": "Volitamata muudatuste vältimine",
+        "content": "Kaitske digitaalse sertifikaadiga allkirjastatud olulisi äridokumente volitamata muutmise eest."
+      },
+      "feature_5": {
+        "title": "Tulemuste saamine soovitud vormingus",
+        "content": "Hankige hõlpsasti allkirjastatud tulemusfailid mis tahes toetatud vormingus. Samuti saate MS Wordi dokumente hõlpsalt PDF-vormingusse teisendada."
+      },
+      "feature_6": {
+        "title": "Dokumendi eelvaade",
+        "content": "Salvestage dokumendi mis tahes leht pildina edaspidiseks töötlemiseks."
+      },
+      "feature_7": {
+        "title": "Allkirjade otsimine",
+        "content": "Varem lisatud allkirjade kohta on võimalik saada infot konkreetsetes dokumentides."
+      },
+      "feature_8": {
+        "title": "Dokumentide kinnitamine",
+        "content": "Kontrollige mis tahes allkirjastatud dokumendi allkirjade õigsust."
+      },
+      "feature_9": {
+        "title": "Allkirjade haldamine",
+        "content": "Kui allkiri on dokumendi lehele pandud, saab seda vastavalt vajadusele kustutada, teisaldada või värskendada."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid",
+    "formats_description": "GroupDocs.Signature for Java toetab toiminguid järgmiste [failivormingutega](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Mõned kasutavad tüüpilisi GroupDocs.Signature'i Java-operatsioonide jaoks",
+    "code_title_sample_1": "Täiustage PDF-dokumenti QR-koodiga",
+    "code_samples_sample_1_content_1": "Äriprotsesside täiustamine PDF-dokumentide konkreetsetele lehtedele [QR-koodide](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) lisamisega võib olla väärtuslik.",
+    "code_samples_sample_1_content_2": "Seal on näide QR-koodi lisamise kohta, kasutades GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Kasutage DOCX-i kaitsmiseks digitaalallkirja",
+    "code_samples_sample_2_content_1": "Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju.",
+    "code_samples_sample_2_content_2": "Sertifikaadiga tagatud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata."
   }
 }

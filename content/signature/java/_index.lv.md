@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, mākoņa API un tiešsaistes dokumentu parakstu lietotn
 head_description: "Iegūstiet visu vienā dokumentu e-paraksta risinājumu .NET, Java un mākoņa lietojumprogrammām. Parakstiet izplatītos dokumentu formātus tiešsaistē, izmantojot vienkāršu vilkšanas un nomešanas funkciju"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Parakstiet dokumentus<br>izmantojot Java API"
 description: "Parakstiet digitālos dokumentus un attēlus jebkurā platformā, izmantojot mūsu elastīgās API un uz lietotnēm balstītus risinājumus programmētājiem un galalietotājiem."
 words:
-  for: "{index-content.words_for}"
+  for: "priekš"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Bezmaksas Maven lejupielāde"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Licencēšana"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Vai esat gatavs sākt?"
+  description: "Izmēģiniet GroupDocs.Signature funkcijas bez maksas vai pieprasiet licenci"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Izlaista versija {0}"
+  notes: "Skatiet, kas jauns"
+  downloads: "Lejupielādes"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Parakstiet PDF failus Java"
+  more: "Vairāk piemēru"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Atlasiet PDF dokumentu
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Sniedziet tekstu
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Parakstiet dokumentu un saglabājiet to failā
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Paraksta pārskats"
+  description: "API dokumentu parakstīšanas un saistīto darbību veikšanai Java lietojumprogrammās"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Uzlaboti biznesa dokumenti ar ciparparakstiem Java"
+      content: "Ātra un pielāgojama parakstīšana: GroupDocs.Signature for Java piedāvā plašu digitālā paraksta iespēju klāstu PDF failiem, attēliem un Office dokumentiem. Varat izmantot tekstu, svītrkodus, QR kodus, digitālos sertifikātus, attēlus vai slēptos metadatus. Dokumentu apstrāde ir ātra un efektīva."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manipulēšana ar parakstītiem dokumentiem"
+      content: "Uzlabotā dokumentu apstrāde ietver spēcīgas darbības ar parakstītiem dokumentiem, izmantojot GroupDocs.Signature for Java. Jūs varat meklēt un apstiprināt parakstus, kas pievienoti biznesa dokumentiem, izmantojot dažādus noderīgus kritērijus. Turklāt varat piekļūt detalizētai informācijai par dokumentu vai iegūt tā lapu priekšskatījuma attēlus."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Izvades iespēju daudzveidība"
+      content: "Izturīgas parakstīšanas opcijas ļauj pielāgot izvadi dokumentiem, kas parakstīti ar GroupDocs.Signature for Java. Jūs varat precīzi novietot jebkuru parakstu jebkurā dokumenta lapā un konfigurēt tā izskatu dažādos veidos. Java API atbalsta parakstīto biznesa dokumentu saglabāšanu daudzos atbalstītos formātos un nodrošina iespējas tos aizsargāt ar parolēm."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Platformas neatkarība"
+  description: "GroupDocs.Signature for Java atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Atbalstītie failu formāti"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature for Java atbalsta darbības ar šādiem [failu formātiem](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office formāti
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Attēli un citi formāti
+        * **Pārnēsājams:** PDF
+        * **Attēli:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Citi biroja formāti:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Citi formāti
+        * **Web:** HTML, MHTML
+        * **Arhīvi:** ZIP, TAR, 7Z
+        * **Sertifikāti:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Paraksta funkcijas"
+  description: "PDF, Office dokumentu un attēlu parakstīšana ar digitālajiem parakstiem"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "Parakstu pievienošana"
+      content: "Parakstiet dokumentu, izmantojot dažādus atbalstītos paraksta veidus, precīzi ievietojot ciparparakstu jebkurā vietā jebkurā lapā."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "Rezultātu pielāgošana"
+      content: "Pielāgojiet paraksta izskatu, pielāgojot krāsu, fontu, apmali, rotāciju un citas funkcijas, lai sasniegtu vēlamo rezultātu."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "Dokumentu nodrošināšana ar paroli"
+      content: "Daudziem atbalstītajiem dokumentu veidiem varat aizsargāt parakstīto dokumentu ar paroli."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "Neatļautu izmaiņu novēršana"
+      content: "Aizsargājiet svarīgus biznesa dokumentus, kas parakstīti ar digitālo sertifikātu, no nesankcionētām izmaiņām."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "Rezultātu iegūšana vēlamajos formātos"
+      content: "Viegli iegūstiet parakstītus rezultātu failus jebkurā atbalstītā formātā. Varat arī bez pūlēm pārvērst MS Word dokumentus PDF formātā."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Dokumenta priekšskatījums"
+      content: "Saglabājiet jebkuru dokumenta lapu kā attēlu turpmākai apstrādei."
+
+    # feature loop
+    - icon: "search"
+      title: "Parakstu meklēšana"
+      content: "Konkrētos dokumentos iespējams iegūt informāciju par iepriekš pievienotajiem parakstiem."
+
+    # feature loop
+    - icon: "validate"
+      title: "Dokumentu apstiprināšana"
+      content: "Apstipriniet parakstu pareizību uz jebkura parakstīta dokumenta."
+
+    # feature loop
+    - icon: "update"
+      title: "Parakstu pārvaldība"
+      content: "Kad paraksts ir ievietots dokumenta lapā, to var dzēst, pārvietot vai atjaunināt pēc vajadzības."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Koda paraugi"
+  description: "Daži izmanto tipisku GroupDocs.Signature gadījumu Java operācijām"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Uzlabojiet PDF dokumentu ar QR kodu"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Uzņēmējdarbības procesu uzlabošana, pievienojot [QR-kodus](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) konkrētām PDF dokumentu lapām, var būt vērtīgi. Ir piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature for Java.
+        {{< landing/code title="Uzlabojiet PDF dokumentu ar QR kodu">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Ievietojiet dokumentu parakstīšanai
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Izveidojiet QR koda opcijas ar iepriekš definētu tekstu
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Konfigurējiet QR koda kodēšanas veidu un pozīciju lapā
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Parakstiet dokumentu un saglabājiet to kā rezultāta failu
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Izmantojiet digitālo parakstu, lai aizsargātu DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā digitālie sertifikāti. Ar sertifikātu nodrošinātos dokumentus nevar mainīt, nepadarot parakstu par nederīgu.
+        {{< landing/code title="Izmantojiet digitālo parakstu, lai aizsargātu DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Ielādējiet dokumentu, kas jāparaksta digitāli
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Norādiet ciparparaksta opcijas un norādiet ceļu uz sertifikāta failu
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Iestatiet sertifikāta paroli
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Parakstiet dokumentu un saglabājiet to vajadzīgajā ceļā
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

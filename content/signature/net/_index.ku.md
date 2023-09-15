@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, API-yên Cloud & Serlêdanên Îmzekirina Belgeya Serh�
 head_description: "Ji bo .NET, Java û serîlêdanên ewr-based çareseriya e-îmzaya belgeya tev-di-yek bistînin. Formên belgeyên hevpar ên serhêl bi karanîna taybetmendiya kaş û avêtinê ya hêsan îmze bikin"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Belgeyên îmze bikin<br>bi rêya .NET API"
 description: "Dokument û wêneyên dîjîtal li ser her platformê bi karanîna API-yên me yên maqûl û çareseriyên bingehîn ên sepanê ji bo bernamenûs û bikarhênerên dawîn îmze bikin."
 words:
-  for: "{index-content.words_for}"
+  for: "bo"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Daxistina NuGet Belaş"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Lîsanskirin"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Amade ne ku dest pê bikin?"
+  description: "Taybetmendiyên GroupDocs.Signature belaş biceribîne an destûrnameyek bixwaze"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Guhertoya {0} derket"
+  notes: "Binêrin ka çi nû ye"
+  downloads: "Downloads"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Pelên PDF-ê di C# de îmze bikin"
+  more: "Nimûneyên bêtir"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Belgeya PDF-ê hilbijêrin
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Nivîsar pêşkêş bikin
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Rengê danîn
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Belge îmze bikin û pelê hilînin
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature Overview"
+  description: "API ji bo pêkanîna îmzekirina belgeyê û operasyonên têkildar di serîlêdanên .NET de"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Di C# de li belgeyên karsaziyê zêdekirina îmzeyan"
+      content: "Îmzekirina belgeyan: Bi GroupDocs.Signature ji bo .NET-ê, hûn dikarin cûrbecûr îmzeyan, wek nivîs, wêne, barkod û sertîfîkayên dîjîtal, li belgeyên PDF û Office zêde bikin. Ev API dihêle hûn belgeyên xwe bi hema hema her celeb daneyê, tevî metadata veşartî, îmze bikin."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Pêvajoya belgeyên îmzekirî"
+      content: "Pêvajoya pêvek: Hûn dikarin bi karanîna GroupDocs.Signature li ser belgeyên îmzekirî operasyonên hêzdar bikin. Di vê yekê de lêgerîna îmzeyên heyî yên di nav belgeyên karsaziyê de û verastkirina wan bi karanîna pîvanên taybetî pêk tê. Wekî din, hûn dikarin bi vê .NET API-ê agahdariya belgeyê bistînin û rûpelan pêşdîtin bikin."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Xweserkirina encamên"
+      content: "GroupDocs.Signature ji bo .NET vebijarkên xwerûkirinê yên berfireh pêşkêşî dike. Hûn dikarin bi rastî îmzeyan li her derê li ser rûpelek belgeyê bicîh bikin û bi karanîna cûrbecûr mîhengan xuyangê wan rast bikin. Wekî din, ev API piştgirî dide tomarkirina belgeyên pêvajoyî di nav cûrbecûr formên piştgirî de."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Serxwebûna platformê"
+  description: "GroupDocs.Signature ji bo .NET pergalên xebitandinê yên jêrîn, çarçove û rêveberên pakêtê piştgirî dike"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formatên pelê piştgirî kirin"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan](https://docs.groupdocs.com/signature/net/supported-document-formats/) yên jêrîn piştgirî dike.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formatên Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Wêne & Formên Din
+        * **Cîtêgûherr:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Formên ofîsê yên din:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Formên din
+        * **Tevn:** HTML, MHTML
+        * **Kitik:** ZIP, TAR, 7Z
+        * **Sertîfîkayên:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Taybetmendiyên GroupDocs.Signature"
+  description: "Îmzekirina PDF, Belgeyên Ofîsê, û Wêneyan bi lez û bez"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "îmzekirina belgeyê"
+      content: "Li ser her pozîsyonek diyarkirî li ser belgeyên karsaziyê yek an çend celebên piştgirîkirî yên îmzeyan rast lê zêde bikin."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Kesayetî îmzeyan"
+      content: "Taybetmendiyên wekî reng, font, sînor, zivirandin, hwd., bikar bînin da ku xuyabûna îmzeyan mîheng bikin."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Parastina şîfreya belgeyê"
+      content: "Piştî îmzekirinê bi danîna şîfreyek hin celeb belgeyan ewle bikin."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Parastina ji guhertinan"
+      content: "Piştî pêvekirina îmzeyek bi sertîfîkayek dîjîtal re pêşî li guhertinên belgeyên karsaziyê yên girîng bigirin."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Pelên îmzekirî bi formatên din veguherînin"
+      content: "Pelên îmzekirî veguherînin formên xwestinê, wekî tomarkirina belgeyek Word-ê wekî PDF-ê."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Pêşdîtinên rûpelê derxînin"
+      content: "Rûpelên ji belgeyên îmzekirî wekî wêneyên kesane ji bo pêvajoyek pêşerojê derxînin."
+
+    # feature loop
+    - icon: "search"
+      title: "Di belgeyan de lêgerîna îmzeyan"
+      content: "Agahdariya li ser îmzeyên ku berê di belgeyên taybetî de hatine zêdekirin bistînin."
+
+    # feature loop
+    - icon: "validate"
+      title: "Belgeyên îmzekirî rast bikin"
+      content: "Bi karanîna taybetmendiyên pejirandinê, îmzekirina rast a belgeyan verast bikin."
+
+    # feature loop
+    - icon: "update"
+      title: "Îmzeyan nûve bikin an jêbikin"
+      content: "Bi hêsanî îmzeyên taybetî li ser rûpelek ji nû ve bi cîh bikin, nivîsa wan biguhezînin, an bêyî pirsgirêk wan jêbirin."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Nimûneyên kodê"
+  description: "Hinek rewşên tîpîk GroupDocs.Signature ji bo operasyonên .NET bikar tînin"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "QR-kodê li PDF-ê zêde bikin"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Zêdekirina [QR-kod](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF dikare pêvajoyên karsaziyê zêde bike. Li jêr mînakek e ku meriv çawa kodek QR bi karanîna GroupDocs.Signature zêde dike.
+        {{< landing/code title="Meriv çawa koda QR-ê li PDF-ê dixe.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Belgeyê ji bo îmzekirinê barkirin
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Vebijarkên koda QR-ê bi nivîsa pêşwextkirî biafirînin
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Li ser rûpelê celeb û cîhê kodkirina koda QR-ê mîheng bikin
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Belgeyê îmze bikin û wekî pelê encamê hilînin
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Parastina belgeyek DOCX bi karanîna sertîfîkayek dîjîtal"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin. Belgeyên weha parastî bêyî betalkirina îmzeyê nayên guhertin.
+        {{< landing/code title="Li vir e ku meriv çawa yekbûna belgeyê piştrast dike.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Belgeya ku bi dîjîtal were imze kirin bar bikin
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Vebijarkên îmzekirina dîjîtal diyar bikin û riya pelê sertîfîkayê peyda bikin
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Şîfreya sertîfîkayê saz bikin
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Belgeyê îmze bikin û li ser riya xwestinê hilînin
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

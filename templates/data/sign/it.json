@@ -245,12 +245,186 @@
     "api_nocodelabel": "Visualizza tutte le app senza codice",
     "api_nocode_1_content": "Firma file Microsoft Word, Excel, PowerPoint, Visio e PDF con testo, immagine, codice a barre o codice QR.",
     "api_nocode_2_content": "Firma digitalmente i documenti Word online direttamente dal tuo browser gratuitamente.",
-    "api_nocode_3_content": "Firma elettronica dei file PDF utilizzando testo, immagine o codice a barre da qualsiasi browser web."
+    "api_nocode_3_content": "Firma elettronica dei file PDF utilizzando testo, immagine o codice a barre da qualsiasi browser web.",
+    "title_1": "Firmare documenti",
+    "words_for": "per",
+    "actions_alt": "Licenza",
+    "actions_title": "Pronti per iniziare?",
+    "actions_description": "Prova gratuitamente le funzionalità di GroupDocs.Signature o richiedi una licenza",
+    "release_title": "Rilasciata la versione {0}",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Altri esempi",
+    "code_comment_1": "Seleziona il documento PDF",
+    "code_comment_2": "Fornire testo",
+    "code_comment_3": "Imposta il colore",
+    "code_comment_4": "Firma il documento e salvalo su file",
+    "overview_title": "Panoramica di GroupDocs.Signature",
+    "platforms_title": "Indipendenza dalla piattaforma",
+    "formats_title": "Formati di file supportati",
+    "formats_groups": {
+      "title_1": "Formati Microsoft Office",
+      "title_2": "Immagini e altri formati",
+      "title_3": "Altri formati",
+      "format_portable": "Portatile",
+      "format_other_office": "Altri formati di ufficio",
+      "format_images": "immagini",
+      "format_web": "ragnatela",
+      "format_archives": "Archivi",
+      "format_certificates": "Certificati"
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "sample_1": {
+        "code_title": "Come inserire il codice QR nel PDF.",
+        "comment_1": "Carica il documento da firmare",
+        "comment_2": "Crea opzioni di codice QR con testo predefinito",
+        "comment_3": "Configura il tipo di codifica del codice QR e la posizione sulla pagina",
+        "comment_4": "Firma il documento e salvalo come file dei risultati"
+      },
+      "sample_2": {
+        "code_title": "Ecco come garantire l'integrità del documento.",
+        "comment_1": "Caricare il documento da firmare digitalmente",
+        "comment_2": "Specificare le opzioni di firma digitale e fornire il percorso del file del certificato",
+        "comment_3": "Imposta la password del certificato",
+        "comment_4": "Firma il documento e salvalo nel percorso desiderato"
+      }
+    }
   },
   "index-content-net": {
-    "title": "API .NET nativa per firme elettroniche"
+    "title": "API .NET nativa per firme elettroniche",
+    "title_2": "tramite l'API .NET",
+    "actions_main": "Download gratuito di NuGet",
+    "code_title": "Firma file PDF in C#",
+    "overview_description": "API per eseguire la firma dei documenti e le operazioni correlate nelle applicazioni .NET",
+    "overview_feature_1": {
+      "title": "Aggiunta di firme ai documenti aziendali in C#",
+      "description": "Firma dei documenti: con GroupDocs.Signature per .NET, puoi aggiungere vari tipi di firme, come testo, immagini, codici a barre e certificati digitali, ai documenti PDF e Office. Questa API ti consente di firmare i tuoi documenti con quasi tutti i tipi di dati, inclusi i metadati nascosti."
+    },
+    "overview_feature_2": {
+      "title": "Elaborazione di documenti firmati",
+      "description": "Elaborazione aggiuntiva: puoi eseguire operazioni potenti sui documenti firmati utilizzando GroupDocs.Signature. Ciò include la ricerca di firme esistenti all'interno di documenti aziendali e la loro verifica utilizzando criteri specifici. Inoltre, puoi recuperare informazioni sui documenti e visualizzare in anteprima le pagine tramite questa API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personalizzazione dei risultati",
+      "description": "GroupDocs.Signature per .NET offre ampie opzioni di personalizzazione. Puoi posizionare con precisione le firme in qualsiasi punto della pagina del documento e regolarne l'aspetto utilizzando una varietà di impostazioni. Inoltre, questa API supporta il salvataggio dei documenti elaborati in un'ampia gamma di formati supportati."
+    },
+    "features": {
+      "title": "Funzionalità di GroupDocs.Signature",
+      "description": "Firma di PDF, documenti Office e immagini in modo rapido e accurato",
+      "feature_1": {
+        "title": "Firma del documento",
+        "content": "Aggiungi con precisione uno o più tipi di firme supportate in qualsiasi posizione specificata sui documenti aziendali."
+      },
+      "feature_2": {
+        "title": "Personalizza le firme",
+        "content": "Utilizza funzionalità come colore, carattere, bordo, rotazione, ecc. per configurare l'aspetto delle firme."
+      },
+      "feature_3": {
+        "title": "Protezione dei documenti tramite password",
+        "content": "Proteggi determinati tipi di documenti impostando una password dopo la firma."
+      },
+      "feature_4": {
+        "title": "Protezione dai cambiamenti",
+        "content": "Impedisci modifiche a documenti aziendali importanti dopo aver aggiunto una firma con un certificato digitale."
+      },
+      "feature_5": {
+        "title": "Converti file firmati in altri formati",
+        "content": "Converti file firmati nei formati desiderati, ad esempio salvando un documento Word come PDF."
+      },
+      "feature_6": {
+        "title": "Estrai le anteprime delle pagine",
+        "content": "Estrai pagine da documenti firmati come singole immagini per elaborazioni future."
+      },
+      "feature_7": {
+        "title": "Ricerca della firma nei documenti",
+        "content": "Recupera informazioni sulle firme aggiunte in precedenza in documenti specifici."
+      },
+      "feature_8": {
+        "title": "Convalidare i documenti firmati",
+        "content": "Verifica la corretta firma dei documenti utilizzando le funzionalità di convalida."
+      },
+      "feature_9": {
+        "title": "Aggiorna o elimina le firme",
+        "content": "Riposiziona facilmente firme specifiche su una pagina, modificane il testo o eliminale senza problemi."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature per .NET supporta i seguenti sistemi operativi, framework e gestori di pacchetti",
+    "formats_description": "GroupDocs.Signature per .NET supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Alcuni casi d'uso tipici di GroupDocs.Signature per operazioni .NET",
+    "code_title_sample_1": "Aggiungi il codice QR al PDF",
+    "code_samples_sample_1_content_1": "L'aggiunta di [codici QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a pagine specifiche di documenti PDF può migliorare i processi aziendali.",
+    "code_samples_sample_1_content_2": "Di seguito è riportato un esempio di come aggiungere un codice QR utilizzando GroupDocs.Signature.",
+    "code_title_sample_2": "Proteggere un documento DOCX utilizzando un certificato digitale",
+    "code_samples_sample_2_content_1": "Puoi [Proteggere un documento](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilizzando firme personali o aziendali archiviate come certificati digitali.",
+    "code_samples_sample_2_content_2": "Tali documenti protetti non possono essere modificati senza invalidare la firma."
   },
   "index-content-java": {
-    "title": "API Java per la gestione delle firme digitali"
+    "title": "API Java per gestire le firme digitali",
+    "title_2": "via Java API",
+    "actions_main": "Scarica gratis Maven",
+    "code_title": "Firma file PDF in Java",
+    "overview_description": "API per eseguire la firma dei documenti e le operazioni correlate nelle applicazioni Java",
+    "overview_feature_1": {
+      "title": "Documenti aziendali migliorati con firme digitali in Java",
+      "description": "Firma rapida e personalizzabile: GroupDocs.Signature per Java offre un'ampia gamma di opzioni di firma digitale per PDF, immagini e documenti Office. Puoi utilizzare testo, codici a barre, codici QR, certificati digitali, immagini o metadati nascosti. L'elaborazione dei documenti è rapida ed efficiente."
+    },
+    "overview_feature_2": {
+      "title": "Manipolazione di documenti firmati",
+      "description": "L'elaborazione avanzata dei documenti prevede operazioni potenti sui documenti firmati utilizzando GroupDocs.Signature per Java. Puoi cercare e convalidare le firme aggiunte ai documenti aziendali utilizzando vari criteri utili. Inoltre, puoi accedere a informazioni dettagliate sul documento o ottenere immagini di anteprima delle sue pagine."
+    },
+    "overview_feature_3": {
+      "title": "Varietà di scelte di output",
+      "description": "Le robuste opzioni di firma ti consentono di personalizzare l'output per i documenti firmati con GroupDocs.Signature per Java. Puoi posizionare con precisione qualsiasi firma su qualsiasi pagina del documento e configurarne l'aspetto in vari modi. L'API Java supporta il salvataggio di documenti aziendali firmati in numerosi formati supportati e fornisce opzioni per proteggerli con password."
+    },
+    "features": {
+      "title": "Funzionalità di GroupDocs.Signature",
+      "description": "Firma di PDF, documenti Office e immagini con firme digitali",
+      "feature_1": {
+        "title": "Aggiunta di firme",
+        "content": "Firma un documento utilizzando vari tipi di firma supportati inserendo una firma digitale esattamente in qualsiasi posizione su qualsiasi pagina."
+      },
+      "feature_2": {
+        "title": "Personalizzazione dei risultati",
+        "content": "Personalizza l'aspetto della firma regolando colore, carattere, bordo, rotazione e altre funzionalità per ottenere il risultato desiderato."
+      },
+      "feature_3": {
+        "title": "Protezione dei documenti con password",
+        "content": "Per molti tipi di documenti supportati, puoi proteggere il documento firmato con una password."
+      },
+      "feature_4": {
+        "title": "Prevenire modifiche non autorizzate",
+        "content": "Proteggi importanti documenti aziendali firmati con un certificato digitale da modifiche non autorizzate."
+      },
+      "feature_5": {
+        "title": "Ottenere risultati nei formati desiderati",
+        "content": "Ottieni facilmente file di risultati firmati in qualsiasi formato supportato. Puoi anche convertire documenti MS Word in PDF senza sforzo."
+      },
+      "feature_6": {
+        "title": "Anteprima del documento",
+        "content": "Salva qualsiasi pagina di un documento come immagine per elaborazioni future."
+      },
+      "feature_7": {
+        "title": "Alla ricerca delle firme",
+        "content": "È possibile ottenere informazioni sulle firme aggiunte in precedenza in documenti specifici."
+      },
+      "feature_8": {
+        "title": "Convalida dei documenti",
+        "content": "Convalida la correttezza delle firme su qualsiasi documento firmato."
+      },
+      "feature_9": {
+        "title": "Gestione delle firme",
+        "content": "Una volta inserita una firma su una pagina del documento, è possibile eliminarla, spostarla o aggiornarla secondo necessità."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature per Java supporta i seguenti sistemi operativi, framework e gestori di pacchetti",
+    "formats_description": "GroupDocs.Signature per Java supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Alcuni casi d'uso tipici di GroupDocs.Signature per operazioni Java",
+    "code_title_sample_1": "Migliora il documento PDF con il codice QR",
+    "code_samples_sample_1_content_1": "Migliorare i processi aziendali aggiungendo [codici QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a pagine specifiche di documenti PDF può essere prezioso.",
+    "code_samples_sample_1_content_2": "È disponibile un esempio di come aggiungere un codice QR utilizzando GroupDocs.Signature per Java.",
+    "code_title_sample_2": "Utilizza la firma digitale per proteggere un DOCX",
+    "code_samples_sample_2_content_1": "Puoi [Proteggere un documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilizzando firme personali o aziendali archiviate come certificati digitali.",
+    "code_samples_sample_2_content_2": "I documenti protetti con certificato non possono essere alterati senza invalidare la firma."
   }
 }

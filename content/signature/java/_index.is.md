@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
 head_description: "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Skrifaðu undir skjöl<br>í gegnum Java API"
 description: "Skrifaðu undir stafræn skjöl og myndir á hvaða vettvang sem er með því að nota sveigjanleg API og app byggðar lausnir fyrir forritara og endanotendur."
 words:
-  for: "{index-content.words_for}"
+  for: "fyrir"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Maven niðurhal ókeypis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Leyfisveitingar"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Tilbúinn til að byrja?"
+  description: "Prófaðu GroupDocs.Signature eiginleika ókeypis eða biddu um leyfi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Útgáfa {0} gefin út"
+  notes: "Sjáðu hvað er nýtt"
+  downloads: "Niðurhal"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Skráðu PDF skjöl í Java"
+  more: "Fleiri dæmi"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Veldu PDF skjal
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Gefðu upp texta
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Skrifaðu undir skjal og vistaðu í skrá
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Yfirlit"
+  description: "API til að framkvæma undirritun skjala og tengdar aðgerðir í Java forritum"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Bætt viðskiptaskjöl með stafrænum undirskriftum í Java"
+      content: "Fljótleg og sérhannaðar undirskrift: GroupDocs.Signature fyrir Java býður upp á fjölbreytt úrval af stafrænum undirskriftarmöguleikum fyrir PDF-skjöl, myndir og Office-skjöl. Þú getur notað texta, strikamerki, QR-kóða, stafræn skilríki, myndir eða falin lýsigögn. Skjalavinnslan er hröð og skilvirk."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Meðhöndla undirrituð skjöl"
+      content: "Ítarleg skjalavinnsla felur í sér öflugar aðgerðir á undirrituðum skjölum með GroupDocs.Signature fyrir Java. Hægt er að leita að og staðfesta undirskriftir sem hafa verið bætt við viðskiptaskjöl með ýmsum gagnlegum forsendum. Að auki geturðu nálgast nákvæmar upplýsingar um skjalið eða fengið forskoðunarmyndir af síðum þess."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Fjölbreytt framleiðsluval"
+      content: "Öflugir undirskriftarvalkostir gera þér kleift að sérsníða úttakið fyrir skjöl sem eru undirrituð með GroupDocs.Signature fyrir Java. Þú getur staðsett hvaða undirskrift sem er nákvæmlega á hvaða skjalasíðu sem er og stillt útlit hennar á ýmsa vegu. Java API styður vistun undirritaðra viðskiptaskjala á fjölmörgum studdum sniðum og býður upp á möguleika til að tryggja þau með lykilorðum."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Sjálfstæði vettvangs"
+  description: "GroupDocs.Signature fyrir Java styður eftirfarandi stýrikerfi, ramma og pakkastjóra"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Stutt skráarsnið"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature fyrir Java styður aðgerðir með eftirfarandi [skráarsniðum](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office snið
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Myndir og önnur snið
+        * **Færanlegt:** PDF
+        * **Myndir:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Önnur skrifstofusnið:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Önnur snið
+        * **vefur:** HTML, MHTML
+        * **Skjalasafn:** ZIP, TAR, 7Z
+        * **Skírteini:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature eiginleikar"
+  description: "Undirritun PDF skjöl, skrifstofuskjöl og myndir með stafrænum undirskriftum"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "Að bæta við undirskriftum"
+      content: "Skrifaðu undir skjal með því að nota ýmsar studdar undirskriftargerðir með því að setja stafræna undirskrift nákvæmlega hvar sem er á hvaða síðu sem er."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "Sérsníða niðurstöður"
+      content: "Sérsníddu einkennisútlitið með því að stilla lit, leturgerð, ramma, snúning og aðra eiginleika til að ná tilætluðum árangri."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "Að tryggja skjöl með lykilorði"
+      content: "Fyrir margar studdar skjalagerðir geturðu verndað undirritaða skjalið með lykilorði."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "Koma í veg fyrir óheimilar breytingar"
+      content: "Verndaðu mikilvæg viðskiptaskjöl sem eru undirrituð með stafrænu vottorði gegn óheimilum breytingum."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "Að fá niðurstöður í æskilegu sniði"
+      content: "Fáðu auðveldlega undirritaðar niðurstöðuskrár á hvaða studdu sniði sem er. Þú getur líka umbreytt MS Word skjölum í PDF áreynslulaust."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Forskoðun skjala"
+      content: "Vistaðu hvaða síðu sem er í skjali sem mynd til framtíðarvinnslu."
+
+    # feature loop
+    - icon: "search"
+      title: "Er að leita að undirskriftum"
+      content: "Hægt er að fá upplýsingar um áður bættar undirskriftir í ákveðin skjöl."
+
+    # feature loop
+    - icon: "validate"
+      title: "Staðfesta skjöl"
+      content: "Staðfestu réttmæti undirskrifta á hverju undirrituðu skjali."
+
+    # feature loop
+    - icon: "update"
+      title: "Umsjón með undirskriftum"
+      content: "Þegar undirskrift hefur verið sett á skjalasíðu er hægt að eyða henni, færa hana eða uppfæra eftir þörfum."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Kóða sýnishorn"
+  description: "Sumir nota dæmigerða GroupDocs.Signature fyrir Java aðgerðir"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Bættu PDF skjal með QR-kóða"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Það getur verið dýrmætt að bæta viðskiptaferla með því að bæta [QR-kóðum](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) við sérstakar síður af PDF skjölum. Það er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature fyrir Java.
+        {{< landing/code title="Bættu PDF skjal með QR-kóða">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Hladdu skjalinu til að undirrita
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Búðu til QR kóða valkosti með fyrirfram skilgreindum texta
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Stilltu QR kóða kóðun gerð og staðsetningu á síðunni
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Skrifaðu undir skjalið og vistaðu það sem niðurstöðuskrá
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Notaðu stafræna undirskrift til að vernda DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Þú getur [verndað skjal](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki. Ekki er hægt að breyta skjölum sem eru tryggð með vottorði án þess að ógilda undirskriftina.
+        {{< landing/code title="Notaðu stafræna undirskrift til að vernda DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Hladdu skjalinu sem á að skrifa undir stafrænt
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Tilgreindu valkosti fyrir stafræna undirskrift og gefðu upp slóðina að vottorðaskránni
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Stilltu lykilorð vottorðsins
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Skrifaðu undir skjalið og vistaðu það á viðkomandi slóð
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

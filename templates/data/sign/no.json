@@ -245,12 +245,186 @@
     "api_nocodelabel": "Se alle No Code-apper",
     "api_nocode_1_content": "Signer Microsoft Word, Excel, PowerPoint, Visio og PDF-filer med tekst, bilde, strekkode eller QR-kode.",
     "api_nocode_2_content": "Signer Word-dokumenter digitalt online direkte fra nettleseren din gratis.",
-    "api_nocode_3_content": "e-signer PDF-filer med tekst, bilde eller strekkode fra en hvilken som helst nettleser."
+    "api_nocode_3_content": "e-signer PDF-filer med tekst, bilde eller strekkode fra en hvilken som helst nettleser.",
+    "title_1": "Signer dokumenter",
+    "words_for": "til",
+    "actions_alt": "Lisensering",
+    "actions_title": "Klar til å komme i gang?",
+    "actions_description": "Prøv GroupDocs.Signature-funksjonene gratis eller be om en lisens",
+    "release_title": "Versjon {0} utgitt",
+    "release_notes": "Se hva som er nytt",
+    "release_downloads": "Nedlastinger",
+    "code_more": "Flere eksempler",
+    "code_comment_1": "Velg PDF-dokument",
+    "code_comment_2": "Gi tekst",
+    "code_comment_3": "Sett farge",
+    "code_comment_4": "Signer dokument og lagre til fil",
+    "overview_title": "GroupDocs.Signature Oversikt",
+    "platforms_title": "Plattformuavhengighet",
+    "formats_title": "Støttede filformater",
+    "formats_groups": {
+      "title_1": "Microsoft Office-formater",
+      "title_2": "Bilder og andre formater",
+      "title_3": "Andre formater",
+      "format_portable": "Bærbar",
+      "format_other_office": "Andre kontorformater",
+      "format_images": "Bilder",
+      "format_web": "Web",
+      "format_archives": "Arkiv",
+      "format_certificates": "Sertifikater"
+    },
+    "code_samples": {
+      "title": "Kodeprøver",
+      "sample_1": {
+        "code_title": "Hvordan sette QR-kode til PDF.",
+        "comment_1": "Last inn dokumentet for å signere",
+        "comment_2": "Lag QR-kodealternativer med forhåndsdefinert tekst",
+        "comment_3": "Konfigurer QR-kodekodingstype og plassering på siden",
+        "comment_4": "Signer dokumentet og lagre det som resultatfil"
+      },
+      "sample_2": {
+        "code_title": "Slik sikrer du dokumentets integritet.",
+        "comment_1": "Last inn dokumentet som skal signeres digitalt",
+        "comment_2": "Angi alternativer for digital signering og oppgi banen til sertifikatfilen",
+        "comment_3": "Angi sertifikatpassordet",
+        "comment_4": "Signer dokumentet og lagre det på ønsket bane"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API for elektroniske signaturer"
+    "title": "Native .NET API for elektroniske signaturer",
+    "title_2": "via .NET API",
+    "actions_main": "Gratis nedlasting av NuGet",
+    "code_title": "Signer PDF-filer i C#",
+    "overview_description": "API for å utføre dokumentsignering og relaterte operasjoner i .NET-applikasjoner",
+    "overview_feature_1": {
+      "title": "Legge til signaturer til forretningsdokumenter i C#",
+      "description": "Dokumentsignering: Med GroupDocs.Signature for .NET kan du legge til ulike typer signaturer, som tekst, bilder, strekkoder og digitale sertifikater, til PDF- og Office-dokumenter. Denne API-en lar deg signere dokumentene dine med nesten alle typer data, inkludert skjulte metadata."
+    },
+    "overview_feature_2": {
+      "title": "Behandling av signerte dokumenter",
+      "description": "Ytterligere behandling: Du kan utføre kraftige operasjoner på signerte dokumenter ved å bruke GroupDocs.Signature. Dette inkluderer å søke etter eksisterende signaturer i forretningsdokumenter og verifisere dem ved å bruke spesifikke kriterier. I tillegg kan du hente dokumentinformasjon og forhåndsvise sider gjennom denne .NET API."
+    },
+    "overview_feature_3": {
+      "title": "Tilpasse resultater",
+      "description": "GroupDocs.Signature for .NET tilbyr omfattende tilpasningsmuligheter. Du kan plassere signaturer nøyaktig hvor som helst på en dokumentside og justere utseendet ved hjelp av en rekke innstillinger. Videre støtter denne API-en lagring av behandlede dokumenter i et bredt spekter av støttede formater."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-funksjoner",
+      "description": "Signering av PDF-er, Office-dokumenter og bilder raskt og nøyaktig",
+      "feature_1": {
+        "title": "Dokumentsignering",
+        "content": "Legg til én eller flere støttede typer signaturer nøyaktig på en hvilken som helst spesifisert posisjon på forretningsdokumenter."
+      },
+      "feature_2": {
+        "title": "Tilpass signaturer",
+        "content": "Bruk funksjoner som farge, font, kantlinje, rotasjon osv. for å konfigurere utseendet til signaturer."
+      },
+      "feature_3": {
+        "title": "Dokumentpassordbeskyttelse",
+        "content": "Sikre visse dokumenttyper ved å angi et passord etter signering."
+      },
+      "feature_4": {
+        "title": "Beskyttelse mot endringer",
+        "content": "Forhindre endringer i viktige forretningsdokumenter etter å ha lagt til en signatur med et digitalt sertifikat."
+      },
+      "feature_5": {
+        "title": "Konverter signerte filer til andre formater",
+        "content": "Konverter signerte filer til ønskede formater, for eksempel å lagre et Word-dokument som en PDF."
+      },
+      "feature_6": {
+        "title": "Trekk ut forhåndsvisninger av siden",
+        "content": "Trekk ut sider fra signerte dokumenter som individuelle bilder for fremtidig behandling."
+      },
+      "feature_7": {
+        "title": "Signatursøk i dokumenter",
+        "content": "Hent informasjon om tidligere lagt til signaturer i spesifikke dokumenter."
+      },
+      "feature_8": {
+        "title": "Validere signerte dokumenter",
+        "content": "Bekreft riktig signering av dokumenter ved hjelp av valideringsfunksjoner."
+      },
+      "feature_9": {
+        "title": "Oppdater eller slett signaturer",
+        "content": "Flytt enkelt spesifikke signaturer på en side, endre teksten eller slett dem uten problemer."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET støtter følgende operativsystemer, rammeverk og pakkeadministratorer",
+    "formats_description": "GroupDocs.Signature for .NET støtter operasjoner med følgende [filformater](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Noen bruker tilfeller av typiske GroupDocs.Signature for .NET-operasjoner",
+    "code_title_sample_1": "Legg til QR-kode i PDF",
+    "code_samples_sample_1_content_1": "Å legge til [QR-koder](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) til bestemte sider med PDF-dokumenter kan forbedre forretningsprosessene.",
+    "code_samples_sample_1_content_2": "Nedenfor er et eksempel på hvordan du legger til en QR-kode ved hjelp av GroupDocs.Signature.",
+    "code_title_sample_2": "Beskytte et DOCX-dokument ved hjelp av et digitalt sertifikat",
+    "code_samples_sample_2_content_1": "Du kan [Beskytt et dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ved å bruke personlige eller bedriftssignaturer lagret som digitale sertifikater.",
+    "code_samples_sample_2_content_2": "Slike beskyttede dokumenter kan ikke endres uten å ugyldiggjøre signaturen."
   },
   "index-content-java": {
-    "title": "Java API for å administrere digitale signaturer"
+    "title": "Java API for å administrere digitale signaturer",
+    "title_2": "via Java API",
+    "actions_main": "Gratis nedlasting av Maven",
+    "code_title": "Signer PDF-filer i Java",
+    "overview_description": "API for å utføre dokumentsignering og relaterte operasjoner i Java-applikasjoner",
+    "overview_feature_1": {
+      "title": "Forbedrede forretningsdokumenter med digitale signaturer i Java",
+      "description": "Rask og tilpassbar signering: GroupDocs.Signature for Java tilbyr et bredt spekter av digitale signaturalternativer for PDF-er, bilder og Office-dokumenter. Du kan bruke tekst, strekkoder, QR-koder, digitale sertifikater, bilder eller skjulte metadata. Dokumentbehandlingen er rask og effektiv."
+    },
+    "overview_feature_2": {
+      "title": "Manipulere signerte dokumenter",
+      "description": "Avansert dokumentbehandling involverer kraftige operasjoner på signerte dokumenter ved hjelp av GroupDocs.Signature for Java. Du kan søke etter og validere signaturer som er lagt til forretningsdokumenter ved å bruke ulike nyttige kriterier. I tillegg kan du få tilgang til detaljert informasjon om dokumentet eller få forhåndsvisningsbilder av sidene."
+    },
+    "overview_feature_3": {
+      "title": "En rekke utgangsvalg",
+      "description": "Robuste signeringsalternativer lar deg tilpasse utskriften for dokumenter signert med GroupDocs.Signature for Java. Du kan plassere enhver signatur nøyaktig på en dokumentside og konfigurere utseendet på forskjellige måter. Java API støtter lagring av signerte forretningsdokumenter i en rekke støttede formater og gir muligheter for å sikre dem med passord."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-funksjoner",
+      "description": "Signering av PDF-er, Office-dokumenter og bilder med digitale signaturer",
+      "feature_1": {
+        "title": "Legge til signaturer",
+        "content": "Signer et dokument ved å bruke ulike støttede signaturtyper ved å plassere en digital signatur nøyaktig hvor som helst på hvilken som helst side."
+      },
+      "feature_2": {
+        "title": "Tilpasse resultater",
+        "content": "Tilpass signaturutseendet ved å justere farge, skrift, kantlinje, rotasjon og andre funksjoner for å oppnå ønsket resultat."
+      },
+      "feature_3": {
+        "title": "Sikring av dokumenter med passord",
+        "content": "For mange støttede dokumenttyper kan du beskytte det signerte dokumentet med et passord."
+      },
+      "feature_4": {
+        "title": "Forhindre uautoriserte endringer",
+        "content": "Beskytt viktige forretningsdokumenter signert med et digitalt sertifikat mot uautoriserte endringer."
+      },
+      "feature_5": {
+        "title": "Oppnå resultater i ønskede formater",
+        "content": "Få enkelt signerte resultatfiler i alle støttede formater. Du kan også konvertere MS Word-dokumenter til PDF uten problemer."
+      },
+      "feature_6": {
+        "title": "Forhåndsvisning av dokument",
+        "content": "Lagre hvilken som helst side i et dokument som et bilde for fremtidig behandling."
+      },
+      "feature_7": {
+        "title": "Søker etter signaturer",
+        "content": "Det er mulig å få informasjon om tidligere tilførte signaturer i spesifikke dokumenter."
+      },
+      "feature_8": {
+        "title": "Validering av dokumenter",
+        "content": "Validere riktigheten av signaturer på ethvert signert dokument."
+      },
+      "feature_9": {
+        "title": "Håndtering av signaturer",
+        "content": "Når en signatur er plassert på en dokumentside, kan den slettes, flyttes eller oppdateres etter behov."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java støtter følgende operativsystemer, rammeverk og pakkeadministratorer",
+    "formats_description": "GroupDocs.Signature for Java støtter operasjoner med følgende [filformater](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Noen bruker tilfeller av typiske GroupDocs.Signature for Java-operasjoner",
+    "code_title_sample_1": "Forbedre PDF-dokumentet med QR-kode",
+    "code_samples_sample_1_content_1": "Det kan være verdifullt å forbedre forretningsprosessene ved å legge til [QR-koder](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) til bestemte sider med PDF-dokumenter.",
+    "code_samples_sample_1_content_2": "Det er et eksempel på hvordan du legger til en QR-kode ved hjelp av GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Bruk digital signatur for å beskytte en DOCX",
+    "code_samples_sample_2_content_1": "Du kan [Beskytte et dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ved å bruke personlige eller bedriftssignaturer lagret som digitale sertifikater.",
+    "code_samples_sample_2_content_2": "Dokumenter sikret med sertifikat kan ikke endres uten å ugyldiggjøre signaturen."
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, debesies API ir internetinių dokumentų parašų progr
 head_description: "Gaukite „viskas viename“ dokumentų el. parašo sprendimą, skirtą .NET, „Java“ ir debesies programoms. Pasirašykite įprastus dokumentų formatus internete naudodami paprastą vilkimo ir nuleidimo funkciją"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Pasirašykite dokumentus<br>per .NET API"
 description: "Pasirašykite skaitmeninius dokumentus ir vaizdus bet kurioje platformoje naudodami mūsų lanksčias API ir programuotojams ir galutiniams vartotojams skirtus sprendimus."
 words:
-  for: "{index-content.words_for}"
+  for: "dėl"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Nemokamas NuGet atsisiuntimas"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Licencijavimas"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Pasiruošę pradėti?"
+  description: "Išbandykite GroupDocs.Signature funkcijas nemokamai arba paprašykite licencijos"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Išleista {0} versija"
+  notes: "Pažiūrėkite, kas naujo"
+  downloads: "Atsisiuntimai"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Pasirašykite PDF failus C#"
+  more: "Daugiau pavyzdžių"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Pasirinkite PDF dokumentą
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Pateikite tekstą
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Nustatyti spalvą
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Pasirašykite dokumentą ir išsaugokite faile
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Parašo apžvalga"
+  description: "API, skirta dokumentų pasirašymui ir susijusioms operacijoms .NET programose atlikti"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Parašų pridėjimas prie verslo dokumentų C#"
+      content: "Dokumentų pasirašymas: Naudodami GroupDocs.Signature, skirtą .NET, galite pridėti įvairių tipų parašų, tokių kaip tekstas, vaizdai, brūkšniniai kodai ir skaitmeniniai sertifikatai, prie PDF ir Office dokumentų. Ši API leidžia pasirašyti dokumentus naudojant beveik bet kokį duomenų tipą, įskaitant paslėptus metaduomenis."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Pasirašytų dokumentų tvarkymas"
+      content: "Papildomas apdorojimas: galite atlikti galingas operacijas su pasirašytais dokumentais naudodami GroupDocs.Signature. Tai apima esamų parašų paiešką verslo dokumentuose ir jų patikrinimą pagal konkrečius kriterijus. Be to, naudodami šią .NET API galite gauti dokumento informaciją ir peržiūrėti puslapius."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Rezultatų pritaikymas"
+      content: "GroupDocs.Signature for .NET siūlo plačias tinkinimo parinktis. Galite tiksliai išdėstyti parašus bet kurioje dokumento puslapio vietoje ir koreguoti jų išvaizdą naudodami įvairius nustatymus. Be to, ši API palaiko apdorotų dokumentų išsaugojimą įvairiais palaikomais formatais."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Platformos nepriklausomybė"
+  description: "GroupDocs.Signature for .NET palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Palaikomi failų formatai"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office formatai
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Vaizdai ir kiti formatai
+        * **Nešiojami:** PDF
+        * **Vaizdai:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Kiti biuro formatai:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Kiti formatai
+        * **Žiniatinklis:** HTML, MHTML
+        * **Archyvai:** ZIP, TAR, 7Z
+        * **Sertifikatai:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Parašo funkcijos"
+  description: "Greitas ir tikslus PDF, biuro dokumentų ir vaizdų pasirašymas"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Dokumento pasirašymas"
+      content: "Tiksliai pridėkite vieną ar kelis palaikomus parašų tipus bet kurioje nurodytoje verslo dokumentų vietoje."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Tinkinkite parašus"
+      content: "Norėdami sukonfigūruoti parašų išvaizdą, naudokite tokias funkcijas kaip spalva, šriftas, kraštinė, pasukimas ir kt."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Dokumento slaptažodžio apsauga"
+      content: "Apsaugokite tam tikrų tipų dokumentus po pasirašymo nustatydami slaptažodį."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Apsauga nuo pokyčių"
+      content: "Neleiskite svarbių verslo dokumentų pakeitimų pridėję parašą su skaitmeniniu sertifikatu."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Konvertuoti pasirašytus failus į kitus formatus"
+      content: "Konvertuokite pasirašytus failus į norimus formatus, pvz., išsaugokite Word dokumentą kaip PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Ištraukite puslapių peržiūras"
+      content: "Išskleiskite puslapius iš pasirašytų dokumentų kaip atskirus vaizdus, ​​​​kad galėtumėte juos apdoroti ateityje."
+
+    # feature loop
+    - icon: "search"
+      title: "Parašo paieška dokumentuose"
+      content: "Gaukite informaciją apie anksčiau pridėtus parašus konkrečiuose dokumentuose."
+
+    # feature loop
+    - icon: "validate"
+      title: "Patvirtinti pasirašytus dokumentus"
+      content: "Patikrinkite, ar tinkamai pasirašyti dokumentai, naudodami patvirtinimo funkcijas."
+
+    # feature loop
+    - icon: "update"
+      title: "Atnaujinkite arba ištrinkite parašus"
+      content: "Lengvai pakeiskite konkrečių parašų vietą puslapyje, keiskite jų tekstą arba ištrinkite juos be jokių problemų."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Kodo pavyzdžiai"
+  description: "Kai kurie .NET operacijoms naudojami tipiški GroupDocs.Signature atvejai"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Pridėkite QR kodą prie PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Pridėjus [QR kodus](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) prie konkrečių PDF dokumentų puslapių galima pagerinti verslo procesus. Toliau pateikiamas pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature.
+        {{< landing/code title="Kaip įdėti QR kodą į PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Įdėkite dokumentą pasirašyti
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Sukurkite QR kodo parinktis su iš anksto nustatytu tekstu
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Konfigūruokite QR kodo kodavimo tipą ir vietą puslapyje
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Pasirašykite dokumentą ir išsaugokite jį kaip rezultato failą
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX dokumento apsauga naudojant skaitmeninį sertifikatą"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus. Tokie saugomi dokumentai negali būti modifikuojami nepakeitus parašo negaliojančiu.
+        {{< landing/code title="Štai kaip užtikrinti dokumento vientisumą.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Įkelkite dokumentą, kurį norite pasirašyti skaitmeniniu būdu
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Nurodykite skaitmeninio pasirašymo parinktis ir nurodykite kelią į sertifikato failą
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Nustatykite sertifikato slaptažodį
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Pasirašykite dokumentą ir išsaugokite jį norimame kelyje
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

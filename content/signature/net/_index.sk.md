@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API a online aplikácie na podpisovanie dokumento
 head_description: "Získajte komplexné riešenie elektronického podpisu dokumentov pre .NET, Java a cloudové aplikácie. Podpíšte bežné formáty dokumentov online pomocou jednoduchej funkcie drag and drop"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Podpíšte dokumenty<br>cez .NET API"
 description: "Podpisujte digitálne dokumenty a obrázky na akejkoľvek platforme pomocou našich flexibilných rozhraní API a riešení založených na aplikáciách pre programátorov a koncových používateľov."
 words:
-  for: "{index-content.words_for}"
+  for: "pre"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Bezplatné stiahnutie NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Licencovanie"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Ste pripravení začať?"
+  description: "Vyskúšajte bezplatne funkcie GroupDocs.Signature alebo požiadajte o licenciu"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Vydaná verzia {0}"
+  notes: "Pozrite sa, čo je nové"
+  downloads: "K stiahnutiu"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Podpíšte súbory PDF v C#"
+  more: "Viac príkladov"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Vyberte dokument PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Poskytnite text
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Nastaviť farbu
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Dokument podpíšte a uložte do súboru
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Prehľad GroupDocs.Signature"
+  description: "API na vykonávanie podpisovania dokumentov a súvisiacich operácií v aplikáciách .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Pridávanie podpisov do obchodných dokumentov v C#"
+      content: "Podpisovanie dokumentov: Pomocou GroupDocs.Signature for .NET môžete do dokumentov PDF a balíka Office pridávať rôzne typy podpisov, ako sú text, obrázky, čiarové kódy a digitálne certifikáty. Toto rozhranie API vám umožňuje podpisovať dokumenty takmer akýmkoľvek typom údajov vrátane skrytých metadát."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Spracovanie podpísaných dokumentov"
+      content: "Ďalšie spracovanie: Pomocou GroupDocs.Signature môžete vykonávať výkonné operácie s podpísanými dokumentmi. To zahŕňa vyhľadávanie existujúcich podpisov v obchodných dokumentoch a ich overovanie pomocou špecifických kritérií. Okrem toho môžete prostredníctvom tohto rozhrania .NET API získať informácie o dokumente a zobraziť náhľad stránok."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Prispôsobenie výsledkov"
+      content: "GroupDocs.Signature for .NET ponúka rozsiahle možnosti prispôsobenia. Podpisy môžete presne umiestniť kdekoľvek na stránke dokumentu a upraviť ich vzhľad pomocou rôznych nastavení. Okrem toho toto API podporuje ukladanie spracovaných dokumentov v širokej škále podporovaných formátov."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Nezávislosť na platforme"
+  description: "GroupDocs.Signature for .NET podporuje nasledujúce operačné systémy, rámce a správcov balíkov"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Podporované formáty súborov"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET podporuje operácie s nasledujúcimi [formátmi súborov](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formáty Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Obrázky a iné formáty
+        * **Prenosný:** PDF
+        * **snímky:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Iné kancelárske formáty:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Iné formáty
+        * **Web:** HTML, MHTML
+        * **Archívy:** ZIP, TAR, 7Z
+        * **Certifikáty:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Funkcie GroupDocs.Signature"
+  description: "Rýchle a presné podpisovanie súborov PDF, dokumentov balíka Office a obrázkov"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Podpisovanie dokumentov"
+      content: "Pridajte jeden alebo viacero podporovaných typov podpisov presne na ľubovoľné miesto v obchodných dokumentoch."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Prispôsobte podpisy"
+      content: "Na konfiguráciu vzhľadu podpisov použite funkcie, ako je farba, písmo, orámovanie, otočenie atď."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Ochrana dokumentov heslom"
+      content: "Zabezpečte určité typy dokumentov nastavením hesla po podpísaní."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Ochrana pred zmenami"
+      content: "Zabráňte zmenám dôležitých obchodných dokumentov po pripojení podpisu pomocou digitálneho certifikátu."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Konvertujte podpísané súbory do iných formátov"
+      content: "Preveďte podpísané súbory do požadovaných formátov, ako je napríklad uloženie dokumentu programu Word vo formáte PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Extrahujte náhľady stránok"
+      content: "Extrahujte strany z podpísaných dokumentov ako jednotlivé obrázky pre budúce spracovanie."
+
+    # feature loop
+    - icon: "search"
+      title: "Vyhľadávanie podpisov v dokumentoch"
+      content: "Získajte informácie o predtým pridaných podpisoch v konkrétnych dokumentoch."
+
+    # feature loop
+    - icon: "validate"
+      title: "Overte podpísané dokumenty"
+      content: "Overte správne podpisovanie dokumentov pomocou overovacích funkcií."
+
+    # feature loop
+    - icon: "update"
+      title: "Aktualizujte alebo odstráňte podpisy"
+      content: "Jednoducho premiestnite konkrétne podpisy na stránku, upravte ich text alebo ich bez problémov odstráňte."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Vzorky kódu"
+  description: "Niektoré prípady použitia typických GroupDocs.Signature pre operácie .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Pridajte QR kód do PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Pridanie [QR-kódov](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) na konkrétne stránky dokumentov PDF môže zlepšiť obchodné procesy. Nižšie je uvedený príklad, ako pridať QR kód pomocou GroupDocs.Signature.
+        {{< landing/code title="Ako vložiť QR kód do PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Vložte dokument, ktorý chcete podpísať
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Vytvorte možnosti QR kódu s preddefinovaným textom
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Nakonfigurujte typ kódovania QR kódu a pozíciu na stránke
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Podpíšte dokument a uložte ho ako výsledný súbor
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Ochrana dokumentu DOCX pomocou digitálneho certifikátu"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Môžete [Chrániť dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) pomocou osobných alebo firemných podpisov uložených ako digitálne certifikáty. Takto chránené dokumenty nie je možné upravovať bez toho, aby došlo k znehodnoteniu podpisu.
+        {{< landing/code title="Tu je návod, ako zabezpečiť integritu dokumentu.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Vložte dokument, ktorý sa má digitálne podpísať
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Zadajte voľby digitálneho podpisovania a zadajte cestu k súboru certifikátu
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Nastavte heslo certifikátu
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Podpíšte dokument a uložte ho na požadovanú cestu
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, API-uri cloud și aplicații online pentru semnătura d
 head_description: "Obțineți o soluție de semnătură electronică pentru documente all-in-one pentru .NET, Java și aplicații bazate pe cloud. Semnează online formate comune de documente folosind funcția simplă de glisare și plasare"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Semnează documente<br>prin .NET API"
 description: "Semnează documente și imagini digitale pe orice platformă folosind API-urile noastre flexibile și soluțiile bazate pe aplicații pentru programatori și utilizatori finali."
 words:
-  for: "{index-content.words_for}"
+  for: "pentru"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Descărcare gratuită NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Licențiere"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Sunteți gata să începeți?"
+  description: "Încercați gratuit funcțiile GroupDocs.Signature sau solicitați o licență"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versiunea {0} a fost lansată"
+  notes: "Vezi ce este nou"
+  downloads: "Descărcări"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Semnează fișiere PDF în C#"
+  more: "Mai multe exemple"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Selectați documentul PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Furnizați text
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Setați culoarea
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Semnează documentul și salvează în fișier
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Prezentare generală GroupDocs.Signature"
+  description: "API pentru efectuarea semnării documentelor și operațiunilor conexe în aplicațiile .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Adăugarea de semnături la documentele de afaceri în C#"
+      content: "Semnarea documentelor: Cu GroupDocs.Signature pentru .NET, puteți adăuga diferite tipuri de semnături, cum ar fi text, imagini, coduri de bare și certificate digitale, la documentele PDF și Office. Acest API vă permite să vă semnați documentele cu aproape orice tip de date, inclusiv metadate ascunse."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Prelucrarea documentelor semnate"
+      content: "Procesare suplimentară: puteți efectua operațiuni puternice pe documente semnate folosind GroupDocs.Signature. Aceasta include căutarea semnăturilor existente în documentele de afaceri și verificarea lor folosind criterii specifice. În plus, puteți prelua informații despre document și pagini de previzualizare prin intermediul acestui API .NET."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Personalizarea rezultatelor"
+      content: "GroupDocs.Signature pentru .NET oferă opțiuni extinse de personalizare. Puteți poziționa cu precizie semnăturile oriunde pe pagina unui document și puteți ajusta aspectul acestora folosind o varietate de setări. În plus, acest API acceptă salvarea documentelor procesate într-o gamă largă de formate acceptate."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Independenta platformei"
+  description: "GroupDocs.Signature pentru .NET acceptă următoarele sisteme de operare, cadre și manageri de pachete"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formate de fișiere acceptate"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature pentru .NET acceptă operațiuni cu următoarele [formate de fișiere](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### formatele Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Imagini și alte formate
+        * **Portabil:** PDF
+        * **Imagini:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Alte formate de birou:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Alte formate
+        * **Web:** HTML, MHTML
+        * **Arhive:** ZIP, TAR, 7Z
+        * **Certificate:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Funcții GroupDocs.Signature"
+  description: "Semnează PDF-uri, documente Office și imagini rapid și precis"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Semnarea documentelor"
+      content: "Adăugați unul sau mai multe tipuri de semnături acceptate cu precizie la orice poziție specificată pe documentele de afaceri."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Personalizați semnăturile"
+      content: "Utilizați caracteristici precum culoarea, fontul, chenarul, rotația etc., pentru a configura aspectul semnăturilor."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Protecția prin parolă a documentului"
+      content: "Securizați anumite tipuri de documente setând o parolă după semnare."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Protecție împotriva schimbărilor"
+      content: "Preveniți modificările documentelor importante de afaceri după ce adăugați o semnătură cu un certificat digital."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Convertiți fișierele semnate în alte formate"
+      content: "Convertiți fișierele semnate în formatele dorite, cum ar fi salvarea unui document Word ca PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Extrageți previzualizările paginii"
+      content: "Extrageți pagini din documente semnate ca imagini individuale pentru procesări viitoare."
+
+    # feature loop
+    - icon: "search"
+      title: "Căutarea semnăturilor în documente"
+      content: "Preluați informații despre semnăturile adăugate anterior în anumite documente."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validați documentele semnate"
+      content: "Verificați semnarea corectă a documentelor folosind funcții de validare."
+
+    # feature loop
+    - icon: "update"
+      title: "Actualizați sau ștergeți semnăturile"
+      content: "Repoziționați cu ușurință anumite semnături pe o pagină, modificați-le textul sau ștergeți-le fără probleme."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Exemple de cod"
+  description: "Unele cazuri de utilizare tipice GroupDocs.Signature pentru operațiuni .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Adăugați codul QR în PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Adăugarea [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) la anumite pagini de documente PDF poate îmbunătăți procesele de afaceri. Mai jos este un exemplu despre cum să adăugați un cod QR utilizând GroupDocs.Signature.
+        {{< landing/code title="Cum să puneți codul QR în PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Încărcați documentul pentru semnare
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Creați opțiuni de cod QR cu text predefinit
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Configurați tipul și poziția de codare a codului QR pe ​​pagină
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Semnați documentul și salvați-l ca fișier rezultat
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Protejarea unui document DOCX folosind un certificat digital"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Puteți [Proteja un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) folosind semnături personale sau corporative stocate ca certificate digitale. Astfel de documente protejate nu pot fi modificate fără invalidarea semnăturii.
+        {{< landing/code title="Iată cum puteți asigura integritatea documentului.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Încărcați documentul pentru a fi semnat digital
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Specificați opțiunile de semnare digitală și furnizați calea către fișierul de certificat
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Setați parola certificatului
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Semnează documentul și salvează-l în calea dorită
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

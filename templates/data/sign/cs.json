@@ -245,12 +245,186 @@
     "api_nocodelabel": "Zobrazit všechny aplikace bez kódu",
     "api_nocode_1_content": "Podepisujte soubory Microsoft Word, Excel, PowerPoint, Visio a PDF pomocí textu, obrázku, čárového kódu nebo QR-kódu.",
     "api_nocode_2_content": "Digitálně podepisujte dokumenty Word online přímo z vašeho prohlížeče zdarma.",
-    "api_nocode_3_content": "e-Sign PDF soubory pomocí textu, obrázku nebo čárového kódu z libovolného webového prohlížeče."
+    "api_nocode_3_content": "e-Sign PDF soubory pomocí textu, obrázku nebo čárového kódu z libovolného webového prohlížeče.",
+    "title_1": "Podepisujte dokumenty",
+    "words_for": "pro",
+    "actions_alt": "Licencování",
+    "actions_title": "Jste připraveni začít?",
+    "actions_description": "Vyzkoušejte funkce GroupDocs.Signature zdarma nebo si vyžádejte licenci",
+    "release_title": "Vydána verze {0}",
+    "release_notes": "Podívejte se, co je nového",
+    "release_downloads": "Stahování",
+    "code_more": "Další příklady",
+    "code_comment_1": "Vyberte dokument PDF",
+    "code_comment_2": "Poskytněte text",
+    "code_comment_3": "Nastavit barvu",
+    "code_comment_4": "Podepište dokument a uložte do souboru",
+    "overview_title": "Přehled GroupDocs.Signature",
+    "platforms_title": "Nezávislost na platformě",
+    "formats_title": "Podporované formáty souborů",
+    "formats_groups": {
+      "title_1": "Formáty Microsoft Office",
+      "title_2": "Obrázky a další formáty",
+      "title_3": "Jiné formáty",
+      "format_portable": "Přenosný",
+      "format_other_office": "Jiné kancelářské formáty",
+      "format_images": "snímky",
+      "format_web": "Web",
+      "format_archives": "Archiv",
+      "format_certificates": "Certifikáty"
+    },
+    "code_samples": {
+      "title": "Ukázky kódu",
+      "sample_1": {
+        "code_title": "Jak vložit QR kód do PDF.",
+        "comment_1": "Vložte dokument k podpisu",
+        "comment_2": "Vytvořte možnosti QR kódu s předdefinovaným textem",
+        "comment_3": "Nakonfigurujte typ kódování QR kódu a pozici na stránce",
+        "comment_4": "Podepište dokument a uložte jej jako výsledný soubor"
+      },
+      "sample_2": {
+        "code_title": "Zde je návod, jak zajistit integritu dokumentu.",
+        "comment_1": "Vložte dokument, který má být digitálně podepsán",
+        "comment_2": "Zadejte možnosti digitálního podepisování a zadejte cestu k souboru certifikátu",
+        "comment_3": "Nastavte heslo certifikátu",
+        "comment_4": "Podepište dokument a uložte jej na požadovanou cestu"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Nativní rozhraní .NET API pro elektronické podpisy"
+    "title": "Nativní rozhraní .NET API pro elektronické podpisy",
+    "title_2": "přes .NET API",
+    "actions_main": "NuGet ke stažení zdarma",
+    "code_title": "Podepisování souborů PDF v C#",
+    "overview_description": "API pro provádění podepisování dokumentů a souvisejících operací v aplikacích .NET",
+    "overview_feature_1": {
+      "title": "Přidávání podpisů do obchodních dokumentů v C#",
+      "description": "Podepisování dokumentů: Pomocí GroupDocs.Signature for .NET můžete do dokumentů PDF a Office přidávat různé typy podpisů, jako jsou text, obrázky, čárové kódy a digitální certifikáty. Toto rozhraní API vám umožňuje podepisovat dokumenty téměř jakýmkoli typem dat, včetně skrytých metadat."
+    },
+    "overview_feature_2": {
+      "title": "Zpracování podepsaných dokumentů",
+      "description": "Další zpracování: Pomocí GroupDocs.Signature můžete provádět výkonné operace s podepsanými dokumenty. To zahrnuje vyhledávání existujících podpisů v obchodních dokumentech a jejich ověřování pomocí specifických kritérií. Prostřednictvím tohoto rozhraní .NET API můžete navíc načíst informace o dokumentu a zobrazit náhled stránek."
+    },
+    "overview_feature_3": {
+      "title": "Přizpůsobení výsledků",
+      "description": "GroupDocs.Signature for .NET nabízí rozsáhlé možnosti přizpůsobení. Podpisy můžete přesně umístit kamkoli na stránku dokumentu a upravit jejich vzhled pomocí různých nastavení. Kromě toho toto API podporuje ukládání zpracovaných dokumentů v široké škále podporovaných formátů."
+    },
+    "features": {
+      "title": "Funkce GroupDocs.Signature",
+      "description": "Rychlé a přesné podepisování PDF, Office dokumentů a obrázků",
+      "feature_1": {
+        "title": "Podepisování dokumentů",
+        "content": "Přidejte přesně jeden nebo více podporovaných typů podpisů na libovolné zadané místo v obchodních dokumentech."
+      },
+      "feature_2": {
+        "title": "Přizpůsobte podpisy",
+        "content": "Ke konfiguraci vzhledu podpisů využijte funkce, jako je barva, písmo, ohraničení, otočení atd."
+      },
+      "feature_3": {
+        "title": "Ochrana dokumentů heslem",
+        "content": "Zabezpečte určité typy dokumentů nastavením hesla po podpisu."
+      },
+      "feature_4": {
+        "title": "Ochrana před změnami",
+        "content": "Zabraňte změnám důležitých obchodních dokumentů po připojení podpisu pomocí digitálního certifikátu."
+      },
+      "feature_5": {
+        "title": "Převeďte podepsané soubory do jiných formátů",
+        "content": "Převeďte podepsané soubory do požadovaných formátů, jako je uložení dokumentu aplikace Word jako PDF."
+      },
+      "feature_6": {
+        "title": "Extrahujte náhledy stránek",
+        "content": "Extrahujte stránky z podepsaných dokumentů jako jednotlivé obrázky pro budoucí zpracování."
+      },
+      "feature_7": {
+        "title": "Vyhledávání podpisů v dokumentech",
+        "content": "Získejte informace o dříve přidaných podpisech v konkrétních dokumentech."
+      },
+      "feature_8": {
+        "title": "Ověřte podepsané dokumenty",
+        "content": "Ověřte správné podepisování dokumentů pomocí funkcí ověřování."
+      },
+      "feature_9": {
+        "title": "Aktualizujte nebo odstraňte podpisy",
+        "content": "Snadno přemístěte konkrétní podpisy na stránce, upravte jejich text nebo je bez problémů odstraňte."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET podporuje následující operační systémy, rámce a správce balíčků",
+    "formats_description": "GroupDocs.Signature for .NET podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Některé případy použití typických GroupDocs.Signature pro operace .NET",
+    "code_title_sample_1": "Přidejte QR kód do PDF",
+    "code_samples_sample_1_content_1": "Přidání [QR-kódů](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) na konkrétní stránky dokumentů PDF může zlepšit obchodní procesy.",
+    "code_samples_sample_1_content_2": "Níže je uveden příklad, jak přidat QR kód pomocí GroupDocs.Signature.",
+    "code_title_sample_2": "Ochrana dokumentu DOCX pomocí digitálního certifikátu",
+    "code_samples_sample_2_content_1": "Můžete [Chránit dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) pomocí osobních nebo firemních podpisů uložených jako digitální certifikáty.",
+    "code_samples_sample_2_content_2": "Takto chráněné dokumenty nelze upravovat bez znehodnocení podpisu."
   },
   "index-content-java": {
-    "title": "Java API pro správu digitálních podpisů"
+    "title": "Java API pro správu digitálních podpisů",
+    "title_2": "přes Java API",
+    "actions_main": "Maven ke stažení zdarma",
+    "code_title": "Podepisujte soubory PDF v Javě",
+    "overview_description": "API pro provádění podepisování dokumentů a souvisejících operací v aplikacích Java",
+    "overview_feature_1": {
+      "title": "Vylepšené obchodní dokumenty s digitálními podpisy v Javě",
+      "description": "Rychlé a přizpůsobitelné podepisování: GroupDocs.Signature pro Java nabízí širokou škálu možností digitálního podpisu pro soubory PDF, obrázky a dokumenty Office. Můžete použít text, čárové kódy, QR kódy, digitální certifikáty, obrázky nebo skrytá metadata. Zpracování dokumentů je rychlé a efektivní."
+    },
+    "overview_feature_2": {
+      "title": "Manipulace s podepsanými dokumenty",
+      "description": "Pokročilé zpracování dokumentů zahrnuje výkonné operace s podepsanými dokumenty pomocí GroupDocs.Signature for Java. Pomocí různých užitečných kritérií můžete vyhledávat a ověřovat podpisy, které byly přidány do obchodních dokumentů. Kromě toho můžete získat přístup k podrobným informacím o dokumentu nebo získat náhledy jeho stránek."
+    },
+    "overview_feature_3": {
+      "title": "Různé možnosti výstupu",
+      "description": "Robustní možnosti podepisování vám umožňují přizpůsobit výstup pro dokumenty podepsané pomocí GroupDocs.Signature for Java. Jakýkoli podpis můžete přesně umístit na jakoukoli stránku dokumentu a různými způsoby nakonfigurovat jeho vzhled. Java API podporuje ukládání podepsaných obchodních dokumentů v mnoha podporovaných formátech a poskytuje možnosti pro jejich zabezpečení hesly."
+    },
+    "features": {
+      "title": "Funkce GroupDocs.Signature",
+      "description": "Podepisování PDF, Office dokumentů a obrázků pomocí digitálních podpisů",
+      "feature_1": {
+        "title": "Přidávání podpisů",
+        "content": "Podepište dokument pomocí různých podporovaných typů podpisů umístěním digitálního podpisu přesně na libovolné místo na jakékoli stránce."
+      },
+      "feature_2": {
+        "title": "Přizpůsobení výsledků",
+        "content": "Přizpůsobte si vzhled podpisu úpravou barvy, písma, ohraničení, otočení a dalších funkcí, abyste dosáhli požadovaného výsledku."
+      },
+      "feature_3": {
+        "title": "Zabezpečení dokumentů heslem",
+        "content": "U mnoha podporovaných typů dokumentů můžete podepsaný dokument chránit heslem."
+      },
+      "feature_4": {
+        "title": "Zabránění neoprávněným změnám",
+        "content": "Chraňte důležité obchodní dokumenty podepsané digitálním certifikátem před neoprávněnými úpravami."
+      },
+      "feature_5": {
+        "title": "Získání výsledků v požadovaných formátech",
+        "content": "Snadno získejte podepsané soubory výsledků v jakémkoli podporovaném formátu. Můžete také bez námahy převést dokumenty MS Word do PDF."
+      },
+      "feature_6": {
+        "title": "Náhled dokumentu",
+        "content": "Uložte libovolnou stránku dokumentu jako obrázek pro budoucí zpracování."
+      },
+      "feature_7": {
+        "title": "Hledání podpisů",
+        "content": "Je možné získat informace o dříve přidaných podpisech v konkrétních dokumentech."
+      },
+      "feature_8": {
+        "title": "Ověřování dokumentů",
+        "content": "Ověřte správnost podpisů na jakémkoli podepsaném dokumentu."
+      },
+      "feature_9": {
+        "title": "Správa podpisů",
+        "content": "Jakmile je podpis umístěn na stránku dokumentu, lze jej podle potřeby odstranit, přesunout nebo aktualizovat."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java podporuje následující operační systémy, rámce a správce balíčků",
+    "formats_description": "GroupDocs.Signature for Java podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Některé případy použití typických GroupDocs.Signature pro operace Java",
+    "code_title_sample_1": "Vylepšete dokument PDF pomocí QR kódu",
+    "code_samples_sample_1_content_1": "Vylepšení obchodních procesů přidáním [QR-kódů](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) na konkrétní stránky dokumentů PDF může být cenné.",
+    "code_samples_sample_1_content_2": "Existuje příklad, jak přidat QR kód pomocí GroupDocs.Signature pro Java.",
+    "code_title_sample_2": "Použijte digitální podpis k ochraně DOCX",
+    "code_samples_sample_2_content_1": "Můžete [Zabezpečit dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomocí osobních nebo firemních podpisů uložených jako digitální certifikáty.",
+    "code_samples_sample_2_content_2": "Dokumenty zabezpečené certifikátem nelze měnit bez znehodnocení podpisu."
   }
 }

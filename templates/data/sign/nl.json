@@ -245,12 +245,186 @@
     "api_nocodelabel": "Bekijk alle apps zonder code",
     "api_nocode_1_content": "Onderteken Microsoft Word-, Excel-, PowerPoint-, Visio- en PDF-bestanden met tekst, afbeelding, streepjescode of QR-code.",
     "api_nocode_2_content": "Onderteken gratis Word-documenten online rechtstreeks vanuit uw browser.",
-    "api_nocode_3_content": "e-Sign PDF-bestanden met tekst, afbeelding of streepjescode vanuit elke webbrowser."
+    "api_nocode_3_content": "e-Sign PDF-bestanden met tekst, afbeelding of streepjescode vanuit elke webbrowser.",
+    "title_1": "Onderteken documenten",
+    "words_for": "voor",
+    "actions_alt": "Licentie",
+    "actions_title": "klaar om te beginnen?",
+    "actions_description": "Probeer de functies van GroupDocs.Signature gratis of vraag een licentie aan",
+    "release_title": "Versie {0} vrijgegeven",
+    "release_notes": "Zie wat nieuw is",
+    "release_downloads": "Downloads",
+    "code_more": "Meer voorbeelden",
+    "code_comment_1": "Selecteer PDF-document",
+    "code_comment_2": "Geef tekst op",
+    "code_comment_3": "Kleur instellen",
+    "code_comment_4": "Onderteken het document en sla het op in een bestand",
+    "overview_title": "GroupDocs.Signature-overzicht",
+    "platforms_title": "Platformonafhankelijkheid",
+    "formats_title": "Ondersteunde bestandsformaten",
+    "formats_groups": {
+      "title_1": "Microsoft Office-formaten",
+      "title_2": "Afbeeldingen en andere formaten",
+      "title_3": "Andere formaten",
+      "format_portable": "Draagbaar",
+      "format_other_office": "Andere kantoorformaten",
+      "format_images": "Afbeeldingen",
+      "format_web": "Web",
+      "format_archives": "Archief",
+      "format_certificates": "Certificaten"
+    },
+    "code_samples": {
+      "title": "Codevoorbeelden",
+      "sample_1": {
+        "code_title": "Hoe QR-code naar PDF te zetten.",
+        "comment_1": "Laad het document dat u wilt ondertekenen",
+        "comment_2": "Maak QR-code-opties met vooraf gedefinieerde tekst",
+        "comment_3": "Configureer het coderingstype en de positie van de QR-code op de pagina",
+        "comment_4": "Onderteken het document en sla het op als resultaatbestand"
+      },
+      "sample_2": {
+        "code_title": "Hier leest u hoe u de documentintegriteit kunt garanderen.",
+        "comment_1": "Laad het document dat digitaal moet worden ondertekend",
+        "comment_2": "Geef opties voor digitale ondertekening op en geef het pad naar het certificaatbestand op",
+        "comment_3": "Stel het certificaatwachtwoord in",
+        "comment_4": "Onderteken het document en sla het op in het gewenste pad"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API voor elektronische handtekeningen"
+    "title": "Native .NET API voor elektronische handtekeningen",
+    "title_2": "via .NET-API",
+    "actions_main": "Gratis NuGet-download",
+    "code_title": "Onderteken PDF-bestanden in C#",
+    "overview_description": "API voor het uitvoeren van documentondertekening en gerelateerde bewerkingen in .NET-applicaties",
+    "overview_feature_1": {
+      "title": "Handtekeningen toevoegen aan zakelijke documenten in C#",
+      "description": "Ondertekening van documenten: Met GroupDocs.Signature voor .NET kunt u verschillende soorten handtekeningen, zoals tekst, afbeeldingen, streepjescodes en digitale certificaten, toevoegen aan PDF- en Office-documenten. Met deze API kunt u uw documenten ondertekenen met vrijwel elk gegevenstype, inclusief verborgen metadata."
+    },
+    "overview_feature_2": {
+      "title": "Verwerken van ondertekende documenten",
+      "description": "Extra verwerking: U kunt krachtige bewerkingen uitvoeren op ondertekende documenten met behulp van GroupDocs.Signature. Dit omvat het zoeken naar bestaande handtekeningen in bedrijfsdocumenten en het verifiëren ervan aan de hand van specifieke criteria. Bovendien kunt u via deze .NET API documentinformatie ophalen en voorbeeldpagina's bekijken."
+    },
+    "overview_feature_3": {
+      "title": "Resultaten aanpassen",
+      "description": "GroupDocs.Signature voor .NET biedt uitgebreide aanpassingsmogelijkheden. U kunt handtekeningen overal op een documentpagina nauwkeurig plaatsen en hun uiterlijk aanpassen met behulp van diverse instellingen. Bovendien ondersteunt deze API het opslaan van verwerkte documenten in een groot aantal ondersteunde formaten."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-functies",
+      "description": "Onderteken PDF's, Office-documenten en afbeeldingen snel en nauwkeurig",
+      "feature_1": {
+        "title": "Ondertekening van documenten",
+        "content": "Voeg nauwkeurig een of meerdere ondersteunde typen handtekeningen toe op elke opgegeven positie in zakelijke documenten."
+      },
+      "feature_2": {
+        "title": "Pas handtekeningen aan",
+        "content": "Gebruik functies zoals kleur, lettertype, rand, rotatie, enz. om de weergave van handtekeningen te configureren."
+      },
+      "feature_3": {
+        "title": "Wachtwoordbeveiliging voor documenten",
+        "content": "Beveilig bepaalde documenttypen door na ondertekening een wachtwoord in te stellen."
+      },
+      "feature_4": {
+        "title": "Bescherming tegen veranderingen",
+        "content": "Voorkom wijzigingen in belangrijke zakelijke documenten na het plaatsen van een handtekening met een digitaal certificaat."
+      },
+      "feature_5": {
+        "title": "Converteer ondertekende bestanden naar andere formaten",
+        "content": "Converteer ondertekende bestanden naar gewenste formaten, zoals het opslaan van een Word-document als PDF."
+      },
+      "feature_6": {
+        "title": "Paginavoorbeelden extraheren",
+        "content": "Extraheer pagina's uit ondertekende documenten als individuele afbeeldingen voor toekomstige verwerking."
+      },
+      "feature_7": {
+        "title": "Handtekeningen zoeken in documenten",
+        "content": "Haal informatie op over eerder toegevoegde handtekeningen in specifieke documenten."
+      },
+      "feature_8": {
+        "title": "Valideer ondertekende documenten",
+        "content": "Controleer de juiste ondertekening van documenten met behulp van validatiefuncties."
+      },
+      "feature_9": {
+        "title": "Handtekeningen bijwerken of verwijderen",
+        "content": "Verplaats specifieke handtekeningen eenvoudig op een pagina, wijzig de tekst ervan of verwijder ze zonder problemen."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders",
+    "formats_description": "GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Enkele gebruiksscenario's van typische GroupDocs.Signature voor .NET-bewerkingen",
+    "code_title_sample_1": "Voeg QR-code toe aan PDF",
+    "code_samples_sample_1_content_1": "Het toevoegen van [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) aan specifieke pagina's van PDF-documenten kan bedrijfsprocessen verbeteren.",
+    "code_samples_sample_1_content_2": "Hieronder ziet u een voorbeeld van hoe u een QR-code kunt toevoegen met GroupDocs.Signature.",
+    "code_title_sample_2": "Een DOCX-document beveiligen met een digitaal certificaat",
+    "code_samples_sample_2_content_1": "U kunt [een document beveiligen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) met behulp van persoonlijke of zakelijke handtekeningen die zijn opgeslagen als digitale certificaten.",
+    "code_samples_sample_2_content_2": "Dergelijke beschermde documenten kunnen niet worden gewijzigd zonder de handtekening ongeldig te maken."
   },
   "index-content-java": {
-    "title": "Java API om digitale handtekeningen te beheren"
+    "title": "Java API voor het beheren van digitale handtekeningen",
+    "title_2": "via Java-API",
+    "actions_main": "Gratis Maven-download",
+    "code_title": "Onderteken PDF-bestanden in Java",
+    "overview_description": "API voor het uitvoeren van documentondertekening en gerelateerde bewerkingen in Java-applicaties",
+    "overview_feature_1": {
+      "title": "Verbeterde zakelijke documenten met digitale handtekeningen in Java",
+      "description": "Snel en aanpasbaar ondertekenen: GroupDocs.Signature voor Java biedt een breed scala aan opties voor digitale handtekeningen voor PDF's, afbeeldingen en Office-documenten. U kunt tekst, barcodes, QR-codes, digitale certificaten, afbeeldingen of verborgen metadata gebruiken. De documentverwerking is snel en efficiënt."
+    },
+    "overview_feature_2": {
+      "title": "Het manipuleren van ondertekende documenten",
+      "description": "Geavanceerde documentverwerking omvat krachtige bewerkingen op ondertekende documenten met behulp van GroupDocs.Signature voor Java. U kunt handtekeningen die aan bedrijfsdocumenten zijn toegevoegd, zoeken en valideren met behulp van verschillende handige criteria. Bovendien hebt u toegang tot gedetailleerde informatie over het document of kunt u voorbeeldafbeeldingen van de pagina's verkrijgen."
+    },
+    "overview_feature_3": {
+      "title": "Verscheidenheid aan uitvoerkeuzes",
+      "description": "Dankzij de robuuste ondertekeningsopties kunt u de uitvoer aanpassen voor documenten die zijn ondertekend met GroupDocs.Signature voor Java. U kunt elke handtekening nauwkeurig op elke documentpagina plaatsen en de weergave ervan op verschillende manieren configureren. De Java API ondersteunt het opslaan van ondertekende bedrijfsdocumenten in talloze ondersteunde formaten en biedt opties om deze met wachtwoorden te beveiligen."
+    },
+    "features": {
+      "title": "GroupDocs.Signature-functies",
+      "description": "PDF's, Office-documenten en afbeeldingen ondertekenen met digitale handtekeningen",
+      "feature_1": {
+        "title": "Handtekeningen toevoegen",
+        "content": "Onderteken een document met verschillende ondersteunde handtekeningtypen door een digitale handtekening precies op elke positie op elke pagina te plaatsen."
+      },
+      "feature_2": {
+        "title": "Resultaten aanpassen",
+        "content": "Pas het uiterlijk van de handtekening aan door de kleur, het lettertype, de rand, de rotatie en andere functies aan te passen om het gewenste resultaat te bereiken."
+      },
+      "feature_3": {
+        "title": "Documenten beveiligen met wachtwoord",
+        "content": "Voor veel ondersteunde documenttypen kunt u het ondertekende document beveiligen met een wachtwoord."
+      },
+      "feature_4": {
+        "title": "Ongeautoriseerde wijzigingen voorkomen",
+        "content": "Bescherm belangrijke zakelijke documenten ondertekend met een digitaal certificaat tegen ongeoorloofde wijzigingen."
+      },
+      "feature_5": {
+        "title": "Resultaten verkrijgen in gewenste formaten",
+        "content": "Verkrijg eenvoudig ondertekende resultaatbestanden in elk ondersteund formaat. Ook kunt u moeiteloos MS Word-documenten naar PDF converteren."
+      },
+      "feature_6": {
+        "title": "Documentvoorbeeld",
+        "content": "Sla elke pagina van een document op als afbeelding voor toekomstige verwerking."
+      },
+      "feature_7": {
+        "title": "Zoeken naar handtekeningen",
+        "content": "Het is mogelijk om informatie te krijgen over eerder toegevoegde handtekeningen in specifieke documenten."
+      },
+      "feature_8": {
+        "title": "Valideren van documenten",
+        "content": "Valideer de juistheid van handtekeningen op elk ondertekend document."
+      },
+      "feature_9": {
+        "title": "Handtekeningen beheren",
+        "content": "Zodra een handtekening op een documentpagina is geplaatst, kan deze indien nodig worden verwijderd, verplaatst of bijgewerkt."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature voor Java ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders",
+    "formats_description": "GroupDocs.Signature voor Java ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Enkele gebruiksscenario's van typische GroupDocs.Signature voor Java-bewerkingen",
+    "code_title_sample_1": "Verbeter het PDF-document met QR-code",
+    "code_samples_sample_1_content_1": "Het kan waardevol zijn om bedrijfsprocessen te verbeteren door [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) toe te voegen aan specifieke pagina's van PDF-documenten.",
+    "code_samples_sample_1_content_2": "Er is een voorbeeld van hoe u een QR-code kunt toevoegen met GroupDocs.Signature voor Java.",
+    "code_title_sample_2": "Gebruik digitale handtekening om een ​​DOCX te beschermen",
+    "code_samples_sample_2_content_1": "U kunt een document [Beveiligen](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) met behulp van persoonlijke of zakelijke handtekeningen die zijn opgeslagen als digitale certificaten.",
+    "code_samples_sample_2_content_2": "Met een certificaat beveiligde documenten kunnen niet worden gewijzigd zonder de handtekening ongeldig te maken."
   }
 }

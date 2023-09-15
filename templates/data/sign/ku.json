@@ -245,12 +245,186 @@
     "api_nocodelabel": "Hemî Serlêdanên No Kodê bibînin",
     "api_nocode_1_content": "Pelên Microsoft Word, Excel, PowerPoint, Visio & PDF bi nivîs, wêne, Barcode an QR-Code îmze bikin.",
     "api_nocode_2_content": "Belgeyên Word-ê bi dîjîtal rasterast ji geroka xwe belaş îmza bikin.",
-    "api_nocode_3_content": "e-Pelên PDF-ê bi karanîna nivîs, wêne an barkodê ji hundurê gerokek webê îmze bikin."
+    "api_nocode_3_content": "e-Pelên PDF-ê bi karanîna nivîs, wêne an barkodê ji hundurê gerokek webê îmze bikin.",
+    "title_1": "Belgeyên îmze bikin",
+    "words_for": "bo",
+    "actions_alt": "Lîsanskirin",
+    "actions_title": "Amade ne ku dest pê bikin?",
+    "actions_description": "Taybetmendiyên GroupDocs.Signature belaş biceribîne an destûrnameyek bixwaze",
+    "release_title": "Guhertoya {0} derket",
+    "release_notes": "Binêrin ka çi nû ye",
+    "release_downloads": "Downloads",
+    "code_more": "Nimûneyên bêtir",
+    "code_comment_1": "Belgeya PDF-ê hilbijêrin",
+    "code_comment_2": "Nivîsar pêşkêş bikin",
+    "code_comment_3": "Rengê danîn",
+    "code_comment_4": "Belge îmze bikin û pelê hilînin",
+    "overview_title": "GroupDocs.Signature Overview",
+    "platforms_title": "Serxwebûna platformê",
+    "formats_title": "Formatên pelê piştgirî kirin",
+    "formats_groups": {
+      "title_1": "Formatên Microsoft Office",
+      "title_2": "Wêne & Formên Din",
+      "title_3": "Formên din",
+      "format_portable": "Cîtêgûherr",
+      "format_other_office": "Formên ofîsê yên din",
+      "format_images": "Images",
+      "format_web": "Tevn",
+      "format_archives": "Kitik",
+      "format_certificates": "Sertîfîkayên"
+    },
+    "code_samples": {
+      "title": "Nimûneyên kodê",
+      "sample_1": {
+        "code_title": "Meriv çawa koda QR-ê li PDF-ê dixe.",
+        "comment_1": "Belgeyê ji bo îmzekirinê barkirin",
+        "comment_2": "Vebijarkên koda QR-ê bi nivîsa pêşwextkirî biafirînin",
+        "comment_3": "Li ser rûpelê celeb û cîhê kodkirina koda QR-ê mîheng bikin",
+        "comment_4": "Belgeyê îmze bikin û wekî pelê encamê hilînin"
+      },
+      "sample_2": {
+        "code_title": "Li vir e ku meriv çawa yekbûna belgeyê piştrast dike.",
+        "comment_1": "Belgeya ku bi dîjîtal were imze kirin bar bikin",
+        "comment_2": "Vebijarkên îmzekirina dîjîtal diyar bikin û riya pelê sertîfîkayê peyda bikin",
+        "comment_3": "Şîfreya sertîfîkayê saz bikin",
+        "comment_4": "Belgeyê îmze bikin û li ser riya xwestinê hilînin"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Native .NET API ji bo Îmzeyên Elektronîkî"
+    "title": "Native .NET API ji bo Îmzeyên Elektronîkî",
+    "title_2": "bi rêya .NET API",
+    "actions_main": "Daxistina NuGet Belaş",
+    "code_title": "Pelên PDF-ê di C# de îmze bikin",
+    "overview_description": "API ji bo pêkanîna îmzekirina belgeyê û operasyonên têkildar di serîlêdanên .NET de",
+    "overview_feature_1": {
+      "title": "Di C# de li belgeyên karsaziyê zêdekirina îmzeyan",
+      "description": "Îmzekirina belgeyan: Bi GroupDocs.Signature ji bo .NET-ê, hûn dikarin cûrbecûr îmzeyan, wek nivîs, wêne, barkod û sertîfîkayên dîjîtal, li belgeyên PDF û Office zêde bikin. Ev API dihêle hûn belgeyên xwe bi hema hema her celeb daneyê, tevî metadata veşartî, îmze bikin."
+    },
+    "overview_feature_2": {
+      "title": "Pêvajoya belgeyên îmzekirî",
+      "description": "Pêvajoya pêvek: Hûn dikarin bi karanîna GroupDocs.Signature li ser belgeyên îmzekirî operasyonên hêzdar bikin. Di vê yekê de lêgerîna îmzeyên heyî yên di nav belgeyên karsaziyê de û verastkirina wan bi karanîna pîvanên taybetî pêk tê. Wekî din, hûn dikarin bi vê .NET API-ê agahdariya belgeyê bistînin û rûpelan pêşdîtin bikin."
+    },
+    "overview_feature_3": {
+      "title": "Xweserkirina encamên",
+      "description": "GroupDocs.Signature ji bo .NET vebijarkên xwerûkirinê yên berfireh pêşkêşî dike. Hûn dikarin bi rastî îmzeyan li her derê li ser rûpelek belgeyê bicîh bikin û bi karanîna cûrbecûr mîhengan xuyangê wan rast bikin. Wekî din, ev API piştgirî dide tomarkirina belgeyên pêvajoyî di nav cûrbecûr formên piştgirî de."
+    },
+    "features": {
+      "title": "Taybetmendiyên GroupDocs.Signature",
+      "description": "Îmzekirina PDF, Belgeyên Ofîsê, û Wêneyan bi lez û bez",
+      "feature_1": {
+        "title": "îmzekirina belgeyê",
+        "content": "Li ser her pozîsyonek diyarkirî li ser belgeyên karsaziyê yek an çend celebên piştgirîkirî yên îmzeyan rast lê zêde bikin."
+      },
+      "feature_2": {
+        "title": "Kesayetî îmzeyan",
+        "content": "Taybetmendiyên wekî reng, font, sînor, zivirandin, hwd., bikar bînin da ku xuyabûna îmzeyan mîheng bikin."
+      },
+      "feature_3": {
+        "title": "Parastina şîfreya belgeyê",
+        "content": "Piştî îmzekirinê bi danîna şîfreyek hin celeb belgeyan ewle bikin."
+      },
+      "feature_4": {
+        "title": "Parastina ji guhertinan",
+        "content": "Piştî pêvekirina îmzeyek bi sertîfîkayek dîjîtal re pêşî li guhertinên belgeyên karsaziyê yên girîng bigirin."
+      },
+      "feature_5": {
+        "title": "Pelên îmzekirî bi formatên din veguherînin",
+        "content": "Pelên îmzekirî veguherînin formên xwestinê, wekî tomarkirina belgeyek Word-ê wekî PDF-ê."
+      },
+      "feature_6": {
+        "title": "Pêşdîtinên rûpelê derxînin",
+        "content": "Rûpelên ji belgeyên îmzekirî wekî wêneyên kesane ji bo pêvajoyek pêşerojê derxînin."
+      },
+      "feature_7": {
+        "title": "Di belgeyan de lêgerîna îmzeyan",
+        "content": "Agahdariya li ser îmzeyên ku berê di belgeyên taybetî de hatine zêdekirin bistînin."
+      },
+      "feature_8": {
+        "title": "Belgeyên îmzekirî rast bikin",
+        "content": "Bi karanîna taybetmendiyên pejirandinê, îmzekirina rast a belgeyan verast bikin."
+      },
+      "feature_9": {
+        "title": "Îmzeyan nûve bikin an jêbikin",
+        "content": "Bi hêsanî îmzeyên taybetî li ser rûpelek ji nû ve bi cîh bikin, nivîsa wan biguhezînin, an bêyî pirsgirêk wan jêbirin."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature ji bo .NET pergalên xebitandinê yên jêrîn, çarçove û rêveberên pakêtê piştgirî dike",
+    "formats_description": "GroupDocs.Signature ji bo .NET operasyonên bi [formatên pelan](https://docs.groupdocs.com/signature/net/supported-document-formats/) yên jêrîn piştgirî dike.",
+    "code_samples_description": "Hinek rewşên tîpîk GroupDocs.Signature ji bo operasyonên .NET bikar tînin",
+    "code_title_sample_1": "QR-kodê li PDF-ê zêde bikin",
+    "code_samples_sample_1_content_1": "Zêdekirina [QR-kod](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF dikare pêvajoyên karsaziyê zêde bike.",
+    "code_samples_sample_1_content_2": "Li jêr mînakek e ku meriv çawa kodek QR bi karanîna GroupDocs.Signature zêde dike.",
+    "code_title_sample_2": "Parastina belgeyek DOCX bi karanîna sertîfîkayek dîjîtal",
+    "code_samples_sample_2_content_1": "Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin.",
+    "code_samples_sample_2_content_2": "Belgeyên weha parastî bêyî betalkirina îmzeyê nayên guhertin."
   },
   "index-content-java": {
-    "title": "Java API ji bo Rêvebirina Îmzeyên Dîjîtal"
+    "title": "Java API ji bo Rêvebirina Îmzeyên Dîjîtal",
+    "title_2": "bi rêya Java API",
+    "actions_main": "belaş Maven Download",
+    "code_title": "Pelên PDF-ê di Java de îmze bikin",
+    "overview_description": "API ji bo pêkanîna îmzekirina belgeyê û karûbarên têkildar ên di sepanên Java de",
+    "overview_feature_1": {
+      "title": "Belgeyên karsaziyê yên bi îmzeyên dîjîtal ên li Java-yê çêtir kirin",
+      "description": "Îmzekirina bilez û xwerû: GroupDocs.Signature ji bo Java ji bo PDF, wêne û belgeyên Office vebijarkên îmzaya dîjîtal ên berfireh pêşkêşî dike. Hûn dikarin nivîs, barkod, QR-kod, sertîfîkayên dîjîtal, wêne, an metadata veşartî bikar bînin. Pêvajoya belgeyê bilez û bikêr e."
+    },
+    "overview_feature_2": {
+      "title": "Manîpulasyona belgeyên îmzekirî",
+      "description": "Pêvajoya pêşkeftî ya belgeyê bi karanîna GroupDocs.Signature ji bo Java-yê li ser belgeyên îmzekirî operasyonên bi hêz pêk tîne. Hûn dikarin îmzeyên ku li belgeyên karsaziyê hatine zêdekirin bi karanîna pîvanên cûda yên kêrhatî bigerin û rast bikin. Wekî din, hûn dikarin di derbarê belgeyê de agahdariya berfireh bigihînin an wêneyên pêşdîtinê yên rûpelên wê bistînin."
+    },
+    "overview_feature_3": {
+      "title": "Cûrbecûr vebijarkên derketinê",
+      "description": "Vebijarkên îmzakirina zexm dihêlin hûn ji bo belgeyên ku bi GroupDocs.Signature ji bo Java-yê hatine îmzekirin derketinê xweş bikin. Hûn dikarin bi rastî her îmzeyê li ser her rûpelê belgeyê bicîh bikin û xuyangê wê bi awayên cihêreng mîheng bikin. Java API piştgirî dide tomarkirina belgeyên karsaziya îmzekirî di gelek formên piştgirî de û vebijarkên ji bo ewlekirina wan bi şîfreyan peyda dike."
+    },
+    "features": {
+      "title": "Taybetmendiyên GroupDocs.Signature",
+      "description": "Îmzekirina PDF, Belgeyên Ofîsê, û wêneyan bi îmzeyên dîjîtal",
+      "feature_1": {
+        "title": "Zêdekirina Îmzeyan",
+        "content": "Bi danîna îmzayek dîjîtal tam li her cîhek li ser her rûpelê, belgeyek bi karanîna cûrbecûr cûrbecûr îmzeyên piştgirîkirî îmze bikin."
+      },
+      "feature_2": {
+        "title": "Xweserkirina encamên",
+        "content": "Bi eyarkirina reng, font, sînor, zivirandin, û taybetmendiyên din re xuyangê îmzeyê xweş bikin da ku bigihîjin encama xwestinê."
+      },
+      "feature_3": {
+        "title": "Ewlekirina belgeyên bi şîfre",
+        "content": "Ji bo gelek celeb belgeyên piştgirî, hûn dikarin belgeya îmzekirî bi şîfreyek biparêzin."
+      },
+      "feature_4": {
+        "title": "Pêşîlêgirtina guhertinên bê destûr",
+        "content": "Belgeyên karsaziya girîng ên ku bi sertîfîkayek dîjîtal ve hatine îmzekirin ji guhertinên bêdestûr biparêzin."
+      },
+      "feature_5": {
+        "title": "Di formên xwestî de encam digirin",
+        "content": "Pelên encamên îmzekirî di her formatek piştgirî de bi hêsanî bistînin. Di heman demê de hûn dikarin belgeyên MS Word-ê jî bêyî hewldan veguherînin PDF-ê."
+      },
+      "feature_6": {
+        "title": "Pêşdîtina belgeyê",
+        "content": "Her rûpelek belgeyek wekî wêneyek ji bo pêvajoyek pêşerojê hilînin."
+      },
+      "feature_7": {
+        "title": "Li îmzeyan digere",
+        "content": "Mimkun e ku meriv di belgeyên taybetî de li ser îmzeyên ku berê hatine zêdekirin agahdarî bistînin."
+      },
+      "feature_8": {
+        "title": "Belgeyên erêkirin",
+        "content": "Rastiya îmzeyan li ser her belgeyek îmzekirî rast bikin."
+      },
+      "feature_9": {
+        "title": "Îmzeyan îdare dikin",
+        "content": "Dema ku îmzeyek li ser rûpelek belgeyê were danîn, li gorî hewcedariyê dikare were jêbirin, barkirin an nûvekirin."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature ji bo Java pergalên xebitandinê, çarçove û rêveberên pakêtê yên jêrîn piştgirî dike",
+    "formats_description": "GroupDocs.Signature ji bo Java operasyonên bi [formên pelan](https://docs.groupdocs.com/signature/java/supported-document-formats/) yên jêrîn piştgirî dike.",
+    "code_samples_description": "Hin rewşên tîpîk GroupDocs.Signature ji bo operasyonên Java bikar tînin",
+    "code_title_sample_1": "Belgeya PDF-ê bi QR-kodê xweş bikin",
+    "code_samples_sample_1_content_1": "Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be.",
+    "code_samples_sample_1_content_2": "Mînakek heye ku meriv çawa kodek QR bi karanîna GroupDocs.Signature ji bo Java-yê zêde dike.",
+    "code_title_sample_2": "Ji bo parastina DOCX-ê îmzeya dîjîtal bikar bînin",
+    "code_samples_sample_2_content_1": "Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin.",
+    "code_samples_sample_2_content_2": "Belgeyên ku bi sertîfîkayê hatine ewlekirin bêyî betalkirina îmzeyê nayên guhertin."
   }
 }

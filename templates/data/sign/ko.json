@@ -245,12 +245,186 @@
     "api_nocodelabel": "코드 없는 앱 모두 보기",
     "api_nocode_1_content": "텍스트, 이미지, 바코드 또는 QR 코드로 Microsoft Word, Excel, PowerPoint, Visio 및 PDF 파일에 서명하십시오.",
     "api_nocode_2_content": "무료로 브라우저에서 직접 온라인으로 Word 문서에 디지털 서명하세요.",
-    "api_nocode_3_content": "모든 웹 브라우저 내에서 텍스트, 이미지 또는 바코드를 사용하여 PDF 파일에 전자 서명하십시오."
+    "api_nocode_3_content": "모든 웹 브라우저 내에서 텍스트, 이미지 또는 바코드를 사용하여 PDF 파일에 전자 서명하십시오.",
+    "title_1": "문서에 서명",
+    "words_for": "~을 위한",
+    "actions_alt": "라이선스",
+    "actions_title": "시작할 준비가 되셨나요?",
+    "actions_description": "GroupDocs.Signature 기능을 무료로 사용해 보거나 라이센스를 요청하세요",
+    "release_title": "버전 {0} 출시됨",
+    "release_notes": "새로운 소식 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "code_comment_1": "PDF 문서 선택",
+    "code_comment_2": "텍스트 제공",
+    "code_comment_3": "색상 설정",
+    "code_comment_4": "문서에 서명하고 파일에 저장",
+    "overview_title": "GroupDocs.Signature 개요",
+    "platforms_title": "플랫폼 독립성",
+    "formats_title": "지원되는 파일 형식",
+    "formats_groups": {
+      "title_1": "Microsoft Office 형식",
+      "title_2": "이미지 및 기타 형식",
+      "title_3": "기타 형식",
+      "format_portable": "가지고 다닐 수 있는",
+      "format_other_office": "기타 사무실 형식",
+      "format_images": "이미지",
+      "format_web": "편물",
+      "format_archives": "아카이브",
+      "format_certificates": "인증서"
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "sample_1": {
+        "code_title": "QR 코드를 PDF에 넣는 방법.",
+        "comment_1": "서명할 문서를 로드하세요.",
+        "comment_2": "미리 정의된 텍스트로 QR 코드 옵션 만들기",
+        "comment_3": "QR 코드 인코딩 유형 및 페이지에서의 위치 구성",
+        "comment_4": "문서에 서명하고 결과 파일로 저장"
+      },
+      "sample_2": {
+        "code_title": "문서 무결성을 보장하는 방법은 다음과 같습니다.",
+        "comment_1": "디지털 서명할 문서를 로드합니다.",
+        "comment_2": "디지털 서명 옵션을 지정하고 인증서 파일의 경로를 제공하세요.",
+        "comment_3": "인증서 비밀번호 설정",
+        "comment_4": "문서에 서명하고 원하는 경로에 저장하세요."
+      }
+    }
   },
   "index-content-net": {
-    "title": "전자 서명용 기본 .NET API"
+    "title": "전자 서명을 위한 기본 .NET API",
+    "title_2": ".NET API를 통해",
+    "actions_main": "무료 NuGet 다운로드",
+    "code_title": "C#에서 PDF 파일 서명",
+    "overview_description": ".NET 애플리케이션에서 문서 서명 및 관련 작업을 수행하기 위한 API",
+    "overview_feature_1": {
+      "title": "C#에서 비즈니스 문서에 서명 추가",
+      "description": "문서 서명: .NET용 GroupDocs.Signature를 사용하면 텍스트, 이미지, 바코드, 디지털 인증서 등 다양한 유형의 서명을 PDF 및 Office 문서에 추가할 수 있습니다. 이 API를 사용하면 숨겨진 메타데이터를 포함하여 거의 모든 데이터 유형으로 문서에 서명할 수 있습니다."
+    },
+    "overview_feature_2": {
+      "title": "서명된 문서 처리",
+      "description": "추가 처리: GroupDocs.Signature를 사용하여 서명된 문서에 대해 강력한 작업을 수행할 수 있습니다. 여기에는 비즈니스 문서 내의 기존 서명을 검색하고 특정 기준을 사용하여 이를 확인하는 것이 포함됩니다. 또한 이 .NET API를 통해 문서 정보 및 미리보기 페이지를 검색할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "결과 맞춤설정",
+      "description": ".NET용 GroupDocs.Signature는 광범위한 사용자 정의 옵션을 제공합니다. 문서 페이지의 어느 위치에나 서명을 정확하게 배치하고 다양한 설정을 사용하여 서명 모양을 조정할 수 있습니다. 또한 이 API는 처리된 문서를 다양한 지원 형식으로 저장할 수 있도록 지원합니다."
+    },
+    "features": {
+      "title": "GroupDocs.Signature 기능",
+      "description": "PDF, Office 문서 및 이미지에 신속하고 정확하게 서명",
+      "feature_1": {
+        "title": "문서 서명",
+        "content": "비즈니스 문서의 지정된 위치에 하나 이상의 지원되는 서명 유형을 정확하게 추가하세요."
+      },
+      "feature_2": {
+        "title": "서명 사용자 정의",
+        "content": "색상, 글꼴, 테두리, 회전 등의 기능을 활용하여 서명의 모양을 구성합니다."
+      },
+      "feature_3": {
+        "title": "문서 비밀번호 보호",
+        "content": "서명 후 비밀번호를 설정하여 특정 문서 유형을 보호하세요."
+      },
+      "feature_4": {
+        "title": "변경으로부터 보호",
+        "content": "디지털 인증서로 서명을 추가한 후 중요한 비즈니스 문서가 변경되는 것을 방지하세요."
+      },
+      "feature_5": {
+        "title": "서명된 파일을 다른 형식으로 변환",
+        "content": "Word 문서를 PDF로 저장하는 등 서명된 파일을 원하는 형식으로 변환합니다."
+      },
+      "feature_6": {
+        "title": "페이지 미리보기 추출",
+        "content": "향후 처리를 위해 서명된 문서의 페이지를 개별 이미지로 추출합니다."
+      },
+      "feature_7": {
+        "title": "문서에서 서명 검색",
+        "content": "특정 문서에 이전에 추가된 서명에 대한 정보를 검색합니다."
+      },
+      "feature_8": {
+        "title": "서명된 문서 유효성 검사",
+        "content": "유효성 검사 기능을 사용하여 문서의 올바른 서명을 확인하세요."
+      },
+      "feature_9": {
+        "title": "서명 업데이트 또는 삭제",
+        "content": "페이지에서 특정 서명의 위치를 ​​쉽게 변경하고, 텍스트를 수정하고, 문제 없이 삭제할 수 있습니다."
+      }
+    },
+    "platforms_description": ".NET용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": ".NET용 GroupDocs.Signature는 다음 [파일 형식](https://docs.groupdocs.com/signature/net/supported-document-formats/)을 사용한 작업을 지원합니다.",
+    "code_samples_description": ".NET 작업을 위한 일반적인 GroupDocs.Signature의 일부 사용 사례",
+    "code_title_sample_1": "PDF에 QR 코드 추가",
+    "code_samples_sample_1_content_1": "PDF 문서의 특정 페이지에 [QR 코드](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/)를 추가하면 비즈니스 프로세스를 향상할 수 있습니다.",
+    "code_samples_sample_1_content_2": "다음은 GroupDocs.Signature를 사용하여 QR 코드를 추가하는 방법의 예입니다.",
+    "code_title_sample_2": "디지털 인증서를 사용하여 DOCX 문서 보호",
+    "code_samples_sample_2_content_1": "디지털 인증서로 저장된 개인 또는 회사 서명을 사용하여 [문서를 보호](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/)할 수 있습니다.",
+    "code_samples_sample_2_content_2": "이러한 보호된 문서는 서명을 무효화하지 않고는 수정할 수 없습니다."
   },
   "index-content-java": {
-    "title": "디지털 서명을 관리하는 Java API"
+    "title": "디지털 서명을 관리하는 Java API",
+    "title_2": "자바 API를 통해",
+    "actions_main": "무료 메이븐 다운로드",
+    "code_title": "Java로 PDF 파일 서명",
+    "overview_description": "Java 애플리케이션에서 문서 서명 및 관련 작업을 수행하기 위한 API",
+    "overview_feature_1": {
+      "title": "Java의 디지털 서명이 포함된 향상된 비즈니스 문서",
+      "description": "신속하고 사용자 정의 가능한 서명: Java용 GroupDocs.Signature는 PDF, 이미지 및 Office 문서에 대한 광범위한 디지털 서명 옵션을 제공합니다. 텍스트, 바코드, QR 코드, 디지털 인증서, 사진 또는 숨겨진 메타데이터를 사용할 수 있습니다. 문서 처리가 빠르고 효율적입니다."
+    },
+    "overview_feature_2": {
+      "title": "서명된 문서 조작",
+      "description": "고급 문서 처리에는 Java용 GroupDocs.Signature를 사용하여 서명된 문서에 대한 강력한 작업이 포함됩니다. 다양한 유용한 기준을 사용하여 비즈니스 문서에 추가된 서명을 검색하고 확인할 수 있습니다. 또한 문서에 대한 자세한 정보에 액세스하거나 해당 페이지의 미리 보기 이미지를 얻을 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "다양한 출력 선택",
+      "description": "강력한 서명 옵션을 사용하면 Java용 GroupDocs.Signature로 서명된 문서의 출력을 사용자 정의할 수 있습니다. 모든 문서 페이지에 서명을 정확하게 배치하고 다양한 방법으로 모양을 구성할 수 있습니다. Java API는 서명된 비즈니스 문서를 다양한 지원 형식으로 저장할 수 있도록 지원하며 암호로 문서를 보호하는 옵션을 제공합니다."
+    },
+    "features": {
+      "title": "GroupDocs.Signature 기능",
+      "description": "디지털 서명으로 PDF, Office 문서 및 이미지에 서명",
+      "feature_1": {
+        "title": "서명 추가",
+        "content": "모든 페이지의 원하는 위치에 디지털 서명을 정확하게 배치하여 지원되는 다양한 서명 유형을 사용하여 문서에 서명합니다."
+      },
+      "feature_2": {
+        "title": "결과 맞춤설정",
+        "content": "원하는 결과를 얻으려면 색상, 글꼴, 테두리, 회전 및 기타 기능을 조정하여 서명 모양을 사용자 정의하세요."
+      },
+      "feature_3": {
+        "title": "비밀번호로 문서를 보호하세요",
+        "content": "지원되는 다양한 문서 유형의 경우 서명된 문서를 비밀번호로 보호할 수 있습니다."
+      },
+      "feature_4": {
+        "title": "무단 변경 방지",
+        "content": "디지털 인증서로 서명된 중요한 비즈니스 문서를 무단 수정으로부터 보호하세요."
+      },
+      "feature_5": {
+        "title": "원하는 형식으로 결과 얻기",
+        "content": "지원되는 모든 형식으로 서명된 결과 파일을 쉽게 얻을 수 있습니다. MS Word 문서를 PDF로 쉽게 변환할 수도 있습니다."
+      },
+      "feature_6": {
+        "title": "문서 미리보기",
+        "content": "향후 처리를 위해 문서의 모든 페이지를 이미지로 저장하세요."
+      },
+      "feature_7": {
+        "title": "서명 검색 중",
+        "content": "특정 문서에 이전에 추가된 서명에 대한 정보를 얻을 수 있습니다."
+      },
+      "feature_8": {
+        "title": "문서 유효성 검사",
+        "content": "서명된 문서의 서명이 올바른지 확인합니다."
+      },
+      "feature_9": {
+        "title": "서명 관리",
+        "content": "문서 페이지에 서명이 배치되면 필요에 따라 삭제, 이동 또는 업데이트할 수 있습니다."
+      }
+    },
+    "platforms_description": "Java용 GroupDocs.Signature는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": "Java용 GroupDocs.Signature는 다음 [파일 형식](https://docs.groupdocs.com/signature/java/supported-document-formats/)을 사용한 작업을 지원합니다.",
+    "code_samples_description": "Java 작업을 위한 일반적인 GroupDocs.Signature의 일부 사용 사례",
+    "code_title_sample_1": "QR 코드로 PDF 문서 강화",
+    "code_samples_sample_1_content_1": "PDF 문서의 특정 페이지에 [QR 코드](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/)를 추가하여 비즈니스 프로세스를 향상시키는 것이 중요할 수 있습니다.",
+    "code_samples_sample_1_content_2": "Java용 GroupDocs.Signature를 사용하여 QR 코드를 추가하는 방법에 대한 예가 있습니다.",
+    "code_title_sample_2": "디지털 서명을 사용하여 DOCX 보호",
+    "code_samples_sample_2_content_1": "디지털 인증서로 저장된 개인 또는 회사 서명을 사용하여 [문서를 보호](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/)할 수 있습니다.",
+    "code_samples_sample_2_content_2": "인증서로 보호된 문서는 서명을 무효화하지 않고는 변경할 수 없습니다."
   }
 }

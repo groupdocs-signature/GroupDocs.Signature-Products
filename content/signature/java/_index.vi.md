@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, API đám mây & Ứng dụng chữ ký tài liệu tr�
 head_description: "Sở hữu giải pháp chữ ký điện tử tất cả trong một cho các ứng dụng .NET, Java và đám mây. Ký các định dạng tài liệu phổ biến trực tuyến bằng tính năng kéo và thả đơn giản"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Ký văn bản<br>thông qua API Java"
 description: "Ký các tài liệu và hình ảnh kỹ thuật số trên bất kỳ nền tảng nào bằng cách sử dụng các giải pháp dựa trên ứng dụng và API linh hoạt của chúng tôi dành cho lập trình viên và người dùng cuối."
 words:
-  for: "{index-content.words_for}"
+  for: "vì"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Tải xuống Maven miễn phí"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Cấp phép"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Dùng thử miễn phí các tính năng của GroupDocs.Signature hoặc yêu cầu giấy phép"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Đã phát hành phiên bản {0}"
+  notes: "Xem có gì mới"
+  downloads: "Tải xuống"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Ký các tệp PDF trong Java"
+  more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Chọn tài liệu PDF
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Cung cấp văn bản
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Ký tài liệu và lưu vào tập tin
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "Tổng quan về GroupDocs.Signature"
+  description: "API để thực hiện ký tài liệu và các hoạt động liên quan trong ứng dụng Java"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Tài liệu kinh doanh được cải thiện với chữ ký số trong Java"
+      content: "Ký nhanh chóng và có thể tùy chỉnh: GroupDocs.Signature cho Java cung cấp nhiều tùy chọn chữ ký số cho tệp PDF, hình ảnh và tài liệu Office. Bạn có thể sử dụng văn bản, mã vạch, mã QR, chứng chỉ kỹ thuật số, hình ảnh hoặc siêu dữ liệu ẩn. Quá trình xử lý tài liệu nhanh chóng và hiệu quả."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Thao tác các tài liệu đã ký"
+      content: "Xử lý tài liệu nâng cao bao gồm các thao tác mạnh mẽ trên các tài liệu đã ký bằng GroupDocs.Signature cho Java. Bạn có thể tìm kiếm và xác thực chữ ký đã được thêm vào tài liệu kinh doanh bằng nhiều tiêu chí hữu ích khác nhau. Ngoài ra, bạn có thể truy cập thông tin chi tiết về tài liệu hoặc lấy hình ảnh xem trước của các trang trong tài liệu."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Sự lựa chọn đầu ra đa dạng"
+      content: "Các tùy chọn ký mạnh mẽ cho phép bạn tùy chỉnh đầu ra cho các tài liệu được ký bằng GroupDocs.Signature cho Java. Bạn có thể định vị chính xác bất kỳ chữ ký nào trên bất kỳ trang tài liệu nào và định cấu hình giao diện của nó theo nhiều cách khác nhau. API Java hỗ trợ lưu các tài liệu kinh doanh đã ký ở nhiều định dạng được hỗ trợ và cung cấp các tùy chọn để bảo mật chúng bằng mật khẩu."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Nền tảng độc lập"
+  description: "GroupDocs.Signature cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature cho Java hỗ trợ các thao tác với [định dạng tệp](https://docs.groupdocs.com/signature/java/supported-document-formats/) sau.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Các định dạng Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Hình ảnh & Định dạng khác
+        * **Cầm tay:** PDF
+        * **Hình ảnh:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Các dạng văn phòng khác:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Các định dạng khác
+        * **Web:** HTML, MHTML
+        * **Lưu trữ:** ZIP, TAR, 7Z
+        * **Chứng chỉ:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Tính năng GroupDocs.Signature"
+  description: "Ký các tệp PDF, Tài liệu Office và hình ảnh bằng chữ ký số"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "Thêm chữ ký"
+      content: "Ký tài liệu bằng nhiều loại chữ ký được hỗ trợ khác nhau bằng cách đặt chữ ký điện tử chính xác ở bất kỳ vị trí nào trên bất kỳ trang nào."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "Tùy chỉnh kết quả"
+      content: "Tùy chỉnh giao diện chữ ký bằng cách điều chỉnh màu sắc, phông chữ, đường viền, xoay và các tính năng khác để đạt được kết quả mong muốn."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "Bảo mật tài liệu bằng mật khẩu"
+      content: "Đối với nhiều loại tài liệu được hỗ trợ, bạn có thể bảo vệ tài liệu đã ký bằng mật khẩu."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "Ngăn chặn những thay đổi trái phép"
+      content: "Bảo vệ các tài liệu kinh doanh quan trọng được ký bằng chứng chỉ kỹ thuật số khỏi những sửa đổi trái phép."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "Thu được kết quả ở định dạng mong muốn"
+      content: "Dễ dàng có được các tệp kết quả đã ký ở bất kỳ định dạng được hỗ trợ nào. Bạn cũng có thể chuyển đổi tài liệu MS Word sang PDF một cách dễ dàng."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Xem trước tài liệu"
+      content: "Lưu bất kỳ trang nào của tài liệu dưới dạng hình ảnh để xử lý trong tương lai."
+
+    # feature loop
+    - icon: "search"
+      title: "Tìm kiếm chữ ký"
+      content: "Có thể lấy thông tin về chữ ký đã thêm trước đó trong các tài liệu cụ thể."
+
+    # feature loop
+    - icon: "validate"
+      title: "Xác thực tài liệu"
+      content: "Xác thực tính chính xác của chữ ký trên bất kỳ tài liệu đã ký nào."
+
+    # feature loop
+    - icon: "update"
+      title: "Quản lý chữ ký"
+      content: "Sau khi chữ ký được đặt trên trang tài liệu, nó có thể bị xóa, di chuyển hoặc cập nhật nếu cần."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Mẫu mã"
+  description: "Một số trường hợp sử dụng GroupDocs.Signature điển hình cho các hoạt động Java"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Nâng cao tài liệu PDF bằng mã QR"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Nâng cao quy trình kinh doanh bằng cách thêm [mã QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) vào các trang cụ thể của tài liệu PDF có thể có giá trị. Có một ví dụ về cách thêm mã QR bằng GroupDocs.Signature cho Java.
+        {{< landing/code title="Nâng cao tài liệu PDF bằng mã QR">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Tải tài liệu để ký
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Tạo tùy chọn mã QR với văn bản được xác định trước
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Định cấu hình loại và vị trí mã hóa mã QR trên trang
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Ký tài liệu và lưu nó dưới dạng tệp kết quả
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Sử dụng chữ ký số để bảo vệ DOCX"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số. Các tài liệu được bảo đảm bằng chứng chỉ không thể bị thay đổi nếu không làm mất hiệu lực chữ ký.
+        {{< landing/code title="Sử dụng chữ ký số để bảo vệ DOCX">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Tải tài liệu cần được ký điện tử
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Chỉ định các tùy chọn ký kỹ thuật số và cung cấp đường dẫn đến tệp chứng chỉ
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Đặt mật khẩu chứng chỉ
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Ký tài liệu và lưu nó vào đường dẫn mong muốn
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

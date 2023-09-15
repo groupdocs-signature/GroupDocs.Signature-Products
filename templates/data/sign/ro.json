@@ -245,12 +245,186 @@
     "api_nocodelabel": "Vizualizați toate aplicațiile fără cod",
     "api_nocode_1_content": "Semnează fișiere Microsoft Word, Excel, PowerPoint, Visio și PDF cu text, imagine, cod de bare sau cod QR.",
     "api_nocode_2_content": "Semnează digital documentele Word online, direct din browser, gratuit.",
-    "api_nocode_3_content": "E-Sign fișiere PDF folosind text, imagine sau cod de bare din orice browser web."
+    "api_nocode_3_content": "E-Sign fișiere PDF folosind text, imagine sau cod de bare din orice browser web.",
+    "title_1": "Semnează documente",
+    "words_for": "pentru",
+    "actions_alt": "Licențiere",
+    "actions_title": "Sunteți gata să începeți?",
+    "actions_description": "Încercați gratuit funcțiile GroupDocs.Signature sau solicitați o licență",
+    "release_title": "Versiunea {0} a fost lansată",
+    "release_notes": "Vezi ce este nou",
+    "release_downloads": "Descărcări",
+    "code_more": "Mai multe exemple",
+    "code_comment_1": "Selectați documentul PDF",
+    "code_comment_2": "Furnizați text",
+    "code_comment_3": "Setați culoarea",
+    "code_comment_4": "Semnează documentul și salvează în fișier",
+    "overview_title": "Prezentare generală GroupDocs.Signature",
+    "platforms_title": "Independenta platformei",
+    "formats_title": "Formate de fișiere acceptate",
+    "formats_groups": {
+      "title_1": "formatele Microsoft Office",
+      "title_2": "Imagini și alte formate",
+      "title_3": "Alte formate",
+      "format_portable": "Portabil",
+      "format_other_office": "Alte formate de birou",
+      "format_images": "Imagini",
+      "format_web": "Web",
+      "format_archives": "Arhive",
+      "format_certificates": "Certificate"
+    },
+    "code_samples": {
+      "title": "Exemple de cod",
+      "sample_1": {
+        "code_title": "Cum să puneți codul QR în PDF.",
+        "comment_1": "Încărcați documentul pentru semnare",
+        "comment_2": "Creați opțiuni de cod QR cu text predefinit",
+        "comment_3": "Configurați tipul și poziția de codare a codului QR pe ​​pagină",
+        "comment_4": "Semnați documentul și salvați-l ca fișier rezultat"
+      },
+      "sample_2": {
+        "code_title": "Iată cum puteți asigura integritatea documentului.",
+        "comment_1": "Încărcați documentul pentru a fi semnat digital",
+        "comment_2": "Specificați opțiunile de semnare digitală și furnizați calea către fișierul de certificat",
+        "comment_3": "Setați parola certificatului",
+        "comment_4": "Semnează documentul și salvează-l în calea dorită"
+      }
+    }
   },
   "index-content-net": {
-    "title": "API nativ .NET pentru semnături electronice"
+    "title": "API nativ .NET pentru semnături electronice",
+    "title_2": "prin .NET API",
+    "actions_main": "Descărcare gratuită NuGet",
+    "code_title": "Semnează fișiere PDF în C#",
+    "overview_description": "API pentru efectuarea semnării documentelor și operațiunilor conexe în aplicațiile .NET",
+    "overview_feature_1": {
+      "title": "Adăugarea de semnături la documentele de afaceri în C#",
+      "description": "Semnarea documentelor: Cu GroupDocs.Signature pentru .NET, puteți adăuga diferite tipuri de semnături, cum ar fi text, imagini, coduri de bare și certificate digitale, la documentele PDF și Office. Acest API vă permite să vă semnați documentele cu aproape orice tip de date, inclusiv metadate ascunse."
+    },
+    "overview_feature_2": {
+      "title": "Prelucrarea documentelor semnate",
+      "description": "Procesare suplimentară: puteți efectua operațiuni puternice pe documente semnate folosind GroupDocs.Signature. Aceasta include căutarea semnăturilor existente în documentele de afaceri și verificarea lor folosind criterii specifice. În plus, puteți prelua informații despre document și pagini de previzualizare prin intermediul acestui API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personalizarea rezultatelor",
+      "description": "GroupDocs.Signature pentru .NET oferă opțiuni extinse de personalizare. Puteți poziționa cu precizie semnăturile oriunde pe pagina unui document și puteți ajusta aspectul acestora folosind o varietate de setări. În plus, acest API acceptă salvarea documentelor procesate într-o gamă largă de formate acceptate."
+    },
+    "features": {
+      "title": "Funcții GroupDocs.Signature",
+      "description": "Semnează PDF-uri, documente Office și imagini rapid și precis",
+      "feature_1": {
+        "title": "Semnarea documentelor",
+        "content": "Adăugați unul sau mai multe tipuri de semnături acceptate cu precizie la orice poziție specificată pe documentele de afaceri."
+      },
+      "feature_2": {
+        "title": "Personalizați semnăturile",
+        "content": "Utilizați caracteristici precum culoarea, fontul, chenarul, rotația etc., pentru a configura aspectul semnăturilor."
+      },
+      "feature_3": {
+        "title": "Protecția prin parolă a documentului",
+        "content": "Securizați anumite tipuri de documente setând o parolă după semnare."
+      },
+      "feature_4": {
+        "title": "Protecție împotriva schimbărilor",
+        "content": "Preveniți modificările documentelor importante de afaceri după ce adăugați o semnătură cu un certificat digital."
+      },
+      "feature_5": {
+        "title": "Convertiți fișierele semnate în alte formate",
+        "content": "Convertiți fișierele semnate în formatele dorite, cum ar fi salvarea unui document Word ca PDF."
+      },
+      "feature_6": {
+        "title": "Extrageți previzualizările paginii",
+        "content": "Extrageți pagini din documente semnate ca imagini individuale pentru procesări viitoare."
+      },
+      "feature_7": {
+        "title": "Căutarea semnăturilor în documente",
+        "content": "Preluați informații despre semnăturile adăugate anterior în anumite documente."
+      },
+      "feature_8": {
+        "title": "Validați documentele semnate",
+        "content": "Verificați semnarea corectă a documentelor folosind funcții de validare."
+      },
+      "feature_9": {
+        "title": "Actualizați sau ștergeți semnăturile",
+        "content": "Repoziționați cu ușurință anumite semnături pe o pagină, modificați-le textul sau ștergeți-le fără probleme."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature pentru .NET acceptă următoarele sisteme de operare, cadre și manageri de pachete",
+    "formats_description": "GroupDocs.Signature pentru .NET acceptă operațiuni cu următoarele [formate de fișiere](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Unele cazuri de utilizare tipice GroupDocs.Signature pentru operațiuni .NET",
+    "code_title_sample_1": "Adăugați codul QR în PDF",
+    "code_samples_sample_1_content_1": "Adăugarea [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) la anumite pagini de documente PDF poate îmbunătăți procesele de afaceri.",
+    "code_samples_sample_1_content_2": "Mai jos este un exemplu despre cum să adăugați un cod QR utilizând GroupDocs.Signature.",
+    "code_title_sample_2": "Protejarea unui document DOCX folosind un certificat digital",
+    "code_samples_sample_2_content_1": "Puteți [Proteja un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) folosind semnături personale sau corporative stocate ca certificate digitale.",
+    "code_samples_sample_2_content_2": "Astfel de documente protejate nu pot fi modificate fără invalidarea semnăturii."
   },
   "index-content-java": {
-    "title": "API Java pentru gestionarea semnăturilor digitale"
+    "title": "API Java pentru gestionarea semnăturilor digitale",
+    "title_2": "prin API-ul Java",
+    "actions_main": "Descărcare gratuită Maven",
+    "code_title": "Semnează fișiere PDF în Java",
+    "overview_description": "API pentru efectuarea semnării documentelor și a operațiunilor conexe în aplicațiile Java",
+    "overview_feature_1": {
+      "title": "Documente de afaceri îmbunătățite cu semnături digitale în Java",
+      "description": "Semnare rapidă și personalizabilă: GroupDocs.Signature pentru Java oferă o gamă largă de opțiuni de semnătură digitală pentru PDF-uri, imagini și documente Office. Puteți utiliza text, coduri de bare, coduri QR, certificate digitale, imagini sau metadate ascunse. Procesarea documentelor este rapidă și eficientă."
+    },
+    "overview_feature_2": {
+      "title": "Manipularea documentelor semnate",
+      "description": "Procesarea avansată a documentelor implică operații puternice asupra documentelor semnate folosind GroupDocs.Signature pentru Java. Puteți căuta și valida semnăturile care au fost adăugate în documentele de afaceri folosind diverse criterii utile. În plus, puteți accesa informații detaliate despre document sau puteți obține imagini de previzualizare ale paginilor acestuia."
+    },
+    "overview_feature_3": {
+      "title": "Varietate de opțiuni de ieșire",
+      "description": "Opțiunile de semnare robuste vă permit să personalizați rezultatul documentelor semnate cu GroupDocs.Signature pentru Java. Puteți poziționa cu precizie orice semnătură pe orice pagină de document și puteți configura aspectul acesteia în diverse moduri. API-ul Java acceptă salvarea documentelor comerciale semnate în numeroase formate acceptate și oferă opțiuni pentru securizarea lor cu parole."
+    },
+    "features": {
+      "title": "Funcții GroupDocs.Signature",
+      "description": "Semnează PDF-uri, documente Office și imagini cu semnături digitale",
+      "feature_1": {
+        "title": "Adăugarea de semnături",
+        "content": "Semnați un document folosind diferite tipuri de semnături acceptate, plasând o semnătură digitală exact în orice poziție de pe orice pagină."
+      },
+      "feature_2": {
+        "title": "Personalizarea rezultatelor",
+        "content": "Personalizați aspectul semnăturii ajustând culoarea, fontul, chenarul, rotația și alte caracteristici pentru a obține rezultatul dorit."
+      },
+      "feature_3": {
+        "title": "Securizarea documentelor cu parola",
+        "content": "Pentru multe tipuri de documente acceptate, puteți proteja documentul semnat cu o parolă."
+      },
+      "feature_4": {
+        "title": "Prevenirea modificărilor neautorizate",
+        "content": "Protejați documentele importante de afaceri semnate cu un certificat digital de modificările neautorizate."
+      },
+      "feature_5": {
+        "title": "Obținerea rezultatelor în formatele dorite",
+        "content": "Obțineți cu ușurință fișiere cu rezultate semnate în orice format acceptat. De asemenea, puteți converti documente MS Word în PDF fără efort."
+      },
+      "feature_6": {
+        "title": "Previzualizarea documentului",
+        "content": "Salvați orice pagină a unui document ca imagine pentru procesare ulterioară."
+      },
+      "feature_7": {
+        "title": "Căutarea semnăturilor",
+        "content": "Este posibil să obțineți informații despre semnăturile adăugate anterior în anumite documente."
+      },
+      "feature_8": {
+        "title": "Validarea documentelor",
+        "content": "Validați corectitudinea semnăturilor pe orice document semnat."
+      },
+      "feature_9": {
+        "title": "Gestionarea semnăturilor",
+        "content": "Odată ce o semnătură este plasată pe pagina unui document, aceasta poate fi ștearsă, mutată sau actualizată după cum este necesar."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete",
+    "formats_description": "GroupDocs.Signature pentru Java acceptă operațiuni cu următoarele [formate de fișiere](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Signature pentru Java",
+    "code_title_sample_1": "Îmbunătățiți documentul PDF cu codul QR",
+    "code_samples_sample_1_content_1": "Îmbunătățirea proceselor de afaceri prin adăugarea [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) în anumite pagini de documente PDF poate fi valoroasă.",
+    "code_samples_sample_1_content_2": "Există un exemplu despre cum să adăugați un cod QR utilizând GroupDocs.Signature pentru Java.",
+    "code_title_sample_2": "Utilizați semnătura digitală pentru a proteja un DOCX",
+    "code_samples_sample_2_content_1": "Puteți [Proteza un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) folosind semnături personale sau corporative stocate ca certificate digitale.",
+    "code_samples_sample_2_content_2": "Documentele securizate cu certificat nu pot fi modificate fără invalidarea semnăturii."
   }
 }

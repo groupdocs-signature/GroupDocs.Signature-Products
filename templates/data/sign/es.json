@@ -245,12 +245,186 @@
     "api_nocodelabel": "Ver todas las aplicaciones sin código",
     "api_nocode_1_content": "Firme archivos de Microsoft Word, Excel, PowerPoint, Visio y PDF con texto, imagen, código de barras o código QR.",
     "api_nocode_2_content": "Firme digitalmente documentos de Word en línea directamente desde su navegador de forma gratuita.",
-    "api_nocode_3_content": "Firme electrónicamente archivos PDF con texto, imagen o código de barras desde cualquier navegador web."
+    "api_nocode_3_content": "Firme electrónicamente archivos PDF con texto, imagen o código de barras desde cualquier navegador web.",
+    "title_1": "Firmar documentos",
+    "words_for": "para",
+    "actions_alt": "Licencia",
+    "actions_title": "¿Listo para comenzar?",
+    "actions_description": "Pruebe las funciones de GroupDocs.Signature de forma gratuita o solicite una licencia",
+    "release_title": "Versión {0} lanzada",
+    "release_notes": "Ver qué hay de nuevo",
+    "release_downloads": "Descargas",
+    "code_more": "Más ejemplos",
+    "code_comment_1": "Seleccionar documento PDF",
+    "code_comment_2": "Proporcionar texto",
+    "code_comment_3": "Establecer color",
+    "code_comment_4": "Firmar el documento y guardarlo en un archivo.",
+    "overview_title": "Descripción general de GroupDocs.Signature",
+    "platforms_title": "Independencia de plataforma",
+    "formats_title": "Formatos de archivo admitidos",
+    "formats_groups": {
+      "title_1": "Formatos de Microsoft Office",
+      "title_2": "Imágenes y otros formatos",
+      "title_3": "Otros formatos",
+      "format_portable": "Portátil",
+      "format_other_office": "Otros formatos de oficina",
+      "format_images": "Imágenes",
+      "format_web": "Web",
+      "format_archives": "Archivo",
+      "format_certificates": "Certificados"
+    },
+    "code_samples": {
+      "title": "Ejemplos de código",
+      "sample_1": {
+        "code_title": "Cómo poner código QR a PDF.",
+        "comment_1": "Cargar el documento para firmar",
+        "comment_2": "Crea opciones de códigos QR con texto predefinido",
+        "comment_3": "Configurar el tipo de codificación del código QR y su posición en la página",
+        "comment_4": "Firme el documento y guárdelo como archivo de resultados."
+      },
+      "sample_2": {
+        "code_title": "A continuación se explica cómo garantizar la integridad del documento.",
+        "comment_1": "Cargar el documento a firmar digitalmente",
+        "comment_2": "Especifique las opciones de firma digital y proporcione la ruta al archivo del certificado.",
+        "comment_3": "Establecer la contraseña del certificado",
+        "comment_4": "Firme el documento y guárdelo en la ruta deseada."
+      }
+    }
   },
   "index-content-net": {
-    "title": "API nativa de .NET para firmas electrónicas"
+    "title": "API .NET nativa para firmas electrónicas",
+    "title_2": "a través de la API .NET",
+    "actions_main": "Descarga gratuita de NuGet",
+    "code_title": "Firmar archivos PDF en C#",
+    "overview_description": "API para realizar firma de documentos y operaciones relacionadas en aplicaciones .NET",
+    "overview_feature_1": {
+      "title": "Agregar firmas a documentos comerciales en C#",
+      "description": "Firma de documentos: con GroupDocs.Signature para .NET, puede agregar varios tipos de firmas, como texto, imágenes, códigos de barras y certificados digitales, a documentos PDF y Office. Esta API le permite firmar sus documentos con casi cualquier tipo de datos, incluidos los metadatos ocultos."
+    },
+    "overview_feature_2": {
+      "title": "Procesamiento de documentos firmados",
+      "description": "Procesamiento adicional: puede realizar operaciones potentes en documentos firmados utilizando GroupDocs.Signature. Esto incluye buscar firmas existentes en documentos comerciales y verificarlas utilizando criterios específicos. Además, puede recuperar información del documento y obtener una vista previa de las páginas a través de esta API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personalización de resultados",
+      "description": "GroupDocs.Signature para .NET ofrece amplias opciones de personalización. Puede colocar las firmas con precisión en cualquier lugar de la página de un documento y ajustar su apariencia mediante una variedad de configuraciones. Además, esta API permite guardar documentos procesados ​​en una amplia gama de formatos compatibles."
+    },
+    "features": {
+      "title": "Funciones de GroupDocs.Signature",
+      "description": "Firmar archivos PDF, documentos de Office e imágenes de forma rápida y precisa",
+      "feature_1": {
+        "title": "Firma de documentos",
+        "content": "Agregue uno o varios tipos de firmas compatibles con precisión en cualquier posición especificada de los documentos comerciales."
+      },
+      "feature_2": {
+        "title": "Personalizar firmas",
+        "content": "Utilice funciones como color, fuente, borde, rotación, etc., para configurar la apariencia de las firmas."
+      },
+      "feature_3": {
+        "title": "Protección de documentos con contraseña",
+        "content": "Proteja ciertos tipos de documentos estableciendo una contraseña después de firmar."
+      },
+      "feature_4": {
+        "title": "Protección contra cambios",
+        "content": "Evite cambios en documentos comerciales importantes después de agregar una firma con un certificado digital."
+      },
+      "feature_5": {
+        "title": "Convertir archivos firmados a otros formatos",
+        "content": "Convierta archivos firmados a los formatos deseados, como guardar un documento de Word como PDF."
+      },
+      "feature_6": {
+        "title": "Extraer vistas previas de páginas",
+        "content": "Extraiga páginas de documentos firmados como imágenes individuales para su procesamiento futuro."
+      },
+      "feature_7": {
+        "title": "Búsqueda de firmas en documentos.",
+        "content": "Recupera información sobre firmas agregadas previamente en documentos específicos."
+      },
+      "feature_8": {
+        "title": "Validar documentos firmados",
+        "content": "Verifique la firma adecuada de documentos utilizando funciones de validación."
+      },
+      "feature_9": {
+        "title": "Actualizar o eliminar firmas",
+        "content": "Reposicione fácilmente firmas específicas en una página, modifique su texto o elimínelas sin ningún problema."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature para .NET admite los siguientes sistemas operativos, marcos y administradores de paquetes",
+    "formats_description": "GroupDocs.Signature para .NET admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Algunos casos de uso de operaciones típicas de GroupDocs.Signature para .NET",
+    "code_title_sample_1": "Agregar código QR a PDF",
+    "code_samples_sample_1_content_1": "Agregar [códigos QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF puede mejorar los procesos comerciales.",
+    "code_samples_sample_1_content_2": "A continuación se muestra un ejemplo de cómo agregar un código QR usando GroupDocs.Signature.",
+    "code_title_sample_2": "Proteger un documento DOCX mediante un certificado digital",
+    "code_samples_sample_2_content_1": "Puede [Proteger un documento](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilizando firmas personales o corporativas almacenadas como certificados digitales.",
+    "code_samples_sample_2_content_2": "Dichos documentos protegidos no podrán modificarse sin invalidar la firma."
   },
   "index-content-java": {
-    "title": "API de Java para administrar firmas digitales"
+    "title": "API de Java para gestionar firmas digitales",
+    "title_2": "a través de la API de Java",
+    "actions_main": "Descarga gratuita de Maven",
+    "code_title": "Firmar archivos PDF en Java",
+    "overview_description": "API para realizar firma de documentos y operaciones relacionadas en aplicaciones Java",
+    "overview_feature_1": {
+      "title": "Documentos comerciales mejorados con firmas digitales en Java",
+      "description": "Firma rápida y personalizable: GroupDocs.Signature para Java ofrece una amplia gama de opciones de firma digital para archivos PDF, imágenes y documentos de Office. Puede utilizar texto, códigos de barras, códigos QR, certificados digitales, imágenes o metadatos ocultos. El procesamiento de documentos es rápido y eficiente."
+    },
+    "overview_feature_2": {
+      "title": "Manipular documentos firmados",
+      "description": "El procesamiento avanzado de documentos implica operaciones potentes en documentos firmados utilizando GroupDocs.Signature para Java. Puede buscar y validar firmas que se hayan agregado a documentos comerciales utilizando varios criterios útiles. Además, podrás acceder a información detallada sobre el documento u obtener imágenes de vista previa de sus páginas."
+    },
+    "overview_feature_3": {
+      "title": "Variedad de opciones de salida",
+      "description": "Las sólidas opciones de firma le permiten personalizar la salida de los documentos firmados con GroupDocs.Signature para Java. Puede colocar con precisión cualquier firma en cualquier página del documento y configurar su apariencia de varias maneras. La API de Java permite guardar documentos comerciales firmados en numerosos formatos compatibles y ofrece opciones para protegerlos con contraseñas."
+    },
+    "features": {
+      "title": "Funciones de GroupDocs.Signature",
+      "description": "Firmar archivos PDF, documentos de Office e imágenes con firmas digitales",
+      "feature_1": {
+        "title": "Agregar firmas",
+        "content": "Firme un documento utilizando varios tipos de firma admitidos colocando una firma digital con precisión en cualquier posición de cualquier página."
+      },
+      "feature_2": {
+        "title": "Personalización de resultados",
+        "content": "Personalice la apariencia de la firma ajustando el color, la fuente, el borde, la rotación y otras características para lograr el resultado deseado."
+      },
+      "feature_3": {
+        "title": "Proteger documentos con contraseña",
+        "content": "Para muchos tipos de documentos admitidos, puede proteger el documento firmado con una contraseña."
+      },
+      "feature_4": {
+        "title": "Prevención de cambios no autorizados",
+        "content": "Proteja los documentos comerciales importantes firmados con un certificado digital contra modificaciones no autorizadas."
+      },
+      "feature_5": {
+        "title": "Obtención de resultados en los formatos deseados",
+        "content": "Obtenga fácilmente archivos de resultados firmados en cualquier formato compatible. También puedes convertir documentos de MS Word a PDF sin esfuerzo."
+      },
+      "feature_6": {
+        "title": "Vista previa del documento",
+        "content": "Guarde cualquier página de un documento como una imagen para su procesamiento futuro."
+      },
+      "feature_7": {
+        "title": "Buscando firmas",
+        "content": "Es posible obtener información sobre firmas agregadas previamente en documentos específicos."
+      },
+      "feature_8": {
+        "title": "Validación de documentos",
+        "content": "Validar la exactitud de las firmas en cualquier documento firmado."
+      },
+      "feature_9": {
+        "title": "Gestionar firmas",
+        "content": "Una vez que se coloca una firma en la página de un documento, se puede eliminar, mover o actualizar según sea necesario."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature para Java admite los siguientes sistemas operativos, marcos y administradores de paquetes",
+    "formats_description": "GroupDocs.Signature para Java admite operaciones con los siguientes [formatos de archivo](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Algunos casos de uso de operaciones típicas de GroupDocs.Signature para Java",
+    "code_title_sample_1": "Mejore el documento PDF con código QR",
+    "code_samples_sample_1_content_1": "Puede resultar valioso mejorar los procesos comerciales agregando [códigos QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF.",
+    "code_samples_sample_1_content_2": "Hay un ejemplo de cómo agregar un código QR usando GroupDocs.Signature para Java.",
+    "code_title_sample_2": "Utilice firma digital para proteger un DOCX",
+    "code_samples_sample_2_content_1": "Puede [Proteger un documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilizando firmas personales o corporativas almacenadas como certificados digitales.",
+    "code_samples_sample_2_content_2": "Los documentos protegidos con certificado no pueden modificarse sin invalidar la firma."
   }
 }

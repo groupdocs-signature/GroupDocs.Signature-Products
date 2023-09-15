@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, API de núvol i aplicacions de signatura de documents e
 head_description: "Obteniu una solució de signatura electrònica de documents tot en un per a aplicacions .NET, Java i basades en núvol. Signeu formats de document habituals en línia mitjançant la funció d'arrossegar i deixar anar"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Signar documents<br>mitjançant .NET API"
 description: "Signa documents i imatges digitals a qualsevol plataforma utilitzant les nostres API flexibles i solucions basades en aplicacions per a programadors i usuaris finals."
 words:
-  for: "{index-content.words_for}"
+  for: "per"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Descàrrega gratuïta de NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Llicència"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Preparat per començar?"
+  description: "Proveu les funcions de GroupDocs.Signature de manera gratuïta o sol·liciteu una llicència"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "S'ha publicat la versió {0}"
+  notes: "Mira què hi ha de nou"
+  downloads: "Descàrregues"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Signar fitxers PDF en C#"
+  more: "Més exemples"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Seleccioneu el document PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Proporcioneu text
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Estableix el color
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Signa el document i desa al fitxer
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "Visió general de GroupDocs.Signature"
+  description: "API per realitzar la signatura de documents i operacions relacionades en aplicacions .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Afegir signatures als documents empresarials en C#"
+      content: "Signatura de documents: amb GroupDocs.Signature per a .NET, podeu afegir diversos tipus de signatures, com ara text, imatges, codis de barres i certificats digitals, als documents PDF i Office. Aquesta API us permet signar els vostres documents amb gairebé qualsevol tipus de dades, incloses les metadades ocultes."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Tramitació de documents signats"
+      content: "Processament addicional: podeu realitzar operacions potents en documents signats mitjançant GroupDocs.Signature. Això inclou la cerca de signatures existents als documents empresarials i verificar-les mitjançant criteris específics. A més, podeu recuperar la informació del document i les pàgines de vista prèvia mitjançant aquesta API .NET."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Personalització dels resultats"
+      content: "GroupDocs.Signature per a .NET ofereix àmplies opcions de personalització. Podeu col·locar signatures amb precisió a qualsevol lloc de la pàgina del document i ajustar-ne l'aparença mitjançant una varietat de paràmetres. A més, aquesta API admet desar documents processats en una àmplia gamma de formats compatibles."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Independència de la plataforma"
+  description: "GroupDocs.Signature per a .NET admet els següents sistemes operatius, marcs i gestors de paquets"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formats de fitxer compatibles"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature per a .NET admet operacions amb els següents [formats de fitxer](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formats de Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Imatges i altres formats
+        * **Portàtil:** PDF
+        * **Imatges:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Altres formats d'oficina:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Altres formats
+        * **Web:** HTML, MHTML
+        * **Arxius:** ZIP, TAR, 7Z
+        * **Certificats:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Funcions de GroupDocs.Signature"
+  description: "Signar PDF, documents d'oficina i imatges de manera ràpida i precisa"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Signatura de documents"
+      content: "Afegiu un o diversos tipus de signatures compatibles amb precisió a qualsevol posició especificada dels documents empresarials."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Personalitza les signatures"
+      content: "Utilitzeu funcions com ara el color, el tipus de lletra, la vora, la rotació, etc., per configurar l'aspecte de les signatures."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Protecció amb contrasenya de documents"
+      content: "Assegureu certs tipus de documents establint una contrasenya després de signar."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Protecció davant els canvis"
+      content: "Eviteu canvis en documents empresarials importants després d'afegir una signatura amb un certificat digital."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Converteix fitxers signats a altres formats"
+      content: "Converteix fitxers signats als formats desitjats, com ara desar un document de Word com a PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Extreu visualitzacions prèvies de la pàgina"
+      content: "Extraieu pàgines de documents signats com a imatges individuals per a un processament futur."
+
+    # feature loop
+    - icon: "search"
+      title: "Cerca de signatures als documents"
+      content: "Recuperar informació sobre signatures afegides anteriorment en documents específics."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validació dels documents signats"
+      content: "Verifiqueu la signatura correcta dels documents mitjançant funcions de validació."
+
+    # feature loop
+    - icon: "update"
+      title: "Actualitzar o eliminar signatures"
+      content: "Canvieu fàcilment signatures específiques en una pàgina, modifiqueu-ne el text o suprimiu-les sense cap problema."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Exemples de codi"
+  description: "Alguns casos d'ús de GroupDocs.Signature típics per a operacions .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Afegeix el codi QR al PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Afegir [codis QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a pàgines específiques de documents PDF pot millorar els processos empresarials. A continuació es mostra un exemple de com afegir un codi QR mitjançant GroupDocs.Signature.
+        {{< landing/code title="Com posar codi QR a PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Carregueu el document per signar
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Creeu opcions de codi QR amb text predefinit
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Configura el tipus i la posició de codificació del codi QR a la pàgina
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Signeu el document i deseu-lo com a fitxer de resultats
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Protecció d'un document DOCX mitjançant un certificat digital"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Podeu [Protegir un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals. Aquests documents protegits no es poden modificar sense invalidar la signatura.
+        {{< landing/code title="A continuació s'explica com garantir la integritat del document.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Carregueu el document per signar digitalment
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Especifiqueu les opcions de signatura digital i proporcioneu el camí al fitxer de certificat
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Establiu la contrasenya del certificat
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Signeu el document i deseu-lo al camí desitjat
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

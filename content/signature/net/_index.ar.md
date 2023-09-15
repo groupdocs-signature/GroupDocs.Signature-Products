@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: "NET و Java و Cloud APIs وتطبيقات توقيع المستن�
 head_description: "احصل على حل التوقيع الإلكتروني الشامل للمستند للتطبيقات المستندة إلى .NET و Java والتطبيقات المستندة إلى السحابة. قم بتوقيع تنسيقات المستندات الشائعة عبر الإنترنت باستخدام ميزة السحب والإفلات البسيطة"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "التوقيع على وثائق<br>عبر .NET API"
 description: "قم بتوقيع المستندات والصور الرقمية على أي نظام أساسي باستخدام واجهات برمجة التطبيقات المرنة والحلول القائمة على التطبيقات للمبرمجين والمستخدمين النهائيين."
 words:
-  for: "{index-content.words_for}"
+  for: "ل"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "تحميل نوجيت مجانا"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "الترخيص"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "على استعداد للبدء؟"
+  description: "جرب ميزات GroupDocs.Signature مجانًا أو اطلب ترخيصًا"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "تم إصدار الإصدار {0}."
+  notes: "ترى ما هو الجديد"
+  downloads: "التحميلات"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "تسجيل ملفات PDF في C#"
+  more: "مزيد من الأمثلة"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // حدد مستند PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // تقديم النص
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // ضبط اللون
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // قم بتوقيع الوثيقة وحفظها في ملف
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.نظرة عامة على التوقيع"
+  description: "واجهة برمجة التطبيقات (API) لتنفيذ توقيع المستندات والعمليات ذات الصلة في تطبيقات .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "إضافة التوقيعات إلى مستندات العمل في C#"
+      content: "توقيع المستندات: باستخدام GroupDocs.Signature for .NET، يمكنك إضافة أنواع مختلفة من التوقيعات، مثل النصوص والصور والرموز الشريطية والشهادات الرقمية، إلى مستندات PDF وOffice. تسمح لك واجهة برمجة التطبيقات (API) هذه بتوقيع مستنداتك باستخدام أي نوع بيانات تقريبًا، بما في ذلك البيانات التعريفية المخفية."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "معالجة المستندات الموقعة"
+      content: "معالجة إضافية: يمكنك إجراء عمليات قوية على المستندات الموقعة باستخدام GroupDocs.Signature. يتضمن ذلك البحث عن التوقيعات الموجودة ضمن مستندات الأعمال والتحقق منها باستخدام معايير محددة. بالإضافة إلى ذلك، يمكنك استرداد معلومات المستند ومعاينة الصفحات من خلال .NET API."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "تخصيص النتائج"
+      content: "يوفر GroupDocs.Signature for .NET خيارات تخصيص واسعة النطاق. يمكنك وضع التوقيعات بدقة في أي مكان على صفحة المستند وضبط مظهرها باستخدام مجموعة متنوعة من الإعدادات. علاوة على ذلك، تدعم واجهة برمجة التطبيقات هذه حفظ المستندات التي تمت معالجتها في مجموعة واسعة من التنسيقات المدعومة."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "استقلالية المنصة"
+  description: "يدعم GroupDocs.Signature for .NET أنظمة التشغيل وأطر العمل ومديري الحزم التالية"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "تنسيقات الملفات المدعومة"
   description: |
-    {index-content-net.formats_description}
+    يدعم GroupDocs.Signature for .NET تنسيقات الملفات [التالية](https://docs.groupdocs.com/signature/net/supported-document-formats/) العمليات باستخدام.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### تنسيقات مايكروسوفت أوفيس
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### الصور والتنسيقات الأخرى
+        * **محمول:** PDF
+        * **الصور:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **أشكال مكتبية أخرى:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### تنسيقات أخرى
+        * **ويب:** HTML, MHTML
+        * **أرشيف:** ZIP, TAR, 7Z
+        * **الشهادات:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "ميزات GroupDocs.Signature"
+  description: "توقيع ملفات PDF ومستندات Office والصور بسرعة ودقة"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "توقيع الوثيقة"
+      content: "أضف واحدًا أو أكثر من أنواع التوقيعات المدعومة بدقة في أي موضع محدد في مستندات العمل."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "تخصيص التوقيعات"
+      content: "استخدم ميزات مثل اللون والخط والحدود والتدوير وما إلى ذلك لتكوين مظهر التوقيعات."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "حماية كلمة المرور للوثيقة"
+      content: "تأمين أنواع معينة من المستندات عن طريق تعيين كلمة مرور بعد التوقيع."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "الحماية من التغييرات"
+      content: "منع إجراء تغييرات على مستندات العمل المهمة بعد إلحاق توقيع بشهادة رقمية."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "تحويل الملفات الموقعة إلى صيغ أخرى"
+      content: "تحويل الملفات الموقعة إلى التنسيقات المطلوبة، مثل حفظ مستند Word كملف PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "استخراج معاينات الصفحة"
+      content: "استخرج الصفحات من المستندات الموقعة كصور فردية للمعالجة المستقبلية."
+
+    # feature loop
+    - icon: "search"
+      title: "البحث عن التوقيع في المستندات"
+      content: "استرجاع المعلومات حول التوقيعات المضافة مسبقًا في مستندات محددة."
+
+    # feature loop
+    - icon: "validate"
+      title: "التحقق من صحة الوثائق الموقعة"
+      content: "تحقق من التوقيع الصحيح للمستندات باستخدام ميزات التحقق من الصحة."
+
+    # feature loop
+    - icon: "update"
+      title: "تحديث أو حذف التوقيعات"
+      content: "يمكنك بسهولة تغيير موضع توقيعات محددة على الصفحة، أو تعديل نصها، أو حذفها دون أي مشاكل."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "عينات التعليمات البرمجية"
+  description: "تستخدم بعض حالات GroupDocs.Signature النموذجية لعمليات .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "إضافة رمز الاستجابة السريعة إلى PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        يمكن أن تؤدي إضافة [رموز QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) إلى صفحات محددة من مستندات PDF إلى تحسين العمليات التجارية. فيما يلي مثال لكيفية إضافة رمز الاستجابة السريعة باستخدام GroupDocs.Signature.
+        {{< landing/code title="كيفية وضع رمز الاستجابة السريعة على PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // قم بتحميل المستند للتوقيع
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // قم بإنشاء خيارات رمز الاستجابة السريعة بنص محدد مسبقًا
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // قم بتكوين نوع ترميز رمز الاستجابة السريعة وموضعه على الصفحة
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // قم بتوقيع المستند واحفظه كملف النتيجة
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "حماية مستند DOCX باستخدام شهادة رقمية"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        يمكنك [حماية مستند](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) باستخدام التوقيعات الشخصية أو توقيعات الشركة المخزنة كشهادات رقمية. ولا يمكن تعديل هذه المستندات المحمية دون إبطال التوقيع.
+        {{< landing/code title="إليك كيفية ضمان سلامة المستند.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // قم بتحميل المستند ليتم توقيعه رقميًا
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // حدد خيارات التوقيع الرقمي وقم بتوفير المسار إلى ملف الشهادة
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // قم بتعيين كلمة مرور الشهادة
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // قم بتوقيع المستند وحفظه في المسار المطلوب
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, pilve API-d ja veebipõhised dokumendiallkirjarakenduse
 head_description: "Hankige kõik-ühes dokumendi e-allkirja lahendus .NET-i, Java- ja pilvepõhiste rakenduste jaoks. Allkirjastage levinud dokumendivormingud veebis, kasutades lihtsat pukseerimisfunktsiooni"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Allkirjastada dokumendid<br>.NET API kaudu"
 description: "Allkirjastage digitaalseid dokumente ja pilte mis tahes platvormil, kasutades meie paindlikke API-sid ja rakendusepõhiseid lahendusi programmeerijatele ja lõppkasutajatele."
 words:
-  for: "{index-content.words_for}"
+  for: "jaoks"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Tasuta NuGeti allalaadimine"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Litsentsi andmine"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Kas olete valmis alustama?"
+  description: "Proovige GroupDocs.Signature'i funktsioone tasuta või taotlege litsentsi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Välja antud versioon {0}"
+  notes: "Vaadake, mis on uut"
+  downloads: "Allalaadimised"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "PDF-failide allkirjastamine C#-s"
+  more: "Veel näiteid"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Valige PDF-dokument
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Esitage tekst
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Määra värv
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Allkirjastage dokument ja salvestage faili
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Allkirja ülevaade"
+  description: "API dokumentide allkirjastamiseks ja sellega seotud toimingute tegemiseks .NET-i rakendustes"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Allkirjade lisamine äridokumentidele C#-s"
+      content: "Dokumentide allkirjastamine: GroupDocs.Signature for .NET abil saate PDF- ja Office'i dokumentidele lisada erinevat tüüpi allkirju, näiteks teksti, pilte, vöötkoode ja digitaalseid sertifikaate. See API võimaldab teil oma dokumente allkirjastada peaaegu iga andmetüübiga, sealhulgas peidetud metaandmetega."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Allkirjastatud dokumentide töötlemine"
+      content: "Täiendav töötlemine: saate teha võimsaid toiminguid allkirjastatud dokumentidega, kasutades GroupDocs.Signature'i. See hõlmab olemasolevate allkirjade otsimist äridokumentides ja nende kontrollimist konkreetsete kriteeriumide alusel. Lisaks saate selle .NET API kaudu hankida dokumenditeavet ja vaadata lehti."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Tulemuste kohandamine"
+      content: "GroupDocs.Signature for .NET pakub ulatuslikke kohandamisvõimalusi. Saate täpselt paigutada allkirjad kõikjal dokumendilehel ja kohandada nende välimust, kasutades erinevaid seadeid. Lisaks toetab see API töödeldud dokumentide salvestamist paljudes toetatud vormingutes."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Platvormi sõltumatus"
+  description: "GroupDocs.Signature for .NET toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Toetatud failivormingud"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET toetab toiminguid järgmiste [failivormingutega](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office'i vormingud
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Pildid ja muud vormingud
+        * **Kaasaskantav:** PDF
+        * **Pildid:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Muud kontorivormingud:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Muud vormingud
+        * **võrk:** HTML, MHTML
+        * **Arhiivid:** ZIP, TAR, 7Z
+        * **Sertifikaadid:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Allkirja funktsioonid"
+  description: "PDF-ide, Office'i dokumentide ja piltide kiire ja täpne allkirjastamine"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Dokumendi allkirjastamine"
+      content: "Lisage täpselt üks või mitu toetatud allkirjatüüpi äridokumentide mis tahes määratud kohta."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Kohandage allkirju"
+      content: "Kasutage allkirjade välimuse konfigureerimiseks selliseid funktsioone nagu värv, font, ääris, pööramine jne."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Dokumentide paroolikaitse"
+      content: "Kaitske teatud tüüpi dokumendid, määrates pärast allkirjastamist parooli."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Kaitse muutuste eest"
+      content: "Vältige oluliste äridokumentide muutmist pärast digitaalse sertifikaadiga allkirja lisamist."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Teisendage allkirjastatud failid muudesse vormingutesse"
+      content: "Teisendage allkirjastatud failid soovitud vormingusse, näiteks salvestage Wordi dokument PDF-vormingus."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Ekstraktige lehe eelvaated"
+      content: "Eraldage allkirjastatud dokumentidest lehed üksikute piltidena edaspidiseks töötlemiseks."
+
+    # feature loop
+    - icon: "search"
+      title: "Allkirjaotsing dokumentides"
+      content: "Hankige teavet konkreetsetes dokumentides varem lisatud allkirjade kohta."
+
+    # feature loop
+    - icon: "validate"
+      title: "Kinnitage allkirjastatud dokumendid"
+      content: "Kontrollige dokumentide õiget allkirjastamist valideerimisfunktsioonide abil."
+
+    # feature loop
+    - icon: "update"
+      title: "Allkirjade värskendamine või kustutamine"
+      content: "Saate hõlpsalt lehel konkreetseid allkirju ümber paigutada, nende teksti muuta või kustutada ilma probleemideta."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Koodi näidised"
+  description: "Mõned tüüpilised GroupDocs.Signature'i kasutamise juhtumid .NET-i toimingute jaoks"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Lisage PDF-i QR-kood"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        [QR-koodide](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisamine PDF-dokumentide konkreetsetele lehtedele võib äriprotsesse täiustada. Allpool on näide QR-koodi lisamisest GroupDocs.Signature abil.
+        {{< landing/code title="Kuidas panna QR-kood PDF-i.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Laadige alla allkirjastatav dokument
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Looge QR-koodi valikud eelnevalt määratletud tekstiga
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Konfigureerige QR-koodi kodeeringu tüüp ja asukoht lehel
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Allkirjastage dokument ja salvestage see tulemusfailina
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX-dokumendi kaitsmine digitaalse sertifikaadi abil"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju. Selliseid kaitstud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata.
+        {{< landing/code title="Siin on, kuidas tagada dokumendi terviklikkus.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Laadige digitaalselt allkirjastatav dokument
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Määrake digitaalse allkirjastamise suvandid ja määrake sertifikaadi faili tee
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Määrake sertifikaadi parool
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Allkirjastage dokument ja salvestage see soovitud teele
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

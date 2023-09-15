@@ -245,12 +245,186 @@
     "api_nocodelabel": "Tüm No Code Uygulamalarını Görüntüle",
     "api_nocode_1_content": "Microsoft Word, Excel, PowerPoint, Visio ve PDF dosyalarını metin, resim, Barkod veya QR-Kodu ile imzalayın.",
     "api_nocode_2_content": "Word belgelerini doğrudan tarayıcınızdan ücretsiz olarak çevrimiçi olarak dijital olarak imzalayın.",
-    "api_nocode_3_content": "Herhangi bir web tarayıcısından metin, resim veya barkod kullanarak PDF dosyalarını e-İmzalayın."
+    "api_nocode_3_content": "Herhangi bir web tarayıcısından metin, resim veya barkod kullanarak PDF dosyalarını e-İmzalayın.",
+    "title_1": "Belgeleri imzalamak",
+    "words_for": "için",
+    "actions_alt": "Lisanslama",
+    "actions_title": "başlamaya hazır mısın?",
+    "actions_description": "GroupDocs.Signature özelliklerini ücretsiz deneyin veya lisans isteyin",
+    "release_title": "Sürüm {0} yayınlandı",
+    "release_notes": "Yenilikleri görün",
+    "release_downloads": "İndirilenler",
+    "code_more": "Daha fazla örnek",
+    "code_comment_1": "PDF belgesini seçin",
+    "code_comment_2": "Metin sağlayın",
+    "code_comment_3": "Rengi ayarla",
+    "code_comment_4": "Belgeyi imzalayın ve dosyaya kaydedin",
+    "overview_title": "GroupDocs.Signature'a Genel Bakış",
+    "platforms_title": "Platform bağımsızlığı",
+    "formats_title": "Desteklenen dosya formatları",
+    "formats_groups": {
+      "title_1": "Microsoft Office formatları",
+      "title_2": "Görseller ve Diğer Formatlar",
+      "title_3": "Diğer formatlar",
+      "format_portable": "Taşınabilir",
+      "format_other_office": "Diğer ofis formatları",
+      "format_images": "Görüntüler",
+      "format_web": "ağ",
+      "format_archives": "Arşivler",
+      "format_certificates": "Sertifikalar"
+    },
+    "code_samples": {
+      "title": "Kod örnekleri",
+      "sample_1": {
+        "code_title": "QR kodunu PDF'ye nasıl yerleştiririm?",
+        "comment_1": "İmzalanacak belgeyi yükleyin",
+        "comment_2": "Önceden tanımlanmış metinle QR kodu seçenekleri oluşturun",
+        "comment_3": "QR kodu kodlama türünü ve sayfadaki konumunu yapılandırın",
+        "comment_4": "Belgeyi imzalayın ve sonuç dosyası olarak kaydedin"
+      },
+      "sample_2": {
+        "code_title": "Belge bütünlüğünün nasıl sağlanacağı aşağıda açıklanmıştır.",
+        "comment_1": "Dijital olarak imzalanacak belgeyi yükleyin",
+        "comment_2": "Dijital imzalama seçeneklerini belirtin ve sertifika dosyasının yolunu belirtin",
+        "comment_3": "Sertifika şifresini ayarlayın",
+        "comment_4": "Belgeyi imzalayın ve istediğiniz yola kaydedin"
+      }
+    }
   },
   "index-content-net": {
-    "title": "Elektronik İmzalar için Yerel .NET API'si"
+    "title": "Elektronik İmzalar için Yerel .NET API'si",
+    "title_2": ".NET API aracılığıyla",
+    "actions_main": "Ücretsiz NuGet İndirme",
+    "code_title": "C#'ta PDF dosyalarını imzalayın",
+    "overview_description": ".NET uygulamalarında belge imzalama ve ilgili işlemleri gerçekleştirmek için API",
+    "overview_feature_1": {
+      "title": "C#'ta iş belgelerine imza ekleme",
+      "description": "Belge imzalama: GroupDocs.Signature for .NET ile PDF ve Office belgelerine metin, resim, barkod ve dijital sertifika gibi çeşitli imza türlerini ekleyebilirsiniz. Bu API, belgelerinizi gizli meta veriler de dahil olmak üzere neredeyse her türlü veri türüyle imzalamanıza olanak tanır."
+    },
+    "overview_feature_2": {
+      "title": "İmzalı belgelerin işlenmesi",
+      "description": "Ek işlemler: GroupDocs.Signature'ı kullanarak imzalı belgeler üzerinde güçlü işlemler gerçekleştirebilirsiniz. Bu, iş belgelerinde mevcut imzaların aranmasını ve bunların belirli ölçütler kullanılarak doğrulanmasını içerir. Ek olarak, bu .NET API aracılığıyla belge bilgilerini alabilir ve sayfaları önizleyebilirsiniz."
+    },
+    "overview_feature_3": {
+      "title": "Sonuçları özelleştirme",
+      "description": "GroupDocs.Signature for .NET kapsamlı özelleştirme seçenekleri sunar. İmzaları belge sayfasında herhangi bir yere tam olarak konumlandırabilir ve çeşitli ayarları kullanarak görünümlerini ayarlayabilirsiniz. Ayrıca bu API, işlenmiş belgelerin çok çeşitli desteklenen formatlarda kaydedilmesini destekler."
+    },
+    "features": {
+      "title": "GroupDocs.Signature özellikleri",
+      "description": "PDF'leri, Office Belgelerini ve Görüntüleri hızlı ve doğru bir şekilde imzalama",
+      "feature_1": {
+        "title": "Belge imzalama",
+        "content": "İş belgelerinde belirtilen herhangi bir konuma bir veya daha fazla desteklenen imza türünü doğru bir şekilde ekleyin."
+      },
+      "feature_2": {
+        "title": "İmzaları özelleştirin",
+        "content": "İmzaların görünümünü yapılandırmak için renk, yazı tipi, kenarlık, döndürme vb. özelliklerden yararlanın."
+      },
+      "feature_3": {
+        "title": "Belge şifre koruması",
+        "content": "İmzaladıktan sonra bir parola belirleyerek belirli belge türlerini güvence altına alın."
+      },
+      "feature_4": {
+        "title": "Değişikliklere karşı koruma",
+        "content": "Dijital sertifikayla imza ekledikten sonra önemli iş belgelerinde değişiklik yapılmasını önleyin."
+      },
+      "feature_5": {
+        "title": "İmzalı dosyaları diğer formatlara dönüştürün",
+        "content": "İmzalı dosyaları, örneğin bir Word belgesini PDF olarak kaydetmek gibi istediğiniz biçimlere dönüştürün."
+      },
+      "feature_6": {
+        "title": "Sayfa önizlemelerini çıkar",
+        "content": "İmzalı belgelerdeki sayfaları ileride işlenmek üzere ayrı ayrı görüntüler olarak çıkarın."
+      },
+      "feature_7": {
+        "title": "Belgelerde imza arama",
+        "content": "Belirli belgelere önceden eklenen imzalar hakkında bilgi alın."
+      },
+      "feature_8": {
+        "title": "İmzalı belgeleri doğrulayın",
+        "content": "Doğrulama özelliklerini kullanarak belgelerin doğru şekilde imzalandığını doğrulayın."
+      },
+      "feature_9": {
+        "title": "İmzaları güncelleme veya silme",
+        "content": "Belirli imzaları bir sayfada kolayca yeniden konumlandırın, metinlerini değiştirin veya herhangi bir sorun yaşamadan silin."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler",
+    "formats_description": "GroupDocs.Signature for .NET, aşağıdaki [dosya formatlarıyla](https://docs.groupdocs.com/signature/net/supported-document-formats/) yapılan işlemleri destekler.",
+    "code_samples_description": ".NET işlemleri için tipik GroupDocs.Signature'ın bazı kullanım durumları",
+    "code_title_sample_1": "PDF'ye QR kodu ekleyin",
+    "code_samples_sample_1_content_1": "PDF belgelerinin belirli sayfalarına [QR kodlarının](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) eklenmesi iş süreçlerini iyileştirebilir.",
+    "code_samples_sample_1_content_2": "Aşağıda GroupDocs.Signature kullanılarak QR kodunun nasıl ekleneceğine ilişkin bir örnek verilmiştir.",
+    "code_title_sample_2": "DOCX belgesini dijital sertifika kullanarak koruma",
+    "code_samples_sample_2_content_1": "Dijital sertifikalar olarak saklanan kişisel veya kurumsal imzaları kullanarak [Bir Belgeyi Koruyabilirsiniz](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/).",
+    "code_samples_sample_2_content_2": "Bu tür korumalı belgeler, imzayı geçersiz kılmadan değiştirilemez."
   },
   "index-content-java": {
-    "title": "Dijital İmzaları Yönetmek için Java API"
+    "title": "Dijital İmzaları Yönetmek için Java API",
+    "title_2": "Java API'si aracılığıyla",
+    "actions_main": "Ücretsiz Maven İndir",
+    "code_title": "PDF dosyalarını Java'da imzalayın",
+    "overview_description": "Java uygulamalarında belge imzalama ve ilgili işlemleri gerçekleştirmek için API",
+    "overview_feature_1": {
+      "title": "Java'da dijital imzalarla geliştirilmiş iş belgeleri",
+      "description": "Hızlı ve özelleştirilebilir imzalama: GroupDocs.Signature for Java, PDF'ler, resimler ve Office belgeleri için çok çeşitli dijital imza seçenekleri sunar. Metin, barkod, QR kodları, dijital sertifikalar, resimler veya gizli meta verileri kullanabilirsiniz. Belge işleme hızlı ve etkilidir."
+    },
+    "overview_feature_2": {
+      "title": "İmzalı belgeleri işleme",
+      "description": "Gelişmiş belge işleme, GroupDocs.Signature for Java kullanılarak imzalanmış belgeler üzerinde güçlü işlemler içerir. Çeşitli faydalı kriterleri kullanarak iş belgelerine eklenen imzaları arayabilir ve doğrulayabilirsiniz. Ayrıca belge hakkında detaylı bilgilere ulaşabilir veya sayfalarının ön izleme görsellerini alabilirsiniz."
+    },
+    "overview_feature_3": {
+      "title": "Çeşitli çıktı seçenekleri",
+      "description": "Güçlü imzalama seçenekleri, GroupDocs.Signature for Java ile imzalanan belgelerin çıktısını özelleştirmenize olanak tanır. Herhangi bir imzayı herhangi bir belge sayfasında tam olarak konumlandırabilir ve görünümünü çeşitli şekillerde yapılandırabilirsiniz. Java API, imzalanmış iş belgelerinin çok sayıda desteklenen formatta kaydedilmesini destekler ve bunların parolalarla güvenliğinin sağlanmasına yönelik seçenekler sunar."
+    },
+    "features": {
+      "title": "GroupDocs.Signature özellikleri",
+      "description": "PDF'leri, Office Belgelerini ve görüntüleri dijital imzalarla imzalama",
+      "feature_1": {
+        "title": "İmza Ekleme",
+        "content": "Dijital imzayı herhangi bir sayfada herhangi bir konuma tam olarak yerleştirerek, desteklenen çeşitli imza türlerini kullanarak bir belgeyi imzalayın."
+      },
+      "feature_2": {
+        "title": "Sonuçları özelleştirme",
+        "content": "İstenilen sonucu elde etmek için rengi, yazı tipini, kenarlığı, döndürmeyi ve diğer özellikleri ayarlayarak imza görünümünü özelleştirin."
+      },
+      "feature_3": {
+        "title": "Belgeleri şifreyle koruma",
+        "content": "Desteklenen birçok belge türü için imzalı belgeyi bir parolayla koruyabilirsiniz."
+      },
+      "feature_4": {
+        "title": "Yetkisiz değişikliklerin önlenmesi",
+        "content": "Dijital sertifikayla imzalanmış önemli iş belgelerini yetkisiz değişikliklere karşı koruyun."
+      },
+      "feature_5": {
+        "title": "İstenilen formatlarda sonuçların elde edilmesi",
+        "content": "Desteklenen herhangi bir formattaki imzalı sonuç dosyalarını kolayca edinin. Ayrıca MS Word belgelerini zahmetsizce PDF'ye dönüştürebilirsiniz."
+      },
+      "feature_6": {
+        "title": "Belge önizlemesi",
+        "content": "Gelecekteki işlemler için belgenin herhangi bir sayfasını görüntü olarak kaydedin."
+      },
+      "feature_7": {
+        "title": "İmza aranıyor",
+        "content": "Belirli belgelerde daha önce eklenen imzalar hakkında bilgi almak mümkündür."
+      },
+      "feature_8": {
+        "title": "Belgeleri doğrulama",
+        "content": "İmzalı herhangi bir belgedeki imzaların doğruluğunu doğrulayın."
+      },
+      "feature_9": {
+        "title": "İmzaları yönetme",
+        "content": "İmza bir belge sayfasına yerleştirildikten sonra gerektiğinde silinebilir, taşınabilir veya güncellenebilir."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler",
+    "formats_description": "GroupDocs.Signature for Java, aşağıdaki [dosya formatlarıyla](https://docs.groupdocs.com/signature/java/supported-document-formats/) yapılan işlemleri destekler.",
+    "code_samples_description": "Java işlemleri için tipik GroupDocs.Signature'ın bazı kullanım durumları",
+    "code_title_sample_1": "PDF belgesini QR koduyla zenginleştirin",
+    "code_samples_sample_1_content_1": "PDF belgelerinin belirli sayfalarına [QR kodları](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ekleyerek iş süreçlerini geliştirmek değerli olabilir.",
+    "code_samples_sample_1_content_2": "GroupDocs.Signature for Java kullanılarak QR kodunun nasıl ekleneceğine dair bir örnek bulunmaktadır.",
+    "code_title_sample_2": "DOCX'i korumak için dijital imza kullanma",
+    "code_samples_sample_2_content_1": "Dijital sertifikalar olarak saklanan kişisel veya kurumsal imzaları kullanarak [Bir Belgeyi Koruyun](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) yapabilirsiniz.",
+    "code_samples_sample_2_content_2": "Sertifika ile güvence altına alınan belgelerde imza geçersiz kılınmadan değişiklik yapılamaz."
   }
 }

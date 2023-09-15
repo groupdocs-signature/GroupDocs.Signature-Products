@@ -245,12 +245,186 @@
     "api_nocodelabel": "Veure totes les aplicacions sense codi",
     "api_nocode_1_content": "Signa fitxers de Microsoft Word, Excel, PowerPoint, Visio i PDF amb text, imatge, codi de barres o codi QR.",
     "api_nocode_2_content": "Signeu digitalment documents de Word en línia directament des del vostre navegador de manera gratuïta.",
-    "api_nocode_3_content": "E-Sign fitxers PDF amb text, imatge o codi de barres des de qualsevol navegador web."
+    "api_nocode_3_content": "E-Sign fitxers PDF amb text, imatge o codi de barres des de qualsevol navegador web.",
+    "title_1": "Signar documents",
+    "words_for": "per",
+    "actions_alt": "Llicència",
+    "actions_title": "Preparat per començar?",
+    "actions_description": "Proveu les funcions de GroupDocs.Signature de manera gratuïta o sol·liciteu una llicència",
+    "release_title": "S'ha publicat la versió {0}",
+    "release_notes": "Mira què hi ha de nou",
+    "release_downloads": "Descàrregues",
+    "code_more": "Més exemples",
+    "code_comment_1": "Seleccioneu el document PDF",
+    "code_comment_2": "Proporcioneu text",
+    "code_comment_3": "Estableix el color",
+    "code_comment_4": "Signa el document i desa al fitxer",
+    "overview_title": "Visió general de GroupDocs.Signature",
+    "platforms_title": "Independència de la plataforma",
+    "formats_title": "Formats de fitxer compatibles",
+    "formats_groups": {
+      "title_1": "Formats de Microsoft Office",
+      "title_2": "Imatges i altres formats",
+      "title_3": "Altres formats",
+      "format_portable": "Portàtil",
+      "format_other_office": "Altres formats d'oficina",
+      "format_images": "Imatges",
+      "format_web": "Web",
+      "format_archives": "Arxius",
+      "format_certificates": "Certificats"
+    },
+    "code_samples": {
+      "title": "Exemples de codi",
+      "sample_1": {
+        "code_title": "Com posar codi QR a PDF.",
+        "comment_1": "Carregueu el document per signar",
+        "comment_2": "Creeu opcions de codi QR amb text predefinit",
+        "comment_3": "Configura el tipus i la posició de codificació del codi QR a la pàgina",
+        "comment_4": "Signeu el document i deseu-lo com a fitxer de resultats"
+      },
+      "sample_2": {
+        "code_title": "A continuació s'explica com garantir la integritat del document.",
+        "comment_1": "Carregueu el document per signar digitalment",
+        "comment_2": "Especifiqueu les opcions de signatura digital i proporcioneu el camí al fitxer de certificat",
+        "comment_3": "Establiu la contrasenya del certificat",
+        "comment_4": "Signeu el document i deseu-lo al camí desitjat"
+      }
+    }
   },
   "index-content-net": {
-    "title": "API nativa de .NET per a signatures electròniques"
+    "title": "API nativa de .NET per a signatures electròniques",
+    "title_2": "mitjançant .NET API",
+    "actions_main": "Descàrrega gratuïta de NuGet",
+    "code_title": "Signar fitxers PDF en C#",
+    "overview_description": "API per realitzar la signatura de documents i operacions relacionades en aplicacions .NET",
+    "overview_feature_1": {
+      "title": "Afegir signatures als documents empresarials en C#",
+      "description": "Signatura de documents: amb GroupDocs.Signature per a .NET, podeu afegir diversos tipus de signatures, com ara text, imatges, codis de barres i certificats digitals, als documents PDF i Office. Aquesta API us permet signar els vostres documents amb gairebé qualsevol tipus de dades, incloses les metadades ocultes."
+    },
+    "overview_feature_2": {
+      "title": "Tramitació de documents signats",
+      "description": "Processament addicional: podeu realitzar operacions potents en documents signats mitjançant GroupDocs.Signature. Això inclou la cerca de signatures existents als documents empresarials i verificar-les mitjançant criteris específics. A més, podeu recuperar la informació del document i les pàgines de vista prèvia mitjançant aquesta API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personalització dels resultats",
+      "description": "GroupDocs.Signature per a .NET ofereix àmplies opcions de personalització. Podeu col·locar signatures amb precisió a qualsevol lloc de la pàgina del document i ajustar-ne l'aparença mitjançant una varietat de paràmetres. A més, aquesta API admet desar documents processats en una àmplia gamma de formats compatibles."
+    },
+    "features": {
+      "title": "Funcions de GroupDocs.Signature",
+      "description": "Signar PDF, documents d'oficina i imatges de manera ràpida i precisa",
+      "feature_1": {
+        "title": "Signatura de documents",
+        "content": "Afegiu un o diversos tipus de signatures compatibles amb precisió a qualsevol posició especificada dels documents empresarials."
+      },
+      "feature_2": {
+        "title": "Personalitza les signatures",
+        "content": "Utilitzeu funcions com ara el color, el tipus de lletra, la vora, la rotació, etc., per configurar l'aspecte de les signatures."
+      },
+      "feature_3": {
+        "title": "Protecció amb contrasenya de documents",
+        "content": "Assegureu certs tipus de documents establint una contrasenya després de signar."
+      },
+      "feature_4": {
+        "title": "Protecció davant els canvis",
+        "content": "Eviteu canvis en documents empresarials importants després d'afegir una signatura amb un certificat digital."
+      },
+      "feature_5": {
+        "title": "Converteix fitxers signats a altres formats",
+        "content": "Converteix fitxers signats als formats desitjats, com ara desar un document de Word com a PDF."
+      },
+      "feature_6": {
+        "title": "Extreu visualitzacions prèvies de la pàgina",
+        "content": "Extraieu pàgines de documents signats com a imatges individuals per a un processament futur."
+      },
+      "feature_7": {
+        "title": "Cerca de signatures als documents",
+        "content": "Recuperar informació sobre signatures afegides anteriorment en documents específics."
+      },
+      "feature_8": {
+        "title": "Validació dels documents signats",
+        "content": "Verifiqueu la signatura correcta dels documents mitjançant funcions de validació."
+      },
+      "feature_9": {
+        "title": "Actualitzar o eliminar signatures",
+        "content": "Canvieu fàcilment signatures específiques en una pàgina, modifiqueu-ne el text o suprimiu-les sense cap problema."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature per a .NET admet els següents sistemes operatius, marcs i gestors de paquets",
+    "formats_description": "GroupDocs.Signature per a .NET admet operacions amb els següents [formats de fitxer](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Alguns casos d'ús de GroupDocs.Signature típics per a operacions .NET",
+    "code_title_sample_1": "Afegeix el codi QR al PDF",
+    "code_samples_sample_1_content_1": "Afegir [codis QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a pàgines específiques de documents PDF pot millorar els processos empresarials.",
+    "code_samples_sample_1_content_2": "A continuació es mostra un exemple de com afegir un codi QR mitjançant GroupDocs.Signature.",
+    "code_title_sample_2": "Protecció d'un document DOCX mitjançant un certificat digital",
+    "code_samples_sample_2_content_1": "Podeu [Protegir un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals.",
+    "code_samples_sample_2_content_2": "Aquests documents protegits no es poden modificar sense invalidar la signatura."
   },
   "index-content-java": {
-    "title": "API de Java per gestionar signatures digitals"
+    "title": "API de Java per gestionar signatures digitals",
+    "title_2": "mitjançant l'API de Java",
+    "actions_main": "Descàrrega gratuïta de Maven",
+    "code_title": "Signar fitxers PDF en Java",
+    "overview_description": "API per dur a terme la signatura de documents i operacions relacionades en aplicacions Java",
+    "overview_feature_1": {
+      "title": "Documents empresarials millorats amb signatures digitals en Java",
+      "description": "Signatura ràpida i personalitzable: GroupDocs.Signature per a Java ofereix una àmplia gamma d'opcions de signatura digital per a PDF, imatges i documents d'Office. Podeu utilitzar text, codis de barres, codis QR, certificats digitals, imatges o metadades ocultes. El processament de documents és ràpid i eficient."
+    },
+    "overview_feature_2": {
+      "title": "Manipulació de documents signats",
+      "description": "El processament avançat de documents implica operacions potents en documents signats mitjançant GroupDocs.Signature per a Java. Podeu cercar i validar signatures que s'han afegit als documents empresarials mitjançant diversos criteris útils. A més, podeu accedir a informació detallada sobre el document o obtenir imatges de vista prèvia de les seves pàgines."
+    },
+    "overview_feature_3": {
+      "title": "Varietat d'opcions de sortida",
+      "description": "Les opcions de signatura sòlides us permeten personalitzar la sortida dels documents signats amb GroupDocs.Signature per a Java. Podeu col·locar amb precisió qualsevol signatura a qualsevol pàgina del document i configurar-ne l'aparença de diverses maneres. L'API de Java admet desar documents comercials signats en nombrosos formats compatibles i ofereix opcions per protegir-los amb contrasenyes."
+    },
+    "features": {
+      "title": "Funcions de GroupDocs.Signature",
+      "description": "Signatura de PDF, documents d'oficina i imatges amb signatures digitals",
+      "feature_1": {
+        "title": "Afegir signatures",
+        "content": "Signeu un document amb diversos tipus de signatura compatibles col·locant una signatura digital precisament en qualsevol posició de qualsevol pàgina."
+      },
+      "feature_2": {
+        "title": "Personalització dels resultats",
+        "content": "Personalitzeu l'aspecte de la signatura ajustant el color, el tipus de lletra, la vora, la rotació i altres funcions per aconseguir el resultat desitjat."
+      },
+      "feature_3": {
+        "title": "Protecció de documents amb contrasenya",
+        "content": "Per a molts tipus de documents admesos, podeu protegir el document signat amb una contrasenya."
+      },
+      "feature_4": {
+        "title": "Prevenció de canvis no autoritzats",
+        "content": "Protegiu els documents comercials importants signats amb un certificat digital de modificacions no autoritzades."
+      },
+      "feature_5": {
+        "title": "Obtenció de resultats en els formats desitjats",
+        "content": "Obteniu fàcilment fitxers de resultats signats en qualsevol format compatible. També podeu convertir documents de MS Word a PDF sense esforç."
+      },
+      "feature_6": {
+        "title": "Vista prèvia del document",
+        "content": "Deseu qualsevol pàgina d'un document com a imatge per a un processament futur."
+      },
+      "feature_7": {
+        "title": "Recerca de signatures",
+        "content": "És possible obtenir informació sobre signatures afegides anteriorment en documents específics."
+      },
+      "feature_8": {
+        "title": "Validació de documents",
+        "content": "Valida la correcció de les signatures en qualsevol document signat."
+      },
+      "feature_9": {
+        "title": "Gestió de signatures",
+        "content": "Un cop s'ha col·locat una signatura a la pàgina d'un document, es pot esborrar, moure o actualitzar segons sigui necessari."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature per a Java admet els següents sistemes operatius, marcs i gestors de paquets",
+    "formats_description": "GroupDocs.Signature per a Java admet operacions amb els següents [formats de fitxer](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Alguns casos d'ús de les operacions típiques de GroupDocs.Signature per a Java",
+    "code_title_sample_1": "Millora el document PDF amb el codi QR",
+    "code_samples_sample_1_content_1": "Millorar els processos empresarials afegint [codis QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a pàgines específiques de documents PDF pot ser valuós.",
+    "code_samples_sample_1_content_2": "Hi ha un exemple de com afegir un codi QR amb GroupDocs.Signature per a Java.",
+    "code_title_sample_2": "Utilitzeu la signatura digital per protegir un DOCX",
+    "code_samples_sample_2_content_1": "Podeu [protegir un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals.",
+    "code_samples_sample_2_content_2": "Els documents assegurats amb certificat no es poden alterar sense invalidar la signatura."
   }
 }

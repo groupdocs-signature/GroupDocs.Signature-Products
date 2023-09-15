@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API & Aplikasi Tanda Tangan Dokumen Online"
 head_description: "Dapatkan solusi e-signature dokumen all-in-one untuk .NET, Java, dan aplikasi berbasis cloud. Tandatangani format dokumen umum secara online menggunakan fitur drag and drop sederhana"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Menandatangani dokumen<br>melalui .NET API"
 description: "Menandatangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
 words:
-  for: "{index-content.words_for}"
+  for: "untuk"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Unduh NuGet Gratis"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Perizinan"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Signature secara gratis atau minta lisensi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Menandatangani file PDF di C#"
+  more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Pilih dokumen PDF
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Berikan teks
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Tetapkan warna
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Tanda tangani dokumen dan simpan ke file
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Ikhtisar Tanda Tangan"
+  description: "API untuk melakukan penandatanganan dokumen dan operasi terkait dalam aplikasi .NET"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Menambahkan tanda tangan ke dokumen bisnis di C#"
+      content: "Penandatanganan dokumen: Dengan GroupDocs.Signature untuk .NET, Anda dapat menambahkan berbagai jenis tanda tangan, seperti teks, gambar, kode batang, dan sertifikat digital, ke dokumen PDF dan Office. API ini memungkinkan Anda menandatangani dokumen dengan hampir semua tipe data, termasuk metadata tersembunyi."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Memproses dokumen yang ditandatangani"
+      content: "Pemrosesan tambahan: Anda dapat melakukan operasi canggih pada dokumen yang ditandatangani menggunakan GroupDocs.Signature. Ini termasuk mencari tanda tangan yang ada dalam dokumen bisnis dan memverifikasinya menggunakan kriteria tertentu. Selain itu, Anda dapat mengambil informasi dokumen dan melihat halaman pratinjau melalui .NET API ini."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Menyesuaikan hasil"
+      content: "GroupDocs.Signature untuk .NET menawarkan opsi penyesuaian yang luas. Anda dapat secara tepat memposisikan tanda tangan di mana saja pada halaman dokumen dan menyesuaikan tampilannya menggunakan berbagai pengaturan. Selain itu, API ini mendukung penyimpanan dokumen yang diproses dalam berbagai format yang didukung."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Independensi platform"
+  description: "GroupDocs.Signature untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Format file yang didukung"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature untuk .NET mendukung operasi dengan [format file](https://docs.groupdocs.com/signature/net/supported-document-formats/) berikut.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### format Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Gambar & Format Lainnya
+        * **Portabel:** PDF
+        * **Gambar-gambar:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Format kantor lainnya:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Format lainnya
+        * **jaring:** HTML, MHTML
+        * **Arsip:** ZIP, TAR, 7Z
+        * **Sertifikat:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "Fitur GroupDocs.Signature"
+  description: "Menandatangani PDF, Dokumen Office, dan Gambar dengan cepat dan akurat"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Penandatanganan dokumen"
+      content: "Tambahkan satu atau beberapa jenis tanda tangan yang didukung secara akurat pada posisi tertentu pada dokumen bisnis."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Sesuaikan tanda tangan"
+      content: "Manfaatkan fitur seperti warna, font, batas, rotasi, dll., untuk mengonfigurasi tampilan tanda tangan."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Perlindungan kata sandi dokumen"
+      content: "Amankan jenis dokumen tertentu dengan menetapkan kata sandi setelah penandatanganan."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Perlindungan dari perubahan"
+      content: "Cegah perubahan pada dokumen bisnis penting setelah menambahkan tanda tangan dengan sertifikat digital."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Konversikan file yang ditandatangani ke format lain"
+      content: "Konversikan file yang ditandatangani ke format yang diinginkan, seperti menyimpan dokumen Word sebagai PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Ekstrak pratinjau halaman"
+      content: "Ekstrak halaman dari dokumen yang ditandatangani sebagai gambar individual untuk diproses di masa mendatang."
+
+    # feature loop
+    - icon: "search"
+      title: "Pencarian tanda tangan dalam dokumen"
+      content: "Ambil informasi tentang tanda tangan yang ditambahkan sebelumnya dalam dokumen tertentu."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validasi dokumen yang ditandatangani"
+      content: "Verifikasi penandatanganan dokumen yang benar menggunakan fitur validasi."
+
+    # feature loop
+    - icon: "update"
+      title: "Perbarui atau hapus tanda tangan"
+      content: "Ubah posisi tanda tangan tertentu dengan mudah di halaman, ubah teksnya, atau hapus tanpa masalah apa pun."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan GroupDocs.Signature untuk operasi .NET"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Tambahkan kode QR ke PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Menambahkan [kode QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) ke halaman tertentu dokumen PDF dapat meningkatkan proses bisnis. Di bawah ini adalah contoh cara menambahkan kode QR menggunakan GroupDocs.Signature.
+        {{< landing/code title="Cara memasukkan kode QR ke PDF.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Muat dokumen yang akan ditandatangani
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Buat opsi kode QR dengan teks yang telah ditentukan sebelumnya
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Konfigurasikan jenis dan posisi pengkodean kode QR pada halaman
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Tanda tangani dokumen dan simpan sebagai file hasil
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Melindungi dokumen DOCX menggunakan sertifikat digital"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Anda dapat [Melindungi Dokumen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) menggunakan tanda tangan pribadi atau perusahaan yang disimpan sebagai sertifikat digital. Dokumen yang dilindungi tersebut tidak dapat diubah tanpa membatalkan tanda tangannya.
+        {{< landing/code title="Berikut cara memastikan integritas dokumen.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Muat dokumen yang akan ditandatangani secara digital
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Tentukan opsi penandatanganan digital dan berikan jalur ke file sertifikat
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Tetapkan kata sandi sertifikat
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Tanda tangani dokumen dan simpan ke jalur yang diinginkan
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

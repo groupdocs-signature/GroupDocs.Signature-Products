@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:21
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: "NET، جاوا، APIهای ابری و برنامه‌های امض
 head_description: "راه حل امضای الکترونیک سند یکپارچه برای دات نت، جاوا و برنامه های کاربردی مبتنی بر ابر دریافت کنید. با استفاده از قابلیت ساده کشیدن و رها کردن، فرمت های رایج اسناد را به صورت آنلاین امضا کنید"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "اسناد را امضا کنید<br>از طریق Java API"
 description: "با استفاده از APIهای منعطف و راه حل های مبتنی بر برنامه برای برنامه نویسان و کاربران نهایی، اسناد و تصاویر دیجیتال را روی هر پلتفرمی امضا کنید."
 words:
-  for: "{index-content.words_for}"
+  for: "برای"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "دانلود رایگان Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "صدور مجوز"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Signature را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "نسخه {0} منتشر شد"
+  notes: "ببینید چه چیز جدیدی است"
+  downloads: "دانلودها"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "فایل های PDF را در جاوا امضا کنید"
+  more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // سند PDF را انتخاب کنید
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // متن ارائه دهید
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // سند را امضا کرده و در فایل ذخیره کنید
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "نمای کلی GroupDocs.Signature"
+  description: "API برای انجام امضای سند و عملیات مرتبط در برنامه های جاوا"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "اسناد تجاری بهبود یافته با امضای دیجیتال در جاوا"
+      content: "امضای سریع و قابل تنظیم: GroupDocs.Signature برای جاوا طیف گسترده ای از گزینه های امضای دیجیتال را برای فایل های PDF، تصاویر و اسناد آفیس ارائه می دهد. می‌توانید از متن، بارکد، کدهای QR، گواهی‌های دیجیتال، تصاویر یا ابرداده‌های پنهان استفاده کنید. پردازش اسناد سریع و کارآمد است."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "دستکاری اسناد امضا شده"
+      content: "پردازش سند پیشرفته شامل عملیات قدرتمندی بر روی اسناد امضا شده با استفاده از GroupDocs.Signature برای جاوا است. می توانید امضاهایی را که به اسناد تجاری اضافه شده اند با استفاده از معیارهای مفید مختلف جستجو و تأیید کنید. علاوه بر این، می‌توانید به اطلاعات دقیق درباره سند دسترسی داشته باشید یا تصاویر پیش‌نمایش صفحات آن را دریافت کنید."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "تنوع انتخاب های خروجی"
+      content: "گزینه های امضای قوی به شما امکان می دهد خروجی را برای اسناد امضا شده با GroupDocs.Signature برای جاوا سفارشی کنید. شما می توانید دقیقاً هر امضا را در هر صفحه سند قرار دهید و ظاهر آن را به روش های مختلف پیکربندی کنید. Java API از ذخیره اسناد تجاری امضا شده در قالب های متعدد پشتیبانی شده پشتیبانی می کند و گزینه هایی را برای ایمن سازی آنها با رمزهای عبور ارائه می دهد."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "استقلال سکو"
+  description: "GroupDocs.Signature برای جاوا از سیستم عامل ها، چارچوب ها و مدیران بسته های زیر پشتیبانی می کند"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "فرمت های فایل پشتیبانی شده"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature قالب‌های فایل [زیر پشتیبانی می‌کند](https://docs.groupdocs.com/signature/java/supported-document-formats/) برای جاوا از عملیات با.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### فرمت های مایکروسافت آفیس
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### تصاویر و فرمت های دیگر
+        * **قابل حمل:** PDF
+        * **تصاویر:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **سایر فرمت های اداری:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### فرمت های دیگر
+        * **وب:** HTML, MHTML
+        * **آرشیوها:** ZIP, TAR, 7Z
+        * **گواهینامه ها:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "ویژگی های GroupDocs.Signature"
+  description: "امضای PDF، اسناد اداری و تصاویر با امضای دیجیتال"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "اضافه کردن امضاها"
+      content: "با قرار دادن یک امضای دیجیتال دقیقاً در هر موقعیتی در هر صفحه، یک سند را با استفاده از انواع مختلف امضای پشتیبانی شده امضا کنید."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "سفارشی کردن نتایج"
+      content: "برای دستیابی به نتیجه دلخواه، ظاهر امضا را با تنظیم رنگ، فونت، حاشیه، چرخش و سایر ویژگی‌ها سفارشی کنید."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "ایمن سازی اسناد با رمز عبور"
+      content: "برای بسیاری از انواع سند پشتیبانی شده، می توانید سند امضا شده را با رمز عبور محافظت کنید."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "جلوگیری از تغییرات غیرمجاز"
+      content: "از اسناد تجاری مهم امضا شده با گواهی دیجیتال در برابر تغییرات غیرمجاز محافظت کنید."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "به دست آوردن نتایج در فرمت های دلخواه"
+      content: "به راحتی فایل های نتیجه امضا شده را در هر قالب پشتیبانی شده به دست آورید. همچنین می توانید اسناد MS Word را بدون زحمت به PDF تبدیل کنید."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "پیش نمایش سند"
+      content: "هر صفحه از یک سند را به عنوان تصویر برای پردازش بعدی ذخیره کنید."
+
+    # feature loop
+    - icon: "search"
+      title: "جستجو برای امضا"
+      content: "امکان دریافت اطلاعات در مورد امضاهای اضافه شده قبلی در اسناد خاص وجود دارد."
+
+    # feature loop
+    - icon: "validate"
+      title: "تایید مدارک"
+      content: "صحت امضاها را در هر سند امضا شده تأیید کنید."
+
+    # feature loop
+    - icon: "update"
+      title: "مدیریت امضاها"
+      content: "هنگامی که یک امضا در صفحه سند قرار می گیرد، می توان آن را در صورت نیاز حذف، منتقل یا به روز کرد."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "نمونه کد"
+  description: "برخی از موارد معمولی GroupDocs.Signature برای عملیات جاوا استفاده می کنند"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "سند PDF را با کد QR بهبود بخشید"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        بهبود فرآیندهای تجاری با افزودن [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) به صفحات خاصی از اسناد PDF می تواند ارزشمند باشد. مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature برای جاوا وجود دارد.
+        {{< landing/code title="سند PDF را با کد QR بهبود بخشید">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // سند را برای امضا بارگیری کنید
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // گزینه های کد QR را با متن از پیش تعریف شده ایجاد کنید
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // نوع و موقعیت رمزگذاری کد QR را در صفحه پیکربندی کنید
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // سند را امضا کنید و آن را به عنوان فایل نتیجه ذخیره کنید
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "از امضای دیجیتال برای محافظت از DOCX استفاده کنید"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/). اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد.
+        {{< landing/code title="از امضای دیجیتال برای محافظت از DOCX استفاده کنید">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // سند را برای امضای دیجیتال بارگیری کنید
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // گزینه های امضای دیجیتال را مشخص کنید و مسیر فایل گواهی را ارائه دهید
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // رمز عبور گواهی را تنظیم کنید
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // سند را امضا کرده و در مسیر مورد نظر ذخیره کنید
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

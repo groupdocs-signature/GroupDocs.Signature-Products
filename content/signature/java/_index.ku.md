@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, API-yên Cloud & Serlêdanên Îmzekirina Belgeya Serh�
 head_description: "Ji bo .NET, Java û serîlêdanên ewr-based çareseriya e-îmzaya belgeya tev-di-yek bistînin. Formên belgeyên hevpar ên serhêl bi karanîna taybetmendiya kaş û avêtinê ya hêsan îmze bikin"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Belgeyên îmze bikin<br>bi rêya Java API"
 description: "Dokument û wêneyên dîjîtal li ser her platformê bi karanîna API-yên me yên maqûl û çareseriyên bingehîn ên sepanê ji bo bernamenûs û bikarhênerên dawîn îmze bikin."
 words:
-  for: "{index-content.words_for}"
+  for: "bo"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "belaş Maven Download"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Lîsanskirin"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Amade ne ku dest pê bikin?"
+  description: "Taybetmendiyên GroupDocs.Signature belaş biceribîne an destûrnameyek bixwaze"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Guhertoya {0} derket"
+  notes: "Binêrin ka çi nû ye"
+  downloads: "Downloads"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "Pelên PDF-ê di Java de îmze bikin"
+  more: "Nimûneyên bêtir"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // Belgeya PDF-ê hilbijêrin
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Nivîsar pêşkêş bikin
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Belge îmze bikin û pelê hilînin
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature Overview"
+  description: "API ji bo pêkanîna îmzekirina belgeyê û karûbarên têkildar ên di sepanên Java de"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Belgeyên karsaziyê yên bi îmzeyên dîjîtal ên li Java-yê çêtir kirin"
+      content: "Îmzekirina bilez û xwerû: GroupDocs.Signature ji bo Java ji bo PDF, wêne û belgeyên Office vebijarkên îmzaya dîjîtal ên berfireh pêşkêşî dike. Hûn dikarin nivîs, barkod, QR-kod, sertîfîkayên dîjîtal, wêne, an metadata veşartî bikar bînin. Pêvajoya belgeyê bilez û bikêr e."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "Manîpulasyona belgeyên îmzekirî"
+      content: "Pêvajoya pêşkeftî ya belgeyê bi karanîna GroupDocs.Signature ji bo Java-yê li ser belgeyên îmzekirî operasyonên bi hêz pêk tîne. Hûn dikarin îmzeyên ku li belgeyên karsaziyê hatine zêdekirin bi karanîna pîvanên cûda yên kêrhatî bigerin û rast bikin. Wekî din, hûn dikarin di derbarê belgeyê de agahdariya berfireh bigihînin an wêneyên pêşdîtinê yên rûpelên wê bistînin."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Cûrbecûr vebijarkên derketinê"
+      content: "Vebijarkên îmzakirina zexm dihêlin hûn ji bo belgeyên ku bi GroupDocs.Signature ji bo Java-yê hatine îmzekirin derketinê xweş bikin. Hûn dikarin bi rastî her îmzeyê li ser her rûpelê belgeyê bicîh bikin û xuyangê wê bi awayên cihêreng mîheng bikin. Java API piştgirî dide tomarkirina belgeyên karsaziya îmzekirî di gelek formên piştgirî de û vebijarkên ji bo ewlekirina wan bi şîfreyan peyda dike."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Serxwebûna platformê"
+  description: "GroupDocs.Signature ji bo Java pergalên xebitandinê, çarçove û rêveberên pakêtê yên jêrîn piştgirî dike"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formatên pelê piştgirî kirin"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature ji bo Java operasyonên bi [formên pelan](https://docs.groupdocs.com/signature/java/supported-document-formats/) yên jêrîn piştgirî dike.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Formatên Microsoft Office
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Wêne & Formên Din
+        * **Cîtêgûherr:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Formên ofîsê yên din:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Formên din
+        * **Tevn:** HTML, MHTML
+        * **Kitik:** ZIP, TAR, 7Z
+        * **Sertîfîkayên:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "Taybetmendiyên GroupDocs.Signature"
+  description: "Îmzekirina PDF, Belgeyên Ofîsê, û wêneyan bi îmzeyên dîjîtal"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "Zêdekirina Îmzeyan"
+      content: "Bi danîna îmzayek dîjîtal tam li her cîhek li ser her rûpelê, belgeyek bi karanîna cûrbecûr cûrbecûr îmzeyên piştgirîkirî îmze bikin."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "Xweserkirina encamên"
+      content: "Bi eyarkirina reng, font, sînor, zivirandin, û taybetmendiyên din re xuyangê îmzeyê xweş bikin da ku bigihîjin encama xwestinê."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "Ewlekirina belgeyên bi şîfre"
+      content: "Ji bo gelek celeb belgeyên piştgirî, hûn dikarin belgeya îmzekirî bi şîfreyek biparêzin."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "Pêşîlêgirtina guhertinên bê destûr"
+      content: "Belgeyên karsaziya girîng ên ku bi sertîfîkayek dîjîtal ve hatine îmzekirin ji guhertinên bêdestûr biparêzin."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "Di formên xwestî de encam digirin"
+      content: "Pelên encamên îmzekirî di her formatek piştgirî de bi hêsanî bistînin. Di heman demê de hûn dikarin belgeyên MS Word-ê jî bêyî hewldan veguherînin PDF-ê."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Pêşdîtina belgeyê"
+      content: "Her rûpelek belgeyek wekî wêneyek ji bo pêvajoyek pêşerojê hilînin."
+
+    # feature loop
+    - icon: "search"
+      title: "Li îmzeyan digere"
+      content: "Mimkun e ku meriv di belgeyên taybetî de li ser îmzeyên ku berê hatine zêdekirin agahdarî bistînin."
+
+    # feature loop
+    - icon: "validate"
+      title: "Belgeyên erêkirin"
+      content: "Rastiya îmzeyan li ser her belgeyek îmzekirî rast bikin."
+
+    # feature loop
+    - icon: "update"
+      title: "Îmzeyan îdare dikin"
+      content: "Dema ku îmzeyek li ser rûpelek belgeyê were danîn, li gorî hewcedariyê dikare were jêbirin, barkirin an nûvekirin."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Nimûneyên kodê"
+  description: "Hin rewşên tîpîk GroupDocs.Signature ji bo operasyonên Java bikar tînin"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "Belgeya PDF-ê bi QR-kodê xweş bikin"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        Zêdekirina pêvajoyên karsaziyê bi zêdekirina [QR-kod](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) li ser rûpelên taybetî yên belgeyên PDF-ê dikare hêja be. Mînakek heye ku meriv çawa kodek QR bi karanîna GroupDocs.Signature ji bo Java-yê zêde dike.
+        {{< landing/code title="Belgeya PDF-ê bi QR-kodê xweş bikin">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Belgeyê ji bo îmzekirinê barkirin
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Vebijarkên koda QR-ê bi nivîsa pêşwextkirî biafirînin
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // Li ser rûpelê celeb û cîhê kodkirina koda QR-ê mîheng bikin
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Belgeyê îmze bikin û wekî pelê encamê hilînin
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "Ji bo parastina DOCX-ê îmzeya dîjîtal bikar bînin"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin. Belgeyên ku bi sertîfîkayê hatine ewlekirin bêyî betalkirina îmzeyê nayên guhertin.
+        {{< landing/code title="Ji bo parastina DOCX-ê îmzeya dîjîtal bikar bînin">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Belgeya ku bi dîjîtal were imze kirin bar bikin
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Vebijarkên îmzekirina dîjîtal diyar bikin û riya pelê sertîfîkayê peyda bikin
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Şîfreya sertîfîkayê saz bikin
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Belgeyê îmze bikin û li ser riya xwestinê hilînin
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

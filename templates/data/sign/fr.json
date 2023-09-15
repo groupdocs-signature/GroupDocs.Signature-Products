@@ -245,12 +245,186 @@
     "api_nocodelabel": "Voir toutes les applications sans code",
     "api_nocode_1_content": "Signez des fichiers Microsoft Word, Excel, PowerPoint, Visio et PDF avec du texte, une image, un code-barres ou un code QR.",
     "api_nocode_2_content": "Signez numériquement des documents Word en ligne directement depuis votre navigateur gratuitement.",
-    "api_nocode_3_content": "Signez en ligne des fichiers PDF à l'aide de texte, d'image ou de code-barres depuis n'importe quel navigateur Web."
+    "api_nocode_3_content": "Signez en ligne des fichiers PDF à l'aide de texte, d'image ou de code-barres depuis n'importe quel navigateur Web.",
+    "title_1": "Signer des documents",
+    "words_for": "pour",
+    "actions_alt": "Licence",
+    "actions_title": "Prêt à commencer?",
+    "actions_description": "Essayez les fonctionnalités de GroupDocs.Signature gratuitement ou demandez une licence",
+    "release_title": "Version {0} publiée",
+    "release_notes": "Regardez ce qu'il y a de nouveau",
+    "release_downloads": "Téléchargements",
+    "code_more": "Plus d'exemples",
+    "code_comment_1": "Sélectionnez un document PDF",
+    "code_comment_2": "Fournir du texte",
+    "code_comment_3": "Définir la couleur",
+    "code_comment_4": "Signer le document et l'enregistrer dans un fichier",
+    "overview_title": "Présentation de GroupDocs.Signature",
+    "platforms_title": "Indépendance de la plateforme",
+    "formats_title": "Formats de fichiers pris en charge",
+    "formats_groups": {
+      "title_1": "Formats Microsoft Office",
+      "title_2": "Images et autres formats",
+      "title_3": "Autres formats",
+      "format_portable": "Portable",
+      "format_other_office": "Autres formats de bureaux",
+      "format_images": "Images",
+      "format_web": "la toile",
+      "format_archives": "Les archives",
+      "format_certificates": "Certificats"
+    },
+    "code_samples": {
+      "title": "Exemples de codes",
+      "sample_1": {
+        "code_title": "Comment mettre le code QR au format PDF.",
+        "comment_1": "Chargez le document à signer",
+        "comment_2": "Créer des options de code QR avec du texte prédéfini",
+        "comment_3": "Configurer le type d'encodage du code QR et la position sur la page",
+        "comment_4": "Signez le document et enregistrez-le comme fichier de résultat"
+      },
+      "sample_2": {
+        "code_title": "Voici comment garantir l’intégrité des documents.",
+        "comment_1": "Charger le document à signer numériquement",
+        "comment_2": "Spécifiez les options de signature numérique et fournissez le chemin d'accès au fichier de certificat",
+        "comment_3": "Définir le mot de passe du certificat",
+        "comment_4": "Signez le document et enregistrez-le dans le chemin souhaité"
+      }
+    }
   },
   "index-content-net": {
-    "title": "API .NET native pour les signatures électroniques"
+    "title": "API .NET native pour les signatures électroniques",
+    "title_2": "via l'API .NET",
+    "actions_main": "Téléchargement gratuit de NuGet",
+    "code_title": "Signer des fichiers PDF en C#",
+    "overview_description": "API pour effectuer la signature de documents et les opérations associées dans les applications .NET",
+    "overview_feature_1": {
+      "title": "Ajout de signatures aux documents commerciaux en C#",
+      "description": "Signature de documents : avec GroupDocs.Signature pour .NET, vous pouvez ajouter différents types de signatures, telles que du texte, des images, des codes-barres et des certificats numériques, aux documents PDF et Office. Cette API vous permet de signer vos documents avec presque n'importe quel type de données, y compris les métadonnées cachées."
+    },
+    "overview_feature_2": {
+      "title": "Traitement des documents signés",
+      "description": "Traitement supplémentaire : vous pouvez effectuer des opérations puissantes sur des documents signés à l'aide de GroupDocs.Signature. Cela inclut la recherche de signatures existantes dans les documents commerciaux et leur vérification à l'aide de critères spécifiques. De plus, vous pouvez récupérer des informations sur le document et prévisualiser les pages via cette API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personnalisation des résultats",
+      "description": "GroupDocs.Signature pour .NET offre des options de personnalisation étendues. Vous pouvez positionner avec précision les signatures n'importe où sur une page de document et ajuster leur apparence à l'aide de divers paramètres. De plus, cette API prend en charge l'enregistrement des documents traités dans un large éventail de formats pris en charge."
+    },
+    "features": {
+      "title": "Fonctionnalités GroupDocs.Signature",
+      "description": "Signature rapide et précise de PDF, de documents Office et d'images",
+      "feature_1": {
+        "title": "Signature de documents",
+        "content": "Ajoutez avec précision un ou plusieurs types de signatures pris en charge à n’importe quelle position spécifiée sur les documents commerciaux."
+      },
+      "feature_2": {
+        "title": "Personnaliser les signatures",
+        "content": "Utilisez des fonctionnalités telles que la couleur, la police, la bordure, la rotation, etc., pour configurer l'apparence des signatures."
+      },
+      "feature_3": {
+        "title": "Protection par mot de passe des documents",
+        "content": "Sécurisez certains types de documents en définissant un mot de passe après la signature."
+      },
+      "feature_4": {
+        "title": "Protection contre les changements",
+        "content": "Empêchez les modifications apportées aux documents commerciaux importants après avoir apposé une signature avec un certificat numérique."
+      },
+      "feature_5": {
+        "title": "Convertir les fichiers signés vers d'autres formats",
+        "content": "Convertissez les fichiers signés aux formats souhaités, par exemple en enregistrant un document Word au format PDF."
+      },
+      "feature_6": {
+        "title": "Extraire les aperçus des pages",
+        "content": "Extrayez les pages des documents signés sous forme d’images individuelles pour un traitement ultérieur."
+      },
+      "feature_7": {
+        "title": "Recherche de signature dans les documents",
+        "content": "Récupérez des informations sur les signatures précédemment ajoutées dans des documents spécifiques."
+      },
+      "feature_8": {
+        "title": "Valider les documents signés",
+        "content": "Vérifiez la bonne signature des documents à l’aide des fonctionnalités de validation."
+      },
+      "feature_9": {
+        "title": "Mettre à jour ou supprimer des signatures",
+        "content": "Repositionnez facilement des signatures spécifiques sur une page, modifiez leur texte ou supprimez-les sans aucun problème."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature pour .NET prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants",
+    "formats_description": "GroupDocs.Signature pour .NET prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/signature/net/supported-document-formats/) suivants.",
+    "code_samples_description": "Quelques cas d'utilisation d'opérations GroupDocs.Signature typiques pour .NET",
+    "code_title_sample_1": "Ajouter un code QR au PDF",
+    "code_samples_sample_1_content_1": "L'ajout de [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) à des pages spécifiques de documents PDF peut améliorer les processus métier.",
+    "code_samples_sample_1_content_2": "Vous trouverez ci-dessous un exemple de la façon d'ajouter un code QR à l'aide de GroupDocs.Signature.",
+    "code_title_sample_2": "Protéger un document DOCX à l'aide d'un certificat numérique",
+    "code_samples_sample_2_content_1": "Vous pouvez [Protéger un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) en utilisant des signatures personnelles ou d'entreprise stockées sous forme de certificats numériques.",
+    "code_samples_sample_2_content_2": "Ces documents protégés ne peuvent être modifiés sans invalider la signature."
   },
   "index-content-java": {
-    "title": "API Java pour gérer les signatures numériques"
+    "title": "API Java pour gérer les signatures numériques",
+    "title_2": "via l'API Java",
+    "actions_main": "Téléchargement gratuit de Maven",
+    "code_title": "Signer des fichiers PDF en Java",
+    "overview_description": "API pour effectuer la signature de documents et les opérations associées dans les applications Java",
+    "overview_feature_1": {
+      "title": "Documents commerciaux améliorés avec signatures numériques en Java",
+      "description": "Signature rapide et personnalisable : GroupDocs.Signature pour Java offre une large gamme d'options de signature numérique pour les PDF, les images et les documents Office. Vous pouvez utiliser du texte, des codes-barres, des codes QR, des certificats numériques, des images ou des métadonnées cachées. Le traitement des documents est rapide et efficace."
+    },
+    "overview_feature_2": {
+      "title": "Manipulation de documents signés",
+      "description": "Le traitement avancé des documents implique des opérations puissantes sur les documents signés à l'aide de GroupDocs.Signature pour Java. Vous pouvez rechercher et valider les signatures ajoutées aux documents commerciaux à l'aide de divers critères utiles. De plus, vous pouvez accéder à des informations détaillées sur le document ou obtenir des images d'aperçu de ses pages."
+    },
+    "overview_feature_3": {
+      "title": "Variété de choix de sortie",
+      "description": "Des options de signature robustes vous permettent de personnaliser la sortie des documents signés avec GroupDocs.Signature pour Java. Vous pouvez positionner avec précision n'importe quelle signature sur n'importe quelle page de document et configurer son apparence de différentes manières. L'API Java prend en charge l'enregistrement des documents commerciaux signés dans de nombreux formats pris en charge et propose des options pour les sécuriser avec des mots de passe."
+    },
+    "features": {
+      "title": "Fonctionnalités GroupDocs.Signature",
+      "description": "Signature de PDF, de documents Office et d'images avec des signatures numériques",
+      "feature_1": {
+        "title": "Ajout de signatures",
+        "content": "Signez un document à l'aide de différents types de signature pris en charge en plaçant une signature numérique précisément à n'importe quel endroit de n'importe quelle page."
+      },
+      "feature_2": {
+        "title": "Personnalisation des résultats",
+        "content": "Personnalisez l'apparence de la signature en ajustant la couleur, la police, la bordure, la rotation et d'autres fonctionnalités pour obtenir le résultat souhaité."
+      },
+      "feature_3": {
+        "title": "Sécurisation des documents avec mot de passe",
+        "content": "Pour de nombreux types de documents pris en charge, vous pouvez protéger le document signé avec un mot de passe."
+      },
+      "feature_4": {
+        "title": "Empêcher les modifications non autorisées",
+        "content": "Protégez les documents commerciaux importants signés avec un certificat numérique contre les modifications non autorisées."
+      },
+      "feature_5": {
+        "title": "Obtention des résultats dans les formats souhaités",
+        "content": "Obtenez facilement des fichiers de résultats signés dans n’importe quel format pris en charge. Vous pouvez également convertir des documents MS Word en PDF sans effort."
+      },
+      "feature_6": {
+        "title": "Aperçu du document",
+        "content": "Enregistrez n'importe quelle page d'un document sous forme d'image pour un traitement ultérieur."
+      },
+      "feature_7": {
+        "title": "Recherche de signatures",
+        "content": "Il est possible d'obtenir des informations sur les signatures précédemment ajoutées dans des documents spécifiques."
+      },
+      "feature_8": {
+        "title": "Validation des documents",
+        "content": "Validez l’exactitude des signatures sur tout document signé."
+      },
+      "feature_9": {
+        "title": "Gestion des signatures",
+        "content": "Une fois qu'une signature est placée sur une page de document, elle peut être supprimée, déplacée ou mise à jour selon les besoins."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature pour Java prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants",
+    "formats_description": "GroupDocs.Signature pour Java prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/signature/java/supported-document-formats/) suivants.",
+    "code_samples_description": "Quelques cas d'utilisation d'opérations GroupDocs.Signature typiques pour Java",
+    "code_title_sample_1": "Améliorez le document PDF avec le code QR",
+    "code_samples_sample_1_content_1": "L'amélioration des processus métier en ajoutant des [codes QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) à des pages spécifiques de documents PDF peut s'avérer utile.",
+    "code_samples_sample_1_content_2": "Il existe un exemple de la façon d'ajouter un code QR à l'aide de GroupDocs.Signature pour Java.",
+    "code_title_sample_2": "Utiliser la signature numérique pour protéger un DOCX",
+    "code_samples_sample_2_content_1": "Vous pouvez [Protéger un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) en utilisant des signatures personnelles ou d'entreprise stockées sous forme de certificats numériques.",
+    "code_samples_sample_2_content_2": "Les documents sécurisés par un certificat ne peuvent être modifiés sans invalider la signature."
   }
 }

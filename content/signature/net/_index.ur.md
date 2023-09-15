@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET، Java، Cloud APIs اور آن لائن دستاویز دست
 head_description: ".NET، Java اور کلاؤڈ بیسڈ ایپلی کیشنز کے لیے آل ان ون دستاویز کا ای دستخطی حل حاصل کریں۔ سادہ ڈریگ اینڈ ڈراپ فیچر کا استعمال کرتے ہوئے عام دستاویز کے فارمیٹس پر دستخط کریں۔"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "دستاویزات پر دستخط کریں۔<br>.NET API کے ذریعے"
 description: "پروگرامرز اور اختتامی صارفین کے لیے ہمارے لچکدار APIs اور ایپ پر مبنی حل کا استعمال کرتے ہوئے کسی بھی پلیٹ فارم پر ڈیجیٹل دستاویزات اور تصاویر پر دستخط کریں۔"
 words:
-  for: "{index-content.words_for}"
+  for: "کے لیے"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "مفت نیو گیٹ ڈاؤن لوڈ"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "لائسنسنگ"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "شروع کرنے کے لیے تیار ہیں؟"
+  description: "GroupDocs.Signature کی خصوصیات مفت میں آزمائیں یا لائسنس کی درخواست کریں۔"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "ورژن {0} جاری کیا گیا۔"
+  notes: "دیکھیں کہ نیا کیا ہے۔"
+  downloads: "ڈاؤن لوڈ"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "C# میں پی ڈی ایف فائلوں پر دستخط کریں"
+  more: "مزید مثالیں۔"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // پی ڈی ایف دستاویز کو منتخب کریں۔
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // متن فراہم کریں۔
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // رنگ سیٹ کریں۔
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // دستاویز پر دستخط کریں اور فائل میں محفوظ کریں۔
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature کا جائزہ"
+  description: ".NET ایپلی کیشنز میں دستاویز پر دستخط کرنے اور متعلقہ کارروائیوں کے لیے API"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "C# میں کاروباری دستاویزات میں دستخط شامل کرنا"
+      content: "دستاویزات پر دستخط کرنا: .NET کے لیے GroupDocs.Signature کے ساتھ، آپ پی ڈی ایف اور آفس دستاویزات میں متن، تصاویر، بارکوڈز، اور ڈیجیٹل سرٹیفکیٹس جیسے مختلف قسم کے دستخط شامل کر سکتے ہیں۔ یہ API آپ کو اپنے دستاویزات پر تقریباً کسی بھی قسم کے ڈیٹا کے ساتھ دستخط کرنے کی اجازت دیتا ہے، بشمول پوشیدہ میٹا ڈیٹا۔"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "دستخط شدہ دستاویزات پر کارروائی ہو رہی ہے۔"
+      content: "اضافی پروسیسنگ: آپ GroupDocs.Signature کا استعمال کرتے ہوئے دستخط شدہ دستاویزات پر طاقتور آپریشن کر سکتے ہیں۔ اس میں کاروباری دستاویزات میں موجودہ دستخطوں کی تلاش اور مخصوص معیارات کا استعمال کرتے ہوئے ان کی تصدیق کرنا شامل ہے۔ مزید برآں، آپ اس .NET API کے ذریعے دستاویز کی معلومات اور پیش نظارہ صفحات کو بازیافت کرسکتے ہیں۔"
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "نتائج کو حسب ضرورت بنانا"
+      content: ".NET کے لیے GroupDocs.Signature حسب ضرورت کے وسیع اختیارات پیش کرتا ہے۔ آپ دستاویز کے صفحہ پر کہیں بھی دستخطوں کو درست طریقے سے رکھ سکتے ہیں اور مختلف ترتیبات کا استعمال کرتے ہوئے ان کی ظاہری شکل کو ایڈجسٹ کر سکتے ہیں۔ مزید برآں، یہ API پروسیس شدہ دستاویزات کو معاون فارمیٹس کی وسیع رینج میں محفوظ کرنے کی حمایت کرتا ہے۔"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "پلیٹ فارم کی آزادی"
+  description: ".NET کے لیے GroupDocs.Signature درج ذیل آپریٹنگ سسٹمز، فریم ورکس اور پیکیج مینیجرز کو سپورٹ کرتا ہے۔"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "تائید شدہ فائل فارمیٹس"
   description: |
-    {index-content-net.formats_description}
+    .NET کے لیے GroupDocs.Signature درج ذیل [فائل فارمیٹس](https://docs.groupdocs.com/signature/net/supported-document-formats/) کے ساتھ کارروائیوں کی حمایت کرتا ہے۔
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### مائیکروسافٹ آفس فارمیٹس
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### امیجز اور دیگر فارمیٹس
+        * **پورٹیبل:** PDF
+        * **امیجز:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **دیگر دفتری فارمیٹس:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### دیگر فارمیٹس
+        * **ویب:** HTML, MHTML
+        * **آرکائیوز:** ZIP, TAR, 7Z
+        * **سرٹیفکیٹس:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature کی خصوصیات"
+  description: "پی ڈی ایف، آفس دستاویزات، اور امیجز پر تیزی سے اور درست طریقے سے دستخط کرنا"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "دستاویز پر دستخط"
+      content: "کاروباری دستاویزات پر کسی بھی مخصوص پوزیشن پر درست طریقے سے ایک یا متعدد معاون قسم کے دستخط شامل کریں۔"
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "دستخطوں کو حسب ضرورت بنائیں"
+      content: "دستخطوں کی ظاہری شکل کو ترتیب دینے کے لیے رنگ، فونٹ، بارڈر، گردش وغیرہ جیسی خصوصیات کا استعمال کریں۔"
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "دستاویز پاس ورڈ کی حفاظت"
+      content: "دستخط کرنے کے بعد پاس ورڈ ترتیب دے کر دستاویز کی مخصوص اقسام کو محفوظ کریں۔"
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "تبدیلیوں سے تحفظ"
+      content: "ڈیجیٹل سرٹیفکیٹ کے ساتھ دستخط شامل کرنے کے بعد اہم کاروباری دستاویزات میں تبدیلیوں کو روکیں۔"
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "دستخط شدہ فائلوں کو دوسرے فارمیٹس میں تبدیل کریں۔"
+      content: "دستخط شدہ فائلوں کو مطلوبہ فارمیٹس میں تبدیل کریں، جیسے کہ ورڈ دستاویز کو پی ڈی ایف کے طور پر محفوظ کرنا۔"
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "صفحہ پیش نظارہ نکالیں۔"
+      content: "مستقبل کی پروسیسنگ کے لیے انفرادی تصاویر کے طور پر دستخط شدہ دستاویزات سے صفحات نکالیں۔"
+
+    # feature loop
+    - icon: "search"
+      title: "دستاویزات میں دستخط تلاش کریں۔"
+      content: "مخصوص دستاویزات میں پہلے شامل کیے گئے دستخطوں کے بارے میں معلومات حاصل کریں۔"
+
+    # feature loop
+    - icon: "validate"
+      title: "دستخط شدہ دستاویزات کی توثیق کریں۔"
+      content: "توثیق کی خصوصیات کا استعمال کرتے ہوئے دستاویزات پر صحیح دستخط کی تصدیق کریں۔"
+
+    # feature loop
+    - icon: "update"
+      title: "دستخطوں کو اپ ڈیٹ کریں یا حذف کریں۔"
+      content: "کسی صفحہ پر مخصوص دستخطوں کو آسانی سے جگہ دیں، ان کے متن میں ترمیم کریں، یا بغیر کسی مسئلے کے انہیں حذف کریں۔"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "کوڈ کے نمونے"
+  description: "کچھ .NET آپریشنز کے لیے مخصوص GroupDocs.Signature کے کیسز استعمال کرتے ہیں۔"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "پی ڈی ایف میں کیو آر کوڈ شامل کریں۔"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        پی ڈی ایف دستاویزات کے مخصوص صفحات میں [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) شامل کرنا کاروباری عمل کو بڑھا سکتا ہے۔ ذیل میں GroupDocs.Signature کا استعمال کرتے ہوئے QR کوڈ شامل کرنے کے طریقے کی ایک مثال ہے۔
+        {{< landing/code title="کیو آر کوڈ کو پی ڈی ایف میں کیسے ڈالیں۔">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // دستخط کرنے کے لیے دستاویز لوڈ کریں۔
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // پہلے سے طے شدہ متن کے ساتھ QR کوڈ کے اختیارات بنائیں
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // QR کوڈ انکوڈنگ کی قسم اور صفحہ پر پوزیشن کو ترتیب دیں۔
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // دستاویز پر دستخط کریں اور اسے رزلٹ فائل کے طور پر محفوظ کریں۔
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "ڈیجیٹل سرٹیفکیٹ کا استعمال کرتے ہوئے DOCX دستاویز کی حفاظت کرنا"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        آپ ڈیجیٹل سرٹیفکیٹس کے بطور محفوظ کردہ ذاتی یا کارپوریٹ دستخطوں کا استعمال کرتے ہوئے [دستاویز کی حفاظت](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) کر سکتے ہیں۔ اس طرح کے محفوظ دستاویزات میں دستخط کو باطل کیے بغیر ترمیم نہیں کی جاسکتی ہے۔
+        {{< landing/code title="دستاویز کی سالمیت کو یقینی بنانے کا طریقہ یہاں ہے۔">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // ڈیجیٹل طور پر دستخط کرنے کے لیے دستاویز لوڈ کریں۔
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // ڈیجیٹل دستخط کرنے کے اختیارات کی وضاحت کریں اور سرٹیفکیٹ فائل کا راستہ فراہم کریں۔
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // سرٹیفکیٹ پاس ورڈ سیٹ کریں۔
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // دستاویز پر دستخط کریں اور اسے مطلوبہ راستے پر محفوظ کریں۔
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

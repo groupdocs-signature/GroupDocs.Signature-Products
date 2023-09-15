@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:03
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,27 +21,27 @@ head_title: ".NET, Java, Bulut API'leri ve Çevrimiçi Belge İmza Uygulamaları
 head_description: ".NET, Java ve bulut tabanlı uygulamalar için hepsi bir arada belge e-imza çözümü edinin. Basit sürükle ve bırak özelliğini kullanarak yaygın belge biçimlerini çevrimiçi olarak imzalayın"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-java.title_2}"
+title: "Belgeleri imzalamak<br>Java API'si aracılığıyla"
 description: "Programcılar ve son kullanıcılar için esnek API'lerimizi ve uygulama tabanlı çözümlerimizi kullanarak herhangi bir platformda dijital belgeleri ve görüntüleri imzalayın."
 words:
-  for: "{index-content.words_for}"
+  for: "için"
 
 actions:
-  main: "{index-content-java.actions_main}"
+  main: "Ücretsiz Maven İndir"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
-  alt: "{index-content.actions_alt}"
+  alt: "Lisanslama"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "başlamaya hazır mısın?"
+  description: "GroupDocs.Signature özelliklerini ücretsiz deneyin veya lisans isteyin"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Sürüm {0} yayınlandı"
+  notes: "Yenilikleri görün"
+  downloads: "İndirilenler"
 
 code:
-  title: "{index-content-java.code_title}"
-  more: "{index-content.code_more}"
+  title: "PDF dosyalarını Java'da imzalayın"
+  more: "Daha fazla örnek"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
   install: |
     <dependency>
@@ -51,14 +51,14 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // {index-content.code_comment_1}
+    // PDF belgesini seçin
     Signature signature = new Signature("sample.pdf");
     
-    // {index-content.code_comment_2}
+    // Metin sağlayın
     TextSignOptions options = new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
-    // {index-content.code_comment_4}
+    // Belgeyi imzalayın ve dosyaya kaydedin
     signature.sign("signed.pdf", options);
     
     ```
@@ -66,26 +66,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-java.overview_description}"
+  title: "GroupDocs.Signature'a Genel Bakış"
+  description: "Java uygulamalarında belge imzalama ve ilgili işlemleri gerçekleştirmek için API"
   features:
     # feature loop
-    - title: "{index-content-java.overview_feature_1.title}"
-      content: "{index-content-java.overview_feature_1.description}"
+    - title: "Java'da dijital imzalarla geliştirilmiş iş belgeleri"
+      content: "Hızlı ve özelleştirilebilir imzalama: GroupDocs.Signature for Java, PDF'ler, resimler ve Office belgeleri için çok çeşitli dijital imza seçenekleri sunar. Metin, barkod, QR kodları, dijital sertifikalar, resimler veya gizli meta verileri kullanabilirsiniz. Belge işleme hızlı ve etkilidir."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_2.title}"
-      content: "{index-content-java.overview_feature_2.description}"
+    - title: "İmzalı belgeleri işleme"
+      content: "Gelişmiş belge işleme, GroupDocs.Signature for Java kullanılarak imzalanmış belgeler üzerinde güçlü işlemler içerir. Çeşitli faydalı kriterleri kullanarak iş belgelerine eklenen imzaları arayabilir ve doğrulayabilirsiniz. Ayrıca belge hakkında detaylı bilgilere ulaşabilir veya sayfalarının ön izleme görsellerini alabilirsiniz."
 
     # feature loop
-    - title: "{index-content-java.overview_feature_3.title}"
-      content: "{index-content-java.overview_feature_3.description}"
+    - title: "Çeşitli çıktı seçenekleri"
+      content: "Güçlü imzalama seçenekleri, GroupDocs.Signature for Java ile imzalanan belgelerin çıktısını özelleştirmenize olanak tanır. Herhangi bir imzayı herhangi bir belge sayfasında tam olarak konumlandırabilir ve görünümünü çeşitli şekillerde yapılandırabilirsiniz. Java API, imzalanmış iş belgelerinin çok sayıda desteklenen formatta kaydedilmesini destekler ve bunların parolalarla güvenliğinin sağlanmasına yönelik seçenekler sunar."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-java.platforms_description}"
+  title: "Platform bağımsızlığı"
+  description: "GroupDocs.Signature for Java aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler"
   items:
     # platform loop
     - title: "Amazon"
@@ -115,147 +115,129 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Desteklenen dosya formatları"
   description: |
-    {index-content-java.formats_description}
+    GroupDocs.Signature for Java, aşağıdaki [dosya formatlarıyla](https://docs.groupdocs.com/signature/java/supported-document-formats/) yapılan işlemleri destekler.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office formatları
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Görseller ve Diğer Formatlar
+        * **Taşınabilir:** PDF
+        * **Görüntüler:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Diğer ofis formatları:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Diğer formatlar
+        * **ağ:** HTML, MHTML
+        * **Arşivler:** ZIP, TAR, 7Z
+        * **Sertifikalar:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-java.features.title}"
-  description: "{index-content-java.features.description}"
+  title: "GroupDocs.Signature özellikleri"
+  description: "PDF'leri, Office Belgelerini ve görüntüleri dijital imzalarla imzalama"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-java.features.feature_1.title}"
-      content: "{index-content-java.features.feature_1.content}"
+    - icon: "sign"
+      title: "İmza Ekleme"
+      content: "Dijital imzayı herhangi bir sayfada herhangi bir konuma tam olarak yerleştirerek, desteklenen çeşitli imza türlerini kullanarak bir belgeyi imzalayın."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-java.features.feature_2.title}"
-      content: "{index-content-java.features.feature_2.content}"
+    - icon: "custom"
+      title: "Sonuçları özelleştirme"
+      content: "İstenilen sonucu elde etmek için rengi, yazı tipini, kenarlığı, döndürmeyi ve diğer özellikleri ayarlayarak imza görünümünü özelleştirin."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-java.features.feature_3.title}"
-      content: "{index-content-java.features.feature_3.content}"
+    - icon: "password"
+      title: "Belgeleri şifreyle koruma"
+      content: "Desteklenen birçok belge türü için imzalı belgeyi bir parolayla koruyabilirsiniz."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-java.features.feature_4.title}"
-      content: "{index-content-java.features.feature_4.content}"
+    - icon: "protect"
+      title: "Yetkisiz değişikliklerin önlenmesi"
+      content: "Dijital sertifikayla imzalanmış önemli iş belgelerini yetkisiz değişikliklere karşı koruyun."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-java.features.feature_5.title}"
-      content: "{index-content-java.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-java.features.feature_6.title}"
-      content: "{index-content-java.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-java.features.feature_7.title}"
-      content: "{index-content-java.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-java.features.feature_8.title}"
-      content: "{index-content-java.features.feature_8.content}"
+    - icon: "convert"
+      title: "İstenilen formatlarda sonuçların elde edilmesi"
+      content: "Desteklenen herhangi bir formattaki imzalı sonuç dosyalarını kolayca edinin. Ayrıca MS Word belgelerini zahmetsizce PDF'ye dönüştürebilirsiniz."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-java.features.feature_9.title}"
-      content: "{index-content-java.features.feature_9.content}"
+      title: "Belge önizlemesi"
+      content: "Gelecekteki işlemler için belgenin herhangi bir sayfasını görüntü olarak kaydedin."
+
+    # feature loop
+    - icon: "search"
+      title: "İmza aranıyor"
+      content: "Belirli belgelerde daha önce eklenen imzalar hakkında bilgi almak mümkündür."
+
+    # feature loop
+    - icon: "validate"
+      title: "Belgeleri doğrulama"
+      content: "İmzalı herhangi bir belgedeki imzaların doğruluğunu doğrulayın."
+
+    # feature loop
+    - icon: "update"
+      title: "İmzaları yönetme"
+      content: "İmza bir belge sayfasına yerleştirildikten sonra gerektiğinde silinebilir, taşınabilir veya güncellenebilir."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-java.code_samples_description}"
+  title: "Kod örnekleri"
+  description: "Java işlemleri için tipik GroupDocs.Signature'ın bazı kullanım durumları"
   items:
     # code sample loop
-    - title: "{index-content-java.code_title_sample_1}"
+    - title: "PDF belgesini QR koduyla zenginleştirin"
       content: |
-        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        PDF belgelerinin belirli sayfalarına [QR kodları](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) ekleyerek iş süreçlerini geliştirmek değerli olabilir. GroupDocs.Signature for Java kullanılarak QR kodunun nasıl ekleneceğine dair bir örnek bulunmaktadır.
+        {{< landing/code title="PDF belgesini QR koduyla zenginleştirin">}}
         ```java {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // İmzalanacak belgeyi yükleyin
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_1.comment_2}
+        // Önceden tanımlanmış metinle QR kodu seçenekleri oluşturun
         QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
         
-        // {index-content.code_samples.sample_1.comment_3}
+        // QR kodu kodlama türünü ve sayfadaki konumunu yapılandırın
         options.setEncodeType(QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
 
-        // {index-content.code_samples.sample_1.comment_4}
+        // Belgeyi imzalayın ve sonuç dosyası olarak kaydedin
         signature.sign("file_with_QR.pdf", options);
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-java.code_title_sample_2}"
+    - title: "DOCX'i korumak için dijital imza kullanma"
       content: |
-        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        Dijital sertifikalar olarak saklanan kişisel veya kurumsal imzaları kullanarak [Bir Belgeyi Koruyun](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) yapabilirsiniz. Sertifika ile güvence altına alınan belgelerde imza geçersiz kılınmadan değişiklik yapılamaz.
+        {{< landing/code title="DOCX'i korumak için dijital imza kullanma">}}
         ```java {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Dijital olarak imzalanacak belgeyi yükleyin
         Signature signature = new Signature("file_to_sign.pdf");
         
-        // {index-content.code_samples.sample_2.comment_2}
+        // Dijital imzalama seçeneklerini belirtin ve sertifika dosyasının yolunu belirtin
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
 
-        // {index-content.code_samples.sample_2.comment_3}
+        // Sertifika şifresini ayarlayın
         options.setPassword("1234567890");
 
-        // {index-content.code_samples.sample_2.comment_4}
+        // Belgeyi imzalayın ve istediğiniz yola kaydedin
         signature.sign("digitally_signed.pdf", options);
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

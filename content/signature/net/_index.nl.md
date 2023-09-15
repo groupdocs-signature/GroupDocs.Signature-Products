@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:23
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, Cloud API's en online apps voor documenthandtekening"
 head_description: "Ontvang een alles-in-één oplossing voor e-handtekening van documenten voor .NET, Java en cloudgebaseerde applicaties. Onderteken veelgebruikte documentformaten online met behulp van een eenvoudige functie voor slepen en neerzetten"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Onderteken documenten<br>via .NET-API"
 description: "Onderteken digitale documenten en afbeeldingen op elk platform met behulp van onze flexibele API's en app-gebaseerde oplossingen voor programmeurs en eindgebruikers."
 words:
-  for: "{index-content.words_for}"
+  for: "voor"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Gratis NuGet-download"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Licentie"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "klaar om te beginnen?"
+  description: "Probeer de functies van GroupDocs.Signature gratis of vraag een licentie aan"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versie {0} vrijgegeven"
+  notes: "Zie wat nieuw is"
+  downloads: "Downloads"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Onderteken PDF-bestanden in C#"
+  more: "Meer voorbeelden"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Selecteer PDF-document
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Geef tekst op
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Kleur instellen
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Onderteken het document en sla het op in een bestand
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature-overzicht"
+  description: "API voor het uitvoeren van documentondertekening en gerelateerde bewerkingen in .NET-applicaties"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Handtekeningen toevoegen aan zakelijke documenten in C#"
+      content: "Ondertekening van documenten: Met GroupDocs.Signature voor .NET kunt u verschillende soorten handtekeningen, zoals tekst, afbeeldingen, streepjescodes en digitale certificaten, toevoegen aan PDF- en Office-documenten. Met deze API kunt u uw documenten ondertekenen met vrijwel elk gegevenstype, inclusief verborgen metadata."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Verwerken van ondertekende documenten"
+      content: "Extra verwerking: U kunt krachtige bewerkingen uitvoeren op ondertekende documenten met behulp van GroupDocs.Signature. Dit omvat het zoeken naar bestaande handtekeningen in bedrijfsdocumenten en het verifiëren ervan aan de hand van specifieke criteria. Bovendien kunt u via deze .NET API documentinformatie ophalen en voorbeeldpagina's bekijken."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Resultaten aanpassen"
+      content: "GroupDocs.Signature voor .NET biedt uitgebreide aanpassingsmogelijkheden. U kunt handtekeningen overal op een documentpagina nauwkeurig plaatsen en hun uiterlijk aanpassen met behulp van diverse instellingen. Bovendien ondersteunt deze API het opslaan van verwerkte documenten in een groot aantal ondersteunde formaten."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Platformonafhankelijkheid"
+  description: "GroupDocs.Signature voor .NET ondersteunt de volgende besturingssystemen, frameworks en pakketbeheerders"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Ondersteunde bestandsformaten"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature voor .NET ondersteunt bewerkingen met de volgende [bestandsindelingen](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office-formaten
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Afbeeldingen en andere formaten
+        * **Draagbaar:** PDF
+        * **Afbeeldingen:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Andere kantoorformaten:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Andere formaten
+        * **Web:** HTML, MHTML
+        * **Archief:** ZIP, TAR, 7Z
+        * **Certificaten:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature-functies"
+  description: "Onderteken PDF's, Office-documenten en afbeeldingen snel en nauwkeurig"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Ondertekening van documenten"
+      content: "Voeg nauwkeurig een of meerdere ondersteunde typen handtekeningen toe op elke opgegeven positie in zakelijke documenten."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Pas handtekeningen aan"
+      content: "Gebruik functies zoals kleur, lettertype, rand, rotatie, enz. om de weergave van handtekeningen te configureren."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Wachtwoordbeveiliging voor documenten"
+      content: "Beveilig bepaalde documenttypen door na ondertekening een wachtwoord in te stellen."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Bescherming tegen veranderingen"
+      content: "Voorkom wijzigingen in belangrijke zakelijke documenten na het plaatsen van een handtekening met een digitaal certificaat."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Converteer ondertekende bestanden naar andere formaten"
+      content: "Converteer ondertekende bestanden naar gewenste formaten, zoals het opslaan van een Word-document als PDF."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Paginavoorbeelden extraheren"
+      content: "Extraheer pagina's uit ondertekende documenten als individuele afbeeldingen voor toekomstige verwerking."
+
+    # feature loop
+    - icon: "search"
+      title: "Handtekeningen zoeken in documenten"
+      content: "Haal informatie op over eerder toegevoegde handtekeningen in specifieke documenten."
+
+    # feature loop
+    - icon: "validate"
+      title: "Valideer ondertekende documenten"
+      content: "Controleer de juiste ondertekening van documenten met behulp van validatiefuncties."
+
+    # feature loop
+    - icon: "update"
+      title: "Handtekeningen bijwerken of verwijderen"
+      content: "Verplaats specifieke handtekeningen eenvoudig op een pagina, wijzig de tekst ervan of verwijder ze zonder problemen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Codevoorbeelden"
+  description: "Enkele gebruiksscenario's van typische GroupDocs.Signature voor .NET-bewerkingen"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Voeg QR-code toe aan PDF"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        Het toevoegen van [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) aan specifieke pagina's van PDF-documenten kan bedrijfsprocessen verbeteren. Hieronder ziet u een voorbeeld van hoe u een QR-code kunt toevoegen met GroupDocs.Signature.
+        {{< landing/code title="Hoe QR-code naar PDF te zetten.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Laad het document dat u wilt ondertekenen
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Maak QR-code-opties met vooraf gedefinieerde tekst
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Configureer het coderingstype en de positie van de QR-code op de pagina
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Onderteken het document en sla het op als resultaatbestand
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Een DOCX-document beveiligen met een digitaal certificaat"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        U kunt [een document beveiligen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) met behulp van persoonlijke of zakelijke handtekeningen die zijn opgeslagen als digitale certificaten. Dergelijke beschermde documenten kunnen niet worden gewijzigd zonder de handtekening ongeldig te maken.
+        {{< landing/code title="Hier leest u hoe u de documentintegriteit kunt garanderen.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Laad het document dat digitaal moet worden ondertekend
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Geef opties voor digitale ondertekening op en geef het pad naar het certificaatbestand op
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Stel het certificaatwachtwoord in
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Onderteken het document en sla het op in het gewenste pad
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-08T12:23:04
+date: 2023-09-14T19:07:22
 draft: false
 #operation: 
 #signaturetype: 
@@ -21,41 +21,41 @@ head_title: ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirj
 head_description: "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla"
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>{index-content-net.title_2}"
+title: "Allekirjoita asiakirjat<br>.NET API:n kautta"
 description: "Allekirjoita digitaalisia asiakirjoja ja kuvia millä tahansa alustalla käyttämällä ohjelmoijille ja loppukäyttäjille joustavia API- ja sovelluspohjaisia ​​ratkaisujamme."
 words:
-  for: "{index-content.words_for}"
+  for: "varten"
 
 actions:
-  main: "{index-content-net.actions_main}"
+  main: "Ilmainen NuGet-lataus"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
-  alt: "{index-content.actions_alt}"
+  alt: "Lisensointi"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  title: "Oletko valmis aloittamaan?"
+  description: "Kokeile GroupDocs.Signature-ominaisuuksia ilmaiseksi tai pyydä lisenssi"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Versio {0} julkaistu"
+  notes: "Katso mitä uutta"
+  downloads: "Lataukset"
 
 code:
-  title: "{index-content-net.code_title}"
-  more: "{index-content.code_more}"
+  title: "Allekirjoita PDF-tiedostot C#:lla"
+  more: "Lisää esimerkkejä"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
-    // {index-content.code_comment_1}
+    // Valitse PDF-dokumentti
     using (Signature signature = new Signature("sample.pdf"))
     {
-        // {index-content.code_comment_2}
+        // Anna tekstiä
         var options = new TextSignOptions("John Smith")
         {
-            // {index-content.code_comment_3}
+            // Aseta väri
             ForeColor = Color.Red
         };
-        // {index-content.code_comment_4}
+        // Allekirjoita asiakirja ja tallenna tiedostoon
         signature.Sign("signed.pdf", options);
     }
     ```
@@ -63,26 +63,26 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-net.overview_description}"
+  title: "GroupDocs.Signature Yleiskatsaus"
+  description: "API asiakirjan allekirjoittamiseen ja niihin liittyvien toimintojen suorittamiseen .NET-sovelluksissa"
   features:
     # feature loop
-    - title: "{index-content-net.overview_feature_1.title}"
-      content: "{index-content-net.overview_feature_1.description}"
+    - title: "Allekirjoitusten lisääminen yritysasiakirjoihin C#:ssa"
+      content: "Asiakirjojen allekirjoittaminen: GroupDocs.Signature for .NET -sovelluksella voit lisätä PDF- ja Office-asiakirjoihin erilaisia ​​allekirjoituksia, kuten tekstiä, kuvia, viivakoodeja ja digitaalisia varmenteita. Tämän API:n avulla voit allekirjoittaa asiakirjasi lähes kaikilla tietotyypeillä, mukaan lukien piilotetut metatiedot."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_2.title}"
-      content: "{index-content-net.overview_feature_2.description}"
+    - title: "Allekirjoitettujen asiakirjojen käsittely"
+      content: "Lisäkäsittely: Voit suorittaa tehokkaita toimintoja allekirjoitetuille asiakirjoille GroupDocs.Signaturen avulla. Tämä sisältää olemassa olevien allekirjoitusten etsimisen yritysasiakirjoista ja niiden tarkistamisen tietyillä kriteereillä. Lisäksi voit hakea asiakirjan tietoja ja esikatsella sivuja tämän .NET API:n kautta."
 
     # feature loop
-    - title: "{index-content-net.overview_feature_3.title}"
-      content: "{index-content-net.overview_feature_3.description}"
+    - title: "Tulosten mukauttaminen"
+      content: "GroupDocs.Signature for .NET tarjoaa laajat mukautusvaihtoehdot. Voit sijoittaa allekirjoitukset tarkasti mihin tahansa asiakirjan sivulle ja säätää niiden ulkoasua useiden asetusten avulla. Lisäksi tämä API tukee käsiteltyjen asiakirjojen tallentamista useissa tuetuissa muodoissa."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "{index-content-net.platforms_description}"
+  title: "Alustan riippumattomuus"
+  description: "GroupDocs.Signature for .NET tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,149 +112,131 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Tuetut tiedostomuodot"
   description: |
-    {index-content-net.formats_description}
+    GroupDocs.Signature for .NET tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
+        ### Microsoft Office -muodot
         * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
         * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Kuvat ja muut muodot
+        * **Kannettava:** PDF
+        * **Kuvat:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Muut toimistomuodot:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Muut muodot
+        * **Web:** HTML, MHTML
+        * **Arkistot:** ZIP, TAR, 7Z
+        * **Sertifikaatit:** PFX
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-net.features.title}"
-  description: "{index-content-net.features.description}"
+  title: "GroupDocs.Signature-ominaisuudet"
+  description: "PDF-tiedostojen, Office-asiakirjojen ja kuvien allekirjoittaminen nopeasti ja tarkasti"
 
   items:
     # feature loop
-    - icon: "merge"
-      title: "{index-content-net.features.feature_1.title}"
-      content: "{index-content-net.features.feature_1.content}"
+    - icon: "sign"
+      title: "Asiakirjan allekirjoittaminen"
+      content: "Lisää yksi tai useita tuettuja allekirjoitustyyppejä tarkasti mihin tahansa määritettyyn paikkaan yritysasiakirjoissa."
 
     # feature loop
-    - icon: "split"
-      title: "{index-content-net.features.feature_2.title}"
-      content: "{index-content-net.features.feature_2.content}"
+    - icon: "custom"
+      title: "Muokkaa allekirjoituksia"
+      content: "Käytä ominaisuuksia, kuten väriä, fonttia, reunusta, kiertoa jne., määrittääksesi allekirjoitusten ulkoasun."
 
     # feature loop
-    - icon: "move"
-      title: "{index-content-net.features.feature_3.title}"
-      content: "{index-content-net.features.feature_3.content}"
+    - icon: "password"
+      title: "Asiakirjan salasanasuojaus"
+      content: "Suojaa tietyt asiakirjatyypit asettamalla salasana allekirjoituksen jälkeen."
 
     # feature loop
-    - icon: "remove"
-      title: "{index-content-net.features.feature_4.title}"
-      content: "{index-content-net.features.feature_4.content}"
+    - icon: "protect"
+      title: "Suojaus muutoksilta"
+      content: "Estä tärkeiden yritysasiakirjojen muutokset liittämällä allekirjoituksen digitaalisella varmenteella."
 
     # feature loop
-    - icon: "rotate"
-      title: "{index-content-net.features.feature_5.title}"
-      content: "{index-content-net.features.feature_5.content}"
-
-    # feature loop
-    - icon: "swap"
-      title: "{index-content-net.features.feature_6.title}"
-      content: "{index-content-net.features.feature_6.content}"
-
-    # feature loop
-    - icon: "extract"
-      title: "{index-content-net.features.feature_7.title}"
-      content: "{index-content-net.features.feature_7.content}"
-
-    # feature loop
-    - icon: "orientation"
-      title: "{index-content-net.features.feature_8.title}"
-      content: "{index-content-net.features.feature_8.content}"
+    - icon: "convert"
+      title: "Muunna allekirjoitetut tiedostot muihin muotoihin"
+      content: "Muunna allekirjoitetut tiedostot haluttuihin muotoihin, kuten tallenna Word-asiakirja PDF-muodossa."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-net.features.feature_9.title}"
-      content: "{index-content-net.features.feature_9.content}"
+      title: "Pura sivujen esikatselut"
+      content: "Poimi sivut allekirjoitetuista asiakirjoista yksittäisinä kuvina tulevaa käsittelyä varten."
+
+    # feature loop
+    - icon: "search"
+      title: "Allekirjoitushaku asiakirjoista"
+      content: "Hae tiedot aiemmin lisätyistä allekirjoituksista tiettyihin asiakirjoihin."
+
+    # feature loop
+    - icon: "validate"
+      title: "Vahvista allekirjoitetut asiakirjat"
+      content: "Tarkista asiakirjojen oikea allekirjoitus vahvistusominaisuuksien avulla."
+
+    # feature loop
+    - icon: "update"
+      title: "Päivitä tai poista allekirjoituksia"
+      content: "Voit helposti sijoittaa tietyt allekirjoitukset sivulle, muokata niiden tekstiä tai poistaa ne ilman ongelmia."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Koodinäytteet"
+  description: "Jotkut käyttävät tyypillisiä GroupDocs.Signature-tapauksia .NET-toimintoihin"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Lisää QR-koodi PDF-tiedostoon"
       content: |
-        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        [QR-koodien](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) lisääminen PDF-dokumenttien tietyille sivuille voi parantaa liiketoimintaprosesseja. Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.
+        {{< landing/code title="Kuinka laittaa QR-koodi PDF-tiedostoon.">}}
         ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
+        // Lataa allekirjoitettava asiakirja
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_1.comment_2}
+            // Luo QR-koodivaihtoehtoja ennalta määritetyllä tekstillä
             QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
             {
-                // {index-content.code_samples.sample_1.comment_3}
+                // Määritä QR-koodin koodaustyyppi ja sijainti sivulla
                 EncodeType = QrCodeTypes.QR,
                 Left = 100,
                 Top = 100
             };
-            // {index-content.code_samples.sample_1.comment_4}
+            // Allekirjoita asiakirja ja tallenna se tulostiedostona
             signature.Sign("file_with_QR.pdf", options);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "DOCX-asiakirjan suojaaminen digitaalisella varmenteella"
       content: |
-        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        Voit [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia. Tällaisia ​​suojattuja asiakirjoja ei voida muuttaa ilman allekirjoituksen mitätöintiä.
+        {{< landing/code title="Näin varmistat asiakirjan eheyden.">}}
         ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
+        // Lataa asiakirja digitaalisesti allekirjoitettavaa varten
         using (Signature signature = new Signature("file_to_sign.pdf"))
         {
-            // {index-content.code_samples.sample_2.comment_2}
+            // Määritä digitaalisen allekirjoituksen asetukset ja anna polku varmennetiedostoon
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
-                // {index-content.code_samples.sample_2.comment_3}
+                // Aseta varmenteen salasana
                 Password = "1234567890"
             };
-            // {index-content.code_samples.sample_2.comment_4}
+            // Allekirjoita asiakirja ja tallenna se haluamaasi polkuun
             signature.Sign("digitally_signed.pdf", options);
         }
         ```
         {{< /landing/code >}}
 
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
 ---
