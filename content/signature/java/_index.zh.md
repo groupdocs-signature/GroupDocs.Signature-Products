@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-14T19:07:21
+date: 2023-09-15T18:57:55
 draft: false
 #operation: 
 #signaturetype: 
@@ -202,7 +202,7 @@ code_samples:
     # code sample loop
     - title: "使用 QR 码增强 PDF 文档"
       content: |
-        通过将 [QR](https://docs.groupdocs.com/signature/java/supported-document-formats/) 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。 有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。
+        通过将 [QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。 有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。
         {{< landing/code title="使用 QR 码增强 PDF 文档">}}
         ```java {style=abap}
         // 加载要签名的文档

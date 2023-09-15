@@ -421,7 +421,7 @@
     "formats_description": "GroupDocs.Signature for Java 支持以下[文件格式](https://docs.groupdocs.com/signature/java/supported-document-formats/) 的操作。",
     "code_samples_description": "Java 操作的典型 GroupDocs.Signature 的一些用例",
     "code_title_sample_1": "使用 QR 码增强 PDF 文档",
-    "code_samples_sample_1_content_1": "通过将 [QR](https://docs.groupdocs.com/signature/java/supported-document-formats/) 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。",
+    "code_samples_sample_1_content_1": "通过将 [QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) 码添加到 PDF 文档的特定页面来增强业务流程可能很有价值。",
     "code_samples_sample_1_content_2": "有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。",
     "code_title_sample_2": "使用数字签名来保护 DOCX",
     "code_samples_sample_2_content_1": "您可以使用存储为数字证书的个人或公司签名来[保护文档](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/)。",
