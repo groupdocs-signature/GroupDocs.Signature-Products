@@ -71,6 +71,10 @@
     "tiff": "image",
     "svg": "image",
     "webp": "image",
-    "wmf": "image"
+    "wmf": "image",
+    "dcm": "image",
+    "zip": "archive",
+    "tar": "archive",
+    "7z": "archive"
   }
 }

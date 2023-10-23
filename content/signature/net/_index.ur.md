@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-09-14T19:07:23
+date: 2023-10-23T14:58:10
 draft: false
 #operation: 
 #signaturetype: 

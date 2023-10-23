@@ -6,12 +6,12 @@ dimensions:
 - alias:  signaturetype
   values: [barcode]
 - alias:  fileformat
-  values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
+  values: [pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf, dcm, zip, tar, 7z]
 
 dictionaries: ["..\\..\\data\\otherformats.json"]
 
 generationRules:
   include:
-  - signaturetype[barcode] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf]
+  - signaturetype[barcode] + fileformat[pdf, doc, docx, docm, dot, dotm, dotx, odt, ott, rtf, xls, xlsx, xlsm, xlsb, csv, ods, ots, xltx, xltm, ppt, pptx, pps, ppsx, odp, otp, potx, potm, pptm, ppsm, png, jpg, bmp, gif, tiff, svg, webp, wmf, dcm, zip, tar, 7z]
   
 outputPath: "signature\\{product}\\{operation}\\{signaturetype}\\{fileformat}.{lang}.md"
