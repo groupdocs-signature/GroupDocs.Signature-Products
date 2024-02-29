@@ -16,6 +16,19 @@ product_tag: "signature"
 platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
 head_title: "<% "{index-content.head_title}" %>"
 head_description: "<% "{index-content.head_description}" %>"

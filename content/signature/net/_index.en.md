@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-23T14:58:09
+date: 2024-02-29T14:43:06
 draft: false
 #operation: 
 #signaturetype: 
@@ -15,6 +15,19 @@ product: "Signature"
 product_tag: "signature"
 platform: "Net"
 platform_tag: "net"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"

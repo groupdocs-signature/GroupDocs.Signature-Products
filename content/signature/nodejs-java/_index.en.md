@@ -1,20 +1,33 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T12:39:44
+date: 2024-02-29T14:43:08
 draft: false
 #operation: 
 #signaturetype: 
 #fileformat: 
-#productName: Java
+#productName: Node.js
 lang: en
-#productCode: java
+#productCode: nodejs-java
 #otherformats: 
-#breadcrumb: Put  signature on  for Java
+#breadcrumb: Put  signature on  for JavaScript
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
@@ -27,7 +40,7 @@ words:
   for: "for"
 
 actions:
-  main: "Download from NPM (Node Package Manager)"
+  main: "Download from NPM"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
@@ -68,7 +81,7 @@ overview:
   features:
     # feature loop
     - title: "Digital Signatures Solution for Business Documents with Node.js"
-      content: "GroupDocs.Signature for Node.js offers a comprehensive set of digital signature options for PDF, Office documents and images. Text, barcodes, images, digital certificates and metadata are available. Streamlined document processing ensures efficiency."
+      content: "GroupDocs.Signature for Node.js via Java offers a comprehensive set of digital signature options for PDF, Office documents and images. Text, barcodes, images, digital certificates and metadata are available. Streamlined document processing ensures efficiency."
 
     # feature loop
     - title: "Advanced Manipulation of Signed Documents"
@@ -82,7 +95,7 @@ overview:
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Signature for Node.js performs document processing with various operating systems"
+  description: "GroupDocs.Signature for Node.js via Java performs document processing with various operating systems"
   items:
     # platform loop
     - title: "Amazon"
@@ -114,7 +127,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Signature for Node.js facilitates operations for the [popular file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Signature for Node.js via Java facilitates operations for the [popular file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -194,12 +207,12 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Illustrative examples showcasing typical GroupDocs.Signature for Node.js operations"
+  description: "Illustrative examples showcasing typical GroupDocs.Signature for Node.js via Java operations"
   items:
     # code sample loop
     - title: "Mark PDF with QR Codes"
       content: |
-        Incorporating [barcodes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) into specific PDF document pages can streamline business processes. This section provides an example of adding a QR code using GroupDocs.Signature for Node.js.
+        Incorporating [barcodes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) into specific PDF document pages can streamline business processes. This section provides an example of adding a QR code using GroupDocs.Signature for Node.js via Java.
         {{< landing/code title="How to put QR code to PDF.">}}
         ```javascript {style=abap}
         // Load the document to sign
