@@ -236,6 +236,7 @@
     "api_high_label": "Bekyk alle hoë kode API's",
     "api_high_1_content": "Native .NET API om gewildste digitale handtekeningtipes by Microsoft Office, PDF, beelde en verskeie ander formate in .NET-toepassings by te voeg, te soek en te verifieer.",
     "api_high_2_content": "Bemagtig Java-toepassings met eSignature-vermoëns om 'n wye reeks dokumente en beelde digitaal te onderteken op enige bedryfstelsel met JDK geïnstalleer.",
+    "api_high_3_content": "Ons Node.js-oplossing brei jou besigheidstoepassings uit met digitale ondertekening. Plaas maklik elektroniese handtekeninge op gewilde dokumente en beeldformate.",
     "api_low_title": "GroupDocs.Signature Lae Kode API's sluit in",
     "api_low_label": "Bekyk alle lae kode API's",
     "api_low_1_content": "Werk met cURL RESTful document signature API om verskillende handtekeningtipes in alle gewilde dokumentformate by te voeg en te manipuleer, insluitend PDF, Word, Excel en beelde.",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Gebruik digitale handtekening om 'n DOCX te beskerm",
     "code_samples_sample_2_content_1": "Jy kan [Beveilig 'n dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) met persoonlike of korporatiewe handtekeninge wat as digitale sertifikate gestoor is.",
     "code_samples_sample_2_content_2": "Dokumente wat met sertifikaat beveilig is, kan nie verander word sonder om die handtekening ongeldig te maak nie."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js-oplossing vir digitale handtekeninge",
+    "title_2": "met Node.js API",
+    "actions_main": "Laai af van NPM",
+    "code_title": "Teken van PDF's deur Node.js",
+    "overview_description": "Dokumente wat biblioteek onderteken wat gereed is om in Node.js-toepassings gebruik te word",
+    "overview_feature_1": {
+      "title": "Oplossing vir digitale handtekeninge vir besigheidsdokumente met Node.js",
+      "description": "{{ProductFullName}} bied 'n omvattende stel digitale handtekeningopsies vir PDF, Office-dokumente en prente. Teks, strepieskodes, beelde, digitale sertifikate en metadata is beskikbaar. Gestroomlynde dokumentverwerking verseker doeltreffendheid."
+    },
+    "overview_feature_2": {
+      "title": "Gevorderde manipulasie van getekende dokumente",
+      "description": "{{ProdShortName}} bemagtig jou om ondertekende dokumente te verwerk. Soek en valideer handtekeninge deur verskeie kriteria te gebruik. Onttrek ook gedetailleerde dokumentinligting of genereer voorskoubeelde van bladsye."
+    },
+    "overview_feature_3": {
+      "title": "Diverse uitvoerformate",
+      "description": "Ons oplossing bied uitgebreide beheer oor die uitvoerformaat van ondertekende dokumente. Plaas handtekeninge presies op enige bladsy en pas hul voorkoms aan. Stoor ondertekende dokumente in talle ondersteunde formate en beveilig dit opsioneel met wagwoorde."
+    },
+    "features": {
+      "title": "Kenmerke van {{ProdShortName}}",
+      "description": "Teken PDF's, Office-dokumente en beelde met digitale handtekeninge",
+      "feature_1": {
+        "title": "Besigheidshandtekeninge",
+        "content": "Gebruik verskeie handtekeningtipes om dokumente te onderteken. Plaas digitale handtekeninge presies op enige bladsy-ligging."
+      },
+      "feature_2": {
+        "title": "Pas handtekeningvoorkoms aan",
+        "content": "Pas die visuele aspekte van handtekeninge aan deur kleur, lettertipe, grense, rotasie en meer aan te pas om die gewenste uitkoms te bereik."
+      },
+      "feature_3": {
+        "title": "Wagwoord-beskermde dokumente",
+        "content": "Vir baie ondersteunde dokumentformate, beskerm ondertekende dokumente met 'n wagwoord vir ekstra sekuriteit."
+      },
+      "feature_4": {
+        "title": "Voorkoming van ongemagtigde wysigings",
+        "content": "Beskerm belangrike sakedokumente wat met digitale sertifikate onderteken is teen ongemagtigde veranderings."
+      },
+      "feature_5": {
+        "title": "Gewenste uitvoerformate",
+        "content": "Kry moeiteloos ondertekende dokumente in enige ondersteunde formaat. Skakel MS Word-dokumente met gemak na PDF-formaat om."
+      },
+      "feature_6": {
+        "title": "Dokumentevoorskou",
+        "content": "Stoor individuele dokumentbladsye as beelde vir toekomstige behoeftes."
+      },
+      "feature_7": {
+        "title": "Soek na handtekening",
+        "content": "Kry inligting oor voorheen bygevoeg handtekeninge binne jou dokumente."
+      },
+      "feature_8": {
+        "title": "Dokument validering",
+        "content": "Verifieer die egtheid van handtekeninge wat in enige dokument aangebied word."
+      },
+      "feature_9": {
+        "title": "Handtekeningbestuur",
+        "content": "Vee uit, hervestig of wysig enige handtekeninge wat op enige dokumentbladsy geplaas is."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} voer dokumentverwerking met verskeie bedryfstelsels uit",
+    "formats_description": "{{ProductFullName}} fasiliteer bewerkings vir die [gewilde lêerformate]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Illustratiewe voorbeelde wat tipiese {{ProductFullName}}-bewerkings uitstal",
+    "code_title_sample_1": "Merk PDF met QR-kodes",
+    "code_samples_sample_1_content_1": "Die inkorporering van [strepieskodes]({{Sample1Url}}) in spesifieke PDF-dokumentbladsye kan besigheidsprosesse stroomlyn.",
+    "code_samples_sample_1_content_2": "Hierdie afdeling verskaf 'n voorbeeld van die byvoeging van 'n QR-kode deur {{ProductFullName}} te gebruik.",
+    "code_title_sample_2": "Beskerm 'n DOCX met 'n digitale handtekening",
+    "code_samples_sample_2_content_1": "[Beskerm jou dokumente]({{Sample2Url}}) deur handtekeninge gebaseer op digitale sertifikate.",
+    "code_samples_sample_2_content_2": "Digitale handtekening beskerm u besigheidsdokumente teen inhoudsverandering."
   }
 }

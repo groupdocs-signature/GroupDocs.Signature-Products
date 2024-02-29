@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API om gewildste digitale handtekeningtipes by Microsoft Office, PDF, beelde en verskeie ander formate in .NET-toepassings by te voeg, te soek en te verifieer."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Bemagtig Java-toepassings met eSignature-vermoëns om 'n wye reeks dokumente en beelde digitaal te onderteken op enige bedryfstelsel met JDK geïnstalleer."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Ons Node.js-oplossing brei jou besigheidstoepassings uit met digitale ondertekening. Plaas maklik elektroniese handtekeninge op gewilde dokumente en beeldformate."
 
     # api loop
     - title: "GroupDocs.Signature Lae Kode API's sluit in"

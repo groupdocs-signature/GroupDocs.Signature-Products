@@ -41,9 +41,9 @@ words:
 
 actions:
   main: "<% "{index-content-nodejs-java.actions_main}" %>"
-  main_link: "<% dict "products.net.main_link" %>"
+  main_link: "<% dict "products.nodejs-java.main_link" %>"
   alt: "<% "{index-content.actions_alt}" %>"
-  alt_link: "<% dict "products.net.alt_link" %>"
+  alt_link: "<% dict "products.nodejs-java.alt_link" %>"
   title: "<% "{index-content.actions_title}" %>"
   description: "<% "{index-content.actions_description}" %>"
 
@@ -55,7 +55,7 @@ release:
 code:
   title: "<% "{index-content-nodejs-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.net.more_link" %>"
+  more_link: "<% dict "products.nodejs-java.more_link" %>"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```javascript {style=abap}   
