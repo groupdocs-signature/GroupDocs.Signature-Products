@@ -1,0 +1,7 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias:  operation
+  values: [sign] 
+
+outputPath: "signature\\nodejs-java\\_index.{lang}.md"

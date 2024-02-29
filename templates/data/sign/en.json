@@ -236,6 +236,7 @@
     "api_high_label": "View All High Code APIs",
     "api_high_1_content": "Native .NET API to add, search and verify most popular digital signature types to Microsoft Office, PDF, images and various other formats in .NET applications.",
     "api_high_2_content": "Empower Java applications with eSignature capabilities to digitally sign a wide range of documents & images on any operating system with JDK installed.",
+    "api_high_3_content": "Our Node.js solution extends your business applications with digital signing. Put electronic signatures on popular documents & image formats easily.",
     "api_low_title": "GroupDocs.Signature Low Code APIs Include",
     "api_low_label": "View All Low Code APIs",
     "api_low_1_content": "Work with cURL RESTful document signature API to add & manipulate different signature types in all popular document formats including PDF, Word, Excel & images.",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Use digital signature to protect a DOCX",
     "code_samples_sample_2_content_1": "You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
     "code_samples_sample_2_content_2": "Documents secured with certificate cannot be altered without invalidating the signature."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js Digital Signatures Solution",
+    "title_2": "with Node.js API",
+    "actions_main": "Download from NPM",
+    "code_title": "Signing PDFs by Node.js",
+    "overview_description": "Documents signing library that ready to be used in Node.js applications",
+    "overview_feature_1": {
+      "title": "Digital Signatures Solution for Business Documents with Node.js",
+      "description": "GroupDocs.Signature for Node.js offers a comprehensive set of digital signature options for PDF, Office documents and images. Text, barcodes, images, digital certificates and metadata are available. Streamlined document processing ensures efficiency."
+    },
+    "overview_feature_2": {
+      "title": "Advanced Manipulation of Signed Documents",
+      "description": "GroupDocs.Signature empowers you to process signed documents. Search and validate signatures using various criteria. Additionally, extract detailed document information or generate preview images of pages."
+    },
+    "overview_feature_3": {
+      "title": "Diverse Output Formats",
+      "description": "Our solution provides extensive control over the output format of signed documents. Precisely position signatures on any page and customize their appearance. Save signed documents in numerous supported formats and optionally secure them with passwords."
+    },
+    "features": {
+      "title": "Features of GroupDocs.Signature",
+      "description": "Sign PDFs, Office documents, and images with digital signatures",
+      "feature_1": {
+        "title": "Business Signatures",
+        "content": "Employ various signature types to sign documents. Place digital signatures precisely on any page location."
+      },
+      "feature_2": {
+        "title": "Customizing Signature Appearance",
+        "content": "Tailor the visual aspects of signatures by adjusting color, font, borders, rotation, and more to achieve your desired outcome."
+      },
+      "feature_3": {
+        "title": "Password-Protected Documents",
+        "content": "For many supported document formats, safeguard signed documents with a password for added security."
+      },
+      "feature_4": {
+        "title": "Preventing Unauthorized Modifications",
+        "content": "Protect crucial business documents signed with digital certificates from unauthorized alterations."
+      },
+      "feature_5": {
+        "title": "Desired Output Formats",
+        "content": "Effortlessly get signed documents in any supported format. Convert MS Word documents to PDF format with ease."
+      },
+      "feature_6": {
+        "title": "Documents Previewing",
+        "content": "Save individual document pages as images for future needs."
+      },
+      "feature_7": {
+        "title": "Signature Search",
+        "content": "Retrieve information about previously added signatures within your documents."
+      },
+      "feature_8": {
+        "title": "Document Validation",
+        "content": "Verify the authenticity of signatures presented in any document."
+      },
+      "feature_9": {
+        "title": "Signature Management",
+        "content": "Delete, relocate, or modify any signatures placed on any document page."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Node.js performs document processing with various operating systems",
+    "formats_description": "GroupDocs.Signature for Node.js facilitates operations for the [popular file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Illustrative examples showcasing typical GroupDocs.Signature for Node.js operations",
+    "code_title_sample_1": "Mark PDF with QR Codes",
+    "code_samples_sample_1_content_1": "Incorporating [barcodes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) into specific PDF document pages can streamline business processes.",
+    "code_samples_sample_1_content_2": "This section provides an example of adding a QR code using GroupDocs.Signature for Node.js.",
+    "code_title_sample_2": "Protecting a DOCX with a Digital Signature",
+    "code_samples_sample_2_content_1": "[Protect your Documents](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) by signatures based on digital certificates.",
+    "code_samples_sample_2_content_2": "Digital signature protect your business documents against content changing."
   }
 }
