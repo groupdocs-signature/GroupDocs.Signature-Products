@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API՝ Microsoft Office-ի, PDF-ի, պատկերների և տարբեր այլ ձևաչափերի մեջ .NET հավելվածներում ավելացնելու, որոնելու և ստուգելու ամենատարածված թվային ստորագրությունների տեսակները:"
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Հզորացրեք Java հավելվածներին eSignature հնարավորություններով՝ թվային կերպով ստորագրելու փաստաթղթերի և պատկերների լայն շրջանակ ցանկացած օպերացիոն համակարգում, որտեղ տեղադրված է JDK:"
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Մեր Node.js լուծումը ընդլայնում է ձեր բիզնես հավելվածները թվային ստորագրությամբ: Հեշտությամբ էլեկտրոնային ստորագրություններ դրեք հանրաճանաչ փաստաթղթերի և պատկերների ձևաչափերի վրա:"
 
     # api loop
     - title: "GroupDocs.Signature Low Code API-ները ներառում են"

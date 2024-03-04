@@ -289,7 +289,8 @@
         "comment_3": "Establiu la contrasenya del certificat",
         "comment_4": "Signeu el document i deseu-lo al camí desitjat"
       }
-    }
+    },
+    "api_high_3_content": "La nostra solució Node.js amplia les vostres aplicacions empresarials amb signatura digital. Col·loqueu signatures electròniques en documents i formats d'imatge populars fàcilment."
   },
   "index-content-net": {
     "title": "API nativa de .NET per a signatures electròniques",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Utilitzeu la signatura digital per protegir un DOCX",
     "code_samples_sample_2_content_1": "Podeu [protegir un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals.",
     "code_samples_sample_2_content_2": "Els documents assegurats amb certificat no es poden alterar sense invalidar la signatura."
+  },
+  "index-content-nodejs-java": {
+    "title": "Solució de signatures digitals Node.js",
+    "title_2": "amb l'API Node.js",
+    "actions_main": "Descarrega des de NPM",
+    "code_title": "Signatura de PDF per Node.js",
+    "overview_description": "Biblioteca de signatura de documents a punt per utilitzar-se a les aplicacions Node.js",
+    "overview_feature_1": {
+      "title": "Solució de signatures digitals per a documents empresarials amb Node.js",
+      "description": "{{ProductFullName}} ofereix un conjunt complet d'opcions de signatura digital per a documents PDF, Office i imatges. Hi ha text, codis de barres, imatges, certificats digitals i metadades disponibles. El processament de documents racionalitzat garanteix l'eficiència."
+    },
+    "overview_feature_2": {
+      "title": "Manipulació avançada de documents signats",
+      "description": "{{ProdShortName}} us permet processar documents signats. Cerca i valida les signatures utilitzant diversos criteris. A més, extreu informació detallada del document o genereu imatges de vista prèvia de pàgines."
+    },
+    "overview_feature_3": {
+      "title": "Formats de sortida diversos",
+      "description": "La nostra solució proporciona un control ampli sobre el format de sortida dels documents signats. Col·loqueu les signatures amb precisió a qualsevol pàgina i personalitzeu-ne l'aspecte. Deseu documents signats en nombrosos formats compatibles i, opcionalment, protegiu-los amb contrasenyes."
+    },
+    "features": {
+      "title": "Característiques de {{ProdShortName}}",
+      "description": "Signa PDF, documents d'Office i imatges amb signatures digitals",
+      "feature_1": {
+        "title": "Signatures comercials",
+        "content": "Utilitzeu diversos tipus de signatura per signar documents. Col·loqueu signatures digitals amb precisió a qualsevol ubicació de la pàgina."
+      },
+      "feature_2": {
+        "title": "Personalització de l'aparença de la signatura",
+        "content": "Adapteu els aspectes visuals de les signatures ajustant el color, el tipus de lletra, les vores, la rotació i més per aconseguir el resultat desitjat."
+      },
+      "feature_3": {
+        "title": "Documents protegits amb contrasenya",
+        "content": "Per a molts formats de documents admesos, protegiu els documents signats amb una contrasenya per a més seguretat."
+      },
+      "feature_4": {
+        "title": "Prevenció de modificacions no autoritzades",
+        "content": "Protegiu els documents empresarials crucials signats amb certificats digitals d'alteracions no autoritzades."
+      },
+      "feature_5": {
+        "title": "Formats de sortida desitjats",
+        "content": "Obteniu documents signats sense esforç en qualsevol format compatible. Converteix documents de MS Word a format PDF amb facilitat."
+      },
+      "feature_6": {
+        "title": "Previsualització de documents",
+        "content": "Deseu pàgines de documents individuals com a imatges per a necessitats futures."
+      },
+      "feature_7": {
+        "title": "Cerca de signatures",
+        "content": "Recupereu informació sobre signatures afegides anteriorment als vostres documents."
+      },
+      "feature_8": {
+        "title": "Validació de documents",
+        "content": "Verificar l'autenticitat de les signatures presentades en qualsevol document."
+      },
+      "feature_9": {
+        "title": "Gestió de signatures",
+        "content": "Suprimiu, canvieu o modifiqueu les signatures col·locades a qualsevol pàgina del document."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} realitza el processament de documents amb diversos sistemes operatius",
+    "formats_description": "{{ProductFullName}} facilita les operacions per als [formats de fitxer populars]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemples il·lustratius que mostren les operacions típiques de {{ProductFullName}}",
+    "code_title_sample_1": "Marqueu PDF amb codis QR",
+    "code_samples_sample_1_content_1": "La incorporació de [codis de barres]({{Sample1Url}}) a pàgines específiques de documents PDF pot agilitzar els processos empresarials.",
+    "code_samples_sample_1_content_2": "Aquesta secció ofereix un exemple d'afegir un codi QR amb {{ProductFullName}}.",
+    "code_title_sample_2": "Protecció d'un DOCX amb una signatura digital",
+    "code_samples_sample_2_content_1": "[Protegiu els vostres documents]({{Sample2Url}}) mitjançant signatures basades en certificats digitals.",
+    "code_samples_sample_2_content_2": "La signatura digital protegeix els documents empresarials contra els canvis de contingut."
   }
 }

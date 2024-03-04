@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:08
+date: 2024-03-04T17:52:03
 draft: false
 #operation: 
 #signaturetype: 
@@ -41,9 +41,9 @@ words:
 
 actions:
   main: "Download from NPM"
-  main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.signature/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Signature features for free or request a license"
 
@@ -55,7 +55,7 @@ release:
 code:
   title: "Signing PDFs by Node.js"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```javascript {style=abap}   

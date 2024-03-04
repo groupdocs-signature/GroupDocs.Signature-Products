@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Собственный .NET API для добавления, поиска и проверки наиболее популярных типов цифровых подписей в Microsoft Office, PDF, изображениях и различных других форматах в приложениях .NET."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Расширьте возможности приложений Java с помощью возможностей электронной подписи для цифровой подписи широкого спектра документов и изображений в любой операционной системе с установленным JDK."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Наше решение Node.js расширяет возможности ваших бизнес-приложений с помощью цифровой подписи. Легко ставьте электронные подписи на популярные документы и форматы изображений."
 
     # api loop
     - title: "API-интерфейсы GroupDocs.Signature Low Code включают"

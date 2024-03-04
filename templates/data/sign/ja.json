@@ -289,7 +289,8 @@
         "comment_3": "証明書のパスワードを設定する",
         "comment_4": "文書に署名し、目的のパスに保存します"
       }
-    }
+    },
+    "api_high_3_content": "当社の Node.js ソリューションは、デジタル署名を使用してビジネス アプリケーションを拡張します。一般的なドキュメントや画像形式に電子署名を簡単に追加できます。"
   },
   "index-content-net": {
     "title": "電子署名用のネイティブ .NET API",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "デジタル署名を使用して DOCX を保護する",
     "code_samples_sample_2_content_1": "デジタル証明書として保存された個人または企業の署名を使用して、[ドキュメントを保護](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) できます。",
     "code_samples_sample_2_content_2": "証明書で保護された文書は、署名を無効にしない限り変更できません。"
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js デジタル署名ソリューション",
+    "title_2": "Node.js APIを使用",
+    "actions_main": "NPMからダウンロード",
+    "code_title": "Node.js による PDF への署名",
+    "overview_description": "Node.js アプリケーションですぐに使用できるドキュメント署名ライブラリ",
+    "overview_feature_1": {
+      "title": "Node.js を使用したビジネス文書向けのデジタル署名ソリューション",
+      "description": "{{ProductFullName}} は、PDF、Office ドキュメント、画像に対するデジタル署名オプションの包括的なセットを提供します。テキスト、バーコード、画像、デジタル証明書、メタデータが利用可能です。合理化されたドキュメント処理により、効率が確実に高まります。"
+    },
+    "overview_feature_2": {
+      "title": "署名済み文書の高度な操作",
+      "description": "{{ProdShortName}} を使用すると、署名されたドキュメントを処理できます。さまざまな基準を使用して署名を検索および検証します。さらに、詳細な文書情報を抽出したり、ページのプレビュー画像を生成したりできます。"
+    },
+    "overview_feature_3": {
+      "title": "多様な出力フォーマット",
+      "description": "当社のソリューションは、署名された文書の出力形式を広範囲に制御できます。任意のページに署名を正確に配置し、外観をカスタマイズします。署名されたドキュメントをサポートされている多数の形式で保存し、オプションでパスワードで保護します。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} の機能",
+      "description": "デジタル署名を使用して PDF、Office ドキュメント、画像に署名します",
+      "feature_1": {
+        "title": "ビジネス署名",
+        "content": "さまざまな署名タイプを使用して文書に署名します。ページの任意の場所にデジタル署名を正確に配置します。"
+      },
+      "feature_2": {
+        "title": "署名の外観のカスタマイズ",
+        "content": "色、フォント、枠線、回転などを調整して署名の視覚的側面を調整し、希望の結果を実現します。"
+      },
+      "feature_3": {
+        "title": "パスワードで保護された文書",
+        "content": "サポートされている多くのドキュメント形式では、署名付きドキュメントをパスワードで保護してセキュリティを強化します。"
+      },
+      "feature_4": {
+        "title": "不正な変更の防止",
+        "content": "デジタル証明書で署名された重要なビジネス文書を不正な改ざんから保護します。"
+      },
+      "feature_5": {
+        "title": "希望する出力形式",
+        "content": "サポートされている形式で署名付きドキュメントを簡単に取得できます。 MS Word ドキュメントを PDF 形式に簡単に変換します。"
+      },
+      "feature_6": {
+        "title": "ドキュメントのプレビュー",
+        "content": "将来の必要に応じて、ドキュメントの個々のページを画像として保存します。"
+      },
+      "feature_7": {
+        "title": "署名の検索",
+        "content": "ドキュメント内に以前に追加された署名に関する情報を取得します。"
+      },
+      "feature_8": {
+        "title": "文書の検証",
+        "content": "あらゆる文書に記載されている署名の信頼性を検証します。"
+      },
+      "feature_9": {
+        "title": "署名管理",
+        "content": "文書ページに配置された署名を削除、移動、または変更します。"
+      }
+    },
+    "platforms_description": "{{ProductFullName}} はさまざまなオペレーティング システムでドキュメント処理を実行します",
+    "formats_description": "{{ProductFullName}} は、[一般的なファイル形式]({{SupportedFormatsUrl}}) の操作を容易にします。",
+    "code_samples_description": "典型的な {{ProductFullName}} 操作を示す実例",
+    "code_title_sample_1": "PDF に QR コードをマークする",
+    "code_samples_sample_1_content_1": "[バーコード]({{Sample1Url}}) を特定の PDF ドキュメント ページに組み込むと、ビジネス プロセスを効率化できます。",
+    "code_samples_sample_1_content_2": "このセクションでは、{{ProductFullName}} を使用して QR コードを追加する例を示します。",
+    "code_title_sample_2": "デジタル署名による DOCX の保護",
+    "code_samples_sample_2_content_1": "[ドキュメントを保護]({{Sample2Url}}) はデジタル証明書に基づく署名によって行われます。",
+    "code_samples_sample_2_content_2": "デジタル署名は、ビジネス文書を内容の変更から保護します。"
   }
 }

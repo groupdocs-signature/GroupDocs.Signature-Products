@@ -289,7 +289,8 @@
         "comment_3": "Imposta la password del certificato",
         "comment_4": "Firma il documento e salvalo nel percorso desiderato"
       }
-    }
+    },
+    "api_high_3_content": "La nostra soluzione Node.js estende le tue applicazioni aziendali con la firma digitale. Inserisci facilmente firme elettroniche su documenti e formati di immagine più diffusi."
   },
   "index-content-net": {
     "title": "API .NET nativa per firme elettroniche",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Utilizza la firma digitale per proteggere un DOCX",
     "code_samples_sample_2_content_1": "Puoi [Proteggere un documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilizzando firme personali o aziendali archiviate come certificati digitali.",
     "code_samples_sample_2_content_2": "I documenti protetti con certificato non possono essere alterati senza invalidare la firma."
+  },
+  "index-content-nodejs-java": {
+    "title": "Soluzione di firma digitale Node.js",
+    "title_2": "con l'API Node.js",
+    "actions_main": "Scarica da NPM",
+    "code_title": "Firma dei PDF tramite Node.js",
+    "overview_description": "Libreria di firma dei documenti pronta per essere utilizzata nelle applicazioni Node.js",
+    "overview_feature_1": {
+      "title": "Soluzione di firma digitale per documenti aziendali con Node.js",
+      "description": "{{ProductFullName}} offre una serie completa di opzioni di firma digitale per PDF, documenti Office e immagini. Sono disponibili testo, codici a barre, immagini, certificati digitali e metadati. L'elaborazione semplificata dei documenti garantisce efficienza."
+    },
+    "overview_feature_2": {
+      "title": "Manipolazione avanzata dei documenti firmati",
+      "description": "{{ProdShortName}} ti consente di elaborare documenti firmati. Cerca e convalida le firme utilizzando vari criteri. Inoltre, estrai informazioni dettagliate sul documento o genera immagini di anteprima delle pagine."
+    },
+    "overview_feature_3": {
+      "title": "Diversi formati di output",
+      "description": "La nostra soluzione fornisce un controllo completo sul formato di output dei documenti firmati. Posiziona con precisione le firme su qualsiasi pagina e personalizza il loro aspetto. Salva i documenti firmati in numerosi formati supportati e, facoltativamente, proteggili con password."
+    },
+    "features": {
+      "title": "Funzionalità di {{ProdShortName}}",
+      "description": "Firma PDF, documenti Office e immagini con firme digitali",
+      "feature_1": {
+        "title": "Firme aziendali",
+        "content": "Utilizza vari tipi di firma per firmare i documenti. Posiziona le firme digitali con precisione su qualsiasi posizione della pagina."
+      },
+      "feature_2": {
+        "title": "Personalizzazione dell'aspetto della firma",
+        "content": "Personalizza gli aspetti visivi delle firme regolando colore, carattere, bordi, rotazione e altro per ottenere il risultato desiderato."
+      },
+      "feature_3": {
+        "title": "Documenti protetti da password",
+        "content": "Per molti formati di documenti supportati, proteggi i documenti firmati con una password per una maggiore sicurezza."
+      },
+      "feature_4": {
+        "title": "Prevenire modifiche non autorizzate",
+        "content": "Proteggi i documenti aziendali cruciali firmati con certificati digitali da alterazioni non autorizzate."
+      },
+      "feature_5": {
+        "title": "Formati di output desiderati",
+        "content": "Ottieni facilmente documenti firmati in qualsiasi formato supportato. Converti facilmente documenti MS Word in formato PDF."
+      },
+      "feature_6": {
+        "title": "Anteprima dei documenti",
+        "content": "Salva le singole pagine del documento come immagini per esigenze future."
+      },
+      "feature_7": {
+        "title": "Ricerca di firme",
+        "content": "Recupera informazioni sulle firme aggiunte in precedenza nei tuoi documenti."
+      },
+      "feature_8": {
+        "title": "Convalida del documento",
+        "content": "Verificare l'autenticità delle firme presentate in qualsiasi documento."
+      },
+      "feature_9": {
+        "title": "Gestione delle firme",
+        "content": "Elimina, riposiziona o modifica qualsiasi firma inserita su qualsiasi pagina del documento."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} esegue l'elaborazione dei documenti con vari sistemi operativi",
+    "formats_description": "{{ProductFullName}} facilita le operazioni per i [formati di file più diffusi]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esempi illustrativi che mostrano le operazioni tipiche di {{ProductFullName}}",
+    "code_title_sample_1": "Contrassegna il PDF con i codici QR",
+    "code_samples_sample_1_content_1": "Incorporando [codici a barre]({{Sample1Url}}) in pagine specifiche di documenti PDF è possibile semplificare i processi aziendali.",
+    "code_samples_sample_1_content_2": "Questa sezione fornisce un esempio di aggiunta di un codice QR utilizzando {{ProductFullName}}.",
+    "code_title_sample_2": "Proteggere un DOCX con una Firma Digitale",
+    "code_samples_sample_2_content_1": "[Proteggi i tuoi documenti]({{Sample2Url}}) con firme basate su certificati digitali.",
+    "code_samples_sample_2_content_2": "La firma digitale protegge i tuoi documenti aziendali dalla modifica dei contenuti."
   }
 }

@@ -289,7 +289,8 @@
         "comment_3": "Ustaw hasło certyfikatu",
         "comment_4": "Podpisz dokument i zapisz go w wybranej ścieżce"
       }
-    }
+    },
+    "api_high_3_content": "Nasze rozwiązanie Node.js rozszerza Twoje aplikacje biznesowe o podpis cyfrowy. Z łatwością umieszczaj podpisy elektroniczne na popularnych dokumentach i formatach obrazów."
   },
   "index-content-net": {
     "title": "Natywne API .NET dla podpisów elektronicznych",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Użyj podpisu cyfrowego, aby chronić dokument DOCX",
     "code_samples_sample_2_content_1": "Możesz [zabezpieczyć dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), używając podpisów osobistych lub firmowych przechowywanych jako certyfikaty cyfrowe.",
     "code_samples_sample_2_content_2": "Dokumentów zabezpieczonych certyfikatem nie można zmieniać bez unieważnienia podpisu."
+  },
+  "index-content-nodejs-java": {
+    "title": "Rozwiązanie do podpisów cyfrowych Node.js",
+    "title_2": "z API Node.js",
+    "actions_main": "Pobierz z NPM",
+    "code_title": "Podpisywanie plików PDF przez Node.js",
+    "overview_description": "Biblioteka podpisywania dokumentów gotowa do użycia w aplikacjach Node.js",
+    "overview_feature_1": {
+      "title": "Rozwiązanie do podpisów cyfrowych dla dokumentów biznesowych w środowisku Node.js",
+      "description": "{{ProductFullName}} oferuje kompleksowy zestaw opcji podpisu cyfrowego dla dokumentów PDF, dokumentów Office i obrazów. Dostępne są teksty, kody kreskowe, obrazy, certyfikaty cyfrowe i metadane. Usprawnione przetwarzanie dokumentów zapewnia wydajność."
+    },
+    "overview_feature_2": {
+      "title": "Zaawansowana manipulacja podpisanymi dokumentami",
+      "description": "{{ProdShortName}} umożliwia przetwarzanie podpisanych dokumentów. Wyszukuj i sprawdzaj podpisy przy użyciu różnych kryteriów. Dodatkowo wyodrębnij szczegółowe informacje o dokumencie lub wygeneruj obrazy podglądu stron."
+    },
+    "overview_feature_3": {
+      "title": "Różnorodne formaty wyjściowe",
+      "description": "Nasze rozwiązanie zapewnia szeroką kontrolę nad formatem wyjściowym podpisanych dokumentów. Precyzyjnie umieść podpisy na dowolnej stronie i dostosuj ich wygląd. Zapisuj podpisane dokumenty w wielu obsługiwanych formatach i opcjonalnie zabezpiecz je hasłami."
+    },
+    "features": {
+      "title": "Funkcje {{ProdShortName}}",
+      "description": "Podpisuj pliki PDF, dokumenty pakietu Office i obrazy za pomocą podpisów cyfrowych",
+      "feature_1": {
+        "title": "Podpisy biznesowe",
+        "content": "Do podpisywania dokumentów stosuj różne typy podpisów. Umieść podpisy cyfrowe dokładnie w dowolnym miejscu strony."
+      },
+      "feature_2": {
+        "title": "Dostosowywanie wyglądu podpisu",
+        "content": "Dostosuj wizualne aspekty podpisów, dostosowując kolor, czcionkę, obramowania, obrót i inne elementy, aby osiągnąć pożądany efekt."
+      },
+      "feature_3": {
+        "title": "Dokumenty chronione hasłem",
+        "content": "W przypadku wielu obsługiwanych formatów dokumentów zabezpiecz podpisane dokumenty hasłem, aby zwiększyć bezpieczeństwo."
+      },
+      "feature_4": {
+        "title": "Zapobieganie nieautoryzowanym modyfikacjom",
+        "content": "Chroń najważniejsze dokumenty biznesowe podpisane certyfikatami cyfrowymi przed nieautoryzowanymi zmianami."
+      },
+      "feature_5": {
+        "title": "Żądane formaty wyjściowe",
+        "content": "Bez problemu otrzymuj podpisane dokumenty w dowolnym obsługiwanym formacie. Z łatwością konwertuj dokumenty MS Word do formatu PDF."
+      },
+      "feature_6": {
+        "title": "Podgląd dokumentów",
+        "content": "Zapisz poszczególne strony dokumentu jako obrazy na przyszłe potrzeby."
+      },
+      "feature_7": {
+        "title": "Wyszukiwanie podpisów",
+        "content": "Odzyskaj informacje o wcześniej dodanych podpisach w dokumentach."
+      },
+      "feature_8": {
+        "title": "Walidacja dokumentu",
+        "content": "Zweryfikuj autentyczność podpisów złożonych na dowolnym dokumencie."
+      },
+      "feature_9": {
+        "title": "Zarządzanie podpisami",
+        "content": "Usuń, przenieś lub zmodyfikuj podpisy umieszczone na dowolnej stronie dokumentu."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} przetwarza dokumenty w różnych systemach operacyjnych",
+    "formats_description": "{{ProductFullName}} ułatwia operacje na [popularnych formatach plików]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Przykłady ilustrujące typowe operacje {{ProductFullName}}",
+    "code_title_sample_1": "Oznacz plik PDF kodami QR",
+    "code_samples_sample_1_content_1": "Włączenie [kodów kreskowych]({{Sample1Url}}) do określonych stron dokumentów PDF może usprawnić procesy biznesowe.",
+    "code_samples_sample_1_content_2": "W tej sekcji przedstawiono przykład dodania kodu QR za pomocą {{ProductFullName}}.",
+    "code_title_sample_2": "Ochrona DOCX za pomocą podpisu cyfrowego",
+    "code_samples_sample_2_content_1": "[Chroń swoje dokumenty]({{Sample2Url}}) za pomocą podpisów opartych na certyfikatach cyfrowych.",
+    "code_samples_sample_2_content_2": "Podpis cyfrowy chroni dokumenty biznesowe przed zmianą treści."
   }
 }

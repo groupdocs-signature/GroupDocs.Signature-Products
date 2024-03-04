@@ -289,7 +289,8 @@
         "comment_3": "Tetapkan kata laluan sijil",
         "comment_4": "Tandatangani dokumen dan simpan ke laluan yang dikehendaki"
       }
-    }
+    },
+    "api_high_3_content": "Penyelesaian Node.js kami memanjangkan aplikasi perniagaan anda dengan tandatangan digital. Letakkan tandatangan elektronik pada dokumen popular & format imej dengan mudah."
   },
   "index-content-net": {
     "title": "API .NET Asli untuk Tandatangan Elektronik",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Gunakan tandatangan digital untuk melindungi DOCX",
     "code_samples_sample_2_content_1": "Anda boleh [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) menggunakan tandatangan peribadi atau korporat yang disimpan sebagai sijil digital.",
     "code_samples_sample_2_content_2": "Dokumen yang dicagarkan dengan sijil tidak boleh diubah tanpa membatalkan tandatangan."
+  },
+  "index-content-nodejs-java": {
+    "title": "Penyelesaian Tandatangan Digital Node.js",
+    "title_2": "dengan API Node.js",
+    "actions_main": "Muat turun daripada NPM",
+    "code_title": "Menandatangani PDF oleh Node.js",
+    "overview_description": "Pustaka menandatangani dokumen yang sedia untuk digunakan dalam aplikasi Node.js",
+    "overview_feature_1": {
+      "title": "Penyelesaian Tandatangan Digital untuk Dokumen Perniagaan dengan Node.js",
+      "description": "{{ProductFullName}} menawarkan set komprehensif pilihan tandatangan digital untuk PDF, dokumen Office dan imej. Teks, kod bar, imej, sijil digital dan metadata tersedia. Pemprosesan dokumen yang diperkemas memastikan kecekapan."
+    },
+    "overview_feature_2": {
+      "title": "Manipulasi Lanjutan Dokumen Ditandatangani",
+      "description": "{{ProdShortName}} memberi anda kuasa untuk memproses dokumen yang ditandatangani. Cari dan sahkan tandatangan menggunakan pelbagai kriteria. Selain itu, ekstrak maklumat dokumen terperinci atau hasilkan imej pratonton halaman."
+    },
+    "overview_feature_3": {
+      "title": "Format Output Pelbagai",
+      "description": "Penyelesaian kami menyediakan kawalan yang meluas ke atas format output dokumen yang ditandatangani. Letakkan tandatangan dengan tepat pada mana-mana halaman dan sesuaikan penampilannya. Simpan dokumen yang ditandatangani dalam pelbagai format yang disokong dan selamatkannya dengan kata laluan secara pilihan."
+    },
+    "features": {
+      "title": "Ciri-ciri {{ProdShortName}}",
+      "description": "Tandatangani PDF, dokumen Pejabat dan imej dengan tandatangan digital",
+      "feature_1": {
+        "title": "Tandatangan Perniagaan",
+        "content": "Gunakan pelbagai jenis tandatangan untuk menandatangani dokumen. Letakkan tandatangan digital dengan tepat pada mana-mana lokasi halaman."
+      },
+      "feature_2": {
+        "title": "Menyesuaikan Penampilan Tandatangan",
+        "content": "Sesuaikan aspek visual tandatangan dengan melaraskan warna, fon, jidar, putaran dan banyak lagi untuk mencapai hasil yang anda inginkan."
+      },
+      "feature_3": {
+        "title": "Dokumen Dilindungi Kata Laluan",
+        "content": "Untuk kebanyakan format dokumen yang disokong, lindungi dokumen yang ditandatangani dengan kata laluan untuk keselamatan tambahan."
+      },
+      "feature_4": {
+        "title": "Mencegah Pengubahsuaian Tanpa Kebenaran",
+        "content": "Lindungi dokumen perniagaan penting yang ditandatangani dengan sijil digital daripada perubahan yang tidak dibenarkan."
+      },
+      "feature_5": {
+        "title": "Format Output yang Diingini",
+        "content": "Dapatkan dokumen yang ditandatangani dengan mudah dalam sebarang format yang disokong. Tukar dokumen MS Word kepada format PDF dengan mudah."
+      },
+      "feature_6": {
+        "title": "Pratonton Dokumen",
+        "content": "Simpan halaman dokumen individu sebagai imej untuk keperluan masa hadapan."
+      },
+      "feature_7": {
+        "title": "Carian Tandatangan",
+        "content": "Dapatkan maklumat tentang tandatangan yang ditambahkan sebelum ini dalam dokumen anda."
+      },
+      "feature_8": {
+        "title": "Pengesahan Dokumen",
+        "content": "Sahkan ketulenan tandatangan yang dibentangkan dalam mana-mana dokumen."
+      },
+      "feature_9": {
+        "title": "Pengurusan Tandatangan",
+        "content": "Padam, pindahkan atau ubah suai sebarang tandatangan yang diletakkan pada mana-mana halaman dokumen."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} melaksanakan pemprosesan dokumen dengan pelbagai sistem pengendalian",
+    "formats_description": "{{ProductFullName}} memudahkan operasi untuk [format fail popular]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Contoh ilustrasi yang mempamerkan operasi biasa {{ProductFullName}}.",
+    "code_title_sample_1": "Tandai PDF dengan Kod QR",
+    "code_samples_sample_1_content_1": "Menggabungkan [kod bar]({{Sample1Url}}) ke dalam halaman dokumen PDF tertentu boleh menyelaraskan proses perniagaan.",
+    "code_samples_sample_1_content_2": "Bahagian ini menyediakan contoh menambah kod QR menggunakan {{ProductFullName}}.",
+    "code_title_sample_2": "Melindungi DOCX dengan Tandatangan Digital",
+    "code_samples_sample_2_content_1": "[Lindungi Dokumen anda]({{Sample2Url}}) dengan tandatangan berdasarkan sijil digital.",
+    "code_samples_sample_2_content_2": "Tandatangan digital melindungi dokumen perniagaan anda daripada perubahan kandungan."
   }
 }

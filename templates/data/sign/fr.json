@@ -289,7 +289,8 @@
         "comment_3": "Définir le mot de passe du certificat",
         "comment_4": "Signez le document et enregistrez-le dans le chemin souhaité"
       }
-    }
+    },
+    "api_high_3_content": "Notre solution Node.js étend vos applications métiers avec la signature numérique. Mettez facilement des signatures électroniques sur des documents et des formats d'images courants."
   },
   "index-content-net": {
     "title": "API .NET native pour les signatures électroniques",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Utiliser la signature numérique pour protéger un DOCX",
     "code_samples_sample_2_content_1": "Vous pouvez [Protéger un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) en utilisant des signatures personnelles ou d'entreprise stockées sous forme de certificats numériques.",
     "code_samples_sample_2_content_2": "Les documents sécurisés par un certificat ne peuvent être modifiés sans invalider la signature."
+  },
+  "index-content-nodejs-java": {
+    "title": "Solution de signatures numériques Node.js",
+    "title_2": "avec l'API Node.js",
+    "actions_main": "Télécharger depuis NPM",
+    "code_title": "Signature de PDF par Node.js",
+    "overview_description": "Bibliothèque de signature de documents prête à être utilisée dans les applications Node.js",
+    "overview_feature_1": {
+      "title": "Solution de signatures numériques pour les documents commerciaux avec Node.js",
+      "description": "{{ProductFullName}} propose un ensemble complet d'options de signature numérique pour les documents PDF, Office et les images. Texte, codes-barres, images, certificats numériques et métadonnées sont disponibles. Le traitement rationalisé des documents garantit l’efficacité."
+    },
+    "overview_feature_2": {
+      "title": "Manipulation avancée des documents signés",
+      "description": "{{ProdShortName}} vous permet de traiter les documents signés. Recherchez et validez les signatures selon divers critères. De plus, extrayez des informations détaillées sur le document ou générez des images d’aperçu des pages."
+    },
+    "overview_feature_3": {
+      "title": "Divers formats de sortie",
+      "description": "Notre solution offre un contrôle étendu sur le format de sortie des documents signés. Positionnez avec précision les signatures sur n'importe quelle page et personnalisez leur apparence. Enregistrez les documents signés dans de nombreux formats pris en charge et sécurisez-les éventuellement avec des mots de passe."
+    },
+    "features": {
+      "title": "Fonctionnalités de {{ProdShortName}}",
+      "description": "Signez des PDF, des documents Office et des images avec des signatures numériques",
+      "feature_1": {
+        "title": "Signature d'entreprise",
+        "content": "Utilisez différents types de signature pour signer des documents. Placez des signatures numériques précisément à n’importe quel emplacement de page."
+      },
+      "feature_2": {
+        "title": "Personnalisation de l'apparence de la signature",
+        "content": "Adaptez les aspects visuels des signatures en ajustant la couleur, la police, les bordures, la rotation, etc. pour obtenir le résultat souhaité."
+      },
+      "feature_3": {
+        "title": "Documents protégés par mot de passe",
+        "content": "Pour de nombreux formats de documents pris en charge, protégez les documents signés avec un mot de passe pour plus de sécurité."
+      },
+      "feature_4": {
+        "title": "Prévenir les modifications non autorisées",
+        "content": "Protégez les documents commerciaux cruciaux signés avec des certificats numériques contre les modifications non autorisées."
+      },
+      "feature_5": {
+        "title": "Formats de sortie souhaités",
+        "content": "Obtenez sans effort des documents signés dans n’importe quel format pris en charge. Convertissez facilement des documents MS Word au format PDF."
+      },
+      "feature_6": {
+        "title": "Aperçu des documents",
+        "content": "Enregistrez des pages de document individuelles sous forme d’images pour vos besoins futurs."
+      },
+      "feature_7": {
+        "title": "Recherche de signatures",
+        "content": "Récupérez des informations sur les signatures précédemment ajoutées dans vos documents."
+      },
+      "feature_8": {
+        "title": "Validation des documents",
+        "content": "Vérifier l'authenticité des signatures présentées dans tout document."
+      },
+      "feature_9": {
+        "title": "Gestion des signatures",
+        "content": "Supprimez, déplacez ou modifiez toutes les signatures placées sur n'importe quelle page de document."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} effectue le traitement des documents avec différents systèmes d'exploitation",
+    "formats_description": "{{ProductFullName}} facilite les opérations pour les [formats de fichiers populaires]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemples illustrant les opérations {{ProductFullName}} typiques",
+    "code_title_sample_1": "Marquer un PDF avec des codes QR",
+    "code_samples_sample_1_content_1": "L'intégration de [codes-barres]({{Sample1Url}}) dans des pages de documents PDF spécifiques peut rationaliser les processus métier.",
+    "code_samples_sample_1_content_2": "Cette section fournit un exemple d'ajout d'un code QR à l'aide de {{ProductFullName}}.",
+    "code_title_sample_2": "Protéger un DOCX avec une signature numérique",
+    "code_samples_sample_2_content_1": "[Protégez vos documents]({{Sample2Url}}) par des signatures basées sur des certificats numériques.",
+    "code_samples_sample_2_content_2": "La signature numérique protège vos documents professionnels contre les modifications de contenu."
   }
 }

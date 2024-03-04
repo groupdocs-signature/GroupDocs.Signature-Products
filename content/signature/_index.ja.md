@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "ネイティブ .NET API を使用して、最も一般的なデジタル署名タイプを .NET アプリケーションの Microsoft Office、PDF、画像、およびその他のさまざまな形式に追加、検索、および検証します。"
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "JDK がインストールされている任意のオペレーティング システムで、電子署名機能を使用して Java アプリケーションを強化し、さまざまなドキュメントと画像にデジタル署名します。"
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "当社の Node.js ソリューションは、デジタル署名を使用してビジネス アプリケーションを拡張します。一般的なドキュメントや画像形式に電子署名を簡単に追加できます。"
 
     # api loop
     - title: "GroupDocs.Signature ローコード API には以下が含まれます"

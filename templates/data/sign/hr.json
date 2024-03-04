@@ -289,7 +289,8 @@
         "comment_3": "Postavite lozinku certifikata",
         "comment_4": "Potpišite dokument i spremite ga na željenu putanju"
       }
-    }
+    },
+    "api_high_3_content": "Naše rješenje Node.js proširuje vaše poslovne aplikacije digitalnim potpisivanjem. Jednostavno stavite elektroničke potpise na popularne dokumente i formate slika."
   },
   "index-content-net": {
     "title": "Izvorni .NET API za elektroničke potpise",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Koristite digitalni potpis za zaštitu DOCX-a",
     "code_samples_sample_2_content_1": "Možete [zaštititi dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomoću osobnih ili korporativnih potpisa pohranjenih kao digitalni certifikati.",
     "code_samples_sample_2_content_2": "Dokumenti osigurani certifikatom ne mogu se mijenjati bez poništavanja potpisa."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js rješenje za digitalne potpise",
+    "title_2": "s Node.js API-jem",
+    "actions_main": "Preuzmite s NPM-a",
+    "code_title": "Potpisivanje PDF-ova pomoću Node.js",
+    "overview_description": "Biblioteka za potpisivanje dokumenata koja je spremna za korištenje u Node.js aplikacijama",
+    "overview_feature_1": {
+      "title": "Rješenje za digitalne potpise za poslovne dokumente s Node.js",
+      "description": "{{ProductFullName}} nudi opsežan skup opcija digitalnog potpisa za PDF, Office dokumente i slike. Dostupni su tekst, crtični kodovi, slike, digitalni certifikati i metapodaci. Pojednostavljena obrada dokumenata osigurava učinkovitost."
+    },
+    "overview_feature_2": {
+      "title": "Napredno rukovanje potpisanim dokumentima",
+      "description": "{{ProdShortName}} vam omogućuje obradu potpisanih dokumenata. Pretražujte i potvrđujte potpise koristeći različite kriterije. Osim toga, izvucite detaljne informacije o dokumentu ili generirajte slike za pregled stranica."
+    },
+    "overview_feature_3": {
+      "title": "Različiti izlazni formati",
+      "description": "Naše rješenje pruža opsežnu kontrolu nad izlaznim formatom potpisanih dokumenata. Precizno pozicionirajte potpise na bilo kojoj stranici i prilagodite njihov izgled. Spremite potpisane dokumente u brojnim podržanim formatima i opcionalno ih zaštitite lozinkama."
+    },
+    "features": {
+      "title": "Značajke {{ProdShortName}}",
+      "description": "Potpišite PDF-ove, Office dokumente i slike digitalnim potpisima",
+      "feature_1": {
+        "title": "Poslovni potpisi",
+        "content": "Koristite različite vrste potpisa za potpisivanje dokumenata. Precizno postavite digitalne potpise na bilo koju stranicu."
+      },
+      "feature_2": {
+        "title": "Prilagodba izgleda potpisa",
+        "content": "Prilagodite vizualne aspekte potpisa podešavanjem boje, fonta, obruba, rotacije i još mnogo toga kako biste postigli željeni rezultat."
+      },
+      "feature_3": {
+        "title": "Dokumenti zaštićeni lozinkom",
+        "content": "Za mnoge podržane formate dokumenata zaštitite potpisane dokumente lozinkom za dodatnu sigurnost."
+      },
+      "feature_4": {
+        "title": "Sprječavanje neovlaštenih izmjena",
+        "content": "Zaštitite ključne poslovne dokumente potpisane digitalnim certifikatima od neovlaštenih izmjena."
+      },
+      "feature_5": {
+        "title": "Željeni izlazni formati",
+        "content": "Bez napora nabavite potpisane dokumente u bilo kojem podržanom formatu. Pretvorite MS Word dokumente u PDF format s lakoćom."
+      },
+      "feature_6": {
+        "title": "Pregled dokumenata",
+        "content": "Spremite pojedinačne stranice dokumenta kao slike za buduće potrebe."
+      },
+      "feature_7": {
+        "title": "Pretraga potpisa",
+        "content": "Dohvatite informacije o prethodno dodanim potpisima unutar vaših dokumenata."
+      },
+      "feature_8": {
+        "title": "Provjera valjanosti dokumenata",
+        "content": "Provjerite vjerodostojnost potpisa u bilo kojem dokumentu."
+      },
+      "feature_9": {
+        "title": "Upravljanje potpisom",
+        "content": "Izbrišite, premjestite ili modificirajte sve potpise postavljene na bilo koju stranicu dokumenta."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} izvodi obradu dokumenata s različitim operativnim sustavima",
+    "formats_description": "{{ProductFullName}} olakšava rad za [popularne formate datoteka]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Ilustrativni primjeri koji prikazuju tipične {{ProductFullName}} operacije",
+    "code_title_sample_1": "Označite PDF QR kodovima",
+    "code_samples_sample_1_content_1": "Uključivanje [crtičnih kodova]({{Sample1Url}}) u određene stranice PDF dokumenta može pojednostaviti poslovne procese.",
+    "code_samples_sample_1_content_2": "Ovaj odjeljak pruža primjer dodavanja QR koda pomoću {{ProductFullName}}.",
+    "code_title_sample_2": "Zaštita DOCX-a digitalnim potpisom",
+    "code_samples_sample_2_content_1": "[Zaštitite svoje dokumente]({{Sample2Url}}) potpisima na temelju digitalnih certifikata.",
+    "code_samples_sample_2_content_2": "Digitalni potpis štiti vaše poslovne dokumente od promjene sadržaja."
   }
 }

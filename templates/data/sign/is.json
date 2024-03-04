@@ -289,7 +289,8 @@
         "comment_3": "Stilltu lykilorð vottorðsins",
         "comment_4": "Skrifaðu undir skjalið og vistaðu það á viðkomandi slóð"
       }
-    }
+    },
+    "api_high_3_content": "Node.js lausnin okkar stækkar viðskiptaforritin þín með stafrænni undirskrift. Settu rafrænar undirskriftir á vinsæl skjöl og myndsnið auðveldlega."
   },
   "index-content-net": {
     "title": "Native .NET API fyrir rafrænar undirskriftir",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Notaðu stafræna undirskrift til að vernda DOCX",
     "code_samples_sample_2_content_1": "Þú getur [verndað skjal](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki.",
     "code_samples_sample_2_content_2": "Ekki er hægt að breyta skjölum sem eru tryggð með vottorði án þess að ógilda undirskriftina."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js lausn fyrir stafrænar undirskriftir",
+    "title_2": "með Node.js API",
+    "actions_main": "Sækja frá NPM",
+    "code_title": "Að undirrita PDF-skjöl eftir Node.js",
+    "overview_description": "Skjöl undirritunarsafn sem er tilbúið til notkunar í Node.js forritum",
+    "overview_feature_1": {
+      "title": "Stafræn undirskriftarlausn fyrir viðskiptaskjöl með Node.js",
+      "description": "{{ProductFullName}} býður upp á yfirgripsmikið sett af valkostum fyrir stafræna undirskrift fyrir PDF, Office skjöl og myndir. Texti, strikamerki, myndir, stafræn skilríki og lýsigögn eru í boði. Straumlínulagað skjalavinnsla tryggir skilvirkni."
+    },
+    "overview_feature_2": {
+      "title": "Ítarleg meðferð á undirrituðum skjölum",
+      "description": "{{ProdShortName}} veitir þér heimild til að vinna úr undirrituðum skjölum. Leitaðu að og staðfestu undirskriftir með ýmsum forsendum. Að auki skaltu draga út nákvæmar skjalaupplýsingar eða búa til forskoðunarmyndir af síðum."
+    },
+    "overview_feature_3": {
+      "title": "Fjölbreytt úttakssnið",
+      "description": "Lausnin okkar veitir víðtæka stjórn á framleiðslusniði undirritaðra skjala. Staðsetjið undirskriftir nákvæmlega á hvaða síðu sem er og sérsniðið útlit þeirra. Vistaðu undirrituð skjöl á fjölmörgum studdum sniðum og tryggðu þau mögulega með lykilorðum."
+    },
+    "features": {
+      "title": "Eiginleikar {{ProdShortName}}",
+      "description": "Skrifaðu undir PDF, Office skjöl og myndir með stafrænum undirskriftum",
+      "feature_1": {
+        "title": "Undirskrift viðskipta",
+        "content": "Notaðu ýmsar undirskriftargerðir til að undirrita skjöl. Settu stafrænar undirskriftir nákvæmlega á hvaða síðu sem er."
+      },
+      "feature_2": {
+        "title": "Sérsníða undirskriftarútlit",
+        "content": "Sérsníðaðu sjónræna þætti undirskrifta með því að stilla lit, leturgerð, ramma, snúning og fleira til að ná tilætluðum árangri."
+      },
+      "feature_3": {
+        "title": "Skjöl með lykilorði",
+        "content": "Fyrir mörg studd skjalasnið, vernda undirrituð skjöl með lykilorði til að auka öryggi."
+      },
+      "feature_4": {
+        "title": "Koma í veg fyrir óleyfilegar breytingar",
+        "content": "Verndaðu mikilvæg viðskiptaskjöl undirrituð með stafrænum skilríkjum fyrir óheimilum breytingum."
+      },
+      "feature_5": {
+        "title": "Æskileg úttakssnið",
+        "content": "Fáðu áreynslulaust undirrituð skjöl á hvaða studdu sniði sem er. Umbreyttu MS Word skjölum í PDF snið með auðveldum hætti."
+      },
+      "feature_6": {
+        "title": "Skjalaforskoðun",
+        "content": "Vistaðu einstakar skjalasíður sem myndir fyrir framtíðarþarfir."
+      },
+      "feature_7": {
+        "title": "Undirskriftarleit",
+        "content": "Sæktu upplýsingar um áður bættar undirskriftir í skjölunum þínum."
+      },
+      "feature_8": {
+        "title": "Staðfesting skjala",
+        "content": "Staðfestu áreiðanleika undirskrifta sem fram koma í hvaða skjali sem er."
+      },
+      "feature_9": {
+        "title": "Undirskriftarstjórnun",
+        "content": "Eyða, flytja eða breyta hvaða undirskrift sem er sett á hvaða skjalasíðu sem er."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} framkvæmir skjalavinnslu með ýmsum stýrikerfum",
+    "formats_description": "{{ProductFullName}} auðveldar aðgerðir fyrir [vinsæl skráarsnið]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Lýsandi dæmi sem sýna dæmigerðar {{ProductFullName}} aðgerðir",
+    "code_title_sample_1": "Merktu PDF með QR kóða",
+    "code_samples_sample_1_content_1": "Með því að fella [strikamerkja]({{Sample1Url}}) inn í sérstakar PDF skjalasíður getur það hagrætt viðskiptaferlum.",
+    "code_samples_sample_1_content_2": "Þessi hluti gefur dæmi um að bæta við QR kóða með því að nota {{ProductFullName}}.",
+    "code_title_sample_2": "Að vernda DOCX með stafrænni undirskrift",
+    "code_samples_sample_2_content_1": "[Verndaðu skjölin þín]({{Sample2Url}}) með undirskriftum byggðar á stafrænum skilríkjum.",
+    "code_samples_sample_2_content_2": "Stafræn undirskrift verndar viðskiptaskjölin þín gegn efnisbreytingum."
   }
 }

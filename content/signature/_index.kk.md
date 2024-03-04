@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Microsoft Office, PDF, кескіндер және .NET қолданбаларындағы әртүрлі басқа пішімдерге ең танымал сандық қолтаңба түрлерін қосу, іздеу және тексеру үшін Native .NET API."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "JDK орнатылған кез келген операциялық жүйеде құжаттар мен кескіндердің кең ауқымына сандық қол қою үшін Java қолданбаларын eSignature мүмкіндіктерімен кеңейтіңіз."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Біздің Node.js шешіміміз сандық қолтаңба арқылы бизнес қолданбаларыңызды кеңейтеді. Танымал құжаттар мен кескін форматтарына электронды қолтаңбаларды оңай қойыңыз."
 
     # api loop
     - title: "GroupDocs.Signature төмен код API интерфейстерін қамтиды"

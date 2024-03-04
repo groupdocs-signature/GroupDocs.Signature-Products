@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API ji bo zêdekirin, lêgerîn û verastkirina celebên herî populer ên îmzeya dîjîtal li Microsoft Office, PDF, wêne û cûrbecûr formên din ên di sepanên .NET de."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Bi kapasîteyên eSignature serîlêdanên Java-yê hêzdar bikin ku bi dîjîtalî cûrbecûr belge û wêneyan li ser her pergala xebitandinê ya ku JDK-ya hatî saz kirin îmze bikin."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Çareseriya me ya Node.js serîlêdanên karsaziya we bi îmzekirina dîjîtal dirêj dike. Bi hêsanî îmzeyên elektronîkî li ser belgeyên populer û formatên wêneyan deynin."
 
     # api loop
     - title: "GroupDocs.Signature Low Code APIs Include"

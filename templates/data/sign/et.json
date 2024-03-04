@@ -289,7 +289,8 @@
         "comment_3": "Määrake sertifikaadi parool",
         "comment_4": "Allkirjastage dokument ja salvestage see soovitud teele"
       }
-    }
+    },
+    "api_high_3_content": "Meie lahendus Node.js laiendab teie ärirakendusi digitaalse allkirjastamisega. Lisage hõlpsalt populaarsetele dokumentidele ja pildivormingutele elektroonilisi allkirju."
   },
   "index-content-net": {
     "title": "Native .NET API elektrooniliste allkirjade jaoks",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Kasutage DOCX-i kaitsmiseks digitaalallkirja",
     "code_samples_sample_2_content_1": "Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju.",
     "code_samples_sample_2_content_2": "Sertifikaadiga tagatud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js digitaalallkirjade lahendus",
+    "title_2": "Node.js API-ga",
+    "actions_main": "Laadige alla NPM-ist",
+    "code_title": "PDF-ide allkirjastamine Node.js-iga",
+    "overview_description": "Dokumentide allkirjastamise teek, mis on Node.js rakendustes kasutamiseks valmis",
+    "overview_feature_1": {
+      "title": "Digiallkirjade lahendus äridokumentidele koos Node.js-iga",
+      "description": "{{ProductFullName}} pakub PDF-i, Office'i dokumentide ja piltide jaoks laiaulatuslikku digitaalallkirja valikute komplekti. Saadaval on tekst, vöötkoodid, pildid, digitaalsed sertifikaadid ja metaandmed. Sujuv dokumenditöötlus tagab tõhususe."
+    },
+    "overview_feature_2": {
+      "title": "Allkirjastatud dokumentide täiustatud manipuleerimine",
+      "description": "{{ProdShortName}} annab teile õiguse allkirjastatud dokumente töödelda. Otsige ja kinnitage allkirju erinevate kriteeriumide abil. Lisaks saate eraldada üksikasjalikku dokumenditeavet või luua lehtede eelvaatepilte."
+    },
+    "overview_feature_3": {
+      "title": "Erinevad väljundvormingud",
+      "description": "Meie lahendus pakub ulatuslikku kontrolli allkirjastatud dokumentide väljundvormingu üle. Positsioneerige täpselt allkirjad mis tahes lehel ja kohandage nende välimust. Salvestage allkirjastatud dokumente paljudes toetatud vormingutes ja kaitske neid valikuliselt paroolidega."
+    },
+    "features": {
+      "title": "Toote {{ProdShortName}} funktsioonid",
+      "description": "Allkirjastage PDF-faile, Office'i dokumente ja pilte digitaalallkirjadega",
+      "feature_1": {
+        "title": "Äriallkirjad",
+        "content": "Kasutage dokumentide allkirjastamiseks erinevaid allkirjatüüpe. Asetage digitaalallkirjad täpselt mis tahes lehe asukohta."
+      },
+      "feature_2": {
+        "title": "Allkirja välimuse kohandamine",
+        "content": "Kohandage allkirjade visuaalseid aspekte, kohandades soovitud tulemuse saavutamiseks värvi, fonti, ääriseid, pööramist ja muud."
+      },
+      "feature_3": {
+        "title": "Parooliga kaitstud dokumendid",
+        "content": "Paljude toetatud dokumendivormingute puhul kaitske allkirjastatud dokumente turvalisuse suurendamiseks parooliga."
+      },
+      "feature_4": {
+        "title": "Volitamata muudatuste vältimine",
+        "content": "Kaitske olulisi digisertifikaatidega allkirjastatud äridokumente volitamata muutmise eest."
+      },
+      "feature_5": {
+        "title": "Soovitud väljundvormingud",
+        "content": "Hankige hõlpsasti allkirjastatud dokumente mis tahes toetatud vormingus. Teisendage MS Wordi dokumendid hõlpsalt PDF-vormingusse."
+      },
+      "feature_6": {
+        "title": "Dokumentide eelvaade",
+        "content": "Salvestage üksikud dokumendilehed piltidena tulevaste vajaduste jaoks."
+      },
+      "feature_7": {
+        "title": "Allkirja otsing",
+        "content": "Saate hankida teavet oma dokumentides varem lisatud allkirjade kohta."
+      },
+      "feature_8": {
+        "title": "Dokumendi kinnitamine",
+        "content": "Kontrollige mis tahes dokumendis esitatud allkirjade autentsust."
+      },
+      "feature_9": {
+        "title": "Allkirjahaldus",
+        "content": "Kustutage, paigutage ümber või muutke mis tahes dokumendi lehele pandud allkirju."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} töötleb dokumente erinevate operatsioonisüsteemidega",
+    "formats_description": "{{ProductFullName}} hõlbustab [populaarsete failivormingute]({{SupportedFormatsUrl}}) toiminguid.",
+    "code_samples_description": "Illustreerivad näited, mis näitavad tüüpilisi {{ProductFullName}} toiminguid",
+    "code_title_sample_1": "Märkige PDF QR-koodidega",
+    "code_samples_sample_1_content_1": "[Vöötkoodide]({{Sample1Url}}) lisamine konkreetsetele PDF-dokumendi lehtedele võib äriprotsesse sujuvamaks muuta.",
+    "code_samples_sample_1_content_2": "Selles jaotises on näide QR-koodi lisamisest, kasutades {{ProductFullName}}.",
+    "code_title_sample_2": "DOCX-i kaitsmine digitaalallkirjaga",
+    "code_samples_sample_2_content_1": "[Kaitske oma dokumente]({{Sample2Url}}) digitaalsetel sertifikaatidel põhinevate allkirjadega.",
+    "code_samples_sample_2_content_2": "Digiallkiri kaitseb teie äridokumente sisu muutumise eest."
   }
 }

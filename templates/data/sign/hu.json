@@ -289,7 +289,8 @@
         "comment_3": "Állítsa be a tanúsítvány jelszavát",
         "comment_4": "Írja alá a dokumentumot, és mentse el a kívánt útvonalra"
       }
-    }
+    },
+    "api_high_3_content": "Node.js megoldásunk digitális aláírással bővíti üzleti alkalmazásait. Könnyen helyezhet elektronikus aláírást népszerű dokumentumokra és képformátumokra."
   },
   "index-content-net": {
     "title": "Natív .NET API elektronikus aláírásokhoz",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Használjon digitális aláírást a DOCX védelméhez",
     "code_samples_sample_2_content_1": "A digitális tanúsítványként tárolt személyes vagy vállalati aláírások használatával [megvédheti a dokumentumokat](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/).",
     "code_samples_sample_2_content_2": "A tanúsítvánnyal védett dokumentumok az aláírás érvénytelenítése nélkül nem módosíthatók."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js digitális aláírási megoldás",
+    "title_2": "Node.js API-val",
+    "actions_main": "Töltse le az NPM-ről",
+    "code_title": "PDF-ek aláírása a Node.js segítségével",
+    "overview_description": "Dokumentum-aláíró könyvtár, amely készen áll a Node.js alkalmazásokban való használatra",
+    "overview_feature_1": {
+      "title": "Digitális aláírási megoldás üzleti dokumentumokhoz a Node.js segítségével",
+      "description": "A {{ProductFullName}} a digitális aláírási lehetőségek átfogó készletét kínálja PDF, Office dokumentumok és képek számára. Szöveg, vonalkód, képek, digitális tanúsítványok és metaadatok állnak rendelkezésre. Az egyszerűsített dokumentumfeldolgozás biztosítja a hatékonyságot."
+    },
+    "overview_feature_2": {
+      "title": "Az aláírt dokumentumok haladó kezelése",
+      "description": "A {{ProdShortName}} feljogosítja Önt aláírt dokumentumok feldolgozására. Aláírások keresése és érvényesítése különféle kritériumok alapján. Ezenkívül részletes dokumentuminformációkat is kivonhat, vagy előnézeti képeket készíthet az oldalakról."
+    },
+    "overview_feature_3": {
+      "title": "Változatos kimeneti formátumok",
+      "description": "Megoldásunk kiterjedt szabályozást biztosít az aláírt dokumentumok kimeneti formátuma felett. Pontosan elhelyezheti az aláírásokat bármely oldalon, és testreszabhatja azok megjelenését. Az aláírt dokumentumokat számos támogatott formátumban elmentheti, és opcionálisan jelszavakkal is védheti."
+    },
+    "features": {
+      "title": "A {{ProdShortName}} szolgáltatásai",
+      "description": "Aláírhat PDF-eket, Office-dokumentumokat és képeket digitális aláírással",
+      "feature_1": {
+        "title": "Üzleti aláírások",
+        "content": "Használjon különféle aláírási típusokat dokumentumok aláírásához. Pontosan helyezze el a digitális aláírásokat az oldal bármely helyén."
+      },
+      "feature_2": {
+        "title": "Az aláírás megjelenésének testreszabása",
+        "content": "A kívánt eredmény elérése érdekében testreszabhatja az aláírások vizuális aspektusait a szín, a betűtípus, a szegélyek, az elforgatás és egyebek módosításával."
+      },
+      "feature_3": {
+        "title": "Jelszóval védett dokumentumok",
+        "content": "Számos támogatott dokumentumformátum esetén védje az aláírt dokumentumokat jelszóval a nagyobb biztonság érdekében."
+      },
+      "feature_4": {
+        "title": "A jogosulatlan módosítások megelőzése",
+        "content": "Védje meg a digitális tanúsítvánnyal aláírt alapvető üzleti dokumentumokat a jogosulatlan módosításoktól."
+      },
+      "feature_5": {
+        "title": "Kívánt kimeneti formátumok",
+        "content": "Könnyedén megkaphatja az aláírt dokumentumokat bármilyen támogatott formátumban. Könnyedén konvertálhat MS Word dokumentumokat PDF formátumba."
+      },
+      "feature_6": {
+        "title": "Dokumentumok előnézete",
+        "content": "Mentse el az egyes dokumentumoldalakat képként a jövőbeli igényekhez."
+      },
+      "feature_7": {
+        "title": "Aláírás keresése",
+        "content": "Információk lekérése a dokumentumokban korábban hozzáadott aláírásokról."
+      },
+      "feature_8": {
+        "title": "Dokumentum érvényesítése",
+        "content": "Ellenőrizze bármely dokumentumban szereplő aláírások hitelességét."
+      },
+      "feature_9": {
+        "title": "Aláíráskezelés",
+        "content": "Törölje, helyezze át vagy módosítsa a dokumentum bármely oldalán elhelyezett aláírásokat."
+      }
+    },
+    "platforms_description": "A {{ProductFullName}} dokumentumfeldolgozást végez különféle operációs rendszerekkel",
+    "formats_description": "A {{ProductFullName}} megkönnyíti a [népszerű fájlformátumok]({{SupportedFormatsUrl}}) műveleteit.",
+    "code_samples_description": "Szemléltető példák, amelyek a {{ProductFullName}} tipikus műveleteit mutatják be",
+    "code_title_sample_1": "Jelölje meg a PDF-et QR-kódokkal",
+    "code_samples_sample_1_content_1": "A [vonalkódok]({{Sample1Url}}) konkrét PDF-dokumentumoldalakba történő beépítése leegyszerűsítheti az üzleti folyamatokat.",
+    "code_samples_sample_1_content_2": "Ez a rész egy példát mutat be QR-kód hozzáadására a {{ProductFullName}} használatával.",
+    "code_title_sample_2": "DOCX védelme digitális aláírással",
+    "code_samples_sample_2_content_1": "[Védje meg dokumentumait]({{Sample2Url}}) digitális tanúsítványokon alapuló aláírásokkal.",
+    "code_samples_sample_2_content_2": "A digitális aláírás megvédi üzleti dokumentumait a tartalom változásától."
   }
 }

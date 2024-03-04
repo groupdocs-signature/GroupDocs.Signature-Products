@@ -289,7 +289,8 @@
         "comment_3": "Nastavite geslo za potrdilo",
         "comment_4": "Podpišite dokument in ga shranite na želeno pot"
       }
-    }
+    },
+    "api_high_3_content": "Naša rešitev Node.js razširja vaše poslovne aplikacije z digitalnim podpisovanjem. Na priljubljene dokumente in formate slik preprosto podpišite elektronske podpise."
   },
   "index-content-net": {
     "title": "Native .NET API za elektronske podpise",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Za zaščito DOCX uporabite digitalni podpis",
     "code_samples_sample_2_content_1": "[Dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) lahko [zaščitite] z uporabo osebnih podpisov ali podpisov podjetij, shranjenih kot digitalna potrdila.",
     "code_samples_sample_2_content_2": "Dokumentov, zavarovanih s potrdilom, ni mogoče spremeniti brez razveljavitve podpisa."
+  },
+  "index-content-nodejs-java": {
+    "title": "Rešitev za digitalne podpise Node.js",
+    "title_2": "z API-jem Node.js",
+    "actions_main": "Prenesite iz NPM",
+    "code_title": "Podpisovanje PDF-jev z Node.js",
+    "overview_description": "Knjižnica za podpisovanje dokumentov, pripravljena za uporabo v aplikacijah Node.js",
+    "overview_feature_1": {
+      "title": "Rešitev za digitalne podpise za poslovne dokumente z Node.js",
+      "description": "{{ProductFullName}} ponuja obsežen nabor možnosti digitalnega podpisa za dokumente PDF, Office in slike. Na voljo so besedilo, črtne kode, slike, digitalna potrdila in metapodatki. Poenostavljena obdelava dokumentov zagotavlja učinkovitost."
+    },
+    "overview_feature_2": {
+      "title": "Napredno manipuliranje s podpisanimi dokumenti",
+      "description": "{{ProdShortName}} vam omogoča obdelavo podpisanih dokumentov. Iskanje in preverjanje podpisov z različnimi kriteriji. Poleg tega izvlecite podrobne informacije o dokumentu ali ustvarite slike za predogled strani."
+    },
+    "overview_feature_3": {
+      "title": "Različni izhodni formati",
+      "description": "Naša rešitev zagotavlja obsežen nadzor nad izhodno obliko podpisanih dokumentov. Natančno postavite podpise na katero koli stran in prilagodite njihov videz. Podpisane dokumente shranite v številnih podprtih formatih in jih po želji zaščitite z gesli."
+    },
+    "features": {
+      "title": "Značilnosti {{ProdShortName}}",
+      "description": "Z digitalnimi podpisi podpišite dokumente PDF, Officeove dokumente in slike",
+      "feature_1": {
+        "title": "Poslovni podpisi",
+        "content": "Za podpisovanje dokumentov uporabite različne vrste podpisov. Natančno postavite digitalne podpise na katero koli stran."
+      },
+      "feature_2": {
+        "title": "Prilagajanje videza podpisa",
+        "content": "Prilagodite vizualne vidike podpisov tako, da prilagodite barvo, pisavo, obrobe, vrtenje in drugo, da dosežete želeni rezultat."
+      },
+      "feature_3": {
+        "title": "Dokumenti, zaščiteni z geslom",
+        "content": "Za več podprtih formatov dokumentov zaščitite podpisane dokumente z geslom za dodatno varnost."
+      },
+      "feature_4": {
+        "title": "Preprečevanje nepooblaščenih sprememb",
+        "content": "Zaščitite ključne poslovne dokumente, podpisane z digitalnimi potrdili, pred nepooblaščenimi spremembami."
+      },
+      "feature_5": {
+        "title": "Želeni izhodni formati",
+        "content": "Z lahkoto pridobite podpisane dokumente v katerem koli podprtem formatu. Pretvorite dokumente MS Word v format PDF z lahkoto."
+      },
+      "feature_6": {
+        "title": "Predogled dokumentov",
+        "content": "Shranite posamezne strani dokumenta kot slike za prihodnje potrebe."
+      },
+      "feature_7": {
+        "title": "Iskanje podpisa",
+        "content": "Pridobite informacije o predhodno dodanih podpisih v vaših dokumentih."
+      },
+      "feature_8": {
+        "title": "Validacija dokumenta",
+        "content": "Preverite pristnost podpisov v katerem koli dokumentu."
+      },
+      "feature_9": {
+        "title": "Upravljanje podpisov",
+        "content": "Izbrišite, premaknite ali spremenite vse podpise na kateri koli strani dokumenta."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} izvaja obdelavo dokumentov z različnimi operacijskimi sistemi",
+    "formats_description": "{{ProductFullName}} olajša operacije za [priljubljene formate datotek]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Ilustrativni primeri, ki prikazujejo tipične operacije {{ProductFullName}}",
+    "code_title_sample_1": "Označite PDF s kodami QR",
+    "code_samples_sample_1_content_1": "Vključitev [črtnih kod]({{Sample1Url}}) v določene strani dokumenta PDF lahko poenostavi poslovne procese.",
+    "code_samples_sample_1_content_2": "V tem razdelku je primer dodajanja kode QR z uporabo {{ProductFullName}}.",
+    "code_title_sample_2": "Zaščita DOCX z digitalnim podpisom",
+    "code_samples_sample_2_content_1": "[Zaščitite svoje dokumente]({{Sample2Url}}) s podpisi na podlagi digitalnih potrdil.",
+    "code_samples_sample_2_content_2": "Digitalni podpis zaščiti vaše poslovne dokumente pred spreminjanjem vsebine."
   }
 }

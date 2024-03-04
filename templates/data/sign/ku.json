@@ -289,7 +289,8 @@
         "comment_3": "Şîfreya sertîfîkayê saz bikin",
         "comment_4": "Belgeyê îmze bikin û li ser riya xwestinê hilînin"
       }
-    }
+    },
+    "api_high_3_content": "Çareseriya me ya Node.js serîlêdanên karsaziya we bi îmzekirina dîjîtal dirêj dike. Bi hêsanî îmzeyên elektronîkî li ser belgeyên populer û formatên wêneyan deynin."
   },
   "index-content-net": {
     "title": "Native .NET API ji bo Îmzeyên Elektronîkî",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Ji bo parastina DOCX-ê îmzeya dîjîtal bikar bînin",
     "code_samples_sample_2_content_1": "Hûn dikarin [Belgeyekê biparêzin](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) îmzeyên kesane an pargîdanî yên ku wekî sertîfîkayên dîjîtal hatine hilanîn bikar bînin.",
     "code_samples_sample_2_content_2": "Belgeyên ku bi sertîfîkayê hatine ewlekirin bêyî betalkirina îmzeyê nayên guhertin."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js Çareseriya Îmzeya Dîjîtal",
+    "title_2": "bi Node.js API",
+    "actions_main": "Ji NPM dakêşin",
+    "code_title": "Îmzekirina PDF-ê ji hêla Node.js ve",
+    "overview_description": "Pirtûkxaneya îmzekirina belgeyan ku amade ye ku di sepanên Node.js de were bikar anîn",
+    "overview_feature_1": {
+      "title": "Çareseriya Îmzeya Dîjîtal ji bo Belgeyên Karsaziyê bi Node.js",
+      "description": "{{ProductFullName}} ji bo PDF, belgeyên Office û wêneyan komek berfireh vebijarkên îmzeya dîjîtal pêşkêşî dike. Nivîs, barkod, wêne, sertîfîkayên dîjîtal û metadata hene. Pêvajoya belgeya rêkûpêk karîgeriyê misoger dike."
+    },
+    "overview_feature_2": {
+      "title": "Manîpulasyona Pêşketî ya Belgeyên Îmzekirî",
+      "description": "{{ProdShortName}} hêz dide te ku hûn belgeyên îmzekirî bişopînin. Bi karanîna pîvanên cihêreng li îmzeyan bigerin û rast bikin. Wekî din, agahdariya belgeya berfireh derxînin an wêneyên pêşdîtina rûpelan biafirînin."
+    },
+    "overview_feature_3": {
+      "title": "Formatên Derketinê yên Cihêreng",
+      "description": "Çareseriya me li ser formata derketinê ya belgeyên îmzekirî kontrolek berfireh peyda dike. Di her rûpelê de îmzeyan bi cih bikin û xuyangê wan xweş bikin. Belgeyên îmzekirî di gelek formên piştgirîkirî de hilînin û bi vebijarkî wan bi şîfreyan ewle bikin."
+    },
+    "features": {
+      "title": "Taybetmendiyên {{ProdShortName}}",
+      "description": "PDF, belgeyên Office, û wêneyan bi îmzeyên dîjîtal îmze bikin",
+      "feature_1": {
+        "title": "Îmzeyan Business",
+        "content": "Ji bo îmzekirina belgeyan cûreyên cûda yên îmzeyan bikar bînin. Îmzeyên dîjîtal tam li her cîhê rûpelê bi cîh bikin."
+      },
+      "feature_2": {
+        "title": "Xweserîkirina Xuyabûna Îmzeyê",
+        "content": "Aliyên dîtbarî yên îmzeyan bi eyarkirina reng, font, sînor, zivirandin, û hêj bêtir biguhezînin da ku bigihîjin encama xweya xwestinê."
+      },
+      "feature_3": {
+        "title": "Belgeyên Parastî-Şîfre",
+        "content": "Ji bo gelek formatên belgeyên piştgirîkirî, ji bo ewlehiya zêde belgeyên îmzekirî bi şîfreyek biparêzin."
+      },
+      "feature_4": {
+        "title": "Pêşîlêgirtina Guherandinên Bêdestûr",
+        "content": "Belgeyên karsaziya girîng ên ku bi sertîfîkayên dîjîtal ve hatine îmzekirin ji guhertinên bêdestûr biparêzin."
+      },
+      "feature_5": {
+        "title": "Formatên derketinê yên xwestî",
+        "content": "Belgeyên îmzekirî di her formatek piştgirî de bêhêvî bistînin. Belgeyên MS Word-ê bi hêsanî bi formata PDF-ê veguherînin."
+      },
+      "feature_6": {
+        "title": "Documents Previewing",
+        "content": "Ji bo hewcedariyên pêşerojê rûpelên belgeyên kesane wekî wêne hilînin."
+      },
+      "feature_7": {
+        "title": "Lêgerîna Îmzeyan",
+        "content": "Agahdariya li ser îmzeyên ku berê hatine zêdekirin di nav belgeyên xwe de bistînin."
+      },
+      "feature_8": {
+        "title": "Validation Document",
+        "content": "Rastiya îmzeyên ku di her belgeyê de têne pêşkêş kirin verast bikin."
+      },
+      "feature_9": {
+        "title": "Îmze Management",
+        "content": "Îmzayên ku li ser her rûpelek belgeyê hatine danîn jêbirin, veguhezînin, an biguhezînin."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} bi pergalên xebitandinê yên cihêreng pêvajokirina belgeyê pêk tîne",
+    "formats_description": "{{ProductFullName}} xebatên ji bo [formatên pelê yên populer]({{SupportedFormatsUrl}}) hêsan dike.",
+    "code_samples_description": "Nimûneyên diyarker ên ku operasyonên tîpîk ên {{ProductFullName}} nîşan didin",
+    "code_title_sample_1": "PDF-ê bi kodên QR-ê nîşan bikin",
+    "code_samples_sample_1_content_1": "Tevlihevkirina [barkod]({{Sample1Url}}) di nav rûpelên belgeyên PDF-ê yên taybetî de dikare pêvajoyên karsaziyê xweş bike.",
+    "code_samples_sample_1_content_2": "Ev beş mînakek zêdekirina kodek QR bi karanîna {{ProductFullName}} peyda dike.",
+    "code_title_sample_2": "Parastina DOCX bi Nîşanek dîjîtal",
+    "code_samples_sample_2_content_1": "[Belgeyên xwe biparêzin]({{Sample2Url}}) bi îmzeyan li ser bingeha sertîfîkayên dîjîtal.",
+    "code_samples_sample_2_content_2": "Îmzeya dîjîtal belgeyên karsaziya we li hember guhertina naverokê diparêze."
   }
 }

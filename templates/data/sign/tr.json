@@ -289,7 +289,8 @@
         "comment_3": "Sertifika şifresini ayarlayın",
         "comment_4": "Belgeyi imzalayın ve istediğiniz yola kaydedin"
       }
-    }
+    },
+    "api_high_3_content": "Node.js çözümümüz iş uygulamalarınızı dijital imzalamayla genişletir. Popüler belgelere ve görüntü formatlarına kolayca elektronik imza koyun."
   },
   "index-content-net": {
     "title": "Elektronik İmzalar için Yerel .NET API'si",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "DOCX'i korumak için dijital imza kullanma",
     "code_samples_sample_2_content_1": "Dijital sertifikalar olarak saklanan kişisel veya kurumsal imzaları kullanarak [Bir Belgeyi Koruyun](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) yapabilirsiniz.",
     "code_samples_sample_2_content_2": "Sertifika ile güvence altına alınan belgelerde imza geçersiz kılınmadan değişiklik yapılamaz."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js Dijital İmza Çözümü",
+    "title_2": "Node.js API'si ile",
+    "actions_main": "NPM'den indirin",
+    "code_title": "PDF'leri Node.js ile imzalama",
+    "overview_description": "Node.js uygulamalarında kullanıma hazır belge imzalama kitaplığı",
+    "overview_feature_1": {
+      "title": "Node.js ile İş Belgeleri için Dijital İmza Çözümü",
+      "description": "{{ProductFullName}}, PDF, Office belgeleri ve görselleri için kapsamlı bir dizi dijital imza seçeneği sunar. Metin, barkodlar, resimler, dijital sertifikalar ve meta veriler mevcuttur. Kolaylaştırılmış belge işleme verimliliği sağlar."
+    },
+    "overview_feature_2": {
+      "title": "İmzalı Belgelerin Gelişmiş Düzenlemesi",
+      "description": "{{ProdShortName}} imzalı belgeleri işlemenize olanak sağlar. Çeşitli kriterleri kullanarak imzaları arayın ve doğrulayın. Ayrıca ayrıntılı belge bilgilerini çıkarın veya sayfaların önizleme görüntülerini oluşturun."
+    },
+    "overview_feature_3": {
+      "title": "Çeşitli Çıktı Formatları",
+      "description": "Çözümümüz imzalı belgelerin çıktı formatı üzerinde kapsamlı kontrol sağlar. İmzaları herhangi bir sayfaya tam olarak konumlandırın ve görünümlerini özelleştirin. İmzalı belgeleri desteklenen çok sayıda formatta kaydedin ve isteğe bağlı olarak bunları parolalarla koruyun."
+    },
+    "features": {
+      "title": "{{ProdShortName}} Özellikleri",
+      "description": "PDF'leri, Office belgelerini ve görüntüleri dijital imzalarla imzalayın",
+      "feature_1": {
+        "title": "İşletme İmzaları",
+        "content": "Belgeleri imzalamak için çeşitli imza türlerini kullanın. Dijital imzaları herhangi bir sayfa konumuna tam olarak yerleştirin."
+      },
+      "feature_2": {
+        "title": "İmza Görünümünü Özelleştirme",
+        "content": "İstediğiniz sonuca ulaşmak için rengi, yazı tipini, kenarlıkları, döndürmeyi ve daha fazlasını ayarlayarak imzaların görsel yönlerini uyarlayın."
+      },
+      "feature_3": {
+        "title": "Parola Korumalı Belgeler",
+        "content": "Desteklenen birçok belge biçiminde, ek güvenlik için imzalı belgeleri bir parolayla koruyun."
+      },
+      "feature_4": {
+        "title": "Yetkisiz Değişikliklerin Önlenmesi",
+        "content": "Dijital sertifikalarla imzalanmış önemli iş belgelerini yetkisiz değişikliklere karşı koruyun."
+      },
+      "feature_5": {
+        "title": "İstenilen Çıkış Formatları",
+        "content": "Desteklenen herhangi bir formatta imzalanmış belgeleri zahmetsizce alın. MS Word belgelerini kolaylıkla PDF formatına dönüştürün."
+      },
+      "feature_6": {
+        "title": "Belgeleri Önizleme",
+        "content": "Gelecekteki ihtiyaçlar için ayrı ayrı belge sayfalarını resim olarak kaydedin."
+      },
+      "feature_7": {
+        "title": "İmza Arama",
+        "content": "Belgelerinize önceden eklenen imzalar hakkında bilgi alın."
+      },
+      "feature_8": {
+        "title": "Belge Doğrulaması",
+        "content": "Herhangi bir belgede sunulan imzaların gerçekliğini doğrulayın."
+      },
+      "feature_9": {
+        "title": "İmza Yönetimi",
+        "content": "Herhangi bir belge sayfasına yerleştirilen imzaları silin, yerini değiştirin veya değiştirin."
+      }
+    },
+    "platforms_description": "{{ProductFullName}}, çeşitli işletim sistemleriyle belge işleme gerçekleştirir",
+    "formats_description": "{{ProductFullName}}, [popüler dosya biçimleri]({{SupportedFormatsUrl}}) için işlemleri kolaylaştırır.",
+    "code_samples_description": "Tipik {{ProductFullName}} işlemlerini gösteren açıklayıcı örnekler",
+    "code_title_sample_1": "PDF'yi QR Kodlarıyla İşaretleyin",
+    "code_samples_sample_1_content_1": "[Barkodları]({{Sample1Url}}) belirli PDF belge sayfalarına eklemek iş süreçlerini kolaylaştırabilir.",
+    "code_samples_sample_1_content_2": "Bu bölümde, {{ProductFullName}} kullanarak QR kodu eklemeye ilişkin bir örnek verilmektedir.",
+    "code_title_sample_2": "DOCX'i Dijital İmzayla Koruma",
+    "code_samples_sample_2_content_1": "[Belgelerinizi koruyun]({{Sample2Url}}) dijital sertifikalara dayalı imzalarla.",
+    "code_samples_sample_2_content_2": "Dijital imza, iş belgelerinizi içerik değişikliklerine karşı korur."
   }
 }

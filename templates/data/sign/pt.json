@@ -289,7 +289,8 @@
         "comment_3": "Defina a senha do certificado",
         "comment_4": "Assine o documento e salve-o no caminho desejado"
       }
-    }
+    },
+    "api_high_3_content": "Nossa solução Node.js amplia seus aplicativos de negócios com assinatura digital. Coloque facilmente assinaturas eletrônicas em documentos e formatos de imagem populares."
   },
   "index-content-net": {
     "title": "API .NET nativa para assinaturas eletrônicas",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Use assinatura digital para proteger um DOCX",
     "code_samples_sample_2_content_1": "Você pode [salvaguardar um documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) usando assinaturas pessoais ou corporativas armazenadas como certificados digitais.",
     "code_samples_sample_2_content_2": "Os documentos protegidos por certificado não podem ser alterados sem invalidar a assinatura."
+  },
+  "index-content-nodejs-java": {
+    "title": "Solução de assinaturas digitais Node.js",
+    "title_2": "com API Node.js.",
+    "actions_main": "Baixe do NPM",
+    "code_title": "Assinando PDFs por Node.js",
+    "overview_description": "Biblioteca de assinatura de documentos pronta para ser usada em aplicativos Node.js.",
+    "overview_feature_1": {
+      "title": "Solução de assinatura digital para documentos comerciais com Node.js",
+      "description": "{{ProductFullName}} oferece um conjunto abrangente de opções de assinatura digital para PDF, documentos do Office e imagens. Texto, códigos de barras, imagens, certificados digitais e metadados estão disponíveis. O processamento simplificado de documentos garante eficiência."
+    },
+    "overview_feature_2": {
+      "title": "Manipulação Avançada de Documentos Assinados",
+      "description": "{{ProdShortName}} permite que você processe documentos assinados. Pesquise e valide assinaturas usando vários critérios. Além disso, extraia informações detalhadas do documento ou gere imagens de visualização das páginas."
+    },
+    "overview_feature_3": {
+      "title": "Diversos formatos de saída",
+      "description": "Nossa solução oferece amplo controle sobre o formato de saída de documentos assinados. Posicione assinaturas com precisão em qualquer página e personalize sua aparência. Salve documentos assinados em vários formatos suportados e, opcionalmente, proteja-os com senhas."
+    },
+    "features": {
+      "title": "Recursos de {{ProdShortName}}",
+      "description": "Assine PDFs, documentos do Office e imagens com assinaturas digitais",
+      "feature_1": {
+        "title": "Assinaturas Empresariais",
+        "content": "Empregue vários tipos de assinatura para assinar documentos. Coloque assinaturas digitais com precisão em qualquer local da página."
+      },
+      "feature_2": {
+        "title": "Personalizando a aparência da assinatura",
+        "content": "Personalize os aspectos visuais das assinaturas ajustando cor, fonte, bordas, rotação e muito mais para alcançar o resultado desejado."
+      },
+      "feature_3": {
+        "title": "Documentos protegidos por senha",
+        "content": "Para muitos formatos de documentos suportados, proteja os documentos assinados com uma senha para maior segurança."
+      },
+      "feature_4": {
+        "title": "Prevenção de modificações não autorizadas",
+        "content": "Proteja documentos comerciais cruciais assinados com certificados digitais contra alterações não autorizadas."
+      },
+      "feature_5": {
+        "title": "Formatos de saída desejados",
+        "content": "Obtenha documentos assinados sem esforço em qualquer formato compatível. Converta documentos do MS Word para o formato PDF com facilidade."
+      },
+      "feature_6": {
+        "title": "Visualização de documentos",
+        "content": "Salve páginas individuais do documento como imagens para necessidades futuras."
+      },
+      "feature_7": {
+        "title": "Pesquisa de assinatura",
+        "content": "Recupere informações sobre assinaturas adicionadas anteriormente em seus documentos."
+      },
+      "feature_8": {
+        "title": "Validação de Documentos",
+        "content": "Verifique a autenticidade das assinaturas apresentadas em qualquer documento."
+      },
+      "feature_9": {
+        "title": "Gerenciamento de assinatura",
+        "content": "Exclua, realoque ou modifique qualquer assinatura colocada em qualquer página do documento."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} realiza processamento de documentos com vários sistemas operacionais",
+    "formats_description": "{{ProductFullName}} facilita operações para [formatos de arquivo populares]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemplos ilustrativos que mostram operações típicas do {{ProductFullName}}",
+    "code_title_sample_1": "Marcar PDF com códigos QR",
+    "code_samples_sample_1_content_1": "Incorporar [códigos de barras]({{Sample1Url}}) em páginas específicas de documentos PDF pode agilizar os processos de negócios.",
+    "code_samples_sample_1_content_2": "Esta seção fornece um exemplo de adição de um código QR usando {{ProductFullName}}.",
+    "code_title_sample_2": "Protegendo um DOCX com assinatura digital",
+    "code_samples_sample_2_content_1": "[Proteja seus documentos]({{Sample2Url}}) por meio de assinaturas baseadas em certificados digitais.",
+    "code_samples_sample_2_content_2": "A assinatura digital protege seus documentos comerciais contra alterações de conteúdo."
   }
 }

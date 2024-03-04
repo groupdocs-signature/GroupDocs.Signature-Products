@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: ".NET 애플리케이션의 Microsoft Office, PDF, 이미지 및 기타 다양한 형식에 가장 널리 사용되는 디지털 서명 유형을 추가, 검색 및 확인하는 기본 .NET API."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "JDK가 설치된 모든 운영 체제에서 광범위한 문서 및 이미지에 디지털 서명할 수 있는 전자 서명 기능으로 Java 애플리케이션을 강화하십시오."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Node.js 솔루션은 디지털 서명을 통해 비즈니스 애플리케이션을 확장합니다. 널리 사용되는 문서 및 이미지 형식에 전자 서명을 쉽게 추가하세요."
 
     # api loop
     - title: "GroupDocs.Signature 로우 코드 API에는 다음이 포함됩니다."

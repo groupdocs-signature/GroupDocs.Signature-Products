@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API, skirta pridėti, ieškoti ir patikrinti populiariausius skaitmeninio parašo tipus prie Microsoft Office, PDF, vaizdų ir įvairių kitų formatų .NET programose."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Suteikite „Java“ programoms galimybę su el. parašo galimybėmis skaitmeniniu būdu pasirašyti daugybę dokumentų ir vaizdų bet kurioje operacinėje sistemoje, kurioje įdiegtas JDK."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Mūsų Node.js sprendimas praplečia jūsų verslo programas skaitmeniniu parašu. Lengvai dėkite elektroninius parašus ant populiarių dokumentų ir vaizdų formatų."
 
     # api loop
     - title: "GroupDocs.Signature žemo kodo API apima"

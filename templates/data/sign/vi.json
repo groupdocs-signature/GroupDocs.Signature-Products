@@ -289,7 +289,8 @@
         "comment_3": "Đặt mật khẩu chứng chỉ",
         "comment_4": "Ký tài liệu và lưu nó vào đường dẫn mong muốn"
       }
-    }
+    },
+    "api_high_3_content": "Giải pháp Node.js của chúng tôi mở rộng các ứng dụng kinh doanh của bạn bằng chữ ký số. Đặt chữ ký điện tử trên các tài liệu & định dạng hình ảnh phổ biến một cách dễ dàng."
   },
   "index-content-net": {
     "title": "API .NET gốc cho chữ ký điện tử",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Sử dụng chữ ký số để bảo vệ DOCX",
     "code_samples_sample_2_content_1": "Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số.",
     "code_samples_sample_2_content_2": "Các tài liệu được bảo đảm bằng chứng chỉ không thể bị thay đổi nếu không làm mất hiệu lực chữ ký."
+  },
+  "index-content-nodejs-java": {
+    "title": "Giải pháp chữ ký số Node.js",
+    "title_2": "với API Node.js",
+    "actions_main": "Tải xuống từ NPM",
+    "code_title": "Ký tệp PDF bằng Node.js",
+    "overview_description": "Thư viện ký tài liệu đã sẵn sàng để sử dụng trong các ứng dụng Node.js",
+    "overview_feature_1": {
+      "title": "Giải pháp chữ ký số cho tài liệu doanh nghiệp với Node.js",
+      "description": "{{ProductFullName}} cung cấp một bộ tùy chọn chữ ký số toàn diện cho tài liệu PDF, Office và hình ảnh. Văn bản, mã vạch, hình ảnh, chứng chỉ kỹ thuật số và siêu dữ liệu đều có sẵn. Xử lý tài liệu hợp lý đảm bảo hiệu quả."
+    },
+    "overview_feature_2": {
+      "title": "Thao tác nâng cao của các tài liệu đã ký",
+      "description": "{{ProdShortName}} trao quyền cho bạn xử lý các tài liệu đã ký. Tìm kiếm và xác thực chữ ký bằng nhiều tiêu chí khác nhau. Ngoài ra, trích xuất thông tin tài liệu chi tiết hoặc tạo hình ảnh xem trước của các trang."
+    },
+    "overview_feature_3": {
+      "title": "Định dạng đầu ra đa dạng",
+      "description": "Giải pháp của chúng tôi cung cấp khả năng kiểm soát rộng rãi đối với định dạng đầu ra của tài liệu đã ký. Định vị chính xác chữ ký trên bất kỳ trang nào và tùy chỉnh giao diện của chúng. Lưu tài liệu đã ký ở nhiều định dạng được hỗ trợ và tùy chọn bảo mật chúng bằng mật khẩu."
+    },
+    "features": {
+      "title": "Đặc điểm của {{ProdShortName}}",
+      "description": "Ký các tệp PDF, tài liệu Office và hình ảnh bằng chữ ký số",
+      "feature_1": {
+        "title": "Chữ ký doanh nghiệp",
+        "content": "Sử dụng nhiều loại chữ ký khác nhau để ký tài liệu. Đặt chữ ký số chính xác trên bất kỳ vị trí trang nào."
+      },
+      "feature_2": {
+        "title": "Tùy chỉnh giao diện chữ ký",
+        "content": "Điều chỉnh khía cạnh trực quan của chữ ký bằng cách điều chỉnh màu sắc, phông chữ, đường viền, xoay, v.v. để đạt được kết quả mong muốn."
+      },
+      "feature_3": {
+        "title": "Tài liệu được bảo vệ bằng mật khẩu",
+        "content": "Đối với nhiều định dạng tài liệu được hỗ trợ, hãy bảo vệ tài liệu đã ký bằng mật khẩu để tăng cường bảo mật."
+      },
+      "feature_4": {
+        "title": "Ngăn chặn các sửa đổi trái phép",
+        "content": "Bảo vệ các tài liệu kinh doanh quan trọng được ký bằng chứng chỉ kỹ thuật số khỏi những thay đổi trái phép."
+      },
+      "feature_5": {
+        "title": "Định dạng đầu ra mong muốn",
+        "content": "Dễ dàng nhận được tài liệu đã ký ở bất kỳ định dạng được hỗ trợ nào. Chuyển đổi tài liệu MS Word sang định dạng PDF một cách dễ dàng."
+      },
+      "feature_6": {
+        "title": "Xem trước tài liệu",
+        "content": "Lưu các trang tài liệu riêng lẻ dưới dạng hình ảnh cho nhu cầu trong tương lai."
+      },
+      "feature_7": {
+        "title": "Tìm kiếm chữ ký",
+        "content": "Truy xuất thông tin về chữ ký đã thêm trước đó trong tài liệu của bạn."
+      },
+      "feature_8": {
+        "title": "Xác thực tài liệu",
+        "content": "Xác minh tính xác thực của chữ ký được trình bày trong bất kỳ tài liệu nào."
+      },
+      "feature_9": {
+        "title": "Quản lý chữ ký",
+        "content": "Xóa, di chuyển hoặc sửa đổi bất kỳ chữ ký nào được đặt trên bất kỳ trang tài liệu nào."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} thực hiện xử lý tài liệu với nhiều hệ điều hành khác nhau",
+    "formats_description": "{{ProductFullName}} tạo điều kiện thuận lợi cho hoạt động của [các định dạng tệp phổ biến]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Các ví dụ minh họa thể hiện các thao tác {{ProductFullName}} điển hình",
+    "code_title_sample_1": "Đánh dấu PDF bằng mã QR",
+    "code_samples_sample_1_content_1": "Việc kết hợp [mã vạch]({{Sample1Url}}) vào các trang tài liệu PDF cụ thể có thể đơn giản hóa quy trình kinh doanh.",
+    "code_samples_sample_1_content_2": "Phần này cung cấp ví dụ về cách thêm mã QR bằng cách sử dụng {{ProductFullName}}.",
+    "code_title_sample_2": "Bảo vệ DOCX bằng chữ ký số",
+    "code_samples_sample_2_content_1": "[Bảo vệ tài liệu của bạn]({{Sample2Url}}) bằng chữ ký dựa trên chứng chỉ kỹ thuật số.",
+    "code_samples_sample_2_content_2": "Chữ ký số bảo vệ tài liệu kinh doanh của bạn khỏi bị thay đổi nội dung."
   }
 }

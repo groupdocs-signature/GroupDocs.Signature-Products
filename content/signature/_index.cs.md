@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Nativní rozhraní .NET API pro přidávání, vyhledávání a ověřování nejoblíbenějších typů digitálních podpisů do Microsoft Office, PDF, obrázků a různých dalších formátů v aplikacích .NET."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Umožněte aplikacím Java pomocí funkcí eSignature digitálně podepisovat širokou škálu dokumentů a obrázků na jakémkoli operačním systému s nainstalovaným JDK."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Naše řešení Node.js rozšiřuje vaše podnikové aplikace o digitální podepisování. Snadno umístěte elektronické podpisy na oblíbené dokumenty a obrazové formáty."
 
     # api loop
     - title: "GroupDocs.Signature Low Code API Zahrnout"

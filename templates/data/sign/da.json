@@ -289,7 +289,8 @@
         "comment_3": "Indstil certifikatets adgangskode",
         "comment_4": "Underskriv dokumentet og gem det på den ønskede sti"
       }
-    }
+    },
+    "api_high_3_content": "Vores Node.js-løsning udvider dine forretningsapplikationer med digital signering. Sæt nemt elektroniske signaturer på populære dokumenter og billedformater."
   },
   "index-content-net": {
     "title": "Native .NET API til elektroniske signaturer",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Brug digital signatur til at beskytte en DOCX",
     "code_samples_sample_2_content_1": "Du kan [Beskyt et dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ved at bruge personlige eller virksomhedssignaturer gemt som digitale certifikater.",
     "code_samples_sample_2_content_2": "Dokumenter sikret med certifikat kan ikke ændres uden at ugyldiggøre signaturen."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js Digital Signatures Solution",
+    "title_2": "med Node.js API",
+    "actions_main": "Download fra NPM",
+    "code_title": "Signering af PDF'er af Node.js",
+    "overview_description": "Dokumenter, der signerer bibliotek, der er klar til at blive brugt i Node.js-applikationer",
+    "overview_feature_1": {
+      "title": "Digitale signaturløsninger til forretningsdokumenter med Node.js",
+      "description": "{{ProductFullName}} tilbyder et omfattende sæt af digitale signaturmuligheder til PDF, Office-dokumenter og billeder. Tekst, stregkoder, billeder, digitale certifikater og metadata er tilgængelige. Strømlinet dokumentbehandling sikrer effektivitet."
+    },
+    "overview_feature_2": {
+      "title": "Avanceret manipulation af underskrevne dokumenter",
+      "description": "{{ProdShortName}} giver dig mulighed for at behandle underskrevne dokumenter. Søg og valider signaturer ved hjælp af forskellige kriterier. Udtræk desuden detaljerede dokumentoplysninger eller generer forhåndsvisningsbilleder af sider."
+    },
+    "overview_feature_3": {
+      "title": "Forskellige outputformater",
+      "description": "Vores løsning giver omfattende kontrol over outputformatet af signerede dokumenter. Placer signaturer præcist på enhver side, og tilpas deres udseende. Gem signerede dokumenter i adskillige understøttede formater og beskyt dem eventuelt med adgangskoder."
+    },
+    "features": {
+      "title": "Funktioner af {{ProdShortName}}",
+      "description": "Signer PDF'er, Office-dokumenter og billeder med digitale signaturer",
+      "feature_1": {
+        "title": "Forretningssignaturer",
+        "content": "Brug forskellige signaturtyper til at underskrive dokumenter. Placer digitale signaturer præcist på enhver sideplacering."
+      },
+      "feature_2": {
+        "title": "Tilpasning af signaturudseende",
+        "content": "Skræddersy de visuelle aspekter af signaturer ved at justere farve, skrifttype, kanter, rotation og mere for at opnå dit ønskede resultat."
+      },
+      "feature_3": {
+        "title": "Adgangskodebeskyttede dokumenter",
+        "content": "For mange understøttede dokumentformater skal du beskytte signerede dokumenter med en adgangskode for øget sikkerhed."
+      },
+      "feature_4": {
+        "title": "Forebyggelse af uautoriserede ændringer",
+        "content": "Beskyt vigtige forretningsdokumenter, der er signeret med digitale certifikater, mod uautoriserede ændringer."
+      },
+      "feature_5": {
+        "title": "Ønskede outputformater",
+        "content": "Få ubesværet signerede dokumenter i ethvert understøttet format. Konverter MS Word-dokumenter til PDF-format med lethed."
+      },
+      "feature_6": {
+        "title": "Forhåndsvisning af dokumenter",
+        "content": "Gem individuelle dokumentsider som billeder til fremtidige behov."
+      },
+      "feature_7": {
+        "title": "Signatursøgning",
+        "content": "Hent oplysninger om tidligere tilføjede signaturer i dine dokumenter."
+      },
+      "feature_8": {
+        "title": "Dokumentvalidering",
+        "content": "Bekræft ægtheden af ​​underskrifter præsenteret i ethvert dokument."
+      },
+      "feature_9": {
+        "title": "Signaturhåndtering",
+        "content": "Slet, flyt eller rediger alle signaturer, der er placeret på en dokumentside."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} udfører dokumentbehandling med forskellige operativsystemer",
+    "formats_description": "{{ProductFullName}} letter operationer for de [populære filformater]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Illustrative eksempler, der viser typiske {{ProductFullName}}-operationer",
+    "code_title_sample_1": "Marker PDF med QR-koder",
+    "code_samples_sample_1_content_1": "Inkorporering af [stregkoder]({{Sample1Url}}) i specifikke PDF-dokumentsider kan strømline forretningsprocesser.",
+    "code_samples_sample_1_content_2": "Dette afsnit giver et eksempel på tilføjelse af en QR-kode ved hjælp af {{ProductFullName}}.",
+    "code_title_sample_2": "Beskyttelse af en DOCX med en digital signatur",
+    "code_samples_sample_2_content_1": "[Beskyt dine dokumenter]({{Sample2Url}}) med signaturer baseret på digitale certifikater.",
+    "code_samples_sample_2_content_2": "Digital signatur beskytter dine forretningsdokumenter mod indholdsændringer."
   }
 }

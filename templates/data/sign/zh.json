@@ -289,7 +289,8 @@
         "comment_3": "设置证书密码",
         "comment_4": "签署文档并将其保存到所需路径"
       }
-    }
+    },
+    "api_high_3_content": "我们的 Node.js 解决方案通过数字签名扩展您的业务应用程序。轻松在流行的文档和图像格式上添加电子签名。"
   },
   "index-content-net": {
     "title": "用于电子签名的本机 .NET API",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "使用数字签名来保护 DOCX",
     "code_samples_sample_2_content_1": "您可以使用存储为数字证书的个人或公司签名来[保护文档](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/)。",
     "code_samples_sample_2_content_2": "在不使签名无效的情况下，无法更改使用证书保护的文档。"
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js 数字签名解决方案",
+    "title_2": "使用 Node.js API",
+    "actions_main": "从NPM下载",
+    "code_title": "通过 Node.js 签署 PDF",
+    "overview_description": "可在 Node.js 应用程序中使用的文档签名库",
+    "overview_feature_1": {
+      "title": "使用 Node.js 的商业文档数字签名解决方案",
+      "description": "{{ProductFullName}} 为 PDF、Office 文档和图像提供了一整套数字签名选项。文本、条形码、图像、数字证书和元数据均可用。简化的文档处理确保效率。"
+    },
+    "overview_feature_2": {
+      "title": "签名文档的高级操作",
+      "description": "{{ProdShortName}} 使您能够处理签名的文档。使用各种标准搜索和验证签名。此外，提取详细的文档信息或生成页面的预览图像。"
+    },
+    "overview_feature_3": {
+      "title": "多种输出格式",
+      "description": "我们的解决方案提供对签名文档的输出格式的广泛控制。在任何页面上精确定位签名并自定义其外观。以多种受支持的格式保存签名文档，并可选择使用密码保护它们。"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 的功能",
+      "description": "使用数字签名签署 PDF、Office 文档和图像",
+      "feature_1": {
+        "title": "商业签名",
+        "content": "采用各种签名类型来签署文档。将数字签名精确地放置在任何页面位置。"
+      },
+      "feature_2": {
+        "title": "自定义签名外观",
+        "content": "通过调整颜色、字体、边框、旋转等来定制签名的视觉效果，以达到您想要的结果。"
+      },
+      "feature_3": {
+        "title": "受密码保护的文档",
+        "content": "对于许多受支持的文档格式，请使用密码保护签名文档以提高安全性。"
+      },
+      "feature_4": {
+        "title": "防止未经授权的修改",
+        "content": "保护使用数字证书签名的重要业务文档免遭未经授权的更改。"
+      },
+      "feature_5": {
+        "title": "所需的输出格式",
+        "content": "轻松获得任何受支持格式的签名文档。轻松将 MS Word 文档转换为 PDF 格式。"
+      },
+      "feature_6": {
+        "title": "文件预览",
+        "content": "将各个文档页面保存为图像以供将来需要。"
+      },
+      "feature_7": {
+        "title": "签名搜索",
+        "content": "检索有关文档中先前添加的签名的信息。"
+      },
+      "feature_8": {
+        "title": "文件验证",
+        "content": "验证任何文档中签名的真实性。"
+      },
+      "feature_9": {
+        "title": "签名管理",
+        "content": "删除、重新定位或修改任何文档页面上的任何签名。"
+      }
+    },
+    "platforms_description": "{{ProductFullName}} 使用各种操作系统执行文档处理",
+    "formats_description": "{{ProductFullName}} 有助于对[流行文件格式]({{SupportedFormatsUrl}}) 进行操作。",
+    "code_samples_description": "展示典型 {{ProductFullName}} 操作的说明性示例",
+    "code_title_sample_1": "使用二维码标记 PDF",
+    "code_samples_sample_1_content_1": "将[条形码]({{Sample1Url}})合并到特定的PDF文档页面可以简化业务流程。",
+    "code_samples_sample_1_content_2": "本节提供使用 {{ProductFullName}} 添加 QR 码的示例。",
+    "code_title_sample_2": "使用数字签名保护 DOCX",
+    "code_samples_sample_2_content_1": "通过基于数字证书的签名来[保护您的文档]({{Sample2Url}})。",
+    "code_samples_sample_2_content_2": "数字签名可保护您的业务文档免遭内容更改。"
   }
 }

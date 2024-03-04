@@ -289,7 +289,8 @@
         "comment_3": "Tetapkan kata sandi sertifikat",
         "comment_4": "Tanda tangani dokumen dan simpan ke jalur yang diinginkan"
       }
-    }
+    },
+    "api_high_3_content": "Solusi Node.js kami memperluas aplikasi bisnis Anda dengan penandatanganan digital. Pasang tanda tangan elektronik pada dokumen populer & format gambar dengan mudah."
   },
   "index-content-net": {
     "title": "API .NET asli untuk Tanda Tangan Elektronik",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Gunakan tanda tangan digital untuk melindungi DOCX",
     "code_samples_sample_2_content_1": "Anda dapat [Melindungi Dokumen](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) menggunakan tanda tangan pribadi atau perusahaan yang disimpan sebagai sertifikat digital.",
     "code_samples_sample_2_content_2": "Dokumen yang diamankan dengan sertifikat tidak dapat diubah tanpa membatalkan tanda tangannya."
+  },
+  "index-content-nodejs-java": {
+    "title": "Solusi Tanda Tangan Digital Node.js",
+    "title_2": "dengan API Node.js",
+    "actions_main": "Unduh dari NPM",
+    "code_title": "Menandatangani PDF dengan Node.js",
+    "overview_description": "Pustaka penandatanganan dokumen yang siap digunakan di aplikasi Node.js",
+    "overview_feature_1": {
+      "title": "Solusi Tanda Tangan Digital untuk Dokumen Bisnis dengan Node.js",
+      "description": "{{ProductFullName}} menawarkan serangkaian opsi tanda tangan digital lengkap untuk PDF, dokumen Office, dan gambar. Teks, kode batang, gambar, sertifikat digital, dan metadata tersedia. Pemrosesan dokumen yang efisien memastikan efisiensi."
+    },
+    "overview_feature_2": {
+      "title": "Manipulasi Tingkat Lanjut atas Dokumen yang Ditandatangani",
+      "description": "{{ProdShortName}} memberdayakan Anda untuk memproses dokumen yang ditandatangani. Cari dan validasi tanda tangan menggunakan berbagai kriteria. Selain itu, ekstrak informasi dokumen terperinci atau buat gambar pratinjau halaman."
+    },
+    "overview_feature_3": {
+      "title": "Format Keluaran Beragam",
+      "description": "Solusi kami memberikan kontrol ekstensif atas format keluaran dokumen yang ditandatangani. Posisikan tanda tangan secara tepat di halaman mana pun dan sesuaikan tampilannya. Simpan dokumen yang ditandatangani dalam berbagai format yang didukung dan amankan secara opsional dengan kata sandi."
+    },
+    "features": {
+      "title": "Fitur {{ProdShortName}}",
+      "description": "Tanda tangani PDF, dokumen Office, dan gambar dengan tanda tangan digital",
+      "feature_1": {
+        "title": "Tanda Tangan Bisnis",
+        "content": "Gunakan berbagai jenis tanda tangan untuk menandatangani dokumen. Tempatkan tanda tangan digital secara tepat di lokasi halaman mana pun."
+      },
+      "feature_2": {
+        "title": "Menyesuaikan Tampilan Tanda Tangan",
+        "content": "Sesuaikan aspek visual tanda tangan dengan menyesuaikan warna, font, batas, rotasi, dan lainnya untuk mencapai hasil yang Anda inginkan."
+      },
+      "feature_3": {
+        "title": "Dokumen yang Dilindungi Kata Sandi",
+        "content": "Untuk banyak format dokumen yang didukung, lindungi dokumen yang ditandatangani dengan kata sandi untuk keamanan tambahan."
+      },
+      "feature_4": {
+        "title": "Mencegah Modifikasi Tidak Sah",
+        "content": "Lindungi dokumen bisnis penting yang ditandatangani dengan sertifikat digital dari perubahan yang tidak sah."
+      },
+      "feature_5": {
+        "title": "Format Keluaran yang Diinginkan",
+        "content": "Dapatkan dokumen yang ditandatangani dengan mudah dalam format apa pun yang didukung. Konversikan dokumen MS Word ke format PDF dengan mudah."
+      },
+      "feature_6": {
+        "title": "Pratinjau Dokumen",
+        "content": "Simpan halaman dokumen individual sebagai gambar untuk kebutuhan masa depan."
+      },
+      "feature_7": {
+        "title": "Pencarian Tanda Tangan",
+        "content": "Ambil informasi tentang tanda tangan yang ditambahkan sebelumnya dalam dokumen Anda."
+      },
+      "feature_8": {
+        "title": "Validasi Dokumen",
+        "content": "Verifikasi keaslian tanda tangan yang disajikan dalam dokumen apa pun."
+      },
+      "feature_9": {
+        "title": "Manajemen Tanda Tangan",
+        "content": "Hapus, pindahkan, atau ubah tanda tangan apa pun yang ditempatkan pada halaman dokumen mana pun."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} melakukan pemrosesan dokumen dengan berbagai sistem operasi",
+    "formats_description": "{{ProductFullName}} memfasilitasi pengoperasian untuk [format file populer]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Contoh ilustratif yang menampilkan operasi {{ProductFullName}} yang umum",
+    "code_title_sample_1": "Tandai PDF dengan Kode QR",
+    "code_samples_sample_1_content_1": "Memasukkan [barcode]({{Sample1Url}}) ke dalam halaman dokumen PDF tertentu dapat menyederhanakan proses bisnis.",
+    "code_samples_sample_1_content_2": "Bagian ini memberikan contoh penambahan kode QR menggunakan {{ProductFullName}}.",
+    "code_title_sample_2": "Melindungi DOCX dengan Tanda Tangan Digital",
+    "code_samples_sample_2_content_1": "[Lindungi Dokumen Anda]({{Sample2Url}}) dengan tanda tangan berdasarkan sertifikat digital.",
+    "code_samples_sample_2_content_2": "Tanda tangan digital melindungi dokumen bisnis Anda dari perubahan konten."
   }
 }

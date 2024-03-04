@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API nativa de .NET per afegir, cercar i verificar els tipus de signatura digital més populars a Microsoft Office, PDF, imatges i altres formats en aplicacions .NET."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Potencia les aplicacions Java amb capacitats de signatura electrònica per signar digitalment una àmplia gamma de documents i imatges en qualsevol sistema operatiu amb JDK instal·lat."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "La nostra solució Node.js amplia les vostres aplicacions empresarials amb signatura digital. Col·loqueu signatures electròniques en documents i formats d'imatge populars fàcilment."
 
     # api loop
     - title: "Les API de codi baix de GroupDocs.Signature inclouen"

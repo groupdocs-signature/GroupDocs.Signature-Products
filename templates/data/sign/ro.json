@@ -289,7 +289,8 @@
         "comment_3": "Setați parola certificatului",
         "comment_4": "Semnează documentul și salvează-l în calea dorită"
       }
-    }
+    },
+    "api_high_3_content": "Soluția noastră Node.js extinde aplicațiile dvs. de afaceri cu semnătură digitală. Pune cu ușurință semnături electronice pe documente și formate de imagine populare."
   },
   "index-content-net": {
     "title": "API nativ .NET pentru semnături electronice",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Utilizați semnătura digitală pentru a proteja un DOCX",
     "code_samples_sample_2_content_1": "Puteți [Proteza un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) folosind semnături personale sau corporative stocate ca certificate digitale.",
     "code_samples_sample_2_content_2": "Documentele securizate cu certificat nu pot fi modificate fără invalidarea semnăturii."
+  },
+  "index-content-nodejs-java": {
+    "title": "Soluția Node.js pentru semnături digitale",
+    "title_2": "cu API-ul Node.js",
+    "actions_main": "Descărcați de pe NPM",
+    "code_title": "Semnarea PDF-urilor de către Node.js",
+    "overview_description": "Bibliotecă de semnare a documentelor care este gata pentru a fi utilizată în aplicațiile Node.js",
+    "overview_feature_1": {
+      "title": "Soluție de semnătură digitală pentru documente de afaceri cu Node.js",
+      "description": "{{ProductFullName}} oferă un set cuprinzător de opțiuni de semnătură digitală pentru PDF, documente Office și imagini. Sunt disponibile text, coduri de bare, imagini, certificate digitale și metadate. Procesarea eficientă a documentelor asigură eficiență."
+    },
+    "overview_feature_2": {
+      "title": "Manipularea avansată a documentelor semnate",
+      "description": "{{ProdShortName}} vă împuternicește să procesați documente semnate. Căutați și validați semnăturile folosind diverse criterii. În plus, extrageți informații detaliate despre document sau generați imagini de previzualizare ale paginilor."
+    },
+    "overview_feature_3": {
+      "title": "Diverse formate de ieșire",
+      "description": "Soluția noastră oferă un control extins asupra formatului de ieșire al documentelor semnate. Poziționați cu precizie semnăturile pe orice pagină și personalizați-le aspectul. Salvați documentele semnate în numeroase formate acceptate și, opțional, asigurați-le cu parole."
+    },
+    "features": {
+      "title": "Caracteristicile {{ProdShortName}}",
+      "description": "Semnează PDF-uri, documente Office și imagini cu semnături digitale",
+      "feature_1": {
+        "title": "Semnături de afaceri",
+        "content": "Folosiți diferite tipuri de semnături pentru a semna documente. Plasați semnăturile digitale exact pe orice locație a paginii."
+      },
+      "feature_2": {
+        "title": "Personalizarea aspectului semnăturii",
+        "content": "Personalizați aspectele vizuale ale semnăturilor ajustând culoarea, fontul, marginile, rotația și multe altele pentru a obține rezultatul dorit."
+      },
+      "feature_3": {
+        "title": "Documente protejate prin parolă",
+        "content": "Pentru multe formate de documente acceptate, protejați documentele semnate cu o parolă pentru un plus de securitate."
+      },
+      "feature_4": {
+        "title": "Prevenirea modificărilor neautorizate",
+        "content": "Protejați documentele de afaceri esențiale semnate cu certificate digitale de modificări neautorizate."
+      },
+      "feature_5": {
+        "title": "Formatele de ieșire dorite",
+        "content": "Obțineți fără efort documente semnate în orice format acceptat. Convertiți cu ușurință documentele MS Word în format PDF."
+      },
+      "feature_6": {
+        "title": "Previzualizarea documentelor",
+        "content": "Salvați pagini individuale de document ca imagini pentru nevoile viitoare."
+      },
+      "feature_7": {
+        "title": "Căutare semnătură",
+        "content": "Preluați informații despre semnăturile adăugate anterior în documentele dvs."
+      },
+      "feature_8": {
+        "title": "Validarea documentului",
+        "content": "Verificați autenticitatea semnăturilor prezentate în orice document."
+      },
+      "feature_9": {
+        "title": "Managementul semnăturilor",
+        "content": "Ștergeți, mutați sau modificați semnăturile plasate pe orice pagină a documentului."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} realizează procesarea documentelor cu diferite sisteme de operare",
+    "formats_description": "{{ProductFullName}} facilitează operațiunile pentru [formatele de fișiere populare]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemple ilustrative care prezintă operațiuni tipice {{ProductFullName}}",
+    "code_title_sample_1": "Marcați PDF-ul cu coduri QR",
+    "code_samples_sample_1_content_1": "Încorporarea [codurilor de bare]({{Sample1Url}}) în anumite pagini de document PDF poate eficientiza procesele de afaceri.",
+    "code_samples_sample_1_content_2": "Această secțiune oferă un exemplu de adăugare a unui cod QR utilizând {{ProductFullName}}.",
+    "code_title_sample_2": "Protejarea unui DOCX cu o semnătură digitală",
+    "code_samples_sample_2_content_1": "[Protejați-vă documentele]({{Sample2Url}}) prin semnături bazate pe certificate digitale.",
+    "code_samples_sample_2_content_2": "Semnătura digitală vă protejează documentele de afaceri împotriva modificării conținutului."
   }
 }

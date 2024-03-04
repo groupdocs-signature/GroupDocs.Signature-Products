@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Natywne API .NET do dodawania, wyszukiwania i weryfikowania najpopularniejszych typów podpisów cyfrowych w Microsoft Office, PDF, obrazach i różnych innych formatach w aplikacjach .NET."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Zwiększ możliwości aplikacji Java dzięki funkcjom podpisu elektronicznego w celu cyfrowego podpisywania szerokiej gamy dokumentów i obrazów w dowolnym systemie operacyjnym z zainstalowanym pakietem JDK."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Nasze rozwiązanie Node.js rozszerza Twoje aplikacje biznesowe o podpis cyfrowy. Z łatwością umieszczaj podpisy elektroniczne na popularnych dokumentach i formatach obrazów."
 
     # api loop
     - title: "Zawiera niskokodowe interfejsy API GroupDocs.Signature"

@@ -289,7 +289,8 @@
         "comment_3": "Nustatykite sertifikato slaptažodį",
         "comment_4": "Pasirašykite dokumentą ir išsaugokite jį norimame kelyje"
       }
-    }
+    },
+    "api_high_3_content": "Mūsų Node.js sprendimas praplečia jūsų verslo programas skaitmeniniu parašu. Lengvai dėkite elektroninius parašus ant populiarių dokumentų ir vaizdų formatų."
   },
   "index-content-net": {
     "title": "Native .NET API elektroniniams parašams",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Norėdami apsaugoti DOCX, naudokite skaitmeninį parašą",
     "code_samples_sample_2_content_1": "Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus.",
     "code_samples_sample_2_content_2": "Sertifikatu apsaugoti dokumentai negali būti keičiami nepažeidžiant parašo."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js skaitmeninių parašų sprendimas",
+    "title_2": "su Node.js API",
+    "actions_main": "Atsisiųskite iš NPM",
+    "code_title": "PDF pasirašymas naudojant Node.js",
+    "overview_description": "Dokumentų pasirašymo biblioteka, paruošta naudoti Node.js programose",
+    "overview_feature_1": {
+      "title": "Skaitmeninių parašų sprendimas verslo dokumentams su Node.js",
+      "description": "{{ProductFullName}} siūlo platų PDF, „Office“ dokumentų ir vaizdų skaitmeninio parašo parinkčių rinkinį. Galimas tekstas, brūkšniniai kodai, vaizdai, skaitmeniniai sertifikatai ir metaduomenys. Supaprastintas dokumentų apdorojimas užtikrina efektyvumą."
+    },
+    "overview_feature_2": {
+      "title": "Pažangus pasirašytų dokumentų manipuliavimas",
+      "description": "{{ProdShortName}} suteikia jums galimybę apdoroti pasirašytus dokumentus. Ieškokite ir patvirtinkite parašus naudodami įvairius kriterijus. Be to, išskleiskite išsamią dokumento informaciją arba generuokite puslapių peržiūros vaizdus."
+    },
+    "overview_feature_3": {
+      "title": "Įvairūs išvesties formatai",
+      "description": "Mūsų sprendimas suteikia plačią pasirašytų dokumentų išvesties formato kontrolę. Tiksliai išdėstykite parašus bet kuriame puslapyje ir pritaikykite jų išvaizdą. Išsaugokite pasirašytus dokumentus daugeliu palaikomų formatų ir pasirinktinai apsaugokite juos slaptažodžiais."
+    },
+    "features": {
+      "title": "{{ProdShortName}} funkcijos",
+      "description": "Pasirašykite PDF, Office dokumentus ir vaizdus skaitmeniniais parašais",
+      "feature_1": {
+        "title": "Verslo parašai",
+        "content": "Pasirašyti dokumentus naudokite įvairių tipų parašus. Tiksliai įdėkite skaitmeninius parašus bet kurioje puslapio vietoje."
+      },
+      "feature_2": {
+        "title": "Parašo išvaizdos tinkinimas",
+        "content": "Pritaikykite vizualius parašų aspektus koreguodami spalvą, šriftą, kraštines, pasukimą ir daugiau, kad pasiektumėte norimą rezultatą."
+      },
+      "feature_3": {
+        "title": "Slaptažodžiu apsaugoti dokumentai",
+        "content": "Daugeliui palaikomų dokumentų formatų apsaugokite pasirašytus dokumentus slaptažodžiu, kad padidintumėte saugumą."
+      },
+      "feature_4": {
+        "title": "Neleistinų modifikacijų prevencija",
+        "content": "Apsaugokite svarbiausius verslo dokumentus, pasirašytus skaitmeniniais sertifikatais, nuo neteisėtų pakeitimų."
+      },
+      "feature_5": {
+        "title": "Norimi išvesties formatai",
+        "content": "Lengvai gaukite pasirašytus dokumentus bet kokiu palaikomu formatu. Lengvai konvertuokite MS Word dokumentus į PDF formatą."
+      },
+      "feature_6": {
+        "title": "Dokumentų peržiūra",
+        "content": "Išsaugokite atskirus dokumento puslapius kaip vaizdus būsimiems poreikiams."
+      },
+      "feature_7": {
+        "title": "Parašo paieška",
+        "content": "Gaukite informaciją apie anksčiau pridėtus parašus savo dokumentuose."
+      },
+      "feature_8": {
+        "title": "Dokumento patvirtinimas",
+        "content": "Patikrinkite bet kuriame dokumente pateiktų parašų autentiškumą."
+      },
+      "feature_9": {
+        "title": "Parašo valdymas",
+        "content": "Ištrinkite, perkelkite arba modifikuokite bet kuriame dokumento puslapyje esančius parašus."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} apdoroja dokumentus su įvairiomis operacinėmis sistemomis",
+    "formats_description": "{{ProductFullName}} palengvina [populiarių failų formatų]({{SupportedFormatsUrl}}) operacijas.",
+    "code_samples_description": "Iliustratyvūs pavyzdžiai, demonstruojantys įprastas {{ProductFullName}} operacijas",
+    "code_title_sample_1": "Pažymėkite PDF su QR kodais",
+    "code_samples_sample_1_content_1": "[Brūkšninių kodų]({{Sample1Url}}) įtraukimas į konkrečius PDF dokumentų puslapius gali supaprastinti verslo procesus.",
+    "code_samples_sample_1_content_2": "Šioje skiltyje pateikiamas QR kodo pridėjimo naudojant {{ProductFullName}} pavyzdys.",
+    "code_title_sample_2": "DOCX apsauga skaitmeniniu parašu",
+    "code_samples_sample_2_content_1": "[Apsaugokite savo dokumentus]({{Sample2Url}}) parašais, pagrįstais skaitmeniniais sertifikatais.",
+    "code_samples_sample_2_content_2": "Skaitmeninis parašas apsaugo jūsų verslo dokumentus nuo turinio pasikeitimo."
   }
 }

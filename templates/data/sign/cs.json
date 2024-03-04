@@ -289,7 +289,8 @@
         "comment_3": "Nastavte heslo certifikátu",
         "comment_4": "Podepište dokument a uložte jej na požadovanou cestu"
       }
-    }
+    },
+    "api_high_3_content": "Naše řešení Node.js rozšiřuje vaše podnikové aplikace o digitální podepisování. Snadno umístěte elektronické podpisy na oblíbené dokumenty a obrazové formáty."
   },
   "index-content-net": {
     "title": "Nativní rozhraní .NET API pro elektronické podpisy",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Použijte digitální podpis k ochraně DOCX",
     "code_samples_sample_2_content_1": "Můžete [Zabezpečit dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomocí osobních nebo firemních podpisů uložených jako digitální certifikáty.",
     "code_samples_sample_2_content_2": "Dokumenty zabezpečené certifikátem nelze měnit bez znehodnocení podpisu."
+  },
+  "index-content-nodejs-java": {
+    "title": "Řešení digitálních podpisů Node.js",
+    "title_2": "s Node.js API",
+    "actions_main": "Stáhnout z NPM",
+    "code_title": "Podepisování souborů PDF pomocí Node.js",
+    "overview_description": "Knihovna pro podepisování dokumentů připravená k použití v aplikacích Node.js",
+    "overview_feature_1": {
+      "title": "Řešení digitálních podpisů pro obchodní dokumenty s Node.js",
+      "description": "{{ProductFullName}} nabízí komplexní sadu možností digitálního podpisu pro PDF, dokumenty Office a obrázky. K dispozici jsou texty, čárové kódy, obrázky, digitální certifikáty a metadata. Zjednodušené zpracování dokumentů zajišťuje efektivitu."
+    },
+    "overview_feature_2": {
+      "title": "Pokročilá manipulace s podepsanými dokumenty",
+      "description": "{{ProdShortName}} vám umožňuje zpracovávat podepsané dokumenty. Vyhledávejte a ověřujte podpisy pomocí různých kritérií. Navíc extrahujte podrobné informace o dokumentu nebo generujte náhledové obrázky stránek."
+    },
+    "overview_feature_3": {
+      "title": "Různé výstupní formáty",
+      "description": "Naše řešení poskytuje rozsáhlou kontrolu nad výstupním formátem podepsaných dokumentů. Přesně umístěte podpisy na jakoukoli stránku a přizpůsobte jejich vzhled. Ukládejte podepsané dokumenty v mnoha podporovaných formátech a volitelně je zabezpečte hesly."
+    },
+    "features": {
+      "title": "Funkce {{ProdShortName}}",
+      "description": "Podepisujte soubory PDF, dokumenty Office a obrázky digitálními podpisy",
+      "feature_1": {
+        "title": "Obchodní podpisy",
+        "content": "K podepisování dokumentů používejte různé typy podpisů. Umístěte digitální podpisy přesně na jakékoli umístění stránky."
+      },
+      "feature_2": {
+        "title": "Přizpůsobení vzhledu podpisu",
+        "content": "Přizpůsobte vizuální aspekty podpisů úpravou barvy, písma, ohraničení, rotace a dalších, abyste dosáhli požadovaného výsledku."
+      },
+      "feature_3": {
+        "title": "Dokumenty chráněné heslem",
+        "content": "U mnoha podporovaných formátů dokumentů chraňte podepsané dokumenty heslem pro větší zabezpečení."
+      },
+      "feature_4": {
+        "title": "Prevence neoprávněných úprav",
+        "content": "Chraňte důležité obchodní dokumenty podepsané digitálními certifikáty před neoprávněnými změnami."
+      },
+      "feature_5": {
+        "title": "Požadované výstupní formáty",
+        "content": "Bez námahy získejte podepsané dokumenty v jakémkoli podporovaném formátu. Snadno převádějte dokumenty MS Word do formátu PDF."
+      },
+      "feature_6": {
+        "title": "Náhled dokumentů",
+        "content": "Uložte jednotlivé stránky dokumentu jako obrázky pro budoucí potřeby."
+      },
+      "feature_7": {
+        "title": "Vyhledávání podpisů",
+        "content": "Získejte informace o dříve přidaných podpisech ve svých dokumentech."
+      },
+      "feature_8": {
+        "title": "Ověření dokumentu",
+        "content": "Ověřte pravost podpisů uvedených v jakémkoli dokumentu."
+      },
+      "feature_9": {
+        "title": "Správa podpisů",
+        "content": "Odstraňte, přemístěte nebo upravte jakékoli podpisy umístěné na jakékoli stránce dokumentu."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} provádí zpracování dokumentů s různými operačními systémy",
+    "formats_description": "{{ProductFullName}} usnadňuje operace s [oblíbenými formáty souborů]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Ilustrativní příklady ukazující typické operace {{ProductFullName}}",
+    "code_title_sample_1": "Označte PDF pomocí QR kódů",
+    "code_samples_sample_1_content_1": "Začlenění [čárových kódů]({{Sample1Url}}) do konkrétních stránek dokumentu PDF může zefektivnit obchodní procesy.",
+    "code_samples_sample_1_content_2": "Tato část poskytuje příklad přidání QR kódu pomocí {{ProductFullName}}.",
+    "code_title_sample_2": "Ochrana DOCX pomocí digitálního podpisu",
+    "code_samples_sample_2_content_1": "[Chraňte své dokumenty]({{Sample2Url}}) pomocí podpisů založených na digitálních certifikátech.",
+    "code_samples_sample_2_content_2": "Digitální podpis chrání vaše obchodní dokumenty před změnou obsahu."
   }
 }

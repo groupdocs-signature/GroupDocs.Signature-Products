@@ -289,7 +289,8 @@
         "comment_3": "Aseta varmenteen salasana",
         "comment_4": "Allekirjoita asiakirja ja tallenna se haluamaasi polkuun"
       }
-    }
+    },
+    "api_high_3_content": "Node.js-ratkaisumme laajentaa liiketoimintasovelluksiasi digitaalisella allekirjoituksella. Aseta sähköiset allekirjoitukset suosittuihin asiakirjoihin ja kuvamuotoihin helposti."
   },
   "index-content-net": {
     "title": "Native .NET API sähköisille allekirjoituksille",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Suojaa DOCX käyttämällä digitaalista allekirjoitusta",
     "code_samples_sample_2_content_1": "Voit [suojata asiakirjan](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",
     "code_samples_sample_2_content_2": "Varmenteella suojattuja asiakirjoja ei voi muuttaa ilman allekirjoitusta mitätöimättä."
+  },
+  "index-content-nodejs-java": {
+    "title": "Node.js digitaalisten allekirjoitusten ratkaisu",
+    "title_2": "Node.js API:lla",
+    "actions_main": "Lataa NPM:stä",
+    "code_title": "PDF-tiedostojen allekirjoittaminen Node.js:n avulla",
+    "overview_description": "Asiakirjojen allekirjoituskirjasto, joka on valmis käytettäväksi Node.js-sovelluksissa",
+    "overview_feature_1": {
+      "title": "Digitaalisten allekirjoitusten ratkaisu yritysasiakirjoille Node.js:n avulla",
+      "description": "{{ProductFullName}} tarjoaa kattavan joukon digitaalisia allekirjoitusvaihtoehtoja PDF-, Office-asiakirjoille ja kuville. Saatavilla on tekstiä, viivakoodeja, kuvia, digitaalisia varmenteita ja metatietoja. Virtaviivainen asiakirjojen käsittely varmistaa tehokkuuden."
+    },
+    "overview_feature_2": {
+      "title": "Allekirjoitettujen asiakirjojen edistynyt käsittely",
+      "description": "{{ProdShortName}} antaa sinulle mahdollisuuden käsitellä allekirjoitettuja asiakirjoja. Etsi ja vahvista allekirjoitukset useilla eri kriteereillä. Lisäksi voit poimia yksityiskohtaisia ​​asiakirjatietoja tai luoda esikatselukuvia sivuista."
+    },
+    "overview_feature_3": {
+      "title": "Monipuoliset tulostusmuodot",
+      "description": "Ratkaisumme tarjoaa laajan hallinnan allekirjoitettujen asiakirjojen tulostusmuodolle. Sijoita allekirjoitukset tarkasti mille tahansa sivulle ja muokkaa niiden ulkoasua. Tallenna allekirjoitetut asiakirjat useissa tuetuissa muodoissa ja valinnaisesti suojaa ne salasanoilla."
+    },
+    "features": {
+      "title": "Tuotteen {{ProdShortName}} ominaisuudet",
+      "description": "Allekirjoita PDF-tiedostot, Office-asiakirjat ja kuvat digitaalisilla allekirjoituksilla",
+      "feature_1": {
+        "title": "Liiketoiminnan allekirjoitukset",
+        "content": "Käytä erilaisia ​​allekirjoitustyyppejä asiakirjojen allekirjoittamiseen. Aseta digitaaliset allekirjoitukset tarkasti mihin tahansa sivun paikkaan."
+      },
+      "feature_2": {
+        "title": "Allekirjoituksen ulkoasun mukauttaminen",
+        "content": "Räätälöi allekirjoitusten visuaalisia näkökohtia säätämällä väriä, fonttia, reunoja, kiertoa ja muuta halutun tuloksen saavuttamiseksi."
+      },
+      "feature_3": {
+        "title": "Salasanalla suojatut asiakirjat",
+        "content": "Suojaa allekirjoitetut asiakirjat salasanalla monissa tuetuissa asiakirjamuodoissa turvallisuuden lisäämiseksi."
+      },
+      "feature_4": {
+        "title": "Luvattomien muutosten estäminen",
+        "content": "Suojaa tärkeät digitaalisilla varmenteilla allekirjoitetut liikeasiakirjat luvattomilta muutoksilta."
+      },
+      "feature_5": {
+        "title": "Halutut tulostusmuodot",
+        "content": "Hanki vaivattomasti allekirjoitetut asiakirjat missä tahansa tuetussa muodossa. Muunna MS Word -asiakirjat PDF-muotoon helposti."
+      },
+      "feature_6": {
+        "title": "Asiakirjojen esikatselu",
+        "content": "Tallenna yksittäiset asiakirjasivut kuvina tulevia tarpeita varten."
+      },
+      "feature_7": {
+        "title": "Allekirjoitushaku",
+        "content": "Hae tietoja asiakirjoihin aiemmin lisätyistä allekirjoituksista."
+      },
+      "feature_8": {
+        "title": "Asiakirjan validointi",
+        "content": "Tarkista missä tahansa asiakirjassa esitettyjen allekirjoitusten aitous."
+      },
+      "feature_9": {
+        "title": "Allekirjoituksen hallinta",
+        "content": "Poista, siirrä tai muokkaa mille tahansa asiakirjan sivulle asetettuja allekirjoituksia."
+      }
+    },
+    "platforms_description": "{{ProductFullName}} käsittelee asiakirjoja eri käyttöjärjestelmissä",
+    "formats_description": "{{ProductFullName}} helpottaa [suosittujen tiedostomuotojen]({{SupportedFormatsUrl}}) toimintoja.",
+    "code_samples_description": "Havainnollistavia esimerkkejä, jotka esittelevät tyypillisiä {{ProductFullName}}-toimintoja",
+    "code_title_sample_1": "Merkitse PDF QR-koodeilla",
+    "code_samples_sample_1_content_1": "[Viivakoodien]({{Sample1Url}}) sisällyttäminen tietyille PDF-dokumenttisivuille voi virtaviivaistaa liiketoimintaprosesseja.",
+    "code_samples_sample_1_content_2": "Tässä osiossa on esimerkki QR-koodin lisäämisestä käyttämällä {{ProductFullName}}.",
+    "code_title_sample_2": "DOCX:n suojaaminen digitaalisella allekirjoituksella",
+    "code_samples_sample_2_content_1": "[Suojaa asiakirjojasi]({{Sample2Url}}) digitaalisiin varmenteisiin perustuvilla allekirjoituksilla.",
+    "code_samples_sample_2_content_2": "Digitaalinen allekirjoitus suojaa yrityksesi asiakirjoja sisällön muuttumiselta."
   }
 }

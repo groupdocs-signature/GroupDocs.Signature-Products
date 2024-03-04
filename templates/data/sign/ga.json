@@ -289,7 +289,8 @@
         "comment_3": "Socraigh focal faire an teastais",
         "comment_4": "Sínigh an doiciméad agus é a shábháil ar an cosán atá ag teastáil"
       }
-    }
+    },
+    "api_high_3_content": "Leathnaíonn ár réiteach Node.js d’fheidhmchláir ghnó le síniú digiteach. Cuir sínithe leictreonacha ar dhoiciméid mhóréilimh & ar fhormáidí íomhánna go héasca."
   },
   "index-content-net": {
     "title": "Dúchasach .NET API do Shínithe Leictreonach",
@@ -426,5 +427,73 @@
     "code_title_sample_2": "Úsáid síniú digiteach chun DOCX a chosaint",
     "code_samples_sample_2_content_1": "Is féidir leat [Doiciméad a Chosaint](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha.",
     "code_samples_sample_2_content_2": "Ní féidir doiciméid atá daingnithe le teastas a athrú gan an síniú a chur ó bhail."
+  },
+  "index-content-nodejs-java": {
+    "title": "Réiteach Sínithe Digiteach Node.js",
+    "title_2": "le Node.js API",
+    "actions_main": "Íosluchtaigh ceol ó NPM",
+    "code_title": "PDFs á síniú ag Node.js",
+    "overview_description": "Leabharlann sínithe doiciméad atá réidh le húsáid in feidhmchláir Node.js",
+    "overview_feature_1": {
+      "title": "Réiteach Sínithe Digiteacha do Dhoiciméid Ghnó le Node.js",
+      "description": "Tairgeann {{ProductFullName}} sraith chuimsitheach de roghanna sínithe digiteacha do PDF, doiciméid Office agus íomhánna. Tá téacs, barrachóid, íomhánna, deimhnithe digiteacha agus meiteashonraí ar fáil. Cinntíonn próiseáil shruthlínithe doiciméad éifeachtúlacht."
+    },
+    "overview_feature_2": {
+      "title": "Ard-ionramháil ar Dhoiciméid Sínithe",
+      "description": "Ligeann {{ProdShortName}} duit doiciméid sínithe a phróiseáil. Cuardaigh agus bailíochtaigh sínithe ag baint úsáide as critéir éagsúla. Ina theannta sin, bain eolas mionsonraithe doiciméad nó gin íomhánna réamhamhairc de leathanaigh."
+    },
+    "overview_feature_3": {
+      "title": "Formáidí Aschuir Éagsúla",
+      "description": "Soláthraíonn ár réiteach rialú fairsing ar fhormáid aschuir doiciméad sínithe. Cuir sínithe go beacht ar aon leathanach agus saincheapadh a gcuma. Sábháil doiciméid sínithe i bhformáidí iomadúla a dtacaítear leo agus déan iad a dhaingniú go roghnach le pasfhocail."
+    },
+    "features": {
+      "title": "Gnéithe de {{ProdShortName}}",
+      "description": "Sínigh PDFs, doiciméid Oifige, agus íomhánna le sínithe digiteacha",
+      "feature_1": {
+        "title": "Sínithe Gnó",
+        "content": "Fostú cineálacha sínithe éagsúla chun doiciméid a shíniú. Cuir sínithe digiteacha go beacht ar shuíomh leathanach ar bith."
+      },
+      "feature_2": {
+        "title": "Cuma Síniú a shaincheapadh",
+        "content": "Cuir gnéithe amhairc na sínithe in oiriúint trí dhath, cló, teorainneacha, rothlú, agus níos mó a choigeartú chun an toradh inmhianaithe a bhaint amach."
+      },
+      "feature_3": {
+        "title": "Doiciméid Pasfhocal-Chosanta",
+        "content": "I gcás go leor formáidí doiciméad tacaithe, déan doiciméid sínithe a chosaint le pasfhocal le haghaidh slándála breise."
+      },
+      "feature_4": {
+        "title": "Modhnuithe Neamhúdaraithe a Chosc",
+        "content": "Doiciméid ghnó ríthábhachtacha atá sínithe le deimhnithe digiteacha a chosaint ó athruithe neamhúdaraithe."
+      },
+      "feature_5": {
+        "title": "Formáidí Aschuir Inmhianaithe",
+        "content": "Faigh doiciméid sínithe gan stró i bhformáid ar bith a dtacaítear léi. Tiontaigh doiciméid MS Word go formáid PDF gan stró."
+      },
+      "feature_6": {
+        "title": "Réamhamharc ar Dhoiciméid",
+        "content": "Sábháil leathanaigh aonair doiciméad mar íomhánna do riachtanais sa todhchaí."
+      },
+      "feature_7": {
+        "title": "Cuardach Síniú",
+        "content": "Aisghabh faisnéis faoi shínithe a cuireadh leis roimhe seo laistigh de do dhoiciméid."
+      },
+      "feature_8": {
+        "title": "Bailíochtú Doiciméad",
+        "content": "Fíoraigh barántúlacht na sínithe a chuirtear i láthair in aon doiciméad."
+      },
+      "feature_9": {
+        "title": "Bainistíocht Síniú",
+        "content": "Scrios, athlonnaigh, nó modhnaigh aon sínithe a chuirtear ar aon leathanach doiciméid."
+      }
+    },
+    "platforms_description": "Déanann {{ProductFullName}} próiseáil doiciméad le córais oibriúcháin éagsúla",
+    "formats_description": "Éascaíonn {{ProductFullName}} oibríochtaí do na [formáidí comhaid coitianta]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Samplaí léiriúcháin a thaispeánann oibríochtaí tipiciúla {{ProductFullName}}",
+    "code_title_sample_1": "Marcáil pdf le cóid QR",
+    "code_samples_sample_1_content_1": "Má ionchorpraítear [barrachóid]({{Sample1Url}}) i leathanaigh ar leith doiciméad PDF, féadtar próisis ghnó a shruthlíniú.",
+    "code_samples_sample_1_content_2": "Soláthraíonn an rannán seo sampla de chód QR a chur leis trí úsáid a bhaint as {{ProductFullName}}.",
+    "code_title_sample_2": "DOCX a chosaint le Síniú Digiteach",
+    "code_samples_sample_2_content_1": "[Cosain do Dhoiciméid]({{Sample2Url}}) trí shínithe bunaithe ar theastais dhigiteacha.",
+    "code_samples_sample_2_content_2": "Cosnaíonn síniú digiteach do dhoiciméid ghnó in aghaidh athrú ábhair."
   }
 }

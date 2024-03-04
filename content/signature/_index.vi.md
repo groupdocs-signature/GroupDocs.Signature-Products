@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-net.png"
+          image: "/signature/groupdocs-signature-net.png"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API .NET gốc để thêm, tìm kiếm và xác minh hầu hết các loại chữ ký số phổ biến cho Microsoft Office, PDF, hình ảnh và nhiều định dạng khác trong các ứng dụng .NET."
@@ -43,10 +43,18 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-signature-java.png"
+          image: "/signature/groupdocs-signature-java.png"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Trao quyền cho các ứng dụng Java với khả năng Chữ ký điện tử để ký điện tử nhiều loại tài liệu & hình ảnh trên bất kỳ hệ điều hành nào có cài đặt JDK."
+
+        # api_product loop
+        - link: "/signature/nodejs-java/"
+          img_alt: "GroupDocs.Signature for Node.js via Java"
+          image: "/signature/groupdocs-signature-nodejs.png"
+          product: "GroupDocs.Signature for"
+          platform: "Node.js"
+          content: "Giải pháp Node.js của chúng tôi mở rộng các ứng dụng kinh doanh của bạn bằng chữ ký số. Đặt chữ ký điện tử trên các tài liệu & định dạng hình ảnh phổ biến một cách dễ dàng."
 
     # api loop
     - title: "GroupDocs.Signature Low Code API bao gồm"
