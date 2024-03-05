@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "ፒዲኤፎችን በ Node.js በመፈረም ላይ"
   more: "ተጨማሪ ምሳሌዎች"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // ፒዲኤፍ ሰነድ ይምረጡ
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="የሰነድ ታማኝነትን እንዴት ማረጋገጥ እንደሚቻል እነሆ።">}}
         ```javascript {style=abap}   
         // ሰነዱን በዲጂታል ፊርማ ይጫኑ
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // የዲጂታል ፊርማ አማራጮችን ይግለጹ እና ወደ የምስክር ወረቀት ፋይል የሚወስደውን መንገድ ያቅርቡ
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // ሰነዱን ይፈርሙ እና ወደሚፈልጉት መንገድ ያስቀምጡት
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

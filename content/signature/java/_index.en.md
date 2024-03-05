@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:05
+date: 2024-03-05T08:13:59
 draft: false
 #operation: 
 #signaturetype: 
@@ -240,7 +240,7 @@ code_samples:
         {{< landing/code title="Use digital signature to protect a DOCX">}}
         ```java {style=abap}   
         // Load the document to be digitally signed
-        Signature signature = new Signature("file_to_sign.pdf");
+        Signature signature = new Signature("file_to_sign.docx");
         
         // Specify digital signing options and provide the path to the certificate file
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
@@ -249,7 +249,7 @@ code_samples:
         options.setPassword("1234567890");
 
         // Sign the document and save it to the desired path
-        signature.sign("digitally_signed.pdf", options);
+        signature.sign("digitally_signed.docx", options);
         ```
         {{< /landing/code >}}
 

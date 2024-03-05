@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // <% "{index-content.code_samples.sample_2.comment_2}" %>
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

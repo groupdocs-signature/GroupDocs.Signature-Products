@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "Node.js کے ذریعے پی ڈی ایف پر دستخط کرنا"
   more: "مزید مثالیں۔"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // پی ڈی ایف دستاویز کو منتخب کریں۔
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="دستاویز کی سالمیت کو یقینی بنانے کا طریقہ یہاں ہے۔">}}
         ```javascript {style=abap}   
         // ڈیجیٹل طور پر دستخط کرنے کے لیے دستاویز لوڈ کریں۔
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // ڈیجیٹل دستخط کرنے کے اختیارات کی وضاحت کریں اور سرٹیفکیٹ فائل کا راستہ فراہم کریں۔
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // دستاویز پر دستخط کریں اور اسے مطلوبہ راستے پر محفوظ کریں۔
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

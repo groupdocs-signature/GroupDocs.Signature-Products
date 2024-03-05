@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Hier leest u hoe u de documentintegriteit kunt garanderen.">}}
         ```csharp {style=abap}   
         // Laad het document dat digitaal moet worden ondertekend
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // Geef opties voor digitale ondertekening op en geef het pad naar het certificaatbestand op
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // Onderteken het document en sla het op in het gewenste pad
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:05
+date: 2024-03-05T08:14:00
 draft: false
 #operation: 
 #signaturetype: 
@@ -240,7 +240,7 @@ code_samples:
         {{< landing/code title="Използвайте цифров подпис, за да защитите DOCX">}}
         ```java {style=abap}   
         // Заредете документа за цифров подпис
-        Signature signature = new Signature("file_to_sign.pdf");
+        Signature signature = new Signature("file_to_sign.docx");
         
         // Посочете опциите за цифрово подписване и предоставете пътя до файла със сертификата
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
@@ -249,7 +249,7 @@ code_samples:
         options.setPassword("1234567890");
 
         // Подпишете документа и го запазете в желания път
-        signature.sign("digitally_signed.pdf", options);
+        signature.sign("digitally_signed.docx", options);
         ```
         {{< /landing/code >}}
 

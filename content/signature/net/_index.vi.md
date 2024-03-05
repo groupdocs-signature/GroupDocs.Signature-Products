@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:08
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Đây là cách đảm bảo tính toàn vẹn của tài liệu.">}}
         ```csharp {style=abap}   
         // Tải tài liệu cần được ký điện tử
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // Chỉ định các tùy chọn ký kỹ thuật số và cung cấp đường dẫn đến tệp chứng chỉ
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // Ký tài liệu và lưu nó vào đường dẫn mong muốn
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

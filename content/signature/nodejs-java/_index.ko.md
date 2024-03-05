@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "Node.js로 PDF에 서명하기"
   more: "더 많은 예시"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // PDF 문서 선택
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="문서 무결성을 보장하는 방법은 다음과 같습니다.">}}
         ```javascript {style=abap}   
         // 디지털 서명할 문서를 로드합니다.
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // 디지털 서명 옵션을 지정하고 인증서 파일의 경로를 제공하세요.
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // 문서에 서명하고 원하는 경로에 저장하세요.
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

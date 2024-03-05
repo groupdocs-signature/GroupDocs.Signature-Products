@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:01
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Ето как да гарантирате целостта на документа.">}}
         ```csharp {style=abap}   
         // Заредете документа за цифров подпис
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // Посочете опциите за цифрово подписване и предоставете пътя до файла със сертификата
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // Подпишете документа и го запазете в желания път
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

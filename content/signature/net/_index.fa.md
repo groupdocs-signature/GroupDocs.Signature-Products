@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:01
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="در اینجا نحوه اطمینان از یکپارچگی سند آمده است.">}}
         ```csharp {style=abap}   
         // سند را برای امضای دیجیتال بارگیری کنید
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // گزینه های امضای دیجیتال را مشخص کنید و مسیر فایل گواهی را ارائه دهید
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // سند را امضا کرده و در مسیر مورد نظر ذخیره کنید
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

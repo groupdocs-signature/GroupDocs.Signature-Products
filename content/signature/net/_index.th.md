@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="ต่อไปนี้คือวิธีการตรวจสอบความสมบูรณ์ของเอกสาร">}}
         ```csharp {style=abap}   
         // โหลดเอกสารที่จะเซ็นชื่อแบบดิจิทัล
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // ระบุตัวเลือกการเซ็นชื่อดิจิทัลและระบุเส้นทางไปยังไฟล์ใบรับรอง
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // ลงนามในเอกสารและบันทึกลงในเส้นทางที่ต้องการ
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

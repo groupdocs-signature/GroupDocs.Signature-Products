@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "Semnarea PDF-urilor de către Node.js"
   more: "Mai multe exemple"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // Selectați documentul PDF
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Iată cum puteți asigura integritatea documentului.">}}
         ```javascript {style=abap}   
         // Încărcați documentul pentru a fi semnat digital
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // Specificați opțiunile de semnare digitală și furnizați calea către fișierul de certificat
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // Semnează documentul și salvează-l în calea dorită
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

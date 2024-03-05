@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:01
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Hér er hvernig á að tryggja heilindi skjalsins.">}}
         ```csharp {style=abap}   
         // Hladdu skjalinu sem á að skrifa undir stafrænt
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // Tilgreindu valkosti fyrir stafræna undirskrift og gefðu upp slóðina að vottorðaskránni
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // Skrifaðu undir skjalið og vistaðu það á viðkomandi slóð
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

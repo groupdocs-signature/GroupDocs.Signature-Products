@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:06
+date: 2024-03-05T08:14:00
 draft: false
 #operation: 
 #signaturetype: 
@@ -240,7 +240,7 @@ code_samples:
         {{< landing/code title="DOCX қорғау үшін цифрлық қолтаңбаны пайдаланыңыз">}}
         ```java {style=abap}   
         // Цифрлық қол қою үшін құжатты жүктеңіз
-        Signature signature = new Signature("file_to_sign.pdf");
+        Signature signature = new Signature("file_to_sign.docx");
         
         // Сандық қол қою опцияларын көрсетіңіз және сертификат файлына жолды беріңіз
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
@@ -249,7 +249,7 @@ code_samples:
         options.setPassword("1234567890");
 
         // Құжатқа қол қойып, оны қажетті жолға сақтаңыз
-        signature.sign("digitally_signed.pdf", options);
+        signature.sign("digitally_signed.docx", options);
         ```
         {{< /landing/code >}}
 

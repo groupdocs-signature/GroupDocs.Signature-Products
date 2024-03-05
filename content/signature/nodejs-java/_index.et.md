@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "PDF-ide allkirjastamine Node.js-iga"
   more: "Veel näiteid"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // Valige PDF-dokument
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Siin on, kuidas tagada dokumendi terviklikkus.">}}
         ```javascript {style=abap}   
         // Laadige digitaalselt allkirjastatav dokument
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // Määrake digitaalse allkirjastamise suvandid ja määrake sertifikaadi faili tee
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // Allkirjastage dokument ja salvestage see soovitud teele
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

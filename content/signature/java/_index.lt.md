@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:06
+date: 2024-03-05T08:14:00
 draft: false
 #operation: 
 #signaturetype: 
@@ -240,7 +240,7 @@ code_samples:
         {{< landing/code title="Norėdami apsaugoti DOCX, naudokite skaitmeninį parašą">}}
         ```java {style=abap}   
         // Įkelkite dokumentą, kurį norite pasirašyti skaitmeniniu būdu
-        Signature signature = new Signature("file_to_sign.pdf");
+        Signature signature = new Signature("file_to_sign.docx");
         
         // Nurodykite skaitmeninio pasirašymo parinktis ir nurodykite kelią į sertifikato failą
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
@@ -249,7 +249,7 @@ code_samples:
         options.setPassword("1234567890");
 
         // Pasirašykite dokumentą ir išsaugokite jį norimame kelyje
-        signature.sign("digitally_signed.pdf", options);
+        signature.sign("digitally_signed.docx", options);
         ```
         {{< /landing/code >}}
 

@@ -56,7 +56,7 @@ code:
   title: "<% "{index-content-nodejs-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.nodejs-java.more_link" %>"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // <% "{index-content.code_comment_1}" %>
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // <% "{index-content.code_samples.sample_2.comment_2}" %>
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

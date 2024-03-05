@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "การลงนาม PDF โดย Node.js"
   more: "ตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // เลือกเอกสาร PDF
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="ต่อไปนี้คือวิธีการตรวจสอบความสมบูรณ์ของเอกสาร">}}
         ```javascript {style=abap}   
         // โหลดเอกสารที่จะเซ็นชื่อแบบดิจิทัล
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // ระบุตัวเลือกการเซ็นชื่อดิจิทัลและระบุเส้นทางไปยังไฟล์ใบรับรอง
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // ลงนามในเอกสารและบันทึกลงในเส้นทางที่ต้องการ
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

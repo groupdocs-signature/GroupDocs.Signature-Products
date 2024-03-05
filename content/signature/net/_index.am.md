@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:01
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="የሰነድ ታማኝነትን እንዴት ማረጋገጥ እንደሚቻል እነሆ።">}}
         ```csharp {style=abap}   
         // ሰነዱን በዲጂታል ፊርማ ይጫኑ
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // የዲጂታል ፊርማ አማራጮችን ይግለጹ እና ወደ የምስክር ወረቀት ፋይል የሚወስደውን መንገድ ያቅርቡ
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // ሰነዱን ይፈርሙ እና ወደሚፈልጉት መንገድ ያስቀምጡት
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}

@@ -240,7 +240,7 @@ code_samples:
         {{< landing/code title="<% "{index-content-java.code_title_sample_2}" %>">}}
         ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        Signature signature = new Signature("file_to_sign.pdf");
+        Signature signature = new Signature("file_to_sign.docx");
         
         // <% "{index-content.code_samples.sample_2.comment_2}" %>
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
@@ -249,7 +249,7 @@ code_samples:
         options.setPassword("1234567890");
 
         // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        signature.sign("digitally_signed.pdf", options);
+        signature.sign("digitally_signed.docx", options);
         ```
         {{< /landing/code >}}
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "PDF ֆայլերի ստորագրում Node.js-ի կողմից"
   more: "Ավելի շատ օրինակներ"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // Ընտրեք PDF փաստաթուղթ
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Ահա թե ինչպես կարելի է ապահովել փաստաթղթի ամբողջականությունը:">}}
         ```javascript {style=abap}   
         // Բեռնել փաստաթուղթը, որը պետք է թվայնորեն ստորագրվի
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // Նշեք թվային ստորագրման տարբերակները և տրամադրեք վկայագրի ֆայլի ուղին
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // Ստորագրեք փաստաթուղթը և պահեք այն ցանկալի ուղու վրա
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "امضای PDF توسط Node.js"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // سند PDF را انتخاب کنید
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="در اینجا نحوه اطمینان از یکپارچگی سند آمده است.">}}
         ```javascript {style=abap}   
         // سند را برای امضای دیجیتال بارگیری کنید
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // گزینه های امضای دیجیتال را مشخص کنید و مسیر فایل گواهی را ارائه دهید
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // سند را امضا کرده و در مسیر مورد نظر ذخیره کنید
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

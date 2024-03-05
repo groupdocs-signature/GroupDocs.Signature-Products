@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-04T17:52:03
+date: 2024-03-05T08:14:02
 draft: false
 #operation: 
 #signaturetype: 
@@ -56,7 +56,7 @@ code:
   title: "Podpisovanie súborov PDF pomocou Node.js"
   more: "Viac príkladov"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
-  install: "dotnet add package GroupDocs.Signature"
+  install: "npm i @groupdocs/groupdocs.signature"
   content: |
     ```javascript {style=abap}   
     // Vyberte dokument PDF
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Tu je návod, ako zabezpečiť integritu dokumentu.">}}
         ```javascript {style=abap}   
         // Vložte dokument, ktorý sa má digitálne podpísať
-        let signature = new Signature("file_to_sign.pdf");
+        let signature = new Signature("file_to_sign.docx");
         
         // Zadajte voľby digitálneho podpisovania a zadajte cestu k súboru certifikátu
         let options = new DigitalSignOptions("certificate.pfx");
@@ -247,7 +247,7 @@ code_samples:
         options.Password = "1234567890";
 
         // Podpíšte dokument a uložte ho na požadovanú cestu
-        signature.Sign("digitally_signed.pdf", options);
+        signature.Sign("digitally_signed.docx", options);
 
         ```
         {{< /landing/code >}}

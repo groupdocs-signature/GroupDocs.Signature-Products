@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-29T14:43:07
+date: 2024-03-05T08:14:01
 draft: false
 #operation: 
 #signaturetype: 
@@ -238,7 +238,7 @@ code_samples:
         {{< landing/code title="Ահա թե ինչպես կարելի է ապահովել փաստաթղթի ամբողջականությունը:">}}
         ```csharp {style=abap}   
         // Բեռնել փաստաթուղթը, որը պետք է թվայնորեն ստորագրվի
-        using (Signature signature = new Signature("file_to_sign.pdf"))
+        using (Signature signature = new Signature("file_to_sign.docx"))
         {
             // Նշեք թվային ստորագրման տարբերակները և տրամադրեք վկայագրի ֆայլի ուղին
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
@@ -247,7 +247,7 @@ code_samples:
                 Password = "1234567890"
             };
             // Ստորագրեք փաստաթուղթը և պահեք այն ցանկալի ուղու վրա
-            signature.Sign("digitally_signed.pdf", options);
+            signature.Sign("digitally_signed.docx", options);
         }
         ```
         {{< /landing/code >}}
