@@ -68,7 +68,8 @@ code:
     Signature signature = new Signature("sample.pdf");
     
     // <% "{index-content.code_comment_2}" %>
-    TextSignOptions options = new TextSignOptions("John Smith");
+    TextSignOptions options = 
+        new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
     // <% "{index-content.code_comment_4}" %>

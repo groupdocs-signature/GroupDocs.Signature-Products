@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:00
+date: 2024-03-05T15:50:56
 draft: false
 #operation: 
 #signaturetype: 
@@ -68,7 +68,8 @@ code:
     Signature signature = new Signature("sample.pdf");
     
     // 텍스트 제공
-    TextSignOptions options = new TextSignOptions("John Smith");
+    TextSignOptions options = 
+        new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
     // 문서에 서명하고 파일에 저장

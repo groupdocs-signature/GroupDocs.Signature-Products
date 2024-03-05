@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:13:59
+date: 2024-03-05T15:50:56
 draft: false
 #operation: 
 #signaturetype: 
@@ -68,7 +68,8 @@ code:
     Signature signature = new Signature("sample.pdf");
     
     // Fournir du texte
-    TextSignOptions options = new TextSignOptions("John Smith");
+    TextSignOptions options = 
+        new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
     // Signer le document et l'enregistrer dans un fichier

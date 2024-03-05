@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-05T15:50:57
 draft: false
 #operation: 
 #signaturetype: 
@@ -68,7 +68,8 @@ code:
     Signature signature = new Signature("sample.pdf");
     
     // Cung cấp văn bản
-    TextSignOptions options = new TextSignOptions("John Smith");
+    TextSignOptions options = 
+        new TextSignOptions("John Smith");
     options.setForeColor(Color.RED);
 
     // Ký tài liệu và lưu vào tập tin
