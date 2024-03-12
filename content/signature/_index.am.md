@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "ቤተኛ .NET API በጣም ታዋቂ የሆኑ የዲጂታል ፊርማ አይነቶችን ወደ ማይክሮሶፍት ኦፊስ፣ ፒዲኤፍ፣ ምስሎች እና ሌሎች በ NET አፕሊኬሽኖች ውስጥ ለመጨመር፣ ለመፈለግ እና ለማረጋገጥ።"
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "JDK በተጫነ በማንኛውም ኦፕሬቲንግ ሲስተም ላይ የተለያዩ ሰነዶችን እና ምስሎችን በዲጂታል መንገድ ለመፈረም የጃቫ አፕሊኬሽኖችን በ eSignture አቅም ያበረታቱ።"
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "የእኛ Node.js መፍትሔ የንግድ መተግበሪያዎችዎን በዲጂታል ፊርማ ያራዝመዋል። የኤሌክትሮኒክ ፊርማዎችን በታዋቂ ሰነዶች እና የምስል ቅርጸቶች ላይ በቀላሉ ያስቀምጡ።"

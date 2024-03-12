@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API, lai pievienotu, meklētu un pārbaudītu populārākos ciparparakstu veidus Microsoft Office, PDF, attēlus un dažādus citus formātus .NET lietojumprogrammās."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Dodiet iespēju Java lietojumprogrammām ar eParaksta iespējām digitāli parakstīt plašu dokumentu un attēlu klāstu jebkurā operētājsistēmā, kurā ir instalēts JDK."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Mūsu Node.js risinājums paplašina jūsu biznesa lietojumprogrammas, izmantojot digitālo parakstu. Viegli ievietojiet elektroniskos parakstus populāros dokumentos un attēlu formātos."

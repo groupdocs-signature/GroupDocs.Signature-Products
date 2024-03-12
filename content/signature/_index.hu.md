@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Natív .NET API a legnépszerűbb digitális aláírástípusok hozzáadásához, kereséséhez és ellenőrzéséhez a Microsoft Office-hoz, PDF-hez, képekhez és különféle egyéb formátumokhoz .NET-alkalmazásokban."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Engedélyezze a Java-alkalmazásokat eAláírási képességekkel a dokumentumok és képek széles skálájának digitális aláírására bármilyen operációs rendszeren, amelyre telepítve van a JDK."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Node.js megoldásunk digitális aláírással bővíti üzleti alkalmazásait. Könnyen helyezhet elektronikus aláírást népszerű dokumentumokra és képformátumokra."

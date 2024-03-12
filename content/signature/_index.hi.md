@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Microsoft Office, PDF, छवियों और .NET अनुप्रयोगों में विभिन्न अन्य स्वरूपों में सबसे लोकप्रिय डिजिटल हस्ताक्षर प्रकारों को जोड़ने, खोजने और सत्यापित करने के लिए मूल .NET API।"
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "JDK स्थापित के साथ किसी भी ऑपरेटिंग सिस्टम पर दस्तावेजों और छवियों की एक विस्तृत श्रृंखला को डिजिटल रूप से हस्ताक्षर करने के लिए ई-हस्ताक्षर क्षमताओं के साथ जावा अनुप्रयोगों को सशक्त बनाएं।"
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "हमारा Node.js समाधान डिजिटल हस्ताक्षर के साथ आपके व्यावसायिक अनुप्रयोगों का विस्तार करता है। लोकप्रिय दस्तावेज़ों और छवि प्रारूपों पर आसानी से इलेक्ट्रॉनिक हस्ताक्षर रखें।"

@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "NET ایپلی کیشنز میں مائیکروسافٹ آفس، پی ڈی ایف، امیجز اور دیگر مختلف فارمیٹس میں سب سے مشہور ڈیجیٹل دستخطی اقسام کو شامل کرنے، تلاش کرنے اور تصدیق کرنے کے لیے مقامی .NET API۔"
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "جاوا ایپلیکیشنز کو eSignature کی صلاحیتوں کے ساتھ بااختیار بنائیں تاکہ JDK انسٹال ہونے والے کسی بھی آپریٹنگ سسٹم پر دستاویزات اور تصاویر کی ایک وسیع رینج پر ڈیجیٹل طور پر دستخط کریں۔"
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "ہمارا Node.js حل آپ کی کاروباری ایپلیکیشنز کو ڈیجیٹل دستخط کے ساتھ بڑھاتا ہے۔ مقبول دستاویزات اور تصویری فارمیٹس پر آسانی سے الیکٹرانک دستخط لگائیں۔"

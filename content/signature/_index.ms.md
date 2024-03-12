@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API .NET asli untuk menambah, mencari dan mengesahkan jenis tandatangan digital yang paling popular pada Microsoft Office, PDF, imej dan pelbagai format lain dalam aplikasi .NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Memperkasakan aplikasi Java dengan keupayaan eSignature untuk menandatangani pelbagai dokumen & imej secara digital pada mana-mana sistem pengendalian dengan JDK dipasang."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Penyelesaian Node.js kami memanjangkan aplikasi perniagaan anda dengan tandatangan digital. Letakkan tandatangan elektronik pada dokumen popular & format imej dengan mudah."

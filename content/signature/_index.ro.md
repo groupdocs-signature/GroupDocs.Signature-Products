@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API nativ .NET pentru a adăuga, căuta și verifica cele mai populare tipuri de semnături digitale în Microsoft Office, PDF, imagini și diverse alte formate în aplicațiile .NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Permiteți aplicațiilor Java cu capabilități eSignature pentru a semna digital o gamă largă de documente și imagini pe orice sistem de operare cu JDK instalat."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Soluția noastră Node.js extinde aplicațiile dvs. de afaceri cu semnătură digitală. Pune cu ușurință semnături electronice pe documente și formate de imagine populare."

@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "En popüler dijital imza türlerini Microsoft Office, PDF, resimler ve .NET uygulamalarında diğer çeşitli biçimlere eklemek, aramak ve doğrulamak için yerel .NET API'si."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Java uygulamalarını, JDK yüklü herhangi bir işletim sisteminde çok çeşitli belgeleri ve görüntüleri dijital olarak imzalamak için e-İmza özellikleriyle güçlendirin."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Node.js çözümümüz iş uygulamalarınızı dijital imzalamayla genişletir. Popüler belgelere ve görüntü formatlarına kolayca elektronik imza koyun."

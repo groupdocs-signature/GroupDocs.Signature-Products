@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API برای افزودن، جستجو و تأیید انواع محبوب امضای دیجیتال به Microsoft Office، PDF، تصاویر و فرمت های مختلف دیگر در برنامه های NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "برنامه های جاوا را با قابلیت eSignature برای امضای دیجیتالی طیف گسترده ای از اسناد و تصاویر در هر سیستم عاملی با نصب JDK تقویت کنید."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "راه حل Node.js ما برنامه های تجاری شما را با امضای دیجیتال گسترش می دهد. امضای الکترونیکی را به راحتی بر روی اسناد و فرمت های تصویر رایج قرار دهید."

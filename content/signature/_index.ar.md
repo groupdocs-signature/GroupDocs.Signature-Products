@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API لإضافة والبحث والتحقق من أنواع التوقيع الرقمي الأكثر شيوعًا إلى Microsoft Office و PDF والصور وتنسيقات أخرى متنوعة في تطبيقات .NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "قم بتمكين تطبيقات Java بإمكانيات التوقيع الإلكتروني للتوقيع رقميًا على مجموعة كبيرة من المستندات والصور على أي نظام تشغيل مثبت عليه JDK."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "يعمل حل Node.js الخاص بنا على توسيع تطبيقات عملك من خلال التوقيع الرقمي. ضع التوقيعات الإلكترونية على المستندات وتنسيقات الصور الشائعة بسهولة."

@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API เพื่อเพิ่ม ค้นหา และตรวจสอบประเภทลายเซ็นดิจิทัลที่เป็นที่นิยมมากที่สุดใน Microsoft Office, PDF, รูปภาพ และรูปแบบอื่นๆ ในแอปพลิเคชัน .NET"
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "เพิ่มศักยภาพให้แอปพลิเคชัน Java ด้วยความสามารถ eSignature ในการเซ็นเอกสารและรูปภาพที่หลากหลายแบบดิจิทัลบนระบบปฏิบัติการใด ๆ ที่ติดตั้ง JDK"
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "โซลูชัน Node.js ของเราขยายแอปพลิเคชันธุรกิจของคุณด้วยการลงนามดิจิทัล ใส่ลายเซ็นอิเล็กทรอนิกส์ลงในเอกสารและรูปแบบรูปภาพยอดนิยมได้อย่างง่ายดาย"
