@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Alkuperäinen .NET-sovellusliittymä, jonka avulla voit lisätä, etsiä ja tarkistaa suosituimpia digitaalisia allekirjoitustyyppejä Microsoft Officeen, PDF-tiedostoihin, kuviin ja moniin muihin muotoihin .NET-sovelluksissa."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Anna Java-sovelluksille eSignature-ominaisuudet allekirjoittaa digitaalisesti laaja valikoima asiakirjoja ja kuvia missä tahansa käyttöjärjestelmässä, johon on asennettu JDK."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Node.js-ratkaisumme laajentaa liiketoimintasovelluksiasi digitaalisella allekirjoituksella. Aseta sähköiset allekirjoitukset suosittuihin asiakirjoihin ja kuvamuotoihin helposti."

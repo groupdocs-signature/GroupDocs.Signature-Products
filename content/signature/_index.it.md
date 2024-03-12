@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API .NET nativa per aggiungere, cercare e verificare i tipi di firma digitale più diffusi in Microsoft Office, PDF, immagini e vari altri formati nelle applicazioni .NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Potenzia le applicazioni Java con funzionalità di firma elettronica per firmare digitalmente un'ampia gamma di documenti e immagini su qualsiasi sistema operativo con JDK installato."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "La nostra soluzione Node.js estende le tue applicazioni aziendali con la firma digitale. Inserisci facilmente firme elettroniche su documenti e formati di immagine più diffusi."

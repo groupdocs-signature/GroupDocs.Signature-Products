@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "Native .NET API για προσθήκη, αναζήτηση και επαλήθευση των πιο δημοφιλών τύπων ψηφιακών υπογραφών σε Microsoft Office, PDF, εικόνες και διάφορες άλλες μορφές σε εφαρμογές .NET."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Ενισχύστε τις εφαρμογές Java με δυνατότητες eSignature να υπογράφουν ψηφιακά ένα ευρύ φάσμα εγγράφων και εικόνων σε οποιοδήποτε λειτουργικό σύστημα με εγκατεστημένο το JDK."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Η λύση Node.js επεκτείνει τις επιχειρηματικές σας εφαρμογές με ψηφιακή υπογραφή. Τοποθετήστε εύκολα ηλεκτρονικές υπογραφές σε δημοφιλή έγγραφα και μορφές εικόνας."

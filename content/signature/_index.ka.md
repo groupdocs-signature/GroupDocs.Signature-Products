@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "მშობლიური .NET API, რათა დაამატოთ, მოძებნოთ და გადაამოწმოთ ყველაზე პოპულარული ციფრული ხელმოწერის ტიპები Microsoft Office-ში, PDF-ში, სურათებსა და სხვადასხვა ფორმატებში .NET აპლიკაციებში."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "გააძლიერეთ Java აპლიკაციები eSignature-ის შესაძლებლობებით, რათა ციფრულად მოაწერონ ხელი დოკუმენტების და სურათების ფართო სპექტრს ნებისმიერ ოპერაციულ სისტემაზე დაყენებული JDK-ით."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "ჩვენი Node.js გადაწყვეტა აფართოებს თქვენს ბიზნეს აპლიკაციებს ციფრული ხელმოწერით. მარტივად განათავსეთ ელექტრონული ხელმოწერები პოპულარულ დოკუმენტებსა და გამოსახულების ფორმატებზე."

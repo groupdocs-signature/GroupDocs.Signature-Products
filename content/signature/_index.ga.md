@@ -35,7 +35,7 @@ apis:
         # api_product loop
         - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
-          image: "/signature/groupdocs-signature-net.png"
+          image: "/border/groupdocs-signature-net.svg"
           product: "GroupDocs.Signature for"
           platform: ".NET"
           content: "API Dúchasach .NET chun na cineálacha sínithe digiteacha is coitianta a chur le Microsoft Office, PDF, agus formáidí éagsúla eile i bhfeidhmchláir .NET, agus iad a chuardach agus a fhíorú."
@@ -43,7 +43,7 @@ apis:
         # api_product loop
         - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
-          image: "/signature/groupdocs-signature-java.png"
+          image: "/border/groupdocs-signature-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Java"
           content: "Cumasaigh feidhmchláir Java le cumas eSignature chun raon leathan doiciméad & íomhánna a shíniú go digiteach ar aon chóras oibriúcháin a bhfuil JDK suiteáilte air."
@@ -51,7 +51,7 @@ apis:
         # api_product loop
         - link: "/signature/nodejs-java/"
           img_alt: "GroupDocs.Signature for Node.js via Java"
-          image: "/signature/groupdocs-signature-nodejs.png"
+          image: "/border/groupdocs-signature-nodejs-java.svg"
           product: "GroupDocs.Signature for"
           platform: "Node.js"
           content: "Leathnaíonn ár réiteach Node.js d’fheidhmchláir ghnó le síniú digiteach. Cuir sínithe leictreonacha ar dhoiciméid mhóréilimh & ar fhormáidí íomhánna go héasca."
