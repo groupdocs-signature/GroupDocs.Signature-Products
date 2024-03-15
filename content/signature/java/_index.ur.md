@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET، Java، Cloud APIs اور آن لائن دستاویز دستخطی ایپس"
-head_description: ".NET، Java اور کلاؤڈ بیسڈ ایپلی کیشنز کے لیے آل ان ون دستاویز کا ای دستخطی حل حاصل کریں۔ سادہ ڈریگ اینڈ ڈراپ فیچر کا استعمال کرتے ہوئے عام دستاویز کے فارمیٹس پر دستخط کریں۔"
+head_title: "Java Digital Signature Library - GroupDocs.Signature"
+head_description: "GroupDocs.Signature کے ساتھ ای-دستخط کے ذریعے جاوا ایپس کو بااختیار بنائیں۔ کاروباری دستاویزات پر جلدی اور آسانی سے دستخط کریں۔"
 
 ############################# Header ############################
 title: "دستاویزات پر دستخط کریں۔<br>جاوا API کے ذریعے"

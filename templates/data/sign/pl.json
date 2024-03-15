@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, interfejsy API w chmurze i aplikacje do podpisywania dokumentów online",
-    "head_description": "Uzyskaj kompleksowe rozwiązanie do podpisu elektronicznego dokumentów dla aplikacji .NET, Java i opartych na chmurze. Podpisuj online popularne formaty dokumentów za pomocą prostej funkcji przeciągania i upuszczania",
+    "head_title": "Aplikacje do podpisu cyfrowego w C# .NET, Java, Node.js",
+    "head_description": "Zintegruj podpisy elektroniczne w aplikacjach .NET, Java lub Node.js za pomocą GroupDocs.Signature. Podpisuj popularne formaty dokumentów biznesowych.",
     "title": "Rozwiązanie do elektronicznego podpisywania dokumentów",
     "description": "Podpisuj cyfrowe dokumenty i obrazy na dowolnej platformie, korzystając z naszych elastycznych interfejsów API i rozwiązań opartych na aplikacjach dla programistów i użytkowników końcowych.",
     "api_high_title": "Dołączone interfejsy API GroupDocs.Signature zawierające wysoki kod",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Poniżej znajduje się przykład dodania kodu QR za pomocą GroupDocs.Signature.",
     "code_title_sample_2": "Ochrona dokumentu DOCX za pomocą certyfikatu cyfrowego",
     "code_samples_sample_2_content_1": "Możesz [Chroń dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), używając podpisów osobistych lub firmowych przechowywanych jako certyfikaty cyfrowe.",
-    "code_samples_sample_2_content_2": "Tak chronionych dokumentów nie można modyfikować bez unieważnienia podpisu."
+    "code_samples_sample_2_content_2": "Tak chronionych dokumentów nie można modyfikować bez unieważnienia podpisu.",
+    "head_title": "Interfejs API podpisów cyfrowych C# .NET - GroupDocs.Signature",
+    "head_description": "Zintegruj przetwarzanie podpisów cyfrowych w aplikacjach .NET za pomocą GroupDocs.Signature. Zabezpiecz swoje pliki podpisami szybko i skutecznie."
   },
   "index-content-java": {
     "title": "API Java do zarządzania podpisami cyfrowymi",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Poniżej znajduje się przykład dodania kodu QR za pomocą GroupDocs.Signature for Java.",
     "code_title_sample_2": "Użyj podpisu cyfrowego, aby chronić dokument DOCX",
     "code_samples_sample_2_content_1": "Możesz [zabezpieczyć dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), używając podpisów osobistych lub firmowych przechowywanych jako certyfikaty cyfrowe.",
-    "code_samples_sample_2_content_2": "Dokumentów zabezpieczonych certyfikatem nie można zmieniać bez unieważnienia podpisu."
+    "code_samples_sample_2_content_2": "Dokumentów zabezpieczonych certyfikatem nie można zmieniać bez unieważnienia podpisu.",
+    "head_title": "Biblioteka podpisów cyfrowych Java — GroupDocs.Signature",
+    "head_description": "Zwiększ możliwości aplikacji Java dzięki podpisom elektronicznym za pomocą GroupDocs.Signature. Podpisuj dokumenty biznesowe szybko i bez wysiłku."
   },
   "index-content-nodejs-java": {
     "title": "Rozwiązanie do podpisów cyfrowych Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "W tej sekcji przedstawiono przykład dodania kodu QR za pomocą {{ProductFullName}}.",
     "code_title_sample_2": "Ochrona DOCX za pomocą podpisu cyfrowego",
     "code_samples_sample_2_content_1": "[Chroń swoje dokumenty]({{Sample2Url}}) za pomocą podpisów opartych na certyfikatach cyfrowych.",
-    "code_samples_sample_2_content_2": "Podpis cyfrowy chroni dokumenty biznesowe przed zmianą treści."
+    "code_samples_sample_2_content_2": "Podpis cyfrowy chroni dokumenty biznesowe przed zmianą treści.",
+    "head_title": "API podpisu cyfrowego Node.js - GroupDocs.Signature",
+    "head_description": "Zintegruj bezpieczne podpisy elektroniczne w aplikacjach Node.js za pomocą GroupDocs.Signature. Usprawnij łatwo i efektywnie przepływ pracy podpisywania dokumentów."
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
-head_description: "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika"
+head_title: "Java Digital Signature Library - GroupDocs.Signature"
+head_description: "Styrkjaðu Java forrit með rafrænum undirskriftum með GroupDocs.Signature. Skrifaðu undir viðskiptaskjöl fljótt og áreynslulaust."
 
 ############################# Header ############################
 title: "Skrifaðu undir skjöl<br>í gegnum Java API"

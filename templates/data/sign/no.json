@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud APIer og nettbaserte dokumentsignaturapper",
-    "head_description": "Få alt-i-ett dokument-e-signaturløsning for .NET, Java og skybaserte applikasjoner. Signer vanlige dokumentformater på nettet ved hjelp av enkel dra og slipp-funksjon",
+    "head_title": "C# .NET, Java, Node.js digitale signaturapper",
+    "head_description": "Integrer e-signaturer i .NET-, Java- eller Node.js-applikasjoner med GroupDocs.Signature. Signer populære forretningsdokumentformater.",
     "title": "Dokument e-signeringsløsning",
     "description": "Signer digitale dokumenter og bilder på hvilken som helst plattform ved å bruke våre fleksible APIer og appbaserte løsninger for programmerere og sluttbrukere.",
     "api_high_title": "GroupDocs.Signature High Code APIer inkluderer",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Nedenfor er et eksempel på hvordan du legger til en QR-kode ved hjelp av GroupDocs.Signature.",
     "code_title_sample_2": "Beskytte et DOCX-dokument ved hjelp av et digitalt sertifikat",
     "code_samples_sample_2_content_1": "Du kan [Beskytt et dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ved å bruke personlige eller bedriftssignaturer lagret som digitale sertifikater.",
-    "code_samples_sample_2_content_2": "Slike beskyttede dokumenter kan ikke endres uten å ugyldiggjøre signaturen."
+    "code_samples_sample_2_content_2": "Slike beskyttede dokumenter kan ikke endres uten å ugyldiggjøre signaturen.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integrer digital signaturbehandling i .NET-appene dine ved å bruke GroupDocs.Signature. Sikre filene dine med signaturer raskt og effektivt."
   },
   "index-content-java": {
     "title": "Java API for å administrere digitale signaturer",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Det er et eksempel på hvordan du legger til en QR-kode ved hjelp av GroupDocs.Signature for Java.",
     "code_title_sample_2": "Bruk digital signatur for å beskytte en DOCX",
     "code_samples_sample_2_content_1": "Du kan [Beskytte et dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ved å bruke personlige eller bedriftssignaturer lagret som digitale sertifikater.",
-    "code_samples_sample_2_content_2": "Dokumenter sikret med sertifikat kan ikke endres uten å ugyldiggjøre signaturen."
+    "code_samples_sample_2_content_2": "Dokumenter sikret med sertifikat kan ikke endres uten å ugyldiggjøre signaturen.",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Styr Java-apper med e-signaturer med GroupDocs.Signature. Signer forretningsdokumenter raskt og enkelt."
   },
   "index-content-nodejs-java": {
     "title": "Node.js-løsning for digitale signaturer",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Denne delen gir et eksempel på å legge til en QR-kode ved å bruke {{ProductFullName}}.",
     "code_title_sample_2": "Beskytte en DOCX med en digital signatur",
     "code_samples_sample_2_content_1": "[Beskytt dokumentene dine]({{Sample2Url}}) med signaturer basert på digitale sertifikater.",
-    "code_samples_sample_2_content_2": "Digital signatur beskytter forretningsdokumentene dine mot endring av innhold."
+    "code_samples_sample_2_content_2": "Digital signatur beskytter forretningsdokumentene dine mot endring av innhold.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Integrer sikre e-signaturer i Node.js-apper med GroupDocs.Signature. Strømlinjeform dokumentsigneringsarbeidsflytene enkelt og effektivt."
   }
 }

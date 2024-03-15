@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API's en online apps voor documenthandtekening"
-head_description: "Ontvang een alles-in-één oplossing voor e-handtekening van documenten voor .NET, Java en cloudgebaseerde applicaties. Onderteken veelgebruikte documentformaten online met behulp van een eenvoudige functie voor slepen en neerzetten"
+head_title: "Node.js API voor digitale handtekeningen - GroupDocs.Signature"
+head_description: "Integreer veilige elektronische handtekeningen in Node.js-apps met GroupDocs.Signature. Stroomlijn de workflows voor het ondertekenen van documenten eenvoudig en efficiënt."
 
 ############################# Header ############################
 title: "Onderteken documenten<br>met Node.js-API"

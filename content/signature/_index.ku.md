@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, API-yên Cloud & Serlêdanên Îmzekirina Belgeya Serhêl"
-head_description: "Ji bo .NET, Java û serîlêdanên ewr-based çareseriya e-îmzaya belgeya tev-di-yek bistînin. Formên belgeyên hevpar ên serhêl bi karanîna taybetmendiya kaş û avêtinê ya hêsan îmze bikin"
+head_title: "C# .NET, Java, Node.js Serlêdanên Îmzeya Dîjîtal"
+head_description: "E-îmzeyan di sepanên .NET, Java an Node.js de bi GroupDocs.Signature re yek bikin. Formên belgeyên karsaziya populer îmze bikin."
 
 ############################# Header ############################
 title: "Document e-Signing Çareseriya"

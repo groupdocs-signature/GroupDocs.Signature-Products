@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, pilve API-d ja veebipõhised dokumendiallkirjarakendused",
-    "head_description": "Hankige kõik-ühes dokumendi e-allkirja lahendus .NET-i, Java- ja pilvepõhiste rakenduste jaoks. Allkirjastage levinud dokumendivormingud veebis, kasutades lihtsat pukseerimisfunktsiooni",
+    "head_title": "C# .NET, Java, Node.js digitaalallkirja rakendused",
+    "head_description": "Integreerige e-allkirjad .NET-, Java- või Node.js-rakendustesse koos GroupDocs.Signature'iga. Allkirjastage populaarsed äridokumentide vormingud.",
     "title": "Dokumentide e-allkirjastamise lahendus",
     "description": "Allkirjastage digitaalseid dokumente ja pilte mis tahes platvormil, kasutades meie paindlikke API-sid ja rakendusepõhiseid lahendusi programmeerijatele ja lõppkasutajatele.",
     "api_high_title": "GroupDocs.Signature kõrge koodiga API-d hõlmavad",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Allpool on näide QR-koodi lisamisest GroupDocs.Signature abil.",
     "code_title_sample_2": "DOCX-dokumendi kaitsmine digitaalse sertifikaadi abil",
     "code_samples_sample_2_content_1": "Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju.",
-    "code_samples_sample_2_content_2": "Selliseid kaitstud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata."
+    "code_samples_sample_2_content_2": "Selliseid kaitstud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata.",
+    "head_title": "C# .NET digitaalallkirjade API – GroupDocs.Signature",
+    "head_description": "Integreerige digitaalallkirjade töötlemine oma .NET-i rakendustesse, kasutades GroupDocs.Signature'i. Kaitske oma failid kiiresti ja tõhusalt allkirjadega."
   },
   "index-content-java": {
     "title": "Java API digitaalallkirjade haldamiseks",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Seal on näide QR-koodi lisamise kohta, kasutades GroupDocs.Signature for Java.",
     "code_title_sample_2": "Kasutage DOCX-i kaitsmiseks digitaalallkirja",
     "code_samples_sample_2_content_1": "Saate [dokumenti kaitsta](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), kasutades digitaalsete sertifikaatidena salvestatud isiklikke või ettevõtte allkirju.",
-    "code_samples_sample_2_content_2": "Sertifikaadiga tagatud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata."
+    "code_samples_sample_2_content_2": "Sertifikaadiga tagatud dokumente ei saa muuta ilma allkirja kehtetuks tunnistamata.",
+    "head_title": "Java digitaalallkirjade teek – GroupDocs.Signature",
+    "head_description": "Võimaldage Java-rakendusi e-allkirjade abil GroupDocs.Signature'iga. Allkirjastage äridokumendid kiiresti ja vaevata."
   },
   "index-content-nodejs-java": {
     "title": "Node.js digitaalallkirjade lahendus",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Selles jaotises on näide QR-koodi lisamisest, kasutades {{ProductFullName}}.",
     "code_title_sample_2": "DOCX-i kaitsmine digitaalallkirjaga",
     "code_samples_sample_2_content_1": "[Kaitske oma dokumente]({{Sample2Url}}) digitaalsetel sertifikaatidel põhinevate allkirjadega.",
-    "code_samples_sample_2_content_2": "Digiallkiri kaitseb teie äridokumente sisu muutumise eest."
+    "code_samples_sample_2_content_2": "Digiallkiri kaitseb teie äridokumente sisu muutumise eest.",
+    "head_title": "Node.js digitaalallkirja API – GroupDocs.Signature",
+    "head_description": "Integreerige turvalised e-allkirjad Node.js-i rakendustesse rakendusega GroupDocs.Signature. Täiustage dokumentide allkirjastamise töövooge lihtsalt ja tõhusalt."
   }
 }

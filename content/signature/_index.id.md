@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Aplikasi Tanda Tangan Dokumen Online"
-head_description: "Dapatkan solusi e-signature dokumen all-in-one untuk .NET, Java, dan aplikasi berbasis cloud. Tandatangani format dokumen umum secara online menggunakan fitur drag and drop sederhana"
+head_title: "Aplikasi Tanda Tangan Digital C# .NET, Java, Node.js"
+head_description: "Integrasikan tanda tangan elektronik dalam aplikasi .NET, Java atau Node.js dengan GroupDocs.Signature. Tanda tangani format dokumen bisnis populer."
 
 ############################# Header ############################
 title: "Solusi Penandatanganan Elektronik Dokumen"

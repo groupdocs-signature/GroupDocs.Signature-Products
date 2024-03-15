@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, felhő API-k és online dokumentum-aláíró alkalmazások"
-head_description: "Szerezzen minden az egyben dokumentum-aláírási megoldást .NET, Java és felhőalapú alkalmazásokhoz. A gyakori dokumentumformátumok online aláírása egyszerű fogd és vidd funkcióval"
+head_title: "C# .NET, Java, Node.js digitális aláírási alkalmazások"
+head_description: "Integrálja az e-aláírásokat .NET, Java vagy Node.js alkalmazásokba a GroupDocs.Signature segítségével. Aláírja a népszerű üzleti dokumentumformátumokat."
 
 ############################# Header ############################
 title: "Dokumentum e-aláírási megoldás"

@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API & Online Document Signature Apps",
-    "head_description": "Αποκτήστε ολοκληρωμένη λύση ηλεκτρονικής υπογραφής εγγράφων για .NET, Java και εφαρμογές που βασίζονται σε cloud. Υπογράψτε κοινές μορφές εγγράφων στο διαδίκτυο χρησιμοποιώντας την απλή λειτουργία μεταφοράς και απόθεσης",
+    "head_title": "Εφαρμογές ψηφιακής υπογραφής C# .NET, Java, Node.js",
+    "head_description": "Ενσωματώστε ηλεκτρονικές υπογραφές σε εφαρμογές .NET, Java ή Node.js με το GroupDocs.Signature. Υπογράψτε δημοφιλείς μορφές επιχειρηματικών εγγράφων.",
     "title": "Λύση ηλεκτρονικής υπογραφής εγγράφων",
     "description": "Υπογράψτε ψηφιακά έγγραφα και εικόνες σε οποιαδήποτε πλατφόρμα χρησιμοποιώντας τα ευέλικτα API και τις λύσεις που βασίζονται σε εφαρμογές για προγραμματιστές και τελικούς χρήστες.",
     "api_high_title": "GroupDocs.Signature High Code APIs Include",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Παρακάτω είναι ένα παράδειγμα για το πώς μπορείτε να προσθέσετε έναν κωδικό QR χρησιμοποιώντας το GroupDocs.Signature.",
     "code_title_sample_2": "Προστασία ενός εγγράφου DOCX με χρήση ψηφιακού πιστοποιητικού",
     "code_samples_sample_2_content_1": "Μπορείτε να [Προστασία εγγράφου](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) χρησιμοποιώντας προσωπικές ή εταιρικές υπογραφές που είναι αποθηκευμένες ως ψηφιακά πιστοποιητικά.",
-    "code_samples_sample_2_content_2": "Τέτοια προστατευόμενα έγγραφα δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή."
+    "code_samples_sample_2_content_2": "Τέτοια προστατευόμενα έγγραφα δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Ενσωματώστε την επεξεργασία ψηφιακών υπογραφών στις εφαρμογές σας .NET χρησιμοποιώντας το GroupDocs.Signature. Ασφαλίστε τα αρχεία σας με υπογραφές γρήγορα και αποτελεσματικά."
   },
   "index-content-java": {
     "title": "Java API για διαχείριση ψηφιακών υπογραφών",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Υπάρχει ένα παράδειγμα για το πώς μπορείτε να προσθέσετε έναν κωδικό QR χρησιμοποιώντας το GroupDocs.Signature για Java.",
     "code_title_sample_2": "Χρησιμοποιήστε ψηφιακή υπογραφή για την προστασία ενός DOCX",
     "code_samples_sample_2_content_1": "Μπορείτε να [Διασφαλίστε ένα έγγραφο](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) χρησιμοποιώντας προσωπικές ή εταιρικές υπογραφές που είναι αποθηκευμένες ως ψηφιακά πιστοποιητικά.",
-    "code_samples_sample_2_content_2": "Τα έγγραφα που είναι ασφαλισμένα με πιστοποιητικό δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή."
+    "code_samples_sample_2_content_2": "Τα έγγραφα που είναι ασφαλισμένα με πιστοποιητικό δεν μπορούν να τροποποιηθούν χωρίς να ακυρωθεί η υπογραφή.",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Ενισχύστε τις εφαρμογές Java με ηλεκτρονικές υπογραφές με το GroupDocs.Signature. Υπογράψτε επαγγελματικά έγγραφα γρήγορα και χωρίς κόπο."
   },
   "index-content-nodejs-java": {
     "title": "Λύση ψηφιακών υπογραφών Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Αυτή η ενότητα παρέχει ένα παράδειγμα προσθήκης κωδικού QR χρησιμοποιώντας το {{ProductFullName}}.",
     "code_title_sample_2": "Προστασία ενός DOCX με ψηφιακή υπογραφή",
     "code_samples_sample_2_content_1": "[Προστατέψτε τα έγγραφά σας]({{Sample2Url}}) με υπογραφές που βασίζονται σε ψηφιακά πιστοποιητικά.",
-    "code_samples_sample_2_content_2": "Η ψηφιακή υπογραφή προστατεύει τα έγγραφα της επιχείρησής σας από την αλλαγή περιεχομένου."
+    "code_samples_sample_2_content_2": "Η ψηφιακή υπογραφή προστατεύει τα έγγραφα της επιχείρησής σας από την αλλαγή περιεχομένου.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Ενσωματώστε ασφαλείς ηλεκτρονικές υπογραφές στις εφαρμογές Node.js με το GroupDocs.Signature. Βελτιώστε τις ροές εργασίας της υπογραφής εγγράφων εύκολα και αποτελεσματικά."
   }
 }

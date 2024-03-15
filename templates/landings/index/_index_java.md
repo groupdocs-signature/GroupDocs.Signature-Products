@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "<% "{index-content.head_title}" %>"
-head_description: "<% "{index-content.head_description}" %>"
+head_title: "<% "{index-content-java.head_title}" %>"
+head_description: "<% "{index-content-java.head_description}" %>"
 
 ############################# Header ############################
 title: "<% "{index-content.title_1}" %><br><% "{index-content-java.title_2}" %>"

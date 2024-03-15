@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, API de núvol i aplicacions de signatura de documents en línia",
-    "head_description": "Obteniu una solució de signatura electrònica de documents tot en un per a aplicacions .NET, Java i basades en núvol. Signeu formats de document habituals en línia mitjançant la funció d'arrossegar i deixar anar",
+    "head_title": "Aplicacions de signatura digital C# .NET, Java, Node.js",
+    "head_description": "Integreu signatures electròniques en aplicacions .NET, Java o Node.js amb GroupDocs.Signature. Signar formats de documents comercials populars.",
     "title": "Solució de signatura electrònica de documents",
     "description": "Signa documents i imatges digitals a qualsevol plataforma utilitzant les nostres API flexibles i solucions basades en aplicacions per a programadors i usuaris finals.",
     "api_high_title": "Les API de codi alt de GroupDocs.Signature inclouen",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "A continuació es mostra un exemple de com afegir un codi QR mitjançant GroupDocs.Signature.",
     "code_title_sample_2": "Protecció d'un document DOCX mitjançant un certificat digital",
     "code_samples_sample_2_content_1": "Podeu [Protegir un document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals.",
-    "code_samples_sample_2_content_2": "Aquests documents protegits no es poden modificar sense invalidar la signatura."
+    "code_samples_sample_2_content_2": "Aquests documents protegits no es poden modificar sense invalidar la signatura.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integreu el processament de signatures digitals a les vostres aplicacions .NET mitjançant GroupDocs.Signature. Assegureu els vostres fitxers amb signatures de manera ràpida i eficient."
   },
   "index-content-java": {
     "title": "API de Java per gestionar signatures digitals",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Hi ha un exemple de com afegir un codi QR amb GroupDocs.Signature per a Java.",
     "code_title_sample_2": "Utilitzeu la signatura digital per protegir un DOCX",
     "code_samples_sample_2_content_1": "Podeu [protegir un document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilitzant signatures personals o corporatives emmagatzemades com a certificats digitals.",
-    "code_samples_sample_2_content_2": "Els documents assegurats amb certificat no es poden alterar sense invalidar la signatura."
+    "code_samples_sample_2_content_2": "Els documents assegurats amb certificat no es poden alterar sense invalidar la signatura.",
+    "head_title": "Biblioteca de signatures digitals de Java - GroupDocs.Signature",
+    "head_description": "Potencia les aplicacions Java mitjançant signatures electròniques amb GroupDocs.Signature. Signeu documents comercials de manera ràpida i senzilla."
   },
   "index-content-nodejs-java": {
     "title": "Solució de signatures digitals Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Aquesta secció ofereix un exemple d'afegir un codi QR amb {{ProductFullName}}.",
     "code_title_sample_2": "Protecció d'un DOCX amb una signatura digital",
     "code_samples_sample_2_content_1": "[Protegiu els vostres documents]({{Sample2Url}}) mitjançant signatures basades en certificats digitals.",
-    "code_samples_sample_2_content_2": "La signatura digital protegeix els documents empresarials contra els canvis de contingut."
+    "code_samples_sample_2_content_2": "La signatura digital protegeix els documents empresarials contra els canvis de contingut.",
+    "head_title": "API de signatura digital de Node.js - GroupDocs.Signature",
+    "head_description": "Integra signatures electròniques segures a les aplicacions Node.js amb GroupDocs.Signature. Agilitza els fluxos de treball de signatura de documents de manera fàcil i eficient."
   }
 }

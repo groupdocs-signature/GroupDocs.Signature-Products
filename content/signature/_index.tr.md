@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Bulut API'leri ve Çevrimiçi Belge İmza Uygulamaları"
-head_description: ".NET, Java ve bulut tabanlı uygulamalar için hepsi bir arada belge e-imza çözümü edinin. Basit sürükle ve bırak özelliğini kullanarak yaygın belge biçimlerini çevrimiçi olarak imzalayın"
+head_title: "C# .NET, Java, Node.js Dijital İmza Uygulamaları"
+head_description: "GroupDocs.Signature ile .NET, Java veya Node.js uygulamalarında e-imzaları entegre edin. Popüler iş belgesi formatlarını imzalayın."
 
 ############################# Header ############################
 title: "Belge e-İmza Çözümü"

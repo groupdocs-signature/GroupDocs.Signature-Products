@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API-ներ և առցանց փաստաթղթերի ստորագրման հավելվածներ",
-    "head_description": "Ստացեք փաստաթղթի էլեկտրոնային ստորագրության ամբողջական լուծում .NET, Java և ամպի վրա հիմնված հավելվածների համար: Ստորագրեք սովորական փաստաթղթերի ձևաչափերը առցանց՝ օգտագործելով պարզ քաշել և թողնել հնարավորությունը",
+    "head_title": "C# .NET, Java, Node.js թվային ստորագրության հավելվածներ",
+    "head_description": "Ինտեգրել էլեկտրոնային ստորագրությունները .NET, Java կամ Node.js հավելվածներում GroupDocs.Signature-ի հետ: Ստորագրեք հայտնի բիզնես փաստաթղթերի ձևաչափերը:",
     "title": "Փաստաթղթերի էլեկտրոնային ստորագրման լուծում",
     "description": "Ստորագրեք թվային փաստաթղթեր և պատկերներ ցանկացած հարթակում՝ օգտագործելով մեր ճկուն API-ները և հավելվածների վրա հիմնված լուծումները ծրագրավորողների և վերջնական օգտագործողների համար:",
     "api_high_title": "GroupDocs.Signature High Code API-ները ներառում են",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Ստորև բերված է մի օրինակ, թե ինչպես ավելացնել QR կոդ՝ օգտագործելով GroupDocs.Signature:",
     "code_title_sample_2": "DOCX փաստաթղթի պաշտպանություն՝ օգտագործելով թվային վկայական",
     "code_samples_sample_2_content_1": "Դուք կարող եք [Պաշտպանել փաստաթուղթը](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/)՝ օգտագործելով անձնական կամ կորպորատիվ ստորագրությունները, որոնք պահվում են որպես թվային վկայագրեր:",
-    "code_samples_sample_2_content_2": "Նման պաշտպանված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրության անվավեր ճանաչման:"
+    "code_samples_sample_2_content_2": "Նման պաշտպանված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրության անվավեր ճանաչման:",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Ինտեգրեք թվային ստորագրությունների մշակումը ձեր .NET հավելվածներում՝ օգտագործելով GroupDocs.Signature: Ապահովեք ձեր ֆայլերը ստորագրություններով արագ և արդյունավետ:"
   },
   "index-content-java": {
     "title": "Java API՝ թվային ստորագրությունները կառավարելու համար",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Կա մի օրինակ, թե ինչպես կարելի է ավելացնել QR կոդը՝ օգտագործելով GroupDocs.Signature Java-ի համար:",
     "code_title_sample_2": "DOCX-ը պաշտպանելու համար օգտագործեք թվային ստորագրություն",
     "code_samples_sample_2_content_1": "Դուք կարող եք [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) օգտագործելով անձնական կամ կորպորատիվ ստորագրությունները, որոնք պահվում են որպես թվային վկայականներ:",
-    "code_samples_sample_2_content_2": "Վկայականով ապահովված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրությունը անվավեր ճանաչելու:"
+    "code_samples_sample_2_content_2": "Վկայականով ապահովված փաստաթղթերը չեն կարող փոփոխվել առանց ստորագրությունը անվավեր ճանաչելու:",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Հզորացրեք Java հավելվածները էլեկտրոնային ստորագրություններով GroupDocs.Signature-ի միջոցով: Ստորագրեք բիզնես փաստաթղթերը արագ և առանց ջանքերի:"
   },
   "index-content-nodejs-java": {
     "title": "Node.js Digital Signatures Solution",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Այս բաժինը ներկայացնում է QR կոդ ավելացնելու օրինակ՝ օգտագործելով {{ProductFullName}}:",
     "code_title_sample_2": "DOCX-ի պաշտպանություն թվային ստորագրությամբ",
     "code_samples_sample_2_content_1": "[Պաշտպանեք ձեր փաստաթղթերը]({{Sample2Url}}) թվային վկայագրերի վրա հիմնված ստորագրություններով:",
-    "code_samples_sample_2_content_2": "Թվային ստորագրությունը պաշտպանում է ձեր բիզնես փաստաթղթերը բովանդակության փոփոխությունից:"
+    "code_samples_sample_2_content_2": "Թվային ստորագրությունը պաշտպանում է ձեր բիզնես փաստաթղթերը բովանդակության փոփոխությունից:",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Ինտեգրել անվտանգ էլեկտրոնային ստորագրությունները Node.js հավելվածներում GroupDocs.Signature-ի հետ: Հեշտացնել փաստաթղթերի ստորագրման աշխատանքները հեշտ և արդյունավետ:"
   }
 }

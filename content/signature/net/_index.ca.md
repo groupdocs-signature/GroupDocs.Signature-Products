@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, API de núvol i aplicacions de signatura de documents en línia"
-head_description: "Obteniu una solució de signatura electrònica de documents tot en un per a aplicacions .NET, Java i basades en núvol. Signeu formats de document habituals en línia mitjançant la funció d'arrossegar i deixar anar"
+head_title: "C# .NET Digital Signatures API - GroupDocs.Signature"
+head_description: "Integreu el processament de signatures digitals a les vostres aplicacions .NET mitjançant GroupDocs.Signature. Assegureu els vostres fitxers amb signatures de manera ràpida i eficient."
 
 ############################# Header ############################
 title: "Signar documents<br>mitjançant .NET API"

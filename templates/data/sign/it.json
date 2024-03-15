@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, API cloud e app per la firma di documenti online",
-    "head_description": "Ottieni una soluzione completa per la firma elettronica dei documenti per .NET, Java e applicazioni basate su cloud. Firma formati di documenti comuni online utilizzando la semplice funzionalità di trascinamento della selezione",
+    "head_title": "App di firma digitale C# .NET, Java, Node.js",
+    "head_description": "Integra le firme elettroniche nelle applicazioni .NET, Java o Node.js con GroupDocs.Signature. Firma i formati di documenti aziendali più diffusi.",
     "title": "Soluzione per la firma elettronica dei documenti",
     "description": "Firma documenti digitali e immagini su qualsiasi piattaforma utilizzando le nostre API flessibili e soluzioni basate su app per programmatori e utenti finali.",
     "api_high_title": "Le API GroupDocs.Signature High Code includono",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Di seguito è riportato un esempio di come aggiungere un codice QR utilizzando GroupDocs.Signature.",
     "code_title_sample_2": "Proteggere un documento DOCX utilizzando un certificato digitale",
     "code_samples_sample_2_content_1": "Puoi [Proteggere un documento](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) utilizzando firme personali o aziendali archiviate come certificati digitali.",
-    "code_samples_sample_2_content_2": "Tali documenti protetti non possono essere modificati senza invalidare la firma."
+    "code_samples_sample_2_content_2": "Tali documenti protetti non possono essere modificati senza invalidare la firma.",
+    "head_title": "API per firme digitali C# .NET: GroupDocs.Signature",
+    "head_description": "Integra l'elaborazione delle firme digitali nelle tue app .NET utilizzando GroupDocs.Signature. Proteggi i tuoi file con le firme in modo rapido ed efficiente."
   },
   "index-content-java": {
     "title": "API Java per gestire le firme digitali",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "È disponibile un esempio di come aggiungere un codice QR utilizzando GroupDocs.Signature per Java.",
     "code_title_sample_2": "Utilizza la firma digitale per proteggere un DOCX",
     "code_samples_sample_2_content_1": "Puoi [Proteggere un documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) utilizzando firme personali o aziendali archiviate come certificati digitali.",
-    "code_samples_sample_2_content_2": "I documenti protetti con certificato non possono essere alterati senza invalidare la firma."
+    "code_samples_sample_2_content_2": "I documenti protetti con certificato non possono essere alterati senza invalidare la firma.",
+    "head_title": "Libreria di firme digitali Java - GroupDocs.Signature",
+    "head_description": "Potenzia le app Java tramite firme elettroniche con GroupDocs.Signature. Firma documenti aziendali in modo rapido e semplice."
   },
   "index-content-nodejs-java": {
     "title": "Soluzione di firma digitale Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Questa sezione fornisce un esempio di aggiunta di un codice QR utilizzando {{ProductFullName}}.",
     "code_title_sample_2": "Proteggere un DOCX con una Firma Digitale",
     "code_samples_sample_2_content_1": "[Proteggi i tuoi documenti]({{Sample2Url}}) con firme basate su certificati digitali.",
-    "code_samples_sample_2_content_2": "La firma digitale protegge i tuoi documenti aziendali dalla modifica dei contenuti."
+    "code_samples_sample_2_content_2": "La firma digitale protegge i tuoi documenti aziendali dalla modifica dei contenuti.",
+    "head_title": "API di firma digitale Node.js - GroupDocs.Signature",
+    "head_description": "Integra firme elettroniche sicure nelle app Node.js con GroupDocs.Signature. Semplifica i flussi di lavoro per la firma dei documenti in modo semplice ed efficiente."
   }
 }

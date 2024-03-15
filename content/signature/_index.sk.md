@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API a online aplikácie na podpisovanie dokumentov"
-head_description: "Získajte komplexné riešenie elektronického podpisu dokumentov pre .NET, Java a cloudové aplikácie. Podpíšte bežné formáty dokumentov online pomocou jednoduchej funkcie drag and drop"
+head_title: "Aplikácie digitálneho podpisu C# .NET, Java, Node.js"
+head_description: "Integrujte elektronické podpisy do aplikácií .NET, Java alebo Node.js s GroupDocs.Signature. Podpíšte obľúbené formáty obchodných dokumentov."
 
 ############################# Header ############################
 title: "Riešenie elektronického podpisovania dokumentov"

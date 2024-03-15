@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirjoitussovellukset",
-    "head_description": "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla",
+    "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
+    "head_description": "Integroi sähköiset allekirjoitukset .NET-, Java- tai Node.js-sovelluksiin GroupDocs.Signaturen kanssa. Allekirjoita suosittuja yritysasiakirjamuotoja.",
     "title": "Asiakirjojen sähköinen allekirjoitusratkaisu",
     "description": "Allekirjoita digitaalisia asiakirjoja ja kuvia millä tahansa alustalla käyttämällä ohjelmoijille ja loppukäyttäjille joustavia API- ja sovelluspohjaisia ​​ratkaisujamme.",
     "api_high_title": "GroupDocs.Signature High Code API:t sisältävät",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Alla on esimerkki QR-koodin lisäämisestä GroupDocs.Signaturen avulla.",
     "code_title_sample_2": "DOCX-asiakirjan suojaaminen digitaalisella varmenteella",
     "code_samples_sample_2_content_1": "Voit [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",
-    "code_samples_sample_2_content_2": "Tällaisia ​​suojattuja asiakirjoja ei voida muuttaa ilman allekirjoituksen mitätöintiä."
+    "code_samples_sample_2_content_2": "Tällaisia ​​suojattuja asiakirjoja ei voida muuttaa ilman allekirjoituksen mitätöintiä.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integroi digitaalisten allekirjoitusten käsittely .NET-sovelluksiisi GroupDocs.Signaturen avulla. Suojaa tiedostosi allekirjoituksilla nopeasti ja tehokkaasti."
   },
   "index-content-java": {
     "title": "Java-sovellusliittymä digitaalisten allekirjoitusten hallintaan",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Tässä on esimerkki QR-koodin lisäämisestä GroupDocs.Signature for Java -sovelluksella.",
     "code_title_sample_2": "Suojaa DOCX käyttämällä digitaalista allekirjoitusta",
     "code_samples_sample_2_content_1": "Voit [suojata asiakirjan](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) käyttämällä digitaalisina varmenteina tallennettuja henkilökohtaisia ​​tai yrityksen allekirjoituksia.",
-    "code_samples_sample_2_content_2": "Varmenteella suojattuja asiakirjoja ei voi muuttaa ilman allekirjoitusta mitätöimättä."
+    "code_samples_sample_2_content_2": "Varmenteella suojattuja asiakirjoja ei voi muuttaa ilman allekirjoitusta mitätöimättä.",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Tehosta Java-sovelluksia sähköisten allekirjoitusten avulla GroupDocs.Signaturen avulla. Allekirjoita yritysasiakirjat nopeasti ja vaivattomasti."
   },
   "index-content-nodejs-java": {
     "title": "Node.js digitaalisten allekirjoitusten ratkaisu",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Tässä osiossa on esimerkki QR-koodin lisäämisestä käyttämällä {{ProductFullName}}.",
     "code_title_sample_2": "DOCX:n suojaaminen digitaalisella allekirjoituksella",
     "code_samples_sample_2_content_1": "[Suojaa asiakirjojasi]({{Sample2Url}}) digitaalisiin varmenteisiin perustuvilla allekirjoituksilla.",
-    "code_samples_sample_2_content_2": "Digitaalinen allekirjoitus suojaa yrityksesi asiakirjoja sisällön muuttumiselta."
+    "code_samples_sample_2_content_2": "Digitaalinen allekirjoitus suojaa yrityksesi asiakirjoja sisällön muuttumiselta.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Integroi suojatut sähköiset allekirjoitukset Node.js-sovelluksiin GroupDocs.Signaturen kanssa. Virtaviivaista asiakirjojen allekirjoittamisen työnkulkuja helposti ja tehokkaasti."
   }
 }

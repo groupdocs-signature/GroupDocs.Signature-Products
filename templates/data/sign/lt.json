@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, debesies API ir internetinių dokumentų parašų programos",
-    "head_description": "Gaukite „viskas viename“ dokumentų el. parašo sprendimą, skirtą .NET, „Java“ ir debesies programoms. Pasirašykite įprastus dokumentų formatus internete naudodami paprastą vilkimo ir nuleidimo funkciją",
+    "head_title": "C# .NET, Java, Node.js skaitmeninio parašo programos",
+    "head_description": "Integruokite el. parašus į .NET, Java arba Node.js programas su GroupDocs.Signature. Pasirašykite populiarius verslo dokumentų formatus.",
     "title": "Dokumentų elektroninio pasirašymo sprendimas",
     "description": "Pasirašykite skaitmeninius dokumentus ir vaizdus bet kurioje platformoje naudodami mūsų lanksčias API ir programuotojams ir galutiniams vartotojams skirtus sprendimus.",
     "api_high_title": "GroupDocs.Signature High Code API apima",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Toliau pateikiamas pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature.",
     "code_title_sample_2": "DOCX dokumento apsauga naudojant skaitmeninį sertifikatą",
     "code_samples_sample_2_content_1": "Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus.",
-    "code_samples_sample_2_content_2": "Tokie saugomi dokumentai negali būti modifikuojami nepakeitus parašo negaliojančiu."
+    "code_samples_sample_2_content_2": "Tokie saugomi dokumentai negali būti modifikuojami nepakeitus parašo negaliojančiu.",
+    "head_title": "C# .NET skaitmeninių parašų API – GroupDocs.Signature",
+    "head_description": "Integruokite skaitmeninių parašų apdorojimą į savo .NET programas naudodami GroupDocs.Signature. Greitai ir efektyviai apsaugokite failus parašais."
   },
   "index-content-java": {
     "title": "Java API skaitmeniniams parašams tvarkyti",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Yra pavyzdys, kaip pridėti QR kodą naudojant GroupDocs.Signature for Java.",
     "code_title_sample_2": "Norėdami apsaugoti DOCX, naudokite skaitmeninį parašą",
     "code_samples_sample_2_content_1": "Galite [Apsaugoti dokumentą](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) naudodami asmeninius arba įmonės parašus, saugomus kaip skaitmeninius sertifikatus.",
-    "code_samples_sample_2_content_2": "Sertifikatu apsaugoti dokumentai negali būti keičiami nepažeidžiant parašo."
+    "code_samples_sample_2_content_2": "Sertifikatu apsaugoti dokumentai negali būti keičiami nepažeidžiant parašo.",
+    "head_title": "Java skaitmeninio parašo biblioteka – GroupDocs.Signature",
+    "head_description": "Įgalinkite „Java“ programas naudodami el. parašus naudodami GroupDocs.Signature. Greitai ir be pastangų pasirašykite verslo dokumentus."
   },
   "index-content-nodejs-java": {
     "title": "Node.js skaitmeninių parašų sprendimas",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Šioje skiltyje pateikiamas QR kodo pridėjimo naudojant {{ProductFullName}} pavyzdys.",
     "code_title_sample_2": "DOCX apsauga skaitmeniniu parašu",
     "code_samples_sample_2_content_1": "[Apsaugokite savo dokumentus]({{Sample2Url}}) parašais, pagrįstais skaitmeniniais sertifikatais.",
-    "code_samples_sample_2_content_2": "Skaitmeninis parašas apsaugo jūsų verslo dokumentus nuo turinio pasikeitimo."
+    "code_samples_sample_2_content_2": "Skaitmeninis parašas apsaugo jūsų verslo dokumentus nuo turinio pasikeitimo.",
+    "head_title": "Node.js skaitmeninio parašo API – GroupDocs.Signature",
+    "head_description": "Integruokite saugius el. parašus į Node.js programas su GroupDocs.Signature. Lengvai ir efektyviai supaprastinkite dokumentų pasirašymo darbo eigą."
   }
 }

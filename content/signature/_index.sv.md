@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API och onlinedokumentsignaturappar"
-head_description: "Få en allt-i-ett-dokumentlösning för e-signaturer för .NET, Java och molnbaserade applikationer. Signera vanliga dokumentformat online med en enkel dra och släpp-funktion"
+head_title: "C# .NET, Java, Node.js Digital Signature Apps"
+head_description: "Integrera e-signaturer i .NET, Java eller Node.js applikationer med GroupDocs.Signature. Signera populära affärsdokumentformat."
 
 ############################# Header ############################
 title: "Lösning för e-signering av dokument"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, API-yên Cloud & Serlêdanên Îmzekirina Belgeya Serhêl"
-head_description: "Ji bo .NET, Java û serîlêdanên ewr-based çareseriya e-îmzaya belgeya tev-di-yek bistînin. Formên belgeyên hevpar ên serhêl bi karanîna taybetmendiya kaş û avêtinê ya hêsan îmze bikin"
+head_title: "Node.js Îmzeya dîjîtal API - GroupDocs.Signature"
+head_description: "Di sepanên Node.js de e-îmzayên ewle bi GroupDocs.Signature re yek bikin. Karûbarên îmzekirina belgeyê bi hêsanî û bikêrhatî rêve bikin."
 
 ############################# Header ############################
 title: "Belgeyên îmze bikin<br>bi Node.js API"

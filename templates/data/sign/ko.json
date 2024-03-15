@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API 및 온라인 문서 서명 앱",
-    "head_description": ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 전자 서명 솔루션을 받으세요. 간단한 드래그 앤 드롭 기능을 사용하여 일반적인 문서 형식에 온라인으로 서명",
+    "head_title": "C# .NET, Java, Node.js 디지털 서명 앱",
+    "head_description": "GroupDocs.Signature를 사용하여 .NET, Java 또는 Node.js 애플리케이션의 전자 서명을 통합합니다. 널리 사용되는 비즈니스 문서 형식에 서명하세요.",
     "title": "문서 전자 서명 솔루션",
     "description": "프로그래머와 최종 사용자를 위한 유연한 API 및 앱 기반 솔루션을 사용하여 모든 플랫폼에서 디지털 문서 및 이미지에 서명하십시오.",
     "api_high_title": "GroupDocs.Signature 하이 코드 API에는 다음이 포함됩니다.",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "다음은 GroupDocs.Signature를 사용하여 QR 코드를 추가하는 방법의 예입니다.",
     "code_title_sample_2": "디지털 인증서를 사용하여 DOCX 문서 보호",
     "code_samples_sample_2_content_1": "디지털 인증서로 저장된 개인 또는 회사 서명을 사용하여 [문서를 보호](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/)할 수 있습니다.",
-    "code_samples_sample_2_content_2": "이러한 보호된 문서는 서명을 무효화하지 않고는 수정할 수 없습니다."
+    "code_samples_sample_2_content_2": "이러한 보호된 문서는 서명을 무효화하지 않고는 수정할 수 없습니다.",
+    "head_title": "C# .NET 디지털 서명 API - GroupDocs.Signature",
+    "head_description": "GroupDocs.Signature를 사용하여 .NET 앱에 디지털 서명 처리를 통합합니다. 서명으로 파일을 빠르고 효율적으로 보호하세요."
   },
   "index-content-java": {
     "title": "디지털 서명을 관리하는 Java API",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Java용 GroupDocs.Signature를 사용하여 QR 코드를 추가하는 방법에 대한 예가 있습니다.",
     "code_title_sample_2": "디지털 서명을 사용하여 DOCX 보호",
     "code_samples_sample_2_content_1": "디지털 인증서로 저장된 개인 또는 회사 서명을 사용하여 [문서를 보호](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/)할 수 있습니다.",
-    "code_samples_sample_2_content_2": "인증서로 보호된 문서는 서명을 무효화하지 않고는 변경할 수 없습니다."
+    "code_samples_sample_2_content_2": "인증서로 보호된 문서는 서명을 무효화하지 않고는 변경할 수 없습니다.",
+    "head_title": "Java 디지털 서명 라이브러리 - GroupDocs.Signature",
+    "head_description": "GroupDocs.Signature를 사용하여 전자 서명을 통해 Java 앱을 강화하세요. 비즈니스 문서에 빠르고 쉽게 서명하세요."
   },
   "index-content-nodejs-java": {
     "title": "Node.js 디지털 서명 솔루션",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "이 섹션에서는 {{ProductFullName}}을(를) 사용하여 QR 코드를 추가하는 예를 제공합니다.",
     "code_title_sample_2": "디지털 서명으로 DOCX 보호",
     "code_samples_sample_2_content_1": "디지털 인증서를 기반으로 한 서명으로 [문서를 보호]({{Sample2Url}})하세요.",
-    "code_samples_sample_2_content_2": "디지털 서명은 내용 변경으로부터 비즈니스 문서를 보호합니다."
+    "code_samples_sample_2_content_2": "디지털 서명은 내용 변경으로부터 비즈니스 문서를 보호합니다.",
+    "head_title": "Node.js 디지털 서명 API - GroupDocs.Signature",
+    "head_description": "GroupDocs.Signature를 사용하여 Node.js 앱의 보안 전자 서명을 통합하세요. 문서 서명 작업 흐름을 쉽고 효율적으로 간소화하세요."
   }
 }

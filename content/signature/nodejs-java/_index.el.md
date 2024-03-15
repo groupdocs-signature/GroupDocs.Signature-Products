@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
-head_description: "Αποκτήστε ολοκληρωμένη λύση ηλεκτρονικής υπογραφής εγγράφων για .NET, Java και εφαρμογές που βασίζονται σε cloud. Υπογράψτε κοινές μορφές εγγράφων στο διαδίκτυο χρησιμοποιώντας την απλή λειτουργία μεταφοράς και απόθεσης"
+head_title: "Node.js Digital Signature API - GroupDocs.Signature"
+head_description: "Ενσωματώστε ασφαλείς ηλεκτρονικές υπογραφές στις εφαρμογές Node.js με το GroupDocs.Signature. Βελτιώστε τις ροές εργασίας της υπογραφής εγγράφων εύκολα και αποτελεσματικά."
 
 ############################# Header ############################
 title: "Υπογράψτε έγγραφα<br>με το Node.js API"

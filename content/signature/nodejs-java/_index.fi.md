@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirjoitussovellukset"
-head_description: "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla"
+head_title: "Node.js Digital Signature API - GroupDocs.Signature"
+head_description: "Integroi suojatut sähköiset allekirjoitukset Node.js-sovelluksiin GroupDocs.Signaturen kanssa. Virtaviivaista asiakirjojen allekirjoittamisen työnkulkuja helposti ja tehokkaasti."
 
 ############################# Header ############################
 title: "Allekirjoita asiakirjat<br>Node.js API:lla"

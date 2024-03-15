@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, felhő API-k és online dokumentum-aláíró alkalmazások"
-head_description: "Szerezzen minden az egyben dokumentum-aláírási megoldást .NET, Java és felhőalapú alkalmazásokhoz. A gyakori dokumentumformátumok online aláírása egyszerű fogd és vidd funkcióval"
+head_title: "C# .NET Digital Signatures API – GroupDocs.Signature"
+head_description: "Integrálja a digitális aláírások feldolgozását .NET-alkalmazásaiba a GroupDocs.Signature segítségével. Biztosítsa fájljait aláírásokkal gyorsan és hatékonyan."
 
 ############################# Header ############################
 title: "Írja alá a dokumentumokat<br>.NET API-n keresztül"

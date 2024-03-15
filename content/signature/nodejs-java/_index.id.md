@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Aplikasi Tanda Tangan Dokumen Online"
-head_description: "Dapatkan solusi e-signature dokumen all-in-one untuk .NET, Java, dan aplikasi berbasis cloud. Tandatangani format dokumen umum secara online menggunakan fitur drag and drop sederhana"
+head_title: "API Tanda Tangan Digital Node.js - GroupDocs.Signature"
+head_description: "Integrasikan tanda tangan elektronik yang aman di aplikasi Node.js dengan GroupDocs.Signature. Sederhanakan alur kerja penandatanganan dokumen dengan mudah dan efisien."
 
 ############################# Header ############################
 title: "Menandatangani dokumen<br>dengan API Node.js"

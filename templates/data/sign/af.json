@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Wolk API's en Aanlyn Dokument Handtekening Apps",
-    "head_description": "Kry alles-in-een dokument e-handtekening oplossing vir .NET, Java en wolk-gebaseerde toepassings. Teken algemene dokumentformate aanlyn met 'n eenvoudige sleep-en-losfunksie",
+    "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
+    "head_description": "Integreer e-handtekeninge in .NET, Java of Node.js toepassings met GroupDocs.Signature. Teken gewilde besigheidsdokumentformate.",
     "title": "Dokument e-Signing oplossing",
     "description": "Teken digitale dokumente en beelde op enige platform deur ons buigsame API's en toepassingsgebaseerde oplossings vir programmeerders en eindgebruikers te gebruik.",
     "api_high_title": "GroupDocs.Signature High Code API's sluit in",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Hieronder is 'n voorbeeld van hoe om 'n QR-kode by te voeg deur GroupDocs.Signature te gebruik.",
     "code_title_sample_2": "Beskerm 'n DOCX-dokument met 'n digitale sertifikaat",
     "code_samples_sample_2_content_1": "Jy kan [Beskerm 'n dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) met persoonlike of korporatiewe handtekeninge wat as digitale sertifikate gestoor is.",
-    "code_samples_sample_2_content_2": "Sulke beskermde dokumente kan nie gewysig word sonder om die handtekening ongeldig te maak nie."
+    "code_samples_sample_2_content_2": "Sulke beskermde dokumente kan nie gewysig word sonder om die handtekening ongeldig te maak nie.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integreer digitale handtekeningverwerking in jou .NET-toepassings deur GroupDocs.Signature te gebruik. Beveilig jou lêers met handtekeninge vinnig en doeltreffend."
   },
   "index-content-java": {
     "title": "Java API om digitale handtekeninge te bestuur",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Daar is 'n voorbeeld van hoe om 'n QR-kode by te voeg deur GroupDocs.Signature vir Java te gebruik.",
     "code_title_sample_2": "Gebruik digitale handtekening om 'n DOCX te beskerm",
     "code_samples_sample_2_content_1": "Jy kan [Beveilig 'n dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) met persoonlike of korporatiewe handtekeninge wat as digitale sertifikate gestoor is.",
-    "code_samples_sample_2_content_2": "Dokumente wat met sertifikaat beveilig is, kan nie verander word sonder om die handtekening ongeldig te maak nie."
+    "code_samples_sample_2_content_2": "Dokumente wat met sertifikaat beveilig is, kan nie verander word sonder om die handtekening ongeldig te maak nie.",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Bemagtig Java-toepassings deur e-handtekeninge met GroupDocs.Signature. Teken besigheidsdokumente vinnig en moeiteloos."
   },
   "index-content-nodejs-java": {
     "title": "Node.js-oplossing vir digitale handtekeninge",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Hierdie afdeling verskaf 'n voorbeeld van die byvoeging van 'n QR-kode deur {{ProductFullName}} te gebruik.",
     "code_title_sample_2": "Beskerm 'n DOCX met 'n digitale handtekening",
     "code_samples_sample_2_content_1": "[Beskerm jou dokumente]({{Sample2Url}}) deur handtekeninge gebaseer op digitale sertifikate.",
-    "code_samples_sample_2_content_2": "Digitale handtekening beskerm u besigheidsdokumente teen inhoudsverandering."
+    "code_samples_sample_2_content_2": "Digitale handtekening beskerm u besigheidsdokumente teen inhoudsverandering.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Integreer veilige e-handtekeninge in Node.js-toepassings met GroupDocs.Signature. Stroomlyn dokumentondertekeningwerkvloei maklik en doeltreffend."
   }
 }

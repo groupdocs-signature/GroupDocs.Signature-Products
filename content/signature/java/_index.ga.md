@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Aipeanna Sínithe Doiciméad Ar Líne"
-head_description: "Faigh réiteach ríomhshínithe doiciméad uile-i-amháin le haghaidh .NET, Java agus feidhmchláir scamall-bhunaithe. Sínigh formáidí coiteanna doiciméad ar líne ag baint úsáide as gné simplí tarraing agus scaoil"
+head_title: "Leabharlann Sínithe Digiteach Java - GroupDocs.Signature"
+head_description: "Cumasaigh feidhmchláir Java trí ríomhshínithe le GroupDocs.Signature. Sínigh doiciméid ghnó go tapa agus gan stró."
 
 ############################# Header ############################
 title: "Doiciméid a shíniú<br>trí Java API"

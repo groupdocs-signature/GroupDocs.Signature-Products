@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API & Apl Tandatangan Dokumen Dalam Talian",
-    "head_description": "Dapatkan penyelesaian e-tandatangan dokumen semua-dalam-satu untuk .NET, Java dan aplikasi berasaskan awan. Tandatangani format dokumen biasa dalam talian menggunakan ciri seret dan lepas mudah",
+    "head_title": "C# .NET, Java, Apl Tandatangan Digital Node.js",
+    "head_description": "Sepadukan e-tandatangan dalam aplikasi .NET, Java atau Node.js dengan GroupDocs.Signature. Tandatangani format dokumen perniagaan yang popular.",
     "title": "Dokumen Penyelesaian e-Tandatangan",
     "description": "Tandatangani dokumen dan imej digital pada mana-mana platform menggunakan API fleksibel dan penyelesaian berasaskan aplikasi kami untuk pengaturcara dan pengguna akhir.",
     "api_high_title": "GroupDocs.Signature High Code APIs Include",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Di bawah ialah contoh cara menambah kod QR menggunakan GroupDocs.Signature.",
     "code_title_sample_2": "Melindungi dokumen DOCX menggunakan sijil digital",
     "code_samples_sample_2_content_1": "Anda boleh [Melindungi Dokumen](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) menggunakan tandatangan peribadi atau korporat yang disimpan sebagai sijil digital.",
-    "code_samples_sample_2_content_2": "Dokumen yang dilindungi sedemikian tidak boleh diubah suai tanpa membatalkan tandatangan."
+    "code_samples_sample_2_content_2": "Dokumen yang dilindungi sedemikian tidak boleh diubah suai tanpa membatalkan tandatangan.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Sepadukan pemprosesan tandatangan digital dalam apl .NET anda menggunakan GroupDocs.Signature. Lindungi fail anda dengan tandatangan dengan cepat dan cekap."
   },
   "index-content-java": {
     "title": "API Java untuk Mengurus Tandatangan Digital",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Terdapat contoh cara menambah kod QR menggunakan GroupDocs.Signature untuk Java.",
     "code_title_sample_2": "Gunakan tandatangan digital untuk melindungi DOCX",
     "code_samples_sample_2_content_1": "Anda boleh [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) menggunakan tandatangan peribadi atau korporat yang disimpan sebagai sijil digital.",
-    "code_samples_sample_2_content_2": "Dokumen yang dicagarkan dengan sijil tidak boleh diubah tanpa membatalkan tandatangan."
+    "code_samples_sample_2_content_2": "Dokumen yang dicagarkan dengan sijil tidak boleh diubah tanpa membatalkan tandatangan.",
+    "head_title": "Pustaka Tandatangan Digital Java - GroupDocs.Signature",
+    "head_description": "Memperkasakan apl Java melalui e-tandatangan dengan GroupDocs.Signature. Tandatangani dokumen perniagaan dengan cepat dan mudah."
   },
   "index-content-nodejs-java": {
     "title": "Penyelesaian Tandatangan Digital Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Bahagian ini menyediakan contoh menambah kod QR menggunakan {{ProductFullName}}.",
     "code_title_sample_2": "Melindungi DOCX dengan Tandatangan Digital",
     "code_samples_sample_2_content_1": "[Lindungi Dokumen anda]({{Sample2Url}}) dengan tandatangan berdasarkan sijil digital.",
-    "code_samples_sample_2_content_2": "Tandatangan digital melindungi dokumen perniagaan anda daripada perubahan kandungan."
+    "code_samples_sample_2_content_2": "Tandatangan digital melindungi dokumen perniagaan anda daripada perubahan kandungan.",
+    "head_title": "API Tandatangan Digital Node.js - GroupDocs.Signature",
+    "head_description": "Sepadukan e-tandatangan selamat dalam apl Node.js dengan GroupDocs.Signature. Perkemas aliran kerja menandatangani dokumen dengan mudah dan cekap."
   }
 }

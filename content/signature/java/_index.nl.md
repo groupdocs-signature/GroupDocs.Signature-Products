@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API's en online apps voor documenthandtekening"
-head_description: "Ontvang een alles-in-één oplossing voor e-handtekening van documenten voor .NET, Java en cloudgebaseerde applicaties. Onderteken veelgebruikte documentformaten online met behulp van een eenvoudige functie voor slepen en neerzetten"
+head_title: "Bibliotheek voor digitale handtekeningen in Java - GroupDocs.Signature"
+head_description: "Maak Java-apps mogelijk door middel van elektronische handtekeningen met GroupDocs.Signature. Onderteken zakelijke documenten snel en moeiteloos."
 
 ############################# Header ############################
 title: "Onderteken documenten<br>via Java-API"

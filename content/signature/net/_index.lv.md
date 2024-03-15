@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, mākoņa API un tiešsaistes dokumentu parakstu lietotnes"
-head_description: "Iegūstiet visu vienā dokumentu e-paraksta risinājumu .NET, Java un mākoņa lietojumprogrammām. Parakstiet izplatītos dokumentu formātus tiešsaistē, izmantojot vienkāršu vilkšanas un nomešanas funkciju"
+head_title: "C# .NET digitālo parakstu API — GroupDocs.Signature"
+head_description: "Integrējiet ciparparakstu apstrādi savās .NET lietotnēs, izmantojot GroupDocs.Signature. Ātri un efektīvi nodrošiniet savus failus ar parakstiem."
 
 ############################# Header ############################
 title: "Parakstiet dokumentus<br>izmantojot .NET API"

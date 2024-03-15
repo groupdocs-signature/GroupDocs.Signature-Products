@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API a online aplikácie na podpisovanie dokumentov",
-    "head_description": "Získajte komplexné riešenie elektronického podpisu dokumentov pre .NET, Java a cloudové aplikácie. Podpíšte bežné formáty dokumentov online pomocou jednoduchej funkcie drag and drop",
+    "head_title": "Aplikácie digitálneho podpisu C# .NET, Java, Node.js",
+    "head_description": "Integrujte elektronické podpisy do aplikácií .NET, Java alebo Node.js s GroupDocs.Signature. Podpíšte obľúbené formáty obchodných dokumentov.",
     "title": "Riešenie elektronického podpisovania dokumentov",
     "description": "Podpisujte digitálne dokumenty a obrázky na akejkoľvek platforme pomocou našich flexibilných rozhraní API a riešení založených na aplikáciách pre programátorov a koncových používateľov.",
     "api_high_title": "GroupDocs.Signature High Code API zahŕňa",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Nižšie je uvedený príklad, ako pridať QR kód pomocou GroupDocs.Signature.",
     "code_title_sample_2": "Ochrana dokumentu DOCX pomocou digitálneho certifikátu",
     "code_samples_sample_2_content_1": "Môžete [Chrániť dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) pomocou osobných alebo firemných podpisov uložených ako digitálne certifikáty.",
-    "code_samples_sample_2_content_2": "Takto chránené dokumenty nie je možné upravovať bez toho, aby došlo k znehodnoteniu podpisu."
+    "code_samples_sample_2_content_2": "Takto chránené dokumenty nie je možné upravovať bez toho, aby došlo k znehodnoteniu podpisu.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integrujte spracovanie digitálnych podpisov do svojich aplikácií .NET pomocou GroupDocs.Signature. Zabezpečte svoje súbory podpismi rýchlo a efektívne."
   },
   "index-content-java": {
     "title": "Java API na správu digitálnych podpisov",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Existuje príklad, ako pridať QR kód pomocou GroupDocs.Signature pre Java.",
     "code_title_sample_2": "Použite digitálny podpis na ochranu DOCX",
     "code_samples_sample_2_content_1": "Môžete [Zabezpečiť dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomocou osobných alebo firemných podpisov uložených ako digitálne certifikáty.",
-    "code_samples_sample_2_content_2": "Dokumenty zabezpečené certifikátom nie je možné meniť bez znehodnotenia podpisu."
+    "code_samples_sample_2_content_2": "Dokumenty zabezpečené certifikátom nie je možné meniť bez znehodnotenia podpisu.",
+    "head_title": "Knižnica digitálnych podpisov Java - GroupDocs.Signature",
+    "head_description": "Posilnite aplikácie Java pomocou elektronických podpisov s GroupDocs.Signature. Podpíšte obchodné dokumenty rýchlo a bez námahy."
   },
   "index-content-nodejs-java": {
     "title": "Riešenie digitálnych podpisov Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Táto časť poskytuje príklad pridania QR kódu pomocou {{ProductFullName}}.",
     "code_title_sample_2": "Ochrana DOCX digitálnym podpisom",
     "code_samples_sample_2_content_1": "[Chráňte svoje dokumenty]({{Sample2Url}}) pomocou podpisov založených na digitálnych certifikátoch.",
-    "code_samples_sample_2_content_2": "Digitálny podpis chráni vaše obchodné dokumenty pred zmenou obsahu."
+    "code_samples_sample_2_content_2": "Digitálny podpis chráni vaše obchodné dokumenty pred zmenou obsahu.",
+    "head_title": "Node.js Digital Signature API – GroupDocs.Signature",
+    "head_description": "Integrujte zabezpečené elektronické podpisy do aplikácií Node.js s GroupDocs.Signature. Zjednodušte pracovné postupy podpisovania dokumentov jednoducho a efektívne."
   }
 }

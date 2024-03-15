@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, pilve API-d ja veebipõhised dokumendiallkirjarakendused"
-head_description: "Hankige kõik-ühes dokumendi e-allkirja lahendus .NET-i, Java- ja pilvepõhiste rakenduste jaoks. Allkirjastage levinud dokumendivormingud veebis, kasutades lihtsat pukseerimisfunktsiooni"
+head_title: "Node.js digitaalallkirja API – GroupDocs.Signature"
+head_description: "Integreerige turvalised e-allkirjad Node.js-i rakendustesse rakendusega GroupDocs.Signature. Täiustage dokumentide allkirjastamise töövooge lihtsalt ja tõhusalt."
 
 ############################# Header ############################
 title: "Allkirjastada dokumendid<br>Node.js API-ga"

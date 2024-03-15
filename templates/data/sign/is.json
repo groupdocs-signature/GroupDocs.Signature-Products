@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API & Online Document Signature Apps",
-    "head_description": "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika",
+    "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
+    "head_description": "Samþættu rafrænar undirskriftir í .NET, Java eða Node.js forritum með GroupDocs.Signature. Skrifaðu undir vinsæl viðskiptaskjalasnið.",
     "title": "Skjalalausn fyrir rafræn undirskrift",
     "description": "Skrifaðu undir stafræn skjöl og myndir á hvaða vettvang sem er með því að nota sveigjanleg API og app byggðar lausnir fyrir forritara og endanotendur.",
     "api_high_title": "GroupDocs.Signature High Code API innihalda",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Hér að neðan er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature.",
     "code_title_sample_2": "Að vernda DOCX skjal með stafrænu vottorði",
     "code_samples_sample_2_content_1": "Þú getur [verndað skjal](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki.",
-    "code_samples_sample_2_content_2": "Slíkum vernduðum skjölum er ekki hægt að breyta án þess að ógilda undirskriftina."
+    "code_samples_sample_2_content_2": "Slíkum vernduðum skjölum er ekki hægt að breyta án þess að ógilda undirskriftina.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Samþættu vinnslu stafrænna undirskrifta í .NET öppunum þínum með því að nota GroupDocs.Signature. Tryggðu skrárnar þínar með undirskriftum á fljótlegan og skilvirkan hátt."
   },
   "index-content-java": {
     "title": "Java API til að stjórna stafrænum undirskriftum",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Það er dæmi um hvernig á að bæta við QR kóða með GroupDocs.Signature fyrir Java.",
     "code_title_sample_2": "Notaðu stafræna undirskrift til að vernda DOCX",
     "code_samples_sample_2_content_1": "Þú getur [verndað skjal](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) með því að nota persónulegar undirskriftir eða fyrirtækjaundirskriftir sem eru geymdar sem stafræn skilríki.",
-    "code_samples_sample_2_content_2": "Ekki er hægt að breyta skjölum sem eru tryggð með vottorði án þess að ógilda undirskriftina."
+    "code_samples_sample_2_content_2": "Ekki er hægt að breyta skjölum sem eru tryggð með vottorði án þess að ógilda undirskriftina.",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "Styrkjaðu Java forrit með rafrænum undirskriftum með GroupDocs.Signature. Skrifaðu undir viðskiptaskjöl fljótt og áreynslulaust."
   },
   "index-content-nodejs-java": {
     "title": "Node.js lausn fyrir stafrænar undirskriftir",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Þessi hluti gefur dæmi um að bæta við QR kóða með því að nota {{ProductFullName}}.",
     "code_title_sample_2": "Að vernda DOCX með stafrænni undirskrift",
     "code_samples_sample_2_content_1": "[Verndaðu skjölin þín]({{Sample2Url}}) með undirskriftum byggðar á stafrænum skilríkjum.",
-    "code_samples_sample_2_content_2": "Stafræn undirskrift verndar viðskiptaskjölin þín gegn efnisbreytingum."
+    "code_samples_sample_2_content_2": "Stafræn undirskrift verndar viðskiptaskjölin þín gegn efnisbreytingum.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "Samþættu öruggar rafrænar undirskriftir í Node.js öppum með GroupDocs.Signature. Straumræða verkflæði undirritunar skjala á auðveldan og skilvirkan hátt."
   }
 }

@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, mākoņa API un tiešsaistes dokumentu parakstu lietotnes",
-    "head_description": "Iegūstiet visu vienā dokumentu e-paraksta risinājumu .NET, Java un mākoņa lietojumprogrammām. Parakstiet izplatītos dokumentu formātus tiešsaistē, izmantojot vienkāršu vilkšanas un nomešanas funkciju",
+    "head_title": "C# .NET, Java, Node.js digitālā paraksta lietotnes",
+    "head_description": "Integrējiet e-parakstus .NET, Java vai Node.js lietojumprogrammās ar GroupDocs.Signature. Parakstiet populārus biznesa dokumentu formātus.",
     "title": "Dokumentu e-parakstīšanas risinājums",
     "description": "Parakstiet digitālos dokumentus un attēlus jebkurā platformā, izmantojot mūsu elastīgās API un uz lietotnēm balstītus risinājumus programmētājiem un galalietotājiem.",
     "api_high_title": "GroupDocs.Signature High Code API ietver",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Tālāk ir sniegts piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature.",
     "code_title_sample_2": "DOCX dokumenta aizsardzība, izmantojot digitālo sertifikātu",
     "code_samples_sample_2_content_1": "Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā ciparsertifikāti.",
-    "code_samples_sample_2_content_2": "Šādus aizsargātus dokumentus nevar mainīt, nepadarot parakstu par nederīgu."
+    "code_samples_sample_2_content_2": "Šādus aizsargātus dokumentus nevar mainīt, nepadarot parakstu par nederīgu.",
+    "head_title": "C# .NET digitālo parakstu API — GroupDocs.Signature",
+    "head_description": "Integrējiet ciparparakstu apstrādi savās .NET lietotnēs, izmantojot GroupDocs.Signature. Ātri un efektīvi nodrošiniet savus failus ar parakstiem."
   },
   "index-content-java": {
     "title": "Java API digitālo parakstu pārvaldībai",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Ir piemērs, kā pievienot QR kodu, izmantojot GroupDocs.Signature for Java.",
     "code_title_sample_2": "Izmantojiet digitālo parakstu, lai aizsargātu DOCX",
     "code_samples_sample_2_content_1": "Varat [Aizsargāt dokumentu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/), izmantojot personiskos vai korporatīvos parakstus, kas saglabāti kā digitālie sertifikāti.",
-    "code_samples_sample_2_content_2": "Ar sertifikātu nodrošinātos dokumentus nevar mainīt, nepadarot parakstu par nederīgu."
+    "code_samples_sample_2_content_2": "Ar sertifikātu nodrošinātos dokumentus nevar mainīt, nepadarot parakstu par nederīgu.",
+    "head_title": "Java digitālā paraksta bibliotēka — GroupDocs.Signature",
+    "head_description": "Iespējojiet Java lietotnes, izmantojot e-parakstus, izmantojot GroupDocs.Signature. Parakstiet biznesa dokumentus ātri un bez piepūles."
   },
   "index-content-nodejs-java": {
     "title": "Node.js digitālo parakstu risinājums",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Šajā sadaļā ir sniegts piemērs QR koda pievienošanai, izmantojot {{ProductFullName}}.",
     "code_title_sample_2": "DOCX aizsardzība ar digitālo parakstu",
     "code_samples_sample_2_content_1": "[Aizsargājiet savus dokumentus]({{Sample2Url}}) ar parakstiem, kuru pamatā ir ciparsertifikāti.",
-    "code_samples_sample_2_content_2": "Digitālais paraksts aizsargā jūsu biznesa dokumentus pret satura izmaiņām."
+    "code_samples_sample_2_content_2": "Digitālais paraksts aizsargā jūsu biznesa dokumentus pret satura izmaiņām.",
+    "head_title": "Node.js digitālā paraksta API — GroupDocs.Signature",
+    "head_description": "Integrējiet drošus e-parakstus Node.js lietotnēs ar GroupDocs.Signature. Racionalizējiet dokumentu parakstīšanas darbplūsmas viegli un efektīvi."
   }
 }

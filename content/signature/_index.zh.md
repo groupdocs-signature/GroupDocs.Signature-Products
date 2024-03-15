@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET、Java、云 API 和在线文档签名应用程序"
-head_description: "获得适用于 .NET、Java 和基于云的应用程序的一体化文档电子签名解决方案。使用简单的拖放功能在线签署常见文档格式"
+head_title: "C# .NET、Java、Node.js 数字签名应用程序"
+head_description: "将 .NET、Java 或 Node.js 应用程序中的电子签名与 GroupDocs.Signature 集成。签署流行的商业文档格式。"
 
 ############################# Header ############################
 title: "文档电子签名解决方案"

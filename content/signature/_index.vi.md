@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, API đám mây & Ứng dụng chữ ký tài liệu trực tuyến"
-head_description: "Sở hữu giải pháp chữ ký điện tử tất cả trong một cho các ứng dụng .NET, Java và đám mây. Ký các định dạng tài liệu phổ biến trực tuyến bằng tính năng kéo và thả đơn giản"
+head_title: "Ứng dụng chữ ký số C# .NET, Java, Node.js"
+head_description: "Tích hợp chữ ký điện tử trong các ứng dụng .NET, Java hoặc Node.js với GroupDocs.Signature. Ký các định dạng tài liệu kinh doanh phổ biến."
 
 ############################# Header ############################
 title: "Giải pháp e-Sign tài liệu"

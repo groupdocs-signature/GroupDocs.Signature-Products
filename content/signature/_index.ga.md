@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Aipeanna Sínithe Doiciméad Ar Líne"
-head_description: "Faigh réiteach ríomhshínithe doiciméad uile-i-amháin le haghaidh .NET, Java agus feidhmchláir scamall-bhunaithe. Sínigh formáidí coiteanna doiciméad ar líne ag baint úsáide as gné simplí tarraing agus scaoil"
+head_title: "C# .NET, Java, Aipeanna Sínithe Digiteach Node.js"
+head_description: "Comhtháthaigh ríomhshínithe le feidhmchláir .NET, Java nó Node.js le GroupDocs.Signature. Sínigh formáidí doiciméad gnó coitianta."
 
 ############################# Header ############################
 title: "Réiteach Ríomhshínithe Doiciméadaithe"

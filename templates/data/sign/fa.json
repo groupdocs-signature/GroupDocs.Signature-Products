@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": "NET، جاوا، APIهای ابری و برنامه‌های امضای سند آنلاین",
-    "head_description": "راه حل امضای الکترونیک سند یکپارچه برای دات نت، جاوا و برنامه های کاربردی مبتنی بر ابر دریافت کنید. با استفاده از قابلیت ساده کشیدن و رها کردن، فرمت های رایج اسناد را به صورت آنلاین امضا کنید",
+    "head_title": "C#.NET، Java، برنامه های امضای دیجیتال Node.js",
+    "head_description": "امضاهای الکترونیکی را در برنامه های NET، جاوا یا Node.js با GroupDocs.Signature ادغام کنید. فرمت های رایج اسناد تجاری را امضا کنید.",
     "title": "راه حل امضای الکترونیکی سند",
     "description": "با استفاده از APIهای منعطف و راه حل های مبتنی بر برنامه برای برنامه نویسان و کاربران نهایی، اسناد و تصاویر دیجیتال را روی هر پلتفرمی امضا کنید.",
     "api_high_title": "APIهای GroupDocs.Signature High Code شامل",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "در زیر مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature آورده شده است.",
     "code_title_sample_2": "محافظت از یک سند DOCX با استفاده از گواهی دیجیتال",
     "code_samples_sample_2_content_1": "می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/).",
-    "code_samples_sample_2_content_2": "چنین اسناد محافظت شده را نمی توان بدون باطل کردن امضا تغییر داد."
+    "code_samples_sample_2_content_2": "چنین اسناد محافظت شده را نمی توان بدون باطل کردن امضا تغییر داد.",
+    "head_title": "C#.NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "پردازش امضای دیجیتال را با استفاده از GroupDocs.Signature در برنامه‌های NET خود ادغام کنید. فایل های خود را با امضا به سرعت و کارآمد ایمن کنید."
   },
   "index-content-java": {
     "title": "Java API برای مدیریت امضاهای دیجیتال",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "مثالی از نحوه افزودن کد QR با استفاده از GroupDocs.Signature برای جاوا وجود دارد.",
     "code_title_sample_2": "از امضای دیجیتال برای محافظت از DOCX استفاده کنید",
     "code_samples_sample_2_content_1": "می‌توانید با استفاده از امضاهای شخصی یا شرکتی که به‌عنوان گواهی‌های دیجیتال ذخیره شده‌اند، [از یک سند محافظت کنید](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/).",
-    "code_samples_sample_2_content_2": "اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد."
+    "code_samples_sample_2_content_2": "اسناد ایمن شده با گواهی را نمی توان بدون باطل کردن امضا تغییر داد.",
+    "head_title": "کتابخانه امضای دیجیتال جاوا - GroupDocs.Signature",
+    "head_description": "با GroupDocs.Signature برنامه های جاوا را با امضای الکترونیکی تقویت کنید. اسناد تجاری را سریع و بدون دردسر امضا کنید."
   },
   "index-content-nodejs-java": {
     "title": "Node.js راه حل امضای دیجیتال",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "این بخش نمونه ای از افزودن کد QR با استفاده از {{ProductFullName}} را ارائه می دهد.",
     "code_title_sample_2": "محافظت از DOCX با امضای دیجیتال",
     "code_samples_sample_2_content_1": "[محافظت از اسناد خود]({{Sample2Url}}) با امضاهای مبتنی بر گواهی‌های دیجیتال.",
-    "code_samples_sample_2_content_2": "امضای دیجیتال از اسناد تجاری شما در برابر تغییر محتوا محافظت می کند."
+    "code_samples_sample_2_content_2": "امضای دیجیتال از اسناد تجاری شما در برابر تغییر محتوا محافظت می کند.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "امضاهای الکترونیکی امن را در برنامه های Node.js با GroupDocs.Signature ادغام کنید. گردش کار امضای اسناد را آسان و کارآمد کنید."
   }
 }
