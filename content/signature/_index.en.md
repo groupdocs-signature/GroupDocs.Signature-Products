@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
-head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
+head_title: "C# .NET, Java, Node.js Document Signature Apps"
+head_description: "Get all-in-one document e-signature solution for .NET, Java or Node.js applications. Sign popular business document formats."
 
 ############################# Header ############################
 title: "Document e-Signing Solution"
