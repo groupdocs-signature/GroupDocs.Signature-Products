@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Online Document Signature Apps"
-head_description: "Fáðu allt í einu skjalalausn fyrir rafræna undirskrift fyrir .NET, Java og skýjaforrit. Skrifaðu undir algeng skjalasnið á netinu með því að nota einfaldan draga og sleppa eiginleika"
+head_title: "C# .NET, Java, Node.js Digital Signature Apps"
+head_description: "Samþættu rafrænar undirskriftir í .NET, Java eða Node.js forritum með GroupDocs.Signature. Skrifaðu undir vinsæl viðskiptaskjalasnið."
 
 ############################# Header ############################
 title: "Skjalalausn fyrir rafræn undirskrift"

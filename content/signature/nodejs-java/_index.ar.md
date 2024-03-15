@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "NET و Java و Cloud APIs وتطبيقات توقيع المستندات عبر الإنترنت"
-head_description: "احصل على حل التوقيع الإلكتروني الشامل للمستند للتطبيقات المستندة إلى .NET و Java والتطبيقات المستندة إلى السحابة. قم بتوقيع تنسيقات المستندات الشائعة عبر الإنترنت باستخدام ميزة السحب والإفلات البسيطة"
+head_title: "Node.js Digital Signature API - GroupDocs.Signature"
+head_description: "قم بدمج التوقيعات الإلكترونية الآمنة في تطبيقات Node.js مع GroupDocs.Signature. تبسيط سير عمل توقيع المستندات بسهولة وكفاءة."
 
 ############################# Header ############################
 title: "التوقيع على وثائق<br>مع Node.js API"

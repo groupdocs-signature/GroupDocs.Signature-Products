@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API & Apl Tandatangan Dokumen Dalam Talian"
-head_description: "Dapatkan penyelesaian e-tandatangan dokumen semua-dalam-satu untuk .NET, Java dan aplikasi berasaskan awan. Tandatangani format dokumen biasa dalam talian menggunakan ciri seret dan lepas mudah"
+head_title: "Pustaka Tandatangan Digital Java - GroupDocs.Signature"
+head_description: "Memperkasakan apl Java melalui e-tandatangan dengan GroupDocs.Signature. Tandatangani dokumen perniagaan dengan cepat dan mudah."
 
 ############################# Header ############################
 title: "Menandatangani dokumen<br>melalui Java API"

@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, pilve API-d ja veebipõhised dokumendiallkirjarakendused"
-head_description: "Hankige kõik-ühes dokumendi e-allkirja lahendus .NET-i, Java- ja pilvepõhiste rakenduste jaoks. Allkirjastage levinud dokumendivormingud veebis, kasutades lihtsat pukseerimisfunktsiooni"
+head_title: "C# .NET, Java, Node.js digitaalallkirja rakendused"
+head_description: "Integreerige e-allkirjad .NET-, Java- või Node.js-rakendustesse koos GroupDocs.Signature'iga. Allkirjastage populaarsed äridokumentide vormingud."
 
 ############################# Header ############################
 title: "Dokumentide e-allkirjastamise lahendus"

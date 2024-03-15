@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API a online aplikace pro podpis dokumentů"
-head_description: "Získejte komplexní řešení elektronického podpisu dokumentů pro .NET, Java a cloudové aplikace. Podepisujte běžné formáty dokumentů online pomocí jednoduché funkce drag and drop"
+head_title: "Java digitální podpisová knihovna - GroupDocs.Signature"
+head_description: "Umožněte aplikacím Java pomocí elektronických podpisů s GroupDocs.Signature. Podepisujte obchodní dokumenty rychle a bez námahy."
 
 ############################# Header ############################
 title: "Podepisujte dokumenty<br>přes Java API"

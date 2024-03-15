@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, API de núvol i aplicacions de signatura de documents en línia"
-head_description: "Obteniu una solució de signatura electrònica de documents tot en un per a aplicacions .NET, Java i basades en núvol. Signeu formats de document habituals en línia mitjançant la funció d'arrossegar i deixar anar"
+head_title: "Aplicacions de signatura digital C# .NET, Java, Node.js"
+head_description: "Integreu signatures electròniques en aplicacions .NET, Java o Node.js amb GroupDocs.Signature. Signar formats de documents comercials populars."
 
 ############################# Header ############################
 title: "Solució de signatura electrònica de documents"

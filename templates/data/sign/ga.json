@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud APIs & Aipeanna Sínithe Doiciméad Ar Líne",
-    "head_description": "Faigh réiteach ríomhshínithe doiciméad uile-i-amháin le haghaidh .NET, Java agus feidhmchláir scamall-bhunaithe. Sínigh formáidí coiteanna doiciméad ar líne ag baint úsáide as gné simplí tarraing agus scaoil",
+    "head_title": "C# .NET, Java, Aipeanna Sínithe Digiteach Node.js",
+    "head_description": "Comhtháthaigh ríomhshínithe le feidhmchláir .NET, Java nó Node.js le GroupDocs.Signature. Sínigh formáidí doiciméad gnó coitianta.",
     "title": "Réiteach Ríomhshínithe Doiciméadaithe",
     "description": "Sínigh doiciméid agus íomhánna digiteacha ar aon ardán ag baint úsáide as ár n-APIanna solúbtha agus ár réitigh app-bhunaithe do ríomhchláraitheoirí agus úsáideoirí deiridh.",
     "api_high_title": "Áiríonn APIanna Ardchóid GroupDocs.Signature",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Seo thíos sampla de conas cód QR a chur leis ag baint úsáide as GroupDocs.Signature.",
     "code_title_sample_2": "Doiciméad DOCX a chosaint ag baint úsáide as deimhniú digiteach",
     "code_samples_sample_2_content_1": "Is féidir leat [Doiciméad a chosaint](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha.",
-    "code_samples_sample_2_content_2": "Ní féidir doiciméid chosanta den sórt sin a mhodhnú gan an síniú a chur ó bhail."
+    "code_samples_sample_2_content_2": "Ní féidir doiciméid chosanta den sórt sin a mhodhnú gan an síniú a chur ó bhail.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Comhtháthaigh próiseáil sínithe digiteacha i d'aipeanna .NET ag baint úsáide as GroupDocs.Signature. Déan do chuid comhad slán le sínithe go tapa agus go héifeachtach."
   },
   "index-content-java": {
     "title": "Java API chun Sínithe Digiteacha a Bhainistiú",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Tá sampla de conas cód QR a chur leis ag baint úsáide as GroupDocs.Signature do Java.",
     "code_title_sample_2": "Úsáid síniú digiteach chun DOCX a chosaint",
     "code_samples_sample_2_content_1": "Is féidir leat [Doiciméad a Chosaint](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ag baint úsáide as sínithe pearsanta nó corparáideacha atá stóráilte mar dheimhnithe digiteacha.",
-    "code_samples_sample_2_content_2": "Ní féidir doiciméid atá daingnithe le teastas a athrú gan an síniú a chur ó bhail."
+    "code_samples_sample_2_content_2": "Ní féidir doiciméid atá daingnithe le teastas a athrú gan an síniú a chur ó bhail.",
+    "head_title": "Leabharlann Sínithe Digiteach Java - GroupDocs.Signature",
+    "head_description": "Cumasaigh feidhmchláir Java trí ríomhshínithe le GroupDocs.Signature. Sínigh doiciméid ghnó go tapa agus gan stró."
   },
   "index-content-nodejs-java": {
     "title": "Réiteach Sínithe Digiteach Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Soláthraíonn an rannán seo sampla de chód QR a chur leis trí úsáid a bhaint as {{ProductFullName}}.",
     "code_title_sample_2": "DOCX a chosaint le Síniú Digiteach",
     "code_samples_sample_2_content_1": "[Cosain do Dhoiciméid]({{Sample2Url}}) trí shínithe bunaithe ar theastais dhigiteacha.",
-    "code_samples_sample_2_content_2": "Cosnaíonn síniú digiteach do dhoiciméid ghnó in aghaidh athrú ábhair."
+    "code_samples_sample_2_content_2": "Cosnaíonn síniú digiteach do dhoiciméid ghnó in aghaidh athrú ábhair.",
+    "head_title": "API Síniú Digiteach Node.js - GroupDocs.Signature",
+    "head_description": "Comhtháthaigh ríomhshínithe slána in aipeanna Node.js le GroupDocs.Signature. Sreafaí oibre sínithe doiciméad a shruthlíniú go héasca agus go héifeachtach."
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T15:36:28
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -31,7 +31,7 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: "C# .NET Digital Signatures API - GroupDocs.Signature"
-head_description: "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your  files with signatures quickly and efficiently."
+head_description: "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your files with signatures quickly and efficiently."
 
 ############################# Header ############################
 title: "Sign documents<br>via .NET API"

@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": "NET و Java و Cloud APIs وتطبيقات توقيع المستندات عبر الإنترنت",
-    "head_description": "احصل على حل التوقيع الإلكتروني الشامل للمستند للتطبيقات المستندة إلى .NET و Java والتطبيقات المستندة إلى السحابة. قم بتوقيع تنسيقات المستندات الشائعة عبر الإنترنت باستخدام ميزة السحب والإفلات البسيطة",
+    "head_title": "تطبيقات التوقيع الرقمي C# .NET وJava وNode.js",
+    "head_description": "دمج التوقيعات الإلكترونية في تطبيقات .NET أو Java أو Node.js مع GroupDocs.Signature. قم بالتوقيع على تنسيقات مستندات الأعمال الشائعة.",
     "title": "حل التوقيع الإلكتروني للمستندات",
     "description": "قم بتوقيع المستندات والصور الرقمية على أي نظام أساسي باستخدام واجهات برمجة التطبيقات المرنة والحلول القائمة على التطبيقات للمبرمجين والمستخدمين النهائيين.",
     "api_high_title": "GroupDocs.Signature High Code APIs بما في ذلك",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "فيما يلي مثال لكيفية إضافة رمز الاستجابة السريعة باستخدام GroupDocs.Signature.",
     "code_title_sample_2": "حماية مستند DOCX باستخدام شهادة رقمية",
     "code_samples_sample_2_content_1": "يمكنك [حماية مستند](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) باستخدام التوقيعات الشخصية أو توقيعات الشركة المخزنة كشهادات رقمية.",
-    "code_samples_sample_2_content_2": "ولا يمكن تعديل هذه المستندات المحمية دون إبطال التوقيع."
+    "code_samples_sample_2_content_2": "ولا يمكن تعديل هذه المستندات المحمية دون إبطال التوقيع.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "دمج معالجة التوقيعات الرقمية في تطبيقات .NET الخاصة بك باستخدام GroupDocs.Signature. قم بتأمين ملفاتك بالتوقيعات بسرعة وكفاءة."
   },
   "index-content-java": {
     "title": "Java API لإدارة التوقيعات الرقمية",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "يوجد مثال لكيفية إضافة رمز QR باستخدام GroupDocs.Signature لـ Java.",
     "code_title_sample_2": "استخدم التوقيع الرقمي لحماية DOCX",
     "code_samples_sample_2_content_1": "يمكنك [حماية مستند](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) باستخدام التوقيعات الشخصية أو توقيعات الشركة المخزنة كشهادات رقمية.",
-    "code_samples_sample_2_content_2": "لا يمكن تغيير المستندات المؤمنة بالشهادة دون إبطال التوقيع."
+    "code_samples_sample_2_content_2": "لا يمكن تغيير المستندات المؤمنة بالشهادة دون إبطال التوقيع.",
+    "head_title": "مكتبة التوقيع الرقمي لجافا - GroupDocs.Signature",
+    "head_description": "تمكين تطبيقات Java من خلال التوقيعات الإلكترونية باستخدام GroupDocs.Signature. قم بالتوقيع على مستندات العمل بسرعة ودون عناء."
   },
   "index-content-nodejs-java": {
     "title": "Node.js حل التوقيعات الرقمية",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "يقدم هذا القسم مثالاً على إضافة رمز الاستجابة السريعة باستخدام {{ProductFullName}}.",
     "code_title_sample_2": "حماية DOCX بالتوقيع الرقمي",
     "code_samples_sample_2_content_1": "[حماية مستنداتك]({{Sample2Url}}) من خلال التوقيعات المستندة إلى الشهادات الرقمية.",
-    "code_samples_sample_2_content_2": "يعمل التوقيع الرقمي على حماية مستندات عملك من تغيير المحتوى."
+    "code_samples_sample_2_content_2": "يعمل التوقيع الرقمي على حماية مستندات عملك من تغيير المحتوى.",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "قم بدمج التوقيعات الإلكترونية الآمنة في تطبيقات Node.js مع GroupDocs.Signature. تبسيط سير عمل توقيع المستندات بسهولة وكفاءة."
   }
 }

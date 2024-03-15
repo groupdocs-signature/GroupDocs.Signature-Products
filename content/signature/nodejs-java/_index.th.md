@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API และแอปลายเซ็นเอกสารออนไลน์"
-head_description: "รับโซลูชันลายเซ็นอิเล็กทรอนิกส์เอกสารแบบครบวงจรสำหรับ .NET, Java และแอปพลิเคชันบนคลาวด์ เซ็นชื่อในรูปแบบเอกสารทั่วไปทางออนไลน์โดยใช้คุณสมบัติการลากและวางที่เรียบง่าย"
+head_title: "Node.js Digital Signature API - GroupDocs.Signature"
+head_description: "ผสานรวมลายเซ็นอิเล็กทรอนิกส์ที่ปลอดภัยในแอป Node.js เข้ากับ GroupDocs.Signature ปรับปรุงเวิร์กโฟลว์การเซ็นเอกสารอย่างง่ายดายและมีประสิทธิภาพ"
 
 ############################# Header ############################
 title: "เซ็นเอกสาร<br>ด้วย Node.js API"

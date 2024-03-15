@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API 및 온라인 문서 서명 앱"
-head_description: ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 전자 서명 솔루션을 받으세요. 간단한 드래그 앤 드롭 기능을 사용하여 일반적인 문서 형식에 온라인으로 서명"
+head_title: "C# .NET, Java, Node.js 디지털 서명 앱"
+head_description: "GroupDocs.Signature를 사용하여 .NET, Java 또는 Node.js 애플리케이션의 전자 서명을 통합합니다. 널리 사용되는 비즈니스 문서 형식에 서명하세요."
 
 ############################# Header ############################
 title: "문서 전자 서명 솔루션"

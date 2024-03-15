@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Wolk API's en Aanlyn Dokument Handtekening Apps"
-head_description: "Kry alles-in-een dokument e-handtekening oplossing vir .NET, Java en wolk-gebaseerde toepassings. Teken algemene dokumentformate aanlyn met 'n eenvoudige sleep-en-losfunksie"
+head_title: "C# .NET Digital Signatures API - GroupDocs.Signature"
+head_description: "Integreer digitale handtekeningverwerking in jou .NET-toepassings deur GroupDocs.Signature te gebruik. Beveilig jou lêers met handtekeninge vinnig en doeltreffend."
 
 ############################# Header ############################
 title: "Teken dokumente<br>via .NET API"

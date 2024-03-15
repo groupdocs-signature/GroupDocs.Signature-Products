@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, API cloud e app per la firma di documenti online"
-head_description: "Ottieni una soluzione completa per la firma elettronica dei documenti per .NET, Java e applicazioni basate su cloud. Firma formati di documenti comuni online utilizzando la semplice funzionalità di trascinamento della selezione"
+head_title: "Libreria di firme digitali Java - GroupDocs.Signature"
+head_description: "Potenzia le app Java tramite firme elettroniche con GroupDocs.Signature. Firma documenti aziendali in modo rapido e semplice."
 
 ############################# Header ############################
 title: "Firmare documenti<br>via Java API"

@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, mākoņa API un tiešsaistes dokumentu parakstu lietotnes"
-head_description: "Iegūstiet visu vienā dokumentu e-paraksta risinājumu .NET, Java un mākoņa lietojumprogrammām. Parakstiet izplatītos dokumentu formātus tiešsaistē, izmantojot vienkāršu vilkšanas un nomešanas funkciju"
+head_title: "C# .NET, Java, Node.js digitālā paraksta lietotnes"
+head_description: "Integrējiet e-parakstus .NET, Java vai Node.js lietojumprogrammās ar GroupDocs.Signature. Parakstiet populārus biznesa dokumentu formātus."
 
 ############################# Header ############################
 title: "Dokumentu e-parakstīšanas risinājums"

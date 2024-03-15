@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, API đám mây & Ứng dụng chữ ký tài liệu trực tuyến"
-head_description: "Sở hữu giải pháp chữ ký điện tử tất cả trong một cho các ứng dụng .NET, Java và đám mây. Ký các định dạng tài liệu phổ biến trực tuyến bằng tính năng kéo và thả đơn giản"
+head_title: "Thư viện chữ ký số Java - GroupDocs.Signature"
+head_description: "Trao quyền cho các ứng dụng Java bằng chữ ký điện tử với GroupDocs.Signature. Ký tài liệu kinh doanh một cách nhanh chóng và dễ dàng."
 
 ############################# Header ############################
 title: "Ký văn bản<br>thông qua API Java"

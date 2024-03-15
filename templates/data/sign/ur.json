@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET، Java، Cloud APIs اور آن لائن دستاویز دستخطی ایپس",
-    "head_description": ".NET، Java اور کلاؤڈ بیسڈ ایپلی کیشنز کے لیے آل ان ون دستاویز کا ای دستخطی حل حاصل کریں۔ سادہ ڈریگ اینڈ ڈراپ فیچر کا استعمال کرتے ہوئے عام دستاویز کے فارمیٹس پر دستخط کریں۔",
+    "head_title": "C# .NET, Java, Node.js ڈیجیٹل سگنیچر ایپس",
+    "head_description": "ای دستخطوں کو .NET، Java یا Node.js ایپلی کیشنز میں GroupDocs.Signature کے ساتھ مربوط کریں۔ مشہور کاروباری دستاویز فارمیٹس پر دستخط کریں۔",
     "title": "دستاویز ای سائننگ حل",
     "description": "پروگرامرز اور اختتامی صارفین کے لیے ہمارے لچکدار APIs اور ایپ پر مبنی حل کا استعمال کرتے ہوئے کسی بھی پلیٹ فارم پر ڈیجیٹل دستاویزات اور تصاویر پر دستخط کریں۔",
     "api_high_title": "GroupDocs.Signature ہائی کوڈ APIs شامل ہیں۔",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "ذیل میں GroupDocs.Signature کا استعمال کرتے ہوئے QR کوڈ شامل کرنے کے طریقے کی ایک مثال ہے۔",
     "code_title_sample_2": "ڈیجیٹل سرٹیفکیٹ کا استعمال کرتے ہوئے DOCX دستاویز کی حفاظت کرنا",
     "code_samples_sample_2_content_1": "آپ ڈیجیٹل سرٹیفکیٹس کے بطور محفوظ کردہ ذاتی یا کارپوریٹ دستخطوں کا استعمال کرتے ہوئے [دستاویز کی حفاظت](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) کر سکتے ہیں۔",
-    "code_samples_sample_2_content_2": "اس طرح کے محفوظ دستاویزات میں دستخط کو باطل کیے بغیر ترمیم نہیں کی جاسکتی ہے۔"
+    "code_samples_sample_2_content_2": "اس طرح کے محفوظ دستاویزات میں دستخط کو باطل کیے بغیر ترمیم نہیں کی جاسکتی ہے۔",
+    "head_title": "C# .NET ڈیجیٹل دستخط API - GroupDocs.Signature",
+    "head_description": "GroupDocs.Signature کا استعمال کرتے ہوئے اپنے .NET ایپس میں ڈیجیٹل دستخطوں کی پروسیسنگ کو مربوط کریں۔ اپنی فائلوں کو دستخطوں کے ساتھ جلدی اور مؤثر طریقے سے محفوظ کریں۔"
   },
   "index-content-java": {
     "title": "ڈیجیٹل دستخطوں کا نظم کرنے کے لیے Java API",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "جاوا کے لیے GroupDocs.Signature کا استعمال کرتے ہوئے QR کوڈ شامل کرنے کے طریقے کی ایک مثال موجود ہے۔",
     "code_title_sample_2": "DOCX کی حفاظت کے لیے ڈیجیٹل دستخط استعمال کریں۔",
     "code_samples_sample_2_content_1": "آپ ڈیجیٹل سرٹیفکیٹس کے بطور محفوظ کردہ ذاتی یا کارپوریٹ دستخطوں کا استعمال کرتے ہوئے [دستاویز کی حفاظت](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) کر سکتے ہیں۔",
-    "code_samples_sample_2_content_2": "سرٹیفکیٹ کے ساتھ محفوظ دستاویزات کو دستخط کو باطل کیے بغیر تبدیل نہیں کیا جاسکتا۔"
+    "code_samples_sample_2_content_2": "سرٹیفکیٹ کے ساتھ محفوظ دستاویزات کو دستخط کو باطل کیے بغیر تبدیل نہیں کیا جاسکتا۔",
+    "head_title": "Java Digital Signature Library - GroupDocs.Signature",
+    "head_description": "GroupDocs.Signature کے ساتھ ای-دستخط کے ذریعے جاوا ایپس کو بااختیار بنائیں۔ کاروباری دستاویزات پر جلدی اور آسانی سے دستخط کریں۔"
   },
   "index-content-nodejs-java": {
     "title": "Node.js ڈیجیٹل دستخطوں کا حل",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "یہ سیکشن {{ProductFullName}} کا استعمال کرتے ہوئے QR کوڈ شامل کرنے کی ایک مثال فراہم کرتا ہے۔",
     "code_title_sample_2": "ڈیجیٹل دستخط کے ساتھ DOCX کی حفاظت کرنا",
     "code_samples_sample_2_content_1": "ڈیجیٹل سرٹیفکیٹس پر مبنی دستخطوں کے ذریعے [اپنے دستاویزات کی حفاظت کریں]({{Sample2Url}})۔",
-    "code_samples_sample_2_content_2": "ڈیجیٹل دستخط مواد کی تبدیلی سے آپ کے کاروباری دستاویزات کی حفاظت کرتے ہیں۔"
+    "code_samples_sample_2_content_2": "ڈیجیٹل دستخط مواد کی تبدیلی سے آپ کے کاروباری دستاویزات کی حفاظت کرتے ہیں۔",
+    "head_title": "Node.js ڈیجیٹل دستخط API - GroupDocs.Signature",
+    "head_description": "Node.js ایپس میں محفوظ ای دستخطوں کو GroupDocs.Signature کے ساتھ مربوط کریں۔ دستاویز پر دستخط کرنے والے ورک فلو کو آسانی اور مؤثر طریقے سے ہموار کریں۔"
   }
 }

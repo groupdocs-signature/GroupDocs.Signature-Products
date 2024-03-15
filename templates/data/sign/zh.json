@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET、Java、云 API 和在线文档签名应用程序",
-    "head_description": "获得适用于 .NET、Java 和基于云的应用程序的一体化文档电子签名解决方案。使用简单的拖放功能在线签署常见文档格式",
+    "head_title": "C# .NET、Java、Node.js 数字签名应用程序",
+    "head_description": "将 .NET、Java 或 Node.js 应用程序中的电子签名与 GroupDocs.Signature 集成。签署流行的商业文档格式。",
     "title": "文档电子签名解决方案",
     "description": "使用我们面向程序员和最终用户的灵活的 API 和基于应用程序的解决方案，在任何平台上签署数字文档和图像。",
     "api_high_title": "GroupDocs.Signature 高代码 API 包括",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "以下是如何使用 GroupDocs.Signature 添加 QR 码的示例。",
     "code_title_sample_2": "使用数字证书保护 DOCX 文档",
     "code_samples_sample_2_content_1": "您可以使用存储为数字证书的个人或公司签名来[保护文档](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/)。",
-    "code_samples_sample_2_content_2": "此类受保护的文档无法在不使签名无效的情况下进行修改。"
+    "code_samples_sample_2_content_2": "此类受保护的文档无法在不使签名无效的情况下进行修改。",
+    "head_title": "C# .NET 数字签名 API - GroupDocs.Signature",
+    "head_description": "使用 GroupDocs.Signature 将数字签名处理集成到您的 .NET 应用程序中。通过签名快速有效地保护您的文件。"
   },
   "index-content-java": {
     "title": "用于管理数字签名的 Java API",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "有一个示例说明如何使用 GroupDocs.Signature for Java 添加 QR 码。",
     "code_title_sample_2": "使用数字签名来保护 DOCX",
     "code_samples_sample_2_content_1": "您可以使用存储为数字证书的个人或公司签名来[保护文档](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/)。",
-    "code_samples_sample_2_content_2": "在不使签名无效的情况下，无法更改使用证书保护的文档。"
+    "code_samples_sample_2_content_2": "在不使签名无效的情况下，无法更改使用证书保护的文档。",
+    "head_title": "Java 数字签名库 - GroupDocs.Signature",
+    "head_description": "通过 GroupDocs.Signature 的电子签名为 Java 应用程序提供支持。快速、轻松地签署商业文件。"
   },
   "index-content-nodejs-java": {
     "title": "Node.js 数字签名解决方案",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "本节提供使用 {{ProductFullName}} 添加 QR 码的示例。",
     "code_title_sample_2": "使用数字签名保护 DOCX",
     "code_samples_sample_2_content_1": "通过基于数字证书的签名来[保护您的文档]({{Sample2Url}})。",
-    "code_samples_sample_2_content_2": "数字签名可保护您的业务文档免遭内容更改。"
+    "code_samples_sample_2_content_2": "数字签名可保护您的业务文档免遭内容更改。",
+    "head_title": "Node.js 数字签名 API - GroupDocs.Signature",
+    "head_description": "将 Node.js 应用程序中的安全电子签名与 GroupDocs.Signature 集成。轻松高效地简化文档签名工作流程。"
   }
 }

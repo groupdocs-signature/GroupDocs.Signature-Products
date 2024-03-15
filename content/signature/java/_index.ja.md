@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:56
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET、Java、クラウド API、オンライン ドキュメント署名アプリ"
-head_description: ".NET、Java、およびクラウドベースのアプリケーション向けのオールインワンのドキュメント電子署名ソリューションを入手してください。シンプルなドラッグ アンド ドロップ機能を使用して、一般的なドキュメント形式にオンラインで署名する"
+head_title: "Java デジタル署名ライブラリ - GroupDocs.Signature"
+head_description: "GroupDocs.Signature を使用した電子署名によって Java アプリを強化します。ビジネス文書に素早く簡単に署名できます。"
 
 ############################# Header ############################
 title: "書類に署名する<br>Java API経由"

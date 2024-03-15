@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, API đám mây & Ứng dụng chữ ký tài liệu trực tuyến",
-    "head_description": "Sở hữu giải pháp chữ ký điện tử tất cả trong một cho các ứng dụng .NET, Java và đám mây. Ký các định dạng tài liệu phổ biến trực tuyến bằng tính năng kéo và thả đơn giản",
+    "head_title": "Ứng dụng chữ ký số C# .NET, Java, Node.js",
+    "head_description": "Tích hợp chữ ký điện tử trong các ứng dụng .NET, Java hoặc Node.js với GroupDocs.Signature. Ký các định dạng tài liệu kinh doanh phổ biến.",
     "title": "Giải pháp e-Sign tài liệu",
     "description": "Ký các tài liệu và hình ảnh kỹ thuật số trên bất kỳ nền tảng nào bằng cách sử dụng các giải pháp dựa trên ứng dụng và API linh hoạt của chúng tôi dành cho lập trình viên và người dùng cuối.",
     "api_high_title": "Bao gồm API mã cao GroupDocs.Signature",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Dưới đây là ví dụ về cách thêm mã QR bằng GroupDocs.Signature.",
     "code_title_sample_2": "Bảo vệ tài liệu DOCX bằng chứng chỉ kỹ thuật số",
     "code_samples_sample_2_content_1": "Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số.",
-    "code_samples_sample_2_content_2": "Những tài liệu được bảo vệ như vậy không thể được sửa đổi nếu không làm mất hiệu lực chữ ký."
+    "code_samples_sample_2_content_2": "Những tài liệu được bảo vệ như vậy không thể được sửa đổi nếu không làm mất hiệu lực chữ ký.",
+    "head_title": "API chữ ký số C# .NET - GroupDocs.Signature",
+    "head_description": "Tích hợp xử lý chữ ký số trong ứng dụng .NET của bạn bằng GroupDocs.Signature. Bảo mật tập tin của bạn bằng chữ ký một cách nhanh chóng và hiệu quả."
   },
   "index-content-java": {
     "title": "API Java để quản lý chữ ký số",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Có một ví dụ về cách thêm mã QR bằng GroupDocs.Signature cho Java.",
     "code_title_sample_2": "Sử dụng chữ ký số để bảo vệ DOCX",
     "code_samples_sample_2_content_1": "Bạn có thể [Bảo vệ tài liệu](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) bằng chữ ký cá nhân hoặc công ty được lưu trữ dưới dạng chứng chỉ kỹ thuật số.",
-    "code_samples_sample_2_content_2": "Các tài liệu được bảo đảm bằng chứng chỉ không thể bị thay đổi nếu không làm mất hiệu lực chữ ký."
+    "code_samples_sample_2_content_2": "Các tài liệu được bảo đảm bằng chứng chỉ không thể bị thay đổi nếu không làm mất hiệu lực chữ ký.",
+    "head_title": "Thư viện chữ ký số Java - GroupDocs.Signature",
+    "head_description": "Trao quyền cho các ứng dụng Java bằng chữ ký điện tử với GroupDocs.Signature. Ký tài liệu kinh doanh một cách nhanh chóng và dễ dàng."
   },
   "index-content-nodejs-java": {
     "title": "Giải pháp chữ ký số Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Phần này cung cấp ví dụ về cách thêm mã QR bằng cách sử dụng {{ProductFullName}}.",
     "code_title_sample_2": "Bảo vệ DOCX bằng chữ ký số",
     "code_samples_sample_2_content_1": "[Bảo vệ tài liệu của bạn]({{Sample2Url}}) bằng chữ ký dựa trên chứng chỉ kỹ thuật số.",
-    "code_samples_sample_2_content_2": "Chữ ký số bảo vệ tài liệu kinh doanh của bạn khỏi bị thay đổi nội dung."
+    "code_samples_sample_2_content_2": "Chữ ký số bảo vệ tài liệu kinh doanh của bạn khỏi bị thay đổi nội dung.",
+    "head_title": "API chữ ký số Node.js - GroupDocs.Signature",
+    "head_description": "Tích hợp chữ ký điện tử an toàn trong ứng dụng Node.js với GroupDocs.Signature. Hợp lý hóa quy trình ký tài liệu một cách dễ dàng và hiệu quả."
   }
 }

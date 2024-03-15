@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, API-uri cloud și aplicații online pentru semnătura documentelor"
-head_description: "Obțineți o soluție de semnătură electronică pentru documente all-in-one pentru .NET, Java și aplicații bazate pe cloud. Semnează online formate comune de documente folosind funcția simplă de glisare și plasare"
+head_title: "C# .NET, Java, Node.js Digital Signature Apps"
+head_description: "Integrați semnăturile electronice în aplicațiile .NET, Java sau Node.js cu GroupDocs.Signature. Semnează formate populare de documente de afaceri."
 
 ############################# Header ############################
 title: "Soluție de semnare electronică a documentelor"

@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: "NET፣ Java፣ Cloud APIs እና የመስመር ላይ ሰነድ ፊርማ መተግበሪያዎች"
-head_description: "ለ NET ፣ Java እና ደመና-ተኮር መተግበሪያዎች ሁሉንም-በአንድ ሰነድ ኢ-ፊርማ መፍትሄ ያግኙ። ቀላል የመጎተት እና የመጣል ባህሪን በመጠቀም የተለመዱ የሰነድ ቅርጸቶችን በመስመር ላይ ይፈርሙ"
+head_title: "C# .NET፣ Java፣ Node.js ዲጂታል ፊርማ መተግበሪያዎች"
+head_description: "ኢ-ፊርማዎችን በ NET ፣ Java ወይም Node.js መተግበሪያዎች ከGroupDocs. Signature ጋር ያዋህዱ። ታዋቂ የንግድ ሰነድ ቅርጸቶችን ይፈርሙ።"
 
 ############################# Header ############################
 title: "ሰነድ ኢ-ፊርማ መፍትሔ"

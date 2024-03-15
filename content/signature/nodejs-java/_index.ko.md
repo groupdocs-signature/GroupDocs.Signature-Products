@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API 및 온라인 문서 서명 앱"
-head_description: ".NET, Java 및 클라우드 기반 애플리케이션을 위한 올인원 문서 전자 서명 솔루션을 받으세요. 간단한 드래그 앤 드롭 기능을 사용하여 일반적인 문서 형식에 온라인으로 서명"
+head_title: "Node.js 디지털 서명 API - GroupDocs.Signature"
+head_description: "GroupDocs.Signature를 사용하여 Node.js 앱의 보안 전자 서명을 통합하세요. 문서 서명 작업 흐름을 쉽고 효율적으로 간소화하세요."
 
 ############################# Header ############################
 title: "문서에 서명<br>Node.js API 사용"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "NET፣ Java፣ Cloud APIs እና የመስመር ላይ ሰነድ ፊርማ መተግበሪያዎች"
-head_description: "ለ NET ፣ Java እና ደመና-ተኮር መተግበሪያዎች ሁሉንም-በአንድ ሰነድ ኢ-ፊርማ መፍትሄ ያግኙ። ቀላል የመጎተት እና የመጣል ባህሪን በመጠቀም የተለመዱ የሰነድ ቅርጸቶችን በመስመር ላይ ይፈርሙ"
+head_title: "Node.js ዲጂታል ፊርማ API - GroupDocs.ፊርማ"
+head_description: "ደህንነታቸው የተጠበቁ ኢ-ፊርማዎችን በ Node.js መተግበሪያዎች ከGroupDocs. Signature ጋር ያዋህዱ። የሰነድ ፊርማ የስራ ፍሰቶችን በቀላሉ እና በብቃት ያመቻቹ።"
 
 ############################# Header ############################
 title: "ሰነዶችን ይፈርሙ<br>በ Node.js API"

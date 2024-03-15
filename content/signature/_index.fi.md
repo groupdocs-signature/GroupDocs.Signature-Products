@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, pilvisovellusliittymät ja online-asiakirjojen allekirjoitussovellukset"
-head_description: "Hanki all-in-one asiakirjan sähköinen allekirjoitusratkaisu .NET-, Java- ja pilvipohjaisille sovelluksille. Allekirjoita yleisiä asiakirjamuotoja verkossa yksinkertaisella vedä ja pudota -ominaisuuden avulla"
+head_title: "C# .NET, Java, Node.js Digital Signature Apps"
+head_description: "Integroi sähköiset allekirjoitukset .NET-, Java- tai Node.js-sovelluksiin GroupDocs.Signaturen kanssa. Allekirjoita suosittuja yritysasiakirjamuotoja."
 
 ############################# Header ############################
 title: "Asiakirjojen sähköinen allekirjoitusratkaisu"

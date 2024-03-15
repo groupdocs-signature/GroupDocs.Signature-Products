@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API-ji i online aplikacije za potpisivanje dokumenata",
-    "head_description": "Nabavite sveobuhvatno rješenje za e-potpis dokumenata za .NET, Java i aplikacije temeljene na oblaku. Potpišite uobičajene formate dokumenata na mreži koristeći jednostavnu značajku povlačenja i ispuštanja",
+    "head_title": "C# .NET, Java, Node.js aplikacije za digitalni potpis",
+    "head_description": "Integrirajte e-potpise u .NET, Java ili Node.js aplikacije s GroupDocs.Signature. Potpišite popularne formate poslovnih dokumenata.",
     "title": "Rješenje za e-potpisivanje dokumenata",
     "description": "Potpišite digitalne dokumente i slike na bilo kojoj platformi koristeći naše fleksibilne API-je i rješenja temeljena na aplikacijama za programere i krajnje korisnike.",
     "api_high_title": "GroupDocs.Signature High Code API-ji uključuju",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Ispod je primjer kako dodati QR kod pomoću GroupDocs.Signature.",
     "code_title_sample_2": "Zaštita DOCX dokumenta pomoću digitalnog certifikata",
     "code_samples_sample_2_content_1": "Možete [zaštititi dokument](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) pomoću osobnih ili korporativnih potpisa pohranjenih kao digitalni certifikati.",
-    "code_samples_sample_2_content_2": "Takvi zaštićeni dokumenti ne mogu se mijenjati bez poništavanja potpisa."
+    "code_samples_sample_2_content_2": "Takvi zaštićeni dokumenti ne mogu se mijenjati bez poništavanja potpisa.",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "Integrirajte obradu digitalnih potpisa u svoje .NET aplikacije pomoću GroupDocs.Signature. Osigurajte svoje datoteke potpisima brzo i učinkovito."
   },
   "index-content-java": {
     "title": "Java API za upravljanje digitalnim potpisima",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Postoji primjer kako dodati QR kod pomoću GroupDocs.Signature za Javu.",
     "code_title_sample_2": "Koristite digitalni potpis za zaštitu DOCX-a",
     "code_samples_sample_2_content_1": "Možete [zaštititi dokument](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) pomoću osobnih ili korporativnih potpisa pohranjenih kao digitalni certifikati.",
-    "code_samples_sample_2_content_2": "Dokumenti osigurani certifikatom ne mogu se mijenjati bez poništavanja potpisa."
+    "code_samples_sample_2_content_2": "Dokumenti osigurani certifikatom ne mogu se mijenjati bez poništavanja potpisa.",
+    "head_title": "Java biblioteka digitalnih potpisa - GroupDocs.Signature",
+    "head_description": "Osnažite Java aplikacije e-potpisima uz GroupDocs.Signature. Potpišite poslovne dokumente brzo i bez napora."
   },
   "index-content-nodejs-java": {
     "title": "Node.js rješenje za digitalne potpise",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Ovaj odjeljak pruža primjer dodavanja QR koda pomoću {{ProductFullName}}.",
     "code_title_sample_2": "Zaštita DOCX-a digitalnim potpisom",
     "code_samples_sample_2_content_1": "[Zaštitite svoje dokumente]({{Sample2Url}}) potpisima na temelju digitalnih certifikata.",
-    "code_samples_sample_2_content_2": "Digitalni potpis štiti vaše poslovne dokumente od promjene sadržaja."
+    "code_samples_sample_2_content_2": "Digitalni potpis štiti vaše poslovne dokumente od promjene sadržaja.",
+    "head_title": "Node.js API za digitalni potpis - GroupDocs.Signature",
+    "head_description": "Integrirajte sigurne e-potpise u Node.js aplikacije s GroupDocs.Signature. Pojednostavite radni tijek potpisivanja dokumenata jednostavno i učinkovito."
   }
 }

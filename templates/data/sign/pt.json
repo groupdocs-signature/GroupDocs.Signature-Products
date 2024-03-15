@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, APIs de nuvem e aplicativos de assinatura de documentos on-line",
-    "head_description": "Obtenha uma solução completa de assinatura eletrônica de documentos para aplicativos .NET, Java e baseados em nuvem. Assine formatos de documentos comuns online usando o recurso simples de arrastar e soltar",
+    "head_title": "Aplicativos de assinatura digital C# .NET, Java, Node.js",
+    "head_description": "Integre assinaturas eletrônicas em aplicativos .NET, Java ou Node.js com GroupDocs.Signature. Assine formatos de documentos comerciais populares.",
     "title": "Solução de assinatura eletrônica de documentos",
     "description": "Assine documentos e imagens digitais em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
     "api_high_title": "As APIs de alto código GroupDocs.Signature incluem",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "Abaixo está um exemplo de como adicionar um código QR usando GroupDocs.Signature.",
     "code_title_sample_2": "Protegendo um documento DOCX usando um certificado digital",
     "code_samples_sample_2_content_1": "Você pode [proteger um documento](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) usando assinaturas pessoais ou corporativas armazenadas como certificados digitais.",
-    "code_samples_sample_2_content_2": "Tais documentos protegidos não podem ser modificados sem invalidar a assinatura."
+    "code_samples_sample_2_content_2": "Tais documentos protegidos não podem ser modificados sem invalidar a assinatura.",
+    "head_title": "API de assinaturas digitais C# .NET - GroupDocs.Signature",
+    "head_description": "Integre o processamento de assinaturas digitais em seus aplicativos .NET usando GroupDocs.Signature. Proteja seus arquivos com assinaturas de forma rápida e eficiente."
   },
   "index-content-java": {
     "title": "API Java para gerenciar assinaturas digitais",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "Há um exemplo de como adicionar um código QR usando GroupDocs.Signature for Java.",
     "code_title_sample_2": "Use assinatura digital para proteger um DOCX",
     "code_samples_sample_2_content_1": "Você pode [salvaguardar um documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) usando assinaturas pessoais ou corporativas armazenadas como certificados digitais.",
-    "code_samples_sample_2_content_2": "Os documentos protegidos por certificado não podem ser alterados sem invalidar a assinatura."
+    "code_samples_sample_2_content_2": "Os documentos protegidos por certificado não podem ser alterados sem invalidar a assinatura.",
+    "head_title": "Biblioteca de assinatura digital Java - GroupDocs.Signature",
+    "head_description": "Capacite aplicativos Java por meio de assinaturas eletrônicas com GroupDocs.Signature. Assine documentos comerciais com rapidez e facilidade."
   },
   "index-content-nodejs-java": {
     "title": "Solução de assinaturas digitais Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "Esta seção fornece um exemplo de adição de um código QR usando {{ProductFullName}}.",
     "code_title_sample_2": "Protegendo um DOCX com assinatura digital",
     "code_samples_sample_2_content_1": "[Proteja seus documentos]({{Sample2Url}}) por meio de assinaturas baseadas em certificados digitais.",
-    "code_samples_sample_2_content_2": "A assinatura digital protege seus documentos comerciais contra alterações de conteúdo."
+    "code_samples_sample_2_content_2": "A assinatura digital protege seus documentos comerciais contra alterações de conteúdo.",
+    "head_title": "API de assinatura digital Node.js - GroupDocs.Signature",
+    "head_description": "Integre assinaturas eletrônicas seguras em aplicativos Node.js com GroupDocs.Signature. Simplifique os fluxos de trabalho de assinatura de documentos com facilidade e eficiência."
   }
 }

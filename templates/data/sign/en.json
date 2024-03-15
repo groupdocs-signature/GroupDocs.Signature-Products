@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": "C# .NET, Java, Node.js Document Signature Apps",
-    "head_description": "Get all-in-one document e-signature solution for .NET, Java or Node.js applications. Sign popular business document formats.",
+    "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
+    "head_description": "Integrate e-signatures in .NET, Java or Node.js applications with GroupDocs.Signature. Sign popular business document formats.",
     "title": "Document e-Signing Solution",
     "description": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
     "api_high_title": "GroupDocs.Signature High Code APIs Include",
@@ -294,7 +294,7 @@
   },
   "index-content-net": {
     "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
-    "head_description": "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your  files with signatures quickly and efficiently.",
+    "head_description": "Integrate digital signatures processing in your .NET apps using GroupDocs.Signature. Secure your files with signatures quickly and efficiently.",
     "title": "Native .NET API for Electronic Signatures",
     "title_2": "via .NET API",
     "actions_main": "Free NuGet Download",

@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: ".NET, Java, debesies API ir internetinių dokumentų parašų programos"
-head_description: "Gaukite „viskas viename“ dokumentų el. parašo sprendimą, skirtą .NET, „Java“ ir debesies programoms. Pasirašykite įprastus dokumentų formatus internete naudodami paprastą vilkimo ir nuleidimo funkciją"
+head_title: "C# .NET, Java, Node.js skaitmeninio parašo programos"
+head_description: "Integruokite el. parašus į .NET, Java arba Node.js programas su GroupDocs.Signature. Pasirašykite populiarius verslo dokumentų formatus."
 
 ############################# Header ############################
 title: "Dokumentų elektroninio pasirašymo sprendimas"

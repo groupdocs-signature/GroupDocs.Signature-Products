@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T15:50:57
+date: 2024-03-15T20:32:49
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, API-uri cloud și aplicații online pentru semnătura documentelor"
-head_description: "Obțineți o soluție de semnătură electronică pentru documente all-in-one pentru .NET, Java și aplicații bazate pe cloud. Semnează online formate comune de documente folosind funcția simplă de glisare și plasare"
+head_title: "Biblioteca de semnături digitale Java - GroupDocs.Signature"
+head_description: "Îmbunătățiți aplicațiile Java prin semnături electronice cu GroupDocs.Signature. Semnează documente de afaceri rapid și fără efort."
 
 ############################# Header ############################
 title: "Semnează documente<br>prin API-ul Java"

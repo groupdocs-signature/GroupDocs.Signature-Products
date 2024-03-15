@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, debesies API ir internetinių dokumentų parašų programos"
-head_description: "Gaukite „viskas viename“ dokumentų el. parašo sprendimą, skirtą .NET, „Java“ ir debesies programoms. Pasirašykite įprastus dokumentų formatus internete naudodami paprastą vilkimo ir nuleidimo funkciją"
+head_title: "C# .NET skaitmeninių parašų API – GroupDocs.Signature"
+head_description: "Integruokite skaitmeninių parašų apdorojimą į savo .NET programas naudodami GroupDocs.Signature. Greitai ir efektyviai apsaugokite failus parašais."
 
 ############################# Header ############################
 title: "Pasirašykite dokumentus<br>per .NET API"

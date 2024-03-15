@@ -228,8 +228,8 @@
     }
   },
   "index-content": {
-    "head_title": ".NET, Java, Cloud API และแอปลายเซ็นเอกสารออนไลน์",
-    "head_description": "รับโซลูชันลายเซ็นอิเล็กทรอนิกส์เอกสารแบบครบวงจรสำหรับ .NET, Java และแอปพลิเคชันบนคลาวด์ เซ็นชื่อในรูปแบบเอกสารทั่วไปทางออนไลน์โดยใช้คุณสมบัติการลากและวางที่เรียบง่าย",
+    "head_title": "แอปลายเซ็นดิจิทัล C# .NET, Java, Node.js",
+    "head_description": "ผสานรวมลายเซ็นอิเล็กทรอนิกส์ในแอปพลิเคชัน .NET, Java หรือ Node.js เข้ากับ GroupDocs.Signature ลงนามในรูปแบบเอกสารธุรกิจยอดนิยม",
     "title": "โซลูชั่น e-Signing เอกสาร",
     "description": "ลงนามในเอกสารดิจิทัลและรูปภาพบนแพลตฟอร์มใดก็ได้โดยใช้ API ที่ยืดหยุ่นและโซลูชันตามแอปสำหรับโปรแกรมเมอร์และผู้ใช้ปลายทาง",
     "api_high_title": "GroupDocs.Signature High Code API รวมอยู่ด้วย",
@@ -358,7 +358,9 @@
     "code_samples_sample_1_content_2": "ด้านล่างนี้คือตัวอย่างวิธีเพิ่มโค้ด QR โดยใช้ GroupDocs.Signature",
     "code_title_sample_2": "การปกป้องเอกสาร DOCX โดยใช้ใบรับรองดิจิทัล",
     "code_samples_sample_2_content_1": "คุณสามารถ[ปกป้องเอกสาร](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) ได้โดยใช้ลายเซ็นส่วนตัวหรือลายเซ็นขององค์กรที่จัดเก็บเป็นใบรับรองดิจิทัล",
-    "code_samples_sample_2_content_2": "เอกสารที่ได้รับการคุ้มครองดังกล่าวไม่สามารถแก้ไขได้โดยไม่ทำให้ลายเซ็นเป็นโมฆะ"
+    "code_samples_sample_2_content_2": "เอกสารที่ได้รับการคุ้มครองดังกล่าวไม่สามารถแก้ไขได้โดยไม่ทำให้ลายเซ็นเป็นโมฆะ",
+    "head_title": "C# .NET Digital Signatures API - GroupDocs.Signature",
+    "head_description": "ผสานรวมการประมวลผลลายเซ็นดิจิทัลในแอป .NET ของคุณโดยใช้ GroupDocs.Signature รักษาความปลอดภัยไฟล์ของคุณด้วยลายเซ็นอย่างรวดเร็วและมีประสิทธิภาพ"
   },
   "index-content-java": {
     "title": "Java API เพื่อจัดการลายเซ็นดิจิทัล",
@@ -426,7 +428,9 @@
     "code_samples_sample_1_content_2": "มีตัวอย่างวิธีเพิ่มโค้ด QR โดยใช้ GroupDocs.Signature สำหรับ Java",
     "code_title_sample_2": "ใช้ลายเซ็นดิจิทัลเพื่อปกป้อง DOCX",
     "code_samples_sample_2_content_1": "คุณสามารถ[ปกป้องเอกสาร](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) ได้โดยใช้ลายเซ็นส่วนตัวหรือลายเซ็นขององค์กรที่จัดเก็บเป็นใบรับรองดิจิทัล",
-    "code_samples_sample_2_content_2": "เอกสารที่มีการรักษาความปลอดภัยด้วยใบรับรองไม่สามารถเปลี่ยนแปลงได้โดยไม่ทำให้ลายเซ็นเป็นโมฆะ"
+    "code_samples_sample_2_content_2": "เอกสารที่มีการรักษาความปลอดภัยด้วยใบรับรองไม่สามารถเปลี่ยนแปลงได้โดยไม่ทำให้ลายเซ็นเป็นโมฆะ",
+    "head_title": "ไลบรารีลายเซ็นดิจิทัล Java - GroupDocs.Signature",
+    "head_description": "เสริมพลังให้กับแอป Java ด้วยลายเซ็นอิเล็กทรอนิกส์ด้วย GroupDocs.Signature ลงนามในเอกสารทางธุรกิจอย่างรวดเร็วและง่ายดาย"
   },
   "index-content-nodejs-java": {
     "title": "โซลูชันลายเซ็นดิจิทัล Node.js",
@@ -494,6 +498,8 @@
     "code_samples_sample_1_content_2": "ส่วนนี้จะแสดงตัวอย่างการเพิ่มโค้ด QR โดยใช้ {{ProductFullName}}",
     "code_title_sample_2": "การปกป้อง DOCX ด้วยลายเซ็นดิจิทัล",
     "code_samples_sample_2_content_1": "[ปกป้องเอกสารของคุณ]({{Sample2Url}}) ด้วยลายเซ็นตามใบรับรองดิจิทัล",
-    "code_samples_sample_2_content_2": "ลายเซ็นดิจิทัลช่วยปกป้องเอกสารทางธุรกิจของคุณจากการเปลี่ยนแปลงเนื้อหา"
+    "code_samples_sample_2_content_2": "ลายเซ็นดิจิทัลช่วยปกป้องเอกสารทางธุรกิจของคุณจากการเปลี่ยนแปลงเนื้อหา",
+    "head_title": "Node.js Digital Signature API - GroupDocs.Signature",
+    "head_description": "ผสานรวมลายเซ็นอิเล็กทรอนิกส์ที่ปลอดภัยในแอป Node.js เข้ากับ GroupDocs.Signature ปรับปรุงเวิร์กโฟลว์การเซ็นเอกสารอย่างง่ายดายและมีประสิทธิภาพ"
   }
 }

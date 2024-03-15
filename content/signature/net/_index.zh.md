@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:01
+date: 2024-03-15T20:32:50
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET、Java、云 API 和在线文档签名应用程序"
-head_description: "获得适用于 .NET、Java 和基于云的应用程序的一体化文档电子签名解决方案。使用简单的拖放功能在线签署常见文档格式"
+head_title: "C# .NET 数字签名 API - GroupDocs.Signature"
+head_description: "使用 GroupDocs.Signature 将数字签名处理集成到您的 .NET 应用程序中。通过签名快速有效地保护您的文件。"
 
 ############################# Header ############################
 title: "签署文件<br>通过.NET API"

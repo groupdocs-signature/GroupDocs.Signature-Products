@@ -15,8 +15,8 @@ product: "Signature"
 product_tag: "signature"
 
 ############################# Head ############################
-head_title: "C# .NET, Java, Node.js Document Signature Apps"
-head_description: "Get all-in-one document e-signature solution for .NET, Java or Node.js applications. Sign popular business document formats."
+head_title: "C# .NET, Java, Node.js Digital Signature Apps"
+head_description: "Integrate e-signatures in .NET, Java or Node.js applications with GroupDocs.Signature. Sign popular business document formats."
 
 ############################# Header ############################
 title: "Document e-Signing Solution"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-05T08:14:02
+date: 2024-03-15T20:32:51
 draft: false
 #operation: 
 #signaturetype: 
@@ -30,8 +30,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Bulut API'leri ve Çevrimiçi Belge İmza Uygulamaları"
-head_description: ".NET, Java ve bulut tabanlı uygulamalar için hepsi bir arada belge e-imza çözümü edinin. Basit sürükle ve bırak özelliğini kullanarak yaygın belge biçimlerini çevrimiçi olarak imzalayın"
+head_title: "Node.js Dijital İmza API'si - GroupDocs.Signature"
+head_description: "Node.js uygulamalarına güvenli e-imzaları GroupDocs.Signature ile entegre edin. Belge imzalama iş akışlarını kolay ve verimli bir şekilde kolaylaştırın."
 
 ############################# Header ############################
 title: "Belgeleri imzalamak<br>Node.js API'si ile"
