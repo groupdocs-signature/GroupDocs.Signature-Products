@@ -1,5 +1,7 @@
 dimensions: 
 - alias: lang
-  values: [en, de, es, fr, ja, ko, ru, zh, id, ar, bg, af, am, ca, cs, da, el, et, fa, fi, ga, hi, hr, hu, hy, is, it, ka, kk, ku, lt, lv, ms, no, nl, pl, pt, ro, sk, sl, sv, th, tr, uk, ur, vi]
+  values: [en, de, es, fr, ja, ko, ru, zh, id, fa, it, pt, th, uk, vi]
 
 dictionaries: ["..\\data\\{operation}\\{lang}.json"]
+
+#//values: [en, de, es, fr, ja, ko, ru, zh, id, ar, bg, af, am, ca, cs, da, el, et, fa, fi, ga, hi, hr, hu, hy, is, it, ka, kk, ku, lt, lv, ms, no, nl, pl, pt, ro, sk, sl, sv, th, tr, uk, ur, vi]
