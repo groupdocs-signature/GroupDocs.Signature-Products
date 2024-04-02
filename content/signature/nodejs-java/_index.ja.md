@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:51
+date: 2024-04-02T11:33:17
 draft: false
 #operation: 
 #signaturetype: 
@@ -43,7 +43,7 @@ actions:
   main: "NPMからダウンロード"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.signature/"
   alt: "ライセンス"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/nodejs-java/"
   title: "始める準備はできていますか?"
   description: "GroupDocs.Signature 機能を無料で試すか、ライセンスをリクエストしてください"
 
