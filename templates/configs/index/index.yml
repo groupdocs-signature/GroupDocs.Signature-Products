@@ -1,7 +1,9 @@
-inherits: ..\\products.yml
+inherits: ..\\languages-index.yml
 
 dimensions:  
 - alias:  operation
-  values: [sign] 
+  values: [index] 
 
 outputPath: "signature\\_index.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

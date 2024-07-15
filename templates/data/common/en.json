@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Watermark Excel",
+        "description": "MS Excel and Open Office spreadsheets"
+      },
+      "word": {
+        "name": "Watermark Word",
+        "description": "MS Word and Open Office documents"
+      },
+      "powerpoint": {
+        "name": "Watermark PowerPoint",
+        "description": "MS PowerPoint and Open Office presentations"
+      },
+      "image": {
+        "name": "Watermark Image",
+        "description": "Popular image formats"
+      },
+      "photo": {
+        "name": "Watermark Photo",
+        "description": "Photo formats"
+      },
+      "pdf": {
+        "name": "Watermark PDF",
+        "description": "Adobe Portable Document Format"
+      },
+      "doc": {
+        "name": "Watermark DOC",
+        "description": "Microsoft Word 97 - 2007 Document"
+      },
+      "docx": {
+        "name": "Watermark DOCX",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "xls": {
+        "name": "Watermark XLS",
+        "description": "Microsoft Excel Workbook 97-2003"
+      },
+      "xlsx": {
+        "name": "Watermark XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "ppt": {
+        "name": "Watermark PPT",
+        "description": "PowerPoint Presentation 97-2003"
+      },
+      "pptx": {
+        "name": "Watermark PPTX",
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "jpeg": {
+        "name": "Watermark JPEG",
+        "description": "JPEG Image"
+      },
+      "png": {
+        "name": "Watermark PNG",
+        "description": "Portable Network Graphic"
+      },
+      "tiff": {
+        "name": "Watermark TIFF",
+        "description": "Tag Image File Format"
+      },
+      "webp": {
+        "name": "Watermark WEBP",
+        "description": "WEB Picture"
+      },
+      "rtf": {
+        "name": "Watermark RTF",
+        "description": "Rich Text Format"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    }
+  }
+}
