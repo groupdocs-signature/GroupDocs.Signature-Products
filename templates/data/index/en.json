@@ -1,9 +1,9 @@
 {
   "index-content": {
     "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
-    "head_description": "Integrate e-signatures in .NET, Java or Node.js applications with {{ProdShortName}}. Sign popular business document formats.",
+    "head_description": "Integrate e-signatures in .NET, Java, or Node.js applications with {{ProdShortName}}. Sign popular business document formats.",
     "title": "Document e-Signing Solution",
-    "description_1": "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users.",
+    "description_1": "Sign digital documents and images on any platform using our flexible APIs and app-based solutions for programmers and end-users.",
     "description_2": "Search and modify previously added signatures using advanced methods.",
     "description_3": "Protect documents from changes with digital certificates and control hidden metadata.",
     "words_for": "for",
@@ -26,22 +26,22 @@
     },
     "features": {
       "title": "{{ProdShortName}} key features",
-      "description": "Our solution designed to add various types of signatures to popular document and files formats. Enrich your business processes easily.",
+      "description": "Our solution is designed to add various types of signatures to popular document and file formats. Enrich your business processes easily.",
       "feature_1": {
         "title": "Enrich your data with signatures",
-        "content": "Append text, image, watermarks etc. to your business documents."
+        "content": "Append text, images, watermarks, etc. to your business documents."
       },
       "feature_2": {
         "title": "Protect documents content",
-        "content": "Forbid document changing by sealing it with a digital certificate."
+        "content": "Forbid document changes by sealing it with a digital certificate."
       },
       "feature_3": {
-        "title": "Add hidden data and Barcodes",
+        "title": "Add hidden data and barcodes",
         "content": "Use metadata to store invisible information or put custom barcodes on pages."
       },
       "feature_4": {
         "title": "Manipulate signatures",
-        "content": "Search, update or delete all signatures that nave been added previously."
+        "content": "Search, update, or delete all signatures that have been added previously."
       }
     },
     "formats": {
@@ -55,7 +55,7 @@
       "more_examples": "More examples",
       "sample_index": {
         "title": "Generate and add QR-code",
-        "content": "{{ProdShortName}} allows us to generate and add QR-codes to documents with supported formats. Provide path to a document which must be signed and set up desired text and visual options of QR-code. You may put generated QR-code image on any area of any document page.",
+        "content": "{{ProdShortName}} allows us to generate and add QR-codes to documents with supported formats. Provide the path to a document which must be signed and set up desired text and visual options of QR-code. You may put the generated QR-code image on any area of any document page.",
         "comment_1": "Specify the document for signing",
         "comment_2": "Create QR-code sign options",
         "comment_3": "Set QR-code options",
@@ -64,7 +64,7 @@
       "sample_1": {
         "code_title": "How to protect file by image watermark.",
         "comment_1": "Load source document to Watermarker",
-        "comment_2": "Specify path to a watermark image",
+        "comment_2": "Specify the path to a watermark image",
         "comment_3": "Protect the file and save it"
       },
       "sample_2": {
@@ -109,8 +109,8 @@
       "title": "Frequently asked questions",
       "description": "Explore our Frequently Asked Questions",
       "item_1": {
-        "question": "Does {{ProdShortName}} needs any external library for documents signing?",
-        "answer": "No, {{ProdShortName}} works independently. There no any third-party dependencies like Adobe Acrobat, Microsoft Office, etc."
+        "question": "Does {{ProdShortName}} need any external library for documents signing?",
+        "answer": "No, {{ProdShortName}} works independently. There are no third-party dependencies like Adobe Acrobat, Microsoft Office, etc."
       },
       "item_2": {
         "question": "Is it possible to test {{ProdShortName}} features before buying?",
@@ -125,7 +125,7 @@
       "title": "{{ProdShortName}} low code APIs",
       "description": "Sign files using your application via our cloud-based REST API.",
       "item_1": {
-        "content": "Use cURL RESTful API to put signatures on PDF, Word, Excel, PowerPoint, JPEG and many other file formats."
+        "content": "Use cURL RESTful API to put signatures on PDF, Word, Excel, PowerPoint, JPEG, and many other file formats."
       },
       "item_2": {
         "content": "Enrich your .NET applications with signing documents via Cloud SDK. Protect business documents in your own way."
@@ -136,15 +136,15 @@
     },
     "app_links": {
       "title": "{{ProdShortName}} Web apps",
-      "description": "{{ProdShortName}} presents free web application where you can sign documents. More than 60 popular file formats could be signed via your favorite browser FOR FREE.",
+      "description": "{{ProdShortName}} presents a free web application where you can sign documents. More than 60 popular file formats could be signed via your favorite browser FOR FREE.",
       "item_1": {
-        "content": "On-line tool to put signatures on documents from any device."
+        "content": "Online tool to put signatures on documents from any device."
       },
       "item_2": {
-        "content": "Sign MS Word DOCX on-line."
+        "content": "Sign MS Word DOCX online."
       },
       "item_3": {
-        "content": "Protect PDF documents on-line."
+        "content": "Protect PDF documents online."
       }
     },
     "formats_groups": {
