@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "Aplicativos de assinatura digital C# .NET, Java, Node.js",
+    "head_description": "Integre assinaturas eletrônicas em aplicativos .NET, Java ou Node.js com {{ProdShortName}}. Assine formatos de documentos comerciais populares.",
+    "title": "Solução de assinatura eletrônica de documentos",
+    "description_1": "Assine documentos e imagens digitais em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
+    "description_2": "Pesquise e modifique assinaturas adicionadas anteriormente usando métodos avançados.",
+    "description_3": "Proteja documentos contra alterações com certificados digitais e controle metadados ocultos.",
+    "words_for": "para",
+    "release_title": "Versão {0} lançada",
+    "release_notes": "Veja o que é novo",
+    "release_downloads": "Transferências",
+    "code_more": "Mais exemplos",
+    "code_comment_1": "Instancie o Watermarker passando o caminho do PDF",
+    "code_comment_2": "Personalize opções de marca d’água",
+    "code_comment_3": "Aplicar marca d'água ao documento PDF",
+    "code_comment_4": "Salvar documento de resultado",
+    "overview_title": "{{ProdShortName}} em resumo",
+    "formats_title": "Formatos de arquivo suportados",
+    "platforms": {
+      "title": "Independência de plataforma",
+      "head_title": "Escolha sua plataforma",
+      "description": "A biblioteca {{ProdShortName}} oferece suporte aos seguintes sistemas operacionais e estruturas:",
+      "learn_more": "Saber mais",
+      "any_other_text_editor": "Qualquer outro editor de texto"
+    },
+    "features": {
+      "title": "Principais recursos do {{ProdShortName}}",
+      "description": "Nossa solução foi projetada para adicionar vários tipos de assinaturas a formatos populares de documentos e arquivos. Enriqueça seus processos de negócios facilmente.",
+      "feature_1": {
+        "title": "Enriqueça seus dados com assinaturas",
+        "content": "Anexe texto, imagens, marcas d'água, etc. aos seus documentos comerciais."
+      },
+      "feature_2": {
+        "title": "Proteja o conteúdo dos documentos",
+        "content": "Proíba alterações de documentos selando-os com um certificado digital."
+      },
+      "feature_3": {
+        "title": "Adicione dados e códigos de barras ocultos",
+        "content": "Use metadados para armazenar informações invisíveis ou coloque códigos de barras personalizados nas páginas."
+      },
+      "feature_4": {
+        "title": "Manipular assinaturas",
+        "content": "Pesquise, atualize ou exclua todas as assinaturas que foram adicionadas anteriormente."
+      }
+    },
+    "formats": {
+      "title": "Mais de 60 formatos de arquivo são suportados",
+      "description": "{{ProdShortName}} suporta quase todos os formatos de arquivo populares"
+    },
+    "code_samples": {
+      "title": "Amostras de código",
+      "index_title": "Proteja seus arquivos usando assinaturas",
+      "index_description": "Exemplos de código {{ProdShortName}}",
+      "more_examples": "Mais exemplos",
+      "sample_index": {
+        "title": "Gere e adicione código QR",
+        "content": "{{ProdShortName}} nos permite gerar e adicionar códigos QR a documentos com formatos suportados. Forneça o caminho para um documento que deve ser assinado e configure o texto desejado e as opções visuais do código QR. Você pode colocar a imagem do código QR gerada em qualquer área de qualquer página do documento.",
+        "comment_1": "Especifique o documento para assinatura",
+        "comment_2": "Crie opções de sinal de código QR",
+        "comment_3": "Definir opções de código QR",
+        "comment_4": "Assine e salve o arquivo processado"
+      },
+      "sample_1": {
+        "code_title": "Como proteger arquivo por marca d'água de imagem.",
+        "comment_1": "Carregar documento de origem no Watermarker",
+        "comment_2": "Especifique o caminho para uma imagem de marca d'água",
+        "comment_3": "Proteja o arquivo e salve-o"
+      },
+      "sample_2": {
+        "code_title": "Pesquisa e modificação de marcas d’água.",
+        "comment_1": "Carregar documento de origem",
+        "comment_2": "Procure marcas d’água a serem atualizadas",
+        "comment_3": "Atualizar as propriedades desejadas",
+        "comment_4": "Salvar documento modificado em um caminho especificado"
+      }
+    },
+    "metrics": {
+      "title": "Dados estatísticos da nossa biblioteca",
+      "description": "Inspecione as principais métricas do produto, revelando insights sobre nossas conquistas, impacto e crescimento",
+      "item_1": {
+        "title": "Formatos suportados",
+        "description": "Assinando mais de 60 dos formatos de arquivo comerciais mais populares."
+      },
+      "item_2": {
+        "title": "Downloads do NuGet",
+        "description": "{{ProdShortName}} for .NET é uma biblioteca popular com mais de 550.000 downloads no NuGet."
+      },
+      "item_3": {
+        "title": "Downloads do Maven",
+        "description": "Os desenvolvedores Java baixaram {{ProdShortName}} no Maven mais de 15 mil vezes."
+      },
+      "item_4": {
+        "title": "Clientes satisfeitos",
+        "description": "Desenvolvedores individuais e grandes empresas em todo o mundo utilizam nossos produtos para criar soluções inovadoras."
+      }
+    },
+    "customers": {
+      "title": "Nossos clientes satisfeitos",
+      "description": "As bibliotecas GroupDocs são empregadas por marcas renomadas e distintas em todo o mundo"
+    },
+    "actions": {
+      "alt": "Licenciamento",
+      "title": "Pronto para começar?",
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "description_index": "Experimente os recursos do {{ProdShortName}} gratuitamente em sua plataforma"
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Explore nossas perguntas frequentes",
+      "item_1": {
+        "question": "{{ProdShortName}} precisa de alguma biblioteca externa para assinatura de documentos?",
+        "answer": "Não, {{ProdShortName}} funciona de forma independente. Não há dependências de terceiros como Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "É possível testar os recursos do {{ProdShortName}} antes de comprar?",
+        "answer": "Absolutamente! {{ProdShortName}} oferece um teste gratuito. Instale-o e explore seus recursos. Observe que as versões de teste adicionam 'crachás de teste' aos seus documentos e processam apenas as três primeiras páginas. Para uma experiência completa, obtenha uma licença temporária gratuita de 30 dias para acessar todas as funcionalidades. Veja detalhes em [licença temporária]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Que tipos de licença são fornecidos?",
+        "answer": "Procurando uma licença do {{ProdShortName}}? Oferecemos diversas opções adaptadas às suas necessidades. Escolha com base no tamanho da equipe, nos locais de implantação (escritório único ou locais de trabalho remotos) e se a distribuição para o cliente final exige o compartilhamento do SDK/API com os clientes. Alternativamente, opte por uma licença de uso mensal com planos medidos – pague apenas pelo que usar. Descubra a melhor opção para você em [pricing]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} APIs de baixo código",
+      "description": "Assine arquivos usando seu aplicativo por meio de nossa API REST baseada em nuvem.",
+      "item_1": {
+        "content": "Use a API RESTful cURL para colocar assinaturas em PDF, Word, Excel, PowerPoint, JPEG e muitos outros formatos de arquivo."
+      },
+      "item_2": {
+        "content": "Enriqueça seus aplicativos .NET com assinatura de documentos via Cloud SDK. Proteja documentos comerciais do seu jeito."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK concede acesso a várias possibilidades para seus aplicativos Java assinarem qualquer arquivo."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} aplicativos da web",
+      "description": "{{ProdShortName}} apresenta um aplicativo web gratuito onde você pode assinar documentos. Mais de 60 formatos de arquivo populares podem ser assinados GRATUITAMENTE através do seu navegador favorito.",
+      "item_1": {
+        "content": "Ferramenta online para colocar assinaturas em documentos de qualquer dispositivo."
+      },
+      "item_2": {
+        "content": "Assine o MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Proteja documentos PDF online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formatos Microsoft Office e OpenDocument",
+      "title_2": "Imagens e gráficos",
+      "title_3": "Outro",
+      "format_portable": "Portátil",
+      "format_popular_images": "Formatos de imagem populares",
+      "format_multi_images": "Imagens de várias páginas"
+    }
+  }
+}

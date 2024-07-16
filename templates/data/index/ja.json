@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "C# .NET、Java、Node.js デジタル署名アプリ",
+    "head_description": ".NET、Java、または Node.js アプリケーションの電子署名を {{ProdShortName}} と統合します。一般的なビジネス文書形式に署名します。",
+    "title": "文書電子署名ソリューション",
+    "description_1": "プログラマーとエンドユーザー向けの柔軟な API とアプリベースのソリューションを使用して、あらゆるプラットフォームでデジタル ドキュメントと画像に署名します。",
+    "description_2": "高度な方法を使用して、以前に追加された署名を検索および変更します。",
+    "description_3": "デジタル証明書を使用してドキュメントを変更から保護し、非表示のメタデータを制御します。",
+    "words_for": "のために",
+    "release_title": "バージョン {0} がリリースされました",
+    "release_notes": "新機能を見る",
+    "release_downloads": "ダウンロード",
+    "code_more": "他の例",
+    "code_comment_1": "PDF パスを渡すウォーターマーカーをインスタンス化する",
+    "code_comment_2": "透かしオプションをカスタマイズする",
+    "code_comment_3": "PDF ドキュメントにウォーターマークを適用する",
+    "code_comment_4": "結果ドキュメントの保存",
+    "overview_title": "{{ProdShortName}} の概要",
+    "formats_title": "サポートされているファイル形式",
+    "platforms": {
+      "title": "プラットフォームの独立性",
+      "head_title": "プラットフォームを選択してください",
+      "description": "{{ProdShortName}} ライブラリは、次のオペレーティング システムとフレームワークをサポートしています。",
+      "learn_more": "もっと詳しく知る",
+      "any_other_text_editor": "他のテキストエディター"
+    },
+    "features": {
+      "title": "{{ProdShortName}} の主な機能",
+      "description": "当社のソリューションは、一般的なドキュメントやファイル形式にさまざまなタイプの署名を追加するように設計されています。ビジネスプロセスを簡単に強化します。",
+      "feature_1": {
+        "title": "署名を使用してデータを強化する",
+        "content": "ビジネス文書にテキスト、画像、透かしなどを追加します。"
+      },
+      "feature_2": {
+        "title": "ドキュメントの内容を保護する",
+        "content": "デジタル証明書で封印することで文書の変更を禁止します。"
+      },
+      "feature_3": {
+        "title": "隠しデータとバーコードを追加する",
+        "content": "メタデータを使用して、目に見えない情報を保存したり、ページにカスタム バーコードを配置したりできます。"
+      },
+      "feature_4": {
+        "title": "署名を操作する",
+        "content": "以前に追加されたすべての署名を検索、更新、または削除します。"
+      }
+    },
+    "formats": {
+      "title": "60 以上のファイル形式がサポートされています",
+      "description": "{{ProdShortName}} は、ほとんどすべての一般的なファイル形式をサポートしています"
+    },
+    "code_samples": {
+      "title": "コードサンプル",
+      "index_title": "署名を使用してファイルを保護する",
+      "index_description": "{{ProdShortName}} のコード例",
+      "more_examples": "他の例",
+      "sample_index": {
+        "title": "QRコードを生成して追加する",
+        "content": "{{ProdShortName}} を使用すると、サポートされている形式で QR コードを生成し、ドキュメントに追加できます。署名が必要なドキュメントへのパスを指定し、QR コードの希望のテキストおよび視覚オプションを設定します。生成された QR コード画像は、ドキュメント ページの任意の領域に配置できます。",
+        "comment_1": "署名する文書を指定してください",
+        "comment_2": "QRコード署名オプションの作成",
+        "comment_3": "QRコードオプションを設定する",
+        "comment_4": "処理されたファイルに署名して保存する"
+      },
+      "sample_1": {
+        "code_title": "画像の透かしでファイルを保護する方法。",
+        "comment_1": "ソースドキュメントをウォーターマーカーにロードします",
+        "comment_2": "透かし画像へのパスを指定します",
+        "comment_3": "ファイルを保護して保存します"
+      },
+      "sample_2": {
+        "code_title": "透かしの検索と変更。",
+        "comment_1": "ソースドキュメントをロードする",
+        "comment_2": "更新するウォーターマークを検索する",
+        "comment_3": "必要なプロパティを更新する",
+        "comment_4": "変更したドキュメントを指定したパスに保存します"
+      }
+    },
+    "metrics": {
+      "title": "当館の図書館統計データ",
+      "description": "主要な製品指標を調査し、当社の成果、影響、成長についての洞察を明らかにします",
+      "item_1": {
+        "title": "サポートされている形式",
+        "description": "60 を超える最も一般的なビジネス ファイル形式に署名します。"
+      },
+      "item_2": {
+        "title": "NuGetのダウンロード",
+        "description": ".NET 用の {{ProdShortName}} は、NuGet で 550,000 件以上ダウンロードされている人気のライブラリです。"
+      },
+      "item_3": {
+        "title": "Mavenのダウンロード",
+        "description": "Java 開発者は、Maven に {{ProdShortName}} を 15,000 回以上ダウンロードしました。"
+      },
+      "item_4": {
+        "title": "幸せな顧客",
+        "description": "世界中の個人開発者やトップ企業が当社の製品を使用して革新的なソリューションを構築しています。"
+      }
+    },
+    "customers": {
+      "title": "幸せなお客様",
+      "description": "GroupDocs ライブラリは、世界中の世界的に有名な有名ブランドで採用されています"
+    },
+    "actions": {
+      "alt": "ライセンス",
+      "title": "始める準備はできていますか?",
+      "description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
+      "description_index": "お使いのプラットフォームで {{ProdShortName}} の機能を無料でお試しください"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "よくある質問をご覧ください",
+      "item_1": {
+        "question": "{{ProdShortName}} にはドキュメント署名用の外部ライブラリが必要ですか?",
+        "answer": "いいえ、{{ProdShortName}} は独立して動作します。 Adobe Acrobat、Microsoft Office などのサードパーティの依存関係はありません。"
+      },
+      "item_2": {
+        "question": "購入前に {{ProdShortName}} の機能をテストすることはできますか?",
+        "answer": "絶対に！ {{ProdShortName}} は無料トライアルを提供しています。インストールしてその機能を調べてください。試用版ではドキュメントに「試用版バッジ」が追加され、最初の 3 ページのみが処理されることに注意してください。完全に体験するには、すべての機能にアクセスできる 30 日間の無料の一時ライセンスを取得してください。詳細については、[一時ライセンス]({{LicensingUrl}}) を参照してください。"
+      },
+      "item_3": {
+        "question": "どのようなライセンスの種類が提供されますか?",
+        "answer": "{{ProdShortName}} ライセンスをお探しですか?お客様のニーズに合わせた様々なオプションをご用意しております。チームの規模、展開場所 (単一のオフィスまたはリモートの職場)、エンド顧客の配布でクライアントと SDK/API を共有する必要があるかどうかに基づいて選択します。あるいは、従量制プランの月次使用ライセンスを選択し、使用した分だけお支払いください。 [価格設定]({{PricingUrl}}) であなたに最適なものを見つけてください。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} ローコード API",
+      "description": "クラウドベースの REST API 経由でアプリケーションを使用してファイルに署名します。",
+      "item_1": {
+        "content": "cURL RESTful API を使用して、PDF、Word、Excel、PowerPoint、JPEG、およびその他の多くのファイル形式に署名を追加します。"
+      },
+      "item_2": {
+        "content": "Cloud SDK 経由でドキュメントに署名することで、.NET アプリケーションを強化します。独自の方法でビジネス文書を保護します。"
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK を使用すると、Java アプリケーションがファイルに署名するためのさまざまな可能性へのアクセスが許可されます。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web アプリ",
+      "description": "{{ProdShortName}} は、ドキュメントに署名できる無料の Web アプリケーションを提供します。 60 を超える一般的なファイル形式に、お気に入りのブラウザを介して無料で署名できます。",
+      "item_1": {
+        "content": "あらゆるデバイスからドキュメントに署名できるオンライン ツール。"
+      },
+      "item_2": {
+        "content": "オンラインで MS Word DOCX に署名します。"
+      },
+      "item_3": {
+        "content": "PDF ドキュメントをオンラインで保護します。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office および OpenDocument 形式",
+      "title_2": "画像とグラフィックス",
+      "title_3": "他の",
+      "format_portable": "ポータブル",
+      "format_popular_images": "一般的な画像形式",
+      "format_multi_images": "複数ページの画像"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "App di firma digitale C# .NET, Java, Node.js",
+    "head_description": "Integra le firme elettroniche nelle applicazioni .NET, Java o Node.js con {{ProdShortName}}. Firma i formati di documenti aziendali più diffusi.",
+    "title": "Soluzione per la firma elettronica dei documenti",
+    "description_1": "Firma documenti e immagini digitali su qualsiasi piattaforma utilizzando le nostre API flessibili e soluzioni basate su app per programmatori e utenti finali.",
+    "description_2": "Cerca e modifica le firme aggiunte in precedenza utilizzando metodi avanzati.",
+    "description_3": "Proteggi i documenti dalle modifiche con certificati digitali e controlla i metadati nascosti.",
+    "words_for": "per",
+    "release_title": "Versione {0} rilasciata",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Altri esempi",
+    "code_comment_1": "Istanzia il Watermarker passando il percorso PDF",
+    "code_comment_2": "Personalizza le opzioni della filigrana",
+    "code_comment_3": "Applica la filigrana al documento PDF",
+    "code_comment_4": "Salva il documento dei risultati",
+    "overview_title": "{{ProdShortName}} in breve",
+    "formats_title": "Formati di file supportati",
+    "platforms": {
+      "title": "Indipendenza dalla piattaforma",
+      "head_title": "Scegli la tua piattaforma",
+      "description": "La libreria {{ProdShortName}} supporta i seguenti sistemi operativi e framework:",
+      "learn_more": "Saperne di più",
+      "any_other_text_editor": "Qualsiasi altro editor di testo"
+    },
+    "features": {
+      "title": "Funzionalità principali di {{ProdShortName}}",
+      "description": "La nostra soluzione è progettata per aggiungere vari tipi di firme ai formati di file e documenti più diffusi. Arricchisci facilmente i tuoi processi aziendali.",
+      "feature_1": {
+        "title": "Arricchisci i tuoi dati con le firme",
+        "content": "Aggiungi testo, immagini, filigrane, ecc. ai tuoi documenti aziendali."
+      },
+      "feature_2": {
+        "title": "Proteggi il contenuto dei documenti",
+        "content": "Vieta modifiche al documento sigillandolo con un certificato digitale."
+      },
+      "feature_3": {
+        "title": "Aggiungi dati nascosti e codici a barre",
+        "content": "Utilizza i metadati per archiviare informazioni invisibili o inserire codici a barre personalizzati nelle pagine."
+      },
+      "feature_4": {
+        "title": "Manipolare le firme",
+        "content": "Cerca, aggiorna o elimina tutte le firme aggiunte in precedenza."
+      }
+    },
+    "formats": {
+      "title": "Sono supportati oltre 60 formati di file",
+      "description": "{{ProdShortName}} supporta quasi tutti i formati di file più diffusi"
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "index_title": "Proteggi i tuoi file utilizzando le firme",
+      "index_description": "Esempi di codice {{ProdShortName}}",
+      "more_examples": "Altri esempi",
+      "sample_index": {
+        "title": "Genera e aggiungi il codice QR",
+        "content": "{{ProdShortName}} ci consente di generare e aggiungere codici QR a documenti con formati supportati. Fornire il percorso di un documento che deve essere firmato e impostare il testo desiderato e le opzioni visive del codice QR. Puoi inserire l'immagine del codice QR generata in qualsiasi area di qualsiasi pagina del documento.",
+        "comment_1": "Specificare il documento da firmare",
+        "comment_2": "Crea opzioni di segnaletica con codice QR",
+        "comment_3": "Imposta le opzioni del codice QR",
+        "comment_4": "Firma e salva il file elaborato"
+      },
+      "sample_1": {
+        "code_title": "Come proteggere il file tramite filigrana immagine.",
+        "comment_1": "Carica il documento sorgente su Watermarker",
+        "comment_2": "Specificare il percorso dell'immagine della filigrana",
+        "comment_3": "Proteggi il file e salvalo"
+      },
+      "sample_2": {
+        "code_title": "Ricerca e modifica delle filigrane.",
+        "comment_1": "Carica documento di origine",
+        "comment_2": "Cerca filigrane da aggiornare",
+        "comment_3": "Aggiorna le proprietà desiderate",
+        "comment_4": "Salva il documento modificato in un percorso specificato"
+      }
+    },
+    "metrics": {
+      "title": "I dati statistici della nostra biblioteca",
+      "description": "Ispeziona le metriche chiave del prodotto, rivelando approfondimenti sui nostri risultati, impatto e crescita",
+      "item_1": {
+        "title": "Formati supportati",
+        "description": "Firma di oltre 60 dei formati di file aziendali più diffusi."
+      },
+      "item_2": {
+        "title": "Download di NuGet",
+        "description": "{{ProdShortName}} per .NET è una libreria popolare con oltre 550.000 download su NuGet."
+      },
+      "item_3": {
+        "title": "Download di Maven",
+        "description": "Gli sviluppatori Java hanno scaricato {{ProdShortName}} su Maven più di 15.000 volte."
+      },
+      "item_4": {
+        "title": "Clienti felici",
+        "description": "Singoli sviluppatori e aziende leader in tutto il mondo utilizzano i nostri prodotti per creare soluzioni innovative."
+      }
+    },
+    "customers": {
+      "title": "I nostri clienti felici",
+      "description": "Le librerie GroupDocs sono utilizzate da marchi distinti e rinomati a livello globale in tutto il mondo"
+    },
+    "actions": {
+      "alt": "Licenza",
+      "title": "Pronti per iniziare?",
+      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza",
+      "description_index": "Prova gratuitamente le funzionalità di {{ProdShortName}} sulla tua piattaforma"
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Esplora le nostre domande frequenti",
+      "item_1": {
+        "question": "{{ProdShortName}} necessita di una libreria esterna per la firma dei documenti?",
+        "answer": "No, {{ProdShortName}} funziona in modo indipendente. Non ci sono dipendenze di terze parti come Adobe Acrobat, Microsoft Office, ecc."
+      },
+      "item_2": {
+        "question": "È possibile testare le funzionalità di {{ProdShortName}} prima dell'acquisto?",
+        "answer": "Assolutamente! {{ProdShortName}} offre una prova gratuita. Installalo ed esplora le sue funzionalità. Tieni presente che le versioni di prova aggiungono badge di prova ai tuoi documenti ed elaborano solo le prime 3 pagine. Per un'esperienza completa, ottieni una licenza temporanea gratuita di 30 giorni per accedere a tutte le funzionalità. Vedi i dettagli in [licenza temporanea]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quali tipi di licenza sono forniti?",
+        "answer": "Cerchi una licenza {{ProdShortName}}? Offriamo varie opzioni su misura per le vostre esigenze. Scegli in base alle dimensioni del team, alle posizioni di distribuzione (singolo ufficio o luoghi di lavoro remoti) e se la distribuzione al cliente finale richiede la condivisione dell'SDK/API con i clienti. In alternativa, opta per una licenza d'uso mensile con piani a consumo: paga solo per ciò che utilizzi. Scopri la soluzione più adatta a te alla pagina [prezzi]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "API a basso codice {{ProdShortName}}",
+      "description": "Firma i file utilizzando la tua applicazione tramite la nostra API REST basata su cloud.",
+      "item_1": {
+        "content": "Utilizza l'API RESTful cURL per inserire firme su PDF, Word, Excel, PowerPoint, JPEG e molti altri formati di file."
+      },
+      "item_2": {
+        "content": "Arricchisci le tue applicazioni .NET firmando documenti tramite Cloud SDK. Proteggi i documenti aziendali a modo tuo."
+      },
+      "item_3": {
+        "content": "L'SDK {{ProdShortName}} garantisce l'accesso a varie possibilità per le tue applicazioni Java di firmare qualsiasi file."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} App web",
+      "description": "{{ProdShortName}} presenta un'applicazione web gratuita in cui puoi firmare documenti. È possibile firmare GRATUITAMENTE più di 60 formati di file popolari tramite il tuo browser preferito.",
+      "item_1": {
+        "content": "Strumento online per apporre firme sui documenti da qualsiasi dispositivo."
+      },
+      "item_2": {
+        "content": "Firma MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Proteggi i documenti PDF online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formati Microsoft Office e OpenDocument",
+      "title_2": "Immagini e grafica",
+      "title_3": "Altro",
+      "format_portable": "Portatile",
+      "format_popular_images": "Formati di immagine più diffusi",
+      "format_multi_images": "Immagini multipagina"
+    }
+  }
+}

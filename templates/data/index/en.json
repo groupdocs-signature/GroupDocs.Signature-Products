@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "C# .NET, Java, Node.js Digital Signature Apps",
+    "head_description": "Integrate e-signatures in .NET, Java, or Node.js applications with {{ProdShortName}}. Sign popular business document formats.",
+    "title": "Document e-Signing Solution",
+    "description_1": "Sign digital documents and images on any platform using our flexible APIs and app-based solutions for programmers and end-users.",
+    "description_2": "Search and modify previously added signatures using advanced methods.",
+    "description_3": "Protect documents from changes with digital certificates and control hidden metadata.",
+    "words_for": "for",
+    "release_title": "Version {0} released",
+    "release_notes": "See what’s new",
+    "release_downloads": "Downloads",
+    "code_more": "More examples",
+    "code_comment_1": "Instantiate Watermarker passing PDF path",
+    "code_comment_2": "Customize watermark options",
+    "code_comment_3": "Apply watermark to PDF document",
+    "code_comment_4": "Save result document",
+    "overview_title": "{{ProdShortName}} at a glance",
+    "formats_title": "Supported file formats",
+    "platforms": {
+      "title": "Platform independence",
+      "head_title": "Choose your platform",
+      "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} key features",
+      "description": "Our solution is designed to add various types of signatures to popular document and file formats. Enrich your business processes easily.",
+      "feature_1": {
+        "title": "Enrich your data with signatures",
+        "content": "Append text, images, watermarks, etc. to your business documents."
+      },
+      "feature_2": {
+        "title": "Protect documents content",
+        "content": "Forbid document changes by sealing it with a digital certificate."
+      },
+      "feature_3": {
+        "title": "Add hidden data and barcodes",
+        "content": "Use metadata to store invisible information or put custom barcodes on pages."
+      },
+      "feature_4": {
+        "title": "Manipulate signatures",
+        "content": "Search, update, or delete all signatures that have been added previously."
+      }
+    },
+    "formats": {
+      "title": "60+ file formats are supported",
+      "description": "{{ProdShortName}} supports almost all popular file formats"
+    },
+    "code_samples": {
+      "title": "Code samples",
+      "index_title": "Protect your files using signatures",
+      "index_description": "{{ProdShortName}} code examples",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "Generate and add QR-code",
+        "content": "{{ProdShortName}} allows us to generate and add QR-codes to documents with supported formats. Provide the path to a document which must be signed and set up desired text and visual options of QR-code. You may put the generated QR-code image on any area of any document page.",
+        "comment_1": "Specify the document for signing",
+        "comment_2": "Create QR-code sign options",
+        "comment_3": "Set QR-code options",
+        "comment_4": "Sign and save processed file"
+      },
+      "sample_1": {
+        "code_title": "How to protect file by image watermark.",
+        "comment_1": "Load source document to Watermarker",
+        "comment_2": "Specify the path to a watermark image",
+        "comment_3": "Protect the file and save it"
+      },
+      "sample_2": {
+        "code_title": "Watermarks search & modification.",
+        "comment_1": "Load source document",
+        "comment_2": "Search for watermarks to be updated",
+        "comment_3": "Update desired properties",
+        "comment_4": "Save modified document to a specified path"
+      }
+    },
+    "metrics": {
+      "title": "Our library statistical data",
+      "description": "Inspect key product metrics, revealing insights into our achievements, impact, and growth",
+      "item_1": {
+        "title": "Supported formats",
+        "description": "Signing more than 60 of the most popular business file formats."
+      },
+      "item_2": {
+        "title": "NuGet downloads",
+        "description": "{{ProdShortName}} for .NET is a popular library with over 550,000 downloads on NuGet."
+      },
+      "item_3": {
+        "title": "Maven downloads",
+        "description": "Java developers have downloaded {{ProdShortName}} on Maven more than 15K times."
+      },
+      "item_4": {
+        "title": "Happy customers",
+        "description": "Individual developers and top companies worldwide use our products to build innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our happy customers",
+      "description": "GroupDocs libraries are employed by globally renowned and distinguished brands across the world"
+    },
+    "actions": {
+      "alt": "Licensing",
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "description_index": "Try {{ProdShortName}} features for free on your platform"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Explore our Frequently Asked Questions",
+      "item_1": {
+        "question": "Does {{ProdShortName}} need any external library for documents signing?",
+        "answer": "No, {{ProdShortName}} works independently. There are no third-party dependencies like Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "Is it possible to test {{ProdShortName}} features before buying?",
+        "answer": "Absolutely! {{ProdShortName}} offers a free trial. Install it and explore its features. Note that trial versions add 'trial badges' to your documents and only process the first 3 pages. For the full experience, obtain a free 30-day temporary license to access all functionalities. See details under [temporary license]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "What license types are provided?",
+        "answer": "Looking for a {{ProdShortName}} license? We offer various options tailored to your needs. Choose based on team size, deployment locations (single office or remote workplaces), and whether end-customer distribution requires sharing the SDK/API with clients. Alternatively, opt for a monthly usage license with metered plans—pay only for what you use. Discover the best fit for you under [pricing]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} low code APIs",
+      "description": "Sign files using your application via our cloud-based REST API.",
+      "item_1": {
+        "content": "Use cURL RESTful API to put signatures on PDF, Word, Excel, PowerPoint, JPEG, and many other file formats."
+      },
+      "item_2": {
+        "content": "Enrich your .NET applications with signing documents via Cloud SDK. Protect business documents in your own way."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK grants access to various possibilities for your Java applications to sign any files."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Web apps",
+      "description": "{{ProdShortName}} presents a free web application where you can sign documents. More than 60 popular file formats could be signed via your favorite browser FOR FREE.",
+      "item_1": {
+        "content": "Online tool to put signatures on documents from any device."
+      },
+      "item_2": {
+        "content": "Sign MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Protect PDF documents online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument formats",
+      "title_2": "Images & Graphics",
+      "title_3": "Other",
+      "format_portable": "Portable",
+      "format_popular_images": "Popular image formats",
+      "format_multi_images": "Multi-page images"
+    }
+  }
+}

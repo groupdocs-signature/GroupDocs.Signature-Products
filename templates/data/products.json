@@ -1,57 +1,109 @@
 {
   "products": {
+    "nameCompany": "GroupDocs",
     "nameProduct": "Signature",
     "productShortName": "GroupDocs.Signature",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/signature/net/",
+    "aspNet": "ASP.NET",
+    "coreNet": ".NET Core",
+    "mono": "Mono",
     "net": {
-      "name": ".NET",
-      "fullName": "GroupDocs.Signature for .NET",
-      "code": "net",
-      "progLang": "C#",
+      "environmentName": ".NET",
+      "environmentNameShort": ".NET",
+      "productCode": "net",
+      "productPlatformLink": "/signature/net/",
+      "productFullName": "GroupDocs.Signature for .NET",
+
+      "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "devEnv": "Microsoft Visual Studio, Xamarin, MonoDevelop",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
-      "repoName": "Nuget",
-      "repoUrl": "https://www.nuget.org/packages/groupdocs.signature",
-      "url": "https://products.groupdocs.com/signature/net/",
-      "main_link": "https://www.nuget.org/packages/GroupDocs.Signature",
-      "alt_link": "https://purchase.groupdocs.com/pricing/signature/net",
-      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+
+      "productUrl": "https://products.groupdocs.com/metadata/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Metadata",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/net/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/net/adding-metadata/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/net/"
     },
     "java": {
-      "name": "Java",
-      "fullName": "GroupDocs.Signature for Java",
-      "code": "java",
-      "progLang": "Java",
+      "environmentName": "Java",
+      "environmentNameShort": "Java",
+      "productCode": "java",
+      "productPlatformLink": "/signature/java/",
+      "productFullName": "GroupDocs.Signature for Java",
+
+      "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
       "runtime": "Java runtime: J2SE 6.0 and above",
-      "repoName": "Maven",
-      "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-signature",
-      "url": "https://products.groupdocs.com/signature/java/",
-      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/signature/java",
-      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+
+      "productUrl": "https://products.groupdocs.com/metadata/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/java/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/java/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/java/adding-metadata/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/java/"
+
     },
     "nodejs-java": {
-      "name": "Node.js",
-      "fullName": "GroupDocs.Signature for Node.js via Java",
-      "code": "nodejs-java",
-      "progLang": "JavaScript",
+      "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
+      "productCode": "nodejs-java",
+      "productPlatformLink": "/signature/nodejs-java/",
+      "productFullName": "GroupDocs.Signature for Node.js via Java",
+
+      "programmingLanguage": "JavaScript",
       "srcFileExt": ".js",
       "syntax": "javascript",
-      "devEnv": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
       "runtime": "Node.js",
-      "repoName": "NPM",
-      "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.signature/",
-      "url": "https://releases.groupdocs.com/signature/nodejs-java/",
-      "main_link": "https://www.npmjs.com/package/@groupdocs/groupdocs.signature/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/signature/nodejs-java/",
-      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/signature/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/",
-      "sample2Url": "https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/"
+
+      "productUrl": "https://products.groupdocs.com/metadata/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.metadata",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/nodejs-java/adding-metadata/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/nodejs-java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productPlatformLink": "/signature/python-net/",
+      "productFullName": "GroupDocs.Signature for Python via .NET",
+
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python",
+
+      "productUrl": "https://products.groupdocs.com/metadata/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-metadata-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/python-net/adding-metadata/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/python-net/"
     }
   }
 }

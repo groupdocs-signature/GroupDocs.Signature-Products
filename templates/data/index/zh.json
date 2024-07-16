@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "C# .NET、Java、Node.js 数字签名应用程序",
+    "head_description": "将 .NET、Java 或 Node.js 应用程序中的电子签名与 {{ProdShortName}} 集成。签署流行的商业文档格式。",
+    "title": "文档电子签名解决方案",
+    "description_1": "使用我们为程序员和最终用户提供的灵活 API 和基于应用程序的解决方案，在任何平台上签署数字文档和图像。",
+    "description_2": "使用高级方法搜索和修改以前添加的签名。",
+    "description_3": "使用数字证书保护文档免受更改并控制隐藏的元数据。",
+    "words_for": "为了",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "看看有什么新鲜事",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "code_comment_1": "实例化水印传递 PDF 路径",
+    "code_comment_2": "自定义水印选项",
+    "code_comment_3": "将水印应用于 PDF 文档",
+    "code_comment_4": "保存结果文档",
+    "overview_title": "{{ProdShortName}} 概览",
+    "formats_title": "支持的文件格式",
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 库支持以下操作系统和框架：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 主要功能",
+      "description": "我们的解决方案旨在向流行的文档和文件格式添加各种类型的签名。轻松丰富您的业务流程。",
+      "feature_1": {
+        "title": "通过签名丰富您的数据",
+        "content": "将文本、图像、水印等附加到您的业务文档中。"
+      },
+      "feature_2": {
+        "title": "保护文档内容",
+        "content": "通过使用数字证书密封来禁止文档更改。"
+      },
+      "feature_3": {
+        "title": "添加隐藏数据和条形码",
+        "content": "使用元数据存储不可见信息或在页面上放置自定义条形码。"
+      },
+      "feature_4": {
+        "title": "操纵签名",
+        "content": "搜索、更新或删除之前添加的所有签名。"
+      }
+    },
+    "formats": {
+      "title": "支持 60 多种文件格式",
+      "description": "{{ProdShortName}} 支持几乎所有流行的文件格式"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "使用签名保护您的文件",
+      "index_description": "{{ProdShortName}} 代码示例",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "生成并添加二维码",
+        "content": "{{ProdShortName}} 允许我们生成 QR 码并将其添加到具有受支持格式的文档中。提供必须签名的文档的路径，并设置所需的 QR 码文本和视觉选项。您可以将生成的二维码图像放置在任何文档页面的任何区域。",
+        "comment_1": "指定要签署的文件",
+        "comment_2": "创建 QR 码标志选项",
+        "comment_3": "设置 QR 码选项",
+        "comment_4": "签名并保存处理后的文件"
+      },
+      "sample_1": {
+        "code_title": "如何通过图像水印保护文件。",
+        "comment_1": "将源文档加载到 Watermarker",
+        "comment_2": "指定水印图片的路径",
+        "comment_3": "保护文件并保存"
+      },
+      "sample_2": {
+        "code_title": "水印搜索和修改。",
+        "comment_1": "加载源文档",
+        "comment_2": "搜索水印要更新",
+        "comment_3": "更新所需的属性",
+        "comment_4": "将修改后的文档保存到指定路径"
+      }
+    },
+    "metrics": {
+      "title": "我们的图书馆统计数据",
+      "description": "检查关键产品指标，揭示对我们的成就、影响和增长的见解",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "签署 60 多种最流行的商业文件格式。"
+      },
+      "item_2": {
+        "title": "NuGet 下载",
+        "description": ".NET 的 {{ProdShortName}} 是一个流行的库，在 NuGet 上的下载量超过 550,000 次。"
+      },
+      "item_3": {
+        "title": "Maven 下载",
+        "description": "Java 开发人员已在 Maven 上下载 {{ProdShortName}} 超过 15K 次。"
+      },
+      "item_4": {
+        "title": "快乐的顾客",
+        "description": "全球的个人开发者和顶级公司使用我们的产品来构建创新的解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们满意的客户",
+      "description": "GroupDocs 库被世界各地的全球知名和杰出品牌所采用"
+    },
+    "actions": {
+      "alt": "许可",
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 功能或申请许可证",
+      "description_index": "在您的平台上免费试用 {{ProdShortName}} 功能"
+    },
+    "faq": {
+      "title": "经常问的问题",
+      "description": "探索我们的常见问题",
+      "item_1": {
+        "question": "{{ProdShortName}} 是否需要任何外部库来进行文档签名？",
+        "answer": "不，{{ProdShortName}} 独立工作。没有 Adob​​e Acrobat、Microsoft Office 等第三方依赖项。"
+      },
+      "item_2": {
+        "question": "购买前是否可以测试 {{ProdShortName}} 功能？",
+        "answer": "绝对地！ {{ProdShortName}} 提供免费试用。安装它并探索它的功能。请注意，试用版会向您的文档添加“试用徽章”，并且仅处理前 3 页。要获得完整体验，请获取免费的 30 天临时许可证来访问所有功能。请参阅[临时许可证]({{LicensingUrl}}) 下的详细信息。"
+      },
+      "item_3": {
+        "question": "提供哪些许可证类型？",
+        "answer": "正在寻找 {{ProdShortName}} 许可证？我们提供根据您的需求量身定制的各种选项。根据团队规模、部署位置（单个办公室或远程工作场所）以及最终客户分发是否需要与客户共享 SDK/API 进行选择。或者，您也可以选择按月计费的使用许可证，只需按使用量付费。在 [价钱]({{PricingUrl}}) 下找到最适合您的价格。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API",
+      "description": "通过我们基于云的 REST API 使用您的应用程序签署文件。",
+      "item_1": {
+        "content": "使用 cURL RESTful API 在 PDF、Word、Excel、PowerPoint、JPEG 和许多其他文件格式上添加签名。"
+      },
+      "item_2": {
+        "content": "通过 Cloud SDK 签署文档来丰富您的 .NET 应用程序。以您自己的方式保护业务文档。"
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK 授予您的 Java 应用程序签署任何文件的各种可能性。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 网络应用",
+      "description": "{{ProdShortName}} 提供了一个免费的网络应用程序，您可以在其中签署文档。可以通过您喜爱的浏览器免费对 60 多种流行的文件格式进行签名。",
+      "item_1": {
+        "content": "可通过任何设备在文档上签名的在线工具。"
+      },
+      "item_2": {
+        "content": "在线签署 MS Word DOCX。"
+      },
+      "item_3": {
+        "content": "在线保护 PDF 文档。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office 和 OpenDocument 格式",
+      "title_2": "图像与图形",
+      "title_3": "其他",
+      "format_portable": "便携的",
+      "format_popular_images": "流行的图像格式",
+      "format_multi_images": "多页图像"
+    }
+  }
+}

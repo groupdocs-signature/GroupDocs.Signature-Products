@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "Ứng dụng chữ ký số C# .NET, Java, Node.js",
+    "head_description": "Tích hợp chữ ký điện tử trong các ứng dụng .NET, Java hoặc Node.js với {{ProdShortName}}. Ký các định dạng tài liệu kinh doanh phổ biến.",
+    "title": "Giải pháp ký điện tử tài liệu",
+    "description_1": "Ký các tài liệu và hình ảnh kỹ thuật số trên bất kỳ nền tảng nào bằng cách sử dụng API linh hoạt và các giải pháp dựa trên ứng dụng của chúng tôi dành cho lập trình viên và người dùng cuối.",
+    "description_2": "Tìm kiếm và sửa đổi chữ ký đã thêm trước đó bằng các phương pháp nâng cao.",
+    "description_3": "Bảo vệ tài liệu khỏi những thay đổi bằng chứng chỉ kỹ thuật số và kiểm soát siêu dữ liệu ẩn.",
+    "words_for": "vì",
+    "release_title": "Đã phát hành phiên bản {0}",
+    "release_notes": "Xem có gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "code_comment_1": "Khởi tạo đường dẫn PDF đi qua Watermarker",
+    "code_comment_2": "Tùy chỉnh tùy chọn hình mờ",
+    "code_comment_3": "Áp dụng hình mờ cho tài liệu PDF",
+    "code_comment_4": "Lưu tài liệu kết quả",
+    "overview_title": "Sơ lược về {{ProdShortName}}",
+    "formats_title": "Các định dạng tập tin được hỗ trợ",
+    "platforms": {
+      "title": "Nền tảng độc lập",
+      "head_title": "Chọn nền tảng của bạn",
+      "description": "Thư viện {{ProdShortName}} hỗ trợ các hệ điều hành và khung sau:",
+      "learn_more": "Tìm hiểu thêm",
+      "any_other_text_editor": "Bất kỳ trình soạn thảo văn bản nào khác"
+    },
+    "features": {
+      "title": "Các tính năng chính của {{ProdShortName}}",
+      "description": "Giải pháp của chúng tôi được thiết kế để thêm nhiều loại chữ ký khác nhau vào các định dạng tài liệu và tệp phổ biến. Làm phong phú quy trình kinh doanh của bạn một cách dễ dàng.",
+      "feature_1": {
+        "title": "Làm phong phú dữ liệu của bạn bằng chữ ký",
+        "content": "Nối văn bản, hình ảnh, hình mờ, v.v. vào tài liệu kinh doanh của bạn."
+      },
+      "feature_2": {
+        "title": "Bảo vệ nội dung tài liệu",
+        "content": "Cấm thay đổi tài liệu bằng cách niêm phong nó bằng chứng chỉ kỹ thuật số."
+      },
+      "feature_3": {
+        "title": "Thêm dữ liệu ẩn và mã vạch",
+        "content": "Sử dụng siêu dữ liệu để lưu trữ thông tin vô hình hoặc đặt mã vạch tùy chỉnh trên các trang."
+      },
+      "feature_4": {
+        "title": "Thao tác chữ ký",
+        "content": "Tìm kiếm, cập nhật hoặc xóa tất cả chữ ký đã được thêm trước đó."
+      }
+    },
+    "formats": {
+      "title": "Hơn 60 định dạng tệp được hỗ trợ",
+      "description": "{{ProdShortName}} hỗ trợ hầu hết các định dạng tệp phổ biến"
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "index_title": "Bảo vệ tập tin của bạn bằng chữ ký",
+      "index_description": "Ví dụ về mã {{ProdShortName}}",
+      "more_examples": "Thêm ví dụ",
+      "sample_index": {
+        "title": "Tạo và thêm mã QR",
+        "content": "{{ProdShortName}} cho phép chúng tôi tạo và thêm mã QR vào tài liệu có định dạng được hỗ trợ. Cung cấp đường dẫn đến tài liệu phải được ký và thiết lập các tùy chọn văn bản và hình ảnh mong muốn của mã QR. Bạn có thể đặt hình ảnh mã QR đã tạo trên bất kỳ khu vực nào của bất kỳ trang tài liệu nào.",
+        "comment_1": "Chỉ định tài liệu để ký",
+        "comment_2": "Tạo tùy chọn ký hiệu mã QR",
+        "comment_3": "Đặt tùy chọn mã QR",
+        "comment_4": "Ký và lưu tập tin đã xử lý"
+      },
+      "sample_1": {
+        "code_title": "Cách bảo vệ tập tin bằng hình mờ hình ảnh.",
+        "comment_1": "Tải tài liệu nguồn vào Watermarker",
+        "comment_2": "Chỉ định đường dẫn đến hình ảnh mờ",
+        "comment_3": "Bảo vệ tập tin và lưu nó"
+      },
+      "sample_2": {
+        "code_title": "Tìm kiếm và sửa đổi hình mờ.",
+        "comment_1": "Tải tài liệu nguồn",
+        "comment_2": "Tìm kiếm hình mờ để được cập nhật",
+        "comment_3": "Cập nhật thuộc tính mong muốn",
+        "comment_4": "Lưu tài liệu đã sửa đổi vào một đường dẫn cụ thể"
+      }
+    },
+    "metrics": {
+      "title": "Dữ liệu thống kê thư viện của chúng tôi",
+      "description": "Kiểm tra các số liệu sản phẩm chính, tiết lộ thông tin chuyên sâu về thành tựu, tác động và sự phát triển của chúng tôi",
+      "item_1": {
+        "title": "Các định dạng được hỗ trợ",
+        "description": "Ký hơn 60 định dạng tệp kinh doanh phổ biến nhất."
+      },
+      "item_2": {
+        "title": "Tải xuống NuGet",
+        "description": "{{ProdShortName}} cho .NET là thư viện phổ biến với hơn 550.000 lượt tải xuống trên NuGet."
+      },
+      "item_3": {
+        "title": "Tải xuống Maven",
+        "description": "Các nhà phát triển Java đã tải xuống {{ProdShortName}} trên Maven hơn 15 nghìn lần."
+      },
+      "item_4": {
+        "title": "Khách hàng hạnh phúc",
+        "description": "Các nhà phát triển cá nhân và các công ty hàng đầu trên toàn thế giới sử dụng sản phẩm của chúng tôi để xây dựng các giải pháp sáng tạo."
+      }
+    },
+    "customers": {
+      "title": "Khách hàng hạnh phúc của chúng tôi",
+      "description": "Thư viện GroupDocs được các thương hiệu nổi tiếng và nổi tiếng trên toàn thế giới sử dụng"
+    },
+    "actions": {
+      "alt": "Cấp phép",
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử miễn phí các tính năng của {{ProdShortName}} hoặc yêu cầu giấy phép",
+      "description_index": "Dùng thử miễn phí các tính năng của {{ProdShortName}} trên nền tảng của bạn"
+    },
+    "faq": {
+      "title": "Các câu hỏi thường gặp",
+      "description": "Khám phá các câu hỏi thường gặp của chúng tôi",
+      "item_1": {
+        "question": "{{ProdShortName}} có cần thư viện bên ngoài nào để ký tài liệu không?",
+        "answer": "Không, {{ProdShortName}} hoạt động độc lập. Không có sự phụ thuộc của bên thứ ba như Adobe Acrobat, Microsoft Office, v.v."
+      },
+      "item_2": {
+        "question": "Có thể thử nghiệm các tính năng của {{ProdShortName}} trước khi mua không?",
+        "answer": "Tuyệt đối! {{ProdShortName}} cung cấp bản dùng thử miễn phí. Hãy cài đặt nó và khám phá các tính năng của nó. Lưu ý rằng các phiên bản dùng thử sẽ thêm 'huy hiệu dùng thử' vào tài liệu của bạn và chỉ xử lý 3 trang đầu tiên. Để có trải nghiệm đầy đủ, hãy nhận giấy phép tạm thời 30 ngày miễn phí để truy cập tất cả các chức năng. Xem chi tiết trong [giấy phép tạm thời]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Những loại giấy phép nào được cung cấp?",
+        "answer": "Bạn đang tìm giấy phép {{ProdShortName}}? Chúng tôi cung cấp nhiều lựa chọn khác nhau phù hợp với nhu cầu của bạn. Chọn dựa trên quy mô nhóm, địa điểm triển khai (văn phòng đơn lẻ hoặc nơi làm việc từ xa) và liệu việc phân phối cho khách hàng cuối có yêu cầu chia sẻ SDK/API với khách hàng hay không. Ngoài ra, hãy chọn giấy phép sử dụng hàng tháng với các gói có đồng hồ đo—chỉ trả tiền cho những gì bạn sử dụng. Khám phá lựa chọn phù hợp nhất với bạn trong [giá]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "API mã thấp {{ProdShortName}}",
+      "description": "Ký các tệp bằng ứng dụng của bạn thông qua API REST dựa trên đám mây của chúng tôi.",
+      "item_1": {
+        "content": "Sử dụng cURL RESTful API để đặt chữ ký trên PDF, Word, Excel, PowerPoint, JPEG và nhiều định dạng tệp khác."
+      },
+      "item_2": {
+        "content": "Làm phong phú thêm các ứng dụng .NET của bạn bằng cách ký tài liệu qua Cloud SDK. Bảo vệ tài liệu kinh doanh theo cách riêng của bạn."
+      },
+      "item_3": {
+        "content": "SDK {{ProdShortName}} cấp quyền truy cập vào nhiều khả năng khác nhau để ứng dụng Java của bạn ký bất kỳ tệp nào."
+      }
+    },
+    "app_links": {
+      "title": "Ứng dụng web {{ProdShortName}}",
+      "description": "{{ProdShortName}} giới thiệu một ứng dụng web miễn phí nơi bạn có thể ký tài liệu. Hơn 60 định dạng tệp phổ biến có thể được ký MIỄN PHÍ thông qua trình duyệt yêu thích của bạn.",
+      "item_1": {
+        "content": "Công cụ trực tuyến để đặt chữ ký trên tài liệu từ mọi thiết bị."
+      },
+      "item_2": {
+        "content": "Ký MS Word DOCX trực tuyến."
+      },
+      "item_3": {
+        "content": "Bảo vệ tài liệu PDF trực tuyến."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Các định dạng Microsoft Office & OpenDocument",
+      "title_2": "Hình ảnh & Đồ họa",
+      "title_3": "Khác",
+      "format_portable": "Cầm tay",
+      "format_popular_images": "Các định dạng hình ảnh phổ biến",
+      "format_multi_images": "Hình ảnh nhiều trang"
+    }
+  }
+}
