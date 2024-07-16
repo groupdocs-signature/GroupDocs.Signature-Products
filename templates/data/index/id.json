@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "Aplikasi Tanda Tangan Digital C# .NET, Java, Node.js",
+    "head_description": "Integrasikan tanda tangan elektronik di aplikasi .NET, Java, atau Node.js dengan {{ProdShortName}}. Tanda tangani format dokumen bisnis populer.",
+    "title": "Solusi Penandatanganan Dokumen secara elektronik",
+    "description_1": "Tanda tangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir.",
+    "description_2": "Cari dan ubah tanda tangan yang ditambahkan sebelumnya menggunakan metode lanjutan.",
+    "description_3": "Lindungi dokumen dari perubahan dengan sertifikat digital dan kendalikan metadata tersembunyi.",
+    "words_for": "untuk",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Buat instance Watermarker yang melewati jalur PDF",
+    "code_comment_2": "Sesuaikan opsi tanda air",
+    "code_comment_3": "Terapkan tanda air ke dokumen PDF",
+    "code_comment_4": "Simpan dokumen hasil",
+    "overview_title": "{{ProdShortName}} sekilas",
+    "formats_title": "Format file yang didukung",
+    "platforms": {
+      "title": "Independensi platform",
+      "head_title": "Pilih platform Anda",
+      "description": "Pustaka {{ProdShortName}} mendukung sistem operasi dan kerangka kerja berikut:",
+      "learn_more": "Belajarlah lagi",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "features": {
+      "title": "{{ProdShortName}} fitur utama",
+      "description": "Solusi kami dirancang untuk menambahkan berbagai jenis tanda tangan ke format dokumen dan file populer. Perkaya proses bisnis Anda dengan mudah.",
+      "feature_1": {
+        "title": "Perkaya data Anda dengan tanda tangan",
+        "content": "Tambahkan teks, gambar, tanda air, dll. ke dokumen bisnis Anda."
+      },
+      "feature_2": {
+        "title": "Lindungi konten dokumen",
+        "content": "Larang perubahan dokumen dengan menyegelnya dengan sertifikat digital."
+      },
+      "feature_3": {
+        "title": "Tambahkan data dan kode batang tersembunyi",
+        "content": "Gunakan metadata untuk menyimpan informasi yang tidak terlihat atau memasang kode batang khusus di halaman."
+      },
+      "feature_4": {
+        "title": "Memanipulasi tanda tangan",
+        "content": "Cari, perbarui, atau hapus semua tanda tangan yang telah ditambahkan sebelumnya."
+      }
+    },
+    "formats": {
+      "title": "60+ format file didukung",
+      "description": "{{ProdShortName}} mendukung hampir semua format file populer"
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "index_title": "Lindungi file Anda menggunakan tanda tangan",
+      "index_description": "Contoh kode {{ProdShortName}}",
+      "more_examples": "Lebih banyak contoh",
+      "sample_index": {
+        "title": "Hasilkan dan tambahkan kode QR",
+        "content": "{{ProdShortName}} memungkinkan kami membuat dan menambahkan kode QR ke dokumen dengan format yang didukung. Berikan jalur ke dokumen yang harus ditandatangani dan atur opsi teks dan visual kode QR yang diinginkan. Anda dapat meletakkan gambar kode QR yang dihasilkan di area mana pun di halaman dokumen mana pun.",
+        "comment_1": "Tentukan dokumen yang akan ditandatangani",
+        "comment_2": "Buat opsi tanda kode QR",
+        "comment_3": "Atur opsi kode QR",
+        "comment_4": "Tanda tangani dan simpan file yang diproses"
+      },
+      "sample_1": {
+        "code_title": "Bagaimana melindungi file dengan tanda air gambar.",
+        "comment_1": "Muat dokumen sumber ke Watermarker",
+        "comment_2": "Tentukan jalur ke gambar tanda air",
+        "comment_3": "Lindungi file dan simpan"
+      },
+      "sample_2": {
+        "code_title": "Pencarian & modifikasi tanda air.",
+        "comment_1": "Muat dokumen sumber",
+        "comment_2": "Cari tanda air untuk diperbarui",
+        "comment_3": "Perbarui properti yang diinginkan",
+        "comment_4": "Simpan dokumen yang dimodifikasi ke jalur tertentu"
+      }
+    },
+    "metrics": {
+      "title": "Data statistik perpustakaan kami",
+      "description": "Periksa metrik produk utama, ungkapkan wawasan tentang pencapaian, dampak, dan pertumbuhan kami",
+      "item_1": {
+        "title": "Format yang didukung",
+        "description": "Menandatangani lebih dari 60 format file bisnis paling populer."
+      },
+      "item_2": {
+        "title": "Unduhan NuGet",
+        "description": "{{ProdShortName}} untuk .NET adalah perpustakaan populer dengan lebih dari 550.000 unduhan di NuGet."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "Pengembang Java telah mengunduh {{ProdShortName}} di Maven lebih dari 15 ribu kali."
+      },
+      "item_4": {
+        "title": "Pelanggan yang senang",
+        "description": "Pengembang individu dan perusahaan terkemuka di seluruh dunia menggunakan produk kami untuk membangun solusi inovatif."
+      }
+    },
+    "customers": {
+      "title": "Pelanggan kami yang bahagia",
+      "description": "Perpustakaan GroupDocs digunakan oleh merek-merek terkenal dan terkemuka secara global di seluruh dunia"
+    },
+    "actions": {
+      "alt": "Perizinan",
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda"
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "description": "Jelajahi Pertanyaan Umum kami",
+      "item_1": {
+        "question": "Apakah {{ProdShortName}} memerlukan perpustakaan eksternal untuk penandatanganan dokumen?",
+        "answer": "Tidak, {{ProdShortName}} bekerja secara independen. Tidak ada ketergantungan pihak ketiga seperti Adobe Acrobat, Microsoft Office, dll."
+      },
+      "item_2": {
+        "question": "Apakah mungkin untuk menguji fitur {{ProdShortName}} sebelum membeli?",
+        "answer": "Sangat! {{ProdShortName}} menawarkan uji coba gratis. Instal dan jelajahi fitur-fiturnya. Perhatikan bahwa versi uji coba menambahkan 'lencana uji coba' ke dokumen Anda dan hanya memproses 3 halaman pertama. Untuk pengalaman penuh, dapatkan lisensi sementara gratis selama 30 hari untuk mengakses semua fungsi. Lihat detailnya di bawah [lisensi sementara]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Jenis lisensi apa yang disediakan?",
+        "answer": "Mencari lisensi {{ProdShortName}}? Kami menawarkan berbagai pilihan yang disesuaikan dengan kebutuhan Anda. Pilih berdasarkan ukuran tim, lokasi penerapan (kantor tunggal atau tempat kerja jarak jauh), dan apakah distribusi pelanggan akhir memerlukan berbagi SDK/API dengan klien. Alternatifnya, pilihlah lisensi penggunaan bulanan dengan paket terukur—bayar hanya untuk apa yang Anda gunakan. Temukan yang paling cocok untuk Anda berdasarkan [harga]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API kode rendah",
+      "description": "Tanda tangani file menggunakan aplikasi Anda melalui REST API berbasis cloud kami.",
+      "item_1": {
+        "content": "Gunakan cURL RESTful API untuk memberi tanda tangan pada PDF, Word, Excel, PowerPoint, JPEG, dan banyak format file lainnya."
+      },
+      "item_2": {
+        "content": "Perkaya aplikasi .NET Anda dengan penandatanganan dokumen melalui Cloud SDK. Lindungi dokumen bisnis dengan cara Anda sendiri."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK memberikan akses ke berbagai kemungkinan bagi aplikasi Java Anda untuk menandatangani file apa pun."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Aplikasi web",
+      "description": "{{ProdShortName}} menghadirkan aplikasi web gratis tempat Anda dapat menandatangani dokumen. Lebih dari 60 format file populer dapat ditandatangani melalui browser favorit Anda GRATIS.",
+      "item_1": {
+        "content": "Alat online untuk memberi tanda tangan pada dokumen dari perangkat apa pun."
+      },
+      "item_2": {
+        "content": "Tanda tangani MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Lindungi dokumen PDF secara online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Format Microsoft Office & OpenDocument",
+      "title_2": "Gambar & Grafik",
+      "title_3": "Lainnya",
+      "format_portable": "Portabel",
+      "format_popular_images": "Format gambar populer",
+      "format_multi_images": "Gambar multi-halaman"
+    }
+  }
+}

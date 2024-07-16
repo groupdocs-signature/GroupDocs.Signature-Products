@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "Applications de signature numérique C# .NET, Java, Node.js",
+    "head_description": "Intégrez les signatures électroniques dans les applications .NET, Java ou Node.js avec {{ProdShortName}}. Signez les formats de documents commerciaux les plus courants.",
+    "title": "Solution de signature électronique de documents",
+    "description_1": "Signez des documents et des images numériques sur n'importe quelle plate-forme à l'aide de nos API flexibles et de nos solutions basées sur des applications pour les programmeurs et les utilisateurs finaux.",
+    "description_2": "Recherchez et modifiez les signatures précédemment ajoutées à l'aide de méthodes avancées.",
+    "description_3": "Protégez les documents des modifications grâce aux certificats numériques et contrôlez les métadonnées cachées.",
+    "words_for": "pour",
+    "release_title": "Version {0} publiée",
+    "release_notes": "Regardez ce qu'il y a de nouveau",
+    "release_downloads": "Téléchargements",
+    "code_more": "Plus d'exemples",
+    "code_comment_1": "Instancier le filigrane en passant le chemin PDF",
+    "code_comment_2": "Personnaliser les options de filigrane",
+    "code_comment_3": "Appliquer un filigrane au document PDF",
+    "code_comment_4": "Enregistrer le document de résultat",
+    "overview_title": "{{ProdShortName}} en un coup d'œil",
+    "formats_title": "Formats de fichiers pris en charge",
+    "platforms": {
+      "title": "Indépendance de la plateforme",
+      "head_title": "Choisissez votre plateforme",
+      "description": "La bibliothèque {{ProdShortName}} prend en charge les systèmes d'exploitation et les frameworks suivants :",
+      "learn_more": "Apprendre encore plus",
+      "any_other_text_editor": "Tout autre éditeur de texte"
+    },
+    "features": {
+      "title": "{{ProdShortName}} fonctionnalités clés",
+      "description": "Notre solution est conçue pour ajouter différents types de signatures aux formats de documents et de fichiers courants. Enrichissez facilement vos processus métier.",
+      "feature_1": {
+        "title": "Enrichissez vos données avec des signatures",
+        "content": "Ajoutez du texte, des images, des filigranes, etc. à vos documents professionnels."
+      },
+      "feature_2": {
+        "title": "Protéger le contenu des documents",
+        "content": "Interdisez les modifications de documents en les scellant avec un certificat numérique."
+      },
+      "feature_3": {
+        "title": "Ajouter des données cachées et des codes-barres",
+        "content": "Utilisez des métadonnées pour stocker des informations invisibles ou insérer des codes-barres personnalisés sur les pages."
+      },
+      "feature_4": {
+        "title": "Manipuler les signatures",
+        "content": "Recherchez, mettez à jour ou supprimez toutes les signatures ajoutées précédemment."
+      }
+    },
+    "formats": {
+      "title": "Plus de 60 formats de fichiers sont pris en charge",
+      "description": "{{ProdShortName}} prend en charge presque tous les formats de fichiers courants"
+    },
+    "code_samples": {
+      "title": "Exemples de codes",
+      "index_title": "Protégez vos fichiers à l'aide de signatures",
+      "index_description": "{{ProdShortName}} exemples de code",
+      "more_examples": "Plus d'exemples",
+      "sample_index": {
+        "title": "Générer et ajouter un code QR",
+        "content": "{{ProdShortName}} nous permet de générer et d'ajouter des codes QR aux documents aux formats pris en charge. Fournissez le chemin d’accès à un document qui doit être signé et configurez le texte souhaité et les options visuelles du code QR. Vous pouvez placer l'image du code QR générée sur n'importe quelle zone de n'importe quelle page de document.",
+        "comment_1": "Préciser le document à signer",
+        "comment_2": "Créer des options de signe de code QR",
+        "comment_3": "Définir les options du code QR",
+        "comment_4": "Signer et enregistrer le fichier traité"
+      },
+      "sample_1": {
+        "code_title": "Comment protéger un fichier par filigrane d'image.",
+        "comment_1": "Charger le document source dans Watermarker",
+        "comment_2": "Spécifier le chemin d'accès à une image en filigrane",
+        "comment_3": "Protégez le fichier et enregistrez-le"
+      },
+      "sample_2": {
+        "code_title": "Recherche et modification de filigranes.",
+        "comment_1": "Charger le document source",
+        "comment_2": "Rechercher des filigranes à mettre à jour",
+        "comment_3": "Mettre à jour les propriétés souhaitées",
+        "comment_4": "Enregistrer le document modifié dans un chemin spécifié"
+      }
+    },
+    "metrics": {
+      "title": "Données statistiques de notre bibliothèque",
+      "description": "Inspectez les indicateurs clés des produits, révélant des informations sur nos réalisations, notre impact et notre croissance",
+      "item_1": {
+        "title": "Formats pris en charge",
+        "description": "Signature de plus de 60 formats de fichiers professionnels parmi les plus populaires."
+      },
+      "item_2": {
+        "title": "Téléchargements NuGet",
+        "description": "{{ProdShortName}} pour .NET est une bibliothèque populaire avec plus de 550 000 téléchargements sur NuGet."
+      },
+      "item_3": {
+        "title": "Téléchargements Maven",
+        "description": "Les développeurs Java ont téléchargé {{ProdShortName}} sur Maven plus de 15 000 fois."
+      },
+      "item_4": {
+        "title": "Clients satisfaits",
+        "description": "Des développeurs individuels et de grandes entreprises du monde entier utilisent nos produits pour créer des solutions innovantes."
+      }
+    },
+    "customers": {
+      "title": "Nos clients satisfaits",
+      "description": "Les bibliothèques GroupDocs sont utilisées par des marques de renommée mondiale et distinguées à travers le monde"
+    },
+    "actions": {
+      "alt": "Licence",
+      "title": "Prêt à commencer?",
+      "description": "Essayez {{ProdShortName}} fonctionnalités gratuitement ou demandez une licence",
+      "description_index": "Essayez les fonctionnalités de {{ProdShortName}} gratuitement sur votre plateforme"
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "description": "Explorez notre foire aux questions",
+      "item_1": {
+        "question": "{{ProdShortName}} a-t-il besoin d'une bibliothèque externe pour la signature de documents ?",
+        "answer": "Non, {{ProdShortName}} fonctionne de manière indépendante. Il n'y a pas de dépendances tierces comme Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "Est-il possible de tester les fonctionnalités de {{ProdShortName}} avant d'acheter ?",
+        "answer": "Absolument! {{ProdShortName}} propose un essai gratuit. Installez-le et explorez ses fonctionnalités. Notez que les versions d'essai ajoutent des « badges d'essai » à vos documents et ne traitent que les 3 premières pages. Pour une expérience complète, obtenez une licence temporaire gratuite de 30 jours pour accéder à toutes les fonctionnalités. Voir les détails sous [licence temporaire]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quels types de licences sont proposés ?",
+        "answer": "Vous recherchez une licence {{ProdShortName}} ? Nous vous proposons différentes options adaptées à vos besoins. Choisissez en fonction de la taille de l'équipe, des emplacements de déploiement (bureau unique ou lieux de travail distants) et si la distribution au client final nécessite le partage du SDK/API avec les clients. Vous pouvez également opter pour une licence d’utilisation mensuelle avec des forfaits payants : ne payez que pour ce que vous utilisez. Découvrez la solution qui vous convient le mieux sous [pricing]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API low-code",
+      "description": "Signez des fichiers à l'aide de votre application via notre API REST basée sur le cloud.",
+      "item_1": {
+        "content": "Utilisez l'API cURL RESTful pour apposer des signatures sur PDF, Word, Excel, PowerPoint, JPEG et de nombreux autres formats de fichiers."
+      },
+      "item_2": {
+        "content": "Enrichissez vos applications .NET avec la signature de documents via Cloud SDK. Protégez les documents professionnels à votre manière."
+      },
+      "item_3": {
+        "content": "Le SDK {{ProdShortName}} donne accès à diverses possibilités permettant à vos applications Java de signer n'importe quel fichier."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Applications Web",
+      "description": "{{ProdShortName}} présente une application Web gratuite où vous pouvez signer des documents. Plus de 60 formats de fichiers populaires peuvent être signés GRATUITEMENT via votre navigateur préféré.",
+      "item_1": {
+        "content": "Outil en ligne pour apposer des signatures sur des documents depuis n'importe quel appareil."
+      },
+      "item_2": {
+        "content": "Signez MS Word DOCX en ligne."
+      },
+      "item_3": {
+        "content": "Protégez les documents PDF en ligne."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formats Microsoft Office et OpenDocument",
+      "title_2": "Images et graphiques",
+      "title_3": "Autre",
+      "format_portable": "Portable",
+      "format_popular_images": "Formats d'images populaires",
+      "format_multi_images": "Images multipages"
+    }
+  }
+}

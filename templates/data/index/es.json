@@ -1,0 +1,159 @@
+{
+  "index-content": {
+    "head_title": "Aplicaciones de firma digital C# .NET, Java, Node.js",
+    "head_description": "Integre firmas electrónicas en aplicaciones .NET, Java o Node.js con {{ProdShortName}}. Firme formatos de documentos comerciales populares.",
+    "title": "Solución de firma electrónica de documentos",
+    "description_1": "Firme documentos e imágenes digitales en cualquier plataforma utilizando nuestras API flexibles y soluciones basadas en aplicaciones para programadores y usuarios finales.",
+    "description_2": "Busque y modifique firmas agregadas previamente utilizando métodos avanzados.",
+    "description_3": "Proteja los documentos de cambios con certificados digitales y controle los metadatos ocultos.",
+    "words_for": "para",
+    "release_title": "Versión {0} lanzada",
+    "release_notes": "Ver qué hay de nuevo",
+    "release_downloads": "Descargas",
+    "code_more": "Más ejemplos",
+    "code_comment_1": "Crear una instancia de Watermarker pasando la ruta PDF",
+    "code_comment_2": "Personaliza las opciones de marca de agua",
+    "code_comment_3": "Aplicar marca de agua al documento PDF",
+    "code_comment_4": "Guardar documento de resultados",
+    "overview_title": "{{ProdShortName}} de un vistazo",
+    "formats_title": "Formatos de archivo admitidos",
+    "platforms": {
+      "title": "Independencia de plataforma",
+      "head_title": "Elige tu plataforma",
+      "description": "La biblioteca {{ProdShortName}} admite los siguientes sistemas operativos y marcos:",
+      "learn_more": "Aprende más",
+      "any_other_text_editor": "Cualquier otro editor de texto"
+    },
+    "features": {
+      "title": "Funciones clave de {{ProdShortName}}",
+      "description": "Nuestra solución está diseñada para agregar varios tipos de firmas a formatos de archivos y documentos populares. Enriquezca sus procesos de negocio fácilmente.",
+      "feature_1": {
+        "title": "Enriquece tus datos con firmas",
+        "content": "Agregue texto, imágenes, marcas de agua, etc. a sus documentos comerciales."
+      },
+      "feature_2": {
+        "title": "Proteger el contenido de los documentos",
+        "content": "Prohibir cambios de documento sellándolo con un certificado digital."
+      },
+      "feature_3": {
+        "title": "Agregue datos ocultos y códigos de barras",
+        "content": "Utilice metadatos para almacenar información invisible o coloque códigos de barras personalizados en las páginas."
+      },
+      "feature_4": {
+        "title": "Manipular firmas",
+        "content": "Busque, actualice o elimine todas las firmas que se hayan agregado anteriormente."
+      }
+    },
+    "formats": {
+      "title": "Se admiten más de 60 formatos de archivo",
+      "description": "{{ProdShortName}} admite casi todos los formatos de archivos populares"
+    },
+    "code_samples": {
+      "title": "Ejemplos de código",
+      "index_title": "Proteja sus archivos usando firmas",
+      "index_description": "Ejemplos de código {{ProdShortName}}",
+      "more_examples": "Más ejemplos",
+      "sample_index": {
+        "title": "Generar y agregar código QR",
+        "content": "{{ProdShortName}} nos permite generar y agregar códigos QR a documentos con formatos compatibles. Proporcione la ruta a un documento que debe firmarse y configure el texto deseado y las opciones visuales del código QR. Puede colocar la imagen del código QR generada en cualquier área de cualquier página del documento.",
+        "comment_1": "Especificar el documento para firmar.",
+        "comment_2": "Crear opciones de firma de código QR",
+        "comment_3": "Establecer opciones de código QR",
+        "comment_4": "Firmar y guardar el archivo procesado"
+      },
+      "sample_1": {
+        "code_title": "Cómo proteger un archivo mediante marca de agua de imagen.",
+        "comment_1": "Cargar documento fuente en Watermarker",
+        "comment_2": "Especificar la ruta a una imagen de marca de agua",
+        "comment_3": "Protege el archivo y guárdalo."
+      },
+      "sample_2": {
+        "code_title": "Búsqueda y modificación de marcas de agua.",
+        "comment_1": "Cargar documento fuente",
+        "comment_2": "Buscar marcas de agua para actualizar",
+        "comment_3": "Actualizar las propiedades deseadas",
+        "comment_4": "Guardar el documento modificado en una ruta especificada"
+      }
+    },
+    "metrics": {
+      "title": "Datos estadísticos de nuestra biblioteca",
+      "description": "Inspeccione métricas clave de productos, revelando información sobre nuestros logros, impacto y crecimiento",
+      "item_1": {
+        "title": "Formatos soportados",
+        "description": "Firma de más de 60 de los formatos de archivos comerciales más populares."
+      },
+      "item_2": {
+        "title": "Descargas NuGet",
+        "description": "{{ProdShortName}} para .NET es una biblioteca popular con más de 550.000 descargas en NuGet."
+      },
+      "item_3": {
+        "title": "Descargas de Maven",
+        "description": "Los desarrolladores de Java han descargado {{ProdShortName}} en Maven más de 15.000 veces."
+      },
+      "item_4": {
+        "title": "Clientes felices",
+        "description": "Los desarrolladores individuales y las principales empresas de todo el mundo utilizan nuestros productos para crear soluciones innovadoras."
+      }
+    },
+    "customers": {
+      "title": "Nuestros clientes felices",
+      "description": "Las bibliotecas de GroupDocs son utilizadas por marcas distinguidas y reconocidas a nivel mundial en todo el mundo"
+    },
+    "actions": {
+      "alt": "Licencia",
+      "title": "¿Listo para comenzar?",
+      "description": "Pruebe las funciones de {{ProdShortName}} gratis o solicite una licencia",
+      "description_index": "Pruebe las funciones de {{ProdShortName}} gratis en su plataforma"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Explore nuestras preguntas frecuentes",
+      "item_1": {
+        "question": "¿{{ProdShortName}} necesita alguna biblioteca externa para la firma de documentos?",
+        "answer": "No, {{ProdShortName}} funciona de forma independiente. No existen dependencias de terceros como Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "¿Es posible probar las funciones de {{ProdShortName}} antes de comprar?",
+        "answer": "¡Absolutamente! {{ProdShortName}} ofrece una prueba gratuita. Instálalo y explora sus características. Tenga en cuenta que las versiones de prueba agregan 'insignias de prueba' a sus documentos y solo procesan las primeras 3 páginas. Para disfrutar de una experiencia completa, obtenga una licencia temporal gratuita de 30 días para acceder a todas las funciones. Consulte los detalles en [licencia temporal]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "¿Qué tipos de licencia se proporcionan?",
+        "answer": "¿Busca una licencia de {{ProdShortName}}? Ofrecemos varias opciones adaptadas a sus necesidades. Elija según el tamaño del equipo, las ubicaciones de implementación (oficina única o lugares de trabajo remotos) y si la distribución al cliente final requiere compartir el SDK/API con los clientes. Alternativamente, opte por una licencia de uso mensual con planes medidos: pague solo por lo que use. Descubra la mejor opción para usted en [precios]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API de código bajo",
+      "description": "Firme archivos usando su aplicación a través de nuestra API REST basada en la nube.",
+      "item_1": {
+        "content": "Utilice la API RESTful de cURL para poner firmas en PDF, Word, Excel, PowerPoint, JPEG y muchos otros formatos de archivo."
+      },
+      "item_2": {
+        "content": "Enriquezca sus aplicaciones .NET con la firma de documentos a través de Cloud SDK. Proteja los documentos comerciales a su manera."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK otorga acceso a varias posibilidades para que sus aplicaciones Java firmen cualquier archivo."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} aplicaciones web",
+      "description": "{{ProdShortName}} presenta una aplicación web gratuita donde puedes firmar documentos. Se pueden firmar más de 60 formatos de archivos populares a través de su navegador favorito GRATIS.",
+      "item_1": {
+        "content": "Herramienta online para poner firmas en documentos desde cualquier dispositivo."
+      },
+      "item_2": {
+        "content": "Firme MS Word DOCX en línea."
+      },
+      "item_3": {
+        "content": "Proteja documentos PDF en línea."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formatos de Microsoft Office y OpenDocument",
+      "title_2": "Imágenes y gráficos",
+      "title_3": "Otro",
+      "format_portable": "Portátil",
+      "format_popular_images": "Formatos de imagen populares",
+      "format_multi_images": "Imágenes de varias páginas"
+    }
+  }
+}
