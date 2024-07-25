@@ -20,17 +20,17 @@
       "syntax": "csharp",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
 
-      "productUrl": "https://products.groupdocs.com/metadata/net/",
+      "productUrl": "https://products.groupdocs.com/signature/net/",
       "packageStoreName": "Nuget",
-      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Metadata",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
-      "docsUrl": "https://docs.groupdocs.com/metadata/net/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/net/find-metadata-properties/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/net/adding-metadata/",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Signature",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/signature/net/",
+      "docsUrl": "https://docs.groupdocs.com/signature/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/signature/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/signature/net/find-signature-properties/",
+      "sample2Url": "https://docs.groupdocs.com/signature/net/adding-signature/",
 
-      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
-      "release_downloads": "https://releases.groupdocs.com/metadata/net/"
+      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/signature/net/"
     },
     "java": {
       "environmentName": "Java",
@@ -44,17 +44,17 @@
       "syntax": "java",
       "runtime": "Java runtime: J2SE 6.0 and above",
 
-      "productUrl": "https://products.groupdocs.com/metadata/java/",
+      "productUrl": "https://products.groupdocs.com/signature/java/",
       "packageStoreName": "Maven",
-      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/java/",
-      "docsUrl": "https://docs.groupdocs.com/metadata/java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/java/find-metadata-properties/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/java/adding-metadata/",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/signature/java/",
+      "docsUrl": "https://docs.groupdocs.com/signature/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/signature/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/signature/java/find-signature-properties/",
+      "sample2Url": "https://docs.groupdocs.com/signature/java/adding-signature/",
 
-      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/",
-      "release_downloads": "https://releases.groupdocs.com/metadata/java/"
+      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/signature/java/"
 
     },
     "nodejs-java": {
@@ -69,17 +69,17 @@
       "syntax": "javascript",
       "runtime": "Node.js",
 
-      "productUrl": "https://products.groupdocs.com/metadata/nodejs-java/",
+      "productUrl": "https://products.groupdocs.com/signature/nodejs-java/",
       "packageStoreName": "NPM",
-      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.metadata",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/nodejs-java/",
-      "docsUrl": "https://docs.groupdocs.com/metadata/nodejs-java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/nodejs-java/adding-metadata/",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.signature/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/signature/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/signature/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/signature/java/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/",
+      "sample2Url": "https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/",
 
-      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/",
-      "release_downloads": "https://releases.groupdocs.com/metadata/nodejs-java/"
+      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/signature/nodejs-java/"
     },
     "python-net": {
       "environmentName": "Python via .NET",
@@ -93,17 +93,17 @@
       "syntax": "python",
       "runtime": "Python",
 
-      "productUrl": "https://products.groupdocs.com/metadata/python-net/",
+      "productUrl": "https://products.groupdocs.com/signature/python-net/",
       "packageStoreName": "PyPi",
-      "packageUrl": "https://pypi.org/project/groupdocs-metadata-net/",
-      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/python-net/",
-      "docsUrl": "https://docs.groupdocs.com/metadata/python-net/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/python-net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/python-net/adding-metadata/",
+      "packageUrl": "https://pypi.org/project/groupdocs-signature-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/signature/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/signature/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/signature/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/signature/python-net/find-signature-properties/",
+      "sample2Url": "https://docs.groupdocs.com/signature/python-net/adding-signature/",
 
-      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/",
-      "release_downloads": "https://releases.groupdocs.com/metadata/python-net/"
+      "more_link": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/signature/python-net/"
     }
   }
 }

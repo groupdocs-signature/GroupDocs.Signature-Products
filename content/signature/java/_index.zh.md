@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:49
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: zh
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
@@ -34,7 +28,7 @@ head_title: "Java 数字签名库 - GroupDocs.Signature"
 head_description: "通过 GroupDocs.Signature 的电子签名为 Java 应用程序提供支持。快速、轻松地签署商业文件。"
 
 ############################# Header ############################
-title: "签署文件<br>通过Java API"
+title: "签署文件 通过Java API"
 description: "使用我们面向程序员和最终用户的灵活的 API 和基于应用程序的解决方案，在任何平台上签署数字文档和图像。"
 words:
   for: "为了"
@@ -43,7 +37,7 @@ actions:
   main: "免费 Maven 下载"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
   alt: "许可"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "准备好开始了吗？"
   description: "免费试用 GroupDocs.Signature 功能或申请许可证"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "使用 Java 签署 PDF 文件"
   more: "更多示例"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
