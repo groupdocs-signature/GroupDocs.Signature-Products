@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "load the file in an instance of {{TextMetadata}} class",
+    "comment_2": "add a property containing the content author",
+    "comment_3": "process operation results",
+    "comment_4": "save the file with updated metadata"
+  },
+  "steps": {
+    "title": "Steps for adding Metadata to {{FileformatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load the {{FileFormatUp}} file to be updated.",
+      "step_2": "Specify a predicate that will be used to add metadata properties.",
+      "step_3": "Pass the predicate to the {{TextMetadataAddProperties}} method.",
+      "step_4": "Save the changes."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "How to Add Custom Metadata to a TIFF Image",
+      "content": "This example demonstrates how to insert a custom tag into an EXIF package.",
+      "comment_1": "Assign the EXIF package if it is missing.",
+      "comment_2": "Insert a recognized property.",
+      "comment_3": "Include a fully custom property that is not part of the EXIF specification.",
+      "comment_4": "Be aware that the chosen ID may conflict with IDs used by some third-party tools."
+    }
+  }
+}
