@@ -8,6 +8,7 @@
     "textSignature": "Signature",
     "textSignOptions": "TextSignOptions",
     "textSearchOptions": "TextSearchOptions",
+    "textVerifyOptions": "TextVerifyOptions",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

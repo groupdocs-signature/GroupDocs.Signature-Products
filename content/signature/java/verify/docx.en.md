@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:54
+date:  2024-08-01T15:01:55
 draft: false
 lang: en
-format: Pptx
+format: Docx
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to PPTX Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to DOCX Files in Java Applications"
+head_description: "Java metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To PPTX In Java" 
+title: "Adding Metadata To DOCX In Java" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PPTX in Java"
+    title: "Steps for adding Metadata to DOCX in Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to DOCX files from within their applications by implementing a few easy steps.
       
-      1. Load PPTX with an instance of {{TextMetadata}} class.
+      1. Load DOCX with an instance of {{TextMetadata}} class.
       2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PPTX format.
+      4. Save the changes back in DOCX format.
    
     code:
       platform: "net"
@@ -84,25 +84,22 @@ steps:
           
       content: |
         ```java {style=abap}
+        // Instantiate a Signature with the document
+        Signature signature = new Signature("input.docx");
 
-        // Create an instance of Signature with the document path
-        final Signature signature = new Signature("input.pptx");
+        // Create TextVerifyOptions to validate signatures containing specific text
+        TextVerifyOptions options = new TextVerifyOptions();
+        options.setText("signature");
+        options.setMatchType(TextMatchType.Contains);
 
-        // Instantiate TextSearchOptions to cover all pages
-        TextSearchOptions options = new TextSearchOptions();
-        options.setAllPages(true);
+        // Verify the signatures in the document
+        VerificationResult result = signature.verify(options);
 
-        // Search for text signatures within the document
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
-        System.out.print("\nSource document contains following text signature(s).");
-
-        // List the found signatures for further analysis
-        for (TextSignature textSignature : signatures) {
-            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
-                + " with type [" + textSignature.getSignatureImplementation() + "] and 
-                text '" + textSignature.getText() + "'.");
+        // Process the verification results
+        if (result.isValid())
+        {
+            System.out.print("\nDocument was verified successfully!");
         }
-        
         ```            
 
 ############################# More features ############################
@@ -110,7 +107,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -127,25 +124,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Search for Image Signatures"
+    - title: "Verify Barcode Signatures"
       content: |
-        This example demonstrates how to find an image signature in a specific document.
+        This example demonstrates how to verify barcode signatures in a document.
         {{< landing/code title="C#">}}
         ```java {style=abap}
+        // Provide the document that contains barcode signatures
+        final Signature signature = new Signature("input.docx");
 
-        // Pass the source document as a constructor parameter
-        final Signature signature = new Signature("input.pptx");
+        // Configure options to verify barcodes against specific text
+        BarcodeVerifyOptions options = new BarcodeVerifyOptions();
+        options.setText("John");
+        options.setMatchType(TextMatchType.Contains);
 
-        // Search for any signatures with a text type
-        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
-        System.out.print("\nSource document contains following image signature(s).");
+        // Verify the signatures that were applied to the document
+        VerificationResult result = signature.verify(options);
 
-        // Display the results with the properties of the found signatures
-        for (ImageSignature imageSignature : signatures)
+        // Display the results of the verification
+        if (result.isValid())
         {
-            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
-                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
-                ", modified "+imageSignature.getModifiedOn());
+            System.out.print("\nDocument was verified successfully!");
         }
         ```
         {{< /landing/code >}}
@@ -172,7 +170,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "PPTX"
+    exclude: "DOCX"
     description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\search\\format_nodejs.yml" %>
+<% configRef "..\\configs\\verify\\format_nodejs.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -74,19 +74,17 @@ steps:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        const options = new signatureLib.TextSearchOptions();
-        options.setAllPages(true);
+        const options = new signatureLib.TextVerifyOptions();
+        options.setText('signature');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
         // <% "{examples.comment_3}" %>
-        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
-        console.log(`\nSource document contains the following text signature(s).`);
+        const result = signature.verify(options);
 
         // <% "{examples.comment_4}" %>
-        for (const textSignature of signatures) {
-            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
-            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
-        
         ```            
 
 ############################# More features ############################
@@ -94,7 +92,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -122,13 +120,16 @@ more_features:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{more_features.code_1.comment_2}" %>
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+        const options = new signatureLib.BarcodeVerifyOptions();
+        options.setText('John');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
         // <% "{more_features.code_1.comment_3}" %>
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
+        const result = signature.verify(options);
+
+        // <% "{more_features.code_1.comment_4}" %>
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
         ```
         {{< /landing/code >}}

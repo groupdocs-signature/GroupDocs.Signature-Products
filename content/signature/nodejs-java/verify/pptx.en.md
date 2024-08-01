@@ -8,18 +8,18 @@ layout: "format"
 date:  2024-08-01T15:01:55
 draft: false
 lang: en
-format: Jpeg
+format: Pptx
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to JPEG Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to PPTX Files in JavaScript Applications"
+head_description: "JavaScript metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To JPEG In JavaScript" 
+title: "Adding Metadata To PPTX In JavaScript" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to JPEG in JavaScript"
+    title: "Steps for adding Metadata to PPTX in JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to JPEG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
       
-      1. Load JPEG with an instance of {{TextMetadata}} class.
+      1. Load PPTX with an instance of {{TextMetadata}} class.
       2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in JPEG format.
+      4. Save the changes back in PPTX format.
    
     code:
       platform: "net"
@@ -71,23 +71,21 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Instantiate a Signature object using the document path
-        const signature = new signatureLib.Signature('input.jpeg');
+        // Instantiate a Signature object with the document
+        const signature = new signatureLib.Signature('input.pptx');
 
-        // Configure TextSearchOptions to include every page
-        const options = new signatureLib.TextSearchOptions();
-        options.setAllPages(true);
+        // Establish TextVerifyOptions to validate signatures that include specified text
+        const options = new signatureLib.TextVerifyOptions();
+        options.setText('signature');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
-        // Perform a search to locate all text signatures within the document
-        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
-        console.log(`\nSource document contains the following text signature(s).`);
+        // Execute the verification process for document signatures
+        const result = signature.verify(options);
 
-        // Aggregate the discovered signatures for comprehensive analysis
-        for (const textSignature of signatures) {
-            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
-            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        // Interpret and assess the outcomes of the verification
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
-        
         ```            
 
 ############################# More features ############################
@@ -95,7 +93,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -112,24 +110,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Identifying Image Signatures"
+    - title: "Authenticate Barcode Signatures"
       content: |
-        This example elucidates how to detect an image signature within a specific document.
+        This example elucidates the methodology for authenticating barcode signatures embedded within a document.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // Supply the source document as a parameter to the constructor
-        const signature = new signatureLib.Signature('input.jpeg');
+        // Submit the document featuring barcode signatures
+        const signature = new signatureLib.Signature('input.pptx');
 
-        // Search for any signatures that are of the text type
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+        // Configure the parameters to validate barcodes against designated text
+        const options = new signatureLib.BarcodeVerifyOptions();
+        options.setText('John');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
-        // Display the findings with comprehensive properties of the detected signatures
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
+        // Authenticate the signatures previously affixed to the document
+        const result = signature.verify(options);
+
+        // Check validation report
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
         ```
         {{< /landing/code >}}
@@ -156,7 +157,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "JPEG"
+    exclude: "PPTX"
     description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

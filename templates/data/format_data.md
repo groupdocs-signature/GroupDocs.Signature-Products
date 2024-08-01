@@ -24,6 +24,7 @@
 <% set "TextSignature" (dict "products.textSignature") %>
 <% set "TextSignOptions" (dict "products.textSignOptions") %>
 <% set "TextSearchOptions" (dict "products.textSearchOptions") %>
+<% set "TextVerifyOptions" (dict "products.textVerifyOptions") %>
 
 
 

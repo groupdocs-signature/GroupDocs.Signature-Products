@@ -8,18 +8,18 @@ layout: "format"
 date:  2024-08-01T15:01:55
 draft: false
 lang: en
-format: Xlsx
+format: Docx
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to XLSX Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to XLSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Add Metadata to DOCX Files in C# Applications"
+head_description: "C# metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
 
 ############################# Header ############################
-title: "Adding Metadata To XLSX In C#" 
+title: "Adding Metadata To DOCX In C#" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,11 +43,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Xlsx in C#"
+    title: "Steps for adding Metadata to Docx in C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to XLSX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to DOCX files from within their applications by implementing a few easy steps.
       
-      1. Load the XLSX file to be updated.
+      1. Load the DOCX file to be updated.
       2. Specify a predicate that will be used to add metadata properties.
       3. Pass the predicate to the {{TextMetadataAddProperties}} method.
       4. Save the changes.
@@ -69,27 +69,29 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Initialize a Signature object with the specified document path
-        using (Signature signature = new Signature("input.xlsx"))
+        // Initialize a Signature instance with the document
+        using (Signature signature = new Signature("input.docx"))
         {
-            // Create an instance of TextSearchOptions to encompass all pages
-            TextSearchOptions options = new TextSearchOptions()
+            // Configure TextVerifyOptions to authenticate signatures containing specific text
+            TextVerifyOptions options = new TextVerifyOptions()
             {
-                AllPages = true
+                Text = "signature",
+                MatchType = TextMatchType.Contains
             };
 
-            // Execute a search to identify any text-based signatures in the document
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
-            Console.WriteLine($"\nSource document contains following text signature(s).");
+            // Conduct a verification of the document’s signatures
+            VerificationResult result = signature.Verify(options);
 
-            // Compile a list of detected signatures for detailed examination               
-            foreach (TextSignature textSignature in signatures)
+            // Analyze and interpret the results of the verification
+            if(result.IsValid)
             {
-                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
-                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                foreach (TextSignature item in result.Succeeded)
+                {
+                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
+                }
             }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -97,7 +99,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -114,24 +116,33 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Locating Image Signatures"
+    - title: "Authenticate Barcode Signatures"
       content: |
-        This example illustrates the process of detecting an image signature within a specified document.
+        This example illustrates the procedure for authenticating barcode signatures within a document.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        
-        // Provide the source document as an argument to the constructor
-        using (Signature signature = new Signature("input.xlsx"))
+        // Submit the document containing barcode signatures
+        using (Signature signature = new Signature("input.docx"))
         {
-            // Search for any signatures of the text type
-            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
-            Console.WriteLine($"\nSource document contains following image signature(s).");
-
-            // Present the results with detailed properties of the identified signatures
-            foreach (ImageSignature imageSignature in signatures)
+            // Configure the verification options to match barcodes with specific text criteria
+            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
             {
-                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
-                and size {imageSignature.Size}.");
+                Text = "12345",
+                MatchType = TextMatchType.Contains
+            };
+
+            // Authenticate the signatures embedded in the document
+            VerificationResult result = signature.Verify(options);
+
+            // Present the outcomes of the authentication process
+            if (result.IsValid)
+            {
+                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                foreach (BarcodeSignature item in result.Succeeded)
+                {
+                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
+                        and type: {item.EncodeType.TypeName}.");
+                }
             }
         }
         ```
@@ -159,7 +170,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "XLSX"
+    exclude: "DOCX"
     description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

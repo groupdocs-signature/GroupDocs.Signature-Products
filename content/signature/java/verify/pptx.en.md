@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:54
+date:  2024-08-01T15:01:55
 draft: false
 lang: en
 format: Pptx
@@ -84,25 +84,22 @@ steps:
           
       content: |
         ```java {style=abap}
+        // Instantiate a Signature with the document
+        Signature signature = new Signature("input.pptx");
 
-        // Create an instance of Signature with the document path
-        final Signature signature = new Signature("input.pptx");
+        // Create TextVerifyOptions to validate signatures containing specific text
+        TextVerifyOptions options = new TextVerifyOptions();
+        options.setText("signature");
+        options.setMatchType(TextMatchType.Contains);
 
-        // Instantiate TextSearchOptions to cover all pages
-        TextSearchOptions options = new TextSearchOptions();
-        options.setAllPages(true);
+        // Verify the signatures in the document
+        VerificationResult result = signature.verify(options);
 
-        // Search for text signatures within the document
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
-        System.out.print("\nSource document contains following text signature(s).");
-
-        // List the found signatures for further analysis
-        for (TextSignature textSignature : signatures) {
-            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
-                + " with type [" + textSignature.getSignatureImplementation() + "] and 
-                text '" + textSignature.getText() + "'.");
+        // Process the verification results
+        if (result.isValid())
+        {
+            System.out.print("\nDocument was verified successfully!");
         }
-        
         ```            
 
 ############################# More features ############################
@@ -110,7 +107,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -127,25 +124,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Search for Image Signatures"
+    - title: "Verify Barcode Signatures"
       content: |
-        This example demonstrates how to find an image signature in a specific document.
+        This example demonstrates how to verify barcode signatures in a document.
         {{< landing/code title="C#">}}
         ```java {style=abap}
-
-        // Pass the source document as a constructor parameter
+        // Provide the document that contains barcode signatures
         final Signature signature = new Signature("input.pptx");
 
-        // Search for any signatures with a text type
-        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
-        System.out.print("\nSource document contains following image signature(s).");
+        // Configure options to verify barcodes against specific text
+        BarcodeVerifyOptions options = new BarcodeVerifyOptions();
+        options.setText("John");
+        options.setMatchType(TextMatchType.Contains);
 
-        // Display the results with the properties of the found signatures
-        for (ImageSignature imageSignature : signatures)
+        // Verify the signatures that were applied to the document
+        VerificationResult result = signature.verify(options);
+
+        // Display the results of the verification
+        if (result.isValid())
         {
-            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
-                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
-                ", modified "+imageSignature.getModifiedOn());
+            System.out.print("\nDocument was verified successfully!");
         }
         ```
         {{< /landing/code >}}

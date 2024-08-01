@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:35
+date:  2024-08-01T15:01:55
 draft: false
 lang: en
 format: Xlsx
@@ -120,7 +120,7 @@ more_features:
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
         // Supply the source document as a parameter to the constructor
-        const signature = new signatureLib.Signature(filePath);
+        const signature = new signatureLib.Signature('input.xlsx');
 
         // Search for any signatures that are of the text type
         const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();

@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\search\\format_nodejs.yml" %>
+<% configRef "..\\configs\\verify\\format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.signature"
+        command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -67,26 +67,30 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_2}" %>
+            TextVerifyOptions options = new TextVerifyOptions()
+            {
+                Text = "signature",
+                MatchType = TextMatchType.Contains
+            };
 
-        // <% "{examples.comment_2}" %>
-        const options = new signatureLib.TextSearchOptions();
-        options.setAllPages(true);
+            // <% "{examples.comment_3}" %>
+            VerificationResult result = signature.Verify(options);
 
-        // <% "{examples.comment_3}" %>
-        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
-        console.log(`\nSource document contains the following text signature(s).`);
-
-        // <% "{examples.comment_4}" %>
-        for (const textSignature of signatures) {
-            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
-            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+            // <% "{examples.comment_4}" %>
+            if(result.IsValid)
+            {
+                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                foreach (TextSignature item in result.Succeeded)
+                {
+                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
+                }
+            }
         }
-        
         ```            
 
 ############################# More features ############################
@@ -94,7 +98,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -114,21 +118,31 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
+            {
+                Text = "12345",
+                MatchType = TextMatchType.Contains
+            };
 
-        // <% "{more_features.code_1.comment_2}" %>
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+            // <% "{more_features.code_1.comment_3}" %>
+            VerificationResult result = signature.Verify(options);
 
-        // <% "{more_features.code_1.comment_3}" %>
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
+            // <% "{more_features.code_1.comment_4}" %>
+            if (result.IsValid)
+            {
+                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                foreach (BarcodeSignature item in result.Succeeded)
+                {
+                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
+                        and type: {item.EncodeType.TypeName}.");
+                }
+            }
         }
         ```
         {{< /landing/code >}}

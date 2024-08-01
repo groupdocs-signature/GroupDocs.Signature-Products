@@ -71,23 +71,21 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Instantiate a Signature object using the document path
+        // Instantiate a Signature object with the document
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Configure TextSearchOptions to include every page
-        const options = new signatureLib.TextSearchOptions();
-        options.setAllPages(true);
+        // Establish TextVerifyOptions to validate signatures that include specified text
+        const options = new signatureLib.TextVerifyOptions();
+        options.setText('signature');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
-        // Perform a search to locate all text signatures within the document
-        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
-        console.log(`\nSource document contains the following text signature(s).`);
+        // Execute the verification process for document signatures
+        const result = signature.verify(options);
 
-        // Aggregate the discovered signatures for comprehensive analysis
-        for (const textSignature of signatures) {
-            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
-            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        // Interpret and assess the outcomes of the verification
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
-        
         ```            
 
 ############################# More features ############################
@@ -95,7 +93,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -112,24 +110,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Identifying Image Signatures"
+    - title: "Authenticate Barcode Signatures"
       content: |
-        This example elucidates how to detect an image signature within a specific document.
+        This example elucidates the methodology for authenticating barcode signatures embedded within a document.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // Supply the source document as a parameter to the constructor
+        // Submit the document featuring barcode signatures
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Search for any signatures that are of the text type
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+        // Configure the parameters to validate barcodes against designated text
+        const options = new signatureLib.BarcodeVerifyOptions();
+        options.setText('John');
+        options.setMatchType(signatureLib.TextMatchType.Contains);
 
-        // Display the findings with comprehensive properties of the detected signatures
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
+        // Authenticate the signatures previously affixed to the document
+        const result = signature.verify(options);
+
+        // Check validation report
+        if (result.isValid()) {
+            console.log('\nDocument was verified successfully!');
         }
         ```
         {{< /landing/code >}}

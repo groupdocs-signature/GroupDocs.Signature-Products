@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\search\\format_nodejs.yml" %>
+<% configRef "..\\configs\\verify\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,7 +55,22 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.signature"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-signature</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -67,26 +82,23 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-
+        ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        const options = new signatureLib.TextSearchOptions();
-        options.setAllPages(true);
+        TextVerifyOptions options = new TextVerifyOptions();
+        options.setText("signature");
+        options.setMatchType(TextMatchType.Contains);
 
         // <% "{examples.comment_3}" %>
-        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
-        console.log(`\nSource document contains the following text signature(s).`);
+        VerificationResult result = signature.verify(options);
 
         // <% "{examples.comment_4}" %>
-        for (const textSignature of signatures) {
-            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
-            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        if (result.isValid())
+        {
+            System.out.print("\nDocument was verified successfully!");
         }
-        
         ```            
 
 ############################# More features ############################
@@ -94,7 +106,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_verify.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -114,21 +126,23 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
+        {{< landing/code title="C#">}}
+        ```java {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        final Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{more_features.code_1.comment_2}" %>
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+        BarcodeVerifyOptions options = new BarcodeVerifyOptions();
+        options.setText("John");
+        options.setMatchType(TextMatchType.Contains);
 
         // <% "{more_features.code_1.comment_3}" %>
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
+        VerificationResult result = signature.verify(options);
+
+        // <% "{more_features.code_1.comment_4}" %>
+        if (result.isValid())
+        {
+            System.out.print("\nDocument was verified successfully!");
         }
         ```
         {{< /landing/code >}}

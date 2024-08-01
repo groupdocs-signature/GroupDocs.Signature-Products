@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:35
+date:  2024-08-01T15:01:54
 draft: false
 lang: en
 format: Pdf
@@ -110,7 +110,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/search.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
