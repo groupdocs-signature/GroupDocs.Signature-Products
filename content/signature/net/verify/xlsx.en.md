@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:55
+date:  2024-08-01T20:11:13
 draft: false
 lang: en
 format: Xlsx
@@ -85,7 +85,7 @@ steps:
             // Analyze and interpret the results of the verification
             if(result.IsValid)
             {
-                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                Console.WriteLine($"\nDocument was verified successfully!");
                 foreach (TextSignature item in result.Succeeded)
                 {
                     Console.WriteLine($"\nValid signature is found with text: {item.Text}");
@@ -137,7 +137,7 @@ more_features:
             // Present the outcomes of the authentication process
             if (result.IsValid)
             {
-                Console.WriteLine($"\nDocument {filePath} was verified successfully!");
+                Console.WriteLine($"\nDocument was verified successfully!");
                 foreach (BarcodeSignature item in result.Succeeded)
                 {
                     Console.WriteLine($"\nValid signature is found with text: {item.Text} 

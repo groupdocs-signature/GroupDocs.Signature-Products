@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\verify\\format_net.yml" %>
+<% configRef "..\\configs\\modify\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,7 +55,22 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-signature</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -67,28 +82,23 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
+        ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            TextVerifyOptions options = new TextVerifyOptions()
-            {
-                Text = "signature",
-                MatchType = TextMatchType.Contains
-            };
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
+        // <% "{examples.comment_2}" %>
+        TextSearchOptions options = new TextSearchOptions();
+        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+
+        if (signatures.size() > 0) {
             // <% "{examples.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
+            TextSignature textSignature = signatures.get(0);
+            textSignature.setText("New Text");
+            boolean result = signature.update('output.<% get "fileformat" %>', textSignature);
 
             // <% "{examples.comment_4}" %>
-            if(result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (TextSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
-                }
+            if (result) {
+                System.out.print("\nSignature was updated successfully.");
             }
         }
         ```            
@@ -98,7 +108,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_verify.webp" # 500x500 px
+  image: "/img/signature/features_modify.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -119,29 +129,26 @@ more_features:
       content: |
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{more_features.code_1.comment_2}" %>
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.Contains
-            };
+        final Signature signature = new Signature("input.<% get "fileformat" %>");
 
+        // <% "{more_features.code_1.comment_2}" %>
+        BarcodeSearchOptions options = new BarcodeSearchOptions();
+        List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+
+        if (signatures.size() > 0)
+        {
             // <% "{more_features.code_1.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
+            BarcodeSignature barcodeSignature = signatures.get(0);
+            barcodeSignature.setLeft(100);
+            barcodeSignature.setTop(100);
+            boolean result = signature.update("output.<% get "fileformat" %>", barcodeSignature);
 
             // <% "{more_features.code_1.comment_4}" %>
-            if (result.IsValid)
+            if (result)
             {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
-                }
+                System.out.print("\nBarcode was updated successfully.");
             }
         }
         ```

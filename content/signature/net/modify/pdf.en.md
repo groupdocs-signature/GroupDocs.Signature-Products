@@ -69,26 +69,24 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Initialize a Signature instance with the document
+        // Instantiate a Signature object with the document file path
         using (Signature signature = new Signature("input.pdf"))
         {
-            // Configure TextVerifyOptions to authenticate signatures containing specific text
-            TextVerifyOptions options = new TextVerifyOptions()
-            {
-                Text = "signature",
-                MatchType = TextMatchType.Contains
-            };
+            // Execute a search for text signatures within the document
+            TextSearchOptions options = new TextSearchOptions();
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
-            // Conduct a verification of the document’s signatures
-            VerificationResult result = signature.Verify(options);
-
-            // Analyze and interpret the results of the verification
-            if(result.IsValid)
+            if (signatures.Count > 0)
             {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (TextSignature item in result.Succeeded)
+                // Update the text content of the first located signature
+                TextSignature textSignature = signatures[0];
+                textSignature.Text = "New Text";
+                bool result = signature.Update(textSignature);
+
+                // Validate the result of the text modification
+                if (result)
                 {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
+                    Console.WriteLine($"Signature was updated successfully");
                 }
             }
         }
@@ -99,7 +97,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_verify.webp" # 500x500 px
+  image: "/img/signature/features_modify.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -116,32 +114,30 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Authenticate Barcode Signatures"
+    - title: "Modify Barcode Signatures"
       content: |
-        This example illustrates the procedure for authenticating barcode signatures within a document.
+        This example illustrates how to programmatically modify barcode signatures in a document.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // Submit the document containing barcode signatures
+        // Load a document containing barcode signatures
         using (Signature signature = new Signature("input.pdf"))
         {
-            // Configure the verification options to match barcodes with specific text criteria
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.Contains
-            };
+            // Search for all existing barcode signatures
+            BarcodeSearchOptions options = new BarcodeSearchOptions();
+            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-            // Authenticate the signatures embedded in the document
-            VerificationResult result = signature.Verify(options);
-
-            // Present the outcomes of the authentication process
-            if (result.IsValid)
+            if (signatures.Count > 0)
             {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
+                // Modify the position of the first detected barcode and save the document
+                BarcodeSignature barcodeSignature = signatures[0];
+                barcodeSignature.Left = 100;
+                barcodeSignature.Top = 100;
+                bool result = signature.Update(barcodeSignature);
+
+                // Verify the success of the barcode modification
+                if (result)
                 {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
+                    Console.WriteLine($"Barcode was updated successfully.");
                 }
             }
         }

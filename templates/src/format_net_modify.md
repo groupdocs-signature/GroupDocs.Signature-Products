@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\verify\\format_net.yml" %>
+<% configRef "..\\configs\\modify\\format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -72,22 +72,20 @@ steps:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            TextVerifyOptions options = new TextVerifyOptions()
-            {
-                Text = "signature",
-                MatchType = TextMatchType.Contains
-            };
+            TextSearchOptions options = new TextSearchOptions();
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
 
-            // <% "{examples.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
-
-            // <% "{examples.comment_4}" %>
-            if(result.IsValid)
+            if (signatures.Count > 0)
             {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (TextSignature item in result.Succeeded)
+                // <% "{examples.comment_3}" %>
+                TextSignature textSignature = signatures[0];
+                textSignature.Text = "New Text";
+                bool result = signature.Update(textSignature);
+
+                // <% "{examples.comment_4}" %>
+                if (result)
                 {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
+                    Console.WriteLine($"Signature was updated successfully");
                 }
             }
         }
@@ -98,7 +96,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_verify.webp" # 500x500 px
+  image: "/img/signature/features_modify.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -124,23 +122,21 @@ more_features:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{more_features.code_1.comment_2}" %>
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.Contains
-            };
+            BarcodeSearchOptions options = new BarcodeSearchOptions();
+            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-            // <% "{more_features.code_1.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
-
-            // <% "{more_features.code_1.comment_4}" %>
-            if (result.IsValid)
+            if (signatures.Count > 0)
             {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
+                // <% "{more_features.code_1.comment_3}" %>
+                BarcodeSignature barcodeSignature = signatures[0];
+                barcodeSignature.Left = 100;
+                barcodeSignature.Top = 100;
+                bool result = signature.Update(barcodeSignature);
+
+                // <% "{more_features.code_1.comment_4}" %>
+                if (result)
                 {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
+                    Console.WriteLine($"Barcode was updated successfully.");
                 }
             }
         }
