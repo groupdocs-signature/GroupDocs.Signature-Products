@@ -5,6 +5,8 @@
     "productShortName": "GroupDocs.Signature",
     "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
     "pricingUrl": "https://purchase.groupdocs.com/pricing/signature/net/",
+    "textSignature": "Signature",
+    "textSignOptions": "TextSignOptions",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

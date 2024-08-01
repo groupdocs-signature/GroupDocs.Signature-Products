@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/signature/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_metadata.svg" # 480 X 400
+    picture: "about_signature.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-signature</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,18 +84,18 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
-            // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
+        // <% "{examples.comment_2}" %>
+        TextSignOptions options = new TextSignOptions("John Smith");
 
-            // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
-        }
+        // <% "{examples.comment_3}" %>
+        options.setLeft(100);
+        options.setTop(100);
+        options.setForeColor(Color.RED);
+
+        // <% "{examples.comment_4}" %>
+        signature.sign("output.<% get "fileformat" %>", options);
         
         ```            
 
@@ -104,7 +104,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/metadata/features_add.webp" # 500x500 px
+  image: "/img/signature/features_esign.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -127,23 +127,21 @@ more_features:
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        // <% "{more_features.code_1.comment_1}" %>
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
-            }
+        // <% "{more_features.code_1.comment_2}" %>
+        ImageSignOptions options = new ImageSignOptions("image.jpg");
 
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+        // <% "{more_features.code_1.comment_3}" %>
+        options.setLeft(100);
+        options.setTop(100);
+        options.setPageNumber(1);
+        options.setAllPages(true);
 
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+        // <% "{more_features.code_1.comment_4}" %>
+        signature.sign("output.<% get "fileformat" %>", options);
 
-            metadata.save("output.tiff");
-        }
         ```
         {{< /landing/code >}}
 

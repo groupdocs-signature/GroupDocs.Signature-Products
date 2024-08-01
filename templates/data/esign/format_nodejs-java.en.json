@@ -18,10 +18,10 @@
     "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
   },
   "examples": {
-    "comment_1": "load the file in an instance of {{TextMetadata}} class",
-    "comment_2": "add a property containing the content author",
-    "comment_3": "process operation results",
-    "comment_4": "save the file with updated metadata"
+    "comment_1": "Provide document to {{TextSignature}} instance",
+    "comment_2": "Make new {{TextSignOptions}} for signing",
+    "comment_3": "Customize signature parameters",
+    "comment_4": "Add signature and save signed file"
   },
   "steps": {
     "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
@@ -50,12 +50,12 @@
       "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
     },
     "code_1": {
-      "title": "How to clear image from undesirable metadata",
-      "content": "This code sample shows how to remove EXIF metadata from a file",
-      "comment_1": "pass image to the {{TextMetadata}} class constructor",
-      "comment_2": "access EXIF root package",
-      "comment_3": "remove metadata",
-      "comment_4": "save cleared file"
+      "title": "How to Protect Document with Image Signature",
+      "content": "This guide shows how to incorporate an image signature into a document.",
+      "comment_1": "Specify the path to the source document",
+      "comment_2": "Create an options instance with the image path",
+      "comment_3": "Set the signature size and target pages",
+      "comment_4": "Apply the signature and save the document"
     }
   }
 }

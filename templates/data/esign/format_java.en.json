@@ -18,10 +18,10 @@
     "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
   },
   "examples": {
-    "comment_1": "load the file in an instance of {{TextMetadata}} class",
-    "comment_2": "add a property containing the content author",
-    "comment_3": "process operation results",
-    "comment_4": "save the file with updated metadata"
+    "comment_1": "Load document to {{TextSignature}} instance",
+    "comment_2": "Instantiate {{TextSignOptions}} object",
+    "comment_3": "Set all desired options",
+    "comment_4": "Save file with signature to local disk"
   },
   "steps": {
     "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
@@ -50,12 +50,12 @@
       "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
     },
     "code_1": {
-      "title": "How to add custom metadata to TIFF image",
-      "content": "This code sample demonstrates how to add a custom tag to an EXIF package",
-      "comment_1": "Set the EXIF package if it's missing",
-      "comment_2": "Add a known property",
-      "comment_3": "Add a fully custom property (which is not described in the EXIF specification)",
-      "comment_4": "Please note that the chosen ID may intersect with the IDs used by some third party tools"
+      "title": "How to Put Image Signature on Document",
+      "content": "This example shows us how put an image signature on specific document page.",
+      "comment_1": "Pass source document as a parameter",
+      "comment_2": "Pass image path to signature options",
+      "comment_3": "Set size and affected pages of future signature",
+      "comment_4": "Sign the document"
     }
   }
 }

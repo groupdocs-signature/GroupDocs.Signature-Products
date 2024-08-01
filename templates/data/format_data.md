@@ -21,11 +21,8 @@
 <% set "DocsUrl" (dict "products.{product}.docsUrl") %>
 <% set "MoreLink" (dict "products.{product}.more_link") %>
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
-<% set "TextMetadata" (dict "products.textMetadata") %>
-<% set "TextMetadataAddProperties" (dict "products.textMetadataAddProperties") %>
-<% set "TextUpdateProperties" (dict "products.textUpdateProperties") %>
-<% set "TextRemoveProperties" (dict "products.textRemoveProperties") %>
-<% set "TextMetadataRemoveProperties" (dict "products.textMetadataRemoveProperties") %>
-<% set "TextFindProperties" (dict "products.textFindProperties") %>
+<% set "TextSignature" (dict "products.textSignature") %>
+<% set "TextSignOptions" (dict "products.textSignOptions") %>
+
 
 

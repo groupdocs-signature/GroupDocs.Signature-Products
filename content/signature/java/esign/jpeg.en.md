@@ -1,10 +1,11 @@
 
 
 
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-07-30T15:09:06
+date:  2024-08-01T07:25:52
 draft: false
 lang: en
 format: Jpeg
@@ -33,9 +34,9 @@ header_actions:
 about:
     enable: true
     title: "About GroupDocs.Signature for Java API"
-    link: "/metadata/java/"
+    link: "/signature/java/"
     link_title: "Learn more"
-    picture: "about_metadata.svg" # 480 X 400
+    picture: "about_signature.svg" # 480 X 400
     content: |
        [GroupDocs.Signature for Java](/signature/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
@@ -46,8 +47,8 @@ steps:
     content: |
       [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to JPEG files from within their applications by implementing a few easy steps.
       
-      1. Load JPEG with an instance of  class.
-      2. Use  method to add the properties.
+      1. Load JPEG with an instance of {{TextMetadata}} class.
+      2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
       4. Save the changes back in JPEG format.
    
@@ -59,7 +60,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
+              <artifactId>groupdocs-signature</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -83,19 +84,19 @@ steps:
           
       content: |
         ```java {style=abap}
-        // load the file in an instance of  class
-        try (Metadata metadata = new Metadata("input.jpeg"))
-        {
-            // add a property containing the content author
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
+        // Load document to Signature instance
+        Signature signature = new Signature("input.jpeg");
 
-            // process operation results
-            System.out.println(String.format("Affected properties: %s", affected));
+        // Instantiate TextSignOptions object
+        TextSignOptions options = new TextSignOptions("John Smith");
 
-            // save the file with updated metadata
-            metadata.save("output.jpeg");
-        }
+        // Set all desired options
+        options.setLeft(100);
+        options.setTop(100);
+        options.setForeColor(Color.RED);
+
+        // Save file with signature to local disk
+        signature.sign("output.jpeg", options);
         
         ```            
 
@@ -104,7 +105,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/metadata/features_add.webp" # 500x500 px
+  image: "/img/signature/features_esign.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -121,29 +122,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to add custom metadata to TIFF image"
+    - title: "How to Put Image Signature on Document"
       content: |
-        This code sample demonstrates how to add a custom tag to an EXIF package
+        This example shows us how put an image signature on specific document page.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        // Pass source document as a parameter
+        Signature signature = new Signature("input.jpeg");
 
-            //  Set the EXIF package if it's missing
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
-            }
+        // Pass image path to signature options
+        ImageSignOptions options = new ImageSignOptions("image.jpg");
 
-            //  Add a known property
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+        // Set size and affected pages of future signature
+        options.setLeft(100);
+        options.setTop(100);
+        options.setPageNumber(1);
+        options.setAllPages(true);
 
-            //  Add a fully custom property (which is not described in the EXIF specification)
-            //  Please note that the chosen ID may intersect with the IDs used by some third party tools
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+        // Sign the document
+        signature.sign("output.jpeg", options);
 
-            metadata.save("output.tiff");
-        }
         ```
         {{< /landing/code >}}
 
@@ -172,131 +171,38 @@ more_formats:
     exclude: "JPEG"
     description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
+          
         # format loop 1
-        - name: "{common-content.format-formats.avi.name}"
-          format: "AVI"
-          link: "/metadata/java//avi/"
-          description: "{common-content.format-formats.avi.description}"
-          
-        # format loop 2
-        - name: "{common-content.format-formats.djvu.name}"
-          format: "DJVU"
-          link: "/metadata/java//djvu/"
-          description: "{common-content.format-formats.djvu.description}"
-          
-        # format loop 3
         - name: "Watermark DOCX"
           format: "DOCX"
           link: "/metadata/java//docx/"
           description: "Microsoft Word Open XML Document"
           
-        # format loop 4
-        - name: "{common-content.format-formats.epub.name}"
-          format: "EPUB"
-          link: "/metadata/java//epub/"
-          description: "{common-content.format-formats.epub.description}"
-          
-        # format loop 5
-        - name: "{common-content.format-formats.heic.name}"
-          format: "HEIC"
-          link: "/metadata/java//heic/"
-          description: "{common-content.format-formats.heic.description}"
-          
-        # format loop 6
+        # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
           link: "/metadata/java//jpeg/"
           description: "JPEG Image"
           
-        # format loop 7
-        - name: "{common-content.format-formats.mov.name}"
-          format: "MOV"
-          link: "/metadata/java//mov/"
-          description: "{common-content.format-formats.mov.description}"
-          
-        # format loop 8
-        - name: "{common-content.format-formats.mp3.name}"
-          format: "MP3"
-          link: "/metadata/java//mp3/"
-          description: "{common-content.format-formats.mp3.description}"
-          
-        # format loop 9
-        - name: "{common-content.format-formats.msg.name}"
-          format: "MSG"
-          link: "/metadata/java//msg/"
-          description: "{common-content.format-formats.msg.description}"
-          
-        # format loop 10
-        - name: "{common-content.format-formats.ods.name}"
-          format: "ODS"
-          link: "/metadata/java//ods/"
-          description: "{common-content.format-formats.ods.description}"
-          
-        # format loop 11
-        - name: "{common-content.format-formats.odt.name}"
-          format: "ODT"
-          link: "/metadata/java//odt/"
-          description: "{common-content.format-formats.odt.description}"
-          
-        # format loop 12
+        # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
           link: "/metadata/java//pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 13
-        - name: "Watermark PNG"
-          format: "PNG"
-          link: "/metadata/java//png/"
-          description: "Portable Network Graphic"
-          
-        # format loop 14
+        # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
           link: "/metadata/java//pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 15
-        - name: "Watermark TIFF"
-          format: "TIFF"
-          link: "/metadata/java//tiff/"
-          description: "Tag Image File Format"
-          
-        # format loop 16
-        - name: "{common-content.format-formats.torrent.name}"
-          format: "TORRENT"
-          link: "/metadata/java//torrent/"
-          description: "{common-content.format-formats.torrent.description}"
-          
-        # format loop 17
-        - name: "{common-content.format-formats.vsdx.name}"
-          format: "VSDX"
-          link: "/metadata/java//vsdx/"
-          description: "{common-content.format-formats.vsdx.description}"
-          
-        # format loop 18
-        - name: "{common-content.format-formats.wav.name}"
-          format: "WAV"
-          link: "/metadata/java//wav/"
-          description: "{common-content.format-formats.wav.description}"
-          
-        # format loop 19
-        - name: "Watermark WEBP"
-          format: "WEBP"
-          link: "/metadata/java//webp/"
-          description: "WEB Picture"
-          
-        # format loop 20
+        # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
           link: "/metadata/java//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-          
-        # format loop 21
-        - name: "{common-content.format-formats.zip.name}"
-          format: "ZIP"
-          link: "/metadata/java//zip/"
-          description: "{common-content.format-formats.zip.description}"
+
+
           
 
 ---

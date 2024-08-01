@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/metadata/<% get "ProdCode" %>/"
+    link: "/signature/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_metadata.svg" # 480 X 400
+    picture: "about_signature.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -55,22 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,20 +67,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
-
-            // <% "{examples.comment_3}" %>
-            System.out.println(String.format("Affected properties: %s", affected));
+            TextSignOptions options = new TextSignOptions("John Smith")
+            {
+                // <% "{examples.comment_3}" %>
+                Left = 50,
+                Top = 200,
+                ForeColor = Color.Red
+            };
 
             // <% "{examples.comment_4}" %>
-            metadata.save("output.<% get "fileformat" %>");
-        }
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         
         ```            
 
@@ -104,7 +90,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/metadata/features_add.webp" # 500x500 px
+  image: "/img/signature/features_esign.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -125,25 +111,24 @@ more_features:
       content: |
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Java">}}
-        ```java {style=abap}
+        ```csharp {style=abap}
         
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        // <% "{more_features.code_1.comment_1}" %>
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            ImageSignOptions options = new ImageSignOptions("image.jpg")
+            {
+                // <% "{more_features.code_1.comment_3}" %>
+                Left = 50,
+                Top = 50,
+                AllPages = true
+            };
 
-            //  <% "{more_features.code_1.comment_1}" %>
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
-            }
-
-            //  <% "{more_features.code_1.comment_2}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
-
-            //  <% "{more_features.code_1.comment_3}" %>
-            //  <% "{more_features.code_1.comment_4}" %>
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
-
-            metadata.save("output.tiff");
+            // <% "{more_features.code_1.comment_4}" %>
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
+
         ```
         {{< /landing/code >}}
 

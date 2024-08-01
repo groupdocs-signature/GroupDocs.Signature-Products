@@ -1,10 +1,11 @@
 
 
 
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-07-30T15:09:06
+date:  2024-08-01T07:25:52
 draft: false
 lang: en
 format: Docx
@@ -33,9 +34,9 @@ header_actions:
 about:
     enable: true
     title: "About GroupDocs.Signature for Node.js via Java API"
-    link: "/metadata/nodejs-java/"
+    link: "/signature/nodejs-java/"
     link_title: "Learn more"
-    picture: "about_metadata.svg" # 480 X 400
+    picture: "about_signature.svg" # 480 X 400
     content: |
        [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
@@ -46,8 +47,8 @@ steps:
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to DOCX files from within their applications by implementing a few easy steps.
       
-      1. Load DOCX with an instance of  class.
-      2. Use  method to add the properties.
+      1. Load DOCX with an instance of {{TextMetadata}} class.
+      2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
       4. Save the changes back in DOCX format.
    
@@ -55,22 +56,7 @@ steps:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-metadata</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -82,20 +68,20 @@ steps:
           link: "https://docs.groupdocs.com/signature/nodejs-java/"
           
       content: |
-        ```java {style=abap}
-        // load the file in an instance of  class
-        try (Metadata metadata = new Metadata("input.docx"))
-        {
-            // add a property containing the content author
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
-                new PropertyValue(new Date()));
+        ```javascript {style=abap}
+        // Provide document to Signature instance
+        const signature = new signatureLib.Signature('input.docx');
 
-            // process operation results
-            System.out.println(String.format("Affected properties: %s", affected));
+        // Make new TextSignOptions for signing
+        const options = new signatureLib.TextSignOptions('John Smith');
 
-            // save the file with updated metadata
-            metadata.save("output.docx");
-        }
+        // Customize signature parameters
+        options.setLeft(100);
+        options.setTop(100);
+        options.setForeColor(new Color(255, 0, 0));
+
+        // Add signature and save signed file
+        signature.sign('output.docx', options);
         
         ```            
 
@@ -104,7 +90,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/metadata/features_add.webp" # 500x500 px
+  image: "/img/signature/features_esign.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -121,29 +107,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to clear image from undesirable metadata"
+    - title: "How to Protect Document with Image Signature"
       content: |
-        This code sample shows how to remove EXIF metadata from a file
+        This guide shows how to incorporate an image signature into a document.
         {{< landing/code title="Java">}}
-        ```java {style=abap}
+        ```javascript {style=abap}
         
-        try (Metadata metadata = new Metadata("input.tiff")) {
-            IExif root = (IExif) metadata.getRootPackage();
+        // Specify the path to the source document
+        const signature = new Signature('input.docx');
 
-            //  pass image to the  class constructor
-            if (root.getExifPackage() == null) {
-                root.setExifPackage(new ExifPackage());
-            }
+        // Create an options instance with the image path
+        const options = new ImageSignOptions('image.jpg');
 
-            //  access EXIF root package
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+        // Set the signature size and target pages
+        options.setLeft(100);
+        options.setTop(100);
+        options.setPageNumber(1);
+        options.setAllPages(true);
 
-            //  remove metadata
-            //  save cleared file
-            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+        // Apply the signature and save the document
+        signature.sign('output.docx', options);
 
-            metadata.save("output.tiff");
-        }
         ```
         {{< /landing/code >}}
 
@@ -172,131 +156,38 @@ more_formats:
     exclude: "DOCX"
     description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
+          
         # format loop 1
-        - name: "{common-content.format-formats.avi.name}"
-          format: "AVI"
-          link: "/metadata/nodejs-java//avi/"
-          description: "{common-content.format-formats.avi.description}"
-          
-        # format loop 2
-        - name: "{common-content.format-formats.djvu.name}"
-          format: "DJVU"
-          link: "/metadata/nodejs-java//djvu/"
-          description: "{common-content.format-formats.djvu.description}"
-          
-        # format loop 3
         - name: "Watermark DOCX"
           format: "DOCX"
           link: "/metadata/nodejs-java//docx/"
           description: "Microsoft Word Open XML Document"
           
-        # format loop 4
-        - name: "{common-content.format-formats.epub.name}"
-          format: "EPUB"
-          link: "/metadata/nodejs-java//epub/"
-          description: "{common-content.format-formats.epub.description}"
-          
-        # format loop 5
-        - name: "{common-content.format-formats.heic.name}"
-          format: "HEIC"
-          link: "/metadata/nodejs-java//heic/"
-          description: "{common-content.format-formats.heic.description}"
-          
-        # format loop 6
+        # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
           link: "/metadata/nodejs-java//jpeg/"
           description: "JPEG Image"
           
-        # format loop 7
-        - name: "{common-content.format-formats.mov.name}"
-          format: "MOV"
-          link: "/metadata/nodejs-java//mov/"
-          description: "{common-content.format-formats.mov.description}"
-          
-        # format loop 8
-        - name: "{common-content.format-formats.mp3.name}"
-          format: "MP3"
-          link: "/metadata/nodejs-java//mp3/"
-          description: "{common-content.format-formats.mp3.description}"
-          
-        # format loop 9
-        - name: "{common-content.format-formats.msg.name}"
-          format: "MSG"
-          link: "/metadata/nodejs-java//msg/"
-          description: "{common-content.format-formats.msg.description}"
-          
-        # format loop 10
-        - name: "{common-content.format-formats.ods.name}"
-          format: "ODS"
-          link: "/metadata/nodejs-java//ods/"
-          description: "{common-content.format-formats.ods.description}"
-          
-        # format loop 11
-        - name: "{common-content.format-formats.odt.name}"
-          format: "ODT"
-          link: "/metadata/nodejs-java//odt/"
-          description: "{common-content.format-formats.odt.description}"
-          
-        # format loop 12
+        # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
           link: "/metadata/nodejs-java//pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 13
-        - name: "Watermark PNG"
-          format: "PNG"
-          link: "/metadata/nodejs-java//png/"
-          description: "Portable Network Graphic"
-          
-        # format loop 14
+        # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
           link: "/metadata/nodejs-java//pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 15
-        - name: "Watermark TIFF"
-          format: "TIFF"
-          link: "/metadata/nodejs-java//tiff/"
-          description: "Tag Image File Format"
-          
-        # format loop 16
-        - name: "{common-content.format-formats.torrent.name}"
-          format: "TORRENT"
-          link: "/metadata/nodejs-java//torrent/"
-          description: "{common-content.format-formats.torrent.description}"
-          
-        # format loop 17
-        - name: "{common-content.format-formats.vsdx.name}"
-          format: "VSDX"
-          link: "/metadata/nodejs-java//vsdx/"
-          description: "{common-content.format-formats.vsdx.description}"
-          
-        # format loop 18
-        - name: "{common-content.format-formats.wav.name}"
-          format: "WAV"
-          link: "/metadata/nodejs-java//wav/"
-          description: "{common-content.format-formats.wav.description}"
-          
-        # format loop 19
-        - name: "Watermark WEBP"
-          format: "WEBP"
-          link: "/metadata/nodejs-java//webp/"
-          description: "WEB Picture"
-          
-        # format loop 20
+        # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
           link: "/metadata/nodejs-java//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-          
-        # format loop 21
-        - name: "{common-content.format-formats.zip.name}"
-          format: "ZIP"
-          link: "/metadata/nodejs-java//zip/"
-          description: "{common-content.format-formats.zip.description}"
+
+
           
 
 ---
