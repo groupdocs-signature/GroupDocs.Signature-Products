@@ -82,7 +82,7 @@ steps:
 
             // <% "{examples.comment_4}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        
+        }
         ```            
 
 ############################# More features ############################

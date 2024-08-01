@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\esign\\format_java.yml" %>
+<% configRef "..\\configs\\search\\format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Java"
-platform_tag: "java"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,22 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,20 +67,27 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_2}" %>
+            TextSearchOptions options = new TextSearchOptions()
+            {
+                AllPages = true
+            };
 
-        // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("John Smith");
+            // <% "{examples.comment_3}" %>
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            Console.WriteLine($"\nSource document contains following text signature(s).");
 
-        // <% "{examples.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(Color.RED);
-
-        // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
+            // <% "{examples.comment_4}" %>               
+            foreach (TextSignature textSignature in signatures)
+            {
+                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
+                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+            }
+        }
         
         ```            
 
@@ -104,7 +96,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -124,23 +116,23 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
         
         // <% "{more_features.code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
+            Console.WriteLine($"\nSource document contains following image signature(s).");
 
-        // <% "{more_features.code_1.comment_2}" %>
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
-
-        // <% "{more_features.code_1.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
-
-        // <% "{more_features.code_1.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
+            // <% "{more_features.code_1.comment_3}" %>
+            foreach (ImageSignature imageSignature in signatures)
+            {
+                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
+                and size {imageSignature.Size}.");
+            }
+        }
         ```
         {{< /landing/code >}}
 

@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\esign\\format_java.yml" %>
+<% configRef "..\\configs\\search\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -83,19 +83,24 @@ steps:
           
       content: |
         ```java {style=abap}
+
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        final Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("John Smith");
+        TextSearchOptions options = new TextSearchOptions();
+        options.setAllPages(true);
 
         // <% "{examples.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(Color.RED);
+        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        System.out.print("\nSource document contains following text signature(s).");
 
         // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
+        for (TextSignature textSignature : signatures) {
+            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
+                + " with type [" + textSignature.getSignatureImplementation() + "] and 
+                text '" + textSignature.getText() + "'.");
+        }
         
         ```            
 
@@ -104,7 +109,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -124,23 +129,23 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
+        {{< landing/code title="C#">}}
         ```java {style=abap}
-        
+
         // <% "{more_features.code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        final Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{more_features.code_1.comment_2}" %>
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
+        System.out.print("\nSource document contains following image signature(s).");
 
         // <% "{more_features.code_1.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
-
-        // <% "{more_features.code_1.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
+        for (ImageSignature imageSignature : signatures)
+        {
+            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
+                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
+                ", modified "+imageSignature.getModifiedOn());
+        }
         ```
         {{< /landing/code >}}
 

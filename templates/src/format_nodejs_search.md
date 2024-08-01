@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\esign\\format_java.yml" %>
+<% configRef "..\\configs\\search\\format_nodejs.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Java"
-platform_tag: "java"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,22 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,20 +67,25 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
+        const signatureLib = require('@groupdocs/groupdocs.signature')
+
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("John Smith");
+        const options = new signatureLib.TextSearchOptions();
+        options.setAllPages(true);
 
         // <% "{examples.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(Color.RED);
+        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
+        console.log(`\nSource document contains the following text signature(s).`);
 
         // <% "{examples.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
+        for (const textSignature of signatures) {
+            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
+            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        }
         
         ```            
 
@@ -104,7 +94,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -124,23 +114,22 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
+        {{< landing/code title="JavaScript">}}
+        ```javascript {style=abap}
+        const signatureLib = require('@groupdocs/groupdocs.signature')
         
         // <% "{more_features.code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        const signature = new signatureLib.Signature(filePath);
 
         // <% "{more_features.code_1.comment_2}" %>
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
+        console.log(`\nSource document contains the following image signature(s).`);
 
         // <% "{more_features.code_1.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
-
-        // <% "{more_features.code_1.comment_4}" %>
-        signature.sign("output.<% get "fileformat" %>", options);
-
+        for (const imageSignature of signatures) {
+            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
+            and size ${imageSignature.getSize()}.`);
+        }
         ```
         {{< /landing/code >}}
 

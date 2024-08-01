@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T07:25:52
+date:  2024-08-01T11:55:35
 draft: false
 lang: en
 format: Jpeg
@@ -69,21 +69,21 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Pass document path to Signature constructor
+        // Load the document into a Signature instance
         using (Signature signature = new Signature("input.jpeg"))
         {
-            // Create instance of TextSignOptions
+            // Create a new TextSignOptions object
             TextSignOptions options = new TextSignOptions("John Smith")
             {
-                // Set new signature options
+                // Configure all the necessary options
                 Left = 50,
                 Top = 200,
                 ForeColor = Color.Red
             };
 
-            // Save signed file to another place
+            // Persist the signed document to local storage
             SignResult result = signature.Sign("output.jpeg", options);
-        
+        }
         ```            
 
 ############################# More features ############################
@@ -108,25 +108,25 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Sign Document with Image"
+    - title: "How to Affix an Image Signature to a Document"
       content: |
-        This example demonstrates how add an image signature to a document.
+        This example illustrates the procedure for applying an image signature to a specific page within a document.
         {{< landing/code title="Java">}}
         ```csharp {style=abap}
         
-        // Provide path to a source document
+        // Provide the source document as an argument
         using (Signature signature = new Signature("input.jpeg"))
         {
-            // Create options instance with path to an image
+            // Specify the path to the image in the signature configuration
             ImageSignOptions options = new ImageSignOptions("image.jpg")
             {
-                // Customize signature size and affected pages
+                // Define the dimensions and target pages for the signature
                 Left = 50,
                 Top = 50,
                 AllPages = true
             };
 
-            // Sign and save the document
+            // Execute the application of the signature to the document
             SignResult result = signature.Sign("output.jpeg", options);
         }
 
@@ -162,31 +162,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/metadata/net//docx/"
+          link: "/signature/net//docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/metadata/net//jpeg/"
+          link: "/signature/net//jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/metadata/net//pdf/"
+          link: "/signature/net//pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/metadata/net//pptx/"
+          link: "/signature/net//pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/metadata/net//xlsx/"
+          link: "/signature/net//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

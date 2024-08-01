@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T07:25:52
+date:  2024-08-01T11:55:35
 draft: false
 lang: en
 format: Jpeg
@@ -69,18 +69,20 @@ steps:
           
       content: |
         ```javascript {style=abap}
-        // Provide document to Signature instance
+        const signatureLib = require('@groupdocs/groupdocs.signature')
+
+        // Import the document into a Signature instance
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Make new TextSignOptions for signing
+        // Instantiate a TextSignOptions object
         const options = new signatureLib.TextSignOptions('John Smith');
 
-        // Customize signature parameters
+        // Specify all required options
         options.setLeft(100);
         options.setTop(100);
         options.setForeColor(new Color(255, 0, 0));
 
-        // Add signature and save signed file
+        // Save the signed document to the local disk
         signature.sign('output.jpeg', options);
         
         ```            
@@ -107,25 +109,25 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Protect Document with Image Signature"
+    - title: "How to Apply an Image Signature to a Document"
       content: |
-        This guide shows how to incorporate an image signature into a document.
-        {{< landing/code title="Java">}}
+        This guide details the process for affixing an image signature to a designated page within a document.
+        {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
-        
-        // Specify the path to the source document
-        const signature = new Signature('input.jpeg');
+        const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Create an options instance with the image path
-        const options = new ImageSignOptions('image.jpg');
+        // Provide the source document as an input parameter
+        const signature = new signatureLib.Signature('input.jpeg');
 
-        // Set the signature size and target pages
+        // Specify the image file path in the signature configuration options
+        const options = new signatureLib.ImageSignOptions('image.jpg');
+
+        // Configure the dimensions and specify the target pages for the signature
         options.setLeft(100);
         options.setTop(100);
-        options.setPageNumber(1);
         options.setAllPages(true);
 
-        // Apply the signature and save the document
+        // Implement the signature application to the document
         signature.sign('output.jpeg', options);
 
         ```
@@ -160,31 +162,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/metadata/nodejs-java//docx/"
+          link: "/signature/nodejs-java//docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/metadata/nodejs-java//jpeg/"
+          link: "/signature/nodejs-java//jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/metadata/nodejs-java//pdf/"
+          link: "/signature/nodejs-java//pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/metadata/nodejs-java//pptx/"
+          link: "/signature/nodejs-java//pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/metadata/nodejs-java//xlsx/"
+          link: "/signature/nodejs-java//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

@@ -18,10 +18,10 @@
     "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
   },
   "examples": {
-    "comment_1": "Import the document into a {{TextSignature}} instance",
-    "comment_2": "Instantiate a {{TextSignOptions}} object",
-    "comment_3": "Specify all required options",
-    "comment_4": "Save the signed document to the local disk"
+    "comment_1": "Instantiate a {{TextSignature}} object using the document path",
+    "comment_2": "Configure {{TextSearchOptions}} to include every page",
+    "comment_3": "Perform a search to locate all text signatures within the document",
+    "comment_4": "Aggregate the discovered signatures for comprehensive analysis"
   },
   "steps": {
     "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
@@ -50,12 +50,11 @@
       "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
     },
     "code_1": {
-      "title": "How to Apply an Image Signature to a Document",
-      "content": "This guide details the process for affixing an image signature to a designated page within a document.",
-      "comment_1": "Provide the source document as an input parameter",
-      "comment_2": "Specify the image file path in the signature configuration options",
-      "comment_3": "Configure the dimensions and specify the target pages for the signature",
-      "comment_4": "Implement the signature application to the document"
+      "title": "Identifying Image Signatures",
+      "content": "This example elucidates how to detect an image signature within a specific document.",
+      "comment_1": "Supply the source document as a parameter to the constructor",
+      "comment_2": "Search for any signatures that are of the text type",
+      "comment_3": "Display the findings with comprehensive properties of the detected signatures"
     }
   }
 }

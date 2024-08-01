@@ -69,21 +69,27 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Load the document into a Signature instance
+        // Initialize a Signature object with the specified document path
         using (Signature signature = new Signature("input.pptx"))
         {
-            // Create a new TextSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            // Create an instance of TextSearchOptions to encompass all pages
+            TextSearchOptions options = new TextSearchOptions()
             {
-                // Configure all the necessary options
-                Left = 50,
-                Top = 200,
-                ForeColor = Color.Red
+                AllPages = true
             };
 
-            // Persist the signed document to local storage
-            SignResult result = signature.Sign("output.pptx", options);
+            // Execute a search to identify any text-based signatures in the document
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            Console.WriteLine($"\nSource document contains following text signature(s).");
+
+            // Compile a list of detected signatures for detailed examination               
+            foreach (TextSignature textSignature in signatures)
+            {
+                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
+                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+            }
         }
+        
         ```            
 
 ############################# More features ############################
@@ -91,7 +97,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -108,28 +114,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Affix an Image Signature to a Document"
+    - title: "Locating Image Signatures"
       content: |
-        This example illustrates the procedure for applying an image signature to a specific page within a document.
-        {{< landing/code title="Java">}}
+        This example illustrates the process of detecting an image signature within a specified document.
+        {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-        // Provide the source document as an argument
+        // Provide the source document as an argument to the constructor
         using (Signature signature = new Signature("input.pptx"))
         {
-            // Specify the path to the image in the signature configuration
-            ImageSignOptions options = new ImageSignOptions("image.jpg")
+            // Search for any signatures of the text type
+            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
+            Console.WriteLine($"\nSource document contains following image signature(s).");
+
+            // Present the results with detailed properties of the identified signatures
+            foreach (ImageSignature imageSignature in signatures)
             {
-                // Define the dimensions and target pages for the signature
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
-
-            // Execute the application of the signature to the document
-            SignResult result = signature.Sign("output.pptx", options);
+                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
+                and size {imageSignature.Size}.");
+            }
         }
-
         ```
         {{< /landing/code >}}
 

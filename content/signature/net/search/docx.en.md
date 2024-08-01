@@ -8,18 +8,18 @@ layout: "format"
 date:  2024-08-01T11:55:35
 draft: false
 lang: en
-format: Pptx
+format: Docx
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to PPTX Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Add Metadata to DOCX Files in C# Applications"
+head_description: "C# metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
 
 ############################# Header ############################
-title: "Adding Metadata To PPTX In C#" 
+title: "Adding Metadata To DOCX In C#" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,11 +43,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Pptx in C#"
+    title: "Steps for adding Metadata to Docx in C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to DOCX files from within their applications by implementing a few easy steps.
       
-      1. Load the PPTX file to be updated.
+      1. Load the DOCX file to be updated.
       2. Specify a predicate that will be used to add metadata properties.
       3. Pass the predicate to the {{TextMetadataAddProperties}} method.
       4. Save the changes.
@@ -69,21 +69,27 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Load the document into a Signature instance
-        using (Signature signature = new Signature("input.pptx"))
+        // Initialize a Signature object with the specified document path
+        using (Signature signature = new Signature("input.docx"))
         {
-            // Create a new TextSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            // Create an instance of TextSearchOptions to encompass all pages
+            TextSearchOptions options = new TextSearchOptions()
             {
-                // Configure all the necessary options
-                Left = 50,
-                Top = 200,
-                ForeColor = Color.Red
+                AllPages = true
             };
 
-            // Persist the signed document to local storage
-            SignResult result = signature.Sign("output.pptx", options);
+            // Execute a search to identify any text-based signatures in the document
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            Console.WriteLine($"\nSource document contains following text signature(s).");
+
+            // Compile a list of detected signatures for detailed examination               
+            foreach (TextSignature textSignature in signatures)
+            {
+                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
+                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+            }
         }
+        
         ```            
 
 ############################# More features ############################
@@ -91,7 +97,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -108,28 +114,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Affix an Image Signature to a Document"
+    - title: "Locating Image Signatures"
       content: |
-        This example illustrates the procedure for applying an image signature to a specific page within a document.
-        {{< landing/code title="Java">}}
+        This example illustrates the process of detecting an image signature within a specified document.
+        {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-        // Provide the source document as an argument
-        using (Signature signature = new Signature("input.pptx"))
+        // Provide the source document as an argument to the constructor
+        using (Signature signature = new Signature("input.docx"))
         {
-            // Specify the path to the image in the signature configuration
-            ImageSignOptions options = new ImageSignOptions("image.jpg")
+            // Search for any signatures of the text type
+            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
+            Console.WriteLine($"\nSource document contains following image signature(s).");
+
+            // Present the results with detailed properties of the identified signatures
+            foreach (ImageSignature imageSignature in signatures)
             {
-                // Define the dimensions and target pages for the signature
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
-
-            // Execute the application of the signature to the document
-            SignResult result = signature.Sign("output.pptx", options);
+                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
+                and size {imageSignature.Size}.");
+            }
         }
-
         ```
         {{< /landing/code >}}
 
@@ -155,7 +159,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "PPTX"
+    exclude: "DOCX"
     description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

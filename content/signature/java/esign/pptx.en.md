@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T07:25:52
+date:  2024-08-01T11:55:34
 draft: false
 lang: en
 format: Pptx
@@ -84,18 +84,18 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Load document to Signature instance
+        // Load the document into a Signature instance
         Signature signature = new Signature("input.pptx");
 
-        // Instantiate TextSignOptions object
+        // Instantiate a TextSignOptions object
         TextSignOptions options = new TextSignOptions("John Smith");
 
-        // Set all desired options
+        // Configure all desired options
         options.setLeft(100);
         options.setTop(100);
         options.setForeColor(Color.RED);
 
-        // Save file with signature to local disk
+        // Save the file with the signature to the local disk
         signature.sign("output.pptx", options);
         
         ```            
@@ -122,25 +122,24 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Put Image Signature on Document"
+    - title: "How to Add an Image Signature to a Document"
       content: |
-        This example shows us how put an image signature on specific document page.
+        This example demonstrates how to place an image signature on a specific page of a document.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        // Pass source document as a parameter
+        // Provide the source document as a parameter
         Signature signature = new Signature("input.pptx");
 
-        // Pass image path to signature options
+        // Specify the image path in the signature options
         ImageSignOptions options = new ImageSignOptions("image.jpg");
 
-        // Set size and affected pages of future signature
+        // Set the size and target pages for the signature
         options.setLeft(100);
         options.setTop(100);
-        options.setPageNumber(1);
         options.setAllPages(true);
 
-        // Sign the document
+        // Apply the signature to the document
         signature.sign("output.pptx", options);
 
         ```
@@ -175,31 +174,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/metadata/java//docx/"
+          link: "/signature/java//docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/metadata/java//jpeg/"
+          link: "/signature/java//jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/metadata/java//pdf/"
+          link: "/signature/java//pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/metadata/java//pptx/"
+          link: "/signature/java//pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/metadata/java//xlsx/"
+          link: "/signature/java//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

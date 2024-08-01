@@ -18,10 +18,10 @@
     "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
   },
   "examples": {
-    "comment_1": "Load document to {{TextSignature}} instance",
-    "comment_2": "Instantiate {{TextSignOptions}} object",
-    "comment_3": "Set all desired options",
-    "comment_4": "Save file with signature to local disk"
+    "comment_1": "Load the document into a {{TextSignature}} instance",
+    "comment_2": "Instantiate a {{TextSignOptions}} object",
+    "comment_3": "Configure all desired options",
+    "comment_4": "Save the file with the signature to the local disk"
   },
   "steps": {
     "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
@@ -50,12 +50,12 @@
       "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
     },
     "code_1": {
-      "title": "How to Put Image Signature on Document",
-      "content": "This example shows us how put an image signature on specific document page.",
-      "comment_1": "Pass source document as a parameter",
-      "comment_2": "Pass image path to signature options",
-      "comment_3": "Set size and affected pages of future signature",
-      "comment_4": "Sign the document"
+      "title": "How to Add an Image Signature to a Document",
+      "content": "This example demonstrates how to place an image signature on a specific page of a document.",
+      "comment_1": "Provide the source document as a parameter",
+      "comment_2": "Specify the image path in the signature options",
+      "comment_3": "Set the size and target pages for the signature",
+      "comment_4": "Apply the signature to the document"
     }
   }
 }

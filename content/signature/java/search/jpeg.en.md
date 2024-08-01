@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:34
+date:  2024-08-01T11:55:35
 draft: false
 lang: en
 format: Jpeg
@@ -84,19 +84,24 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Load the document into a Signature instance
-        Signature signature = new Signature("input.jpeg");
 
-        // Instantiate a TextSignOptions object
-        TextSignOptions options = new TextSignOptions("John Smith");
+        // Create an instance of Signature with the document path
+        final Signature signature = new Signature("input.jpeg");
 
-        // Configure all desired options
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(Color.RED);
+        // Instantiate TextSearchOptions to cover all pages
+        TextSearchOptions options = new TextSearchOptions();
+        options.setAllPages(true);
 
-        // Save the file with the signature to the local disk
-        signature.sign("output.jpeg", options);
+        // Search for text signatures within the document
+        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        System.out.print("\nSource document contains following text signature(s).");
+
+        // List the found signatures for further analysis
+        for (TextSignature textSignature : signatures) {
+            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
+                + " with type [" + textSignature.getSignatureImplementation() + "] and 
+                text '" + textSignature.getText() + "'.");
+        }
         
         ```            
 
@@ -105,7 +110,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/search.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -122,26 +127,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Add an Image Signature to a Document"
+    - title: "Search for Image Signatures"
       content: |
-        This example demonstrates how to place an image signature on a specific page of a document.
-        {{< landing/code title="Java">}}
+        This example demonstrates how to find an image signature in a specific document.
+        {{< landing/code title="C#">}}
         ```java {style=abap}
-        
-        // Provide the source document as a parameter
-        Signature signature = new Signature("input.jpeg");
 
-        // Specify the image path in the signature options
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        // Pass the source document as a constructor parameter
+        final Signature signature = new Signature("input.jpeg");
 
-        // Set the size and target pages for the signature
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
+        // Search for any signatures with a text type
+        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
+        System.out.print("\nSource document contains following image signature(s).");
 
-        // Apply the signature to the document
-        signature.sign("output.jpeg", options);
-
+        // Display the results with the properties of the found signatures
+        for (ImageSignature imageSignature : signatures)
+        {
+            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
+                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
+                ", modified "+imageSignature.getModifiedOn());
+        }
         ```
         {{< /landing/code >}}
 

@@ -8,18 +8,18 @@ layout: "format"
 date:  2024-08-01T11:55:35
 draft: false
 lang: en
-format: Pdf
+format: Pptx
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to PDF Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to PDF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to PPTX Files in JavaScript Applications"
+head_description: "JavaScript metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To PDF In JavaScript" 
+title: "Adding Metadata To PPTX In JavaScript" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PDF in JavaScript"
+    title: "Steps for adding Metadata to PPTX in JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
       
-      1. Load PDF with an instance of {{TextMetadata}} class.
+      1. Load PPTX with an instance of {{TextMetadata}} class.
       2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PDF format.
+      4. Save the changes back in PPTX format.
    
     code:
       platform: "net"
@@ -71,19 +71,22 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Import the document into a Signature instance
-        const signature = new signatureLib.Signature('input.pdf');
+        // Instantiate a Signature object using the document path
+        const signature = new signatureLib.Signature('input.pptx');
 
-        // Instantiate a TextSignOptions object
-        const options = new signatureLib.TextSignOptions('John Smith');
+        // Configure TextSearchOptions to include every page
+        const options = new signatureLib.TextSearchOptions();
+        options.setAllPages(true);
 
-        // Specify all required options
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(new Color(255, 0, 0));
+        // Perform a search to locate all text signatures within the document
+        const signatures = signature.search(signatureLib.TextSignature.class, options).toArray();
+        console.log(`\nSource document contains the following text signature(s).`);
 
-        // Save the signed document to the local disk
-        signature.sign('output.pdf', options);
+        // Aggregate the discovered signatures for comprehensive analysis
+        for (const textSignature of signatures) {
+            console.log(`Found Text signature at page ${textSignature.getPageNumber()} 
+            with type [${textSignature.getSignatureImplementation()}] and text '${textSignature.getText()}'.`);
+        }
         
         ```            
 
@@ -92,7 +95,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_search.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -109,27 +112,25 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Apply an Image Signature to a Document"
+    - title: "Identifying Image Signatures"
       content: |
-        This guide details the process for affixing an image signature to a designated page within a document.
+        This example elucidates how to detect an image signature within a specific document.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
+        
+        // Supply the source document as a parameter to the constructor
+        const signature = new signatureLib.Signature(filePath);
 
-        // Provide the source document as an input parameter
-        const signature = new signatureLib.Signature('input.pdf');
+        // Search for any signatures that are of the text type
+        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
+        console.log(`\nSource document contains the following image signature(s).`);
 
-        // Specify the image file path in the signature configuration options
-        const options = new signatureLib.ImageSignOptions('image.jpg');
-
-        // Configure the dimensions and specify the target pages for the signature
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
-
-        // Implement the signature application to the document
-        signature.sign('output.pdf', options);
-
+        // Display the findings with comprehensive properties of the detected signatures
+        for (const imageSignature of signatures) {
+            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
+            and size ${imageSignature.getSize()}.`);
+        }
         ```
         {{< /landing/code >}}
 
@@ -155,7 +156,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "PDF"
+    exclude: "PPTX"
     description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

@@ -23,6 +23,7 @@
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
 <% set "TextSignature" (dict "products.textSignature") %>
 <% set "TextSignOptions" (dict "products.textSignOptions") %>
+<% set "TextSearchOptions" (dict "products.textSearchOptions") %>
 
 
 

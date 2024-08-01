@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:34
+date:  2024-08-01T11:55:35
 draft: false
 lang: en
-format: Jpeg
+format: Pdf
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to JPEG Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to PDF Files in Java Applications"
+head_description: "Java metadata processing API to add metadata information to PDF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To JPEG In Java" 
+title: "Adding Metadata To PDF In Java" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to JPEG in Java"
+    title: "Steps for adding Metadata to PDF in Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to JPEG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
       
-      1. Load JPEG with an instance of {{TextMetadata}} class.
+      1. Load PDF with an instance of {{TextMetadata}} class.
       2. Use {{TextMetadataAddProperties}} method to add the properties.
       3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in JPEG format.
+      4. Save the changes back in PDF format.
    
     code:
       platform: "net"
@@ -84,19 +84,24 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Load the document into a Signature instance
-        Signature signature = new Signature("input.jpeg");
 
-        // Instantiate a TextSignOptions object
-        TextSignOptions options = new TextSignOptions("John Smith");
+        // Create an instance of Signature with the document path
+        final Signature signature = new Signature("input.pdf");
 
-        // Configure all desired options
-        options.setLeft(100);
-        options.setTop(100);
-        options.setForeColor(Color.RED);
+        // Instantiate TextSearchOptions to cover all pages
+        TextSearchOptions options = new TextSearchOptions();
+        options.setAllPages(true);
 
-        // Save the file with the signature to the local disk
-        signature.sign("output.jpeg", options);
+        // Search for text signatures within the document
+        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        System.out.print("\nSource document contains following text signature(s).");
+
+        // List the found signatures for further analysis
+        for (TextSignature textSignature : signatures) {
+            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
+                + " with type [" + textSignature.getSignatureImplementation() + "] and 
+                text '" + textSignature.getText() + "'.");
+        }
         
         ```            
 
@@ -105,7 +110,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/search.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -122,26 +127,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Add an Image Signature to a Document"
+    - title: "Search for Image Signatures"
       content: |
-        This example demonstrates how to place an image signature on a specific page of a document.
-        {{< landing/code title="Java">}}
+        This example demonstrates how to find an image signature in a specific document.
+        {{< landing/code title="C#">}}
         ```java {style=abap}
-        
-        // Provide the source document as a parameter
-        Signature signature = new Signature("input.jpeg");
 
-        // Specify the image path in the signature options
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        // Pass the source document as a constructor parameter
+        final Signature signature = new Signature("input.pdf");
 
-        // Set the size and target pages for the signature
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
+        // Search for any signatures with a text type
+        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
+        System.out.print("\nSource document contains following image signature(s).");
 
-        // Apply the signature to the document
-        signature.sign("output.jpeg", options);
-
+        // Display the results with the properties of the found signatures
+        for (ImageSignature imageSignature : signatures)
+        {
+            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
+                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
+                ", modified "+imageSignature.getModifiedOn());
+        }
         ```
         {{< /landing/code >}}
 
@@ -167,7 +172,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "JPEG"
+    exclude: "PDF"
     description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           
