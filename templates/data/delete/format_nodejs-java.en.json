@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Pass the document with the signatures to the {{TextSignature}} instance",
+    "comment_2": "Extract the text signatures present in the document",
+    "comment_3": "Remove the first detected text signature",
+    "comment_4": "Handle the result of the deletion"
+  },
+  "steps": {
+    "title": "Guidelines for Removing Text Signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to efficiently remove text signatures in {{FileFormatUp}} files by following a series of simple steps.",
+      "step_1": "Provide the {{FileFormatUp}} file path to an instance of the {{TextSignature}} class.",
+      "step_2": "Utilize the Search method to identify all text signatures in the document.",
+      "step_3": "Remove one or more of the identified text signatures.",
+      "step_4": "Review the results of the document processing."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Remove All QR-Code Signatures",
+      "content": "Learn the procedure to eliminate all QR-code signatures embedded in a document.",
+      "comment_1": "Provide a document that includes QR-code signatures",
+      "comment_2": "Erase all QR-code signatures",
+      "comment_3": "Review the outcome of the deletion"
+    }
+  }
+}
