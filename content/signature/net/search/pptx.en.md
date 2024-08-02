@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:55
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Pptx
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Pptx in C#"
+    title: "Steps for Locating Signatures in PPTX using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) offers a robust engine for locating digital signatures within PPTX files. .NET developers can effortlessly enhance their applications with our solution.
       
-      1. Load the PPTX file to be updated.
-      2. Specify a predicate that will be used to add metadata properties.
-      3. Pass the predicate to the {{TextMetadataAddProperties}} method.
-      4. Save the changes.
+      1. Supply the PPTX file path for the signature search.
+      2. Employ TextSearchOptions to refine the search criteria.
+      3. Invoke the Search method to retrieve the results.
+      4. Assess the list of identified signatures.
    
     code:
       platform: "net"

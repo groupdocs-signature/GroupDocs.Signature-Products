@@ -24,13 +24,13 @@
     "comment_4": "Aggregate the discovered signatures for comprehensive analysis"
   },
   "steps": {
-    "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
+    "title": "Guidelines for Searching for Signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load {{FileFormatUp}} with an instance of {{TextMetadata}} class.",
-      "step_2": "Use {{TextMetadataAddProperties}} method to add the properties.",
-      "step_3": "Use a predicate to find desired metadata properties.",
-      "step_4": "Save the changes back in {{FileFormatUp}} format."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides a powerful tool for locating digital signatures within {{FileFormatUp}} files. {{EnvName}} developers can easily extend their application functionality with our solution.",
+      "step_1": "Specify the path of the {{FileFormatUp}} file for signature search.",
+      "step_2": "Use {{TextSearchOptions}} to filter the search results.",
+      "step_3": "Execute the Search method to find the signatures.",
+      "step_4": "Review the list of discovered signatures."
     }
   },
   "more_features": {

@@ -24,13 +24,13 @@
     "comment_4": "Analyze and interpret the results of the verification"
   },
   "steps": {
-    "title": "Steps for adding Metadata to {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps for Verifying Signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load the {{FileFormatUp}} file to be updated.",
-      "step_2": "Specify a predicate that will be used to add metadata properties.",
-      "step_3": "Pass the predicate to the {{TextMetadataAddProperties}} method.",
-      "step_4": "Save the changes."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) can authenticate the presence of specific signatures within a {{FileFormatUp}} document. {{EnvName}} developers can effortlessly enhance their applications by incorporating features provided by our solution.",
+      "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Instantiate and configure {{TextVerifyOptions}} to achieve the desired verification outcome.",
+      "step_3": "Commence the verification process.",
+      "step_4": "Review and interpret the verification results."
     }
   },
   "more_features": {

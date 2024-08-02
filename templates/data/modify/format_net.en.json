@@ -24,13 +24,13 @@
     "comment_4": "Validate the result of the text modification"
   },
   "steps": {
-    "title": "Steps for adding Metadata to {{FileformatCap}} in {{ProgLang}}",
+    "title": "Steps for Editing Text Signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load the {{FileFormatUp}} file to be updated.",
-      "step_2": "Specify a predicate that will be used to add metadata properties.",
-      "step_3": "Pass the predicate to the {{TextMetadataAddProperties}} method.",
-      "step_4": "Save the changes."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to revise the content of text signatures previously embedded in {{FileFormatUp}} files. Augment {{EnvName}} applications with advanced capabilities.",
+      "step_1": "Import the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Extract a list of all text signatures within the document.",
+      "step_3": "Revise the content of any identified signature.",
+      "step_4": "Evaluate the results of the modification."
     }
   },
   "more_features": {

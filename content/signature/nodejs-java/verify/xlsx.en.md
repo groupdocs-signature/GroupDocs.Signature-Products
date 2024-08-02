@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:55
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Xlsx
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to XLSX in JavaScript"
+    title: "Guidelines for Verifying Signatures in XLSX using JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to XLSX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) can authenticate the presence of specific signatures in a XLSX document. Node.js via Java developers can effortlessly enhance their applications by incorporating our verification features.
       
-      1. Load XLSX with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in XLSX format.
+      1. Load the XLSX document into the Signature instance.
+      2. Create and configure TextVerifyOptions to achieve the desired verification results.
+      3. Initiate the verification process.
+      4. Review and assess the verification outcomes.
    
     code:
       platform: "net"

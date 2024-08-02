@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:55
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Jpeg
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to JPEG in Java"
+    title: "Steps for Verifying Signatures in JPEG using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to JPEG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) can verify the presence of specific signatures in a JPEG document. Java developers can easily empower their applications by adding features provided by our solution.
       
-      1. Load JPEG with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in JPEG format.
+      1. Load the JPEG file into the Signature instance.
+      2. Instantiate and configure TextVerifyOptions to achieve the desired result.
+      3. Initiate the verification process.
+      4. Review the verification results.
    
     code:
       platform: "net"

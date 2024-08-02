@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:55
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Docx
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Docx in C#"
+    title: "Steps for Locating Signatures in DOCX using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to DOCX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) offers a robust engine for locating digital signatures within DOCX files. .NET developers can effortlessly enhance their applications with our solution.
       
-      1. Load the DOCX file to be updated.
-      2. Specify a predicate that will be used to add metadata properties.
-      3. Pass the predicate to the {{TextMetadataAddProperties}} method.
-      4. Save the changes.
+      1. Supply the DOCX file path for the signature search.
+      2. Employ TextSearchOptions to refine the search criteria.
+      3. Invoke the Search method to retrieve the results.
+      4. Assess the list of identified signatures.
    
     code:
       platform: "net"

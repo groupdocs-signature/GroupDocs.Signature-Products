@@ -24,13 +24,13 @@
     "comment_4": "Save the signed document to the local disk"
   },
   "steps": {
-    "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
+    "title": "Guidelines for Signing {{FileFormatUp}} Documents with Text Signatures using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load {{FileFormatUp}} with an instance of {{TextMetadata}} class.",
-      "step_2": "Use {{TextMetadataAddProperties}} method to add the properties.",
-      "step_3": "Use a predicate to find desired metadata properties.",
-      "step_4": "Save the changes back in {{FileFormatUp}} format."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) streamlines the process of adding customized text signatures to {{FileFormatUp}} files. {{EnvName}} developers can seamlessly incorporate signing functionality into their applications.",
+      "step_1": "Load the {{FileFormatUp}} document into the {{TextSignature}} instance.",
+      "step_2": "Configure {{TextSignOptions}} to define the signature attributes.",
+      "step_3": "Adjust properties such as size, color, and content as needed.",
+      "step_4": "Save the signed document to the specified location."
     }
   },
   "more_features": {

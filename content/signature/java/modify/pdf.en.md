@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T20:11:13
+date:  2024-08-02T13:50:40
 draft: false
 lang: en
 format: Pdf
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PDF in Java"
+    title: "Steps for Editing Text Signatures in PDF using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) allows Java developers to update the content of text signatures previously added to PDF files. Enhance Java applications with robust capabilities.
       
-      1. Load PDF with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PDF format.
+      1. Add the PDF file to the Signature instance.
+      2. Retrieve a list of all text signatures in the document.
+      3. Update the content of any identified signature.
+      4. Analyze the results of the modification.
    
     code:
       platform: "net"

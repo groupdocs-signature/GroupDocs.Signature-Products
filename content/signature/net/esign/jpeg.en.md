@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:35
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Jpeg
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Jpeg in C#"
+    title: "Steps for Signing JPEG Documents with Text Signatures using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to JPEG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into JPEG files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
       
-      1. Load the JPEG file to be updated.
-      2. Specify a predicate that will be used to add metadata properties.
-      3. Pass the predicate to the {{TextMetadataAddProperties}} method.
-      4. Save the changes.
+      1. Provide the JPEG file to the Signature instance for signing.
+      2. Utilize TextSignOptions to specify the signature parameters.
+      3. Configure attributes such as size, color, and content.
+      4. Save the signed file to the desired destination.
    
     code:
       platform: "net"

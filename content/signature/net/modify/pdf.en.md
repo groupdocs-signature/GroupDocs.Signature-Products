@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T20:11:13
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Pdf
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to Pdf in C#"
+    title: "Steps for Editing Text Signatures in PDF using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) makes it easy for .NET developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/net/) empowers .NET developers to revise the content of text signatures previously embedded in PDF files. Augment .NET applications with advanced capabilities.
       
-      1. Load the PDF file to be updated.
-      2. Specify a predicate that will be used to add metadata properties.
-      3. Pass the predicate to the {{TextMetadataAddProperties}} method.
-      4. Save the changes.
+      1. Import the PDF file into the Signature instance.
+      2. Extract a list of all text signatures within the document.
+      3. Revise the content of any identified signature.
+      4. Evaluate the results of the modification.
    
     code:
       platform: "net"

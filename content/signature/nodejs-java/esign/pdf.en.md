@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:35
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Pdf
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PDF in JavaScript"
+    title: "Guidelines for Signing PDF Documents with Text Signatures using JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) streamlines the process of adding customized text signatures to PDF files. Node.js via Java developers can seamlessly incorporate signing functionality into their applications.
       
-      1. Load PDF with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PDF format.
+      1. Load the PDF document into the Signature instance.
+      2. Configure TextSignOptions to define the signature attributes.
+      3. Adjust properties such as size, color, and content as needed.
+      4. Save the signed document to the specified location.
    
     code:
       platform: "net"

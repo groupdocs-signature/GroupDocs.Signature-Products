@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T15:01:54
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Pdf
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PDF in Java"
+    title: "Steps for Searching for Signatures in PDF using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to PDF files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) provides a powerful engine to search for any digital signatures within PDF files. Java developers can easily enhance their applications with our solution.
       
-      1. Load PDF with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PDF format.
+      1. Provide the PDF file path for signature search.
+      2. Use TextSearchOptions to refine the search results.
+      3. Execute the Search method to obtain the results.
+      4. Analyze the list of found signatures.
    
     code:
       platform: "net"

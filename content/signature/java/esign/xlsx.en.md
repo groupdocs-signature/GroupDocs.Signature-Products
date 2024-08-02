@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T11:55:34
+date:  2024-08-02T13:50:40
 draft: false
 lang: en
 format: Xlsx
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to XLSX in Java"
+    title: "Steps for Signing XLSX Documents with Text Signatures using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to add metadata details to XLSX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/java/) enables adding customized text signatures to XLSX files. Java developers can integrate signing functionality into their applications using our software.
       
-      1. Load XLSX with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in XLSX format.
+      1. Provide the XLSX file to be signed to the Signature instance.
+      2. Use TextSignOptions to define the signature details.
+      3. Customize various properties such as size, color, and content.
+      4. Save the signed file to the desired location.
    
     code:
       platform: "net"

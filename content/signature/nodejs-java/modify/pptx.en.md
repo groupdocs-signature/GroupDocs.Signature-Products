@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-01T20:11:13
+date:  2024-08-02T13:50:41
 draft: false
 lang: en
 format: Pptx
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding Metadata to PPTX in JavaScript"
+    title: "Guidelines for Modifying Text Signatures in PPTX using JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java developers to update the content of text signatures previously embedded in PPTX files. Enhance Node.js via Java applications with robust editing capabilities.
       
-      1. Load PPTX with an instance of {{TextMetadata}} class.
-      2. Use {{TextMetadataAddProperties}} method to add the properties.
-      3. Use a predicate to find desired metadata properties.
-      4. Save the changes back in PPTX format.
+      1. Import the PPTX document into the Signature instance.
+      2. Retrieve a list of all text signatures within the document.
+      3. Update the content of the desired signature.
+      4. Examine the results of the modifications.
    
     code:
       platform: "net"
