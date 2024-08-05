@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T12:49:13
+date:  2024-08-05T22:46:10
 draft: false
 lang: en
 format: Xlsx
@@ -130,7 +130,7 @@ more_features:
     - title: "Remove All QR-Code Signatures"
       content: |
         Learn how to remove all QR-code signatures embedded within a document.
-        {{< landing/code title="C#">}}
+        {{< landing/code title="Java">}}
         ```java {style=abap}
         // Provide a document that contains QR-code signatures
         Signature signature = new Signature("input.xlsx");

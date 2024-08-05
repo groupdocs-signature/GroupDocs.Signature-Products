@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\delete\\format_java.yml" %>
+<% configRef "..\\configs\\barcode\\format_nodejs.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Java"
-platform_tag: "java"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,22 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,26 +67,22 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```javascript {style=abap}
+        const signatureLib = require('@groupdocs/groupdocs.signature')
+
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        TextSearchOptions options = new TextSearchOptions();
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        const options = new signatureLib.BarcodeSignOptions('Business data');
 
         // <% "{examples.comment_3}" %>
-        if(signatures.size() > 0)
-        {
-            TextSignature textSignature = signatures.get(0);
-            boolean result = signature.delete("output.<% get "fileformat" %>", textSignature);
-
-            // <% "{examples.comment_4}" %>
-            if(result)
-            {
-                System.out.print("\nSignature was deleted successfully");
-            }
-        }
+        options.setEncodeType(signatureLib.BarcodeTypes.Code128);
+        options.setLeft(100);
+        options.setTop(100);
+  
+        // <% "{examples.comment_4}" %>
+        signature.sign('output.<% get "fileformat" %>', options);
         ```            
 
 ############################# More features ############################
@@ -129,26 +110,40 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
+        {{< landing/code title="JavaScript">}}
+        ```javascript {style=abap}
+        const signatureLib = require('@groupdocs/groupdocs.signature')
+        
         // <% "{more_features.code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
-        DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.QrCode);
+        // <% "{examples.comment_2}" %>
+        const signOptions = new signatureLib.BarcodeSignOptions('Accepted 21.09.2023');
 
-        // <% "{more_features.code_1.comment_3}" %>
-        if (result.getSucceeded().size() > 0)
-        {
-            System.out.print("\nFollowing QR-Code signatures were deleted:");
-            int number = 1;
-            for (BaseSignature temp : result.getSucceeded())
-            {
-                System.out.print("Signature #"+number++ +
-                ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((QrCodeSignature)temp).getText());
-            }
-        }
+        // <% "{examples.comment_3}" %>
+        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+
+        // <% "{more_features.code_1.comment_4}" %>
+        const padding = new signatureLib.Padding();
+        padding.setLeft(20);
+        padding.setTop(20);
+        signOptions.setMargin(padding);
+
+        // <% "{more_features.code_1.comment_5}" %>
+        signOptions.setForeColor(signatureLib.Color.RED);
+
+        // <% "{more_features.code_1.comment_6}" %>
+        const font = new signatureLib.SignatureFont();
+        font.setSize(12);
+        font.setFamilyName('Comic Sans MS');
+        signOptions.setFont(font);
+
+        // <% "{more_features.code_1.comment_7}" %>
+        signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
+
+        // <% "{more_features.code_1.comment_8}" %>
+        signature.sign('output.<% get "fileformat" %>', signOptions);
         ```
         {{< /landing/code >}}
 

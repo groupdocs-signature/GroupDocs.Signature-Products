@@ -9,6 +9,7 @@
     "textSignOptions": "TextSignOptions",
     "textSearchOptions": "TextSearchOptions",
     "textVerifyOptions": "TextVerifyOptions",
+    "barcodeSignOptions": "BarcodeSignOptions",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

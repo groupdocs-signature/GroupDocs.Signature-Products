@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Searching for Signatures in DOCX using Java"
+    title: "Steps to Generate and Add a Barcode to DOCX Documents"
     content: |
-      [GroupDocs.Signature](/signature/java/) provides a powerful engine to search for any digital signatures within DOCX files. Java developers can easily enhance their applications with our solution.
+      [GroupDocs.Signature](/signature/java/) can generate barcodes in various popular formats and place them on DOCX pages. With support for over 60 barcode types, Java applications can easily be enhanced with barcode signing capabilities by incorporating our library.
       
-      1. Provide the DOCX file path for signature search.
-      2. Use TextSearchOptions to refine the search results.
-      3. Execute the Search method to obtain the results.
-      4. Analyze the list of found signatures.
+      1. Provide the DOCX file or stream to be processed.
+      2. Pass the barcode text to the BarcodeSignOptions instance.
+      3. Customize barcode options such as position, size, etc.
+      4. Save the file with the newly added barcode.
    
     code:
       platform: "net"
@@ -84,25 +84,20 @@ steps:
           
       content: |
         ```java {style=abap}
+        // Create a new Signature instance with the document path
+        Signature signature = new Signature("input.docx");
 
-        // Create an instance of Signature with the document path
-        final Signature signature = new Signature("input.docx");
+        // Use BarcodeSignOptions to add a barcode to the document
+        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
 
-        // Instantiate TextSearchOptions to cover all pages
-        TextSearchOptions options = new TextSearchOptions();
-        options.setAllPages(true);
+        // Set up the barcode type and other properties
+        options.setEncodeType(BarcodeTypes.Code128);
+        options.setLeft(100);
+        options.setTop(100);
 
-        // Search for text signatures within the document
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
-        System.out.print("\nSource document contains following text signature(s).");
+        // Save the signed file
+        signature.sign("output.docx", options);
 
-        // List the found signatures for further analysis
-        for (TextSignature textSignature : signatures) {
-            System.out.print("Found Text signature at page " + textSignature.getPageNumber() 
-                + " with type [" + textSignature.getSignatureImplementation() + "] and 
-                text '" + textSignature.getText() + "'.");
-        }
-        
         ```            
 
 ############################# More features ############################
@@ -110,7 +105,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/signature/features_search.webp" # 500x500 px
+  image: "/img/signature/features_delete.webp" # 500x500 px
   image_description: "Metadata Functionality"
   features:
     # feature loop
@@ -127,26 +122,41 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Search for Image Signatures"
+    - title: "How to Customize a Barcode Signature"
       content: |
-        This example demonstrates how to find an image signature in a specific document.
+        This example demonstrates how to place a customized barcode on DOCX document pages.
         {{< landing/code title="Java">}}
         ```java {style=abap}
+        // Provide the document to be signed
+        Signature signature = new Signature("input.docx");
 
-        // Pass the source document as a constructor parameter
-        final Signature signature = new Signature("input.docx");
+        // Create signature options with the desired text
+        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted 21.09.2023");
 
-        // Search for any signatures with a text type
-        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
-        System.out.print("\nSource document contains following image signature(s).");
+        // Set the relative barcode position on the page
+        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
+        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // Display the results with the properties of the found signatures
-        for (ImageSignature imageSignature : signatures)
-        {
-            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
-                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
-                ", modified "+imageSignature.getModifiedOn());
-        }
+        // Set the barcode padding from the page edge
+        Padding padding = new Padding();
+        padding.setLeft(20);
+        padding.setTop(20);
+        signOptions.setMargin(padding);
+
+        // Set the color of the bars
+        signOptions.setForeColor(Color.RED);
+
+        // Define the message font style
+        SignatureFont font = new SignatureFont();
+        font.setSize(12);
+        font.setFamilyName("Comic Sans MS");
+        signOptions.setFont(font);
+
+        // Specify the message position
+        signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
+
+        // Sign and save the document
+        SignResult signResult = signature.sign("output.docx", signOptions);
         ```
         {{< /landing/code >}}
 

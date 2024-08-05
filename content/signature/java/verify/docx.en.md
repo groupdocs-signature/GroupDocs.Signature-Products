@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T13:50:41
+date:  2024-08-05T22:46:10
 draft: false
 lang: en
 format: Docx
@@ -127,7 +127,7 @@ more_features:
     - title: "Verify Barcode Signatures"
       content: |
         This example demonstrates how to verify barcode signatures in a document.
-        {{< landing/code title="C#">}}
+        {{< landing/code title="Java">}}
         ```java {style=abap}
         // Provide the document that contains barcode signatures
         final Signature signature = new Signature("input.docx");

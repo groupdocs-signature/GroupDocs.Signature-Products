@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T13:50:41
+date:  2024-08-05T22:46:10
 draft: false
 lang: en
 format: Docx
@@ -111,7 +111,7 @@ more_features:
     - title: "How to Affix an Image Signature to a Document"
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
-        {{< landing/code title="Java">}}
+        {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
         // Provide the source document as an argument

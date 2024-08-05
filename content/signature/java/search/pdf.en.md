@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T13:50:41
+date:  2024-08-05T22:46:10
 draft: false
 lang: en
 format: Pdf
@@ -130,7 +130,7 @@ more_features:
     - title: "Search for Image Signatures"
       content: |
         This example demonstrates how to find an image signature in a specific document.
-        {{< landing/code title="C#">}}
+        {{< landing/code title="Java">}}
         ```java {style=abap}
 
         // Pass the source document as a constructor parameter

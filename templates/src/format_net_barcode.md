@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\delete\\format_java.yml" %>
+<% configRef "..\\configs\\barcode\\format_net.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Java"
-platform_tag: "java"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,22 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: |
-          <dependencies>
-            <dependency>
-              <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-signature</artifactId>
-              <version>{0}</version>
-            </dependency>
-          </dependencies>
-
-          <repositories>
-            <repository>
-              <id>repository.groupdocs.com</id>
-              <name>GroupDocs Repository</name>
-              <url>https://repository.groupdocs.com/repo/</url>
-            </repository>
-          </repositories>
+        command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -82,25 +67,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
-
-        // <% "{examples.comment_2}" %>
-        TextSearchOptions options = new TextSearchOptions();
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
-
-        // <% "{examples.comment_3}" %>
-        if(signatures.size() > 0)
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            TextSignature textSignature = signatures.get(0);
-            boolean result = signature.delete("output.<% get "fileformat" %>", textSignature);
+            // <% "{examples.comment_2}" %>
+            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
+            {
+                // <% "{examples.comment_3}" %>
+                EncodeType = BarcodeTypes.Code128,
+                Left = 50,
+                Top = 150
+            };
 
             // <% "{examples.comment_4}" %>
-            if(result)
-            {
-                System.out.print("\nSignature was deleted successfully");
-            }
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```            
 
@@ -129,25 +110,33 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
-
-        // <% "{more_features.code_1.comment_2}" %>
-        DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.QrCode);
-
-        // <% "{more_features.code_1.comment_3}" %>
-        if (result.getSucceeded().size() > 0)
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            System.out.print("\nFollowing QR-Code signatures were deleted:");
-            int number = 1;
-            for (BaseSignature temp : result.getSucceeded())
+            // <% "{more_features.code_1.comment_2}" %>
+            BarcodeSignOptions options = new BarcodeSignOptions("Accepted 21.09.2023")
             {
-                System.out.print("Signature #"+number++ +
-                ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((QrCodeSignature)temp).getText());
+                // <% "{more_features.code_1.comment_3}" %>
+                VerticalAlignment = Domain.VerticalAlignment.Top,
+                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+
+                // <% "{more_features.code_1.comment_4}" %>
+                Margin = new Padding() { Top = 20, Right = 20 },
+
+                // <% "{more_features.code_1.comment_5}" %>
+                ForeColor = Color.Red,
+
+                // <% "{more_features.code_1.comment_6}" %>
+                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+
+                // <% "{more_features.code_1.comment_7}" %>
+                CodeTextAlignment = CodeTextAlignment.Above
             }
+
+            // <% "{more_features.code_1.comment_8}" %>
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```
         {{< /landing/code >}}

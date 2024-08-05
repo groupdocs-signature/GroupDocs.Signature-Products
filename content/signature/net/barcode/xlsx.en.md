@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Signing XLSX Documents with Text Signatures using C#"
+    title: "Procedures to Generate and Embed a Barcode in XLSX Documents"
     content: |
-      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into XLSX files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
+      [GroupDocs.Signature](/signature/net/) facilitates the generation of barcodes in numerous popular formats and their placement on XLSX pages. Supporting over 60 barcode types, .NET applications can be effortlessly augmented with barcode signing functionalities by integrating our library.
       
-      1. Provide the XLSX file to the Signature instance for signing.
-      2. Utilize TextSignOptions to specify the signature parameters.
-      3. Configure attributes such as size, color, and content.
-      4. Save the signed file to the desired destination.
+      1. Supply the XLSX file or stream for processing.
+      2. Pass the barcode text to the BarcodeSignOptions instance.
+      3. Tailor barcode options such as position, size, etc.
+      4. Persist the file with the newly appended barcode.
    
     code:
       platform: "net"
@@ -69,19 +69,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Load the document into a Signature instance
+        // Instantiate a new Signature object with the document path
         using (Signature signature = new Signature("input.xlsx"))
         {
-            // Create a new TextSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            // Employ BarcodeSignOptions to append a barcode to the document
+            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
             {
-                // Configure all the necessary options
+                // Configure the barcode type and additional properties
+                EncodeType = BarcodeTypes.Code128,
                 Left = 50,
-                Top = 200,
-                ForeColor = Color.Red
+                Top = 150
             };
 
-            // Persist the signed document to local storage
+            // Persist the signed file
             SignResult result = signature.Sign("output.xlsx", options);
         }
         ```            
@@ -91,7 +91,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_esign.webp" # 500x500 px
+  image: "/img/signature/features_delete.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -108,28 +108,37 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Affix an Image Signature to a Document"
+    - title: "How to Customize a Barcode Signature"
       content: |
-        This example illustrates the procedure for applying an image signature to a specific page within a document.
+        This example elucidates how to embed a customized barcode on XLSX document pages.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        
-        // Provide the source document as an argument
+        // Provide the document to be signed
         using (Signature signature = new Signature("input.xlsx"))
         {
-            // Specify the path to the image in the signature configuration
-            ImageSignOptions options = new ImageSignOptions("image.jpg")
+            // Formulate signature options with the desired text
+            BarcodeSignOptions options = new BarcodeSignOptions("Accepted 21.09.2023")
             {
-                // Define the dimensions and target pages for the signature
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
+                // Determine the relative barcode position on the page
+                VerticalAlignment = Domain.VerticalAlignment.Top,
+                HorizontalAlignment = Domain.HorizontalAlignment.Right,
 
-            // Execute the application of the signature to the document
+                // Define the barcode padding from the page edge
+                Margin = new Padding() { Top = 20, Right = 20 },
+
+                // Specify the color of the bars
+                ForeColor = Color.Red,
+
+                // Select the message font style
+                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+
+                // Indicate the message position
+                CodeTextAlignment = CodeTextAlignment.Above
+            }
+
+            // Sign and persist the document
             SignResult result = signature.Sign("output.xlsx", options);
         }
-
         ```
         {{< /landing/code >}}
 

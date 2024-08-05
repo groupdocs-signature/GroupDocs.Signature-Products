@@ -110,7 +110,7 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="Java">}}
+        {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
         // <% "{more_features.code_1.comment_1}" %>

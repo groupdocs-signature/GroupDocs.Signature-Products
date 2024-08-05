@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\delete\\format_java.yml" %>
+<% configRef "..\\configs\\barcode\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -87,21 +87,16 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSearchOptions options = new TextSearchOptions();
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
 
         // <% "{examples.comment_3}" %>
-        if(signatures.size() > 0)
-        {
-            TextSignature textSignature = signatures.get(0);
-            boolean result = signature.delete("output.<% get "fileformat" %>", textSignature);
+        options.setEncodeType(BarcodeTypes.Code128);
+        options.setLeft(100);
+        options.setTop(100);
 
-            // <% "{examples.comment_4}" %>
-            if(result)
-            {
-                System.out.print("\nSignature was deleted successfully");
-            }
-        }
+        // <% "{examples.comment_4}" %>
+        signature.sign("output.<% get "fileformat" %>", options);
+
         ```            
 
 ############################# More features ############################
@@ -135,20 +130,32 @@ more_features:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{more_features.code_1.comment_2}" %>
-        DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.QrCode);
+        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted 21.09.2023");
 
         // <% "{more_features.code_1.comment_3}" %>
-        if (result.getSucceeded().size() > 0)
-        {
-            System.out.print("\nFollowing QR-Code signatures were deleted:");
-            int number = 1;
-            for (BaseSignature temp : result.getSucceeded())
-            {
-                System.out.print("Signature #"+number++ +
-                ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((QrCodeSignature)temp).getText());
-            }
-        }
+        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
+        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
+
+        // <% "{more_features.code_1.comment_4}" %>
+        Padding padding = new Padding();
+        padding.setLeft(20);
+        padding.setTop(20);
+        signOptions.setMargin(padding);
+
+        // <% "{more_features.code_1.comment_5}" %>
+        signOptions.setForeColor(Color.RED);
+
+        // <% "{more_features.code_1.comment_6}" %>
+        SignatureFont font = new SignatureFont();
+        font.setSize(12);
+        font.setFamilyName("Comic Sans MS");
+        signOptions.setFont(font);
+
+        // <% "{more_features.code_1.comment_7}" %>
+        signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
+
+        // <% "{more_features.code_1.comment_8}" %>
+        SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
         ```
         {{< /landing/code >}}
 

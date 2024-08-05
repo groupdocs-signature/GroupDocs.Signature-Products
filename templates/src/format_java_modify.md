@@ -128,7 +128,7 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="C#">}}
+        {{< landing/code title="Java">}}
         ```java {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
         final Signature signature = new Signature("input.<% get "fileformat" %>");

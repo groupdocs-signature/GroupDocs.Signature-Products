@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Instantiate a new {{TextSignature}} object with the document path",
+    "comment_2": "Employ {{BarcodeSignOptions}} to append a barcode to the document",
+    "comment_3": "Configure the barcode type and additional properties",
+    "comment_4": "Persist the signed file"
+  },
+  "steps": {
+    "title": "Procedures to Generate and Embed a Barcode in {{FileFormatUp}} Documents",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the generation of barcodes in numerous popular formats and their placement on {{FileFormatUp}} pages. Supporting over 60 barcode types, {{EnvName}} applications can be effortlessly augmented with barcode signing functionalities by integrating our library.",
+      "step_1": "Supply the {{FileFormatUp}} file or stream for processing.",
+      "step_2": "Pass the barcode text to the {{BarcodeSignOptions}} instance.",
+      "step_3": "Tailor barcode options such as position, size, etc.",
+      "step_4": "Persist the file with the newly appended barcode."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "How to Customize a Barcode Signature",
+      "content": "This example elucidates how to embed a customized barcode on {{FileFormatUp}} document pages.",
+      "comment_1": "Provide the document to be signed",
+      "comment_2": "Formulate signature options with the desired text",
+      "comment_3": "Determine the relative barcode position on the page",
+      "comment_4": "Define the barcode padding from the page edge",
+      "comment_5": "Specify the color of the bars",
+      "comment_6": "Select the message font style",
+      "comment_7": "Indicate the message position",
+      "comment_8": "Sign and persist the document"
+    }
+  }
+}
