@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [nodejs-java]
+- alias:  operation
+  values: [barcode]
+- alias:  fileformat
+  values: [ docx, jpeg, pdf, pptx, xlsx ]
+
+generationRules:
+  include:
+  - fileformat[docx, jpeg, pdf, pptx, xlsx]
+  
+outputPath: "signature\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

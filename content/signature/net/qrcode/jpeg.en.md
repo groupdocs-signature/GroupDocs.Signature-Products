@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:02
+date:  2024-08-06T12:56:01
 draft: false
 lang: en
-format: Pptx
+format: Jpeg
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to PPTX Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Add Metadata to JPEG Files in C# Applications"
+head_description: "C# metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
 
 ############################# Header ############################
-title: "Adding Metadata To PPTX In C#" 
+title: "Adding Metadata To JPEG In C#" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedures to Generate and Embed a Barcode in PPTX Documents"
+    title: "Procedure to Generate and Embed a QR-Code on JPEG Pages"
     content: |
-      [GroupDocs.Signature](/signature/net/) facilitates the generation of barcodes in numerous popular formats and their placement on PPTX pages. Supporting over 60 barcode types, .NET applications can be effortlessly augmented with barcode signing functionalities by integrating our library.
+      [GroupDocs.Signature](/signature/net/) facilitates the generation of QR-Codes in various popular formats and their placement on JPEG pages. Supporting over 10 types of QR-Codes, our library can be seamlessly integrated into .NET applications. Enhance your documents with QR-Code signatures using our product.
       
-      1. Supply the PPTX file or stream for processing.
-      2. Pass the barcode text to the BarcodeSignOptions instance.
-      3. Tailor barcode options such as position, size, etc.
-      4. Persist the file with the newly appended barcode.
+      1. Acquire the JPEG file or stream to be signed with a QR-Code.
+      2. Provide the requisite text to QrCodeSignOptions.
+      3. Customize visual parameters such as color, position, size, etc.
+      4. Persist the document with the embedded QR-Code.
    
     code:
       platform: "net"
@@ -69,20 +69,20 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Instantiate a new Signature object with the document path
-        using (Signature signature = new Signature("input.pptx"))
+        // Initialize a new Signature instance with the document
+        using (Signature signature = new Signature("input.jpeg"))
         {
-            // Employ BarcodeSignOptions to append a barcode to the document
-            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
-            {
-                // Configure the barcode type and additional properties
-                EncodeType = BarcodeTypes.Code128,
-                Left = 50,
-                Top = 150
-            };
+            // Utilize QrCodeSignOptions to embed a QR-Code into the document
+            QrCodeSignOptions options = new QrCodeSignOptions("Text Content")
+                {
+                    // Specify the signature type and designate its position on the page
+                    EncodeType = QrCodeTypes.QR,
+                    Left = 50,
+                    Top = 150
+                };
 
-            // Persist the signed file
-            SignResult result = signature.Sign("output.pptx", options);
+            // Persist the document with the integrated QR-Code
+            SignResult result = signature.Sign("output.jpeg", options);
         }
         ```            
 
@@ -108,36 +108,41 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "How to Customize a Generated QR-Code"
       content: |
-        This example elucidates how to embed a customized barcode on PPTX document pages.
+        This example demonstrates how to place a customized QR-Code on a JPEG page.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // Provide the document to be signed
-        using (Signature signature = new Signature("input.pptx"))
+        // Retrieve the document to be signed and pass it to Signature
+        using (Signature signature = new Signature("input.jpeg"))
         {
-            // Formulate signature options with the desired text
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
+            // Configure QR-Code options with the necessary text
+            QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
             {
-                // Determine the relative barcode position on the page
+                // Designate the relative position of the QR-Code on the page
                 VerticalAlignment = Domain.VerticalAlignment.Top,
                 HorizontalAlignment = Domain.HorizontalAlignment.Right,
 
-                // Define the barcode padding from the page edge
+                // Set the signature padding
                 Margin = new Padding() { Top = 20, Right = 20 },
 
-                // Specify the color of the bars
+                // Specify the QR-Code color
                 ForeColor = Color.Red,
 
-                // Select the message font style
+                // Define the font options for the message
                 Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // Indicate the message position
-                CodeTextAlignment = CodeTextAlignment.Above
+                // Customize the QR-Code background color and brush
+                Background = new Background()
+                {
+                    Color = Color.LimeGreen,
+                    Transparency = 0.5,
+                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
+                }
             }
 
-            // Sign and persist the document
-            SignResult result = signature.Sign("output.pptx", options);
+            // Embed the QR-Code into the document
+            SignResult result = signature.Sign("output.jpeg", options);
         }
         ```
         {{< /landing/code >}}
@@ -164,7 +169,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "PPTX"
+    exclude: "JPEG"
     description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

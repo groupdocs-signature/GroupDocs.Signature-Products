@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:02
+date:  2024-08-06T12:56:01
 draft: false
 lang: en
-format: Xlsx
+format: Jpeg
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to XLSX Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to XLSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to JPEG Files in JavaScript Applications"
+head_description: "JavaScript metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To XLSX In JavaScript" 
+title: "Adding Metadata To JPEG In JavaScript" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Instructions for Generating and Embedding Barcodes in XLSX Documents"
+    title: "Guidelines for Generating and Embedding a QR-Code in JPEG Pages"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) enables the generation and placement of barcodes in a variety of popular formats on XLSX pages. With support for over 60 types of barcodes, Node.js via Java applications can be easily enhanced with barcode signing features by integrating our library.
+      [GroupDocs.Signature](/signature/nodejs-java/) enables the creation of QR-Codes in various widely-used formats and their integration into JPEG pages. Supporting over 10 distinct QR-Code types, our solution can be seamlessly incorporated into Node.js via Java applications, enriching them with QR-Code signing capabilities.
       
-      1. Provide the XLSX file or stream for processing.
-      2. Pass the barcode text to a BarcodeSignOptions instance.
-      3. Adjust barcode settings such as position, size, etc.
-      4. Save the document with the newly added barcode.
+      1. Provide the JPEG file or stream for QR-Code signing.
+      2. Input the desired text into the QrCodeSignOptions instance.
+      3. Adjust visual settings such as color, positioning, size, etc.
+      4. Save the document containing the QR-Code.
    
     code:
       platform: "net"
@@ -71,19 +71,20 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Instantiate a Signature object with the document path
-        const signature = new signatureLib.Signature('input.xlsx');
+        // Create a Signature instance and pass the document path
+        const signature = new signatureLib.Signature('input.jpeg');
 
-        // Utilize BarcodeSignOptions to integrate a barcode into the document
-        const options = new signatureLib.BarcodeSignOptions('Business data');
+        // Leverage QrCodeSignOptions to insert a QR-Code into the document
+        // Create QR code sign options
+        const options = new signatureLib.QrCodeSignOptions('Text Content');
 
-        // Configure the barcode type and additional parameters
-        options.setEncodeType(signatureLib.BarcodeTypes.Code128);
+        // Store the document with the newly added QR-Code
+        options.setEncodeType(signatureLib.QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
   
-        // Save the signed document
-        signature.sign('output.xlsx', options);
+        // Store the document with the newly added QR-Code
+        signature.sign('output.jpeg', options);
         ```            
 
 ############################# More features ############################
@@ -108,43 +109,47 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "Customizing a Generated QR-Code"
       content: |
-        This example illustrates how to embed a customized barcode on XLSX document pages.
+        This example details the process of adding a customized QR-Code to a JPEG page.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // Provide the document to be signed
-        const signature = new signatureLib.Signature('input.xlsx');
+        // Obtain the document to be signed and pass it to Signature
+        const signature = new signatureLib.Signature('input.jpeg');
 
-        // Utilize BarcodeSignOptions to integrate a barcode into the document
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
+        // Leverage QrCodeSignOptions to insert a QR-Code into the document
+        const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
 
-        // Configure the barcode type and additional parameters
+        // Define the signature type and placement on the page
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // Define the barcode padding from the page edge
+        // Store the document with the newly added QR-Code
         const padding = new signatureLib.Padding();
-        padding.setLeft(20);
+        padding.setRight(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // Choose the bar color
+        // {examples.comment_5}
         signOptions.setForeColor(signatureLib.Color.RED);
 
-        // Specify the font style for the message
+        // {examples.comment_6}
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
-        font.setFamilyName('Comic Sans MS');
+        font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // Indicate the position of the message
-        signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
+        // {examples.comment_7}
+        const background = new signatureLib.Background();
+        background.setColor(signatureLib.Color.GREEN);
+        background.setTransparency(0.5);
+        background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
+        signOptions.setBackground(background);
 
-        // Sign and save the document
-        signature.sign('output.xlsx', signOptions);
+        // Embed the QR-Code into the document
+        signature.sign('output.jpeg', signOptions);
         ```
         {{< /landing/code >}}
 
@@ -170,7 +175,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "XLSX"
+    exclude: "JPEG"
     description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

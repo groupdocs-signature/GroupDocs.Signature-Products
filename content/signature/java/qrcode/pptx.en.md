@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:02
+date:  2024-08-06T12:56:01
 draft: false
 lang: en
-format: Xlsx
+format: Pptx
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to XLSX Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to XLSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to PPTX Files in Java Applications"
+head_description: "Java metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To XLSX In Java" 
+title: "Adding Metadata To PPTX In Java" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to Generate and Add a Barcode to XLSX Documents"
+    title: "Steps to Generate and Place a QR-Code on PPTX Pages"
     content: |
-      [GroupDocs.Signature](/signature/java/) can generate barcodes in various popular formats and place them on XLSX pages. With support for over 60 barcode types, Java applications can easily be enhanced with barcode signing capabilities by incorporating our library.
+      [GroupDocs.Signature](/signature/java/) can generate QR-Codes in many popular formats and place them on PPTX pages. Over 10 QR-Code types are supported and can be quickly integrated into Java applications. Use our product to sign documents with generated QR-Codes.
       
-      1. Provide the XLSX file or stream to be processed.
-      2. Pass the barcode text to the BarcodeSignOptions instance.
-      3. Customize barcode options such as position, size, etc.
-      4. Save the file with the newly added barcode.
+      1. Get the PPTX file or stream to be signed with a QR-Code.
+      2. Provide the text for QrCodeSignOptions.
+      3. Customize visual options such as color, position, size, etc.
+      4. Save the file with the QR-Code.
    
     code:
       platform: "net"
@@ -84,19 +84,19 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Create a new Signature instance with the document path
-        Signature signature = new Signature("input.xlsx");
+        // Pass the document to a new Signature instance
+        Signature signature = new Signature("input.pptx");
 
-        // Use BarcodeSignOptions to add a barcode to the document
-        BarcodeSignOptions options = new BarcodeSignOptions("Business data");
+        // Use QrCodeSignOptions to add a QR-Code to the document
+        QrCodeSignOptions options = new QrCodeSignOptions("Text Content");
 
-        // Set up the barcode type and other properties
-        options.setEncodeType(BarcodeTypes.Code128);
-        options.setLeft(100);
-        options.setTop(100);
+        // Specify the signature type and position on the page
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(50);
+        options.setTop(150);
 
-        // Save the signed file
-        signature.sign("output.xlsx", options);
+        // Save the file with the added QR-Code
+        signature.sign("output.pptx", options);
 
         ```            
 
@@ -122,41 +122,45 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "How to Customize a Generated QR-Code"
       content: |
-        This example demonstrates how to place a customized barcode on XLSX document pages.
+        Use this example to learn how to place a new QR-Code on a PPTX page.
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // Provide the document to be signed
-        Signature signature = new Signature("input.xlsx");
+        // Get the document that needs to be signed and pass it to Signature
+        Signature signature = new Signature("input.pptx");
 
-        // Create signature options with the desired text
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted for review on February 15, 2020");
+        // Use QR-Code options to provide text with the required information
+        QrCodeSignOptions signOptions = new QrCodeSignOptions("Archived on July 11, 2019");
 
-        // Set the relative barcode position on the page
-        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
+        // Set the relative position of the QR-Code on the page
+        signOptions.setVerticalAlignment(VerticalAlignment.Top);
         signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // Set the barcode padding from the page edge
+        // Set the signature padding
         Padding padding = new Padding();
-        padding.setLeft(20);
+        padding.setRight(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // Set the color of the bars
+        // Specify the color of the QR-Code
         signOptions.setForeColor(Color.RED);
 
-        // Define the message font style
+        // Define the font options for the message
         SignatureFont font = new SignatureFont();
         font.setSize(12);
         font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // Specify the message position
-        signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
+        // Customize the QR-Code background color and brush
+        Background background = new Background();
+        background.setColor(Color.GREEN);
+        background.setTransparency(0.5);
+        background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
+        signOptions.setBackground(background);
 
-        // Sign and save the document
-        SignResult signResult = signature.sign("output.xlsx", signOptions);
+        // Add the QR-Code to the document
+        SignResult signResult = signature.sign("output.pptx", signOptions);
         ```
         {{< /landing/code >}}
 
@@ -182,7 +186,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "XLSX"
+    exclude: "PPTX"
     description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

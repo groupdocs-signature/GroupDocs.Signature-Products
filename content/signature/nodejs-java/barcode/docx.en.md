@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-05T22:46:10
+date:  2024-08-06T12:56:02
 draft: false
 lang: en
 format: Docx
@@ -119,7 +119,7 @@ more_features:
         const signature = new signatureLib.Signature('input.docx');
 
         // Utilize BarcodeSignOptions to integrate a barcode into the document
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted 21.09.2023');
+        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
 
         // Configure the barcode type and additional parameters
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);

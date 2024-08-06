@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-05T22:46:10
+date:  2024-08-06T12:56:02
 draft: false
 lang: en
 format: Pdf
@@ -117,7 +117,7 @@ more_features:
         using (Signature signature = new Signature("input.pdf"))
         {
             // Formulate signature options with the desired text
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted 21.09.2023")
+            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
             {
                 // Determine the relative barcode position on the page
                 VerticalAlignment = Domain.VerticalAlignment.Top,

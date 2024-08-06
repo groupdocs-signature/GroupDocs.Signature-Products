@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-05T22:46:10
+date:  2024-08-06T12:56:02
 draft: false
 lang: en
 format: Jpeg
@@ -131,7 +131,7 @@ more_features:
         Signature signature = new Signature("input.jpeg");
 
         // Create signature options with the desired text
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted 21.09.2023");
+        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted for review on February 15, 2020");
 
         // Set the relative barcode position on the page
         signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
