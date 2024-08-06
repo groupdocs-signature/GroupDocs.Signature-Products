@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\qrcode\\format_nodejs.yml" %>
+<% configRef "..\\..\\configs\\digital\\format_java.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,7 +55,22 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.signature"
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-signature</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -67,23 +82,21 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-
+        ```java {style=abap}
         // <% "{examples.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        // Create QR code sign options
-        const options = new signatureLib.QrCodeSignOptions('Text Content');
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        options.setPassword("1234567890");
 
         // <% "{examples.comment_3}" %>
-        options.setEncodeType(signatureLib.QrCodeTypes.QR);
+        options.setPageNumber(1);
         options.setLeft(100);
         options.setTop(100);
-  
+
         // <% "{examples.comment_4}" %>
-        signature.sign('output.<% get "fileformat" %>', options);
+        SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```            
 
 ############################# More features ############################
@@ -111,44 +124,36 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{more_features.code_1.comment_2}" %>
-        const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        options.setPassword("1234567890");
 
         // <% "{more_features.code_1.comment_3}" %>
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        options.setReason("Security issue");
+        options.setContact("John Smith");
+        options.setLocation("Office D.W.");
 
         // <% "{more_features.code_1.comment_4}" %>
-        const padding = new signatureLib.Padding();
-        padding.setRight(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+        options.setImageFilePath("image.png");
+
+        options.setAllPages(true);
+        options.setVerticalAlignment(VerticalAlignment.Bottom);
+        options.setHorizontalAlignment(HorizontalAlignment.Right);
+        options.setWidth(80);
+        options.setHeight(60);
+
+        Padding padding = new Padding();
+        padding.setBottom(10);
+        padding.setRight(10);
+        options.setMargin(padding);
 
         // <% "{more_features.code_1.comment_5}" %>
-        signOptions.setForeColor(signatureLib.Color.RED);
-
-        // <% "{more_features.code_1.comment_6}" %>
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
-
-        // <% "{more_features.code_1.comment_7}" %>
-        const background = new signatureLib.Background();
-        background.setColor(signatureLib.Color.GREEN);
-        background.setTransparency(0.5);
-        background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
-        signOptions.setBackground(background);
-
-        // <% "{more_features.code_1.comment_8}" %>
-        signature.sign('output.<% get "fileformat" %>', signOptions);
+        SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```
         {{< /landing/code >}}
 

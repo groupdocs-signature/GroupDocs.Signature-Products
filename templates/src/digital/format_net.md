@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\qrcode\\format_nodejs.yml" %>
+<% configRef "..\\..\\configs\\digital\\format_net.yml" %>
 <% include "..\\..\\data\\format_data.md" %>
 
 ---
@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.signature"
+        command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -67,23 +67,24 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-
+        ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_2}" %>
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                Password = "1234567890",
 
-        // <% "{examples.comment_2}" %>
-        // Create QR code sign options
-        const options = new signatureLib.QrCodeSignOptions('Text Content');
+                // <% "{examples.comment_3}" %>
+                PageNumber = 1,
+                Left = 50,
+                Top = 50
+            };
 
-        // <% "{examples.comment_3}" %>
-        options.setEncodeType(signatureLib.QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-  
-        // <% "{examples.comment_4}" %>
-        signature.sign('output.<% get "fileformat" %>', options);
+            // <% "{examples.comment_4}" %>
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+        }
         ```            
 
 ############################# More features ############################
@@ -111,44 +112,35 @@ more_features:
     - title: "<% "{more_features.code_1.title}" %>"
       content: |
         <% "{more_features.code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
         // <% "{more_features.code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+        {
+            // <% "{more_features.code_1.comment_2}" %>
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                Password = "1234567890",
 
-        // <% "{more_features.code_1.comment_2}" %>
-        const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
+                // <% "{more_features.code_1.comment_3}" %>
+                Reason = "Security issue",
+                Contact = "John Smith",
+                Location = "Office D.W.",
 
-        // <% "{more_features.code_1.comment_3}" %>
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+                // <% "{more_features.code_1.comment_4}" %>
+                ImageFilePath = "image.png",
+                AllPages = true,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Left,
+                Width = 60,
+                Height = 80,
 
-        // <% "{more_features.code_1.comment_4}" %>
-        const padding = new signatureLib.Padding();
-        padding.setRight(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+                Margin = new Padding() {  Bottom = 10, Right = 10 }
+            };
 
-        // <% "{more_features.code_1.comment_5}" %>
-        signOptions.setForeColor(signatureLib.Color.RED);
-
-        // <% "{more_features.code_1.comment_6}" %>
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
-
-        // <% "{more_features.code_1.comment_7}" %>
-        const background = new signatureLib.Background();
-        background.setColor(signatureLib.Color.GREEN);
-        background.setTransparency(0.5);
-        background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
-        signOptions.setBackground(background);
-
-        // <% "{more_features.code_1.comment_8}" %>
-        signature.sign('output.<% get "fileformat" %>', signOptions);
+            // <% "{more_features.code_1.comment_5}" %>
+            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+        }
         ```
         {{< /landing/code >}}
 

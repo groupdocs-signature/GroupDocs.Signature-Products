@@ -5,21 +5,21 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T21:59:14
+date:  2024-08-06T21:59:13
 draft: false
 lang: en
-format: Docx
+format: Pptx
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to DOCX Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to PPTX Files in JavaScript Applications"
+head_description: "JavaScript metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Adding Metadata To DOCX In JavaScript" 
+title: "Adding Metadata To PPTX In JavaScript" 
 description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,14 +43,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Generating and Embedding a QR-Code in DOCX Pages"
+    title: "Guidelines for Securing PPTX Documents with Digital Certificates in JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) enables the creation of QR-Codes in various widely-used formats and their integration into DOCX pages. Supporting over 10 distinct QR-Code types, our solution can be seamlessly incorporated into Node.js via Java applications, enriching them with QR-Code signing capabilities.
+      [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to protect PPTX documents from modifications by employing digital signatures. Enhance your business applications with comprehensive data security features.
       
-      1. Provide the DOCX file or stream for QR-Code signing.
-      2. Input the desired text into the QrCodeSignOptions instance.
-      3. Adjust visual settings such as color, positioning, size, etc.
-      4. Save the document containing the QR-Code.
+      1. Pass the PPTX document to the Signature class constructor.
+      2. Apply a digital certificate and its corresponding password to secure the document.
+      3. Optionally, add a visual representation of the digital signature on the document pages.
+      4. Sign the document to prevent any future alterations.
    
     code:
       platform: "net"
@@ -71,20 +71,20 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // Create a Signature instance and pass the document path
-        const signature = new signatureLib.Signature('input.docx');
+        // Utilize Signature to apply a digital signature to the document
+        const signature = new signatureLib.Signature('input.pptx');
 
-        // Leverage QrCodeSignOptions to insert a QR-Code into the document
-        // Create QR code sign options
-        const options = new signatureLib.QrCodeSignOptions('Text Content');
+        // Provide the required digital certificate and password
+        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+        options.setPassword('1234567890');
 
-        // Define the signature type and placement on the page
-        options.setEncodeType(signatureLib.QrCodeTypes.QR);
+        // Configure visual signature settings if necessary
+        options.setPageNumber(1);
         options.setLeft(100);
         options.setTop(100);
-  
-        // Store the document with the newly added QR-Code
-        signature.sign('output.docx', options);
+        
+        // Encrypt the document using the digital certificate
+        const result = signature.sign('output.pptx', options);
         ```            
 
 ############################# More features ############################
@@ -109,47 +109,40 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Customizing a Generated QR-Code"
+    - title: "Protect Documents with Digital Signatures"
       content: |
-        This example details the process of adding a customized QR-Code to a DOCX page.
+        Learn how to lock a document against changes using digital signatures.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // Obtain the document to be signed and pass it to Signature
-        const signature = new signatureLib.Signature('input.docx');
+        // Provide the document that requires signing
+        const signature = new signatureLib.Signature('input.pptx');
 
-        // Set up QR-Code options with the required text
-        const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
+        // Use an appropriate digital certificate and its password
+        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+        options.setPassword('1234567890');
 
-        // Determine the QR-Code's position on the page
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        // Include any additional text information
+        options.setReason('Security issue');
+        options.setContact('John Smith');
+        options.setLocation('Office D.W.');
 
-        // Specify the signature padding
+        // Add visual elements like images for the signature representation
+        options.setImageFilePath('image.png');
+        options.setAllPages(true);
+        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        options.setWidth(80);
+        options.setHeight(60);
+
         const padding = new signatureLib.Padding();
-        padding.setRight(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
-
-        // Choose the QR-Code color
-        signOptions.setForeColor(signatureLib.Color.RED);
-
-        // Define the font options for the accompanying message
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
-
-        // Customize the background color and brush for the QR-Code
-        const background = new signatureLib.Background();
-        background.setColor(signatureLib.Color.GREEN);
-        background.setTransparency(0.5);
-        background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
-        signOptions.setBackground(background);
-
-        // Embed the QR-Code into the document
-        signature.sign('output.docx', signOptions);
+        padding.setBottom(10);
+        padding.setRight(10);
+        options.setMargin(padding);
+        
+        // Save the digitally secured document to a specified location
+        const result = signature.sign('output.pptx', options);
         ```
         {{< /landing/code >}}
 
@@ -175,7 +168,7 @@ actions:
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
-    exclude: "DOCX"
+    exclude: "PPTX"
     description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
           

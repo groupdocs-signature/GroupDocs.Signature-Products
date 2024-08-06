@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:01
+date:  2024-08-06T21:59:14
 draft: false
 lang: en
 format: Xlsx
@@ -78,7 +78,7 @@ steps:
         // Create QR code sign options
         const options = new signatureLib.QrCodeSignOptions('Text Content');
 
-        // Store the document with the newly added QR-Code
+        // Define the signature type and placement on the page
         options.setEncodeType(signatureLib.QrCodeTypes.QR);
         options.setLeft(100);
         options.setTop(100);
@@ -119,29 +119,29 @@ more_features:
         // Obtain the document to be signed and pass it to Signature
         const signature = new signatureLib.Signature('input.xlsx');
 
-        // Leverage QrCodeSignOptions to insert a QR-Code into the document
+        // Set up QR-Code options with the required text
         const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
 
-        // Define the signature type and placement on the page
+        // Determine the QR-Code's position on the page
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // Store the document with the newly added QR-Code
+        // Specify the signature padding
         const padding = new signatureLib.Padding();
         padding.setRight(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // {examples.comment_5}
+        // Choose the QR-Code color
         signOptions.setForeColor(signatureLib.Color.RED);
 
-        // {examples.comment_6}
+        // Define the font options for the accompanying message
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
         font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // {examples.comment_7}
+        // Customize the background color and brush for the QR-Code
         const background = new signatureLib.Background();
         background.setColor(signatureLib.Color.GREEN);
         background.setTransparency(0.5);
