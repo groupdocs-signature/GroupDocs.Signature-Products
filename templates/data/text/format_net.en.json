@@ -1,0 +1,67 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Initialize the {{TextSignature}} with the document path",
+    "comment_2": "Create an instance of {{TextSignOptions}} with the desired signature text",
+    "comment_3": "Configure the text color and font attributes",
+    "comment_4": "Integrate the text signature into the document"
+  },
+  "steps": {
+    "title": "Procedure for Embedding Text Signatures into {{FileFormatUp}} Documents Using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the incorporation of text signatures into {{FileFormatUp}} files within {{EnvName}} applications. Enhance your product capabilities swiftly with our comprehensive solutions.",
+      "step_1": "Pass the {{FileFormatUp}} document as a parameter to the {{TextSignature}} class constructor.",
+      "step_2": "Create {{TextSignOptions}} with the necessary signature text.",
+      "step_3": "Define the visual attributes for the signature.",
+      "step_4": "Embed the text signature onto any specified page(s) of the document."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "Embed Text Signatures in Documents",
+      "content": "Discover how to incorporate textual signatures into business documents to streamline processes.",
+      "comment_1": "Select the document to be signed",
+      "comment_2": "Formulate text options with the specified content",
+      "comment_3": "Define the dimensions and position of the signature on the page",
+      "comment_4": "Implement padding from the page edges for signatures",
+      "comment_5": "Customize the text color and font style",
+      "comment_6": "Incorporate a border around the text signature",
+      "comment_7": "Apply background customization if necessary",
+      "comment_8": "Rotate the signature to the desired angle on the page",
+      "comment_9": "Optionally save the text as an image to ensure compatibility",
+      "comment_10": "Save the document with the integrated text signature"
+    }
+  }
+}

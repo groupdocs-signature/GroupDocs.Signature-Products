@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-05T22:46:10
+date:  2024-08-07T18:32:09
 draft: false
 lang: en
 format: Docx
@@ -53,7 +53,7 @@ steps:
       4. Review the verification results.
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "Copy"
       install:
         command: |

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-05T22:46:10
+date:  2024-08-07T18:32:09
 draft: false
 lang: en
 format: Jpeg
@@ -53,7 +53,7 @@ steps:
       4. Analyze the list of found signatures.
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "Copy"
       install:
         command: |

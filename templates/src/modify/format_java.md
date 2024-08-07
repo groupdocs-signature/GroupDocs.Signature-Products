@@ -52,7 +52,7 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |

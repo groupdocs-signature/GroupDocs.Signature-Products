@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T13:50:41
+date:  2024-08-07T18:32:10
 draft: false
 lang: en
 format: Xlsx
@@ -53,7 +53,7 @@ steps:
       4. Examine the results of the modifications.
    
     code:
-      platform: "net"
+      platform: "nodejs-java"
       copy_title: "Copy"
       install:
         command: "npm i @groupdocs/groupdocs.signature"

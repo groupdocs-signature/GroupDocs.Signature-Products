@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T13:50:40
+date:  2024-08-07T18:32:08
 draft: false
 lang: en
 format: Docx
@@ -53,7 +53,7 @@ steps:
       4. Save the signed file to the desired location.
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "Copy"
       install:
         command: |

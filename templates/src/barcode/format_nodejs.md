@@ -52,7 +52,7 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "net"
+      platform: "nodejs-java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: "npm i @groupdocs/groupdocs.signature"

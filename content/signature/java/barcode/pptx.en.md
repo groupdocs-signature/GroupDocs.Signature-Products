@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:02
+date:  2024-08-07T18:32:07
 draft: false
 lang: en
 format: Pptx
@@ -53,7 +53,7 @@ steps:
       4. Save the file with the newly added barcode.
    
     code:
-      platform: "net"
+      platform: "java"
       copy_title: "Copy"
       install:
         command: |

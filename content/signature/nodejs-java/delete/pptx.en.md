@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-02T12:49:13
+date:  2024-08-07T18:32:11
 draft: false
 lang: en
 format: Pptx
@@ -53,7 +53,7 @@ steps:
       4. Review the results of the document processing.
    
     code:
-      platform: "net"
+      platform: "nodejs-java"
       copy_title: "Copy"
       install:
         command: "npm i @groupdocs/groupdocs.signature"

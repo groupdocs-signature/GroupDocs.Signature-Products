@@ -1,0 +1,67 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Pass the document path to the {{TextSignature}} constructor",
+    "comment_2": "Instantiate {{TextSignOptions}} with the signature text",
+    "comment_3": "Set up text color and font attributes",
+    "comment_4": "Append the text signature to the document"
+  },
+  "steps": {
+    "title": "Steps for Adding Text Signatures to {{FileFormatUp}} Files Using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) can be integrated into {{EnvName}} applications to add text signatures to {{FileFormatUp}} documents. Developers can quickly enhance their products' functionality by using our solutions.",
+      "step_1": "Use the {{FileFormatUp}} document as a parameter for the {{TextSignature}} class constructor.",
+      "step_2": "Instantiate {{TextSignOptions}} with the appropriate text.",
+      "step_3": "Configure the visual options for the signature.",
+      "step_4": "Add the text signature to any page(s) of the document."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Mark Documents with Text Signatures",
+      "content": "Learn how to append textual information to business documents to improve business processes.",
+      "comment_1": "Select a document to be signed",
+      "comment_2": "Create text options with the desired text",
+      "comment_3": "Specify the signature's size and position on the page",
+      "comment_4": "Signatures support padding from the page corners",
+      "comment_5": "Text color and font style can be customized",
+      "comment_6": "Text signatures can include a border",
+      "comment_7": "Background customization is also available",
+      "comment_8": "Signatures can be rotated on the page",
+      "comment_9": "Text can be saved as an image for compatibility",
+      "comment_10": "Save the document with the added text"
+    }
+  }
+}

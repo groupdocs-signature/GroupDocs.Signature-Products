@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T21:59:13
+date:  2024-08-07T18:32:06
 draft: false
 lang: en
 format: Jpeg
@@ -53,7 +53,7 @@ steps:
       4. Sign the document to prevent any future alterations.
    
     code:
-      platform: "net"
+      platform: "nodejs-java"
       copy_title: "Copy"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
