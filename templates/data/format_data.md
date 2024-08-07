@@ -27,6 +27,7 @@
 <% set "TextVerifyOptions" (dict "products.textVerifyOptions") %>
 <% set "BarcodeSignOptions" (dict "products.barcodeSignOptions") %>
 <% set "QrCodeSignOptions" (dict "products.qrCodeSignOptions") %>
+<% set "ImageSignOptions" (dict "products.imageSignOptions") %>
 
 
 

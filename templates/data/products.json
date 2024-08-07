@@ -11,6 +11,7 @@
     "textVerifyOptions": "TextVerifyOptions",
     "barcodeSignOptions": "BarcodeSignOptions",
     "qrCodeSignOptions": "QrCodeSignOptions",
+    "imageSignOptions": "ImageSignOptions",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

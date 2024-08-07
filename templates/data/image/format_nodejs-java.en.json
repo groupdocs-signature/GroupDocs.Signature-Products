@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Initialize {{TextSignature}} with the path to the document",
+    "comment_2": "Configure {{ImageSignOptions}} to include the desired image signature",
+    "comment_3": "Place the image at the top-left corner across all pages",
+    "comment_4": "Save the document with the applied image signature"
+  },
+  "steps": {
+    "title": "Procedure for Embedding Images in {{FileFormatUp}} Pages Using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} applications to seamlessly integrate image signatures into {{FileFormatUp}} documents. Enhance your application's capabilities with our comprehensive library.",
+      "step_1": "Instantiate {{TextSignature}} with the {{FileFormatUp}} document",
+      "step_2": "Utilize {{ImageSignOptions}} to specify the signature image",
+      "step_3": "Position the image precisely on any page",
+      "step_4": "Save the signed document to the desired location"
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Enhance Documents with Image Signatures",
+      "content": "Learn how to incorporate images into business documents to add supplementary information.",
+      "comment_1": "Select the document to be signed",
+      "comment_2": "Configure image options with the image path",
+      "comment_3": "Adjust the size of the image signature",
+      "comment_4": "Place the image at the bottom-right corner",
+      "comment_5": "Apply padding from the page corners if needed",
+      "comment_6": "Optionally, add a custom border to the image",
+      "comment_7": "Rotate the image signature for optimal appearance",
+      "comment_8": "Save the updated document to the desired location"
+    }
+  }
+}
