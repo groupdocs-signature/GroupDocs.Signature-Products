@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T10:51:19
+date:  2024-08-08T16:38:30
 draft: false
 lang: en
 format: Pdf
@@ -99,7 +99,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_delete.webp" # 500x500 px
+  image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
@@ -156,7 +156,7 @@ more_features:
                     Text = "Company #1",
                     TextColor = Color.MediumVioletRed,
                     Font = new SignatureFont() { Size = 20, Bold = true },
-                    Height = 40,
+                    Height = 40
                 }
             );
 

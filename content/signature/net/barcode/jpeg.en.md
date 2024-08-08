@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-06T12:56:02
+date:  2024-08-08T16:38:34
 draft: false
 lang: en
 format: Jpeg
@@ -91,7 +91,7 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
-  image: "/img/signature/features_delete.webp" # 500x500 px
+  image: "/img/signature/features_barcode.webp" # 500x500 px
   image_description: "Metadata Manipulation Features"
   features:
     # feature loop
