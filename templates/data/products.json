@@ -12,6 +12,7 @@
     "barcodeSignOptions": "BarcodeSignOptions",
     "qrCodeSignOptions": "QrCodeSignOptions",
     "imageSignOptions": "ImageSignOptions",
+    "stampSignOptions": "StampSignOptions",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

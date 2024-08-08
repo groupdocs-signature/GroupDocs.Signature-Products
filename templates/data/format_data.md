@@ -28,6 +28,7 @@
 <% set "BarcodeSignOptions" (dict "products.barcodeSignOptions") %>
 <% set "QrCodeSignOptions" (dict "products.qrCodeSignOptions") %>
 <% set "ImageSignOptions" (dict "products.imageSignOptions") %>
+<% set "StampSignOptions" (dict "products.stampSignOptions") %>
 
 
 
