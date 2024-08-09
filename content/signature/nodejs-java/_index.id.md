@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T11:33:18
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Node.js
+
 lang: id
-#productCode: nodejs-java
-#otherformats: 
-#breadcrumb: Put  signature on  for JavaScript
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
@@ -34,7 +28,7 @@ head_title: "API Tanda Tangan Digital Node.js - GroupDocs.Signature"
 head_description: "Integrasikan tanda tangan elektronik yang aman di aplikasi Node.js dengan GroupDocs.Signature. Sederhanakan alur kerja penandatanganan dokumen dengan mudah dan efisien."
 
 ############################# Header ############################
-title: "Menandatangani dokumen<br>dengan API Node.js"
+title: "Menandatangani dokumen dengan API Node.js"
 description: "Menandatangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
 words:
   for: "untuk"
@@ -76,7 +70,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Ikhtisar Tanda Tangan"
+  title: "GroupDocs.Signature Tanda Tangan"
   description: "Pustaka penandatanganan dokumen yang siap digunakan di aplikasi Node.js"
   features:
     # feature loop

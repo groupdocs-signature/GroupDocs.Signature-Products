@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:49
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: vi
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
@@ -34,7 +28,7 @@ head_title: "Thư viện chữ ký số Java - GroupDocs.Signature"
 head_description: "Trao quyền cho các ứng dụng Java bằng chữ ký điện tử với GroupDocs.Signature. Ký tài liệu kinh doanh một cách nhanh chóng và dễ dàng."
 
 ############################# Header ############################
-title: "Ký văn bản<br>thông qua API Java"
+title: "Ký văn bản thông qua API Java"
 description: "Ký các tài liệu và hình ảnh kỹ thuật số trên bất kỳ nền tảng nào bằng cách sử dụng các giải pháp dựa trên ứng dụng và API linh hoạt của chúng tôi dành cho lập trình viên và người dùng cuối."
 words:
   for: "vì"
@@ -43,7 +37,7 @@ actions:
   main: "Tải xuống Maven miễn phí"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
   alt: "Cấp phép"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "Sẵn sàng để bắt đầu?"
   description: "Dùng thử miễn phí các tính năng của GroupDocs.Signature hoặc yêu cầu giấy phép"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "Ký các tệp PDF trong Java"
   more: "Thêm ví dụ"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

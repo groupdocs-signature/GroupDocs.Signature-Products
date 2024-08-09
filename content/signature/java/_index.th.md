@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:49
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: th
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
@@ -34,7 +28,7 @@ head_title: "ไลบรารีลายเซ็นดิจิทัล Jav
 head_description: "เสริมพลังให้กับแอป Java ด้วยลายเซ็นอิเล็กทรอนิกส์ด้วย GroupDocs.Signature ลงนามในเอกสารทางธุรกิจอย่างรวดเร็วและง่ายดาย"
 
 ############################# Header ############################
-title: "เซ็นเอกสาร<br>ผ่านทางจาวา API"
+title: "เซ็นเอกสาร ผ่านทางจาวา API"
 description: "ลงนามในเอกสารดิจิทัลและรูปภาพบนแพลตฟอร์มใดก็ได้โดยใช้ API ที่ยืดหยุ่นและโซลูชันตามแอปสำหรับโปรแกรมเมอร์และผู้ใช้ปลายทาง"
 words:
   for: "สำหรับ"
@@ -43,7 +37,7 @@ actions:
   main: "ดาวน์โหลดฟรี Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
   alt: "การออกใบอนุญาต"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "พร้อมที่จะเริ่มต้นหรือยัง?"
   description: "ลองใช้คุณสมบัติ GroupDocs.Signature ฟรีหรือขอใบอนุญาต"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "ลงนามไฟล์ PDF ใน Java"
   more: "ตัวอย่างเพิ่มเติม"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

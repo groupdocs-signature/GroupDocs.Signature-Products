@@ -11,11 +11,11 @@
     "release_notes": "Veja o que é novo",
     "release_downloads": "Transferências",
     "code_more": "Mais exemplos",
-    "code_comment_1": "Instancie o Watermarker passando o caminho do PDF",
-    "code_comment_2": "Personalize opções de marca d’água",
-    "code_comment_3": "Aplicar marca d'água ao documento PDF",
-    "code_comment_4": "Salvar documento de resultado",
-    "overview_title": "{{ProdShortName}} em resumo",
+    "code_comment_1": "Selecione o documento PDF",
+    "code_comment_2": "Fornecer texto",
+    "code_comment_3": "Definir cor",
+    "code_comment_4": "Assine o documento e salve em arquivo",
+    "overview_title": "Visão geral do {{ProdShortName}}",
     "formats_title": "Formatos de arquivo suportados",
     "platforms": {
       "title": "Independência de plataforma",
@@ -62,17 +62,18 @@
         "comment_4": "Assine e salve o arquivo processado"
       },
       "sample_1": {
-        "code_title": "Como proteger arquivo por marca d'água de imagem.",
-        "comment_1": "Carregar documento de origem no Watermarker",
-        "comment_2": "Especifique o caminho para uma imagem de marca d'água",
-        "comment_3": "Proteja o arquivo e salve-o"
+        "code_title": "Como colocar código QR em PDF.",
+        "comment_1": "Carregue o documento para assinar",
+        "comment_2": "Crie opções de código QR com texto predefinido",
+        "comment_3": "Configure o tipo de codificação do código QR e a posição na página",
+        "comment_4": "Assine o documento e salve-o como arquivo de resultado"
       },
       "sample_2": {
-        "code_title": "Pesquisa e modificação de marcas d’água.",
-        "comment_1": "Carregar documento de origem",
-        "comment_2": "Procure marcas d’água a serem atualizadas",
-        "comment_3": "Atualizar as propriedades desejadas",
-        "comment_4": "Salvar documento modificado em um caminho especificado"
+        "code_title": "Veja como garantir a integridade do documento.",
+        "comment_1": "Carregue o documento a ser assinado digitalmente",
+        "comment_2": "Especifique as opções de assinatura digital e forneça o caminho para o arquivo do certificado",
+        "comment_3": "Defina a senha do certificado",
+        "comment_4": "Assine o documento e salve-o no caminho desejado"
       }
     },
     "metrics": {
@@ -148,12 +149,225 @@
       }
     },
     "formats_groups": {
-      "title_1": "Formatos Microsoft Office e OpenDocument",
-      "title_2": "Imagens e gráficos",
-      "title_3": "Outro",
+      "title_1": "Formatos do Microsoft Office",
+      "title_2": "Imagens e outros formatos",
+      "title_3": "Outros formatos",
       "format_portable": "Portátil",
-      "format_popular_images": "Formatos de imagem populares",
-      "format_multi_images": "Imagens de várias páginas"
+      "format_other_office": "Outros formatos de escritório",
+      "format_images": "Imagens",
+      "format_web": "Rede",
+      "format_archives": "Arquivos",
+      "format_certificates": "Certificados"
     }
+  },
+  "index-content-net": {
+    "head_title": "API de assinaturas digitais C# .NET - GroupDocs.Signature",
+    "head_description": "Integre o processamento de assinaturas digitais em seus aplicativos .NET usando GroupDocs.Signature. Proteja seus arquivos com assinaturas de forma rápida e eficiente.",
+    "title": "Assinar documentos através da API .NET",
+    "description": "Assine documentos e imagens digitais em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
+    "actions_main": "Download grátis do NuGet",
+    "code_title": "Assinar arquivos PDF em C#",
+    "overview_description": "API para executar assinatura de documentos e operações relacionadas em aplicativos .NET",
+    "overview_feature_1": {
+      "title": "Adicionando assinaturas a documentos comerciais em C#",
+      "description": "Assinatura de documentos: Com GroupDocs.Signature for .NET, você pode adicionar vários tipos de assinaturas, como texto, imagens, códigos de barras e certificados digitais, a documentos PDF e Office. Esta API permite que você assine seus documentos com praticamente qualquer tipo de dados, incluindo metadados ocultos."
+    },
+    "overview_feature_2": {
+      "title": "Processando documentos assinados",
+      "description": "Processamento adicional: você pode executar operações poderosas em documentos assinados usando GroupDocs.Signature. Isso inclui a busca de assinaturas existentes em documentos comerciais e sua verificação usando critérios específicos. Além disso, você pode recuperar informações de documentos e visualizar páginas por meio desta API .NET."
+    },
+    "overview_feature_3": {
+      "title": "Personalizando resultados",
+      "description": "GroupDocs.Signature for .NET oferece amplas opções de personalização. Você pode posicionar assinaturas com precisão em qualquer lugar da página de um documento e ajustar sua aparência usando diversas configurações. Além disso, esta API suporta o salvamento de documentos processados ​​em uma ampla variedade de formatos suportados."
+    },
+    "features": {
+      "title": "Recursos do GroupDocs.Signature",
+      "description": "Assine PDFs, documentos do Office e imagens com rapidez e precisão",
+      "feature_1": {
+        "title": "Assinatura de documento",
+        "content": "Adicione um ou vários tipos de assinaturas compatíveis com precisão em qualquer posição especificada em documentos comerciais."
+      },
+      "feature_2": {
+        "title": "Personalize assinaturas",
+        "content": "Utilize recursos como cor, fonte, borda, rotação, etc., para configurar a aparência das assinaturas."
+      },
+      "feature_3": {
+        "title": "Proteção por senha de documento",
+        "content": "Proteja determinados tipos de documentos definindo uma senha após a assinatura."
+      },
+      "feature_4": {
+        "title": "Proteção contra mudanças",
+        "content": "Evite alterações em documentos comerciais importantes após anexar uma assinatura com um certificado digital."
+      },
+      "feature_5": {
+        "title": "Converta arquivos assinados para outros formatos",
+        "content": "Converta arquivos assinados nos formatos desejados, como salvar um documento do Word como PDF."
+      },
+      "feature_6": {
+        "title": "Extraia visualizações de páginas",
+        "content": "Extraia páginas de documentos assinados como imagens individuais para processamento futuro."
+      },
+      "feature_7": {
+        "title": "Pesquisa de assinatura em documentos",
+        "content": "Recuperar informações sobre assinaturas adicionadas anteriormente em documentos específicos."
+      },
+      "feature_8": {
+        "title": "Validar documentos assinados",
+        "content": "Verifique a assinatura adequada dos documentos usando recursos de validação."
+      },
+      "feature_9": {
+        "title": "Atualizar ou excluir assinaturas",
+        "content": "Reposicione facilmente assinaturas específicas em uma página, modifique seu texto ou exclua-as sem problemas."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for .NET oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes",
+    "formats_description": "GroupDocs.Signature for .NET oferece suporte a operações com os seguintes [formatos de arquivo](https://docs.groupdocs.com/signature/net/supported-document-formats/).",
+    "code_samples_description": "Alguns casos de uso de operações típicas de GroupDocs.Signature para .NET",
+    "code_title_sample_1": "Adicionar código QR ao PDF",
+    "code_samples_sample_1_content_1": "Adicionar [códigos QR](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF pode aprimorar os processos de negócios.",
+    "code_samples_sample_1_content_2": "Abaixo está um exemplo de como adicionar um código QR usando GroupDocs.Signature.",
+    "code_title_sample_2": "Protegendo um documento DOCX usando um certificado digital",
+    "code_samples_sample_2_content_1": "Você pode [proteger um documento](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) usando assinaturas pessoais ou corporativas armazenadas como certificados digitais.",
+    "code_samples_sample_2_content_2": "Tais documentos protegidos não podem ser modificados sem invalidar a assinatura."
+  },
+  "index-content-java": {
+    "head_title": "Biblioteca de assinatura digital Java - GroupDocs.Signature",
+    "head_description": "Capacite aplicativos Java por meio de assinaturas eletrônicas com GroupDocs.Signature. Assine documentos comerciais com rapidez e facilidade.",
+    "title": "Assinar documentos através da API Java",
+    "description": "Assine documentos e imagens digitais em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
+    "actions_main": "Download grátis do Maven",
+    "code_title": "Assine arquivos PDF em Java",
+    "overview_description": "API para executar assinatura de documentos e operações relacionadas em aplicativos Java",
+    "overview_feature_1": {
+      "title": "Documentos comerciais aprimorados com assinaturas digitais em Java",
+      "description": "Assinatura rápida e personalizável: GroupDocs.Signature for Java oferece uma ampla gama de opções de assinatura digital para PDFs, imagens e documentos do Office. Você pode usar texto, códigos de barras, códigos QR, certificados digitais, imagens ou metadados ocultos. O processamento de documentos é rápido e eficiente."
+    },
+    "overview_feature_2": {
+      "title": "Manipulando documentos assinados",
+      "description": "O processamento avançado de documentos envolve operações poderosas em documentos assinados usando GroupDocs.Signature for Java. Você pode pesquisar e validar assinaturas que foram adicionadas a documentos comerciais usando vários critérios úteis. Além disso, você pode acessar informações detalhadas sobre o documento ou obter imagens de visualização de suas páginas."
+    },
+    "overview_feature_3": {
+      "title": "Variedade de opções de saída",
+      "description": "Opções robustas de assinatura permitem personalizar a saída de documentos assinados com GroupDocs.Signature for Java. Você pode posicionar com precisão qualquer assinatura em qualquer página do documento e configurar sua aparência de várias maneiras. A API Java suporta o salvamento de documentos comerciais assinados em vários formatos suportados e oferece opções para protegê-los com senhas."
+    },
+    "features": {
+      "title": "Recursos do GroupDocs.Signature",
+      "description": "Assinatura de PDFs, documentos do Office e imagens com assinaturas digitais",
+      "feature_1": {
+        "title": "Adicionando Assinaturas",
+        "content": "Assine um documento usando vários tipos de assinatura suportados, colocando uma assinatura digital precisamente em qualquer posição de qualquer página."
+      },
+      "feature_2": {
+        "title": "Personalizando resultados",
+        "content": "Personalize a aparência da assinatura ajustando cor, fonte, borda, rotação e outros recursos para obter o resultado desejado."
+      },
+      "feature_3": {
+        "title": "Protegendo documentos com senha",
+        "content": "Para muitos tipos de documentos suportados, você pode proteger o documento assinado com uma senha."
+      },
+      "feature_4": {
+        "title": "Evitando alterações não autorizadas",
+        "content": "Proteja documentos comerciais importantes assinados com um certificado digital contra modificações não autorizadas."
+      },
+      "feature_5": {
+        "title": "Obtendo resultados nos formatos desejados",
+        "content": "Obtenha facilmente arquivos de resultados assinados em qualquer formato compatível. Você também pode converter documentos do MS Word em PDF sem esforço."
+      },
+      "feature_6": {
+        "title": "Visualização do documento",
+        "content": "Salve qualquer página de um documento como imagem para processamento futuro."
+      },
+      "feature_7": {
+        "title": "Procurando assinaturas",
+        "content": "É possível obter informações sobre assinaturas previamente adicionadas em documentos específicos."
+      },
+      "feature_8": {
+        "title": "Validando documentos",
+        "content": "Valide a exatidão das assinaturas em qualquer documento assinado."
+      },
+      "feature_9": {
+        "title": "Gerenciando assinaturas",
+        "content": "Depois que uma assinatura é colocada na página de um documento, ela pode ser excluída, movida ou atualizada conforme necessário."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java oferece suporte aos seguintes sistemas operacionais, estruturas e gerenciadores de pacotes",
+    "formats_description": "GroupDocs.Signature for Java oferece suporte a operações com os seguintes [formatos de arquivo](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Alguns casos de uso de operações típicas de GroupDocs.Signature para Java",
+    "code_title_sample_1": "Melhore o documento PDF com código QR",
+    "code_samples_sample_1_content_1": "Melhorar os processos de negócios adicionando [códigos QR](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) a páginas específicas de documentos PDF pode ser valioso.",
+    "code_samples_sample_1_content_2": "Há um exemplo de como adicionar um código QR usando GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Use assinatura digital para proteger um DOCX",
+    "code_samples_sample_2_content_1": "Você pode [salvaguardar um documento](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) usando assinaturas pessoais ou corporativas armazenadas como certificados digitais.",
+    "code_samples_sample_2_content_2": "Os documentos protegidos por certificado não podem ser alterados sem invalidar a assinatura."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "API de assinatura digital Node.js - GroupDocs.Signature",
+    "head_description": "Integre assinaturas eletrônicas seguras em aplicativos Node.js com GroupDocs.Signature. Simplifique os fluxos de trabalho de assinatura de documentos com facilidade e eficiência.",
+    "title": "Assinar documentos com API Node.js.",
+    "description": "Assine documentos e imagens digitais em qualquer plataforma usando nossas APIs flexíveis e soluções baseadas em aplicativos para programadores e usuários finais.",
+    "actions_main": "Baixe do NPM",
+    "code_title": "Assinando PDFs por Node.js",
+    "overview_description": "Biblioteca de assinatura de documentos pronta para ser usada em aplicativos Node.js.",
+    "overview_feature_1": {
+      "title": "Solução de assinatura digital para documentos comerciais com Node.js",
+      "description": "{{ProdFullName}} oferece um conjunto abrangente de opções de assinatura digital para PDF, documentos do Office e imagens. Texto, códigos de barras, imagens, certificados digitais e metadados estão disponíveis. O processamento simplificado de documentos garante eficiência."
+    },
+    "overview_feature_2": {
+      "title": "Manipulação Avançada de Documentos Assinados",
+      "description": "{{ProdShortName}} permite que você processe documentos assinados. Pesquise e valide assinaturas usando vários critérios. Além disso, extraia informações detalhadas do documento ou gere imagens de visualização das páginas."
+    },
+    "overview_feature_3": {
+      "title": "Diversos formatos de saída",
+      "description": "Nossa solução oferece amplo controle sobre o formato de saída de documentos assinados. Posicione assinaturas com precisão em qualquer página e personalize sua aparência. Salve documentos assinados em vários formatos suportados e, opcionalmente, proteja-os com senhas."
+    },
+    "features": {
+      "title": "Recursos de {{ProdShortName}}",
+      "description": "Assine PDFs, documentos do Office e imagens com assinaturas digitais",
+      "feature_1": {
+        "title": "Assinaturas Empresariais",
+        "content": "Empregue vários tipos de assinatura para assinar documentos. Coloque assinaturas digitais com precisão em qualquer local da página."
+      },
+      "feature_2": {
+        "title": "Personalizando a aparência da assinatura",
+        "content": "Personalize os aspectos visuais das assinaturas ajustando cor, fonte, bordas, rotação e muito mais para alcançar o resultado desejado."
+      },
+      "feature_3": {
+        "title": "Documentos protegidos por senha",
+        "content": "Para muitos formatos de documentos suportados, proteja os documentos assinados com uma senha para maior segurança."
+      },
+      "feature_4": {
+        "title": "Prevenção de modificações não autorizadas",
+        "content": "Proteja documentos comerciais cruciais assinados com certificados digitais contra alterações não autorizadas."
+      },
+      "feature_5": {
+        "title": "Formatos de saída desejados",
+        "content": "Obtenha documentos assinados sem esforço em qualquer formato compatível. Converta documentos do MS Word para o formato PDF com facilidade."
+      },
+      "feature_6": {
+        "title": "Visualização de documentos",
+        "content": "Salve páginas individuais do documento como imagens para necessidades futuras."
+      },
+      "feature_7": {
+        "title": "Pesquisa de assinatura",
+        "content": "Recupere informações sobre assinaturas adicionadas anteriormente em seus documentos."
+      },
+      "feature_8": {
+        "title": "Validação de Documentos",
+        "content": "Verifique a autenticidade das assinaturas apresentadas em qualquer documento."
+      },
+      "feature_9": {
+        "title": "Gerenciamento de assinatura",
+        "content": "Exclua, realoque ou modifique qualquer assinatura colocada em qualquer página do documento."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} realiza processamento de documentos com vários sistemas operacionais",
+    "formats_description": "{{ProdFullName}} facilita operações para [formatos de arquivo populares]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Exemplos ilustrativos que mostram operações típicas do {{ProdFullName}}",
+    "code_title_sample_1": "Marcar PDF com códigos QR",
+    "code_samples_sample_1_content_1": "Incorporar [códigos de barras]({{Sample1Url}}) em páginas específicas de documentos PDF pode agilizar os processos de negócios.",
+    "code_samples_sample_1_content_2": "Esta seção fornece um exemplo de adição de um código QR usando {{ProdFullName}}.",
+    "code_title_sample_2": "Protegendo um DOCX com assinatura digital",
+    "code_samples_sample_2_content_1": "[Proteja seus documentos]({{Sample2Url}}) por meio de assinaturas baseadas em certificados digitais.",
+    "code_samples_sample_2_content_2": "A assinatura digital protege seus documentos comerciais contra alterações de conteúdo."
   }
 }

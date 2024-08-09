@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Instantiate a {{TextSignature}} object with the document file path",
+    "comment_2": "Execute a search for text signatures within the document",
+    "comment_3": "Update the text content of the first located signature",
+    "comment_4": "Validate the result of the text modification"
+  },
+  "steps": {
+    "title": "Steps for Editing Text Signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to revise the content of text signatures previously embedded in {{FileFormatUp}} files. Augment {{EnvName}} applications with advanced capabilities.",
+      "step_1": "Import the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Extract a list of all text signatures within the document.",
+      "step_3": "Revise the content of any identified signature.",
+      "step_4": "Evaluate the results of the modification."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "Modify Barcode Signatures",
+      "content": "This example illustrates how to programmatically modify barcode signatures in a document.",
+      "comment_1": "Load a document containing barcode signatures",
+      "comment_2": "Search for all existing barcode signatures",
+      "comment_3": "Modify the position of the first detected barcode and save the document",
+      "comment_4": "Verify the success of the barcode modification"
+    }
+  }
+}

@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:50
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: vi
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Net"
@@ -34,7 +28,7 @@ head_title: "API chữ ký số C# .NET - GroupDocs.Signature"
 head_description: "Tích hợp xử lý chữ ký số trong ứng dụng .NET của bạn bằng GroupDocs.Signature. Bảo mật tập tin của bạn bằng chữ ký một cách nhanh chóng và hiệu quả."
 
 ############################# Header ############################
-title: "Ký văn bản<br>thông qua API .NET"
+title: "Ký văn bản thông qua API .NET"
 description: "Ký các tài liệu và hình ảnh kỹ thuật số trên bất kỳ nền tảng nào bằng cách sử dụng các giải pháp dựa trên ứng dụng và API linh hoạt của chúng tôi dành cho lập trình viên và người dùng cuối."
 words:
   for: "vì"
@@ -43,7 +37,7 @@ actions:
   main: "Tải xuống NuGet miễn phí"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
   alt: "Cấp phép"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net/"
   title: "Sẵn sàng để bắt đầu?"
   description: "Dùng thử miễn phí các tính năng của GroupDocs.Signature hoặc yêu cầu giấy phép"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "Ký tệp PDF trong C#"
   more: "Thêm ví dụ"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   

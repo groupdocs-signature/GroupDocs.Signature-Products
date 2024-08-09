@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Integrate the document path with the {{TextSignature}} instance",
+    "comment_2": "Initialize {{StampSignOptions}} with the required signature content",
+    "comment_3": "Incorporate one or multiple stamp lines",
+    "comment_4": "Preserve the document with the applied stamp"
+  },
+  "steps": {
+    "title": "Procedure for Embedding Stamp Signatures into {{FileFormatUp}} Documents using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) offers a robust stamp creation feature, ideal for enhancing {{EnvName}} applications. Leverage this tool to design and implement highly customized stamps on your document pages.",
+      "step_1": "Provide the {{FileFormatUp}} document to be stamped.",
+      "step_2": "Utilize {{StampSignOptions}} to meticulously configure all requisite parameters.",
+      "step_3": "Add multiple stamp lines as per your requirements.",
+      "step_4": "Apply the configured stamp and save the modified document."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "Implement Custom Stamps in Documents Using Advanced Signatures",
+      "content": "Discover how to craft and integrate custom stamps bearing critical textual details into your documents.",
+      "comment_1": "Supply the document to be stamped",
+      "comment_2": "Initialize the stamp options with the desired configurations",
+      "comment_3": "Define the stamp’s dimensions and position on the page",
+      "comment_4": "Incorporate outer circular lines with text",
+      "comment_5": "Integrate inner square lines if necessary",
+      "comment_6": "Finalize and save the stamped document"
+    }
+  }
+}

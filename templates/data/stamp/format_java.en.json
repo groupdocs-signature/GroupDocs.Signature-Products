@@ -1,0 +1,63 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Use the document path with the {{TextSignature}} object",
+    "comment_2": "Instantiate {{StampSignOptions}} with the desired signature text",
+    "comment_3": "Add one or more stamp lines",
+    "comment_4": "Save the stamped document"
+  },
+  "steps": {
+    "title": "Steps for Adding Stamp Signatures to {{FileFormatUp}} Documents via {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides a stamp constructor that can be highly beneficial for {{EnvName}} applications. Utilize it to create well-customized stamps for your document pages.",
+      "step_1": "Provide the {{FileFormatUp}} document to be stamped.",
+      "step_2": "Use {{StampSignOptions}} to configure all necessary parameters.",
+      "step_3": "Add as many lines as needed.",
+      "step_4": "Apply the stamp and save the document."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Add Custom Stamps to Documents using Special Signatures",
+      "content": "Learn how to generate and add custom stamps with important textual information to your documents.",
+      "comment_1": "Provide the document to be stamped",
+      "comment_2": "Instantiate the stamp options object",
+      "comment_3": "Set the size and position on the page",
+      "comment_4": "Add one or more outer round lines with text",
+      "comment_5": "Add one or more inner square lines",
+      "comment_6": "Save the stamped document"
+    }
+  }
+}

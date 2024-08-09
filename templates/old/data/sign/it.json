@@ -1,0 +1,295 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} documento con codice a barre {{Codetype}} in {{ProgLang}}",
+    "meta_description": "Crea {{Codetype}} Firma codice a barre e inseriscilo nel documento {{Fileformat}} con {{ProductName}} utilizzando un paio di righe di codice. Utilizza l'API per la firma dei documenti di GroupDocs per firmare vari formati di file.",
+    "h1": "Genera {{Codetype}} firma del codice a barre per il documento {{Fileformat}} in {{ProgLang}}",
+    "h2": "Firma elettronicamente i tuoi documenti aziendali {{Fileformat}} con il codice a barre {{Codetype}}. Genera la firma del codice a barre in modo rapido e semplice con poche righe di codice per impostare le opzioni di firma."
+  },
+  "digital-content": {
+    "meta_title": "Aggiunta di firme elettroniche digitali al file {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Inserisci la firma digitale sul file {{Fileformat}} per {{ProductName}} utilizzando poche righe di codice. Usa l'API per la firma dei documenti di GroupDocs per firmare decine di formati di file.",
+    "h1": "eSign file {{Fileformat}} con firme {{Signaturetype}} in {{ProgLang}}",
+    "h2": "Come aggiungere la firma {{Signaturetype}} con poche righe di codice {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Aggiunta di firme {{Signaturetype}} al file {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Inserisci {{Signaturetype}} Firma sul file {{Fileformat}} per {{ProductName}} utilizzando poche righe di codice. Usa l'API per la firma dei documenti di GroupDocs per firmare decine di formati di file.",
+    "h1": "Firma file {{Fileformat}} con firme {{Signaturetype}} in {{ProgLang}}",
+    "h2": "Come aggiungere la firma {{Signaturetype}} con poche righe di codice {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Aggiungi firme elettroniche di metadati a documenti {{Fileformat}} tramite {{ProgLang}}",
+    "meta_description": "Usa i metadati come firme elettroniche nascoste all'interno dei tuoi documenti {{Fileformat}} utilizzando un paio di righe di codice {{ProgLang}}. Usa l'API per la firma dei documenti di GroupDocs per firmare elettronicamente i tuoi documenti e file aziendali con informazioni sui metadati.",
+    "h1": "Le firme elettroniche dei metadati per il documento {{Fileformat}} tramite {{ProductName}} sono semplici e facili da usare!",
+    "h2": "Firma elettronicamente i tuoi documenti e contratti {{Fileformat}} con voci di metadati nascoste. Genera metadati per PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint e vari formati di immagine senza problemi e codifica aggiuntiva."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} documento con {{Codetype}} codice QR in {{ProgLang}}",
+    "meta_description": "Crea il codice QR {{Codetype}} e inseriscilo nel file {{Fileformat}} utilizzando {{ProductName}} con un breve pezzo di codice {{ProgLang}}. Usa l'API per la firma dei documenti di GroupDocs per firmare elettronicamente i tuoi documenti e file aziendali con il codice QR.",
+    "h1": "Genera {{Codetype}} firma del codice QR per il documento {{Fileformat}} in {{ProgLang}}",
+    "h2": "Firma i tuoi documenti e contratti {{Fileformat}} con il codice QR {{Codetype}}. Genera la firma del codice QR in modo rapido e semplice."
+  },
+  "text-content": {
+    "meta_title": "Crea firme elettroniche di testo su file {{Fileformat}} con {{ProgLang}}",
+    "meta_description": "Inserisci {{Signaturetype}} eSignature nel file {{Fileformat}} per {{ProductName}} utilizzando poche righe di codice. Usa l'API per la firma dei documenti di GroupDocs per firmare decine di formati di file.",
+    "h1": "Firma file {{Fileformat}} con firme {{Signaturetype}} in {{ProgLang}}",
+    "h2": "Come aggiungere la firma {{Signaturetype}} con poche righe di codice {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Informazioni su {{ProductFullName}} API delle firme di codici a barre.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API semplice e veloce per gestire la firma elettronica dei documenti digitali utilizzando tipi di codici a barre come UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 e molti altri. I clienti possono creare facilmente codici a barre fornendo il testo richiesto e inserirli in PDF, documenti Microsoft Office Words, cartelle di lavoro Microsoft Office Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. I codici a barre inseriti nei documenti possono essere aggiornati, ricercati, verificati, eliminati o visualizzati in anteprima. Inoltre, è supportata la personalizzazione dei codici a barre."
+  },
+  "digital-about": {
+    "title": "Informazioni su {{ProductFullName}} API delle firme digitali",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API popolare per la firma di documenti con firme elettroniche digitali, con certificati digitali. Per le firme digitali API utilizza i file di certificato PFX per firmare documenti con chiavi private e pubbliche protette da password. Le firme digitali possono essere utilizzate per certificare documenti aziendali con una pagina particolare PDF eSign, certificare interi documenti di Microsoft Office come Word, Excel, file Powerpoint e documenti Open Office. I clienti possono facilmente manipolare le firme come modificarle, rimuoverle o modificarle. L'API fornisce un modo per cercare e verificare le firme. Inoltre, vengono fornite molte abilità per la personalizzazione delle firme."
+  },
+  "image-about": {
+    "title": "Informazioni su {{ProductFullName}} API delle firme di immagini",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API popolare per la firma elettronica di documenti digitali. Sono disponibili firme come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. Le firme possono essere posizionate su PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. I clienti possono firmare il proprio documento e aggiornare, cercare, verificare, eliminare o visualizzare in anteprima le firme elettroniche che sono state apposte su tali documenti. Inoltre, vengono fornite molte abilità per la personalizzazione delle firme."
+  },
+  "metadata-about": {
+    "title": "Informazioni su {{ProductFullName}} API delle firme dei metadati",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API popolare per la firma elettronica di documenti digitali. Sono disponibili firme come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. Le firme possono essere posizionate su PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. I clienti possono firmare il proprio documento e aggiornare, cercare, verificare, eliminare o visualizzare in anteprima le firme elettroniche che sono state apposte su tali documenti. Inoltre, vengono fornite molte abilità per la personalizzazione delle firme."
+  },
+  "qrcode-about": {
+    "title": "Informazioni su {{ProductFullName}} API per le firme del codice QR",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API matura per la creazione e la generazione di firme QR Code per i documenti. Gli utenti possono generare firme QR Code fornendo testo per scaricarlo o condividerlo sui social media come immagine. Il documento firmato può essere scansionato con API o semplicemente tramite la fotocamera mobile! Firma elettronicamente i tuoi contratti commerciali e documenti ufficiali aggiungendo la firma del codice QR e manipolalo. Qualsiasi firma del codice QR conterrà informazioni personalizzate univoche per identificare il firmatario o autorizzare il documento. Inoltre, il contenuto del QR Code può essere crittografato e decrittografato con chiavi personali in modo programmatico. Ciò apre molte possibilità di condividere dati sensibili all'interno dei documenti pubblici. Dopo la firma, l'utente può aggiornare, verificare, eliminare, visualizzare in anteprima o cercare i codici QR all'interno di PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. I codici QR possono essere ulteriormente personalizzati."
+  },
+  "text-about": {
+    "title": "Informazioni sull'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) è un'API popolare per la firma elettronica di documenti digitali. Sono disponibili firme come testi, immagini, certificati digitali, codici a barre, codici QR, timbri o metadati. Le firme possono essere posizionate su PDF, documenti MS Word, cartelle di lavoro MS Excel, presentazioni MS PowerPoint, file Adobe Photoshop e vari formati di immagine. I clienti possono firmare il proprio documento e aggiornare, cercare, verificare, eliminare o visualizzare in anteprima le firme elettroniche che sono state apposte su tali documenti. Inoltre, vengono fornite molte abilità per la personalizzazione delle firme."
+  },
+  "system-requirements": {
+    "title": "Requisiti di sistema",
+    "content": {
+      "description": "{{ProductFullName}} sono supportati su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.",
+      "step_1": "Sistemi operativi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ambienti di sviluppo: {{DevEnv}}",
+      "step_3": "Ricevi l'ultimo {{ProductFullName}} da [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "digital-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "image-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "metadata-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "text-steps": {
+    "title": "Passaggi per firmare {{Fileformat}} con {{Signaturetype}} in {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) offre la possibilità di firmare documenti {{Fileformat}} con firme {{Signaturetype}} in modo rapido e semplice.",
+      "step_1": "Crea un'istanza della classe Signature che fornisce il file {{Fileformat}} che dovrebbe firmare come percorso o flusso di memoria",
+      "step_2": "Crea un'istanza della classe SignOptions e imposta tutti i dati richiesti.",
+      "step_3": "Richiama il metodo Signature.Sign() passando il file di output {{Fileformat}} o il flusso di memoria"
+    }
+  },
+  "demos": {
+    "title": "Firma di documenti {{Fileformat}} con {{Signaturetype}} Demo live",
+    "content": "Firma subito il file {{Fileformat}} con varie firme visitando il sito web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demo online gratuita ti aspetta."
+  },
+  "more_formats": {
+    "title": "Altre firme {{Signaturetype}} supportate per {{ProgLang}}",
+    "content": "Puoi anche firmare {{Fileformat}} con altri tipi di firma. Si prega di consultare l'elenco di seguito."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Il codice prodotto universale è una simbologia di codici a barre ampiamente utilizzata in tutto il mondo per tracciare gli articoli commerciali nei negozi.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "Esattamente 11 cifre + 1 cifra di controllo."
+    },
+    "UPCE": {
+      "details": "Il codice prodotto universale è una simbologia di codici a barre ampiamente utilizzata in tutto il mondo per tracciare gli articoli commerciali nei negozi. UPCE è una variazione a 8 cifre se UPC.",
+      "characterset": "Supporta solo cifre numeriche (0-9).",
+      "codetextcapacity": "Capacità codetext: 7 cifre esatte + 1 cifra di controllo."
+    },
+    "EAN13": {
+      "details": "Lo standard EAN più comunemente utilizzato è l'EAN-13 a tredici cifre, un superset dello standard Universal Product Code a 12 cifre originale.",
+      "characterset": "Solo cifre numeriche (0-9).",
+      "codetextcapacity": "Capacità del testo del codice: esattamente 12 cifre + 1 cifra di controllo."
+    },
+    "EAN14": {
+      "details": "Il numero di articolo europeo o EAN è uno standard che descrive una simbologia di codici a barre e un sistema di numerazione utilizzato nel commercio globale per identificare un tipo specifico di prodotto al dettaglio, in una specifica configurazione di imballaggio, da un produttore specifico.",
+      "characterset": "Cifre numeriche (0-9) e caratteri speciali.",
+      "codetextcapacity": "Esattamente 14 cifre numeriche."
+    },
+    "Code39": {
+      "details": "Il codice 39 (noto anche come Alpha39, codice 3 di 9, codice 3/9, tipo 39, codice USS 39 o USD-3) è una simbologia di codici a barre discreti di lunghezza variabile.",
+      "characterset": "Cifre numeriche (0-9) e lettere maiuscole (A-Z) e un numero di caratteri speciali (-, ., $, /, +, % e spazio).",
+      "codetextcapacity": "Nessuna restrizione specifica."
+    },
+    "Code39Extended": {
+      "details": "Il codice 39 (noto anche come Alpha39, codice 3 di 9, codice 3/9, tipo 39, codice USS 39 o USD-3) è una simbologia di codici a barre discreti di lunghezza variabile.",
+      "characterset": "Set di caratteri: tutti i 128 caratteri ASCII.",
+      "codetextcapacity": "Nessuna restrizione specifica."
+    },
+    "Code128": {
+      "details": "Il codice 128 è una simbologia di codici a barre lineari ad alta densità definita nella norma ISO/IEC 15417:2007. Viene utilizzato per codici a barre alfanumerici o solo numerici.",
+      "characterset": "Tutti i 128 caratteri di ASCII.",
+      "codetextcapacity": "Nessuna restrizione specifica."
+    },
+    "Codabar": {
+      "details": "Codabar è una simbologia di codici a barre lineare progettata per essere letta con precisione anche quando viene stampata su stampanti a matrice di punti per moduli multi-parte come fatture aeree FedEx e moduli di banca del sangue.",
+      "characterset": "Cifre numeriche (0-9) e caratteri speciali $/-:+.",
+      "codetextcapacity": "Nessuna restrizione specifica."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) è una simbologia di codici a barre utilizzata dal servizio postale degli Stati Uniti per aiutare a dirigere la posta.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "Fino a 11 caratteri."
+    },
+    "ISBN": {
+      "details": "L'International Standard Book Number (ISBN) è un identificatore numerico commerciale del libro che deve essere univoco.[a][b] Gli editori acquistano ISBN da un'affiliata dell'Agenzia ISBN internazionale.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "Esattamente 9 cifre + 1 cifra di controllo."
+    },
+    "ITF14": {
+      "details": "ITF-14 è l'implementazione GS1 di un codice a barre Interleaved 2 of 5 (ITF) per codificare un numero di articolo commerciale globale.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "13 cifre + 1 cifra di controllo."
+    },
+    "Pdf417": {
+      "details": "PDF417 è un formato di codice a barre lineare impilato utilizzato in una varietà di applicazioni come il trasporto, le carte d'identità e la gestione dell'inventario.",
+      "characterset": "Tutti i 256 caratteri ASCII.",
+      "codetextcapacity": "Fino a 800 caratteri."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) è una simbologia di codici a barre a doppia larghezza continua che codifica le cifre. Viene utilizzato commercialmente su film 135, per codici a barre ITF-14 e su cartoni di alcuni prodotti, mentre i prodotti all'interno sono etichettati con UPC o EAN.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "Lunghezza variabile."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, noto anche come Pharmaceutical Binary Code, è uno standard di codici a barre, utilizzato nell'industria farmaceutica come sistema di controllo dell'imballaggio.",
+      "characterset": "Cifre numeriche (0-9).",
+      "codetextcapacity": "Rappresenta un solo numero intero compreso tra 3 e 131070."
+    },
+    "Aztec": {
+      "details": "Il codice azteco è una simbologia di matrice bidimensionale (2-D) per uso generale progettata per avere una precisione maggiore rispetto ad altre simbologie 2-D. Un simbolo del codice azteco può codificare fino a 3.832 cifre numeriche; 3.067 caratteri alfabetici; o 1.914 byte di dati.",
+      "characterset": "Tutti i 256 caratteri ASCII.",
+      "codetextcapacity": "Fino a 3.832 cifre numeriche o 3.067 caratteri alfabetici o 1.914 byte di dati."
+    },
+    "DataMatrix": {
+      "details": "Data Matrix è un codice bidimensionale costituito da \"celle\" o punti in bianco e nero disposti in uno schema quadrato o rettangolare, noto anche come matrice. Le informazioni da codificare possono essere di testo o dati numerici.",
+      "characterset": "Supporta tutti i 256 caratteri ASCII, tutti i caratteri ISO e tutti i caratteri EBCDIC (Extended Binary Coded Decimal Interchange Code).",
+      "codetextcapacity": "Fino a 3116 cifre numeriche o 2335 caratteri alfanumerici o 1556 caratteri binari."
+    },
+    "GS1DataMatrix": {
+      "details": "GS1 Data Matrix è una variante di Data Matrix conforme alle specifiche GS1. Utilizzare GS1 DataMatrix per codificare informazioni quali, a titolo esemplificativo, quanto segue: AI(01) Global Trade Item Number (GTIN), AI(17) Data di scadenza, AI(10) Numero di lotto, AI(21) Numero di serie .",
+      "characterset": "Set di caratteri: lettere maiuscole e minuscole e caratteri speciali $@%*+-./:=<>;&*_,'! il tutto con gli Application Identifier corretti.",
+      "codetextcapacity": "Capacità del testo del codice: fino a 3116 cifre numeriche o 2335 caratteri alfanumerici."
+    },
+    "GS1QR": {
+      "details": "Il codice QR GS1 è una variante del codice QR conforme alle specifiche GS1. È stato progettato specificamente per condividere informazioni estese sull'imballaggio, come numero di lotto, ID prodotto e quantità.",
+      "characterset": "Lettere maiuscole e minuscole e caratteri speciali $%*+-./: tutti con Application Identifier corretti",
+      "codetextcapacity": "Fino a 7089 caratteri numerici, 4296 caratteri alfanumerici"
+    },
+    "QR": {
+      "details": "QR Code (abbreviato da Quick Response Code) è il marchio di un tipo di codice a barre a matrice (o codice a barre bidimensionale). È il tipo di codice bidimensionale più popolare e ampiamente utilizzato. In pratica, i codici QR spesso contengono dati per un localizzatore, identificatore o tracker che punta a un sito Web o a un'applicazione.",
+      "characterset": "Tutti i 256 caratteri ASCII + Kanji",
+      "codetextcapacity": "Fino a 7089 caratteri numerici, 4296 caratteri alfanumerici, 2953 byte (dati binari) o 1817 caratteri Kanji."
+    }
+  },
+  "index-content": {
+    "head_title": "App di firma digitale C# .NET, Java, Node.js",
+    "head_description": "Integra le firme elettroniche nelle applicazioni .NET, Java o Node.js con GroupDocs.Signature. Firma i formati di documenti aziendali più diffusi.",
+    "title": "Soluzione per la firma elettronica dei documenti",
+    "description": "Firma documenti digitali e immagini su qualsiasi piattaforma utilizzando le nostre API flessibili e soluzioni basate su app per programmatori e utenti finali.",
+    "api_high_title": "Le API GroupDocs.Signature High Code includono",
+    "api_high_label": "Visualizza tutte le API High Code",
+    "api_high_1_content": "API .NET nativa per aggiungere, cercare e verificare i tipi di firma digitale più diffusi in Microsoft Office, PDF, immagini e vari altri formati nelle applicazioni .NET.",
+    "api_high_2_content": "Potenzia le applicazioni Java con funzionalità di firma elettronica per firmare digitalmente un'ampia gamma di documenti e immagini su qualsiasi sistema operativo con JDK installato.",
+    "api_low_title": "Le API GroupDocs.Signature Low Code includono",
+    "api_low_label": "Visualizza tutte le API a basso codice",
+    "api_low_1_content": "Lavora con l'API di firma del documento RESTful cURL per aggiungere e manipolare diversi tipi di firma in tutti i formati di documenti più diffusi, inclusi PDF, Word, Excel e immagini.",
+    "api_low_2_content": "Utilizza facilmente l'API RESTful della firma elettronica con .NET SDK per gestire la firma digitale in una serie di formati di documenti all'interno delle applicazioni .NET.",
+    "api_low_3_content": "Implementa funzionalità avanzate di firma dei documenti nelle tue applicazioni Java con l'SDK per la firma dei documenti appositamente progettato per Java.",
+    "api_nocode_title": "GroupDocs.Signature Nessuna app di codice include",
+    "api_nocodelabel": "Visualizza tutte le app senza codice",
+    "api_nocode_1_content": "Firma file Microsoft Word, Excel, PowerPoint, Visio e PDF con testo, immagine, codice a barre o codice QR.",
+    "api_nocode_2_content": "Firma digitalmente i documenti Word online direttamente dal tuo browser gratuitamente.",
+    "api_nocode_3_content": "Firma elettronica dei file PDF utilizzando testo, immagine o codice a barre da qualsiasi browser web.",
+    "title_1": "Firmare documenti",
+    "words_for": "per",
+    "actions_alt": "Licenza",
+    "actions_title": "Pronti per iniziare?",
+    "actions_description": "Prova gratuitamente le funzionalità di GroupDocs.Signature o richiedi una licenza",
+    "release_title": "Rilasciata la versione {0}",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Altri esempi",
+    "code_comment_1": "Seleziona il documento PDF",
+    "code_comment_2": "Fornire testo",
+    "code_comment_3": "Imposta il colore",
+    "code_comment_4": "Firma il documento e salvalo su file",
+    "overview_title": "Panoramica di GroupDocs.Signature",
+    "platforms_title": "Indipendenza dalla piattaforma",
+    "formats_title": "Formati di file supportati",
+    "formats_groups": {
+      "title_1": "Formati Microsoft Office",
+      "title_2": "Immagini e altri formati",
+      "title_3": "Altri formati",
+      "format_portable": "Portatile",
+      "format_other_office": "Altri formati di ufficio",
+      "format_images": "immagini",
+      "format_web": "ragnatela",
+      "format_archives": "Archivi",
+      "format_certificates": "Certificati"
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "sample_1": {
+        "code_title": "Come inserire il codice QR nel PDF.",
+        "comment_1": "Carica il documento da firmare",
+        "comment_2": "Crea opzioni di codice QR con testo predefinito",
+        "comment_3": "Configura il tipo di codifica del codice QR e la posizione sulla pagina",
+        "comment_4": "Firma il documento e salvalo come file dei risultati"
+      },
+      "sample_2": {
+        "code_title": "Ecco come garantire l'integrità del documento.",
+        "comment_1": "Caricare il documento da firmare digitalmente",
+        "comment_2": "Specificare le opzioni di firma digitale e fornire il percorso del file del certificato",
+        "comment_3": "Imposta la password del certificato",
+        "comment_4": "Firma il documento e salvalo nel percorso desiderato"
+      }
+    },
+    "api_high_3_content": "La nostra soluzione Node.js estende le tue applicazioni aziendali con la firma digitale. Inserisci facilmente firme elettroniche su documenti e formati di immagine più diffusi."
+  }
+}

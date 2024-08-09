@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:50
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: id
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Net"
@@ -34,7 +28,7 @@ head_title: "C# .NET API Tanda Tangan Digital - GroupDocs.Signature"
 head_description: "Integrasikan pemrosesan tanda tangan digital di aplikasi .NET Anda menggunakan GroupDocs.Signature. Amankan file Anda dengan tanda tangan dengan cepat dan efisien."
 
 ############################# Header ############################
-title: "Menandatangani dokumen<br>melalui .NET API"
+title: "Menandatangani dokumen melalui .NET API"
 description: "Menandatangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
 words:
   for: "untuk"
@@ -43,7 +37,7 @@ actions:
   main: "Unduh NuGet Gratis"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
   alt: "Perizinan"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net/"
   title: "Siap untuk memulai?"
   description: "Coba fitur GroupDocs.Signature secara gratis atau minta lisensi"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "Menandatangani file PDF di C#"
   more: "Lebih banyak contoh"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
@@ -76,7 +70,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Ikhtisar Tanda Tangan"
+  title: "GroupDocs.Signature Tanda Tangan"
   description: "API untuk melakukan penandatanganan dokumen dan operasi terkait dalam aplikasi .NET"
   features:
     # feature loop

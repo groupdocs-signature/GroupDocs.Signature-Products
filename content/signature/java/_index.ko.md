@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:49
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: ko
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
@@ -34,7 +28,7 @@ head_title: "Java 디지털 서명 라이브러리 - GroupDocs.Signature"
 head_description: "GroupDocs.Signature를 사용하여 전자 서명을 통해 Java 앱을 강화하세요. 비즈니스 문서에 빠르고 쉽게 서명하세요."
 
 ############################# Header ############################
-title: "문서에 서명<br>자바 API를 통해"
+title: "문서에 서명 자바 API를 통해"
 description: "프로그래머와 최종 사용자를 위한 유연한 API 및 앱 기반 솔루션을 사용하여 모든 플랫폼에서 디지털 문서 및 이미지에 서명하십시오."
 words:
   for: "~을 위한"
@@ -43,7 +37,7 @@ actions:
   main: "무료 메이븐 다운로드"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
   alt: "라이선스"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "시작할 준비가 되셨나요?"
   description: "GroupDocs.Signature 기능을 무료로 사용해 보거나 라이센스를 요청하세요"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "Java로 PDF 파일 서명"
   more: "더 많은 예시"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

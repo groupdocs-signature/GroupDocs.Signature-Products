@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:50
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: th
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Net"
@@ -34,7 +28,7 @@ head_title: "C# .NET Digital Signatures API - GroupDocs.Signature"
 head_description: "ผสานรวมการประมวลผลลายเซ็นดิจิทัลในแอป .NET ของคุณโดยใช้ GroupDocs.Signature รักษาความปลอดภัยไฟล์ของคุณด้วยลายเซ็นอย่างรวดเร็วและมีประสิทธิภาพ"
 
 ############################# Header ############################
-title: "เซ็นเอกสาร<br>ผ่านทาง .NET API"
+title: "เซ็นเอกสาร ผ่านทาง .NET API"
 description: "ลงนามในเอกสารดิจิทัลและรูปภาพบนแพลตฟอร์มใดก็ได้โดยใช้ API ที่ยืดหยุ่นและโซลูชันตามแอปสำหรับโปรแกรมเมอร์และผู้ใช้ปลายทาง"
 words:
   for: "สำหรับ"
@@ -43,7 +37,7 @@ actions:
   main: "ดาวน์โหลด NuGet ฟรี"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
   alt: "การออกใบอนุญาต"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net/"
   title: "พร้อมที่จะเริ่มต้นหรือยัง?"
   description: "ลองใช้คุณสมบัติ GroupDocs.Signature ฟรีหรือขอใบอนุญาต"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "ลงนามไฟล์ PDF ใน C #"
   more: "ตัวอย่างเพิ่มเติม"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   

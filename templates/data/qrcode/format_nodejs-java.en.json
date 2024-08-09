@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Create a {{TextSignature}} instance and pass the document path",
+    "comment_2": "Leverage {{QrCodeSignOptions}} to insert a QR-Code into the document",
+    "comment_3": "Define the signature type and placement on the page",
+    "comment_4": "Store the document with the newly added QR-Code"
+  },
+  "steps": {
+    "title": "Guidelines for Generating and Embedding a QR-Code in {{FileFormatUp}} Pages",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables the creation of QR-Codes in various widely-used formats and their integration into {{FileFormatUp}} pages. Supporting over 10 distinct QR-Code types, our solution can be seamlessly incorporated into {{EnvName}} applications, enriching them with QR-Code signing capabilities.",
+      "step_1": "Provide the {{FileFormatUp}} file or stream for QR-Code signing.",
+      "step_2": "Input the desired text into the {{QrCodeSignOptions}} instance.",
+      "step_3": "Adjust visual settings such as color, positioning, size, etc.",
+      "step_4": "Save the document containing the QR-Code."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Customizing a Generated QR-Code",
+      "content": "This example details the process of adding a customized QR-Code to a {{FileFormatUp}} page.",
+      "comment_1": "Obtain the document to be signed and pass it to {{TextSignature}}",
+      "comment_2": "Set up QR-Code options with the required text",
+      "comment_3": "Determine the QR-Code's position on the page",
+      "comment_4": "Specify the signature padding",
+      "comment_5": "Choose the QR-Code color",
+      "comment_6": "Define the font options for the accompanying message",
+      "comment_7": "Customize the background color and brush for the QR-Code",
+      "comment_8": "Embed the QR-Code into the document"
+    }
+  }
+}

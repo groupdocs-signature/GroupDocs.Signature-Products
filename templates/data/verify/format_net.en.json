@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Initialize a {{TextSignature}} instance with the document",
+    "comment_2": "Configure {{TextVerifyOptions}} to authenticate signatures containing specific text",
+    "comment_3": "Conduct a verification of the document’s signatures",
+    "comment_4": "Analyze and interpret the results of the verification"
+  },
+  "steps": {
+    "title": "Steps for Verifying Signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) can authenticate the presence of specific signatures within a {{FileFormatUp}} document. {{EnvName}} developers can effortlessly enhance their applications by incorporating features provided by our solution.",
+      "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Instantiate and configure {{TextVerifyOptions}} to achieve the desired verification outcome.",
+      "step_3": "Commence the verification process.",
+      "step_4": "Review and interpret the verification results."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
+    "image_description": "Metadata Manipulation Features",
+    "feature_1": {
+      "title": "Metadata Control",
+      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    },
+    "code_1": {
+      "title": "Authenticate Barcode Signatures",
+      "content": "This example illustrates the procedure for authenticating barcode signatures within a document.",
+      "comment_1": "Submit the document containing barcode signatures",
+      "comment_2": "Configure the verification options to match barcodes with specific text criteria",
+      "comment_3": "Authenticate the signatures embedded in the document",
+      "comment_4": "Present the outcomes of the authentication process"
+    }
+  }
+}

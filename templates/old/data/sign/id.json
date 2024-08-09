@@ -1,0 +1,295 @@
+{
+  "barcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokumen dengan {{Codetype}} Barcode di {{ProgLang}}",
+    "meta_description": "Buat {{Codetype}} Tanda Tangan Barcode dan letakkan di dokumen {{Fileformat}} dengan {{ProductName}} menggunakan beberapa baris kode. Gunakan API Tanda Tangan Dokumen GroupDocs untuk menandatangani berbagai format file.",
+    "h1": "Buat {{Codetype}} Tanda tangan kode batang untuk dokumen {{Fileformat}} di {{ProgLang}}",
+    "h2": "eSign dokumen bisnis {{Fileformat}} Anda dengan {{Codetype}} Barcode. Hasilkan tanda tangan Barcode dengan cepat dan mudah dengan beberapa baris kode untuk menyiapkan opsi penandatanganan."
+  },
+  "digital-content": {
+    "meta_title": "Menambahkan tanda tangan elektronik digital ke file {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan Tanda Tangan Digital pada file {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kode. Gunakan GroupDocs Document Signature API untuk menandatangani lusinan format file.",
+    "h1": "eSign {{Fileformat}} file dengan {{Signaturetype}} tanda tangan di {{ProgLang}}",
+    "h2": "Cara menambahkan tanda tangan {{Signaturetype}} dengan beberapa baris kode {{ProductName}}"
+  },
+  "image-content": {
+    "meta_title": "Menambahkan tanda tangan {{Signaturetype}} ke file {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan {{Signaturetype}} Signature pada file {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kode. Gunakan GroupDocs Document Signature API untuk menandatangani lusinan format file.",
+    "h1": "Tanda tangani file {{Fileformat}} dengan tanda tangan {{Signaturetype}} di {{ProgLang}}",
+    "h2": "Cara menambahkan Tanda Tangan {{Signaturetype}} dengan beberapa baris kode {{ProductName}}"
+  },
+  "metadata-content": {
+    "meta_title": "Tambahkan tanda tangan elektronik Metadata ke dokumen {{Fileformat}} melalui {{ProgLang}}",
+    "meta_description": "Gunakan Metadata sebagai tanda tangan elektronik tersembunyi di dalam dokumen {{Fileformat}} Anda menggunakan beberapa baris kode {{ProgLang}}. Gunakan API Tanda Tangan Dokumen GroupDocs untuk menandatangani dokumen dan file bisnis Anda secara elektronik dengan informasi Metadata.",
+    "h1": "Tanda tangan elektronik metadata untuk dokumen {{Fileformat}} melalui {{ProductName}} sederhana dan mudah digunakan!",
+    "h2": "eSign dokumen dan kontrak {{Fileformat}} Anda dengan entri Metadata tersembunyi. Hasilkan Metadata untuk PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint dan berbagai format gambar tanpa masalah dan pengkodean tambahan."
+  },
+  "qrcode-content": {
+    "meta_title": "eSign {{Fileformat}} dokumen dengan {{Codetype}} QR Code di {{ProgLang}}",
+    "meta_description": "Buat Kode QR {{Codetype}} dan letakkan di file {{Fileformat}} menggunakan {{ProductName}} dengan potongan pendek kode {{ProgLang}}. Gunakan API Tanda Tangan Dokumen GroupDocs untuk menandatangani dokumen dan file bisnis Anda secara elektronik dengan Kode QR.",
+    "h1": "Buat {{Codetype}} tanda tangan Kode QR untuk dokumen {{Fileformat}} di {{ProgLang}}",
+    "h2": "eTandatangani dokumen dan kontrak {{Fileformat}} Anda dengan Kode QR {{Codetype}}. Hasilkan tanda tangan Kode QR dengan cepat dan mudah."
+  },
+  "text-content": {
+    "meta_title": "Buat tanda tangan elektronik Teks ke file {{Fileformat}} dengan {{ProgLang}}",
+    "meta_description": "Letakkan {{Signaturetype}} eSignature pada file {{Fileformat}} untuk {{ProductName}} menggunakan beberapa baris kode. Gunakan GroupDocs Document Signature API untuk menandatangani lusinan format file.",
+    "h1": "Tanda tangani file {{Fileformat}} dengan tanda tangan {{Signaturetype}} di {{ProgLang}}",
+    "h2": "Cara menambahkan Tanda Tangan {{Signaturetype}} dengan beberapa baris kode {{ProductName}}"
+  },
+  "barcode-about": {
+    "title": "Tentang {{ProductFullName}} API tanda tangan kode batang.",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API yang cepat dan mudah untuk mengelola dokumen digital penandatanganan elektronik menggunakan jenis Barcode seperti UPCA, UPCE, EAN13, EAN14, Code39, Code39Extended, Code128, Codabar, Postnet, ISBN , ITF14 dan banyak lainnya. Pelanggan dapat dengan mudah membuat Barcode yang menyediakan teks yang diperlukan dan meletakkannya di PDF, Dokumen Microsoft Office Words, buku kerja Microsoft Office Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Barcode yang ditempatkan dalam dokumen dapat diperbarui, dicari, diverifikasi, dihapus, atau dipratinjau. Selain itu, kustomisasi barcode didukung."
+  },
+  "digital-about": {
+    "title": "Tentang {{ProductFullName}} API tanda tangan digital",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API populer untuk menandatangani dokumen dengan tanda tangan elektronik digital, dengan sertifikat digital. Untuk tanda tangan digital, API menggunakan file sertifikat PFX untuk menandatangani dokumen dengan kunci pribadi dan publik yang dilindungi kata sandi. Tanda tangan digital dapat digunakan untuk mengesahkan dokumen bisnis dengan halaman tertentu eSign PDF, mengesahkan seluruh dokumen Microsoft Office seperti Words, Excel, file Powerpoint, dan dokumen Open Office. Pelanggan dapat dengan mudah memanipulasi tanda tangan seperti mengedit, menghapus, atau menyesuaikan. API menyediakan cara untuk mencari dan memverifikasi tanda tangan. Selain itu, banyak kemampuan untuk kustomisasi tanda tangan disediakan."
+  },
+  "image-about": {
+    "title": "Tentang {{ProductFullName}} API tanda tangan gambar",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API populer untuk penandatanganan elektronik dokumen digital. Tanda tangan seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata tersedia. Tanda tangan dapat ditempatkan pada PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Pelanggan dapat menandatangani dokumen mereka dan memperbarui, mencari, memverifikasi, menghapus, atau melihat pratinjau tanda tangan elektronik yang diletakkan pada dokumen tersebut. Selain itu, banyak kemampuan untuk kustomisasi tanda tangan disediakan."
+  },
+  "metadata-about": {
+    "title": "Tentang {{ProductFullName}} Metadata signatures API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API populer untuk penandatanganan elektronik dokumen digital. Tanda tangan seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata tersedia. Tanda tangan dapat ditempatkan pada PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Pelanggan dapat menandatangani dokumen mereka dan memperbarui, mencari, memverifikasi, menghapus, atau melihat pratinjau tanda tangan elektronik yang diletakkan pada dokumen tersebut. Selain itu, banyak kemampuan untuk kustomisasi tanda tangan disediakan."
+  },
+  "qrcode-about": {
+    "title": "Tentang {{ProductFullName}} API tanda tangan Kode QR",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API yang matang untuk membuat dan menghasilkan tanda tangan Kode QR untuk dokumen. Pengguna dapat menghasilkan tanda tangan Kode QR yang menyediakan teks untuk diunduh atau dibagikan melalui media sosial sebagai gambar. Dokumen yang ditandatangani dapat dipindai dengan API atau hanya melalui kamera ponsel! Tandatangani kontrak bisnis dan dokumen resmi Anda secara elektronik dengan menambahkan tanda tangan Kode QR dan memanipulasinya. Setiap tanda tangan Kode QR akan berisi informasi khusus yang unik untuk mengidentifikasi penandatangan atau mengotorisasi dokumen. Selanjutnya, konten QR Code dapat dienkripsi dan didekripsi dengan kunci pribadi secara terprogram. Itu membuka banyak kemampuan untuk berbagi data sensitif di dalam dokumen publik. Setelah pengguna menandatangani dapat memperbarui, memverifikasi, menghapus, melihat pratinjau atau mencari Kode QR dalam PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Kode QR juga dapat disesuaikan."
+  },
+  "text-about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) adalah API populer untuk penandatanganan elektronik dokumen digital. Tanda tangan seperti teks, gambar, sertifikat digital, kode batang, kode QR, perangko, atau metadata tersedia. Tanda tangan dapat ditempatkan pada PDF, dokumen MS Word, buku kerja MS Excel, presentasi MS PowerPoint, file Adobe Photoshop dan berbagai format gambar. Pelanggan dapat menandatangani dokumen mereka dan memperbarui, mencari, memverifikasi, menghapus, atau melihat pratinjau tanda tangan elektronik yang diletakkan pada dokumen tersebut. Selain itu, banyak kemampuan untuk kustomisasi tanda tangan disediakan."
+  },
+  "system-requirements": {
+    "title": "Persyaratan sistem",
+    "content": {
+      "description": "{{ProductFullName}} didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.",
+      "step_1": "Sistem operasi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Lingkungan pengembangan: {{DevEnv}}",
+      "step_3": "Dapatkan {{ProductFullName}} terbaru dari [{{RepoName}}]({{RepoUrl}})"
+    }
+  },
+  "barcode-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "digital-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "image-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "metadata-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "qrcode-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "text-steps": {
+    "title": "Langkah-langkah untuk menandatangani {{Fileformat}} dengan {{Signaturetype}} di {{ProgLang}}",
+    "content": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) memberikan kemampuan untuk menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} tanda tangan dengan cepat dan mudah.",
+      "step_1": "Buat instance kelas Signature yang menyediakan file {{Fileformat}} yang seharusnya ditandatangani sebagai jalur atau aliran memori",
+      "step_2": "Buat instance kelas SignOptions dan atur semua data yang diminta.",
+      "step_3": "Aktifkan metode Signature.Sign() dengan meneruskan file {{Fileformat}} atau aliran memori"
+    }
+  },
+  "demos": {
+    "title": "Menandatangani dokumen {{Fileformat}} dengan {{Signaturetype}} Demo Langsung",
+    "content": "Tanda tangani file {{Fileformat}} dengan berbagai tanda tangan sekarang juga dengan mengunjungi situs web [GroupDocs.Signature App](https://products.groupdocs.app/signature/family). Demo online gratis menunggu Anda."
+  },
+  "more_formats": {
+    "title": "Tanda tangan {{Signaturetype}} lain yang didukung untuk {{ProgLang}}",
+    "content": "Anda juga dapat menandatangani {{Fileformat}} dengan jenis tanda tangan lainnya. Silakan lihat daftarnya di bawah ini."
+  },
+  "bar_qr_codes": {
+    "UPCA": {
+      "details": "Kode Produk Universal adalah simbologi kode batang yang banyak digunakan di seluruh dunia untuk melacak barang dagangan di toko.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "Tepat 11 digit + 1 digit cek."
+    },
+    "UPCE": {
+      "details": "Kode Produk Universal adalah simbologi kode batang yang banyak digunakan di seluruh dunia untuk melacak barang dagangan di toko. UPCE adalah variasi 8 digit jika UPC.",
+      "characterset": "Hanya mendukung angka numerik (0-9).",
+      "codetextcapacity": "Kapasitas codetext: tepat 7 digit + 1 digit cek."
+    },
+    "EAN13": {
+      "details": "Standar EAN yang paling umum digunakan adalah EAN-13 tiga belas digit, superset dari standar Kode Produk Universal 12 digit asli.",
+      "characterset": "Hanya angka numerik (0-9).",
+      "codetextcapacity": "Kapasitas codetext: tepat 12 digit + 1 digit cek."
+    },
+    "EAN14": {
+      "details": "Nomor Artikel Eropa atau EAN adalah standar yang menjelaskan simbologi kode batang dan sistem penomoran yang digunakan dalam perdagangan global untuk mengidentifikasi jenis produk ritel tertentu, dalam konfigurasi kemasan tertentu, dari produsen tertentu.",
+      "characterset": "Digit numerik (0-9) dan karakter khusus.",
+      "codetextcapacity": "Tepatnya 14 digit angka."
+    },
+    "Code39": {
+      "details": "Kode 39 (juga dikenal sebagai Alpha39, Kode 3 dari 9, Kode 3/9, Tipe 39, Kode USS 39, atau USD-3) adalah panjang variabel, simbologi kode batang diskrit.",
+      "characterset": "Digit numerik (0-9) dan huruf besar (A-Z) dan sejumlah karakter khusus (-, ., $, /, +, %, dan spasi).",
+      "codetextcapacity": "Tidak ada batasan khusus."
+    },
+    "Code39Extended": {
+      "details": "Kode 39 (juga dikenal sebagai Alpha39, Kode 3 dari 9, Kode 3/9, Tipe 39, Kode USS 39, atau USD-3) adalah panjang variabel, simbologi kode batang diskrit.",
+      "characterset": "Set karakter: semua 128 karakter ASCII.",
+      "codetextcapacity": "Tidak ada batasan khusus."
+    },
+    "Code128": {
+      "details": "Kode 128 adalah simbologi barcode linier kepadatan tinggi yang didefinisikan dalam ISO/IEC 15417:2007. Ini digunakan untuk kode batang alfanumerik atau numerik saja.",
+      "characterset": "Semua 128 karakter ASCII.",
+      "codetextcapacity": "Tidak ada batasan khusus."
+    },
+    "Codabar": {
+      "details": "Codabar adalah simbologi barcode linier yang dirancang untuk dibaca secara akurat bahkan ketika dicetak pada printer dot-matrix untuk formulir multi-bagian seperti FedEx airbills dan formulir bank darah.",
+      "characterset": "Digit numerik (0-9) dan karakter khusus $/-:+.",
+      "codetextcapacity": "Tidak ada batasan khusus."
+    },
+    "Postnet": {
+      "details": "POSTNET (Postal Numeric Encoding Technique) adalah simbologi kode batang yang digunakan oleh Layanan Pos Amerika Serikat untuk membantu mengarahkan surat.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "Hingga 11 karakter."
+    },
+    "ISBN": {
+      "details": "International Standard Book Number (ISBN) adalah pengidentifikasi buku komersial numerik yang dimaksudkan untuk menjadi unik.[a][b] Penerbit membeli ISBN dari afiliasi Badan ISBN Internasional.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "Tepat 9 digit + 1 digit cek."
+    },
+    "ITF14": {
+      "details": "ITF-14 adalah implementasi GS1 dari kode batang Interleaved 2 of 5 (ITF) untuk mengkodekan Nomor Item Perdagangan Global.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "13 digit + 1 digit cek."
+    },
+    "Pdf417": {
+      "details": "PDF417 adalah format barcode linier bertumpuk yang digunakan dalam berbagai aplikasi seperti transportasi, kartu identitas, dan manajemen inventaris.",
+      "characterset": "Semua 256 karakter ASCII.",
+      "codetextcapacity": "Hingga 800 karakter."
+    },
+    "Interleaved2of5": {
+      "details": "Interleaved 2 of 5 (ITF) adalah digit penyandian simbologi barcode dua lebar yang berkesinambungan. Ini digunakan secara komersial pada film 135, untuk barcode ITF-14, dan pada karton beberapa produk, sedangkan produk di dalamnya diberi label UPC atau EAN.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "Panjang variabel."
+    },
+    "Pharmacode": {
+      "details": "Pharmacode, juga dikenal sebagai Pharmaceutical Binary Code, adalah standar barcode, yang digunakan dalam industri farmasi sebagai sistem kontrol pengemasan.",
+      "characterset": "Digit numerik (0-9).",
+      "codetextcapacity": "Hanya mewakili satu bilangan bulat dari 3 hingga 131070."
+    },
+    "Aztec": {
+      "details": "Kode Aztec adalah simbologi matriks tujuan umum dua dimensi (2-D) yang dirancang untuk memiliki akurasi lebih tinggi daripada simbologi 2-D lainnya. Simbol Kode Aztec dapat mengkodekan hingga 3.832 digit angka; 3.067 karakter alfabet; atau 1.914 byte data.",
+      "characterset": "Semua 256 karakter ASCII.",
+      "codetextcapacity": "Hingga 3.832 digit numerik, atau 3.067 karakter alfabet, atau 1.914 byte data."
+    },
+    "DataMatrix": {
+      "details": "Matriks Data adalah kode dua dimensi yang terdiri dari 'sel' atau titik hitam putih yang disusun dalam pola persegi atau persegi panjang, juga dikenal sebagai matriks. Informasi yang akan dikodekan dapat berupa teks atau data numerik.",
+      "characterset": "Mendukung semua 256 karakter ASCII, semua karakter ISO, dan semua karakter Extended Binary Coded Decimal Interchange Code (EBCDIC).",
+      "codetextcapacity": "Hingga 3116 digit numerik, atau 2335 karakter alfanumerik, atau 1556 karakter biner."
+    },
+    "GS1DataMatrix": {
+      "details": "Data Matrix GS1 adalah varian dari Data Matrix yang sesuai dengan spesifikasi GS1. Gunakan GS1 DataMatrix untuk mengkodekan informasi seperti, namun tidak terbatas pada, berikut ini: AI(01) Nomor Barang Perdagangan Global (GTIN), AI(17) Tanggal Kedaluwarsa, AI(10) Nomor Batch, AI(21) Nomor Seri .",
+      "characterset": "Kumpulan karakter: huruf besar dan kecil serta karakter khusus $@%*+-./:=<>;&*_,'! semua dengan Pengidentifikasi Aplikasi yang benar.",
+      "codetextcapacity": "Kapasitas codetext: hingga 3116 digit numerik, atau 2335 karakter alfanumerik."
+    },
+    "GS1QR": {
+      "details": "GS1 QR Code adalah varian dari QR Code yang sesuai dengan spesifikasi GS1. Itu dirancang khusus untuk berbagi informasi pengemasan yang diperluas, seperti nomor lot, ID produk, dan kuantitas.",
+      "characterset": "Huruf besar dan kecil serta karakter khusus $%*+-./: semua dengan Pengidentifikasi Aplikasi yang benar",
+      "codetextcapacity": "Hingga 7089 karakter numerik, 4296 karakter alfanumerik"
+    },
+    "QR": {
+      "details": "QR Code (disingkat dari Quick Response Code) adalah merek dagang untuk jenis barcode matriks (atau barcode dua dimensi). Ini adalah jenis kode dua dimensi yang paling populer dan banyak digunakan. Dalam praktiknya, kode QR sering berisi data untuk pelacak, pengidentifikasi, atau pelacak yang mengarah ke situs web atau aplikasi.",
+      "characterset": "Semua 256 karakter ASCII + Kanji",
+      "codetextcapacity": "Hingga 7089 karakter numerik, 4296 karakter alfanumerik, 2953 byte (data biner) atau 1817 karakter Kanji."
+    }
+  },
+  "index-content": {
+    "head_title": "Aplikasi Tanda Tangan Digital C# .NET, Java, Node.js",
+    "head_description": "Integrasikan tanda tangan elektronik dalam aplikasi .NET, Java atau Node.js dengan GroupDocs.Signature. Tanda tangani format dokumen bisnis populer.",
+    "title": "Solusi Penandatanganan Elektronik Dokumen",
+    "description": "Menandatangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir.",
+    "api_high_title": "Termasuk API Kode Tinggi GroupDocs.Signature",
+    "api_high_label": "Lihat Semua API Kode Tinggi",
+    "api_high_1_content": "Native .NET API untuk menambah, mencari, dan memverifikasi jenis tanda tangan digital paling populer ke Microsoft Office, PDF, gambar, dan berbagai format lainnya dalam aplikasi .NET.",
+    "api_high_2_content": "Memberdayakan aplikasi Java dengan kemampuan eSignature untuk menandatangani berbagai dokumen & gambar secara digital di sistem operasi apa pun dengan JDK terinstal.",
+    "api_low_title": "Termasuk API Kode Rendah GroupDocs.Signature",
+    "api_low_label": "Lihat Semua API Kode Rendah",
+    "api_low_1_content": "Bekerja dengan API tanda tangan dokumen CURL RESTful untuk menambahkan & memanipulasi berbagai jenis tanda tangan di semua format dokumen populer termasuk PDF, Word, Excel & gambar.",
+    "api_low_2_content": "Gunakan RESTful API e-signature secara mudah dengan .NET SDK untuk mengelola tanda tangan digital dalam sejumlah format dokumen dalam aplikasi .NET.",
+    "api_low_3_content": "Terapkan fitur penandatanganan dokumen tingkat lanjut di aplikasi java Anda dengan SDK tanda tangan dokumen yang dirancang khusus untuk Java.",
+    "api_nocode_title": "GroupDocs.Signature Tidak Termasuk Aplikasi Kode",
+    "api_nocodelabel": "Lihat Semua Aplikasi Tanpa Kode",
+    "api_nocode_1_content": "Tandatangani file Microsoft Word, Excel, PowerPoint, Visio & PDF dengan teks, gambar, Barcode, atau QR-Code.",
+    "api_nocode_2_content": "Tandatangani dokumen Word secara digital secara online langsung dari browser Anda secara gratis.",
+    "api_nocode_3_content": "e-Sign file PDF menggunakan teks, gambar, atau kode batang dari dalam browser web apa pun.",
+    "title_1": "Menandatangani dokumen",
+    "words_for": "untuk",
+    "actions_alt": "Perizinan",
+    "actions_title": "Siap untuk memulai?",
+    "actions_description": "Coba fitur GroupDocs.Signature secara gratis atau minta lisensi",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Pilih dokumen PDF",
+    "code_comment_2": "Berikan teks",
+    "code_comment_3": "Tetapkan warna",
+    "code_comment_4": "Tanda tangani dokumen dan simpan ke file",
+    "overview_title": "GroupDocs.Ikhtisar Tanda Tangan",
+    "platforms_title": "Independensi platform",
+    "formats_title": "Format file yang didukung",
+    "formats_groups": {
+      "title_1": "format Microsoft Office",
+      "title_2": "Gambar & Format Lainnya",
+      "title_3": "Format lainnya",
+      "format_portable": "Portabel",
+      "format_other_office": "Format kantor lainnya",
+      "format_images": "Gambar-gambar",
+      "format_web": "jaring",
+      "format_archives": "Arsip",
+      "format_certificates": "Sertifikat"
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "sample_1": {
+        "code_title": "Cara memasukkan kode QR ke PDF.",
+        "comment_1": "Muat dokumen yang akan ditandatangani",
+        "comment_2": "Buat opsi kode QR dengan teks yang telah ditentukan sebelumnya",
+        "comment_3": "Konfigurasikan jenis dan posisi pengkodean kode QR pada halaman",
+        "comment_4": "Tanda tangani dokumen dan simpan sebagai file hasil"
+      },
+      "sample_2": {
+        "code_title": "Berikut cara memastikan integritas dokumen.",
+        "comment_1": "Muat dokumen yang akan ditandatangani secara digital",
+        "comment_2": "Tentukan opsi penandatanganan digital dan berikan jalur ke file sertifikat",
+        "comment_3": "Tetapkan kata sandi sertifikat",
+        "comment_4": "Tanda tangani dokumen dan simpan ke jalur yang diinginkan"
+      }
+    },
+    "api_high_3_content": "Solusi Node.js kami memperluas aplikasi bisnis Anda dengan penandatanganan digital. Pasang tanda tangan elektronik pada dokumen populer & format gambar dengan mudah."
+  }
+}

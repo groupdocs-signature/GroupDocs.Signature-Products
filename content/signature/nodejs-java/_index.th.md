@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-02T11:33:18
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Node.js
+
 lang: th
-#productCode: nodejs-java
-#otherformats: 
-#breadcrumb: Put  signature on  for JavaScript
 product: "Signature"
 product_tag: "signature"
 platform: "Node.js via Java"
@@ -34,7 +28,7 @@ head_title: "Node.js Digital Signature API - GroupDocs.Signature"
 head_description: "ผสานรวมลายเซ็นอิเล็กทรอนิกส์ที่ปลอดภัยในแอป Node.js เข้ากับ GroupDocs.Signature ปรับปรุงเวิร์กโฟลว์การเซ็นเอกสารอย่างง่ายดายและมีประสิทธิภาพ"
 
 ############################# Header ############################
-title: "เซ็นเอกสาร<br>ด้วย Node.js API"
+title: "เซ็นเอกสาร ด้วย Node.js API"
 description: "ลงนามในเอกสารดิจิทัลและรูปภาพบนแพลตฟอร์มใดก็ได้โดยใช้ API ที่ยืดหยุ่นและโซลูชันตามแอปสำหรับโปรแกรมเมอร์และผู้ใช้ปลายทาง"
 words:
   for: "สำหรับ"

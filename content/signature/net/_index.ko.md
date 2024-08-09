@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:50
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: ko
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Net"
@@ -34,7 +28,7 @@ head_title: "C# .NET 디지털 서명 API - GroupDocs.Signature"
 head_description: "GroupDocs.Signature를 사용하여 .NET 앱에 디지털 서명 처리를 통합합니다. 서명으로 파일을 빠르고 효율적으로 보호하세요."
 
 ############################# Header ############################
-title: "문서에 서명<br>.NET API를 통해"
+title: "문서에 서명 .NET API를 통해"
 description: "프로그래머와 최종 사용자를 위한 유연한 API 및 앱 기반 솔루션을 사용하여 모든 플랫폼에서 디지털 문서 및 이미지에 서명하십시오."
 words:
   for: "~을 위한"
@@ -43,7 +37,7 @@ actions:
   main: "무료 NuGet 다운로드"
   main_link: "https://www.nuget.org/packages/GroupDocs.Signature"
   alt: "라이선스"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/net"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/net/"
   title: "시작할 준비가 되셨나요?"
   description: "GroupDocs.Signature 기능을 무료로 사용해 보거나 라이센스를 요청하세요"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "C#에서 PDF 파일 서명"
   more: "더 많은 예시"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
   install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   

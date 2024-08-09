@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Utilize {{TextSignature}} to apply a digital signature to the document",
+    "comment_2": "Provide the required digital certificate and password",
+    "comment_3": "Configure visual signature settings if necessary",
+    "comment_4": "Encrypt the document using the digital certificate"
+  },
+  "steps": {
+    "title": "Guidelines for Securing {{FileFormatUp}} Documents with Digital Certificates in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to protect {{FileFormatUp}} documents from modifications by employing digital signatures. Enhance your business applications with comprehensive data security features.",
+      "step_1": "Pass the {{FileFormatUp}} document to the {{TextSignature}} class constructor.",
+      "step_2": "Apply a digital certificate and its corresponding password to secure the document.",
+      "step_3": "Optionally, add a visual representation of the digital signature on the document pages.",
+      "step_4": "Sign the document to prevent any future alterations."
+    }
+  },
+  "more_features": {
+    "title": "Document Metadata Management",
+    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
+    "image_description": "Metadata Functionality",
+    "feature_1": {
+      "title": "Metadata Access",
+      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    },
+    "feature_2": {
+      "title": "Metadata Editing",
+      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Management",
+      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    },
+    "code_1": {
+      "title": "Protect Documents with Digital Signatures",
+      "content": "Learn how to lock a document against changes using digital signatures.",
+      "comment_1": "Provide the document that requires signing",
+      "comment_2": "Use an appropriate digital certificate and its password",
+      "comment_3": "Include any additional text information",
+      "comment_4": "Add visual elements like images for the signature representation",
+      "comment_5": "Save the digitally secured document to a specified location"
+    }
+  }
+}

@@ -1,16 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-03-15T20:32:49
+date: 2024-07-25T14:25:12
 draft: false
-#operation: 
-#signaturetype: 
-#fileformat: 
-#productName: Java
+
 lang: id
-#productCode: java
-#otherformats: 
-#breadcrumb: Put  signature on  for Java
 product: "Signature"
 product_tag: "signature"
 platform: "Java"
@@ -34,7 +28,7 @@ head_title: "Perpustakaan Tanda Tangan Digital Java - GroupDocs.Signature"
 head_description: "Berdayakan aplikasi Java dengan tanda tangan elektronik dengan GroupDocs.Signature. Tanda tangani dokumen bisnis dengan cepat dan mudah."
 
 ############################# Header ############################
-title: "Menandatangani dokumen<br>melalui API Java"
+title: "Menandatangani dokumen melalui API Java"
 description: "Menandatangani dokumen dan gambar digital di platform apa pun menggunakan API fleksibel dan solusi berbasis aplikasi kami untuk pemrogram dan pengguna akhir."
 words:
   for: "untuk"
@@ -43,7 +37,7 @@ actions:
   main: "Unduhan Maven Gratis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-signature/"
   alt: "Perizinan"
-  alt_link: "https://purchase.groupdocs.com/pricing/signature/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/signature/java/"
   title: "Siap untuk memulai?"
   description: "Coba fitur GroupDocs.Signature secara gratis atau minta lisensi"
 
@@ -55,7 +49,7 @@ release:
 code:
   title: "Tanda tangani file PDF di Java"
   more: "Lebih banyak contoh"
-  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java"
+  more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
@@ -80,7 +74,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Ikhtisar Tanda Tangan"
+  title: "GroupDocs.Signature Tanda Tangan"
   description: "API untuk melakukan penandatanganan dokumen dan operasi terkait dalam aplikasi Java"
   features:
     # feature loop
