@@ -1,21 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Effortlessly Remove Signatures from {{FileFormatUp}} Files Using {{ProgLang}} Applications",
+    "description": "Empower your {{ProgLang}} applications with the robust capabilities of {{ProdFullName}} to seamlessly eliminate previously embedded signatures from {{FileFormatUp}} files."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Efficiently Remove Signatures from {{FileFormatUp}} Files with {{ProgLang}}",
+    "description": "Beyond just signing business documents, our solution offers comprehensive tools to locate and remove a wide array of signatures using {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download at No Cost"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})  is a robust signing tool that facilitates the addition of diverse signature types, ranging from text and images to barcodes, digital certificates, and stamps. Supporting over 60 file formats—including PDF, MS Office, images, ZIP, and other widely-used business formats—this solution ensures flexibility in document management. Additionally, applied signatures can be easily located, authenticated, modified, or removed as needed."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Remove Signatures Across Multiple File Formats",
+    "description": "{{ProdFullName}} is engineered to facilitate the removal of signatures from an extensive range of over 60 file formats, ensuring broad compatibility and functionality."
+  },
+  "more_features": {
+    "title": "Optimize Document Management with Advanced Signature Tools",
+    "description": "{{ProdFullName}} is meticulously designed to enhance the signing and processing of business file formats, enabling the addition, modification, verification, or deletion of signatures with ease.",
+    "image_description": "Explore the Versatile Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Document Signing",
+      "content": "Effortlessly embed text, image, barcode, QR code, or stamp signatures onto any page of supported documents. Additionally, utilize hidden metadata such as EXIF in images or safeguard document integrity with digital certificates, preventing unauthorized alterations."
+    },
+    "feature_2": {
+      "title": "Signature Search and Verification",
+      "content": "Leverage our tools to ensure the authenticity of signatures within your documents. Conduct thorough searches to retrieve a complete list of all signatures, ensuring comprehensive document management."
+    },
+    "feature_3": {
+      "title": "Signature Modification",
+      "content": "Easily refine previously added signatures by adjusting text, repositioning, or altering colors to meet your specific needs."
+    },
+    "feature_4": {
+      "title": "Signature Deletion",
+      "content": "Our solution provides full CRUD capabilities for signatures, allowing you to efficiently remove a variety of signature types from your documents when necessary."
+    }
   },
   "examples": {
     "comment_1": "Pass the document containing signatures to the {{TextSignature}} instance",
@@ -33,28 +54,11 @@
       "step_4": "Examine the results of the document processing."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "Eliminate All QR-Code Signatures",
-      "content": "Discover how to remove all QR-code signatures embedded within a document.",
-      "comment_1": "Supply a document containing QR-code signatures",
-      "comment_2": "Remove all QR-code signatures",
-      "comment_3": "Evaluate the outcome of the deletion process"
-    }
+  "code_1": {
+    "title": "Eliminate All QR-Code Signatures",
+    "content": "Discover how to remove all QR-code signatures embedded within a document.",
+    "comment_1": "Supply a document containing QR-code signatures",
+    "comment_2": "Remove all QR-code signatures",
+    "comment_3": "Evaluate the outcome of the deletion process"
   }
 }

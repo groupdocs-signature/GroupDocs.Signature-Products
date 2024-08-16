@@ -73,7 +73,7 @@ steps:
         // <% "{examples.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const options = new signatureLib.TextSearchOptions();
         const signatures = signature.search(signatureLib.TextSignature.class, options);
 
@@ -111,24 +111,28 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const result = await signature.delete('output.<% get "fileformat" %>', signatureLib.SignatureType.QrCode);
         if (result.getSucceeded().size() > 0) {
 
-            // <% "{more_features.code_1.comment_3}" %>
+            // <% "{code_1.comment_3}" %>
             console.log('Following QR-Code signatures were deleted:');
             let number = 1;
             result.getSucceeded().toArray().forEach((o) => {
