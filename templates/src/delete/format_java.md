@@ -123,21 +123,25 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.QrCode);
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         if (result.getSucceeded().size() > 0)
         {
             System.out.print("\nFollowing QR-Code signatures were deleted:");

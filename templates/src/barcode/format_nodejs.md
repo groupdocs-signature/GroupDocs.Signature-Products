@@ -104,17 +104,21 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
@@ -124,25 +128,25 @@ more_features:
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         const padding = new signatureLib.Padding();
         padding.setLeft(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         signOptions.setForeColor(signatureLib.Color.RED);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
         font.setFamilyName('Comic Sans MS');
         signOptions.setFont(font);
 
-        // <% "{more_features.code_1.comment_7}" %>
+        // <% "{code_1.comment_7}" %>
         signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
 
-        // <% "{more_features.code_1.comment_8}" %>
+        // <% "{code_1.comment_8}" %>
         signature.sign('output.<% get "fileformat" %>', signOptions);
         ```
         {{< /landing/code >}}

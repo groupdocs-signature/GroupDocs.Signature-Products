@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:37
+date:  2024-08-16T17:36:47
 draft: false
 lang: en
 format: Pdf
@@ -15,30 +15,30 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to PDF Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to PDF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Remove Signatures from PDF Files Using Java Applications"
+head_description: "Enhance your Java applications with GroupDocs.Signature for Java, enabling the removal of previously added signatures from PDF files."
 
 ############################# Header ############################
-title: "Adding Metadata To PDF In Java" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
+title: "Remove Signatures from PDF Files with Java" 
+description: "Our solution not only allows you to sign business documents but also provides the capability to locate and remove various types of signatures using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Download for Free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Java API"
+    title: "About GroupDocs.Signature for Java"
     link: "/signature/java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Java](/signature/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Signature for Java](/signature/java/) offers a comprehensive signing solution, capable of handling various types of signatures such as text, images, barcodes, digital certificates, and stamps. This tool supports over 60 different file formats, including PDFs, MS Office documents, image files, ZIP archives, and many other commonly used formats. Moreover, once signatures are applied, they can be easily searched, verified, edited, or removed whenever needed.
 
 ############################# Steps ############################
 steps:
@@ -108,22 +108,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
+  title: "Enhance Business Processes with Signature Management"
+  description: "GroupDocs.Signature for Java is designed for signing and managing business file formats, allowing you to add, modify, verify, or delete signatures as needed."
   image: "/img/signature/features_delete.webp" # 500x500 px
-  image_description: "Metadata Functionality"
+  image_description: "GroupDocs.Signature Capabilities"
   features:
     # feature loop
-    - title: "Metadata Access"
-      content: "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    - title: "Sign Documents"
+      content: "Easily add text, image, barcode, QR code, or stamp signatures to any page of supported documents. Utilize hidden metadata like EXIF in images or secure document content from unauthorized modifications with digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    - title: "Search and Verification"
+      content: "Maximize the potential of signed documents by verifying signatures to ensure their validity. You can also retrieve a comprehensive list of all signatures within a document through a simple search."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    - title: "Modify Signatures"
+      content: "Most previously added signatures can be adjusted. You can easily modify text, reposition the signature, or change its color."
+
+    # feature loop
+    - title: "Delete Signatures"
+      content: "Our solution fully supports CRUD operations for signatures, allowing you to delete various types of signatures from a document as needed."
       
   code_samples:
     # code sample loop
@@ -174,9 +178,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Remove Signatures from Various File Formats"
     exclude: "PDF"
-    description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
+    description: "Our GroupDocs.Signature for Java solution supports the removal of signatures from over 60 different file formats."
     items: 
           
         # format loop 1

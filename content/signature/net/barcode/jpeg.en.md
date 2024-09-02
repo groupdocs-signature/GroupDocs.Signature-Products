@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:34
+date:  2024-08-16T17:36:45
 draft: false
 lang: en
 format: Jpeg
@@ -15,30 +15,30 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to JPEG Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Integrate Barcode Generation into JPEG Files Using C# Applications"
+head_description: "Leverage C# applications in conjunction with GroupDocs.Signature to generate and seamlessly incorporate barcodes across any page of your JPEG documents."
 
 ############################# Header ############################
-title: "Adding Metadata To JPEG In C#" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
+title: "Embed Barcodes into JPEG Documents Using C#" 
+description: "Utilize GroupDocs.Signature for .NET to strategically place barcodes in popular formats anywhere within your business documents. Our solution offers extensive customization options for barcode signatures."
 subtitle: "GroupDocs.Signature for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Download at No Cost"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for .NET API"
+    title: "Overview of GroupDocs.Signature for .NET"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for .NET](/signature/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any GroupDocs.Signature-based applications with true flexibility
+       [GroupDocs.Signature for .NET](/signature/net/) is a sophisticated document signing solution that supports an extensive array of signature types, including text, images, barcodes, digital certificates, and stamps. Compatible with over 60 file formats—such as PDF, MS Office, images, ZIP files, and more—this tool enables you to not only apply signatures but also search, verify, modify, or remove them as needed.
 
 ############################# Steps ############################
 steps:
@@ -89,22 +89,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
+  title: "Enhance and Safeguard Your Documents with Advanced Signature Capabilities"
+  description: "The GroupDocs.Signature for .NET library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures."
   image: "/img/signature/features_barcode.webp" # 500x500 px
-  image_description: "Metadata Manipulation Features"
+  image_description: "Key Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Metadata Control"
-      content: "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    - title: "Versatile Document Signing"
+      content: "Efficiently sign any page within supported documents using text, images, barcodes, QR codes, or stamps. Additionally, embed hidden metadata, such as EXIF data in images, or secure your document’s content against unauthorized alterations using digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    - title: "Comprehensive Signature Search and Verification"
+      content: "Our tool offers robust functionality for working with signed documents. Ensure the integrity of your documents by verifying signatures, and easily retrieve a comprehensive list of all signatures within a document through our search feature."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    - title: "Edit Signatures with Ease"
+      content: "Nearly all previously applied signatures can be modified. Conveniently update text, adjust positioning, or change colors to meet your needs."
+
+    # feature loop
+    - title: "Efficient Signature Deletion"
+      content: "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
       
   code_samples:
     # code sample loop
@@ -163,9 +167,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Sign Documents Across a Variety of Formats"
     exclude: "JPEG"
-    description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
+    description: "Our .NET API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
     items: 
           
         # format loop 1

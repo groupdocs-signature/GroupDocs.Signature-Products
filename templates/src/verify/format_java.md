@@ -54,6 +54,9 @@ steps:
     code:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
           <dependencies>
@@ -80,7 +83,7 @@ steps:
         #  loop
         - title: "<% "{common-content.format-code.links.title_2}" %>"
           link: "<% get "DocsUrl" %>"
-          
+
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
@@ -164,6 +167,14 @@ actions:
       link: "<% get "PricesUrl" %>"
       color: "light"
 
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
 
 ############################# More Formats #####################
 more_formats:

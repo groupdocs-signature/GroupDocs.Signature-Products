@@ -1,27 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Add Generated Barcodes to {{FileFormatUp}} Files Using {{ProgLang}} Applications",
+    "description": "Utilize {{ProgLang}} applications with {{ProdShortName}} to generate and insert barcodes on any page of {{FileFormatUp}} documents."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Embed Barcodes in {{FileFormatUp}} Pages Using {{ProgLang}}",
+    "description": "Add barcodes of popular formats to any position in your business documents with {{ProdFullName}}. Our solution provides extensive options to customize barcode signatures.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download for Free"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "title": "About {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 60+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Sign Documents in Other Formats",
+    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
   },
-  "examples": {
-    "comment_1": "Create a new {{TextSignature}} instance with the document path",
-    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
-    "comment_3": "Set up the barcode type and other properties",
-    "comment_4": "Save the signed file"
+  "more_features": {
+    "title": "Enhance or Protect Document Content with Signatures",
+    "description": "The {{ProdFullName}} library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures.",
+    "image_description": "Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Document Signing",
+      "content": "Sign any page of supported documents with text, images, barcodes, QR codes, or stamps. Add hidden metadata like EXIF in images or protect document content from unauthorized changes using digital certificates."
+    },
+    "feature_2": {
+      "title": "Signature Search and Verification",
+      "content": "There’s much more you can do with a signed document. We offer verification of signatures to ensure everything is in order. Additionally, you can retrieve a list of all document signatures through a search."
+    },
+    "feature_3": {
+      "title": "Modify Signatures",
+      "content": "Most previously added signatures can be modified. Easily correct text, adjust position, or change color."
+    },
+    "feature_4": {
+      "title": "Delete Signatures",
+      "content": "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
+    }
   },
   "steps": {
     "title": "Steps to Generate and Add a Barcode to {{FileFormatUp}} Documents",
@@ -33,33 +48,22 @@
       "step_4": "Save the file with the newly added barcode."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
-    "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
-    },
-    "code_1": {
-      "title": "How to Customize a Barcode Signature",
-      "content": "This example demonstrates how to place a customized barcode on {{FileFormatUp}} document pages.",
-      "comment_1": "Provide the document to be signed",
-      "comment_2": "Create signature options with the desired text",
-      "comment_3": "Set the relative barcode position on the page",
-      "comment_4": "Set the barcode padding from the page edge",
-      "comment_5": "Set the color of the bars",
-      "comment_6": "Define the message font style",
-      "comment_7": "Specify the message position",
-      "comment_8": "Sign and save the document"
-    }
+  "examples": {
+    "comment_1": "Create a new {{TextSignature}} instance with the document path",
+    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
+    "comment_3": "Set up the barcode type and other properties",
+    "comment_4": "Save the signed file"
+  },
+  "code_1": {
+    "title": "How to Customize a Barcode Signature",
+    "content": "This example demonstrates how to place a customized barcode on {{FileFormatUp}} document pages.",
+    "comment_1": "Provide the document to be signed",
+    "comment_2": "Create signature options with the desired text",
+    "comment_3": "Set the relative barcode position on the page",
+    "comment_4": "Set the barcode padding from the page edge",
+    "comment_5": "Set the color of the bars",
+    "comment_6": "Define the message font style",
+    "comment_7": "Specify the message position",
+    "comment_8": "Sign and save the document"
   }
 }

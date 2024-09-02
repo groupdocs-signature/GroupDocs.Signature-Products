@@ -2,7 +2,7 @@
   "common-content": {
     "format-formats": {
       "excel": {
-        "name": "Watermark Excel",
+        "name": "Sign Excel programmatically",
         "description": "MS Excel and Open Office spreadsheets"
       },
       "word": {
@@ -72,6 +72,7 @@
     },
     "format-code": {
       "copy_title": "Copy",
+      "result_title": "Download result",
       "copy_tip": "click to copy",
       "copy_done": "copied",
       "links": {
@@ -87,6 +88,52 @@
     },
     "texts": {
       "learn_more": "Learn more"
+    },
+    "operations": {
+      "esign": {
+        "name": "Electronic Signatures",
+        "description": "Add various types of signatures to supported file formats."
+      },
+      "text": {
+        "name": "Add Text to Documents",
+        "description": "Enhance document content with customizable text signatures."
+      },
+      "image": {
+        "name": "Image Signatures",
+        "description": "Place any image at any position within a document."
+      },
+      "barcode": {
+        "name": "Generate Barcodes",
+        "description": "Create and insert various barcodes into supported documents."
+      },
+      "qrcode": {
+        "name": "Generate QR Codes",
+        "description": "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+      },
+      "digital": {
+        "name": "Digital Certificates",
+        "description": "Secure business documents using digital certificates."
+      },
+      "stamp": {
+        "name": "Stamp Signatures",
+        "description": "Use the Stamp Constructor to create custom round or square stamps."
+      },
+      "search": {
+        "name": "Search Signatures",
+        "description": "Locate any previously added signatures within a document."
+      },
+      "verify": {
+        "name": "Signature Verification",
+        "description": "Verify the authenticity of signatures after they have been applied."
+      },
+      "modify": {
+        "name": "Modify Signatures",
+        "description": "Easily edit a variety of signatures within a document."
+      },
+      "delete": {
+        "name": "Delete Signatures",
+        "description": "Remove a wide range of previously applied signatures."
+      }
     }
   }
 }
