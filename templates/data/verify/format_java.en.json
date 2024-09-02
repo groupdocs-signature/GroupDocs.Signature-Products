@@ -13,6 +13,10 @@
     "title": "About {{ProdFullName}} API",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
   },
+  "operations": {
+    "title": "Additional Features",
+    "description": "{{ProdFullName}} offers numerous methods to safeguard your documents. Explore the full range of features available."
+  },
   "formats": {
     "title": "Adding Metadata Properties To Other File Formats",
     "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."

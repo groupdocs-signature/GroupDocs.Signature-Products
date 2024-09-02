@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:36
+date:  2024-09-02T20:32:36
 draft: false
 lang: en
 format: Pdf
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "java"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download result"
       install:
         command: |
           <dependencies>
@@ -81,7 +84,7 @@ steps:
         #  loop
         - title: "Documentation"
           link: "https://docs.groupdocs.com/signature/java/"
-          
+
       content: |
         ```java {style=abap}
         // Instantiate a Signature with the document
@@ -166,6 +169,80 @@ actions:
       color: "light"
 
 
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Additional Features"
+    exclude: "verify"
+    description: "GroupDocs.Signature for Java offers numerous methods to safeguard your documents. Explore the full range of features available."
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/java/esign//"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/java/text//"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/java/image//"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/java/barcode//"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/java/qrcode//"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/java/digital//"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/java/stamp//"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/java/search//"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/java/verify//"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/java/modify//"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/java/delete//"
+          description: "Remove a wide range of previously applied signatures."
+          
 ############################# More Formats #####################
 more_formats:
     enable: true
