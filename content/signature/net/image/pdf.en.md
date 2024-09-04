@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T15:53:36
+date:  2024-09-04T22:50:40
 draft: false
 lang: en
 format: Pdf
@@ -255,31 +255,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/net//docx/"
+          link: "/signature/net/image/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/net//jpeg/"
+          link: "/signature/net/image/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/net//pdf/"
+          link: "/signature/net/image/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/net//pptx/"
+          link: "/signature/net/image/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/net//xlsx/"
+          link: "/signature/net/image/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

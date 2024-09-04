@@ -111,26 +111,26 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const options = new signatureLib.DigitalSignOptions('certificate.pfx');
         options.setPassword('1234567890');
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         options.setReason('Security issue');
         options.setContact('John Smith');
         options.setLocation('Office D.W.');
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         options.setImageFilePath('image.png');
         options.setAllPages(true);
         options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
@@ -143,7 +143,7 @@ more_features:
         padding.setRight(10);
         options.setMargin(padding);
         
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         const result = signature.sign('output.<% get "fileformat" %>', options);
         ```
         {{< /landing/code >}}

@@ -124,24 +124,24 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
         options.setPassword("1234567890");
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         options.setReason("Security issue");
         options.setContact("John Smith");
         options.setLocation("Office D.W.");
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         options.setImageFilePath("image.png");
 
         options.setAllPages(true);
@@ -155,7 +155,7 @@ more_features:
         padding.setRight(10);
         options.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```
         {{< /landing/code >}}

@@ -38,6 +38,12 @@
       "content": "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
     }
   },
+  "examples": {
+    "comment_1": "Create a new {{TextSignature}} instance with the document path",
+    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
+    "comment_3": "Set up the barcode type and other properties",
+    "comment_4": "Save the signed file"
+  },
   "steps": {
     "title": "Steps to Generate and Add a Barcode to {{FileFormatUp}} Documents",
     "content": {
@@ -47,12 +53,6 @@
       "step_3": "Customize barcode options such as position, size, etc.",
       "step_4": "Save the file with the newly added barcode."
     }
-  },
-  "examples": {
-    "comment_1": "Create a new {{TextSignature}} instance with the document path",
-    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
-    "comment_3": "Set up the barcode type and other properties",
-    "comment_4": "Save the signed file"
   },
   "code_1": {
     "title": "How to Customize a Barcode Signature",

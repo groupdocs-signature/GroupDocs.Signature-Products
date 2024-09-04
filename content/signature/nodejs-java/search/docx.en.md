@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T15:53:38
+date:  2024-09-04T22:50:42
 draft: false
 lang: en
 format: Docx
@@ -240,31 +240,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/nodejs-java//docx/"
+          link: "/signature/nodejs-java/search/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/nodejs-java//jpeg/"
+          link: "/signature/nodejs-java/search/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/nodejs-java//pdf/"
+          link: "/signature/nodejs-java/search/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/nodejs-java//pptx/"
+          link: "/signature/nodejs-java/search/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/nodejs-java//xlsx/"
+          link: "/signature/nodejs-java/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 
