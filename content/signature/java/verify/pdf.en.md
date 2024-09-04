@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-02T20:32:36
+date:  2024-09-04T15:53:39
 draft: false
 lang: en
 format: Pdf
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download result"
+      result_title: "Download signatures"
       install:
         command: |
           <dependencies>
@@ -180,67 +180,67 @@ more_operations:
         # operation loop 1
         - name: "Electronic Signatures"
           operation: "esign"
-          link: "/signature/java/esign//"
+          link: "/signature/java/esign/pdf/"
           description: "Add various types of signatures to supported file formats."
 
         # operation loop 2
         - name: "Add Text to Documents"
           operation: "text"
-          link: "/signature/java/text//"
+          link: "/signature/java/text/pdf/"
           description: "Enhance document content with customizable text signatures."
 
         # operation loop 3
         - name: "Image Signatures"
           operation: "image"
-          link: "/signature/java/image//"
+          link: "/signature/java/image/pdf/"
           description: "Place any image at any position within a document."
 
         # operation loop 4
         - name: "Generate Barcodes"
           operation: "barcode"
-          link: "/signature/java/barcode//"
+          link: "/signature/java/barcode/pdf/"
           description: "Create and insert various barcodes into supported documents."
 
         # operation loop 5
         - name: "Generate QR Codes"
           operation: "qrcode"
-          link: "/signature/java/qrcode//"
+          link: "/signature/java/qrcode/pdf/"
           description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
           
         # operation loop 6
         - name: "Digital Certificates"
           operation: "digital"
-          link: "/signature/java/digital//"
+          link: "/signature/java/digital/pdf/"
           description: "Secure business documents using digital certificates."
 
         # operation loop 7
         - name: "Stamp Signatures"
           operation: "stamp"
-          link: "/signature/java/stamp//"
+          link: "/signature/java/stamp/pdf/"
           description: "Use the Stamp Constructor to create custom round or square stamps."
           
         # operation loop 8
         - name: "Search Signatures"
           operation: "search"
-          link: "/signature/java/search//"
+          link: "/signature/java/search/pdf/"
           description: "Locate any previously added signatures within a document."
           
         # operation loop 9
         - name: "Signature Verification"
           operation: "verify"
-          link: "/signature/java/verify//"
+          link: "/signature/java/verify/pdf/"
           description: "Verify the authenticity of signatures after they have been applied."
           
         # operation loop 10
         - name: "Modify Signatures"
           operation: "modify"
-          link: "/signature/java/modify//"
+          link: "/signature/java/modify/pdf/"
           description: "Easily edit a variety of signatures within a document."
           
         # operation loop 11
         - name: "Delete Signatures"
           operation: "delete"
-          link: "/signature/java/delete//"
+          link: "/signature/java/delete/pdf/"
           description: "Remove a wide range of previously applied signatures."
           
 ############################# More Formats #####################

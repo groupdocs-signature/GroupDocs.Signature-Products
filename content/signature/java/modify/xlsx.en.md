@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:37
+date:  2024-09-04T15:53:39
 draft: false
 lang: en
 format: Xlsx
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "java"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: |
           <dependencies>
@@ -173,7 +176,81 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: ""
+    exclude: "modify"
+    description: ""
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/java/esign/xlsx/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/java/text/xlsx/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/java/image/xlsx/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/java/barcode/xlsx/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/java/qrcode/xlsx/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/java/digital/xlsx/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/java/stamp/xlsx/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/java/search/xlsx/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/java/verify/xlsx/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/java/modify/xlsx/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/java/delete/xlsx/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
