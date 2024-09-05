@@ -115,29 +115,29 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const options = new signatureLib.BarcodeSearchOptions();
         const signatures = signature.search(signatureLib.BarcodeSignature.class, options).toArray();
 
         if (signatures.length > 0) {
 
-            // <% "{more_features.code_1.comment_3}" %>
+            // <% "{code_1.comment_3}" %>
             const barcodeSignature = signatures[0];
             barcodeSignature.setLeft(100);
             barcodeSignature.setTop(100);
             const result = signature.update('output.<% get "fileformat" %>', barcodeSignature);
 
-            // <% "{more_features.code_1.comment_4}" %>
+            // <% "{code_1.comment_4}" %>
             if (result) {
               console.log(`\nBarcode was updated successfully.`);
             }

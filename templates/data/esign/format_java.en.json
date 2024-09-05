@@ -1,21 +1,38 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "e-Sign {{FileFormatUp}} Files with {{ProgLang}} Applications",
+    "description": "Use {{ProgLang}} API to process {{FileFormatUp}} files and apply various signature types, including PDF, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Electronic Signatures for {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Add a wide range of electronic signatures using {{ProdFullName}} to all popular business formats, including PDF, Word, Excel, Presentations, and Images.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Free Download"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers advanced e-signing features. Use it to add, search, verify, modify, and remove various types of e-signatures in documents and images without the need for external software. E-sign PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and popular image formats easily."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Sign Popular File Formats with e-Signatures",
+    "description": "The e-signing API for {{EnvName}} enables the processing of all modern business file and document formats."
+  },
+  "more_features": {
+    "title": "Document Electronic Signatures",
+    "description": "Our e-signing API streamlines business processes. Sign, search, update, delete, and verify various signatures programmatically.",
+    "image_description": "e-Signatures",
+    "feature_1": {
+      "title": "e-Sign Office Documents",
+      "content": "Easily place electronic signatures in any position on any page of a document. Enhance document content with text, images, barcodes, metadata, or digital certificates."
+    },
+    "feature_2": {
+      "title": "Signature Management",
+      "content": "After signing, documents can be processed further. Retrieve a list of all signatures present, modify them, or delete them as needed."
+    },
+    "feature_3": {
+      "title": "Advanced Content Control",
+      "content": "Secure business documents against unauthorized changes with corporate digital certificates. Add or extract hidden metadata entries available in all document types."
+    }
   },
   "examples": {
     "comment_1": "Load the document into a {{TextSignature}} instance",
@@ -33,29 +50,12 @@
       "step_4": "Save the signed file to the desired location."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
-    "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
-    },
-    "code_1": {
-      "title": "How to Add an Image Signature to a Document",
-      "content": "This example demonstrates how to place an image signature on a specific page of a document.",
-      "comment_1": "Provide the source document as a parameter",
-      "comment_2": "Specify the image path in the signature options",
-      "comment_3": "Set the size and target pages for the signature",
-      "comment_4": "Apply the signature to the document"
-    }
+  "code_1": {
+    "title": "How to Add an Image Signature to a Document",
+    "content": "This example demonstrates how to place an image signature on a specific page of a document.",
+    "comment_1": "Provide the source document as a parameter",
+    "comment_2": "Specify the image path in the signature options",
+    "comment_3": "Set the size and target pages for the signature",
+    "comment_4": "Apply the signature to the document"
   }
 }

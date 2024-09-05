@@ -110,29 +110,29 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
             {
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 Width = 100,
                 Height = 100,
 
-                // <% "{more_features.code_1.comment_4}" %>
+                // <% "{code_1.comment_4}" %>
                 VerticalAlignment = VerticalAlignment.Bottom,
                 HorizontalAlignment = HorizontalAlignment.Right,
 
-                // <% "{more_features.code_1.comment_5}" %>
+                // <% "{code_1.comment_5}" %>
                 Margin = new Padding() { Bottom = 120, Right = 120 },
 
-                // <% "{more_features.code_1.comment_6}" %>
+                // <% "{code_1.comment_6}" %>
                 Border = new Border()
                 {
                     Visible = true,
@@ -141,11 +141,11 @@ more_features:
                     Weight = 5
                 },
 
-                // <% "{more_features.code_1.comment_7}" %>
+                // <% "{code_1.comment_7}" %>
                 RotationAngle = 45
             };
 
-            // <% "{more_features.code_1.comment_8}" %>
+            // <% "{code_1.comment_8}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```

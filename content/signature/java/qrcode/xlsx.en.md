@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:41
+date:  2024-09-05T19:56:56
 draft: false
 lang: en
 format: Xlsx
@@ -15,30 +15,30 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to XLSX Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to XLSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Generate 2D Barcodes for XLSX Files with Java Apps"
+head_description: "The GroupDocs.Signature API enables the generation of 2D barcodes for XLSX files. Create QR codes from your content and place them on any page."
 
 ############################# Header ############################
-title: "Adding Metadata To XLSX In Java" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
+title: "Generate QR Codes for XLSX Using Java" 
+description: "Easily create 2D barcodes with text and numeric data and place them on any page of various documents using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Free Trial"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Java API"
+    title: "Learn More About GroupDocs.Signature for Java"
     link: "/signature/java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Java](/signature/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Signature for Java](/signature/java/) offers a wide range of features to generate and embed various types of signatures in all major document formats. It supports PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and images. Enhance your documents with Text, Image, Barcode, QR Code, Metadata, Digital, and Stamp signatures.
 
 ############################# Steps ############################
 steps:
@@ -106,22 +106,22 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
+  title: "Add Signatures to Your Documents"
+  description: "The GroupDocs.Signature for Java API supports signing all popular file formats. Generate, modify, search, verify, and delete different types of signatures."
   image: "/img/signature/features_qrcode.webp" # 500x500 px
-  image_description: "Metadata Functionality"
+  image_description: "Key Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Metadata Access"
-      content: "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    - title: "Sign Documents"
+      content: "GroupDocs.Signature supports signing with Text, Image, Barcode, QR Code, and Stamp signatures. Place them on any page of any supported document format. Manage document metadata with metadata signatures, and protect the content from unauthorized changes using digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    - title: "Search and Verification"
+      content: "Ensure that all signatures in a document are valid with the verification procedure. Retrieve a complete list of signatures in a document using the built-in search feature."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    - title: "Modify Signatures"
+      content: "Easily modify signature properties after signing. Adjust content, position, color, size, and other attributes as needed."
       
   code_samples:
     # code sample loop
@@ -262,9 +262,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Generate QR Codes for Additional File Formats"
     exclude: "XLSX"
-    description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
+    description: "Enhance all popular file formats with generated QR codes using the Java API. Add 2D barcode data for easy scanning and processing."
     items: 
           
         # format loop 1

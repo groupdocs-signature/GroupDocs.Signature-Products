@@ -111,46 +111,46 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         const padding = new signatureLib.Padding();
         padding.setRight(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         signOptions.setForeColor(signatureLib.Color.RED);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
         font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // <% "{more_features.code_1.comment_7}" %>
+        // <% "{code_1.comment_7}" %>
         const background = new signatureLib.Background();
         background.setColor(signatureLib.Color.GREEN);
         background.setTransparency(0.5);
         background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
         signOptions.setBackground(background);
 
-        // <% "{more_features.code_1.comment_8}" %>
+        // <% "{code_1.comment_8}" %>
         signature.sign('output.<% get "fileformat" %>', signOptions);
         ```
         {{< /landing/code >}}

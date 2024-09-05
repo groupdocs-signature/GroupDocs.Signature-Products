@@ -124,44 +124,44 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         QrCodeSignOptions signOptions = new QrCodeSignOptions("Archived on July 11, 2019");
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         signOptions.setVerticalAlignment(VerticalAlignment.Top);
         signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         Padding padding = new Padding();
         padding.setRight(20);
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         signOptions.setForeColor(Color.RED);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         SignatureFont font = new SignatureFont();
         font.setSize(12);
         font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // <% "{more_features.code_1.comment_7}" %>
+        // <% "{code_1.comment_7}" %>
         Background background = new Background();
         background.setColor(Color.GREEN);
         background.setTransparency(0.5);
         background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
         signOptions.setBackground(background);
 
-        // <% "{more_features.code_1.comment_8}" %>
+        // <% "{code_1.comment_8}" %>
         SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
         ```
         {{< /landing/code >}}

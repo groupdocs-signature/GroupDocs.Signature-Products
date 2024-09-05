@@ -110,25 +110,25 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             ImageSignOptions options = new ImageSignOptions("image.jpg")
             {
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 Left = 50,
                 Top = 50,
                 AllPages = true
             };
 
-            // <% "{more_features.code_1.comment_4}" %>
+            // <% "{code_1.comment_4}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
 

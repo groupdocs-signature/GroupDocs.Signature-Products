@@ -1,21 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Create 2D Barcodes for {{FileFormatUp}} Documents Using {{ProgLang}} Applications",
+    "description": "Harness the {{ProdShortName}} API to generate 2D barcodes for {{FileFormatUp}} files. Seamlessly embed QR codes on any page for enhanced functionality."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Generate QR Codes for {{FileFormatUp}} with {{ProgLang}}",
+    "description": "Effortlessly generate 2D barcodes using text or numeric data and apply them across multiple pages and formats, including PDFs, Word, Excel, and more, via {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Start Your Free Trial"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "title": "Discover the Capabilities of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an expansive range of features, empowering users to generate and embed various signature types across leading document formats. Whether it’s PDFs, Word documents, Excel sheets, PowerPoint presentations, or image files, you can elevate your documents with Text, Image, Barcode, QR Code, Metadata, Digital, and Stamp signatures."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Generate QR Codes for Diverse Document Formats",
+    "description": "Enhance all industry-standard file formats with the ability to embed QR codes through the {{EnvName}} API. Store and encode critical information into 2D barcodes for seamless scanning and data retrieval."
+  },
+  "more_features": {
+    "title": "Comprehensive Signature Integration for Documents",
+    "description": "With {{ProdFullName}} API, users can effortlessly generate, modify, search, validate, and remove an array of signature types, streamlining document workflows with unparalleled precision.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Document Signing with Multiple Signature Types",
+      "content": "{{ProdShortName}} enables the application of Text, Image, Barcode, QR Code, and Stamp signatures to any document format. Signatures can be precisely placed on any page, and metadata can be seamlessly managed through metadata signatures. Protect the integrity of your documents by incorporating digital certificates that prevent unauthorized alterations."
+    },
+    "feature_2": {
+      "title": "Signature Search and Validation",
+      "content": "Verify the authenticity and accuracy of document signatures through an advanced validation process. Easily retrieve a detailed list of all signatures embedded in a document for comprehensive oversight."
+    },
+    "feature_3": {
+      "title": "Customizable Signature Modification",
+      "content": "Update and refine previously applied signatures by adjusting content, placement, color, size, and other attributes to meet your specific needs."
+    },
+    "feature_4": {
+      "title": "Efficient Signature Removal",
+      "content": "Streamline your document management by programmatically removing unwanted signatures. Whether dealing with digital certificates or other signature types, removal can be done swiftly and effectively."
+    }
   },
   "examples": {
     "comment_1": "Initialize a new {{TextSignature}} instance with the document",
@@ -33,33 +54,16 @@
       "step_4": "Persist the document with the embedded QR-Code."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "How to Customize a Generated QR-Code",
-      "content": "This example demonstrates how to place a customized QR-Code on a {{FileFormatUp}} page.",
-      "comment_1": "Retrieve the document to be signed and pass it to {{TextSignature}}",
-      "comment_2": "Configure QR-Code options with the necessary text",
-      "comment_3": "Designate the relative position of the QR-Code on the page",
-      "comment_4": "Set the signature padding",
-      "comment_5": "Specify the QR-Code color",
-      "comment_6": "Define the font options for the message",
-      "comment_7": "Customize the QR-Code background color and brush",
-      "comment_8": "Embed the QR-Code into the document"
-    }
+  "code_1": {
+    "title": "How to Customize a Generated QR-Code",
+    "content": "This example demonstrates how to place a customized QR-Code on a {{FileFormatUp}} page.",
+    "comment_1": "Retrieve the document to be signed and pass it to {{TextSignature}}",
+    "comment_2": "Configure QR-Code options with the necessary text",
+    "comment_3": "Designate the relative position of the QR-Code on the page",
+    "comment_4": "Set the signature padding",
+    "comment_5": "Specify the QR-Code color",
+    "comment_6": "Define the font options for the message",
+    "comment_7": "Customize the QR-Code background color and brush",
+    "comment_8": "Embed the QR-Code into the document"
   }
 }

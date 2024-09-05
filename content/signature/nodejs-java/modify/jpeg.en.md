@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:43
+date:  2024-09-05T19:57:00
 draft: false
 lang: en
 format: Jpeg
@@ -15,30 +15,30 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to JPEG Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to JPEG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Signatures in JPEG Documents Using JavaScript Apps"
+head_description: "Utilize the JavaScript API to revise and manage digital signatures within JPEG formats, including PDF, Word, Excel, PowerPoint, and Image files."
 
 ############################# Header ############################
-title: "Adding Metadata To JPEG In JavaScript" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
+title: "Effortlessly Adjust Signatures in JPEG with JavaScript" 
+description: "With GroupDocs.Signature for Node.js via Java, you can modify various electronic signatures embedded in your business documents, including PDFs, Word files, Excel sheets, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Get It Free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Node.js via Java API"
+    title: "Overview of GroupDocs.Signature for Node.js via Java"
     link: "/signature/nodejs-java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) empowers you to not only add signatures but also to adjust them as needed. Whether you're working with PDFs, Word documents, Excel spreadsheets, or presentations, GroupDocs.Signature for Node.js via Java offers seamless control over signature management, making future modifications simple and intuitive.
 
 ############################# Steps ############################
 steps:
@@ -97,22 +97,22 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
+  title: "Signature Management for Documents"
+  description: "GroupDocs.Signature for Node.js via Java offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Metadata Functionality"
+  image_description: "Signature Editing"
   features:
     # feature loop
-    - title: "Metadata Access"
-      content: "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    - title: "Flexible Document Signing"
+      content: "Sign your documents with a variety of options—text, images, barcodes, and stamps—at any location in your files. You can also adjust embedded metadata like EXIF data in images and protect sensitive information using digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    - title: "Verify and Search Signatures"
+      content: "Ensure the integrity of your documents by verifying signatures with ease. Use built-in search functionality to locate and manage all signatures within a file, ensuring nothing is overlooked."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    - title: "Update Existing Signatures"
+      content: "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
       
   code_samples:
     # code sample loop
@@ -241,9 +241,9 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Edit Signatures Across Multiple File Formats"
     exclude: "JPEG"
-    description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
+    description: "With Node.js via Java API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
     items: 
           
         # format loop 1

@@ -1,21 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Effortlessly Edit Signatures in {{FileFormatUp}} Files with {{ProgLang}} Solutions",
+    "description": "The {{ProgLang}} API offers advanced functionality to modify signatures embedded within {{FileFormatUp}} documents, such as PDFs, Word files, Excel sheets, Presentations, and Images."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Seamlessly Update {{FileFormatUp}} Signatures via {{ProgLang}}",
+    "description": "Unlock the ability to edit a wide spectrum of electronic signatures across popular business formats like PDF, Word, Excel, Presentations, and Images with the power of {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download Now for Free"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "title": "Discover the Power of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers not only comprehensive document signing capabilities but also allows seamless modification of existing signatures. Effortlessly adjust signature properties for commonly used formats like PDF, Word, Excel, and PowerPoint presentations with minimal effort."
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Modify Signatures Across Multiple File Types",
+    "description": "Documents signed with our {{EnvName}} API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
+  },
+  "more_features": {
+    "title": "Comprehensive Signature Management for Documents",
+    "description": "With {{ProdFullName}}, you can efficiently add, update, search, verify, or delete signatures across all major document formats, simplifying your document workflow.",
+    "image_description": "Advanced Signature Modification",
+    "feature_1": {
+      "title": "Versatile Document Signing",
+      "content": "Our solution excels in applying diverse signatures, including text, images, barcodes, and stamps, to any part of a document. You can also embed and modify hidden metadata like EXIF in images, while safeguarding documents against unauthorized alterations using digital certificates."
+    },
+    "feature_2": {
+      "title": "Efficient Signature Search and Validation",
+      "content": "Leverage powerful tools to verify the accuracy and validity of signatures. Access a complete list of embedded signatures within a document, streamlining the verification process."
+    },
+    "feature_3": {
+      "title": "Streamlined Signature Updates",
+      "content": "Modify previously added signatures with ease. Adjust the content, style, placement, and other signature-specific attributes to meet evolving document requirements."
+    },
+    "feature_4": {
+      "title": "Effortless Signature Removal",
+      "content": "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
+    }
   },
   "examples": {
     "comment_1": "Instantiate a {{TextSignature}} object with the document file path",
@@ -33,29 +54,12 @@
       "step_4": "Evaluate the results of the modification."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "Modify Barcode Signatures",
-      "content": "This example illustrates how to programmatically modify barcode signatures in a document.",
-      "comment_1": "Load a document containing barcode signatures",
-      "comment_2": "Search for all existing barcode signatures",
-      "comment_3": "Modify the position of the first detected barcode and save the document",
-      "comment_4": "Verify the success of the barcode modification"
-    }
+  "code_1": {
+    "title": "Modify Barcode Signatures",
+    "content": "This example illustrates how to programmatically modify barcode signatures in a document.",
+    "comment_1": "Load a document containing barcode signatures",
+    "comment_2": "Search for all existing barcode signatures",
+    "comment_3": "Modify the position of the first detected barcode and save the document",
+    "comment_4": "Verify the success of the barcode modification"
   }
 }

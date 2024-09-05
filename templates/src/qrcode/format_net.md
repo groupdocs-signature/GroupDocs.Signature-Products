@@ -110,31 +110,31 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
             {
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 VerticalAlignment = Domain.VerticalAlignment.Top,
                 HorizontalAlignment = Domain.HorizontalAlignment.Right,
 
-                // <% "{more_features.code_1.comment_4}" %>
+                // <% "{code_1.comment_4}" %>
                 Margin = new Padding() { Top = 20, Right = 20 },
 
-                // <% "{more_features.code_1.comment_5}" %>
+                // <% "{code_1.comment_5}" %>
                 ForeColor = Color.Red,
 
-                // <% "{more_features.code_1.comment_6}" %>
+                // <% "{code_1.comment_6}" %>
                 Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // <% "{more_features.code_1.comment_7}" %>
+                // <% "{code_1.comment_7}" %>
                 Background = new Background()
                 {
                     Color = Color.LimeGreen,
@@ -143,7 +143,7 @@ more_features:
                 }
             }
 
-            // <% "{more_features.code_1.comment_8}" %>
+            // <% "{code_1.comment_8}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```

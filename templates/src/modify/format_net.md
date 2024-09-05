@@ -116,27 +116,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             BarcodeSearchOptions options = new BarcodeSearchOptions();
             List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
             if (signatures.Count > 0)
             {
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 BarcodeSignature barcodeSignature = signatures[0];
                 barcodeSignature.Left = 100;
                 barcodeSignature.Top = 100;
                 bool result = signature.Update(barcodeSignature);
 
-                // <% "{more_features.code_1.comment_4}" %>
+                // <% "{code_1.comment_4}" %>
                 if (result)
                 {
                     Console.WriteLine($"Barcode was updated successfully.");

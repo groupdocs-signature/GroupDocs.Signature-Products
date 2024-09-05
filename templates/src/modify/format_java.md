@@ -128,27 +128,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         final Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         BarcodeSearchOptions options = new BarcodeSearchOptions();
         List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 
         if (signatures.size() > 0)
         {
-            // <% "{more_features.code_1.comment_3}" %>
+            // <% "{code_1.comment_3}" %>
             BarcodeSignature barcodeSignature = signatures.get(0);
             barcodeSignature.setLeft(100);
             barcodeSignature.setTop(100);
             boolean result = signature.update("output.<% get "fileformat" %>", barcodeSignature);
 
-            // <% "{more_features.code_1.comment_4}" %>
+            // <% "{code_1.comment_4}" %>
             if (result)
             {
                 System.out.print("\nBarcode was updated successfully.");
