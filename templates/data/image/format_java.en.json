@@ -5,21 +5,13 @@
   },
   "header": {
     "title": "Add Image Signatures to {{FileFormatUp}} Using {{ProgLang}}",
-    "description": "Use {{ProdFullName}} to add images to a variety of office document formats, including PDFs, Word, Excel, and image files.",
+    "description": "Use {{ProdFullName}} to insert images into various office document formats, including PDFs, Word, Excel, and image files. An image with a boss's signature can add an impressive touch!",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
     "title": "Discover {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers the ability to add image signatures to any page and position within business documents. Streamline your workflows by adding images to PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and popular image formats."
-  },
-  "formats": {
-    "title": "Add Images to Other File Formats",
-    "description": "With the {{EnvName}} API, you can insert supported image formats into various documents. Easily resize, choose position, and add image signatures to your documents."
-  },
-  "operations": {
-    "title": "Take a Look at Our Leading Features",
-    "description": "We are pleased to present a variety of signature tools and operations "
   },
   "more_features": {
     "title": "Comprehensive Document Signing Solution",
@@ -41,6 +33,14 @@
       "title": "Remove Unnecessary Signatures",
       "content": "Our API supports full CRUD operations for most signature types. You can easily remove signatures from nearly all supported document types when necessary."
     }
+  },
+  "formats": {
+    "title": "Add Images to Other File Formats",
+    "description": "With the {{EnvName}} API, you can insert supported image formats into various documents. Easily resize, choose position, and add image signatures to your documents."
+  },
+  "operations": {
+    "title": "Take a Look at Our Leading Features",
+    "description": "We are pleased to present a variety of signature tools and operations "
   },
   "examples": {
     "comment_1": "Instantiate {{TextSignature}} with the document path",

@@ -126,28 +126,32 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         StampSignOptions signOptions = new StampSignOptions();
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         signOptions.setHeight(300);
         signOptions.setWidth(300);
         signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
         signOptions.setAllPages(true);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         StampLine outerLine1 = new StampLine();
         outerLine1.setText("* The best choice *");
         outerLine1.setTextRepeatType(StampTextRepeatType.FullTextRepeat);
@@ -161,7 +165,7 @@ more_features:
         outerLine1.setBackgroundColor(Color.BLUE);
         signOptions.getOuterLines().add(outerLine1);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         StampLine innerLine1 = new StampLine();
         innerLine1.setText("Company #1");
         innerLine1.setTextColor(Color.RED);
@@ -172,7 +176,7 @@ more_features:
         innerLine1.setHeight(40);
         signOptions.getInnerLines().add(innerLine1);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```
         {{< /landing/code >}}

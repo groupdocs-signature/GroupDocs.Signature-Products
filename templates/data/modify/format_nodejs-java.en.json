@@ -13,14 +13,6 @@
     "title": "Overview of {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) empowers you to not only add signatures but also to adjust them as needed. Whether you're working with PDFs, Word documents, Excel spreadsheets, or presentations, {{ProdFullName}} offers seamless control over signature management, making future modifications simple and intuitive."
   },
-  "formats": {
-    "title": "Edit Signatures Across Multiple File Formats",
-    "description": "With {{EnvName}} API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
-  },
-  "operations": {
-    "title": "Explore Our Signature and Functionality Options",
-    "description": "We provide a rich array of signature capabilities along with numerous operational tools"
-  },
   "more_features": {
     "title": "Signature Management for Documents",
     "description": "{{ProdFullName}} offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security.",
@@ -41,6 +33,14 @@
       "title": "Remove Unwanted Signatures",
       "content": "Whether you need to remove an outdated signature or clean up your document, {{ProdFullName}} offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
     }
+  },
+  "formats": {
+    "title": "Edit Signatures Across Multiple File Formats",
+    "description": "With {{EnvName}} API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
+  },
+  "operations": {
+    "title": "Explore Our Signature and Functionality Options",
+    "description": "We provide a rich array of signature capabilities along with numerous operational tools"
   },
   "examples": {
     "comment_1": "Initialize a {{TextSignature}} object with the document path",

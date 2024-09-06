@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:35
+date:  2024-09-06T19:58:14
 draft: false
 lang: en
 format: Jpeg
@@ -20,7 +20,7 @@ head_description: "The Java API allows you to add image signatures to JPEG files
 
 ############################# Header ############################
 title: "Add Image Signatures to JPEG Using Java" 
-description: "Use GroupDocs.Signature for Java to add images to a variety of office document formats, including PDFs, Word, Excel, and image files."
+description: "Use GroupDocs.Signature for Java to insert images into various office document formats, including PDFs, Word, Excel, and image files. An image with a boss's signature can add an impressive touch!"
 subtitle: "GroupDocs.Signature for Java" 
 
 header_actions:

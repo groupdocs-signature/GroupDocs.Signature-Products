@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive signing solution designed to handle a variety of document processing needs. It allows you to incorporate text, images, digital certificates, and stamps into over 60 different file formats, including PDF, MS Office, images, and ZIP files. Additionally, signed documents can be easily searched, verified, edited, or deleted when necessary."
   },
-  "formats": {
-    "title": "Sign Documents Across Multiple Formats",
-    "description": "The {{EnvName}} API supports over 60 formats, enabling you to apply a range of signatures on any page, enforce content security with digital certificates, and manage signatures within the document effectively."
-  },
-  "operations": {
-    "title": "Get to Know Our Main Functions",
-    "description": "We proudly support a comprehensive suite of signature options and functionalities"
-  },
   "more_features": {
     "title": "Optimize or Secure Document Content with Signatures",
     "description": "{{ProdFullName}} is built to sign all major file formats, offering you the ability to add, adjust, verify, or remove various types of signatures with ease.",
@@ -41,6 +33,14 @@
       "title": "Eliminate Unnecessary Signatures",
       "content": "Our solution enables full CRUD operations for signatures. If required, you can remove various signature types, including digital certificates, from your document."
     }
+  },
+  "formats": {
+    "title": "Sign Documents Across Multiple Formats",
+    "description": "The {{EnvName}} API supports over 60 formats, enabling you to apply a range of signatures on any page, enforce content security with digital certificates, and manage signatures within the document effectively."
+  },
+  "operations": {
+    "title": "Get to Know Our Main Functions",
+    "description": "We proudly support a comprehensive suite of signature options and functionalities"
   },
   "examples": {
     "comment_1": "Utilize {{TextSignature}} to apply a digital signature to the document",

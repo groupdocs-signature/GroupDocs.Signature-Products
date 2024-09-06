@@ -13,14 +13,6 @@
     "title": "Learn More About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a wide range of features to generate and embed various types of signatures in all major document formats. It supports PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and images. Enhance your documents with Text, Image, Barcode, QR Code, Metadata, Digital, and Stamp signatures."
   },
-  "formats": {
-    "title": "Generate QR Codes for Additional File Formats",
-    "description": "Enhance all popular file formats with generated QR codes using the {{EnvName}} API. Add 2D barcode data for easy scanning and processing."
-  },
-  "operations": {
-    "title": "Check Out Our Key Offerings",
-    "description": "We offer a diverse selection of signature features and advanced operations"
-  },
   "more_features": {
     "title": "Add Signatures to Your Documents",
     "description": "The {{ProdFullName}} API supports signing all popular file formats. Generate, modify, search, verify, and delete different types of signatures.",
@@ -41,6 +33,14 @@
       "title": "Remove Signatures",
       "content": "Delete unwanted signatures with ease. Various signature types, including digital certificates, can be programmatically removed from documents."
     }
+  },
+  "formats": {
+    "title": "Generate QR Codes for Additional File Formats",
+    "description": "Enhance all popular file formats with generated QR codes using the {{EnvName}} API. Add 2D barcode data for easy scanning and processing."
+  },
+  "operations": {
+    "title": "Check Out Our Key Offerings",
+    "description": "We offer a diverse selection of signature features and advanced operations"
   },
   "examples": {
     "comment_1": "Pass the document to a new {{TextSignature}} instance",

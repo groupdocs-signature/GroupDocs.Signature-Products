@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a sophisticated signing solution that facilitates a wide range of document processing tasks. It allows you to embed text, images, digital certificates, and stamps into files across 60+ formats, including PDF, MS Office, images, ZIP files, and other essential business formats. Moreover, signed documents can be effortlessly searched, verified, modified, or removed as needed."
   },
-  "formats": {
-    "title": "Sign Documents in Various Formats",
-    "description": "The {{EnvName}} API empowers you to process over 60 different formats. You can seamlessly create and embed diverse signatures on any page, apply digital certificates for content security, and efficiently manage existing signatures within the document."
-  },
-  "operations": {
-    "title": "See Our Standout Features",
-    "description": "We deliver a rich variety of signature formats and powerful operations"
-  },
   "more_features": {
     "title": "Enhance or Safeguard Document Content with Signatures",
     "description": "The {{ProdFullName}} library is engineered to sign all prevalent file formats. Streamline your business processes by easily adding, modifying, verifying, or removing a variety of signatures.",
@@ -41,6 +33,14 @@
       "title": "Remove Redundant Signatures",
       "content": "Our solution provides full CRUD operations for signatures. If necessary, you can remove a variety of signature types, including digital certificates, from your document."
     }
+  },
+  "formats": {
+    "title": "Sign Documents in Various Formats",
+    "description": "The {{EnvName}} API empowers you to process over 60 different formats. You can seamlessly create and embed diverse signatures on any page, apply digital certificates for content security, and efficiently manage existing signatures within the document."
+  },
+  "operations": {
+    "title": "See Our Standout Features",
+    "description": "We deliver a rich variety of signature formats and powerful operations"
   },
   "examples": {
     "comment_1": "Leverage {{TextSignature}} to digitally sign the document",

@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}} API",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers advanced e-signing features. Use it to add, search, verify, modify, and remove various types of e-signatures in documents and images without the need for external software. E-sign PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and popular image formats easily."
   },
-  "formats": {
-    "title": "Sign Popular File Formats with e-Signatures",
-    "description": "The e-signing API for {{EnvName}} enables the processing of all modern business file and document formats."
-  },
-  "operations": {
-    "title": "Explore Our Key Features",
-    "description": "We are proud to offer a wide range of supported signatures and operations."
-  },
   "more_features": {
     "title": "Document Electronic Signatures",
     "description": "Our e-signing API streamlines business processes. Sign, search, update, delete, and verify various signatures programmatically.",
@@ -37,6 +29,14 @@
       "title": "Advanced Content Control",
       "content": "Secure business documents against unauthorized changes with corporate digital certificates. Add or extract hidden metadata entries available in all document types."
     }
+  },
+  "formats": {
+    "title": "Sign Popular File Formats with e-Signatures",
+    "description": "The e-signing API for {{EnvName}} enables the processing of all modern business file and document formats."
+  },
+  "operations": {
+    "title": "Explore Our Key Features",
+    "description": "We are proud to offer a wide range of supported signatures and operations."
   },
   "examples": {
     "comment_1": "Load the document into a {{TextSignature}} instance",

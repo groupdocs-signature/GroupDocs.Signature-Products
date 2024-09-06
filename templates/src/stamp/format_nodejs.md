@@ -113,30 +113,34 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         const signOptions = new signatureLib.StampSignOptions();
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         signOptions.setHeight(300);
         signOptions.setWidth(300);
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
         signOptions.setAllPages(true);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         const outerLine1 = new signatureLib.StampLine();
         outerLine1.setText('* The best choice *');
         outerLine1.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
@@ -150,7 +154,7 @@ more_features:
         outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
         signOptions.getOuterLines().add(outerLine1);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         const innerLine1 = new signatureLib.StampLine();
         innerLine1.setText('Company #1');
         innerLine1.setTextColor(signatureLib.Color.RED);
@@ -161,7 +165,7 @@ more_features:
         innerLine1.setHeight(40);
         signOptions.getInnerLines().add(innerLine1);
         
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         const result = signature.sign('output.<% get "fileformat" %>', options);
         ```
         {{< /landing/code >}}

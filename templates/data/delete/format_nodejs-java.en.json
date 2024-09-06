@@ -13,14 +13,6 @@
     "title": "Discover {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) represents a sophisticated solution for intricate metadata management and manipulation. It provides the ability to view, update, remove, search, compare, exchange, and export metadata across diverse image and document formats, all without relying on external software. Integrate metadata into Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote notebooks, Visio diagrams, Project files, PDFs, AutoCAD drawings, ZIP archives, as well as audio and video formats, among others."
   },
-  "formats": {
-    "title": "Eliminate Signatures from Various File Formats",
-    "description": "Our {{ProdFullName}} solution is proficient in removing signatures across a diverse range of over 60 file formats, ensuring broad compatibility and functionality."
-  },
-  "operations": {
-    "title": "Explore the Features We Provide",
-    "description": "Discover the full range of signature solutions and operations available in our system"
-  },
   "more_features": {
     "title": "Enhance Document Security with Signature Tools",
     "description": "{{ProdFullName}} is specifically crafted to streamline the signing and management of business file formats, allowing you to add, edit, verify, or remove signatures with precision.",
@@ -41,6 +33,14 @@
       "title": "Remove Unwanted Signatures",
       "content": "With full CRUD capabilities, our solution enables the efficient deletion of a wide range of signature types from your documents, ensuring flexibility and control."
     }
+  },
+  "formats": {
+    "title": "Eliminate Signatures from Various File Formats",
+    "description": "Our {{ProdFullName}} solution is proficient in removing signatures across a diverse range of over 60 file formats, ensuring broad compatibility and functionality."
+  },
+  "operations": {
+    "title": "Explore the Features We Provide",
+    "description": "Discover the full range of signature solutions and operations available in our system"
   },
   "examples": {
     "comment_1": "Pass the document with the signatures to the {{TextSignature}} instance",

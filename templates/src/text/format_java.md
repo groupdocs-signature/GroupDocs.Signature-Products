@@ -122,40 +122,44 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025");
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         options.setLeft(100);
         options.setTop(100);
         options.setWidth(100);
         options.setHeight(30);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         Padding padding = new Padding();
         padding.setBottom(20);
         padding.setRight(20);
         options.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         options.setForeColor(Color.RED);
         SignatureFont signatureFont = new SignatureFont();
         signatureFont.setSize(12);
         signatureFont.setFamilyName("Comic Sans MS");
         options.setFont(signatureFont);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         Border border = new Border();
         border.setColor(Color.GREEN);
         border.setDashStyle(DashStyle.DashLongDashDot);
@@ -164,20 +168,20 @@ more_features:
         border.setWeight(2);
         options.setBorder(border);
 
-        // <% "{more_features.code_1.comment_7}" %>
+        // <% "{code_1.comment_7}" %>
         Background background = new Background();
         background.setColor(Color.LIGHT_GRAY);
         background.setTransparency(0.5);
         background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
         options.setBackground(background);
 
-        // <% "{more_features.code_1.comment_8}" %>
+        // <% "{code_1.comment_8}" %>
         options.setRotationAngle(45);
 
-        // <% "{more_features.code_1.comment_9}" %>
+        // <% "{code_1.comment_9}" %>
         options.setSignatureImplementation(TextSignatureImplementation.Image);
 
-        // <% "{more_features.code_1.comment_10}" %>
+        // <% "{code_1.comment_10}" %>
         SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```
         {{< /landing/code >}}

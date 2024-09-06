@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}} API",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a comprehensive suite of electronic signing capabilities. With it, you can seamlessly add, search, verify, update, and remove digital signatures across a wide array of document types, without the need for third-party tools. It supports signing PDF files, Word documents, Excel sheets, PowerPoint presentations, and various image formats effortlessly."
   },
-  "formats": {
-    "title": "Digitally Sign a Wide Range of File Formats",
-    "description": "The {{EnvName}} API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
-  },
-  "operations": {
-    "title": "Explore the Full Scope of Our Features",
-    "description": "We’re proud to offer a vast array of signature options and associated operations"
-  },
   "more_features": {
     "title": "Advanced Document Electronic Signatures",
     "description": "Our sophisticated e-signing API enhances business workflows, enabling efficient signing, validation, modification, and management of electronic signatures with full automation capabilities.",
@@ -37,6 +29,14 @@
       "title": "Enhanced Content Security",
       "content": "Protect the integrity of your documents using digital certificates. Embed or extract metadata for enhanced document tracking and auditing, ensuring compliance and content authenticity."
     }
+  },
+  "formats": {
+    "title": "Digitally Sign a Wide Range of File Formats",
+    "description": "The {{EnvName}} API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
+  },
+  "operations": {
+    "title": "Explore the Full Scope of Our Features",
+    "description": "We’re proud to offer a vast array of signature options and associated operations"
   },
   "examples": {
     "comment_1": "Load the document into a {{TextSignature}} instance",

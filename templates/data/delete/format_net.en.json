@@ -13,14 +13,6 @@
     "title": "Overview of {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}})  is a robust signing tool that facilitates the addition of diverse signature types, ranging from text and images to barcodes, digital certificates, and stamps. Supporting over 60 file formats—including PDF, MS Office, images, ZIP, and other widely-used business formats—this solution ensures flexibility in document management. Additionally, applied signatures can be easily located, authenticated, modified, or removed as needed."
   },
-  "formats": {
-    "title": "Remove Signatures Across Multiple File Formats",
-    "description": "{{ProdFullName}} is engineered to facilitate the removal of signatures from an extensive range of over 60 file formats, ensuring broad compatibility and functionality."
-  },
-  "operations": {
-    "title": "Check Out Our Highlighted Features",
-    "description": "We are excited to offer a wide selection of supported signature types and operations"
-  },
   "more_features": {
     "title": "Optimize Document Management with Advanced Signature Tools",
     "description": "{{ProdFullName}} is meticulously designed to enhance the signing and processing of business file formats, enabling the addition, modification, verification, or deletion of signatures with ease.",
@@ -41,6 +33,14 @@
       "title": "Signature Deletion",
       "content": "Our solution provides full CRUD capabilities for signatures, allowing you to efficiently remove a variety of signature types from your documents when necessary."
     }
+  },
+  "formats": {
+    "title": "Remove Signatures Across Multiple File Formats",
+    "description": "{{ProdFullName}} is engineered to facilitate the removal of signatures from an extensive range of over 60 file formats, ensuring broad compatibility and functionality."
+  },
+  "operations": {
+    "title": "Check Out Our Highlighted Features",
+    "description": "We are excited to offer a wide selection of supported signature types and operations"
   },
   "examples": {
     "comment_1": "Pass the document containing signatures to the {{TextSignature}} instance",

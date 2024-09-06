@@ -13,14 +13,6 @@
     "title": "Discover the Power of {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers not only comprehensive document signing capabilities but also allows seamless modification of existing signatures. Effortlessly adjust signature properties for commonly used formats like PDF, Word, Excel, and PowerPoint presentations with minimal effort."
   },
-  "formats": {
-    "title": "Modify Signatures Across Multiple File Types",
-    "description": "Documents signed with our {{EnvName}} API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
-  },
-  "operations": {
-    "title": "Browse Our Extensive Feature Set",
-    "description": "Discover the full range of signature formats and operations supported by our platform"
-  },
   "more_features": {
     "title": "Comprehensive Signature Management for Documents",
     "description": "With {{ProdFullName}}, you can efficiently add, update, search, verify, or delete signatures across all major document formats, simplifying your document workflow.",
@@ -41,6 +33,14 @@
       "title": "Effortless Signature Removal",
       "content": "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
     }
+  },
+  "formats": {
+    "title": "Modify Signatures Across Multiple File Types",
+    "description": "Documents signed with our {{EnvName}} API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
+  },
+  "operations": {
+    "title": "Browse Our Extensive Feature Set",
+    "description": "Discover the full range of signature formats and operations supported by our platform"
   },
   "examples": {
     "comment_1": "Instantiate a {{TextSignature}} object with the document file path",

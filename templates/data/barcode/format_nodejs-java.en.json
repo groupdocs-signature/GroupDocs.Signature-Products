@@ -13,14 +13,6 @@
     "title": "An Introduction to {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful document signing tool, supporting a diverse range of signature types including text, images, barcodes, digital certificates, and stamps. With compatibility across more than 60 file formats, such as PDFs, MS Office files, images, and ZIP archives, it allows for comprehensive document management. Signatures within documents can be searched, verified, altered, or removed as required."
   },
-  "formats": {
-    "title": "Sign Across Multiple Document Formats",
-    "description": "The {{EnvName}} API empowers you to sign over 60 different formats. Whether adding signatures to specific pages or positioning them precisely, our tool makes it easy to apply various signature types."
-  },
-  "operations": {
-    "title": "Dive Into Our Primary Features",
-    "description": "Experience a broad array of signature types and tools we provide"
-  },
   "more_features": {
     "title": "Augment and Secure Your Documents with Advanced Signature Options",
     "description": "The {{ProdFullName}} library is designed to streamline the signing and subsequent management of popular document formats. Quickly and easily add, modify, verify, or remove a wide range of signatures.",
@@ -41,6 +33,14 @@
       "title": "Streamlined Signature Removal",
       "content": "With comprehensive support for CRUD operations, our tool allows for the efficient removal of signatures from your documents, ensuring that only the most relevant signatures remain."
     }
+  },
+  "formats": {
+    "title": "Sign Across Multiple Document Formats",
+    "description": "The {{EnvName}} API empowers you to sign over 60 different formats. Whether adding signatures to specific pages or positioning them precisely, our tool makes it easy to apply various signature types."
+  },
+  "operations": {
+    "title": "Dive Into Our Primary Features",
+    "description": "Experience a broad array of signature types and tools we provide"
   },
   "examples": {
     "comment_1": "Instantiate a {{TextSignature}} object with the document path",

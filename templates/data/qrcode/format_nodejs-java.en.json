@@ -13,14 +13,6 @@
     "title": "Explore {{ProdFullName}} Capabilities",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers advanced document enhancement tools, enabling the generation and embedding of multiple signature types, including QR codes, into popular file formats. Sign and secure PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and images with Text, Image, Barcode, QR Code, Metadata, Digital, and Stamp signatures."
   },
-  "formats": {
-    "title": "Integrate QR Codes with Various File Formats",
-    "description": "Leverage the {{EnvName}} API to generate QR codes and embed them into a variety of widely-used file formats. Encapsulate important data in these barcodes for seamless integration and future retrieval."
-  },
-  "operations": {
-    "title": "Understand Our Main Capabilities",
-    "description": "We deliver a broad selection of signature formats and operations tailored to your needs"
-  },
   "more_features": {
     "title": "Comprehensive Signature and QR Code Integration",
     "description": "With {{ProdFullName}} API, you can manage a full spectrum of signatures. Generate, customize, verify, search, and remove signatures effortlessly across different document types, offering unmatched flexibility for your workflows.",
@@ -41,6 +33,14 @@
       "title": "Signature Removal Made Easy",
       "content": "Remove any unwanted or obsolete signatures, including digital certificates, with ease. Full control over signature management ensures a clean and well-organized document."
     }
+  },
+  "formats": {
+    "title": "Integrate QR Codes with Various File Formats",
+    "description": "Leverage the {{EnvName}} API to generate QR codes and embed them into a variety of widely-used file formats. Encapsulate important data in these barcodes for seamless integration and future retrieval."
+  },
+  "operations": {
+    "title": "Understand Our Main Capabilities",
+    "description": "We deliver a broad selection of signature formats and operations tailored to your needs"
   },
   "examples": {
     "comment_1": "Create a {{TextSignature}} instance and pass the document path",

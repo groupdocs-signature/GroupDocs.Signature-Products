@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive signing solution that supports various types of document processing. You can add text, images, digital certificates, and stamps to files in 60+ formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signed documents can be searched, verified, modified, or deleted automatically in a convenient way."
   },
-  "formats": {
-    "title": "Sign Documents in Other Formats",
-    "description": "The {{EnvName}} API allows you to process more than 60 formats. Create and add various signatures to any page, seal content with digital certificates, and manage and edit existing signatures within the document."
-  },
-  "operations": {
-    "title": "Examine Our Comprehensive Feature Set",
-    "description": "We take pride in the extensive functionality and signature support our platform offers"
-  },
   "more_features": {
     "title": "Enhance or Protect Document Content with Signatures",
     "description": "The {{ProdFullName}} library is capable of signing all popular file formats. Add, modify, verify, or delete various types of signatures automatically to streamline your business processes.",
@@ -41,6 +33,14 @@
       "title": "Remove Unnecessary Signatures",
       "content": "Our solution supports full CRUD operations for signatures. Many types of signatures, including digital certificates, can be deleted from a document when necessary."
     }
+  },
+  "formats": {
+    "title": "Sign Documents in Other Formats",
+    "description": "The {{EnvName}} API allows you to process more than 60 formats. Create and add various signatures to any page, seal content with digital certificates, and manage and edit existing signatures within the document."
+  },
+  "operations": {
+    "title": "Examine Our Comprehensive Feature Set",
+    "description": "We take pride in the extensive functionality and signature support our platform offers"
   },
   "examples": {
     "comment_1": "Use {{TextSignature}} with the document for digital signing",

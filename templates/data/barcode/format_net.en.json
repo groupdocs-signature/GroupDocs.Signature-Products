@@ -13,14 +13,6 @@
     "title": "Overview of {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a sophisticated document signing solution that supports an extensive array of signature types, including text, images, barcodes, digital certificates, and stamps. Compatible with over 60 file formats—such as PDF, MS Office, images, ZIP files, and more—this tool enables you to not only apply signatures but also search, verify, modify, or remove them as needed."
   },
-  "formats": {
-    "title": "Sign Documents Across a Variety of Formats",
-    "description": "Our {{EnvName}} API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
-  },
-  "operations": {
-    "title": "Uncover Our Main Features",
-    "description": "We offer an impressive selection of signature options and operations"
-  },
   "more_features": {
     "title": "Enhance and Safeguard Your Documents with Advanced Signature Capabilities",
     "description": "The {{ProdFullName}} library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures.",
@@ -41,6 +33,14 @@
       "title": "Efficient Signature Deletion",
       "content": "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
     }
+  },
+  "formats": {
+    "title": "Sign Documents Across a Variety of Formats",
+    "description": "Our {{EnvName}} API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
+  },
+  "operations": {
+    "title": "Uncover Our Main Features",
+    "description": "We offer an impressive selection of signature options and operations"
   },
   "examples": {
     "comment_1": "Instantiate a new {{TextSignature}} object with the document path",

@@ -5,21 +5,13 @@
   },
   "header": {
     "title": "Sign {{FileFormatUp}} Files Using Image Signatures in {{ProgLang}}",
-    "description": "With {{ProdFullName}}, you can add images as signatures to a wide variety of document types, including PDFs, Word, Excel, and other popular formats.",
+    "description": "Leverage the capabilities of {{ProdFullName}} to effortlessly embed images into a multitude of office document formats such as PDFs, Word, Excel, and various image files. Adding an executive signature image can significantly enhance the professionalism and credibility of your documents, creating a refined and polished presentation.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for Free"
   },
   "about": {
     "title": "Introducing {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) empowers users to incorporate image signatures at any location within your documents. This tool enables businesses to streamline their workflows by adding images to PDFs, Word, Excel, PowerPoint, and popular image formats, improving document management efficiency."
-  },
-  "formats": {
-    "title": "Add Images to Various File Types",
-    "description": "The {{EnvName}} API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
-  },
-  "operations": {
-    "title": "Discover the Functions We Offer",
-    "description": "We are proud to showcase a broad selection of signature methods and operations"
   },
   "more_features": {
     "title": "Advanced Document Signing Capabilities",
@@ -41,6 +33,14 @@
       "title": "Remove Unnecessary Signatures",
       "content": "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
     }
+  },
+  "formats": {
+    "title": "Add Images to Various File Types",
+    "description": "The {{EnvName}} API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
+  },
+  "operations": {
+    "title": "Discover the Functions We Offer",
+    "description": "We are proud to showcase a broad selection of signature methods and operations"
   },
   "examples": {
     "comment_1": "Initialize {{TextSignature}} with the path to the document",

@@ -106,34 +106,38 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
             {
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 Left = 100,
                 Top = 100,
                 Width = 100,
                 Height = 30,
 
-                // <% "{more_features.code_1.comment_4}" %>
+                // <% "{code_1.comment_4}" %>
                 Margin = new Padding() { Top = 20, Right = 20 },
 
-                // <% "{more_features.code_1.comment_5}" %>
+                // <% "{code_1.comment_5}" %>
                 ForeColor = Color.Red,
                 Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // <% "{more_features.code_1.comment_6}" %>
+                // <% "{code_1.comment_6}" %>
                 Border = new Border()
                 {
                     Color = Color.IndianRed,
@@ -143,7 +147,7 @@ more_features:
                     Weight = 2
                 },
 
-                // <% "{more_features.code_1.comment_7}" %>
+                // <% "{code_1.comment_7}" %>
                 Background = new Background()
                 {
                     Color = Color.LimeGreen,
@@ -151,14 +155,14 @@ more_features:
                     Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
                 },
 
-                // <% "{more_features.code_1.comment_8}" %>
+                // <% "{code_1.comment_8}" %>
                 RotationAngle = 45,
 
-                // <% "{more_features.code_1.comment_9}" %>
+                // <% "{code_1.comment_9}" %>
                 SignatureImplementation = TextSignatureImplementation.Image
             };
 
-            // <% "{more_features.code_1.comment_10}" %>
+            // <% "{code_1.comment_10}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```

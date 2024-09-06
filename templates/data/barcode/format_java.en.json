@@ -13,14 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 60+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
   },
-  "formats": {
-    "title": "Sign Documents in Other Formats",
-    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
-  },
-  "operations": {
-    "title": "Discover Our Core Capabilities",
-    "description": "We proudly present an extensive variety of supported signatures and functions"
-  },
   "more_features": {
     "title": "Enhance or Protect Document Content with Signatures",
     "description": "The {{ProdFullName}} library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures.",
@@ -41,6 +33,14 @@
       "title": "Delete Signatures",
       "content": "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
     }
+  },
+  "formats": {
+    "title": "Sign Documents in Other Formats",
+    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
+  },
+  "operations": {
+    "title": "Discover Our Core Capabilities",
+    "description": "We proudly present an extensive variety of supported signatures and functions"
   },
   "examples": {
     "comment_1": "Create a new {{TextSignature}} instance with the document path",
