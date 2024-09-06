@@ -17,6 +17,10 @@
     "title": "Edit Signatures Across Multiple File Formats",
     "description": "With {{EnvName}} API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
   },
+  "operations": {
+    "title": "Explore Our Signature and Functionality Options",
+    "description": "We provide a rich array of signature capabilities along with numerous operational tools"
+  },
   "more_features": {
     "title": "Signature Management for Documents",
     "description": "{{ProdFullName}} offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security.",

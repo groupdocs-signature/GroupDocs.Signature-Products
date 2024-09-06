@@ -17,6 +17,10 @@
     "title": "Integrate QR Codes with Various File Formats",
     "description": "Leverage the {{EnvName}} API to generate QR codes and embed them into a variety of widely-used file formats. Encapsulate important data in these barcodes for seamless integration and future retrieval."
   },
+  "operations": {
+    "title": "Understand Our Main Capabilities",
+    "description": "We deliver a broad selection of signature formats and operations tailored to your needs"
+  },
   "more_features": {
     "title": "Comprehensive Signature and QR Code Integration",
     "description": "With {{ProdFullName}} API, you can manage a full spectrum of signatures. Generate, customize, verify, search, and remove signatures effortlessly across different document types, offering unmatched flexibility for your workflows.",

@@ -17,6 +17,10 @@
     "title": "Generate QR Codes for Diverse Document Formats",
     "description": "Enhance all industry-standard file formats with the ability to embed QR codes through the {{EnvName}} API. Store and encode critical information into 2D barcodes for seamless scanning and data retrieval."
   },
+  "operations": {
+    "title": "Learn About Our Signature Solutions",
+    "description": "We proudly present a wide range of signature types and operational features"
+  },
   "more_features": {
     "title": "Comprehensive Signature Integration for Documents",
     "description": "With {{ProdFullName}} API, users can effortlessly generate, modify, search, validate, and remove an array of signature types, streamlining document workflows with unparalleled precision.",

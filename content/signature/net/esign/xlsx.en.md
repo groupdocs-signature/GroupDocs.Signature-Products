@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:58
+date:  2024-09-06T10:45:38
 draft: false
 lang: en
 format: Xlsx
@@ -157,9 +157,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore the Full Scope of Our Features"
     exclude: "esign"
-    description: ""
+    description: "We’re proud to offer a vast array of signature options and associated operations"
     items: 
           
         # operation loop 1

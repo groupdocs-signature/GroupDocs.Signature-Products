@@ -17,6 +17,10 @@
     "title": "Sign Documents Across Multiple Formats",
     "description": "The {{EnvName}} API supports over 60 formats, enabling you to apply a range of signatures on any page, enforce content security with digital certificates, and manage signatures within the document effectively."
   },
+  "operations": {
+    "title": "Get to Know Our Main Functions",
+    "description": "We proudly support a comprehensive suite of signature options and functionalities"
+  },
   "more_features": {
     "title": "Optimize or Secure Document Content with Signatures",
     "description": "{{ProdFullName}} is built to sign all major file formats, offering you the ability to add, adjust, verify, or remove various types of signatures with ease.",

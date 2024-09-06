@@ -17,6 +17,10 @@
     "title": "Sign Popular File Formats with e-Signatures",
     "description": "The e-signing API for {{EnvName}} enables the processing of all modern business file and document formats."
   },
+  "operations": {
+    "title": "Explore Our Key Features",
+    "description": "We are proud to offer a wide range of supported signatures and operations."
+  },
   "more_features": {
     "title": "Document Electronic Signatures",
     "description": "Our e-signing API streamlines business processes. Sign, search, update, delete, and verify various signatures programmatically.",

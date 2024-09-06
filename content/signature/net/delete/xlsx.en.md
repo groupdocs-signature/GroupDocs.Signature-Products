@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:44
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Xlsx
@@ -167,9 +167,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Check Out Our Highlighted Features"
     exclude: "delete"
-    description: ""
+    description: "We are excited to offer a wide selection of supported signature types and operations"
     items: 
           
         # operation loop 1

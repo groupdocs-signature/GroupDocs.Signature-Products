@@ -17,6 +17,10 @@
     "title": "Add Images to Various File Types",
     "description": "The {{EnvName}} API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
   },
+  "operations": {
+    "title": "Discover the Functions We Offer",
+    "description": "We are proud to showcase a broad selection of signature methods and operations"
+  },
   "more_features": {
     "title": "Advanced Document Signing Capabilities",
     "description": "Our API offers a suite of features that simplify electronic signing. You can add, modify, remove, search, and verify multiple types of signatures, including image signatures, with ease.",

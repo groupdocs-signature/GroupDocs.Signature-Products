@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:57:00
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Xlsx
@@ -114,6 +114,10 @@ more_features:
     # feature loop
     - title: "Streamlined Signature Updates"
       content: "Modify previously added signatures with ease. Adjust the content, style, placement, and other signature-specific attributes to meet evolving document requirements."
+
+    # feature loop
+    - title: "Effortless Signature Removal"
+      content: "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
       
   code_samples:
     # code sample loop
@@ -168,9 +172,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Browse Our Extensive Feature Set"
     exclude: "modify"
-    description: ""
+    description: "Discover the full range of signature formats and operations supported by our platform"
     items: 
           
         # operation loop 1

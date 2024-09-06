@@ -17,6 +17,10 @@
     "title": "Adding Metadata Properties To Other File Formats",
     "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
   },
+  "operations": {
+    "title": "",
+    "description": ""
+  },
   "examples": {
     "comment_1": "Initialize the {{TextSignature}} with the document path",
     "comment_2": "Create an instance of {{TextSignOptions}} with the desired signature text",

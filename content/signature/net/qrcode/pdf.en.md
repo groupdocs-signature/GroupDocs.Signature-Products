@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:56
+date:  2024-09-06T10:45:37
 draft: false
 lang: en
 format: Pdf
@@ -108,6 +108,10 @@ more_features:
     # feature loop
     - title: "Customizable Signature Modification"
       content: "Update and refine previously applied signatures by adjusting content, placement, color, size, and other attributes to meet your specific needs."
+
+    # feature loop
+    - title: "Efficient Signature Removal"
+      content: "Streamline your document management by programmatically removing unwanted signatures. Whether dealing with digital certificates or other signature types, removal can be done swiftly and effectively."
       
   code_samples:
     # code sample loop
@@ -171,9 +175,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Learn About Our Signature Solutions"
     exclude: "qrcode"
-    description: ""
+    description: "We proudly present a wide range of signature types and operational features"
     items: 
           
         # operation loop 1

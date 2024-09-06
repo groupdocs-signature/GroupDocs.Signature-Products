@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:56
+date:  2024-09-06T10:45:37
 draft: false
 lang: en
 format: Pptx
@@ -122,6 +122,10 @@ more_features:
     # feature loop
     - title: "Modify Signatures"
       content: "Easily modify signature properties after signing. Adjust content, position, color, size, and other attributes as needed."
+
+    # feature loop
+    - title: "Remove Signatures"
+      content: "Delete unwanted signatures with ease. Various signature types, including digital certificates, can be programmatically removed from documents."
       
   code_samples:
     # code sample loop
@@ -188,9 +192,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Check Out Our Key Offerings"
     exclude: "qrcode"
-    description: ""
+    description: "We offer a diverse selection of signature features and advanced operations"
     items: 
           
         # operation loop 1

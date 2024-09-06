@@ -120,6 +120,10 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop

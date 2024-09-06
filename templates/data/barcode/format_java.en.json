@@ -17,6 +17,10 @@
     "title": "Sign Documents in Other Formats",
     "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
   },
+  "operations": {
+    "title": "Discover Our Core Capabilities",
+    "description": "We proudly present an extensive variety of supported signatures and functions"
+  },
   "more_features": {
     "title": "Enhance or Protect Document Content with Signatures",
     "description": "The {{ProdFullName}} library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures.",

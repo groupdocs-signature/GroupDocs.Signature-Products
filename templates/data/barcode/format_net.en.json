@@ -17,6 +17,10 @@
     "title": "Sign Documents Across a Variety of Formats",
     "description": "Our {{EnvName}} API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
   },
+  "operations": {
+    "title": "Uncover Our Main Features",
+    "description": "We offer an impressive selection of signature options and operations"
+  },
   "more_features": {
     "title": "Enhance and Safeguard Your Documents with Advanced Signature Capabilities",
     "description": "The {{ProdFullName}} library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures.",

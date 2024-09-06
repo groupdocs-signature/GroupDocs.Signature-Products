@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:58
+date:  2024-09-06T10:45:38
 draft: false
 lang: en
 format: Pptx
@@ -157,9 +157,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "View Our Extensive Capabilities"
     exclude: "esign"
-    description: ""
+    description: "We offer a broad range of signature types and feature-rich operations"
     items: 
           
         # operation loop 1

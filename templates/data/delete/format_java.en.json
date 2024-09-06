@@ -17,6 +17,10 @@
     "title": "Remove Signatures from Various File Formats",
     "description": "Our {{ProdFullName}} solution supports the removal of signatures from over 60 different file formats."
   },
+  "operations": {
+    "title": "Learn About Our Key Features",
+    "description": "Explore the diverse operations and signature methods available with our platform"
+  },
   "more_features": {
     "title": "Enhance Business Processes with Signature Management",
     "description": "{{ProdFullName}} is designed for signing and managing business file formats, allowing you to add, modify, verify, or delete signatures as needed.",

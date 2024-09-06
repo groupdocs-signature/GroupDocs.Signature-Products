@@ -17,6 +17,10 @@
     "title": "Integrate Images into Diverse File Formats",
     "description": "Leverage the {{EnvName}} API to append supported image formats to an extensive array of documents. Effortlessly resize, position, select specific pages, and apply image-based signatures to your documents."
   },
+  "operations": {
+    "title": "Understand Our Feature Offerings",
+    "description": "Explore a diverse set of signature types and robust operations provided by our platform"
+  },
   "more_features": {
     "title": "Comprehensive Document Signing Solutions",
     "description": "We are pleased to present a wide range of signing functionalities supported by our API. Effortlessly add, modify, delete, search, and verify various signature types, including image-based signatures.",

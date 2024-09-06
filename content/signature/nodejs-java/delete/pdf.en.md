@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:44
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Pdf
@@ -169,9 +169,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore the Features We Provide"
     exclude: "delete"
-    description: ""
+    description: "Discover the full range of signature solutions and operations available in our system"
     items: 
           
         # operation loop 1

@@ -17,6 +17,10 @@
     "title": "Add Images to Other File Formats",
     "description": "With the {{EnvName}} API, you can insert supported image formats into various documents. Easily resize, choose position, and add image signatures to your documents."
   },
+  "operations": {
+    "title": "Take a Look at Our Leading Features",
+    "description": "We are pleased to present a variety of signature tools and operations "
+  },
   "more_features": {
     "title": "Comprehensive Document Signing Solution",
     "description": "Our API supports a range of signing features, allowing you to add, modify, delete, search, and verify multiple signature types, including image signatures.",

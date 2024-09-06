@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:41
+date:  2024-09-06T10:45:38
 draft: false
 lang: en
 format: Pptx
@@ -188,9 +188,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Discover Our Core Capabilities"
     exclude: "barcode"
-    description: ""
+    description: "We proudly present an extensive variety of supported signatures and functions"
     items: 
           
         # operation loop 1

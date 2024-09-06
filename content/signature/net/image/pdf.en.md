@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:54
+date:  2024-09-06T10:45:35
 draft: false
 lang: en
 format: Pdf
@@ -108,6 +108,10 @@ more_features:
     # feature loop
     - title: "Modify Signatures"
       content: "Occasionally, signatures within documents may require updates. Easily adjust the content, appearance, size, or position of existing signatures to meet evolving requirements."
+
+    # feature loop
+    - title: "Remove Redundant Signatures"
+      content: "Our API facilitates full CRUD operations for the majority of signature types. You can efficiently remove signatures from nearly all supported document formats when necessary."
       
   code_samples:
     # code sample loop
@@ -173,9 +177,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Understand Our Feature Offerings"
     exclude: "image"
-    description: ""
+    description: "Explore a diverse set of signature types and robust operations provided by our platform"
     items: 
           
         # operation loop 1

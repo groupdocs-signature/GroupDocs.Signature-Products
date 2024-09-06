@@ -17,6 +17,10 @@
     "title": "Digitally Sign a Wide Range of File Formats",
     "description": "The {{EnvName}} API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
   },
+  "operations": {
+    "title": "Explore the Full Scope of Our Features",
+    "description": "We’re proud to offer a vast array of signature options and associated operations"
+  },
   "more_features": {
     "title": "Advanced Document Electronic Signatures",
     "description": "Our sophisticated e-signing API enhances business workflows, enabling efficient signing, validation, modification, and management of electronic signatures with full automation capabilities.",

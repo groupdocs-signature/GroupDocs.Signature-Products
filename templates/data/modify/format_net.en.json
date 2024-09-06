@@ -17,6 +17,10 @@
     "title": "Modify Signatures Across Multiple File Types",
     "description": "Documents signed with our {{EnvName}} API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
   },
+  "operations": {
+    "title": "Browse Our Extensive Feature Set",
+    "description": "Discover the full range of signature formats and operations supported by our platform"
+  },
   "more_features": {
     "title": "Comprehensive Signature Management for Documents",
     "description": "With {{ProdFullName}}, you can efficiently add, update, search, verify, or delete signatures across all major document formats, simplifying your document workflow.",

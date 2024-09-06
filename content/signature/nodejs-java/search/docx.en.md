@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:42
+date:  2024-09-06T10:45:39
 draft: false
 lang: en
 format: Docx

@@ -17,6 +17,10 @@
     "title": "Sign Multiple File Types Digitally",
     "description": "The {{EnvName}} API allows you to apply digital signatures to over 60 file formats, providing you with extensive flexibility in securing your business-critical documents."
   },
+  "operations": {
+    "title": "View Our Extensive Capabilities",
+    "description": "We offer a broad range of signature types and feature-rich operations"
+  },
   "more_features": {
     "title": "Advanced Digital Signature Capabilities",
     "description": "Our advanced API streamlines business operations by facilitating the automated signing, verification, modification, and management of electronic signatures for a range of documents.",

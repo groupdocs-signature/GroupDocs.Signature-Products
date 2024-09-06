@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:54
+date:  2024-09-06T10:45:36
 draft: false
 lang: en
 format: Docx
@@ -108,6 +108,10 @@ more_features:
     # feature loop
     - title: "Modify Existing Signatures"
       content: "Our API enables users to update and adjust signatures as needed. Modify the size, position, or other attributes of any previously added signature for flexibility in document handling."
+
+    # feature loop
+    - title: "Remove Unnecessary Signatures"
+      content: "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
       
   code_samples:
     # code sample loop
@@ -175,9 +179,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Discover the Functions We Offer"
     exclude: "image"
-    description: ""
+    description: "We are proud to showcase a broad selection of signature methods and operations"
     items: 
           
         # operation loop 1

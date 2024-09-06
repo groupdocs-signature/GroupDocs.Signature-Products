@@ -17,6 +17,10 @@
     "title": "Generate QR Codes for Additional File Formats",
     "description": "Enhance all popular file formats with generated QR codes using the {{EnvName}} API. Add 2D barcode data for easy scanning and processing."
   },
+  "operations": {
+    "title": "Check Out Our Key Offerings",
+    "description": "We offer a diverse selection of signature features and advanced operations"
+  },
   "more_features": {
     "title": "Add Signatures to Your Documents",
     "description": "The {{ProdFullName}} API supports signing all popular file formats. Generate, modify, search, verify, and delete different types of signatures.",

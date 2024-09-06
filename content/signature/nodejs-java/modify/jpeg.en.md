@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:57:00
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Jpeg
@@ -113,6 +113,10 @@ more_features:
     # feature loop
     - title: "Update Existing Signatures"
       content: "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
+
+    # feature loop
+    - title: "Remove Unwanted Signatures"
+      content: "Whether you need to remove an outdated signature or clean up your document, GroupDocs.Signature for Node.js via Java offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
       
   code_samples:
     # code sample loop
@@ -167,9 +171,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Explore Our Signature and Functionality Options"
     exclude: "modify"
-    description: ""
+    description: "We provide a rich array of signature capabilities along with numerous operational tools"
     items: 
           
         # operation loop 1

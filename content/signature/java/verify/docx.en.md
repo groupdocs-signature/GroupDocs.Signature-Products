@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:43
+date:  2024-09-06T10:45:39
 draft: false
 lang: en
 format: Docx
@@ -172,9 +172,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Additional Features"
+    title: ""
     exclude: "verify"
-    description: "GroupDocs.Signature for Java offers numerous methods to safeguard your documents. Explore the full range of features available."
+    description: ""
     items: 
           
         # operation loop 1

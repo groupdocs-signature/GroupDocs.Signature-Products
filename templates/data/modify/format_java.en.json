@@ -17,6 +17,10 @@
     "title": "Modify Signatures in Various File Formats",
     "description": "Document formats signed using our API for {{EnvName}} can be modified. Retrieve a list of signatures from a document and update any accessible properties."
   },
+  "operations": {
+    "title": "Investigate Our Feature Portfolio",
+    "description": "We proudly support a wide variety of signature formats and operational tools"
+  },
   "more_features": {
     "title": "Signature Management for Documents",
     "description": "{{ProdFullName}} enables you to add, modify, search, verify, and delete signatures across all major industrial file formats.",

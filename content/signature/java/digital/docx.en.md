@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:40
+date:  2024-09-06T10:45:36
 draft: false
 lang: en
 format: Docx
@@ -122,6 +122,10 @@ more_features:
     # feature loop
     - title: "Edit Signatures"
       content: "Most types of signatures support further modification. You are free to correct text, change position, color, size, and more."
+
+    # feature loop
+    - title: "Remove Unnecessary Signatures"
+      content: "Our solution supports full CRUD operations for signatures. Many types of signatures, including digital certificates, can be deleted from a document when necessary."
       
   code_samples:
     # code sample loop
@@ -182,9 +186,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Examine Our Comprehensive Feature Set"
     exclude: "digital"
-    description: ""
+    description: "We take pride in the extensive functionality and signature support our platform offers"
     items: 
           
         # operation loop 1

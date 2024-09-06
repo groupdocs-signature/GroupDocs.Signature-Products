@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-05T19:56:59
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Jpeg
@@ -126,6 +126,10 @@ more_features:
     # feature loop
     - title: "Modify Existing Signatures"
       content: "Modifying previously added signatures is a common task. Use the modification process to update the content, appearance, position, and other properties of a signature."
+
+    # feature loop
+    - title: "Signature Deletion"
+      content: "Our solution fully supports all operations related to signatures. Removing various types of signatures from a document is a simple process."
       
   code_samples:
     # code sample loop
@@ -179,9 +183,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Investigate Our Feature Portfolio"
     exclude: "modify"
-    description: ""
+    description: "We proudly support a wide variety of signature formats and operational tools"
     items: 
           
         # operation loop 1

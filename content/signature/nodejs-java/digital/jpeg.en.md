@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-04T22:50:41
+date:  2024-09-06T10:45:37
 draft: false
 lang: en
 format: Jpeg
@@ -109,6 +109,10 @@ more_features:
     # feature loop
     - title: "Revise Existing Signatures"
       content: "Most signature types allow for post-creation edits. You can easily modify text, reposition elements, adjust colors, resize, and make other necessary changes."
+
+    # feature loop
+    - title: "Eliminate Unnecessary Signatures"
+      content: "Our solution enables full CRUD operations for signatures. If required, you can remove various signature types, including digital certificates, from your document."
       
   code_samples:
     # code sample loop
@@ -170,9 +174,9 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: ""
+    title: "Get to Know Our Main Functions"
     exclude: "digital"
-    description: ""
+    description: "We proudly support a comprehensive suite of signature options and functionalities"
     items: 
           
         # operation loop 1
