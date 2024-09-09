@@ -13,10 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced signing solution that supports a wide range of signature types. You can sign documents with text, images, barcodes, digital certificates, stamps, and more across 60+ file formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signatures in signed documents can be searched, verified, modified, or deleted at any time."
   },
-  "formats": {
-    "title": "Sign Documents in Other Formats",
-    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
-  },
   "more_features": {
     "title": "Enhance or Protect Document Content with Signatures",
     "description": "The {{ProdFullName}} library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures.",
@@ -38,6 +34,20 @@
       "content": "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
     }
   },
+  "formats": {
+    "title": "Sign Documents in Other Formats",
+    "description": "Over 60 formats can be signed using our {{EnvName}} API. Apply various signatures to any page or position within the document."
+  },
+  "operations": {
+    "title": "Discover Our Core Capabilities",
+    "description": "We proudly present an extensive variety of supported signatures and functions"
+  },
+  "examples": {
+    "comment_1": "Create a new {{TextSignature}} instance with the document path",
+    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
+    "comment_3": "Set up the barcode type and other properties",
+    "comment_4": "Save the signed file"
+  },
   "steps": {
     "title": "Steps to Generate and Add a Barcode to {{FileFormatUp}} Documents",
     "content": {
@@ -47,12 +57,6 @@
       "step_3": "Customize barcode options such as position, size, etc.",
       "step_4": "Save the file with the newly added barcode."
     }
-  },
-  "examples": {
-    "comment_1": "Create a new {{TextSignature}} instance with the document path",
-    "comment_2": "Use {{BarcodeSignOptions}} to add a barcode to the document",
-    "comment_3": "Set up the barcode type and other properties",
-    "comment_4": "Save the signed file"
   },
   "code_1": {
     "title": "How to Customize a Barcode Signature",

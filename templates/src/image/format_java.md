@@ -54,6 +54,9 @@ steps:
     code:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
           <dependencies>
@@ -117,35 +120,39 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         ImageSignOptions options = new ImageSignOptions("organization_seal.jpg");
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         options.setWidth(100);
         options.setHeight(100);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         options.setVerticalAlignment(VerticalAlignment.Bottom);
         options.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // <% "{more_features.code_1.comment_5}" %>
+        // <% "{code_1.comment_5}" %>
         Padding padding = new Padding();
         padding.setRight(120);
         padding.setBottom(120);
         options.setMargin(padding);
 
-        // <% "{more_features.code_1.comment_6}" %>
+        // <% "{code_1.comment_6}" %>
         Border border = new Border();
         border.setColor(Color.GREEN);
         border.setDashStyle(DashStyle.DashLongDashDot);
@@ -153,10 +160,10 @@ more_features:
         border.setVisible(true);
         options.setBorder(border);
 
-        // <% "{more_features.code_1.comment_7}" %>
+        // <% "{code_1.comment_7}" %>
         options.setRotationAngle(45);
 
-        // <% "{more_features.code_1.comment_8}" %>
+        // <% "{code_1.comment_8}" %>
         SignResult result = signature.sign("output.<% get "fileformat" %>", options);
         ```
         {{< /landing/code >}}
@@ -179,7 +186,15 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
+
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "<% (dict "formats.title") %>"

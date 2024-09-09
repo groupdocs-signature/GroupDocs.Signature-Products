@@ -1,21 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Digitally Sign {{FileFormatUp}} Documents with {{ProgLang}} Applications",
+    "description": "Leverage the power of {{ProgLang}} API to electronically sign and secure {{FileFormatUp}} documents, including PDFs, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Digitally Secure {{FileFormatUp}} Documents Using {{ProgLang}}",
+    "description": "Embed a variety of electronic signatures into your documents using {{ProdFullName}}, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download for Free"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a comprehensive suite of electronic signing capabilities. With it, you can seamlessly add, search, verify, update, and remove digital signatures across a wide array of document types, without the need for third-party tools. It supports signing PDF files, Word documents, Excel sheets, PowerPoint presentations, and various image formats effortlessly."
+  },
+  "more_features": {
+    "title": "Advanced Document Electronic Signatures",
+    "description": "Our sophisticated e-signing API enhances business workflows, enabling efficient signing, validation, modification, and management of electronic signatures with full automation capabilities.",
+    "image_description": "Electronic Signature Capabilities",
+    "feature_1": {
+      "title": "Electronic Signing for Office Documents",
+      "content": "Seamlessly insert electronic signatures at any position within a document. Customize and enrich content with digital certificates, metadata, barcodes, or visual elements, while ensuring authenticity and security."
+    },
+    "feature_2": {
+      "title": "Comprehensive Signature Management",
+      "content": "Once signed, documents can be further processed with ease. Access a complete overview of existing signatures, enabling precise updates or deletion of signatures where necessary."
+    },
+    "feature_3": {
+      "title": "Enhanced Content Security",
+      "content": "Protect the integrity of your documents using digital certificates. Embed or extract metadata for enhanced document tracking and auditing, ensuring compliance and content authenticity."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Digitally Sign a Wide Range of File Formats",
+    "description": "The {{EnvName}} API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
+  },
+  "operations": {
+    "title": "Explore the Full Scope of Our Features",
+    "description": "We’re proud to offer a vast array of signature options and associated operations"
   },
   "examples": {
     "comment_1": "Load the document into a {{TextSignature}} instance",
@@ -33,29 +54,12 @@
       "step_4": "Save the signed file to the desired destination."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "How to Affix an Image Signature to a Document",
-      "content": "This example illustrates the procedure for applying an image signature to a specific page within a document.",
-      "comment_1": "Provide the source document as an argument",
-      "comment_2": "Specify the path to the image in the signature configuration",
-      "comment_3": "Define the dimensions and target pages for the signature",
-      "comment_4": "Execute the application of the signature to the document"
-    }
+  "code_1": {
+    "title": "How to Affix an Image Signature to a Document",
+    "content": "This example illustrates the procedure for applying an image signature to a specific page within a document.",
+    "comment_1": "Provide the source document as an argument",
+    "comment_2": "Specify the path to the image in the signature configuration",
+    "comment_3": "Define the dimensions and target pages for the signature",
+    "comment_4": "Execute the application of the signature to the document"
   }
 }

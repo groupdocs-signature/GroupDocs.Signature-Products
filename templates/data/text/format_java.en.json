@@ -1,21 +1,46 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Insert Text Signatures into {{FileFormatUp}} Files using {{ProgLang}} Apps",
+    "description": "Leverage the {{ProgLang}} API to insert text signatures into {{FileFormatUp}} files. Seamlessly process popular document formats including PDF, Word, Excel, Presentations, Images, and ZIP."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Insert Text Signatures into {{FileFormatUp}} with {{ProgLang}}",
+    "description": "Easily add custom text signatures to your business documents using {{ProdFullName}}. Streamline organizational workflows with signature customization options.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Start Your Free Trial"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "title": "About the {{ProdFullName}} Solution",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers flexible and customizable text signatures to simplify your document management tasks. Configure the content and design of text signatures and apply them to any page, enhancing your organization’s document workflow with ease."
+  },
+  "more_features": {
+    "title": "Manage Document Text Signatures",
+    "description": "With {{ProdFullName}}, you can streamline your company’s document workflow by adding text signatures to popular file formats. Easily configure the appearance and content of signatures.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Document Signatures",
+      "content": "Apply text, image, barcode, QR code, or stamp signatures to any page of supported documents. Leverage metadata to embed hidden content and secure your documents with digital certificates."
+    },
+    "feature_2": {
+      "title": "Signature Search and Verification",
+      "content": "Ensure the integrity of your signed documents with our signature verification tool. You can also retrieve and search all the signatures embedded within a document."
+    },
+    "feature_3": {
+      "title": "Modify or Remove Signatures",
+      "content": "Modify the content, position, and appearance of previously added signatures, or remove them entirely from the document."
+    },
+    "feature_4": {
+      "title": "Native Text Signatures",
+      "content": "Add document-specific text signatures, such as stickers in PDFs or watermarks in Word documents, for enhanced customization."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Add Text Signatures to Various File Formats",
+    "description": "Utilize the {{EnvName}} API to insert textual signatures into Office documents, ensuring complete control over the content at every stage of the document's lifecycle."
+  },
+  "operations": {
+    "title": "Key Features and Signature Options",
+    "description": "Our solution supports full CRUD operations and more for seven different types of signatures."
   },
   "examples": {
     "comment_1": "Pass the document path to the {{TextSignature}} constructor",
@@ -33,35 +58,18 @@
       "step_4": "Add the text signature to any page(s) of the document."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
-    "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
-    },
-    "code_1": {
-      "title": "Mark Documents with Text Signatures",
-      "content": "Learn how to append textual information to business documents to improve business processes.",
-      "comment_1": "Select a document to be signed",
-      "comment_2": "Create text options with the desired text",
-      "comment_3": "Specify the signature's size and position on the page",
-      "comment_4": "Signatures support padding from the page corners",
-      "comment_5": "Text color and font style can be customized",
-      "comment_6": "Text signatures can include a border",
-      "comment_7": "Background customization is also available",
-      "comment_8": "Signatures can be rotated on the page",
-      "comment_9": "Text can be saved as an image for compatibility",
-      "comment_10": "Save the document with the added text"
-    }
+  "code_1": {
+    "title": "Mark Documents with Text Signatures",
+    "content": "Learn how to append textual information to business documents to improve business processes.",
+    "comment_1": "Select a document to be signed",
+    "comment_2": "Create text options with the desired text",
+    "comment_3": "Specify the signature's size and position on the page",
+    "comment_4": "Signatures support padding from the page corners",
+    "comment_5": "Text color and font style can be customized",
+    "comment_6": "Text signatures can include a border",
+    "comment_7": "Background customization is also available",
+    "comment_8": "Signatures can be rotated on the page",
+    "comment_9": "Text can be saved as an image for compatibility",
+    "comment_10": "Save the document with the added text"
   }
 }

@@ -54,6 +54,9 @@ steps:
     code:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
           <dependencies>
@@ -121,24 +124,24 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         ImageSignOptions options = new ImageSignOptions("image.jpg");
 
-        // <% "{more_features.code_1.comment_3}" %>
+        // <% "{code_1.comment_3}" %>
         options.setLeft(100);
         options.setTop(100);
         options.setAllPages(true);
 
-        // <% "{more_features.code_1.comment_4}" %>
+        // <% "{code_1.comment_4}" %>
         signature.sign("output.<% get "fileformat" %>", options);
 
         ```
@@ -162,7 +165,15 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
+
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "<% (dict "formats.title") %>"

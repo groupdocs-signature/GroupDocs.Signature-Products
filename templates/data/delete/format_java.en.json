@@ -13,10 +13,6 @@
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a comprehensive signing solution, capable of handling various types of signatures such as text, images, barcodes, digital certificates, and stamps. This tool supports over 60 different file formats, including PDFs, MS Office documents, image files, ZIP archives, and many other commonly used formats. Moreover, once signatures are applied, they can be easily searched, verified, edited, or removed whenever needed."
   },
-  "formats": {
-    "title": "Remove Signatures from Various File Formats",
-    "description": "Our {{ProdFullName}} solution supports the removal of signatures from over 60 different file formats."
-  },
   "more_features": {
     "title": "Enhance Business Processes with Signature Management",
     "description": "{{ProdFullName}} is designed for signing and managing business file formats, allowing you to add, modify, verify, or delete signatures as needed.",
@@ -37,6 +33,14 @@
       "title": "Delete Signatures",
       "content": "Our solution fully supports CRUD operations for signatures, allowing you to delete various types of signatures from a document as needed."
     }
+  },
+  "formats": {
+    "title": "Remove Signatures from Various File Formats",
+    "description": "Our {{ProdFullName}} solution supports the removal of signatures from over 60 different file formats."
+  },
+  "operations": {
+    "title": "Learn About Our Key Features",
+    "description": "Explore the diverse operations and signature methods available with our platform"
   },
   "examples": {
     "comment_1": "Pass the document containing the signatures to be deleted to {{TextSignature}}",

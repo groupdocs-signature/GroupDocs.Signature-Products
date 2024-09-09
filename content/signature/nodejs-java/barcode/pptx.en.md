@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-16T17:36:46
+date:  2024-09-06T10:45:38
 draft: false
 lang: en
 format: Pptx
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "nodejs-java"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -170,7 +173,81 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Dive Into Our Primary Features"
+    exclude: "barcode"
+    description: "Experience a broad array of signature types and tools we provide"
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/nodejs-java/esign/pptx/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/nodejs-java/text/pptx/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/nodejs-java/image/pptx/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/nodejs-java/barcode/pptx/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/nodejs-java/qrcode/pptx/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/nodejs-java/digital/pptx/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/nodejs-java/stamp/pptx/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/nodejs-java/search/pptx/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/nodejs-java/verify/pptx/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/nodejs-java/modify/pptx/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/nodejs-java/delete/pptx/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "Sign Across Multiple Document Formats"
@@ -181,31 +258,31 @@ more_formats:
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/nodejs-java//docx/"
+          link: "/signature/nodejs-java/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/nodejs-java//jpeg/"
+          link: "/signature/nodejs-java/barcode/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/nodejs-java//pdf/"
+          link: "/signature/nodejs-java/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/nodejs-java//pptx/"
+          link: "/signature/nodejs-java/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/nodejs-java//xlsx/"
+          link: "/signature/nodejs-java/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

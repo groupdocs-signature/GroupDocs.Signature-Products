@@ -54,6 +54,9 @@ steps:
     code:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
@@ -113,20 +116,20 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
             Console.WriteLine($"\nSource document contains following image signature(s).");
 
-            // <% "{more_features.code_1.comment_3}" %>
+            // <% "{code_1.comment_3}" %>
             foreach (ImageSignature imageSignature in signatures)
             {
                 Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
@@ -154,7 +157,15 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
+
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "<% (dict "formats.title") %>"

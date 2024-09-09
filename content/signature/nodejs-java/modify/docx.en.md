@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:37
+date:  2024-09-06T10:45:40
 draft: false
 lang: en
 format: Docx
@@ -15,30 +15,30 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Add Metadata to DOCX Files in JavaScript Applications"
-head_description: "JavaScript metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Signatures in DOCX Documents Using JavaScript Apps"
+head_description: "Utilize the JavaScript API to revise and manage digital signatures within DOCX formats, including PDF, Word, Excel, PowerPoint, and Image files."
 
 ############################# Header ############################
-title: "Adding Metadata To DOCX In JavaScript" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Node.js via Java."
+title: "Effortlessly Adjust Signatures in DOCX with JavaScript" 
+description: "With GroupDocs.Signature for Node.js via Java, you can modify various electronic signatures embedded in your business documents, including PDFs, Word files, Excel sheets, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Get It Free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Node.js via Java API"
+    title: "Overview of GroupDocs.Signature for Node.js via Java"
     link: "/signature/nodejs-java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) empowers you to not only add signatures but also to adjust them as needed. Whether you're working with PDFs, Word documents, Excel spreadsheets, or presentations, GroupDocs.Signature for Node.js via Java offers seamless control over signature management, making future modifications simple and intuitive.
 
 ############################# Steps ############################
 steps:
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "nodejs-java"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -94,22 +97,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
+  title: "Signature Management for Documents"
+  description: "GroupDocs.Signature for Node.js via Java offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Metadata Functionality"
+  image_description: "Signature Editing"
   features:
     # feature loop
-    - title: "Metadata Access"
-      content: "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    - title: "Flexible Document Signing"
+      content: "Sign your documents with a variety of options—text, images, barcodes, and stamps—at any location in your files. You can also adjust embedded metadata like EXIF data in images and protect sensitive information using digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    - title: "Verify and Search Signatures"
+      content: "Ensure the integrity of your documents by verifying signatures with ease. Use built-in search functionality to locate and manage all signatures within a file, ensuring nothing is overlooked."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    - title: "Update Existing Signatures"
+      content: "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
+
+    # feature loop
+    - title: "Remove Unwanted Signatures"
+      content: "Whether you need to remove an outdated signature or clean up your document, GroupDocs.Signature for Node.js via Java offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
       
   code_samples:
     # code sample loop
@@ -161,42 +168,116 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Explore Our Signature and Functionality Options"
+    exclude: "modify"
+    description: "We provide a rich array of signature capabilities along with numerous operational tools"
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/nodejs-java/esign/docx/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/nodejs-java/text/docx/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/nodejs-java/image/docx/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/nodejs-java/barcode/docx/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/nodejs-java/qrcode/docx/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/nodejs-java/digital/docx/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/nodejs-java/stamp/docx/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/nodejs-java/search/docx/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/nodejs-java/verify/docx/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/nodejs-java/modify/docx/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/nodejs-java/delete/docx/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Edit Signatures Across Multiple File Formats"
     exclude: "DOCX"
-    description: "Multi format documents and images metadata addition API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below."
+    description: "With Node.js via Java API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
     items: 
           
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/nodejs-java//docx/"
+          link: "/signature/nodejs-java/modify/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/nodejs-java//jpeg/"
+          link: "/signature/nodejs-java/modify/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/nodejs-java//pdf/"
+          link: "/signature/nodejs-java/modify/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/nodejs-java//pptx/"
+          link: "/signature/nodejs-java/modify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/nodejs-java//xlsx/"
+          link: "/signature/nodejs-java/modify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

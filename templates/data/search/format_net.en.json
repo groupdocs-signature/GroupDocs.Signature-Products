@@ -1,21 +1,42 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Locate Signatures in {{FileFormatUp}} Documents with {{ProgLang}} Integration",
+    "description": "Utilize the robust capabilities of the {{ProdFullName}} API to efficiently search and retrieve signatures embedded in {{FileFormatUp}} documents, including PDFs, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Effortlessly Search for Signatures in {{FileFormatUp}} Files Using {{ProdShortName}}",
+    "description": "Seamlessly extract a comprehensive list of electronic signatures embedded across various formats like PDFs, Word, Excel, Presentations, and Images, all powered by {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Start Your Free Download"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "title": "Explore {{ProdFullName}} Capabilities",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) delivers cutting-edge functionality for digital document signing. With support for over 60 file formats, including PDFs, MS Office documents, Images, and ZIP files, it allows you to add, search, verify, modify, or remove various signatures, such as text, images, barcodes, QR codes, digital certificates, and stamps."
+  },
+  "more_features": {
+    "title": "Complete Document Signing Ecosystem",
+    "description": "Discover an advanced, feature-rich document signing solution, specifically designed to enhance and secure your documents with multiple signature types across various formats.",
+    "image_description": "Signature Search and Management",
+    "feature_1": {
+      "title": "Sign and Secure Business Documents",
+      "content": "Add digital signatures to any position within a document. {{ProdShortName}} supports an array of signature types, including text, images, barcodes, metadata, stamps, and digital certificates, ensuring document authenticity and compliance."
+    },
+    "feature_2": {
+      "title": "Comprehensive Signature Management",
+      "content": "After signing, leverage the search feature to retrieve all embedded signatures. Modify or delete signatures as needed, providing you with complete control over document integrity."
+    },
+    "feature_3": {
+      "title": "Safeguard Your Document's Integrity",
+      "content": "Utilize advanced tools to manage hidden metadata embedded within documents. Add or remove metadata entries and apply corporate digital certificates to protect against unauthorized edits and ensure document authenticity."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Retrieve Signatures from a Variety of File Formats",
+    "description": "The {{ProdFullName}} API empowers you to extract and manage signatures from a wide array of document types. Effortlessly retrieve embedded signatures from all major file formats for further analysis or processing."
+  },
+  "operations": {
+    "title": "Core Functionalities",
+    "description": "Our API offers extensive flexibility, enabling users to sign documents and conduct comprehensive post-signing operations, such as searching, verifying, and modifying signatures."
   },
   "examples": {
     "comment_1": "Initialize a {{TextSignature}} object with the specified document path",
@@ -33,28 +54,11 @@
       "step_4": "Assess the list of identified signatures."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "Locating Image Signatures",
-      "content": "This example illustrates the process of detecting an image signature within a specified document.",
-      "comment_1": "Provide the source document as an argument to the constructor",
-      "comment_2": "Search for any signatures of the text type",
-      "comment_3": "Present the results with detailed properties of the identified signatures"
-    }
+  "code_1": {
+    "title": "Locating Image Signatures",
+    "content": "This example illustrates the process of detecting an image signature within a specified document.",
+    "comment_1": "Provide the source document as an argument to the constructor",
+    "comment_2": "Search for any signatures of the text type",
+    "comment_3": "Present the results with detailed properties of the identified signatures"
   }
 }

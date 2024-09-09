@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:31
+date:  2024-09-06T19:58:14
 draft: false
 lang: en
 format: Pdf
@@ -15,30 +15,30 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to PDF Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to PDF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Integrate Text Signatures into PDF Files with C# Applications"
+head_description: "Harness the power of the C# API to embed text-based signatures within PDF files, supporting a wide array of formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
-title: "Adding Metadata To PDF In C#" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
+title: "Seamlessly Embed Text Signatures in PDF via C#" 
+description: "Effortlessly integrate custom text signatures into your business documents using GroupDocs.Signature for .NET. Optimize organizational processes with versatile signature customization capabilities."
 subtitle: "GroupDocs.Signature for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Try it Free Today"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for .NET API"
+    title: "Discover the GroupDocs.Signature for .NET Solution"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for .NET](/signature/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any GroupDocs.Signature-based applications with true flexibility
+       [GroupDocs.Signature for .NET](/signature/net/) provides a sophisticated platform for embedding highly customizable text signatures, streamlining your document workflows. Tailor the content and visual attributes of text signatures, applying them seamlessly across pages to elevate document management and enhance operational efficiency.
 
 ############################# Steps ############################
 steps:
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "net"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -88,22 +91,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
+  title: "Comprehensive Text Signature Management"
+  description: "GroupDocs.Signature for .NET empowers your organization by enhancing document workflows through the addition of customizable text signatures across popular file formats. Easily manage the appearance, positioning, and content of these signatures to suit your specific needs."
   image: "/img/signature/features_text.webp" # 500x500 px
-  image_description: "Metadata Manipulation Features"
+  image_description: "Explore the Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Metadata Control"
-      content: "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    - title: "Versatile Document Signatures"
+      content: "Apply a diverse range of signatures—including text, images, barcodes, QR codes, and stamps—onto any page of supported documents. Leverage metadata to embed hidden content, while protecting sensitive information through the use of digital certificates."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    - title: "Signature Search and Authentication"
+      content: "Ensure the validity and integrity of your signed documents by utilizing our robust signature verification tools. Conduct searches to retrieve a comprehensive list of all signatures within a document for further analysis."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    - title: "Update or Remove Signatures"
+      content: "Easily modify the content, visual properties, or positioning of previously embedded signatures. When necessary, remove unwanted signatures to maintain accurate and relevant document content."
+
+    # feature loop
+    - title: "Specialized Text Signatures"
+      content: "Implement document-specific text signatures, such as watermarks for Word documents or stickers for PDFs, to provide an additional layer of customization and control."
       
   code_samples:
     # code sample loop
@@ -180,42 +187,116 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Advanced Features and Signature Options"
+    exclude: "text"
+    description: "Our API supports full lifecycle management of seven signature types, offering comprehensive CRUD capabilities for managing, verifying, and customizing your signatures."
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/net/esign/pdf/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/net/text/pdf/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/net/image/pdf/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/net/barcode/pdf/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/net/qrcode/pdf/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/net/digital/pdf/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/net/stamp/pdf/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/net/search/pdf/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Embed Text Signatures Across Multiple File Formats"
     exclude: "PDF"
-    description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
+    description: "With our .NET API, you can embed textual signatures into a wide variety of Office documents. Take full control of your documents' lifecycle by adding text signatures that enhance both functionality and security."
     items: 
           
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/net//docx/"
+          link: "/signature/net/text/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/net//jpeg/"
+          link: "/signature/net/text/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/net//pdf/"
+          link: "/signature/net/text/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/net//pptx/"
+          link: "/signature/net/text/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/net//xlsx/"
+          link: "/signature/net/text/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

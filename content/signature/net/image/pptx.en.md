@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:31
+date:  2024-09-06T19:58:14
 draft: false
 lang: en
 format: Pptx
@@ -15,30 +15,30 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add Metadata to PPTX Files in C# Applications"
-head_description: "C# metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+head_title: "Embed Image Signatures into PPTX Files with C# Applications"
+head_description: "The C# API facilitates the integration of image signatures into PPTX files. Seamlessly embed image signatures into PDFs, Word documents, Excel spreadsheets, presentations, and various other image formats."
 
 ############################# Header ############################
-title: "Adding Metadata To PPTX In C#" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for .NET API"
+title: "Image-Based Signing of PPTX Using C#" 
+description: "Utilize GroupDocs.Signature for .NET to seamlessly integrate images into a wide array of office document formats, including PDFs, Word, Excel, and image files. Incorporating an image of your boss's signature can create a striking professional impression, elevating the visual appeal and authenticity of your documents."
 subtitle: "GroupDocs.Signature for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Download for Free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for .NET API"
+    title: "Discover GroupDocs.Signature for .NET"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for .NET](/signature/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any GroupDocs.Signature-based applications with true flexibility
+       [GroupDocs.Signature for .NET](/signature/net/) offers comprehensive capabilities for embedding image signatures at any location on any page within your business documents. Enhance your operational workflows by integrating images into PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and a variety of popular image formats through our robust library.
 
 ############################# Steps ############################
 steps:
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "net"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -89,22 +92,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability."
+  title: "Comprehensive Document Signing Solutions"
+  description: "We are pleased to present a wide range of signing functionalities supported by our API. Effortlessly add, modify, delete, search, and verify various signature types, including image-based signatures."
   image: "/img/signature/features_image.webp" # 500x500 px
-  image_description: "Metadata Manipulation Features"
+  image_description: "Image Signing"
   features:
     # feature loop
-    - title: "Metadata Control"
-      content: "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
+    - title: "Embed Images into Office Documents"
+      content: "Seamlessly insert electronic signatures and images at any designated position on any page of a document. Enhance your document content with text, images, barcodes, metadata, or digital certificates to boost functionality and security."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
+    - title: "Signature Search and Verification"
+      content: "Manage signed documents by verifying the authenticity and integrity of signatures. Retrieve a comprehensive list of all signatures within a document and examine their specific attributes."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
+    - title: "Modify Signatures"
+      content: "Occasionally, signatures within documents may require updates. Easily adjust the content, appearance, size, or position of existing signatures to meet evolving requirements."
+
+    # feature loop
+    - title: "Remove Redundant Signatures"
+      content: "Our API facilitates full CRUD operations for the majority of signature types. You can efficiently remove signatures from nearly all supported document formats when necessary."
       
   code_samples:
     # code sample loop
@@ -167,42 +174,116 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Understand Our Feature Offerings"
+    exclude: "image"
+    description: "Explore a diverse set of signature types and robust operations provided by our platform"
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/net/esign/pptx/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/net/text/pptx/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/net/image/pptx/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/net/barcode/pptx/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/net/qrcode/pptx/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/net/digital/pptx/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/net/stamp/pptx/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/net/search/pptx/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/net/verify/pptx/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/net/modify/pptx/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/net/delete/pptx/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Integrate Images into Diverse File Formats"
     exclude: "PPTX"
-    description: "Multi format documents and images metadata addition API for GroupDocs.Signature. Retrieve metadata of some of the popular file formats as stated below."
+    description: "Leverage the .NET API to append supported image formats to an extensive array of documents. Effortlessly resize, position, select specific pages, and apply image-based signatures to your documents."
     items: 
           
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/net//docx/"
+          link: "/signature/net/image/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/net//jpeg/"
+          link: "/signature/net/image/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/net//pdf/"
+          link: "/signature/net/image/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/net//pptx/"
+          link: "/signature/net/image/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/net//xlsx/"
+          link: "/signature/net/image/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

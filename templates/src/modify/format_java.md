@@ -54,6 +54,9 @@ steps:
     code:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: |
           <dependencies>
@@ -122,30 +125,34 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         final Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{more_features.code_1.comment_2}" %>
+        // <% "{code_1.comment_2}" %>
         BarcodeSearchOptions options = new BarcodeSearchOptions();
         List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 
         if (signatures.size() > 0)
         {
-            // <% "{more_features.code_1.comment_3}" %>
+            // <% "{code_1.comment_3}" %>
             BarcodeSignature barcodeSignature = signatures.get(0);
             barcodeSignature.setLeft(100);
             barcodeSignature.setTop(100);
             boolean result = signature.update("output.<% get "fileformat" %>", barcodeSignature);
 
-            // <% "{more_features.code_1.comment_4}" %>
+            // <% "{code_1.comment_4}" %>
             if (result)
             {
                 System.out.print("\nBarcode was updated successfully.");
@@ -172,7 +179,15 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
+
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "<% (dict "formats.title") %>"

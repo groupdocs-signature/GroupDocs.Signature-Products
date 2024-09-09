@@ -54,6 +54,9 @@ steps:
     code:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
@@ -106,28 +109,32 @@ more_features:
     # feature loop
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_4.title}" %>"
+      content: "<% "{more_features.feature_4.content}" %>"
       
   code_samples:
     # code sample loop
-    - title: "<% "{more_features.code_1.title}" %>"
+    - title: "<% "{code_1.title}" %>"
       content: |
-        <% "{more_features.code_1.content}" %>
+        <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // <% "{more_features.code_1.comment_1}" %>
+        // <% "{code_1.comment_1}" %>
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
-            // <% "{more_features.code_1.comment_2}" %>
+            // <% "{code_1.comment_2}" %>
             DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
             {
                 Password = "1234567890",
 
-                // <% "{more_features.code_1.comment_3}" %>
+                // <% "{code_1.comment_3}" %>
                 Reason = "Security issue",
                 Contact = "John Smith",
                 Location = "Office D.W.",
 
-                // <% "{more_features.code_1.comment_4}" %>
+                // <% "{code_1.comment_4}" %>
                 ImageFilePath = "image.png",
                 AllPages = true,
                 VerticalAlignment = VerticalAlignment.Center,
@@ -138,7 +145,7 @@ more_features:
                 Margin = new Padding() {  Bottom = 10, Right = 10 }
             };
 
-            // <% "{more_features.code_1.comment_5}" %>
+            // <% "{code_1.comment_5}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
         }
         ```
@@ -162,7 +169,15 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "<% (dict "operations.title") %>"
+    exclude: "<% get "OperationLow" %>"
+    description: "<% (dict "operations.description") %>"
+<% include "..\\..\\data\\operations_others.md" %>
+
+############################# More Formats ########################
 more_formats:
     enable: true
     title: "<% (dict "formats.title") %>"

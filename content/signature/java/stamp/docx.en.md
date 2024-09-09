@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-08-08T16:38:30
+date:  2024-09-06T19:58:13
 draft: false
 lang: en
 format: Docx
@@ -15,30 +15,30 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Metadata to DOCX Files in Java Applications"
-head_description: "Java metadata processing API to add metadata information to DOCX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Generate Stamps for DOCX Using Java"
+head_description: "Leverage GroupDocs.Signature and Java to create custom stamps and place them on any page within DOCX documents."
 
 ############################# Header ############################
-title: "Adding Metadata To DOCX In Java" 
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Signature for Java."
+title: "Embed Custom Stamps in DOCX with Java" 
+description: "Design and apply stamps to any section of your documents using GroupDocs.Signature for Java. Our solution offers extensive customization options to meet all your business needs."
 subtitle: "GroupDocs.Signature for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Trial"
+    - title: "Download for Free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Signature for Java API"
+    title: "About GroupDocs.Signature for Java"
     link: "/signature/java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Java](/signature/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Signature for Java](/signature/java/) is a robust tool that allows you to add various stamp signatures to documents. It supports over 60 different file formats, including PDFs, Word, Excel, images, and ZIP files. You can apply text, image, barcode, metadata, digital certificate, and stamp signatures. In addition to adding signatures, you can search for, verify, modify, and remove them.
 
 ############################# Steps ############################
 steps:
@@ -55,6 +55,9 @@ steps:
     code:
       platform: "java"
       copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Download signatures"
       install:
         command: |
           <dependencies>
@@ -108,22 +111,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Metadata Management"
-  description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
+  title: "Protect Your Document Content with Signatures"
+  description: "The GroupDocs.Signature for Java library is designed for signing and managing signatures across popular file formats. Effortlessly add, modify, verify, or remove stamps and other types of signatures."
   image: "/img/signature/features_stamp.webp" # 500x500 px
-  image_description: "Metadata Functionality"
+  image_description: "Stamp Signatures with GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Metadata Access"
-      content: "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
+    - title: "Sign Your Documents"
+      content: "Apply customizable signatures to any part of your document. Choose from various signature types, including text, images, barcodes, QR codes, and stamps. Additionally, hidden metadata can be added or modified to enhance document security."
 
     # feature loop
-    - title: "Metadata Editing"
-      content: "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
+    - title: "Search and Validate Signatures"
+      content: "Once a document is signed, use our verification tools to ensure that the signature content is valid. Search for and retrieve a list of all signatures for further processing."
 
     # feature loop
-    - title: "Advanced Metadata Management"
-      content: "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
+    - title: "Update Signatures as Needed"
+      content: "Easily modify a wide range of signatures applied to a document. Update properties such as size, color, position, content, and more."
+
+    # feature loop
+    - title: "Remove Signatures"
+      content: "Need to remove signatures from a document? Our API fully supports signature deletion, making it easy to manage your documents effectively."
       
   code_samples:
     # code sample loop
@@ -193,42 +200,116 @@ actions:
       color: "light"
 
 
-############################# More Formats #####################
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Explore Our Core Features"
+    exclude: "stamp"
+    description: "Utilize a wide range of options for adding, managing, and deleting signatures."
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic Signatures"
+          operation: "esign"
+          link: "/signature/java/esign/docx/"
+          description: "Add various types of signatures to supported file formats."
+
+        # operation loop 2
+        - name: "Add Text to Documents"
+          operation: "text"
+          link: "/signature/java/text/docx/"
+          description: "Enhance document content with customizable text signatures."
+
+        # operation loop 3
+        - name: "Image Signatures"
+          operation: "image"
+          link: "/signature/java/image/docx/"
+          description: "Place any image at any position within a document."
+
+        # operation loop 4
+        - name: "Generate Barcodes"
+          operation: "barcode"
+          link: "/signature/java/barcode/docx/"
+          description: "Create and insert various barcodes into supported documents."
+
+        # operation loop 5
+        - name: "Generate QR Codes"
+          operation: "qrcode"
+          link: "/signature/java/qrcode/docx/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          
+        # operation loop 6
+        - name: "Digital Certificates"
+          operation: "digital"
+          link: "/signature/java/digital/docx/"
+          description: "Secure business documents using digital certificates."
+
+        # operation loop 7
+        - name: "Stamp Signatures"
+          operation: "stamp"
+          link: "/signature/java/stamp/docx/"
+          description: "Use the Stamp Constructor to create custom round or square stamps."
+          
+        # operation loop 8
+        - name: "Search Signatures"
+          operation: "search"
+          link: "/signature/java/search/docx/"
+          description: "Locate any previously added signatures within a document."
+          
+        # operation loop 9
+        - name: "Signature Verification"
+          operation: "verify"
+          link: "/signature/java/verify/docx/"
+          description: "Verify the authenticity of signatures after they have been applied."
+          
+        # operation loop 10
+        - name: "Modify Signatures"
+          operation: "modify"
+          link: "/signature/java/modify/docx/"
+          description: "Easily edit a variety of signatures within a document."
+          
+        # operation loop 11
+        - name: "Delete Signatures"
+          operation: "delete"
+          link: "/signature/java/delete/docx/"
+          description: "Remove a wide range of previously applied signatures."
+          
+############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Apply Stamps Across Multiple File Formats"
     exclude: "DOCX"
-    description: "Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below."
+    description: "The GroupDocs.Signature API supports stamping documents in over 60 formats. Place stamps on any page or area to improve document management and customization."
     items: 
           
         # format loop 1
         - name: "Watermark DOCX"
           format: "DOCX"
-          link: "/signature/java//docx/"
+          link: "/signature/java/stamp/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 2
         - name: "Watermark JPEG"
           format: "JPEG"
-          link: "/signature/java//jpeg/"
+          link: "/signature/java/stamp/jpeg/"
           description: "JPEG Image"
           
         # format loop 3
         - name: "Watermark PDF"
           format: "PDF"
-          link: "/signature/java//pdf/"
+          link: "/signature/java/stamp/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 4
         - name: "Watermark PPTX"
           format: "PPTX"
-          link: "/signature/java//pptx/"
+          link: "/signature/java/stamp/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
         - name: "Watermark XLSX"
           format: "XLSX"
-          link: "/signature/java//xlsx/"
+          link: "/signature/java/stamp/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
 

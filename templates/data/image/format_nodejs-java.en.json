@@ -1,21 +1,46 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Integrate Image Signatures into {{FileFormatUp}} Documents with {{ProgLang}} Solutions",
+    "description": "Leverage the power of {{ProgLang}} applications to insert image-based signatures into {{FileFormatUp}} files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Sign {{FileFormatUp}} Files Using Image Signatures in {{ProgLang}}",
+    "description": "Leverage the capabilities of {{ProdFullName}} to effortlessly embed images into a multitude of office document formats such as PDFs, Word, Excel, and various image files. Adding an executive signature image can significantly enhance the professionalism and credibility of your documents, creating a refined and polished presentation.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download for Free"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "title": "Introducing {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) empowers users to incorporate image signatures at any location within your documents. This tool enables businesses to streamline their workflows by adding images to PDFs, Word, Excel, PowerPoint, and popular image formats, improving document management efficiency."
+  },
+  "more_features": {
+    "title": "Advanced Document Signing Capabilities",
+    "description": "Our API offers a suite of features that simplify electronic signing. You can add, modify, remove, search, and verify multiple types of signatures, including image signatures, with ease.",
+    "image_description": "Image Signatures",
+    "feature_1": {
+      "title": "Incorporate Images into Office Documents",
+      "content": "Easily place image signatures anywhere within your document, whether it's PDFs, Word, or Excel files. Enhance your documents by adding images, barcodes, metadata, or digital certificates for added functionality."
+    },
+    "feature_2": {
+      "title": "Search and Validate Signatures",
+      "content": "Ensure the authenticity of your signed documents by verifying the signatures. Use search functionality to retrieve and review all the signatures embedded within your document."
+    },
+    "feature_3": {
+      "title": "Modify Existing Signatures",
+      "content": "Our API enables users to update and adjust signatures as needed. Modify the size, position, or other attributes of any previously added signature for flexibility in document handling."
+    },
+    "feature_4": {
+      "title": "Remove Unnecessary Signatures",
+      "content": "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Add Images to Various File Types",
+    "description": "The {{EnvName}} API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
+  },
+  "operations": {
+    "title": "Discover the Functions We Offer",
+    "description": "We are proud to showcase a broad selection of signature methods and operations"
   },
   "examples": {
     "comment_1": "Initialize {{TextSignature}} with the path to the document",
@@ -33,33 +58,16 @@
       "step_4": "Save the signed document to the desired location"
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
-    "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
-    },
-    "code_1": {
-      "title": "Enhance Documents with Image Signatures",
-      "content": "Learn how to incorporate images into business documents to add supplementary information.",
-      "comment_1": "Select the document to be signed",
-      "comment_2": "Configure image options with the image path",
-      "comment_3": "Adjust the size of the image signature",
-      "comment_4": "Place the image at the bottom-right corner",
-      "comment_5": "Apply padding from the page corners if needed",
-      "comment_6": "Optionally, add a custom border to the image",
-      "comment_7": "Rotate the image signature for optimal appearance",
-      "comment_8": "Save the updated document to the desired location"
-    }
+  "code_1": {
+    "title": "Enhance Documents with Image Signatures",
+    "content": "Learn how to incorporate images into business documents to add supplementary information.",
+    "comment_1": "Select the document to be signed",
+    "comment_2": "Configure image options with the image path",
+    "comment_3": "Adjust the size of the image signature",
+    "comment_4": "Place the image at the bottom-right corner",
+    "comment_5": "Apply padding from the page corners if needed",
+    "comment_6": "Optionally, add a custom border to the image",
+    "comment_7": "Rotate the image signature for optimal appearance",
+    "comment_8": "Save the updated document to the desired location"
   }
 }

@@ -1,21 +1,46 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Protect {{FileFormatUp}} from Unauthorized Modifications Using {{ProgLang}} Applications",
+    "description": "Harness the power of {{ProgLang}} applications with {{ProdShortName}} to secure {{FileFormatUp}} documents through digital certificates."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}}.",
+    "title": "Safeguard {{FileFormatUp}} with Digital Certificates via {{ProgLang}}",
+    "description": "Ensure the security of your business documents by embedding digital certificates using the advanced capabilities of {{ProdFullName}}. We offer flexible options to protect and authenticate your documents.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download for Free"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "title": "About {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive signing solution designed to handle a variety of document processing needs. It allows you to incorporate text, images, digital certificates, and stamps into over 60 different file formats, including PDF, MS Office, images, and ZIP files. Additionally, signed documents can be easily searched, verified, edited, or deleted when necessary."
+  },
+  "more_features": {
+    "title": "Optimize or Secure Document Content with Signatures",
+    "description": "{{ProdFullName}} is built to sign all major file formats, offering you the ability to add, adjust, verify, or remove various types of signatures with ease.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Add Signatures to Your Documents",
+      "content": "Easily place Text, Image, Barcode, QR-Code, or Stamp signatures on any page of supported documents. You can also insert or edit hidden metadata, such as EXIF in images. Protect your document content from unauthorized alterations with digital certificates."
+    },
+    "feature_2": {
+      "title": "Locate and Verify Signatures",
+      "content": "Post-signing, your document can undergo multiple verifications. Confirm the integrity of the signed content, or conduct a detailed search to list all existing signatures."
+    },
+    "feature_3": {
+      "title": "Revise Existing Signatures",
+      "content": "Most signature types allow for post-creation edits. You can easily modify text, reposition elements, adjust colors, resize, and make other necessary changes."
+    },
+    "feature_4": {
+      "title": "Eliminate Unnecessary Signatures",
+      "content": "Our solution enables full CRUD operations for signatures. If required, you can remove various signature types, including digital certificates, from your document."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Sign Documents Across Multiple Formats",
+    "description": "The {{EnvName}} API supports over 60 formats, enabling you to apply a range of signatures on any page, enforce content security with digital certificates, and manage signatures within the document effectively."
+  },
+  "operations": {
+    "title": "Get to Know Our Main Functions",
+    "description": "We proudly support a comprehensive suite of signature options and functionalities"
   },
   "examples": {
     "comment_1": "Utilize {{TextSignature}} to apply a digital signature to the document",
@@ -33,30 +58,13 @@
       "step_4": "Sign the document to prevent any future alterations."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Metadata Functionality",
-    "feature_1": {
-      "title": "Metadata Access",
-      "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Modify document metadata directly. Update properties for better organization, searchability, and information accuracy."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Perform complex operations on document metadata. Efficiently handle tasks like adding custom properties, deleting irrelevant data, and ensuring data consistency."
-    },
-    "code_1": {
-      "title": "Protect Documents with Digital Signatures",
-      "content": "Learn how to lock a document against changes using digital signatures.",
-      "comment_1": "Provide the document that requires signing",
-      "comment_2": "Use an appropriate digital certificate and its password",
-      "comment_3": "Include any additional text information",
-      "comment_4": "Add visual elements like images for the signature representation",
-      "comment_5": "Save the digitally secured document to a specified location"
-    }
+  "code_1": {
+    "title": "Protect Documents with Digital Signatures",
+    "content": "Learn how to lock a document against changes using digital signatures.",
+    "comment_1": "Provide the document that requires signing",
+    "comment_2": "Use an appropriate digital certificate and its password",
+    "comment_3": "Include any additional text information",
+    "comment_4": "Add visual elements like images for the signature representation",
+    "comment_5": "Save the digitally secured document to a specified location"
   }
 }

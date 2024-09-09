@@ -1,21 +1,46 @@
 {
   "head": {
-    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc"
+    "title": "Authenticate Signatures in {{FileFormatUp}} Using {{ProgLang}}",
+    "description": "Leverage the powerful {{ProdFullName}} to authenticate signatures embedded in {{FileFormatUp}} files. Validate the legitimacy of signatures across PDFs, Word, Excel, Presentations, Images, and ZIP formats."
   },
   "header": {
-    "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
-    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProdFullName}} API",
+    "title": "Signature Authentication in {{FileFormatUp}} Files Using {{ProdShortName}}",
+    "description": "Efficiently verify all supported electronic signatures across multiple formats like PDF, Word, Excel, Presentations, Images, or ZIP files with the comprehensive features of {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Free Trial"
+    "action_title": "Download Free Version"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing {{EnvName}} programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any {{ProdShortName}}-based applications with true flexibility"
+    "title": "Key Applications of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) supports complete CRUD capabilities for document signature management. You can sign over 60 different formats, including PDFs, MS Office files, Images, and ZIP archives, using various signature types such as text, images, barcodes, digital certificates, metadata, and stamps. In addition to signing, it allows you to search for, validate, update, or remove signatures."
+  },
+  "more_features": {
+    "title": "Advanced Document Authentication Suite",
+    "description": "{{ProdShortName}} is a comprehensive solution designed to streamline document signing and authentication across widely used formats. It offers 7 signature types and full CRUD operations to ensure comprehensive protection and management of your document content.",
+    "image_description": "Signature Verification Features",
+    "feature_1": {
+      "title": "Streamline Corporate Document Signing",
+      "content": "Seamlessly apply customized digital signatures to any section of your documents. With support for text, image, barcode, metadata, stamp, and digital certificate signatures, {{ProdFullName}} ensures your documents meet corporate standards."
+    },
+    "feature_2": {
+      "title": "Full Signature Lifecycle Management",
+      "content": "Easily manage the entire lifecycle of signatures within documents. Access, verify, update, or remove any signature as needed, ensuring your documents remain up-to-date and accurate."
+    },
+    "feature_3": {
+      "title": "Document Content Integrity Protection",
+      "content": "Secure your sensitive documents by embedding digital certificates that prevent unauthorized alterations. Additionally, add hidden metadata to safeguard critical information and enforce content integrity."
+    },
+    "feature_4": {
+      "title": "Tailored Native Signatures",
+      "content": "Take advantage of document-specific signature types such as PDF stamps and Word watermarks. These tailored signatures are ideal for branding, watermarking, or compliance purposes, delivering a refined professional touch to your corporate documents."
+    }
   },
   "formats": {
-    "title": "Adding Metadata Properties To Other File Formats",
-    "description": "Multi format documents and images metadata addition API for {{ProdShortName}}. Retrieve metadata of some of the popular file formats as stated below."
+    "title": "Cross-Format Signature Verification",
+    "description": "{{ProdFullName}} enables you to efficiently verify signatures across a wide range of document formats. Set customizable verification parameters to ensure document integrity and compliance."
+  },
+  "operations": {
+    "title": "Comprehensive Operations and Signature Types",
+    "description": "Explore the extensive range of features and signature management operations available with {{ProdShortName}}, supporting full control over your document's signature processes."
   },
   "examples": {
     "comment_1": "Initialize a {{TextSignature}} instance with the document",
@@ -33,29 +58,12 @@
       "step_4": "Review and interpret the verification results."
     }
   },
-  "more_features": {
-    "title": "Document Metadata Management",
-    "description": "Our robust API simplifies the management of document metadata. Seamlessly access, edit, and manipulate a variety of document properties to enhance organization and searchability.",
-    "image_description": "Metadata Manipulation Features",
-    "feature_1": {
-      "title": "Metadata Control",
-      "content": "Easily retrieve and process metadata from documents. Gain valuable insights into properties such as author, creation date, and more."
-    },
-    "feature_2": {
-      "title": "Metadata Editing",
-      "content": "Directly modify document metadata. Update properties to improve organization, boost searchability, and ensure accurate information."
-    },
-    "feature_3": {
-      "title": "Advanced Metadata Management",
-      "content": "Execute complex operations on document metadata. Efficiently add custom properties, remove unnecessary data, and maintain data consistency."
-    },
-    "code_1": {
-      "title": "Authenticate Barcode Signatures",
-      "content": "This example illustrates the procedure for authenticating barcode signatures within a document.",
-      "comment_1": "Submit the document containing barcode signatures",
-      "comment_2": "Configure the verification options to match barcodes with specific text criteria",
-      "comment_3": "Authenticate the signatures embedded in the document",
-      "comment_4": "Present the outcomes of the authentication process"
-    }
+  "code_1": {
+    "title": "Authenticate Barcode Signatures",
+    "content": "This example illustrates the procedure for authenticating barcode signatures within a document.",
+    "comment_1": "Submit the document containing barcode signatures",
+    "comment_2": "Configure the verification options to match barcodes with specific text criteria",
+    "comment_3": "Authenticate the signatures embedded in the document",
+    "comment_4": "Present the outcomes of the authentication process"
   }
 }
