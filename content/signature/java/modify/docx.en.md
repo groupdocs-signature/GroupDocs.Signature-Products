@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:40
+date:  2024-09-11T17:34:47
 draft: false
 lang: en
 format: Docx
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -263,31 +263,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/modify/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/modify/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Modify PDF Signatures"
           format: "PDF"
           link: "/signature/java/modify/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Modify DOCX Signatures"
+          format: "DOCX"
+          link: "/signature/java/modify/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Modify JPEG Signatures"
+          format: "JPEG"
+          link: "/signature/java/modify/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Modify PPTX Signatures"
           format: "PPTX"
           link: "/signature/java/modify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Modify XLSX Signatures"
           format: "XLSX"
           link: "/signature/java/modify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

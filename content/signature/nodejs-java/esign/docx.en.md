@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:38
+date:  2024-09-11T17:34:46
 draft: false
 lang: en
 format: Docx
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -237,31 +237,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/esign/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/esign/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "e-Sign PDFs"
           format: "PDF"
           link: "/signature/nodejs-java/esign/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "e-Sign DOCX"
+          format: "DOCX"
+          link: "/signature/nodejs-java/esign/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "e-Sign JPEG"
+          format: "JPEG"
+          link: "/signature/nodejs-java/esign/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "e-Sign PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/esign/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "e-Sign XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/esign/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

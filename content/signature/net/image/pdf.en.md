@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:14
+date:  2024-09-11T17:34:44
 draft: false
 lang: en
 format: Pdf
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -257,31 +257,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/image/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/image/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Sign PDF with Image"
           format: "PDF"
           link: "/signature/net/image/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Sign DOCX with Image"
+          format: "DOCX"
+          link: "/signature/net/image/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Sign JPEG with Image"
+          format: "JPEG"
+          link: "/signature/net/image/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Sign PPTX with Image"
           format: "PPTX"
           link: "/signature/net/image/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Sign XLSX with Image"
           format: "XLSX"
           link: "/signature/net/image/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

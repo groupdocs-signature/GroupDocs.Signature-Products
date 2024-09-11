@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:36
+date:  2024-09-11T17:34:45
 draft: false
 lang: en
 format: Jpeg
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -266,31 +266,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/digital/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/digital/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Protect PDF"
           format: "PDF"
           link: "/signature/java/digital/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Protect DOCX"
+          format: "DOCX"
+          link: "/signature/java/digital/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: ""
+          format: "JPEG"
+          link: "/signature/java/digital/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Protect PPTX"
           format: "PPTX"
           link: "/signature/java/digital/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Protect XLSX"
           format: "XLSX"
           link: "/signature/java/digital/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

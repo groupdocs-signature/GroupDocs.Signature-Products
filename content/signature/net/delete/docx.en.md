@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:40
+date:  2024-09-11T17:34:48
 draft: false
 lang: en
 format: Docx
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -247,31 +247,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/delete/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/delete/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Delete PDF Signatures"
           format: "PDF"
           link: "/signature/net/delete/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Delete DOCX Signatures"
+          format: "DOCX"
+          link: "/signature/net/delete/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Delete JPEG Signatures"
+          format: "JPEG"
+          link: "/signature/net/delete/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Delete PPTX Signatures"
           format: "PPTX"
           link: "/signature/net/delete/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Delete XLSX Signatures"
           format: "XLSX"
           link: "/signature/net/delete/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

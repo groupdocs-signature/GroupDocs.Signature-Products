@@ -1,78 +1,103 @@
 {
   "common-content": {
     "format-formats": {
-      "excel": {
-        "name": "Sign Excel programmatically",
-        "description": "MS Excel and Open Office spreadsheets"
-      },
-      "word": {
-        "name": "Watermark Word",
-        "description": "MS Word and Open Office documents"
-      },
-      "powerpoint": {
-        "name": "Watermark PowerPoint",
-        "description": "MS PowerPoint and Open Office presentations"
-      },
-      "image": {
-        "name": "Watermark Image",
-        "description": "Popular image formats"
-      },
-      "photo": {
-        "name": "Watermark Photo",
-        "description": "Photo formats"
-      },
       "pdf": {
-        "name": "Watermark PDF",
         "description": "Adobe Portable Document Format"
       },
-      "doc": {
-        "name": "Watermark DOC",
-        "description": "Microsoft Word 97 - 2007 Document"
-      },
       "docx": {
-        "name": "Watermark DOCX",
         "description": "Microsoft Word Open XML Document"
       },
-      "xls": {
-        "name": "Watermark XLS",
-        "description": "Microsoft Excel Workbook 97-2003"
-      },
       "xlsx": {
-        "name": "Watermark XLSX",
         "description": "Microsoft Excel Open XML Spreadsheet"
       },
-      "ppt": {
-        "name": "Watermark PPT",
-        "description": "PowerPoint Presentation 97-2003"
-      },
       "pptx": {
-        "name": "Watermark PPTX",
         "description": "PowerPoint Open XML Presentation"
       },
       "jpeg": {
-        "name": "Watermark JPEG",
         "description": "JPEG Image"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-Sign PDFs",
+        "docx": "e-Sign DOCX",
+        "xlsx": "e-Sign XLSX",
+        "pptx": "e-Sign PPTX",
+        "jpeg": "e-Sign JPEG"
       },
-      "png": {
-        "name": "Watermark PNG",
-        "description": "Portable Network Graphic"
+      "text": {
+        "pdf": "PDF Text Signatures",
+        "docx": "DOCX Text Signatures",
+        "xlsx": "XLSX Text Signatures",
+        "pptx": "PPTX Text Signatures",
+        "jpeg": "JPEG Text Signatures"
       },
-      "tiff": {
-        "name": "Watermark TIFF",
-        "description": "Tag Image File Format"
+      "image": {
+        "pdf": "Sign PDF with Image",
+        "docx": "Sign DOCX with Image",
+        "xlsx": "Sign XLSX with Image",
+        "pptx": "Sign PPTX with Image",
+        "jpeg": "Sign JPEG with Image"
       },
-      "webp": {
-        "name": "Watermark WEBP",
-        "description": "WEB Picture"
+      "barcode": {
+        "pdf": "Add Barcode to {PDF",
+        "docx": "Add Barcode to {DOCX",
+        "xlsx": "Add Barcode to {XLSX",
+        "pptx": "Add Barcode to {PPTX",
+        "jpeg": "Add Barcode to {JPEG"
       },
-      "rtf": {
-        "name": "Watermark RTF",
-        "description": "Rich Text Format"
+      "qrcode": {
+        "pdf": "QR-Code for PDF",
+        "docx": "QR-Code for DOCX",
+        "xlsx": "QR-Code for XLSX",
+        "pptx": "QR-Code for PPTX",
+        "jpeg": "QR-Code for JPEG"
+      },
+      "digital": {
+        "pdf": "Protect PDF",
+        "docx": "Protect DOCX",
+        "xlsx": "Protect XLSX",
+        "pptx": "Protect PPTX"
+      },
+      "stamp": {
+        "pdf": "Stamp PDF",
+        "docx": "Stamp DOCX",
+        "xlsx": "Stamp XLSX",
+        "pptx": "Stamp PPTX",
+        "jpeg": "Stamp JPEG"
+      },
+      "search": {
+        "pdf": "Search Signatures in PDF",
+        "docx": "Search Signatures in DOCX",
+        "xlsx": "Search Signatures in XLSX",
+        "pptx": "Search Signatures in PPTX",
+        "jpeg": "Search Signatures in JPEG"
+      },
+      "verify": {
+        "pdf": "Verify PDF Signatures",
+        "docx": "Verify DOCX Signatures",
+        "xlsx": "Verify XLSX Signatures",
+        "pptx": "Verify PPTX Signatures",
+        "jpeg": "Verify JPEG Signatures"
+      },
+      "modify": {
+        "pdf": "Modify PDF Signatures",
+        "docx": "Modify DOCX Signatures",
+        "xlsx": "Modify XLSX Signatures",
+        "pptx": "Modify PPTX Signatures",
+        "jpeg": "Modify JPEG Signatures"
+      },
+      "delete": {
+        "pdf": "Delete PDF Signatures",
+        "docx": "Delete DOCX Signatures",
+        "xlsx": "Delete XLSX Signatures",
+        "pptx": "Delete PPTX Signatures",
+        "jpeg": "Delete JPEG Signatures"
       }
     },
     "format-code": {
       "copy_title": "Copy",
-      "result_title": "Download signatures",
+      "result_title": "Sample signatures",
       "copy_tip": "click to copy",
       "copy_done": "copied",
       "links": {

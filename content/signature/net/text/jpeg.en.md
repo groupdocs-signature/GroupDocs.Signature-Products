@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:14
+date:  2024-09-11T17:34:44
 draft: false
 lang: en
 format: Jpeg
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -270,31 +270,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/text/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/text/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "PDF Text Signatures"
           format: "PDF"
           link: "/signature/net/text/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "DOCX Text Signatures"
+          format: "DOCX"
+          link: "/signature/net/text/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "JPEG Text Signatures"
+          format: "JPEG"
+          link: "/signature/net/text/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "PPTX Text Signatures"
           format: "PPTX"
           link: "/signature/net/text/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "XLSX Text Signatures"
           format: "XLSX"
           link: "/signature/net/text/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

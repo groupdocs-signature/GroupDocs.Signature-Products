@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:18
+date:  2024-09-11T17:34:46
 draft: false
 lang: en
 format: Docx
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -254,31 +254,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/search/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/search/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Search Signatures in PDF"
           format: "PDF"
           link: "/signature/java/search/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Search Signatures in DOCX"
+          format: "DOCX"
+          link: "/signature/java/search/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Search Signatures in JPEG"
+          format: "JPEG"
+          link: "/signature/java/search/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Search Signatures in PPTX"
           format: "PPTX"
           link: "/signature/java/search/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Search Signatures in XLSX"
           format: "XLSX"
           link: "/signature/java/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
