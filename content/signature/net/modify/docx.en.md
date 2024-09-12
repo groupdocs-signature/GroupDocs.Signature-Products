@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-12T18:38:41
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Effortlessly Edit Signatures in DOCX Files with C# Solutions"
+head_title: "Modify DOCX signatures in C# solutions"
 head_description: "The C# API offers advanced functionality to modify signatures embedded within DOCX documents, such as PDFs, Word files, Excel sheets, Presentations, and Images."
 
 ############################# Header ############################
-title: "Seamlessly Update DOCX Signatures via C#" 
+title: "Seamlessly update DOCX signatures" 
 description: "Unlock the ability to edit a wide spectrum of electronic signatures across popular business formats like PDF, Word, Excel, Presentations, and Images with the power of GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now for Free"
+    - title: "Download now for free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover the Power of GroupDocs.Signature for .NET"
+    title: "Discover the power of GroupDocs.Signature for .NET"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Editing Text Signatures in DOCX using C#"
+    title: "Steps for editing text signatures in DOCX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) empowers .NET developers to revise the content of text signatures previously embedded in DOCX files. Augment .NET applications with advanced capabilities.
       
@@ -98,30 +98,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Signature Management for Documents"
+  title: "Comprehensive signature management for documents"
   description: "With GroupDocs.Signature for .NET, you can efficiently add, update, search, verify, or delete signatures across all major document formats, simplifying your document workflow."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Advanced Signature Modification"
+  image_description: "Advanced signature modification"
   features:
     # feature loop
-    - title: "Versatile Document Signing"
+    - title: "Versatile document signing"
       content: "Our solution excels in applying diverse signatures, including text, images, barcodes, and stamps, to any part of a document. You can also embed and modify hidden metadata like EXIF in images, while safeguarding documents against unauthorized alterations using digital certificates."
 
     # feature loop
-    - title: "Efficient Signature Search and Validation"
+    - title: "Efficient signature search and validation"
       content: "Leverage powerful tools to verify the accuracy and validity of signatures. Access a complete list of embedded signatures within a document, streamlining the verification process."
 
     # feature loop
-    - title: "Streamlined Signature Updates"
+    - title: "Streamlined signature updates"
       content: "Modify previously added signatures with ease. Adjust the content, style, placement, and other signature-specific attributes to meet evolving document requirements."
 
     # feature loop
-    - title: "Effortless Signature Removal"
+    - title: "Effortless signature removal"
       content: "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
       
   code_samples:
     # code sample loop
-    - title: "Modify Barcode Signatures"
+    - title: "Modify barcode signatures"
       content: |
         This example illustrates how to programmatically modify barcode signatures in a document.
         {{< landing/code title="C#">}}
@@ -172,7 +172,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Browse Our Extensive Feature Set"
+    title: "Browse our extensive feature set"
     exclude: "modify"
     description: "Discover the full range of signature formats and operations supported by our platform"
     items: 
@@ -246,7 +246,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Modify Signatures Across Multiple File Types"
+    title: "Modify signatures across multiple file types"
     exclude: "DOCX"
     description: "Documents signed with our .NET API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
     items: 

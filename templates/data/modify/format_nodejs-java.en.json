@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Edit Signatures in {{FileFormatUp}} Documents Using {{ProgLang}} Apps",
+    "title": "Update {{FileFormatUp}} documents signatures using {{ProgLang}} apps",
     "description": "Utilize the {{ProgLang}} API to revise and manage digital signatures within {{FileFormatUp}} formats, including PDF, Word, Excel, PowerPoint, and Image files."
   },
   "header": {
-    "title": "Effortlessly Adjust Signatures in {{FileFormatUp}} with {{ProgLang}}",
+    "title": "Effortlessly adjust signatures in {{FileFormatUp}}",
     "description": "With {{ProdFullName}}, you can modify various electronic signatures embedded in your business documents, including PDFs, Word files, Excel sheets, presentations, and image formats.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get It Free"
@@ -14,32 +14,32 @@
     "content": "[{{ProdFullName}}]({{PlatformLink}}) empowers you to not only add signatures but also to adjust them as needed. Whether you're working with PDFs, Word documents, Excel spreadsheets, or presentations, {{ProdFullName}} offers seamless control over signature management, making future modifications simple and intuitive."
   },
   "more_features": {
-    "title": "Signature Management for Documents",
+    "title": "Signature management for documents",
     "description": "{{ProdFullName}} offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security.",
-    "image_description": "Signature Editing",
+    "image_description": "Signature editing",
     "feature_1": {
-      "title": "Flexible Document Signing",
+      "title": "Flexible document signing",
       "content": "Sign your documents with a variety of options—text, images, barcodes, and stamps—at any location in your files. You can also adjust embedded metadata like EXIF data in images and protect sensitive information using digital certificates."
     },
     "feature_2": {
-      "title": "Verify and Search Signatures",
+      "title": "Verify and search signatures",
       "content": "Ensure the integrity of your documents by verifying signatures with ease. Use built-in search functionality to locate and manage all signatures within a file, ensuring nothing is overlooked."
     },
     "feature_3": {
-      "title": "Update Existing Signatures",
+      "title": "Update existing signatures",
       "content": "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
     },
     "feature_4": {
-      "title": "Remove Unwanted Signatures",
+      "title": "Remove unwanted signatures",
       "content": "Whether you need to remove an outdated signature or clean up your document, {{ProdFullName}} offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
     }
   },
   "formats": {
-    "title": "Edit Signatures Across Multiple File Formats",
+    "title": "Edit signatures across multiple file formats",
     "description": "With {{EnvName}} API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
   },
   "operations": {
-    "title": "Explore Our Signature and Functionality Options",
+    "title": "Explore our signature and functionality options",
     "description": "We provide a rich array of signature capabilities along with numerous operational tools"
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Verify the changes made to the signature"
   },
   "steps": {
-    "title": "Guidelines for Modifying Text Signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "title": "Guide to modifying text signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to update the content of text signatures previously embedded in {{FileFormatUp}} files. Enhance {{EnvName}} applications with robust editing capabilities.",
       "step_1": "Import the {{FileFormatUp}} document into the {{TextSignature}} instance.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Edit Barcode Signatures",
+    "title": "Edit barcode signatures",
     "content": "This example demonstrates how to programmatically edit barcode signatures within a document.",
     "comment_1": "Load a document that includes barcode signatures",
     "comment_2": "Identify all barcode signatures within the document",

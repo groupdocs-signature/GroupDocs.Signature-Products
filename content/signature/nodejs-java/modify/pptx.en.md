@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-12T18:38:41
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Edit Signatures in PPTX Documents Using JavaScript Apps"
+head_title: "Update PPTX documents signatures using JavaScript apps"
 head_description: "Utilize the JavaScript API to revise and manage digital signatures within PPTX formats, including PDF, Word, Excel, PowerPoint, and Image files."
 
 ############################# Header ############################
-title: "Effortlessly Adjust Signatures in PPTX with JavaScript" 
+title: "Effortlessly adjust signatures in PPTX" 
 description: "With GroupDocs.Signature for Node.js via Java, you can modify various electronic signatures embedded in your business documents, including PDFs, Word files, Excel sheets, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Modifying Text Signatures in PPTX using JavaScript"
+    title: "Guide to modifying text signatures in PPTX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java developers to update the content of text signatures previously embedded in PPTX files. Enhance Node.js via Java applications with robust editing capabilities.
       
@@ -97,30 +97,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Signature Management for Documents"
+  title: "Signature management for documents"
   description: "GroupDocs.Signature for Node.js via Java offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Signature Editing"
+  image_description: "Signature editing"
   features:
     # feature loop
-    - title: "Flexible Document Signing"
+    - title: "Flexible document signing"
       content: "Sign your documents with a variety of options—text, images, barcodes, and stamps—at any location in your files. You can also adjust embedded metadata like EXIF data in images and protect sensitive information using digital certificates."
 
     # feature loop
-    - title: "Verify and Search Signatures"
+    - title: "Verify and search signatures"
       content: "Ensure the integrity of your documents by verifying signatures with ease. Use built-in search functionality to locate and manage all signatures within a file, ensuring nothing is overlooked."
 
     # feature loop
-    - title: "Update Existing Signatures"
+    - title: "Update existing signatures"
       content: "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
 
     # feature loop
-    - title: "Remove Unwanted Signatures"
+    - title: "Remove unwanted signatures"
       content: "Whether you need to remove an outdated signature or clean up your document, GroupDocs.Signature for Node.js via Java offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
       
   code_samples:
     # code sample loop
-    - title: "Edit Barcode Signatures"
+    - title: "Edit barcode signatures"
       content: |
         This example demonstrates how to programmatically edit barcode signatures within a document.
         {{< landing/code title="JavaScript">}}
@@ -171,7 +171,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Signature and Functionality Options"
+    title: "Explore our signature and functionality options"
     exclude: "modify"
     description: "We provide a rich array of signature capabilities along with numerous operational tools"
     items: 
@@ -245,7 +245,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Edit Signatures Across Multiple File Formats"
+    title: "Edit signatures across multiple file formats"
     exclude: "PPTX"
     description: "With Node.js via Java API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
     items: 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-12T18:38:41
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Modify Signatures in DOCX Files with Java Applications"
+head_title: "Modify DOCX signatures with Java applications"
 head_description: "The Java signature processing API allows you to modify signatures in DOCX files, including PDF, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Update DOCX Signatures Using Java" 
+title: "Modify DOCX signatures" 
 description: "Easily modify a wide variety of electronic signatures using GroupDocs.Signature for Java across popular formats like PDF, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Editing Text Signatures in DOCX using Java"
+    title: "Steps for editing text signatures in DOCX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) allows Java developers to update the content of text signatures previously added to DOCX files. Enhance Java applications with robust capabilities.
       
@@ -110,30 +110,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Signature Management for Documents"
+  title: "Signature management for documents"
   description: "GroupDocs.Signature for Java enables you to add, modify, search, verify, and delete signatures across all major industrial file formats."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Signature Modification"
+  image_description: "Signature modification"
   features:
     # feature loop
-    - title: "Document Signatures"
+    - title: "Document signatures"
       content: "Our product primarily focuses on signing documents with text, image, barcode, or stamp signatures. You can place them on any page and position. Add or modify hidden metadata, such as EXIF data in images, and protect document content from unauthorized changes using digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Ensure that signatures meet your requirements by verifying signed documents. You can retrieve a complete list of signatures within a document through the search functionality."
 
     # feature loop
-    - title: "Modify Existing Signatures"
+    - title: "Modify existing signatures"
       content: "Modifying previously added signatures is a common task. Use the modification process to update the content, appearance, position, and other properties of a signature."
 
     # feature loop
-    - title: "Signature Deletion"
+    - title: "Signature deletion"
       content: "Our solution fully supports all operations related to signatures. Removing various types of signatures from a document is a simple process."
       
   code_samples:
     # code sample loop
-    - title: "Modify Barcode Signatures"
+    - title: "Modify barcode signatures"
       content: |
         This example elucidates the process of modifying barcode signatures within a document.
         {{< landing/code title="Java">}}
@@ -183,7 +183,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Investigate Our Feature Portfolio"
+    title: "Investigate our feature portfolio"
     exclude: "modify"
     description: "We proudly support a wide variety of signature formats and operational tools"
     items: 
@@ -257,7 +257,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Modify Signatures in Various File Formats"
+    title: "Modify signatures in various file formats"
     exclude: "DOCX"
     description: "Document formats signed using our API for Java can be modified. Retrieve a list of signatures from a document and update any accessible properties."
     items: 
