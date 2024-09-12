@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:38
+date:  2024-09-12T14:53:56
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Image Signatures to XLSX Files Using Java Applications"
+head_title: "Add image to XLSX using Java"
 head_description: "The Java API allows you to add image signatures to XLSX files. Easily insert images into PDFs, Word documents, Excel sheets, presentations, and more."
 
 ############################# Header ############################
-title: "Add Image Signatures to XLSX Using Java" 
+title: "Add image signatures to XLSX" 
 description: "Use GroupDocs.Signature for Java to insert images into various office document formats, including PDFs, Word, Excel, and image files. An image with a boss's signature can add an impressive touch!"
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Adding an Image to Any Page of a XLSX Document via Java"
+    title: "Steps for adding an image to any place of a XLSX document via Java"
     content: |
       [GroupDocs.Signature](/signature/java/) enhances Java applications with the capability to add signatures to any page of XLSX documents precisely. Easily boost your product's functionality by integrating our library.
       
@@ -105,30 +105,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Document Signing Solution"
+  title: "Comprehensive document signing solution"
   description: "Our API supports a range of signing features, allowing you to add, modify, delete, search, and verify multiple signature types, including image signatures."
   image: "/img/signature/features_image.webp" # 500x500 px
-  image_description: "Image Signing"
+  image_description: "Image signing"
   features:
     # feature loop
-    - title: "Insert Images into Office Documents"
+    - title: "Insert images into office documents"
       content: "Effortlessly place image signatures in any position on any page of a document. Enrich your content with text, images, barcodes, metadata, and digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Easily verify the validity of signatures in signed documents. Retrieve a list of all signatures within a document and check detailed information about each one."
 
     # feature loop
-    - title: "Modify Signatures"
+    - title: "Modify signatures"
       content: "Update the content, appearance, size, or position of any signature previously added to a document. Our API makes modifying signatures simple and efficient."
 
     # feature loop
-    - title: "Remove Unnecessary Signatures"
+    - title: "Remove unnecessary signatures"
       content: "Our API supports full CRUD operations for most signature types. You can easily remove signatures from nearly all supported document types when necessary."
       
   code_samples:
     # code sample loop
-    - title: "Enhance Document Content with Image Signatures"
+    - title: "Enhance document content with image signatures"
       content: |
         Learn how to append images to business documents to provide additional information.
         {{< landing/code title="Java">}}
@@ -190,7 +190,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Take a Look at Our Leading Features"
+    title: "Take a look at our leading features"
     exclude: "image"
     description: "We are pleased to present a variety of signature tools and operations "
     items: 
@@ -264,7 +264,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Add Images to Other File Formats"
+    title: "Add images to other file formats"
     exclude: "XLSX"
     description: "With the Java API, you can insert supported image formats into various documents. Easily resize, choose position, and add image signatures to your documents."
     items: 

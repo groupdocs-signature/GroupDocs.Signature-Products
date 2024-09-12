@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:38
+date:  2024-09-12T14:53:56
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Integrate Image Signatures into PPTX Documents with JavaScript Solutions"
+head_title: "Integrate image into PPTX with JavaScript"
 head_description: "Leverage the power of JavaScript applications to insert image-based signatures into PPTX files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
 
 ############################# Header ############################
-title: "Sign PPTX Files Using Image Signatures in JavaScript" 
+title: "Sign PPTX files using image signatures" 
 description: "Leverage the capabilities of GroupDocs.Signature for Node.js via Java to effortlessly embed images into a multitude of office document formats such as PDFs, Word, Excel, and various image files. Adding an executive signature image can significantly enhance the professionalism and credibility of your documents, creating a refined and polished presentation."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure for Embedding Images in PPTX Pages Using JavaScript"
+    title: "Guide to embedding images in PPTX pages using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java applications to seamlessly integrate image signatures into PPTX documents. Enhance your application's capabilities with our comprehensive library.
       
@@ -92,30 +92,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Document Signing Capabilities"
+  title: "Advanced document signing capabilities"
   description: "Our API offers a suite of features that simplify electronic signing. You can add, modify, remove, search, and verify multiple types of signatures, including image signatures, with ease."
   image: "/img/signature/features_image.webp" # 500x500 px
-  image_description: "Image Signatures"
+  image_description: "Image signatures"
   features:
     # feature loop
-    - title: "Incorporate Images into Office Documents"
+    - title: "Incorporate images into office documents"
       content: "Easily place image signatures anywhere within your document, whether it's PDFs, Word, or Excel files. Enhance your documents by adding images, barcodes, metadata, or digital certificates for added functionality."
 
     # feature loop
-    - title: "Search and Validate Signatures"
+    - title: "Search and validate signatures"
       content: "Ensure the authenticity of your signed documents by verifying the signatures. Use search functionality to retrieve and review all the signatures embedded within your document."
 
     # feature loop
-    - title: "Modify Existing Signatures"
+    - title: "Modify existing signatures"
       content: "Our API enables users to update and adjust signatures as needed. Modify the size, position, or other attributes of any previously added signature for flexibility in document handling."
 
     # feature loop
-    - title: "Remove Unnecessary Signatures"
+    - title: "Remove unnecessary signatures"
       content: "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
       
   code_samples:
     # code sample loop
-    - title: "Enhance Documents with Image Signatures"
+    - title: "Enhance documents with image signatures"
       content: |
         Learn how to incorporate images into business documents to add supplementary information.
         {{< landing/code title="JavaScript">}}
@@ -179,7 +179,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover the Functions We Offer"
+    title: "Discover the functions we offer"
     exclude: "image"
     description: "We are proud to showcase a broad selection of signature methods and operations"
     items: 
@@ -253,7 +253,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Add Images to Various File Types"
+    title: "Add images to various file types"
     exclude: "PPTX"
     description: "The Node.js via Java API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
     items: 
