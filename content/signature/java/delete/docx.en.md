@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-12T13:12:49
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Remove Signatures from DOCX Files Using Java Applications"
+head_title: "Remove signatures from DOCX using Java"
 head_description: "Enhance your Java applications with GroupDocs.Signature for Java, enabling the removal of previously added signatures from DOCX files."
 
 ############################# Header ############################
-title: "Remove Signatures from DOCX Files with Java" 
+title: "Remove signatures from DOCX files" 
 description: "Our solution not only allows you to sign business documents but also provides the capability to locate and remove various types of signatures using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Deleting Text Signatures from DOCX using Java"
+    title: "Steps for deleting text signatures from DOCX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to delete text signatures in DOCX files using their applications by following a few simple steps.
       
@@ -111,30 +111,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance Business Processes with Signature Management"
+  title: "Enhance business processes with signature management"
   description: "GroupDocs.Signature for Java is designed for signing and managing business file formats, allowing you to add, modify, verify, or delete signatures as needed."
   image: "/img/signature/features_delete.webp" # 500x500 px
   image_description: "GroupDocs.Signature Capabilities"
   features:
     # feature loop
-    - title: "Sign Documents"
+    - title: "Sign documents"
       content: "Easily add text, image, barcode, QR code, or stamp signatures to any page of supported documents. Utilize hidden metadata like EXIF in images or secure document content from unauthorized modifications with digital certificates."
 
     # feature loop
-    - title: "Search and Verification"
+    - title: "Search and verification"
       content: "Maximize the potential of signed documents by verifying signatures to ensure their validity. You can also retrieve a comprehensive list of all signatures within a document through a simple search."
 
     # feature loop
-    - title: "Modify Signatures"
+    - title: "Modify signatures"
       content: "Most previously added signatures can be adjusted. You can easily modify text, reposition the signature, or change its color."
 
     # feature loop
-    - title: "Delete Signatures"
+    - title: "Delete signatures"
       content: "Our solution fully supports CRUD operations for signatures, allowing you to delete various types of signatures from a document as needed."
       
   code_samples:
     # code sample loop
-    - title: "Remove All QR-Code Signatures"
+    - title: "Remove all QR-code signatures"
       content: |
         Learn how to remove all QR-code signatures embedded within a document.
         {{< landing/code title="Java">}}
@@ -181,7 +181,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Learn About Our Key Features"
+    title: "Learn about our key features"
     exclude: "delete"
     description: "Explore the diverse operations and signature methods available with our platform"
     items: 
@@ -255,7 +255,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Remove Signatures from Various File Formats"
+    title: "Remove signatures from various file formats"
     exclude: "DOCX"
     description: "Our GroupDocs.Signature for Java solution supports the removal of signatures from over 60 different file formats."
     items: 

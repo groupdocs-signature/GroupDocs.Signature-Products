@@ -1,45 +1,45 @@
 {
   "head": {
-    "title": "Efficiently Erase Signatures from {{FileFormatUp}} Files Using {{ProgLang}}",
+    "title": "Delete signatures from {{FileFormatUp}} via {{ProgLang}}",
     "description": "Elevate your {{ProgLang}} applications by integrating {{ProdFullName}}, a powerful tool designed to seamlessly remove embedded signatures from {{FileFormatUp}} files."
   },
   "header": {
-    "title": "Effortlessly Erase Signatures from {{FileFormatUp}} with {{ProgLang}}",
+    "title": "Effortlessly delete signatures from {{FileFormatUp}}",
     "description": "Our comprehensive solution extends beyond simple document signing, offering robust features within {{ProdFullName}} to locate and delete a wide array of signatures.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Get Your Free Download"
+    "action_title": "Get your free download"
   },
   "about": {
     "title": "Discover {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) represents a sophisticated solution for intricate metadata management and manipulation. It provides the ability to view, update, remove, search, compare, exchange, and export metadata across diverse image and document formats, all without relying on external software. Integrate metadata into Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote notebooks, Visio diagrams, Project files, PDFs, AutoCAD drawings, ZIP archives, as well as audio and video formats, among others."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced, enterprise-grade digital signing library engineered to support a wide array of signature types, including text, images, barcodes, digital certificates, and stamps. With compatibility across more than 60 document formats—such as PDFs, MS Office files, images, ZIP archives, and other critical business formats—this tool offers unparalleled versatility in electronic document workflows. The platform not only facilitates seamless signature embedding but also provides robust functionality for searching, validating, updating, and removing signatures, ensuring full lifecycle management of digital signing processes in enterprise environments."
   },
   "more_features": {
-    "title": "Enhance Document Security with Signature Tools",
+    "title": "Enhance document security with signature tools",
     "description": "{{ProdFullName}} is specifically crafted to streamline the signing and management of business file formats, allowing you to add, edit, verify, or remove signatures with precision.",
-    "image_description": "Explore the Comprehensive Capabilities of {{ProdShortName}}",
+    "image_description": "Explore the comprehensive capabilities of {{ProdShortName}}",
     "feature_1": {
-      "title": "Comprehensive Document Signing",
+      "title": "Document signing",
       "content": "Add text, image, barcode, QR code, or stamp signatures to any page of supported documents effortlessly. Utilize hidden metadata like EXIF in images, or secure document integrity with digital certificates to prevent unauthorized modifications."
     },
     "feature_2": {
-      "title": "Signature Search and Validation",
+      "title": "Signature search and validation",
       "content": "Our tools enable thorough verification of document signatures, ensuring their authenticity. Perform comprehensive searches to retrieve all signatures within your documents, enhancing document control."
     },
     "feature_3": {
-      "title": "Edit Existing Signatures",
+      "title": "Edit existing signatures",
       "content": "Easily modify previously added signatures by adjusting text, altering position, or changing colors to meet your specific requirements."
     },
     "feature_4": {
-      "title": "Remove Unwanted Signatures",
+      "title": "Remove unwanted signatures",
       "content": "With full CRUD capabilities, our solution enables the efficient deletion of a wide range of signature types from your documents, ensuring flexibility and control."
     }
   },
   "formats": {
-    "title": "Eliminate Signatures from Various File Formats",
+    "title": "Delete signatures from various file formats",
     "description": "Our {{ProdFullName}} solution is proficient in removing signatures across a diverse range of over 60 file formats, ensuring broad compatibility and functionality."
   },
   "operations": {
-    "title": "Explore the Features We Provide",
+    "title": "Explore the features we provide",
     "description": "Discover the full range of signature solutions and operations available in our system"
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Handle the result of the deletion"
   },
   "steps": {
-    "title": "Guidelines for Removing Text Signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "title": "Guidelines for removing text signatures from {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to efficiently remove text signatures in {{FileFormatUp}} files by following a series of simple steps.",
       "step_1": "Provide the {{FileFormatUp}} file path to an instance of the {{TextSignature}} class.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Remove All QR-Code Signatures",
+    "title": "Remove all QR-code signatures",
     "content": "Learn the procedure to eliminate all QR-code signatures embedded in a document.",
     "comment_1": "Provide a document that includes QR-code signatures",
     "comment_2": "Erase all QR-code signatures",

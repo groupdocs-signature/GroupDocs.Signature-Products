@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-12T13:12:49
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Effortlessly Remove Signatures from PPTX Files Using C# Applications"
+head_title: "Remove signatures from PPTX using C#"
 head_description: "Empower your C# applications with the robust capabilities of GroupDocs.Signature for .NET to seamlessly eliminate previously embedded signatures from PPTX files."
 
 ############################# Header ############################
-title: "Efficiently Remove Signatures from PPTX Files with C#" 
+title: "Efficiently remove signatures from PPTX files" 
 description: "Beyond just signing business documents, our solution offers comprehensive tools to locate and remove a wide array of signatures using GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at No Cost"
+    - title: "Download at no cost"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedures for Deleting Text Signatures from PPTX using C#"
+    title: "How to delete text signatures from PPTX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) simplifies the task for .NET developers to remove text signatures in PPTX files by implementing a few straightforward steps.
       
@@ -97,30 +97,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Optimize Document Management with Advanced Signature Tools"
+  title: "Optimize document management with advanced signature tools"
   description: "GroupDocs.Signature for .NET is meticulously designed to enhance the signing and processing of business file formats, enabling the addition, modification, verification, or deletion of signatures with ease."
   image: "/img/signature/features_delete.webp" # 500x500 px
   image_description: "Explore the Versatile Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Document Signing"
+    - title: "Document signing"
       content: "Effortlessly embed text, image, barcode, QR code, or stamp signatures onto any page of supported documents. Additionally, utilize hidden metadata such as EXIF in images or safeguard document integrity with digital certificates, preventing unauthorized alterations."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Leverage our tools to ensure the authenticity of signatures within your documents. Conduct thorough searches to retrieve a complete list of all signatures, ensuring comprehensive document management."
 
     # feature loop
-    - title: "Signature Modification"
+    - title: "Signature modification"
       content: "Easily refine previously added signatures by adjusting text, repositioning, or altering colors to meet your specific needs."
 
     # feature loop
-    - title: "Signature Deletion"
+    - title: "Signature deletion"
       content: "Our solution provides full CRUD capabilities for signatures, allowing you to efficiently remove a variety of signature types from your documents when necessary."
       
   code_samples:
     # code sample loop
-    - title: "Eliminate All QR-Code Signatures"
+    - title: "Eliminate all QR-code signatures"
       content: |
         Discover how to remove all QR-code signatures embedded within a document.
         {{< landing/code title="C#">}}
@@ -167,7 +167,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Check Out Our Highlighted Features"
+    title: "Check out our highlighted features"
     exclude: "delete"
     description: "We are excited to offer a wide selection of supported signature types and operations"
     items: 
@@ -241,7 +241,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Remove Signatures Across Multiple File Formats"
+    title: "Remove signatures across multiple file formats"
     exclude: "PPTX"
     description: "GroupDocs.Signature for .NET is engineered to facilitate the removal of signatures from an extensive range of over 60 file formats, ensuring broad compatibility and functionality."
     items: 
