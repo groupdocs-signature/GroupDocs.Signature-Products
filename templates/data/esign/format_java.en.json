@@ -1,41 +1,41 @@
 {
   "head": {
-    "title": "e-Sign {{FileFormatUp}} Files with {{ProgLang}} Applications",
+    "title": "e-Sign {{FileFormatUp}} files with {{ProgLang}} apps",
     "description": "Use {{ProgLang}} API to process {{FileFormatUp}} files and apply various signature types, including PDF, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Electronic Signatures for {{FileFormatUp}} via {{ProgLang}}",
+    "title": "Electronic signatures for {{FileFormatUp}}",
     "description": "Add a wide range of electronic signatures using {{ProdFullName}} to all popular business formats, including PDF, Word, Excel, Presentations, and Images.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Free Download"
+    "action_title": "Free download"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers advanced e-signing features. Use it to add, search, verify, modify, and remove various types of e-signatures in documents and images without the need for external software. E-sign PDFs, Word documents, Excel spreadsheets, PowerPoint presentations, and popular image formats easily."
   },
   "more_features": {
-    "title": "Document Electronic Signatures",
+    "title": "Document electronic signatures",
     "description": "Our e-signing API streamlines business processes. Sign, search, update, delete, and verify various signatures programmatically.",
     "image_description": "e-Signatures",
     "feature_1": {
-      "title": "e-Sign Office Documents",
+      "title": "e-Sign office documents",
       "content": "Easily place electronic signatures in any position on any page of a document. Enhance document content with text, images, barcodes, metadata, or digital certificates."
     },
     "feature_2": {
-      "title": "Signature Management",
+      "title": "Signature management",
       "content": "After signing, documents can be processed further. Retrieve a list of all signatures present, modify them, or delete them as needed."
     },
     "feature_3": {
-      "title": "Advanced Content Control",
+      "title": "Advanced content control",
       "content": "Secure business documents against unauthorized changes with corporate digital certificates. Add or extract hidden metadata entries available in all document types."
     }
   },
   "formats": {
-    "title": "Sign Popular File Formats with e-Signatures",
+    "title": "Sign popular file formats with e-signatures",
     "description": "The e-signing API for {{EnvName}} enables the processing of all modern business file and document formats."
   },
   "operations": {
-    "title": "Explore Our Key Features",
+    "title": "Explore our key features",
     "description": "We are proud to offer a wide range of supported signatures and operations."
   },
   "examples": {
@@ -45,7 +45,7 @@
     "comment_4": "Save the file with the signature to the local disk"
   },
   "steps": {
-    "title": "Steps for Signing {{FileFormatUp}} Documents with Text Signatures using {{ProgLang}}",
+    "title": "Steps for signing {{FileFormatUp}} documents with text signatures using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) enables adding customized text signatures to {{FileFormatUp}} files. {{EnvName}} developers can integrate signing functionality into their applications using our software.",
       "step_1": "Provide the {{FileFormatUp}} file to be signed to the {{TextSignature}} instance.",
@@ -55,7 +55,7 @@
     }
   },
   "code_1": {
-    "title": "How to Add an Image Signature to a Document",
+    "title": "How to add an image signature to a document",
     "content": "This example demonstrates how to place an image signature on a specific page of a document.",
     "comment_1": "Provide the source document as a parameter",
     "comment_2": "Specify the image path in the signature options",

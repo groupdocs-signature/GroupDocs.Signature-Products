@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-12T14:18:45
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "e-Sign PDF Files with Java Applications"
+head_title: "e-Sign PDF files with Java apps"
 head_description: "Use Java API to process PDF files and apply various signature types, including PDF, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Electronic Signatures for PDF via Java" 
+title: "Electronic signatures for PDF" 
 description: "Add a wide range of electronic signatures using GroupDocs.Signature for Java to all popular business formats, including PDF, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Download"
+    - title: "Free download"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Signing PDF Documents with Text Signatures using Java"
+    title: "Steps for signing PDF documents with text signatures using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) enables adding customized text signatures to PDF files. Java developers can integrate signing functionality into their applications using our software.
       
@@ -106,26 +106,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Document Electronic Signatures"
+  title: "Document electronic signatures"
   description: "Our e-signing API streamlines business processes. Sign, search, update, delete, and verify various signatures programmatically."
   image: "/img/signature/features_esign.webp" # 500x500 px
   image_description: "e-Signatures"
   features:
     # feature loop
-    - title: "e-Sign Office Documents"
+    - title: "e-Sign office documents"
       content: "Easily place electronic signatures in any position on any page of a document. Enhance document content with text, images, barcodes, metadata, or digital certificates."
 
     # feature loop
-    - title: "Signature Management"
+    - title: "Signature management"
       content: "After signing, documents can be processed further. Retrieve a list of all signatures present, modify them, or delete them as needed."
 
     # feature loop
-    - title: "Advanced Content Control"
+    - title: "Advanced content control"
       content: "Secure business documents against unauthorized changes with corporate digital certificates. Add or extract hidden metadata entries available in all document types."
       
   code_samples:
     # code sample loop
-    - title: "How to Add an Image Signature to a Document"
+    - title: "How to add an image signature to a document"
       content: |
         This example demonstrates how to place an image signature on a specific page of a document.
         {{< landing/code title="Java">}}
@@ -169,7 +169,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Key Features"
+    title: "Explore our key features"
     exclude: "esign"
     description: "We are proud to offer a wide range of supported signatures and operations."
     items: 
@@ -243,7 +243,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Popular File Formats with e-Signatures"
+    title: "Sign popular file formats with e-signatures"
     exclude: "PDF"
     description: "The e-signing API for Java enables the processing of all modern business file and document formats."
     items: 

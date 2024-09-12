@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-12T14:18:45
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Apply Digital Signatures to XLSX Files with JavaScript Solutions"
+head_title: "Sign XLSX with electronic signatures in JavaScript"
 head_description: "Harness the capabilities of JavaScript API to digitally sign and protect XLSX files, including PDFs, Word documents, Excel sheets, presentations, and image formats."
 
 ############################# Header ############################
-title: "Digitally Protect XLSX Files Using JavaScript" 
+title: "Sign XLSX files electronically" 
 description: "Utilize GroupDocs.Signature for Node.js via Java to insert diverse digital signatures into your documents, ensuring data integrity and compliance for files like PDFs, Word, Excel, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now for Free"
+    - title: "Download now for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Signing XLSX Documents with Text Signatures using JavaScript"
+    title: "Steps for signing XLSX documents with text signatures using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) streamlines the process of adding customized text signatures to XLSX files. Node.js via Java developers can seamlessly incorporate signing functionality into their applications.
       
@@ -93,26 +93,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Digital Signature Capabilities"
+  title: "Advanced digital signature capabilities"
   description: "Our advanced API streamlines business operations by facilitating the automated signing, verification, modification, and management of electronic signatures for a range of documents."
   image: "/img/signature/features_esign.webp" # 500x500 px
-  image_description: "Digital Signature Features"
+  image_description: "Digital signature features"
   features:
     # feature loop
-    - title: "Digital Signing for Office Files"
+    - title: "Digital signing for office files"
       content: "Easily add digital signatures to any page or position within a document. Customize your signatures with options like digital certificates, metadata, barcodes, or visual elements to enhance security and document integrity."
 
     # feature loop
-    - title: "Comprehensive Signature Control"
+    - title: "Comprehensive signature control"
       content: "Once a document is signed, you can manage its signatures effortlessly. Retrieve a complete list of all signatures, allowing you to make updates or remove them as needed."
 
     # feature loop
-    - title: "Strengthen Document Security"
+    - title: "Strengthen document security"
       content: "Use digital certificates to safeguard your documents from tampering. You can embed or extract metadata to enhance traceability and auditing, ensuring document compliance and authenticity."
       
   code_samples:
     # code sample loop
-    - title: "How to Apply an Image Signature to a Document"
+    - title: "How to apply an image signature to a document"
       content: |
         This guide details the process for affixing an image signature to a designated page within a document.
         {{< landing/code title="JavaScript">}}
@@ -157,7 +157,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "View Our Extensive Capabilities"
+    title: "View our extensive capabilities"
     exclude: "esign"
     description: "We offer a broad range of signature types and feature-rich operations"
     items: 
@@ -231,7 +231,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Multiple File Types Digitally"
+    title: "Sign multiple file types digitally"
     exclude: "XLSX"
     description: "The Node.js via Java API allows you to apply digital signatures to over 60 file formats, providing you with extensive flexibility in securing your business-critical documents."
     items: 

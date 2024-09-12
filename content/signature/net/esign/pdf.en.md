@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-12T14:18:45
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Digitally Sign PDF Documents with C# Applications"
+head_title: "Electronically sign PDF via C# apps"
 head_description: "Leverage the power of C# API to electronically sign and secure PDF documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Digitally Secure PDF Documents Using C#" 
+title: "Digitally sign PDF documents" 
 description: "Embed a variety of electronic signatures into your documents using GroupDocs.Signature for .NET, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Signing PDF Documents with Text Signatures using C#"
+    title: "Steps for signing PDF documents with text signatures using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into PDF files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
       
@@ -92,26 +92,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Document Electronic Signatures"
+  title: "Advanced document electronic signatures"
   description: "Our sophisticated e-signing API enhances business workflows, enabling efficient signing, validation, modification, and management of electronic signatures with full automation capabilities."
   image: "/img/signature/features_esign.webp" # 500x500 px
-  image_description: "Electronic Signature Capabilities"
+  image_description: "Electronic signature capabilities"
   features:
     # feature loop
-    - title: "Electronic Signing for Office Documents"
+    - title: "Electronic signing for office documents"
       content: "Seamlessly insert electronic signatures at any position within a document. Customize and enrich content with digital certificates, metadata, barcodes, or visual elements, while ensuring authenticity and security."
 
     # feature loop
-    - title: "Comprehensive Signature Management"
+    - title: "Comprehensive signature management"
       content: "Once signed, documents can be further processed with ease. Access a complete overview of existing signatures, enabling precise updates or deletion of signatures where necessary."
 
     # feature loop
-    - title: "Enhanced Content Security"
+    - title: "Enhanced content security"
       content: "Protect the integrity of your documents using digital certificates. Embed or extract metadata for enhanced document tracking and auditing, ensuring compliance and content authenticity."
       
   code_samples:
     # code sample loop
-    - title: "How to Affix an Image Signature to a Document"
+    - title: "How to add an image signature to a document"
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
         {{< landing/code title="C#">}}
@@ -157,7 +157,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore the Full Scope of Our Features"
+    title: "Explore the full scope of our features"
     exclude: "esign"
     description: "We’re proud to offer a vast array of signature options and associated operations"
     items: 
@@ -231,7 +231,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Digitally Sign a Wide Range of File Formats"
+    title: "Digitally sign a wide range of file formats"
     exclude: "PDF"
     description: "The .NET API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
     items: 
