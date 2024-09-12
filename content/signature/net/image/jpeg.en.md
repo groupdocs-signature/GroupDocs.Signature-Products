@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-11T17:34:44
+date:  2024-09-12T11:45:38
 draft: false
 lang: en
 format: Jpeg
@@ -183,70 +183,70 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/jpeg/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/jpeg/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/jpeg/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/jpeg/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/jpeg/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
-          link: "/signature/net/digital/jpeg/"
-          description: "Secure business documents using digital certificates."
+          link: "/signature/net/digital/pdf/"
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/jpeg/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
-          link: "/signature/net/search/jpeg/"
-          description: "Locate any previously added signatures within a document."
+          link: "/signature/net/search/pdf/"
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
-          link: "/signature/net/verify/jpeg/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          link: "/signature/net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
-          link: "/signature/net/modify/jpeg/"
-          description: "Easily edit a variety of signatures within a document."
+          link: "/signature/net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
-          link: "/signature/net/delete/jpeg/"
-          description: "Remove a wide range of previously applied signatures."
+          link: "/signature/net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
@@ -257,31 +257,31 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "Sign PDF with Image"
+        - name: "Sign PDF with image"
           format: "PDF"
           link: "/signature/net/image/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Sign DOCX with Image"
+        - name: "Sign DOCX with image"
           format: "DOCX"
           link: "/signature/net/image/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Sign JPEG with Image"
+        - name: "Sign JPEG with image"
           format: "JPEG"
           link: "/signature/net/image/jpeg/"
           description: "JPEG Image"
           
         # format loop 4
-        - name: "Sign PPTX with Image"
+        - name: "Sign PPTX with image"
           format: "PPTX"
           link: "/signature/net/image/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Sign XLSX with Image"
+        - name: "Sign XLSX with image"
           format: "XLSX"
           link: "/signature/net/image/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [nodejs-java]
+- alias:  operation
+  values: [esign]
+- alias:  fileformat
+  values: [ jpeg ]
+
+generationRules:
+  include:
+  - fileformat[jpeg]
+  
+outputPath: "signature\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

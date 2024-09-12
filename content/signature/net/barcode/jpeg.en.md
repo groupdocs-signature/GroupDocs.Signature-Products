@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-11T17:34:45
+date:  2024-09-12T11:45:39
 draft: false
 lang: en
 format: Jpeg
@@ -15,19 +15,19 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Integrate Barcode Generation into JPEG Files Using C# Applications"
-head_description: "Leverage C# applications in conjunction with GroupDocs.Signature to generate and seamlessly incorporate barcodes across any page of your JPEG documents."
+head_title: "Barcode generation for JPEG using C#"
+head_description: "Leverage C# applications in conjunction with GroupDocs.Signature to generate and incorporate barcodes across any place of your JPEG documents."
 
 ############################# Header ############################
-title: "Embed Barcodes into JPEG Documents Using C#" 
-description: "Utilize GroupDocs.Signature for .NET to strategically place barcodes in popular formats anywhere within your business documents. Our solution offers extensive customization options for barcode signatures."
+title: "Generate barcode and embed it into JPEG Documents" 
+description: "Utilize GroupDocs.Signature for .NET to place barcodes anywhere within your business documents. Our solution offers extensive customization options for barcode signatures."
 subtitle: "GroupDocs.Signature for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at No Cost"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedures to Generate and Embed a Barcode in JPEG Documents"
+    title: "Steps to generate and embed a barcode in JPEG files"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the generation of barcodes in numerous popular formats and their placement on JPEG pages. Supporting over 60 barcode types, .NET applications can be effortlessly augmented with barcode signing functionalities by integrating our library.
       
@@ -92,30 +92,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance and Safeguard Your Documents with Advanced Signature Capabilities"
+  title: "Enhance and safeguard your documents with advanced signature capabilities"
   description: "The GroupDocs.Signature for .NET library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures."
   image: "/img/signature/features_barcode.webp" # 500x500 px
   image_description: "Key Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Versatile Document Signing"
+    - title: "Versatile document signing"
       content: "Efficiently sign any page within supported documents using text, images, barcodes, QR codes, or stamps. Additionally, embed hidden metadata, such as EXIF data in images, or secure your document’s content against unauthorized alterations using digital certificates."
 
     # feature loop
-    - title: "Comprehensive Signature Search and Verification"
+    - title: "Comprehensive signature search and verification"
       content: "Our tool offers robust functionality for working with signed documents. Ensure the integrity of your documents by verifying signatures, and easily retrieve a comprehensive list of all signatures within a document through our search feature."
 
     # feature loop
-    - title: "Edit Signatures with Ease"
+    - title: "Edit signatures with ease"
       content: "Nearly all previously applied signatures can be modified. Conveniently update text, adjust positioning, or change colors to meet your needs."
 
     # feature loop
-    - title: "Efficient Signature Deletion"
+    - title: "Efficient signature deletion"
       content: "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "How to customize a barcode signature"
       content: |
         This example elucidates how to embed a customized barcode on JPEG document pages.
         {{< landing/code title="C#">}}
@@ -170,111 +170,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Uncover Our Main Features"
+    title: "Uncover our main features"
     exclude: "barcode"
     description: "We offer an impressive selection of signature options and operations"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/jpeg/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/jpeg/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/jpeg/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/jpeg/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/jpeg/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
-          link: "/signature/net/digital/jpeg/"
-          description: "Secure business documents using digital certificates."
+          link: "/signature/net/digital/pdf/"
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/jpeg/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
-          link: "/signature/net/search/jpeg/"
-          description: "Locate any previously added signatures within a document."
+          link: "/signature/net/search/pdf/"
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
-          link: "/signature/net/verify/jpeg/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          link: "/signature/net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
-          link: "/signature/net/modify/jpeg/"
-          description: "Easily edit a variety of signatures within a document."
+          link: "/signature/net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
-          link: "/signature/net/delete/jpeg/"
-          description: "Remove a wide range of previously applied signatures."
+          link: "/signature/net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Documents Across a Variety of Formats"
+    title: "Sign documents across a variety of formats"
     exclude: "JPEG"
     description: "Our .NET API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
     items: 
           
         # format loop 1
-        - name: "Add Barcode to {PDF"
+        - name: "Add barcode to PDF"
           format: "PDF"
           link: "/signature/net/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Add Barcode to {DOCX"
+        - name: "Add barcode to DOCX"
           format: "DOCX"
           link: "/signature/net/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Add Barcode to {JPEG"
+        - name: "Add barcode to JPEG"
           format: "JPEG"
           link: "/signature/net/barcode/jpeg/"
           description: "JPEG Image"
           
         # format loop 4
-        - name: "Add Barcode to {PPTX"
+        - name: "Add barcode to PPTX"
           format: "PPTX"
           link: "/signature/net/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Add Barcode to {XLSX"
+        - name: "Add barcode to XLSX"
           format: "XLSX"
           link: "/signature/net/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

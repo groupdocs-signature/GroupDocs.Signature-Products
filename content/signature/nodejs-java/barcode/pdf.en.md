@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-11T17:34:46
+date:  2024-09-12T11:45:39
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Seamlessly Integrate Barcode Creation into PDF Files with JavaScript"
-head_description: "Utilize JavaScript in tandem with GroupDocs.Signature to efficiently generate barcodes and embed them within any page of your PDF documents."
+head_title: "Seamlessly generate barcode for PDF files with JavaScript"
+head_description: "Utilize JavaScript in tandem with GroupDocs.Signature to efficiently generate barcodes and embed them within any place of your PDF documents."
 
 ############################# Header ############################
-title: "Effortlessly Embed Barcodes in PDF Documents Using JavaScript" 
+title: "Effortlessly generate and embed Barcodes in PDF Documents" 
 description: "Employ GroupDocs.Signature for Node.js via Java to incorporate barcodes into your business documents, placing them precisely where needed. Our solution offers extensive customization options to tailor barcode signatures to your requirements."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -33,7 +33,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "An Introduction to GroupDocs.Signature for Node.js via Java"
+    title: "An introduction to GroupDocs.Signature for Node.js via Java"
     link: "/signature/nodejs-java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Instructions for Generating and Embedding Barcodes in PDF Documents"
+    title: "How to generate and embed barcodes in PDF"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables the generation and placement of barcodes in a variety of popular formats on PDF pages. With support for over 60 types of barcodes, Node.js via Java applications can be easily enhanced with barcode signing features by integrating our library.
       
@@ -92,30 +92,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Augment and Secure Your Documents with Advanced Signature Options"
+  title: "Augment and secure your documents with advanced signature options"
   description: "The GroupDocs.Signature for Node.js via Java library is designed to streamline the signing and subsequent management of popular document formats. Quickly and easily add, modify, verify, or remove a wide range of signatures."
   image: "/img/signature/features_barcode.webp" # 500x500 px
   image_description: "Key Functionalities of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Dynamic Document Signing"
+    - title: "Dynamic document signing"
       content: "Sign any page of your documents using a variety of signature types, including text, images, barcodes, QR codes, and stamps. Additionally, you can embed hidden metadata, such as EXIF data in images, or secure the document against unauthorized edits using digital certificates."
 
     # feature loop
-    - title: "Robust Signature Verification and Search"
+    - title: "Robust signature verification and search"
       content: "Our solution provides extensive tools for managing signed documents. Verify the authenticity of signatures to ensure document integrity, and utilize the search feature to list all signatures embedded within a document."
 
     # feature loop
-    - title: "Easily Edit Signatures"
+    - title: "Easily edit signatures"
       content: "Most signatures added previously can be effortlessly modified. Update the text, reposition, or change the appearance of the signature to match your needs."
 
     # feature loop
-    - title: "Streamlined Signature Removal"
+    - title: "Streamlined signature removal"
       content: "With comprehensive support for CRUD operations, our tool allows for the efficient removal of signatures from your documents, ensuring that only the most relevant signatures remain."
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "How to customize a barcode signature"
       content: |
         This example illustrates how to embed a customized barcode on PDF document pages.
         {{< landing/code title="JavaScript">}}
@@ -176,111 +176,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Dive Into Our Primary Features"
+    title: "Dive into our primary features"
     exclude: "barcode"
     description: "Experience a broad array of signature types and tools we provide"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Across Multiple Document Formats"
+    title: "Sign across multiple document formats"
     exclude: "PDF"
     description: "The Node.js via Java API empowers you to sign over 60 different formats. Whether adding signatures to specific pages or positioning them precisely, our tool makes it easy to apply various signature types."
     items: 
           
         # format loop 1
-        - name: "Add Barcode to {PDF"
+        - name: "Add barcode to PDF"
           format: "PDF"
           link: "/signature/nodejs-java/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Add Barcode to {DOCX"
+        - name: "Add barcode to DOCX"
           format: "DOCX"
           link: "/signature/nodejs-java/barcode/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Add Barcode to {JPEG"
+        - name: "Add barcode to JPEG"
           format: "JPEG"
           link: "/signature/nodejs-java/barcode/jpeg/"
           description: "JPEG Image"
           
         # format loop 4
-        - name: "Add Barcode to {PPTX"
+        - name: "Add barcode to PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Add Barcode to {XLSX"
+        - name: "Add barcode to XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

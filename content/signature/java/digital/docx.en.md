@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-11T17:34:44
+date:  2024-09-12T11:45:38
 draft: false
 lang: en
 format: Docx
@@ -192,70 +192,70 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/docx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/docx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/docx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/docx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/docx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/docx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/docx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/docx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/docx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/docx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/docx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
@@ -278,18 +278,12 @@ more_formats:
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: ""
-          format: "JPEG"
-          link: "/signature/java/digital/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 4
         - name: "Protect PPTX"
           format: "PPTX"
           link: "/signature/java/digital/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
+        # format loop 4
         - name: "Protect XLSX"
           format: "XLSX"
           link: "/signature/java/digital/xlsx/"

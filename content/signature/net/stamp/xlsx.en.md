@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-11T17:34:43
+date:  2024-09-12T11:45:37
 draft: false
 lang: en
 format: Xlsx
@@ -200,70 +200,70 @@ more_operations:
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/xlsx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/xlsx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/xlsx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/xlsx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/xlsx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/xlsx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/net/search/xlsx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/net/verify/xlsx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/net/modify/xlsx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/net/delete/xlsx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:

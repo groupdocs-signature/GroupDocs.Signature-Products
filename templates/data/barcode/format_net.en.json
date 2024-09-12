@@ -1,45 +1,45 @@
 {
   "head": {
-    "title": "Integrate Barcode Generation into {{FileFormatUp}} Files Using {{ProgLang}} Applications",
-    "description": "Leverage {{ProgLang}} applications in conjunction with {{ProdShortName}} to generate and seamlessly incorporate barcodes across any page of your {{FileFormatUp}} documents."
+    "title": "Barcode generation for {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Leverage {{ProgLang}} applications in conjunction with {{ProdShortName}} to generate and incorporate barcodes across any place of your {{FileFormatUp}} documents."
   },
   "header": {
-    "title": "Embed Barcodes into {{FileFormatUp}} Documents Using {{ProgLang}}",
-    "description": "Utilize {{ProdFullName}} to strategically place barcodes in popular formats anywhere within your business documents. Our solution offers extensive customization options for barcode signatures.",
+    "title": "Generate barcode and embed it into {{FileFormatUp}} Documents",
+    "description": "Utilize {{ProdFullName}} to place barcodes anywhere within your business documents. Our solution offers extensive customization options for barcode signatures.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download at No Cost"
+    "action_title": "Download for free"
   },
   "about": {
     "title": "Overview of {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a sophisticated document signing solution that supports an extensive array of signature types, including text, images, barcodes, digital certificates, and stamps. Compatible with over 60 file formats—such as PDF, MS Office, images, ZIP files, and more—this tool enables you to not only apply signatures but also search, verify, modify, or remove them as needed."
   },
   "more_features": {
-    "title": "Enhance and Safeguard Your Documents with Advanced Signature Capabilities",
+    "title": "Enhance and safeguard your documents with advanced signature capabilities",
     "description": "The {{ProdFullName}} library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures.",
     "image_description": "Key Features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Versatile Document Signing",
+      "title": "Versatile document signing",
       "content": "Efficiently sign any page within supported documents using text, images, barcodes, QR codes, or stamps. Additionally, embed hidden metadata, such as EXIF data in images, or secure your document’s content against unauthorized alterations using digital certificates."
     },
     "feature_2": {
-      "title": "Comprehensive Signature Search and Verification",
+      "title": "Comprehensive signature search and verification",
       "content": "Our tool offers robust functionality for working with signed documents. Ensure the integrity of your documents by verifying signatures, and easily retrieve a comprehensive list of all signatures within a document through our search feature."
     },
     "feature_3": {
-      "title": "Edit Signatures with Ease",
+      "title": "Edit signatures with ease",
       "content": "Nearly all previously applied signatures can be modified. Conveniently update text, adjust positioning, or change colors to meet your needs."
     },
     "feature_4": {
-      "title": "Efficient Signature Deletion",
+      "title": "Efficient signature deletion",
       "content": "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
     }
   },
   "formats": {
-    "title": "Sign Documents Across a Variety of Formats",
+    "title": "Sign documents across a variety of formats",
     "description": "Our {{EnvName}} API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
   },
   "operations": {
-    "title": "Uncover Our Main Features",
+    "title": "Uncover our main features",
     "description": "We offer an impressive selection of signature options and operations"
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Persist the signed file"
   },
   "steps": {
-    "title": "Procedures to Generate and Embed a Barcode in {{FileFormatUp}} Documents",
+    "title": "Steps to generate and embed a barcode in {{FileFormatUp}} files",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the generation of barcodes in numerous popular formats and their placement on {{FileFormatUp}} pages. Supporting over 60 barcode types, {{EnvName}} applications can be effortlessly augmented with barcode signing functionalities by integrating our library.",
       "step_1": "Supply the {{FileFormatUp}} file or stream for processing.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "How to Customize a Barcode Signature",
+    "title": "How to customize a barcode signature",
     "content": "This example elucidates how to embed a customized barcode on {{FileFormatUp}} document pages.",
     "comment_1": "Provide the document to be signed",
     "comment_2": "Formulate signature options with the desired text",

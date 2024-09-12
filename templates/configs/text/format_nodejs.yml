@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [text]
 - alias:  fileformat
-  values: [ docx, jpeg, pdf, pptx, xlsx ]
+  values: [ docx, pdf, pptx, xlsx ]
 
 generationRules:
   include:
-  - fileformat[docx, jpeg, pdf, pptx, xlsx]
+  - fileformat[docx, pdf, pptx, xlsx]
   
 outputPath: "signature\\{product}\\{operation}\\{fileformat}.{lang}.md"
 
