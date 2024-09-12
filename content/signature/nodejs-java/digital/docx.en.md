@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-12T13:44:34
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Protect DOCX from Unauthorized Modifications Using JavaScript Applications"
+head_title: "Protect DOCX with digital certificates using JavaScript"
 head_description: "Harness the power of JavaScript applications with GroupDocs.Signature to secure DOCX documents through digital certificates."
 
 ############################# Header ############################
-title: "Safeguard DOCX with Digital Certificates via JavaScript" 
+title: "Safeguard DOCX with digital certificates" 
 description: "Ensure the security of your business documents by embedding digital certificates using the advanced capabilities of GroupDocs.Signature for Node.js via Java. We offer flexible options to protect and authenticate your documents."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Securing DOCX Documents with Digital Certificates in JavaScript"
+    title: "Guidelines for securing DOCX documents with digital certificates in JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to protect DOCX documents from modifications by employing digital signatures. Enhance your business applications with comprehensive data security features.
       
@@ -93,30 +93,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Optimize or Secure Document Content with Signatures"
+  title: "Optimize or secure document content with signatures"
   description: "GroupDocs.Signature for Node.js via Java is built to sign all major file formats, offering you the ability to add, adjust, verify, or remove various types of signatures with ease."
   image: "/img/signature/features_digital.webp" # 500x500 px
-  image_description: "Key Features of GroupDocs.Signature"
+  image_description: "Key features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Add Signatures to Your Documents"
+    - title: "Add signatures to your documents"
       content: "Easily place Text, Image, Barcode, QR-Code, or Stamp signatures on any page of supported documents. You can also insert or edit hidden metadata, such as EXIF in images. Protect your document content from unauthorized alterations with digital certificates."
 
     # feature loop
-    - title: "Locate and Verify Signatures"
+    - title: "Locate and verify signatures"
       content: "Post-signing, your document can undergo multiple verifications. Confirm the integrity of the signed content, or conduct a detailed search to list all existing signatures."
 
     # feature loop
-    - title: "Revise Existing Signatures"
+    - title: "Revise existing signatures"
       content: "Most signature types allow for post-creation edits. You can easily modify text, reposition elements, adjust colors, resize, and make other necessary changes."
 
     # feature loop
-    - title: "Eliminate Unnecessary Signatures"
+    - title: "Eliminate unnecessary signatures"
       content: "Our solution enables full CRUD operations for signatures. If required, you can remove various signature types, including digital certificates, from your document."
       
   code_samples:
     # code sample loop
-    - title: "Protect Documents with Digital Signatures"
+    - title: "Protect documents with digital signatures"
       content: |
         Learn how to lock a document against changes using digital signatures.
         {{< landing/code title="JavaScript">}}
@@ -174,7 +174,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Get to Know Our Main Functions"
+    title: "Get to know our main functions"
     exclude: "digital"
     description: "We proudly support a comprehensive suite of signature options and functionalities"
     items: 
@@ -248,7 +248,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Documents Across Multiple Formats"
+    title: "Sign documents across multiple formats"
     exclude: "DOCX"
     description: "The Node.js via Java API supports over 60 formats, enabling you to apply a range of signatures on any page, enforce content security with digital certificates, and manage signatures within the document effectively."
     items: 

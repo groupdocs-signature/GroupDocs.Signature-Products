@@ -1,45 +1,45 @@
 {
   "head": {
-    "title": "Secure {{FileFormatUp}} against Changes Using {{ProgLang}} Applications",
+    "title": "Secure {{FileFormatUp}} with digital certificate in {{ProgLang}}",
     "description": "Use {{ProgLang}} applications with {{ProdShortName}} to protect {{FileFormatUp}} documents with digital certificates."
   },
   "header": {
-    "title": "Protect {{FileFormatUp}} with Digital Certificates via {{ProgLang}}",
+    "title": "Protect {{FileFormatUp}} with digital certificates",
     "description": "Safeguard the content of your business documents by sealing them with digital certificates using the features of {{ProdFullName}}. We provide multiple ways to mark and secure your documents.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download for Free"
+    "action_title": "Download for free"
   },
   "about": {
     "title": "About {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive signing solution that supports various types of document processing. You can add text, images, digital certificates, and stamps to files in 60+ formats, including PDF, MS Office, images, ZIP files, and other popular business formats. Additionally, signed documents can be searched, verified, modified, or deleted automatically in a convenient way."
   },
   "more_features": {
-    "title": "Enhance or Protect Document Content with Signatures",
+    "title": "Enhance or protect document content with signatures",
     "description": "The {{ProdFullName}} library is capable of signing all popular file formats. Add, modify, verify, or delete various types of signatures automatically to streamline your business processes.",
     "image_description": "Features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Add Signatures to Documents",
+      "title": "Add signatures to documents",
       "content": "Text, Image, Barcode, QR-Code, or Stamp signatures can be precisely added to any page of any supported document. Hidden metadata like EXIF can be added or edited in images and most file types. Protect document content from unauthorized changes using digital signatures."
     },
     "feature_2": {
-      "title": "Signature Search and Verification",
+      "title": "Signature search and verification",
       "content": "Documents can be processed in various ways after signing. Verify signed documents to ensure they have been processed properly. If you need more control, retrieve a list of all signatures through search."
     },
     "feature_3": {
-      "title": "Edit Signatures",
+      "title": "Edit signatures",
       "content": "Most types of signatures support further modification. You are free to correct text, change position, color, size, and more."
     },
     "feature_4": {
-      "title": "Remove Unnecessary Signatures",
+      "title": "Remove unnecessary signatures",
       "content": "Our solution supports full CRUD operations for signatures. Many types of signatures, including digital certificates, can be deleted from a document when necessary."
     }
   },
   "formats": {
-    "title": "Sign Documents in Other Formats",
+    "title": "Sign documents in other formats",
     "description": "The {{EnvName}} API allows you to process more than 60 formats. Create and add various signatures to any page, seal content with digital certificates, and manage and edit existing signatures within the document."
   },
   "operations": {
-    "title": "Examine Our Comprehensive Feature Set",
+    "title": "Examine our comprehensive feature set",
     "description": "We take pride in the extensive functionality and signature support our platform offers"
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Protect the document with a digital certificate"
   },
   "steps": {
-    "title": "Steps for Protecting {{FileFormatUp}} Files with Digital Certificates in {{ProgLang}}",
+    "title": "Steps for protecting {{FileFormatUp}} files with digital certificates in {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) allows {{EnvName}} developers to prevent changes in {{FileFormatUp}} documents using digital signatures. Empower your business applications with the ability to secure important data.",
       "step_1": "Pass the {{FileFormatUp}} document to the {{TextSignature}} class constructor.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Protect Documents with Digital Signatures",
+    "title": "Protect documents with digital signatures",
     "content": "Learn how to secure a document from changes using digital signatures.",
     "comment_1": "Provide a document for signing",
     "comment_2": "Use a valid digital certificate with a password",

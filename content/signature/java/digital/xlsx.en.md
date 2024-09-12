@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-12T13:44:34
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Secure XLSX against Changes Using Java Applications"
+head_title: "Secure XLSX with digital certificate in Java"
 head_description: "Use Java applications with GroupDocs.Signature to protect XLSX documents with digital certificates."
 
 ############################# Header ############################
-title: "Protect XLSX with Digital Certificates via Java" 
+title: "Protect XLSX with digital certificates" 
 description: "Safeguard the content of your business documents by sealing them with digital certificates using the features of GroupDocs.Signature for Java. We provide multiple ways to mark and secure your documents."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Protecting XLSX Files with Digital Certificates in Java"
+    title: "Steps for protecting XLSX files with digital certificates in Java"
     content: |
       [GroupDocs.Signature](/signature/java/) allows Java developers to prevent changes in XLSX documents using digital signatures. Empower your business applications with the ability to secure important data.
       
@@ -106,30 +106,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance or Protect Document Content with Signatures"
+  title: "Enhance or protect document content with signatures"
   description: "The GroupDocs.Signature for Java library is capable of signing all popular file formats. Add, modify, verify, or delete various types of signatures automatically to streamline your business processes."
   image: "/img/signature/features_digital.webp" # 500x500 px
   image_description: "Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Add Signatures to Documents"
+    - title: "Add signatures to documents"
       content: "Text, Image, Barcode, QR-Code, or Stamp signatures can be precisely added to any page of any supported document. Hidden metadata like EXIF can be added or edited in images and most file types. Protect document content from unauthorized changes using digital signatures."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Documents can be processed in various ways after signing. Verify signed documents to ensure they have been processed properly. If you need more control, retrieve a list of all signatures through search."
 
     # feature loop
-    - title: "Edit Signatures"
+    - title: "Edit signatures"
       content: "Most types of signatures support further modification. You are free to correct text, change position, color, size, and more."
 
     # feature loop
-    - title: "Remove Unnecessary Signatures"
+    - title: "Remove unnecessary signatures"
       content: "Our solution supports full CRUD operations for signatures. Many types of signatures, including digital certificates, can be deleted from a document when necessary."
       
   code_samples:
     # code sample loop
-    - title: "Protect Documents with Digital Signatures"
+    - title: "Protect documents with digital signatures"
       content: |
         Learn how to secure a document from changes using digital signatures.
         {{< landing/code title="Java">}}
@@ -186,7 +186,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Examine Our Comprehensive Feature Set"
+    title: "Examine our comprehensive feature set"
     exclude: "digital"
     description: "We take pride in the extensive functionality and signature support our platform offers"
     items: 
@@ -260,7 +260,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Documents in Other Formats"
+    title: "Sign documents in other formats"
     exclude: "XLSX"
     description: "The Java API allows you to process more than 60 formats. Create and add various signatures to any page, seal content with digital certificates, and manage and edit existing signatures within the document."
     items: 

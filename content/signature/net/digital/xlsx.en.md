@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-12T13:44:34
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Fortify XLSX Against Alterations Using C# Applications"
+head_title: "Protect XLSX by digital certificates via C#"
 head_description: "Leverage C# applications with GroupDocs.Signature to safeguard XLSX documents with digital certificates."
 
 ############################# Header ############################
-title: "Secure XLSX with Digital Certificates via C#" 
+title: "Secure XLSX with digital certificates" 
 description: "Protect the integrity of your business documents by sealing them with digital certificates using the robust features of GroupDocs.Signature for .NET. We offer versatile solutions to mark and secure your documents."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure for Securing XLSX Files with Digital Certificates in C#"
+    title: "How to secure XLSX files with digital certificates in C#"
     content: |
       [GroupDocs.Signature](/signature/net/) empowers .NET developers to safeguard XLSX documents against alterations using digital signatures. Augment your business applications with robust data protection capabilities.
       
@@ -94,30 +94,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance or Safeguard Document Content with Signatures"
+  title: "Enhance or safeguard document content with signatures"
   description: "The GroupDocs.Signature for .NET library is engineered to sign all prevalent file formats. Streamline your business processes by easily adding, modifying, verifying, or removing a variety of signatures."
   image: "/img/signature/features_digital.webp" # 500x500 px
   image_description: "Key Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Incorporate Signatures into Documents"
+    - title: "Incorporate signatures into documents"
       content: "Embed Text, Image, Barcode, QR-Code, or Stamp signatures with precision on any page of any supported document. You can also add or edit hidden metadata, such as EXIF, in images and most file types. Ensure the integrity of your document content with digital signatures."
 
     # feature loop
-    - title: "Search and Verify Signatures"
+    - title: "Search and verify signatures"
       content: "Post-signature processing offers numerous possibilities. Verify that your signed documents have been correctly processed. For greater control, retrieve a comprehensive list of all signatures through the search function."
 
     # feature loop
-    - title: "Modify Signatures"
+    - title: "Modify signatures"
       content: "Most signature types are fully editable. You have the flexibility to adjust text, reposition elements, change colors, resize, and more."
 
     # feature loop
-    - title: "Remove Redundant Signatures"
+    - title: "Remove redundant signatures"
       content: "Our solution provides full CRUD operations for signatures. If necessary, you can remove a variety of signature types, including digital certificates, from your document."
       
   code_samples:
     # code sample loop
-    - title: "Secure Documents with Digital Signatures"
+    - title: "Secure documents with digital signatures"
       content: |
         Discover how to prevent document modifications using digital signatures.
         {{< landing/code title="C#">}}
@@ -173,7 +173,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "See Our Standout Features"
+    title: "See our standout features"
     exclude: "digital"
     description: "We deliver a rich variety of signature formats and powerful operations"
     items: 
@@ -247,7 +247,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Documents in Various Formats"
+    title: "Sign documents in various formats"
     exclude: "XLSX"
     description: "The .NET API empowers you to process over 60 different formats. You can seamlessly create and embed diverse signatures on any page, apply digital certificates for content security, and efficiently manage existing signatures within the document."
     items: 
