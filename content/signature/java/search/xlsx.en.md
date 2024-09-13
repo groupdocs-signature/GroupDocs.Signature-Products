@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-13T08:16:24
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Search for Signatures in XLSX Files with Java"
+head_title: "Digital signature search in XLSX by Java"
 head_description: "Leverage the GroupDocs.Signature for Java API to search for signatures within XLSX files. Find various types of signatures in PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Search Signatures in XLSX Using GroupDocs.Signature" 
+title: "Search digital signatures in XLSX" 
 description: "Retrieve a complete list of e-signatures embedded in PDF, Word, Excel, Presentations, or Image files using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Download"
+    - title: "Free download"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Searching for Signatures in XLSX using Java"
+    title: "Steps for searching for signatures in XLSX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a powerful engine to search for any digital signatures within XLSX files. Java developers can easily enhance their applications with our solution.
       
@@ -111,26 +111,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Document Signing Solution"
+  title: "Comprehensive document signing solution"
   description: "We are proud to introduce our document signing solution, compatible with all major document formats. Add a wide range of signatures to enhance your documents or secure their content."
   image: "/img/signature/features_search.webp" # 500x500 px
-  image_description: "Signature Search"
+  image_description: "Signature search"
   features:
     # feature loop
-    - title: "Sign Business Documents"
+    - title: "Sign business documents"
       content: "Insert digital signatures at any position on any page of a document. Use a variety of signature types, such as text, images, barcodes, metadata, stamps, or digital certificates."
 
     # feature loop
-    - title: "Manage Signatures"
+    - title: "Manage signatures"
       content: "After signing, documents may require further processing. Search for all available signatures, and update or delete them whenever necessary."
 
     # feature loop
-    - title: "Protect Document Content"
+    - title: "Protect document content"
       content: "Manage hidden metadata embedded in the document. Add new metadata or remove existing entries. Use corporate digital certificates to safeguard the document’s content from unauthorized alterations."
       
   code_samples:
     # code sample loop
-    - title: "Search for Image Signatures"
+    - title: "Search for image signatures"
       content: |
         This example demonstrates how to find an image signature in a specific document.
         {{< landing/code title="Java">}}
@@ -174,7 +174,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Supported Operations"
+    title: "Supported operations"
     exclude: "search"
     description: "Our product offers a flexible API for signing documents and managing signatures after signing."
     items: 
@@ -248,7 +248,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Search Signatures in Various File Formats"
+    title: "Search signatures in various file formats"
     exclude: "XLSX"
     description: "GroupDocs.Signature for Java API enables you to retrieve the list of signatures from any signed file. Extract signatures from popular file formats for further processing."
     items: 

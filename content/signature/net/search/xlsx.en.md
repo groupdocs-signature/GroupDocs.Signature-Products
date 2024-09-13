@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-13T08:16:25
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Locate Signatures in XLSX Documents with C# Integration"
+head_title: "Search electronic signatures in XLSX with C#"
 head_description: "Utilize the robust capabilities of the GroupDocs.Signature for .NET API to efficiently search and retrieve signatures embedded in XLSX documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Effortlessly Search for Signatures in XLSX Files Using GroupDocs.Signature" 
+title: "Effortlessly search for electronic signatures in XLSX files" 
 description: "Seamlessly extract a comprehensive list of electronic signatures embedded across various formats like PDFs, Word, Excel, Presentations, and Images, all powered by GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Download"
+    - title: "Start your free download"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Explore GroupDocs.Signature for .NET Capabilities"
+    title: "Explore GroupDocs.Signature for .NET capabilities"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Locating Signatures in XLSX using C#"
+    title: "Steps for search signatures in XLSX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) offers a robust engine for locating digital signatures within XLSX files. .NET developers can effortlessly enhance their applications with our solution.
       
@@ -98,26 +98,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Complete Document Signing Ecosystem"
+  title: "Complete document signing ecosystem"
   description: "Discover an advanced, feature-rich document signing solution, specifically designed to enhance and secure your documents with multiple signature types across various formats."
   image: "/img/signature/features_search.webp" # 500x500 px
-  image_description: "Signature Search and Management"
+  image_description: "Signature search and management"
   features:
     # feature loop
-    - title: "Sign and Secure Business Documents"
+    - title: "Sign and secure business documents"
       content: "Add digital signatures to any position within a document. GroupDocs.Signature supports an array of signature types, including text, images, barcodes, metadata, stamps, and digital certificates, ensuring document authenticity and compliance."
 
     # feature loop
-    - title: "Comprehensive Signature Management"
+    - title: "Comprehensive signature management"
       content: "After signing, leverage the search feature to retrieve all embedded signatures. Modify or delete signatures as needed, providing you with complete control over document integrity."
 
     # feature loop
-    - title: "Safeguard Your Document's Integrity"
+    - title: "Safeguard your document's integrity"
       content: "Utilize advanced tools to manage hidden metadata embedded within documents. Add or remove metadata entries and apply corporate digital certificates to protect against unauthorized edits and ensure document authenticity."
       
   code_samples:
     # code sample loop
-    - title: "Locating Image Signatures"
+    - title: "Search image signatures"
       content: |
         This example illustrates the process of detecting an image signature within a specified document.
         {{< landing/code title="C#">}}
@@ -161,7 +161,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Core Functionalities"
+    title: "Core functionalities"
     exclude: "search"
     description: "Our API offers extensive flexibility, enabling users to sign documents and conduct comprehensive post-signing operations, such as searching, verifying, and modifying signatures."
     items: 
@@ -235,7 +235,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Retrieve Signatures from a Variety of File Formats"
+    title: "Retrieve signatures from a variety of file formats"
     exclude: "XLSX"
     description: "The GroupDocs.Signature for .NET API empowers you to extract and manage signatures from a wide array of document types. Effortlessly retrieve embedded signatures from all major file formats for further analysis or processing."
     items: 

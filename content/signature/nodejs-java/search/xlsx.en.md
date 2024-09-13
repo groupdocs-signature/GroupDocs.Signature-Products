@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:40
+date:  2024-09-13T08:16:25
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Signature Detection in XLSX Files with JavaScript"
+head_title: "Signatures search in XLSX files with JavaScript"
 head_description: "Harness the power of the GroupDocs.Signature for Node.js via Java API to detect and search for electronic signatures across XLSX files, including PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
 
 ############################# Header ############################
-title: "Locate Signatures in XLSX Documents Using GroupDocs.Signature" 
+title: "Search signatures in XLSX documents" 
 description: "Discover and retrieve detailed information about all embedded signatures in PDFs, Word, Excel, Presentations, and Image files using the advanced tools provided by GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get Started for Free"
+    - title: "Get started for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Searching for Signatures in XLSX using JavaScript"
+    title: "Guide to searching for signatures in XLSX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for locating digital signatures within XLSX files. Node.js via Java developers can easily extend their application functionality with our solution.
       
@@ -96,26 +96,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Complete Signature Management Solution"
+  title: "Complete signature management solution"
   description: "GroupDocs.Signature for Node.js via Java provides an all-in-one solution for adding, modifying, searching, and verifying electronic signatures across popular document formats. Empower your workflows with advanced document signing features."
   image: "/img/signature/features_search.webp" # 500x500 px
-  image_description: "Signature Detection Features"
+  image_description: "Signature detection features"
   features:
     # feature loop
-    - title: "Digitally Sign Business Files"
+    - title: "Digitally sign business files"
       content: "Add electronic signatures such as text, image, barcode, and digital certificates to any location within your documents. GroupDocs.Signature supports signing in PDFs, Word, Excel, Images, and more, ensuring flexible document management."
 
     # feature loop
-    - title: "Efficient Signature Management"
+    - title: "Efficient signature management"
       content: "After signing, easily locate all signatures embedded within a document. The API allows for comprehensive searching and retrieval of signatures, as well as the ability to update or remove them."
 
     # feature loop
-    - title: "Document Security and Metadata Management"
+    - title: "Document security and metadata management"
       content: "Secure the integrity of your documents by embedding or removing hidden metadata. Protect your files from unauthorized changes by utilizing digital certificates to seal and authenticate document content."
       
   code_samples:
     # code sample loop
-    - title: "Identifying Image Signatures"
+    - title: "Identifying image signatures"
       content: |
         This example elucidates how to detect an image signature within a specific document.
         {{< landing/code title="JavaScript">}}
@@ -158,7 +158,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key Functionalities"
+    title: "Key functionalities"
     exclude: "search"
     description: "Our comprehensive API delivers a range of operations designed to streamline the management of document signatures, from signing to post-processing and verification."
     items: 
@@ -232,7 +232,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Locate Signatures Across Multiple File Types"
+    title: "Locate signatures across multiple file types"
     exclude: "XLSX"
     description: "With GroupDocs.Signature for Node.js via Java API, you can efficiently search and retrieve electronic signatures from a wide range of supported file formats, facilitating seamless integration into your document workflows."
     items: 
