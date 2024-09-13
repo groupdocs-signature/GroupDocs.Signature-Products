@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:38
+date:  2024-09-12T14:18:45
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Apply Digital Signatures to PDF Files with JavaScript Solutions"
+head_title: "Sign PDF with electronic signatures in JavaScript"
 head_description: "Harness the capabilities of JavaScript API to digitally sign and protect PDF files, including PDFs, Word documents, Excel sheets, presentations, and image formats."
 
 ############################# Header ############################
-title: "Digitally Protect PDF Files Using JavaScript" 
+title: "Sign PDF files electronically" 
 description: "Utilize GroupDocs.Signature for Node.js via Java to insert diverse digital signatures into your documents, ensuring data integrity and compliance for files like PDFs, Word, Excel, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Now for Free"
+    - title: "Download now for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Signing PDF Documents with Text Signatures using JavaScript"
+    title: "Steps for signing PDF documents with text signatures using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) streamlines the process of adding customized text signatures to PDF files. Node.js via Java developers can seamlessly incorporate signing functionality into their applications.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -93,26 +93,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Digital Signature Capabilities"
+  title: "Advanced digital signature capabilities"
   description: "Our advanced API streamlines business operations by facilitating the automated signing, verification, modification, and management of electronic signatures for a range of documents."
   image: "/img/signature/features_esign.webp" # 500x500 px
-  image_description: "Digital Signature Features"
+  image_description: "Digital signature features"
   features:
     # feature loop
-    - title: "Digital Signing for Office Files"
+    - title: "Digital signing for office files"
       content: "Easily add digital signatures to any page or position within a document. Customize your signatures with options like digital certificates, metadata, barcodes, or visual elements to enhance security and document integrity."
 
     # feature loop
-    - title: "Comprehensive Signature Control"
+    - title: "Comprehensive signature control"
       content: "Once a document is signed, you can manage its signatures effortlessly. Retrieve a complete list of all signatures, allowing you to make updates or remove them as needed."
 
     # feature loop
-    - title: "Strengthen Document Security"
+    - title: "Strengthen document security"
       content: "Use digital certificates to safeguard your documents from tampering. You can embed or extract metadata to enhance traceability and auditing, ensuring document compliance and authenticity."
       
   code_samples:
     # code sample loop
-    - title: "How to Apply an Image Signature to a Document"
+    - title: "How to apply an image signature to a document"
       content: |
         This guide details the process for affixing an image signature to a designated page within a document.
         {{< landing/code title="JavaScript">}}
@@ -157,111 +157,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "View Our Extensive Capabilities"
+    title: "View our extensive capabilities"
     exclude: "esign"
     description: "We offer a broad range of signature types and feature-rich operations"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Multiple File Types Digitally"
+    title: "Sign multiple file types digitally"
     exclude: "PDF"
     description: "The Node.js via Java API allows you to apply digital signatures to over 60 file formats, providing you with extensive flexibility in securing your business-critical documents."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/esign/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/esign/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "e-Sign PDFs"
           format: "PDF"
           link: "/signature/nodejs-java/esign/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "e-Sign DOCX"
+          format: "DOCX"
+          link: "/signature/nodejs-java/esign/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "e-Sign JPEG"
+          format: "JPEG"
+          link: "/signature/nodejs-java/esign/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "e-Sign PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/esign/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "e-Sign XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/esign/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

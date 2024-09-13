@@ -1,45 +1,45 @@
 {
   "head": {
-    "title": "Integrate Image Signatures into {{FileFormatUp}} Documents with {{ProgLang}} Solutions",
+    "title": "Integrate image into {{FileFormatUp}} with {{ProgLang}}",
     "description": "Leverage the power of {{ProgLang}} applications to insert image-based signatures into {{FileFormatUp}} files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
   },
   "header": {
-    "title": "Sign {{FileFormatUp}} Files Using Image Signatures in {{ProgLang}}",
+    "title": "Sign {{FileFormatUp}} files using image signatures",
     "description": "Leverage the capabilities of {{ProdFullName}} to effortlessly embed images into a multitude of office document formats such as PDFs, Word, Excel, and various image files. Adding an executive signature image can significantly enhance the professionalism and credibility of your documents, creating a refined and polished presentation.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download for Free"
+    "action_title": "Download for free"
   },
   "about": {
     "title": "Introducing {{ProdFullName}}",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) empowers users to incorporate image signatures at any location within your documents. This tool enables businesses to streamline their workflows by adding images to PDFs, Word, Excel, PowerPoint, and popular image formats, improving document management efficiency."
   },
   "more_features": {
-    "title": "Advanced Document Signing Capabilities",
+    "title": "Advanced document signing capabilities",
     "description": "Our API offers a suite of features that simplify electronic signing. You can add, modify, remove, search, and verify multiple types of signatures, including image signatures, with ease.",
-    "image_description": "Image Signatures",
+    "image_description": "Image signatures",
     "feature_1": {
-      "title": "Incorporate Images into Office Documents",
+      "title": "Incorporate images into office documents",
       "content": "Easily place image signatures anywhere within your document, whether it's PDFs, Word, or Excel files. Enhance your documents by adding images, barcodes, metadata, or digital certificates for added functionality."
     },
     "feature_2": {
-      "title": "Search and Validate Signatures",
+      "title": "Search and validate signatures",
       "content": "Ensure the authenticity of your signed documents by verifying the signatures. Use search functionality to retrieve and review all the signatures embedded within your document."
     },
     "feature_3": {
-      "title": "Modify Existing Signatures",
+      "title": "Modify existing signatures",
       "content": "Our API enables users to update and adjust signatures as needed. Modify the size, position, or other attributes of any previously added signature for flexibility in document handling."
     },
     "feature_4": {
-      "title": "Remove Unnecessary Signatures",
+      "title": "Remove unnecessary signatures",
       "content": "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
     }
   },
   "formats": {
-    "title": "Add Images to Various File Types",
+    "title": "Add images to various file types",
     "description": "The {{EnvName}} API allows you to embed images into a broad range of document formats. Customize the size, placement, and page positioning to enhance your document signing process."
   },
   "operations": {
-    "title": "Discover the Functions We Offer",
+    "title": "Discover the functions we offer",
     "description": "We are proud to showcase a broad selection of signature methods and operations"
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Save the document with the applied image signature"
   },
   "steps": {
-    "title": "Procedure for Embedding Images in {{FileFormatUp}} Pages Using {{ProgLang}}",
+    "title": "Guide to embedding images in {{FileFormatUp}} pages using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} applications to seamlessly integrate image signatures into {{FileFormatUp}} documents. Enhance your application's capabilities with our comprehensive library.",
       "step_1": "Instantiate {{TextSignature}} with the {{FileFormatUp}} document",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Enhance Documents with Image Signatures",
+    "title": "Enhance documents with image signatures",
     "content": "Learn how to incorporate images into business documents to add supplementary information.",
     "comment_1": "Select the document to be signed",
     "comment_2": "Configure image options with the image path",

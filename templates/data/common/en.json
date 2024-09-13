@@ -1,78 +1,103 @@
 {
   "common-content": {
     "format-formats": {
-      "excel": {
-        "name": "Sign Excel programmatically",
-        "description": "MS Excel and Open Office spreadsheets"
-      },
-      "word": {
-        "name": "Watermark Word",
-        "description": "MS Word and Open Office documents"
-      },
-      "powerpoint": {
-        "name": "Watermark PowerPoint",
-        "description": "MS PowerPoint and Open Office presentations"
-      },
-      "image": {
-        "name": "Watermark Image",
-        "description": "Popular image formats"
-      },
-      "photo": {
-        "name": "Watermark Photo",
-        "description": "Photo formats"
-      },
       "pdf": {
-        "name": "Watermark PDF",
         "description": "Adobe Portable Document Format"
       },
-      "doc": {
-        "name": "Watermark DOC",
-        "description": "Microsoft Word 97 - 2007 Document"
-      },
       "docx": {
-        "name": "Watermark DOCX",
         "description": "Microsoft Word Open XML Document"
       },
-      "xls": {
-        "name": "Watermark XLS",
-        "description": "Microsoft Excel Workbook 97-2003"
-      },
       "xlsx": {
-        "name": "Watermark XLSX",
         "description": "Microsoft Excel Open XML Spreadsheet"
       },
-      "ppt": {
-        "name": "Watermark PPT",
-        "description": "PowerPoint Presentation 97-2003"
-      },
       "pptx": {
-        "name": "Watermark PPTX",
         "description": "PowerPoint Open XML Presentation"
       },
       "jpeg": {
-        "name": "Watermark JPEG",
         "description": "JPEG Image"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-Sign PDFs",
+        "docx": "e-Sign DOCX",
+        "xlsx": "e-Sign XLSX",
+        "pptx": "e-Sign PPTX",
+        "jpeg": "e-Sign JPEG"
       },
-      "png": {
-        "name": "Watermark PNG",
-        "description": "Portable Network Graphic"
+      "text": {
+        "pdf": "PDF text signatures",
+        "docx": "DOCX text signatures",
+        "xlsx": "XLSX text signatures",
+        "pptx": "PPTX text signatures",
+        "jpeg": "JPEG text signatures"
       },
-      "tiff": {
-        "name": "Watermark TIFF",
-        "description": "Tag Image File Format"
+      "image": {
+        "pdf": "Sign PDF with image",
+        "docx": "Sign DOCX with image",
+        "xlsx": "Sign XLSX with image",
+        "pptx": "Sign PPTX with image",
+        "jpeg": "Sign JPEG with image"
       },
-      "webp": {
-        "name": "Watermark WEBP",
-        "description": "WEB Picture"
+      "barcode": {
+        "pdf": "Add barcode to PDF",
+        "docx": "Add barcode to DOCX",
+        "xlsx": "Add barcode to XLSX",
+        "pptx": "Add barcode to PPTX",
+        "jpeg": "Add barcode to JPEG"
       },
-      "rtf": {
-        "name": "Watermark RTF",
-        "description": "Rich Text Format"
+      "qrcode": {
+        "pdf": "QR-Code for PDF",
+        "docx": "QR-Code for DOCX",
+        "xlsx": "QR-Code for XLSX",
+        "pptx": "QR-Code for PPTX",
+        "jpeg": "QR-Code for JPEG"
+      },
+      "digital": {
+        "pdf": "Protect PDF",
+        "docx": "Protect DOCX",
+        "xlsx": "Protect XLSX",
+        "pptx": "Protect PPTX"
+      },
+      "stamp": {
+        "pdf": "Stamp PDF",
+        "docx": "Stamp DOCX",
+        "xlsx": "Stamp XLSX",
+        "pptx": "Stamp PPTX",
+        "jpeg": "Stamp JPEG"
+      },
+      "search": {
+        "pdf": "Search signatures in PDF",
+        "docx": "Search signatures in DOCX",
+        "xlsx": "Search signatures in XLSX",
+        "pptx": "Search signatures in PPTX",
+        "jpeg": "Search signatures in JPEG"
+      },
+      "verify": {
+        "pdf": "Verify PDF signatures",
+        "docx": "Verify DOCX signatures",
+        "xlsx": "Verify XLSX signatures",
+        "pptx": "Verify PPTX signatures",
+        "jpeg": "Verify JPEG signatures"
+      },
+      "modify": {
+        "pdf": "Modify PDF signatures",
+        "docx": "Modify DOCX signatures",
+        "xlsx": "Modify XLSX signatures",
+        "pptx": "Modify PPTX signatures",
+        "jpeg": "Modify JPEG signatures"
+      },
+      "delete": {
+        "pdf": "Delete PDF signatures",
+        "docx": "Delete DOCX signatures",
+        "xlsx": "Delete XLSX signatures",
+        "pptx": "Delete PPTX signatures",
+        "jpeg": "Delete JPEG signatures"
       }
     },
     "format-code": {
       "copy_title": "Copy",
-      "result_title": "Download signatures",
+      "result_title": "Sample signatures",
       "copy_tip": "click to copy",
       "copy_done": "copied",
       "links": {
@@ -91,48 +116,48 @@
     },
     "operations": {
       "esign": {
-        "name": "Electronic Signatures",
-        "description": "Add various types of signatures to supported file formats."
+        "name": "Electronic signatures",
+        "description": "Add various types of signatures to supported file formats"
       },
       "text": {
-        "name": "Add Text to Documents",
-        "description": "Enhance document content with customizable text signatures."
+        "name": "Add text to documents",
+        "description": "Enhance document content with customizable text signatures"
       },
       "image": {
-        "name": "Image Signatures",
-        "description": "Place any image at any position within a document."
+        "name": "Image signatures",
+        "description": "Place any image at any position within a document"
       },
       "barcode": {
-        "name": "Generate Barcodes",
-        "description": "Create and insert various barcodes into supported documents."
+        "name": "Generate barcodes",
+        "description": "Create and insert various barcodes into supported documents"
       },
       "qrcode": {
-        "name": "Generate QR Codes",
-        "description": "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+        "name": "Generate QR codes",
+        "description": "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
       },
       "digital": {
-        "name": "Digital Certificates",
-        "description": "Secure business documents using digital certificates."
+        "name": "Digital certificates",
+        "description": "Secure business documents using digital certificates"
       },
       "stamp": {
-        "name": "Stamp Signatures",
-        "description": "Use the Stamp Constructor to create custom round or square stamps."
+        "name": "Stamp signatures",
+        "description": "Use the Stamp Constructor to create custom round or square stamps"
       },
       "search": {
-        "name": "Search Signatures",
-        "description": "Locate any previously added signatures within a document."
+        "name": "Search signatures",
+        "description": "Locate any previously added signatures within a document"
       },
       "verify": {
-        "name": "Signature Verification",
-        "description": "Verify the authenticity of signatures after they have been applied."
+        "name": "Signature verification",
+        "description": "Verify the authenticity of signatures after they have been applied"
       },
       "modify": {
-        "name": "Modify Signatures",
-        "description": "Easily edit a variety of signatures within a document."
+        "name": "Modify signatures",
+        "description": "Easily edit a variety of signatures within a document"
       },
       "delete": {
-        "name": "Delete Signatures",
-        "description": "Remove a wide range of previously applied signatures."
+        "name": "Delete signatures",
+        "description": "Remove a wide range of previously applied signatures"
       }
     }
   }

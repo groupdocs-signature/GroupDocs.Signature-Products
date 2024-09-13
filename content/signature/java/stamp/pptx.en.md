@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:13
+date:  2024-09-13T09:34:11
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Generate Stamps for PPTX Using Java"
+head_title: "Add stamps to PPTX using Java"
 head_description: "Leverage GroupDocs.Signature and Java to create custom stamps and place them on any page within PPTX documents."
 
 ############################# Header ############################
-title: "Embed Custom Stamps in PPTX with Java" 
+title: "Add custom stamps to PPTX" 
 description: "Design and apply stamps to any section of your documents using GroupDocs.Signature for Java. Our solution offers extensive customization options to meet all your business needs."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Adding Stamp Signatures to PPTX Documents via Java"
+    title: "Steps for adding stamp signatures to PPTX documents via Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a stamp constructor that can be highly beneficial for Java applications. Utilize it to create well-customized stamps for your document pages.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -111,30 +111,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Protect Your Document Content with Signatures"
+  title: "Protect your document content with signatures"
   description: "The GroupDocs.Signature for Java library is designed for signing and managing signatures across popular file formats. Effortlessly add, modify, verify, or remove stamps and other types of signatures."
   image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Stamp Signatures with GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Sign Your Documents"
+    - title: "Sign your documents"
       content: "Apply customizable signatures to any part of your document. Choose from various signature types, including text, images, barcodes, QR codes, and stamps. Additionally, hidden metadata can be added or modified to enhance document security."
 
     # feature loop
-    - title: "Search and Validate Signatures"
+    - title: "Search and validate signatures"
       content: "Once a document is signed, use our verification tools to ensure that the signature content is valid. Search for and retrieve a list of all signatures for further processing."
 
     # feature loop
-    - title: "Update Signatures as Needed"
+    - title: "Update signatures as needed"
       content: "Easily modify a wide range of signatures applied to a document. Update properties such as size, color, position, content, and more."
 
     # feature loop
-    - title: "Remove Signatures"
+    - title: "Remove signatures"
       content: "Need to remove signatures from a document? Our API fully supports signature deletion, making it easy to manage your documents effectively."
       
   code_samples:
     # code sample loop
-    - title: "Add Custom Stamps to Documents using Special Signatures"
+    - title: "Add custom stamps to documents using special signatures"
       content: |
         Learn how to generate and add custom stamps with important textual information to your documents.
         {{< landing/code title="Java">}}
@@ -203,111 +203,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Core Features"
+    title: "Explore our core features"
     exclude: "stamp"
     description: "Utilize a wide range of options for adding, managing, and deleting signatures."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/pptx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/pptx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/pptx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/pptx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pptx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/pptx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/pptx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/pptx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/pptx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/pptx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Stamps Across Multiple File Formats"
+    title: "Add stamps across multiple file formats"
     exclude: "PPTX"
     description: "The GroupDocs.Signature API supports stamping documents in over 60 formats. Place stamps on any page or area to improve document management and customization."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/stamp/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/stamp/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Stamp PDF"
           format: "PDF"
           link: "/signature/java/stamp/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Stamp DOCX"
+          format: "DOCX"
+          link: "/signature/java/stamp/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Stamp JPEG"
+          format: "JPEG"
+          link: "/signature/java/stamp/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Stamp PPTX"
           format: "PPTX"
           link: "/signature/java/stamp/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Stamp XLSX"
           format: "XLSX"
           link: "/signature/java/stamp/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

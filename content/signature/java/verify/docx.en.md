@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-09T21:06:26
+date:  2024-09-13T10:22:17
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Verify Signatures in DOCX Using Java"
+head_title: "Verify DOCX signatures using Java"
 head_description: "GroupDocs.Signature for Java enables the verification of signatures placed in DOCX files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
 
 ############################# Header ############################
-title: "Signature Verification for DOCX Files Using GroupDocs.Signature" 
+title: "Signature verification for DOCX files" 
 description: "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Version"
+    - title: "Download free version"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Verifying Signatures in DOCX using Java"
+    title: "Steps for verifying signatures in DOCX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) can verify the presence of specific signatures in a DOCX document. Java developers can easily empower their applications by adding features provided by our solution.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -108,30 +108,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Document Signing Solution"
+  title: "Comprehensive document signing solution"
   description: "GroupDocs.Signature enhances popular office document formats with 7 types of signatures and full CRUD operations, offering robust protection for your document content."
   image: "/img/signature/features_verify.webp" # 500x500 px
-  image_description: "Signature Verification"
+  image_description: "Signature verification"
   features:
     # feature loop
-    - title: "Sign Corporate Documents"
+    - title: "Sign corporate documents"
       content: "Add professional digital signatures to any document. Our solution supports various types of signatures, including text, images, barcodes, metadata, stamps, and digital certificates."
 
     # feature loop
-    - title: "Signature CRUD Operations"
+    - title: "Signature CRUD operations"
       content: "In many cases, signed documents require further processing. Retrieve a list of all signatures in a document, verify them, modify their properties, or remove them when necessary."
 
     # feature loop
-    - title: "Protect Document Content"
+    - title: "Protect document content"
       content: "Safeguard corporate documents with digital certificates to prevent unauthorized changes. Embed hidden metadata to further protect document content."
 
     # feature loop
-    - title: "Native Signatures"
+    - title: "Native signatures"
       content: "Utilize document-specific text signatures, such as PDF stamps or Word watermarks, to create tailored, professional documents for corporate use."
       
   code_samples:
     # code sample loop
-    - title: "Verify Barcode Signatures"
+    - title: "Verify barcode signatures"
       content: |
         This example demonstrates how to verify barcode signatures in a document.
         {{< landing/code title="Java">}}
@@ -176,111 +176,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Supported Operations and Signature Types"
+    title: "Supported operations and signature types"
     exclude: "verify"
     description: "Explore the full range of features and signature operations supported by GroupDocs.Signature."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/docx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/docx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/docx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/docx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/docx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/docx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/docx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/docx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/docx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/docx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/docx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Signature Verification Across File Formats"
+    title: "Signature verification across file formats"
     exclude: "DOCX"
     description: "GroupDocs.Signature for Java simplifies the process of verifying all signatures in a document. Set custom verification parameters to ensure the integrity of signed documents."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/verify/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/verify/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Verify PDF signatures"
           format: "PDF"
           link: "/signature/java/verify/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Verify DOCX signatures"
+          format: "DOCX"
+          link: "/signature/java/verify/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Verify PPTX signatures"
           format: "PPTX"
           link: "/signature/java/verify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Verify XLSX signatures"
           format: "XLSX"
           link: "/signature/java/verify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

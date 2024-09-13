@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:38
+date:  2024-09-12T11:45:39
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Generated Barcodes to PPTX Files Using Java Applications"
-head_description: "Utilize Java applications with GroupDocs.Signature to generate and insert barcodes on any page of PPTX documents."
+head_title: "Generate barcode for PPTX using Java Applications"
+head_description: "Utilize Java applications with GroupDocs.Signature to generate and insert barcodes on any place of PPTX documents."
 
 ############################# Header ############################
-title: "Embed Barcodes in PPTX Pages Using Java" 
+title: "Generate barcode for PPTX" 
 description: "Add barcodes of popular formats to any position in your business documents with GroupDocs.Signature for Java. Our solution provides extensive options to customize barcode signatures."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to Generate and Add a Barcode to PPTX Documents"
+    title: "Steps to generate and add a barcode to PPTX documents"
     content: |
       [GroupDocs.Signature](/signature/java/) can generate barcodes in various popular formats and place them on PPTX pages. With support for over 60 barcode types, Java applications can easily be enhanced with barcode signing capabilities by incorporating our library.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -106,30 +106,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance or Protect Document Content with Signatures"
+  title: "Enhance or protect document content with signatures"
   description: "The GroupDocs.Signature for Java library is designed for signing and further processing popular file formats. Quickly and easily add, modify, verify, or delete various types of signatures."
   image: "/img/signature/features_barcode.webp" # 500x500 px
   image_description: "Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Document Signing"
+    - title: "Document signing"
       content: "Sign any page of supported documents with text, images, barcodes, QR codes, or stamps. Add hidden metadata like EXIF in images or protect document content from unauthorized changes using digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "There’s much more you can do with a signed document. We offer verification of signatures to ensure everything is in order. Additionally, you can retrieve a list of all document signatures through a search."
 
     # feature loop
-    - title: "Modify Signatures"
+    - title: "Modify signatures"
       content: "Most previously added signatures can be modified. Easily correct text, adjust position, or change color."
 
     # feature loop
-    - title: "Delete Signatures"
+    - title: "Delete signatures"
       content: "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Barcode Signature"
+    - title: "How to customize a barcode signature"
       content: |
         This example demonstrates how to place a customized barcode on PPTX document pages.
         {{< landing/code title="Java">}}
@@ -188,111 +188,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Discover Our Core Capabilities"
+    title: "Discover our core capabilities"
     exclude: "barcode"
     description: "We proudly present an extensive variety of supported signatures and functions"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/pptx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/pptx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/pptx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/pptx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pptx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/pptx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/pptx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/pptx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/pptx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/pptx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Sign Documents in Other Formats"
+    title: "Sign documents in other formats"
     exclude: "PPTX"
     description: "Over 60 formats can be signed using our Java API. Apply various signatures to any page or position within the document."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/barcode/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/barcode/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Add barcode to PDF"
           format: "PDF"
           link: "/signature/java/barcode/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Add barcode to DOCX"
+          format: "DOCX"
+          link: "/signature/java/barcode/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Add barcode to JPEG"
+          format: "JPEG"
+          link: "/signature/java/barcode/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Add barcode to PPTX"
           format: "PPTX"
           link: "/signature/java/barcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Add barcode to XLSX"
           format: "XLSX"
           link: "/signature/java/barcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

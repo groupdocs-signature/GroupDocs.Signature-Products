@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-09T21:06:26
+date:  2024-09-13T10:22:17
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Authenticate and Validate Signatures in DOCX via JavaScript"
+head_title: "Verify signatures in DOCX via JavaScript"
 head_description: "With GroupDocs.Signature for Node.js via Java, you can efficiently verify the authenticity of signatures within DOCX documents. Seamlessly check signatures in PDFs, Word, Excel, Presentations, Images, ZIP files, and more."
 
 ############################# Header ############################
-title: "Signature Validation in DOCX Files Using GroupDocs.Signature" 
+title: "Verify signatures in DOCX files" 
 description: "Ensure the accuracy and validity of all supported e-signatures in a wide array of document formats, including PDF, Word, Excel, Presentations, Images, and ZIP, using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download the Free Version"
+    - title: "Download the free version"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Verifying Signatures in DOCX using JavaScript"
+    title: "How to verify signatures in DOCX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) can authenticate the presence of specific signatures in a DOCX document. Node.js via Java developers can effortlessly enhance their applications by incorporating our verification features.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -94,30 +94,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Cutting-Edge Document Signing and Verification"
+  title: "Cutting-edge document signing technology"
   description: "GroupDocs.Signature provides an all-in-one solution for verifying and managing signatures in various office formats. Offering seven signature types and full CRUD operations, it allows for seamless document management and content security."
   image: "/img/signature/features_verify.webp" # 500x500 px
-  image_description: "Signature Verification Features"
+  image_description: "Signature verification features"
   features:
     # feature loop
-    - title: "Sign Corporate Documents with Ease"
+    - title: "Sign corporate documents with ease"
       content: "Apply digital signatures—whether text-based, image, barcode, metadata, stamps, or digital certificates—to your documents in a secure and customized manner. GroupDocs.Signature for Node.js via Java ensures streamlined and professional corporate document signing."
 
     # feature loop
-    - title: "Signature Lifecycle Operations"
+    - title: "Signature lifecycle operations"
       content: "Gain full control over document signatures. List all signatures in a file, verify their authenticity, update them as required, or remove them entirely when necessary, ensuring proper document processing."
 
     # feature loop
-    - title: "Ensure Document Integrity"
+    - title: "Ensure document integrity"
       content: "Leverage digital certificates to protect your documents from unauthorized changes. Use metadata to secure and track document content, ensuring it remains untampered and confidential."
 
     # feature loop
-    - title: "Customized Signature Solutions"
+    - title: "Customized native signatures"
       content: "Add tailored native signatures like stickers in PDFs or watermarks in Word documents. These customizable options allow for professional and secure document handling, perfectly suited to corporate environments."
       
   code_samples:
     # code sample loop
-    - title: "Authenticate Barcode Signatures"
+    - title: "Barcode signatures verification process"
       content: |
         This example elucidates the methodology for authenticating barcode signatures embedded within a document.
         {{< landing/code title="JavaScript">}}
@@ -163,111 +163,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Comprehensive Features and Supported Signatures"
+    title: "Comprehensive features and supported signatures"
     exclude: "verify"
     description: "Explore the advanced capabilities of GroupDocs.Signature, featuring a diverse range of signature management tools and operations for enhanced document workflows."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/docx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/docx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/docx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/docx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/docx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/docx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/docx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/docx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/docx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/docx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/docx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Comprehensive Signature Validation for Various Formats"
+    title: "Comprehensive signature validation for various formats"
     exclude: "DOCX"
     description: "GroupDocs.Signature for Node.js via Java simplifies signature verification across multiple document formats, offering robust controls for signature checks. Customize your verification process and ensure documents are signed appropriately."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/verify/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/verify/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Verify PDF signatures"
           format: "PDF"
           link: "/signature/nodejs-java/verify/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Verify DOCX signatures"
+          format: "DOCX"
+          link: "/signature/nodejs-java/verify/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Verify PPTX signatures"
           format: "PPTX"
           link: "/signature/nodejs-java/verify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Verify XLSX signatures"
           format: "XLSX"
           link: "/signature/nodejs-java/verify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

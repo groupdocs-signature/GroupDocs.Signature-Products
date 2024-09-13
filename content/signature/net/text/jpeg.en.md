@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:14
+date:  2024-09-13T10:02:31
 draft: false
 lang: en
 format: Jpeg
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Integrate Text Signatures into JPEG Files with C# Applications"
+head_title: "Add text signatures to JPEG using C# apps"
 head_description: "Harness the power of the C# API to embed text-based signatures within JPEG files, supporting a wide array of formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
-title: "Seamlessly Embed Text Signatures in JPEG via C#" 
+title: "Seamlessly embed text signatures in JPEG" 
 description: "Effortlessly integrate custom text signatures into your business documents using GroupDocs.Signature for .NET. Optimize organizational processes with versatile signature customization capabilities."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Try it Free Today"
+    - title: "Try it free today"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover the GroupDocs.Signature for .NET Solution"
+    title: "Discover the GroupDocs.Signature for .NET solution"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure for Embedding Text Signatures into JPEG Documents Using C#"
+    title: "How to embed text signatures into JPEG documents using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the incorporation of text signatures into JPEG files within .NET applications. Enhance your product capabilities swiftly with our comprehensive solutions.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -91,30 +91,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Text Signature Management"
+  title: "Comprehensive text signature management"
   description: "GroupDocs.Signature for .NET empowers your organization by enhancing document workflows through the addition of customizable text signatures across popular file formats. Easily manage the appearance, positioning, and content of these signatures to suit your specific needs."
   image: "/img/signature/features_text.webp" # 500x500 px
   image_description: "Explore the Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Versatile Document Signatures"
+    - title: "Versatile document signatures"
       content: "Apply a diverse range of signatures—including text, images, barcodes, QR codes, and stamps—onto any page of supported documents. Leverage metadata to embed hidden content, while protecting sensitive information through the use of digital certificates."
 
     # feature loop
-    - title: "Signature Search and Authentication"
+    - title: "Signature search and authentication"
       content: "Ensure the validity and integrity of your signed documents by utilizing our robust signature verification tools. Conduct searches to retrieve a comprehensive list of all signatures within a document for further analysis."
 
     # feature loop
-    - title: "Update or Remove Signatures"
+    - title: "Update or remove signatures"
       content: "Easily modify the content, visual properties, or positioning of previously embedded signatures. When necessary, remove unwanted signatures to maintain accurate and relevant document content."
 
     # feature loop
-    - title: "Specialized Text Signatures"
+    - title: "Specialized text signatures"
       content: "Implement document-specific text signatures, such as watermarks for Word documents or stickers for PDFs, to provide an additional layer of customization and control."
       
   code_samples:
     # code sample loop
-    - title: "Embed Text Signatures in Documents"
+    - title: "Embed text signatures in documents"
       content: |
         Discover how to incorporate textual signatures into business documents to streamline processes.
         {{< landing/code title="C#">}}
@@ -190,111 +190,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Advanced Features and Signature Options"
+    title: "Advanced features and signature options"
     exclude: "text"
     description: "Our API supports full lifecycle management of seven signature types, offering comprehensive CRUD capabilities for managing, verifying, and customizing your signatures."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/jpeg/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/jpeg/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/jpeg/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/jpeg/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/jpeg/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
-          link: "/signature/net/digital/jpeg/"
-          description: "Secure business documents using digital certificates."
+          link: "/signature/net/digital/pdf/"
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/jpeg/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
-          link: "/signature/net/search/jpeg/"
-          description: "Locate any previously added signatures within a document."
+          link: "/signature/net/search/pdf/"
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
-          link: "/signature/net/verify/jpeg/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          link: "/signature/net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
-          link: "/signature/net/modify/jpeg/"
-          description: "Easily edit a variety of signatures within a document."
+          link: "/signature/net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
-          link: "/signature/net/delete/jpeg/"
-          description: "Remove a wide range of previously applied signatures."
+          link: "/signature/net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Embed Text Signatures Across Multiple File Formats"
+    title: "Embed text signatures across multiple file formats"
     exclude: "JPEG"
     description: "With our .NET API, you can embed textual signatures into a wide variety of Office documents. Take full control of your documents' lifecycle by adding text signatures that enhance both functionality and security."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/text/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/text/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "PDF text signatures"
           format: "PDF"
           link: "/signature/net/text/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "DOCX text signatures"
+          format: "DOCX"
+          link: "/signature/net/text/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "JPEG text signatures"
+          format: "JPEG"
+          link: "/signature/net/text/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "PPTX text signatures"
           format: "PPTX"
           link: "/signature/net/text/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "XLSX text signatures"
           format: "XLSX"
           link: "/signature/net/text/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

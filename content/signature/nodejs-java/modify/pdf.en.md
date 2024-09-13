@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:40
+date:  2024-09-12T18:38:41
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Edit Signatures in PDF Documents Using JavaScript Apps"
+head_title: "Update PDF documents signatures using JavaScript apps"
 head_description: "Utilize the JavaScript API to revise and manage digital signatures within PDF formats, including PDF, Word, Excel, PowerPoint, and Image files."
 
 ############################# Header ############################
-title: "Effortlessly Adjust Signatures in PDF with JavaScript" 
+title: "Effortlessly adjust signatures in PDF" 
 description: "With GroupDocs.Signature for Node.js via Java, you can modify various electronic signatures embedded in your business documents, including PDFs, Word files, Excel sheets, presentations, and image formats."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Modifying Text Signatures in PDF using JavaScript"
+    title: "Guide to modifying text signatures in PDF using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java developers to update the content of text signatures previously embedded in PDF files. Enhance Node.js via Java applications with robust editing capabilities.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -97,30 +97,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Signature Management for Documents"
+  title: "Signature management for documents"
   description: "GroupDocs.Signature for Node.js via Java offers a robust suite of tools for adding, modifying, verifying, searching, and deleting signatures across a wide array of document formats, enhancing your workflow and document security."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Signature Editing"
+  image_description: "Signature editing"
   features:
     # feature loop
-    - title: "Flexible Document Signing"
+    - title: "Flexible document signing"
       content: "Sign your documents with a variety of options—text, images, barcodes, and stamps—at any location in your files. You can also adjust embedded metadata like EXIF data in images and protect sensitive information using digital certificates."
 
     # feature loop
-    - title: "Verify and Search Signatures"
+    - title: "Verify and search signatures"
       content: "Ensure the integrity of your documents by verifying signatures with ease. Use built-in search functionality to locate and manage all signatures within a file, ensuring nothing is overlooked."
 
     # feature loop
-    - title: "Update Existing Signatures"
+    - title: "Update existing signatures"
       content: "When a signature needs adjustments, whether in appearance, position, or content, our API makes the process smooth and hassle-free, letting you fine-tune any signature quickly."
 
     # feature loop
-    - title: "Remove Unwanted Signatures"
+    - title: "Remove unwanted signatures"
       content: "Whether you need to remove an outdated signature or clean up your document, GroupDocs.Signature for Node.js via Java offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
       
   code_samples:
     # code sample loop
-    - title: "Edit Barcode Signatures"
+    - title: "Edit barcode signatures"
       content: |
         This example demonstrates how to programmatically edit barcode signatures within a document.
         {{< landing/code title="JavaScript">}}
@@ -171,111 +171,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Signature and Functionality Options"
+    title: "Explore our signature and functionality options"
     exclude: "modify"
     description: "We provide a rich array of signature capabilities along with numerous operational tools"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Edit Signatures Across Multiple File Formats"
+    title: "Edit signatures across multiple file formats"
     exclude: "PDF"
     description: "With Node.js via Java API, signed documents can be revisited at any time, allowing you to extract and modify signature properties for popular business formats, ensuring complete flexibility and control."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/modify/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/modify/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Modify PDF signatures"
           format: "PDF"
           link: "/signature/nodejs-java/modify/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Modify DOCX signatures"
+          format: "DOCX"
+          link: "/signature/nodejs-java/modify/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Modify PPTX signatures"
           format: "PPTX"
           link: "/signature/nodejs-java/modify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Modify XLSX signatures"
           format: "XLSX"
           link: "/signature/nodejs-java/modify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

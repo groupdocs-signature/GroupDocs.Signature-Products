@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:40
+date:  2024-09-12T13:12:49
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Efficiently Erase Signatures from PDF Files Using JavaScript"
+head_title: "Delete signatures from PDF via JavaScript"
 head_description: "Elevate your JavaScript applications by integrating GroupDocs.Signature for Node.js via Java, a powerful tool designed to seamlessly remove embedded signatures from PDF files."
 
 ############################# Header ############################
-title: "Effortlessly Erase Signatures from PDF with JavaScript" 
+title: "Effortlessly delete signatures from PDF" 
 description: "Our comprehensive solution extends beyond simple document signing, offering robust features within GroupDocs.Signature for Node.js via Java to locate and delete a wide array of signatures."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get Your Free Download"
+    - title: "Get your free download"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -38,12 +38,12 @@ about:
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
     content: |
-       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) represents a sophisticated solution for intricate metadata management and manipulation. It provides the ability to view, update, remove, search, compare, exchange, and export metadata across diverse image and document formats, all without relying on external software. Integrate metadata into Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote notebooks, Visio diagrams, Project files, PDFs, AutoCAD drawings, ZIP archives, as well as audio and video formats, among others.
+       [GroupDocs.Signature for Node.js via Java](/signature/nodejs-java/) is an advanced, enterprise-grade digital signing library engineered to support a wide array of signature types, including text, images, barcodes, digital certificates, and stamps. With compatibility across more than 60 document formats—such as PDFs, MS Office files, images, ZIP archives, and other critical business formats—this tool offers unparalleled versatility in electronic document workflows. The platform not only facilitates seamless signature embedding but also provides robust functionality for searching, validating, updating, and removing signatures, ensuring full lifecycle management of digital signing processes in enterprise environments.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Removing Text Signatures from PDF using JavaScript"
+    title: "Guidelines for removing text signatures from PDF using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to efficiently remove text signatures in PDF files by following a series of simple steps.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -99,30 +99,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhance Document Security with Signature Tools"
+  title: "Enhance document security with signature tools"
   description: "GroupDocs.Signature for Node.js via Java is specifically crafted to streamline the signing and management of business file formats, allowing you to add, edit, verify, or remove signatures with precision."
   image: "/img/signature/features_delete.webp" # 500x500 px
-  image_description: "Explore the Comprehensive Capabilities of GroupDocs.Signature"
+  image_description: "Explore the comprehensive capabilities of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Comprehensive Document Signing"
+    - title: "Document signing"
       content: "Add text, image, barcode, QR code, or stamp signatures to any page of supported documents effortlessly. Utilize hidden metadata like EXIF in images, or secure document integrity with digital certificates to prevent unauthorized modifications."
 
     # feature loop
-    - title: "Signature Search and Validation"
+    - title: "Signature search and validation"
       content: "Our tools enable thorough verification of document signatures, ensuring their authenticity. Perform comprehensive searches to retrieve all signatures within your documents, enhancing document control."
 
     # feature loop
-    - title: "Edit Existing Signatures"
+    - title: "Edit existing signatures"
       content: "Easily modify previously added signatures by adjusting text, altering position, or changing colors to meet your specific requirements."
 
     # feature loop
-    - title: "Remove Unwanted Signatures"
+    - title: "Remove unwanted signatures"
       content: "With full CRUD capabilities, our solution enables the efficient deletion of a wide range of signature types from your documents, ensuring flexibility and control."
       
   code_samples:
     # code sample loop
-    - title: "Remove All QR-Code Signatures"
+    - title: "Remove all QR-code signatures"
       content: |
         Learn the procedure to eliminate all QR-code signatures embedded in a document.
         {{< landing/code title="JavaScript">}}
@@ -169,111 +169,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore the Features We Provide"
+    title: "Explore the features we provide"
     exclude: "delete"
     description: "Discover the full range of signature solutions and operations available in our system"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Eliminate Signatures from Various File Formats"
+    title: "Delete signatures from various file formats"
     exclude: "PDF"
     description: "Our GroupDocs.Signature for Node.js via Java solution is proficient in removing signatures across a diverse range of over 60 file formats, ensuring broad compatibility and functionality."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/delete/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/delete/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Delete PDF signatures"
           format: "PDF"
           link: "/signature/nodejs-java/delete/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Delete DOCX signatures"
+          format: "DOCX"
+          link: "/signature/nodejs-java/delete/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Delete PPTX signatures"
           format: "PPTX"
           link: "/signature/nodejs-java/delete/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Delete XLSX signatures"
           format: "XLSX"
           link: "/signature/nodejs-java/delete/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

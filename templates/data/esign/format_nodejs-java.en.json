@@ -1,41 +1,41 @@
 {
   "head": {
-    "title": "Apply Digital Signatures to {{FileFormatUp}} Files with {{ProgLang}} Solutions",
+    "title": "Sign {{FileFormatUp}} with electronic signatures in {{ProgLang}}",
     "description": "Harness the capabilities of {{ProgLang}} API to digitally sign and protect {{FileFormatUp}} files, including PDFs, Word documents, Excel sheets, presentations, and image formats."
   },
   "header": {
-    "title": "Digitally Protect {{FileFormatUp}} Files Using {{ProgLang}}",
+    "title": "Sign {{FileFormatUp}} files electronically",
     "description": "Utilize {{ProdFullName}} to insert diverse digital signatures into your documents, ensuring data integrity and compliance for files like PDFs, Word, Excel, presentations, and image formats.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download Now for Free"
+    "action_title": "Download now for free"
   },
   "about": {
     "title": "Overview of {{ProdFullName}} API",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) delivers a robust set of tools for adding electronic signatures. With its intuitive API, you can seamlessly sign, search, verify, modify, and delete signatures from various file types without needing external software. It supports smooth signing of PDFs, Word documents, Excel spreadsheets, PowerPoint slides, and numerous image formats."
   },
   "more_features": {
-    "title": "Advanced Digital Signature Capabilities",
+    "title": "Advanced digital signature capabilities",
     "description": "Our advanced API streamlines business operations by facilitating the automated signing, verification, modification, and management of electronic signatures for a range of documents.",
-    "image_description": "Digital Signature Features",
+    "image_description": "Digital signature features",
     "feature_1": {
-      "title": "Digital Signing for Office Files",
+      "title": "Digital signing for office files",
       "content": "Easily add digital signatures to any page or position within a document. Customize your signatures with options like digital certificates, metadata, barcodes, or visual elements to enhance security and document integrity."
     },
     "feature_2": {
-      "title": "Comprehensive Signature Control",
+      "title": "Comprehensive signature control",
       "content": "Once a document is signed, you can manage its signatures effortlessly. Retrieve a complete list of all signatures, allowing you to make updates or remove them as needed."
     },
     "feature_3": {
-      "title": "Strengthen Document Security",
+      "title": "Strengthen document security",
       "content": "Use digital certificates to safeguard your documents from tampering. You can embed or extract metadata to enhance traceability and auditing, ensuring document compliance and authenticity."
     }
   },
   "formats": {
-    "title": "Sign Multiple File Types Digitally",
+    "title": "Sign multiple file types digitally",
     "description": "The {{EnvName}} API allows you to apply digital signatures to over 60 file formats, providing you with extensive flexibility in securing your business-critical documents."
   },
   "operations": {
-    "title": "View Our Extensive Capabilities",
+    "title": "View our extensive capabilities",
     "description": "We offer a broad range of signature types and feature-rich operations"
   },
   "examples": {
@@ -45,7 +45,7 @@
     "comment_4": "Save the signed document to the local disk"
   },
   "steps": {
-    "title": "Guidelines for Signing {{FileFormatUp}} Documents with Text Signatures using {{ProgLang}}",
+    "title": "Steps for signing {{FileFormatUp}} documents with text signatures using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) streamlines the process of adding customized text signatures to {{FileFormatUp}} files. {{EnvName}} developers can seamlessly incorporate signing functionality into their applications.",
       "step_1": "Load the {{FileFormatUp}} document into the {{TextSignature}} instance.",
@@ -55,7 +55,7 @@
     }
   },
   "code_1": {
-    "title": "How to Apply an Image Signature to a Document",
+    "title": "How to apply an image signature to a document",
     "content": "This guide details the process for affixing an image signature to a designated page within a document.",
     "comment_1": "Provide the source document as an input parameter",
     "comment_2": "Specify the image file path in the signature configuration options",

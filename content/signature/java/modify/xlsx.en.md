@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:40
+date:  2024-09-12T18:38:41
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Modify Signatures in XLSX Files with Java Applications"
+head_title: "Modify XLSX signatures with Java applications"
 head_description: "The Java signature processing API allows you to modify signatures in XLSX files, including PDF, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Update XLSX Signatures Using Java" 
+title: "Modify XLSX signatures" 
 description: "Easily modify a wide variety of electronic signatures using GroupDocs.Signature for Java across popular formats like PDF, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Editing Text Signatures in XLSX using Java"
+    title: "Steps for editing text signatures in XLSX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) allows Java developers to update the content of text signatures previously added to XLSX files. Enhance Java applications with robust capabilities.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -110,30 +110,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Signature Management for Documents"
+  title: "Signature management for documents"
   description: "GroupDocs.Signature for Java enables you to add, modify, search, verify, and delete signatures across all major industrial file formats."
   image: "/img/signature/features_modify.webp" # 500x500 px
-  image_description: "Signature Modification"
+  image_description: "Signature modification"
   features:
     # feature loop
-    - title: "Document Signatures"
+    - title: "Document signatures"
       content: "Our product primarily focuses on signing documents with text, image, barcode, or stamp signatures. You can place them on any page and position. Add or modify hidden metadata, such as EXIF data in images, and protect document content from unauthorized changes using digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Ensure that signatures meet your requirements by verifying signed documents. You can retrieve a complete list of signatures within a document through the search functionality."
 
     # feature loop
-    - title: "Modify Existing Signatures"
+    - title: "Modify existing signatures"
       content: "Modifying previously added signatures is a common task. Use the modification process to update the content, appearance, position, and other properties of a signature."
 
     # feature loop
-    - title: "Signature Deletion"
+    - title: "Signature deletion"
       content: "Our solution fully supports all operations related to signatures. Removing various types of signatures from a document is a simple process."
       
   code_samples:
     # code sample loop
-    - title: "Modify Barcode Signatures"
+    - title: "Modify barcode signatures"
       content: |
         This example elucidates the process of modifying barcode signatures within a document.
         {{< landing/code title="Java">}}
@@ -183,111 +183,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Investigate Our Feature Portfolio"
+    title: "Investigate our feature portfolio"
     exclude: "modify"
     description: "We proudly support a wide variety of signature formats and operational tools"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/xlsx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/xlsx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/xlsx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/xlsx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/xlsx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/xlsx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/xlsx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/xlsx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/xlsx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/xlsx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Modify Signatures in Various File Formats"
+    title: "Modify signatures in various file formats"
     exclude: "XLSX"
     description: "Document formats signed using our API for Java can be modified. Retrieve a list of signatures from a document and update any accessible properties."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/modify/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/modify/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Modify PDF signatures"
           format: "PDF"
           link: "/signature/java/modify/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Modify DOCX signatures"
+          format: "DOCX"
+          link: "/signature/java/modify/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Modify PPTX signatures"
           format: "PPTX"
           link: "/signature/java/modify/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Modify XLSX signatures"
           format: "XLSX"
           link: "/signature/java/modify/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

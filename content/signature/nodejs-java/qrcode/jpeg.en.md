@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:37
+date:  2024-09-12T19:33:04
 draft: false
 lang: en
 format: Jpeg
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Generate 2D Barcodes in JPEG Documents with JavaScript"
+head_title: "Generate QR codes in JPEG docs with JavaScript"
 head_description: "Utilize the GroupDocs.Signature API to create and integrate 2D barcodes within JPEG files. Effortlessly place QR codes on any document page."
 
 ############################# Header ############################
-title: "Embed QR Codes in JPEG Files Using JavaScript" 
+title: "Generate QR codes in JPEG" 
 description: "Create and embed 2D barcodes with customizable content, including text and numeric data, across various document types like PDFs, Word, Excel, and Images with GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -33,7 +33,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Explore GroupDocs.Signature for Node.js via Java Capabilities"
+    title: "Explore GroupDocs.Signature for Node.js via Java capabilities"
     link: "/signature/nodejs-java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,21 +43,21 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Generating and Embedding a QR-Code in JPEG Pages"
+    title: "Guide to generating and embedding a QR code in JPEG pages"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) enables the creation of QR-Codes in various widely-used formats and their integration into JPEG pages. Supporting over 10 distinct QR-Code types, our solution can be seamlessly incorporated into Node.js via Java applications, enriching them with QR-Code signing capabilities.
+      [GroupDocs.Signature](/signature/nodejs-java/) enables the creation of QR codes in various widely-used formats and their integration into JPEG pages. Supporting over 10 distinct QR code types, our solution can be seamlessly incorporated into Node.js via Java applications, enriching them with QR code signing capabilities.
       
-      1. Provide the JPEG file or stream for QR-Code signing.
+      1. Provide the JPEG file or stream for QR code signing.
       2. Input the desired text into the QrCodeSignOptions instance.
       3. Adjust visual settings such as color, positioning, size, etc.
-      4. Save the document containing the QR-Code.
+      4. Save the document containing the QR code.
    
     code:
       platform: "nodejs-java"
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -77,7 +77,7 @@ steps:
         // Create a Signature instance and pass the document path
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Leverage QrCodeSignOptions to insert a QR-Code into the document
+        // Leverage QrCodeSignOptions to insert a QR code into the document
         // Create QR code sign options
         const options = new signatureLib.QrCodeSignOptions('Text Content');
 
@@ -86,39 +86,39 @@ steps:
         options.setLeft(100);
         options.setTop(100);
   
-        // Store the document with the newly added QR-Code
+        // Store the document with the newly added QR code
         signature.sign('output.jpeg', options);
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Signature and QR Code Integration"
+  title: "Comprehensive signature and QR code integration"
   description: "With GroupDocs.Signature for Node.js via Java API, you can manage a full spectrum of signatures. Generate, customize, verify, search, and remove signatures effortlessly across different document types, offering unmatched flexibility for your workflows."
   image: "/img/signature/features_qrcode.webp" # 500x500 px
-  image_description: "Signature and QR Code Features"
+  image_description: "Signature and QR code features"
   features:
     # feature loop
-    - title: "Multi-Format Document Signing"
+    - title: "Multi-format document signing"
       content: "Add multiple types of signatures, including Text, Image, Barcode, QR Code, and Stamp signatures, to any supported document format. Place them on any page, and manage document metadata. Ensure document security through digital certificates to prevent unauthorized changes."
 
     # feature loop
-    - title: "Efficient Signature Validation"
+    - title: "Efficient signature validation"
       content: "Validate all signatures within a document to ensure they meet required standards. Easily retrieve and review signatures through the built-in search functionality."
 
     # feature loop
-    - title: "Flexible Signature Editing"
+    - title: "Flexible signature editing"
       content: "Update or modify existing signatures, adjusting aspects such as content, location, size, and color, to suit your document’s needs after initial signing."
 
     # feature loop
-    - title: "Signature Removal Made Easy"
+    - title: "Signature removal made easy"
       content: "Remove any unwanted or obsolete signatures, including digital certificates, with ease. Full control over signature management ensures a clean and well-organized document."
       
   code_samples:
     # code sample loop
-    - title: "Customizing a Generated QR-Code"
+    - title: "Customizing a generated QR code"
       content: |
-        This example details the process of adding a customized QR-Code to a JPEG page.
+        This example details the process of adding a customized QR code to a JPEG page.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
@@ -126,10 +126,10 @@ more_features:
         // Obtain the document to be signed and pass it to Signature
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Set up QR-Code options with the required text
+        // Set up QR code options with the required text
         const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
 
-        // Determine the QR-Code's position on the page
+        // Determine the QR code's position on the page
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
         signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
@@ -139,7 +139,7 @@ more_features:
         padding.setTop(20);
         signOptions.setMargin(padding);
 
-        // Choose the QR-Code color
+        // Choose the QR code color
         signOptions.setForeColor(signatureLib.Color.RED);
 
         // Define the font options for the accompanying message
@@ -148,14 +148,14 @@ more_features:
         font.setFamilyName("Comic Sans MS");
         signOptions.setFont(font);
 
-        // Customize the background color and brush for the QR-Code
+        // Customize the background color and brush for the QR code
         const background = new signatureLib.Background();
         background.setColor(signatureLib.Color.GREEN);
         background.setTransparency(0.5);
         background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
         signOptions.setBackground(background);
 
-        // Embed the QR-Code into the document
+        // Embed the QR code into the document
         signature.sign('output.jpeg', signOptions);
         ```
         {{< /landing/code >}}
@@ -181,111 +181,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Understand Our Main Capabilities"
+    title: "Understand our main capabilities"
     exclude: "qrcode"
     description: "We deliver a broad selection of signature formats and operations tailored to your needs"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/jpeg/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/jpeg/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/jpeg/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/jpeg/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/jpeg/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
-          link: "/signature/nodejs-java/digital/jpeg/"
-          description: "Secure business documents using digital certificates."
+          link: "/signature/nodejs-java/digital/pdf/"
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/jpeg/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
-          link: "/signature/nodejs-java/search/jpeg/"
-          description: "Locate any previously added signatures within a document."
+          link: "/signature/nodejs-java/search/pdf/"
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
-          link: "/signature/nodejs-java/verify/jpeg/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          link: "/signature/nodejs-java/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
-          link: "/signature/nodejs-java/modify/jpeg/"
-          description: "Easily edit a variety of signatures within a document."
+          link: "/signature/nodejs-java/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
-          link: "/signature/nodejs-java/delete/jpeg/"
-          description: "Remove a wide range of previously applied signatures."
+          link: "/signature/nodejs-java/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Integrate QR Codes with Various File Formats"
+    title: "Integrate QR codes with various file formats"
     exclude: "JPEG"
     description: "Leverage the Node.js via Java API to generate QR codes and embed them into a variety of widely-used file formats. Encapsulate important data in these barcodes for seamless integration and future retrieval."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/qrcode/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/qrcode/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "QR-Code for PDF"
           format: "PDF"
           link: "/signature/nodejs-java/qrcode/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "QR-Code for DOCX"
+          format: "DOCX"
+          link: "/signature/nodejs-java/qrcode/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "QR-Code for JPEG"
+          format: "JPEG"
+          link: "/signature/nodejs-java/qrcode/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "QR-Code for PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/qrcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "QR-Code for XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/qrcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

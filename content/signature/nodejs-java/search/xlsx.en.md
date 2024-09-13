@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:18
+date:  2024-09-13T08:16:25
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Signature Detection in XLSX Files with JavaScript"
+head_title: "Signatures search in XLSX files with JavaScript"
 head_description: "Harness the power of the GroupDocs.Signature for Node.js via Java API to detect and search for electronic signatures across XLSX files, including PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
 
 ############################# Header ############################
-title: "Locate Signatures in XLSX Documents Using GroupDocs.Signature" 
+title: "Search signatures in XLSX documents" 
 description: "Discover and retrieve detailed information about all embedded signatures in PDFs, Word, Excel, Presentations, and Image files using the advanced tools provided by GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get Started for Free"
+    - title: "Get started for free"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Searching for Signatures in XLSX using JavaScript"
+    title: "Guide to searching for signatures in XLSX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for locating digital signatures within XLSX files. Node.js via Java developers can easily extend their application functionality with our solution.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -96,26 +96,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Complete Signature Management Solution"
+  title: "Complete signature management solution"
   description: "GroupDocs.Signature for Node.js via Java provides an all-in-one solution for adding, modifying, searching, and verifying electronic signatures across popular document formats. Empower your workflows with advanced document signing features."
   image: "/img/signature/features_search.webp" # 500x500 px
-  image_description: "Signature Detection Features"
+  image_description: "Signature detection features"
   features:
     # feature loop
-    - title: "Digitally Sign Business Files"
+    - title: "Digitally sign business files"
       content: "Add electronic signatures such as text, image, barcode, and digital certificates to any location within your documents. GroupDocs.Signature supports signing in PDFs, Word, Excel, Images, and more, ensuring flexible document management."
 
     # feature loop
-    - title: "Efficient Signature Management"
+    - title: "Efficient signature management"
       content: "After signing, easily locate all signatures embedded within a document. The API allows for comprehensive searching and retrieval of signatures, as well as the ability to update or remove them."
 
     # feature loop
-    - title: "Document Security and Metadata Management"
+    - title: "Document security and metadata management"
       content: "Secure the integrity of your documents by embedding or removing hidden metadata. Protect your files from unauthorized changes by utilizing digital certificates to seal and authenticate document content."
       
   code_samples:
     # code sample loop
-    - title: "Identifying Image Signatures"
+    - title: "Identifying image signatures"
       content: |
         This example elucidates how to detect an image signature within a specific document.
         {{< landing/code title="JavaScript">}}
@@ -158,111 +158,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key Functionalities"
+    title: "Key functionalities"
     exclude: "search"
     description: "Our comprehensive API delivers a range of operations designed to streamline the management of document signatures, from signing to post-processing and verification."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/xlsx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/xlsx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/xlsx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/xlsx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/xlsx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/xlsx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/xlsx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/xlsx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/xlsx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/xlsx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Locate Signatures Across Multiple File Types"
+    title: "Locate signatures across multiple file types"
     exclude: "XLSX"
     description: "With GroupDocs.Signature for Node.js via Java API, you can efficiently search and retrieve electronic signatures from a wide range of supported file formats, facilitating seamless integration into your document workflows."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/search/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/search/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Search signatures in PDF"
           format: "PDF"
           link: "/signature/nodejs-java/search/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Search signatures in DOCX"
+          format: "DOCX"
+          link: "/signature/nodejs-java/search/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Search signatures in PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/search/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Search signatures in XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

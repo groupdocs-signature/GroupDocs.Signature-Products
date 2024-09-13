@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:18
+date:  2024-09-13T08:16:25
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Locate Signatures in XLSX Documents with C# Integration"
+head_title: "Search electronic signatures in XLSX with C#"
 head_description: "Utilize the robust capabilities of the GroupDocs.Signature for .NET API to efficiently search and retrieve signatures embedded in XLSX documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Effortlessly Search for Signatures in XLSX Files Using GroupDocs.Signature" 
+title: "Effortlessly search for electronic signatures in XLSX files" 
 description: "Seamlessly extract a comprehensive list of electronic signatures embedded across various formats like PDFs, Word, Excel, Presentations, and Images, all powered by GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Download"
+    - title: "Start your free download"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Explore GroupDocs.Signature for .NET Capabilities"
+    title: "Explore GroupDocs.Signature for .NET capabilities"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Locating Signatures in XLSX using C#"
+    title: "Steps for search signatures in XLSX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) offers a robust engine for locating digital signatures within XLSX files. .NET developers can effortlessly enhance their applications with our solution.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -98,26 +98,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Complete Document Signing Ecosystem"
+  title: "Complete document signing ecosystem"
   description: "Discover an advanced, feature-rich document signing solution, specifically designed to enhance and secure your documents with multiple signature types across various formats."
   image: "/img/signature/features_search.webp" # 500x500 px
-  image_description: "Signature Search and Management"
+  image_description: "Signature search and management"
   features:
     # feature loop
-    - title: "Sign and Secure Business Documents"
+    - title: "Sign and secure business documents"
       content: "Add digital signatures to any position within a document. GroupDocs.Signature supports an array of signature types, including text, images, barcodes, metadata, stamps, and digital certificates, ensuring document authenticity and compliance."
 
     # feature loop
-    - title: "Comprehensive Signature Management"
+    - title: "Comprehensive signature management"
       content: "After signing, leverage the search feature to retrieve all embedded signatures. Modify or delete signatures as needed, providing you with complete control over document integrity."
 
     # feature loop
-    - title: "Safeguard Your Document's Integrity"
+    - title: "Safeguard your document's integrity"
       content: "Utilize advanced tools to manage hidden metadata embedded within documents. Add or remove metadata entries and apply corporate digital certificates to protect against unauthorized edits and ensure document authenticity."
       
   code_samples:
     # code sample loop
-    - title: "Locating Image Signatures"
+    - title: "Search image signatures"
       content: |
         This example illustrates the process of detecting an image signature within a specified document.
         {{< landing/code title="C#">}}
@@ -161,111 +161,105 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Core Functionalities"
+    title: "Core functionalities"
     exclude: "search"
     description: "Our API offers extensive flexibility, enabling users to sign documents and conduct comprehensive post-signing operations, such as searching, verifying, and modifying signatures."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/xlsx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/xlsx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/xlsx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/xlsx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/xlsx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/xlsx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/net/search/xlsx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/net/verify/xlsx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/net/modify/xlsx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/net/delete/xlsx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Retrieve Signatures from a Variety of File Formats"
+    title: "Retrieve signatures from a variety of file formats"
     exclude: "XLSX"
     description: "The GroupDocs.Signature for .NET API empowers you to extract and manage signatures from a wide array of document types. Effortlessly retrieve embedded signatures from all major file formats for further analysis or processing."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/search/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/search/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Search signatures in PDF"
           format: "PDF"
           link: "/signature/net/search/pdf/"
           description: "Adobe Portable Document Format"
           
-        # format loop 4
-        - name: "Watermark PPTX"
+        # format loop 2
+        - name: "Search signatures in DOCX"
+          format: "DOCX"
+          link: "/signature/net/search/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Search signatures in PPTX"
           format: "PPTX"
           link: "/signature/net/search/pptx/"
           description: "PowerPoint Open XML Presentation"
           
-        # format loop 5
-        - name: "Watermark XLSX"
+        # format loop 4
+        - name: "Search signatures in XLSX"
           format: "XLSX"
           link: "/signature/net/search/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

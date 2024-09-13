@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:38
+date:  2024-09-12T14:18:45
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Digitally Sign PPTX Documents with C# Applications"
+head_title: "Electronically sign PPTX via C# apps"
 head_description: "Leverage the power of C# API to electronically sign and secure PPTX documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Digitally Secure PPTX Documents Using C#" 
+title: "Digitally sign PPTX documents" 
 description: "Embed a variety of electronic signatures into your documents using GroupDocs.Signature for .NET, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Signing PPTX Documents with Text Signatures using C#"
+    title: "Steps for signing PPTX documents with text signatures using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into PPTX files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -92,26 +92,26 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Document Electronic Signatures"
+  title: "Advanced document electronic signatures"
   description: "Our sophisticated e-signing API enhances business workflows, enabling efficient signing, validation, modification, and management of electronic signatures with full automation capabilities."
   image: "/img/signature/features_esign.webp" # 500x500 px
-  image_description: "Electronic Signature Capabilities"
+  image_description: "Electronic signature capabilities"
   features:
     # feature loop
-    - title: "Electronic Signing for Office Documents"
+    - title: "Electronic signing for office documents"
       content: "Seamlessly insert electronic signatures at any position within a document. Customize and enrich content with digital certificates, metadata, barcodes, or visual elements, while ensuring authenticity and security."
 
     # feature loop
-    - title: "Comprehensive Signature Management"
+    - title: "Comprehensive signature management"
       content: "Once signed, documents can be further processed with ease. Access a complete overview of existing signatures, enabling precise updates or deletion of signatures where necessary."
 
     # feature loop
-    - title: "Enhanced Content Security"
+    - title: "Enhanced content security"
       content: "Protect the integrity of your documents using digital certificates. Embed or extract metadata for enhanced document tracking and auditing, ensuring compliance and content authenticity."
       
   code_samples:
     # code sample loop
-    - title: "How to Affix an Image Signature to a Document"
+    - title: "How to add an image signature to a document"
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
         {{< landing/code title="C#">}}
@@ -157,111 +157,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore the Full Scope of Our Features"
+    title: "Explore the full scope of our features"
     exclude: "esign"
     description: "We’re proud to offer a vast array of signature options and associated operations"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/pptx/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/pptx/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/pptx/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/pptx/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/pptx/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/pptx/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/net/search/pptx/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/net/verify/pptx/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/net/modify/pptx/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/net/delete/pptx/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Digitally Sign a Wide Range of File Formats"
+    title: "Digitally sign a wide range of file formats"
     exclude: "PPTX"
     description: "The .NET API empowers you to electronically sign over 60 industry-standard file formats, offering unparalleled flexibility in securing your business documents."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/esign/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/esign/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "e-Sign PDFs"
           format: "PDF"
           link: "/signature/net/esign/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "e-Sign DOCX"
+          format: "DOCX"
+          link: "/signature/net/esign/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "e-Sign JPEG"
+          format: "JPEG"
+          link: "/signature/net/esign/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "e-Sign PPTX"
           format: "PPTX"
           link: "/signature/net/esign/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "e-Sign XLSX"
           format: "XLSX"
           link: "/signature/net/esign/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

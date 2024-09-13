@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:13
+date:  2024-09-13T09:34:11
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Create and Apply Stamps to PDF Files Using JavaScript"
+head_title: "Apply stamp to PDF files via JavaScript"
 head_description: "Leverage the power of GroupDocs.Signature and JavaScript to generate and place custom stamps on any page within your PDF documents."
 
 ############################# Header ############################
-title: "Insert Customized Stamps into PDF Files via JavaScript" 
+title: "Insert customized stamps into PDF files" 
 description: "Utilize GroupDocs.Signature for Node.js via Java to generate tailored stamps and insert them at any location in your documents. Our platform provides extensive options to personalize stamps according to your specific business requirements."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Your Free Trial"
+    - title: "Free trial"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Embedding Stamp Signatures in PDF Documents Using JavaScript"
+    title: "Guide to embedding stamps in PDF documents using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for creating and embedding stamps, which can significantly enhance Node.js via Java applications. Use this feature to craft and apply custom stamps to your document pages.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
         copy_tip: "click to copy"
@@ -98,30 +98,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Strengthen Document Security with Signatures"
+  title: "Strengthen document security with signatures"
   description: "With GroupDocs.Signature for Node.js via Java, you can add, edit, validate, or remove stamps and other signature types within all popular document formats. The API simplifies the process of managing signatures for enhanced document integrity and customization."
   image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Custom Document Signing"
+    - title: "Custom document signing"
       content: "Apply signatures such as text, images, barcodes, QR codes, and stamps to any part of your document. This tool also allows the inclusion of hidden metadata and digital certificates to further protect your content from unauthorized modifications."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "After a document has been signed, use our verification system to ensure the integrity of the signatures. Additionally, our platform enables you to search for and retrieve detailed information on all signatures applied to a document."
 
     # feature loop
-    - title: "Modify Signatures as Needed"
+    - title: "Modify signatures as needed"
       content: "Adjust and update previously applied signatures with ease. Whether it's changing the content, color, size, or position of the signature, GroupDocs.Signature for Node.js via Java offers full customization options."
 
     # feature loop
-    - title: "Remove Unwanted Signatures"
+    - title: "Remove unwanted signatures"
       content: "Easily remove any unnecessary signatures from your documents. Our API supports the deletion of a wide range of signature types, including stamps and digital certificates, giving you complete flexibility to manage your documents."
       
   code_samples:
     # code sample loop
-    - title: "Integrate Custom Stamps into Documents with Advanced Signature Tools"
+    - title: "Integrate custom stamps into documents"
       content: |
         Learn how to design and apply customized stamps containing essential text to your documents.
         {{< landing/code title="JavaScript">}}
@@ -192,111 +192,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Key Features"
+    title: "Explore key features"
     exclude: "stamp"
     description: "Our solution offers a variety of tools for creating, managing, and removing different types of signatures, giving users full control over their document workflows."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/nodejs-java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/nodejs-java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/nodejs-java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/nodejs-java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/nodejs-java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/nodejs-java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/nodejs-java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/nodejs-java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/nodejs-java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Stamp Signatures Across Multiple File Types"
+    title: "Apply stamp signatures across multiple file types"
     exclude: "PDF"
     description: "The GroupDocs.Signature API supports stamp signatures across 60+ file formats, allowing users to place customized stamps on any page or area, improving document accessibility and security."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/nodejs-java/stamp/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/nodejs-java/stamp/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "Stamp PDF"
           format: "PDF"
           link: "/signature/nodejs-java/stamp/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "Stamp DOCX"
+          format: "DOCX"
+          link: "/signature/nodejs-java/stamp/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Stamp JPEG"
+          format: "JPEG"
+          link: "/signature/nodejs-java/stamp/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "Stamp PPTX"
           format: "PPTX"
           link: "/signature/nodejs-java/stamp/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "Stamp XLSX"
           format: "XLSX"
           link: "/signature/nodejs-java/stamp/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

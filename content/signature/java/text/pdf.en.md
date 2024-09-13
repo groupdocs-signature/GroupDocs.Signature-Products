@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T19:58:14
+date:  2024-09-13T10:02:31
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Insert Text Signatures into PDF Files using Java Apps"
+head_title: "Create PDF text signatures with Java"
 head_description: "Leverage the Java API to insert text signatures into PDF files. Seamlessly process popular document formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
-title: "Insert Text Signatures into PDF with Java" 
+title: "Create text signatures for PDF" 
 description: "Easily add custom text signatures to your business documents using GroupDocs.Signature for Java. Streamline organizational workflows with signature customization options."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Trial"
+    - title: "Start for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About the GroupDocs.Signature for Java Solution"
+    title: "About the GroupDocs.Signature for Java solution"
     link: "/signature/java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Adding Text Signatures to PDF Files Using Java"
+    title: "Steps for adding text signatures to PDF files using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) can be integrated into Java applications to add text signatures to PDF documents. Developers can quickly enhance their products' functionality by using our solutions.
       
@@ -57,7 +57,7 @@ steps:
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: |
           <dependencies>
@@ -107,30 +107,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Manage Document Text Signatures"
+  title: "Manage document text signatures"
   description: "With GroupDocs.Signature for Java, you can streamline your company’s document workflow by adding text signatures to popular file formats. Easily configure the appearance and content of signatures."
   image: "/img/signature/features_text.webp" # 500x500 px
-  image_description: "Key Features of GroupDocs.Signature"
+  image_description: "Key features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Document Signatures"
+    - title: "Document signatures"
       content: "Apply text, image, barcode, QR code, or stamp signatures to any page of supported documents. Leverage metadata to embed hidden content and secure your documents with digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Ensure the integrity of your signed documents with our signature verification tool. You can also retrieve and search all the signatures embedded within a document."
 
     # feature loop
-    - title: "Modify or Remove Signatures"
+    - title: "Modify or remove signatures"
       content: "Modify the content, position, and appearance of previously added signatures, or remove them entirely from the document."
 
     # feature loop
-    - title: "Native Text Signatures"
+    - title: "Native text signatures"
       content: "Add document-specific text signatures, such as stickers in PDFs or watermarks in Word documents, for enhanced customization."
       
   code_samples:
     # code sample loop
-    - title: "Mark Documents with Text Signatures"
+    - title: "Mark documents with text signatures"
       content: |
         Learn how to append textual information to business documents to improve business processes.
         {{< landing/code title="Java">}}
@@ -208,111 +208,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key Features and Signature Options"
+    title: "Key features and signature options"
     exclude: "text"
     description: "Our solution supports full CRUD operations and more for seven different types of signatures."
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/java/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/java/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/java/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/java/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/java/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/java/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/java/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/java/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/java/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Add Text Signatures to Various File Formats"
+    title: "Add text signatures to various file formats"
     exclude: "PDF"
     description: "Utilize the Java API to insert textual signatures into Office documents, ensuring complete control over the content at every stage of the document's lifecycle."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/java/text/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/java/text/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "PDF text signatures"
           format: "PDF"
           link: "/signature/java/text/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "DOCX text signatures"
+          format: "DOCX"
+          link: "/signature/java/text/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "JPEG text signatures"
+          format: "JPEG"
+          link: "/signature/java/text/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "PPTX text signatures"
           format: "PPTX"
           link: "/signature/java/text/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "XLSX text signatures"
           format: "XLSX"
           link: "/signature/java/text/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"

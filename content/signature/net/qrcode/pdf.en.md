@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-06T10:45:37
+date:  2024-09-12T19:33:03
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Create 2D Barcodes for PDF Documents Using C# Applications"
-head_description: "Harness the GroupDocs.Signature API to generate 2D barcodes for PDF files. Seamlessly embed QR codes on any page for enhanced functionality."
+head_title: "Generate QR code for PDF files using C#"
+head_description: "Harness the GroupDocs.Signature API to generate QR code for PDF files. Seamlessly embed QR codes on any page for enhanced functionality."
 
 ############################# Header ############################
-title: "Generate QR Codes for PDF with C#" 
+title: "Generate QR codes for PDF" 
 description: "Effortlessly generate 2D barcodes using text or numeric data and apply them across multiple pages and formats, including PDFs, Word, Excel, and more, via GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Trial"
+    - title: "Start your free trial"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover the Capabilities of GroupDocs.Signature for .NET"
+    title: "Discover the capabilities of GroupDocs.Signature for .NET"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,21 +43,21 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure to Generate and Embed a QR-Code on PDF Pages"
+    title: "How to generate and embed a QR code on PDF pages"
     content: |
-      [GroupDocs.Signature](/signature/net/) facilitates the generation of QR-Codes in various popular formats and their placement on PDF pages. Supporting over 10 types of QR-Codes, our library can be seamlessly integrated into .NET applications. Enhance your documents with QR-Code signatures using our product.
+      [GroupDocs.Signature](/signature/net/) facilitates the generation of QR codes in various popular formats and their placement on PDF pages. Supporting over 10 types of QR codes, our library can be seamlessly integrated into .NET applications. Enhance your documents with QR code signatures using our product.
       
-      1. Acquire the PDF file or stream to be signed with a QR-Code.
+      1. Acquire the PDF file or stream to be signed with a QR code.
       2. Provide the requisite text to QrCodeSignOptions.
       3. Customize visual parameters such as color, position, size, etc.
-      4. Persist the document with the embedded QR-Code.
+      4. Persist the document with the embedded QR code.
    
     code:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
-      result_title: "Download signatures"
+      result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
         copy_tip: "click to copy"
@@ -75,7 +75,7 @@ steps:
         // Initialize a new Signature instance with the document
         using (Signature signature = new Signature("input.pdf"))
         {
-            // Utilize QrCodeSignOptions to embed a QR-Code into the document
+            // Utilize QrCodeSignOptions to embed a QR code into the document
             QrCodeSignOptions options = new QrCodeSignOptions("Text Content")
                 {
                     // Specify the signature type and designate its position on the page
@@ -84,7 +84,7 @@ steps:
                     Top = 150
                 };
 
-            // Persist the document with the integrated QR-Code
+            // Persist the document with the integrated QR code
             SignResult result = signature.Sign("output.pdf", options);
         }
         ```            
@@ -92,54 +92,54 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Signature Integration for Documents"
+  title: "Comprehensive signature integration for documents"
   description: "With GroupDocs.Signature for .NET API, users can effortlessly generate, modify, search, validate, and remove an array of signature types, streamlining document workflows with unparalleled precision."
   image: "/img/signature/features_qrcode.webp" # 500x500 px
   image_description: "Key Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Document Signing with Multiple Signature Types"
+    - title: "Document signing with multiple signature types"
       content: "GroupDocs.Signature enables the application of Text, Image, Barcode, QR Code, and Stamp signatures to any document format. Signatures can be precisely placed on any page, and metadata can be seamlessly managed through metadata signatures. Protect the integrity of your documents by incorporating digital certificates that prevent unauthorized alterations."
 
     # feature loop
-    - title: "Signature Search and Validation"
+    - title: "Signature search and validation"
       content: "Verify the authenticity and accuracy of document signatures through an advanced validation process. Easily retrieve a detailed list of all signatures embedded in a document for comprehensive oversight."
 
     # feature loop
-    - title: "Customizable Signature Modification"
+    - title: "Customizable signature modification"
       content: "Update and refine previously applied signatures by adjusting content, placement, color, size, and other attributes to meet your specific needs."
 
     # feature loop
-    - title: "Efficient Signature Removal"
+    - title: "Efficient signature removal"
       content: "Streamline your document management by programmatically removing unwanted signatures. Whether dealing with digital certificates or other signature types, removal can be done swiftly and effectively."
       
   code_samples:
     # code sample loop
-    - title: "How to Customize a Generated QR-Code"
+    - title: "How to customize a generated QR code"
       content: |
-        This example demonstrates how to place a customized QR-Code on a PDF page.
+        This example demonstrates how to place a customized QR code on a PDF page.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         // Retrieve the document to be signed and pass it to Signature
         using (Signature signature = new Signature("input.pdf"))
         {
-            // Configure QR-Code options with the necessary text
+            // Configure QR code options with the necessary text
             QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
             {
-                // Designate the relative position of the QR-Code on the page
+                // Designate the relative position of the QR code on the page
                 VerticalAlignment = Domain.VerticalAlignment.Top,
                 HorizontalAlignment = Domain.HorizontalAlignment.Right,
 
                 // Set the signature padding
                 Margin = new Padding() { Top = 20, Right = 20 },
 
-                // Specify the QR-Code color
+                // Specify the QR code color
                 ForeColor = Color.Red,
 
                 // Define the font options for the message
                 Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // Customize the QR-Code background color and brush
+                // Customize the QR code background color and brush
                 Background = new Background()
                 {
                     Color = Color.LimeGreen,
@@ -148,7 +148,7 @@ more_features:
                 }
             }
 
-            // Embed the QR-Code into the document
+            // Embed the QR code into the document
             SignResult result = signature.Sign("output.pdf", options);
         }
         ```
@@ -175,111 +175,111 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Learn About Our Signature Solutions"
+    title: "Learn about our signature solutions"
     exclude: "qrcode"
     description: "We proudly present a wide range of signature types and operational features"
     items: 
           
         # operation loop 1
-        - name: "Electronic Signatures"
+        - name: "Electronic signatures"
           operation: "esign"
           link: "/signature/net/esign/pdf/"
-          description: "Add various types of signatures to supported file formats."
+          description: "Add various types of signatures to supported file formats"
 
         # operation loop 2
-        - name: "Add Text to Documents"
+        - name: "Add text to documents"
           operation: "text"
           link: "/signature/net/text/pdf/"
-          description: "Enhance document content with customizable text signatures."
+          description: "Enhance document content with customizable text signatures"
 
         # operation loop 3
-        - name: "Image Signatures"
+        - name: "Image signatures"
           operation: "image"
           link: "/signature/net/image/pdf/"
-          description: "Place any image at any position within a document."
+          description: "Place any image at any position within a document"
 
         # operation loop 4
-        - name: "Generate Barcodes"
+        - name: "Generate barcodes"
           operation: "barcode"
           link: "/signature/net/barcode/pdf/"
-          description: "Create and insert various barcodes into supported documents."
+          description: "Create and insert various barcodes into supported documents"
 
         # operation loop 5
-        - name: "Generate QR Codes"
+        - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing."
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
           
         # operation loop 6
-        - name: "Digital Certificates"
+        - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/pdf/"
-          description: "Secure business documents using digital certificates."
+          description: "Secure business documents using digital certificates"
 
         # operation loop 7
-        - name: "Stamp Signatures"
+        - name: "Stamp signatures"
           operation: "stamp"
           link: "/signature/net/stamp/pdf/"
-          description: "Use the Stamp Constructor to create custom round or square stamps."
+          description: "Use the Stamp Constructor to create custom round or square stamps"
           
         # operation loop 8
-        - name: "Search Signatures"
+        - name: "Search signatures"
           operation: "search"
           link: "/signature/net/search/pdf/"
-          description: "Locate any previously added signatures within a document."
+          description: "Locate any previously added signatures within a document"
           
         # operation loop 9
-        - name: "Signature Verification"
+        - name: "Signature verification"
           operation: "verify"
           link: "/signature/net/verify/pdf/"
-          description: "Verify the authenticity of signatures after they have been applied."
+          description: "Verify the authenticity of signatures after they have been applied"
           
         # operation loop 10
-        - name: "Modify Signatures"
+        - name: "Modify signatures"
           operation: "modify"
           link: "/signature/net/modify/pdf/"
-          description: "Easily edit a variety of signatures within a document."
+          description: "Easily edit a variety of signatures within a document"
           
         # operation loop 11
-        - name: "Delete Signatures"
+        - name: "Delete signatures"
           operation: "delete"
           link: "/signature/net/delete/pdf/"
-          description: "Remove a wide range of previously applied signatures."
+          description: "Remove a wide range of previously applied signatures"
           
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Generate QR Codes for Diverse Document Formats"
+    title: "Generate QR codes for other document formats"
     exclude: "PDF"
     description: "Enhance all industry-standard file formats with the ability to embed QR codes through the .NET API. Store and encode critical information into 2D barcodes for seamless scanning and data retrieval."
     items: 
           
         # format loop 1
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/signature/net/qrcode/docx/"
-          description: "Microsoft Word Open XML Document"
-          
-        # format loop 2
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/signature/net/qrcode/jpeg/"
-          description: "JPEG Image"
-          
-        # format loop 3
-        - name: "Watermark PDF"
+        - name: "QR-Code for PDF"
           format: "PDF"
           link: "/signature/net/qrcode/pdf/"
           description: "Adobe Portable Document Format"
           
+        # format loop 2
+        - name: "QR-Code for DOCX"
+          format: "DOCX"
+          link: "/signature/net/qrcode/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "QR-Code for JPEG"
+          format: "JPEG"
+          link: "/signature/net/qrcode/jpeg/"
+          description: "JPEG Image"
+          
         # format loop 4
-        - name: "Watermark PPTX"
+        - name: "QR-Code for PPTX"
           format: "PPTX"
           link: "/signature/net/qrcode/pptx/"
           description: "PowerPoint Open XML Presentation"
           
         # format loop 5
-        - name: "Watermark XLSX"
+        - name: "QR-Code for XLSX"
           format: "XLSX"
           link: "/signature/net/qrcode/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
