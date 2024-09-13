@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:37
+date:  2024-09-13T09:34:11
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Generate Stamps for XLSX Using Java"
+head_title: "Add stamps to XLSX using Java"
 head_description: "Leverage GroupDocs.Signature and Java to create custom stamps and place them on any page within XLSX documents."
 
 ############################# Header ############################
-title: "Embed Custom Stamps in XLSX with Java" 
+title: "Add custom stamps to XLSX" 
 description: "Design and apply stamps to any section of your documents using GroupDocs.Signature for Java. Our solution offers extensive customization options to meet all your business needs."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download for Free"
+    - title: "Download for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Adding Stamp Signatures to XLSX Documents via Java"
+    title: "Steps for adding stamp signatures to XLSX documents via Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a stamp constructor that can be highly beneficial for Java applications. Utilize it to create well-customized stamps for your document pages.
       
@@ -111,30 +111,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Protect Your Document Content with Signatures"
+  title: "Protect your document content with signatures"
   description: "The GroupDocs.Signature for Java library is designed for signing and managing signatures across popular file formats. Effortlessly add, modify, verify, or remove stamps and other types of signatures."
   image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Stamp Signatures with GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Sign Your Documents"
+    - title: "Sign your documents"
       content: "Apply customizable signatures to any part of your document. Choose from various signature types, including text, images, barcodes, QR codes, and stamps. Additionally, hidden metadata can be added or modified to enhance document security."
 
     # feature loop
-    - title: "Search and Validate Signatures"
+    - title: "Search and validate signatures"
       content: "Once a document is signed, use our verification tools to ensure that the signature content is valid. Search for and retrieve a list of all signatures for further processing."
 
     # feature loop
-    - title: "Update Signatures as Needed"
+    - title: "Update signatures as needed"
       content: "Easily modify a wide range of signatures applied to a document. Update properties such as size, color, position, content, and more."
 
     # feature loop
-    - title: "Remove Signatures"
+    - title: "Remove signatures"
       content: "Need to remove signatures from a document? Our API fully supports signature deletion, making it easy to manage your documents effectively."
       
   code_samples:
     # code sample loop
-    - title: "Add Custom Stamps to Documents using Special Signatures"
+    - title: "Add custom stamps to documents using special signatures"
       content: |
         Learn how to generate and add custom stamps with important textual information to your documents.
         {{< landing/code title="Java">}}
@@ -203,7 +203,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Our Core Features"
+    title: "Explore our core features"
     exclude: "stamp"
     description: "Utilize a wide range of options for adding, managing, and deleting signatures."
     items: 
@@ -277,7 +277,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Stamps Across Multiple File Formats"
+    title: "Add stamps across multiple file formats"
     exclude: "XLSX"
     description: "The GroupDocs.Signature API supports stamping documents in over 60 formats. Place stamps on any page or area to improve document management and customization."
     items: 

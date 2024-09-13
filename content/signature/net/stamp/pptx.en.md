@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:37
+date:  2024-09-13T09:34:11
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Create and Integrate Custom Stamps into PPTX Using C#"
+head_title: "Stamps signatures for PPTX using C#"
 head_description: "Harness the power of C# and GroupDocs.Signature to generate and embed personalized stamps across all pages of PPTX files."
 
 ############################# Header ############################
-title: "Incorporate Dynamic Stamps into PPTX Files with C#" 
+title: "Generate stamps for PPTX files" 
 description: "Seamlessly integrate custom-designed stamps into any section of your documents using GroupDocs.Signature for .NET, offering extensive flexibility for stamp placement and configuration to meet your business needs."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Get Your Free Download"
+    - title: "Get your free download"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure for Embedding Stamp Signatures into PPTX Documents using C#"
+    title: "How to embed stamp into PPTX documents using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) offers a robust stamp creation feature, ideal for enhancing .NET applications. Leverage this tool to design and implement highly customized stamps on your document pages.
       
@@ -100,30 +100,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Leverage Signatures to Secure and Enhance Document Integrity"
+  title: "Leverage signatures to secure and enhance document integrity"
   description: "With the GroupDocs.Signature for .NET library, you can seamlessly integrate signature functionality into your documents. Easily add, modify, verify, or remove custom stamps and other signature types, offering flexibility and precision for secure document management."
   image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Stamp Signatures Powered by GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Comprehensive Document Signing"
+    - title: "Comprehensive document signing"
       content: "Enhance your documents by placing signatures, including text, images, barcodes, QR codes, and stamps, at any position or page within the file. Additionally, manage embedded metadata and apply digital certificates to safeguard against unauthorized changes."
 
     # feature loop
-    - title: "Efficient Signature Search and Validation"
+    - title: "Efficient signature search and validation"
       content: "After signing, verify the authenticity and integrity of document signatures. Utilize advanced search functionality to retrieve and manage all signature data embedded in the document."
 
     # feature loop
-    - title: "Modify and Customize Signatures"
+    - title: "Modify and customize signatures"
       content: "Adjust previously inserted signatures with ease. Whether you need to change the content, position, size, or color, our solution offers full flexibility for signature modification."
 
     # feature loop
-    - title: "Effortlessly Remove Signatures"
+    - title: "Effortlessly remove signatures"
       content: "When signatures need to be removed, GroupDocs.Signature for .NET provides a complete set of tools to delete any type of signature, including stamps, digital certificates, and more, ensuring that your documents remain up-to-date and compliant."
       
   code_samples:
     # code sample loop
-    - title: "Implement Custom Stamps in Documents Using Advanced Signatures"
+    - title: "Implement custom stamps in documents"
       content: |
         Discover how to craft and integrate custom stamps bearing critical textual details into your documents.
         {{< landing/code title="C#">}}
@@ -194,7 +194,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Core Functionalities"
+    title: "Explore core functionalities"
     exclude: "stamp"
     description: "Discover a broad range of options to create, manage, and delete various types of signatures, ensuring comprehensive control over your document workflows."
     items: 
@@ -268,7 +268,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Stamps Across Various Document Formats"
+    title: "Apply stamps across various document formats"
     exclude: "PPTX"
     description: "The GroupDocs.Signature API allows you to embed stamps across more than 60 industry-standard file types. Effortlessly apply custom stamps to any location within your documents, enabling enhanced document tracking and personalization."
     items: 

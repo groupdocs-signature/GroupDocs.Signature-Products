@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:37
+date:  2024-09-13T09:34:12
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Create and Apply Stamps to PPTX Files Using JavaScript"
+head_title: "Apply stamp to PPTX files via JavaScript"
 head_description: "Leverage the power of GroupDocs.Signature and JavaScript to generate and place custom stamps on any page within your PPTX documents."
 
 ############################# Header ############################
-title: "Insert Customized Stamps into PPTX Files via JavaScript" 
+title: "Insert customized stamps into PPTX files" 
 description: "Utilize GroupDocs.Signature for Node.js via Java to generate tailored stamps and insert them at any location in your documents. Our platform provides extensive options to personalize stamps according to your specific business requirements."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Your Free Trial"
+    - title: "Free trial"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Embedding Stamp Signatures in PPTX Documents Using JavaScript"
+    title: "Guide to embedding stamps in PPTX documents using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for creating and embedding stamps, which can significantly enhance Node.js via Java applications. Use this feature to craft and apply custom stamps to your document pages.
       
@@ -98,30 +98,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Strengthen Document Security with Signatures"
+  title: "Strengthen document security with signatures"
   description: "With GroupDocs.Signature for Node.js via Java, you can add, edit, validate, or remove stamps and other signature types within all popular document formats. The API simplifies the process of managing signatures for enhanced document integrity and customization."
   image: "/img/signature/features_stamp.webp" # 500x500 px
   image_description: "Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Custom Document Signing"
+    - title: "Custom document signing"
       content: "Apply signatures such as text, images, barcodes, QR codes, and stamps to any part of your document. This tool also allows the inclusion of hidden metadata and digital certificates to further protect your content from unauthorized modifications."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "After a document has been signed, use our verification system to ensure the integrity of the signatures. Additionally, our platform enables you to search for and retrieve detailed information on all signatures applied to a document."
 
     # feature loop
-    - title: "Modify Signatures as Needed"
+    - title: "Modify signatures as needed"
       content: "Adjust and update previously applied signatures with ease. Whether it's changing the content, color, size, or position of the signature, GroupDocs.Signature for Node.js via Java offers full customization options."
 
     # feature loop
-    - title: "Remove Unwanted Signatures"
+    - title: "Remove unwanted signatures"
       content: "Easily remove any unnecessary signatures from your documents. Our API supports the deletion of a wide range of signature types, including stamps and digital certificates, giving you complete flexibility to manage your documents."
       
   code_samples:
     # code sample loop
-    - title: "Integrate Custom Stamps into Documents with Advanced Signature Tools"
+    - title: "Integrate custom stamps into documents"
       content: |
         Learn how to design and apply customized stamps containing essential text to your documents.
         {{< landing/code title="JavaScript">}}
@@ -192,7 +192,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Explore Key Features"
+    title: "Explore key features"
     exclude: "stamp"
     description: "Our solution offers a variety of tools for creating, managing, and removing different types of signatures, giving users full control over their document workflows."
     items: 
@@ -266,7 +266,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Stamp Signatures Across Multiple File Types"
+    title: "Apply stamp signatures across multiple file types"
     exclude: "PPTX"
     description: "The GroupDocs.Signature API supports stamp signatures across 60+ file formats, allowing users to place customized stamps on any page or area, improving document accessibility and security."
     items: 
