@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-13T10:22:17
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Authenticate and Validate Signatures in PDF via JavaScript"
+head_title: "Verify signatures in PDF via JavaScript"
 head_description: "With GroupDocs.Signature for Node.js via Java, you can efficiently verify the authenticity of signatures within PDF documents. Seamlessly check signatures in PDFs, Word, Excel, Presentations, Images, ZIP files, and more."
 
 ############################# Header ############################
-title: "Signature Validation in PDF Files Using GroupDocs.Signature" 
+title: "Verify signatures in PDF files" 
 description: "Ensure the accuracy and validity of all supported e-signatures in a wide array of document formats, including PDF, Word, Excel, Presentations, Images, and ZIP, using GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download the Free Version"
+    - title: "Download the free version"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for Verifying Signatures in PDF using JavaScript"
+    title: "How to verify signatures in PDF using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) can authenticate the presence of specific signatures in a PDF document. Node.js via Java developers can effortlessly enhance their applications by incorporating our verification features.
       
@@ -94,30 +94,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Cutting-Edge Document Signing and Verification"
+  title: "Cutting-edge document signing technology"
   description: "GroupDocs.Signature provides an all-in-one solution for verifying and managing signatures in various office formats. Offering seven signature types and full CRUD operations, it allows for seamless document management and content security."
   image: "/img/signature/features_verify.webp" # 500x500 px
-  image_description: "Signature Verification Features"
+  image_description: "Signature verification features"
   features:
     # feature loop
-    - title: "Sign Corporate Documents with Ease"
+    - title: "Sign corporate documents with ease"
       content: "Apply digital signatures—whether text-based, image, barcode, metadata, stamps, or digital certificates—to your documents in a secure and customized manner. GroupDocs.Signature for Node.js via Java ensures streamlined and professional corporate document signing."
 
     # feature loop
-    - title: "Signature Lifecycle Operations"
+    - title: "Signature lifecycle operations"
       content: "Gain full control over document signatures. List all signatures in a file, verify their authenticity, update them as required, or remove them entirely when necessary, ensuring proper document processing."
 
     # feature loop
-    - title: "Ensure Document Integrity"
+    - title: "Ensure document integrity"
       content: "Leverage digital certificates to protect your documents from unauthorized changes. Use metadata to secure and track document content, ensuring it remains untampered and confidential."
 
     # feature loop
-    - title: "Customized Signature Solutions"
+    - title: "Customized native signatures"
       content: "Add tailored native signatures like stickers in PDFs or watermarks in Word documents. These customizable options allow for professional and secure document handling, perfectly suited to corporate environments."
       
   code_samples:
     # code sample loop
-    - title: "Authenticate Barcode Signatures"
+    - title: "Barcode signatures verification process"
       content: |
         This example elucidates the methodology for authenticating barcode signatures embedded within a document.
         {{< landing/code title="JavaScript">}}
@@ -163,7 +163,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Comprehensive Features and Supported Signatures"
+    title: "Comprehensive features and supported signatures"
     exclude: "verify"
     description: "Explore the advanced capabilities of GroupDocs.Signature, featuring a diverse range of signature management tools and operations for enhanced document workflows."
     items: 
@@ -237,7 +237,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Comprehensive Signature Validation for Various Formats"
+    title: "Comprehensive signature validation for various formats"
     exclude: "PDF"
     description: "GroupDocs.Signature for Node.js via Java simplifies signature verification across multiple document formats, offering robust controls for signature checks. Customize your verification process and ensure documents are signed appropriately."
     items: 

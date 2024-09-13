@@ -1,47 +1,47 @@
 {
-"head": {
-  "title": "Verify Signatures in {{FileFormatUp}} Using {{ProgLang}}",
-  "description": "{{ProdFullName}} enables the verification of signatures placed in {{FileFormatUp}} files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
-},
-"header": {
-  "title": "Signature Verification for {{FileFormatUp}} Files Using {{ProdShortName}}",
-  "description": "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with {{ProdFullName}}.",
-  "subtitle": "{{ProdFullName}}",
-  "action_title": "Download Free Version"
-},
-"about": {
-  "title": "Applications of {{ProdFullName}}",
-  "content": "[{{ProdFullName}}]({{PlatformLink}}) supports full CRUD operations for document signing and more. Sign 60+ document formats, including PDFs, MS Office files, Images, and ZIP archives, with text, image, barcode, digital certificates, metadata, and stamps. Additional operations such as searching, verifying, modifying, or deleting signatures are also available."
-},
-"more_features": {
-  "title": "Comprehensive Document Signing Solution",
-  "description": "{{ProdShortName}} enhances popular office document formats with 7 types of signatures and full CRUD operations, offering robust protection for your document content.",
-  "image_description": "Signature Verification",
-  "feature_1": {
-    "title": "Sign Corporate Documents",
-    "content": "Add professional digital signatures to any document. Our solution supports various types of signatures, including text, images, barcodes, metadata, stamps, and digital certificates."
+  "head": {
+    "title": "Verify {{FileFormatUp}} signatures using {{ProgLang}}",
+    "description": "{{ProdFullName}} enables the verification of signatures placed in {{FileFormatUp}} files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
   },
-  "feature_2": {
-    "title": "Signature CRUD Operations",
-    "content": "In many cases, signed documents require further processing. Retrieve a list of all signatures in a document, verify them, modify their properties, or remove them when necessary."
+  "header": {
+    "title": "Signature verification for {{FileFormatUp}} files",
+    "description": "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download free version"
   },
-  "feature_3": {
-    "title": "Protect Document Content",
-    "content": "Safeguard corporate documents with digital certificates to prevent unauthorized changes. Embed hidden metadata to further protect document content."
+  "about": {
+    "title": "Applications of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) supports full CRUD operations for document signing and more. Sign 60+ document formats, including PDFs, MS Office files, Images, and ZIP archives, with text, image, barcode, digital certificates, metadata, and stamps. Additional operations such as searching, verifying, modifying, or deleting signatures are also available."
   },
-  "feature_4": {
-    "title": "Native Signatures",
-    "content": "Utilize document-specific text signatures, such as PDF stamps or Word watermarks, to create tailored, professional documents for corporate use."
-  }
-},
-"formats": {
-  "title": "Signature Verification Across File Formats",
-  "description": "{{ProdFullName}} simplifies the process of verifying all signatures in a document. Set custom verification parameters to ensure the integrity of signed documents."
-},
-"operations": {
-  "title": "Supported Operations and Signature Types",
-  "description": "Explore the full range of features and signature operations supported by {{ProdShortName}}."
-},
+  "more_features": {
+    "title": "Comprehensive document signing solution",
+    "description": "{{ProdShortName}} enhances popular office document formats with 7 types of signatures and full CRUD operations, offering robust protection for your document content.",
+    "image_description": "Signature verification",
+    "feature_1": {
+      "title": "Sign corporate documents",
+      "content": "Add professional digital signatures to any document. Our solution supports various types of signatures, including text, images, barcodes, metadata, stamps, and digital certificates."
+    },
+    "feature_2": {
+      "title": "Signature CRUD operations",
+      "content": "In many cases, signed documents require further processing. Retrieve a list of all signatures in a document, verify them, modify their properties, or remove them when necessary."
+    },
+    "feature_3": {
+      "title": "Protect document content",
+      "content": "Safeguard corporate documents with digital certificates to prevent unauthorized changes. Embed hidden metadata to further protect document content."
+    },
+    "feature_4": {
+      "title": "Native signatures",
+      "content": "Utilize document-specific text signatures, such as PDF stamps or Word watermarks, to create tailored, professional documents for corporate use."
+    }
+  },
+  "formats": {
+    "title": "Signature verification across file formats",
+    "description": "{{ProdFullName}} simplifies the process of verifying all signatures in a document. Set custom verification parameters to ensure the integrity of signed documents."
+  },
+  "operations": {
+    "title": "Supported operations and signature types",
+    "description": "Explore the full range of features and signature operations supported by {{ProdShortName}}."
+  },
   "examples": {
     "comment_1": "Instantiate a {{TextSignature}} with the document",
     "comment_2": "Create {{TextVerifyOptions}} to validate signatures containing specific text",
@@ -49,7 +49,7 @@
     "comment_4": "Process the verification results"
   },
   "steps": {
-    "title": "Steps for Verifying Signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "title": "Steps for verifying signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can verify the presence of specific signatures in a {{FileFormatUp}} document. {{EnvName}} developers can easily empower their applications by adding features provided by our solution.",
       "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Verify Barcode Signatures",
+    "title": "Verify barcode signatures",
     "content": "This example demonstrates how to verify barcode signatures in a document.",
     "comment_1": "Provide the document that contains barcode signatures",
     "comment_2": "Configure options to verify barcodes against specific text",

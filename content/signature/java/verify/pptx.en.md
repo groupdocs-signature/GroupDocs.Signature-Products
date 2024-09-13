@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:41
+date:  2024-09-13T10:22:17
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Verify Signatures in PPTX Using Java"
+head_title: "Verify PPTX signatures using Java"
 head_description: "GroupDocs.Signature for Java enables the verification of signatures placed in PPTX files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
 
 ############################# Header ############################
-title: "Signature Verification for PPTX Files Using GroupDocs.Signature" 
+title: "Signature verification for PPTX files" 
 description: "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download Free Version"
+    - title: "Download free version"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Verifying Signatures in PPTX using Java"
+    title: "Steps for verifying signatures in PPTX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) can verify the presence of specific signatures in a PPTX document. Java developers can easily empower their applications by adding features provided by our solution.
       
@@ -108,30 +108,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Document Signing Solution"
+  title: "Comprehensive document signing solution"
   description: "GroupDocs.Signature enhances popular office document formats with 7 types of signatures and full CRUD operations, offering robust protection for your document content."
   image: "/img/signature/features_verify.webp" # 500x500 px
-  image_description: "Signature Verification"
+  image_description: "Signature verification"
   features:
     # feature loop
-    - title: "Sign Corporate Documents"
+    - title: "Sign corporate documents"
       content: "Add professional digital signatures to any document. Our solution supports various types of signatures, including text, images, barcodes, metadata, stamps, and digital certificates."
 
     # feature loop
-    - title: "Signature CRUD Operations"
+    - title: "Signature CRUD operations"
       content: "In many cases, signed documents require further processing. Retrieve a list of all signatures in a document, verify them, modify their properties, or remove them when necessary."
 
     # feature loop
-    - title: "Protect Document Content"
+    - title: "Protect document content"
       content: "Safeguard corporate documents with digital certificates to prevent unauthorized changes. Embed hidden metadata to further protect document content."
 
     # feature loop
-    - title: "Native Signatures"
+    - title: "Native signatures"
       content: "Utilize document-specific text signatures, such as PDF stamps or Word watermarks, to create tailored, professional documents for corporate use."
       
   code_samples:
     # code sample loop
-    - title: "Verify Barcode Signatures"
+    - title: "Verify barcode signatures"
       content: |
         This example demonstrates how to verify barcode signatures in a document.
         {{< landing/code title="Java">}}
@@ -176,7 +176,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Supported Operations and Signature Types"
+    title: "Supported operations and signature types"
     exclude: "verify"
     description: "Explore the full range of features and signature operations supported by GroupDocs.Signature."
     items: 
@@ -250,7 +250,7 @@ more_operations:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Signature Verification Across File Formats"
+    title: "Signature verification across file formats"
     exclude: "PPTX"
     description: "GroupDocs.Signature for Java simplifies the process of verifying all signatures in a document. Set custom verification parameters to ensure the integrity of signed documents."
     items: 
