@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:38
+date:  2024-09-13T10:02:31
 draft: false
 lang: en
 format: Jpeg
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Integrate Text Signatures into JPEG Files with C# Applications"
+head_title: "Add text signatures to JPEG using C# apps"
 head_description: "Harness the power of the C# API to embed text-based signatures within JPEG files, supporting a wide array of formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
-title: "Seamlessly Embed Text Signatures in JPEG via C#" 
+title: "Seamlessly embed text signatures in JPEG" 
 description: "Effortlessly integrate custom text signatures into your business documents using GroupDocs.Signature for .NET. Optimize organizational processes with versatile signature customization capabilities."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Try it Free Today"
+    - title: "Try it free today"
       link: "https://releases.groupdocs.com/signature/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "Discover the GroupDocs.Signature for .NET Solution"
+    title: "Discover the GroupDocs.Signature for .NET solution"
     link: "/signature/net/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure for Embedding Text Signatures into JPEG Documents Using C#"
+    title: "How to embed text signatures into JPEG documents using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the incorporation of text signatures into JPEG files within .NET applications. Enhance your product capabilities swiftly with our comprehensive solutions.
       
@@ -91,30 +91,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Comprehensive Text Signature Management"
+  title: "Comprehensive text signature management"
   description: "GroupDocs.Signature for .NET empowers your organization by enhancing document workflows through the addition of customizable text signatures across popular file formats. Easily manage the appearance, positioning, and content of these signatures to suit your specific needs."
   image: "/img/signature/features_text.webp" # 500x500 px
   image_description: "Explore the Features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Versatile Document Signatures"
+    - title: "Versatile document signatures"
       content: "Apply a diverse range of signatures—including text, images, barcodes, QR codes, and stamps—onto any page of supported documents. Leverage metadata to embed hidden content, while protecting sensitive information through the use of digital certificates."
 
     # feature loop
-    - title: "Signature Search and Authentication"
+    - title: "Signature search and authentication"
       content: "Ensure the validity and integrity of your signed documents by utilizing our robust signature verification tools. Conduct searches to retrieve a comprehensive list of all signatures within a document for further analysis."
 
     # feature loop
-    - title: "Update or Remove Signatures"
+    - title: "Update or remove signatures"
       content: "Easily modify the content, visual properties, or positioning of previously embedded signatures. When necessary, remove unwanted signatures to maintain accurate and relevant document content."
 
     # feature loop
-    - title: "Specialized Text Signatures"
+    - title: "Specialized text signatures"
       content: "Implement document-specific text signatures, such as watermarks for Word documents or stickers for PDFs, to provide an additional layer of customization and control."
       
   code_samples:
     # code sample loop
-    - title: "Embed Text Signatures in Documents"
+    - title: "Embed text signatures in documents"
       content: |
         Discover how to incorporate textual signatures into business documents to streamline processes.
         {{< landing/code title="C#">}}
@@ -190,7 +190,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Advanced Features and Signature Options"
+    title: "Advanced features and signature options"
     exclude: "text"
     description: "Our API supports full lifecycle management of seven signature types, offering comprehensive CRUD capabilities for managing, verifying, and customizing your signatures."
     items: 
@@ -264,7 +264,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Embed Text Signatures Across Multiple File Formats"
+    title: "Embed text signatures across multiple file formats"
     exclude: "JPEG"
     description: "With our .NET API, you can embed textual signatures into a wide variety of Office documents. Take full control of your documents' lifecycle by adding text signatures that enhance both functionality and security."
     items: 

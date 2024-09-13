@@ -1,45 +1,45 @@
 {
   "head": {
-    "title": "Insert Text Signatures into {{FileFormatUp}} Files using {{ProgLang}} Apps",
+    "title": "Create {{FileFormatUp}} text signatures with {{ProgLang}}",
     "description": "Leverage the {{ProgLang}} API to insert text signatures into {{FileFormatUp}} files. Seamlessly process popular document formats including PDF, Word, Excel, Presentations, Images, and ZIP."
   },
   "header": {
-    "title": "Insert Text Signatures into {{FileFormatUp}} with {{ProgLang}}",
+    "title": "Create text signatures for {{FileFormatUp}}",
     "description": "Easily add custom text signatures to your business documents using {{ProdFullName}}. Streamline organizational workflows with signature customization options.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Start Your Free Trial"
+    "action_title": "Start for free"
   },
   "about": {
-    "title": "About the {{ProdFullName}} Solution",
+    "title": "About the {{ProdFullName}} solution",
     "content": "[{{ProdFullName}}]({{PlatformLink}}) offers flexible and customizable text signatures to simplify your document management tasks. Configure the content and design of text signatures and apply them to any page, enhancing your organization’s document workflow with ease."
   },
   "more_features": {
-    "title": "Manage Document Text Signatures",
+    "title": "Manage document text signatures",
     "description": "With {{ProdFullName}}, you can streamline your company’s document workflow by adding text signatures to popular file formats. Easily configure the appearance and content of signatures.",
-    "image_description": "Key Features of {{ProdShortName}}",
+    "image_description": "Key features of {{ProdShortName}}",
     "feature_1": {
-      "title": "Document Signatures",
+      "title": "Document signatures",
       "content": "Apply text, image, barcode, QR code, or stamp signatures to any page of supported documents. Leverage metadata to embed hidden content and secure your documents with digital certificates."
     },
     "feature_2": {
-      "title": "Signature Search and Verification",
+      "title": "Signature search and verification",
       "content": "Ensure the integrity of your signed documents with our signature verification tool. You can also retrieve and search all the signatures embedded within a document."
     },
     "feature_3": {
-      "title": "Modify or Remove Signatures",
+      "title": "Modify or remove signatures",
       "content": "Modify the content, position, and appearance of previously added signatures, or remove them entirely from the document."
     },
     "feature_4": {
-      "title": "Native Text Signatures",
+      "title": "Native text signatures",
       "content": "Add document-specific text signatures, such as stickers in PDFs or watermarks in Word documents, for enhanced customization."
     }
   },
   "formats": {
-    "title": "Add Text Signatures to Various File Formats",
+    "title": "Add text signatures to various file formats",
     "description": "Utilize the {{EnvName}} API to insert textual signatures into Office documents, ensuring complete control over the content at every stage of the document's lifecycle."
   },
   "operations": {
-    "title": "Key Features and Signature Options",
+    "title": "Key features and signature options",
     "description": "Our solution supports full CRUD operations and more for seven different types of signatures."
   },
   "examples": {
@@ -49,7 +49,7 @@
     "comment_4": "Append the text signature to the document"
   },
   "steps": {
-    "title": "Steps for Adding Text Signatures to {{FileFormatUp}} Files Using {{ProgLang}}",
+    "title": "Steps for adding text signatures to {{FileFormatUp}} files using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can be integrated into {{EnvName}} applications to add text signatures to {{FileFormatUp}} documents. Developers can quickly enhance their products' functionality by using our solutions.",
       "step_1": "Use the {{FileFormatUp}} document as a parameter for the {{TextSignature}} class constructor.",
@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Mark Documents with Text Signatures",
+    "title": "Mark documents with text signatures",
     "content": "Learn how to append textual information to business documents to improve business processes.",
     "comment_1": "Select a document to be signed",
     "comment_2": "Create text options with the desired text",

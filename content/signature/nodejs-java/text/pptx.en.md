@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:38
+date:  2024-09-13T10:02:31
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Implement Text Signatures in PPTX Files with JavaScript Solutions"
+head_title: "Text signatures for PPTX via JavaScript"
 head_description: "Utilize the JavaScript API to seamlessly integrate text signatures into PPTX documents. Our API supports a broad spectrum of formats, including PDF, Word, Excel, Presentations, Images, and ZIP files."
 
 ############################# Header ############################
-title: "Effortlessly Add Text Signatures to PPTX Using JavaScript" 
+title: "Add text signatures to PPTX" 
 description: "Incorporate personalized text signatures into your business files with GroupDocs.Signature for Node.js via Java. Take control of your document workflows by enhancing them with secure and customizable signature options."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -27,7 +27,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Trial"
+    - title: "Start free trial"
       link: "https://releases.groupdocs.com/signature/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure to Add Text Signatures to PPTX Documents Using JavaScript"
+    title: "Procedure to add text signatures to PPTX documents using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables the addition of text signatures to PPTX documents within Node.js via Java applications. Quickly enhance your product's capabilities with our robust solutions.
       
@@ -94,30 +94,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Enhanced Text Signature Control"
+  title: "Enhanced text signature control"
   description: "With GroupDocs.Signature for Node.js via Java, you can greatly improve the management of text-based signatures in key document formats. The tool allows you to configure the style, placement, and content of signatures with ease, enabling businesses to tailor their document processes."
   image: "/img/signature/features_text.webp" # 500x500 px
-  image_description: "Core Features of GroupDocs.Signature"
+  image_description: "Core features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Dynamic Document Signatures"
+    - title: "Dynamic document signatures"
       content: "Insert various types of signatures—such as text, images, barcodes, QR codes, or stamps—on any page of supported documents. Embed metadata to carry hidden information or apply digital certificates for advanced security measures."
 
     # feature loop
-    - title: "Signature Search and Validation"
+    - title: "Signature search and validation"
       content: "Verify the authenticity of signatures embedded within your documents. Perform efficient searches to locate all signature instances, ensuring thorough document tracking and management."
 
     # feature loop
-    - title: "Edit or Remove Signatures"
+    - title: "Edit or remove signatures"
       content: "Modify or delete previously added signatures as needed. You can adjust the appearance, position, or content of any signature to meet evolving requirements, ensuring flexibility in document handling."
 
     # feature loop
-    - title: "Native Signature Customization"
+    - title: "Native signature customization"
       content: "For certain file types, tailor signature placement with built-in document features, such as adding watermarks to Word files or customized stamps to PDFs, enhancing the uniqueness of your documents."
       
   code_samples:
     # code sample loop
-    - title: "Implement Text Signatures in Documents"
+    - title: "Implement text signatures in documents"
       content: |
         Learn how to embed text signatures into business documents to optimize processes.
         {{< landing/code title="JavaScript">}}
@@ -199,7 +199,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Comprehensive Signature Management Features"
+    title: "Comprehensive signature management features"
     exclude: "text"
     description: "Our platform offers full CRUD operations and advanced features for the management of seven distinct signature types, allowing you to manage your document signatures with precision and ease."
     items: 
@@ -273,7 +273,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Apply Text Signatures Across Various Formats"
+    title: "Apply text signatures across various formats"
     exclude: "PPTX"
     description: "Leverage the capabilities of Node.js via Java API to integrate text-based signatures into a wide range of Office formats. Control the flow of information at every stage of your document lifecycle by adding highly customizable text marks."
     items: 

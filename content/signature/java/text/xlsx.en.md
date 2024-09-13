@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:38
+date:  2024-09-13T10:02:31
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Insert Text Signatures into XLSX Files using Java Apps"
+head_title: "Create XLSX text signatures with Java"
 head_description: "Leverage the Java API to insert text signatures into XLSX files. Seamlessly process popular document formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
-title: "Insert Text Signatures into XLSX with Java" 
+title: "Create text signatures for XLSX" 
 description: "Easily add custom text signatures to your business documents using GroupDocs.Signature for Java. Streamline organizational workflows with signature customization options."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -27,13 +27,13 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Start Your Free Trial"
+    - title: "Start for free"
       link: "https://releases.groupdocs.com/signature/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "About the GroupDocs.Signature for Java Solution"
+    title: "About the GroupDocs.Signature for Java solution"
     link: "/signature/java/"
     link_title: "Learn more"
     picture: "about_signature.svg" # 480 X 400
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Adding Text Signatures to XLSX Files Using Java"
+    title: "Steps for adding text signatures to XLSX files using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) can be integrated into Java applications to add text signatures to XLSX documents. Developers can quickly enhance their products' functionality by using our solutions.
       
@@ -107,30 +107,30 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Manage Document Text Signatures"
+  title: "Manage document text signatures"
   description: "With GroupDocs.Signature for Java, you can streamline your company’s document workflow by adding text signatures to popular file formats. Easily configure the appearance and content of signatures."
   image: "/img/signature/features_text.webp" # 500x500 px
-  image_description: "Key Features of GroupDocs.Signature"
+  image_description: "Key features of GroupDocs.Signature"
   features:
     # feature loop
-    - title: "Document Signatures"
+    - title: "Document signatures"
       content: "Apply text, image, barcode, QR code, or stamp signatures to any page of supported documents. Leverage metadata to embed hidden content and secure your documents with digital certificates."
 
     # feature loop
-    - title: "Signature Search and Verification"
+    - title: "Signature search and verification"
       content: "Ensure the integrity of your signed documents with our signature verification tool. You can also retrieve and search all the signatures embedded within a document."
 
     # feature loop
-    - title: "Modify or Remove Signatures"
+    - title: "Modify or remove signatures"
       content: "Modify the content, position, and appearance of previously added signatures, or remove them entirely from the document."
 
     # feature loop
-    - title: "Native Text Signatures"
+    - title: "Native text signatures"
       content: "Add document-specific text signatures, such as stickers in PDFs or watermarks in Word documents, for enhanced customization."
       
   code_samples:
     # code sample loop
-    - title: "Mark Documents with Text Signatures"
+    - title: "Mark documents with text signatures"
       content: |
         Learn how to append textual information to business documents to improve business processes.
         {{< landing/code title="Java">}}
@@ -208,7 +208,7 @@ actions:
 ############################# More Operations #####################
 more_operations:
     enable: true
-    title: "Key Features and Signature Options"
+    title: "Key features and signature options"
     exclude: "text"
     description: "Our solution supports full CRUD operations and more for seven different types of signatures."
     items: 
@@ -282,7 +282,7 @@ more_operations:
 ############################# More Formats ########################
 more_formats:
     enable: true
-    title: "Add Text Signatures to Various File Formats"
+    title: "Add text signatures to various file formats"
     exclude: "XLSX"
     description: "Utilize the Java API to insert textual signatures into Office documents, ensuring complete control over the content at every stage of the document's lifecycle."
     items: 
