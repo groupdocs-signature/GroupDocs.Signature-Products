@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:44:34
+date:  2024-09-17T13:38:53
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Protect PDF by digital certificates via C#"
-head_description: "Leverage C# applications with GroupDocs.Signature to safeguard PDF documents with digital certificates."
+head_title: "Adding digital electronic signatures to PDF file with C#"
+head_description: "Put a digital signature on a PDF file using C# with just a few lines of code. Use GroupDocs.Signature for .NET to sign numerous file formats."
 
 ############################# Header ############################
-title: "Secure PDF with digital certificates" 
+title: "Secure PDF with digital signatures" 
 description: "Protect the integrity of your business documents by sealing them with digital certificates using the robust features of GroupDocs.Signature for .NET. We offer versatile solutions to mark and secure your documents."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to secure PDF files with digital certificates in C#"
+    title: "How to secure PDF with digital certificates in C#"
     content: |
       [GroupDocs.Signature](/signature/net/) empowers .NET developers to safeguard PDF documents against alterations using digital signatures. Augment your business applications with robust data protection capabilities.
       

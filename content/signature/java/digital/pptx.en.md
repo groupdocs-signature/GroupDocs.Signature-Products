@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:44:34
+date:  2024-09-17T13:38:53
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Secure PPTX with digital certificate in Java"
-head_description: "Use Java applications with GroupDocs.Signature to protect PPTX documents with digital certificates."
+head_title: "Adding digital electronic signatures to PPTX file with Java"
+head_description: "Put a digital signature on a PPTX file using Java with just a few lines of code. Use GroupDocs.Signature for Java to sign numerous file formats."
 
 ############################# Header ############################
-title: "Protect PPTX with digital certificates" 
+title: "eSign PPTX with digital signatures" 
 description: "Safeguard the content of your business documents by sealing them with digital certificates using the features of GroupDocs.Signature for Java. We provide multiple ways to mark and secure your documents."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for protecting PPTX files with digital certificates in Java"
+    title: "Steps for protecting PPTX with digital certificates in Java"
     content: |
       [GroupDocs.Signature](/signature/java/) allows Java developers to prevent changes in PPTX documents using digital signatures. Empower your business applications with the ability to secure important data.
       

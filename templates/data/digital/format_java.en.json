@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Secure {{FileFormatUp}} with digital certificate in {{ProgLang}}",
-    "description": "Use {{ProgLang}} applications with {{ProdShortName}} to protect {{FileFormatUp}} documents with digital certificates."
+    "title": "Adding digital electronic signatures to {{FileFormatUp}} file with {{ProgLang}}",
+    "description": "Put a digital signature on a {{FileFormatUp}} file using {{ProgLang}} with just a few lines of code. Use {{ProdFullName}} to sign numerous file formats."
   },
   "header": {
-    "title": "Protect {{FileFormatUp}} with digital certificates",
+    "title": "eSign {{FileFormatUp}} with digital signatures",
     "description": "Safeguard the content of your business documents by sealing them with digital certificates using the features of {{ProdFullName}}. We provide multiple ways to mark and secure your documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"
@@ -49,7 +49,7 @@
     "comment_4": "Protect the document with a digital certificate"
   },
   "steps": {
-    "title": "Steps for protecting {{FileFormatUp}} files with digital certificates in {{ProgLang}}",
+    "title": "Steps for protecting {{FileFormatUp}} with digital certificates in {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) allows {{EnvName}} developers to prevent changes in {{FileFormatUp}} documents using digital signatures. Empower your business applications with the ability to secure important data.",
       "step_1": "Pass the {{FileFormatUp}} document to the {{TextSignature}} class constructor.",
