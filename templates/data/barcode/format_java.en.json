@@ -1,7 +1,7 @@
 {
   "head": {
     "title": "Generate barcode for {{FileFormatUp}} using {{ProgLang}} Applications",
-    "description": "Utilize {{ProgLang}} applications with {{ProdShortName}} to generate and insert barcodes on any place of {{FileFormatUp}} documents."
+    "description": "Generate a barcode signature and add it to a {{FileFormatUp}} document using {{ProgLang}} with just a few lines of code. Utilize {{ProdShortName}} for signing a wide range of file formats."
   },
   "header": {
     "title": "Generate barcode for {{FileFormatUp}}",
@@ -49,7 +49,7 @@
     "comment_4": "Save the signed file"
   },
   "steps": {
-    "title": "Steps to generate and add a barcode to {{FileFormatUp}} documents",
+    "title": "Steps to generate and add a barcode to {{FileFormatUp}} file",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can generate barcodes in various popular formats and place them on {{FileFormatUp}} pages. With support for over 60 barcode types, {{EnvName}} applications can easily be enhanced with barcode signing capabilities by incorporating our library.",
       "step_1": "Provide the {{FileFormatUp}} file or stream to be processed.",

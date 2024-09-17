@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-17T12:54:05
 draft: false
 lang: en
 format: Pdf
@@ -16,7 +16,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Generate barcode for PDF using Java Applications"
-head_description: "Utilize Java applications with GroupDocs.Signature to generate and insert barcodes on any place of PDF documents."
+head_description: "Generate a barcode signature and add it to a PDF document using Java with just a few lines of code. Utilize GroupDocs.Signature for signing a wide range of file formats."
 
 ############################# Header ############################
 title: "Generate barcode for PDF" 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to generate and add a barcode to PDF documents"
+    title: "Steps to generate and add a barcode to PDF file"
     content: |
       [GroupDocs.Signature](/signature/java/) can generate barcodes in various popular formats and place them on PDF pages. With support for over 60 barcode types, Java applications can easily be enhanced with barcode signing capabilities by incorporating our library.
       
