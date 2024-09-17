@@ -90,19 +90,19 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSearchOptions options = new TextSearchOptions();
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        DigitalSearchOptions options = new DigitalSearchOptions();
+        List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
 
         // <% "{examples.comment_3}" %>
         if(signatures.size() > 0)
         {
-            TextSignature textSignature = signatures.get(0);
-            boolean result = signature.delete("output.<% get "fileformat" %>", textSignature);
+            DigitalSignature digitalSignature = signatures.get(0);
+            boolean result = signature.delete("output.<% get "fileformat" %>", digitalSignature);
 
             // <% "{examples.comment_4}" %>
             if(result)
             {
-                System.out.print("\nSignature was deleted successfully");
+                System.out.print("\nDigital <% get "FileFormatUp" %> signature was deleted successfully");
             }
         }
         ```            
@@ -142,18 +142,18 @@ more_features:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{code_1.comment_2}" %>
-        DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.QrCode);
+        DeleteResult result = signature.delete("output.<% get "fileformat" %>", SignatureType.Barcode);
 
         // <% "{code_1.comment_3}" %>
         if (result.getSucceeded().size() > 0)
         {
-            System.out.print("\nFollowing QR-Code signatures were deleted:");
+            System.out.print("\nFollowing <% get "FileFormatUp" %> barcode signatures were deleted:");
             int number = 1;
             for (BaseSignature temp : result.getSucceeded())
             {
                 System.out.print("Signature #"+number++ +
                 ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((QrCodeSignature)temp).getText());
+                ", Text: "+((BarcodeSignature)temp).getText());
             }
         }
         ```

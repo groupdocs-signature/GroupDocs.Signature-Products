@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:12:49
+date:  2024-09-17T12:02:36
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Remove signatures from PPTX using C#"
-head_description: "Empower your C# applications with the robust capabilities of GroupDocs.Signature for .NET to seamlessly eliminate previously embedded signatures from PPTX files."
+head_title: "Delete signatures from PPTX using C#"
+head_description: "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed PPTX documents can be performed easily using GroupDocs.Signature for .NET."
 
 ############################# Header ############################
-title: "Efficiently remove signatures from PPTX files" 
+title: "Remove signatures from PPTX efficiently" 
 description: "Beyond just signing business documents, our solution offers comprehensive tools to locate and remove a wide array of signatures using GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,13 +43,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to delete text signatures from PPTX using C#"
+    title: "How to delete e-signatures from PPTX using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) simplifies the task for .NET developers to remove text signatures in PPTX files by implementing a few straightforward steps.
+      [GroupDocs.Signature](/signature/net/) simplifies the task for .NET developers to remove electronic signatures in PPTX files by implementing a few straightforward steps.
       
       1. Provide the path of the PPTX file to an instance of the Signature class.
-      2. Invoke the Search method to retrieve all text signatures within the document.
-      3. Delete one or more of the retrieved text signatures.
+      2. Invoke the Search method to retrieve all digital signatures within the document.
+      3. Delete one or more of the retrieved digital signatures.
       4. Examine the results of the document processing.
    
     code:
@@ -75,20 +75,21 @@ steps:
         // Pass the document containing signatures to the Signature instance
         using (Signature signature = new Signature("input.pptx"))
         {
-            // Retrieve the text signatures present within the document
-            TextSearchOptions options = new TextSearchOptions();
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            // Retrieve the digital signatures present within the document
+            DigitalSearchOptions options = new DigitalSearchOptions();
 
-            // Remove the first identified text signature
+            List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+
+            // Remove the first identified digital signature
             if(signatures.Count > 0)
             {
-                TextSignature textSignature = signatures[0];
-                bool result = signature.Delete(textSignature);
+                DigitalSignature digitalSignature = signatures[0];
+                bool result = signature.Delete(digitalSignature);
 
-                // Remove the first identified text signature
+                // Remove the first identified digital signature
                 if(result)
                 {
-                    Console.WriteLine($"Signature was deleted successfully");
+                    Console.WriteLine($"Digital signature in PPTX was deleted successfully");
                 }
             }
         }
@@ -120,23 +121,23 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Eliminate all QR-code signatures"
+    - title: "Eliminate all barcode signatures"
       content: |
-        Discover how to remove all QR-code signatures embedded within a document.
+        Discover how to remove all barcode signatures embedded within a document.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
-        // Supply a document containing QR-code signatures
+        // Supply a document containing barcode signatures
         using (Signature signature = new Signature("input.pptx"))
         {
-            // Remove all QR-code signatures
-            DeleteResult result = signature.Delete(SignatureType.QrCode);
+            // Remove all barcode signatures
+            DeleteResult result = signature.Delete(SignatureType.Barcode);
 
             // Evaluate the outcome of the deletion process
             if (result.Succeeded.Count > 0)
             {
-                Console.WriteLine("Following QR-Code signatures were deleted:");                    
+                Console.WriteLine("Following PPTX barcode signatures were deleted:");                    
                 int number = 1;
-                foreach (QrCodeSignature temp in result.Succeeded)
+                foreach (BarcodeSignature temp in result.Succeeded)
                 {
                     Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
                         Id:{temp.SignatureId}, Text: {temp.Text}");

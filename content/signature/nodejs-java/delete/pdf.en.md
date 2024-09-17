@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:12:49
+date:  2024-09-17T12:02:36
 draft: false
 lang: en
 format: Pdf
@@ -16,10 +16,10 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Delete signatures from PDF via JavaScript"
-head_description: "Elevate your JavaScript applications by integrating GroupDocs.Signature for Node.js via Java, a powerful tool designed to seamlessly remove embedded signatures from PDF files."
+head_description: "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed PDF documents can be performed easily using GroupDocs.Signature for Node.js via Java."
 
 ############################# Header ############################
-title: "Effortlessly delete signatures from PDF" 
+title: "Remove signatures placed in PDF effortlessly" 
 description: "Our comprehensive solution extends beyond simple document signing, offering robust features within GroupDocs.Signature for Node.js via Java to locate and delete a wide array of signatures."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,13 +43,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for removing text signatures from PDF using JavaScript"
+    title: "Guidelines for removing digital signatures from PDF using JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to efficiently remove text signatures in PDF files by following a series of simple steps.
+      [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to efficiently remove e-signatures in PDF files by following a series of simple steps.
       
       1. Provide the PDF file path to an instance of the Signature class.
-      2. Utilize the Search method to identify all text signatures in the document.
-      3. Remove one or more of the identified text signatures.
+      2. Utilize the Search method to identify all digital signatures in the document.
+      3. Remove one or more of the identified digital signatures.
       4. Review the results of the document processing.
    
     code:
@@ -77,20 +77,20 @@ steps:
         // Pass the document with the signatures to the Signature instance
         const signature = new signatureLib.Signature('input.pdf');
 
-        // Erase all QR-code signatures
-        const options = new signatureLib.TextSearchOptions();
-        const signatures = signature.search(signatureLib.TextSignature.class, options);
+        // Erase all barcode signatures
+        const options = new signatureLib.DigitalSearchOptions();
+        const signatures = signature.search(signatureLib.DigitalSignature.class, options);
 
-        // Remove the first detected text signature
+        // Remove the first detected digital signature
         if(signatures.size() > 0)
         {
-            const textSignature = signatures[0];
-            const result = signature.delete('output.pdf', textSignature);
+            const digitalSignature = signatures[0];
+            const result = signature.delete('output.pdf', digitalSignature);
 
             // Handle the result of the deletion
             if(result)
             {
-                console.log(`\nSignature was deleted successfully`);
+                console.log(`\n PDF digital signature deleted successfully`);
             }
         }
 
@@ -122,22 +122,22 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Remove all QR-code signatures"
+    - title: "Remove all barcode signatures"
       content: |
-        Learn the procedure to eliminate all QR-code signatures embedded in a document.
+        Learn the procedure to eliminate all barcode signatures embedded in a document.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
         
-        // Provide a document that includes QR-code signatures
+        // Provide a document that includes barcode signatures
         const signature = new signatureLib.Signature('input.pdf');
 
-        // Erase all QR-code signatures
-        const result = await signature.delete('output.pdf', signatureLib.SignatureType.QrCode);
+        // Erase all barcode signatures
+        const result = await signature.delete('output.pdf', signatureLib.SignatureType.Barcode);
         if (result.getSucceeded().size() > 0) {
 
             // Review the outcome of the deletion
-            console.log('Following QR-Code signatures were deleted:');
+            console.log('Following PDF barcode signatures were deleted:');
             let number = 1;
             result.getSucceeded().toArray().forEach((o) => {
                 const temp = o;

@@ -77,19 +77,19 @@ steps:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{code_1.comment_2}" %>
-        const options = new signatureLib.TextSearchOptions();
-        const signatures = signature.search(signatureLib.TextSignature.class, options);
+        const options = new signatureLib.DigitalSearchOptions();
+        const signatures = signature.search(signatureLib.DigitalSignature.class, options);
 
         // <% "{examples.comment_3}" %>
         if(signatures.size() > 0)
         {
-            const textSignature = signatures[0];
-            const result = signature.delete('output.<% get "fileformat" %>', textSignature);
+            const digitalSignature = signatures[0];
+            const result = signature.delete('output.<% get "fileformat" %>', digitalSignature);
 
             // <% "{examples.comment_4}" %>
             if(result)
             {
-                console.log(`\nSignature was deleted successfully`);
+                console.log(`\n <% get "FileFormatUp" %> digital signature deleted successfully`);
             }
         }
 
@@ -132,11 +132,11 @@ more_features:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{code_1.comment_2}" %>
-        const result = await signature.delete('output.<% get "fileformat" %>', signatureLib.SignatureType.QrCode);
+        const result = await signature.delete('output.<% get "fileformat" %>', signatureLib.SignatureType.Barcode);
         if (result.getSucceeded().size() > 0) {
 
             // <% "{code_1.comment_3}" %>
-            console.log('Following QR-Code signatures were deleted:');
+            console.log('Following <% get "FileFormatUp" %> barcode signatures were deleted:');
             let number = 1;
             result.getSucceeded().toArray().forEach((o) => {
                 const temp = o;
