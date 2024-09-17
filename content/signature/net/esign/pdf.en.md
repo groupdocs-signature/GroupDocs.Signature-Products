@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:18:45
+date:  2024-09-17T21:15:07
 draft: false
 lang: en
 format: Pdf
@@ -19,7 +19,7 @@ head_title: "Electronically sign PDF via C# apps"
 head_description: "Leverage the power of C# API to electronically sign and secure PDF documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Digitally sign PDF documents" 
+title: "e-Sign PDF" 
 description: "Embed a variety of electronic signatures into your documents using GroupDocs.Signature for .NET, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for signing PDF documents with text signatures using C#"
+    title: "Steps for signing PDF using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into PDF files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
+      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized signatures into PDF files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
       
       1. Provide the PDF file to the Signature instance for signing.
-      2. Utilize TextSignOptions to specify the signature parameters.
+      2. Utilize SignOptions to specify the signature parameters.
       3. Configure attributes such as size, color, and content.
       4. Save the signed file to the desired destination.
    
@@ -75,7 +75,7 @@ steps:
         // Load the document into a Signature instance
         using (Signature signature = new Signature("input.pdf"))
         {
-            // Create a new TextSignOptions object
+            // Create a new QrCodeSignOptions object
             TextSignOptions options = new TextSignOptions("John Smith")
             {
                 // Configure all the necessary options
@@ -121,7 +121,7 @@ more_features:
         using (Signature signature = new Signature("input.pdf"))
         {
             // Specify the path to the image in the signature configuration
-            ImageSignOptions options = new ImageSignOptions("image.jpg")
+            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
             {
                 // Define the dimensions and target pages for the signature
                 Left = 50,

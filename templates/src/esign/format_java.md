@@ -134,7 +134,7 @@ more_features:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{code_1.comment_2}" %>
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // <% "{code_1.comment_3}" %>
         options.setLeft(100);
