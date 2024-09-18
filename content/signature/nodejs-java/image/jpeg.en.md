@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:53:56
+date:  2024-09-18T11:27:37
 draft: false
 lang: en
 format: Jpeg
@@ -15,8 +15,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Integrate image into JPEG with JavaScript"
-head_description: "Leverage the power of JavaScript applications to insert image-based signatures into JPEG files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
+head_title: "Adding Image signatures to JPEG file with JavaScript"
+head_description: "Put image signature on JPEG file for Node.js using a few lines of code. Use GroupDocs.Signature for Node.js via Java API to add images."
 
 ############################# Header ############################
 title: "Sign JPEG files using image signatures" 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guide to embedding images in JPEG pages using JavaScript"
+    title: "Guide to adding images in JPEG using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java applications to seamlessly integrate image signatures into JPEG documents. Enhance your application's capabilities with our comprehensive library.
       

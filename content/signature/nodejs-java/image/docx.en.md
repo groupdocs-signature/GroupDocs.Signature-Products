@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:53:56
+date:  2024-09-18T11:27:36
 draft: false
 lang: en
 format: Docx
@@ -15,8 +15,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Integrate image into DOCX with JavaScript"
-head_description: "Leverage the power of JavaScript applications to insert image-based signatures into DOCX files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
+head_title: "Adding Image signatures to DOCX file with JavaScript"
+head_description: "Put image signature on DOCX file for Node.js using a few lines of code. Use GroupDocs.Signature for Node.js via Java API to add images."
 
 ############################# Header ############################
 title: "Sign DOCX files using image signatures" 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guide to embedding images in DOCX pages using JavaScript"
+    title: "Guide to adding images in DOCX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java applications to seamlessly integrate image signatures into DOCX documents. Enhance your application's capabilities with our comprehensive library.
       

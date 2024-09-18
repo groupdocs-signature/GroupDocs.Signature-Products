@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "Integrate image into {{FileFormatUp}} with {{ProgLang}}",
-    "description": "Leverage the power of {{ProgLang}} applications to insert image-based signatures into {{FileFormatUp}} files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
+    "title": "Adding Image signatures to {{FileFormatUp}} file with {{ProgLang}}",
+    "description": "Put image signature on {{FileFormatUp}} file for {{EnvNameShort}} using a few lines of code. Use {{ProdFullName}} API to add images."
   },
   "header": {
     "title": "Sign {{FileFormatUp}} files using image signatures",
@@ -49,7 +49,7 @@
     "comment_4": "Save the document with the applied image signature"
   },
   "steps": {
-    "title": "Guide to embedding images in {{FileFormatUp}} pages using {{ProgLang}}",
+    "title": "Guide to adding images in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} applications to seamlessly integrate image signatures into {{FileFormatUp}} documents. Enhance your application's capabilities with our comprehensive library.",
       "step_1": "Instantiate {{TextSignature}} with the {{FileFormatUp}} document",

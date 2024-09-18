@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:53:56
+date:  2024-09-18T11:27:36
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Embed image into DOCX by C# Applications"
-head_description: "The C# API facilitates the integration of image signatures into DOCX files. Seamlessly embed image signatures into PDFs, Word documents, Excel spreadsheets, presentations, and various other image formats."
+head_title: "Adding Image signatures to DOCX file with C#"
+head_description: "Put image signature on DOCX file for .NET using a few lines of code. Use GroupDocs.Signature for .NET API to add images."
 
 ############################# Header ############################
-title: "Image-based signing of DOCX" 
+title: "Add image signature to DOCX files" 
 description: "Utilize GroupDocs.Signature for .NET to seamlessly integrate images into a wide array of office document formats, including PDFs, Word, Excel, and image files. Incorporating an image of your boss's signature can create a striking professional impression, elevating the visual appeal and authenticity of your documents."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to embed an image in any place of a DOCX document using C#"
+    title: "How to add an image in any place of a DOCX using C#"
     content: |
       Leverage [GroupDocs.Signature](/signature/net/) to empower .NET applications with the ability to accurately embed signatures into any page of DOCX documents. Enhance your product's capabilities seamlessly by integrating our solution.
       
