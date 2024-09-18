@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Apply stamp to {{FileFormatUp}} files via {{ProgLang}}",
+    "title": "Generate and add stamps to {{FileFormatUp}} via {{ProgLang}}",
     "description": "Leverage the power of {{ProdShortName}} and {{ProgLang}} to generate and place custom stamps on any page within your {{FileFormatUp}} documents."
   },
   "header": {
@@ -49,7 +49,7 @@
     "comment_4": "Save the document with the applied stamp"
   },
   "steps": {
-    "title": "Guide to embedding stamps in {{FileFormatUp}} documents using {{ProgLang}}",
+    "title": "Guide to embedding stamps in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) provides a powerful tool for creating and embedding stamps, which can significantly enhance {{EnvName}} applications. Use this feature to craft and apply custom stamps to your document pages.",
       "step_1": "Input the {{FileFormatUp}} document that requires stamping.",
