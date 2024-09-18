@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T10:02:31
+date:  2024-09-18T13:47:24
 draft: false
 lang: en
 format: Pptx
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding text signatures to PPTX files using Java"
+    title: "Steps for adding text signatures to PPTX using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) can be integrated into Java applications to add text signatures to PPTX documents. Developers can quickly enhance their products' functionality by using our solutions.
       

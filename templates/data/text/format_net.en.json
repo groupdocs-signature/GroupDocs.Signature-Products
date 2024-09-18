@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Add text signatures to {{FileFormatUp}} using {{ProgLang}} apps",
+    "title": "Create text signatures for {{FileFormatUp}} using {{ProgLang}} apps",
     "description": "Harness the power of the {{ProgLang}} API to embed text-based signatures within {{FileFormatUp}} files, supporting a wide array of formats including PDF, Word, Excel, Presentations, Images, and ZIP."
   },
   "header": {
@@ -49,7 +49,7 @@
     "comment_4": "Integrate the text signature into the document"
   },
   "steps": {
-    "title": "How to embed text signatures into {{FileFormatUp}} documents using {{ProgLang}}",
+    "title": "How to create and add text signatures to {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the incorporation of text signatures into {{FileFormatUp}} files within {{EnvName}} applications. Enhance your product capabilities swiftly with our comprehensive solutions.",
       "step_1": "Pass the {{FileFormatUp}} document as a parameter to the {{TextSignature}} class constructor.",
