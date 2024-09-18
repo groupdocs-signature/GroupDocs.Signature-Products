@@ -53,7 +53,7 @@
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to update the content of text signatures previously embedded in {{FileFormatUp}} files. Enhance {{EnvName}} applications with robust editing capabilities.",
       "step_1": "Import the {{FileFormatUp}} document into the {{TextSignature}} instance.",
-      "step_2": "Retrieve a list of all text signatures within the document.",
+      "step_2": "Retrieve a list of all signatures within the document.",
       "step_3": "Update the content of the desired signature.",
       "step_4": "Examine the results of the modifications."
     }
