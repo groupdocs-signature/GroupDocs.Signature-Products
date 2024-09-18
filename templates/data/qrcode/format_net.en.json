@@ -49,7 +49,7 @@
     "comment_4": "Persist the document with the integrated QR code"
   },
   "steps": {
-    "title": "How to generate and embed a QR code on {{FileFormatUp}} pages",
+    "title": "How to generate and insert a QR code in any place within a {{FileFormatUp}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the generation of QR codes in various popular formats and their placement on {{FileFormatUp}} pages. Supporting over 10 types of QR codes, our library can be seamlessly integrated into {{EnvName}} applications. Enhance your documents with QR code signatures using our product.",
       "step_1": "Acquire the {{FileFormatUp}} file or stream to be signed with a QR code.",

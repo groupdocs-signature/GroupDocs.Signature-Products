@@ -4,7 +4,7 @@
     "description": "Utilize the {{ProdShortName}} API to create and integrate 2D barcodes within {{FileFormatUp}} files. Effortlessly place QR codes on any document page."
   },
   "header": {
-    "title": "Generate QR codes in {{FileFormatUp}}",
+    "title": "Add QR codes to {{FileFormatUp}}",
     "description": "Create and embed 2D barcodes with customizable content, including text and numeric data, across various document types like PDFs, Word, Excel, and Images with {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Try It Free"
@@ -49,7 +49,7 @@
     "comment_4": "Store the document with the newly added QR code"
   },
   "steps": {
-    "title": "Guide to generating and embedding a QR code in {{FileFormatUp}} pages",
+    "title": "Guide to generating and embedding a QR code in any place within a {{FileFormatUp}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) enables the creation of QR codes in various widely-used formats and their integration into {{FileFormatUp}} pages. Supporting over 10 distinct QR code types, our solution can be seamlessly incorporated into {{EnvName}} applications, enriching them with QR code signing capabilities.",
       "step_1": "Provide the {{FileFormatUp}} file or stream for QR code signing.",
