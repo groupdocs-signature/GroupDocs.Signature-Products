@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Verify signatures in {{FileFormatUp}} via {{ProgLang}}",
+    "title": "Verify digital signatures in {{FileFormatUp}} via {{ProgLang}}",
     "description": "With {{ProdFullName}}, you can efficiently verify the authenticity of signatures within {{FileFormatUp}} documents. Seamlessly check signatures in PDFs, Word, Excel, Presentations, Images, ZIP files, and more."
   },
   "header": {
-    "title": "Verify signatures in {{FileFormatUp}} files",
+    "title": "Verify digital signatures in {{FileFormatUp}}",
     "description": "Ensure the accuracy and validity of all supported e-signatures in a wide array of document formats, including PDF, Word, Excel, Presentations, Images, and ZIP, using {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download the free version"
@@ -53,7 +53,7 @@
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can authenticate the presence of specific signatures in a {{FileFormatUp}} document. {{EnvName}} developers can effortlessly enhance their applications by incorporating our verification features.",
       "step_1": "Load the {{FileFormatUp}} document into the {{TextSignature}} instance.",
-      "step_2": "Create and configure {{TextVerifyOptions}} to achieve the desired verification results.",
+      "step_2": "Create and configure {{VerifyOptions}} to achieve the desired verification results.",
       "step_3": "Initiate the verification process.",
       "step_4": "Review and assess the verification outcomes."
     }

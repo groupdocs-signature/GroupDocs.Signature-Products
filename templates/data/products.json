@@ -8,6 +8,7 @@
     "textSignature": "Signature",
     "signOptions": "SignOptions",
     "searchOptions": "SearchOptions",
+    "verifyOptions": "VerifyOptions",
     "textSignOptions": "TextSignOptions",
     "textSearchOptions": "TextSearchOptions",
     "textVerifyOptions": "TextVerifyOptions",

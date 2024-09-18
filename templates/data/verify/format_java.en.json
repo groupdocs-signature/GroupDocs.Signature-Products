@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Verify {{FileFormatUp}} signatures using {{ProgLang}}",
+    "title": "Verify {{FileFormatUp}} e-signatures using {{ProgLang}}",
     "description": "{{ProdFullName}} enables the verification of signatures placed in {{FileFormatUp}} files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
   },
   "header": {
-    "title": "Signature verification for {{FileFormatUp}} files",
+    "title": "e-Signature verification for {{FileFormatUp}}",
     "description": "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download free version"
@@ -53,7 +53,7 @@
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can verify the presence of specific signatures in a {{FileFormatUp}} document. {{EnvName}} developers can easily empower their applications by adding features provided by our solution.",
       "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
-      "step_2": "Instantiate and configure {{TextVerifyOptions}} to achieve the desired result.",
+      "step_2": "Instantiate and configure {{VerifyOptions}} to achieve the desired result.",
       "step_3": "Initiate the verification process.",
       "step_4": "Review the verification results."
     }
