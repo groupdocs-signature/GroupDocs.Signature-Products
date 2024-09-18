@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Barcode generation for {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Leverage {{ProgLang}} applications in conjunction with {{ProdShortName}} to generate and incorporate barcodes across any place of your {{FileFormatUp}} documents."
+    "title": "Generate barcode for {{FileFormatUp}} using {{ProgLang}} Applications",
+    "description": "Generate a barcode signature and add it to a {{FileFormatUp}} document using {{ProgLang}} with just a few lines of code. Utilize {{ProdShortName}} for signing a wide range of file formats."
   },
   "header": {
-    "title": "Generate barcode and embed it into {{FileFormatUp}} Documents",
+    "title": "Generate barcode and add it into {{FileFormatUp}}",
     "description": "Utilize {{ProdFullName}} to place barcodes anywhere within your business documents. Our solution offers extensive customization options for barcode signatures.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"
@@ -49,7 +49,7 @@
     "comment_4": "Persist the signed file"
   },
   "steps": {
-    "title": "Steps to generate and embed a barcode in {{FileFormatUp}} files",
+    "title": "Steps to generate and embed a barcode in {{FileFormatUp}} file",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the generation of barcodes in numerous popular formats and their placement on {{FileFormatUp}} pages. Supporting over 60 barcode types, {{EnvName}} applications can be effortlessly augmented with barcode signing functionalities by integrating our library.",
       "step_1": "Supply the {{FileFormatUp}} file or stream for processing.",

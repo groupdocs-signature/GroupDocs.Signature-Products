@@ -49,7 +49,7 @@
     "comment_4": "Save the file with the added QR code"
   },
   "steps": {
-    "title": "Steps to generate and place a QR code on {{FileFormatUp}} pages",
+    "title": "Steps to generate and place a QR code at any location in a {{FileFormatUp}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can generate QR codes in many popular formats and place them on {{FileFormatUp}} pages. Over 10 QR code types are supported and can be quickly integrated into {{EnvName}} applications. Use our product to sign documents with generated QR codes.",
       "step_1": "Get the {{FileFormatUp}} file or stream to be signed with a QR code.",

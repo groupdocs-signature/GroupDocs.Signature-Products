@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T09:34:11
+date:  2024-09-18T13:24:36
 draft: false
 lang: en
 format: Pptx
@@ -20,7 +20,7 @@ head_description: "Leverage GroupDocs.Signature and Java to create custom stamps
 
 ############################# Header ############################
 title: "Add custom stamps to PPTX" 
-description: "Design and apply stamps to any section of your documents using GroupDocs.Signature for Java. Our solution offers extensive customization options to meet all your business needs."
+description: "Design and apply round or square stamps to any section of your documents using GroupDocs.Signature for Java. Our solution offers extensive customization options to meet all your business needs."
 subtitle: "GroupDocs.Signature for Java" 
 
 header_actions:
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding stamp signatures to PPTX documents via Java"
+    title: "Steps for adding stamps to PPTX via Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a stamp constructor that can be highly beneficial for Java applications. Utilize it to create well-customized stamps for your document pages.
       

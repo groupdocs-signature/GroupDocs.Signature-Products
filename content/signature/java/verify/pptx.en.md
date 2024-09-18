@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T10:22:17
+date:  2024-09-18T13:59:28
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Verify PPTX signatures using Java"
+head_title: "Verify PPTX e-signatures using Java"
 head_description: "GroupDocs.Signature for Java enables the verification of signatures placed in PPTX files. Validate signatures in PDFs, Word documents, Excel sheets, Presentations, Images, or ZIP archives."
 
 ############################# Header ############################
-title: "Signature verification for PPTX files" 
+title: "e-Signature verification for PPTX" 
 description: "Verify all supported e-signatures in PDF, Word, Excel, Presentations, Images, or ZIP files with GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -48,7 +48,7 @@ steps:
       [GroupDocs.Signature](/signature/java/) can verify the presence of specific signatures in a PPTX document. Java developers can easily empower their applications by adding features provided by our solution.
       
       1. Load the PPTX file into the Signature instance.
-      2. Instantiate and configure TextVerifyOptions to achieve the desired result.
+      2. Instantiate and configure VerifyOptions to achieve the desired result.
       3. Initiate the verification process.
       4. Review the verification results.
    

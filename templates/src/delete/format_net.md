@@ -75,19 +75,20 @@ steps:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            TextSearchOptions options = new TextSearchOptions();
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            DigitalSearchOptions options = new DigitalSearchOptions();
+
+            List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
 
             // <% "{examples.comment_3}" %>
             if(signatures.Count > 0)
             {
-                TextSignature textSignature = signatures[0];
-                bool result = signature.Delete(textSignature);
+                DigitalSignature digitalSignature = signatures[0];
+                bool result = signature.Delete(digitalSignature);
 
                 // <% "{examples.comment_3}" %>
                 if(result)
                 {
-                    Console.WriteLine($"Signature was deleted successfully");
+                    Console.WriteLine($"Digital signature in <% get "FileFormatUp" %> was deleted successfully");
                 }
             }
         }
@@ -128,14 +129,14 @@ more_features:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{code_1.comment_2}" %>
-            DeleteResult result = signature.Delete(SignatureType.QrCode);
+            DeleteResult result = signature.Delete(SignatureType.Barcode);
 
             // <% "{code_1.comment_3}" %>
             if (result.Succeeded.Count > 0)
             {
-                Console.WriteLine("Following QR-Code signatures were deleted:");                    
+                Console.WriteLine("Following <% get "FileFormatUp" %> barcode signatures were deleted:");                    
                 int number = 1;
-                foreach (QrCodeSignature temp in result.Succeeded)
+                foreach (BarcodeSignature temp in result.Succeeded)
                 {
                     Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
                         Id:{temp.SignatureId}, Text: {temp.Text}");

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:18:45
+date:  2024-09-17T21:15:07
 draft: false
 lang: en
 format: Jpeg
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for signing JPEG documents with text signatures using JavaScript"
+    title: "Steps for signing JPEG with using JavaScript"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/) streamlines the process of adding customized text signatures to JPEG files. Node.js via Java developers can seamlessly incorporate signing functionality into their applications.
+      [GroupDocs.Signature](/signature/nodejs-java/) streamlines the process of adding customized signatures to JPEG files. Node.js via Java developers can seamlessly incorporate signing functionality into their applications.
       
       1. Load the JPEG document into the Signature instance.
-      2. Configure TextSignOptions to define the signature attributes.
+      2. Configure SignOptions to define the signature attributes.
       3. Adjust properties such as size, color, and content as needed.
       4. Save the signed document to the specified location.
    
@@ -77,8 +77,8 @@ steps:
         // Import the document into a Signature instance
         const signature = new signatureLib.Signature('input.jpeg');
 
-        // Instantiate a TextSignOptions object
-        const options = new signatureLib.TextSignOptions('John Smith');
+        // Instantiate a QrCodeSignOptions object
+        const options = new signatureLib.QrCodeSignOptions('QR code text');
 
         // Specify all required options
         options.setLeft(100);

@@ -40,16 +40,16 @@
   },
   "examples": {
     "comment_1": "Load the document into a {{TextSignature}} instance",
-    "comment_2": "Instantiate a {{TextSignOptions}} object",
+    "comment_2": "Instantiate a {{QrCodeSignOptions}} object",
     "comment_3": "Configure all desired options",
-    "comment_4": "Save the file with the signature to the local disk"
+    "comment_4": "Save the file with added QR code to the local disk"
   },
   "steps": {
-    "title": "Steps for signing {{FileFormatUp}} documents with text signatures using {{ProgLang}}",
+    "title": "Steps for signing {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables adding customized text signatures to {{FileFormatUp}} files. {{EnvName}} developers can integrate signing functionality into their applications using our software.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables adding customized signatures to {{FileFormatUp}} files. {{EnvName}} developers can integrate signing functionality into their applications using our software.",
       "step_1": "Provide the {{FileFormatUp}} file to be signed to the {{TextSignature}} instance.",
-      "step_2": "Use {{TextSignOptions}} to define the signature details.",
+      "step_2": "Use {{SignOptions}} to define the signature details.",
       "step_3": "Customize various properties such as size, color, and content.",
       "step_4": "Save the signed file to the desired location."
     }

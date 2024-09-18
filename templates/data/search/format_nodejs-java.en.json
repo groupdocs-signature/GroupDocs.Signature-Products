@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Signatures search in {{FileFormatUp}} files with {{ProgLang}}",
-    "description": "Harness the power of the {{ProdFullName}} API to detect and search for electronic signatures across {{FileFormatUp}} files, including PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
+    "title": "Search for e-signatures in {{FileFormatUp}} files with {{ProgLang}}",
+    "description": "Harness the power of the {{ProdFullName}} API to detect and search for electronic signatures across PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
   },
   "header": {
-    "title": "Search signatures in {{FileFormatUp}} documents",
+    "title": "Search for e-signatures in {{FileFormatUp}}",
     "description": "Discover and retrieve detailed information about all embedded signatures in PDFs, Word, Excel, Presentations, and Image files using the advanced tools provided by {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get started for free"
@@ -49,7 +49,7 @@
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) provides a powerful tool for locating digital signatures within {{FileFormatUp}} files. {{EnvName}} developers can easily extend their application functionality with our solution.",
       "step_1": "Specify the path of the {{FileFormatUp}} file for signature search.",
-      "step_2": "Use {{TextSearchOptions}} to filter the search results.",
+      "step_2": "Use {{SearchOptions}} to filter the search results.",
       "step_3": "Execute the Search method to find the signatures.",
       "step_4": "Review the list of discovered signatures."
     }

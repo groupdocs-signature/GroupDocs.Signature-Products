@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T19:33:03
+date:  2024-09-18T12:16:16
 draft: false
 lang: en
 format: Pptx
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate and embed a QR code on PPTX pages"
+    title: "How to generate and insert a QR code in any place within a PPTX"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the generation of QR codes in various popular formats and their placement on PPTX pages. Supporting over 10 types of QR codes, our library can be seamlessly integrated into .NET applications. Enhance your documents with QR code signatures using our product.
       

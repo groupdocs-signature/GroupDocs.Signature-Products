@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:53:56
+date:  2024-09-18T11:51:08
 draft: false
 lang: en
 format: Pdf
@@ -15,8 +15,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Integrate image into PDF with JavaScript"
-head_description: "Leverage the power of JavaScript applications to insert image-based signatures into PDF files. Effortlessly sign PDFs, Word documents, Excel spreadsheets, presentations, and more with image signatures."
+head_title: "Adding Image signatures to PDF file with JavaScript"
+head_description: "Put image signature on PDF file for Node.js using a few lines of code. Use GroupDocs.Signature for Node.js via Java API to add images."
 
 ############################# Header ############################
 title: "Sign PDF files using image signatures" 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guide to embedding images in PDF pages using JavaScript"
+    title: "Guide to adding images in PDF using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java applications to seamlessly integrate image signatures into PDF documents. Enhance your application's capabilities with our comprehensive library.
       

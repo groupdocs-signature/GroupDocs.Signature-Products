@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:18:45
+date:  2024-09-17T21:15:07
 draft: false
 lang: en
 format: Pptx
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for signing PPTX documents with text signatures using Java"
+    title: "Steps for signing PPTX using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) enables adding customized text signatures to PPTX files. Java developers can integrate signing functionality into their applications using our software.
+      [GroupDocs.Signature](/signature/java/) enables adding customized signatures to PPTX files. Java developers can integrate signing functionality into their applications using our software.
       
       1. Provide the PPTX file to be signed to the Signature instance.
-      2. Use TextSignOptions to define the signature details.
+      2. Use SignOptions to define the signature details.
       3. Customize various properties such as size, color, and content.
       4. Save the signed file to the desired location.
    
@@ -90,7 +90,7 @@ steps:
         // Load the document into a Signature instance
         Signature signature = new Signature("input.pptx");
 
-        // Instantiate a TextSignOptions object
+        // Instantiate a QrCodeSignOptions object
         TextSignOptions options = new TextSignOptions("John Smith");
 
         // Configure all desired options
@@ -98,7 +98,7 @@ steps:
         options.setTop(100);
         options.setForeColor(Color.RED);
 
-        // Save the file with the signature to the local disk
+        // Save the file with added QR code to the local disk
         signature.sign("output.pptx", options);
         
         ```            
@@ -135,7 +135,7 @@ more_features:
         Signature signature = new Signature("input.pptx");
 
         // Specify the image path in the signature options
-        ImageSignOptions options = new ImageSignOptions("image.jpg");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // Set the size and target pages for the signature
         options.setLeft(100);

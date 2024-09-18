@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:18:45
+date:  2024-09-17T21:15:07
 draft: false
 lang: en
 format: Jpeg
@@ -19,7 +19,7 @@ head_title: "Electronically sign JPEG via C# apps"
 head_description: "Leverage the power of C# API to electronically sign and secure JPEG documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Digitally sign JPEG documents" 
+title: "e-Sign JPEG" 
 description: "Embed a variety of electronic signatures into your documents using GroupDocs.Signature for .NET, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for signing JPEG documents with text signatures using C#"
+    title: "Steps for signing JPEG using C#"
     content: |
-      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized text signatures into JPEG files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
+      [GroupDocs.Signature](/signature/net/) facilitates the incorporation of customized signatures into JPEG files. .NET developers can seamlessly integrate signing functionality into their applications using our software.
       
       1. Provide the JPEG file to the Signature instance for signing.
-      2. Utilize TextSignOptions to specify the signature parameters.
+      2. Utilize SignOptions to specify the signature parameters.
       3. Configure attributes such as size, color, and content.
       4. Save the signed file to the desired destination.
    
@@ -75,8 +75,8 @@ steps:
         // Load the document into a Signature instance
         using (Signature signature = new Signature("input.jpeg"))
         {
-            // Create a new TextSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            // Create a new QrCodeSignOptions object
+            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
             {
                 // Configure all the necessary options
                 Left = 50,

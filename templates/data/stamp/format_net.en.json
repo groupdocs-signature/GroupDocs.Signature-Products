@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "Stamps signatures for {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Harness the power of {{ProgLang}} and {{ProdShortName}} to generate and embed personalized stamps across all pages of {{FileFormatUp}} files."
+    "title": "Round and square stamps {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Use {{ProdFullName}} to generate and embed personalized stamps across {{FileFormatUp}} files."
   },
   "header": {
     "title": "Generate stamps for {{FileFormatUp}} files",
@@ -49,7 +49,7 @@
     "comment_4": "Preserve the document with the applied stamp"
   },
   "steps": {
-    "title": "How to embed stamp into {{FileFormatUp}} documents using {{ProgLang}}",
+    "title": "How to embed stamp into {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) offers a robust stamp creation feature, ideal for enhancing {{EnvName}} applications. Leverage this tool to design and implement highly customized stamps on your document pages.",
       "step_1": "Provide the {{FileFormatUp}} document to be stamped.",

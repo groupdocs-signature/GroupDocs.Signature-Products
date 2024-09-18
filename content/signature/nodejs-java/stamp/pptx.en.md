@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T09:34:12
+date:  2024-09-18T13:24:36
 draft: false
 lang: en
 format: Pptx
@@ -15,7 +15,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Apply stamp to PPTX files via JavaScript"
+head_title: "Generate and add stamps to PPTX via JavaScript"
 head_description: "Leverage the power of GroupDocs.Signature and JavaScript to generate and place custom stamps on any page within your PPTX documents."
 
 ############################# Header ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guide to embedding stamps in PPTX documents using JavaScript"
+    title: "Guide to embedding stamps in PPTX using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for creating and embedding stamps, which can significantly enhance Node.js via Java applications. Use this feature to craft and apply custom stamps to your document pages.
       

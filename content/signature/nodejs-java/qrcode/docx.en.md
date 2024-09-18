@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T19:33:04
+date:  2024-09-18T12:16:16
 draft: false
 lang: en
 format: Docx
@@ -19,7 +19,7 @@ head_title: "Generate QR codes in DOCX docs with JavaScript"
 head_description: "Utilize the GroupDocs.Signature API to create and integrate 2D barcodes within DOCX files. Effortlessly place QR codes on any document page."
 
 ############################# Header ############################
-title: "Generate QR codes in DOCX" 
+title: "Add QR codes to DOCX" 
 description: "Create and embed 2D barcodes with customizable content, including text and numeric data, across various document types like PDFs, Word, Excel, and Images with GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guide to generating and embedding a QR code in DOCX pages"
+    title: "Guide to generating and embedding a QR code in any place within a DOCX"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables the creation of QR codes in various widely-used formats and their integration into DOCX pages. Supporting over 10 distinct QR code types, our solution can be seamlessly incorporated into Node.js via Java applications, enriching them with QR code signing capabilities.
       

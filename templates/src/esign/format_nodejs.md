@@ -77,8 +77,8 @@ steps:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        const options = new signatureLib.TextSignOptions('John Smith');
-
+        const options = new signatureLib.QrCodeSignOptions('QR code text');
+        
         // <% "{examples.comment_3}" %>
         options.setLeft(100);
         options.setTop(100);

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-17T12:54:05
 draft: false
 lang: en
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Seamlessly generate barcode for XLSX files with JavaScript"
-head_description: "Utilize JavaScript in tandem with GroupDocs.Signature to efficiently generate barcodes and embed them within any place of your XLSX documents."
+head_title: "Generate barcode for XLSX using JavaScript Applications"
+head_description: "Generate a barcode signature and add it to a XLSX document using JavaScript with just a few lines of code. Utilize GroupDocs.Signature for signing a wide range of file formats."
 
 ############################# Header ############################
-title: "Effortlessly generate and embed Barcodes in XLSX Documents" 
+title: "Generate and add Barcodes in XLSX effortlessly" 
 description: "Employ GroupDocs.Signature for Node.js via Java to incorporate barcodes into your business documents, placing them precisely where needed. Our solution offers extensive customization options to tailor barcode signatures to your requirements."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate and embed barcodes in XLSX"
+    title: "How to generate and embed barcodes in XLSX file"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables the generation and placement of barcodes in a variety of popular formats on XLSX pages. With support for over 60 types of barcodes, Node.js via Java applications can be easily enhanced with barcode signing features by integrating our library.
       

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:44:34
+date:  2024-09-17T13:38:53
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Protect PDF with digital certificates using JavaScript"
-head_description: "Harness the power of JavaScript applications with GroupDocs.Signature to secure PDF documents through digital certificates."
+head_title: "Adding digital electronic signatures to PDF file with JavaScript"
+head_description: "Put a digital signature on a PDF file using JavaScript with just a few lines of code. Use GroupDocs.Signature for Node.js via Java to sign numerous file formats."
 
 ############################# Header ############################
-title: "Safeguard PDF with digital certificates" 
+title: "Protect PDF with digital certificates" 
 description: "Ensure the security of your business documents by embedding digital certificates using the advanced capabilities of GroupDocs.Signature for Node.js via Java. We offer flexible options to protect and authenticate your documents."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Guidelines for securing PDF documents with digital certificates in JavaScript"
+    title: "Guidelines for securing PDF with digital certificates in JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to protect PDF documents from modifications by employing digital signatures. Enhance your business applications with comprehensive data security features.
       

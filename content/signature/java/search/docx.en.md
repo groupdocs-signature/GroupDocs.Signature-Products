@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T08:16:24
+date:  2024-09-18T12:45:54
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Digital signature search in DOCX by Java"
-head_description: "Leverage the GroupDocs.Signature for Java API to search for signatures within DOCX files. Find various types of signatures in PDFs, Word, Excel, Presentations, and Images."
+head_title: "Search for digital signature  in DOCX by Java"
+head_description: "Leverage the GroupDocs.Signature for Java API to search for signatures within DOCX files. Find signatures in PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Search digital signatures in DOCX" 
+title: "Search for digital signatures in DOCX" 
 description: "Retrieve a complete list of e-signatures embedded in PDF, Word, Excel, Presentations, or Image files using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for searching for signatures in DOCX using Java"
+    title: "Steps for searching DOCX signatures using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a powerful engine to search for any digital signatures within DOCX files. Java developers can easily enhance their applications with our solution.
       
       1. Provide the DOCX file path for signature search.
-      2. Use TextSearchOptions to refine the search results.
+      2. Use SearchOptions to refine the search results.
       3. Execute the Search method to obtain the results.
       4. Analyze the list of found signatures.
    

@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Embed image into {{FileFormatUp}} by {{ProgLang}} Applications",
-    "description": "The {{ProgLang}} API facilitates the integration of image signatures into {{FileFormatUp}} files. Seamlessly embed image signatures into PDFs, Word documents, Excel spreadsheets, presentations, and various other image formats."
+    "title": "Adding Image signatures to {{FileFormatUp}} file with {{ProgLang}}",
+    "description": "Put image signature on {{FileFormatUp}} file for {{EnvNameShort}} using a few lines of code. Use {{ProdFullName}} API to add images."
   },
   "header": {
-    "title": "Image-based signing of {{FileFormatUp}}",
+    "title": "Add image signature to {{FileFormatUp}} files",
     "description": "Utilize {{ProdFullName}} to seamlessly integrate images into a wide array of office document formats, including PDFs, Word, Excel, and image files. Incorporating an image of your boss's signature can create a striking professional impression, elevating the visual appeal and authenticity of your documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"
@@ -49,7 +49,7 @@
     "comment_4": "Save the signed document"
   },
   "steps": {
-    "title": "How to embed an image in any place of a {{FileFormatUp}} document using {{ProgLang}}",
+    "title": "How to add an image in any place of a {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "Leverage [{{ProdShortName}}]({{PlatformLink}}) to empower {{EnvName}} applications with the ability to accurately embed signatures into any page of {{FileFormatUp}} documents. Enhance your product's capabilities seamlessly by integrating our solution.",
       "step_1": "Instantiate the {{TextSignature}} class with the {{FileFormatUp}} document.",

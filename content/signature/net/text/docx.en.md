@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T10:02:31
+date:  2024-09-18T13:47:24
 draft: false
 lang: en
 format: Docx
@@ -15,7 +15,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Add text signatures to DOCX using C# apps"
+head_title: "Create text signatures for DOCX using C# apps"
 head_description: "Harness the power of the C# API to embed text-based signatures within DOCX files, supporting a wide array of formats including PDF, Word, Excel, Presentations, Images, and ZIP."
 
 ############################# Header ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to embed text signatures into DOCX documents using C#"
+    title: "How to create and add text signatures to DOCX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the incorporation of text signatures into DOCX files within .NET applications. Enhance your product capabilities swiftly with our comprehensive solutions.
       

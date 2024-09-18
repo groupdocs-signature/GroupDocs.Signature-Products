@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T10:02:31
+date:  2024-09-18T13:47:24
 draft: false
 lang: en
 format: Pdf
@@ -15,7 +15,7 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Text signatures for PDF via JavaScript"
+head_title: "Add text signatures to PDF via JavaScript"
 head_description: "Utilize the JavaScript API to seamlessly integrate text signatures into PDF documents. Our API supports a broad spectrum of formats, including PDF, Word, Excel, Presentations, Images, and ZIP files."
 
 ############################# Header ############################
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Procedure to add text signatures to PDF documents using JavaScript"
+    title: "Guide to creating text signatures for PDF using JavaScript"
     content: |
       [GroupDocs.Signature](/signature/nodejs-java/) enables the addition of text signatures to PDF documents within Node.js via Java applications. Quickly enhance your product's capabilities with our robust solutions.
       

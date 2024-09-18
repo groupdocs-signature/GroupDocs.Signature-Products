@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T14:53:56
+date:  2024-09-18T11:51:08
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add image to PPTX using Java"
-head_description: "The Java API allows you to add image signatures to PPTX files. Easily insert images into PDFs, Word documents, Excel sheets, presentations, and more."
+head_title: "Adding Image signatures to PPTX file with Java"
+head_description: "Put image signature on PPTX file for Java using a few lines of code. Use GroupDocs.Signature for Java API to add images."
 
 ############################# Header ############################
-title: "Add image signatures to PPTX" 
+title: "Sign PPTX files with image signatures" 
 description: "Use GroupDocs.Signature for Java to insert images into various office document formats, including PDFs, Word, Excel, and image files. An image with a boss's signature can add an impressive touch!"
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for adding an image to any place of a PPTX document via Java"
+    title: "Steps for adding an image to any place of a PPTX via Java"
     content: |
       [GroupDocs.Signature](/signature/java/) enhances Java applications with the capability to add signatures to any page of PPTX documents precisely. Easily boost your product's functionality by integrating our library.
       

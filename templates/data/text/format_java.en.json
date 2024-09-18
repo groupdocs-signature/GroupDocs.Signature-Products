@@ -49,7 +49,7 @@
     "comment_4": "Append the text signature to the document"
   },
   "steps": {
-    "title": "Steps for adding text signatures to {{FileFormatUp}} files using {{ProgLang}}",
+    "title": "Steps for adding text signatures to {{FileFormatUp}} using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) can be integrated into {{EnvName}} applications to add text signatures to {{FileFormatUp}} documents. Developers can quickly enhance their products' functionality by using our solutions.",
       "step_1": "Use the {{FileFormatUp}} document as a parameter for the {{TextSignature}} class constructor.",

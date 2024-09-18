@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T11:45:39
+date:  2024-09-17T12:54:05
 draft: false
 lang: en
 format: Jpeg
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Barcode generation for JPEG using C#"
-head_description: "Leverage C# applications in conjunction with GroupDocs.Signature to generate and incorporate barcodes across any place of your JPEG documents."
+head_title: "Generate barcode for JPEG using C# Applications"
+head_description: "Generate a barcode signature and add it to a JPEG document using C# with just a few lines of code. Utilize GroupDocs.Signature for signing a wide range of file formats."
 
 ############################# Header ############################
-title: "Generate barcode and embed it into JPEG Documents" 
+title: "Generate barcode and add it into JPEG" 
 description: "Utilize GroupDocs.Signature for .NET to place barcodes anywhere within your business documents. Our solution offers extensive customization options for barcode signatures."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to generate and embed a barcode in JPEG files"
+    title: "Steps to generate and embed a barcode in JPEG file"
     content: |
       [GroupDocs.Signature](/signature/net/) facilitates the generation of barcodes in numerous popular formats and their placement on JPEG pages. Supporting over 60 barcode types, .NET applications can be effortlessly augmented with barcode signing functionalities by integrating our library.
       

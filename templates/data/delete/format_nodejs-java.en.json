@@ -1,10 +1,10 @@
 {
   "head": {
     "title": "Delete signatures from {{FileFormatUp}} via {{ProgLang}}",
-    "description": "Elevate your {{ProgLang}} applications by integrating {{ProdFullName}}, a powerful tool designed to seamlessly remove embedded signatures from {{FileFormatUp}} files."
+    "description": "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed {{FileFormatUp}} documents can be performed easily using {{ProdFullName}}."
   },
   "header": {
-    "title": "Effortlessly delete signatures from {{FileFormatUp}}",
+    "title": "Remove signatures placed in {{FileFormatUp}} effortlessly",
     "description": "Our comprehensive solution extends beyond simple document signing, offering robust features within {{ProdFullName}} to locate and delete a wide array of signatures.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Get your free download"
@@ -44,25 +44,25 @@
   },
   "examples": {
     "comment_1": "Pass the document with the signatures to the {{TextSignature}} instance",
-    "comment_2": "Extract the text signatures present in the document",
-    "comment_3": "Remove the first detected text signature",
+    "comment_2": "Extract the digital signatures present in the document",
+    "comment_3": "Remove the first detected digital signature",
     "comment_4": "Handle the result of the deletion"
   },
   "steps": {
-    "title": "Guidelines for removing text signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "title": "Guidelines for removing digital signatures from {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to efficiently remove text signatures in {{FileFormatUp}} files by following a series of simple steps.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables {{EnvName}} developers to efficiently remove e-signatures in {{FileFormatUp}} files by following a series of simple steps.",
       "step_1": "Provide the {{FileFormatUp}} file path to an instance of the {{TextSignature}} class.",
-      "step_2": "Utilize the Search method to identify all text signatures in the document.",
-      "step_3": "Remove one or more of the identified text signatures.",
+      "step_2": "Utilize the Search method to identify all signatures in the document.",
+      "step_3": "Remove one or more of the identified signatures.",
       "step_4": "Review the results of the document processing."
     }
   },
   "code_1": {
-    "title": "Remove all QR-code signatures",
-    "content": "Learn the procedure to eliminate all QR-code signatures embedded in a document.",
-    "comment_1": "Provide a document that includes QR-code signatures",
-    "comment_2": "Erase all QR-code signatures",
+    "title": "Remove all barcode signatures",
+    "content": "Learn the procedure to eliminate all barcode signatures embedded in a document.",
+    "comment_1": "Provide a document that includes barcode signatures",
+    "comment_2": "Erase all barcode signatures",
     "comment_3": "Review the outcome of the deletion"
   }
 }

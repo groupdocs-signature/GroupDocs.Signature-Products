@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T13:12:49
+date:  2024-09-17T12:02:36
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Remove signatures from PDF using Java"
-head_description: "Enhance your Java applications with GroupDocs.Signature for Java, enabling the removal of previously added signatures from PDF files."
+head_title: "Delete signatures from PDF using Java"
+head_description: "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed PDF documents can be performed easily using GroupDocs.Signature for Java."
 
 ############################# Header ############################
-title: "Remove signatures from PDF files" 
+title: "Remove signatures from PDF" 
 description: "Our solution not only allows you to sign business documents but also provides the capability to locate and remove various types of signatures using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,13 +43,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for deleting text signatures from PDF using Java"
+    title: "Steps for deleting e-signatures from PDF using Java"
     content: |
-      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to delete text signatures in PDF files using their applications by following a few simple steps.
+      [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to delete e-signatures in PDF files using their applications by following a few simple steps.
       
       1. Pass the PDF path to an instance of the Signature class.
-      2. Use the Search method to retrieve all text signatures from the document.
-      3. Delete one or more of the located text signatures.
+      2. Use the Search method to retrieve all digital signatures from the document.
+      3. Delete one or more of the located digital signatures.
       4. Analyze the results of the document processing.
    
     code:
@@ -90,20 +90,20 @@ steps:
         // Pass the document containing the signatures to be deleted to Signature
         Signature signature = new Signature("input.pdf");
 
-        // Retrieve the text signatures present in the document
-        TextSearchOptions options = new TextSearchOptions();
-        List<TextSignature> signatures = signature.search(TextSignature.class, options);
+        // Retrieve the digital signatures present in the document
+        DigitalSearchOptions options = new DigitalSearchOptions();
+        List<DigitalSignature> signatures = signature.search(DigitalSignature.class, options);
 
-        // Delete the first located text signature
+        // Delete the first located digital signature
         if(signatures.size() > 0)
         {
-            TextSignature textSignature = signatures.get(0);
-            boolean result = signature.delete("output.pdf", textSignature);
+            DigitalSignature digitalSignature = signatures.get(0);
+            boolean result = signature.delete("output.pdf", digitalSignature);
 
             // Process the result of the deletion
             if(result)
             {
-                System.out.print("\nSignature was deleted successfully");
+                System.out.print("\nDigital PDF signature was deleted successfully");
             }
         }
         ```            
@@ -134,27 +134,27 @@ more_features:
       
   code_samples:
     # code sample loop
-    - title: "Remove all QR-code signatures"
+    - title: "Remove all barcode signatures"
       content: |
-        Learn how to remove all QR-code signatures embedded within a document.
+        Learn how to remove all barcode signatures embedded within a document.
         {{< landing/code title="Java">}}
         ```java {style=abap}
-        // Provide a document that contains QR-code signatures
+        // Provide a document that contains barcode signatures
         Signature signature = new Signature("input.pdf");
 
-        // Delete all QR-code signatures
-        DeleteResult result = signature.delete("output.pdf", SignatureType.QrCode);
+        // Delete all barcode signatures
+        DeleteResult result = signature.delete("output.pdf", SignatureType.Barcode);
 
         // Process the result of the deletion
         if (result.getSucceeded().size() > 0)
         {
-            System.out.print("\nFollowing QR-Code signatures were deleted:");
+            System.out.print("\nFollowing PDF barcode signatures were deleted:");
             int number = 1;
             for (BaseSignature temp : result.getSucceeded())
             {
                 System.out.print("Signature #"+number++ +
                 ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((QrCodeSignature)temp).getText());
+                ", Text: "+((BarcodeSignature)temp).getText());
             }
         }
         ```

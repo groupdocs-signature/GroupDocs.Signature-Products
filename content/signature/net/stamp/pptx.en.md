@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T09:34:11
+date:  2024-09-18T13:24:36
 draft: false
 lang: en
 format: Pptx
@@ -15,8 +15,8 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Stamps signatures for PPTX using C#"
-head_description: "Harness the power of C# and GroupDocs.Signature to generate and embed personalized stamps across all pages of PPTX files."
+head_title: "Round and square stamps PPTX via C#"
+head_description: "Use GroupDocs.Signature for .NET to generate and embed personalized stamps across PPTX files."
 
 ############################# Header ############################
 title: "Generate stamps for PPTX files" 
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to embed stamp into PPTX documents using C#"
+    title: "How to embed stamp into PPTX using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) offers a robust stamp creation feature, ideal for enhancing .NET applications. Leverage this tool to design and implement highly customized stamps on your document pages.
       

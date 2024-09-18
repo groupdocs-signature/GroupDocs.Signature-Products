@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T19:33:03
+date:  2024-09-18T12:16:16
 draft: false
 lang: en
 format: Pdf
@@ -43,7 +43,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to generate and place a QR code on PDF pages"
+    title: "Steps to generate and place a QR code at any location in a PDF"
     content: |
       [GroupDocs.Signature](/signature/java/) can generate QR codes in many popular formats and place them on PDF pages. Over 10 QR code types are supported and can be quickly integrated into Java applications. Use our product to sign documents with generated QR codes.
       

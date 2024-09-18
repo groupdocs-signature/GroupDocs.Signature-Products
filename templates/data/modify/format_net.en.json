@@ -53,7 +53,7 @@
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to revise the content of text signatures previously embedded in {{FileFormatUp}} files. Augment {{EnvName}} applications with advanced capabilities.",
       "step_1": "Import the {{FileFormatUp}} file into the {{TextSignature}} instance.",
-      "step_2": "Extract a list of all text signatures within the document.",
+      "step_2": "Extract a list of all signatures within the document.",
       "step_3": "Revise the content of any identified signature.",
       "step_4": "Evaluate the results of the modification."
     }

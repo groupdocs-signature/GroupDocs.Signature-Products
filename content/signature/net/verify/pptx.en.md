@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T10:22:17
+date:  2024-09-18T13:59:28
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "PPTX signatures verification using C#"
+head_title: "PPTX digital signatures verification using C#"
 head_description: "Leverage the powerful GroupDocs.Signature for .NET to authenticate signatures embedded in PPTX files. Validate the legitimacy of signatures across PDFs, Word, Excel, Presentations, Images, and ZIP formats."
 
 ############################# Header ############################
-title: "PPTX signatures verification" 
+title: "PPTX digital signatures verification" 
 description: "Efficiently verify all supported electronic signatures across multiple formats like PDF, Word, Excel, Presentations, Images, or ZIP files with the comprehensive features of GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -48,7 +48,7 @@ steps:
       [GroupDocs.Signature](/signature/net/) can authenticate the presence of specific signatures within a PPTX document. .NET developers can effortlessly enhance their applications by incorporating features provided by our solution.
       
       1. Load the PPTX file into the Signature instance.
-      2. Instantiate and configure TextVerifyOptions to achieve the desired verification outcome.
+      2. Instantiate and configure VerifyOptions to achieve the desired verification outcome.
       3. Commence the verification process.
       4. Review and interpret the verification results.
    
