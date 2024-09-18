@@ -1,10 +1,10 @@
 {
   "head": {
     "title": "Search electronic signatures in {{FileFormatUp}} with {{ProgLang}}",
-    "description": "Utilize the robust capabilities of the {{ProdFullName}} API to efficiently search and retrieve signatures embedded in {{FileFormatUp}} documents, including PDFs, Word, Excel, Presentations, and Images."
+    "description": "Utilize capabilities of the {{ProdFullName}} API to search for signatures embedded in PDFs, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Effortlessly search for electronic signatures in {{FileFormatUp}} files",
+    "title": "Search for digital signatures in {{FileFormatUp}}",
     "description": "Seamlessly extract a comprehensive list of electronic signatures embedded across various formats like PDFs, Word, Excel, Presentations, and Images, all powered by {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Start your free download"
@@ -45,11 +45,11 @@
     "comment_4": "Compile a list of detected signatures for detailed examination"
   },
   "steps": {
-    "title": "Steps for search signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "title": "How to search {{FileFormatUp}} signatures using {{ProgLang}}",
     "content": {
       "title": "[{{ProdShortName}}]({{PlatformLink}}) offers a robust engine for locating digital signatures within {{FileFormatUp}} files. {{EnvName}} developers can effortlessly enhance their applications with our solution.",
       "step_1": "Supply the {{FileFormatUp}} file path for the signature search.",
-      "step_2": "Employ {{TextSearchOptions}} to refine the search criteria.",
+      "step_2": "Employ {{SearchOptions}} to refine the search criteria.",
       "step_3": "Invoke the Search method to retrieve the results.",
       "step_4": "Assess the list of identified signatures."
     }

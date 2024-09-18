@@ -7,6 +7,7 @@
     "pricingUrl": "https://purchase.groupdocs.com/pricing/signature/net/",
     "textSignature": "Signature",
     "signOptions": "SignOptions",
+    "searchOptions": "SearchOptions",
     "textSignOptions": "TextSignOptions",
     "textSearchOptions": "TextSearchOptions",
     "textVerifyOptions": "TextVerifyOptions",

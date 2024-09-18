@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T08:16:25
+date:  2024-09-18T12:45:54
 draft: false
 lang: en
 format: Docx
@@ -16,10 +16,10 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "Search electronic signatures in DOCX with C#"
-head_description: "Utilize the robust capabilities of the GroupDocs.Signature for .NET API to efficiently search and retrieve signatures embedded in DOCX documents, including PDFs, Word, Excel, Presentations, and Images."
+head_description: "Utilize capabilities of the GroupDocs.Signature for .NET API to search for signatures embedded in PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Effortlessly search for electronic signatures in DOCX files" 
+title: "Search for digital signatures in DOCX" 
 description: "Seamlessly extract a comprehensive list of electronic signatures embedded across various formats like PDFs, Word, Excel, Presentations, and Images, all powered by GroupDocs.Signature for .NET."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for search signatures in DOCX using C#"
+    title: "How to search DOCX signatures using C#"
     content: |
       [GroupDocs.Signature](/signature/net/) offers a robust engine for locating digital signatures within DOCX files. .NET developers can effortlessly enhance their applications with our solution.
       
       1. Supply the DOCX file path for the signature search.
-      2. Employ TextSearchOptions to refine the search criteria.
+      2. Employ SearchOptions to refine the search criteria.
       3. Invoke the Search method to retrieve the results.
       4. Assess the list of identified signatures.
    

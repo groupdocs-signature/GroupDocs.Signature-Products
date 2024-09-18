@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T08:16:24
+date:  2024-09-18T12:45:54
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Digital signature search in PPTX by Java"
-head_description: "Leverage the GroupDocs.Signature for Java API to search for signatures within PPTX files. Find various types of signatures in PDFs, Word, Excel, Presentations, and Images."
+head_title: "Search for digital signature  in PPTX by Java"
+head_description: "Leverage the GroupDocs.Signature for Java API to search for signatures within PPTX files. Find signatures in PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Search digital signatures in PPTX" 
+title: "Search for digital signatures in PPTX" 
 description: "Retrieve a complete list of e-signatures embedded in PDF, Word, Excel, Presentations, or Image files using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for searching for signatures in PPTX using Java"
+    title: "Steps for searching PPTX signatures using Java"
     content: |
       [GroupDocs.Signature](/signature/java/) provides a powerful engine to search for any digital signatures within PPTX files. Java developers can easily enhance their applications with our solution.
       
       1. Provide the PPTX file path for signature search.
-      2. Use TextSearchOptions to refine the search results.
+      2. Use SearchOptions to refine the search results.
       3. Execute the Search method to obtain the results.
       4. Analyze the list of found signatures.
    

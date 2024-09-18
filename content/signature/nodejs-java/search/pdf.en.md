@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-13T08:16:25
+date:  2024-09-18T12:45:55
 draft: false
 lang: en
 format: Pdf
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Signatures search in PDF files with JavaScript"
-head_description: "Harness the power of the GroupDocs.Signature for Node.js via Java API to detect and search for electronic signatures across PDF files, including PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
+head_title: "Search for e-signatures in PDF files with JavaScript"
+head_description: "Harness the power of the GroupDocs.Signature for Node.js via Java API to detect and search for electronic signatures across PDFs, Word documents, Excel spreadsheets, Presentations, and Images."
 
 ############################# Header ############################
-title: "Search signatures in PDF documents" 
+title: "Search for e-signatures in PDF" 
 description: "Discover and retrieve detailed information about all embedded signatures in PDFs, Word, Excel, Presentations, and Image files using the advanced tools provided by GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -48,7 +48,7 @@ steps:
       [GroupDocs.Signature](/signature/nodejs-java/) provides a powerful tool for locating digital signatures within PDF files. Node.js via Java developers can easily extend their application functionality with our solution.
       
       1. Specify the path of the PDF file for signature search.
-      2. Use TextSearchOptions to filter the search results.
+      2. Use SearchOptions to filter the search results.
       3. Execute the Search method to find the signatures.
       4. Review the list of discovered signatures.
    
