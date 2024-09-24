@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Generate barcode for {{FileFormatUp}} using {{ProgLang}} Applications",
+    "description": "Generate a barcode signature and add it to a {{FileFormatUp}} document using {{ProgLang}} with just a few lines of code. Utilize {{ProdShortName}} for signing a wide range of file formats."
+  },
+  "header": {
+    "title": "Generate barcode and add it into {{FileFormatUp}}",
+    "description": "Utilize {{ProdFullName}} to place barcodes anywhere within your business documents. Our solution offers extensive customization options for barcode signatures.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for free"
+  },
+  "about": {
+    "title": "Overview of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a sophisticated document signing solution that supports an extensive array of signature types, including text, images, barcodes, digital certificates, and stamps. Compatible with over 60 file formats—such as PDF, MS Office, images, ZIP files, and more—this tool enables you to not only apply signatures but also search, verify, modify, or remove them as needed."
+  },
+  "more_features": {
+    "title": "Enhance and safeguard your documents with advanced signature capabilities",
+    "description": "The {{ProdFullName}} library is engineered to facilitate comprehensive document signing and processing across widely used file formats. With ease, you can add, adjust, verify, or remove different types of signatures.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Versatile document signing",
+      "content": "Efficiently sign any page within supported documents using text, images, barcodes, QR codes, or stamps. Additionally, embed hidden metadata, such as EXIF data in images, or secure your document’s content against unauthorized alterations using digital certificates."
+    },
+    "feature_2": {
+      "title": "Comprehensive signature search and verification",
+      "content": "Our tool offers robust functionality for working with signed documents. Ensure the integrity of your documents by verifying signatures, and easily retrieve a comprehensive list of all signatures within a document through our search feature."
+    },
+    "feature_3": {
+      "title": "Edit signatures with ease",
+      "content": "Nearly all previously applied signatures can be modified. Conveniently update text, adjust positioning, or change colors to meet your needs."
+    },
+    "feature_4": {
+      "title": "Efficient signature deletion",
+      "content": "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
+    }
+  },
+  "formats": {
+    "title": "Sign documents across a variety of formats",
+    "description": "Our {{EnvName}} API supports the signing of more than 60 different formats. Effortlessly place various types of signatures on any page or at any desired position within your documents."
+  },
+  "operations": {
+    "title": "Uncover our main features",
+    "description": "We offer an impressive selection of signature options and operations"
+  },
+  "examples": {
+    "comment_1": "Instantiate a new {{TextSignature}} object with the document path",
+    "comment_2": "Employ {{BarcodeSignOptions}} to append a barcode to the document",
+    "comment_3": "Configure the barcode type and additional properties",
+    "comment_4": "Persist the signed file"
+  },
+  "steps": {
+    "title": "Steps to generate and embed a barcode in {{FileFormatUp}} file",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilitates the generation of barcodes in numerous popular formats and their placement on {{FileFormatUp}} pages. Supporting over 60 barcode types, {{EnvName}} applications can be effortlessly augmented with barcode signing functionalities by integrating our library.",
+      "step_1": "Supply the {{FileFormatUp}} file or stream for processing.",
+      "step_2": "Pass the barcode text to the {{BarcodeSignOptions}} instance.",
+      "step_3": "Tailor barcode options such as position, size, etc.",
+      "step_4": "Persist the file with the newly appended barcode."
+    }
+  },
+  "code_1": {
+    "title": "How to customize a barcode signature",
+    "content": "This example elucidates how to embed a customized barcode on {{FileFormatUp}} document pages.",
+    "comment_1": "Provide the document to be signed",
+    "comment_2": "Formulate signature options with the desired text",
+    "comment_3": "Determine the relative barcode position on the page",
+    "comment_4": "Define the barcode padding from the page edge",
+    "comment_5": "Specify the color of the bars",
+    "comment_6": "Select the message font style",
+    "comment_7": "Indicate the message position",
+    "comment_8": "Sign and persist the document"
+  }
+}

@@ -1,5 +1,5 @@
-﻿<% configRef "..\\configs\\index\\index.yml" %>
-<% include "..\\data\\family_data.md" %>
+﻿<% configRef "..\\..\\configs\\index\\index.yml" %>
+<% include "..\\..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
 layout: "family"
@@ -118,6 +118,34 @@ supported_platforms:
             content: |
                     60+ file formats
 
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Signature Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/signature/python-net/"
+      features_link: "https://docs.groupdocs.com/signature/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    60+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -213,6 +241,28 @@ code_samples:
 
             // <% "{index-content.code_samples.sample_index.comment_4}" %>
             signature.sign('result.docx', options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            import groupdocs.signature as sg
+
+            def run():
+
+                # <% "{index-content.code_samples.sample_index.comment_1}" %>
+                with sg.Signature('source.docx') as signature:
+
+                    # <% "{index-content.code_samples.sample_index.comment_2}" %>
+                    options = sg.QrCodeSignOptions('JohnSmith')
+
+                    # <% "{index-content.code_samples.sample_index.comment_3}" %>
+                    options.setEncodeType(sg.QrCodeTypes.QR)
+                    options.setLeft(50)
+                    options.setTop(100)
+
+                    # <% "{index-content.code_samples.sample_index.comment_4}" %>
+                    signature.sign('result.docx', options)
             ```
 
 ############################# Supported Formats ###############################

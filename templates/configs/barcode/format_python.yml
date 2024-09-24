@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [python-net]
+- alias:  operation
+  values: [barcode]
+- alias:  fileformat
+  values: [ docx, pdf, pptx, xlsx ]
+
+generationRules:
+  include:
+  - fileformat[docx, pdf, pptx, xlsx]
+  
+outputPath: "signature\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

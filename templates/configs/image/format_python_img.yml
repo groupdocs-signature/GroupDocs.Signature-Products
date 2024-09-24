@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [python-net]
+- alias:  operation
+  values: [image]
+- alias:  fileformat
+  values: [ jpeg ]
+
+generationRules:
+  include:
+  - fileformat[jpeg]
+  
+outputPath: "signature\\{product}\\{operation}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]
