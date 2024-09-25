@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Electronic signatures search for {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Leverage the {{ProdFullName}} API to search for electronic signatures embedded in formats like PDFs, Word, Excel, Presentations, and Images."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} digital signatures search",
+    "description": "Easily extract a complete list of electronic signatures from multiple formats, including PDFs, Word, Excel, Presentations, and Images, with the power of {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download now"
+  },
+  "about": {
+    "title": "Unleash the potential of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers advanced capabilities for signing and managing digital documents. With support for over 60 file formats, including PDFs, Office documents, Images, and ZIP files, you can add, search, verify, modify, or remove signatures like text, images, barcodes, QR codes, digital certificates, and stamps."
+  },
+  "more_features": {
+    "title": "A complete document signing platform",
+    "description": "Experience a powerful, feature-rich signing solution that secures your documents with multiple signature types, spanning various file formats.",
+    "image_description": "Search and manage signatures",
+    "feature_1": {
+      "title": "Sign and secure business documents",
+      "content": "Add electronic signatures anywhere in a document. {{ProdShortName}} supports multiple signature types, including text, images, barcodes, metadata, stamps, and digital certificates, ensuring the document's authenticity and security."
+    },
+    "feature_2": {
+      "title": "Comprehensive signature management",
+      "content": "Once a document is signed, use the search feature to find all embedded signatures. You can modify or remove signatures as needed, giving you full control over the document’s integrity."
+    },
+    "feature_3": {
+      "title": "Ensure document integrity",
+      "content": "Use advanced tools to manage hidden metadata within documents. Add or remove metadata, and apply digital certificates to safeguard your documents from unauthorized changes, ensuring their authenticity."
+    }
+  },
+  "formats": {
+    "title": "Extract signatures from multiple file formats",
+    "description": "The {{ProdFullName}} API allows you to extract and manage signatures from a wide variety of document formats. Easily retrieve embedded signatures from major file types for further analysis or processing."
+  },
+  "operations": {
+    "title": "Core features",
+    "description": "Our API provides extensive flexibility, enabling users to sign documents and perform post-signing operations like searching, verifying, and editing signatures."
+  },
+  "examples": {
+    "comment_1": "Initialize a {{TextSignature}} object with the document's file path",
+    "comment_2": "Create an instance of {{TextSearchOptions}} to search all pages",
+    "comment_3": "Run a search to locate any text-based signatures in the document",
+    "comment_4": "Compile a list of found signatures for detailed review"
+  },
+  "steps": {
+    "title": "How to search for signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides a powerful engine for detecting digital signatures in {{FileFormatUp}} files. {{EnvName}} developers can easily enhance their apps with this functionality.",
+      "step_1": "Provide the {{FileFormatUp}} file path for the signature search.",
+      "step_2": "Use {{SearchOptions}} to refine the search criteria.",
+      "step_3": "Call the Search method to retrieve the results.",
+      "step_4": "Review the list of identified signatures."
+    }
+  },
+  "code_1": {
+    "title": "Search for image signatures",
+    "content": "This example demonstrates how to find an image signature within a specific document.",
+    "comment_1": "Pass the source document to the constructor",
+    "comment_2": "Search for any text-based signatures",
+    "comment_3": "Display detailed properties of the identified signatures"
+  }
+}

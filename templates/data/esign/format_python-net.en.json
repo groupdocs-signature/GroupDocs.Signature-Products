@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "E-sign {{FileFormatUp}} documents with {{ProgLang}} apps",
+    "description": "Harness the power of the {{ProgLang}} API to electronically sign and secure {{FileFormatUp}} documents like PDFs, Word files, Excel sheets, presentations, and images."
+  },
+  "header": {
+    "title": "E-sign {{FileFormatUp}} electronically",
+    "description": "Use {{ProdFullName}} to embed a variety of electronic signatures into your documents, ensuring compliance and data integrity across formats like PDFs, Word, Excel, presentations, and images.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download for free"
+  },
+  "about": {
+    "title": "Overview of the {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) provides a full suite of tools for adding electronic signatures to documents. Whether you need to sign, search, verify, update, or remove digital signatures, {{ProdFullName}} makes it easy across multiple formats—PDFs, Word docs, Excel sheets, PowerPoint presentations, and various image formats—without needing third-party software."
+  },
+  "more_features": {
+    "title": "Advanced e-signature features for documents",
+    "description": "Our e-signing API streamlines business processes by offering efficient ways to sign, validate, modify, and manage electronic signatures with full automation support.",
+    "image_description": "E-signature Features",
+    "feature_1": {
+      "title": "E-sign office documents",
+      "content": "Easily place electronic signatures anywhere in your documents. Customize your content with digital certificates, barcodes, metadata, and visual elements, all while ensuring document security and authenticity."
+    },
+    "feature_2": {
+      "title": "Full signature management",
+      "content": "Once a document is signed, you can view and manage all signatures. You can make updates or remove signatures as needed, ensuring complete control over the document."
+    },
+    "feature_3": {
+      "title": "Boost document security",
+      "content": "Protect your documents with digital certificates. Embed or retrieve metadata to improve tracking, auditing, and compliance, ensuring the authenticity of your content."
+    }
+  },
+  "formats": {
+    "title": "E-sign a wide range of file formats",
+    "description": "With the {{EnvName}} API, you can electronically sign over 60 industry-standard formats, offering unparalleled flexibility in securing your business documents."
+  },
+  "operations": {
+    "title": "Explore our full feature set",
+    "description": "We offer a wide range of signature options and operations for all your e-signature needs."
+  },
+  "examples": {
+    "comment_1": "Load the document into a {{TextSignature}} instance",
+    "comment_2": "Create a new {{QrCodeSignOptions}} object",
+    "comment_3": "Set up all required options",
+    "comment_4": "Save the signed document to your system"
+  },
+  "steps": {
+    "title": "Steps to e-sign {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), {{EnvName}} developers can seamlessly integrate signature functionality into {{FileFormatUp}} documents. Easily add customized signatures to your applications.",
+      "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Use {{SignOptions}} to configure the signature settings.",
+      "step_3": "Customize signature properties like size, color, and content.",
+      "step_4": "Save the signed document to the desired location."
+    }
+  },
+  "code_1": {
+    "title": "How to add an image signature to a document",
+    "content": "This example demonstrates how to apply an image signature to a specific page of a document.",
+    "comment_1": "Load the document you want to sign",
+    "comment_2": "Set the path to the image in the signature options",
+    "comment_3": "Define the size and placement of the signature on the target pages",
+    "comment_4": "Apply the signature and save the signed document"
+  }
+}

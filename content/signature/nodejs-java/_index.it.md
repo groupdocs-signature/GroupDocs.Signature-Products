@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-07-25T14:25:12
+date: 2024-09-25T12:45:24
 draft: false
 
 lang: it
@@ -21,7 +21,10 @@ supported_platforms:
       tag: "java"
     # supported_platforms loop
     - title: "Node.js"
-      tag: "nodejs-java"
+      tag: "nodejs-java" 
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "API di firma digitale Node.js - GroupDocs.Signature"

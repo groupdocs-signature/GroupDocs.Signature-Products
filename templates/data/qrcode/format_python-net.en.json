@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Generate QR codes for {{FileFormatUp}} files using {{ProgLang}}",
+    "description": "Use the {{ProdShortName}} API to generate and embed QR codes in {{FileFormatUp}} files. Easily place QR codes on any page to add extra functionality."
+  },
+  "header": {
+    "title": "Generate QR codes for {{FileFormatUp}}",
+    "description": "Effortlessly create 2D barcodes using text or numeric data and apply them to various pages and formats, including PDFs, Word, Excel, and more with {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Free trial"
+  },
+  "about": {
+    "title": "Explore the features of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a wide range of capabilities, enabling users to generate and embed different signature types across major document formats. Whether it's PDFs, Word, Excel, PowerPoint, or images, enhance your documents with Text, Image, Barcode, QR Code, Metadata, Digital, or Stamp signatures."
+  },
+  "more_features": {
+    "title": "Complete signature integration for documents",
+    "description": "With the {{ProdFullName}} API, users can generate, modify, search, validate, and remove different signature types, simplifying document workflows with precision.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Apply multiple signature types",
+      "content": "{{ProdShortName}} allows the application of Text, Image, Barcode, QR Code, and Stamp signatures to any document. You can precisely place signatures on any page and manage metadata easily. Protect your documents from unauthorized changes with digital certificates."
+    },
+    "feature_2": {
+      "title": "Search and validate signatures",
+      "content": "Verify document signatures for authenticity and accuracy using advanced validation tools. Easily get a detailed list of all signatures embedded in a document for better oversight."
+    },
+    "feature_3": {
+      "title": "Modify existing signatures",
+      "content": "You can update previously applied signatures by adjusting content, position, color, size, and other attributes to suit your specific needs."
+    },
+    "feature_4": {
+      "title": "Easily remove signatures",
+      "content": "Streamline document management by quickly removing unwanted signatures. Whether it’s a digital certificate or another signature type, removal can be done efficiently."
+    }
+  },
+  "formats": {
+    "title": "Embed QR codes in various document formats",
+    "description": "Use the {{EnvName}} API to embed QR codes into any industry-standard document format. Store and encode important information into 2D barcodes for easy scanning and data retrieval."
+  },
+  "operations": {
+    "title": "Explore our signature solutions",
+    "description": "We offer a wide variety of signature types and operations to meet your document needs."
+  },
+  "examples": {
+    "comment_1": "Initialize a new {{TextSignature}} instance with the document",
+    "comment_2": "Use {{QrCodeSignOptions}} to embed a QR code into the document",
+    "comment_3": "Specify the signature type and set its position on the page",
+    "comment_4": "Save the document with the embedded QR code"
+  },
+  "steps": {
+    "title": "Steps to generate and insert a QR code in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) lets you create QR codes in popular formats and place them on {{FileFormatUp}} pages. With support for over 10 QR code types, you can seamlessly integrate this functionality into {{EnvName}} applications. Enhance your documents with QR code signatures using our product.",
+      "step_1": "Obtain the {{FileFormatUp}} file or stream where the QR code will be added.",
+      "step_2": "Provide the required text to {{QrCodeSignOptions}}.",
+      "step_3": "Customize visual settings like color, position, and size.",
+      "step_4": "Save the document with the embedded QR code."
+    }
+  },
+  "code_1": {
+    "title": "Customize a Generated QR Code",
+    "content": "This example shows how to place a customized QR code on a {{FileFormatUp}} page.",
+    "comment_1": "Get the document to be signed and pass it to {{TextSignature}}",
+    "comment_2": "Configure QR code options with the required text",
+    "comment_3": "Set the QR code’s position on the page",
+    "comment_4": "Set the padding for the signature",
+    "comment_5": "Choose the color of the QR code",
+    "comment_6": "Define the font options for the message",
+    "comment_7": "Set the background color and brush for the QR code",
+    "comment_8": "Embed the QR code into the document"
+  }
+}

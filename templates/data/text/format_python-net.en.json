@@ -1,0 +1,75 @@
+{
+  "head": {
+    "title": "Add text signatures to {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Leverage the {{ProgLang}} API to embed text-based signatures in {{FileFormatUp}} files, supporting formats like PDF, Word, Excel, PowerPoint, images, and ZIP."
+  },
+  "header": {
+    "title": "Easily add text signatures to {{FileFormatUp}}",
+    "description": "Seamlessly integrate custom text signatures into your documents using {{ProdFullName}}. Simplify your workflows with flexible signature customization options.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Try it free today"
+  },
+  "about": {
+    "title": "Explore the power of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers a comprehensive platform for embedding customizable text signatures, making document workflows smoother. Personalize the content and appearance of signatures across documents to boost efficiency and enhance document management."
+  },
+  "more_features": {
+    "title": "Complete text signature management",
+    "description": "{{ProdFullName}} helps you manage document workflows by adding custom text signatures to popular formats. Easily control the look, placement, and content of signatures to suit your needs.",
+    "image_description": "Discover {{ProdShortName}} Features",
+    "feature_1": {
+      "title": "Flexible document signatures",
+      "content": "Add various signature types—text, images, barcodes, QR codes, and stamps—to any document page. Use metadata to include hidden information and secure your files with digital certificates."
+    },
+    "feature_2": {
+      "title": "Verify and search signatures",
+      "content": "Use advanced tools to check the integrity of your signed documents. Search and analyze all signatures in a file for further validation."
+    },
+    "feature_3": {
+      "title": "Edit or remove signatures",
+      "content": "Easily update the content, appearance, or placement of existing signatures. Remove outdated signatures to keep your documents current."
+    },
+    "feature_4": {
+      "title": "Specialized text signatures",
+      "content": "Apply document-specific text signatures, like watermarks for Word files or stamps for PDFs, adding an extra level of control and customization."
+    }
+  },
+  "formats": {
+    "title": "Embed text signatures in multiple formats",
+    "description": "With the {{EnvName}} API, you can add text signatures to various Office documents, giving you full control over the document lifecycle and improving security."
+  },
+  "operations": {
+    "title": "Advanced signature features",
+    "description": "Our API supports complete lifecycle management for seven signature types, allowing you to create, manage, verify, and customize your signatures with ease."
+  },
+  "examples": {
+    "comment_1": "Initialize the {{TextSignature}} with the document path",
+    "comment_2": "Set up {{TextSignOptions}} with your desired signature text",
+    "comment_3": "Choose the color and font for the signature",
+    "comment_4": "Apply the text signature to the document"
+  },
+  "steps": {
+    "title": "How to create {{FileFormatUp}} text signatures with {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) enables easy text signature integration in {{FileFormatUp}} files within {{EnvName}} applications. Quickly add functionality to your products with this solution.",
+      "step_1": "Provide the {{FileFormatUp}} document to the {{TextSignature}} constructor.",
+      "step_2": "Create {{TextSignOptions}} with your signature text.",
+      "step_3": "Set the visual properties of the signature.",
+      "step_4": "Insert the signature onto the desired pages of the document."
+    }
+  },
+  "code_1": {
+    "title": "Add text signatures to documents",
+    "content": "Learn how to embed text signatures into documents to streamline your processes.",
+    "comment_1": "Select the document to sign",
+    "comment_2": "Set up text options with the desired content",
+    "comment_3": "Define the size and placement of the signature",
+    "comment_4": "Set padding from page edges",
+    "comment_5": "Choose text color and font style",
+    "comment_6": "Add a border around the text signature",
+    "comment_7": "Customize the background if needed",
+    "comment_8": "Rotate the signature to your preferred angle",
+    "comment_9": "Optionally save the signature as an image for compatibility",
+    "comment_10": "Save the document with the embedded signature"
+  }
+}

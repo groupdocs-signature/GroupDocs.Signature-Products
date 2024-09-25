@@ -370,5 +370,76 @@
     "code_samples_sample_2_content_1": "[Protect your Documents]({{Sample2Url}}) by signatures based on digital certificates.",
     "code_samples_sample_2_content_2": "Digital signature protect your business documents against content changing."
   }
+  ,
+  "index-content-python-net": {
+    "head_title": "Python Digital Signature API - GroupDocs.Signature",
+    "head_description": "Easily integrate secure e-signatures into Python applications using GroupDocs.Signature. Simplify and streamline your document signing workflows with minimal effort.",
+    "title": "Sign Documents with Python API",
+    "description": "Digitally sign documents and images across platforms with our flexible APIs, built for developers and end-users alike.",
+    "actions_main": "Download from PyPI",
+    "code_title": "Signing PDFs with Python",
+    "overview_description": "A powerful document signing library designed for use in Python applications.",
+    "overview_feature_1": {
+      "title": "Comprehensive Digital Signatures for Business Documents in Python",
+      "description": "{{ProdFullName}} provides a wide range of digital signature options, including text, barcodes, images, digital certificates, and metadata for PDFs, Office documents, and images. The solution is optimized for efficient document processing."
+    },
+    "overview_feature_2": {
+      "title": "Advanced Document Processing",
+      "description": "{{ProdShortName}} allows you to manage signed documents by searching and validating signatures based on multiple criteria. You can also extract detailed document data or generate page previews."
+    },
+    "overview_feature_3": {
+      "title": "Flexible Output Formats",
+      "description": "Our API gives you control over the final format of signed documents, enabling precise positioning of signatures, customization of their appearance, and saving in a variety of formats. Optionally, you can secure documents with passwords."
+    },
+    "features": {
+      "title": "Key Features of {{ProdShortName}}",
+      "description": "Sign PDFs, Office documents, and images with ease using digital signatures.",
+      "feature_1": {
+        "title": "Business Signatures",
+        "content": "Use a variety of signature types to sign documents and place them on any page in the desired location."
+      },
+      "feature_2": {
+        "title": "Customizable Signature Appearance",
+        "content": "Easily customize the look of your signatures, including color, font, borders, rotation, and more, to match your needs."
+      },
+      "feature_3": {
+        "title": "Password Protection",
+        "content": "Add an extra layer of security to signed documents by protecting them with passwords."
+      },
+      "feature_4": {
+        "title": "Prevent Unauthorized Changes",
+        "content": "Ensure that important business documents are protected from unauthorized modifications by using digital certificates."
+      },
+      "feature_5": {
+        "title": "Flexible Output Formats",
+        "content": "Generate signed documents in multiple formats. Convert Word documents to PDFs seamlessly."
+      },
+      "feature_6": {
+        "title": "Document Previews",
+        "content": "Save individual document pages as images for later use."
+      },
+      "feature_7": {
+        "title": "Signature Search",
+        "content": "Easily find and retrieve information about any previously added signatures in your documents."
+      },
+      "feature_8": {
+        "title": "Document Validation",
+        "content": "Verify the authenticity of signatures in any document to ensure integrity."
+      },
+      "feature_9": {
+        "title": "Manage Signatures",
+        "content": "Easily delete, move, or edit signatures on any page of the document."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} works seamlessly across various operating systems.",
+    "formats_description": "{{ProdFullName}} supports operations for a wide range of popular file formats. Learn more [here]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Here are some code examples that demonstrate typical {{ProdFullName}} operations.",
+    "code_title_sample_1": "Add QR Codes to a PDF",
+    "code_samples_sample_1_content_1": "Integrating [QR codes]({{Sample1Url}}) into specific pages of a PDF can help streamline your business processes.",
+    "code_samples_sample_1_content_2": "This example shows how to add a QR code using {{ProdFullName}} in Python.",
+    "code_title_sample_2": "Protect a DOCX with a Digital Signature",
+    "code_samples_sample_2_content_1": "[Protect your documents]({{Sample2Url}}) with signatures based on digital certificates.",
+    "code_samples_sample_2_content_2": "Digital signatures safeguard your business documents from unauthorized changes."
+  }
 
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-25T14:25:12
+date:  2024-09-25T12:45:24
 draft: false
 
 product: "Signature"
@@ -116,6 +116,34 @@ supported_platforms:
             content: |
                     60+ file formats
 
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Signature Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/signature/python-net/"
+      features_link: "https://docs.groupdocs.com/signature/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    60+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -211,6 +239,28 @@ code_samples:
 
             // Unterzeichnen und speichern Sie die verarbeitete Datei
             signature.sign('result.docx', options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            import groupdocs.signature as sg
+
+            def run():
+
+                # Geben Sie das Dokument zum Signieren an
+                with sg.Signature('source.docx') as signature:
+
+                    # Erstellen Sie Optionen für QR-Code-Zeichen
+                    options = sg.QrCodeSignOptions('JohnSmith')
+
+                    # Legen Sie QR-Code-Optionen fest
+                    options.setEncodeType(sg.QrCodeTypes.QR)
+                    options.setLeft(50)
+                    options.setTop(100)
+
+                    # Unterzeichnen und speichern Sie die verarbeitete Datei
+                    signature.sign('result.docx', options)
             ```
 
 ############################# Supported Formats ###############################

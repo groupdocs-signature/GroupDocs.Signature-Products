@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Remove signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Effortlessly remove digital, barcode, text, image, and metadata signatures from {{FileFormatUp}} documents with {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Easily remove signatures from {{FileFormatUp}}",
+    "description": "In addition to signing documents, {{ProdFullName}} provides a complete toolkit to locate and delete various types of signatures from your files.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Free Download"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a powerful solution for managing signatures of all types, including text, images, barcodes, digital certificates, and stamps. Supporting more than 60 different formats like PDF, MS Office documents, images, and ZIP files, it offers maximum flexibility in document handling. You can easily add, verify, update, or remove signatures as needed."
+  },
+  "more_features": {
+    "title": "Streamline document management with advanced signature features",
+    "description": "{{ProdFullName}} is expertly designed to enhance the process of adding, verifying, editing, and deleting signatures in key business document formats.",
+    "image_description": "Key Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Sign your documents",
+      "content": "Quickly apply text, image, barcode, QR code, or stamp signatures to any page. Additionally, you can manage hidden metadata like EXIF in images and ensure document integrity with digital certificates."
+    },
+    "feature_2": {
+      "title": "Find and verify signatures",
+      "content": "Use our powerful tools to locate and verify the signatures in your documents, giving you a complete list of all signatures for thorough management."
+    },
+    "feature_3": {
+      "title": "Edit signatures",
+      "content": "Easily modify existing signatures by changing the text, repositioning elements, or adjusting colors to match your preferences."
+    },
+    "feature_4": {
+      "title": "Delete unwanted signatures",
+      "content": "Take full control of document signatures with complete create, read, update, and delete (CRUD) operations, allowing you to remove any signature type when needed."
+    }
+  },
+  "formats": {
+    "title": "Delete signatures from multiple file formats",
+    "description": "{{ProdFullName}} is built to support signature removal from over 60 different file formats, ensuring compatibility and ease of use."
+  },
+  "operations": {
+    "title": "Discover our key features",
+    "description": "Explore a wide range of signature types and operations available with our solution."
+  },
+  "examples": {
+    "comment_1": "Pass the document with signatures to the {{TextSignature}} instance",
+    "comment_2": "Retrieve the list of digital signatures in the document",
+    "comment_3": "Remove the first signature from the list",
+    "comment_4": "Process and verify the deletion results"
+  },
+  "steps": {
+    "title": "Steps to delete e-signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows {{EnvName}} developers to remove electronic signatures from {{FileFormatUp}} files by following these simple steps:",
+      "step_1": "Load the {{FileFormatUp}} document into the {{TextSignature}} class instance.",
+      "step_2": "Use the Search function to find all signatures in the document.",
+      "step_3": "Delete one or more of the found signatures.",
+      "step_4": "Review the results after processing."
+    }
+  },
+  "code_1": {
+    "title": "Remove all barcode signatures",
+    "content": "Learn how to delete all barcode signatures from a document.",
+    "comment_1": "Provide a document containing barcode signatures",
+    "comment_2": "Remove all barcode signatures",
+    "comment_3": "Check the results of the deletion process"
+  }
+}

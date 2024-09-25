@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Apply digital signatures to {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Digitally sign {{FileFormatUp}} documents using {{ProgLang}} in just a few lines of code. Use {{ProdFullName}} to sign a wide range of file formats."
+  },
+  "header": {
+    "title": "Digitally sign {{FileFormatUp}}",
+    "description": "Ensure the security and authenticity of your documents by applying digital certificates through {{ProdFullName}}. Our solution allows you to easily sign and safeguard your documents with powerful tools.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Get it for free"
+  },
+  "about": {
+    "title": "What is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive signing tool that supports a wide array of document processing tasks. It allows you to add text, images, digital certificates, and stamps to over 60 file formats—including PDFs, MS Office files, images, and ZIPs. With {{ProdFullName}}, you can also search for, verify, update, or remove signatures whenever needed."
+  },
+  "more_features": {
+    "title": "Enhance and secure documents with digital signatures",
+    "description": "The {{ProdFullName}} library is designed to sign all major file formats. Simplify your workflow by easily adding, verifying, updating, or removing different types of signatures.",
+    "image_description": "Core Features of {{ProdShortName}}",
+    "feature_1": {
+      "title": "Add signatures to your documents",
+      "content": "Insert text, image, barcode, QR code, or stamp signatures precisely anywhere in supported documents. You can also manage hidden metadata, like EXIF in images, to ensure document integrity with digital signatures."
+    },
+    "feature_2": {
+      "title": "Verify and search signatures",
+      "content": "After signing, you can easily verify documents to ensure correct processing. Retrieve and manage all signatures within your files with powerful search capabilities."
+    },
+    "feature_3": {
+      "title": "Edit existing signatures",
+      "content": "Most signatures can be fully customized. You can edit text, move elements, change colors, adjust sizes, and more to fit your needs."
+    },
+    "feature_4": {
+      "title": "Remove unnecessary signatures",
+      "content": "Our solution supports complete signature management, allowing you to delete signatures, including digital certificates, from any document when needed."
+    }
+  },
+  "formats": {
+    "title": "Sign documents across multiple formats",
+    "description": "With {{EnvName}} API, you can process over 60 different formats, adding signatures, applying digital certificates for security, and managing signatures across various pages."
+  },
+  "operations": {
+    "title": "Explore our key features",
+    "description": "We offer a broad range of signature options and powerful document operations."
+  },
+  "examples": {
+    "comment_1": "Use {{TextSignature}} to digitally sign the document",
+    "comment_2": "Input the digital certificate and its password",
+    "comment_3": "Optionally configure how the signature will look",
+    "comment_4": "Finalize the document with the digital certificate"
+  },
+  "steps": {
+    "title": "How to protect {{FileFormatUp}} with digital certificates in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) helps {{EnvName}} developers secure {{FileFormatUp}} files by adding digital signatures. Strengthen your business applications with robust document protection features.",
+      "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} class.",
+      "step_2": "Apply a digital certificate and its password to secure the file.",
+      "step_3": "Optionally, add a visual display of the digital signature on the document pages.",
+      "step_4": "Sign the document to prevent unauthorized changes."
+    }
+  },
+  "code_1": {
+    "title": "Protect documents with digital signatures",
+    "content": "Learn how to secure your documents by applying digital signatures to prevent unauthorized modifications.",
+    "comment_1": "Load the document to be signed",
+    "comment_2": "Use a valid digital certificate with its corresponding password",
+    "comment_3": "Add any additional text information if needed",
+    "comment_4": "Include an image or other options for visual representation of the signature",
+    "comment_5": "Save the signed document in a secure location"
+  }
+}

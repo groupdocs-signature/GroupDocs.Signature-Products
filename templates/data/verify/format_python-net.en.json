@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verify {{FileFormatUp}} digital signatures with {{ProgLang}}",
+    "description": "Utilize {{ProdFullName}} to verify signatures within {{FileFormatUp}} files. Confirm the authenticity of signatures in PDFs, Word, Excel, Presentations, Images, and ZIP files."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} digital signatures verification",
+    "description": "Quickly and accurately verify electronic signatures in various formats, including PDFs, Word, Excel, Presentations, Images, and ZIP files using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullNamFe}}",
+    "action_title": "Download free version"
+  },
+  "about": {
+    "title": "Main features of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers comprehensive document signature management, supporting over 60 file formats such as PDFs, MS Office files, images, and ZIP archives. It allows you to apply various signature types, including text, images, barcodes, digital certificates, metadata, and stamps. Beyond signing, it also enables you to search, verify, edit, or remove signatures."
+  },
+  "more_features": {
+    "title": "Advanced digital signature tools",
+    "description": "{{ProdShortName}} provides a complete solution for signing and verifying documents across popular file formats. With support for seven signature types and full CRUD operations, you have total control over document protection and management.",
+    "image_description": "Signature verification features",
+    "feature_1": {
+      "title": "Efficient document signing",
+      "content": "Easily add custom digital signatures to any part of your documents. {{ProdFullName}} supports text, image, barcode, metadata, stamp, and digital certificate signatures, ensuring your documents meet business requirements."
+    },
+    "feature_2": {
+      "title": "Full signature lifecycle management",
+      "content": "Manage signatures throughout their entire lifecycle—access, verify, update, or remove signatures as needed to keep your documents accurate and up-to-date."
+    },
+    "feature_3": {
+      "title": "Protect document integrity",
+      "content": "Safeguard your sensitive documents by embedding digital certificates that prevent unauthorized changes. Add hidden metadata to protect crucial information and maintain document integrity."
+    },
+    "feature_4": {
+      "title": "Custom signature solutions",
+      "content": "Use document-specific signature types like PDF stamps and Word watermarks. These specialized signatures are perfect for branding, compliance, or adding a professional touch to your business documents."
+    }
+  },
+  "formats": {
+    "title": "Verify signatures across multiple formats",
+    "description": "{{ProdFullName}} allows you to verify signatures in a wide range of document formats. Customize verification parameters to ensure document integrity and meet compliance requirements."
+  },
+  "operations": {
+    "title": "Signature management and operations",
+    "description": "Explore the extensive features and signature management operations provided by {{ProdShortName}} to have full control over document signature processes."
+  },
+  "examples": {
+    "comment_1": "Initialize {{TextSignature}} with the document",
+    "comment_2": "Set up {{TextVerifyOptions}} to verify signatures with specific text",
+    "comment_3": "Run the signature verification on the document",
+    "comment_4": "Review and analyze the verification results"
+  },
+  "steps": {
+    "title": "How to verify {{FileFormatUp}} signatures using {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) verifies specific signatures in {{FileFormatUp}} documents. {{EnvName}} developers can enhance their apps by integrating this verification feature.",
+      "step_1": "Load the {{FileFormatUp}} file into the {{TextSignature}} instance.",
+      "step_2": "Create and configure {{VerifyOptions}} to match the desired verification criteria.",
+      "step_3": "Start the verification process.",
+      "step_4": "Interpret the results from the verification process."
+    }
+  },
+  "code_1": {
+    "title": "Verify barcode signatures",
+    "content": "This example demonstrates how to verify barcode signatures in a document.",
+    "comment_1": "Load the document with barcode signatures",
+    "comment_2": "Set the verification options to match specific barcode text",
+    "comment_3": "Verify the signatures in the document",
+    "comment_4": "Display the verification results"
+  }
+}
