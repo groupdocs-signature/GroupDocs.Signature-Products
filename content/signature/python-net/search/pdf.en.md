@@ -1,0 +1,270 @@
+
+
+
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-09-25T13:02:10
+draft: false
+lang: en
+format: Pdf
+product: "Signature"
+product_tag: "signature"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "Electronic signatures search for PDF using Python"
+head_description: "Leverage the GroupDocs.Signature for Python via .NET API to search for electronic signatures embedded in formats like PDFs, Word, Excel, Presentations, and Images."
+
+############################# Header ############################
+title: "Search for digital signatures in PDF" 
+description: "Easily extract a complete list of electronic signatures from multiple formats, including PDFs, Word, Excel, Presentations, and Images, with the power of GroupDocs.Signature for Python via .NET."
+subtitle: "GroupDocs.Signature for Python via .NET" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Download now"
+      link: "https://releases.groupdocs.com/signature/python-net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "Unleash the potential of GroupDocs.Signature for Python via .NET"
+    link: "/signature/python-net/"
+    link_title: "Learn more"
+    picture: "about_signature.svg" # 480 X 400
+    content: |
+       [GroupDocs.Signature for Python via .NET](/signature/python-net/) offers advanced capabilities for signing and managing digital documents. With support for over 60 file formats, including PDFs, Office documents, Images, and ZIP files, you can add, search, verify, modify, or remove signatures like text, images, barcodes, QR codes, digital certificates, and stamps.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "How to search for signatures in PDF using Python"
+    content: |
+      [GroupDocs.Signature](/signature/python-net/) provides a powerful engine for detecting digital signatures in PDF files. Python via .NET developers can easily enhance their apps with this functionality.
+      
+      1. Provide the PDF file path for the signature search.
+      2. Use SearchOptions to refine the search criteria.
+      3. Call the Search method to retrieve the results.
+      4. Review the list of identified signatures.
+   
+    code:
+      platform: "net"
+      copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Sample signatures"
+      install:
+        command: "dotnet add package GroupDocs.Signature"
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/signature/python-net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Initialize a Signature object with the document's file path
+        using (Signature signature = new Signature("input.pdf"))
+        {
+            // Create an instance of TextSearchOptions to search all pages
+            TextSearchOptions options = new TextSearchOptions()
+            {
+                AllPages = true
+            };
+
+            // Run a search to locate any text-based signatures in the document
+            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+            Console.WriteLine($"\nSource document contains following text signature(s).");
+
+            // Compile a list of found signatures for detailed review               
+            foreach (TextSignature textSignature in signatures)
+            {
+                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
+                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
+            }
+        }
+        
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "A complete document signing platform"
+  description: "Experience a powerful, feature-rich signing solution that secures your documents with multiple signature types, spanning various file formats."
+  image: "/img/signature/features_search.webp" # 500x500 px
+  image_description: "Search and manage signatures"
+  features:
+    # feature loop
+    - title: "Sign and secure business documents"
+      content: "Add electronic signatures anywhere in a document. GroupDocs.Signature supports multiple signature types, including text, images, barcodes, metadata, stamps, and digital certificates, ensuring the document's authenticity and security."
+
+    # feature loop
+    - title: "Comprehensive signature management"
+      content: "Once a document is signed, use the search feature to find all embedded signatures. You can modify or remove signatures as needed, giving you full control over the document’s integrity."
+
+    # feature loop
+    - title: "Ensure document integrity"
+      content: "Use advanced tools to manage hidden metadata within documents. Add or remove metadata, and apply digital certificates to safeguard your documents from unauthorized changes, ensuring their authenticity."
+      
+  code_samples:
+    # code sample loop
+    - title: "Search for image signatures"
+      content: |
+        This example demonstrates how to find an image signature within a specific document.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+        // Pass the source document to the constructor
+        using (Signature signature = new Signature("input.pdf"))
+        {
+            // Search for any text-based signatures
+            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
+            Console.WriteLine($"\nSource document contains following image signature(s).");
+
+            // Display detailed properties of the identified signatures
+            foreach (ImageSignature imageSignature in signatures)
+            {
+                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
+                and size {imageSignature.Size}.");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
+  items:
+    #  loop
+    - title: "PyPi download"
+      link: "https://releases.groupdocs.com/signature/python-net/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/signature/python-net/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Core features"
+    exclude: "search"
+    description: "Our API provides extensive flexibility, enabling users to sign documents and perform post-signing operations like searching, verifying, and editing signatures."
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic signatures"
+          operation: "esign"
+          link: "/signature/python-net/esign/pdf/"
+          description: "Add various types of signatures to supported file formats"
+
+        # operation loop 2
+        - name: "Add text to documents"
+          operation: "text"
+          link: "/signature/python-net/text/pdf/"
+          description: "Enhance document content with customizable text signatures"
+
+        # operation loop 3
+        - name: "Image signatures"
+          operation: "image"
+          link: "/signature/python-net/image/pdf/"
+          description: "Place any image at any position within a document"
+
+        # operation loop 4
+        - name: "Generate barcodes"
+          operation: "barcode"
+          link: "/signature/python-net/barcode/pdf/"
+          description: "Create and insert various barcodes into supported documents"
+
+        # operation loop 5
+        - name: "Generate QR codes"
+          operation: "qrcode"
+          link: "/signature/python-net/qrcode/pdf/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          
+        # operation loop 6
+        - name: "Digital certificates"
+          operation: "digital"
+          link: "/signature/python-net/digital/pdf/"
+          description: "Secure business documents using digital certificates"
+
+        # operation loop 7
+        - name: "Stamp signatures"
+          operation: "stamp"
+          link: "/signature/python-net/stamp/pdf/"
+          description: "Use the Stamp Constructor to create custom round or square stamps"
+          
+        # operation loop 8
+        - name: "Search signatures"
+          operation: "search"
+          link: "/signature/python-net/search/pdf/"
+          description: "Locate any previously added signatures within a document"
+          
+        # operation loop 9
+        - name: "Signature verification"
+          operation: "verify"
+          link: "/signature/python-net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
+          
+        # operation loop 10
+        - name: "Modify signatures"
+          operation: "modify"
+          link: "/signature/python-net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
+          
+        # operation loop 11
+        - name: "Delete signatures"
+          operation: "delete"
+          link: "/signature/python-net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "Extract signatures from multiple file formats"
+    exclude: "PDF"
+    description: "The GroupDocs.Signature for Python via .NET API allows you to extract and manage signatures from a wide variety of document formats. Easily retrieve embedded signatures from major file types for further analysis or processing."
+    items: 
+          
+        # format loop 1
+        - name: "Search signatures in PDF"
+          format: "PDF"
+          link: "/signature/python-net/search/pdf/"
+          description: "Adobe Portable Document Format"
+          
+        # format loop 2
+        - name: "Search signatures in DOCX"
+          format: "DOCX"
+          link: "/signature/python-net/search/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "Search signatures in PPTX"
+          format: "PPTX"
+          link: "/signature/python-net/search/pptx/"
+          description: "PowerPoint Open XML Presentation"
+          
+        # format loop 4
+        - name: "Search signatures in XLSX"
+          format: "XLSX"
+          link: "/signature/python-net/search/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+
+          
+
+---

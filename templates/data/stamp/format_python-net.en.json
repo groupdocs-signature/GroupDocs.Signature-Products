@@ -1,71 +1,71 @@
 {
   "head": {
-    "title": "Round and square stamps {{FileFormatUp}} via {{ProgLang}}",
-    "description": "Use {{ProdFullName}} to generate and embed personalized stamps across {{FileFormatUp}} files."
+    "title": "Create Round and square stamps in {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Generate and insert personalized stamps into {{FileFormatUp}} files with the {{ProdFullName}} API."
   },
   "header": {
-    "title": "Generate stamps for {{FileFormatUp}} files",
-    "description": "Seamlessly integrate custom-designed stamps into any section of your documents using {{ProdFullName}}, offering extensive flexibility for stamp placement and configuration to meet your business needs.",
+    "title": "Create stamps for {{FileFormatUp}}",
+    "description": "Easily add custom-designed stamps to any part of your documents with {{ProdFullName}}, offering great flexibility for placement and configuration to meet your business needs.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Get your free download"
+    "action_title": "Download for free"
   },
   "about": {
     "title": "Overview of {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a versatile tool that enables the insertion of multiple signature types into documents, including customizable stamps. Supporting over 60 file formats, from PDFs and Word documents to images and ZIP files, you can enrich your documents with text, image, barcode, metadata, digital certificates, and stamps. Furthermore, you have full control to search, validate, modify, or remove any signatures applied to your files."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is a comprehensive tool that lets you insert various signature types into documents, including custom stamps. Supporting over 60 file formats—from PDFs and Word docs to images and ZIP files—you can enhance your documents with text, image, barcode, metadata, digital certificates, and stamps. You also have full control to search, verify, edit, or delete any applied signatures."
   },
   "more_features": {
-    "title": "Leverage signatures to secure and enhance document integrity",
-    "description": "With the {{ProdFullName}} library, you can seamlessly integrate signature functionality into your documents. Easily add, modify, verify, or remove custom stamps and other signature types, offering flexibility and precision for secure document management.",
+    "title": "Use signatures to secure and improve document integrity",
+    "description": "With the {{ProdFullName}} library, you can seamlessly add signature functionality to your documents. Easily create, modify, verify, or delete custom stamps and other signature types, providing flexibility and security for your document workflows.",
     "image_description": "Stamp Signatures Powered by {{ProdShortName}}",
     "feature_1": {
-      "title": "Comprehensive document signing",
-      "content": "Enhance your documents by placing signatures, including text, images, barcodes, QR codes, and stamps, at any position or page within the file. Additionally, manage embedded metadata and apply digital certificates to safeguard against unauthorized changes."
+      "title": "Complete document signing",
+      "content": "Elevate your documents by adding signatures like text, images, barcodes, QR codes, and stamps to any position on any page. Manage embedded metadata and apply digital certificates to protect against unauthorized changes."
     },
     "feature_2": {
-      "title": "Efficient signature search and validation",
-      "content": "After signing, verify the authenticity and integrity of document signatures. Utilize advanced search functionality to retrieve and manage all signature data embedded in the document."
+      "title": "Efficient signature search and verification",
+      "content": "After signing, use advanced search tools to find all embedded signatures. Easily verify or manage signature data to ensure document integrity."
     },
     "feature_3": {
-      "title": "Modify and customize signatures",
-      "content": "Adjust previously inserted signatures with ease. Whether you need to change the content, position, size, or color, our solution offers full flexibility for signature modification."
+      "title": "Edit and customize signatures",
+      "content": "Make changes to previously added signatures with ease. Whether you want to change the content, position, size, or color, {{ProdFullName}} gives you full control to adjust signatures as needed."
     },
     "feature_4": {
-      "title": "Effortlessly remove signatures",
-      "content": "When signatures need to be removed, {{ProdFullName}} provides a complete set of tools to delete any type of signature, including stamps, digital certificates, and more, ensuring that your documents remain up-to-date and compliant."
+      "title": "Easily remove signatures",
+      "content": "If you need to remove signatures, {{ProdFullName}} offers all the tools necessary to delete any type, including stamps and digital certificates, helping you keep your documents up-to-date and compliant."
     }
   },
   "formats": {
-    "title": "Apply stamps across various document formats",
-    "description": "The {{ProdShortName}} API allows you to embed stamps across more than 60 industry-standard file types. Effortlessly apply custom stamps to any location within your documents, enabling enhanced document tracking and personalization."
+    "title": "Apply stamps to various document formats",
+    "description": "With {{ProdShortName}} API, you can insert custom stamps into more than 60 standard file types. Easily apply stamps anywhere in your documents, improving personalization and tracking."
   },
   "operations": {
-    "title": "Explore core functionalities",
-    "description": "Discover a broad range of options to create, manage, and delete various types of signatures, ensuring comprehensive control over your document workflows."
+    "title": "Explore key features",
+    "description": "Find a wide range of options for creating, managing, and removing signatures, giving you complete control over document workflows."
   },
   "examples": {
-    "comment_1": "Integrate the document path with the {{TextSignature}} instance",
-    "comment_2": "Initialize {{StampSignOptions}} with the required signature content",
-    "comment_3": "Incorporate one or multiple stamp lines",
-    "comment_4": "Preserve the document with the applied stamp"
+    "comment_1": "Attach the document path to the {{TextSignature}} instance",
+    "comment_2": "Set up {{StampSignOptions}} with the required stamp details",
+    "comment_3": "Add one or more lines to the stamp",
+    "comment_4": "Save the document with the applied stamp"
   },
   "steps": {
-    "title": "How to embed stamp into {{FileFormatUp}} using {{ProgLang}}",
+    "title": "How to add a stamp to {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) offers a robust stamp creation feature, ideal for enhancing {{EnvName}} applications. Leverage this tool to design and implement highly customized stamps on your document pages.",
-      "step_1": "Provide the {{FileFormatUp}} document to be stamped.",
-      "step_2": "Utilize {{StampSignOptions}} to meticulously configure all requisite parameters.",
-      "step_3": "Add multiple stamp lines as per your requirements.",
-      "step_4": "Apply the configured stamp and save the modified document."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) provides robust stamp creation tools for enhancing {{EnvName}} applications. Use it to design and implement custom stamps for your document pages.",
+      "step_1": "Provide the {{FileFormatUp}} document you want to stamp.",
+      "step_2": "Use {{StampSignOptions}} to configure all necessary settings.",
+      "step_3": "Add multiple stamp lines if required.",
+      "step_4": "Apply the stamp and save the updated document."
     }
   },
   "code_1": {
-    "title": "Implement custom stamps in documents",
-    "content": "Discover how to craft and integrate custom stamps bearing critical textual details into your documents.",
-    "comment_1": "Supply the document to be stamped",
-    "comment_2": "Initialize the stamp options with the desired configurations",
-    "comment_3": "Define the stamp’s dimensions and position on the page",
-    "comment_4": "Incorporate outer circular lines with text",
-    "comment_5": "Integrate inner square lines if necessary",
+    "title": "How to add custom stamps to documents",
+    "content": "This example shows how to create and insert custom stamps with specific text details into a document.",
+    "comment_1": "Provide the document you want to stamp",
+    "comment_2": "Set up the stamp options with your desired settings",
+    "comment_3": "Define the stamp’s size and placement on the page",
+    "comment_4": "Add outer circular lines with text",
+    "comment_5": "Optionally, add inner square lines",
     "comment_6": "Finalize and save the stamped document"
   }
 }

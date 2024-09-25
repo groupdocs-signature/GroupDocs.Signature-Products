@@ -1,0 +1,305 @@
+
+
+
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-09-25T13:02:07
+draft: false
+lang: en
+format: Pdf
+product: "Signature"
+product_tag: "signature"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "Add text signatures to PDF using Python"
+head_description: "Leverage the Python API to embed text-based signatures in PDF files, supporting formats like PDF, Word, Excel, PowerPoint, images, and ZIP."
+
+############################# Header ############################
+title: "Easily add text signatures to PDF" 
+description: "Seamlessly integrate custom text signatures into your documents using GroupDocs.Signature for Python via .NET. Simplify your workflows with flexible signature customization options."
+subtitle: "GroupDocs.Signature for Python via .NET" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Try it free today"
+      link: "https://releases.groupdocs.com/signature/python-net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "Explore the power of GroupDocs.Signature for Python via .NET"
+    link: "/signature/python-net/"
+    link_title: "Learn more"
+    picture: "about_signature.svg" # 480 X 400
+    content: |
+       [GroupDocs.Signature for Python via .NET](/signature/python-net/) offers a comprehensive platform for embedding customizable text signatures, making document workflows smoother. Personalize the content and appearance of signatures across documents to boost efficiency and enhance document management.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "How to create PDF text signatures with Python"
+    content: |
+      [GroupDocs.Signature](/signature/python-net/) enables easy text signature integration in PDF files within Python via .NET applications. Quickly add functionality to your products with this solution.
+      
+      1. Provide the PDF document to the Signature constructor.
+      2. Create TextSignOptions with your signature text.
+      3. Set the visual properties of the signature.
+      4. Insert the signature onto the desired pages of the document.
+   
+    code:
+      platform: "net"
+      copy_title: "Copy"
+      result_enable: true
+      result_link: "/examples/signature_all.pdf"
+      result_title: "Sample signatures"
+      install:
+        command: "dotnet add package GroupDocs.Signature"
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/signature/python-net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Initialize the Signature with the document path
+        using (Signature signature = new Signature("input.pdf"))
+        {
+            // Set up TextSignOptions with your desired signature text
+            TextSignOptions options = new TextSignOptions("John Smith")
+            {
+                // Choose the color and font for the signature
+                ForeColor = Color.Red,
+                Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" }
+            };
+
+            // Apply the text signature to the document
+            SignResult result = signature.Sign("output.pdf", options);
+        }
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Complete text signature management"
+  description: "GroupDocs.Signature for Python via .NET helps you manage document workflows by adding custom text signatures to popular formats. Easily control the look, placement, and content of signatures to suit your needs."
+  image: "/img/signature/features_text.webp" # 500x500 px
+  image_description: "Discover GroupDocs.Signature Features"
+  features:
+    # feature loop
+    - title: "Flexible document signatures"
+      content: "Add various signature types—text, images, barcodes, QR codes, and stamps—to any document page. Use metadata to include hidden information and secure your files with digital certificates."
+
+    # feature loop
+    - title: "Verify and search signatures"
+      content: "Use advanced tools to check the integrity of your signed documents. Search and analyze all signatures in a file for further validation."
+
+    # feature loop
+    - title: "Edit or remove signatures"
+      content: "Easily update the content, appearance, or placement of existing signatures. Remove outdated signatures to keep your documents current."
+
+    # feature loop
+    - title: "Specialized text signatures"
+      content: "Apply document-specific text signatures, like watermarks for Word files or stamps for PDFs, adding an extra level of control and customization."
+      
+  code_samples:
+    # code sample loop
+    - title: "Add text signatures to documents"
+      content: |
+        Learn how to embed text signatures into documents to streamline your processes.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        // Select the document to sign
+        using (Signature signature = new Signature("input.pdf"))
+        {
+            // Set up text options with the desired content
+            TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
+            {
+                // Define the size and placement of the signature
+                Left = 100,
+                Top = 100,
+                Width = 100,
+                Height = 30,
+
+                // Set padding from page edges
+                Margin = new Padding() { Top = 20, Right = 20 },
+
+                // Choose text color and font style
+                ForeColor = Color.Red,
+                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+
+                // Add a border around the text signature
+                Border = new Border()
+                {
+                    Color = Color.IndianRed,
+                    DashStyle = DashStyle.DashLongDashDot,
+                    Transparency = 0.5,
+                    Visible = true,
+                    Weight = 2
+                },
+
+                // Customize the background if needed
+                Background = new Background()
+                {
+                    Color = Color.LimeGreen,
+                    Transparency = 0.5,
+                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
+                },
+
+                // Rotate the signature to your preferred angle
+                RotationAngle = 45,
+
+                // Optionally save the signature as an image for compatibility
+                SignatureImplementation = TextSignatureImplementation.Image
+            };
+
+            // Save the document with the embedded signature
+            SignResult result = signature.Sign("output.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Signature features for free or request a license"
+  items:
+    #  loop
+    - title: "PyPi download"
+      link: "https://releases.groupdocs.com/signature/python-net/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/signature/python-net/"
+      color: "light"
+
+
+############################# More Operations #####################
+more_operations:
+    enable: true
+    title: "Advanced signature features"
+    exclude: "text"
+    description: "Our API supports complete lifecycle management for seven signature types, allowing you to create, manage, verify, and customize your signatures with ease."
+    items: 
+          
+        # operation loop 1
+        - name: "Electronic signatures"
+          operation: "esign"
+          link: "/signature/python-net/esign/pdf/"
+          description: "Add various types of signatures to supported file formats"
+
+        # operation loop 2
+        - name: "Add text to documents"
+          operation: "text"
+          link: "/signature/python-net/text/pdf/"
+          description: "Enhance document content with customizable text signatures"
+
+        # operation loop 3
+        - name: "Image signatures"
+          operation: "image"
+          link: "/signature/python-net/image/pdf/"
+          description: "Place any image at any position within a document"
+
+        # operation loop 4
+        - name: "Generate barcodes"
+          operation: "barcode"
+          link: "/signature/python-net/barcode/pdf/"
+          description: "Create and insert various barcodes into supported documents"
+
+        # operation loop 5
+        - name: "Generate QR codes"
+          operation: "qrcode"
+          link: "/signature/python-net/qrcode/pdf/"
+          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          
+        # operation loop 6
+        - name: "Digital certificates"
+          operation: "digital"
+          link: "/signature/python-net/digital/pdf/"
+          description: "Secure business documents using digital certificates"
+
+        # operation loop 7
+        - name: "Stamp signatures"
+          operation: "stamp"
+          link: "/signature/python-net/stamp/pdf/"
+          description: "Use the Stamp Constructor to create custom round or square stamps"
+          
+        # operation loop 8
+        - name: "Search signatures"
+          operation: "search"
+          link: "/signature/python-net/search/pdf/"
+          description: "Locate any previously added signatures within a document"
+          
+        # operation loop 9
+        - name: "Signature verification"
+          operation: "verify"
+          link: "/signature/python-net/verify/pdf/"
+          description: "Verify the authenticity of signatures after they have been applied"
+          
+        # operation loop 10
+        - name: "Modify signatures"
+          operation: "modify"
+          link: "/signature/python-net/modify/pdf/"
+          description: "Easily edit a variety of signatures within a document"
+          
+        # operation loop 11
+        - name: "Delete signatures"
+          operation: "delete"
+          link: "/signature/python-net/delete/pdf/"
+          description: "Remove a wide range of previously applied signatures"
+          
+############################# More Formats ########################
+more_formats:
+    enable: true
+    title: "Embed text signatures in multiple formats"
+    exclude: "PDF"
+    description: "With the Python via .NET API, you can add text signatures to various Office documents, giving you full control over the document lifecycle and improving security."
+    items: 
+          
+        # format loop 1
+        - name: "PDF text signatures"
+          format: "PDF"
+          link: "/signature/python-net/text/pdf/"
+          description: "Adobe Portable Document Format"
+          
+        # format loop 2
+        - name: "DOCX text signatures"
+          format: "DOCX"
+          link: "/signature/python-net/text/docx/"
+          description: "Microsoft Word Open XML Document"
+          
+        # format loop 3
+        - name: "JPEG text signatures"
+          format: "JPEG"
+          link: "/signature/python-net/text/jpeg/"
+          description: "JPEG Image"
+          
+        # format loop 4
+        - name: "PPTX text signatures"
+          format: "PPTX"
+          link: "/signature/python-net/text/pptx/"
+          description: "PowerPoint Open XML Presentation"
+          
+        # format loop 5
+        - name: "XLSX text signatures"
+          format: "XLSX"
+          link: "/signature/python-net/text/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+
+          
+
+---

@@ -1,69 +1,69 @@
 {
   "head": {
-    "title": "Modify {{FileFormatUp}} signatures in {{ProgLang}} solutions",
-    "description": "The {{ProgLang}} API offers advanced functionality to modify signatures embedded within {{FileFormatUp}} documents, such as PDFs, Word files, Excel sheets, Presentations, and Images."
+    "title": "Edit {{FileFormatUp}} signatures in {{ProgLang}} applications",
+    "description": "Use the {{ProgLang}} API to easily modify signatures within {{FileFormatUp}} documents, including PDFs, Word files, Excel sheets, presentations, and images."
   },
   "header": {
-    "title": "Seamlessly update {{FileFormatUp}} signatures",
-    "description": "Unlock the ability to edit a wide spectrum of electronic signatures across popular business formats like PDF, Word, Excel, Presentations, and Images with the power of {{ProdFullName}}.",
+    "title": "Effortlessly update {{FileFormatUp}} signatures",
+    "description": "Gain full control to edit a variety of electronic signatures in major formats such as PDF, Word, Excel, presentations, and images with the advanced features of {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
-    "action_title": "Download now for free"
+    "action_title": "Download for free"
   },
   "about": {
-    "title": "Discover the power of {{ProdFullName}}",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers not only comprehensive document signing capabilities but also allows seamless modification of existing signatures. Effortlessly adjust signature properties for commonly used formats like PDF, Word, Excel, and PowerPoint presentations with minimal effort."
+    "title": "Unlock the capabilities of {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) not only offers robust document signing but also allows you to easily modify existing signatures. Adjust signature properties in widely-used formats like PDF, Word, Excel, and PowerPoint presentations with minimal effort."
   },
   "more_features": {
-    "title": "Comprehensive signature management for documents",
-    "description": "With {{ProdFullName}}, you can efficiently add, update, search, verify, or delete signatures across all major document formats, simplifying your document workflow.",
-    "image_description": "Advanced signature modification",
+    "title": "Complete signature management for documents",
+    "description": "{{ProdFullName}} simplifies your document workflow by enabling you to easily add, update, search, verify, or remove signatures across all major file formats.",
+    "image_description": "Advanced signature editing",
     "feature_1": {
-      "title": "Versatile document signing",
-      "content": "Our solution excels in applying diverse signatures, including text, images, barcodes, and stamps, to any part of a document. You can also embed and modify hidden metadata like EXIF in images, while safeguarding documents against unauthorized alterations using digital certificates."
+      "title": "Flexible document signing",
+      "content": "Apply a wide range of signatures, including text, images, barcodes, and stamps, to any section of your document. Modify embedded metadata like EXIF data in images, and secure documents against unauthorized changes using digital certificates."
     },
     "feature_2": {
-      "title": "Efficient signature search and validation",
-      "content": "Leverage powerful tools to verify the accuracy and validity of signatures. Access a complete list of embedded signatures within a document, streamlining the verification process."
+      "title": "Signature search and validation",
+      "content": "Easily verify signatures with our powerful tools. Retrieve a full list of signatures in a document, ensuring quick and accurate verification."
     },
     "feature_3": {
-      "title": "Streamlined signature updates",
-      "content": "Modify previously added signatures with ease. Adjust the content, style, placement, and other signature-specific attributes to meet evolving document requirements."
+      "title": "Simplified signature updates",
+      "content": "Update previously embedded signatures effortlessly. Adjust the content, style, placement, or any other aspect of the signature to meet new requirements."
     },
     "feature_4": {
       "title": "Effortless signature removal",
-      "content": "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
+      "content": "Gain full control over signature management, with the ability to remove any type of signature from your document, giving you total flexibility over its content."
     }
   },
   "formats": {
-    "title": "Modify signatures across multiple file types",
-    "description": "Documents signed with our {{EnvName}} API can be easily modified. Extract and update signature details from supported formats, ensuring complete control over document integrity."
+    "title": "Modify signatures across multiple formats",
+    "description": "With the {{EnvName}} API, you can easily modify signed documents. Extract and update signature data from supported formats, maintaining full control over your document's integrity."
   },
   "operations": {
-    "title": "Browse our extensive feature set",
-    "description": "Discover the full range of signature formats and operations supported by our platform"
+    "title": "Explore the full feature set",
+    "description": "Browse the extensive list of signature formats and operations supported by our platform."
   },
   "examples": {
-    "comment_1": "Instantiate a {{TextSignature}} object with the document file path",
-    "comment_2": "Execute a search for text signatures within the document",
-    "comment_3": "Update the text content of the first located signature",
-    "comment_4": "Validate the result of the text modification"
+    "comment_1": "Create a {{TextSignature}} object with the document path",
+    "comment_2": "Search for text signatures in the document",
+    "comment_3": "Update the content of the first found signature",
+    "comment_4": "Verify the results of the signature update"
   },
   "steps": {
-    "title": "Steps for editing text signatures in {{FileFormatUp}} using {{ProgLang}}",
+    "title": "How to edit signatures in {{FileFormatUp}} using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}}) empowers {{EnvName}} developers to revise the content of text signatures previously embedded in {{FileFormatUp}} files. Augment {{EnvName}} applications with advanced capabilities.",
-      "step_1": "Import the {{FileFormatUp}} file into the {{TextSignature}} instance.",
-      "step_2": "Extract a list of all signatures within the document.",
-      "step_3": "Revise the content of any identified signature.",
-      "step_4": "Evaluate the results of the modification."
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) allows {{EnvName}} developers to edit text signatures already embedded in {{FileFormatUp}} files. Enhance your {{EnvName}} applications with advanced functionality.",
+      "step_1": "Load the {{FileFormatUp}} document into the {{TextSignature}} instance.",
+      "step_2": "Retrieve a list of all signatures in the document.",
+      "step_3": "Edit the content of any identified signature.",
+      "step_4": "Verify the signature modification results."
     }
   },
   "code_1": {
     "title": "Modify barcode signatures",
-    "content": "This example illustrates how to programmatically modify barcode signatures in a document.",
-    "comment_1": "Load a document containing barcode signatures",
+    "content": "This example demonstrates how to programmatically edit barcode signatures in a document.",
+    "comment_1": "Load a document that contains barcode signatures",
     "comment_2": "Search for all existing barcode signatures",
-    "comment_3": "Modify the position of the first detected barcode and save the document",
-    "comment_4": "Verify the success of the barcode modification"
+    "comment_3": "Change the position of the first found barcode and save the document",
+    "comment_4": "Verify that the barcode modification was successful"
   }
 }
