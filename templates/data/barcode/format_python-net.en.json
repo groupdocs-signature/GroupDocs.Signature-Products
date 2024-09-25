@@ -4,7 +4,7 @@
     "description": "Easily generate a barcode signature and insert it into a {{FileFormatUp}} document using {{ProgLang}}. Use {{ProdShortName}} to sign a variety of file formats with just a few lines of code."
   },
   "header": {
-    "title": "Generate and insert a barcode into {{FileFormatUp}}",
+    "title": "Generate barcodes for {{FileFormatUp}}",
     "description": "With {{ProdFullName}}, you can place barcodes in your business documents wherever needed. Our solution provides flexible options for barcode signature customization.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Free trial"

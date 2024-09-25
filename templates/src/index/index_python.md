@@ -23,10 +23,10 @@ supported_platforms:
       tag: "java"
     # supported_platforms loop
     - title: "Node.js"
-      tag: "python-net" 
+      tag: "nodejs-java" 
     # supported_platforms loop
     - title: "Python"
-      tag: "python-net" 
+      tag: "python-net"  
 
 ############################# Head ############################
 head_title: "<% "{index-content-python-net.head_title}" %>"

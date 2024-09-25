@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-25T12:45:24
+date: 2024-09-25T13:59:03
 draft: false
 
 lang: en
@@ -21,23 +21,23 @@ supported_platforms:
       tag: "java"
     # supported_platforms loop
     - title: "Node.js"
-      tag: "python-net" 
+      tag: "nodejs-java" 
     # supported_platforms loop
     - title: "Python"
-      tag: "python-net" 
+      tag: "python-net"  
 
 ############################# Head ############################
-head_title: "{index-content-python-net.head_title}"
-head_description: "{index-content-python-net.head_description}"
+head_title: "Python Digital Signature API - GroupDocs.Signature"
+head_description: "Easily integrate secure e-signatures into Python applications using GroupDocs.Signature. Simplify and streamline your document signing workflows with minimal effort."
 
 ############################# Header ############################
-title: "{index-content-python-net.title}"
-description: "{index-content-python-net.description}"
+title: "Sign Documents with Python API"
+description: "Digitally sign documents and images across platforms with our flexible APIs, built for developers and end-users alike."
 words:
   for: "for"
 
 actions:
-  main: "{index-content-python-net.actions_main}"
+  main: "Download from PyPI"
   main_link: "https://pypi.org/project/groupdocs-signature-net/"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/signature/python-net/"
@@ -50,7 +50,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "{index-content-python-net.code_title}"
+  title: "Signing PDFs with Python"
   more: "More examples"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
   install: "pip install groupdocs-signature-net"
@@ -77,25 +77,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Signature Overview"
-  description: "{index-content-python-net.overview_description}"
+  description: "A powerful document signing library designed for use in Python applications."
   features:
     # feature loop
-    - title: "{index-content-python-net.overview_feature_1.title}"
-      content: "{index-content-python-net.overview_feature_1.description}"
+    - title: "Comprehensive Digital Signatures for Business Documents in Python"
+      content: "GroupDocs.Signature for Python via .NET provides a wide range of digital signature options, including text, barcodes, images, digital certificates, and metadata for PDFs, Office documents, and images. The solution is optimized for efficient document processing."
 
     # feature loop
-    - title: "{index-content-python-net.overview_feature_2.title}"
-      content: "{index-content-python-net.overview_feature_2.description}"
+    - title: "Advanced Document Processing"
+      content: "GroupDocs.Signature allows you to manage signed documents by searching and validating signatures based on multiple criteria. You can also extract detailed document data or generate page previews."
 
     # feature loop
-    - title: "{index-content-python-net.overview_feature_3.title}"
-      content: "{index-content-python-net.overview_feature_3.description}"
+    - title: "Flexible Output Formats"
+      content: "Our API gives you control over the final format of signed documents, enabling precise positioning of signatures, customization of their appearance, and saving in a variety of formats. Optionally, you can secure documents with passwords."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "{index-content-python-net.platforms_description}"
+  description: "GroupDocs.Signature for Python via .NET works seamlessly across various operating systems."
   items:
     # platform loop
     - title: "Amazon"
@@ -127,7 +127,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    {index-content-python-net.formats_description}
+    GroupDocs.Signature for Python via .NET supports operations for a wide range of popular file formats. Learn more [here](https://docs.groupdocs.com/signature/python-net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -154,65 +154,65 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-python-net.features.title}"
-  description: "{index-content-python-net.features.description}"
+  title: "Key Features of GroupDocs.Signature"
+  description: "Sign PDFs, Office documents, and images with ease using digital signatures."
 
   items:
     # feature loop
     - icon: "sign"
-      title: "{index-content-python-net.features.feature_1.title}"
-      content: "{index-content-python-net.features.feature_1.content}"
+      title: "Business Signatures"
+      content: "Use a variety of signature types to sign documents and place them on any page in the desired location."
 
     # feature loop
     - icon: "custom"
-      title: "{index-content-python-net.features.feature_2.title}"
-      content: "{index-content-python-net.features.feature_2.content}"
+      title: "Customizable Signature Appearance"
+      content: "Easily customize the look of your signatures, including color, font, borders, rotation, and more, to match your needs."
 
     # feature loop
     - icon: "password"
-      title: "{index-content-python-net.features.feature_3.title}"
-      content: "{index-content-python-net.features.feature_3.content}"
+      title: "Password Protection"
+      content: "Add an extra layer of security to signed documents by protecting them with passwords."
 
     # feature loop
     - icon: "protect"
-      title: "{index-content-python-net.features.feature_4.title}"
-      content: "{index-content-python-net.features.feature_4.content}"
+      title: "Prevent Unauthorized Changes"
+      content: "Ensure that important business documents are protected from unauthorized modifications by using digital certificates."
 
     # feature loop
     - icon: "convert"
-      title: "{index-content-python-net.features.feature_5.title}"
-      content: "{index-content-python-net.features.feature_5.content}"
+      title: "Flexible Output Formats"
+      content: "Generate signed documents in multiple formats. Convert Word documents to PDFs seamlessly."
 
     # feature loop
     - icon: "preview"
-      title: "{index-content-python-net.features.feature_6.title}"
-      content: "{index-content-python-net.features.feature_6.content}"
+      title: "Document Previews"
+      content: "Save individual document pages as images for later use."
 
     # feature loop
     - icon: "search"
-      title: "{index-content-python-net.features.feature_7.title}"
-      content: "{index-content-python-net.features.feature_7.content}"
+      title: "Signature Search"
+      content: "Easily find and retrieve information about any previously added signatures in your documents."
 
     # feature loop
     - icon: "validate"
-      title: "{index-content-python-net.features.feature_8.title}"
-      content: "{index-content-python-net.features.feature_8.content}"
+      title: "Document Validation"
+      content: "Verify the authenticity of signatures in any document to ensure integrity."
 
     # feature loop
     - icon: "update"
-      title: "{index-content-python-net.features.feature_9.title}"
-      content: "{index-content-python-net.features.feature_9.content}"
+      title: "Manage Signatures"
+      content: "Easily delete, move, or edit signatures on any page of the document."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "{index-content-python-net.code_samples_description}"
+  description: "Here are some code examples that demonstrate typical GroupDocs.Signature for Python via .NET operations."
   items:
     # code sample loop
-    - title: "{index-content-python-net.code_title_sample_1}"
+    - title: "Add QR Codes to a PDF"
       content: |
-        {index-content-python-net.code_samples_sample_1_content_1} {index-content-python-net.code_samples_sample_1_content_2}
+        Integrating [QR codes](https://docs.groupdocs.com/signature/python-net/find-signature-properties/) into specific pages of a PDF can help streamline your business processes. This example shows how to add a QR code using GroupDocs.Signature for Python via .NET in Python.
         {{< landing/code title="How to put QR code to PDF.">}}
         ```python {style=abap}
         import groupdocs.signature as sg
@@ -236,9 +236,9 @@ code_samples:
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{index-content-python-net.code_title_sample_2}"
+    - title: "Protect a DOCX with a Digital Signature"
       content: |
-        {index-content-python-net.code_samples_sample_2_content_1} {index-content-python-net.code_samples_sample_2_content_2}
+        [Protect your documents](https://docs.groupdocs.com/signature/python-net/adding-signature/) with signatures based on digital certificates. Digital signatures safeguard your business documents from unauthorized changes.
         {{< landing/code title="Here is how to ensure document integrity.">}}
         ```python {style=abap}
         import groupdocs.signature as sg

@@ -4,7 +4,7 @@
     "description": "Leverage the {{ProdFullName}} API to search for electronic signatures embedded in formats like PDFs, Word, Excel, Presentations, and Images."
   },
   "header": {
-    "title": "Search for digital signatures in {{FileFormatUp}}",
+    "title": "{{FileFormatUp}} digital signatures search",
     "description": "Easily extract a complete list of electronic signatures from multiple formats, including PDFs, Word, Excel, Presentations, and Images, with the power of {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download now"
