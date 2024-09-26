@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:02:36
+date:  2024-09-26T16:11:12
 draft: false
 lang: en
 format: Pptx
@@ -48,8 +48,8 @@ steps:
       [GroupDocs.Signature](/signature/nodejs-java/) enables Node.js via Java developers to efficiently remove e-signatures in PPTX files by following a series of simple steps.
       
       1. Provide the PPTX file path to an instance of the Signature class.
-      2. Utilize the Search method to identify all digital signatures in the document.
-      3. Remove one or more of the identified digital signatures.
+      2. Utilize the Search method to identify all signatures in the document.
+      3. Remove one or more of the identified signatures.
       4. Review the results of the document processing.
    
     code:

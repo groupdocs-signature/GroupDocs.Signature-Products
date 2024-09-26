@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:02:36
+date:  2024-09-26T16:11:12
 draft: false
 lang: en
 format: Pdf
@@ -48,8 +48,8 @@ steps:
       [GroupDocs.Signature](/signature/java/) makes it easy for Java developers to delete e-signatures in PDF files using their applications by following a few simple steps.
       
       1. Pass the PDF path to an instance of the Signature class.
-      2. Use the Search method to retrieve all digital signatures from the document.
-      3. Delete one or more of the located digital signatures.
+      2. Use the Search method to retrieve signatures from the document.
+      3. Delete one or more of the located signatures.
       4. Analyze the results of the document processing.
    
     code:

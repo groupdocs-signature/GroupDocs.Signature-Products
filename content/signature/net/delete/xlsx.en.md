@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:02:36
+date:  2024-09-26T16:11:12
 draft: false
 lang: en
 format: Xlsx
@@ -48,8 +48,8 @@ steps:
       [GroupDocs.Signature](/signature/net/) simplifies the task for .NET developers to remove electronic signatures in XLSX files by implementing a few straightforward steps.
       
       1. Provide the path of the XLSX file to an instance of the Signature class.
-      2. Invoke the Search method to retrieve all digital signatures within the document.
-      3. Delete one or more of the retrieved digital signatures.
+      2. Invoke the Search method to retrieve all signatures within the document.
+      3. Delete one or more of the retrieved signatures.
       4. Examine the results of the document processing.
    
     code:

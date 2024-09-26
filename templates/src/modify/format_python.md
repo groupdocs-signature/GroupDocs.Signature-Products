@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,28 +70,28 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            TextSearchOptions options = new TextSearchOptions();
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            if (signatures.Count > 0)
-            {
-                // <% "{examples.comment_3}" %>
-                TextSignature textSignature = signatures[0];
-                textSignature.Text = "New Text";
-                bool result = signature.Update(textSignature);
+        def run():
 
-                // <% "{examples.comment_4}" %>
-                if (result)
-                {
-                    Console.WriteLine($"Signature was updated successfully");
-                }
-            }
-        }
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.TextSearchOptions()
+                signatures = signature.Search(options)
+
+                if signatures.Count > 0:
+
+                    # <% "{examples.comment_3}" %>
+                    textSignature = signatures[0]
+                    textSignature.Text = "New Text"
+                    result = signature.Update(textSignature)
+
+                    # <% "{examples.comment_4}" %>
+                    if result:
+                        print("\nSignature was updated successfully")
         ```            
 
 ############################# More features ############################
@@ -124,29 +124,29 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeSearchOptions options = new BarcodeSearchOptions();
-            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            if (signatures.Count > 0)
-            {
-                // <% "{code_1.comment_3}" %>
-                BarcodeSignature barcodeSignature = signatures[0];
-                barcodeSignature.Left = 100;
-                barcodeSignature.Top = 100;
-                bool result = signature.Update(barcodeSignature);
+        def run():
 
-                // <% "{code_1.comment_4}" %>
-                if (result)
-                {
-                    Console.WriteLine($"Barcode was updated successfully.");
-                }
-            }
-        }
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{code_1.comment_2}" %>
+                options = sg.BarcodeSearchOptions()
+                signatures = signature.Search(options)
+
+                if signatures.Count > 0:
+
+                    # <% "{code_1.comment_3}" %>
+                    barcodeSignature = signatures[0]
+                    barcodeSignature.Left = 100
+                    barcodeSignature.Top = 100
+                    result = signature.Update(barcodeSignature)
+
+                    # <% "{code_1.comment_4}" %>
+                    if result:
+                        print("\nBarcode was updated successfully.")
         ```
         {{< /landing/code >}}
 

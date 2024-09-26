@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,22 +70,24 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            ImageSignOptions options = new ImageSignOptions("boss_signature.jpg")
-            {
-                // <% "{examples.comment_3}" %>
-                AllPages = true,
-                Left = 100,
-                Top = 100
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+        def run():
+
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.ImageSignOptions("boss_signature.jpg")
+
+                # <% "{examples.comment_3}" %>
+                options.AllPages = True
+                options.Left = 100
+                options.Top = 100
+                
+                # <% "{examples.comment_4}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```            
 
 ############################# More features ############################
@@ -118,40 +120,42 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
-            {
-                // <% "{code_1.comment_3}" %>
-                Width = 100,
-                Height = 100,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // <% "{code_1.comment_4}" %>
-                VerticalAlignment = VerticalAlignment.Bottom,
-                HorizontalAlignment = HorizontalAlignment.Right,
+        def run():
 
-                // <% "{code_1.comment_5}" %>
-                Margin = new Padding() { Bottom = 120, Right = 120 },
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                // <% "{code_1.comment_6}" %>
-                Border = new Border()
-                {
-                    Visible = true,
-                    Color = Color.OrangeRed,
-                    DashStyle = DashStyle.DashDotDot,
-                    Weight = 5
-                },
+                # <% "{code_1.comment_2}" %>
+                options = sg.ImageSignOptions("organization_seal.jpg")
 
-                // <% "{code_1.comment_7}" %>
-                RotationAngle = 45
-            };
+                # <% "{code_1.comment_3}" %>
+                options.Width = 100
+                options.Height = 100
 
-            // <% "{code_1.comment_8}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+                # <% "{code_1.comment_4}" %>
+                options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+
+                # <% "{code_1.comment_5}" %>
+                options.Margin = sg.Padding()
+                options.Margin.Bottom = 120
+                options.Margin.Right = 120
+
+                # <% "{code_1.comment_6}" %>
+                options.Border = sg.Border()
+                options.Border.Visible = True
+                options.Border.Color = sg.Color.OrangeRed
+                options.Border.DashStyle = sg.DashStyle.DashDotDot
+                options.Border.Weight = 5
+
+                # <% "{code_1.comment_7}" %>
+                options.RotationAngle = 45
+
+                # <% "{code_1.comment_8}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```
         {{< /landing/code >}}
 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:08
+date:  2024-09-26T16:11:09
 draft: false
 lang: en
 format: Xlsx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,24 +71,25 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Use Signature to digitally sign the document
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Input the digital certificate and its password
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Optionally configure how the signature will look
-                PageNumber = 1,
-                Left = 50,
-                Top = 50
-            };
+        def run():
 
-            // Finalize the document with the digital certificate
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+            # Use Signature to digitally sign the document
+            with sg.Signature('input.xlsx') as signature:
+
+                # Input the digital certificate and its password
+                options = sg.DigitalSignOptions("certificate.pfx")
+                options.Password = "1234567890"
+
+                # Optionally configure how the signature will look
+                options.PageNumber = 1
+                options.Left = 50
+                options.Top = 50
+
+                # Finalize the document with the digital certificate
+                result = signature.Sign("output.xlsx", options)
         ```            
 
 ############################# More features ############################
@@ -121,34 +122,37 @@ more_features:
       content: |
         Learn how to secure your documents by applying digital signatures to prevent unauthorized modifications.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Load the document to be signed
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Use a valid digital certificate with its corresponding password
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Add any additional text information if needed
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+        def run():
 
-                // Include an image or other options for visual representation of the signature
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+            # Load the document to be signed
+            with sg.Signature('input.xlsx') as signature:
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                # Use a valid digital certificate with its corresponding password
+                options = sg.DigitalSignOptions("certificate.pfx")
+                options.Password = "1234567890"
 
-            // Save the signed document in a secure location
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+                # Add any additional text information if needed
+                options.Reason = "Security issue"
+                options.Contact = "John Smith"
+                options.Location = "Office D.W."
+
+                # Include an image or other options for visual representation of the signature
+                options.ImageFilePath = "image.png"
+                options.AllPages = True
+                options.VerticalAlignment = sg.VerticalAlignment.Center
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                options.Width = 60
+                options.Height = 80
+
+                options.Margin = sg.Padding()
+                options.Margin.Bottom = 10
+                options.Margin.Right = 10
+
+                # Save the signed document in a secure location
+                result = signature.Sign("output.xlsx", options)
         ```
         {{< /landing/code >}}
 

@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,22 +70,26 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            TextSignOptions options = new TextSignOptions("John Smith")
-            {
-                // <% "{examples.comment_3}" %>
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" }
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```            
+        def run():
+
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.TextSignOptions("John Smith")
+
+                # <% "{examples.comment_3}" %>
+                options.ForeColor = sg.Color.Red
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 14
+                options.Font.FamilyName = "Comic Sans MS"
+
+                # <% "{examples.comment_4}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
+        ```                
 
 ############################# More features ############################
 more_features:
@@ -117,54 +121,56 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
-            {
-                // <% "{code_1.comment_3}" %>
-                Left = 100,
-                Top = 100,
-                Width = 100,
-                Height = 30,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // <% "{code_1.comment_4}" %>
-                Margin = new Padding() { Top = 20, Right = 20 },
+        def run():
 
-                // <% "{code_1.comment_5}" %>
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                // <% "{code_1.comment_6}" %>
-                Border = new Border()
-                {
-                    Color = Color.IndianRed,
-                    DashStyle = DashStyle.DashLongDashDot,
-                    Transparency = 0.5,
-                    Visible = true,
-                    Weight = 2
-                },
+                # <% "{code_1.comment_2}" %>
+                options = sg.TextSignOptions("Rescheduled to 03/04/2025")
 
-                // <% "{code_1.comment_7}" %>
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                },
+                # <% "{code_1.comment_3}" %>
+                options.Left = 100
+                options.Top = 100
+                options.Width = 100
+                options.Height = 30
 
-                // <% "{code_1.comment_8}" %>
-                RotationAngle = 45,
+                # <% "{code_1.comment_4}" %>
+                options.Margin = sg.Padding()
+                options.Margin.Top = 20
+                options.Margin.Right = 20
 
-                // <% "{code_1.comment_9}" %>
-                SignatureImplementation = TextSignatureImplementation.Image
-            };
+                # <% "{code_1.comment_5}" %>
+                options.ForeColor = sg.Color.Red
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 12
+                options.Font.FamilyName = "Comic Sans MS"
 
-            // <% "{code_1.comment_10}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+                # <% "{code_1.comment_6}" %>
+                options.Border = sg.Border()
+                options.Border.Color = sg.Color.IndianRed
+                options.Border.DashStyle = sg.DashStyle.DashLongDashDot
+                options.Border.Transparency = 0.5
+                options.Border.Visible = True
+                options.Border.Weight = 2
+
+                # <% "{code_1.comment_7}" %>
+                options.Background = sg.Background()
+                options.Background.Color = sg.Color.LimeGreen
+                options.Background.Transparency = 0.5
+                options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
+
+                # <% "{code_1.comment_8}" %>
+                options.RotationAngle = 45
+
+                # <% "{code_1.comment_9}" %>
+                options.SignatureImplementation = sg.TextSignatureImplementation.Image
+
+                # <% "{code_1.comment_10}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```
         {{< /landing/code >}}
 

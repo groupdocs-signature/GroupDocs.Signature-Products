@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T18:38:41
+date:  2024-09-26T16:11:11
 draft: false
 lang: en
 format: Xlsx
@@ -48,7 +48,7 @@ steps:
       [GroupDocs.Signature](/signature/net/) empowers .NET developers to revise the content of text signatures previously embedded in XLSX files. Augment .NET applications with advanced capabilities.
       
       1. Import the XLSX file into the Signature instance.
-      2. Extract a list of all text signatures within the document.
+      2. Extract a list of all signatures within the document.
       3. Revise the content of any identified signature.
       4. Evaluate the results of the modification.
    

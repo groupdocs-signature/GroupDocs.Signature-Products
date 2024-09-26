@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:11
+date:  2024-09-26T16:11:12
 draft: false
 lang: en
 format: Pptx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,28 +71,26 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Pass the document with signatures to the Signature instance
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Retrieve the list of digital signatures in the document
-            DigitalSearchOptions options = new DigitalSearchOptions();
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+        def run():
 
-            // Remove the first signature from the list
-            if(signatures.Count > 0)
-            {
-                DigitalSignature digitalSignature = signatures[0];
-                bool result = signature.Delete(digitalSignature);
+            # Pass the document with signatures to the Signature instance
+            with sg.Signature('input.pptx') as signature:
 
-                // Remove the first signature from the list
-                if(result)
-                {
-                    Console.WriteLine($"Digital signature in PPTX was deleted successfully");
-                }
-            }
-        }
+                # Retrieve the list of digital signatures in the document
+                options = sg.DigitalSearchOptions()
+
+                signatures = signature.Search(options)
+
+                # Remove the first signature from the list
+                digitalSignature = signatures[0]
+                result = signature.Delete(digitalSignature)
+
+                # Process and verify the deletion results
+                if result:
+                    print("\nDigital signature in PPTX was deleted successfully")
         ```            
 
 ############################# More features ############################
@@ -125,25 +123,20 @@ more_features:
       content: |
         Learn how to delete all barcode signatures from a document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Provide a document containing barcode signatures
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Remove all barcode signatures
-            DeleteResult result = signature.Delete(SignatureType.Barcode);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Check the results of the deletion process
-            if (result.Succeeded.Count > 0)
-            {
-                Console.WriteLine("Following PPTX barcode signatures were deleted:");                    
-                int number = 1;
-                foreach (BarcodeSignature temp in result.Succeeded)
-                {
-                    Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
-                        Id:{temp.SignatureId}, Text: {temp.Text}");
-                }
-            }
-        }
+        def run():
+
+            # Provide a document containing barcode signatures
+            with sg.Signature('input.pptx') as signature:
+
+                # Remove all barcode signatures
+                result = signature.Delete(SignatureType.Barcode)
+
+                # Check the results of the deletion process
+                if result.Succeeded.Count > 0:
+                    print("\n PPTX barcode signatures were deleted") 
         ```
         {{< /landing/code >}}
 

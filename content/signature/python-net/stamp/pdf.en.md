@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:07
+date:  2024-09-26T16:11:08
 draft: false
 lang: en
 format: Pdf
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,30 +71,32 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Attach the document path to the Signature instance
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Set up StampSignOptions with the required stamp details
-            StampSignOptions signOptions = new StampSignOptions();
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Add one or more lines to the stamp
-            signOptions.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* European Union *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+        def run():
 
-            // Save the document with the applied stamp
-            SignResult result = signature.Sign("output.pdf", options);
-        }
+            # Attach the document path to the Signature instance
+            with sg.Signature('input.pdf') as signature:
+
+                # Set up StampSignOptions with the required stamp details
+                options = sg.StampSignOptions()
+
+                # Add one or more lines to the stamp
+                outerLine = sg.StampLine()
+                outerLine.Text = "* European Union *"
+                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                outerLine.Font = sg.SignatureFont()
+                outerLine.Font.Size = 12
+                outerLine.Font.FamilyName = "Arial"
+                outerLine.Height = 22
+                outerLine.TextBottomIntent = 6
+                outerLine.TextColor = sg.Color.WhiteSmoke
+                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                options.OuterLines.Add(outerLine)
+
+                # Save the document with the applied stamp
+                result = signature.Sign("output.pdf", options)
         ```            
 
 ############################# More features ############################
@@ -127,49 +129,49 @@ more_features:
       content: |
         This example shows how to create and insert custom stamps with specific text details into a document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Provide the document you want to stamp
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Set up the stamp options with your desired settings
-            StampSignOptions signOptions = new StampSignOptions()
-            {
-                // Define the stamp’s size and placement on the page
-                Height = 300,
-                Width = 300,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                AllPages = true
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Add outer circular lines with text
-            signOptions.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* The best choice *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+        def run():
 
-            // Optionally, add inner square lines
-            signOptions.InnerLines.Add(
-                new StampLine()
-                { 
-                    Text = "Company #1",
-                    TextColor = Color.MediumVioletRed,
-                    Font = new SignatureFont() { Size = 20, Bold = true },
-                    Height = 40
-                }
-            );
+            # Provide the document you want to stamp
+            with sg.Signature('input.pdf') as signature:
 
-            // Finalize and save the stamped document
-            SignResult result = signature.Sign("output.pdf", options);
-        }
+                # Set up the stamp options with your desired settings
+                options = sg.StampSignOptions()
+
+                # Define the stamp’s size and placement on the page
+                options.Height = 300
+                options.Width = 300
+                options.VerticalAlignment = sg.VerticalAlignment.Center
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                options.AllPages = True
+
+                # Add outer circular lines with text
+                outerLine = sg.StampLine()
+                outerLine.Text = "* The best choice *"
+                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                outerLine.Font = sg.SignatureFont()
+                outerLine.Font.Size = 12
+                outerLine.Font.FamilyName = "Arial"
+                outerLine.Height = 22
+                outerLine.TextBottomIntent = 6
+                outerLine.TextColor = sg.Color.WhiteSmoke
+                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                options.OuterLines.Add(outerLine)
+
+                # Optionally, add inner square lines
+                innerLine = sg.StampLine()
+                innerLine.Text = "Company #1"
+                innerLine.TextColor = sg.Color.MediumVioletRed
+                innerLine.Font = sg.SignatureFont()
+                innerLine.Font.Size = 20
+                innerLine.Font.Bold = True
+                innerLine.Height = 40
+                options.InnerLines.Add(innerLine)
+
+                # Finalize and save the stamped document
+                result = signature.Sign("output.pdf", options)
         ```
         {{< /landing/code >}}
 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:10
+date:  2024-09-26T16:11:11
 draft: false
 lang: en
 format: Pdf
@@ -19,7 +19,7 @@ head_title: "Electronic signatures search for PDF using Python"
 head_description: "Leverage the GroupDocs.Signature for Python via .NET API to search for electronic signatures embedded in formats like PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "Search for digital signatures in PDF" 
+title: "PDF digital signatures search" 
 description: "Easily extract a complete list of electronic signatures from multiple formats, including PDFs, Word, Excel, Presentations, and Images, with the power of GroupDocs.Signature for Python via .NET."
 subtitle: "GroupDocs.Signature for Python via .NET" 
 
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,28 +71,25 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize a Signature object with the document's file path
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Create an instance of TextSearchOptions to search all pages
-            TextSearchOptions options = new TextSearchOptions()
-            {
-                AllPages = true
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Run a search to locate any text-based signatures in the document
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
-            Console.WriteLine($"\nSource document contains following text signature(s).");
+        def run():
 
-            // Compile a list of found signatures for detailed review               
-            foreach (TextSignature textSignature in signatures)
-            {
-                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
-                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
-            }
-        }
-        
+            # Initialize a Signature object with the document's file path
+            with sg.Signature('input.pdf') as signature:
+
+                # Create an instance of TextSearchOptions to search all pages
+                options = sg.TextSearchOptions()
+                options.AllPages = True
+
+                # Run a search to locate any text-based signatures in the document
+                signatures = signature.Search(options)
+                print("\nSource document contains following text signature(s).")
+
+                # Compile a list of found signatures for detailed review
+                for textSignature in signatures:
+                    print("\nFound Text signature at page ", textSignature.PageNumber)
         ```            
 
 ############################# More features ############################
@@ -121,22 +118,21 @@ more_features:
       content: |
         This example demonstrates how to find an image signature within a specific document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // Pass the source document to the constructor
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Search for any text-based signatures
-            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
-            Console.WriteLine($"\nSource document contains following image signature(s).");
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Display detailed properties of the identified signatures
-            foreach (ImageSignature imageSignature in signatures)
-            {
-                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
-                and size {imageSignature.Size}.");
-            }
-        }
+        def run():
+
+            # Pass the source document to the constructor
+            with sg.Signature('input.pdf') as signature:
+
+                # Search for any text-based signatures
+                signatures = signature.Search(sg.SignatureType.Image)
+                print("\nSource document contains following image signature(s).")
+
+                # Display detailed properties of the identified signatures
+                for imageSignature in signatures:
+                    print("\nFound image signature at page ", imageSignature.PageNumber)
         ```
         {{< /landing/code >}}
 

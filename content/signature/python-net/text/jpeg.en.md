@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:07
+date:  2024-09-26T16:11:08
 draft: false
 lang: en
 format: Jpeg
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,22 +71,26 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize the Signature with the document path
-        using (Signature signature = new Signature("input.jpeg"))
-        {
-            // Set up TextSignOptions with your desired signature text
-            TextSignOptions options = new TextSignOptions("John Smith")
-            {
-                // Choose the color and font for the signature
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" }
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Apply the text signature to the document
-            SignResult result = signature.Sign("output.jpeg", options);
-        }
-        ```            
+        def run():
+
+            # Initialize the Signature with the document path
+            with sg.Signature('input.jpeg') as signature:
+
+                # Set up TextSignOptions with your desired signature text
+                options = sg.TextSignOptions("John Smith")
+
+                # Choose the color and font for the signature
+                options.ForeColor = sg.Color.Red
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 14
+                options.Font.FamilyName = "Comic Sans MS"
+
+                # Apply the text signature to the document
+                result = signature.Sign("output.jpeg", options)
+        ```                
 
 ############################# More features ############################
 more_features:
@@ -118,54 +122,56 @@ more_features:
       content: |
         Learn how to embed text signatures into documents to streamline your processes.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Select the document to sign
-        using (Signature signature = new Signature("input.jpeg"))
-        {
-            // Set up text options with the desired content
-            TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
-            {
-                // Define the size and placement of the signature
-                Left = 100,
-                Top = 100,
-                Width = 100,
-                Height = 30,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Set padding from page edges
-                Margin = new Padding() { Top = 20, Right = 20 },
+        def run():
 
-                // Choose text color and font style
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+            # Select the document to sign
+            with sg.Signature('input.jpeg') as signature:
 
-                // Add a border around the text signature
-                Border = new Border()
-                {
-                    Color = Color.IndianRed,
-                    DashStyle = DashStyle.DashLongDashDot,
-                    Transparency = 0.5,
-                    Visible = true,
-                    Weight = 2
-                },
+                # Set up text options with the desired content
+                options = sg.TextSignOptions("Rescheduled to 03/04/2025")
 
-                // Customize the background if needed
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                },
+                # Define the size and placement of the signature
+                options.Left = 100
+                options.Top = 100
+                options.Width = 100
+                options.Height = 30
 
-                // Rotate the signature to your preferred angle
-                RotationAngle = 45,
+                # Set padding from page edges
+                options.Margin = sg.Padding()
+                options.Margin.Top = 20
+                options.Margin.Right = 20
 
-                // Optionally save the signature as an image for compatibility
-                SignatureImplementation = TextSignatureImplementation.Image
-            };
+                # Choose text color and font style
+                options.ForeColor = sg.Color.Red
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 12
+                options.Font.FamilyName = "Comic Sans MS"
 
-            // Save the document with the embedded signature
-            SignResult result = signature.Sign("output.jpeg", options);
-        }
+                # Add a border around the text signature
+                options.Border = sg.Border()
+                options.Border.Color = sg.Color.IndianRed
+                options.Border.DashStyle = sg.DashStyle.DashLongDashDot
+                options.Border.Transparency = 0.5
+                options.Border.Visible = True
+                options.Border.Weight = 2
+
+                # Customize the background if needed
+                options.Background = sg.Background()
+                options.Background.Color = sg.Color.LimeGreen
+                options.Background.Transparency = 0.5
+                options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
+
+                # Rotate the signature to your preferred angle
+                options.RotationAngle = 45
+
+                # Optionally save the signature as an image for compatibility
+                options.SignatureImplementation = sg.TextSignatureImplementation.Image
+
+                # Save the document with the embedded signature
+                result = signature.Sign("output.jpeg", options)
         ```
         {{< /landing/code >}}
 

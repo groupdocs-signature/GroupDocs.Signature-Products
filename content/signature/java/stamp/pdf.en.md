@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-18T13:24:36
+date:  2024-09-26T16:11:07
 draft: false
 lang: en
 format: Pdf
@@ -143,14 +143,14 @@ more_features:
         Signature signature = new Signature("input.pdf");
 
         // Instantiate the stamp options object
-        StampSignOptions signOptions = new StampSignOptions();
+        StampSignOptions options = new StampSignOptions();
 
         // Set the size and position on the page
-        signOptions.setHeight(300);
-        signOptions.setWidth(300);
-        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
-        signOptions.setAllPages(true);
+        options.setHeight(300);
+        options.setWidth(300);
+        options.setVerticalAlignment(VerticalAlignment.Bottom);
+        options.setHorizontalAlignment(HorizontalAlignment.Right);
+        options.setAllPages(true);
 
         // Add one or more outer round lines with text
         StampLine outerLine1 = new StampLine();
@@ -164,7 +164,7 @@ more_features:
         outerLine1.setTextBottomIntent(6);
         outerLine1.setTextColor(Color.WHITE);
         outerLine1.setBackgroundColor(Color.BLUE);
-        signOptions.getOuterLines().add(outerLine1);
+        options.getOuterLines().add(outerLine1);
 
         // Add one or more inner square lines
         StampLine innerLine1 = new StampLine();
@@ -175,7 +175,7 @@ more_features:
         signFont1.setBold(true);
         innerLine1.setFont(signFont1);
         innerLine1.setHeight(40);
-        signOptions.getInnerLines().add(innerLine1);
+        options.getInnerLines().add(innerLine1);
 
         // Save the stamped document
         SignResult result = signature.sign("output.pdf", options);

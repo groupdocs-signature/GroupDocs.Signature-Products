@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-18T13:24:36
+date:  2024-09-26T16:11:07
 draft: false
 lang: en
 format: Pdf
@@ -132,14 +132,14 @@ more_features:
         const signature = new signatureLib.Signature('input.pdf');
 
         // Set up stamp options with the desired configurations
-        const signOptions = new signatureLib.StampSignOptions();
+        const options = new signatureLib.StampSignOptions();
 
         // Specify the dimensions and position of the stamp on the page
-        signOptions.setHeight(300);
-        signOptions.setWidth(300);
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        signOptions.setAllPages(true);
+        options.setHeight(300);
+        options.setWidth(300);
+        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        options.setAllPages(true);
 
         // Include outer circular lines with custom text
         const outerLine1 = new signatureLib.StampLine();
@@ -153,7 +153,7 @@ more_features:
         outerLine1.setTextBottomIntent(6);
         outerLine1.setTextColor(signatureLib.Color.WHITE);
         outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
-        signOptions.getOuterLines().add(outerLine1);
+        options.getOuterLines().add(outerLine1);
 
         // Add inner square lines as needed
         const innerLine1 = new signatureLib.StampLine();
@@ -164,7 +164,7 @@ more_features:
         signFont1.setBold(true);
         innerLine1.setFont(signFont1);
         innerLine1.setHeight(40);
-        signOptions.getInnerLines().add(innerLine1);
+        options.getInnerLines().add(innerLine1);
         
         // Save the stamped document
         const result = signature.sign('output.pdf', options);

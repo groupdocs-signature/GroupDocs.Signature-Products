@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,28 +70,25 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            TextSearchOptions options = new TextSearchOptions()
-            {
-                AllPages = true
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_3}" %>
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
-            Console.WriteLine($"\nSource document contains following text signature(s).");
+        def run():
 
-            // <% "{examples.comment_4}" %>               
-            foreach (TextSignature textSignature in signatures)
-            {
-                Console.WriteLine($"Found Text signature at page {textSignature.PageNumber} with type
-                    [{textSignature.SignatureImplementation}] and text '{textSignature.Text}'.");
-            }
-        }
-        
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.TextSearchOptions()
+                options.AllPages = True
+
+                # <% "{examples.comment_3}" %>
+                signatures = signature.Search(options)
+                print("\nSource document contains following text signature(s).")
+
+                # <% "{examples.comment_4}" %>
+                for textSignature in signatures:
+                    print("\nFound Text signature at page ", textSignature.PageNumber)
         ```            
 
 ############################# More features ############################
@@ -120,22 +117,21 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
-            Console.WriteLine($"\nSource document contains following image signature(s).");
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{code_1.comment_3}" %>
-            foreach (ImageSignature imageSignature in signatures)
-            {
-                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
-                and size {imageSignature.Size}.");
-            }
-        }
+        def run():
+
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{code_1.comment_2}" %>
+                signatures = signature.Search(sg.SignatureType.Image)
+                print("\nSource document contains following image signature(s).")
+
+                # <% "{code_1.comment_3}" %>
+                for imageSignature in signatures:
+                    print("\nFound image signature at page ", imageSignature.PageNumber)
         ```
         {{< /landing/code >}}
 

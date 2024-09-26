@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,30 +70,32 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            StampSignOptions signOptions = new StampSignOptions();
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_3}" %>
-            signOptions.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* European Union *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+        def run():
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.StampSignOptions()
+
+                # <% "{examples.comment_3}" %>
+                outerLine = sg.StampLine()
+                outerLine.Text = "* European Union *"
+                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                outerLine.Font = sg.SignatureFont()
+                outerLine.Font.Size = 12
+                outerLine.Font.FamilyName = "Arial"
+                outerLine.Height = 22
+                outerLine.TextBottomIntent = 6
+                outerLine.TextColor = sg.Color.WhiteSmoke
+                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                options.OuterLines.Add(outerLine)
+
+                # <% "{examples.comment_4}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```            
 
 ############################# More features ############################
@@ -126,49 +128,49 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            StampSignOptions signOptions = new StampSignOptions()
-            {
-                // <% "{code_1.comment_3}" %>
-                Height = 300,
-                Width = 300,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                AllPages = true
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{code_1.comment_4}" %>
-            signOptions.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* The best choice *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+        def run():
 
-            // <% "{code_1.comment_5}" %>
-            signOptions.InnerLines.Add(
-                new StampLine()
-                { 
-                    Text = "Company #1",
-                    TextColor = Color.MediumVioletRed,
-                    Font = new SignatureFont() { Size = 20, Bold = true },
-                    Height = 40
-                }
-            );
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-            // <% "{code_1.comment_6}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+                # <% "{code_1.comment_2}" %>
+                options = sg.StampSignOptions()
+
+                # <% "{code_1.comment_3}" %>
+                options.Height = 300
+                options.Width = 300
+                options.VerticalAlignment = sg.VerticalAlignment.Center
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                options.AllPages = True
+
+                # <% "{code_1.comment_4}" %>
+                outerLine = sg.StampLine()
+                outerLine.Text = "* The best choice *"
+                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                outerLine.Font = sg.SignatureFont()
+                outerLine.Font.Size = 12
+                outerLine.Font.FamilyName = "Arial"
+                outerLine.Height = 22
+                outerLine.TextBottomIntent = 6
+                outerLine.TextColor = sg.Color.WhiteSmoke
+                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                options.OuterLines.Add(outerLine)
+
+                # <% "{code_1.comment_5}" %>
+                innerLine = sg.StampLine()
+                innerLine.Text = "Company #1"
+                innerLine.TextColor = sg.Color.MediumVioletRed
+                innerLine.Font = sg.SignatureFont()
+                innerLine.Font.Size = 20
+                innerLine.Font.Bold = True
+                innerLine.Height = 40
+                options.InnerLines.Add(innerLine)
+
+                # <% "{code_1.comment_6}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```
         {{< /landing/code >}}
 
