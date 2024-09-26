@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-18T13:24:36
+date:  2024-09-26T16:11:07
 draft: false
 lang: en
 format: Pdf
@@ -76,10 +76,10 @@ steps:
         using (Signature signature = new Signature("input.pdf"))
         {
             // Initialize StampSignOptions with the required signature content
-            StampSignOptions signOptions = new StampSignOptions();
+            StampSignOptions options = new StampSignOptions();
 
             // Incorporate one or multiple stamp lines
-            signOptions.OuterLines.Add(
+            options.OuterLines.Add(
                 new StampLine()
                 {
                     Text = "* European Union *",
@@ -132,7 +132,7 @@ more_features:
         using (Signature signature = new Signature("input.pdf"))
         {
             // Initialize the stamp options with the desired configurations
-            StampSignOptions signOptions = new StampSignOptions()
+            StampSignOptions options = new StampSignOptions()
             {
                 // Define the stamp’s dimensions and position on the page
                 Height = 300,
@@ -143,7 +143,7 @@ more_features:
             };
 
             // Incorporate outer circular lines with text
-            signOptions.OuterLines.Add(
+            options.OuterLines.Add(
                 new StampLine()
                 {
                     Text = "* The best choice *",
@@ -157,7 +157,7 @@ more_features:
             );
 
             // Integrate inner square lines if necessary
-            signOptions.InnerLines.Add(
+            options.InnerLines.Add(
                 new StampLine()
                 { 
                     Text = "Company #1",

@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,28 +70,26 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            DigitalSearchOptions options = new DigitalSearchOptions();
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            List<DigitalSignature> signatures = signature.Search<DigitalSignature>(options);
+        def run():
 
-            // <% "{examples.comment_3}" %>
-            if(signatures.Count > 0)
-            {
-                DigitalSignature digitalSignature = signatures[0];
-                bool result = signature.Delete(digitalSignature);
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                // <% "{examples.comment_3}" %>
-                if(result)
-                {
-                    Console.WriteLine($"Digital signature in <% get "FileFormatUp" %> was deleted successfully");
-                }
-            }
-        }
+                # <% "{examples.comment_2}" %>
+                options = sg.DigitalSearchOptions()
+
+                signatures = signature.Search(options)
+
+                # <% "{examples.comment_3}" %>
+                digitalSignature = signatures[0]
+                result = signature.Delete(digitalSignature)
+
+                # <% "{examples.comment_4}" %>
+                if result:
+                    print("\nDigital signature in <% get "FileFormatUp" %> was deleted successfully")
         ```            
 
 ############################# More features ############################
@@ -124,25 +122,20 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            DeleteResult result = signature.Delete(SignatureType.Barcode);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{code_1.comment_3}" %>
-            if (result.Succeeded.Count > 0)
-            {
-                Console.WriteLine("Following <% get "FileFormatUp" %> barcode signatures were deleted:");                    
-                int number = 1;
-                foreach (BarcodeSignature temp in result.Succeeded)
-                {
-                    Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
-                        Id:{temp.SignatureId}, Text: {temp.Text}");
-                }
-            }
-        }
+        def run():
+
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{code_1.comment_2}" %>
+                result = signature.Delete(SignatureType.Barcode)
+
+                # <% "{code_1.comment_3}" %>
+                if result.Succeeded.Count > 0:
+                    print("\n <% get "FileFormatUp" %> barcode signatures were deleted") 
         ```
         {{< /landing/code >}}
 

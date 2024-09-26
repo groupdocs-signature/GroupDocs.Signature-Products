@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,23 +70,25 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
-            {
-                // <% "{examples.comment_3}" %>
-                EncodeType = BarcodeTypes.Code128,
-                Left = 50,
-                Top = 150
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```            
+        def run():
+
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.BarcodeSignOptions('Business data')
+
+                # <% "{examples.comment_3}" %>
+                options.EncodeType = sg.BarcodeTypes.Code128
+                options.Left = 50
+                options.Top = 150
+
+                # <% "{examples.comment_4}" %>
+                result = signature.Sign('output.<% get "fileformat" %>', options)
+        ```          
 
 ############################# More features ############################
 more_features:
@@ -118,33 +120,39 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
-            {
-                // <% "{code_1.comment_3}" %>
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // <% "{code_1.comment_4}" %>
-                Margin = new Padding() { Top = 20, Right = 20 },
+        def run():
 
-                // <% "{code_1.comment_5}" %>
-                ForeColor = Color.Red,
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                // <% "{code_1.comment_6}" %>
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                # <% "{code_1.comment_2}" %>
+                options = sg.BarcodeSignOptions('Accepted for review on February 15, 2020')
 
-                // <% "{code_1.comment_7}" %>
-                CodeTextAlignment = CodeTextAlignment.Above
-            }
+                # <% "{code_1.comment_3}" %>
+                options.VerticalAlignment = sg.VerticalAlignment.Top
+                options.HorizontalAlignment = sg.HorizontalAlignment.Right
 
-            // <% "{code_1.comment_8}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+                # <% "{code_1.comment_4}" %>
+                options.Margin = sg.Padding()
+                options.Margin.Top = 20
+                options.Margin.Right = 20
+
+                # <% "{code_1.comment_5}" %>
+                options.ForeColor = sg.Color.Red
+
+                # <% "{code_1.comment_6}" %>
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 12
+                options.Font.FamilyName = 'Comic Sans MS'
+
+                # <% "{code_1.comment_7}" %>
+                options.CodeTextAlignment = sg.CodeTextAlignment.Above
+
+                # <% "{code_1.comment_8}" %>
+                result = signature.Sign('output.<% get "fileformat" %>', options)
         ```
         {{< /landing/code >}}
 

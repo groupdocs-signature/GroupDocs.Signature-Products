@@ -373,7 +373,7 @@
   ,
   "index-content-python-net": {
     "head_title": "Python Digital Signature API - GroupDocs.Signature",
-    "head_description": "Easily integrate secure e-signatures into Python applications using GroupDocs.Signature. Simplify and streamline your document signing workflows with minimal effort.",
+    "head_description": "Easily integrate secure e-signatures into Python applications using GroupDocs.Signature. Simplify and streamline your document signing workflows.",
     "title": "Sign Documents with Python API",
     "description": "Digitally sign documents and images across platforms with our flexible APIs, built for developers and end-users alike.",
     "actions_main": "Download from PyPI",

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:09
+date:  2024-09-26T16:11:10
 draft: false
 lang: en
 format: Xlsx
@@ -19,7 +19,7 @@ head_title: "Generate a barcode for XLSX with Python"
 head_description: "Easily generate a barcode signature and insert it into a XLSX document using Python. Use GroupDocs.Signature to sign a variety of file formats with just a few lines of code."
 
 ############################# Header ############################
-title: "Generate and insert a barcode into XLSX" 
+title: "Generate barcodes for XLSX" 
 description: "With GroupDocs.Signature for Python via .NET, you can place barcodes in your business documents wherever needed. Our solution provides flexible options for barcode signature customization."
 subtitle: "GroupDocs.Signature for Python via .NET" 
 
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,22 +71,24 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize the Signature object with the document path
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Use BarcodeSignOptions to add a barcode to the document
-            BarcodeSignOptions options = new BarcodeSignOptions("Business data")
-            {
-                // Set the barcode type and configure its properties
-                EncodeType = BarcodeTypes.Code128,
-                Left = 50,
-                Top = 150
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Save the signed document
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+        def run():
+
+            # Initialize the Signature object with the document path
+            with sg.Signature('input.xlsx') as signature:
+
+                # Use BarcodeSignOptions to add a barcode to the document
+                options = sg.BarcodeSignOptions('Business data')
+
+                # Set the barcode type and configure its properties
+                options.EncodeType = sg.BarcodeTypes.Code128
+                options.Left = 50
+                options.Top = 150
+
+                # Save the signed document
+                result = signature.Sign('output.xlsx', options)
         ```            
 
 ############################# More features ############################
@@ -119,33 +121,39 @@ more_features:
       content: |
         This example demonstrates how to insert a custom barcode into a XLSX document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Provide the document to be signed
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Set the barcode text and signature options
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
-            {
-                // Choose the position for the barcode on the page
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Set padding between the barcode and page edge
-                Margin = new Padding() { Top = 20, Right = 20 },
+        def run():
 
-                // Specify the color of the barcode bars
-                ForeColor = Color.Red,
+            # Provide the document to be signed
+            with sg.Signature('input.xlsx') as signature:
 
-                // Choose the font style for the barcode message
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                # Set the barcode text and signature options
+                options = BarcodeSignOptions('Accepted for review on February 15, 2020')
 
-                // Set the position of the message text
-                CodeTextAlignment = CodeTextAlignment.Above
-            }
+                # Choose the position for the barcode on the page
+                options.VerticalAlignment = sg.VerticalAlignment.Top
+                options.HorizontalAlignment = sg.HorizontalAlignment.Right
 
-            // Sign and save the document
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+                # Set padding between the barcode and page edge
+                options.Margin = sg.Padding()
+                options.Margin.Top = 20
+                options.Margin.Right = 20
+
+                # Specify the color of the barcode bars
+                options.ForeColor = sg.Color.Red
+
+                # Choose the font style for the barcode message
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 12
+                options.Font.FamilyName = 'Comic Sans MS'
+
+                # Set the position of the message text
+                options.CodeTextAlignment = sg.CodeTextAlignment.Above
+
+                # Sign and save the document
+                result = signature.Sign('output.xlsx', options)
         ```
         {{< /landing/code >}}
 

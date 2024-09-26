@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-12T18:38:41
+date:  2024-09-26T16:11:11
 draft: false
 lang: en
 format: Xlsx
@@ -48,7 +48,7 @@ steps:
       [GroupDocs.Signature](/signature/nodejs-java/) empowers Node.js via Java developers to update the content of text signatures previously embedded in XLSX files. Enhance Node.js via Java applications with robust editing capabilities.
       
       1. Import the XLSX document into the Signature instance.
-      2. Retrieve a list of all text signatures within the document.
+      2. Retrieve a list of all signatures within the document.
       3. Update the content of the desired signature.
       4. Examine the results of the modifications.
    

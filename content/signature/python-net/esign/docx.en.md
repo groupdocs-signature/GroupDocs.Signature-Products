@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:09
+date:  2024-09-26T16:11:10
 draft: false
 lang: en
 format: Docx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,22 +71,24 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Load the document into a Signature instance
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Create a new QrCodeSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
-            {
-                // Set up all required options
-                Left = 50,
-                Top = 200,
-                ForeColor = Color.Red
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Save the signed document to your system
-            SignResult result = signature.Sign("output.docx", options);
-        }
+        def run():
+
+            # Load the document into a Signature instance
+            with sg.Signature('input.docx') as signature:
+
+                # Create a new QrCodeSignOptions object
+                options = sg.TextSignOptions("John Smith")
+
+                # Set up all required options
+                options.Left = 50
+                options.Top = 200
+                options.ForeColor = Color.Red
+
+                # Save the signed document to your system
+                result = signature.Sign("output.docx", options)
         ```            
 
 ############################# More features ############################
@@ -115,24 +117,24 @@ more_features:
       content: |
         This example demonstrates how to apply an image signature to a specific page of a document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // Load the document you want to sign
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Set the path to the image in the signature options
-            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
-            {
-                // Define the size and placement of the signature on the target pages
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Apply the signature and save the signed document
-            SignResult result = signature.Sign("output.docx", options);
-        }
+        def run():
 
+            # Load the document you want to sign
+            with sg.Signature('input.docx') as signature:
+
+                # Set the path to the image in the signature options
+                options = sg.QrCodeSignOptions("QR code text")
+
+                # Define the size and placement of the signature on the target pages
+                options.Left = 50
+                options.Top = 50
+                options.AllPages = True
+
+                # Apply the signature and save the signed document
+                result = signature.Sign("output.docx", options)
         ```
         {{< /landing/code >}}
 

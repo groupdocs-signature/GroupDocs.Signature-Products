@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:10
+date:  2024-09-26T16:11:11
 draft: false
 lang: en
 format: Pptx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,28 +71,28 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Create a Signature object with the document path
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Search for text signatures in the document
-            TextSearchOptions options = new TextSearchOptions();
-            List<TextSignature> signatures = signature.Search<TextSignature>(options);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            if (signatures.Count > 0)
-            {
-                // Update the content of the first found signature
-                TextSignature textSignature = signatures[0];
-                textSignature.Text = "New Text";
-                bool result = signature.Update(textSignature);
+        def run():
 
-                // Verify the results of the signature update
-                if (result)
-                {
-                    Console.WriteLine($"Signature was updated successfully");
-                }
-            }
-        }
+            # Create a Signature object with the document path
+            with sg.Signature('input.pptx') as signature:
+
+                # Search for text signatures in the document
+                options = sg.TextSearchOptions()
+                signatures = signature.Search(options)
+
+                if signatures.Count > 0:
+
+                    # Update the content of the first found signature
+                    textSignature = signatures[0]
+                    textSignature.Text = "New Text"
+                    result = signature.Update(textSignature)
+
+                    # Verify the results of the signature update
+                    if result:
+                        print("\nSignature was updated successfully")
         ```            
 
 ############################# More features ############################
@@ -125,29 +125,29 @@ more_features:
       content: |
         This example demonstrates how to programmatically edit barcode signatures in a document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Load a document that contains barcode signatures
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Search for all existing barcode signatures
-            BarcodeSearchOptions options = new BarcodeSearchOptions();
-            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            if (signatures.Count > 0)
-            {
-                // Change the position of the first found barcode and save the document
-                BarcodeSignature barcodeSignature = signatures[0];
-                barcodeSignature.Left = 100;
-                barcodeSignature.Top = 100;
-                bool result = signature.Update(barcodeSignature);
+        def run():
 
-                // Verify that the barcode modification was successful
-                if (result)
-                {
-                    Console.WriteLine($"Barcode was updated successfully.");
-                }
-            }
-        }
+            # Load a document that contains barcode signatures
+            with sg.Signature('input.pptx') as signature:
+
+                # Search for all existing barcode signatures
+                options = sg.BarcodeSearchOptions()
+                signatures = signature.Search(options)
+
+                if signatures.Count > 0:
+
+                    # Change the position of the first found barcode and save the document
+                    barcodeSignature = signatures[0]
+                    barcodeSignature.Left = 100
+                    barcodeSignature.Top = 100
+                    result = signature.Update(barcodeSignature)
+
+                    # Verify that the barcode modification was successful
+                    if result:
+                        print("\nBarcode was updated successfully.")
         ```
         {{< /landing/code >}}
 

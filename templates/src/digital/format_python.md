@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,24 +70,25 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // <% "{examples.comment_3}" %>
-                PageNumber = 1,
-                Left = 50,
-                Top = 50
-            };
+        def run():
 
-            // <% "{examples.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{examples.comment_2}" %>
+                options = sg.DigitalSignOptions("certificate.pfx")
+                options.Password = "1234567890"
+
+                # <% "{examples.comment_3}" %>
+                options.PageNumber = 1
+                options.Left = 50
+                options.Top = 50
+
+                # <% "{examples.comment_4}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```            
 
 ############################# More features ############################
@@ -120,34 +121,37 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // <% "{code_1.comment_3}" %>
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+        def run():
 
-                // <% "{code_1.comment_4}" %>
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                # <% "{code_1.comment_2}" %>
+                options = sg.DigitalSignOptions("certificate.pfx")
+                options.Password = "1234567890"
 
-            // <% "{code_1.comment_5}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+                # <% "{code_1.comment_3}" %>
+                options.Reason = "Security issue"
+                options.Contact = "John Smith"
+                options.Location = "Office D.W."
+
+                # <% "{code_1.comment_4}" %>
+                options.ImageFilePath = "image.png"
+                options.AllPages = True
+                options.VerticalAlignment = sg.VerticalAlignment.Center
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                options.Width = 60
+                options.Height = 80
+
+                options.Margin = sg.Padding()
+                options.Margin.Bottom = 10
+                options.Margin.Right = 10
+
+                # <% "{code_1.comment_5}" %>
+                result = signature.Sign("output.<% get "fileformat" %>", options)
         ```
         {{< /landing/code >}}
 

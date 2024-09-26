@@ -58,7 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,30 +70,27 @@ steps:
           link: "<% get "DocsUrl" %>"
           
       content: |
-        ```csharp {style=abap}
-        // <% "{examples.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_2}" %>
-            TextVerifyOptions options = new TextVerifyOptions()
-            {
-                Text = "signature",
-                MatchType = TextMatchType.Contains
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{examples.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
+        def run():
 
-            // <% "{examples.comment_4}" %>
-            if(result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (TextSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
-                }
-            }
-        }
+            # <% "{examples.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                // <% "{examples.comment_2}" %>
+                options = sg.TextVerifyOptions()
+                options.Text = "signature"
+                options.MatchType = TextMatchType.Contains
+
+                // <% "{examples.comment_3}" %>
+                result = signature.Verify(options)
+
+                // <% "{examples.comment_4}" %>
+                if result.IsValid :
+                    print("\nDocument was verified successfully!")
+                    for item in result.Succeeded :
+                         print("\nValid signature is found with text", item.Text)
         ```            
 
 ############################# More features ############################
@@ -126,31 +123,27 @@ more_features:
       content: |
         <% "{code_1.content}" %>
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.Contains
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // <% "{code_1.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
+        def run():
 
-            // <% "{code_1.comment_4}" %>
-            if (result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
-                }
-            }
-        }
+            # <% "{code_1.comment_1}" %>
+            with sg.Signature('input.<% get "fileformat" %>') as signature:
+
+                # <% "{code_1.comment_2}" %>
+                options = sg.BarcodeVerifyOptions()
+                options.Text = "12345"
+                options.MatchType = sg.TextMatchType.Contains
+
+                # <% "{code_1.comment_3}" %>
+                result = signature.Verify(options)
+
+                # <% "{code_1.comment_4}" %>
+                if result.IsValid :
+                    print("\nDocument was verified successfully!")
+                    for item in result.Succeeded :
+                         print("\nValid signature is found with text", item.Text)
         ```
         {{< /landing/code >}}
 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:08
+date:  2024-09-26T16:11:09
 draft: false
 lang: en
 format: Pptx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,22 +71,24 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize a new Signature instance with the document
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Use QrCodeSignOptions to embed a QR code into the document
-            QrCodeSignOptions options = new QrCodeSignOptions("Text Content")
-                {
-                    // Specify the signature type and set its position on the page
-                    EncodeType = QrCodeTypes.QR,
-                    Left = 50,
-                    Top = 150
-                };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Save the document with the embedded QR code
-            SignResult result = signature.Sign("output.pptx", options);
-        }
+        def run():
+
+            # Initialize a new Signature instance with the document
+            with sg.Signature('input.pptx') as signature:
+
+                # Use QrCodeSignOptions to embed a QR code into the document
+                options = sg.QrCodeSignOptions("Text Content")
+
+                # Specify the signature type and set its position on the page
+                options.EncodeType = sg.QrCodeTypes.QR
+                options.Left = 50
+                options.Top = 150
+
+                # Save the document with the embedded QR code
+                result = signature.Sign("output.pptx", options)
         ```            
 
 ############################# More features ############################
@@ -119,38 +121,42 @@ more_features:
       content: |
         This example shows how to place a customized QR code on a PPTX page.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Get the document to be signed and pass it to Signature
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Configure QR code options with the required text
-            QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
-            {
-                // Set the QR code’s position on the page
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Set the padding for the signature
-                Margin = new Padding() { Top = 20, Right = 20 },
+        def run():
 
-                // Choose the color of the QR code
-                ForeColor = Color.Red,
+            # Get the document to be signed and pass it to Signature
+            with sg.Signature('input.pptx') as signature:
 
-                // Define the font options for the message
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                # Configure QR code options with the required text
+                options = sg.QrCodeSignOptions("Archived on July 11, 2019")
 
-                // Set the background color and brush for the QR code
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                }
-            }
+                # Set the QR code’s position on the page
+                options.VerticalAlignment = sg.Domain.VerticalAlignment.Top
+                options.HorizontalAlignment = sg.Domain.HorizontalAlignment.Right
 
-            // Embed the QR code into the document
-            SignResult result = signature.Sign("output.pptx", options);
-        }
+                # Set the padding for the signature
+                options.Margin = sg.Padding()
+                options.Margin.Top = 20
+                options.Margin.Right = 20
+
+                # Choose the color of the QR code
+                options.ForeColor = sg.Color.Red
+
+                # Define the font options for the message
+                options.Font = sg.SignatureFont()
+                options.Font.Size = 12
+                options.Font.FamilyName = "Comic Sans MS"
+
+                # Set the background color and brush for the QR code
+                options.Background = sg.Background()
+                options.Background.Color = Color.LimeGreen
+                options.Background.Transparency = 0.5
+                options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
+
+                # Embed the QR code into the document
+                result = signature.Sign("output.pptx", options)
         ```
         {{< /landing/code >}}
 

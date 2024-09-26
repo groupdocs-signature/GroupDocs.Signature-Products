@@ -131,14 +131,14 @@ more_features:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{code_1.comment_2}" %>
-        const signOptions = new signatureLib.StampSignOptions();
+        const options = new signatureLib.StampSignOptions();
 
         // <% "{code_1.comment_3}" %>
-        signOptions.setHeight(300);
-        signOptions.setWidth(300);
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        signOptions.setAllPages(true);
+        options.setHeight(300);
+        options.setWidth(300);
+        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        options.setAllPages(true);
 
         // <% "{code_1.comment_4}" %>
         const outerLine1 = new signatureLib.StampLine();
@@ -152,7 +152,7 @@ more_features:
         outerLine1.setTextBottomIntent(6);
         outerLine1.setTextColor(signatureLib.Color.WHITE);
         outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
-        signOptions.getOuterLines().add(outerLine1);
+        options.getOuterLines().add(outerLine1);
 
         // <% "{code_1.comment_5}" %>
         const innerLine1 = new signatureLib.StampLine();
@@ -163,7 +163,7 @@ more_features:
         signFont1.setBold(true);
         innerLine1.setFont(signFont1);
         innerLine1.setHeight(40);
-        signOptions.getInnerLines().add(innerLine1);
+        options.getInnerLines().add(innerLine1);
         
         // <% "{code_1.comment_6}" %>
         const result = signature.sign('output.<% get "fileformat" %>', options);

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T21:15:07
+date:  2024-09-26T16:11:10
 draft: false
 lang: en
 format: Xlsx
@@ -19,7 +19,7 @@ head_title: "Electronically sign XLSX via C# apps"
 head_description: "Leverage the power of C# API to electronically sign and secure XLSX documents, including PDFs, Word, Excel, Presentations, and Images."
 
 ############################# Header ############################
-title: "e-Sign XLSX" 
+title: "Electronic signing of XLSX files" 
 description: "Embed a variety of electronic signatures into your documents using GroupDocs.Signature for .NET, ensuring compliance and integrity for formats such as PDFs, Word, Excel, Presentations, and Images."
 subtitle: "GroupDocs.Signature for .NET" 
 

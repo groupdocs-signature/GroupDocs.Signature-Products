@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:07
+date:  2024-09-26T16:11:08
 draft: false
 lang: en
 format: Xlsx
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,22 +71,24 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize Signature with the document path
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Set up ImageSignOptions with the chosen image for the signature
-            ImageSignOptions options = new ImageSignOptions("boss_signature.jpg")
-            {
-                // Position the image at the top-left corner of each page
-                AllPages = true,
-                Left = 100,
-                Top = 100
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Save the signed document
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+        def run():
+
+            # Initialize Signature with the document path
+            with sg.Signature('input.xlsx') as signature:
+
+                # Set up ImageSignOptions with the chosen image for the signature
+                options = sg.ImageSignOptions("boss_signature.jpg")
+
+                # Position the image at the top-left corner of each page
+                options.AllPages = True
+                options.Left = 100
+                options.Top = 100
+                
+                # Save the signed document
+                result = signature.Sign("output.xlsx", options)
         ```            
 
 ############################# More features ############################
@@ -119,40 +121,42 @@ more_features:
       content: |
         Learn how to embed image signatures in your business documents to enrich content.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Choose the document to be signed
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Set up image options with the image file path
-            ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
-            {
-                // Specify the size of the image signature
-                Width = 100,
-                Height = 100,
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-                // Position the image in the bottom-right corner of the page
-                VerticalAlignment = VerticalAlignment.Bottom,
-                HorizontalAlignment = HorizontalAlignment.Right,
+        def run():
 
-                // Apply padding from the page edges as needed
-                Margin = new Padding() { Bottom = 120, Right = 120 },
+            # Choose the document to be signed
+            with sg.Signature('input.xlsx') as signature:
 
-                // Optionally, add a border around the image
-                Border = new Border()
-                {
-                    Visible = true,
-                    Color = Color.OrangeRed,
-                    DashStyle = DashStyle.DashDotDot,
-                    Weight = 5
-                },
+                # Set up image options with the image file path
+                options = sg.ImageSignOptions("organization_seal.jpg")
 
-                // Rotate the image to ensure proper alignment
-                RotationAngle = 45
-            };
+                # Specify the size of the image signature
+                options.Width = 100
+                options.Height = 100
 
-            // Save the updated document
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
+                # Position the image in the bottom-right corner of the page
+                options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+
+                # Apply padding from the page edges as needed
+                options.Margin = sg.Padding()
+                options.Margin.Bottom = 120
+                options.Margin.Right = 120
+
+                # Optionally, add a border around the image
+                options.Border = sg.Border()
+                options.Border.Visible = True
+                options.Border.Color = sg.Color.OrangeRed
+                options.Border.DashStyle = sg.DashStyle.DashDotDot
+                options.Border.Weight = 5
+
+                # Rotate the image to ensure proper alignment
+                options.RotationAngle = 45
+
+                # Save the updated document
+                result = signature.Sign("output.xlsx", options)
         ```
         {{< /landing/code >}}
 

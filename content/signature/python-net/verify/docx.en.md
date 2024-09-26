@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-25T13:02:10
+date:  2024-09-26T16:11:11
 draft: false
 lang: en
 format: Docx
@@ -21,7 +21,7 @@ head_description: "Utilize GroupDocs.Signature for Python via .NET to verify sig
 ############################# Header ############################
 title: "DOCX digital signatures verification" 
 description: "Quickly and accurately verify electronic signatures in various formats, including PDFs, Word, Excel, Presentations, Images, and ZIP files using GroupDocs.Signature for Python via .NET."
-subtitle: "{{ProdFullNamFe}}" 
+subtitle: "GroupDocs.Signature for Python via .NET" 
 
 header_actions:
   enable: true
@@ -59,7 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
-        command: "dotnet add package GroupDocs.Signature"
+        command: "pip install groupdocs-signature-net"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -71,30 +71,27 @@ steps:
           link: "https://docs.groupdocs.com/signature/python-net/"
           
       content: |
-        ```csharp {style=abap}
-        // Initialize Signature with the document
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Set up TextVerifyOptions to verify signatures with specific text
-            TextVerifyOptions options = new TextVerifyOptions()
-            {
-                Text = "signature",
-                MatchType = TextMatchType.Contains
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Run the signature verification on the document
-            VerificationResult result = signature.Verify(options);
+        def run():
 
-            // Review and analyze the verification results
-            if(result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (TextSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text}");
-                }
-            }
-        }
+            # Initialize Signature with the document
+            with sg.Signature('input.docx') as signature:
+
+                // Set up TextVerifyOptions to verify signatures with specific text
+                options = sg.TextVerifyOptions()
+                options.Text = "signature"
+                options.MatchType = TextMatchType.Contains
+
+                // Run the signature verification on the document
+                result = signature.Verify(options)
+
+                // Review and analyze the verification results
+                if result.IsValid :
+                    print("\nDocument was verified successfully!")
+                    for item in result.Succeeded :
+                         print("\nValid signature is found with text", item.Text)
         ```            
 
 ############################# More features ############################
@@ -127,31 +124,27 @@ more_features:
       content: |
         This example demonstrates how to verify barcode signatures in a document.
         {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Load the document with barcode signatures
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Set the verification options to match specific barcode text
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.Contains
-            };
+        ```python {style=abap}
+        import groupdocs.signature as sg
 
-            // Verify the signatures in the document
-            VerificationResult result = signature.Verify(options);
+        def run():
 
-            // Display the verification results
-            if (result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
-                }
-            }
-        }
+            # Load the document with barcode signatures
+            with sg.Signature('input.docx') as signature:
+
+                # Set the verification options to match specific barcode text
+                options = sg.BarcodeVerifyOptions()
+                options.Text = "12345"
+                options.MatchType = sg.TextMatchType.Contains
+
+                # Verify the signatures in the document
+                result = signature.Verify(options)
+
+                # Display the verification results
+                if result.IsValid :
+                    print("\nDocument was verified successfully!")
+                    for item in result.Succeeded :
+                         print("\nValid signature is found with text", item.Text)
         ```
         {{< /landing/code >}}
 

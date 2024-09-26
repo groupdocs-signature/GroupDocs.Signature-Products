@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-09-25T12:45:24
+date:  2024-09-26T13:44:48
 draft: false
 
 product: "Signature"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/signature/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/signature/"
+      features_link: "https://docs.groupdocs.com/signature/nodejs-java/system-requirements/"
       features:
           # features loop
           - rows: "3"
@@ -122,7 +122,7 @@ supported_platforms:
       color: "yellow"
       tag: "python-net"
       link: "/signature/python-net/"
-      features_link: "https://docs.groupdocs.com/signature/"
+      features_link: "https://docs.groupdocs.com/signature/python-net/system-requirements/"
       features:
           # features loop
           - rows: "3"

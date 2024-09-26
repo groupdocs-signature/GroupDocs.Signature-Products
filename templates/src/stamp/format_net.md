@@ -75,10 +75,10 @@ steps:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            StampSignOptions signOptions = new StampSignOptions();
+            StampSignOptions options = new StampSignOptions();
 
             // <% "{examples.comment_3}" %>
-            signOptions.OuterLines.Add(
+            options.OuterLines.Add(
                 new StampLine()
                 {
                     Text = "* European Union *",
@@ -131,7 +131,7 @@ more_features:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{code_1.comment_2}" %>
-            StampSignOptions signOptions = new StampSignOptions()
+            StampSignOptions options = new StampSignOptions()
             {
                 // <% "{code_1.comment_3}" %>
                 Height = 300,
@@ -142,7 +142,7 @@ more_features:
             };
 
             // <% "{code_1.comment_4}" %>
-            signOptions.OuterLines.Add(
+            options.OuterLines.Add(
                 new StampLine()
                 {
                     Text = "* The best choice *",
@@ -156,7 +156,7 @@ more_features:
             );
 
             // <% "{code_1.comment_5}" %>
-            signOptions.InnerLines.Add(
+            options.InnerLines.Add(
                 new StampLine()
                 { 
                     Text = "Company #1",
