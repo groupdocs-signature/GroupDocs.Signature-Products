@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -52,7 +52,7 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
