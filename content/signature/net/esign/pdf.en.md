@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:10
+date:  2024-10-02T16:58:52
 draft: false
 lang: en
 format: Pdf
@@ -109,32 +109,54 @@ more_features:
     - title: "Enhanced content security"
       content: "Protect the integrity of your documents using digital certificates. Embed or extract metadata for enhanced document tracking and auditing, ensuring compliance and content authenticity."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to add an image signature to a document"
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // Provide the source document as an argument
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Specify the path to the image in the signature configuration
-            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
-            {
-                // Define the dimensions and target pages for the signature
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
+      code:
+        title: "C# code sample"
+        content: |
+          ```csharp {style=abap}
+          // Provide the source document as an argument
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // Specify the path to the image in the signature configuration
+              QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
+              {
+                  // Define the dimensions and target pages for the signature
+                  Left = 50,
+                  Top = 50,
+                  AllPages = true
+              };
 
-            // Execute the application of the signature to the document
-            SignResult result = signature.Sign("output.pdf", options);
-        }
+              // Execute the application of the signature to the document
+              SignResult result = signature.Sign("output.pdf", options);
+          }
 
-        ```
-        {{< /landing/code >}}
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command_title: "dotnet add package GroupDocs.Signature"
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature_esign.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T21:15:07
+date:  2024-10-02T16:58:52
 draft: false
 lang: en
 format: Pptx
@@ -110,31 +110,54 @@ more_features:
     - title: "Strengthen document security"
       content: "Use digital certificates to safeguard your documents from tampering. You can embed or extract metadata to enhance traceability and auditing, ensuring document compliance and authenticity."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to apply an image signature to a document"
       content: |
         This guide details the process for affixing an image signature to a designated page within a document.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
+      code:
+        title: "JS code sample"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+        
+          // Provide the source document as an input parameter
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // Provide the source document as an input parameter
-        const signature = new signatureLib.Signature('input.pptx');
+          // Specify the image file path in the signature configuration options
+          const options = new signatureLib.ImageSignOptions('image.jpg');
 
-        // Specify the image file path in the signature configuration options
-        const options = new signatureLib.ImageSignOptions('image.jpg');
+          // Configure the dimensions and specify the target pages for the signature
+          options.setLeft(100);
+          options.setTop(100);
+          options.setAllPages(true);
 
-        // Configure the dimensions and specify the target pages for the signature
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
+          // Implement the signature application to the document
+          signature.sign('output.pptx', options);
 
-        // Implement the signature application to the document
-        signature.sign('output.pptx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command_title: "npm i @groupdocs/groupdocs.signature"
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature_esign.pptx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
 
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

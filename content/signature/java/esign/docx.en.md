@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-02T15:17:14
+date:  2024-10-02T16:58:52
 draft: false
 lang: en
 format: Docx
@@ -131,23 +131,22 @@ more_features:
       code:
         title: "Java code sample"
         content: |
-        ```java {style=abap}
-        
-        // Provide the source document as a parameter
-        Signature signature = new Signature("input.docx");
+          ```java {style=abap}
+          // Provide the source document as a parameter
+          Signature signature = new Signature("input.docx");
 
-        // Specify the image path in the signature options
-        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
+          // Specify the image path in the signature options
+          QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
-        // Set the size and target pages for the signature
-        options.setLeft(100);
-        options.setTop(100);
-        options.setAllPages(true);
+          // Set the size and target pages for the signature
+          options.setLeft(100);
+          options.setTop(100);
+          options.setAllPages(true);
 
-        // Apply the signature to the document
-        signature.sign("output.docx", options);
+          // Apply the signature to the document
+          signature.sign("output.docx", options);
 
-        ```
+          ```
         platform: "java"
         copy_title: "Copy"
         install:
@@ -171,7 +170,7 @@ more_features:
           copy_done: "copied"
         top_links:
           #  loop
-          - title: "Sample signatures"
+          - title: "Download result"
             icon: "download"
             link: "/examples/signature_esign.docx"
         links:
@@ -182,7 +181,11 @@ more_features:
           - title: "Documentation"
             link: "https://docs.groupdocs.com/signature/java/"
             
-############################# Actions ############################
+
+            
+
+
+############################## Actions ############################
 
 actions:
   enable: true

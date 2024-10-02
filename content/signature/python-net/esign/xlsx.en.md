@@ -5,14 +5,14 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:10
+date:  2024-10-02T16:58:52
 draft: false
 lang: en
 format: Xlsx
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "E-sign XLSX documents with Python apps"
@@ -53,7 +53,7 @@ steps:
       4. Save the signed document to the desired location.
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "Copy"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
@@ -111,32 +111,55 @@ more_features:
     - title: "Boost document security"
       content: "Protect your documents with digital certificates. Embed or retrieve metadata to improve tracking, auditing, and compliance, ensuring the authenticity of your content."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to add an image signature to a document"
       content: |
         This example demonstrates how to apply an image signature to a specific page of a document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python code sample"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
+        
+          def run():
 
-        def run():
+              # Load the document you want to sign
+              with sg.Signature('input.xlsx') as signature:
 
-            # Load the document you want to sign
-            with sg.Signature('input.xlsx') as signature:
+                  # Set the path to the image in the signature options
+                  options = sg.ImageSignOptions("image.jpg")
 
-                # Set the path to the image in the signature options
-                options = sg.QrCodeSignOptions("QR code text")
+                  # Define the size and placement of the signature on the target pages
+                  options.Left = 50
+                  options.Top = 50
+                  options.AllPages = True
 
-                # Define the size and placement of the signature on the target pages
-                options.Left = 50
-                options.Top = 50
-                options.AllPages = True
+                  # Apply the signature and save the signed document
+                  result = signature.Sign("output.xlsx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command_title: "pip install groupdocs-signature-net"
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature_esign.xlsx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
 
-                # Apply the signature and save the signed document
-                result = signature.Sign("output.xlsx", options)
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

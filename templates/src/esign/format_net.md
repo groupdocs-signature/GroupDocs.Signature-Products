@@ -108,32 +108,54 @@ more_features:
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
-            {
-                // <% "{code_1.comment_3}" %>
-                Left = 50,
-                Top = 50,
-                AllPages = true
-            };
+      code:
+        title: "C# code sample"
+        content: |
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
+              {
+                  // <% "{code_1.comment_3}" %>
+                  Left = 50,
+                  Top = 50,
+                  AllPages = true
+              };
 
-            // <% "{code_1.comment_4}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
+              // <% "{code_1.comment_4}" %>
+              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+          }
 
-        ```
-        {{< /landing/code >}}
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command_title: "dotnet add package GroupDocs.Signature"
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature_esign.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################
