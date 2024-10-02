@@ -10,8 +10,8 @@ lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "<% (dict "head.title") %>"
@@ -52,7 +52,7 @@ steps:
       4. <% "{steps.content.step_4}" %>
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
       result_link: "/examples/signature_all.pdf"
@@ -110,32 +110,55 @@ more_features:
     - title: "<% "{more_features.feature_3.title}" %>"
       content: "<% "{more_features.feature_3.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python code sample"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
+        
+          def run():
 
-        def run():
+              # <% "{code_1.comment_1}" %>
+              with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-            # <% "{code_1.comment_1}" %>
-            with sg.Signature('input.<% get "fileformat" %>') as signature:
+                  # <% "{code_1.comment_2}" %>
+                  options = sg.ImageSignOptions("image.jpg")
 
-                # <% "{code_1.comment_2}" %>
-                options = sg.QrCodeSignOptions("QR code text")
+                  # <% "{code_1.comment_3}" %>
+                  options.Left = 50
+                  options.Top = 50
+                  options.AllPages = True
 
-                # <% "{code_1.comment_3}" %>
-                options.Left = 50
-                options.Top = 50
-                options.AllPages = True
+                  # <% "{code_1.comment_4}" %>
+                  result = signature.Sign("output.<% get "fileformat" %>", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command_title: "pip install groupdocs-signature-net"
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature_esign.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
 
-                # <% "{code_1.comment_4}" %>
-                result = signature.Sign("output.<% get "fileformat" %>", options)
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################
