@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T21:15:07
+date:  2024-10-02T15:17:14
 draft: false
 lang: en
 format: Docx
@@ -123,12 +123,14 @@ more_features:
     - title: "Advanced content control"
       content: "Secure business documents against unauthorized changes with corporate digital certificates. Add or extract hidden metadata entries available in all document types."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to add an image signature to a document"
       content: |
         This example demonstrates how to place an image signature on a specific page of a document.
-        {{< landing/code title="Java">}}
+      code:
+        title: "Java code sample"
+        content: |
         ```java {style=abap}
         
         // Provide the source document as a parameter
@@ -146,9 +148,40 @@ more_features:
         signature.sign("output.docx", options);
 
         ```
-        {{< /landing/code >}}
-
-
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Sample signatures"
+            icon: "download"
+            link: "/examples/signature_esign.docx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
 ############################# Actions ############################
 
 actions:
