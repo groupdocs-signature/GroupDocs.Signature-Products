@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:01
+date:  2024-10-03T13:58:32
 draft: false
 lang: en
 format: Jpeg
@@ -117,7 +117,7 @@ more_features:
       content: |
         This example demonstrates how to apply an image signature to a specific page of a document.
       code:
-        title: "Python code sample"
+        title: "Python"
         content: |
           ```python {style=abap}
           import groupdocs.signature as sg
@@ -141,7 +141,6 @@ more_features:
         platform: "python-net"
         copy_title: "Copy"
         install:
-          command_title: "pip install groupdocs-signature-net"
           command: "pip install groupdocs-signature-net"
           copy_tip: "click to copy"
           copy_done: "copied"

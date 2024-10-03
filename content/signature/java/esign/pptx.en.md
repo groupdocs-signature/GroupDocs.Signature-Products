@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:01
+date:  2024-10-03T13:58:32
 draft: false
 lang: en
 format: Pptx
@@ -130,7 +130,7 @@ more_features:
       content: |
         This example demonstrates how to place an image signature on a specific page of a document.
       code:
-        title: "Java code sample"
+        title: "Java"
         content: |
           ```java {style=abap}
           // Provide the source document as a parameter

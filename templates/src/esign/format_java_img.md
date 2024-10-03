@@ -129,7 +129,7 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "Java code sample"
+        title: "Java"
         content: |
           ```java {style=abap}
           // <% "{code_1.comment_1}" %>
@@ -148,7 +148,7 @@ more_features:
 
           ```
         platform: "java"
-        copy_title: "Copy"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
           command_title: "Maven XML"
           command: |
@@ -166,11 +166,11 @@ more_features:
                 <url>https://repository.groupdocs.com/repo/</url>
               </repository>
             </repositories>
-          copy_tip: "click to copy"
-          copy_done: "copied"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
           #  loop
-          - title: "Download result"
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
             link: "/examples/signature/formats/signature_esign.<% get "fileformat" %>"
         links:

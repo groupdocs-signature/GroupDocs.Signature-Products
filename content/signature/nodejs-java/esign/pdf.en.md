@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:01
+date:  2024-10-03T13:58:32
 draft: false
 lang: en
 format: Pdf
@@ -116,7 +116,7 @@ more_features:
       content: |
         This guide details the process for affixing an image signature to a designated page within a document.
       code:
-        title: "JS code sample"
+        title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const signatureLib = require('@groupdocs/groupdocs.signature')
@@ -139,7 +139,6 @@ more_features:
         platform: "nodejs-java"
         copy_title: "Copy"
         install:
-          command_title: "npm i @groupdocs/groupdocs.signature"
           command: "npm i @groupdocs/groupdocs.signature"
           copy_tip: "click to copy"
           copy_done: "copied"

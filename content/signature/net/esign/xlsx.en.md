@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:01
+date:  2024-10-03T13:58:32
 draft: false
 lang: en
 format: Xlsx
@@ -115,7 +115,7 @@ more_features:
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
       code:
-        title: "C# code sample"
+        title: "C#"
         content: |
           ```csharp {style=abap}
           // Provide the source document as an argument
@@ -138,7 +138,6 @@ more_features:
         platform: "net"
         copy_title: "Copy"
         install:
-          command_title: "dotnet add package GroupDocs.Signature"
           command: "dotnet add package GroupDocs.Signature"
           copy_tip: "click to copy"
           copy_done: "copied"
