@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:00
+date:  2024-10-03T14:41:02
 draft: false
 lang: en
 format: Docx
@@ -115,48 +115,70 @@ more_features:
     - title: "Effortlessly remove signatures"
       content: "With full CRUD functionality, GroupDocs.Signature for Python via .NET makes it easy to remove any unwanted or outdated signatures from your documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Customize and add a barcode signature"
       content: |
         This example demonstrates how to insert a custom barcode into a DOCX document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Provide the document to be signed
-            with sg.Signature('input.docx') as signature:
+              # Provide the document to be signed
+              with sg.Signature('input.docx') as signature:
 
-                # Set the barcode text and signature options
-                options = BarcodeSignOptions('Accepted')
-                options.EncodeType = sg.BarcodeTypes.Code39FullASCII
+                  # Set the barcode text and signature options
+                  options = sg.BarcodeSignOptions('Accepted')
+                  options.EncodeType = sg.BarcodeTypes.Code39FullASCII
 
-                # Choose the position for the barcode on the page
-                options.VerticalAlignment = sg.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  # Choose the position for the barcode on the page
+                  options.VerticalAlignment = sg.VerticalAlignment.Top
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
 
-                # Set padding between the barcode and page edge
-                options.Margin = sg.Padding()
-                options.Margin.Top = 180
-                options.Margin.Right = 20
+                  # Set padding between the barcode and page edge
+                  options.Margin = sg.Padding()
+                  options.Margin.Top = 180
+                  options.Margin.Right = 20
 
-                # Specify the color of the barcode bars
-                options.ForeColor = sg.Color.Red
+                  # Specify the color of the barcode bars
+                  options.ForeColor = sg.Color.Red
 
-                # Choose the font style for the barcode message
-                options.Font = sg.SignatureFont()
-                options.Font.Size = 12
-                options.Font.FamilyName = 'Arial'
+                  # Choose the font style for the barcode message
+                  options.Font = sg.SignatureFont()
+                  options.Font.Size = 12
+                  options.Font.FamilyName = 'Arial'
 
-                # Set the position of the message text
-                options.CodeTextAlignment = sg.CodeTextAlignment.Above
+                  # Set the position of the message text
+                  options.CodeTextAlignment = sg.CodeTextAlignment.Above
 
-                # Sign and save the document
-                result = signature.Sign('output.docx', options)
-        ```
-        {{< /landing/code >}}
+                  # Sign and save the document
+                  result = signature.Sign('output.docx', options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_barcode.docx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:00
+date:  2024-10-03T14:41:02
 draft: false
 lang: en
 format: Pdf
@@ -128,49 +128,87 @@ more_features:
     - title: "Delete signatures"
       content: "Our solution supports full CRUD operations for signatures. Many types of signatures can be deleted from a document when necessary."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to customize a barcode signature"
       content: |
         This example demonstrates how to place a customized barcode on PDF document pages.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Provide the document to be signed
-        Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Provide the document to be signed
+          Signature signature = new Signature("input.pdf");
 
-        // Create signature options with the desired text
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
-        signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
+          // Create signature options with the desired text
+          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
+          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
 
-        // Set the relative barcode position on the page
-        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
+          // Set the relative barcode position on the page
+          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
+          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
 
-        // Set the barcode padding from the page edge
-        Padding padding = new Padding();
-        padding.setLeft(20);
-        padding.setTop(180);
-        signOptions.setMargin(padding);
+          // Set the barcode padding from the page edge
+          Padding padding = new Padding();
+          padding.setLeft(20);
+          padding.setTop(180);
+          signOptions.setMargin(padding);
 
-        // Set the color of the bars
-        signOptions.setForeColor(Color.RED);
+          // Set the color of the bars
+          signOptions.setForeColor(Color.RED);
 
-        // Define the message font style
-        SignatureFont font = new SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Arial");
-        signOptions.setFont(font);
+          // Define the message font style
+          SignatureFont font = new SignatureFont();
+          font.setSize(12);
+          font.setFamilyName("Arial");
+          signOptions.setFont(font);
 
-        // Specify the message position
-        signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
+          // Specify the message position
+          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
 
-        // Sign and save the document
-        SignResult signResult = signature.sign("output.pdf", signOptions);
-        ```
-        {{< /landing/code >}}
+          // Sign and save the document
+          SignResult signResult = signature.sign("output.pdf", signOptions);
+
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_barcode.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
-############################# Actions ############################
+############################## Actions ############################
 
 actions:
   enable: true

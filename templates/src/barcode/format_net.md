@@ -112,43 +112,64 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
-            {
-                EncodeType = BarcodeTypes.Code39FullASCII,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
+              {
+                  EncodeType = BarcodeTypes.Code39FullASCII,
 
-                // <% "{code_1.comment_3}" %>
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Left,
+                  // <% "{code_1.comment_3}" %>
+                  VerticalAlignment = Domain.VerticalAlignment.Top,
+                  HorizontalAlignment = Domain.HorizontalAlignment.Left,
 
-                // <% "{code_1.comment_4}" %>
-                Margin = new Padding() { Top = 180, Right = 20 },
+                  // <% "{code_1.comment_4}" %>
+                  Margin = new Padding() { Top = 180, Right = 20 },
 
-                // <% "{code_1.comment_5}" %>
-                ForeColor = Color.Red,
+                  // <% "{code_1.comment_5}" %>
+                  ForeColor = Color.Red,
 
-                // <% "{code_1.comment_6}" %>
-                Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
+                  // <% "{code_1.comment_6}" %>
+                  Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
 
-                // <% "{code_1.comment_7}" %>
-                CodeTextAlignment = CodeTextAlignment.Above
-            };
+                  // <% "{code_1.comment_7}" %>
+                  CodeTextAlignment = CodeTextAlignment.Above
+              };
 
-            // <% "{code_1.comment_8}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // <% "{code_1.comment_8}" %>
+              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################
