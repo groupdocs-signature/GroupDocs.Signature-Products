@@ -5,14 +5,14 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:10
+date:  2024-10-03T14:41:02
 draft: false
 lang: en
 format: Jpeg
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "Generate a barcode for JPEG with Python"
@@ -53,10 +53,10 @@ steps:
       4. Save the document with the embedded barcode.
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "pip install groupdocs-signature-net"
@@ -115,47 +115,70 @@ more_features:
     - title: "Effortlessly remove signatures"
       content: "With full CRUD functionality, GroupDocs.Signature for Python via .NET makes it easy to remove any unwanted or outdated signatures from your documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Customize and add a barcode signature"
       content: |
         This example demonstrates how to insert a custom barcode into a JPEG document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Provide the document to be signed
-            with sg.Signature('input.jpeg') as signature:
+              # Provide the document to be signed
+              with sg.Signature('input.jpeg') as signature:
 
-                # Set the barcode text and signature options
-                options = sg.BarcodeSignOptions('Accepted for review on February 15, 2020')
+                  # Set the barcode text and signature options
+                  options = sg.BarcodeSignOptions('Accepted')
+                  options.EncodeType = sg.BarcodeTypes.Code39FullASCII
 
-                # Choose the position for the barcode on the page
-                options.VerticalAlignment = sg.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                  # Choose the position for the barcode on the page
+                  options.VerticalAlignment = sg.VerticalAlignment.Top
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
 
-                # Set padding between the barcode and page edge
-                options.Margin = sg.Padding()
-                options.Margin.Top = 20
-                options.Margin.Right = 20
+                  # Set padding between the barcode and page edge
+                  options.Margin = sg.Padding()
+                  options.Margin.Top = 180
+                  options.Margin.Right = 20
 
-                # Specify the color of the barcode bars
-                options.ForeColor = sg.Color.Red
+                  # Specify the color of the barcode bars
+                  options.ForeColor = sg.Color.Red
 
-                # Choose the font style for the barcode message
-                options.Font = sg.SignatureFont()
-                options.Font.Size = 12
-                options.Font.FamilyName = 'Comic Sans MS'
+                  # Choose the font style for the barcode message
+                  options.Font = sg.SignatureFont()
+                  options.Font.Size = 12
+                  options.Font.FamilyName = 'Arial'
 
-                # Set the position of the message text
-                options.CodeTextAlignment = sg.CodeTextAlignment.Above
+                  # Set the position of the message text
+                  options.CodeTextAlignment = sg.CodeTextAlignment.Above
 
-                # Sign and save the document
-                result = signature.Sign('output.jpeg', options)
-        ```
-        {{< /landing/code >}}
+                  # Sign and save the document
+                  result = signature.Sign('output.jpeg', options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_barcode.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

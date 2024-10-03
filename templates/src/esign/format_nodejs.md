@@ -55,7 +55,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -115,7 +115,7 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "JS code sample"
+        title: "JavaScript"
         content: |
           ```javascript {style=abap}
           const signatureLib = require('@groupdocs/groupdocs.signature')
@@ -136,17 +136,16 @@ more_features:
 
           ```
         platform: "nodejs-java"
-        copy_title: "Copy"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command_title: "npm i @groupdocs/groupdocs.signature"
           command: "npm i @groupdocs/groupdocs.signature"
-          copy_tip: "click to copy"
-          copy_done: "copied"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
           #  loop
-          - title: "Download result"
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/signature_esign.<% get "fileformat" %>"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"

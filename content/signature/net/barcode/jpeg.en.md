@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:54:05
+date:  2024-10-03T14:41:02
 draft: false
 lang: en
 format: Jpeg
@@ -56,7 +56,7 @@ steps:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
@@ -113,41 +113,64 @@ more_features:
     - title: "Efficient signature deletion"
       content: "Our solution fully supports CRUD operations for signatures, allowing for the swift removal of any unwanted or outdated signatures from your documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to customize a barcode signature"
       content: |
         This example elucidates how to embed a customized barcode on JPEG document pages.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Provide the document to be signed
-        using (Signature signature = new Signature("input.jpeg"))
-        {
-            // Formulate signature options with the desired text
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
-            {
-                // Determine the relative barcode position on the page
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          using (Signature signature = new Signature("input.jpeg"))
+          {
+              // Formulate signature options with the desired text
+              BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
+              {
+                  EncodeType = BarcodeTypes.Code39FullASCII,
 
-                // Define the barcode padding from the page edge
-                Margin = new Padding() { Top = 20, Right = 20 },
+                  // Determine the relative barcode position on the page
+                  VerticalAlignment = Domain.VerticalAlignment.Top,
+                  HorizontalAlignment = Domain.HorizontalAlignment.Left,
 
-                // Specify the color of the bars
-                ForeColor = Color.Red,
+                  // Define the barcode padding from the page edge
+                  Margin = new Padding() { Top = 180, Right = 20 },
 
-                // Select the message font style
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                  // Specify the color of the bars
+                  ForeColor = Color.Red,
 
-                // Indicate the message position
-                CodeTextAlignment = CodeTextAlignment.Above
-            }
+                  // Select the message font style
+                  Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
 
-            // Sign and persist the document
-            SignResult result = signature.Sign("output.jpeg", options);
-        }
-        ```
-        {{< /landing/code >}}
+                  // Indicate the message position
+                  CodeTextAlignment = CodeTextAlignment.Above
+              };
+
+              // Sign and persist the document
+              SignResult result = signature.Sign("output.jpeg", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_barcode.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

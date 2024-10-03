@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:54:05
+date:  2024-10-03T14:41:02
 draft: false
 lang: en
 format: Jpeg
@@ -56,7 +56,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -113,47 +113,71 @@ more_features:
     - title: "Streamlined signature removal"
       content: "With comprehensive support for CRUD operations, our tool allows for the efficient removal of signatures from your documents, ensuring that only the most relevant signatures remain."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to customize a barcode signature"
       content: |
         This example illustrates how to embed a customized barcode on JPEG document pages.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Provide the document to be signed
-        const signature = new signatureLib.Signature('input.jpeg');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Provide the document to be signed
+          const signature = new signatureLib.Signature('input.jpeg');
 
-        // Utilize BarcodeSignOptions to integrate a barcode into the document
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
+          // Utilize BarcodeSignOptions to integrate a barcode into the document
+          const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
+          signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
 
-        // Configure the barcode type and additional parameters
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          // Configure the barcode type and additional parameters
+          signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Left);
 
-        // Define the barcode padding from the page edge
-        const padding = new signatureLib.Padding();
-        padding.setLeft(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+          // Define the barcode padding from the page edge
+          const padding = new signatureLib.Padding();
+          padding.setLeft(20);
+          padding.setTop(180);
+          signOptions.setMargin(padding);
 
-        // Choose the bar color
-        signOptions.setForeColor(signatureLib.Color.RED);
+          // Choose the bar color
+          signOptions.setForeColor(signatureLib.Color.RED);
 
-        // Specify the font style for the message
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName('Comic Sans MS');
-        signOptions.setFont(font);
+          // Specify the font style for the message
+          const font = new signatureLib.SignatureFont();
+          font.setSize(12);
+          font.setFamilyName('Arial');
+          signOptions.setFont(font);
 
-        // Indicate the position of the message
-        signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
+          // Indicate the position of the message
+          signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
 
-        // Sign and save the document
-        signature.sign('output.jpeg', signOptions);
-        ```
-        {{< /landing/code >}}
+          // Sign and save the document
+          signature.sign('output.jpeg', signOptions);
+
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_barcode.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

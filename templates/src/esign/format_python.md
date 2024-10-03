@@ -55,7 +55,7 @@ steps:
       platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "pip install groupdocs-signature-net"
@@ -116,7 +116,7 @@ more_features:
       content: |
         <% "{code_1.content}" %>
       code:
-        title: "Python code sample"
+        title: "Python"
         content: |
           ```python {style=abap}
           import groupdocs.signature as sg
@@ -138,17 +138,16 @@ more_features:
                   result = signature.Sign("output.<% get "fileformat" %>", options)
           ```
         platform: "python-net"
-        copy_title: "Copy"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
         install:
-          command_title: "pip install groupdocs-signature-net"
           command: "pip install groupdocs-signature-net"
-          copy_tip: "click to copy"
-          copy_done: "copied"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
         top_links:
           #  loop
-          - title: "Download result"
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
             icon: "download"
-            link: "/examples/signature_esign.<% get "fileformat" %>"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
         links:
           #  loop
           - title: "<% "{common-content.format-code.links.title_1}" %>"

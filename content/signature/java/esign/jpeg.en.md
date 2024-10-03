@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T08:55:50
+date:  2024-10-03T14:41:03
 draft: false
 lang: en
 format: Jpeg
@@ -56,7 +56,7 @@ steps:
       platform: "java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command_title: "Maven XML"
@@ -130,7 +130,7 @@ more_features:
       content: |
         This example demonstrates how to place an image signature on a specific page of a document.
       code:
-        title: "Java code sample"
+        title: "Java"
         content: |
           ```java {style=abap}
           // Provide the source document as a parameter
@@ -173,7 +173,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/signature_esign.jpeg"
+            link: "/examples/signature/formats/signature_esign.jpeg"
         links:
           #  loop
           - title: "More examples"

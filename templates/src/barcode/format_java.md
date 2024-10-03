@@ -55,7 +55,7 @@ steps:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command_title: "Maven XML"
@@ -127,48 +127,87 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // <% "{code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // <% "{code_1.comment_1}" %>
+          Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{code_1.comment_2}" %>
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted for review on February 15, 2020");
+          // <% "{code_1.comment_2}" %>
+          BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
+          signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
 
-        // <% "{code_1.comment_3}" %>
-        signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
+          // <% "{code_1.comment_3}" %>
+          signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
+          signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
 
-        // <% "{code_1.comment_4}" %>
-        Padding padding = new Padding();
-        padding.setLeft(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+          // <% "{code_1.comment_4}" %>
+          Padding padding = new Padding();
+          padding.setLeft(20);
+          padding.setTop(180);
+          signOptions.setMargin(padding);
 
-        // <% "{code_1.comment_5}" %>
-        signOptions.setForeColor(Color.RED);
+          // <% "{code_1.comment_5}" %>
+          signOptions.setForeColor(Color.RED);
 
-        // <% "{code_1.comment_6}" %>
-        SignatureFont font = new SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
+          // <% "{code_1.comment_6}" %>
+          SignatureFont font = new SignatureFont();
+          font.setSize(12);
+          font.setFamilyName("Arial");
+          signOptions.setFont(font);
 
-        // <% "{code_1.comment_7}" %>
-        signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
+          // <% "{code_1.comment_7}" %>
+          signOptions.setCodeTextAlignment(CodeTextAlignment.Above);
 
-        // <% "{code_1.comment_8}" %>
-        SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
-        ```
-        {{< /landing/code >}}
+          // <% "{code_1.comment_8}" %>
+          SignResult signResult = signature.sign("output.<% get "fileformat" %>", signOptions);
+
+          ```
+        platform: "java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
-############################# Actions ############################
+############################## Actions ############################
 
 actions:
   enable: true

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-02T16:58:52
+date:  2024-10-03T14:41:03
 draft: false
 lang: en
 format: Pdf
@@ -56,7 +56,7 @@ steps:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
@@ -115,7 +115,7 @@ more_features:
       content: |
         This example illustrates the procedure for applying an image signature to a specific page within a document.
       code:
-        title: "C# code sample"
+        title: "C#"
         content: |
           ```csharp {style=abap}
           // Provide the source document as an argument
@@ -138,7 +138,6 @@ more_features:
         platform: "net"
         copy_title: "Copy"
         install:
-          command_title: "dotnet add package GroupDocs.Signature"
           command: "dotnet add package GroupDocs.Signature"
           copy_tip: "click to copy"
           copy_done: "copied"
@@ -146,7 +145,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/signature_esign.pdf"
+            link: "/examples/signature/formats/signature_esign.pdf"
         links:
           #  loop
           - title: "More examples"

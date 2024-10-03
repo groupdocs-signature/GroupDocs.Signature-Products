@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T08:55:49
+date:  2024-10-03T12:32:59
 draft: false
 lang: en
 format: Pdf
@@ -56,7 +56,7 @@ steps:
       platform: "java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command_title: "Maven XML"

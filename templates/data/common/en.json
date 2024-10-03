@@ -98,6 +98,7 @@
     "format-code": {
       "copy_title": "Copy",
       "result_title": "Sample signatures",
+      "result_title_bottom": "Download result",
       "copy_tip": "click to copy",
       "copy_done": "copied",
       "links": {

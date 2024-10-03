@@ -55,7 +55,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "npm i @groupdocs/groupdocs.signature"

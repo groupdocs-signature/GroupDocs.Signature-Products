@@ -55,7 +55,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -112,47 +112,71 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // <% "{code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // <% "{code_1.comment_1}" %>
+          const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{examples.comment_2}" %>
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
+          // <% "{examples.comment_2}" %>
+          const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
+          signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
 
-        // <% "{examples.comment_3}" %>
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          // <% "{examples.comment_3}" %>
+          signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Left);
 
-        // <% "{code_1.comment_4}" %>
-        const padding = new signatureLib.Padding();
-        padding.setLeft(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+          // <% "{code_1.comment_4}" %>
+          const padding = new signatureLib.Padding();
+          padding.setLeft(20);
+          padding.setTop(180);
+          signOptions.setMargin(padding);
 
-        // <% "{code_1.comment_5}" %>
-        signOptions.setForeColor(signatureLib.Color.RED);
+          // <% "{code_1.comment_5}" %>
+          signOptions.setForeColor(signatureLib.Color.RED);
 
-        // <% "{code_1.comment_6}" %>
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName('Comic Sans MS');
-        signOptions.setFont(font);
+          // <% "{code_1.comment_6}" %>
+          const font = new signatureLib.SignatureFont();
+          font.setSize(12);
+          font.setFamilyName('Arial');
+          signOptions.setFont(font);
 
-        // <% "{code_1.comment_7}" %>
-        signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
+          // <% "{code_1.comment_7}" %>
+          signOptions.setCodeTextAlignment(signatureLib.CodeTextAlignment.Above);
 
-        // <% "{code_1.comment_8}" %>
-        signature.sign('output.<% get "fileformat" %>', signOptions);
-        ```
-        {{< /landing/code >}}
+          // <% "{code_1.comment_8}" %>
+          signature.sign('output.<% get "fileformat" %>', signOptions);
+
+          ```
+        platform: "nodejs-java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -55,7 +55,7 @@ steps:
       platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "pip install groupdocs-signature-net"
@@ -114,47 +114,70 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # <% "{code_1.comment_1}" %>
-            with sg.Signature('input.<% get "fileformat" %>') as signature:
+              # <% "{code_1.comment_1}" %>
+              with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                # <% "{code_1.comment_2}" %>
-                options = BarcodeSignOptions('Accepted for review on February 15, 2020')
+                  # <% "{code_1.comment_2}" %>
+                  options = sg.BarcodeSignOptions('Accepted')
+                  options.EncodeType = sg.BarcodeTypes.Code39FullASCII
 
-                # <% "{code_1.comment_3}" %>
-                options.VerticalAlignment = sg.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                  # <% "{code_1.comment_3}" %>
+                  options.VerticalAlignment = sg.VerticalAlignment.Top
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
 
-                # <% "{code_1.comment_4}" %>
-                options.Margin = sg.Padding()
-                options.Margin.Top = 20
-                options.Margin.Right = 20
+                  # <% "{code_1.comment_4}" %>
+                  options.Margin = sg.Padding()
+                  options.Margin.Top = 180
+                  options.Margin.Right = 20
 
-                # <% "{code_1.comment_5}" %>
-                options.ForeColor = sg.Color.Red
+                  # <% "{code_1.comment_5}" %>
+                  options.ForeColor = sg.Color.Red
 
-                # <% "{code_1.comment_6}" %>
-                options.Font = sg.SignatureFont()
-                options.Font.Size = 12
-                options.Font.FamilyName = 'Comic Sans MS'
+                  # <% "{code_1.comment_6}" %>
+                  options.Font = sg.SignatureFont()
+                  options.Font.Size = 12
+                  options.Font.FamilyName = 'Arial'
 
-                # <% "{code_1.comment_7}" %>
-                options.CodeTextAlignment = sg.CodeTextAlignment.Above
+                  # <% "{code_1.comment_7}" %>
+                  options.CodeTextAlignment = sg.CodeTextAlignment.Above
 
-                # <% "{code_1.comment_8}" %>
-                result = signature.Sign('output.<% get "fileformat" %>', options)
-        ```
-        {{< /landing/code >}}
+                  # <% "{code_1.comment_8}" %>
+                  result = signature.Sign('output.<% get "fileformat" %>', options)
+          ```
+        platform: "python-net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################
