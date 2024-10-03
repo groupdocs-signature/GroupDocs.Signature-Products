@@ -5,14 +5,14 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:10
+date:  2024-10-03T12:33:00
 draft: false
 lang: en
 format: Pdf
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "Generate a barcode for PDF with Python"
@@ -53,10 +53,10 @@ steps:
       4. Save the document with the embedded barcode.
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "pip install groupdocs-signature-net"
@@ -130,15 +130,16 @@ more_features:
             with sg.Signature('input.pdf') as signature:
 
                 # Set the barcode text and signature options
-                options = BarcodeSignOptions('Accepted for review on February 15, 2020')
+                options = BarcodeSignOptions('Accepted')
+                options.EncodeType = sg.BarcodeTypes.Code39FullASCII
 
                 # Choose the position for the barcode on the page
                 options.VerticalAlignment = sg.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
 
                 # Set padding between the barcode and page edge
                 options.Margin = sg.Padding()
-                options.Margin.Top = 20
+                options.Margin.Top = 180
                 options.Margin.Right = 20
 
                 # Specify the color of the barcode bars
@@ -147,7 +148,7 @@ more_features:
                 # Choose the font style for the barcode message
                 options.Font = sg.SignatureFont()
                 options.Font.Size = 12
-                options.Font.FamilyName = 'Comic Sans MS'
+                options.Font.FamilyName = 'Arial'
 
                 # Set the position of the message text
                 options.CodeTextAlignment = sg.CodeTextAlignment.Above

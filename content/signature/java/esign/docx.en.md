@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T08:55:50
+date:  2024-10-03T12:33:00
 draft: false
 lang: en
 format: Docx
@@ -56,7 +56,7 @@ steps:
       platform: "java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command_title: "Maven XML"
@@ -173,7 +173,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/signature_esign.docx"
+            link: "/examples/signature/formats/signature_esign.docx"
         links:
           #  loop
           - title: "More examples"

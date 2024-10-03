@@ -5,14 +5,14 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:12
+date:  2024-10-03T12:33:03
 draft: false
 lang: en
 format: Pdf
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "Remove signatures from PDF using Python"
@@ -53,10 +53,10 @@ steps:
       4. Review the results after processing.
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "pip install groupdocs-signature-net"

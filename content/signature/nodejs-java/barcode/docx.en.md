@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:54:05
+date:  2024-10-03T12:33:00
 draft: false
 lang: en
 format: Docx
@@ -56,7 +56,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -126,16 +126,17 @@ more_features:
         const signature = new signatureLib.Signature('input.docx');
 
         // Utilize BarcodeSignOptions to integrate a barcode into the document
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
+        const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
+        signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
 
         // Configure the barcode type and additional parameters
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Left);
 
         // Define the barcode padding from the page edge
         const padding = new signatureLib.Padding();
         padding.setLeft(20);
-        padding.setTop(20);
+        padding.setTop(180);
         signOptions.setMargin(padding);
 
         // Choose the bar color
@@ -144,7 +145,7 @@ more_features:
         // Specify the font style for the message
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
-        font.setFamilyName('Comic Sans MS');
+        font.setFamilyName('Arial');
         signOptions.setFont(font);
 
         // Indicate the position of the message

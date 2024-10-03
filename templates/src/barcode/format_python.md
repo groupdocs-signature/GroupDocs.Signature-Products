@@ -55,7 +55,7 @@ steps:
       platform: "python-net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "pip install groupdocs-signature-net"
@@ -129,15 +129,16 @@ more_features:
             with sg.Signature('input.<% get "fileformat" %>') as signature:
 
                 # <% "{code_1.comment_2}" %>
-                options = BarcodeSignOptions('Accepted for review on February 15, 2020')
+                options = BarcodeSignOptions('Accepted')
+                options.EncodeType = sg.BarcodeTypes.Code39FullASCII
 
                 # <% "{code_1.comment_3}" %>
                 options.VerticalAlignment = sg.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                options.HorizontalAlignment = sg.HorizontalAlignment.Left
 
                 # <% "{code_1.comment_4}" %>
                 options.Margin = sg.Padding()
-                options.Margin.Top = 20
+                options.Margin.Top = 180
                 options.Margin.Right = 20
 
                 # <% "{code_1.comment_5}" %>
@@ -146,7 +147,7 @@ more_features:
                 # <% "{code_1.comment_6}" %>
                 options.Font = sg.SignatureFont()
                 options.Font.Size = 12
-                options.Font.FamilyName = 'Comic Sans MS'
+                options.Font.FamilyName = 'Arial'
 
                 # <% "{code_1.comment_7}" %>
                 options.CodeTextAlignment = sg.CodeTextAlignment.Above

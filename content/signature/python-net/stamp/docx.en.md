@@ -5,14 +5,14 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:08
+date:  2024-10-03T12:32:58
 draft: false
 lang: en
 format: Docx
 product: "Signature"
 product_tag: "signature"
-platform: ".NET"
-platform_tag: "net"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Head ############################
 head_title: "Create Round and square stamps in DOCX using Python"
@@ -53,10 +53,10 @@ steps:
       4. Apply the stamp and save the updated document.
    
     code:
-      platform: "net"
+      platform: "python-net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "pip install groupdocs-signature-net"

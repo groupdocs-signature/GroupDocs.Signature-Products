@@ -55,7 +55,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -125,16 +125,17 @@ more_features:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        const signOptions = new signatureLib.BarcodeSignOptions('Accepted for review on February 15, 2020');
+        const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
+        signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
 
         // <% "{examples.comment_3}" %>
         signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Left);
 
         // <% "{code_1.comment_4}" %>
         const padding = new signatureLib.Padding();
         padding.setLeft(20);
-        padding.setTop(20);
+        padding.setTop(180);
         signOptions.setMargin(padding);
 
         // <% "{code_1.comment_5}" %>
@@ -143,7 +144,7 @@ more_features:
         // <% "{code_1.comment_6}" %>
         const font = new signatureLib.SignatureFont();
         font.setSize(12);
-        font.setFamilyName('Comic Sans MS');
+        font.setFamilyName('Arial');
         signOptions.setFont(font);
 
         // <% "{code_1.comment_7}" %>

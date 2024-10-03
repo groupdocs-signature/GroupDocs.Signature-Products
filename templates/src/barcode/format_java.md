@@ -55,7 +55,7 @@ steps:
       platform: "java"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command_title: "Maven XML"
@@ -138,16 +138,17 @@ more_features:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{code_1.comment_2}" %>
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted for review on February 15, 2020");
+        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
+        signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
 
         // <% "{code_1.comment_3}" %>
         signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
+        signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
 
         // <% "{code_1.comment_4}" %>
         Padding padding = new Padding();
         padding.setLeft(20);
-        padding.setTop(20);
+        padding.setTop(180);
         signOptions.setMargin(padding);
 
         // <% "{code_1.comment_5}" %>
@@ -156,7 +157,7 @@ more_features:
         // <% "{code_1.comment_6}" %>
         SignatureFont font = new SignatureFont();
         font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
+        font.setFamilyName("Arial");
         signOptions.setFont(font);
 
         // <% "{code_1.comment_7}" %>

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T08:55:50
+date:  2024-10-03T12:33:00
 draft: false
 lang: en
 format: Pdf
@@ -56,7 +56,7 @@ steps:
       platform: "java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command_title: "Maven XML"
@@ -139,16 +139,17 @@ more_features:
         Signature signature = new Signature("input.pdf");
 
         // Create signature options with the desired text
-        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted for review on February 15, 2020");
+        BarcodeSignOptions signOptions = new BarcodeSignOptions("Accepted");
+        signOptions.setEncodeType(BarcodeTypes.Code39FullASCII);
 
         // Set the relative barcode position on the page
         signOptions.setVerticalAlignment(VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
+        signOptions.setHorizontalAlignment(HorizontalAlignment.Left);
 
         // Set the barcode padding from the page edge
         Padding padding = new Padding();
         padding.setLeft(20);
-        padding.setTop(20);
+        padding.setTop(180);
         signOptions.setMargin(padding);
 
         // Set the color of the bars
@@ -157,7 +158,7 @@ more_features:
         // Define the message font style
         SignatureFont font = new SignatureFont();
         font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
+        font.setFamilyName("Arial");
         signOptions.setFont(font);
 
         // Specify the message position

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-26T16:11:11
+date:  2024-10-03T12:33:03
 draft: false
 lang: en
 format: Docx
@@ -56,7 +56,7 @@ steps:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"

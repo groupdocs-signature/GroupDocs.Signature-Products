@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
         command: "dotnet add package GroupDocs.Signature"
@@ -123,24 +123,26 @@ more_features:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{code_1.comment_2}" %>
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
+            BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
             {
+                EncodeType = BarcodeTypes.Code39FullASCII,
+
                 // <% "{code_1.comment_3}" %>
                 VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+                HorizontalAlignment = Domain.HorizontalAlignment.Left,
 
                 // <% "{code_1.comment_4}" %>
-                Margin = new Padding() { Top = 20, Right = 20 },
+                Margin = new Padding() { Top = 180, Right = 20 },
 
                 // <% "{code_1.comment_5}" %>
                 ForeColor = Color.Red,
 
                 // <% "{code_1.comment_6}" %>
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
 
                 // <% "{code_1.comment_7}" %>
                 CodeTextAlignment = CodeTextAlignment.Above
-            }
+            };
 
             // <% "{code_1.comment_8}" %>
             SignResult result = signature.Sign("output.<% get "fileformat" %>", options);

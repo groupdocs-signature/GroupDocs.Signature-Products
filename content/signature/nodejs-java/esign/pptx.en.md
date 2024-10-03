@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-02T16:58:52
+date:  2024-10-03T12:33:01
 draft: false
 lang: en
 format: Pptx
@@ -56,7 +56,7 @@ steps:
       platform: "nodejs-java"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "npm i @groupdocs/groupdocs.signature"
@@ -147,7 +147,7 @@ more_features:
           #  loop
           - title: "Download result"
             icon: "download"
-            link: "/examples/signature_esign.pptx"
+            link: "/examples/signature/formats/signature_esign.pptx"
         links:
           #  loop
           - title: "More examples"

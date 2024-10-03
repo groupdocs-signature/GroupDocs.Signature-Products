@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-17T12:54:05
+date:  2024-10-03T12:33:00
 draft: false
 lang: en
 format: Pptx
@@ -56,7 +56,7 @@ steps:
       platform: "net"
       copy_title: "Copy"
       result_enable: true
-      result_link: "/examples/signature_all.pdf"
+      result_link: "/examples/signature/signature_all.pdf"
       result_title: "Sample signatures"
       install:
         command: "dotnet add package GroupDocs.Signature"
@@ -124,24 +124,26 @@ more_features:
         using (Signature signature = new Signature("input.pptx"))
         {
             // Formulate signature options with the desired text
-            BarcodeSignOptions options = new BarcodeSignOptions("Accepted for review on February 15, 2020")
+            BarcodeSignOptions options = new BarcodeSignOptions("Accepted")
             {
+                EncodeType = BarcodeTypes.Code39FullASCII,
+
                 // Determine the relative barcode position on the page
                 VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+                HorizontalAlignment = Domain.HorizontalAlignment.Left,
 
                 // Define the barcode padding from the page edge
-                Margin = new Padding() { Top = 20, Right = 20 },
+                Margin = new Padding() { Top = 180, Right = 20 },
 
                 // Specify the color of the bars
                 ForeColor = Color.Red,
 
                 // Select the message font style
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                Font = new SignatureFont { Size = 12, FamilyName = "Arial" },
 
                 // Indicate the message position
                 CodeTextAlignment = CodeTextAlignment.Above
-            }
+            };
 
             // Sign and persist the document
             SignResult result = signature.Sign("output.pptx", options);
