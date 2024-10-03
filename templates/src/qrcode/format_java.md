@@ -58,6 +58,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "<% "{common-content.format-code.result_title}" %>"
       install:
+        command_title: "Maven XML"
         command: |
           <dependencies>
             <dependency>

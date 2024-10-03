@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-09-18T12:45:54
+date:  2024-10-03T08:55:51
 draft: false
 lang: en
 format: Xlsx
@@ -59,6 +59,7 @@ steps:
       result_link: "/examples/signature_all.pdf"
       result_title: "Sample signatures"
       install:
+        command_title: "Maven XML"
         command: |
           <dependencies>
             <dependency>
