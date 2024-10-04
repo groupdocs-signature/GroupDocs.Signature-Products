@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-04T11:53:12
+date:  2024-10-04T12:49:08
 draft: false
 lang: en
 format: Xlsx
@@ -122,11 +122,14 @@ more_features:
           using (Signature signature = new Signature("input.xlsx"))
           {
               // Specify the path to the image in the signature configuration
-              QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
+              ImageSignOptions options = new ImageSignOptions("image.jpg")
               {
                   // Define the dimensions and target pages for the signature
-                  Left = 50,
-                  Top = 50,
+                  VerticalAlignment = VerticalAlignment.Bottom,
+                  HorizontalAlignment = HorizontalAlignment.Right,
+                  Height = 150,
+                  Width = 200,
+                  Margin = new Padding(50),
                   AllPages = true
               };
 

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-04T12:49:08
 draft: false
 lang: en
 format: Jpeg
@@ -125,8 +125,11 @@ more_features:
               ImageSignOptions options = new ImageSignOptions("image.jpg")
               {
                   // Define the dimensions and target pages for the signature
-                  Left = 50,
-                  Top = 50,
+                  VerticalAlignment = VerticalAlignment.Bottom,
+                  HorizontalAlignment = HorizontalAlignment.Right,
+                  Height = 150,
+                  Width = 200,
+                  Margin = new Padding(50),
                   AllPages = true
               };
 

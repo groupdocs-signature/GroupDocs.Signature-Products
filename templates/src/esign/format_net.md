@@ -121,11 +121,14 @@ more_features:
           using (Signature signature = new Signature("input.<% get "fileformat" %>"))
           {
               // <% "{code_1.comment_2}" %>
-              QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
+              ImageSignOptions options = new ImageSignOptions("image.jpg")
               {
                   // <% "{code_1.comment_3}" %>
-                  Left = 50,
-                  Top = 50,
+                  VerticalAlignment = VerticalAlignment.Bottom,
+                  HorizontalAlignment = HorizontalAlignment.Right,
+                  Height = 150,
+                  Width = 200,
+                  Margin = new Padding(50),
                   AllPages = true
               };
 

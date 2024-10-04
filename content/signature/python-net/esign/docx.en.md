@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-04T11:53:12
+date:  2024-10-04T12:49:08
 draft: false
 lang: en
 format: Docx
@@ -131,8 +131,11 @@ more_features:
                   options = sg.ImageSignOptions("image.jpg")
 
                   # Define the size and placement of the signature on the target pages
-                  options.Left = 50
-                  options.Top = 50
+                  options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                  options.Height = 150
+                  options.Width = 200
+                  options.Margin = sg.Padding(50)
                   options.AllPages = True
 
                   # Apply the signature and save the signed document
