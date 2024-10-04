@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-04T11:53:12
 draft: false
 lang: en
 format: Jpeg
@@ -83,9 +83,9 @@ steps:
                 options = sg.QrCodeSignOptions("QR code text")
 
                 # Set up all required options
-                options.Left = 50
-                options.Top = 200
-                options.ForeColor = Color.Red
+                options.Left = 100
+                options.Top = 100
+                options.ForeColor = sg.Color.Red
 
                 # Save the signed document to your system
                 result = signature.Sign("output.jpeg", options)

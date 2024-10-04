@@ -82,9 +82,9 @@ steps:
                 options = sg.QrCodeSignOptions("QR code text")
 
                 # <% "{examples.comment_3}" %>
-                options.Left = 50
-                options.Top = 200
-                options.ForeColor = Color.Red
+                options.Left = 100
+                options.Top = 100
+                options.ForeColor = sg.Color.Red
 
                 # <% "{examples.comment_4}" %>
                 result = signature.Sign("output.<% get "fileformat" %>", options)

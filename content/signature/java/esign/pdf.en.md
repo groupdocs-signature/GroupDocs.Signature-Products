@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-04T11:53:12
 draft: false
 lang: en
 format: Pdf
@@ -92,7 +92,7 @@ steps:
         Signature signature = new Signature("input.pdf");
 
         // Instantiate a QrCodeSignOptions object
-        TextSignOptions options = new TextSignOptions("John Smith");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // Configure all desired options
         options.setLeft(100);

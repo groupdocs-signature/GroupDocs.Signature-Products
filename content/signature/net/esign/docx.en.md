@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-04T11:53:12
 draft: false
 lang: en
 format: Docx
@@ -76,7 +76,7 @@ steps:
         using (Signature signature = new Signature("input.docx"))
         {
             // Create a new QrCodeSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
             {
                 // Configure all the necessary options
                 Left = 50,

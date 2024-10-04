@@ -91,7 +91,7 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("John Smith");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // <% "{examples.comment_3}" %>
         options.setLeft(100);
