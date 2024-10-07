@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:00
+date:  2024-10-07T19:27:51
 draft: false
 lang: en
 format: Jpeg
@@ -114,51 +114,73 @@ more_features:
     - title: "Signature removal made easy"
       content: "Remove any unwanted or obsolete signatures, including digital certificates, with ease. Full control over signature management ensures a clean and well-organized document."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Customizing a generated QR code"
       content: |
         This example details the process of adding a customized QR code to a JPEG page.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Obtain the document to be signed and pass it to Signature
-        const signature = new signatureLib.Signature('input.jpeg');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Obtain the document to be signed and pass it to Signature
+          const signature = new signatureLib.Signature('input.jpeg');
 
-        // Set up QR code options with the required text
-        const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
+          // Set up QR code options with the required text
+          const signOptions = new signatureLib.QrCodeSignOptions('Archived on July 11, 2019');
 
-        // Determine the QR code's position on the page
-        signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          // Determine the QR code's position on the page
+          signOptions.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          signOptions.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // Specify the signature padding
-        const padding = new signatureLib.Padding();
-        padding.setRight(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+          // Specify the signature padding
+          const padding = new signatureLib.Padding();
+          padding.setRight(20);
+          padding.setTop(20);
+          signOptions.setMargin(padding);
 
-        // Choose the QR code color
-        signOptions.setForeColor(signatureLib.Color.RED);
+          // Choose the QR code color
+          signOptions.setForeColor(signatureLib.Color.RED);
 
-        // Define the font options for the accompanying message
-        const font = new signatureLib.SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
+          // Define the font options for the accompanying message
+          const font = new signatureLib.SignatureFont();
+          font.setSize(12);
+          font.setFamilyName("Comic Sans MS");
+          signOptions.setFont(font);
 
-        // Customize the background color and brush for the QR code
-        const background = new signatureLib.Background();
-        background.setColor(signatureLib.Color.GREEN);
-        background.setTransparency(0.5);
-        background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
-        signOptions.setBackground(background);
+          // Customize the background color and brush for the QR code
+          const background = new signatureLib.Background();
+          background.setColor(signatureLib.Color.GREEN);
+          background.setTransparency(0.5);
+          background.setBrush(new signatureLib.LinearGradientBrush(signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0));
+          signOptions.setBackground(background);
 
-        // Embed the QR code into the document
-        signature.sign('output.jpeg', signOptions);
-        ```
-        {{< /landing/code >}}
+          // Embed the QR code into the document
+          signature.sign('output.jpeg', signOptions);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_qrcode.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

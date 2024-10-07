@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:59
+date:  2024-10-07T19:27:50
 draft: false
 lang: en
 format: Pdf
@@ -113,46 +113,68 @@ more_features:
     - title: "Efficient signature removal"
       content: "Streamline your document management by programmatically removing unwanted signatures. Whether dealing with digital certificates or other signature types, removal can be done swiftly and effectively."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to customize a generated QR code"
       content: |
         This example demonstrates how to place a customized QR code on a PDF page.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Retrieve the document to be signed and pass it to Signature
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Configure QR code options with the necessary text
-            QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
-            {
-                // Designate the relative position of the QR code on the page
-                VerticalAlignment = Domain.VerticalAlignment.Top,
-                HorizontalAlignment = Domain.HorizontalAlignment.Right,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Retrieve the document to be signed and pass it to Signature
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // Configure QR code options with the necessary text
+              QrCodeSignOptions options = new QrCodeSignOptions("Archived on July 11, 2019")
+              {
+                    // Designate the relative position of the QR code on the page
+                    VerticalAlignment = Domain.VerticalAlignment.Top,
+                    HorizontalAlignment = Domain.HorizontalAlignment.Right,
 
-                // Set the signature padding
-                Margin = new Padding() { Top = 20, Right = 20 },
+                    // Set the signature padding
+                    Margin = new Padding() { Top = 20, Right = 20 },
 
-                // Specify the QR code color
-                ForeColor = Color.Red,
+                    // Specify the QR code color
+                    ForeColor = Color.Red,
 
-                // Define the font options for the message
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                    // Define the font options for the message
+                    Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // Customize the QR code background color and brush
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                }
-            }
+                    // Customize the QR code background color and brush
+                    Background = new Background()
+                    {
+                        Color = Color.LimeGreen,
+                        Transparency = 0.5,
+                        Brush = new Domain.Extensions.LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
+                    }
+              };
 
-            // Embed the QR code into the document
-            SignResult result = signature.Sign("output.pdf", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Embed the QR code into the document
+              SignResult result = signature.Sign("output.pdf", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_qrcode.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

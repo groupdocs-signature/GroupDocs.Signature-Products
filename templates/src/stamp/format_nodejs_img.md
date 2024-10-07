@@ -78,10 +78,12 @@ steps:
 
         // <% "{examples.comment_2}" %>
         const options = new signatureLib.StampSignOptions();
+        options.Height = 180;
+        options.Width = 180;
 
         // <% "{examples.comment_3}" %>
         const outerLine = new signatureLib.StampLine();
-        outerLine.setText(" * The Best Company * ");
+        outerLine.setText("* The Best Company *");
         outerLine.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
         outerLine.getFont().setSize(12);
         outerLine.setHeight(22);
@@ -118,57 +120,79 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // <% "{code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // <% "{code_1.comment_1}" %>
+          const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{code_1.comment_2}" %>
-        const options = new signatureLib.StampSignOptions();
+          // <% "{code_1.comment_2}" %>
+          const options = new signatureLib.StampSignOptions();
 
-        // <% "{code_1.comment_3}" %>
-        options.setHeight(300);
-        options.setWidth(300);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setAllPages(true);
+          // <% "{code_1.comment_3}" %>
+          options.setHeight(200);
+          options.setWidth(200);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setAllPages(true);
 
-        // <% "{code_1.comment_4}" %>
-        const outerLine1 = new signatureLib.StampLine();
-        outerLine1.setText('* The best choice *');
-        outerLine1.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
-        const signatureFont1 = new signatureLib.SignatureFont();
-        signatureFont1.setSize(12);
-        signatureFont1.setFamilyName('Arial');
-        outerLine1.setFont(signatureFont1);
-        outerLine1.setHeight(30);
-        outerLine1.setTextBottomIntent(6);
-        outerLine1.setTextColor(signatureLib.Color.WHITE);
-        outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
-        options.getOuterLines().add(outerLine1);
+          // <% "{code_1.comment_4}" %>
+          const outerLine1 = new signatureLib.StampLine();
+          outerLine1.setText('* The best  choice *');
+          outerLine1.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
+          const signatureFont1 = new signatureLib.SignatureFont();
+          signatureFont1.setSize(12);
+          signatureFont1.setFamilyName('Arial');
+          outerLine1.setFont(signatureFont1);
+          outerLine1.setHeight(30);
+          outerLine1.setTextBottomIntent(6);
+          outerLine1.setTextColor(signatureLib.Color.WHITE);
+          outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
+          options.getOuterLines().add(outerLine1);
 
-        // <% "{code_1.comment_5}" %>
-        const innerLine1 = new signatureLib.StampLine();
-        innerLine1.setText('Company #1');
-        innerLine1.setTextColor(signatureLib.Color.RED);
-        const signFont1 = new signatureLib.SignatureFont();
-        signFont1.setSize(20);
-        signFont1.setBold(true);
-        innerLine1.setFont(signFont1);
-        innerLine1.setHeight(40);
-        options.getInnerLines().add(innerLine1);
-        
-        // <% "{code_1.comment_6}" %>
-        const result = signature.sign('output.<% get "fileformat" %>', options);
-        ```
-        {{< /landing/code >}}
+          // <% "{code_1.comment_5}" %>
+          const innerLine1 = new signatureLib.StampLine();
+          innerLine1.setText('Company #1');
+          innerLine1.setTextColor(signatureLib.Color.RED);
+          const signFont1 = new signatureLib.SignatureFont();
+          signFont1.setSize(20);
+          signFont1.setBold(true);
+          innerLine1.setFont(signFont1);
+          innerLine1.setHeight(40);
+          options.getInnerLines().add(innerLine1);
+          
+          // <% "{code_1.comment_6}" %>
+          const result = signature.sign('output.<% get "fileformat" %>', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

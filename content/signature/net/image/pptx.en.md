@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-07T14:00:27
 draft: false
 lang: en
 format: Pptx
@@ -81,7 +81,7 @@ steps:
                 // Position the image at the top left corner of all pages
                 AllPages = true,
                 Left = 100,
-                Top = 100
+                Top = 200
             };
 
             // Save the signed document
@@ -113,48 +113,70 @@ more_features:
     - title: "Remove redundant signatures"
       content: "Our API facilitates full CRUD operations for the majority of signature types. You can efficiently remove signatures from nearly all supported document formats when necessary."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Augment document content with image signatures"
       content: |
         Discover how to enrich business documents by embedding images, providing supplementary information.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Select the document to be signed
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Create image options with the specified image path
-            ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
-            {
-                // Define the dimensions of the image signature
-                Width = 100,
-                Height = 100,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Select the document to be signed
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Create image options with the specified image path
+              ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
+              {
+                    // Define the dimensions of the image signature
+                    Width = 100,
+                    Height = 100,
 
-                // Position the image in the bottom right corner
-                VerticalAlignment = VerticalAlignment.Bottom,
-                HorizontalAlignment = HorizontalAlignment.Right,
+                    // Position the image in the bottom right corner
+                    VerticalAlignment = VerticalAlignment.Bottom,
+                    HorizontalAlignment = HorizontalAlignment.Right,
 
-                // Apply necessary padding from the page edges
-                Margin = new Padding() { Bottom = 120, Right = 120 },
+                    // Apply necessary padding from the page edges
+                    Margin = new Padding() { Bottom = 120, Right = 120 },
 
-                // Optionally, add a custom border to the image
-                Border = new Border()
-                {
-                    Visible = true,
-                    Color = Color.OrangeRed,
-                    DashStyle = DashStyle.DashDotDot,
-                    Weight = 5
-                },
+                    // Optionally, add a custom border to the image
+                    Border = new Border()
+                    {
+                        Visible = true,
+                        Color = Color.Red,
+                        DashStyle = DashStyle.DashDotDot,
+                        Weight = 5
+                    },
 
-                // Rotate the signature for optimal alignment
-                RotationAngle = 45
-            };
+                    // Rotate the signature for optimal alignment
+                    RotationAngle = 45
+              };
 
-            // Save the updated document to the desired location
-            SignResult result = signature.Sign("output.pptx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Save the updated document to the desired location
+              SignResult result = signature.Sign("output.pptx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_image.pptx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

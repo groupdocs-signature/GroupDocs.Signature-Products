@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-07T19:38:44
 draft: false
 lang: en
 format: Jpeg
@@ -93,10 +93,12 @@ steps:
 
         // Instantiate StampSignOptions with the desired signature text
         StampSignOptions options = new StampSignOptions();
+        options.Height = 180;
+        options.Width = 180;
 
         // Add one or more stamp lines
         StampLine outerLine = new StampLine();
-        outerLine.setText(" * The Best Company * ");
+        outerLine.setText("* The Best Company *");
         outerLine.setTextRepeatType(StampTextRepeatType.FullTextRepeat);
         outerLine.getFont().setSize(12);
         outerLine.setHeight(22);
@@ -133,55 +135,92 @@ more_features:
     - title: "Remove signatures"
       content: "Need to remove signatures from a document? Our API fully supports signature deletion, making it easy to manage your documents effectively."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Add custom stamps to documents using special signatures"
       content: |
         Learn how to generate and add custom stamps with important textual information to your documents.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Provide the document to be stamped
-        Signature signature = new Signature("input.jpeg");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Provide the document to be stamped
+          Signature signature = new Signature("input.jpeg");
 
-        // Instantiate the stamp options object
-        StampSignOptions options = new StampSignOptions();
+          // Instantiate the stamp options object
+          StampSignOptions options = new StampSignOptions();
 
-        // Set the size and position on the page
-        options.setHeight(300);
-        options.setWidth(300);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setAllPages(true);
+          // Set the size and position on the page
+          options.setHeight(200);
+          options.setWidth(200);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setAllPages(true);
 
-        // Add one or more outer round lines with text
-        StampLine outerLine1 = new StampLine();
-        outerLine1.setText("* The best choice *");
-        outerLine1.setTextRepeatType(StampTextRepeatType.FullTextRepeat);
-        SignatureFont signatureFont1 = new SignatureFont();
-        signatureFont1.setSize(12);
-        signatureFont1.setFamilyName("Arial");
-        outerLine1.setFont(signatureFont1);
-        outerLine1.setHeight(30);
-        outerLine1.setTextBottomIntent(6);
-        outerLine1.setTextColor(Color.WHITE);
-        outerLine1.setBackgroundColor(Color.BLUE);
-        options.getOuterLines().add(outerLine1);
+          // Add one or more outer round lines with text
+          StampLine outerLine1 = new StampLine();
+          outerLine1.setText("* The best  choice *");
+          outerLine1.setTextRepeatType(StampTextRepeatType.FullTextRepeat);
+          SignatureFont signatureFont1 = new SignatureFont();
+          signatureFont1.setSize(12);
+          signatureFont1.setFamilyName("Arial");
+          outerLine1.setFont(signatureFont1);
+          outerLine1.setHeight(30);
+          outerLine1.setTextBottomIntent(6);
+          outerLine1.setTextColor(Color.WHITE);
+          outerLine1.setBackgroundColor(Color.BLUE);
+          options.getOuterLines().add(outerLine1);
 
-        // Add one or more inner square lines
-        StampLine innerLine1 = new StampLine();
-        innerLine1.setText("Company #1");
-        innerLine1.setTextColor(Color.RED);
-        SignatureFont signFont1 = new SignatureFont();
-        signFont1.setSize(20);
-        signFont1.setBold(true);
-        innerLine1.setFont(signFont1);
-        innerLine1.setHeight(40);
-        options.getInnerLines().add(innerLine1);
+          // Add one or more inner square lines
+          StampLine innerLine1 = new StampLine();
+          innerLine1.setText("Company #1");
+          innerLine1.setTextColor(Color.RED);
+          SignatureFont signFont1 = new SignatureFont();
+          signFont1.setSize(20);
+          signFont1.setBold(true);
+          innerLine1.setFont(signFont1);
+          innerLine1.setHeight(40);
+          options.getInnerLines().add(innerLine1);
 
-        // Save the stamped document
-        SignResult result = signature.sign("output.jpeg", options);
-        ```
-        {{< /landing/code >}}
+          // Save the stamped document
+          SignResult result = signature.sign("output.jpeg", options);
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_stamp.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

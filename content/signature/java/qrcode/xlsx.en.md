@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:59
+date:  2024-10-07T19:27:50
 draft: false
 lang: en
 format: Xlsx
@@ -128,49 +128,86 @@ more_features:
     - title: "Remove signatures"
       content: "Delete unwanted signatures with ease. Various signature types, including digital certificates, can be programmatically removed from documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to customize a generated QR code"
       content: |
         Use this example to learn how to place a new QR code on a XLSX page.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Get the document that needs to be signed and pass it to Signature
-        Signature signature = new Signature("input.xlsx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Get the document that needs to be signed and pass it to Signature
+          Signature signature = new Signature("input.xlsx");
 
-        // Use QR code options to provide text with the required information
-        QrCodeSignOptions signOptions = new QrCodeSignOptions("Archived on July 11, 2019");
+          // Use QR code options to provide text with the required information
+          QrCodeSignOptions signOptions = new QrCodeSignOptions("Archived on July 11, 2019");
 
-        // Set the relative position of the QR code on the page
-        signOptions.setVerticalAlignment(VerticalAlignment.Top);
-        signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
+          // Set the relative position of the QR code on the page
+          signOptions.setVerticalAlignment(VerticalAlignment.Top);
+          signOptions.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // Set the signature padding
-        Padding padding = new Padding();
-        padding.setRight(20);
-        padding.setTop(20);
-        signOptions.setMargin(padding);
+          // Set the signature padding
+          Padding padding = new Padding();
+          padding.setRight(20);
+          padding.setTop(20);
+          signOptions.setMargin(padding);
 
-        // Specify the color of the QR code
-        signOptions.setForeColor(Color.RED);
+          // Specify the color of the QR code
+          signOptions.setForeColor(Color.RED);
 
-        // Define the font options for the message
-        SignatureFont font = new SignatureFont();
-        font.setSize(12);
-        font.setFamilyName("Comic Sans MS");
-        signOptions.setFont(font);
+          // Define the font options for the message
+          SignatureFont font = new SignatureFont();
+          font.setSize(12);
+          font.setFamilyName("Comic Sans MS");
+          signOptions.setFont(font);
 
-        // Customize the QR code background color and brush
-        Background background = new Background();
-        background.setColor(Color.GREEN);
-        background.setTransparency(0.5);
-        background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
-        signOptions.setBackground(background);
+          // Customize the QR code background color and brush
+          Background background = new Background();
+          background.setColor(Color.GREEN);
+          background.setTransparency(0.5);
+          background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
+          signOptions.setBackground(background);
 
-        // Add the QR code to the document
-        SignResult signResult = signature.sign("output.xlsx", signOptions);
-        ```
-        {{< /landing/code >}}
+          // Add the QR code to the document
+          SignResult signResult = signature.sign("output.xlsx", signOptions);
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_qrcode.xlsx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

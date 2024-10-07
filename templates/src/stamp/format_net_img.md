@@ -76,12 +76,14 @@ steps:
         {
             // <% "{examples.comment_2}" %>
             StampSignOptions options = new StampSignOptions();
+            options.Height = 180;
+            options.Width = 180;
 
             // <% "{examples.comment_3}" %>
             options.OuterLines.Add(
                 new StampLine()
                 {
-                    Text = "* European Union *",
+                    Text = "* The Best Company *",
                     TextRepeatType = StampTextRepeatType.FullTextRepeat,
                     Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
                     Height = 22,
@@ -120,57 +122,79 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            StampSignOptions options = new StampSignOptions()
-            {
-                // <% "{code_1.comment_3}" %>
-                Height = 300,
-                Width = 300,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                AllPages = true
-            };
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              StampSignOptions options = new StampSignOptions()
+              {
+                    // <% "{code_1.comment_3}" %>
+                    Height = 200,
+                    Width = 200,
+                    VerticalAlignment = VerticalAlignment.Bottom,
+                    HorizontalAlignment = HorizontalAlignment.Right,
+                    AllPages = true
+              };
 
-            // <% "{code_1.comment_4}" %>
-            options.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* The best choice *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+              // <% "{code_1.comment_4}" %>
+              options.OuterLines.Add(
+                    new StampLine()
+                    {
+                        Text = "* The best  choice *",
+                        TextRepeatType = StampTextRepeatType.FullTextRepeat,
+                        Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
+                        Height = 22,
+                        TextBottomIntent = 6,
+                        TextColor = Color.WhiteSmoke,
+                        BackgroundColor = Color.DarkSlateBlue
+                    }
+              );
 
-            // <% "{code_1.comment_5}" %>
-            options.InnerLines.Add(
-                new StampLine()
-                { 
-                    Text = "Company #1",
-                    TextColor = Color.MediumVioletRed,
-                    Font = new SignatureFont() { Size = 20, Bold = true },
-                    Height = 40
-                }
-            );
+              // <% "{code_1.comment_5}" %>
+              options.InnerLines.Add(
+                    new StampLine()
+                    { 
+                        Text = "Company #1",
+                        TextColor = Color.MediumVioletRed,
+                        Font = new SignatureFont() { Size = 20, Bold = true },
+                        Height = 40
+                    }
+              );
 
-            // <% "{code_1.comment_6}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // <% "{code_1.comment_6}" %>
+              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

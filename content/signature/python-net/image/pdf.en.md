@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-07T14:00:27
 draft: false
 lang: en
 format: Pdf
@@ -85,7 +85,7 @@ steps:
                 # Position the image at the top-left corner of each page
                 options.AllPages = True
                 options.Left = 100
-                options.Top = 100
+                options.Top = 200
                 
                 # Save the signed document
                 result = signature.Sign("output.pdf", options)
@@ -115,50 +115,72 @@ more_features:
     - title: "Remove unnecessary signatures"
       content: "Our API provides full control, allowing you to remove signatures from most supported file formats whenever needed."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Enhance documents with image signatures"
       content: |
         Learn how to embed image signatures in your business documents to enrich content.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Choose the document to be signed
-            with sg.Signature('input.pdf') as signature:
+              # Choose the document to be signed
+              with sg.Signature('input.pdf') as signature:
 
-                # Set up image options with the image file path
-                options = sg.ImageSignOptions("organization_seal.jpg")
+                    # Set up image options with the image file path
+                    options = sg.ImageSignOptions("organization_seal.jpg")
 
-                # Specify the size of the image signature
-                options.Width = 100
-                options.Height = 100
+                    # Specify the size of the image signature
+                    options.Width = 100
+                    options.Height = 100
 
-                # Position the image in the bottom-right corner of the page
-                options.VerticalAlignment = sg.VerticalAlignment.Bottom
-                options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                    # Position the image in the bottom-right corner of the page
+                    options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                    options.HorizontalAlignment = sg.HorizontalAlignment.Right
 
-                # Apply padding from the page edges as needed
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 120
-                options.Margin.Right = 120
+                    # Apply padding from the page edges as needed
+                    options.Margin = sg.Padding()
+                    options.Margin.Bottom = 120
+                    options.Margin.Right = 120
 
-                # Optionally, add a border around the image
-                options.Border = sg.Border()
-                options.Border.Visible = True
-                options.Border.Color = sg.Color.OrangeRed
-                options.Border.DashStyle = sg.DashStyle.DashDotDot
-                options.Border.Weight = 5
+                    # Optionally, add a border around the image
+                    options.Border = sg.Border()
+                    options.Border.Visible = True
+                    options.Border.Color = sg.Color.OrangeRed
+                    options.Border.DashStyle = sg.DashStyle.DashDotDot
+                    options.Border.Weight = 5
 
-                # Rotate the image to ensure proper alignment
-                options.RotationAngle = 45
+                    # Rotate the image to ensure proper alignment
+                    options.RotationAngle = 45
 
-                # Save the updated document
-                result = signature.Sign("output.pdf", options)
-        ```
-        {{< /landing/code >}}
+                    # Save the updated document
+                    result = signature.Sign("output.pdf", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_image.pdf"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

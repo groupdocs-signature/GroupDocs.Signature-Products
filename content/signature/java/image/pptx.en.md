@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-07T14:00:27
 draft: false
 lang: en
 format: Pptx
@@ -97,7 +97,7 @@ steps:
         // Position the image in the top left corner of all pages
         options.setAllPages(true);
         options.setLeft(100);
-        options.setTop(100);
+        options.setTop(200);
 
         // Save the signed document
         SignResult result = signature.sign("output.pptx", options);
@@ -127,48 +127,86 @@ more_features:
     - title: "Remove unnecessary signatures"
       content: "Our API supports full CRUD operations for most signature types. You can easily remove signatures from nearly all supported document types when necessary."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Enhance document content with image signatures"
       content: |
         Learn how to append images to business documents to provide additional information.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Select a document to be signed
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Select a document to be signed
+          Signature signature = new Signature("input.pptx");
 
-        // Create image options with the path to the image
-        ImageSignOptions options = new ImageSignOptions("organization_seal.jpg");
+          // Create image options with the path to the image
+          ImageSignOptions options = new ImageSignOptions("organization_seal.jpg");
 
-        // Set the size of the image signature
-        options.setWidth(100);
-        options.setHeight(100);
+          // Set the size of the image signature
+          options.setWidth(100);
+          options.setHeight(100);
 
-        // Place the image in the bottom right corner
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
+          // Place the image in the bottom right corner
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
 
-        // Apply padding from the page corners if necessary
-        Padding padding = new Padding();
-        padding.setRight(120);
-        padding.setBottom(120);
-        options.setMargin(padding);
+          // Apply padding from the page corners if necessary
+          Padding padding = new Padding();
+          padding.setRight(120);
+          padding.setBottom(120);
+          options.setMargin(padding);
 
-        // Add a custom border to the image if desired
-        Border border = new Border();
-        border.setColor(Color.GREEN);
-        border.setDashStyle(DashStyle.DashLongDashDot);
-        border.setWeight(5);
-        border.setVisible(true);
-        options.setBorder(border);
+          // Add a custom border to the image if desired
+          Border border = new Border();
+          border.setColor(Color.RED);
+          border.setDashStyle(DashStyle.DashDotDot);
+          border.setWeight(5);
+          border.setVisible(true);
+          options.setBorder(border);
 
-        // Rotate the signature for better alignment
-        options.setRotationAngle(45);
+          // Rotate the signature for better alignment
+          options.setRotationAngle(45);
 
-        // Save the updated document to any location
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // Save the updated document to any location
+          SignResult result = signature.sign("output.pptx", options);
+
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_image.pptx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

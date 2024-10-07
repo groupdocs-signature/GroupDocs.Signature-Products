@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:00
+date:  2024-10-07T19:27:51
 draft: false
 lang: en
 format: Jpeg
@@ -115,50 +115,72 @@ more_features:
     - title: "Easily remove signatures"
       content: "Streamline document management by quickly removing unwanted signatures. Whether it’s a digital certificate or another signature type, removal can be done efficiently."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Customize a Generated QR Code"
       content: |
         This example shows how to place a customized QR code on a JPEG page.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Get the document to be signed and pass it to Signature
-            with sg.Signature('input.jpeg') as signature:
+              # Get the document to be signed and pass it to Signature
+              with sg.Signature('input.jpeg') as signature:
 
-                # Configure QR code options with the required text
-                options = sg.QrCodeSignOptions("Archived on July 11, 2019")
+                    # Configure QR code options with the required text
+                    options = sg.QrCodeSignOptions("Archived on July 11, 2019")
 
-                # Set the QR code’s position on the page
-                options.VerticalAlignment = sg.Domain.VerticalAlignment.Top
-                options.HorizontalAlignment = sg.Domain.HorizontalAlignment.Right
+                    # Set the QR code’s position on the page
+                    options.VerticalAlignment = sg.Domain.VerticalAlignment.Top
+                    options.HorizontalAlignment = sg.Domain.HorizontalAlignment.Right
 
-                # Set the padding for the signature
-                options.Margin = sg.Padding()
-                options.Margin.Top = 20
-                options.Margin.Right = 20
+                    # Set the padding for the signature
+                    options.Margin = sg.Padding()
+                    options.Margin.Top = 20
+                    options.Margin.Right = 20
 
-                # Choose the color of the QR code
-                options.ForeColor = sg.Color.Red
+                    # Choose the color of the QR code
+                    options.ForeColor = sg.Color.Red
 
-                # Define the font options for the message
-                options.Font = sg.SignatureFont()
-                options.Font.Size = 12
-                options.Font.FamilyName = "Comic Sans MS"
+                    # Define the font options for the message
+                    options.Font = sg.SignatureFont()
+                    options.Font.Size = 12
+                    options.Font.FamilyName = "Comic Sans MS"
 
-                # Set the background color and brush for the QR code
-                options.Background = sg.Background()
-                options.Background.Color = Color.LimeGreen
-                options.Background.Transparency = 0.5
-                options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
+                    # Set the background color and brush for the QR code
+                    options.Background = sg.Background()
+                    options.Background.Color = Color.LimeGreen
+                    options.Background.Transparency = 0.5
+                    options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
 
-                # Embed the QR code into the document
-                result = signature.Sign("output.jpeg", options)
-        ```
-        {{< /landing/code >}}
+                    # Embed the QR code into the document
+                    result = signature.Sign("output.jpeg", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_qrcode.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################
