@@ -114,32 +114,49 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // <% "{code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // <% "{code_1.comment_1}" %>
+          const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{code_1.comment_2}" %>
-        const options = new signatureLib.BarcodeVerifyOptions();
-        options.setText('12345');
-        options.setMatchType(signatureLib.TextMatchType.StartsWith);
+          // <% "{code_1.comment_2}" %>
+          const options = new signatureLib.BarcodeVerifyOptions();
+          options.setText('12345');
+          options.setMatchType(signatureLib.TextMatchType.StartsWith);
 
-        // <% "{code_1.comment_3}" %>
-        const result = signature.verify(options);
+          // <% "{code_1.comment_3}" %>
+          const result = signature.verify(options);
 
-        // <% "{code_1.comment_4}" %>
-        if (result.isValid()) {
-            console.log('\nDocument was verified successfully!');
-        }
-        ```
-        {{< /landing/code >}}
+          // <% "{code_1.comment_4}" %>
+          if (result.isValid()) {
+              console.log('\nDocument was verified successfully!');
+          }
+          ```
+        platform: "nodejs-java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

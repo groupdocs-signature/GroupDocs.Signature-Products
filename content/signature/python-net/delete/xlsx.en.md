@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:34
+date:  2024-10-08T18:17:26
 draft: false
 lang: en
 format: Xlsx
@@ -117,28 +117,45 @@ more_features:
     - title: "Delete unwanted signatures"
       content: "Take full control of document signatures with complete create, read, update, and delete (CRUD) operations, allowing you to remove any signature type when needed."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Remove all barcode signatures"
       content: |
         Learn how to delete all barcode signatures from a document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Provide a document containing barcode signatures
-            with sg.Signature('input.xlsx') as signature:
+              # Provide a document containing barcode signatures
+              with sg.Signature('input.xlsx') as signature:
 
-                # Remove all barcode signatures
-                result = signature.Delete(SignatureType.Barcode)
+                    # Remove all barcode signatures
+                    result = signature.Delete(SignatureType.Barcode)
 
-                # Check the results of the deletion process
-                if result.Succeeded.Count > 0:
-                    print("\n XLSX barcode signatures were deleted") 
-        ```
-        {{< /landing/code >}}
+                    # Check the results of the deletion process
+                    if result.Succeeded.Count > 0:
+                        print("\n XLSX barcode signatures were deleted") 
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

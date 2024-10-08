@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pptx
@@ -118,37 +118,54 @@ more_features:
     - title: "Remove unwanted signatures"
       content: "Whether you need to remove an outdated signature or clean up your document, GroupDocs.Signature for Node.js via Java offers full control over signature deletion, ensuring your files remain up-to-date and accurate."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Edit barcode signatures"
       content: |
         This example demonstrates how to programmatically edit barcode signatures within a document.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Load a document that includes barcode signatures
-        const signature = new signatureLib.Signature('input.pptx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Load a document that includes barcode signatures
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // Identify all barcode signatures within the document
-        const options = new signatureLib.BarcodeSearchOptions();
-        const signatures = signature.search(signatureLib.BarcodeSignature.class, options).toArray();
+          // Identify all barcode signatures within the document
+          const options = new signatureLib.BarcodeSearchOptions();
+          const signatures = signature.search(signatureLib.BarcodeSignature.class, options).toArray();
 
-        if (signatures.length > 0) {
+          if (signatures.length > 0) {
 
-            // Alter the location of the first barcode signature and save the document
-            const barcodeSignature = signatures[0];
-            barcodeSignature.setLeft(100);
-            barcodeSignature.setTop(100);
-            const result = signature.update('output.pptx', barcodeSignature);
+              // Alter the location of the first barcode signature and save the document
+              const barcodeSignature = signatures[0];
+              barcodeSignature.setLeft(100);
+              barcodeSignature.setTop(100);
+              const result = signature.update('output.pptx', barcodeSignature);
 
-            // Confirm the successful modification of the barcode
-            if (result) {
-              console.log(`\nBarcode was updated successfully.`);
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // Confirm the successful modification of the barcode
+              if (result) {
+                console.log(`\nBarcode was updated successfully.`);
+              }
+          }
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

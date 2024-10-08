@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pptx
@@ -121,39 +121,55 @@ more_features:
     - title: "Tailored native signatures"
       content: "Take advantage of document-specific signature types such as PDF stamps and Word watermarks. These tailored signatures are ideal for branding, watermarking, or compliance purposes, delivering a refined professional touch to your corporate documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Verify barcode signatures"
       content: |
         This example illustrates the procedure for authenticating barcode signatures within a document.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Submit the document containing barcode signatures
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Configure the verification options to match barcodes with specific text criteria
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.StartsWith
-            };
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Configure the verification options to match barcodes with specific text criteria
+              BarcodeVerifyOptions options = new BarcodeVerifyOptions()
+              {
+                    Text = "12345",
+                    MatchType = TextMatchType.StartsWith
+              };
 
-            // Authenticate the signatures embedded in the document
-            VerificationResult result = signature.Verify(options);
+              // Authenticate the signatures embedded in the document
+              VerificationResult result = signature.Verify(options);
 
-            // Present the outcomes of the authentication process
-            if (result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
-                }
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // Present the outcomes of the authentication process
+              if (result.IsValid)
+              {
+                  Console.WriteLine($"\nDocument was verified successfully!");
+                  foreach (BarcodeSignature item in result.Succeeded)
+                  {
+                      Console.WriteLine($"\nValid signature is found with text: {item.Text} 
+                            and type: {item.EncodeType.TypeName}.");
+                  }
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Xlsx
@@ -119,37 +119,54 @@ more_features:
     - title: "Effortless signature removal"
       content: "Full control over signature management is provided, allowing you to remove any type of signature from a document, ensuring flexibility in content handling."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Modify barcode signatures"
       content: |
         This example illustrates how to programmatically modify barcode signatures in a document.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Load a document containing barcode signatures
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Search for all existing barcode signatures
-            BarcodeSearchOptions options = new BarcodeSearchOptions();
-            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Load a document containing barcode signatures
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // Search for all existing barcode signatures
+              BarcodeSearchOptions options = new BarcodeSearchOptions();
+              List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-            if (signatures.Count > 0)
-            {
-                // Modify the position of the first detected barcode and save the document
-                BarcodeSignature barcodeSignature = signatures[0];
-                barcodeSignature.Left = 100;
-                barcodeSignature.Top = 100;
-                bool result = signature.Update(barcodeSignature);
+              if (signatures.Count > 0)
+              {
+                  // Modify the position of the first detected barcode and save the document
+                  BarcodeSignature barcodeSignature = signatures[0];
+                  barcodeSignature.Left = 100;
+                  barcodeSignature.Top = 100;
+                  bool result = signature.Update(barcodeSignature);
 
-                // Verify the success of the barcode modification
-                if (result)
-                {
-                    Console.WriteLine($"Barcode was updated successfully.");
-                }
-            }
-        }
-        ```
-        {{< /landing/code >}}
+                  // Verify the success of the barcode modification
+                  if (result)
+                  {
+                      Console.WriteLine($"Barcode was updated successfully.");
+                  }
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

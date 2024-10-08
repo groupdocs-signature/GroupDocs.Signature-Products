@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:32
+date:  2024-10-08T18:17:24
 draft: false
 lang: en
 format: Docx
@@ -115,30 +115,46 @@ more_features:
     - title: "Safeguard your document's integrity"
       content: "Utilize advanced tools to manage hidden metadata embedded within documents. Add or remove metadata entries and apply corporate digital certificates to protect against unauthorized edits and ensure document authenticity."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Search image signatures"
       content: |
         This example illustrates the process of detecting an image signature within a specified document.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        
-        // Provide the source document as an argument to the constructor
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Search for any signatures of the text type
-            List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
-            Console.WriteLine($"\nSource document contains following image signature(s).");
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Provide the source document as an argument to the constructor
+          using (Signature signature = new Signature("input.docx"))
+          {
+              // Search for any signatures of the text type
+              List<ImageSignature> signatures = signature.Search<ImageSignature>(SignatureType.Image);
+              Console.WriteLine($"\nSource document contains following image signature(s).");
 
-            // Present the results with detailed properties of the identified signatures
-            foreach (ImageSignature imageSignature in signatures)
-            {
-                Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
-                and size {imageSignature.Size}.");
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // Present the results with detailed properties of the identified signatures
+              foreach (ImageSignature imageSignature in signatures)
+              {
+                    Console.WriteLine($"Found Image signature at page {imageSignature.PageNumber} 
+                    and size {imageSignature.Size}.");
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

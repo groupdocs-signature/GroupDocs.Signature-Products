@@ -118,37 +118,54 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeSearchOptions options = new BarcodeSearchOptions();
-            List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              BarcodeSearchOptions options = new BarcodeSearchOptions();
+              List<BarcodeSignature> signatures = signature.Search<BarcodeSignature>(options);
 
-            if (signatures.Count > 0)
-            {
-                // <% "{code_1.comment_3}" %>
-                BarcodeSignature barcodeSignature = signatures[0];
-                barcodeSignature.Left = 100;
-                barcodeSignature.Top = 100;
-                bool result = signature.Update(barcodeSignature);
+              if (signatures.Count > 0)
+              {
+                  // <% "{code_1.comment_3}" %>
+                  BarcodeSignature barcodeSignature = signatures[0];
+                  barcodeSignature.Left = 100;
+                  barcodeSignature.Top = 100;
+                  bool result = signature.Update(barcodeSignature);
 
-                // <% "{code_1.comment_4}" %>
-                if (result)
-                {
-                    Console.WriteLine($"Barcode was updated successfully.");
-                }
-            }
-        }
-        ```
-        {{< /landing/code >}}
+                  // <% "{code_1.comment_4}" %>
+                  if (result)
+                  {
+                      Console.WriteLine($"Barcode was updated successfully.");
+                  }
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

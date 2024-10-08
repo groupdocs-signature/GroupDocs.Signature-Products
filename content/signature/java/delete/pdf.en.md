@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:34
+date:  2024-10-08T18:17:26
 draft: false
 lang: en
 format: Pdf
@@ -133,33 +133,65 @@ more_features:
     - title: "Delete signatures"
       content: "Our solution fully supports CRUD operations for signatures, allowing you to delete various types of signatures from a document as needed."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Remove all barcode signatures"
       content: |
         Learn how to remove all barcode signatures embedded within a document.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Provide a document that contains barcode signatures
-        Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Provide a document that contains barcode signatures
+          Signature signature = new Signature("input.pdf");
 
-        // Delete all barcode signatures
-        DeleteResult result = signature.delete("output.pdf", SignatureType.Barcode);
+          // Delete all barcode signatures
+          DeleteResult result = signature.delete("output.pdf", SignatureType.Barcode);
 
-        // Process the result of the deletion
-        if (result.getSucceeded().size() > 0)
-        {
-            System.out.print("\nFollowing PDF barcode signatures were deleted:");
-            int number = 1;
-            for (BaseSignature temp : result.getSucceeded())
-            {
-                System.out.print("Signature #"+number++ +
-                ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
-                ", Text: "+((BarcodeSignature)temp).getText());
-            }
-        }
-        ```
-        {{< /landing/code >}}
+          // Process the result of the deletion
+          if (result.getSucceeded().size() > 0)
+          {
+              System.out.print("\nFollowing PDF barcode signatures were deleted:");
+              int number = 1;
+              for (BaseSignature temp : result.getSucceeded())
+              {
+                    System.out.print("Signature #"+number++ +
+                    ": Type: "+temp.getSignatureType()+" Id:"+temp.getSignatureId()+
+                    ", Text: "+((BarcodeSignature)temp).getText());
+              }
+          }
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:32
+date:  2024-10-08T18:17:24
 draft: false
 lang: en
 format: Docx
@@ -112,29 +112,46 @@ more_features:
     - title: "Ensure document integrity"
       content: "Use advanced tools to manage hidden metadata within documents. Add or remove metadata, and apply digital certificates to safeguard your documents from unauthorized changes, ensuring their authenticity."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Search for image signatures"
       content: |
         This example demonstrates how to find an image signature within a specific document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Pass the source document to the constructor
-            with sg.Signature('input.docx') as signature:
+              # Pass the source document to the constructor
+              with sg.Signature('input.docx') as signature:
 
-                # Search for any text-based signatures
-                signatures = signature.Search(sg.SignatureType.Image)
-                print("\nSource document contains following image signature(s).")
+                    # Search for any text-based signatures
+                    signatures = signature.Search(sg.SignatureType.Image)
+                    print("\nSource document contains following image signature(s).")
 
-                # Display detailed properties of the identified signatures
-                for imageSignature in signatures:
-                    print("\nFound image signature at page ", imageSignature.PageNumber)
-        ```
-        {{< /landing/code >}}
+                    # Display detailed properties of the identified signatures
+                    for imageSignature in signatures:
+                        print("\nFound image signature at page ", imageSignature.PageNumber)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

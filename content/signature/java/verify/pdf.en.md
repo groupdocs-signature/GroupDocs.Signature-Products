@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pdf
@@ -130,31 +130,63 @@ more_features:
     - title: "Native signatures"
       content: "Utilize document-specific text signatures, such as PDF stamps or Word watermarks, to create tailored, professional documents for corporate use."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Verify barcode signatures"
       content: |
         This example demonstrates how to verify barcode signatures in a document.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Provide the document that contains barcode signatures
-        final Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Provide the document that contains barcode signatures
+          final Signature signature = new Signature("input.pdf");
 
-        // Configure options to verify barcodes against specific text
-        BarcodeVerifyOptions options = new BarcodeVerifyOptions();
-        options.setText("12345");
-        options.setMatchType(TextMatchType.StartsWith);
+          // Configure options to verify barcodes against specific text
+          BarcodeVerifyOptions options = new BarcodeVerifyOptions();
+          options.setText("12345");
+          options.setMatchType(TextMatchType.StartsWith);
 
-        // Verify the signatures that were applied to the document
-        VerificationResult result = signature.verify(options);
+          // Verify the signatures that were applied to the document
+          VerificationResult result = signature.verify(options);
 
-        // Display the results of the verification
-        if (result.isValid())
-        {
-            System.out.print("\nDocument was verified successfully!");
-        }
-        ```
-        {{< /landing/code >}}
+          // Display the results of the verification
+          if (result.isValid())
+          {
+              System.out.print("\nDocument was verified successfully!");
+          }
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

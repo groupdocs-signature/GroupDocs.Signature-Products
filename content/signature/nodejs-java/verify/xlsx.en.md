@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Xlsx
@@ -115,32 +115,49 @@ more_features:
     - title: "Customized native signatures"
       content: "Add tailored native signatures like stickers in PDFs or watermarks in Word documents. These customizable options allow for professional and secure document handling, perfectly suited to corporate environments."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Barcode signatures verification process"
       content: |
         This example elucidates the methodology for authenticating barcode signatures embedded within a document.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Submit the document featuring barcode signatures
-        const signature = new signatureLib.Signature('input.xlsx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Submit the document featuring barcode signatures
+          const signature = new signatureLib.Signature('input.xlsx');
 
-        // Configure the parameters to validate barcodes against designated text
-        const options = new signatureLib.BarcodeVerifyOptions();
-        options.setText('12345');
-        options.setMatchType(signatureLib.TextMatchType.StartsWith);
+          // Configure the parameters to validate barcodes against designated text
+          const options = new signatureLib.BarcodeVerifyOptions();
+          options.setText('12345');
+          options.setMatchType(signatureLib.TextMatchType.StartsWith);
 
-        // Authenticate the signatures previously affixed to the document
-        const result = signature.verify(options);
+          // Authenticate the signatures previously affixed to the document
+          const result = signature.verify(options);
 
-        // Check validation report
-        if (result.isValid()) {
-            console.log('\nDocument was verified successfully!');
-        }
-        ```
-        {{< /landing/code >}}
+          // Check validation report
+          if (result.isValid()) {
+              console.log('\nDocument was verified successfully!');
+          }
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

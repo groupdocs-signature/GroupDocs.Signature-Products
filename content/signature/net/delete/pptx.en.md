@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:34
+date:  2024-10-08T18:17:26
 draft: false
 lang: en
 format: Pptx
@@ -119,33 +119,50 @@ more_features:
     - title: "Signature deletion"
       content: "Our solution provides full CRUD capabilities for signatures, allowing you to efficiently remove a variety of signature types from your documents when necessary."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Eliminate all barcode signatures"
       content: |
         Discover how to remove all barcode signatures embedded within a document.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Supply a document containing barcode signatures
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Remove all barcode signatures
-            DeleteResult result = signature.Delete(SignatureType.Barcode);
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Supply a document containing barcode signatures
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Remove all barcode signatures
+              DeleteResult result = signature.Delete(SignatureType.Barcode);
 
-            // Evaluate the outcome of the deletion process
-            if (result.Succeeded.Count > 0)
-            {
-                Console.WriteLine("Following PPTX barcode signatures were deleted:");                    
-                int number = 1;
-                foreach (BarcodeSignature temp in result.Succeeded)
-                {
-                    Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
-                        Id:{temp.SignatureId}, Text: {temp.Text}");
-                }
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // Evaluate the outcome of the deletion process
+              if (result.Succeeded.Count > 0)
+              {
+                  Console.WriteLine("Following PPTX barcode signatures were deleted:");                        
+                  int number = 1;
+                  foreach (BarcodeSignature temp in result.Succeeded)
+                  {
+                      Console.WriteLine($"Signature #{number++}: Type: {temp.SignatureType} 
+                            Id:{temp.SignatureId}, Text: {temp.Text}");
+                  }
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

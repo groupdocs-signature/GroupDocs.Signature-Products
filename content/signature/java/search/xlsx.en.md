@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:32
+date:  2024-10-08T18:17:24
 draft: false
 lang: en
 format: Xlsx
@@ -129,30 +129,61 @@ more_features:
     - title: "Protect document content"
       content: "Manage hidden metadata embedded in the document. Add new metadata or remove existing entries. Use corporate digital certificates to safeguard the document’s content from unauthorized alterations."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Search for image signatures"
       content: |
         This example demonstrates how to find an image signature in a specific document.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Pass the source document as a constructor parameter
+          final Signature signature = new Signature("input.xlsx");
 
-        // Pass the source document as a constructor parameter
-        final Signature signature = new Signature("input.xlsx");
+          // Search for any signatures with a text type
+          List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
+          System.out.print("\nSource document contains following image signature(s).");
 
-        // Search for any signatures with a text type
-        List<ImageSignature> signatures = signature.search(ImageSignature.class, SignatureType.Image);
-        System.out.print("\nSource document contains following image signature(s).");
+          // Display the results with the properties of the found signatures
+          for (ImageSignature imageSignature : signatures)
+          {
+              System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
+                    " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
+                    ", modified "+imageSignature.getModifiedOn());
+          }
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
 
-        // Display the results with the properties of the found signatures
-        for (ImageSignature imageSignature : signatures)
-        {
-            System.out.print("Image signature found at page "+imageSignature.getPageNumber()+
-                " with size "+imageSignature.getSize()+". Created "+imageSignature.getCreatedOn()+
-                ", modified "+imageSignature.getModifiedOn());
-        }
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################
