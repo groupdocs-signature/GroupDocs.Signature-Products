@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:59
+date:  2024-10-08T10:48:34
 draft: false
 lang: en
 format: Jpeg
@@ -80,12 +80,12 @@ steps:
             with sg.Signature('input.jpeg') as signature:
 
                 # Set up TextSignOptions with your desired signature text
-                options = sg.TextSignOptions("John Smith")
+                options = sg.TextSignOptions("Approved")
 
                 # Choose the color and font for the signature
                 options.ForeColor = sg.Color.Red
                 options.Font = sg.SignatureFont()
-                options.Font.Size = 14
+                options.Font.Size = 12
                 options.Font.FamilyName = "Comic Sans MS"
 
                 # Apply the text signature to the document
@@ -116,64 +116,82 @@ more_features:
     - title: "Specialized text signatures"
       content: "Apply document-specific text signatures, like watermarks for Word files or stamps for PDFs, adding an extra level of control and customization."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Add text signatures to documents"
       content: |
         Learn how to embed text signatures into documents to streamline your processes.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Select the document to sign
-            with sg.Signature('input.jpeg') as signature:
+              # Select the document to sign
+              with sg.Signature('input.jpeg') as signature:
 
-                # Set up text options with the desired content
-                options = sg.TextSignOptions("Rescheduled to 03/04/2025")
+                    # Set up text options with the desired content
+                    options = sg.TextSignOptions("Rescheduled to 03/04/2025")
 
-                # Define the size and placement of the signature
-                options.Left = 100
-                options.Top = 100
-                options.Width = 100
-                options.Height = 30
+                    # Define the size and placement of the signature
+                    options.Left = 100
+                    options.Top = 180
+                    options.Width = 230
+                    options.Height = 30
 
-                # Set padding from page edges
-                options.Margin = sg.Padding()
-                options.Margin.Top = 20
-                options.Margin.Right = 20
+                    # Set padding from page edges
+                    options.Margin = sg.Padding()
+                    options.Margin.Top = 20
+                    options.Margin.Right = 20
 
-                # Choose text color and font style
-                options.ForeColor = sg.Color.Red
-                options.Font = sg.SignatureFont()
-                options.Font.Size = 12
-                options.Font.FamilyName = "Comic Sans MS"
+                    # Choose text color and font style
+                    options.ForeColor = sg.Color.Red
+                    options.Font = sg.SignatureFont()
+                    options.Font.Size = 12
+                    options.Font.FamilyName = "Comic Sans MS"
 
-                # Add a border around the text signature
-                options.Border = sg.Border()
-                options.Border.Color = sg.Color.IndianRed
-                options.Border.DashStyle = sg.DashStyle.DashLongDashDot
-                options.Border.Transparency = 0.5
-                options.Border.Visible = True
-                options.Border.Weight = 2
+                    # Add a border around the text signature
+                    options.Border = sg.Border()
+                    options.Border.Color = sg.Color.Red
+                    options.Border.DashStyle = sg.DashStyle.DashLongDashDot
+                    options.Border.Transparency = 0.5
+                    options.Border.Visible = True
+                    options.Border.Weight = 2
 
-                # Customize the background if needed
-                options.Background = sg.Background()
-                options.Background.Color = sg.Color.LimeGreen
-                options.Background.Transparency = 0.5
-                options.Background.Brush = sg.LinearGradientBrush(sg.Color.LimeGreen, sg.Color.DarkGreen)
+                    # Customize the background if needed
+                    options.Background = sg.Background()
+                    options.Background.Color = sg.Color.Yellow
+                    options.Background.Transparency = 0.8
 
-                # Rotate the signature to your preferred angle
-                options.RotationAngle = 45
+                    # Optionally save the signature as an image for compatibility
+                    options.SignatureImplementation = sg.TextSignatureImplementation.Image
 
-                # Optionally save the signature as an image for compatibility
-                options.SignatureImplementation = sg.TextSignatureImplementation.Image
+                    # Save the document with the embedded signature
+                    result = signature.Sign("output.jpeg", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_text.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
 
-                # Save the document with the embedded signature
-                result = signature.Sign("output.jpeg", options)
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

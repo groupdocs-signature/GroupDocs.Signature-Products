@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-08T10:48:33
 draft: false
 lang: en
 format: Xlsx
@@ -92,7 +92,7 @@ steps:
         Signature signature = new Signature("input.xlsx");
 
         // Instantiate TextSignOptions with the signature text
-        TextSignOptions options = new TextSignOptions("Approved on 03/12/2021");
+        TextSignOptions options = new TextSignOptions("Approved");
         
         // Set up text color and font attributes
         options.setForeColor(Color.RED);
@@ -129,64 +129,97 @@ more_features:
     - title: "Native text signatures"
       content: "Add document-specific text signatures, such as stickers in PDFs or watermarks in Word documents, for enhanced customization."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Mark documents with text signatures"
       content: |
         Learn how to append textual information to business documents to improve business processes.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Select a document to be signed
-        Signature signature = new Signature("input.xlsx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Select a document to be signed
+          Signature signature = new Signature("input.xlsx");
 
-        // Create text options with the desired text
-        TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025");
+          // Create text options with the desired text
+          TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025");
 
-        // Specify the signature's size and position on the page
-        options.setLeft(100);
-        options.setTop(100);
-        options.setWidth(100);
-        options.setHeight(30);
+          // Specify the signature's size and position on the page
+          options.setLeft(100);
+          options.setTop(180);
+          options.setWidth(230);
+          options.setHeight(30);
 
-        // Signatures support padding from the page corners
-        Padding padding = new Padding();
-        padding.setBottom(20);
-        padding.setRight(20);
-        options.setMargin(padding);
+          // Signatures support padding from the page corners
+          Padding padding = new Padding();
+          padding.setBottom(20);
+          padding.setRight(20);
+          options.setMargin(padding);
 
-        // Text color and font style can be customized
-        options.setForeColor(Color.RED);
-        SignatureFont signatureFont = new SignatureFont();
-        signatureFont.setSize(12);
-        signatureFont.setFamilyName("Comic Sans MS");
-        options.setFont(signatureFont);
+          // Text color and font style can be customized
+          options.setForeColor(Color.RED);
+          SignatureFont signatureFont = new SignatureFont();
+          signatureFont.setSize(12);
+          signatureFont.setFamilyName("Comic Sans MS");
+          options.setFont(signatureFont);
 
-        // Text signatures can include a border
-        Border border = new Border();
-        border.setColor(Color.GREEN);
-        border.setDashStyle(DashStyle.DashLongDashDot);
-        border.setTransparency(0.5);
-        border.setVisible(true);
-        border.setWeight(2);
-        options.setBorder(border);
+          // Text signatures can include a border
+          Border border = new Border();
+          border.setColor(Color.RED);
+          border.setDashStyle(DashStyle.Dash);
+          border.setTransparency(0.5);
+          border.setVisible(true);
+          border.setWeight(2);
+          options.setBorder(border);
 
-        // Background customization is also available
-        Background background = new Background();
-        background.setColor(Color.LIGHT_GRAY);
-        background.setTransparency(0.5);
-        background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
-        options.setBackground(background);
+          // Background customization is also available
+          Background background = new Background();
+          background.setColor(Color.YELLOW);
+          background.setTransparency(0.8);
+          options.setBackground(background);
 
-        // Signatures can be rotated on the page
-        options.setRotationAngle(45);
+          // Text can be saved as an image for compatibility
+          options.setSignatureImplementation(TextSignatureImplementation.Image);
 
-        // Text can be saved as an image for compatibility
-        options.setSignatureImplementation(TextSignatureImplementation.Image);
+          // Save the document with the added text
+          SignResult result = signature.sign("output.xlsx", options);
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_text.xlsx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
 
-        // Save the document with the added text
-        SignResult result = signature.sign("output.xlsx", options);
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

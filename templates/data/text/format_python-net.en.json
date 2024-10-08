@@ -68,8 +68,7 @@
     "comment_5": "Choose text color and font style",
     "comment_6": "Add a border around the text signature",
     "comment_7": "Customize the background if needed",
-    "comment_8": "Rotate the signature to your preferred angle",
-    "comment_9": "Optionally save the signature as an image for compatibility",
-    "comment_10": "Save the document with the embedded signature"
+    "comment_8": "Optionally save the signature as an image for compatibility",
+    "comment_9": "Save the document with the embedded signature"
   }
 }

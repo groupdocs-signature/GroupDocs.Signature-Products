@@ -141,8 +141,8 @@ more_features:
 
         // <% "{code_1.comment_2}" %>
         BarcodeVerifyOptions options = new BarcodeVerifyOptions();
-        options.setText("John");
-        options.setMatchType(TextMatchType.Contains);
+        options.setText("12345");
+        options.setMatchType(TextMatchType.StartsWith);
 
         // <% "{code_1.comment_3}" %>
         VerificationResult result = signature.verify(options);

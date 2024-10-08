@@ -134,7 +134,7 @@ more_features:
             BarcodeVerifyOptions options = new BarcodeVerifyOptions()
             {
                 Text = "12345",
-                MatchType = TextMatchType.Contains
+                MatchType = TextMatchType.StartsWith
             };
 
             // <% "{code_1.comment_3}" %>

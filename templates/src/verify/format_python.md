@@ -134,7 +134,7 @@ more_features:
                 # <% "{code_1.comment_2}" %>
                 options = sg.BarcodeVerifyOptions()
                 options.Text = "12345"
-                options.MatchType = sg.TextMatchType.Contains
+                options.MatchType = sg.TextMatchType.StartsWith
 
                 # <% "{code_1.comment_3}" %>
                 result = signature.Verify(options)

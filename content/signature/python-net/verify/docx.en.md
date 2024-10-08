@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:02
+date:  2024-10-08T11:35:59
 draft: false
 lang: en
 format: Docx
@@ -135,7 +135,7 @@ more_features:
                 # Set the verification options to match specific barcode text
                 options = sg.BarcodeVerifyOptions()
                 options.Text = "12345"
-                options.MatchType = sg.TextMatchType.Contains
+                options.MatchType = sg.TextMatchType.StartsWith
 
                 # Verify the signatures in the document
                 result = signature.Verify(options)

@@ -91,7 +91,7 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("Approved on 03/12/2021");
+        TextSignOptions options = new TextSignOptions("Approved");
         
         // <% "{examples.comment_3}" %>
         options.setForeColor(Color.RED);
@@ -128,64 +128,97 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // <% "{code_1.comment_1}" %>
-        Signature signature = new Signature("input.<% get "fileformat" %>");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // <% "{code_1.comment_1}" %>
+          Signature signature = new Signature("input.<% get "fileformat" %>");
 
-        // <% "{code_1.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025");
+          // <% "{code_1.comment_2}" %>
+          TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025");
 
-        // <% "{code_1.comment_3}" %>
-        options.setLeft(100);
-        options.setTop(100);
-        options.setWidth(100);
-        options.setHeight(30);
+          // <% "{code_1.comment_3}" %>
+          options.setLeft(100);
+          options.setTop(180);
+          options.setWidth(230);
+          options.setHeight(30);
 
-        // <% "{code_1.comment_4}" %>
-        Padding padding = new Padding();
-        padding.setBottom(20);
-        padding.setRight(20);
-        options.setMargin(padding);
+          // <% "{code_1.comment_4}" %>
+          Padding padding = new Padding();
+          padding.setBottom(20);
+          padding.setRight(20);
+          options.setMargin(padding);
 
-        // <% "{code_1.comment_5}" %>
-        options.setForeColor(Color.RED);
-        SignatureFont signatureFont = new SignatureFont();
-        signatureFont.setSize(12);
-        signatureFont.setFamilyName("Comic Sans MS");
-        options.setFont(signatureFont);
+          // <% "{code_1.comment_5}" %>
+          options.setForeColor(Color.RED);
+          SignatureFont signatureFont = new SignatureFont();
+          signatureFont.setSize(12);
+          signatureFont.setFamilyName("Comic Sans MS");
+          options.setFont(signatureFont);
 
-        // <% "{code_1.comment_6}" %>
-        Border border = new Border();
-        border.setColor(Color.GREEN);
-        border.setDashStyle(DashStyle.DashLongDashDot);
-        border.setTransparency(0.5);
-        border.setVisible(true);
-        border.setWeight(2);
-        options.setBorder(border);
+          // <% "{code_1.comment_6}" %>
+          Border border = new Border();
+          border.setColor(Color.RED);
+          border.setDashStyle(DashStyle.Dash);
+          border.setTransparency(0.5);
+          border.setVisible(true);
+          border.setWeight(2);
+          options.setBorder(border);
 
-        // <% "{code_1.comment_7}" %>
-        Background background = new Background();
-        background.setColor(Color.LIGHT_GRAY);
-        background.setTransparency(0.5);
-        background.setBrush(new LinearGradientBrush(Color.GREEN, Color.DARK_GRAY, 0));
-        options.setBackground(background);
+          // <% "{code_1.comment_7}" %>
+          Background background = new Background();
+          background.setColor(Color.YELLOW);
+          background.setTransparency(0.8);
+          options.setBackground(background);
 
-        // <% "{code_1.comment_8}" %>
-        options.setRotationAngle(45);
+          // <% "{code_1.comment_8}" %>
+          options.setSignatureImplementation(TextSignatureImplementation.Image);
 
-        // <% "{code_1.comment_9}" %>
-        options.setSignatureImplementation(TextSignatureImplementation.Image);
+          // <% "{code_1.comment_9}" %>
+          SignResult result = signature.sign("output.<% get "fileformat" %>", options);
+          ```
+        platform: "java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
 
-        // <% "{code_1.comment_10}" %>
-        SignResult result = signature.sign("output.<% get "fileformat" %>", options);
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

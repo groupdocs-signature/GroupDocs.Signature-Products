@@ -75,11 +75,11 @@ steps:
         using (Signature signature = new Signature("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
-            TextSignOptions options = new TextSignOptions("John Smith")
+            TextSignOptions options = new TextSignOptions("Approved")
             {
                 // <% "{examples.comment_3}" %>
                 ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" }
+                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" }
             };
 
             // <% "{examples.comment_4}" %>
@@ -111,62 +111,80 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
-            {
-                // <% "{code_1.comment_3}" %>
-                Left = 100,
-                Top = 100,
-                Width = 100,
-                Height = 30,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
+              {
+                    // <% "{code_1.comment_3}" %>
+                    Left = 100,
+                    Top = 180,
+                    Width = 230,
+                    Height = 30,
 
-                // <% "{code_1.comment_4}" %>
-                Margin = new Padding() { Top = 20, Right = 20 },
+                    // <% "{code_1.comment_4}" %>
+                    Margin = new Padding() { Top = 20, Right = 20 },
 
-                // <% "{code_1.comment_5}" %>
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                    // <% "{code_1.comment_5}" %>
+                    ForeColor = Color.OrangeRed,
+                    Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // <% "{code_1.comment_6}" %>
-                Border = new Border()
-                {
-                    Color = Color.IndianRed,
-                    DashStyle = DashStyle.DashLongDashDot,
-                    Transparency = 0.5,
-                    Visible = true,
-                    Weight = 2
-                },
+                    // <% "{code_1.comment_6}" %>
+                    Border = new Border()
+                    {
+                        Color = Color.OrangeRed,
+                        DashStyle = DashStyle.Dash,
+                        Transparency = 0.5,
+                        Visible = true,
+                        Weight = 2
+                    },
 
-                // <% "{code_1.comment_7}" %>
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                },
+                    // <% "{code_1.comment_7}" %>
+                    Background = new Background()
+                    {
+                        Color = Color.LightYellow,
+                        Transparency = 0.8
+                    },
 
-                // <% "{code_1.comment_8}" %>
-                RotationAngle = 45,
+                    // <% "{code_1.comment_8}" %>
+                    SignatureImplementation = TextSignatureImplementation.Image
+              };
 
-                // <% "{code_1.comment_9}" %>
-                SignatureImplementation = TextSignatureImplementation.Image
-            };
+              // <% "{code_1.comment_9}" %>
+              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
 
-            // <% "{code_1.comment_10}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

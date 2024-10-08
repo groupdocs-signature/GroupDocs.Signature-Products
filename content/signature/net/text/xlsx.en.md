@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:59
+date:  2024-10-08T10:48:33
 draft: false
 lang: en
 format: Xlsx
@@ -76,11 +76,11 @@ steps:
         using (Signature signature = new Signature("input.xlsx"))
         {
             // Create an instance of TextSignOptions with the desired signature text
-            TextSignOptions options = new TextSignOptions("John Smith")
+            TextSignOptions options = new TextSignOptions("Approved")
             {
                 // Configure the text color and font attributes
                 ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 14, FamilyName = "Comic Sans MS" }
+                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" }
             };
 
             // Integrate the text signature into the document
@@ -112,62 +112,80 @@ more_features:
     - title: "Specialized text signatures"
       content: "Implement document-specific text signatures, such as watermarks for Word documents or stickers for PDFs, to provide an additional layer of customization and control."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Embed text signatures in documents"
       content: |
         Discover how to incorporate textual signatures into business documents to streamline processes.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Select the document to be signed
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Formulate text options with the specified content
-            TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
-            {
-                // Define the dimensions and position of the signature on the page
-                Left = 100,
-                Top = 100,
-                Width = 100,
-                Height = 30,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Select the document to be signed
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // Formulate text options with the specified content
+              TextSignOptions options = new TextSignOptions("Rescheduled to 03/04/2025")
+              {
+                    // Define the dimensions and position of the signature on the page
+                    Left = 100,
+                    Top = 180,
+                    Width = 230,
+                    Height = 30,
 
-                // Implement padding from the page edges for signatures
-                Margin = new Padding() { Top = 20, Right = 20 },
+                    // Implement padding from the page edges for signatures
+                    Margin = new Padding() { Top = 20, Right = 20 },
 
-                // Customize the text color and font style
-                ForeColor = Color.Red,
-                Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
+                    // Customize the text color and font style
+                    ForeColor = Color.OrangeRed,
+                    Font = new SignatureFont { Size = 12, FamilyName = "Comic Sans MS" },
 
-                // Incorporate a border around the text signature
-                Border = new Border()
-                {
-                    Color = Color.IndianRed,
-                    DashStyle = DashStyle.DashLongDashDot,
-                    Transparency = 0.5,
-                    Visible = true,
-                    Weight = 2
-                },
+                    // Incorporate a border around the text signature
+                    Border = new Border()
+                    {
+                        Color = Color.OrangeRed,
+                        DashStyle = DashStyle.Dash,
+                        Transparency = 0.5,
+                        Visible = true,
+                        Weight = 2
+                    },
 
-                // Apply background customization if necessary
-                Background = new Background()
-                {
-                    Color = Color.LimeGreen,
-                    Transparency = 0.5,
-                    Brush = new LinearGradientBrush(Color.LimeGreen, Color.DarkGreen)
-                },
+                    // Apply background customization if necessary
+                    Background = new Background()
+                    {
+                        Color = Color.LightYellow,
+                        Transparency = 0.8
+                    },
 
-                // Rotate the signature to the desired angle on the page
-                RotationAngle = 45,
+                    // Optionally save the text as an image to ensure compatibility
+                    SignatureImplementation = TextSignatureImplementation.Image
+              };
 
-                // Optionally save the text as an image to ensure compatibility
-                SignatureImplementation = TextSignatureImplementation.Image
-            };
+              // Save the document with the integrated text signature
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_text.xlsx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
 
-            // Save the document with the integrated text signature
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################
