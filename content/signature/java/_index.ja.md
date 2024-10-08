@@ -53,6 +53,7 @@ code:
   title: "Java で PDF ファイルに署名する"
   more: "他の例"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

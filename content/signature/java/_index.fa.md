@@ -53,6 +53,7 @@ code:
   title: "فایل های PDF را در جاوا امضا کنید"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
