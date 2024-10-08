@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pdf
@@ -132,36 +132,68 @@ more_features:
     - title: "Signature deletion"
       content: "Our solution fully supports all operations related to signatures. Removing various types of signatures from a document is a simple process."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Modify barcode signatures"
       content: |
         This example elucidates the process of modifying barcode signatures within a document.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Utilize a document that contains barcode signatures
-        final Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Utilize a document that contains barcode signatures
+          final Signature signature = new Signature("input.pdf");
 
-        // Search for existing barcode signatures
-        BarcodeSearchOptions options = new BarcodeSearchOptions();
-        List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
+          // Search for existing barcode signatures
+          BarcodeSearchOptions options = new BarcodeSearchOptions();
+          List<BarcodeSignature> signatures = signature.search(BarcodeSignature.class, options);
 
-        if (signatures.size() > 0)
-        {
-            // Adjust the position of the first barcode and save the updated document
-            BarcodeSignature barcodeSignature = signatures.get(0);
-            barcodeSignature.setLeft(100);
-            barcodeSignature.setTop(100);
-            boolean result = signature.update("output.pdf", barcodeSignature);
+          if (signatures.size() > 0)
+          {
+              // Adjust the position of the first barcode and save the updated document
+              BarcodeSignature barcodeSignature = signatures.get(0);
+              barcodeSignature.setLeft(100);
+              barcodeSignature.setTop(100);
+              boolean result = signature.update("output.pdf", barcodeSignature);
 
-            // Confirm the result of the modification
-            if (result)
-            {
-                System.out.print("\nBarcode was updated successfully.");
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // Confirm the result of the modification
+              if (result)
+              {
+                    System.out.print("\nBarcode was updated successfully.");
+              }
+          }
+          ```
+        platform: "java"
+        copy_title: "Copy"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

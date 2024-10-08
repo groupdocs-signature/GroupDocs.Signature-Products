@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:32
+date:  2024-10-08T18:17:24
 draft: false
 lang: en
 format: Docx
@@ -113,29 +113,46 @@ more_features:
     - title: "Document security and metadata management"
       content: "Secure the integrity of your documents by embedding or removing hidden metadata. Protect your files from unauthorized changes by utilizing digital certificates to seal and authenticate document content."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Identifying image signatures"
       content: |
         This example elucidates how to detect an image signature within a specific document.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Supply the source document as a parameter to the constructor
-        const signature = new signatureLib.Signature('input.docx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Supply the source document as a parameter to the constructor
+          const signature = new signatureLib.Signature('input.docx');
 
-        // Search for any signatures that are of the text type
-        const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
-        console.log(`\nSource document contains the following image signature(s).`);
+          // Search for any signatures that are of the text type
+          const signatures = signature.search(signatureLib.ImageSignature.class, signatureLib.SignatureType.Image).toArray();
+          console.log(`\nSource document contains the following image signature(s).`);
 
-        // Display the findings with comprehensive properties of the detected signatures
-        for (const imageSignature of signatures) {
-            console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
-            and size ${imageSignature.getSize()}.`);
-        }
-        ```
-        {{< /landing/code >}}
+          // Display the findings with comprehensive properties of the detected signatures
+          for (const imageSignature of signatures) {
+              console.log(`Found Image signature at page ${imageSignature.getPageNumber()} 
+              and size ${imageSignature.getSize()}.`);
+          }
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

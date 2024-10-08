@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pptx
@@ -118,35 +118,52 @@ more_features:
     - title: "Custom signature solutions"
       content: "Use document-specific signature types like PDF stamps and Word watermarks. These specialized signatures are perfect for branding, compliance, or adding a professional touch to your business documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Verify barcode signatures"
       content: |
         This example demonstrates how to verify barcode signatures in a document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Load the document with barcode signatures
-            with sg.Signature('input.pptx') as signature:
+              # Load the document with barcode signatures
+              with sg.Signature('input.pptx') as signature:
 
-                # Set the verification options to match specific barcode text
-                options = sg.BarcodeVerifyOptions()
-                options.Text = "12345"
-                options.MatchType = sg.TextMatchType.StartsWith
+                  # Set the verification options to match specific barcode text
+                  options = sg.BarcodeVerifyOptions()
+                  options.Text = "12345"
+                  options.MatchType = sg.TextMatchType.StartsWith
 
-                # Verify the signatures in the document
-                result = signature.Verify(options)
+                  # Verify the signatures in the document
+                  result = signature.Verify(options)
 
-                # Display the verification results
-                if result.IsValid :
-                    print("\nDocument was verified successfully!")
-                    for item in result.Succeeded :
-                         print("\nValid signature is found with text", item.Text)
-        ```
-        {{< /landing/code >}}
+                  # Display the verification results
+                  if result.IsValid :
+                      print("\nDocument was verified successfully!")
+                      for item in result.Succeeded :
+                             print("\nValid signature is found with text", item.Text)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

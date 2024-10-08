@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:34
+date:  2024-10-08T18:17:26
 draft: false
 lang: en
 format: Xlsx
@@ -120,33 +120,50 @@ more_features:
     - title: "Remove unwanted signatures"
       content: "With full CRUD capabilities, our solution enables the efficient deletion of a wide range of signature types from your documents, ensuring flexibility and control."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Remove all barcode signatures"
       content: |
         Learn the procedure to eliminate all barcode signatures embedded in a document.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Provide a document that includes barcode signatures
-        const signature = new signatureLib.Signature('input.xlsx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Provide a document that includes barcode signatures
+          const signature = new signatureLib.Signature('input.xlsx');
 
-        // Erase all barcode signatures
-        const result = await signature.delete('output.xlsx', signatureLib.SignatureType.Barcode);
-        if (result.getSucceeded().size() > 0) {
+          // Erase all barcode signatures
+          const result = await signature.delete('output.xlsx', signatureLib.SignatureType.Barcode);
+          if (result.getSucceeded().size() > 0) {
 
-            // Review the outcome of the deletion
-            console.log('Following XLSX barcode signatures were deleted:');
-            let number = 1;
-            result.getSucceeded().toArray().forEach((o) => {
-                const temp = o;
-                console.log(`Signature #${number++}: Type: ${temp.getSignatureType()}, 
-                Id: ${temp.getSignatureId()}, Text: ${temp.getText()}`);
-            });
-        }
-        ```
-        {{< /landing/code >}}
+              // Review the outcome of the deletion
+              console.log('Following XLSX barcode signatures were deleted:');
+              let number = 1;
+              result.getSucceeded().toArray().forEach((o) => {
+                    const temp = o;
+                    console.log(`Signature #${number++}: Type: ${temp.getSignatureType()}, 
+                    Id: ${temp.getSignatureId()}, Text: ${temp.getText()}`);
+              });
+          }
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

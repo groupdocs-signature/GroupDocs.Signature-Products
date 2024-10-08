@@ -120,39 +120,55 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            BarcodeVerifyOptions options = new BarcodeVerifyOptions()
-            {
-                Text = "12345",
-                MatchType = TextMatchType.StartsWith
-            };
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              BarcodeVerifyOptions options = new BarcodeVerifyOptions()
+              {
+                    Text = "12345",
+                    MatchType = TextMatchType.StartsWith
+              };
 
-            // <% "{code_1.comment_3}" %>
-            VerificationResult result = signature.Verify(options);
+              // <% "{code_1.comment_3}" %>
+              VerificationResult result = signature.Verify(options);
 
-            // <% "{code_1.comment_4}" %>
-            if (result.IsValid)
-            {
-                Console.WriteLine($"\nDocument was verified successfully!");
-                foreach (BarcodeSignature item in result.Succeeded)
-                {
-                    Console.WriteLine($"\nValid signature is found with text: {item.Text} 
-                        and type: {item.EncodeType.TypeName}.");
-                }
-            }
-        }
-        ```
-        {{< /landing/code >}}
+              // <% "{code_1.comment_4}" %>
+              if (result.IsValid)
+              {
+                  Console.WriteLine($"\nDocument was verified successfully!");
+                  foreach (BarcodeSignature item in result.Succeeded)
+                  {
+                      Console.WriteLine($"\nValid signature is found with text: {item.Text} 
+                            and type: {item.EncodeType.TypeName}.");
+                  }
+              }
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

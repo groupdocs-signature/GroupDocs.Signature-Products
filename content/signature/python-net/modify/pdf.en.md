@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:33
+date:  2024-10-08T18:17:25
 draft: false
 lang: en
 format: Pdf
@@ -119,37 +119,54 @@ more_features:
     - title: "Effortless signature removal"
       content: "Gain full control over signature management, with the ability to remove any type of signature from your document, giving you total flexibility over its content."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Modify barcode signatures"
       content: |
         This example demonstrates how to programmatically edit barcode signatures in a document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Load a document that contains barcode signatures
-            with sg.Signature('input.pdf') as signature:
+              # Load a document that contains barcode signatures
+              with sg.Signature('input.pdf') as signature:
 
-                # Search for all existing barcode signatures
-                options = sg.BarcodeSearchOptions()
-                signatures = signature.Search(options)
+                  # Search for all existing barcode signatures
+                  options = sg.BarcodeSearchOptions()
+                  signatures = signature.Search(options)
 
-                if signatures.Count > 0:
+                  if signatures.Count > 0:
 
-                    # Change the position of the first found barcode and save the document
-                    barcodeSignature = signatures[0]
-                    barcodeSignature.Left = 100
-                    barcodeSignature.Top = 100
-                    result = signature.Update(barcodeSignature)
+                      # Change the position of the first found barcode and save the document
+                      barcodeSignature = signatures[0]
+                      barcodeSignature.Left = 100
+                      barcodeSignature.Top = 100
+                      result = signature.Update(barcodeSignature)
 
-                    # Verify that the barcode modification was successful
-                    if result:
-                        print("\nBarcode was updated successfully.")
-        ```
-        {{< /landing/code >}}
+                      # Verify that the barcode modification was successful
+                      if result:
+                          print("\nBarcode was updated successfully.")
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################
