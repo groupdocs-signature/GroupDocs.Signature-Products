@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:59
+date:  2024-10-08T11:43:27
 draft: false
 lang: en
 format: Pptx
@@ -78,7 +78,7 @@ steps:
         const signature = new signatureLib.Signature('input.pptx');
 
         // Create TextSignOptions with the required signature text
-        const options = new signatureLib.TextSignOptions('John Smith');
+        const options = new signatureLib.TextSignOptions('Approved');
 
         // Configure the text color and font properties
         options.setForeColor(new signatureLib.Color(255, 0, 0));
@@ -115,68 +115,84 @@ more_features:
     - title: "Native signature customization"
       content: "For certain file types, tailor signature placement with built-in document features, such as adding watermarks to Word files or customized stamps to PDFs, enhancing the uniqueness of your documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Implement text signatures in documents"
       content: |
         Learn how to embed text signatures into business documents to optimize processes.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Choose the document to be signed
-        const signature = new signatureLib.Signature('input.pptx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Choose the document to be signed
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // Define text options with the specified content
-        const options = new signatureLib.TextSignOptions('Rescheduled to 03/04/2025');
+          // Define text options with the specified content
+          const options = new signatureLib.TextSignOptions('Rescheduled to 03/04/2025');
 
-        // Set the size and position of the signature on the page
-        options.setLeft(100);
-        options.setTop(100);
-        options.setWidth(100);
-        options.setHeight(30);
+          // Set the size and position of the signature on the page
+          options.setLeft(100);
+          options.setTop(180);
+          options.setWidth(230);
+          options.setHeight(30);
 
-        // Apply padding for the signature from the page edges
-        const padding = new signatureLib.Padding();
-        padding.setBottom(20);
-        padding.setRight(20);
-        options.setMargin(padding);
+          // Apply padding for the signature from the page edges
+          const padding = new signatureLib.Padding();
+          padding.setBottom(20);
+          padding.setRight(20);
+          options.setMargin(padding);
 
-        // Customize the text color and font style
-        options.setForeColor(signatureLib.Color.RED);
-        const signatureFont = new signatureLib.SignatureFont();
-        signatureFont.setSize(12);
-        signatureFont.setFamilyName('Comic Sans MS');
-        options.setFont(signatureFont);
+          // Customize the text color and font style
+          options.setForeColor(signatureLib.Color.RED);
+          const signatureFont = new signatureLib.SignatureFont();
+          signatureFont.setSize(12);
+          signatureFont.setFamilyName('Comic Sans MS');
+          options.setFont(signatureFont);
 
-        // Add a border to the text signature if desired
-        const border = new signatureLib.Border();
-        border.setColor(signatureLib.Color.GREEN);
-        border.setDashStyle(signatureLib.DashStyle.DashLongDashDot);
-        border.setTransparency(0.5);
-        border.setVisible(true);
-        border.setWeight(2);
-        options.setBorder(border);
+          // Add a border to the text signature if desired
+          const border = new signatureLib.Border();
+          border.setColor(signatureLib.Color.RED);
+          border.setDashStyle(signatureLib.DashStyle.Dash);
+          border.setTransparency(0.5);
+          border.setVisible(true);
+          border.setWeight(2);
+          options.setBorder(border);
 
-        // Configure the background of the signature
-        const background = new signatureLib.Background();
-        background.setColor(signatureLib.Color.LIGHT_GRAY);
-        background.setTransparency(0.5);
-        const brush = new signatureLib.LinearGradientBrush
-            (signatureLib.Color.GREEN, signatureLib.Color.DARK_GRAY, 0);
-        background.setBrush(brush);
-        options.setBackground(background);
+          // Configure the background of the signature
+          const background = new signatureLib.Background();
+          background.setColor(signatureLib.Color.YELLOW);
+          background.setTransparency(0.8);
+          options.setBackground(background);
 
-        // Rotate the signature as needed on the page
-        options.setRotationAngle(45);
+          // Optionally, save the text as an image for compatibility
+          options.setSignatureImplementation(signatureLib.TextSignatureImplementation.Image);
+          
+          // Save the document with the added text signature
+          const result = signature.sign('output.pptx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_text.pptx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
 
-        // Optionally, save the text as an image for compatibility
-        options.setSignatureImplementation(signatureLib.TextSignatureImplementation.Image);
-        
-        // Customize the text color and font style
-        const result = signature.sign('output.pptx', options);
-        ```
-        {{< /landing/code >}}
+            
 
 
 ############################# Actions ############################

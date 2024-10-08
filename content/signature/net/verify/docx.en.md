@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:02
+date:  2024-10-08T11:43:33
 draft: false
 lang: en
 format: Docx
@@ -135,7 +135,7 @@ more_features:
             BarcodeVerifyOptions options = new BarcodeVerifyOptions()
             {
                 Text = "12345",
-                MatchType = TextMatchType.Contains
+                MatchType = TextMatchType.StartsWith
             };
 
             // Authenticate the signatures embedded in the document

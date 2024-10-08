@@ -53,6 +53,7 @@ code:
   title: "Tanda tangani file PDF di Java"
   more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

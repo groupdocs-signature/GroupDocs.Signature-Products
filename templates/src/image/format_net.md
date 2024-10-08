@@ -80,7 +80,7 @@ steps:
                 // <% "{examples.comment_3}" %>
                 AllPages = true,
                 Left = 100,
-                Top = 100
+                Top = 200
             };
 
             // <% "{examples.comment_4}" %>
@@ -112,48 +112,70 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // <% "{code_1.comment_1}" %>
-        using (Signature signature = new Signature("input.<% get "fileformat" %>"))
-        {
-            // <% "{code_1.comment_2}" %>
-            ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
-            {
-                // <% "{code_1.comment_3}" %>
-                Width = 100,
-                Height = 100,
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // <% "{code_1.comment_1}" %>
+          using (Signature signature = new Signature("input.<% get "fileformat" %>"))
+          {
+              // <% "{code_1.comment_2}" %>
+              ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
+              {
+                    // <% "{code_1.comment_3}" %>
+                    Width = 100,
+                    Height = 100,
 
-                // <% "{code_1.comment_4}" %>
-                VerticalAlignment = VerticalAlignment.Bottom,
-                HorizontalAlignment = HorizontalAlignment.Right,
+                    // <% "{code_1.comment_4}" %>
+                    VerticalAlignment = VerticalAlignment.Bottom,
+                    HorizontalAlignment = HorizontalAlignment.Right,
 
-                // <% "{code_1.comment_5}" %>
-                Margin = new Padding() { Bottom = 120, Right = 120 },
+                    // <% "{code_1.comment_5}" %>
+                    Margin = new Padding() { Bottom = 120, Right = 120 },
 
-                // <% "{code_1.comment_6}" %>
-                Border = new Border()
-                {
-                    Visible = true,
-                    Color = Color.OrangeRed,
-                    DashStyle = DashStyle.DashDotDot,
-                    Weight = 5
-                },
+                    // <% "{code_1.comment_6}" %>
+                    Border = new Border()
+                    {
+                        Visible = true,
+                        Color = Color.Red,
+                        DashStyle = DashStyle.DashDotDot,
+                        Weight = 5
+                    },
 
-                // <% "{code_1.comment_7}" %>
-                RotationAngle = 45
-            };
+                    // <% "{code_1.comment_7}" %>
+                    RotationAngle = 45
+              };
 
-            // <% "{code_1.comment_8}" %>
-            SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // <% "{code_1.comment_8}" %>
+              SignResult result = signature.Sign("output.<% get "fileformat" %>", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

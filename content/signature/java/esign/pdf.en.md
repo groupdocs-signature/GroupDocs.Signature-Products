@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-08T11:43:31
 draft: false
 lang: en
 format: Pdf
@@ -92,7 +92,7 @@ steps:
         Signature signature = new Signature("input.pdf");
 
         // Instantiate a QrCodeSignOptions object
-        TextSignOptions options = new TextSignOptions("John Smith");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // Configure all desired options
         options.setLeft(100);
@@ -137,11 +137,15 @@ more_features:
           Signature signature = new Signature("input.pdf");
 
           // Specify the image path in the signature options
-          QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
+          ImageSignOptions options = new ImageSignOptions("image.jpg");
 
           // Set the size and target pages for the signature
-          options.setLeft(100);
-          options.setTop(100);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setHeight(150);
+          options.setWidth(200);
+          Padding padding = new Padding(50);
+          options.setMargin(padding);
           options.setAllPages(true);
 
           // Apply the signature to the document

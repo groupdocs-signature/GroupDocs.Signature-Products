@@ -91,7 +91,7 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        TextSignOptions options = new TextSignOptions("John Smith");
+        QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
 
         // <% "{examples.comment_3}" %>
         options.setLeft(100);
@@ -136,11 +136,15 @@ more_features:
           Signature signature = new Signature("input.<% get "fileformat" %>");
 
           // <% "{code_1.comment_2}" %>
-          QrCodeSignOptions options = new QrCodeSignOptions("QR code text");
+          ImageSignOptions options = new ImageSignOptions("image.jpg");
 
           // <% "{code_1.comment_3}" %>
-          options.setLeft(100);
-          options.setTop(100);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setHeight(150);
+          options.setWidth(200);
+          Padding padding = new Padding(50);
+          options.setMargin(padding);
           options.setAllPages(true);
 
           // <% "{code_1.comment_4}" %>

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-08T11:43:31
 draft: false
 lang: en
 format: Pptx
@@ -76,7 +76,7 @@ steps:
         using (Signature signature = new Signature("input.pptx"))
         {
             // Create a new QrCodeSignOptions object
-            TextSignOptions options = new TextSignOptions("John Smith")
+            QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
             {
                 // Configure all the necessary options
                 Left = 50,
@@ -122,11 +122,14 @@ more_features:
           using (Signature signature = new Signature("input.pptx"))
           {
               // Specify the path to the image in the signature configuration
-              QrCodeSignOptions options = new QrCodeSignOptions("QR code text")
+              ImageSignOptions options = new ImageSignOptions("image.jpg")
               {
                   // Define the dimensions and target pages for the signature
-                  Left = 50,
-                  Top = 50,
+                  VerticalAlignment = VerticalAlignment.Bottom,
+                  HorizontalAlignment = HorizontalAlignment.Right,
+                  Height = 150,
+                  Width = 200,
+                  Margin = new Padding(50),
                   AllPages = true
               };
 

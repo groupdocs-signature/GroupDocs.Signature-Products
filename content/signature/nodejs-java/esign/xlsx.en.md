@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-08T11:43:31
 draft: false
 lang: en
 format: Xlsx
@@ -128,8 +128,11 @@ more_features:
           const options = new signatureLib.ImageSignOptions('image.jpg');
 
           // Configure the dimensions and specify the target pages for the signature
-          options.setLeft(100);
-          options.setTop(100);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setHeight(150);
+          options.setWidth(200);
+          options.setMargin(new signatureLib.Padding(50));
           options.setAllPages(true);
 
           // Implement the signature application to the document

@@ -80,10 +80,12 @@ steps:
 
                 # <% "{examples.comment_2}" %>
                 options = sg.StampSignOptions()
+                options.Height = 180
+                options.Width = 180
 
                 # <% "{examples.comment_3}" %>
                 outerLine = sg.StampLine()
-                outerLine.Text = "* European Union *"
+                outerLine.Text = "* The Best Company *"
                 outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
                 outerLine.Font = sg.SignatureFont()
                 outerLine.Font.Size = 12
@@ -122,57 +124,79 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # <% "{code_1.comment_1}" %>
-            with sg.Signature('input.<% get "fileformat" %>') as signature:
+              # <% "{code_1.comment_1}" %>
+              with sg.Signature('input.<% get "fileformat" %>') as signature:
 
-                # <% "{code_1.comment_2}" %>
-                options = sg.StampSignOptions()
+                    # <% "{code_1.comment_2}" %>
+                    options = sg.StampSignOptions()
 
-                # <% "{code_1.comment_3}" %>
-                options.Height = 300
-                options.Width = 300
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.AllPages = True
+                    # <% "{code_1.comment_3}" %>
+                    options.Height = 200
+                    options.Width = 200
+                    options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                    options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                    options.AllPages = True
 
-                # <% "{code_1.comment_4}" %>
-                outerLine = sg.StampLine()
-                outerLine.Text = "* The best choice *"
-                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
-                outerLine.Font = sg.SignatureFont()
-                outerLine.Font.Size = 12
-                outerLine.Font.FamilyName = "Arial"
-                outerLine.Height = 22
-                outerLine.TextBottomIntent = 6
-                outerLine.TextColor = sg.Color.WhiteSmoke
-                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
-                options.OuterLines.Add(outerLine)
+                    # <% "{code_1.comment_4}" %>
+                    outerLine = sg.StampLine()
+                    outerLine.Text = "* The best  choice *"
+                    outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                    outerLine.Font = sg.SignatureFont()
+                    outerLine.Font.Size = 12
+                    outerLine.Font.FamilyName = "Arial"
+                    outerLine.Height = 22
+                    outerLine.TextBottomIntent = 6
+                    outerLine.TextColor = sg.Color.WhiteSmoke
+                    outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                    options.OuterLines.Add(outerLine)
 
-                # <% "{code_1.comment_5}" %>
-                innerLine = sg.StampLine()
-                innerLine.Text = "Company #1"
-                innerLine.TextColor = sg.Color.MediumVioletRed
-                innerLine.Font = sg.SignatureFont()
-                innerLine.Font.Size = 20
-                innerLine.Font.Bold = True
-                innerLine.Height = 40
-                options.InnerLines.Add(innerLine)
+                    # <% "{code_1.comment_5}" %>
+                    innerLine = sg.StampLine()
+                    innerLine.Text = "Company #1"
+                    innerLine.TextColor = sg.Color.MediumVioletRed
+                    innerLine.Font = sg.SignatureFont()
+                    innerLine.Font.Size = 20
+                    innerLine.Font.Bold = True
+                    innerLine.Height = 40
+                    options.InnerLines.Add(innerLine)
 
-                # <% "{code_1.comment_6}" %>
-                result = signature.Sign("output.<% get "fileformat" %>", options)
-        ```
-        {{< /landing/code >}}
+                    # <% "{code_1.comment_6}" %>
+                    result = signature.Sign("output.<% get "fileformat" %>", options)
+          ```
+        platform: "python-net"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

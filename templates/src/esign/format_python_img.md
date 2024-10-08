@@ -82,9 +82,9 @@ steps:
                 options = sg.QrCodeSignOptions("QR code text")
 
                 # <% "{examples.comment_3}" %>
-                options.Left = 50
-                options.Top = 200
-                options.ForeColor = Color.Red
+                options.Left = 100
+                options.Top = 100
+                options.ForeColor = sg.Color.Red
 
                 # <% "{examples.comment_4}" %>
                 result = signature.Sign("output.<% get "fileformat" %>", options)
@@ -130,8 +130,11 @@ more_features:
                   options = sg.ImageSignOptions("image.jpg")
 
                   # <% "{code_1.comment_3}" %>
-                  options.Left = 50
-                  options.Top = 50
+                  options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                  options.Height = 150
+                  options.Width = 200
+                  options.Margin = sg.Padding(50)
                   options.AllPages = True
 
                   # <% "{code_1.comment_4}" %>

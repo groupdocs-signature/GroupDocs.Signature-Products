@@ -128,8 +128,8 @@ more_features:
 
         // <% "{code_1.comment_2}" %>
         const options = new signatureLib.BarcodeVerifyOptions();
-        options.setText('John');
-        options.setMatchType(signatureLib.TextMatchType.Contains);
+        options.setText('12345');
+        options.setMatchType(signatureLib.TextMatchType.StartsWith);
 
         // <% "{code_1.comment_3}" %>
         const result = signature.verify(options);

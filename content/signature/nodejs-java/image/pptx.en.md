@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-08T11:43:26
 draft: false
 lang: en
 format: Pptx
@@ -83,7 +83,7 @@ steps:
         // Place the image at the top-left corner across all pages
         options.setAllPages(true);
         options.setLeft(100);
-        options.setTop(100);
+        options.setTop(200);
         
         // Save the document with the applied image signature
         const result = signature.sign('output.pptx', options);
@@ -113,50 +113,72 @@ more_features:
     - title: "Remove unnecessary signatures"
       content: "Efficiently manage your documents by removing signatures that are no longer needed. Our API supports full CRUD operations for nearly all signature types."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Enhance documents with image signatures"
       content: |
         Learn how to incorporate images into business documents to add supplementary information.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Select the document to be signed
-        const signature = new signatureLib.Signature('input.pptx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Select the document to be signed
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // Configure image options with the image path
-        const options = new signatureLib.ImageSignOptions('organization_seal.jpg');
+          // Configure image options with the image path
+          const options = new signatureLib.ImageSignOptions('organization_seal.jpg');
 
-        // Adjust the size of the image signature
-        options.setWidth(100);
-        options.setHeight(100);
+          // Adjust the size of the image signature
+          options.setWidth(100);
+          options.setHeight(100);
 
-        // Place the image at the bottom-right corner
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          // Place the image at the bottom-right corner
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
 
-        // Apply padding from the page corners if needed
-        const padding = new signatureLib.Padding();
-        padding.setRight(120);
-        padding.setBottom(120);
-        options.setMargin(padding);
+          // Apply padding from the page corners if needed
+          const padding = new signatureLib.Padding();
+          padding.setRight(120);
+          padding.setBottom(120);
+          options.setMargin(padding);
 
-        // Optionally, add a custom border to the image
-        const border = new signatureLib.Border();
-        border.setColor(signatureLib.Color.GREEN);
-        border.setDashStyle(signatureLib.DashStyle.DashLongDashDot);
-        border.setWeight(5);
-        border.setVisible(true);
-        options.setBorder(border);
+          // Optionally, add a custom border to the image
+          const border = new signatureLib.Border();
+          border.setColor(signatureLib.Color.RED);
+          border.setDashStyle(signatureLib.DashStyle.DashDotDot);
+          border.setWeight(5);
+          border.setVisible(true);
+          options.setBorder(border);
 
-        // Rotate the image signature for optimal appearance
-        options.setRotationAngle(45);
+          // Rotate the image signature for optimal appearance
+          options.setRotationAngle(45);
 
-        // Save the updated document to the desired location
-        const result = signature.sign('output.pptx', options);
-        ```
-        {{< /landing/code >}}
+          // Save the updated document to the desired location
+          const result = signature.sign('output.pptx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_image.pptx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

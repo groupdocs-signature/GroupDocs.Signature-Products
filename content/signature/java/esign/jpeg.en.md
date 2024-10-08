@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-08T11:43:31
 draft: false
 lang: en
 format: Jpeg
@@ -140,8 +140,12 @@ more_features:
           ImageSignOptions options = new ImageSignOptions("image.jpg");
 
           // Set the size and target pages for the signature
-          options.setLeft(100);
-          options.setTop(100);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setHeight(150);
+          options.setWidth(200);
+          Padding padding = new Padding(50);
+          options.setMargin(padding);
           options.setAllPages(true);
 
           // Apply the signature to the document

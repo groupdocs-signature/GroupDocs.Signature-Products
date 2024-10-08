@@ -55,6 +55,7 @@ code:
   title: "<% "{index-content-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.java.more_link" %>"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>

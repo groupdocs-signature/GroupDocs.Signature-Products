@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:02
+date:  2024-10-08T11:43:32
 draft: false
 lang: en
 format: Docx
@@ -142,8 +142,8 @@ more_features:
 
         // Configure options to verify barcodes against specific text
         BarcodeVerifyOptions options = new BarcodeVerifyOptions();
-        options.setText("John");
-        options.setMatchType(TextMatchType.Contains);
+        options.setText("12345");
+        options.setMatchType(TextMatchType.StartsWith);
 
         // Verify the signatures that were applied to the document
         VerificationResult result = signature.verify(options);

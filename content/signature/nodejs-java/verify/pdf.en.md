@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:33:02
+date:  2024-10-08T11:43:33
 draft: false
 lang: en
 format: Pdf
@@ -129,8 +129,8 @@ more_features:
 
         // Configure the parameters to validate barcodes against designated text
         const options = new signatureLib.BarcodeVerifyOptions();
-        options.setText('John');
-        options.setMatchType(signatureLib.TextMatchType.Contains);
+        options.setText('12345');
+        options.setMatchType(signatureLib.TextMatchType.StartsWith);
 
         // Authenticate the signatures previously affixed to the document
         const result = signature.verify(options);

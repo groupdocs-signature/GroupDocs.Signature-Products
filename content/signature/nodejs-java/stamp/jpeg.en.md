@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-08T11:43:25
 draft: false
 lang: en
 format: Jpeg
@@ -79,10 +79,12 @@ steps:
 
         // Create StampSignOptions with the necessary signature content
         const options = new signatureLib.StampSignOptions();
+        options.Height = 180;
+        options.Width = 180;
 
         // Incorporate one or more stamp lines
         const outerLine = new signatureLib.StampLine();
-        outerLine.setText(" * The Best Company * ");
+        outerLine.setText("* The Best Company *");
         outerLine.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
         outerLine.getFont().setSize(12);
         outerLine.setHeight(22);
@@ -119,57 +121,79 @@ more_features:
     - title: "Remove unwanted signatures"
       content: "Easily remove any unnecessary signatures from your documents. Our API supports the deletion of a wide range of signature types, including stamps and digital certificates, giving you complete flexibility to manage your documents."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Integrate custom stamps into documents"
       content: |
         Learn how to design and apply customized stamps containing essential text to your documents.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Provide the document for stamping
-        const signature = new signatureLib.Signature('input.jpeg');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Provide the document for stamping
+          const signature = new signatureLib.Signature('input.jpeg');
 
-        // Set up stamp options with the desired configurations
-        const options = new signatureLib.StampSignOptions();
+          // Set up stamp options with the desired configurations
+          const options = new signatureLib.StampSignOptions();
 
-        // Specify the dimensions and position of the stamp on the page
-        options.setHeight(300);
-        options.setWidth(300);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setAllPages(true);
+          // Specify the dimensions and position of the stamp on the page
+          options.setHeight(200);
+          options.setWidth(200);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setAllPages(true);
 
-        // Include outer circular lines with custom text
-        const outerLine1 = new signatureLib.StampLine();
-        outerLine1.setText('* The best choice *');
-        outerLine1.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
-        const signatureFont1 = new signatureLib.SignatureFont();
-        signatureFont1.setSize(12);
-        signatureFont1.setFamilyName('Arial');
-        outerLine1.setFont(signatureFont1);
-        outerLine1.setHeight(30);
-        outerLine1.setTextBottomIntent(6);
-        outerLine1.setTextColor(signatureLib.Color.WHITE);
-        outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
-        options.getOuterLines().add(outerLine1);
+          // Include outer circular lines with custom text
+          const outerLine1 = new signatureLib.StampLine();
+          outerLine1.setText('* The best  choice *');
+          outerLine1.setTextRepeatType(signatureLib.StampTextRepeatType.FullTextRepeat);
+          const signatureFont1 = new signatureLib.SignatureFont();
+          signatureFont1.setSize(12);
+          signatureFont1.setFamilyName('Arial');
+          outerLine1.setFont(signatureFont1);
+          outerLine1.setHeight(30);
+          outerLine1.setTextBottomIntent(6);
+          outerLine1.setTextColor(signatureLib.Color.WHITE);
+          outerLine1.setBackgroundColor(signatureLib.Color.BLUE);
+          options.getOuterLines().add(outerLine1);
 
-        // Add inner square lines as needed
-        const innerLine1 = new signatureLib.StampLine();
-        innerLine1.setText('Company #1');
-        innerLine1.setTextColor(signatureLib.Color.RED);
-        const signFont1 = new signatureLib.SignatureFont();
-        signFont1.setSize(20);
-        signFont1.setBold(true);
-        innerLine1.setFont(signFont1);
-        innerLine1.setHeight(40);
-        options.getInnerLines().add(innerLine1);
-        
-        // Save the stamped document
-        const result = signature.sign('output.jpeg', options);
-        ```
-        {{< /landing/code >}}
+          // Add inner square lines as needed
+          const innerLine1 = new signatureLib.StampLine();
+          innerLine1.setText('Company #1');
+          innerLine1.setTextColor(signatureLib.Color.RED);
+          const signFont1 = new signatureLib.SignatureFont();
+          signFont1.setSize(20);
+          signFont1.setBold(true);
+          innerLine1.setFont(signFont1);
+          innerLine1.setHeight(40);
+          options.getInnerLines().add(innerLine1);
+          
+          // Save the stamped document
+          const result = signature.sign('output.jpeg', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copy"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_stamp.jpeg"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

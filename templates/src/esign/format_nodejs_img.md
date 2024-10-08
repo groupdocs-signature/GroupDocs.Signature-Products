@@ -127,8 +127,11 @@ more_features:
           const options = new signatureLib.ImageSignOptions('image.jpg');
 
           // <% "{code_1.comment_3}" %>
-          options.setLeft(100);
-          options.setTop(100);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setHeight(150);
+          options.setWidth(200);
+          options.setMargin(new signatureLib.Padding(50));
           options.setAllPages(true);
 
           // <% "{code_1.comment_4}" %>

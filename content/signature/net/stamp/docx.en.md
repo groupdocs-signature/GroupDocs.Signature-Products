@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-08T11:43:25
 draft: false
 lang: en
 format: Docx
@@ -77,12 +77,14 @@ steps:
         {
             // Initialize StampSignOptions with the required signature content
             StampSignOptions options = new StampSignOptions();
+            options.Height = 180;
+            options.Width = 180;
 
             // Incorporate one or multiple stamp lines
             options.OuterLines.Add(
                 new StampLine()
                 {
-                    Text = "* European Union *",
+                    Text = "* The Best Company *",
                     TextRepeatType = StampTextRepeatType.FullTextRepeat,
                     Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
                     Height = 22,
@@ -121,57 +123,79 @@ more_features:
     - title: "Effortlessly remove signatures"
       content: "When signatures need to be removed, GroupDocs.Signature for .NET provides a complete set of tools to delete any type of signature, including stamps, digital certificates, and more, ensuring that your documents remain up-to-date and compliant."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Implement custom stamps in documents"
       content: |
         Discover how to craft and integrate custom stamps bearing critical textual details into your documents.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Supply the document to be stamped
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Initialize the stamp options with the desired configurations
-            StampSignOptions options = new StampSignOptions()
-            {
-                // Define the stamp’s dimensions and position on the page
-                Height = 300,
-                Width = 300,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                AllPages = true
-            };
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Supply the document to be stamped
+          using (Signature signature = new Signature("input.docx"))
+          {
+              // Initialize the stamp options with the desired configurations
+              StampSignOptions options = new StampSignOptions()
+              {
+                    // Define the stamp’s dimensions and position on the page
+                    Height = 200,
+                    Width = 200,
+                    VerticalAlignment = VerticalAlignment.Bottom,
+                    HorizontalAlignment = HorizontalAlignment.Right,
+                    AllPages = true
+              };
 
-            // Incorporate outer circular lines with text
-            options.OuterLines.Add(
-                new StampLine()
-                {
-                    Text = "* The best choice *",
-                    TextRepeatType = StampTextRepeatType.FullTextRepeat,
-                    Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
-                    Height = 22,
-                    TextBottomIntent = 6,
-                    TextColor = Color.WhiteSmoke,
-                    BackgroundColor = Color.DarkSlateBlue
-                }
-            );
+              // Incorporate outer circular lines with text
+              options.OuterLines.Add(
+                    new StampLine()
+                    {
+                        Text = "* The best  choice *",
+                        TextRepeatType = StampTextRepeatType.FullTextRepeat,
+                        Font = new SignatureFont() { Size = 12, FamilyName = "Arial" },
+                        Height = 22,
+                        TextBottomIntent = 6,
+                        TextColor = Color.WhiteSmoke,
+                        BackgroundColor = Color.DarkSlateBlue
+                    }
+              );
 
-            // Integrate inner square lines if necessary
-            options.InnerLines.Add(
-                new StampLine()
-                { 
-                    Text = "Company #1",
-                    TextColor = Color.MediumVioletRed,
-                    Font = new SignatureFont() { Size = 20, Bold = true },
-                    Height = 40
-                }
-            );
+              // Integrate inner square lines if necessary
+              options.InnerLines.Add(
+                    new StampLine()
+                    { 
+                        Text = "Company #1",
+                        TextColor = Color.MediumVioletRed,
+                        Font = new SignatureFont() { Size = 20, Bold = true },
+                        Height = 40
+                    }
+              );
 
-            // Finalize and save the stamped document
-            SignResult result = signature.Sign("output.docx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Finalize and save the stamped document
+              SignResult result = signature.Sign("output.docx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_stamp.docx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

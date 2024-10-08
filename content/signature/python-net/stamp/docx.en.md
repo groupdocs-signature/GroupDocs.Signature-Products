@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T12:32:58
+date:  2024-10-08T11:43:25
 draft: false
 lang: en
 format: Docx
@@ -81,10 +81,12 @@ steps:
 
                 # Set up StampSignOptions with the required stamp details
                 options = sg.StampSignOptions()
+                options.Height = 180
+                options.Width = 180
 
                 # Add one or more lines to the stamp
                 outerLine = sg.StampLine()
-                outerLine.Text = "* European Union *"
+                outerLine.Text = "* The Best Company *"
                 outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
                 outerLine.Font = sg.SignatureFont()
                 outerLine.Font.Size = 12
@@ -123,57 +125,79 @@ more_features:
     - title: "Easily remove signatures"
       content: "If you need to remove signatures, GroupDocs.Signature for Python via .NET offers all the tools necessary to delete any type, including stamps and digital certificates, helping you keep your documents up-to-date and compliant."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "How to add custom stamps to documents"
       content: |
         This example shows how to create and insert custom stamps with specific text details into a document.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Provide the document you want to stamp
-            with sg.Signature('input.docx') as signature:
+              # Provide the document you want to stamp
+              with sg.Signature('input.docx') as signature:
 
-                # Set up the stamp options with your desired settings
-                options = sg.StampSignOptions()
+                    # Set up the stamp options with your desired settings
+                    options = sg.StampSignOptions()
 
-                # Define the stamp’s size and placement on the page
-                options.Height = 300
-                options.Width = 300
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.AllPages = True
+                    # Define the stamp’s size and placement on the page
+                    options.Height = 200
+                    options.Width = 200
+                    options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                    options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                    options.AllPages = True
 
-                # Add outer circular lines with text
-                outerLine = sg.StampLine()
-                outerLine.Text = "* The best choice *"
-                outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
-                outerLine.Font = sg.SignatureFont()
-                outerLine.Font.Size = 12
-                outerLine.Font.FamilyName = "Arial"
-                outerLine.Height = 22
-                outerLine.TextBottomIntent = 6
-                outerLine.TextColor = sg.Color.WhiteSmoke
-                outerLine.BackgroundColor = sg.Color.DarkSlateBlue
-                options.OuterLines.Add(outerLine)
+                    # Add outer circular lines with text
+                    outerLine = sg.StampLine()
+                    outerLine.Text = "* The best  choice *"
+                    outerLine.TextRepeatType = sg.StampTextRepeatType.FullTextRepeat
+                    outerLine.Font = sg.SignatureFont()
+                    outerLine.Font.Size = 12
+                    outerLine.Font.FamilyName = "Arial"
+                    outerLine.Height = 22
+                    outerLine.TextBottomIntent = 6
+                    outerLine.TextColor = sg.Color.WhiteSmoke
+                    outerLine.BackgroundColor = sg.Color.DarkSlateBlue
+                    options.OuterLines.Add(outerLine)
 
-                # Optionally, add inner square lines
-                innerLine = sg.StampLine()
-                innerLine.Text = "Company #1"
-                innerLine.TextColor = sg.Color.MediumVioletRed
-                innerLine.Font = sg.SignatureFont()
-                innerLine.Font.Size = 20
-                innerLine.Font.Bold = True
-                innerLine.Height = 40
-                options.InnerLines.Add(innerLine)
+                    # Optionally, add inner square lines
+                    innerLine = sg.StampLine()
+                    innerLine.Text = "Company #1"
+                    innerLine.TextColor = sg.Color.MediumVioletRed
+                    innerLine.Font = sg.SignatureFont()
+                    innerLine.Font.Size = 20
+                    innerLine.Font.Bold = True
+                    innerLine.Height = 40
+                    options.InnerLines.Add(innerLine)
 
-                # Finalize and save the stamped document
-                result = signature.Sign("output.docx", options)
-        ```
-        {{< /landing/code >}}
+                    # Finalize and save the stamped document
+                    result = signature.Sign("output.docx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copy"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_stamp.docx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

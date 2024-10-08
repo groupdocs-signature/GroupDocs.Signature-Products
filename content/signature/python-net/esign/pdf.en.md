@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-03T14:41:03
+date:  2024-10-08T11:43:31
 draft: false
 lang: en
 format: Pdf
@@ -80,12 +80,12 @@ steps:
             with sg.Signature('input.pdf') as signature:
 
                 # Create a new QrCodeSignOptions object
-                options = sg.TextSignOptions("John Smith")
+                options = sg.QrCodeSignOptions("QR code text")
 
                 # Set up all required options
-                options.Left = 50
-                options.Top = 200
-                options.ForeColor = Color.Red
+                options.Left = 100
+                options.Top = 100
+                options.ForeColor = sg.Color.Red
 
                 # Save the signed document to your system
                 result = signature.Sign("output.pdf", options)
@@ -131,8 +131,11 @@ more_features:
                   options = sg.ImageSignOptions("image.jpg")
 
                   # Define the size and placement of the signature on the target pages
-                  options.Left = 50
-                  options.Top = 50
+                  options.VerticalAlignment = sg.VerticalAlignment.Bottom
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Right
+                  options.Height = 150
+                  options.Width = 200
+                  options.Margin = sg.Padding(50)
                   options.AllPages = True
 
                   # Apply the signature and save the signed document

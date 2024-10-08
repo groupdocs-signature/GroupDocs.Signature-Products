@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-09-25T12:45:24
+date: 2024-10-08T11:43:35
 draft: false
 
 lang: en
@@ -53,6 +53,7 @@ code:
   title: "Sign PDF files in Java"
   more: "More examples"
   more_link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+  install_title : "Maven XML"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
