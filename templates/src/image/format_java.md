@@ -91,7 +91,7 @@ steps:
         Signature signature = new Signature("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        ImageSignOptions options = new ImageSignOptions("boss_signature.jpg");
+        ImageSignOptions options = new ImageSignOptions("company_logo.jpg");
 
         // <% "{examples.comment_3}" %>
         options.setAllPages(true);
@@ -139,7 +139,7 @@ more_features:
           Signature signature = new Signature("input.<% get "fileformat" %>");
 
           // <% "{code_1.comment_2}" %>
-          ImageSignOptions options = new ImageSignOptions("organization_seal.jpg");
+          ImageSignOptions options = new ImageSignOptions("manager_signature.jpg");
 
           // <% "{code_1.comment_3}" %>
           options.setWidth(100);

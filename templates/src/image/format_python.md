@@ -79,7 +79,7 @@ steps:
             with sg.Signature('input.<% get "fileformat" %>') as signature:
 
                 # <% "{examples.comment_2}" %>
-                options = sg.ImageSignOptions("boss_signature.jpg")
+                options = sg.ImageSignOptions("company_logo.jpg")
 
                 # <% "{examples.comment_3}" %>
                 options.AllPages = True
@@ -131,7 +131,7 @@ more_features:
               with sg.Signature('input.<% get "fileformat" %>') as signature:
 
                     # <% "{code_1.comment_2}" %>
-                    options = sg.ImageSignOptions("organization_seal.jpg")
+                    options = sg.ImageSignOptions("manager_signature.jpg")
 
                     # <% "{code_1.comment_3}" %>
                     options.Width = 100

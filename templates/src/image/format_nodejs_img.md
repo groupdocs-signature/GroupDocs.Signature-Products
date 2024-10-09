@@ -77,7 +77,7 @@ steps:
         const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
         // <% "{examples.comment_2}" %>
-        const options = new signatureLib.ImageSignOptions('boss_signature.jpg');
+        const options = new signatureLib.ImageSignOptions('company_logo.jpg');
 
         // <% "{examples.comment_3}" %>
         options.setAllPages(true);
@@ -127,7 +127,7 @@ more_features:
           const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
           // <% "{code_1.comment_2}" %>
-          const options = new signatureLib.ImageSignOptions('organization_seal.jpg');
+          const options = new signatureLib.ImageSignOptions('manager_signature.jpg');
 
           // <% "{code_1.comment_3}" %>
           options.setWidth(100);

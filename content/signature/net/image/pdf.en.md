@@ -76,7 +76,7 @@ steps:
         using (Signature signature = new Signature("input.pdf"))
         {
             // Configure ImageSignOptions using an image for the signature
-            ImageSignOptions options = new ImageSignOptions("boss_signature.jpg")
+            ImageSignOptions options = new ImageSignOptions("company_logo.jpg")
             {
                 // Position the image at the top left corner of all pages
                 AllPages = true,
@@ -126,7 +126,7 @@ more_features:
           using (Signature signature = new Signature("input.pdf"))
           {
               // Create image options with the specified image path
-              ImageSignOptions options = new ImageSignOptions("organization_seal.jpg")
+              ImageSignOptions options = new ImageSignOptions("manager_signature.jpg")
               {
                     // Define the dimensions of the image signature
                     Width = 100,
