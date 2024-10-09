@@ -78,7 +78,7 @@ steps:
         const signature = new signatureLib.Signature('input.docx');
 
         // Configure ImageSignOptions to include the desired image signature
-        const options = new signatureLib.ImageSignOptions('boss_signature.jpg');
+        const options = new signatureLib.ImageSignOptions('company_logo.jpg');
 
         // Place the image at the top-left corner across all pages
         options.setAllPages(true);
@@ -128,7 +128,7 @@ more_features:
           const signature = new signatureLib.Signature('input.docx');
 
           // Configure image options with the image path
-          const options = new signatureLib.ImageSignOptions('organization_seal.jpg');
+          const options = new signatureLib.ImageSignOptions('manager_signature.jpg');
 
           // Adjust the size of the image signature
           options.setWidth(100);

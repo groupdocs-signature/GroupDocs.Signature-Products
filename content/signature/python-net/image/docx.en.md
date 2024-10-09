@@ -80,7 +80,7 @@ steps:
             with sg.Signature('input.docx') as signature:
 
                 # Set up ImageSignOptions with the chosen image for the signature
-                options = sg.ImageSignOptions("boss_signature.jpg")
+                options = sg.ImageSignOptions("company_logo.jpg")
 
                 # Position the image at the top-left corner of each page
                 options.AllPages = True
@@ -132,7 +132,7 @@ more_features:
               with sg.Signature('input.docx') as signature:
 
                     # Set up image options with the image file path
-                    options = sg.ImageSignOptions("organization_seal.jpg")
+                    options = sg.ImageSignOptions("manager_signature.jpg")
 
                     # Specify the size of the image signature
                     options.Width = 100

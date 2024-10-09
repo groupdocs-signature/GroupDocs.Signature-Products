@@ -92,7 +92,7 @@ steps:
         Signature signature = new Signature("input.docx");
 
         // Create ImageSignOptions using an image for the signature
-        ImageSignOptions options = new ImageSignOptions("boss_signature.jpg");
+        ImageSignOptions options = new ImageSignOptions("company_logo.jpg");
 
         // Position the image in the top left corner of all pages
         options.setAllPages(true);
@@ -140,7 +140,7 @@ more_features:
           Signature signature = new Signature("input.docx");
 
           // Create image options with the path to the image
-          ImageSignOptions options = new ImageSignOptions("organization_seal.jpg");
+          ImageSignOptions options = new ImageSignOptions("manager_signature.jpg");
 
           // Set the size of the image signature
           options.setWidth(100);
