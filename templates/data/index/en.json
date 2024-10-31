@@ -369,8 +369,7 @@
     "code_title_sample_2": "Protecting a DOCX with a Digital Signature",
     "code_samples_sample_2_content_1": "[Protect your Documents]({{Sample2Url}}) by signatures based on digital certificates.",
     "code_samples_sample_2_content_2": "Digital signature protect your business documents against content changing."
-  }
-  ,
+  },
   "index-content-python-net": {
     "head_title": "Python Digital Signature API - GroupDocs.Signature",
     "head_description": "Easily integrate secure e-signatures into Python applications using GroupDocs.Signature. Simplify and streamline your document signing workflows.",
