@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "Electronically sign {{FileFormatUp}} via {{ProgLang}} apps",
-    "description": "Leverage the power of {{ProgLang}} API to electronically sign and secure {{FileFormatUp}} documents, including PDFs, Word, Excel, Presentations, and Images."
+    "title": "Sign {{FileFormatUp}} via {{ProgLang}} electronically",
+    "description": "Utilize {{FileFormatUp}} to add a range of electronic signature types to documents, ensuring security and compliance across formats like PDF, Word, Excel, Presentations, and Images."
   },
   "header": {
     "title": "Electronic signing of {{FileFormatUp}} files",

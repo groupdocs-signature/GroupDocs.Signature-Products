@@ -19,7 +19,7 @@
     },
     "format-operations": {
       "esign": {
-        "pdf": "e-Sign PDFs",
+        "pdf": "e-Sign PDF",
         "docx": "e-Sign DOCX",
         "xlsx": "e-Sign XLSX",
         "pptx": "e-Sign PPTX",
@@ -68,31 +68,31 @@
       },
       "search": {
         "pdf": "Search signatures in PDF",
-        "docx": "Search signatures in DOCX",
+        "docx": "Find signatures in DOCX",
         "xlsx": "Search signatures in XLSX",
-        "pptx": "Search signatures in PPTX",
+        "pptx": "Find signatures in PPTX",
         "jpeg": "Search signatures in JPEG"
       },
       "verify": {
         "pdf": "Verify PDF signatures",
         "docx": "Verify DOCX signatures",
-        "xlsx": "Verify XLSX signatures",
+        "xlsx": "Validate XLSX signatures",
         "pptx": "Verify PPTX signatures",
-        "jpeg": "Verify JPEG signatures"
+        "jpeg": "Validate JPEG signatures"
       },
       "modify": {
         "pdf": "Modify PDF signatures",
-        "docx": "Modify DOCX signatures",
+        "docx": "Edit DOCX signatures",
         "xlsx": "Modify XLSX signatures",
-        "pptx": "Modify PPTX signatures",
+        "pptx": "Edit PPTX signatures",
         "jpeg": "Modify JPEG signatures"
       },
       "delete": {
         "pdf": "Delete PDF signatures",
-        "docx": "Delete DOCX signatures",
+        "docx": "Remove DOCX signatures",
         "xlsx": "Delete XLSX signatures",
         "pptx": "Delete PPTX signatures",
-        "jpeg": "Delete JPEG signatures"
+        "jpeg": "Remove JPEG signatures"
       }
     },
     "format-code": {
@@ -134,11 +134,11 @@
       },
       "qrcode": {
         "name": "Generate QR codes",
-        "description": "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+        "description": "Generate and QR Codes, including QR codes, for document signing"
       },
       "digital": {
         "name": "Digital certificates",
-        "description": "Secure business documents using digital certificates"
+        "description": "Secure business and sign documents with digital certificates"
       },
       "stamp": {
         "name": "Stamp signatures",

@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Generate QR code for {{FileFormatUp}} with {{ProgLang}}",
+    "title": "Create QR code for {{FileFormatUp}} with {{ProgLang}}",
     "description": "The {{ProdShortName}} API enables the generation of QR codes for {{FileFormatUp}} files. Create QR codes from your content and place them on any page."
   },
   "header": {
-    "title": "Generate QR codes for {{FileFormatUp}}",
+    "title": "Create QR codes for {{FileFormatUp}}",
     "description": "Easily create 2D barcodes with text and numeric data and place them on any page of various documents using {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Free trial"

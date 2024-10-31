@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "Augment document content with image signatures",
+    "title": "Secure document content with image signatures",
     "content": "Discover how to enrich business documents by embedding images, providing supplementary information.",
     "comment_1": "Select the document to be signed",
     "comment_2": "Create image options with the specified image path",

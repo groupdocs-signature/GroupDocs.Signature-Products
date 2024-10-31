@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "Delete signatures from {{FileFormatUp}} using {{ProgLang}}",
-    "description": "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed {{FileFormatUp}} documents can be performed easily using {{ProdFullName}}."
+    "title": "Remove signatures from {{FileFormatUp}} using {{ProgLang}}",
+    "description": "Removing of Digital, Barcode, Text, Image, Metadata signatures from signed {{FileFormatUp}} documents can be performed easily using {{ProdFullName}}."
   },
   "header": {
-    "title": "Remove signatures from {{FileFormatUp}}",
+    "title": "Delete signatures from {{FileFormatUp}}",
     "description": "Our solution not only allows you to sign business documents but also provides the capability to locate and remove various types of signatures using {{ProdFullName}}.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"

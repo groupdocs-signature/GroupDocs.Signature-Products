@@ -59,7 +59,7 @@
     }
   },
   "code_1": {
-    "title": "How to customize a generated QR code",
+    "title": "How to generate QR code with various options?",
     "content": "This example demonstrates how to place a customized QR code on a {{FileFormatUp}} page.",
     "comment_1": "Retrieve the document to be signed and pass it to {{TextSignature}}",
     "comment_2": "Configure QR code options with the necessary text",

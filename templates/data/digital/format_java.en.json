@@ -4,7 +4,7 @@
     "description": "Put a digital signature on a {{FileFormatUp}} file using {{ProgLang}} with just a few lines of code. Use {{ProdFullName}} to sign numerous file formats."
   },
   "header": {
-    "title": "eSign {{FileFormatUp}} with digital signatures",
+    "title": "Sign {{FileFormatUp}} with digital signatures",
     "description": "Safeguard the content of your business documents by sealing them with digital certificates using the features of {{ProdFullName}}. We provide multiple ways to mark and secure your documents.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download for free"

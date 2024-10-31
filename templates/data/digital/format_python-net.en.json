@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Apply digital signatures to {{FileFormatUp}} using {{ProgLang}}",
+    "title": "Create digital signatures to {{FileFormatUp}} using {{ProgLang}}",
     "description": "Digitally sign {{FileFormatUp}} documents using {{ProgLang}} in just a few lines of code. Use {{ProdFullName}} to sign a wide range of file formats."
   },
   "header": {
