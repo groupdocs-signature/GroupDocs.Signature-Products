@@ -293,7 +293,7 @@
     "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
     "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
     "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
-    "code_title_sample_1": "Enchance PDF document with QR-code",
+    "code_title_sample_1": "Enhance PDF document with QR-code",
     "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",
     "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Signature for Java.",
     "code_title_sample_2": "Use digital signature to protect a DOCX",
