@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Menambahkan Tanda Tangan Gambar ke file {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Tempatkan tanda tangan gambar di file {{FileFormatUp}} untuk {{EnvNameShort}} dengan beberapa baris kode. Gunakan API {{ProdFullName}} untuk menambahkan gambar."
+  },
+  "header": {
+    "title": "Tanda tangani file {{FileFormatUp}} dengan tanda tangan gambar",
+    "description": "Gunakan {{ProdFullName}} untuk menyisipkan gambar ke dalam berbagai format dokumen kantor, termasuk PDF, Word, Excel, dan file gambar. Gambar dengan tanda tangan atasan dapat menambah kesan yang mengesankan!",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Temukan {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan kemampuan untuk menambahkan tanda tangan gambar ke setiap halaman dan posisi dalam dokumen bisnis. Permudah alur kerja Anda dengan menambahkan gambar ke PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, dan format gambar populer."
+  },
+  "more_features": {
+    "title": "Solusi tanda tangan dokumen yang komprehensif",
+    "description": "API kami mendukung berbagai fitur tanda tangan, memungkinkan Anda untuk menambah, memodifikasi, menghapus, mencari, dan memverifikasi berbagai jenis tanda tangan, termasuk tanda tangan gambar.",
+    "image_description": "Tanda tangan gambar",
+    "feature_1": {
+      "title": "Sisipkan gambar ke dokumen kantor",
+      "content": "Tempatkan tanda tangan gambar dengan mudah di posisi mana pun di halaman dokumen. Perkaya konten Anda dengan teks, gambar, barcode, metadata, dan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi tanda tangan",
+      "content": "Verifikasi validitas tanda tangan di dokumen yang ditandatangani. Ambil daftar semua tanda tangan dalam sebuah dokumen dan periksa informasi mendetail tentang masing-masing."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan",
+      "content": "Perbarui konten, penampilan, ukuran, atau posisi tanda tangan yang pernah ditambahkan ke dokumen. API kami membuat modifikasi tanda tangan menjadi sederhana dan efisien."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan yang tidak diperlukan",
+      "content": "API kami mendukung operasi CRUD penuh untuk sebagian besar jenis tanda tangan. Anda dapat dengan mudah menghapus tanda tangan dari hampir semua jenis dokumen yang didukung jika diperlukan."
+    }
+  },
+  "formats": {
+    "title": "Tambahkan gambar ke format file lainnya",
+    "description": "Dengan API {{EnvName}}, Anda dapat menyisipkan format gambar yang didukung ke dalam berbagai dokumen. Sesuaikan ukuran, pilih posisi, dan tambahkan tanda tangan gambar ke dokumen Anda."
+  },
+  "operations": {
+    "title": "Lihat fitur unggulan kami",
+    "description": "Kami dengan senang hati mempresentasikan berbagai alat dan operasi tanda tangan."
+  },
+  "examples": {
+    "comment_1": "Instansiasi {{TextSignature}} dengan jalur dokumen",
+    "comment_2": "Buat {{ImageSignOptions}} menggunakan gambar untuk tanda tangan",
+    "comment_3": "Posisikan gambar di sudut kiri atas semua halaman",
+    "comment_4": "Simpan dokumen yang ditandatangani"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menambahkan gambar ke mana saja dalam {{FileFormatUp}} melalui {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memperkaya aplikasi {{EnvName}} dengan kemampuan untuk menambahkan tanda tangan ke halaman mana saja dari dokumen {{FileFormatUp}} secara tepat. Tingkatkan fungsionalitas produk Anda dengan mengintegrasikan pustaka kami.",
+      "step_1": "Buat instance {{TextSignature}} dengan dokumen {{FileFormatUp}}.",
+      "step_2": "Gunakan {{ImageSignOptions}} untuk menentukan gambar tanda tangan.",
+      "step_3": "Tempatkan gambar di lokasi mana saja di halaman mana saja.",
+      "step_4": "Simpan dokumen yang ditandatangani ke lokasi baru."
+    }
+  },
+  "code_1": {
+    "title": "Tingkatkan konten dokumen dengan tanda tangan gambar",
+    "content": "Pelajari cara menambahkan gambar ke dokumen bisnis untuk memberikan informasi tambahan.",
+    "comment_1": "Pilih dokumen yang akan ditandatangani",
+    "comment_2": "Buat opsi gambar dengan jalur ke gambar",
+    "comment_3": "Tentukan ukuran tanda tangan gambar",
+    "comment_4": "Tempatkan gambar di sudut kanan bawah",
+    "comment_5": "Terapkan padding dari sudut halaman jika perlu",
+    "comment_6": "Tambahkan tepi kustom ke gambar jika diinginkan",
+    "comment_7": "Putar tanda tangan untuk penyesuaian yang lebih baik",
+    "comment_8": "Simpan dokumen yang diperbarui ke lokasi mana saja"
+  }
+}

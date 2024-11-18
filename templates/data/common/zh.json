@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobe 可移植文档格式"
+      },
+      "docx": {
+        "description": "Microsoft Word 开放 XML 文档"
+      },
+      "xlsx": {
+        "description": "Microsoft Excel 开放 XML 电子表格"
+      },
+      "pptx": {
+        "description": "PowerPoint 开放 XML 演示文稿"
+      },
+      "jpeg": {
+        "description": "JPEG 图像"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "电子签名 PDF",
+        "docx": "电子签名 DOCX",
+        "xlsx": "电子签名 XLSX",
+        "pptx": "电子签名 PPTX",
+        "jpeg": "电子签名 JPEG"
+      },
+      "text": {
+        "pdf": "PDF 文本签名",
+        "docx": "DOCX 文本签名",
+        "xlsx": "XLSX 文本签名",
+        "pptx": "PPTX 文本签名",
+        "jpeg": "JPEG 文本签名"
+      },
+      "image": {
+        "pdf": "使用图像签名 PDF",
+        "docx": "使用图像签名 DOCX",
+        "xlsx": "使用图像签名 XLSX",
+        "pptx": "使用图像签名 PPTX",
+        "jpeg": "使用图像签名 JPEG"
+      },
+      "barcode": {
+        "pdf": "向 PDF 添加条形码",
+        "docx": "向 DOCX 添加条形码",
+        "xlsx": "向 XLSX 添加条形码",
+        "pptx": "向 PPTX 添加条形码",
+        "jpeg": "向 JPEG 添加条形码"
+      },
+      "qrcode": {
+        "pdf": "PDF 的二维码",
+        "docx": "DOCX 的二维码",
+        "xlsx": "XLSX 的二维码",
+        "pptx": "PPTX 的二维码",
+        "jpeg": "JPEG 的二维码"
+      },
+      "digital": {
+        "pdf": "保护 PDF",
+        "docx": "保护 DOCX",
+        "xlsx": "保护 XLSX",
+        "pptx": "保护 PPTX"
+      },
+      "stamp": {
+        "pdf": "盖章 PDF",
+        "docx": "盖章 DOCX",
+        "xlsx": "盖章 XLSX",
+        "pptx": "盖章 PPTX",
+        "jpeg": "盖章 JPEG"
+      },
+      "search": {
+        "pdf": "搜索 PDF 中的签名",
+        "docx": "查找 DOCX 中的签名",
+        "xlsx": "搜索 XLSX 中的签名",
+        "pptx": "查找 PPTX 中的签名",
+        "jpeg": "搜索 JPEG 中的签名"
+      },
+      "verify": {
+        "pdf": "验证 PDF 签名",
+        "docx": "验证 DOCX 签名",
+        "xlsx": "验证 XLSX 签名",
+        "pptx": "验证 PPTX 签名",
+        "jpeg": "验证 JPEG 签名"
+      },
+      "modify": {
+        "pdf": "修改 PDF 签名",
+        "docx": "编辑 DOCX 签名",
+        "xlsx": "修改 XLSX 签名",
+        "pptx": "编辑 PPTX 签名",
+        "jpeg": "修改 JPEG 签名"
+      },
+      "delete": {
+        "pdf": "删除 PDF 签名",
+        "docx": "移除 DOCX 签名",
+        "xlsx": "删除 XLSX 签名",
+        "pptx": "删除 PPTX 签名",
+        "jpeg": "移除 JPEG 签名"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "result_title": "示例签名",
+      "result_title_bottom": "下载结果",
+      "copy_tip": "点击以复制",
+      "copy_done": "已复制",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 的功能或请求许可证",
+      "comment_1": "{{PackageStoreName}} 下载",
+      "comment_2": "许可证"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    },
+    "operations": {
+      "esign": {
+        "name": "电子签名",
+        "description": "向支持的文件格式添加各种类型的签名"
+      },
+      "text": {
+        "name": "向文档添加文本",
+        "description": "通过可自定义的文本签名增强文档内容"
+      },
+      "image": {
+        "name": "图像签名",
+        "description": "在文档内的任意位置放置任何图像"
+      },
+      "barcode": {
+        "name": "生成条形码",
+        "description": "创建并插入各种条形码到支持的文档中"
+      },
+      "qrcode": {
+        "name": "生成二维码",
+        "description": "生成用于文档签名的二维码"
+      },
+      "digital": {
+        "name": "数字证书",
+        "description": "安全地进行商业操作并使用数字证书签署文档"
+      },
+      "stamp": {
+        "name": "盖章签名",
+        "description": "使用盖章构造器创建自定义圆形或方形印章"
+      },
+      "search": {
+        "name": "搜索签名",
+        "description": "在文档中定位任何之前添加的签名"
+      },
+      "verify": {
+        "name": "签名验证",
+        "description": "验证签名在应用后是否真实有效"
+      },
+      "modify": {
+        "name": "修改签名",
+        "description": "轻松编辑文档中的多种签名"
+      },
+      "delete": {
+        "name": "删除签名",
+        "description": "移除多种之前应用的签名"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 数字签名验证使用 {{ProgLang}}",
+    "description": "利用强大的 {{ProdFullName}} 来验证嵌入在 {{FileFormatUp}} 文件中的签名。验证 PDF、Word、Excel、演示文稿、图像和 ZIP 格式的签名是否合法。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 数字签名验证",
+    "description": "高效验证 PDF、Word、Excel、演示文稿、图像或 ZIP 文件中所有支持的电子签名，使用 {{ProdFullName}} 的全面功能。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 的主要应用",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 支持文件签名管理的完整 CRUD 能力。您可以使用多种签名类型（如文本、图像、条形码、数字证书、元数据和印章）在 60 多种不同格式中签名，包括 PDF、MS Office 文件、图像和 ZIP 压缩文件。除了签名外，它还允许您搜索、验证、更新或删除签名。"
+  },
+  "more_features": {
+    "title": "先进的文件签名",
+    "description": "{{ProdShortName}} 是一款全面解决方案，旨在简化广泛使用格式的文件签署和认证。它提供 7 种签名类型和完整的 CRUD 操作，以确保对您的文档内容进行全面的保护和管理。",
+    "image_description": "签名验证功能",
+    "feature_1": {
+      "title": "简化企业文件签署",
+      "content": "无缝地将定制的数字签名应用到您的文档的任何部分。支持文本、图像、条形码、元数据、印章和数字证书签名，{{ProdFullName}} 确保您的文档符合企业标准。"
+    },
+    "feature_2": {
+      "title": "完整的签名生命周期管理",
+      "content": "轻松管理文档中签名的整个生命周期。根据需要访问、验证、更新或删除任何签名，确保文档始终保持最新和准确。"
+    },
+    "feature_3": {
+      "title": "文档内容完整性保护",
+      "content": "通过嵌入数字证书来保护敏感文档，防止未经授权的修改。此外，添加隐藏的元数据以保护关键信息并加强内容完整性。"
+    },
+    "feature_4": {
+      "title": "量身定制的本地签名",
+      "content": "利用文档特定的签名类型，如 PDF 印章和 Word 水印。这些量身定制的签名非常适合品牌推广、水印或合规目的，为您的企业文档增添专业修饰。"
+    }
+  },
+  "formats": {
+    "title": "跨格式签名验证",
+    "description": "{{ProdFullName}} 使您能够高效验证各类文档格式中的签名。设置可定制的验证参数，以确保文档的完整性和合规性。"
+  },
+  "operations": {
+    "title": "全面的操作和签名类型",
+    "description": "探索 {{ProdShortName}} 提供的丰富功能和签名管理操作，全面控制文档的签名过程。"
+  },
+  "examples": {
+    "comment_1": "用文档初始化一个 {{TextSignature}} 实例",
+    "comment_2": "配置 {{TextVerifyOptions}} 以验证包含特定文本的签名",
+    "comment_3": "对文档的签名进行验证",
+    "comment_4": "分析和解读验证结果"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 验证 {{FileFormatUp}} 中的签名指南",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 可以验证 {{FileFormatUp}} 文档中特定签名的存在。{{EnvName}} 开发人员可以通过集成我们解决方案提供的功能轻松增强其应用。",
+      "step_1": "将 {{FileFormatUp}} 文件加载到 {{TextSignature}} 实例中。",
+      "step_2": "实例化并配置 {{VerifyOptions}} 以实现所需的验证结果。",
+      "step_3": "开始验证过程。",
+      "step_4": "查看和解读验证结果。"
+    }
+  },
+  "code_1": {
+    "title": "验证条形码签名",
+    "content": "此示例说明如何在文档中验证条形码签名的过程。",
+    "comment_1": "提交包含条形码签名的文档",
+    "comment_2": "配置验证选项以匹配具有特定文本条件的条形码",
+    "comment_3": "验证嵌入文档中的签名",
+    "comment_4": "呈现验证过程的结果"
+  }
+}

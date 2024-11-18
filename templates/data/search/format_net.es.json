@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Buscar firmas electrónicas en {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Utiliza las capacidades de la API de {{ProdFullName}} para buscar firmas incrustadas en PDFs, documentos de Word, Excel, Presentaciones e Imágenes."
+  },
+  "header": {
+    "title": "Buscar firmas digitales en {{FileFormatUp}}",
+    "description": "Extrae de manera fluida una lista completa de firmas electrónicas incrustadas en varios formatos como PDFs, Word, Excel, Presentaciones e Imágenes, todo impulsado por {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Comienza tu descarga gratuita"
+  },
+  "about": {
+    "title": "Explora las capacidades de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece funcionalidades de vanguardia para la firma de documentos digitales. Con soporte para más de 60 formatos de archivo, incluidos PDFs, documentos de MS Office, Imágenes y archivos ZIP, permite agregar, buscar, verificar, modificar o eliminar diversas firmas, como texto, imágenes, códigos de barras, códigos QR, certificados digitales y sellos."
+  },
+  "more_features": {
+    "title": "Ecosistema completo de firma de documentos",
+    "description": "Descubre una solución avanzada y rica en funciones para la firma de documentos, diseñada específicamente para mejorar y asegurar tus documentos con múltiples tipos de firma en varios formatos.",
+    "image_description": "Búsqueda y gestión de firmas",
+    "feature_1": {
+      "title": "Firma y asegura documentos empresariales",
+      "content": "Agrega firmas digitales en cualquier posición de un documento. {{ProdShortName}} soporta una variedad de tipos de firma, incluyendo texto, imágenes, códigos de barras, metadatos, sellos y certificados digitales, asegurando la autenticidad y conformidad del documento."
+    },
+    "feature_2": {
+      "title": "Gestión completa de firmas",
+      "content": "Después de firmar, aprovecha la función de búsqueda para recuperar todas las firmas incrustadas. Modifica o elimina firmas según sea necesario, brindándote un control total sobre la integridad del documento."
+    },
+    "feature_3": {
+      "title": "Protege la integridad de tu documento",
+      "content": "Utiliza herramientas avanzadas para gestionar metadatos ocultos incrustados en documentos. Agrega o elimina entradas de metadatos y aplica certificados digitales corporativos para proteger contra ediciones no autorizadas y asegurar la autenticidad del documento."
+    }
+  },
+  "formats": {
+    "title": "Recupera firmas de una variedad de formatos de archivo",
+    "description": "La API de {{ProdFullName}} te permite extraer y gestionar firmas de una amplia gama de tipos de documentos. Recupera sin esfuerzo firmas incrustadas de todos los formatos de archivo principales para un análisis o procesamiento posterior."
+  },
+  "operations": {
+    "title": "Funcionalidades centrales",
+    "description": "Nuestra API ofrece una flexibilidad extensa, permitiendo a los usuarios firmar documentos y realizar operaciones completas post-firma, como buscar, verificar y modificar firmas."
+  },
+  "examples": {
+    "comment_1": "Inicializa un objeto {{TextSignature}} con la ruta del documento especificada",
+    "comment_2": "Crea una instancia de {{TextSearchOptions}} para abarcar todas las páginas",
+    "comment_3": "Ejecuta una búsqueda para identificar cualquier firma basada en texto en el documento",
+    "comment_4": "Compila una lista de firmas detectadas para un examen detallado"
+  },
+  "steps": {
+    "title": "Cómo buscar firmas en {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ofrece un motor robusto para localizar firmas digitales dentro de archivos {{FileFormatUp}}. Los desarrolladores de {{EnvName}} pueden mejorar sus aplicaciones con nuestra solución.",
+      "step_1": "Proporciona la ruta del archivo {{FileFormatUp}} para la búsqueda de firmas.",
+      "step_2": "Emplea {{SearchOptions}} para afinar los criterios de búsqueda.",
+      "step_3": "Invoca el método Search para recuperar los resultados.",
+      "step_4": "Evalúa la lista de firmas identificadas."
+    }
+  },
+  "code_1": {
+    "title": "Buscar firmas de imagen",
+    "content": "Este ejemplo ilustra el proceso de detección de una firma de imagen dentro de un documento especificado.",
+    "comment_1": "Proporciona el documento de origen como argumento al constructor",
+    "comment_2": "Busca cualquier firma del tipo texto",
+    "comment_3": "Presenta los resultados con propiedades detalladas de las firmas identificadas"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tem nhãn tròn và vuông {{FileFormatUp}} qua {{ProgLang}}",
+    "description": "Sử dụng {{ProdFullName}} để tạo và nhúng các tem cá nhân hóa vào các tệp {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Tạo tem cho các tệp {{FileFormatUp}}",
+    "description": "Tích hợp liền mạch các tem thiết kế tùy chỉnh vào bất kỳ phần nào của tài liệu của bạn bằng cách sử dụng {{ProdFullName}}, cung cấp sự linh hoạt tối đa cho vị trí và cấu hình tem nhằm đáp ứng nhu cầu kinh doanh của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một công cụ đa năng cho phép chèn nhiều loại chữ ký vào tài liệu, bao gồm cả tem có thể tùy chỉnh. Hỗ trợ hơn 60 định dạng tệp, từ PDF và tài liệu Word đến hình ảnh và tệp ZIP, bạn có thể làm phong phú tài liệu của mình với văn bản, hình ảnh, mã vạch, siêu dữ liệu, chứng chỉ số và tem. Hơn nữa, bạn có toàn quyền tìm kiếm, xác thực, sửa đổi hoặc loại bỏ bất kỳ chữ ký nào đã áp dụng cho tệp của bạn."
+  },
+  "more_features": {
+    "title": "Tận dụng chữ ký để bảo vệ và nâng cao tính toàn vẹn tài liệu",
+    "description": "Với thư viện {{ProdFullName}}, bạn có thể tích hợp chức năng chữ ký vào tài liệu của mình. Lấp đầy dễ dàng các tem tùy chỉnh và các loại chữ ký khác, mang lại sự linh hoạt và độ chính xác cho việc quản lý tài liệu an toàn.",
+    "image_description": "Chữ ký tem được cung cấp bởi {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ký tài liệu toàn diện",
+      "content": "Nâng cao tài liệu của bạn bằng cách đặt chữ ký, bao gồm văn bản, hình ảnh, mã vạch, mã QR và tem, ở bất kỳ vị trí hoặc trang nào trong tệp. Ngoài ra, quản lý siêu dữ liệu nhúng và áp dụng chứng chỉ số để bảo vệ chống lại những thay đổi trái phép."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác thực chữ ký hiệu quả",
+      "content": "Sau khi ký, xác minh tính xác thực và tính toàn vẹn của chữ ký tài liệu. Sử dụng chức năng tìm kiếm nâng cao để truy xuất và quản lý tất cả dữ liệu chữ ký được nhúng trong tài liệu."
+    },
+    "feature_3": {
+      "title": "Sửa đổi và tùy chỉnh chữ ký",
+      "content": "Điều chỉnh các chữ ký đã được chèn trước đó một cách dễ dàng. Cho dù bạn cần thay đổi nội dung, vị trí, kích thước hay màu sắc, giải pháp của chúng tôi cung cấp sự linh hoạt tối đa cho việc sửa đổi chữ ký."
+    },
+    "feature_4": {
+      "title": "Dễ dàng xóa chữ ký",
+      "content": "Khi cần xóa chữ ký, {{ProdFullName}} cung cấp một bộ công cụ hoàn chỉnh để xóa bất kỳ loại chữ ký nào, bao gồm tem, chứng chỉ số và nhiều hơn nữa, đảm bảo tài liệu của bạn luôn được cập nhật và tuân thủ."
+    }
+  },
+  "formats": {
+    "title": "Áp dụng tem trên nhiều định dạng tài liệu khác nhau",
+    "description": "API {{ProdShortName}} cho phép bạn nhúng tem vào hơn 60 loại tệp tiêu chuẩn trong ngành. Áp dụng các tem tùy chỉnh vào bất kỳ vị trí nào trong tài liệu của bạn, giúp tăng cường theo dõi và cá nhân hóa tài liệu."
+  },
+  "operations": {
+    "title": "Khám phá chức năng cơ bản",
+    "description": "Khám phá nhiều lựa chọn để tạo, quản lý và xóa các loại chữ ký khác nhau, đảm bảo khả năng kiểm soát toàn diện đối với quy trình tài liệu của bạn."
+  },
+  "examples": {
+    "comment_1": "Tích hợp đường dẫn tài liệu với thể hiện {{TextSignature}}",
+    "comment_2": "Khởi tạo {{StampSignOptions}} với nội dung chữ ký cần thiết",
+    "comment_3": "Kết hợp một hoặc nhiều dòng tem",
+    "comment_4": "Lưu trữ tài liệu với tem đã áp dụng"
+  },
+  "steps": {
+    "title": "Cách nhúng tem vào {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp tính năng tạo tem mạnh mẽ, lý tưởng cho việc nâng cao ứng dụng {{EnvName}}. Tận dụng công cụ này để thiết kế và triển khai các tem tùy chỉnh cao trên các trang tài liệu của bạn.",
+      "step_1": "Cung cấp tài liệu {{FileFormatUp}} cần có tem.",
+      "step_2": "Sử dụng {{StampSignOptions}} để cấu hình cẩn thận tất cả các tham số cần thiết.",
+      "step_3": "Thêm nhiều dòng tem theo yêu cầu của bạn.",
+      "step_4": "Áp dụng tem đã cấu hình và lưu tài liệu đã sửa đổi."
+    }
+  },
+  "code_1": {
+    "title": "Triển khai tem tùy chỉnh trong tài liệu",
+    "content": "Khám phá cách tạo và tích hợp các tem tùy chỉnh với các chi tiết văn bản quan trọng vào tài liệu của bạn.",
+    "comment_1": "Cung cấp tài liệu cần có tem",
+    "comment_2": "Khởi tạo các tùy chọn tem với các cấu hình mong muốn",
+    "comment_3": "Định nghĩa kích thước và vị trí của tem trên trang",
+    "comment_4": "Kết hợp các đường tròn bên ngoài với văn bản",
+    "comment_5": "Tích hợp các đường vuông bên trong nếu cần",
+    "comment_6": "Hoàn thành và lưu tài liệu đã có tem"
+  }
+}

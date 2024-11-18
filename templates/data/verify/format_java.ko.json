@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 전자 서명 검증 - {{ProgLang}}",
+    "description": "{{ProdFullName}}는 {{FileFormatUp}} 파일에 배치된 서명을 검증할 수 있게 합니다. PDF, Word 문서, Excel 시트, 프레젠테이션, 이미지 또는 ZIP 아카이브의 서명을 검증하십시오."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에 대한 전자 서명 검증",
+    "description": "{{ProdFullName}}를 사용하여 PDF, Word, Excel, 프레젠테이션, 이미지 또는 ZIP 파일의 모든 지원되는 전자 서명을 검증하십시오.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 버전 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}}의 적용 분야",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서 서명 및 기타 작업을 위한 전체 CRUD 작업을 지원합니다. PDF, MS Office 파일, 이미지 및 ZIP 아카이브를 포함하여 60개 이상의 문서 형식에 대해 텍스트, 이미지, 바코드, 디지털 인증서, 메타데이터 및 스탬프 서명으로 서명할 수 있습니다. 서명을 검색하고, 검증하고, 수정하거나 삭제하는 추가 작업도 가능합니다."
+  },
+  "more_features": {
+    "title": "종합적인 문서 서명 솔루션",
+    "description": "{{ProdShortName}}는 7종의 서명과 전체 CRUD 작업을 통해 인기 있는 오피스 문서 형식을 강화하여 문서 내용을 안전하게 보호합니다.",
+    "image_description": "서명 검증",
+    "feature_1": {
+      "title": "기업 문서 서명",
+      "content": "모든 문서에 전문적인 디지털 서명을 추가하십시오. 우리의 솔루션은 텍스트, 이미지, 바코드, 메타데이터, 스탬프 및 디지털 인증서와 같은 다양한 유형의 서명을 지원합니다."
+    },
+    "feature_2": {
+      "title": "서명 CRUD 작업",
+      "content": "많은 경우, 서명된 문서는 추가 처리가 필요합니다. 문서에 있는 모든 서명의 목록을 가져오고, 이를 검증하며, 속성을 수정하거나 필요 시 제거하십시오."
+    },
+    "feature_3": {
+      "title": "문서 내용 보호",
+      "content": "디지털 인증서를 사용하여 기업 문서를 무단 변경으로부터 보호하십시오. 문서 내용을 더욱 보호하기 위해 숨겨진 메타데이터를 포함하십시오."
+    },
+    "feature_4": {
+      "title": "네이티브 서명",
+      "content": "PDF 스탬프 또는 Word 워터마크와 같은 문서별 텍스트 서명을 활용하여 기업 공사용으로 맞춤형 전문 문서를 생성하십시오."
+    }
+  },
+  "formats": {
+    "title": "파일 형식 전반에 걸친 서명 검증",
+    "description": "{{ProdFullName}}는 문서 내 모든 서명을 검증하는 과정을 간소화합니다. 서명된 문서의 무결성을 보장하기 위해 사용자 정의 검증 매개변수를 설정하십시오."
+  },
+  "operations": {
+    "title": "지원되는 작업 및 서명 유형",
+    "description": "{{ProdShortName}}가 지원하는 전체 기능 및 서명 작업 범위를 탐색하십시오."
+  },
+  "examples": {
+    "comment_1": "문서와 함께 {{TextSignature}} 인스턴스를 생성합니다.",
+    "comment_2": "특정 텍스트를 포함하는 서명을 검증하기 위한 {{TextVerifyOptions}}를 생성합니다.",
+    "comment_3": "문서 내 서명을 검증합니다.",
+    "comment_4": "검증 결과를 처리합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용한 {{FileFormatUp}}의 서명 검증 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{FileFormatUp}} 문서 내 특정 서명의 존재를 검증할 수 있습니다. {{EnvName}} 개발자는 우리의 솔루션에서 제공하는 기능을 추가하여 애플리케이션을 강화할 수 있습니다.",
+      "step_1": "{{TextSignature}} 인스턴스에 {{FileFormatUp}} 파일을 로드합니다.",
+      "step_2": "원하는 결과를 얻기 위해 {{VerifyOptions}}를 인스턴스화하고 구성합니다.",
+      "step_3": "검증 프로세스를 시작합니다.",
+      "step_4": "검증 결과를 검토합니다."
+    }
+  },
+  "code_1": {
+    "title": "바코드 서명 검증",
+    "content": "이 예제는 문서 내 바코드 서명을 검증하는 방법을 보여줍니다.",
+    "comment_1": "바코드 서명이 포함된 문서를 제공합니다.",
+    "comment_2": "특정 텍스트에 대한 바코드를 검증하기 위한 옵션을 구성합니다.",
+    "comment_3": "문서에 적용된 서명을 검증합니다.",
+    "comment_4": "검증 결과를 표시합니다."
+  }
+}

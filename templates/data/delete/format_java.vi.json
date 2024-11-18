@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Xóa chữ ký khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Việc loại bỏ chữ ký kỹ thuật số, mã vạch, văn bản, hình ảnh, và metadata từ các tài liệu {{FileFormatUp}} đã ký có thể thực hiện một cách hiệu quả với {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Xóa chữ ký khỏi {{FileFormatUp}}",
+    "description": "Giải pháp của chúng tôi không chỉ cho phép bạn ký các tài liệu kinh doanh mà còn cung cấp khả năng xác định và loại bỏ nhiều loại chữ ký khác nhau bằng {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một giải pháp ký toàn diện, có khả năng xử lý nhiều loại chữ ký khác nhau như văn bản, hình ảnh, mã vạch, chứng nhận số và con dấu. Công cụ này hỗ trợ hơn 60 định dạng tệp khác nhau, bao gồm PDF, tài liệu MS Office, tệp hình ảnh, và nhiều định dạng phổ biến khác. Hơn nữa, một khi chữ ký đã được áp dụng, chúng có thể được tìm kiếm, xác minh, chỉnh sửa hoặc xóa đi khi cần thiết."
+  },
+  "more_features": {
+    "title": "Tăng cường quy trình kinh doanh với quản lý chữ ký",
+    "description": "{{ProdFullName}} được thiết kế để ký kết và quản lý các định dạng tệp kinh doanh, cho phép bạn thêm, sửa đổi, xác minh hoặc xóa chữ ký theo nhu cầu.",
+    "image_description": "Khả năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ký tài liệu",
+      "content": "Thêm chữ ký văn bản, hình ảnh, mã vạch, mã QR hoặc con dấu vào bất kỳ trang nào của các tài liệu hỗ trợ. Sử dụng metadata ẩn như EXIF trong hình ảnh hoặc bảo vệ nội dung tài liệu khỏi những thay đổi trái phép bằng chứng nhận số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh",
+      "content": "Tối đa hóa khả năng của các tài liệu đã ký bằng cách xác minh chữ ký để đảm bảo tính hợp lệ. Bạn cũng có thể lấy danh sách tổng hợp tất cả chữ ký trong một tài liệu thông qua một tìm kiếm đơn giản."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký",
+      "content": "Hầu hết các chữ ký đã được thêm trước đó có thể được điều chỉnh. Bạn có thể dễ dàng chỉnh sửa văn bản, định vị lại chữ ký, hoặc thay đổi màu sắc của nó."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký",
+      "content": "Giải pháp của chúng tôi hoàn toàn hỗ trợ các thao tác CRUD cho chữ ký, cho phép bạn xóa nhiều loại chữ ký khỏi tài liệu khi cần thiết."
+    }
+  },
+  "formats": {
+    "title": "Xóa chữ ký khỏi nhiều định dạng tệp khác nhau",
+    "description": "Giải pháp {{ProdFullName}} của chúng tôi hỗ trợ việc xóa chữ ký từ hơn 60 định dạng tệp khác nhau."
+  },
+  "operations": {
+    "title": "Tìm hiểu về các tính năng chính của chúng tôi",
+    "description": "Khám phá những thao tác đa dạng và các phương pháp chữ ký có sẵn với nền tảng của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Chuyển tài liệu chứa các chữ ký cần xóa đến {{TextSignature}}",
+    "comment_2": "Lấy các chữ ký số hiện có trong tài liệu",
+    "comment_3": "Xóa chữ ký số đầu tiên được tìm thấy",
+    "comment_4": "Xử lý kết quả của việc xóa"
+  },
+  "steps": {
+    "title": "Các bước xóa chữ ký điện tử khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp lập trình viên {{EnvName}} xóa chữ ký điện tử trong các tệp {{FileFormatUp}} bằng cách làm theo một vài bước đơn giản.",
+      "step_1": "Chuyển đường dẫn {{FileFormatUp}} đến một thể hiện của lớp {{TextSignature}}.",
+      "step_2": "Sử dụng phương thức Tìm kiếm để lấy chữ ký từ tài liệu.",
+      "step_3": "Xóa một hoặc nhiều chữ ký đã được xác định.",
+      "step_4": "Phân tích kết quả xử lý tài liệu."
+    }
+  },
+  "code_1": {
+    "title": "Xóa tất cả chữ ký mã vạch",
+    "content": "Tìm hiểu cách xóa tất cả chữ ký mã vạch nhúng trong một tài liệu.",
+    "comment_1": "Cung cấp một tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Xóa tất cả chữ ký mã vạch",
+    "comment_3": "Xử lý kết quả của việc xóa"
+  }
+}

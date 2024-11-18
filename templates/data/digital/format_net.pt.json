@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Adicionando assinaturas eletrônicas digitais ao arquivo {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Coloque uma assinatura digital em um arquivo {{FileFormatUp}} usando {{ProgLang}} com apenas algumas linhas de código. Use {{ProdFullName}} para assinar vários formatos de arquivo."
+  },
+  "header": {
+    "title": "eSign {{FileFormatUp}} com assinaturas digitais",
+    "description": "Proteja a integridade de seus documentos comerciais selando-os com certificados digitais usando os robustos recursos do {{ProdFullName}}. Oferecemos soluções versáteis para marcar e proteger seus documentos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "Sobre {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução de assinatura sofisticada que facilita uma ampla gama de tarefas de processamento de documentos. Ele permite incorporar texto, imagens, certificados digitais e carimbos em arquivos em mais de 60 formatos, incluindo PDF, MS Office, imagens, arquivos ZIP e outros formatos comerciais essenciais. Além disso, documentos assinados podem ser pesquisados, verificados, modificados ou removidos conforme necessário."
+  },
+  "more_features": {
+    "title": "Aprimore ou proteja o conteúdo do documento com assinaturas",
+    "description": "A biblioteca {{ProdFullName}} é projetada para assinar todos os formatos de arquivo prevalentes. Simplifique seus processos de negócios adicionando, modificando, verificando ou removendo uma variedade de assinaturas de forma simples.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Incorporar assinaturas em documentos",
+      "content": "Insira assinaturas de Texto, Imagem, Código de Barras, QR-Code ou Carimbo com precisão em qualquer página de qualquer documento compatível. Você também pode adicionar ou editar metadados ocultos, como EXIF, em imagens e na maioria dos tipos de arquivo. Garanta a integridade do conteúdo do seu documento com assinaturas digitais."
+    },
+    "feature_2": {
+      "title": "Pesquisar e verificar assinaturas",
+      "content": "O processamento pós-assinatura oferece inúmeras possibilidades. Verifique se seus documentos assinados foram processados corretamente. Para maior controle, recupere uma lista abrangente de todas as assinaturas através da função de pesquisa."
+    },
+    "feature_3": {
+      "title": "Modificar assinaturas",
+      "content": "A maioria dos tipos de assinatura é totalmente editável. Você tem a flexibilidade de ajustar o texto, reposicionar elementos, alterar cores, redimensionar e muito mais."
+    },
+    "feature_4": {
+      "title": "Remover assinaturas redundantes",
+      "content": "Nossa solução oferece operações completas de CRUD para assinaturas. Se necessário, você pode remover uma variedade de tipos de assinatura, incluindo certificados digitais, do seu documento."
+    }
+  },
+  "formats": {
+    "title": "Assine documentos em vários formatos",
+    "description": "A API {{EnvName}} possibilita o processamento de mais de 60 formatos diferentes. Você pode criar e incorporar assinaturas diversas em qualquer página, aplicar certificados digitais para segurança de conteúdo e gerenciar de forma eficiente assinaturas existentes dentro do documento."
+  },
+  "operations": {
+    "title": "Veja nossos recursos destacados",
+    "description": "Oferecemos uma rica variedade de formatos de assinatura e operações poderosas."
+  },
+  "examples": {
+    "comment_1": "Utilize {{TextSignature}} para assinar digitalmente o documento",
+    "comment_2": "Forneça o certificado digital e a senha associada",
+    "comment_3": "Configure a representação visual se necessário",
+    "comment_4": "Proteja o documento com o certificado digital"
+  },
+  "steps": {
+    "title": "Como proteger {{FileFormatUp}} com certificados digitais em {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) capacita desenvolvedores {{EnvName}} a proteger documentos {{FileFormatUp}} contra alterações usando assinaturas digitais. Aumente suas aplicações de negócios com robustas capacidades de proteção de dados.",
+      "step_1": "Passe o documento {{FileFormatUp}} para o construtor da classe {{TextSignature}}.",
+      "step_2": "Utilize um certificado digital e sua senha para proteger o documento.",
+      "step_3": "Opcionalmente, adicione uma representação visual da assinatura digital nas páginas do documento.",
+      "step_4": "Assine o documento para garantir que ele permaneça inalterado."
+    }
+  },
+  "code_1": {
+    "title": "Proteger documentos com assinaturas digitais",
+    "content": "Descubra como evitar modificações no documento usando assinaturas digitais.",
+    "comment_1": "Forneça o documento a ser assinado",
+    "comment_2": "Use um certificado digital válido com a senha correspondente",
+    "comment_3": "Especifique qualquer informação textual adicional",
+    "comment_4": "Incorpore uma imagem e outras opções para representação visual",
+    "comment_5": "Salve o documento protegido em um local designado"
+  }
+}

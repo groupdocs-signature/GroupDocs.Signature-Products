@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Ajout de signatures électroniques numériques au fichier {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Apposez une signature numérique sur un fichier {{FileFormatUp}} en utilisant {{ProgLang}} en quelques lignes de code. Utilisez {{ProdFullName}} pour signer de nombreux formats de fichiers."
+  },
+  "header": {
+    "title": "eSign {{FileFormatUp}} avec signatures numériques",
+    "description": "Protégez l'intégrité de vos documents professionnels en les scellant avec des certificats numériques grâce aux fonctionnalités robustes de {{ProdFullName}}. Nous offrons des solutions polyvalentes pour marquer et sécuriser vos documents.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution de signature sophistiquée qui facilite un large éventail de tâches de traitement de documents. Elle vous permet d'incorporer du texte, des images, des certificats numériques et des tampons dans des fichiers de plus de 60 formats, y compris PDF, MS Office, images, fichiers ZIP et autres formats professionnels essentiels. De plus, les documents signés peuvent être recherchés, vérifiés, modifiés ou supprimés sans effort si nécessaire."
+  },
+  "more_features": {
+    "title": "Améliorez ou protégez le contenu du document avec des signatures",
+    "description": "La bibliothèque {{ProdFullName}} est conçue pour signer tous les formats de fichiers courants. Optimisez vos processus d'affaires en ajoutant, modifiant, vérifiant ou supprimant facilement diverses signatures.",
+    "image_description": "Fonctionnalités clés de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Incorporez des signatures dans des documents",
+      "content": "Intégrez des signatures de texte, d'image, de code-barres, de QR-Code, ou de tampons avec précision sur n'importe quelle page de tout document pris en charge. Vous pouvez également ajouter ou modifier des métadonnées cachées, telles que EXIF, dans les images et la plupart des types de fichiers. Assurez l'intégrité du contenu de votre document avec des signatures numériques."
+    },
+    "feature_2": {
+      "title": "Recherchez et vérifiez les signatures",
+      "content": "Le traitement post-signature offre de nombreuses possibilités. Vérifiez que vos documents signés ont été correctement traités. Pour un contrôle accru, récupérez une liste complète de toutes les signatures via la fonction de recherche."
+    },
+    "feature_3": {
+      "title": "Modifiez les signatures",
+      "content": "La plupart des types de signatures sont entièrement modifiables. Vous avez la flexibilité d'ajuster le texte, de repositionner les éléments, de changer les couleurs, de redimensionner, et plus encore."
+    },
+    "feature_4": {
+      "title": "Supprimez les signatures superflues",
+      "content": "Notre solution offre des opérations CRUD complètes pour les signatures. Si nécessaire, vous pouvez retirer une variété de types de signatures, y compris des certificats numériques, de votre document."
+    }
+  },
+  "formats": {
+    "title": "Signer des documents dans divers formats",
+    "description": "L'API {{EnvName}} vous permet de traiter plus de 60 formats différents. Vous pouvez créer et intégrer sans effort des signatures variées sur n'importe quelle page, appliquer des certificats numériques pour la sécurité du contenu, et gérer efficacement les signatures existantes dans le document."
+  },
+  "operations": {
+    "title": "Découvrez nos fonctionnalités exceptionnelles",
+    "description": "Nous proposons une grande variété de formats de signature et des opérations puissantes."
+  },
+  "examples": {
+    "comment_1": "Utilisez {{TextSignature}} pour signer numériquement le document",
+    "comment_2": "Fournissez le certificat numérique et le mot de passe associé",
+    "comment_3": "Configurez la représentation visuelle si nécessaire",
+    "comment_4": "Sécurisez le document avec le certificat numérique"
+  },
+  "steps": {
+    "title": "Comment sécuriser {{FileFormatUp}} avec des certificats numériques en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} de protéger les documents {{FileFormatUp}} contre les modifications à l'aide de signatures numériques. Renforcez vos applications professionnelles avec des capacités de protection des données robustes.",
+      "step_1": "Passez le document {{FileFormatUp}} au constructeur de la classe {{TextSignature}}.",
+      "step_2": "Utilisez un certificat numérique et son mot de passe pour sécuriser le document.",
+      "step_3": "Optionnellement, ajoutez une représentation visuelle de la signature numérique sur les pages du document.",
+      "step_4": "Signez le document pour garantir qu'il reste inchangé."
+    }
+  },
+  "code_1": {
+    "title": "Sécurisez les documents avec des signatures numériques",
+    "content": "Découvrez comment empêcher les modifications de documents à l'aide de signatures numériques.",
+    "comment_1": "Fournissez le document à signer",
+    "comment_2": "Utilisez un certificat numérique valide avec le mot de passe correspondant",
+    "comment_3": "Spécifiez toute information textuelle supplémentaire",
+    "comment_4": "Intégrez une image et d'autres options pour la représentation visuelle",
+    "comment_5": "Enregistrez le document sécurisé à un emplacement désigné"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Formato de Documento Portátil Adobe"
+      },
+      "docx": {
+        "description": "Documento Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "Planilha Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "Apresentação PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "Imagem JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "Assinatura eletrônica em PDF",
+        "docx": "Assinatura eletrônica em DOCX",
+        "xlsx": "Assinatura eletrônica em XLSX",
+        "pptx": "Assinatura eletrônica em PPTX",
+        "jpeg": "Assinatura eletrônica em JPEG"
+      },
+      "text": {
+        "pdf": "Assinaturas de texto em PDF",
+        "docx": "Assinaturas de texto em DOCX",
+        "xlsx": "Assinaturas de texto em XLSX",
+        "pptx": "Assinaturas de texto em PPTX",
+        "jpeg": "Assinaturas de texto em JPEG"
+      },
+      "image": {
+        "pdf": "Assinar PDF com imagem",
+        "docx": "Assinar DOCX com imagem",
+        "xlsx": "Assinar XLSX com imagem",
+        "pptx": "Assinar PPTX com imagem",
+        "jpeg": "Assinar JPEG com imagem"
+      },
+      "barcode": {
+        "pdf": "Adicionar código de barras ao PDF",
+        "docx": "Adicionar código de barras ao DOCX",
+        "xlsx": "Adicionar código de barras ao XLSX",
+        "pptx": "Adicionar código de barras ao PPTX",
+        "jpeg": "Adicionar código de barras ao JPEG"
+      },
+      "qrcode": {
+        "pdf": "QR-Code para PDF",
+        "docx": "QR-Code para DOCX",
+        "xlsx": "QR-Code para XLSX",
+        "pptx": "QR-Code para PPTX",
+        "jpeg": "QR-Code para JPEG"
+      },
+      "digital": {
+        "pdf": "Proteger PDF",
+        "docx": "Proteger DOCX",
+        "xlsx": "Proteger XLSX",
+        "pptx": "Proteger PPTX"
+      },
+      "stamp": {
+        "pdf": "Carimbar PDF",
+        "docx": "Carimbar DOCX",
+        "xlsx": "Carimbar XLSX",
+        "pptx": "Carimbar PPTX",
+        "jpeg": "Carimbar JPEG"
+      },
+      "search": {
+        "pdf": "Buscar assinaturas em PDF",
+        "docx": "Localizar assinaturas em DOCX",
+        "xlsx": "Buscar assinaturas em XLSX",
+        "pptx": "Localizar assinaturas em PPTX",
+        "jpeg": "Buscar assinaturas em JPEG"
+      },
+      "verify": {
+        "pdf": "Verificar assinaturas em PDF",
+        "docx": "Verificar assinaturas em DOCX",
+        "xlsx": "Validar assinaturas em XLSX",
+        "pptx": "Verificar assinaturas em PPTX",
+        "jpeg": "Validar assinaturas em JPEG"
+      },
+      "modify": {
+        "pdf": "Modificar assinaturas em PDF",
+        "docx": "Editar assinaturas em DOCX",
+        "xlsx": "Modificar assinaturas em XLSX",
+        "pptx": "Editar assinaturas em PPTX",
+        "jpeg": "Modificar assinaturas em JPEG"
+      },
+      "delete": {
+        "pdf": "Excluir assinaturas em PDF",
+        "docx": "Remover assinaturas em DOCX",
+        "xlsx": "Excluir assinaturas em XLSX",
+        "pptx": "Excluir assinaturas em PPTX",
+        "jpeg": "Remover assinaturas em JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "result_title": "Assinaturas de exemplo",
+      "result_title_bottom": "Baixar resultado",
+      "copy_tip": "clique para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Mais exemplos",
+        "title_2": "Documentação"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto para começar?",
+      "description": "Experimente os recursos do {{ProdShortName}} gratuitamente ou solicite uma licença",
+      "comment_1": "Baixar {{PackageStoreName}}",
+      "comment_2": "Licenciamento"
+    },
+    "texts": {
+      "learn_more": "Saiba mais"
+    },
+    "operations": {
+      "esign": {
+        "name": "Assinaturas eletrônicas",
+        "description": "Adicionar vários tipos de assinaturas a formatos de arquivo suportados"
+      },
+      "text": {
+        "name": "Adicionar texto a documentos",
+        "description": "Melhore o conteúdo do documento com assinaturas de texto personalizáveis"
+      },
+      "image": {
+        "name": "Assinaturas de imagem",
+        "description": "Colocar qualquer imagem em qualquer posição dentro de um documento"
+      },
+      "barcode": {
+        "name": "Gerar códigos de barras",
+        "description": "Criar e inserir vários códigos de barras em documentos suportados"
+      },
+      "qrcode": {
+        "name": "Gerar QR codes",
+        "description": "Gerar e QR Codes, incluindo códigos QR, para assinatura de documentos"
+      },
+      "digital": {
+        "name": "Certificados digitais",
+        "description": "Proteger negócios e assinar documentos com certificados digitais"
+      },
+      "stamp": {
+        "name": "Assinaturas de carimbo",
+        "description": "Use o Construtor de Carimbos para criar carimbos redondos ou quadrados personalizados"
+      },
+      "search": {
+        "name": "Buscar assinaturas",
+        "description": "Localizar quaisquer assinaturas previamente adicionadas em um documento"
+      },
+      "verify": {
+        "name": "Verificação de assinaturas",
+        "description": "Verificar a autenticidade das assinaturas após a aplicação"
+      },
+      "modify": {
+        "name": "Modificar assinaturas",
+        "description": "Editar uma variedade de assinaturas dentro de um documento"
+      },
+      "delete": {
+        "name": "Excluir assinaturas",
+        "description": "Remover uma ampla gama de assinaturas previamente aplicadas"
+      }
+    }
+  }
+}

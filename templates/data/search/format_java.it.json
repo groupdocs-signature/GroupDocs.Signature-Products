@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Cerca di firma digitale in {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "description": "Sfrutta l'API {{ProdFullName}} per cercare firme all'interno di file {{FileFormatUp}}. Trova firme in PDF, Word, Excel, Presentazioni e Immagini."
+  },
+  "header": {
+    "title": "Cerca firme digitali in {{FileFormatUp}}",
+    "description": "Recupera un elenco completo di e-firme incorporate in file PDF, Word, Excel, Presentazioni o Immagini utilizzando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download gratuito"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre potenti funzionalità per la firma dei documenti. Supporta l'aggiunta di testo, immagini, codici a barre, certificati digitali e timbri a file in oltre 60 formati, tra cui PDF, documenti MS Office, Immagini, file ZIP e altri formati aziendali comuni. Inoltre, puoi cercare, verificare, modificare o eliminare le firme in qualsiasi momento."
+  },
+  "more_features": {
+    "title": "Soluzione completa per la firma dei documenti",
+    "description": "Siamo orgogliosi di presentare la nostra soluzione di firma dei documenti, compatibile con tutti i principali formati di documento. Aggiungi un'ampia gamma di firme per migliorare i tuoi documenti o proteggere i loro contenuti.",
+    "image_description": "Ricerca firme",
+    "feature_1": {
+      "title": "Firma documenti aziendali",
+      "content": "Inserisci firme digitali in qualsiasi posizione su qualsiasi pagina di un documento. Usa una varietà di tipi di firma, come testo, immagini, codici a barre, metadata, timbri o certificati digitali."
+    },
+    "feature_2": {
+      "title": "Gestisci firme",
+      "content": "Dopo aver firmato, i documenti potrebbero richiedere ulteriori elaborazioni. Cerca tutte le firme disponibili e aggiornale o eliminale quando necessario."
+    },
+    "feature_3": {
+      "title": "Proteggi il contenuto del documento",
+      "content": "Gestisci i metadati nascosti incorporati nel documento. Aggiungi nuovi metadati o rimuovi voci esistenti. Utilizza certificati digitali aziendali per proteggere il contenuto del documento da modifiche non autorizzate."
+    }
+  },
+  "formats": {
+    "title": "Cerca firme in vari formati di file",
+    "description": "L'API {{ProdFullName}} ti consente di recuperare l'elenco delle firme da qualsiasi file firmato. Estrai firme da formati di file popolari per ulteriori elaborazioni."
+  },
+  "operations": {
+    "title": "Operazioni supportate",
+    "description": "Il nostro prodotto offre un'API flessibile per la firma dei documenti e la gestione delle firme dopo la firma."
+  },
+  "examples": {
+    "comment_1": "Crea un'istanza di {{TextSignature}} con il percorso del documento",
+    "comment_2": "Istanze {{TextSearchOptions}} per coprire tutte le pagine",
+    "comment_3": "Cerca firme testuali all'interno del documento",
+    "comment_4": "Elenca le firme trovate per ulteriori analisi"
+  },
+  "steps": {
+    "title": "Passi per cercare le firme {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) fornisce un motore potente per cercare tutte le firme digitali all'interno di file {{FileFormatUp}}. Gli sviluppatori {{EnvName}} possono migliorare le loro applicazioni con la nostra soluzione.",
+      "step_1": "Fornisci il percorso del file {{FileFormatUp}} per la ricerca della firma.",
+      "step_2": "Usa {{SearchOptions}} per affinare i risultati della ricerca.",
+      "step_3": "Esegui il metodo Search per ottenere i risultati.",
+      "step_4": "Analizza l'elenco delle firme trovate."
+    }
+  },
+  "code_1": {
+    "title": "Cerca firme immagine",
+    "content": "Questo esempio dimostra come trovare una firma immagine in un documento specifico.",
+    "comment_1": "Passa il documento sorgente come parametro al costruttore",
+    "comment_2": "Cerca qualsiasi firma di tipo testo",
+    "comment_3": "Visualizza i risultati con le proprietà delle firme trovate"
+  }
+}

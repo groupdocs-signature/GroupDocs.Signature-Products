@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "E-signature di file {{FileFormatUp}} con app {{ProgLang}}",
+    "description": "Utilizza l'API {{ProgLang}} per elaborare file {{FileFormatUp}} e applicare vari tipi di firme, tra cui PDF, Word, Excel, Presentazioni e Immagini."
+  },
+  "header": {
+    "title": "Firme elettroniche per {{FileFormatUp}}",
+    "description": "Aggiungi un'ampia gamma di firme elettroniche utilizzando {{ProdFullName}} a tutti i formati business più popolari, inclusi PDF, Word, Excel, Presentazioni e Immagini.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download gratuito"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre funzionalità avanzate di e-signing. Usalo per aggiungere, cercare, verificare, modificare e rimuovere vari tipi di firme elettroniche in documenti e immagini senza necessità di software esterni. Firma PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint e formati immagine più comuni."
+  },
+  "more_features": {
+    "title": "Firme elettroniche per documenti",
+    "description": "La nostra API di e-signing snellisce i processi aziendali. Firma, cerca, aggiorna, elimina e verifica vari tipi di firme in modo programmatico.",
+    "image_description": "e-Signature",
+    "feature_1": {
+      "title": "Firma documenti di lavoro",
+      "content": "Posiziona firme elettroniche in qualsiasi punto di qualsiasi pagina di un documento. Migliora il contenuto del documento con testo, immagini, codici a barre, metadati o certificati digitali."
+    },
+    "feature_2": {
+      "title": "Gestione delle firme",
+      "content": "Dopo la firma, i documenti possono essere ulteriormente elaborati. Recupera un elenco di tutte le firme presenti, modificale o eliminale secondo necessità."
+    },
+    "feature_3": {
+      "title": "Controllo avanzato del contenuto",
+      "content": "Proteggi i documenti aziendali contro modifiche non autorizzate con certificati digitali aziendali. Aggiungi o estrai voci di metadati nascosti disponibili in tutti i tipi di documento."
+    }
+  },
+  "formats": {
+    "title": "Firma formati file popolari con firme elettroniche",
+    "description": "L'API di e-signing per {{EnvName}} consente l'elaborazione di tutti i moderni formati di file e documenti aziendali."
+  },
+  "operations": {
+    "title": "Esplora le nostre funzionalità principali",
+    "description": "Siamo orgogliosi di offrire un'ampia gamma di firme e operazioni supportate."
+  },
+  "examples": {
+    "comment_1": "Carica il documento in un'istanza di {{TextSignature}}",
+    "comment_2": "Instanzia un oggetto {{QrCodeSignOptions}}",
+    "comment_3": "Configura tutte le opzioni desiderate",
+    "comment_4": "Salva il file con il codice QR aggiunto sul disco locale"
+  },
+  "steps": {
+    "title": "Passaggi per firmare {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente di aggiungere firme personalizzate ai file {{FileFormatUp}}. Gli sviluppatori {{EnvName}} possono integrare la funzionalità di firma nelle loro applicazioni utilizzando il nostro software.",
+      "step_1": "Fornire il file {{FileFormatUp}} da firmare all'istanza di {{TextSignature}}.",
+      "step_2": "Utilizzare {{SignOptions}} per definire i dettagli della firma.",
+      "step_3": "Personalizza varie proprietà come dimensione, colore e contenuto.",
+      "step_4": "Salva il file firmato nella posizione desiderata."
+    }
+  },
+  "code_1": {
+    "title": "Come aggiungere una firma immagine a un documento",
+    "content": "Questo esempio dimostra come posizionare una firma immagine su una pagina specifica di un documento.",
+    "comment_1": "Fornire il documento sorgente come parametro",
+    "comment_2": "Specificare il percorso dell'immagine nelle opzioni di firma",
+    "comment_3": "Imposta la dimensione e le pagine di destinazione per la firma",
+    "comment_4": "Applica la firma al documento"
+  }
+}

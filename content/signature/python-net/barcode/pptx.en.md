@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:30
+date:  2024-11-18T11:52:07
 draft: false
 lang: en
 format: Pptx
@@ -15,8 +15,8 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Generate a barcode for PPTX with Python"
-head_description: "Easily generate a barcode signature and insert it into a PPTX document using Python. Use GroupDocs.Signature to sign a variety of file formats with just a few lines of code."
+head_title: "Embed a barcode in your PPTX with Python"
+head_description: "Efficiently add barcode signatures to PPTX documents with a few lines in Python. GroupDocs.Signature provides seamless signing solutions for multiple document formats."
 
 ############################# Header ############################
 title: "Generate barcodes for PPTX" 
@@ -117,7 +117,7 @@ more_features:
       
   code_samples_ext:
     # code sample ext loop
-    - title: "Customize and add a barcode signature"
+    - title: "Create and place a barcode signature"
       content: |
         This example demonstrates how to insert a custom barcode into a PPTX document.
       code:
@@ -234,13 +234,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/python-net/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/python-net/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

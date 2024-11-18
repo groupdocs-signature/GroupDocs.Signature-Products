@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "QR-Codes in {{FileFormatUp}}-Dokumenten mit {{ProgLang}} erstellen",
+    "description": "Nutzen Sie die {{ProdShortName}}-API, um 2D-Barcodes in {{FileFormatUp}}-Dateien zu erstellen und zu integrieren. Platzieren Sie QR-Codes mühelos auf jeder Seite des Dokuments."
+  },
+  "header": {
+    "title": "QR-Codes für {{FileFormatUp}} erstellen",
+    "description": "Erstellen und integrieren Sie 2D-Barcodes mit anpassbarem Inhalt, einschließlich Text und numerischen Daten, in verschiedenen Dokumenttypen wie PDFs, Word, Excel und Bilder mit {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos testen"
+  },
+  "about": {
+    "title": "{{ProdFullName}}-Funktionen entdecken",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet fortschrittliche Dokumentenverbesserungswerkzeuge, mit denen die Erstellung und Einbettung mehrerer Signaturtypen, einschließlich QR-Codes, in gängige Dateiformate möglich ist. Signieren und sichern Sie PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen und Bilder mit Text-, Bild-, Barcode-, QR-Code-, Metadaten-, Digital- und Stempelsignaturen."
+  },
+  "more_features": {
+    "title": "Umfassende Integration von Signaturen und QR-Codes",
+    "description": "Mit der {{ProdFullName}}-API können Sie ein breites Spektrum von Signaturen verwalten. Generieren, anpassen, verifizieren, suchen und entfernen Sie Signaturen mühelos in verschiedenen Dokumenttypen und bieten Sie unübertroffene Flexibilität für Ihre Workflows.",
+    "image_description": "Funktionen für Signaturen und QR-Codes",
+    "feature_1": {
+      "title": "Dokumentensignierung in mehreren Formaten",
+      "content": "Fügen Sie verschiedene Arten von Signaturen hinzu, einschließlich Text-, Bild-, Barcode-, QR-Code- und Stempelsignaturen, zu jedem unterstützten Dateiformat. Platzieren Sie sie auf jeder Seite und verwalten Sie die Dokumentenmetadaten. Stellen Sie die Dokumentensicherheit durch digitale Zertifikate sicher, um unbefugte Änderungen zu verhindern."
+    },
+    "feature_2": {
+      "title": "Effiziente Signaturvalidierung",
+      "content": "Überprüfen Sie alle Signaturen innerhalb eines Dokuments, um sicherzustellen, dass sie den erforderlichen Standards entsprechen. Holen Sie sich mühelos Signaturen über die integrierte Suchfunktion."
+    },
+    "feature_3": {
+      "title": "Flexible Signaturbearbeitung",
+      "content": "Aktualisieren oder ändern Sie vorhandene Signaturen, indem Sie Aspekte wie Inhalt, Standort, Größe und Farbe anpassen, um den Anforderungen Ihres Dokuments nach der ursprünglichen Unterzeichnung zu entsprechen."
+    },
+    "feature_4": {
+      "title": "Einfaches Entfernen von Signaturen",
+      "content": "Entfernen Sie unerwünschte oder veraltete Signaturen, einschließlich digitaler Zertifikate, mühelos. Volle Kontrolle über die Signaturverwaltung sorgt für ein sauberes und gut organisiertes Dokument."
+    }
+  },
+  "formats": {
+    "title": "QR-Codes in verschiedenen Dateiformaten integrieren",
+    "description": "Nutzen Sie die {{EnvName}}-API, um QR-Codes zu generieren und in eine Vielzahl von weithin verwendeten Dateiformaten einzubetten. Kapseln Sie wichtige Daten in diesen Barcodes für nahtlose Integration und zukünftige Abrufbarkeit."
+  },
+  "operations": {
+    "title": "Verstehen Sie unsere Hauptfunktionen",
+    "description": "Wir bieten eine breite Auswahl an Signaturformaten und -operationen, die auf Ihre Bedürfnisse zugeschnitten sind."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine {{TextSignature}}-Instanz und übergeben Sie den Dokumentenpfad.",
+    "comment_2": "Nutzen Sie {{QrCodeSignOptions}}, um einen QR-Code in das Dokument einzufügen.",
+    "comment_3": "Definieren Sie den Signaturtyp und den Platzierungsort auf der Seite.",
+    "comment_4": "Speichern Sie das Dokument mit dem neu hinzugefügten QR-Code."
+  },
+  "steps": {
+    "title": "Leitfaden zur Erstellung und Einbettung eines QR-Codes an beliebiger Stelle in einem {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht die Erstellung von QR-Codes in verschiedenen verbreiteten Formaten und deren Integration in {{FileFormatUp}}-Seiten. Unterstützen Sie über 10 verschiedene QR-Code-Typen, kann unsere Lösung nahtlos in {{EnvName}}-Anwendungen integriert werden, um diese mit QR-Code-Signierungsfunktionen zu bereichern.",
+      "step_1": "Stellen Sie die {{FileFormatUp}}-Datei oder den Stream für die QR-Code-Signatur bereit.",
+      "step_2": "Geben Sie den gewünschten Text in die {{QrCodeSignOptions}}-Instanz ein.",
+      "step_3": "Passen Sie visuelle Einstellungen wie Farbe, Positionierung, Größe usw. an.",
+      "step_4": "Speichern Sie das Dokument mit dem QR-Code."
+    }
+  },
+  "code_1": {
+    "title": "Anpassung eines generierten QR-Codes",
+    "content": "Dieses Beispiel beschreibt den Prozess, um einen angepassten QR-Code auf einer {{FileFormatUp}}-Seite hinzuzufügen.",
+    "comment_1": "Holen Sie sich das Dokument, das signiert werden soll, und übergeben Sie es an {{TextSignature}}.",
+    "comment_2": "Richten Sie die QR-Code-Optionen mit dem erforderlichen Text ein.",
+    "comment_3": "Bestimmen Sie die Position des QR-Codes auf der Seite.",
+    "comment_4": "Geben Sie den Abstand der Signatur an.",
+    "comment_5": "Wählen Sie die Farbe des QR-Codes.",
+    "comment_6": "Definieren Sie die Schriftartoptionen für die begleitende Nachricht.",
+    "comment_7": "Passen Sie die Hintergrundfarbe und den Pinsel für den QR-Code an.",
+    "comment_8": "Fügen Sie den QR-Code in das Dokument ein."
+  }
+}

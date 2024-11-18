@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Tambahkan kode batang ke file {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Buat dan masukkan tanda tangan kode batang ke dokumen {{FileFormatUp}} dalam {{ProgLang}}. {{ProdShortName}} memungkinkan integrasi tanda tangan yang beragam untuk berbagai format."
+  },
+  "header": {
+    "title": "Hasilkan kode batang untuk {{FileFormatUp}}",
+    "description": "Tambahkan kode batang dari format populer ke posisi mana pun dalam dokumen bisnis Anda dengan {{ProdFullName}}. Solusi kami menyediakan berbagai opsi untuk menyesuaikan tanda tangan kode batang.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi tanda tangan lanjutan yang mendukung berbagai jenis tanda tangan. Anda dapat menandatangani dokumen dengan teks, gambar, kode batang, sertifikat digital, cap, dan lainnya dalam lebih dari 60 format file, termasuk PDF, MS Office, gambar, file ZIP, dan format bisnis populer lainnya. Selain itu, tanda tangan dalam dokumen yang ditandatangani dapat dicari, diverifikasi, dimodifikasi, atau dihapus kapan saja."
+  },
+  "more_features": {
+    "title": "Tingkatkan atau lindungi konten dokumen dengan tanda tangan",
+    "description": "Pustaka {{ProdFullName}} dirancang untuk menandatangani dan memproses lebih lanjut format file populer. Tambahkan, ubah, verifikasi, atau hapus berbagai jenis tanda tangan dengan cepat dan efisien.",
+    "image_description": "Fitur dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Penandatanganan dokumen",
+      "content": "Tandatangani halaman mana pun dari dokumen yang didukung dengan teks, gambar, kode batang, kode QR, atau cap. Tambahkan metadata tersembunyi seperti EXIF dalam gambar atau lindungi konten dokumen dari perubahan yang tidak sah menggunakan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi tanda tangan",
+      "content": "Ada banyak hal yang dapat Anda lakukan dengan dokumen yang ditandatangani. Kami menawarkan verifikasi tanda tangan untuk memastikan semuanya dalam keadaan baik. Selain itu, Anda dapat mengambil daftar semua tanda tangan dokumen melalui pencarian."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan",
+      "content": "Sebagian besar tanda tangan yang ditambahkan sebelumnya dapat dimodifikasi. Sesuaikan teks, ubah posisi, atau ubah warna dengan mudah."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan",
+      "content": "Solusi kami mendukung operasi CRUD penuh untuk tanda tangan. Banyak jenis tanda tangan dapat dihapus dari dokumen jika diperlukan."
+    }
+  },
+  "formats": {
+    "title": "Tandatangani dokumen dalam format lainnya",
+    "description": "Lebih dari 60 format dapat ditandatangani menggunakan API {{EnvName}} kami. Terapkan berbagai tanda tangan pada halaman atau posisi mana pun dalam dokumen."
+  },
+  "operations": {
+    "title": "Temukan kemampuan inti kami",
+    "description": "Kami bangga mempersembahkan berbagai jenis tanda tangan dan fungsi yang didukung."
+  },
+  "examples": {
+    "comment_1": "Buat instansi {{TextSignature}} baru dengan jalur dokumen",
+    "comment_2": "Gunakan {{BarcodeSignOptions}} untuk menambahkan kode batang ke dokumen",
+    "comment_3": "Siapkan jenis kode batang dan properti lainnya",
+    "comment_4": "Simpan file yang ditandatangani"
+  },
+  "steps": {
+    "title": "Langkah untuk menghasilkan dan menambahkan kode batang ke file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) dapat menghasilkan kode batang dalam berbagai format populer dan menempatkannya di halaman {{FileFormatUp}}. Dengan dukungan untuk lebih dari 60 jenis kode batang, aplikasi {{EnvName}} dapat dengan mudah ditingkatkan dengan kemampuan tanda tangan kode batang dengan mengintegrasikan pustaka kami.",
+      "step_1": "Sediakan file {{FileFormatUp}} atau aliran untuk diproses.",
+      "step_2": "Serahkan teks kode batang ke instansi {{BarcodeSignOptions}}.",
+      "step_3": "Sesuaikan opsi kode batang seperti posisi, ukuran, dll.",
+      "step_4": "Simpan file dengan kode batang yang baru ditambahkan."
+    }
+  },
+  "code_1": {
+    "title": "Cara membuat tanda tangan kode batang",
+    "content": "Contoh ini menunjukkan cara menempatkan kode batang yang disesuaikan pada halaman dokumen {{FileFormatUp}}.",
+    "comment_1": "Sediakan dokumen yang akan ditandatangani",
+    "comment_2": "Buat opsi tanda tangan dengan teks yang diinginkan",
+    "comment_3": "Atur posisi kode batang relatif pada halaman",
+    "comment_4": "Atur padding kode batang dari tepi halaman",
+    "comment_5": "Atur warna batang",
+    "comment_6": "Tentukan gaya font pesan",
+    "comment_7": "Tentukan posisi pesan",
+    "comment_8": "Tandatangani dan simpan dokumen"
+  }
+}

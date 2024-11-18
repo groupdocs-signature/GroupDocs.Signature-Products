@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Generar y añadir sellos a {{FileFormatUp}} mediante {{ProgLang}}",
+    "description": "Aproveche el poder de {{ProdShortName}} y {{ProgLang}} para generar y colocar sellos personalizados en cualquier página de sus documentos {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Inserte sellos personalizados en archivos {{FileFormatUp}}",
+    "description": "Utilice {{ProdFullName}} para generar sellos a medida e insertarlos en cualquier ubicación de sus documentos. Nuestra plataforma ofrece amplias opciones para personalizar sellos de acuerdo a sus requisitos empresariales específicos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prueba gratuita"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) proporciona una solución robusta y versátil para la firma de documentos. Permite a los usuarios añadir sellos y otros tipos de firmas en más de 60 formatos diferentes, como PDFs, Word, Excel, archivos de imagen y archivos ZIP. La plataforma permite insertar texto, imágenes, códigos de barras, códigos QR, metadatos, certificados digitales y firmas de sellos. Además de firmar, puede buscar, verificar, modificar o eliminar cualquier firma presente en sus documentos."
+  },
+  "more_features": {
+    "title": "Fortalezca la seguridad de sus documentos con firmas",
+    "description": "Con {{ProdFullName}}, puede añadir, editar, validar o eliminar sellos y otros tipos de firmas en todos los formatos de documentos populares. La API simplifica el proceso de gestión de firmas para mejorar la integridad y personalización del documento.",
+    "image_description": "Características de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma de documentos personalizadas",
+      "content": "Aplique firmas como texto, imágenes, códigos de barras, códigos QR y sellos a cualquier parte de su documento. Esta herramienta también permite la inclusión de metadatos ocultos y certificados digitales para proteger aún más su contenido de modificaciones no autorizadas."
+    },
+    "feature_2": {
+      "title": "Búsqueda y verificación de firmas",
+      "content": "Después de que un documento ha sido firmado, use nuestro sistema de verificación para asegurar la integridad de las firmas. Además, nuestra plataforma le permite buscar y recuperar información detallada sobre todas las firmas aplicadas a un documento."
+    },
+    "feature_3": {
+      "title": "Modificar firmas según sea necesario",
+      "content": "Ajuste y actualice firmas aplicadas anteriormente según sea necesario. Ya sea cambiando el contenido, color, tamaño o posición de la firma, {{ProdFullName}} ofrece opciones completas de personalización."
+    },
+    "feature_4": {
+      "title": "Eliminar firmas no deseadas",
+      "content": "Elimine fácilmente cualquier firma innecesaria de sus documentos. Nuestra API admite la eliminación de una amplia gama de tipos de firmas, incluidos sellos y certificados digitales, brindándole flexibilidad total para gestionar sus documentos."
+    }
+  },
+  "formats": {
+    "title": "Aplique firmas de sello en múltiples tipos de archivos",
+    "description": "La API de {{ProdShortName}} admite firmas de sello en más de 60 formatos de archivo, permitiendo a los usuarios colocar sellos personalizados en cualquier página o área, mejorando la accesibilidad y seguridad del documento."
+  },
+  "operations": {
+    "title": "Explore características clave",
+    "description": "Nuestra solución ofrece una variedad de herramientas para crear, gestionar y eliminar diferentes tipos de firmas, otorgando a los usuarios control total sobre sus flujos de trabajo de documentos."
+  },
+  "examples": {
+    "comment_1": "Asocie la ruta del documento con la instancia de {{TextSignature}}",
+    "comment_2": "Cree {{StampSignOptions}} con el contenido de firma necesario",
+    "comment_3": "Incorpore una o más líneas de sello",
+    "comment_4": "Guarde el documento con el sello aplicado"
+  },
+  "steps": {
+    "title": "Guía para incrustar sellos en {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) proporciona una herramienta poderosa para crear e incrustar sellos, lo que puede mejorar significativamente las aplicaciones {{EnvName}}. Utilice esta característica para crear y aplicar sellos personalizados a las páginas de su documento.",
+      "step_1": "Introduzca el documento {{FileFormatUp}} que necesita ser sellado.",
+      "step_2": "Despliegue {{StampSignOptions}} para definir todos los parámetros esenciales.",
+      "step_3": "Inserte tantas líneas de sello como sea necesario.",
+      "step_4": "Aplique el sello y guarde el documento finalizado."
+    }
+  },
+  "code_1": {
+    "title": "Integrar sellos personalizados en documentos",
+    "content": "Aprenda cómo diseñar y aplicar sellos personalizados que contengan texto esencial a sus documentos.",
+    "comment_1": "Proporcione el documento para sellar",
+    "comment_2": "Configure las opciones de sello con las configuraciones deseadas",
+    "comment_3": "Especifique las dimensiones y la posición del sello en la página",
+    "comment_4": "Incluya líneas circulares exteriores con texto personalizado",
+    "comment_5": "Agregue líneas cuadradas interiores según sea necesario",
+    "comment_6": "Guarde el documento sellado"
+  }
+}

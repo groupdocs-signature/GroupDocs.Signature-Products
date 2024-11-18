@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Xóa chữ ký khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Nhanh chóng xóa chữ ký số, mã vạch, văn bản, hình ảnh và chữ ký siêu dữ liệu khỏi tài liệu {{FileFormatUp}} bằng {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Xóa chữ ký khỏi {{FileFormatUp}}",
+    "description": "Ngoài việc ký tài liệu, {{ProdFullName}} cung cấp bộ công cụ hoàn chỉnh để xác định và xóa các loại chữ ký khác nhau khỏi tệp của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp mạnh mẽ để quản lý chữ ký của tất cả các loại, bao gồm văn bản, hình ảnh, mã vạch, chứng chỉ số và con dấu. Hỗ trợ hơn 60 định dạng khác nhau như PDF, tài liệu MS Office, hình ảnh và tệp ZIP, nó cung cấp tính linh hoạt tối đa trong việc xử lý tài liệu. Bạn có thể thêm, xác minh, cập nhật hoặc xóa chữ ký khi cần."
+  },
+  "more_features": {
+    "title": "Cải thiện quản lý tài liệu với các tính năng chữ ký nâng cao",
+    "description": "{{ProdFullName}} được thiết kế chuyên nghiệp để nâng cao quy trình thêm, xác minh, chỉnh sửa và xóa chữ ký trong các định dạng tài liệu quan trọng.",
+    "image_description": "Các Tính Năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ký tài liệu của bạn",
+      "content": "Nhanh chóng áp dụng chữ ký văn bản, hình ảnh, mã vạch, mã QR hoặc con dấu vào bất kỳ trang nào. Ngoài ra, bạn có thể quản lý siêu dữ liệu ẩn như EXIF trong hình ảnh và đảm bảo tính toàn vẹn tài liệu với chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Tìm và xác minh chữ ký",
+      "content": "Sử dụng các công cụ mạnh mẽ của chúng tôi để xác định và xác minh các chữ ký trong tài liệu, cung cấp cho bạn danh sách hoàn chỉnh của tất cả các chữ ký để quản lý kỹ lưỡng."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký",
+      "content": "Thay đổi chữ ký hiện có bằng cách sửa đổi văn bản, định vị lại các yếu tố hoặc điều chỉnh màu sắc để phù hợp với sở thích của bạn."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký không mong muốn",
+      "content": "Nắm quyền kiểm soát hoàn toàn các chữ ký tài liệu với các thao tác tạo, đọc, cập nhật và xóa (CRUD), cho phép bạn xóa bất kỳ loại chữ ký nào khi cần."
+    }
+  },
+  "formats": {
+    "title": "Xóa chữ ký từ nhiều định dạng tệp",
+    "description": "{{ProdFullName}} được xây dựng để hỗ trợ việc xóa chữ ký từ hơn 60 định dạng tệp khác nhau, đảm bảo khả năng tương thích và dễ sử dụng."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính của chúng tôi",
+    "description": "Khám phá một loạt các loại chữ ký và thao tác có sẵn với giải pháp của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Chuyển tài liệu chứa chữ ký đến thể hiện {{TextSignature}}",
+    "comment_2": "Lấy danh sách các chữ ký số trong tài liệu",
+    "comment_3": "Xóa chữ ký đầu tiên khỏi danh sách",
+    "comment_4": "Xử lý và xác minh kết quả xóa"
+  },
+  "steps": {
+    "title": "Các bước để xóa chữ ký điện tử khỏi {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép các nhà phát triển {{EnvName}} xóa chữ ký điện tử khỏi tệp {{FileFormatUp}} bằng cách làm theo các bước đơn giản sau:",
+      "step_1": "Tải tài liệu {{FileFormatUp}} vào thể hiện lớp {{TextSignature}}.",
+      "step_2": "Sử dụng chức năng Tìm kiếm để tìm tất cả chữ ký trong tài liệu.",
+      "step_3": "Xóa một hoặc nhiều chữ ký đã tìm thấy.",
+      "step_4": "Xem lại kết quả sau khi xử lý."
+    }
+  },
+  "code_1": {
+    "title": "Xóa tất cả chữ ký mã vạch",
+    "content": "Tìm hiểu cách xóa tất cả chữ ký mã vạch từ một tài liệu.",
+    "comment_1": "Cung cấp một tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Xóa tất cả chữ ký mã vạch",
+    "comment_3": "Kiểm tra kết quả của quá trình xóa"
+  }
+}

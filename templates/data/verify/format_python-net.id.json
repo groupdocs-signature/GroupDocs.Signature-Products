@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verifikasi tanda tangan digital {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Manfaatkan {{ProdFullName}} untuk memverifikasi tanda tangan dalam file {{FileFormatUp}}. Pastikan keaslian tanda tangan dalam PDF, Word, Excel, Presentasi, Gambar, dan file ZIP."
+  },
+  "header": {
+    "title": "Verifikasi tanda tangan digital {{FileFormatUp}}",
+    "description": "Verifikasi tanda tangan elektronik dengan cepat dan akurat dalam berbagai format, termasuk PDF, Word, Excel, Presentasi, Gambar, dan file ZIP menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh versi gratis"
+  },
+  "about": {
+    "title": "Fitur utama {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan manajemen tanda tangan dokumen yang komprehensif, mendukung lebih dari 60 format file seperti PDF, file MS Office, gambar, dan arsip ZIP. Ini memungkinkan Anda menerapkan berbagai jenis tanda tangan, termasuk teks, gambar, kode batang, sertifikat digital, metadata, dan stempel. Selain menandatangani, ini juga memungkinkan Anda untuk mencari, memverifikasi, mengedit, atau menghapus tanda tangan."
+  },
+  "more_features": {
+    "title": "Alat tanda tangan digital canggih",
+    "description": "{{ProdShortName}} menyediakan solusi lengkap untuk menandatangani dan memverifikasi dokumen di berbagai format file populer. Dengan dukungan untuk tujuh jenis tanda tangan dan operasi CRUD penuh, Anda memiliki kontrol total atas perlindungan dan manajemen dokumen.",
+    "image_description": "Fitur verifikasi tanda tangan",
+    "feature_1": {
+      "title": "Penandatanganan dokumen yang efisien",
+      "content": "Tambahkan tanda tangan digital kustom ke bagian mana pun dari dokumen Anda. {{ProdFullName}} mendukung tanda tangan teks, gambar, kode batang, metadata, stempel, dan sertifikat digital, memastikan dokumen Anda memenuhi persyaratan bisnis."
+    },
+    "feature_2": {
+      "title": "Manajemen siklus hidup tanda tangan lengkap",
+      "content": "Kelola tanda tangan selama seluruh siklus hidupnya—akses, verifikasi, perbarui, atau hapus tanda tangan sesuai kebutuhan untuk menjaga keakuratan dan keterkinian dokumen Anda."
+    },
+    "feature_3": {
+      "title": "Lindungi integritas dokumen",
+      "content": "Lindungi dokumen sensitif Anda dengan menyematkan sertifikat digital yang mencegah perubahan tidak sah. Tambahkan metadata tersembunyi untuk melindungi informasi penting dan menjaga integritas dokumen."
+    },
+    "feature_4": {
+      "title": "Solusi tanda tangan kustom",
+      "content": "Gunakan jenis tanda tangan spesifik dokumen seperti stempel PDF dan watermark Word. Tanda tangan khusus ini sangat cocok untuk branding, kepatuhan, atau menambahkan sentuhan profesional pada dokumen bisnis Anda."
+    }
+  },
+  "formats": {
+    "title": "Verifikasi tanda tangan di berbagai format",
+    "description": "{{ProdFullName}} memungkinkan Anda memverifikasi tanda tangan dalam berbagai format dokumen. Sesuaikan parameter verifikasi untuk memastikan integritas dokumen dan memenuhi persyaratan kepatuhan."
+  },
+  "operations": {
+    "title": "Manajemen dan operasi tanda tangan",
+    "description": "Jelajahi fitur luas dan operasi manajemen tanda tangan yang disediakan oleh {{ProdShortName}} untuk mengontrol penuh proses tanda tangan dokumen."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{TextSignature}} dengan dokumen",
+    "comment_2": "Atur {{TextVerifyOptions}} untuk memverifikasi tanda tangan dengan teks tertentu",
+    "comment_3": "Jalankan verifikasi tanda tangan pada dokumen",
+    "comment_4": "Tinjau dan analisa hasil verifikasi"
+  },
+  "steps": {
+    "title": "Cara memverifikasi tanda tangan {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memverifikasi tanda tangan tertentu dalam dokumen {{FileFormatUp}}. Pengembang {{EnvName}} dapat meningkatkan aplikasi mereka dengan mengintegrasikan fitur verifikasi ini.",
+      "step_1": "Muat file {{FileFormatUp}} ke dalam instance {{TextSignature}}.",
+      "step_2": "Buat dan atur {{VerifyOptions}} untuk mencocokkan kriteria verifikasi yang diinginkan.",
+      "step_3": "Mulai proses verifikasi.",
+      "step_4": "Interpretasikan hasil dari proses verifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Verifikasi tanda tangan kode batang",
+    "content": "Contoh ini menunjukkan cara memverifikasi tanda tangan kode batang dalam dokumen.",
+    "comment_1": "Muat dokumen dengan tanda tangan kode batang",
+    "comment_2": "Atur opsi verifikasi untuk mencocokkan teks kode batang tertentu",
+    "comment_3": "Verifikasi tanda tangan dalam dokumen",
+    "comment_4": "Tampilkan hasil verifikasi"
+  }
+}

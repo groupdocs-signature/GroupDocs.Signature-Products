@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "{{ProgLang}}로 {{FileFormatUp}}에서 디지털 서명 검색",
+    "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 파일 내에서 서명을 검색합니다. PDF, Word, Excel, 프레젠테이션 및 이미지에서 서명을 찾으세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에서 디지털 서명 검색",
+    "description": "{{ProdFullName}}를 사용하여 PDF, Word, Excel, 프레젠테이션 또는 이미지 파일에 포함된 전자 서명의 전체 목록을 가져오세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서 서명을 위한 강력한 기능을 제공합니다. PDF, MS Office 문서, 이미지, ZIP 파일 및 기타 일반 비즈니스 형식을 포함하여 60개 이상의 형식으로 텍스트, 이미지, 바코드, 디지털 인증서 및 스탬프를 추가할 수 있습니다. 또한 언제든지 서명을 검색, 검증, 수정 또는 삭제할 수 있습니다."
+  },
+  "more_features": {
+    "title": "종합 문서 서명 솔루션",
+    "description": "모든 주요 문서 형식과 호환되는 우리의 문서 서명 솔루션을 자랑스럽게 소개합니다. 문서를 향상하거나 콘텐츠를 보호하기 위해 다양한 서명을 추가하세요.",
+    "image_description": "서명 검색",
+    "feature_1": {
+      "title": "비즈니스 문서 서명",
+      "content": "문서의 모든 페이지에서 원하는 위치에 디지털 서명을 삽입하세요. 텍스트, 이미지, 바코드, 메타데이터, 스탬프 또는 디지털 인증서와 같은 다양한 서명 유형을 사용할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "서명 관리",
+      "content": "서명 후 문서는 추가 처리가 필요할 수 있습니다. 사용 가능한 모든 서명을 검색하고 필요에 따라 업데이트하거나 삭제하세요."
+    },
+    "feature_3": {
+      "title": "문서 콘텐츠 보호",
+      "content": "문서에 포함된 숨겨진 메타데이터를 관리하세요. 새 메타데이터를 추가하거나 기존 항목을 제거할 수 있습니다. 기업의 디지털 인증서를 사용하여 문서의 내용을 무단 변경으로부터 보호하세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에서 서명 검색",
+    "description": "{{ProdFullName}} API는 서명된 파일에서 서명 목록을 검색할 수 있도록 합니다. 추가 처리를 위해 인기 있는 파일 형식에서 서명을 추출하세요."
+  },
+  "operations": {
+    "title": "지원되는 작업",
+    "description": "우리 제품은 문서를 서명하고 서명 후 서명을 관리할 수 있는 유연한 API를 제공합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}}의 인스턴스를 문서 경로로 생성",
+    "comment_2": "모든 페이지를 포함하기 위해 {{TextSearchOptions}}를 인스턴스화",
+    "comment_3": "문서 내에서 문자 서명을 검색",
+    "comment_4": "추가 분석을 위해 발견된 서명을 목록화"
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용한 {{FileFormatUp}} 서명 검색 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{FileFormatUp}} 파일 내에서 모든 디지털 서명을 검색할 수 있는 강력한 엔진을 제공합니다. {{EnvName}} 개발자는 우리 솔루션을 통해 애플리케이션을 향상할 수 있습니다.",
+      "step_1": "서명을 검색할 {{FileFormatUp}} 파일 경로를 제공합니다.",
+      "step_2": "{{SearchOptions}}를 사용하여 검색 결과를 다듬습니다.",
+      "step_3": "결과를 얻기 위해 Search 메서드를 실행합니다.",
+      "step_4": "발견된 서명의 목록을 분석합니다."
+    }
+  },
+  "code_1": {
+    "title": "이미지 서명 검색",
+    "content": "이 예제는 특정 문서에서 이미지 서명을 찾는 방법을 보여줍니다.",
+    "comment_1": "소스 문서를 생성자 매개변수로 전달",
+    "comment_2": "텍스트 유형의 모든 서명을 검색",
+    "comment_3": "발견된 서명의 속성으로 결과 표시"
+  }
+}

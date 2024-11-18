@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Pesquise assinaturas eletrônicas em {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Utilize as capacidades da API {{ProdFullName}} para buscar assinaturas incorporadas em PDFs, Word, Excel, Apresentações e Imagens."
+  },
+  "header": {
+    "title": "Pesquise por assinaturas digitais em {{FileFormatUp}}",
+    "description": "Extraia de forma abrangente uma lista de assinaturas eletrônicas incorporadas em vários formatos, como PDFs, Word, Excel, Apresentações e Imagens, tudo impulsionado pela {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Inicie seu download gratuito"
+  },
+  "about": {
+    "title": "Explore as capacidades do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece funcionalidades de ponta para a assinatura de documentos digitais. Com suporte para mais de 60 formatos de arquivo, incluindo PDFs, documentos do MS Office, Imagens e arquivos ZIP, permite adicionar, buscar, verificar, modificar ou remover várias assinaturas, como texto, imagens, códigos de barras, códigos QR, certificados digitais e selos."
+  },
+  "more_features": {
+    "title": "Ecossistema completo de assinatura de documentos",
+    "description": "Descubra uma solução avançada e rica em recursos para assinatura de documentos, projetada especificamente para melhorar e proteger seus documentos com múltiplos tipos de assinatura em vários formatos.",
+    "image_description": "Busca e gerenciamento de assinaturas",
+    "feature_1": {
+      "title": "Assine e proteja documentos empresariais",
+      "content": "Adicione assinaturas digitais a qualquer posição dentro de um documento. O {{ProdShortName}} suporta uma variedade de tipos de assinatura, incluindo texto, imagens, códigos de barras, metadados, selos e certificados digitais, garantindo a autenticidade e conformidade do documento."
+    },
+    "feature_2": {
+      "title": "Gerenciamento abrangente de assinaturas",
+      "content": "Após a assinatura, utilize o recurso de busca para recuperar todas as assinaturas incorporadas. Modifique ou exclua assinaturas conforme necessário, proporcionando controle total sobre a integridade do documento."
+    },
+    "feature_3": {
+      "title": "Proteja a integridade do seu documento",
+      "content": "Utilize ferramentas avançadas para gerenciar metadados ocultos incorporados nos documentos. Adicione ou remova entradas de metadados e aplique certificados digitais corporativos para proteger contra edições não autorizadas e garantir a autenticidade do documento."
+    }
+  },
+  "formats": {
+    "title": "Recupere assinaturas de uma variedade de formatos de arquivo",
+    "description": "A API {{ProdFullName}} permite extrair e gerenciar assinaturas de uma ampla gama de tipos de documentos. Recupere facilmente assinaturas incorporadas de todos os principais formatos de arquivo para análise ou processamento adicional."
+  },
+  "operations": {
+    "title": "Funcionalidades principais",
+    "description": "Nossa API oferece ampla flexibilidade, permitindo que os usuários assinem documentos e realizem operações pós-assinatura abrangentes, como buscar, verificar e modificar assinaturas."
+  },
+  "examples": {
+    "comment_1": "Inicialize um objeto {{TextSignature}} com o caminho do documento especificado",
+    "comment_2": "Crie uma instância de {{TextSearchOptions}} para abranger todas as páginas",
+    "comment_3": "Execute uma busca para identificar quaisquer assinaturas baseadas em texto no documento",
+    "comment_4": "Compile uma lista de assinaturas detectadas para exame detalhado"
+  },
+  "steps": {
+    "title": "Como buscar assinaturas em {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) oferece um mecanismo robusto para localizar assinaturas digitais em arquivos {{FileFormatUp}}. Os desenvolvedores {{EnvName}} podem aprimorar suas aplicações com nossa solução.",
+      "step_1": "Forneça o caminho do arquivo {{FileFormatUp}} para a busca de assinaturas.",
+      "step_2": "Utilize {{SearchOptions}} para refinar os critérios de busca.",
+      "step_3": "Chame o método Search para recuperar os resultados.",
+      "step_4": "Avalie a lista de assinaturas identificadas."
+    }
+  },
+  "code_1": {
+    "title": "Buscar assinaturas de imagem",
+    "content": "Este exemplo ilustra o processo de detecção de uma assinatura de imagem em um documento específico.",
+    "comment_1": "Forneça o documento de origem como um argumento para o construtor",
+    "comment_2": "Busque por quaisquer assinaturas do tipo texto",
+    "comment_3": "Apresente os resultados com propriedades detalhadas das assinaturas identificadas"
+  }
+}

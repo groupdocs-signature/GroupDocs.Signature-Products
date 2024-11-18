@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Tìm kiếm chữ ký điện tử cho {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "description": "Tận dụng API {{ProdFullName}} để tìm kiếm chữ ký điện tử được nhúng trong các định dạng như PDF, Word, Excel, Bài thuyết trình và Hình ảnh."
+  },
+  "header": {
+    "title": "Tìm kiếm chữ ký số {{FileFormatUp}}",
+    "description": "Trích xuất danh sách đầy đủ các chữ ký điện tử từ nhiều định dạng khác nhau, bao gồm PDF, Word, Excel, Bài thuyết trình và Hình ảnh, với sức mạnh của {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống ngay"
+  },
+  "about": {
+    "title": "Khám phá tiềm năng của {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp khả năng tiên tiến để ký và quản lý tài liệu số. Với hỗ trợ cho hơn 60 định dạng tệp, bao gồm PDF, tài liệu Office, Hình ảnh và tệp ZIP, bạn có thể thêm, tìm kiếm, xác minh, sửa đổi hoặc xóa chữ ký như văn bản, hình ảnh, mã vạch, mã QR, chứng chỉ số và dấu hiệu."
+  },
+  "more_features": {
+    "title": "Nền tảng ký tài liệu hoàn chỉnh",
+    "description": "Trải nghiệm một giải pháp ký mạnh mẽ, đầy đủ tính năng để bảo mật tài liệu của bạn với nhiều loại chữ ký, trải rộng trên các định dạng tệp khác nhau.",
+    "image_description": "Tìm kiếm và quản lý chữ ký",
+    "feature_1": {
+      "title": "Ký và bảo mật tài liệu doanh nghiệp",
+      "content": "Thêm chữ ký điện tử bất kỳ nơi nào trong tài liệu. {{ProdShortName}} hỗ trợ nhiều loại chữ ký, bao gồm văn bản, hình ảnh, mã vạch, siêu dữ liệu, dấu hiệu và chứng chỉ số, đảm bảo tính xác thực và an ninh cho tài liệu."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký toàn diện",
+      "content": "Khi một tài liệu được ký, hãy sử dụng tính năng tìm kiếm để tìm tất cả chữ ký được nhúng. Bạn có thể sửa đổi hoặc xóa chữ ký khi cần, mang đến cho bạn quyền kiểm soát hoàn toàn đối với tính toàn vẹn của tài liệu."
+    },
+    "feature_3": {
+      "title": "Đảm bảo tính toàn vẹn của tài liệu",
+      "content": "Sử dụng các công cụ tiên tiến để quản lý siêu dữ liệu ẩn trong tài liệu. Thêm hoặc xóa siêu dữ liệu và áp dụng chứng chỉ số để bảo vệ tài liệu khỏi những thay đổi trái phép, đảm bảo tính xác thực của chúng."
+    }
+  },
+  "formats": {
+    "title": "Trích xuất chữ ký từ nhiều định dạng tệp",
+    "description": "API {{ProdFullName}} cho phép bạn trích xuất và quản lý chữ ký từ nhiều định dạng tài liệu khác nhau. Dễ dàng lấy chữ ký nhúng từ các loại tệp chính để phân tích hoặc xử lý thêm."
+  },
+  "operations": {
+    "title": "Các tính năng cốt lõi",
+    "description": "API của chúng tôi cung cấp tính linh hoạt rộng rãi, cho phép người dùng ký tài liệu và thực hiện các thao tác sau khi ký như tìm kiếm, xác minh và chỉnh sửa chữ ký."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một đối tượng {{TextSignature}} với đường dẫn tệp của tài liệu",
+    "comment_2": "Tạo một thể hiện của {{TextSearchOptions}} để tìm kiếm tất cả các trang",
+    "comment_3": "Chạy một tìm kiếm để xác định bất kỳ chữ ký dựa trên văn bản nào trong tài liệu",
+    "comment_4": "Biên soạn danh sách các chữ ký đã tìm thấy để xem xét chi tiết"
+  },
+  "steps": {
+    "title": "Cách tìm kiếm chữ ký trong {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một công cụ mạnh mẽ để phát hiện chữ ký điện tử trong các tệp {{FileFormatUp}}. Các lập trình viên {{EnvName}} có thể dễ dàng nâng cao ứng dụng của họ với chức năng này.",
+      "step_1": "Cung cấp đường dẫn tệp {{FileFormatUp}} cho việc tìm kiếm chữ ký.",
+      "step_2": "Sử dụng {{SearchOptions}} để tinh chỉnh tiêu chí tìm kiếm.",
+      "step_3": "Gọi phương thức Search để lấy kết quả.",
+      "step_4": "Xem danh sách các chữ ký đã xác định."
+    }
+  },
+  "code_1": {
+    "title": "Tìm kiếm chữ ký hình ảnh",
+    "content": "Ví dụ này minh họa cách tìm một chữ ký hình ảnh trong một tài liệu cụ thể.",
+    "comment_1": "Chuyển tài liệu nguồn vào constructor",
+    "comment_2": "Tìm ký hiệu bất kỳ chữ ký dựa trên văn bản nào",
+    "comment_3": "Hiển thị các thuộc tính chi tiết của các chữ ký đã xác định"
+  }
+}

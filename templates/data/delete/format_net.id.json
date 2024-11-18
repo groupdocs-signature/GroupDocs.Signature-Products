@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Hapus tanda tangan dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Penghapusan tanda tangan Digital, Barcode, Teks, Gambar, Metadata dari dokumen {{FileFormatUp}} yang telah ditandatangani dapat dilakukan dengan menggunakan {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Hapus tanda tangan dari {{FileFormatUp}} dengan efisien",
+    "description": "Selain hanya menandatangani dokumen bisnis, solusi kami menawarkan alat komprehensif untuk menemukan dan menghapus berbagai jenis tanda tangan menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh tanpa biaya"
+  },
+  "about": {
+    "title": "Ikhtisar {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat penandatanganan yang kuat yang memfasilitasi penambahan berbagai jenis tanda tangan, mulai dari teks dan gambar hingga barcode, sertifikat digital, dan cap. Mendukung lebih dari 60 format file—termasuk PDF, MS Office, gambar, ZIP, dan format bisnis lainnya—solusi ini memastikan fleksibilitas dalam manajemen dokumen. Selain itu, tanda tangan yang diterapkan dapat dengan mudah ditemukan, diautentikasi, dimodifikasi, atau dihapus sesuai kebutuhan."
+  },
+  "more_features": {
+    "title": "Optimalkan manajemen dokumen dengan alat tanda tangan canggih",
+    "description": "{{ProdFullName}} dirancang dengan cermat untuk meningkatkan tanda tangan dan pemrosesan format file bisnis, memungkinkan penambahan, modifikasi, verifikasi, atau penghapusan tanda tangan secara efisien.",
+    "image_description": "Jelajahi Fitur Versatile dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Penandatanganan dokumen",
+      "content": "Dengan mudah menyematkan teks, gambar, tanda tangan barcode, QR code, atau cap pada halaman dokumen yang didukung. Selain itu, gunakan metadata tersembunyi seperti EXIF dalam gambar atau lindungi integritas dokumen dengan sertifikat digital, mencegah perubahan yang tidak sah."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi tanda tangan",
+      "content": "Manfaatkan alat kami untuk memastikan keaslian tanda tangan dalam dokumen Anda. Lakukan pencarian menyeluruh untuk mendapatkan daftar lengkap semua tanda tangan, memastikan manajemen dokumen yang komprehensif."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan",
+      "content": "Dengan mudah perbaiki tanda tangan yang telah ditambahkan sebelumnya dengan menyesuaikan teks, memindahkan posisi, atau mengubah warna sesuai kebutuhan Anda."
+    },
+    "feature_4": {
+      "title": "Penghapusan tanda tangan",
+      "content": "Solusi kami memberikan kemampuan lengkap untuk CRUD tanda tangan, memungkinkan Anda menghapus berbagai jenis tanda tangan dari dokumen Anda saat diperlukan."
+    }
+  },
+  "formats": {
+    "title": "Hapus tanda tangan dari berbagai format file",
+    "description": "{{ProdFullName}} dirancang untuk memfasilitasi penghapusan tanda tangan dari berbagai lebih dari 60 format file, memastikan kompatibilitas dan fungsionalitas yang luas."
+  },
+  "operations": {
+    "title": "Lihat fitur unggulan kami",
+    "description": "Kami dengan senang hati menawarkan berbagai pilihan jenis tanda tangan yang didukung dan operasi"
+  },
+  "examples": {
+    "comment_1": "Kirim dokumen yang berisi tanda tangan ke instance {{TextSignature}}",
+    "comment_2": "Ambil tanda tangan digital yang ada dalam dokumen",
+    "comment_3": "Hapus tanda tangan digital pertama yang diidentifikasi",
+    "comment_4": "Proses hasil penghapusan"
+  },
+  "steps": {
+    "title": "Cara menghapus tanda tangan elektronik dari {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyederhanakan tugas bagi pengembang {{EnvName}} untuk menghapus tanda tangan elektronik dalam file {{FileFormatUp}} dengan menerapkan beberapa langkah yang jelas.",
+      "step_1": "Berikan jalur file {{FileFormatUp}} kepada instance kelas {{TextSignature}}.",
+      "step_2": "Panggil metode Pencarian untuk mengambil semua tanda tangan dalam dokumen.",
+      "step_3": "Hapus satu atau lebih tanda tangan yang telah diambil.",
+      "step_4": "Periksa hasil pemrosesan dokumen."
+    }
+  },
+  "code_1": {
+    "title": "Hapus semua tanda tangan barcode",
+    "content": "Pelajari cara menghapus semua tanda tangan barcode yang tertanam dalam dokumen.",
+    "comment_1": "Sediakan dokumen yang berisi tanda tangan barcode",
+    "comment_2": "Hapus semua tanda tangan barcode",
+    "comment_3": "Evaluasi hasil dari proses penghapusan"
+  }
+}

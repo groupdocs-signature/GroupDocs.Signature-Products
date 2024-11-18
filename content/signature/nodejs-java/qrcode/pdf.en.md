@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:29
+date:  2024-11-18T11:52:02
 draft: false
 lang: en
 format: Pdf
@@ -19,7 +19,7 @@ head_title: "Generate QR codes in PDF docs with JavaScript"
 head_description: "Utilize the GroupDocs.Signature API to create and integrate 2D barcodes within PDF files. Effortlessly place QR codes on any document page."
 
 ############################# Header ############################
-title: "Add QR codes to PDF" 
+title: "Make QR codes for PDF" 
 description: "Create and embed 2D barcodes with customizable content, including text and numeric data, across various document types like PDFs, Word, Excel, and Images with GroupDocs.Signature for Node.js via Java."
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -236,13 +236,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/pdf/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/pdf/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

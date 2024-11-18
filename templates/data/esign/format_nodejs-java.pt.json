@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Assine {{FileFormatUp}} com assinaturas eletrônicas em {{ProgLang}}",
+    "description": "Aproveite as capacidades da API {{ProgLang}} para assinar digitalmente e proteger arquivos {{FileFormatUp}}, incluindo PDFs, documentos Word, planilhas Excel, apresentações e formatos de imagem."
+  },
+  "header": {
+    "title": "Assine arquivos {{FileFormatUp}} eletronicamente",
+    "description": "Utilize {{ProdFullName}} para inserir diversas assinaturas digitais em seus documentos, garantindo a integridade dos dados e conformidade para arquivos como PDFs, Word, Excel, apresentações e formatos de imagem.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe agora gratuitamente"
+  },
+  "about": {
+    "title": "Visão geral da API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece um conjunto robusto de ferramentas para adicionar assinaturas eletrônicas. Com sua API intuitiva, você pode assinar, buscar, verificar, modificar e excluir assinaturas de vários tipos de arquivos sem a necessidade de softwares externos. Ele suporta a assinatura fluida de PDFs, documentos Word, planilhas Excel, slides do PowerPoint e diversos formatos de imagem."
+  },
+  "more_features": {
+    "title": "Capacidades avançadas de assinatura digital",
+    "description": "Nossa API avançada agiliza operações comerciais ao facilitar a assinatura, verificação, modificação e gerenciamento automatizados de assinaturas eletrônicas para uma variedade de documentos.",
+    "image_description": "Recursos de assinatura digital",
+    "feature_1": {
+      "title": "Assinatura digital para arquivos de escritório",
+      "content": "Adicione assinaturas digitais a qualquer página ou posição dentro de um documento. Personalize suas assinaturas com opções como certificados digitais, metadados, códigos de barras ou elementos visuais para aumentar a segurança e a integridade do documento."
+    },
+    "feature_2": {
+      "title": "Controle abrangente de assinaturas",
+      "content": "Após um documento ser assinado, você pode gerenciar suas assinaturas com facilidade. Recupere uma lista completa de todas as assinaturas, permitindo atualizações ou remoções conforme necessário."
+    },
+    "feature_3": {
+      "title": "Fortaleça a segurança do documento",
+      "content": "Use certificados digitais para proteger seus documentos contra alterações. Você pode incorporar ou extrair metadados para aprimorar a rastreabilidade e a auditoria, garantindo conformidade e autenticidade do documento."
+    }
+  },
+  "formats": {
+    "title": "Assine digitalmente vários tipos de arquivo",
+    "description": "A API {{EnvName}} permite aplicar assinaturas digitais a mais de 60 formatos de arquivo, oferecendo a você ampla flexibilidade na proteção de seus documentos críticos para os negócios."
+  },
+  "operations": {
+    "title": "Veja nossas capacidades extensivas",
+    "description": "Oferecemos uma ampla gama de tipos de assinatura e operações ricas em recursos"
+  },
+  "examples": {
+    "comment_1": "Importe o documento para uma instância {{TextSignature}}",
+    "comment_2": "Instancie um objeto {{QrCodeSignOptions}}",
+    "comment_3": "Especifique todas as opções necessárias",
+    "comment_4": "Salve o documento assinado no disco local"
+  },
+  "steps": {
+    "title": "Passos para assinar {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita o processo de adição de assinaturas personalizadas a arquivos {{FileFormatUp}}. Desenvolvedores {{EnvName}} podem incorporar de forma fluida a funcionalidade de assinatura em suas aplicações.",
+      "step_1": "Carregue o documento {{FileFormatUp}} na instância {{TextSignature}}.",
+      "step_2": "Configure {{SignOptions}} para definir os atributos da assinatura.",
+      "step_3": "Ajuste propriedades como tamanho, cor e conteúdo conforme necessário.",
+      "step_4": "Salve o documento assinado na localização especificada."
+    }
+  },
+  "code_1": {
+    "title": "Como aplicar uma assinatura de imagem a um documento",
+    "content": "Este guia detalha o processo para anexar uma assinatura de imagem a uma página designada dentro de um documento.",
+    "comment_1": "Forneça o documento de origem como um parâmetro de entrada",
+    "comment_2": "Especifique o caminho do arquivo de imagem nas opções de configuração da assinatura",
+    "comment_3": "Configure as dimensões e especifique as páginas-alvo para a assinatura",
+    "comment_4": "Implemente a aplicação da assinatura no documento"
+  }
+}

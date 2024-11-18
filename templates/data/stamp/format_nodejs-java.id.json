@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Buat dan tambahkan cap ke {{FileFormatUp}} melalui {{ProgLang}}",
+    "description": "Manfaatkan kekuatan {{ProdShortName}} dan {{ProgLang}} untuk menghasilkan dan menempatkan cap kustom di setiap halaman dalam dokumen {{FileFormatUp}} Anda."
+  },
+  "header": {
+    "title": "Sisipkan cap kustom ke dalam file {{FileFormatUp}}",
+    "description": "Gunakan {{ProdFullName}} untuk membuat cap yang disesuaikan dan menyisipkannya di lokasi mana pun dalam dokumen Anda. Platform kami menyediakan berbagai opsi untuk mempersonalisasi cap sesuai kebutuhan bisnis spesifik Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Uji coba gratis"
+  },
+  "about": {
+    "title": "Apa itu {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyediakan solusi yang kuat dan serbaguna untuk penandatanganan dokumen. Ini memungkinkan pengguna untuk menambahkan cap dan jenis tanda tangan lain di lebih dari 60 format yang berbeda, seperti PDF, Word, Excel, file gambar, dan file ZIP. Platform ini memungkinkan Anda untuk menyisipkan teks, gambar, barcode, kode QR, metadata, sertifikat digital, dan tanda tangan cap. Selain menandatangani, Anda dapat mencari, memverifikasi, memodifikasi, atau menghapus tanda tangan yang ada dalam dokumen Anda."
+  },
+  "more_features": {
+    "title": "Perkuat keamanan dokumen dengan tanda tangan",
+    "description": "Dengan {{ProdFullName}}, Anda dapat menambahkan, mengedit, memvalidasi, atau menghapus cap dan jenis tanda tangan lain dalam semua format dokumen yang populer. API ini menyederhanakan proses pengelolaan tanda tangan untuk meningkatkan integritas dan kustomisasi dokumen.",
+    "image_description": "Fitur {{ProdShortName}}",
+    "feature_1": {
+      "title": "Penandatanganan dokumen kustom",
+      "content": "Terapkan tanda tangan seperti teks, gambar, barcode, kode QR, dan cap ke bagian manapun dari dokumen Anda. Alat ini juga memungkinkan penyertaan metadata tersembunyi dan sertifikat digital untuk melindungi konten Anda dari modifikasi yang tidak sah."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi tanda tangan",
+      "content": "Setelah dokumen ditandatangani, gunakan sistem verifikasi kami untuk memastikan integritas tanda tangan. Selain itu, platform kami memungkinkan Anda untuk mencari dan mengambil informasi terperinci tentang semua tanda tangan yang diterapkan pada dokumen."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan sesuai kebutuhan",
+      "content": "Sesuaikan dan perbarui tanda tangan yang telah diterapkan sebelumnya dengan mudah. Baik itu mengubah konten, warna, ukuran, atau posisi tanda tangan, {{ProdFullName}} menawarkan opsi kustomisasi penuh."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan yang tidak diinginkan",
+      "content": "Hapus dengan mudah tanda tangan yang tidak perlu dari dokumen Anda. API kami mendukung penghapusan berbagai jenis tanda tangan, termasuk cap dan sertifikat digital, memberikan Anda fleksibilitas penuh untuk mengelola dokumen Anda."
+    }
+  },
+  "formats": {
+    "title": "Terapkan tanda tangan cap di berbagai jenis file",
+    "description": "API {{ProdShortName}} mendukung tanda tangan cap di lebih dari 60 format file, memungkinkan pengguna untuk menempatkan cap kustom di setiap halaman atau area, meningkatkan aksesibilitas dan keamanan dokumen."
+  },
+  "operations": {
+    "title": "Jelajahi fitur kunci",
+    "description": "Solusi kami menawarkan berbagai alat untuk membuat, mengelola, dan menghapus berbagai jenis tanda tangan, memberikan pengguna kontrol penuh atas alur kerja dokumen mereka."
+  },
+  "examples": {
+    "comment_1": "Hubungkan jalur dokumen dengan instance {{TextSignature}}",
+    "comment_2": "Buat {{StampSignOptions}} dengan konten tanda tangan yang diperlukan",
+    "comment_3": "Sisipkan satu atau lebih garis cap",
+    "comment_4": "Simpan dokumen dengan cap yang diterapkan"
+  },
+  "steps": {
+    "title": "Panduan untuk menyematkan cap di {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyediakan alat yang kuat untuk membuat dan menyematkan cap, yang dapat secara signifikan meningkatkan aplikasi {{EnvName}}. Gunakan fitur ini untuk merancang dan menerapkan cap kustom ke halaman dokumen Anda.",
+      "step_1": "Masukkan dokumen {{FileFormatUp}} yang memerlukan cap.",
+      "step_2": "Terapkan {{StampSignOptions}} untuk mendefinisikan semua parameter penting.",
+      "step_3": "Sisipkan sebanyak mungkin garis cap sesuai kebutuhan.",
+      "step_4": "Terapkan cap dan simpan dokumen yang telah selesai."
+    }
+  },
+  "code_1": {
+    "title": "Integrasikan cap kustom ke dalam dokumen",
+    "content": "Pelajari cara merancang dan menerapkan cap yang disesuaikan yang berisi teks penting ke dokumen Anda.",
+    "comment_1": "Berikan dokumen untuk dicap",
+    "comment_2": "Atur opsi cap dengan konfigurasi yang diinginkan",
+    "comment_3": "Tentukan dimensi dan posisi cap di halaman",
+    "comment_4": "Sertakan garis luar melingkar dengan teks kustom",
+    "comment_5": "Tambahkan garis dalam persegi sesuai kebutuhan",
+    "comment_6": "Simpan dokumen yang telah dicap"
+  }
+}

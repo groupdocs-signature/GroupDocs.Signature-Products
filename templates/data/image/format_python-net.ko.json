@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 이미지 서명 삽입하기",
+    "description": "{{EnvNameShort}}를 위한 {{FileFormatUp}} 문서에 이미지 서명을 간단한 코드 몇 줄로 쉽게 삽입하세요. {{ProdFullName}} API를 활용하여 이미지 기반 서명을 매끄럽게 추가하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에 이미지 서명 추가하기",
+    "description": "{{ProdFullName}}을 사용하여 PDF, Word, Excel 및 이미지 파일을 포함한 다양한 오피스 문서 형식에 이미지 서명을 손쉽게 통합하세요. 관리자의 서명 이미지를 추가하면 전문성이 향상되어 시각적인 효과와 문서의 신뢰성을 높일 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료로 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 탐색하기",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 비즈니스 문서 어디에나 이미지 서명을 삽입할 수 있는 다양한 옵션을 제공합니다. 강력한 라이브러리를 사용하여 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션 및 인기 있는 이미지 형식에 이미지를 추가하여 작업 흐름을 간소화하세요."
+  },
+  "more_features": {
+    "title": "포괄적인 문서 서명 기능",
+    "description": "우리 API는 다양한 서명 기능을 지원합니다. 이미지 기반 서명을 포함하여 다양한 유형의 서명을 쉽게 추가, 업데이트, 제거, 검색 및 검증할 수 있습니다.",
+    "image_description": "이미지 서명 통합",
+    "feature_1": {
+      "title": "오피스 문서에 이미지 삽입",
+      "content": "문서 내의 원하는 위치에 전자 서명과 이미지를 삽입하세요. 기능성과 보안을 향상시키기 위해 이미지, 바코드, 텍스트, 메타데이터 또는 디지털 인증서를 사용하여 문서를 풍부하게 만드세요."
+    },
+    "feature_2": {
+      "title": "서명 검색 및 검증",
+      "content": "서명의 신뢰성을 확인하여 문서의 무결성을 보장하세요. 문서 내의 모든 서명의 자세한 목록을 검색하고 각 서명의 속성을 평가하세요."
+    },
+    "feature_3": {
+      "title": "기존 서명 수정",
+      "content": "변경되는 요구 사항에 맞게 문서 내의 서명의 내용, 모양, 크기 또는 위치를 간편하게 업데이트하세요."
+    },
+    "feature_4": {
+      "title": "불필요한 서명 제거",
+      "content": "우리 API는 완전한 제어를 제공하여 지원되는 대부분의 파일 형식에서 필요할 때 서명을 제거할 수 있습니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에 이미지 삽입하기",
+    "description": "{{EnvName}} API를 사용하여 여러 문서 형식에 이미지를 삽입하세요. 이미지 기반 서명을 적용하여 크기 조정, 위치 설정, 특정 페이지 선택을 간편하게 하여 문서 레이아웃에 대한 완전한 제어를 제공합니다."
+  },
+  "operations": {
+    "title": "우리의 기능 탐색하기",
+    "description": "우리 플랫폼이 제공하는 다양한 서명 유형과 작업을 발견하세요."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}}를 문서 경로로 초기화",
+    "comment_2": "선택한 이미지를 사용하여 {{ImageSignOptions}} 설정",
+    "comment_3": "각 페이지의 왼쪽 상단 모서리에 이미지를 배치",
+    "comment_4": "서명된 문서 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 이미지 서명 삽입하기",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하여 {{EnvName}} 애플리케이션이 {{FileFormatUp}} 문서의 어디에나 이미지 서명을 정확하게 추가할 수 있는 기능을 부여하세요. 우리의 솔루션을 통합하여 제품을 향상시키세요.",
+      "step_1": "{{FileFormatUp}} 문서로 {{TextSignature}} 인스턴스 생성.",
+      "step_2": "서명을 위해 원하는 이미지로 {{ImageSignOptions}} 구성.",
+      "step_3": "문서에서 원하는 위치에 이미지를 정밀하게 배치.",
+      "step_4": "지정된 위치에 서명된 문서 저장."
+    }
+  },
+  "code_1": {
+    "title": "이미지 서명으로 문서 개선하기",
+    "content": "비즈니스 문서에 이미지 서명을 포함하여 내용을 풍부하게 만드는 방법을 배우세요.",
+    "comment_1": "서명할 문서 선택",
+    "comment_2": "이미지 파일 경로로 이미지 옵션 설정",
+    "comment_3": "이미지 서명의 크기 지정",
+    "comment_4": "페이지의 오른쪽 하단 모서리에 이미지 배치",
+    "comment_5": "필요에 따라 페이지 가장자리에서 패딩 적용",
+    "comment_6": "원하는 경우 이미지 주위에 테두리 추가",
+    "comment_7": "적절한 정렬을 위해 이미지 회전",
+    "comment_8": "업데이트된 문서 저장"
+  }
+}

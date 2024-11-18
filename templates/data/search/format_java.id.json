@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Cari tanda tangan digital di {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Manfaatkan API {{ProdFullName}} untuk mencari tanda tangan dalam berkas {{FileFormatUp}}. Temukan tanda tangan dalam PDF, Word, Excel, Presentasi, dan Gambar."
+  },
+  "header": {
+    "title": "Cari tanda tangan digital di {{FileFormatUp}}",
+    "description": "Ambil daftar lengkap e-signature yang tertanam dalam berkas PDF, Word, Excel, Presentasi, atau Gambar menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan fitur kuat untuk menandatangani dokumen. Ini mendukung penambahan teks, gambar, kode batang, sertifikat digital, dan cap ke dalam berkas lebih dari 60 format, termasuk PDF, dokumen MS Office, Gambar, berkas ZIP, dan format bisnis umum lainnya. Selain itu, Anda dapat mencari, memverifikasi, memodifikasi, atau menghapus tanda tangan kapan saja."
+  },
+  "more_features": {
+    "title": "Solusi tanda tangan dokumen yang komprehensif",
+    "description": "Kami bangga memperkenalkan solusi tanda tangan dokumen kami, yang kompatibel dengan semua format dokumen utama. Tambahkan berbagai tanda tangan untuk meningkatkan dokumen Anda atau mengamankan kontennya.",
+    "image_description": "Pencarian tanda tangan",
+    "feature_1": {
+      "title": "Tandatangani dokumen bisnis",
+      "content": "Sisipkan tanda tangan digital di mana saja pada halaman dokumen. Gunakan berbagai jenis tanda tangan, seperti teks, gambar, kode batang, metadata, cap, atau sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Kelola tanda tangan",
+      "content": "Setelah ditandatangani, dokumen mungkin memerlukan pemrosesan lebih lanjut. Cari semua tanda tangan yang tersedia, dan perbarui atau hapus sesuai kebutuhan."
+    },
+    "feature_3": {
+      "title": "Lindungi konten dokumen",
+      "content": "Kelola metadata yang tersembunyi yang tertanam dalam dokumen. Tambahkan metadata baru atau hapus entri yang ada. Gunakan sertifikat digital perusahaan untuk melindungi konten dokumen dari perubahan yang tidak sah."
+    }
+  },
+  "formats": {
+    "title": "Cari tanda tangan dalam berbagai format berkas",
+    "description": "API {{ProdFullName}} memungkinkan Anda mengambil daftar tanda tangan dari setiap berkas yang ditandatangani. Ekstrak tanda tangan dari format berkas populer untuk pemrosesan lebih lanjut."
+  },
+  "operations": {
+    "title": "Operasi yang Didukung",
+    "description": "Produk kami menawarkan API fleksibel untuk menandatangani dokumen dan mengelola tanda tangan setelah penandatanganan."
+  },
+  "examples": {
+    "comment_1": "Buat instansi {{TextSignature}} dengan jalur dokumen",
+    "comment_2": "Instantiate {{TextSearchOptions}} untuk mencakup semua halaman",
+    "comment_3": "Cari tanda tangan teks dalam dokumen",
+    "comment_4": "Daftar tanda tangan yang ditemukan untuk analisis lebih lanjut"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk mencari tanda tangan {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyediakan mesin yang kuat untuk mencari tanda tangan digital dalam berkas {{FileFormatUp}}. Pengembang {{EnvName}} dapat memperkaya aplikasi mereka dengan solusi kami.",
+      "step_1": "Berikan jalur berkas {{FileFormatUp}} untuk pencarian tanda tangan.",
+      "step_2": "Gunakan {{SearchOptions}} untuk menyaring hasil pencarian.",
+      "step_3": "Eksekusi metode Search untuk memperoleh hasil.",
+      "step_4": "Analisis daftar tanda tangan yang ditemukan."
+    }
+  },
+  "code_1": {
+    "title": "Cari tanda tangan gambar",
+    "content": "Contoh ini menunjukkan cara menemukan tanda tangan gambar dalam dokumen tertentu.",
+    "comment_1": "Lepaskan dokumen sumber sebagai parameter konstruktor",
+    "comment_2": "Cari tanda tangan dengan jenis teks",
+    "comment_3": "Tampilkan hasil beserta properti dari tanda tangan yang ditemukan"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Thêm chữ ký điện tử số vào tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Đặt chữ ký số trên tệp {{FileFormatUp}} bằng {{ProgLang}} chỉ với vài dòng mã. Sử dụng {{ProdFullName}} để ký nhiều định dạng tệp khác nhau."
+  },
+  "header": {
+    "title": "Ký {{FileFormatUp}} bằng chữ ký số",
+    "description": "Bảo vệ tính toàn vẹn của tài liệu kinh doanh của bạn bằng cách niêm phong chúng bằng chứng chỉ số thông qua các tính năng mạnh mẽ của {{ProdFullName}}. Chúng tôi cung cấp các giải pháp linh hoạt để đánh dấu và bảo mật tài liệu của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp ký kết tinh vi hỗ trợ một loạt các nhiệm vụ xử lý tài liệu. Nó cho phép bạn nhúng văn bản, hình ảnh, chứng chỉ số và con dấu vào tệp ở hơn 60 định dạng, bao gồm PDF, MS Office, hình ảnh, tệp ZIP và các định dạng kinh doanh thiết yếu khác. Hơn nữa, các tài liệu đã ký có thể được tìm kiếm, xác minh, sửa đổi hoặc xóa dễ dàng khi cần thiết."
+  },
+  "more_features": {
+    "title": "Nâng cao hoặc bảo vệ nội dung tài liệu bằng chữ ký",
+    "description": "Thư viện {{ProdFullName}} được thiết kế để ký tất cả các định dạng tệp phổ biến. Tinh giản quy trình kinh doanh của bạn bằng cách thêm, sửa đổi, xác minh hoặc xóa nhiều loại chữ ký một cách dễ dàng.",
+    "image_description": "Các tính năng nổi bật của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Nhúng chữ ký vào tài liệu",
+      "content": "Nhúng chữ ký văn bản, hình ảnh, mã vạch, QR-Code hoặc con dấu một cách chính xác trên bất kỳ trang nào của tài liệu được hỗ trợ. Bạn cũng có thể thêm hoặc chỉnh sửa siêu dữ liệu ẩn, như EXIF, trong hình ảnh và hầu hết các loại tệp. Đảm bảo tính toàn vẹn của nội dung tài liệu của bạn với chữ ký số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Xử lý sau khi ký mang lại rất nhiều khả năng. Xác minh rằng các tài liệu đã ký của bạn đã được xử lý đúng cách. Để kiểm soát tốt hơn, hãy lấy danh sách toàn diện của tất cả chữ ký thông qua chức năng tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký",
+      "content": "Hầu hết các loại chữ ký đều có thể chỉnh sửa hoàn toàn. Bạn có thể linh hoạt điều chỉnh văn bản, thay đổi vị trí các phần tử, thay đổi màu sắc, thay đổi kích thước và nhiều hơn nữa."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký không cần thiết",
+      "content": "Giải pháp của chúng tôi cung cấp các thao tác CRUD hoàn chỉnh cho các chữ ký. Nếu cần thiết, bạn có thể xóa nhiều loại chữ ký, bao gồm cả chứng chỉ số, khỏi tài liệu của bạn."
+    }
+  },
+  "formats": {
+    "title": "Ký tài liệu trong nhiều định dạng",
+    "description": "API {{EnvName}} giúp bạn xử lý hơn 60 định dạng khác nhau. Bạn có thể dễ dàng tạo và nhúng nhiều chữ ký trên bất kỳ trang nào, áp dụng chứng chỉ số để bảo mật nội dung và quản lý hiệu quả các chữ ký hiện có trong tài liệu."
+  },
+  "operations": {
+    "title": "Xem các tính năng nổi bật của chúng tôi",
+    "description": "Chúng tôi cung cấp đa dạng các định dạng chữ ký và các thao tác mạnh mẽ"
+  },
+  "examples": {
+    "comment_1": "Sử dụng {{TextSignature}} để ký số tài liệu",
+    "comment_2": "Cung cấp chứng chỉ số và mật khẩu liên quan",
+    "comment_3": "Cấu hình đại diện hình ảnh nếu cần thiết",
+    "comment_4": "Bảo mật tài liệu bằng chứng chỉ số"
+  },
+  "steps": {
+    "title": "Cách bảo mật {{FileFormatUp}} bằng chứng chỉ số trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp các nhà phát triển {{EnvName}} bảo vệ tài liệu {{FileFormatUp}} khỏi các thay đổi bằng cách sử dụng chữ ký số. Tăng cường khả năng bảo vệ dữ liệu cho ứng dụng kinh doanh của bạn.",
+      "step_1": "Chuyển tài liệu {{FileFormatUp}} đến hàm khởi tạo lớp {{TextSignature}}.",
+      "step_2": "Sử dụng một chứng chỉ số và mật khẩu của nó để bảo vệ tài liệu.",
+      "step_3": "Tùy chọn, thêm một đại diện hình ảnh của chữ ký số trên các trang tài liệu.",
+      "step_4": "Ký tài liệu để đảm bảo nó không bị thay đổi."
+    }
+  },
+  "code_1": {
+    "title": "Bảo mật tài liệu bằng chữ ký số",
+    "content": "Khám phá cách ngăn chặn sự thay đổi tài liệu bằng cách sử dụng chữ ký số.",
+    "comment_1": "Cung cấp tài liệu cần ký",
+    "comment_2": "Sử dụng một chứng chỉ số hợp lệ với mật khẩu tương ứng",
+    "comment_3": "Chỉ định bất kỳ thông tin văn bản bổ sung nào",
+    "comment_4": "Nhúng một hình ảnh và các tùy chọn khác để đại diện hình ảnh",
+    "comment_5": "Lưu tài liệu đã được bảo mật tại một vị trí đã chỉ định"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "在{{FileFormatUp}}文件中使用{{ProgLang}}插入图像签名",
+    "description": "仅需几行代码即可在{{EnvNameShort}}中将图像签名嵌入{{FileFormatUp}}文档。利用{{ProdFullName}} API 无缝添加基于图像的签名。"
+  },
+  "header": {
+    "title": "在{{FileFormatUp}}中添加图像签名",
+    "description": "使用{{ProdFullName}}将图像签名轻松整合到各种办公文档格式中，包括PDF、Word、Excel和图像文件。添加您经理的签名图像可以提升专业形象，增强视觉冲击力和文档的真实性。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "探索{{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供多种选项用于在商业文档中嵌入图像签名。借助我们强大的库，将图像添加到PDF、Word文档、Excel表格、PowerPoint演示文稿和流行的图像格式中，简化工作流程。"
+  },
+  "more_features": {
+    "title": "全面的文档签名功能",
+    "description": "我们的API支持广泛的签名功能。您可以轻松添加、更新、删除、搜索和验证不同类型的签名，包括基于图像的签名。",
+    "image_description": "图像签名集成",
+    "feature_1": {
+      "title": "将图像插入办公文档",
+      "content": "可以在文档中的任何位置嵌入电子签名和图像。通过添加图像、条形码、文本、元数据或数字证书来提升文档的功能性和安全性。"
+    },
+    "feature_2": {
+      "title": "签名搜索和验证",
+      "content": "通过验证签名的真实性来确保文档的完整性。检索文档中所有签名的详细列表，并评估其各自的属性。"
+    },
+    "feature_3": {
+      "title": "编辑现有签名",
+      "content": "轻松更新文档中签名的内容、外观、大小或位置，以满足不断变化的需求。"
+    },
+    "feature_4": {
+      "title": "删除不必要的签名",
+      "content": "我们的API提供全面控制，使您能够在需要时从大多数支持的文件格式中删除签名。"
+    }
+  },
+  "formats": {
+    "title": "在多种文件格式中嵌入图像",
+    "description": "使用{{EnvName}} API将图像插入多种文档格式。轻松调整大小、定位、选择特定页面并应用基于图像的签名，让您全面掌控文档的布局。"
+  },
+  "operations": {
+    "title": "探索我们的功能",
+    "description": "发现我们平台提供的不同签名类型和操作。"
+  },
+  "examples": {
+    "comment_1": "用文档路径初始化{{TextSignature}}",
+    "comment_2": "使用选定的签名图像设置{{ImageSignOptions}}",
+    "comment_3": "在每页的左上角定位图像",
+    "comment_4": "保存已签名的文档"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}在{{FileFormatUp}}文件中插入图像签名",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})为{{EnvName}}应用程序提供准确在{{FileFormatUp}}文档中随处添加图像签名的功能。通过集成我们的解决方案来提升您的产品。",
+      "step_1": "创建一个带有{{FileFormatUp}}文档的{{TextSignature}}实例。",
+      "step_2": "使用所需的签名图像配置{{ImageSignOptions}}。",
+      "step_3": "准确将图像定位于文档中的所选位置。",
+      "step_4": "将签名文档保存到指定位置。"
+    }
+  },
+  "code_1": {
+    "title": "使用图像签名增强文档",
+    "content": "了解如何在您的商业文档中嵌入图像签名以丰富内容。",
+    "comment_1": "选择要签名的文档",
+    "comment_2": "使用图像文件路径设置图像选项",
+    "comment_3": "指定图像签名的大小",
+    "comment_4": "将图像定位于页面的右下角",
+    "comment_5": "根据需要设置页面边缘的填充",
+    "comment_6": "可选地，在图像周围添加边框",
+    "comment_7": "旋转图像以确保正确对齐",
+    "comment_8": "保存已更新的文档"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Suche nach digitalen Signaturen in {{FileFormatUp}} mit {{ProgLang}}",
+    "description": "Nutzen Sie die {{ProdFullName}} API, um Signaturen in {{FileFormatUp}}-Dateien zu suchen. Finden Sie Signaturen in PDFs, Word-, Excel-, Präsentationsdateien und Bildern."
+  },
+  "header": {
+    "title": "Suche nach digitalen Signaturen in {{FileFormatUp}}",
+    "description": "Erhalten Sie eine vollständige Liste von elektronischen Signaturen, die in PDF-, Word-, Excel-, Präsentations- oder Bilddateien eingebettet sind, mithilfe von {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet leistungsstarke Funktionen für das Signieren von Dokumenten. Es unterstützt das Hinzufügen von Texten, Bildern, Barcodes, digitalen Zertifikaten und Stempeln zu Dateien in über 60 Formaten, einschließlich PDFs, MS Office-Dokumenten, Bildern, ZIP-Dateien und anderen gängigen Geschäftsformaten. Darüber hinaus können Sie Signaturen jederzeit suchen, verifizieren, ändern oder löschen."
+  },
+  "more_features": {
+    "title": "Umfassende Lösung für Dokumentensignaturen",
+    "description": "Wir freuen uns, unsere Lösung für Dokumentensignaturen vorzustellen, die mit allen gängigen Dokumentenformaten kompatibel ist. Fügen Sie eine Vielzahl von Signaturen hinzu, um Ihre Dokumente zu verbessern oder deren Inhalt abzusichern.",
+    "image_description": "Suche nach Signaturen",
+    "feature_1": {
+      "title": "Geschäftsdokumente signieren",
+      "content": "Fügen Sie digitale Signaturen an beliebiger Stelle auf jeder Seite eines Dokuments ein. Verwenden Sie verschiedene Signaturtypen wie Text, Bilder, Barcodes, Metadaten, Stempel oder digitale Zertifikate."
+    },
+    "feature_2": {
+      "title": "Signaturen verwalten",
+      "content": "Nach dem Signieren müssen Dokumente möglicherweise weiter verarbeitet werden. Suchen Sie nach allen verfügbaren Signaturen und aktualisieren oder löschen Sie sie nach Bedarf."
+    },
+    "feature_3": {
+      "title": "Inhalt des Dokuments schützen",
+      "content": "Verwalten Sie versteckte Metadaten, die im Dokument eingebettet sind. Fügen Sie neue Metadaten hinzu oder entfernen Sie vorhandene Einträge. Verwenden Sie Unternehmenszertifikate, um den Inhalt des Dokuments vor unbefugten Änderungen zu schützen."
+    }
+  },
+  "formats": {
+    "title": "Signaturen in verschiedenen Dateiformaten suchen",
+    "description": "Mit der {{ProdFullName}} API können Sie die Liste der Signaturen aus jeder signierten Datei abrufen. Extrahieren Sie Signaturen aus gängigen Dateiformaten zur weiteren Verarbeitung."
+  },
+  "operations": {
+    "title": "Unterstützte Operationen",
+    "description": "Unser Produkt bietet eine flexible API zum Signieren von Dokumenten und zum Verwalten von Signaturen nach dem Signieren."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie eine Instanz von {{TextSignature}} mit dem Dokumentenpfad",
+    "comment_2": "Instanziieren Sie {{TextSearchOptions}} für alle Seiten",
+    "comment_3": "Suchen Sie nach Textsignaturen im Dokument",
+    "comment_4": "Listen Sie die gefundenen Signaturen zur weiteren Analyse auf"
+  },
+  "steps": {
+    "title": "Schritte zur Suche nach {{FileFormatUp}}-Signaturen mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) bietet eine leistungsstarke Engine zur Suche nach digitalen Signaturen in {{FileFormatUp}}-Dateien. {{EnvName}}-Entwickler können ihre Anwendungen mit unserer Lösung erweitern.",
+      "step_1": "Geben Sie den {{FileFormatUp}}-Dateipfad für die Signatursuche an.",
+      "step_2": "Verwenden Sie {{SearchOptions}}, um die Suchergebnisse zu verfeinern.",
+      "step_3": "Führen Sie die Methode Search aus, um die Ergebnisse zu erhalten.",
+      "step_4": "Analysieren Sie die Liste der gefundenen Signaturen."
+    }
+  },
+  "code_1": {
+    "title": "Suche nach Bildsignaturen",
+    "content": "Dieses Beispiel zeigt, wie man eine Bildsignatur in einem bestimmten Dokument findet.",
+    "comment_1": "Übergeben Sie das Quelldokument als Konstruktorparameter",
+    "comment_2": "Suchen Sie nach Signaturen vom Typ Text",
+    "comment_3": "Zeigen Sie die Ergebnisse mit den Eigenschaften der gefundenen Signaturen an"
+  }
+}

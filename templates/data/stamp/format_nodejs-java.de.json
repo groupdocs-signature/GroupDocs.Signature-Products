@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Stempel in {{FileFormatUp}} über {{ProgLang}} generieren und hinzufügen",
+    "description": "Nutzen Sie die Leistungsfähigkeit von {{ProdShortName}} und {{ProgLang}}, um benutzerdefinierte Stempel auf jeder Seite Ihrer {{FileFormatUp}}-Dokumente zu erstellen und zu platzieren."
+  },
+  "header": {
+    "title": "Angepasste Stempel in {{FileFormatUp}}-Dateien einfügen",
+    "description": "Verwenden Sie {{ProdFullName}}, um maßgeschneiderte Stempel zu erstellen und sie an beliebiger Stelle in Ihren Dokumenten einzufügen. Unsere Plattform bietet umfassende Möglichkeiten zur Anpassung von Stempeln entsprechend Ihren spezifischen Geschäftsanforderungen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion"
+  },
+  "about": {
+    "title": "Was ist {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet eine leistungsstarke und vielseitige Lösung für die Dokumentenunterzeichnung. Es ermöglicht Benutzern das Hinzufügen von Stempeln und anderen Unterschriftsarten in über 60 verschiedenen Formaten, wie PDFs, Word, Excel, Bilddateien und ZIP-Dateien. Die Plattform bietet die Möglichkeit, Texte, Bilder, Barcodes, QR-Codes, Metadaten, digitale Zertifikate und Stempelunterschriften einzufügen. Neben der Unterzeichnung können Sie nach Unterschriften suchen, sie überprüfen, ändern oder löschen, die in Ihren Dokumenten vorhanden sind."
+  },
+  "more_features": {
+    "title": "Dokumentsicherheit durch Unterschriften stärken",
+    "description": "Mit {{ProdFullName}} können Sie Stempel und andere Unterschriftsarten in allen gängigen Dokumentenformaten hinzufügen, bearbeiten, validieren oder entfernen. Die API vereinfacht den Prozess der Verwaltung von Unterschriften für verbesserte Dokumentenintegrität und Anpassung.",
+    "image_description": "Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Benutzerdefinierte Dokumentenunterzeichnung",
+      "content": "Fügen Sie Unterschriften wie Text, Bilder, Barcodes, QR-Codes und Stempel an beliebigen Stellen Ihres Dokuments hinzu. Dieses Tool ermöglicht außerdem die Einbeziehung von versteckten Metadaten und digitalen Zertifikaten, um Ihre Inhalte vor unbefugten Änderungen weiter zu schützen."
+    },
+    "feature_2": {
+      "title": "Unterschriftensuche und -verifikation",
+      "content": "Nachdem ein Dokument unterzeichnet wurde, verwenden Sie unser Verifizierungssystem, um die Integrität der Unterschriften sicherzustellen. Darüber hinaus ermöglicht unsere Plattform die Suche nach und das Abrufen von detaillierten Informationen zu allen auf ein Dokument angewendeten Unterschriften."
+    },
+    "feature_3": {
+      "title": "Unterschriften nach Bedarf ändern",
+      "content": "Passen Sie bereits angewandte Unterschriften an und aktualisieren Sie sie nach Bedarf. Ob es darum geht, den Inhalt, die Farbe, die Größe oder die Position der Unterschrift zu ändern, {{ProdFullName}} bietet vollständige Anpassungsmöglichkeiten."
+    },
+    "feature_4": {
+      "title": "Unerwünschte Unterschriften entfernen",
+      "content": "Löschen Sie mühelos alle unnötigen Unterschriften aus Ihren Dokumenten. Unsere API unterstützt das Löschen einer Vielzahl von Unterschriftstypen, einschließlich Stempel und digitale Zertifikate, und bietet Ihnen vollständige Flexibilität im Umgang mit Ihren Dokumenten."
+    }
+  },
+  "formats": {
+    "title": "Stempelunterschriften über mehrere Dateitypen anwenden",
+    "description": "Die {{ProdShortName}}-API unterstützt Stempelunterschriften in über 60 Dateiformaten, sodass Benutzer benutzerdefinierte Stempel auf jeder Seite oder in jedem Bereich platzieren können, um die Dokumentenzugänglichkeit und -sicherheit zu verbessern."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Hauptfunktionen",
+    "description": "Unsere Lösung bietet eine Vielzahl von Werkzeugen zum Erstellen, Verwalten und Entfernen verschiedener Arten von Unterschriften, die den Benutzern die vollständige Kontrolle über ihre Dokumentenabläufe ermöglichen."
+  },
+  "examples": {
+    "comment_1": "Verknüpfen Sie den Dokumentenpfad mit der {{TextSignature}}-Instanz",
+    "comment_2": "Erstellen Sie {{StampSignOptions}} mit dem erforderlichen Unterschrifteninhalt",
+    "comment_3": "Fügen Sie eine oder mehrere Stempellinien hinzu",
+    "comment_4": "Speichern Sie das Dokument mit dem angewendeten Stempel"
+  },
+  "steps": {
+    "title": "Anleitung zum Einfügen von Stempeln in {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) bietet ein leistungsstarkes Werkzeug zum Erstellen und Einfügen von Stempeln, das {{EnvName}}-Anwendungen erheblich verbessern kann. Nutzen Sie diese Funktion, um benutzerdefinierte Stempel auf Ihren Dokumentseiten zu gestalten und anzuwenden.",
+      "step_1": "Geben Sie das {{FileFormatUp}}-Dokument an, das gestempelt werden soll.",
+      "step_2": "Setzen Sie {{StampSignOptions}} ein, um alle erforderlichen Parameter zu definieren.",
+      "step_3": "Fügen Sie so viele Stempellinien hinzu, wie nötig.",
+      "step_4": "Wenden Sie den Stempel an und speichern Sie das endgültige Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Benutzerdefinierte Stempel in Dokumente integrieren",
+    "content": "Erfahren Sie, wie Sie benutzerdefinierte Stempel mit wichtigen Textinhalten für Ihre Dokumente gestalten und anwenden.",
+    "comment_1": "Stellen Sie das Dokument für das Stempeln bereit",
+    "comment_2": "Richten Sie die Stempeloptionen mit den gewünschten Konfigurationen ein",
+    "comment_3": "Geben Sie die Abmessungen und die Position des Stempels auf der Seite an",
+    "comment_4": "Fügen Sie äußere kreisförmige Linien mit benutzerdefiniertem Text hinzu",
+    "comment_5": "Fügen Sie innere quadratische Linien nach Bedarf hinzu",
+    "comment_6": "Speichern Sie das gestempelte Dokument"
+  }
+}

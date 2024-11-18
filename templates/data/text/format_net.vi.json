@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Tạo chữ ký văn bản cho {{FileFormatUp}} bằng ứng dụng {{ProgLang}}",
+    "description": "Khám phá sức mạnh của API {{ProgLang}} để nhúng chữ ký văn bản vào các tệp {{FileFormatUp}}, hỗ trợ nhiều định dạng khác nhau bao gồm PDF, Word, Excel, Bài thuyết trình, Hình ảnh và ZIP."
+  },
+  "header": {
+    "title": "Nhúng chữ ký văn bản một cách liền mạch trong {{FileFormatUp}}",
+    "description": "Tích hợp chữ ký văn bản tùy chỉnh vào tài liệu doanh nghiệp của bạn với {{ProdFullName}}. Tối ưu hóa quy trình tổ chức với các khả năng tùy chỉnh chữ ký linh hoạt.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí hôm nay"
+  },
+  "about": {
+    "title": "Khám phá giải pháp {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một nền tảng tinh vi để nhúng chữ ký văn bản có thể tùy chỉnh cao, giúp đơn giản hóa quy trình làm việc của tài liệu. Tùy chỉnh nội dung và thuộc tính hình ảnh của chữ ký văn bản, áp dụng một cách liền mạch trên các trang để nâng cao quản lý tài liệu và cải thiện hiệu suất hoạt động."
+  },
+  "more_features": {
+    "title": "Quản lý chữ ký văn bản toàn diện",
+    "description": "{{ProdFullName}} tăng cường quy trình làm việc của tổ chức bạn bằng cách bổ sung các chữ ký văn bản có thể tùy chỉnh trên các định dạng tệp phổ biến. Quản lý dễ dàng diện mạo, vị trí và nội dung của các chữ ký này để đáp ứng nhu cầu cụ thể của bạn.",
+    "image_description": "Khám phá các tính năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Chữ ký tài liệu đa dạng",
+      "content": "Áp dụng nhiều loại chữ ký—bao gồm văn bản, hình ảnh, mã vạch, mã QR và con dấu—trên bất kỳ trang nào của các tài liệu được hỗ trợ. Tận dụng siêu dữ liệu để nhúng nội dung ẩn, trong khi bảo vệ thông tin nhạy cảm thông qua việc sử dụng chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác thực chữ ký",
+      "content": "Đảm bảo tính hợp lệ và toàn vẹn của các tài liệu đã ký bằng cách sử dụng các công cụ xác minh chữ ký mạnh mẽ của chúng tôi. Tiến hành tìm kiếm để lấy danh sách toàn diện tất cả các chữ ký trong một tài liệu để phân tích thêm."
+    },
+    "feature_3": {
+      "title": "Cập nhật hoặc xóa chữ ký",
+      "content": "Dễ dàng chỉnh sửa nội dung, thuộc tính hình ảnh hoặc vị trí của các chữ ký đã nhúng trước đó. Khi cần thiết, xóa các chữ ký không mong muốn để duy trì nội dung tài liệu chính xác và phù hợp."
+    },
+    "feature_4": {
+      "title": "Chữ ký văn bản chuyên biệt",
+      "content": "Thực hiện các chữ ký văn bản cụ thể cho tài liệu, chẳng hạn như dấu bản quyền cho tài liệu Word hoặc nhãn cho PDFs, để cung cấp thêm lớp tùy biến và kiểm soát."
+    }
+  },
+  "formats": {
+    "title": "Nhúng chữ ký văn bản trên nhiều định dạng tệp",
+    "description": "Với API {{EnvName}} của chúng tôi, bạn có thể nhúng chữ ký văn bản vào nhiều tài liệu Office khác nhau. Kiểm soát toàn bộ vòng đời của tài liệu bằng cách thêm chữ ký văn bản nâng cao cả chức năng và an ninh."
+  },
+  "operations": {
+    "title": "Các tính năng nâng cao và tùy chọn chữ ký",
+    "description": "API của chúng tôi hỗ trợ quản lý vòng đời đầy đủ cho bảy loại chữ ký, cung cấp khả năng CRUD toàn diện để quản lý, xác minh và tùy chỉnh chữ ký của bạn."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{TextSignature}} với đường dẫn tài liệu",
+    "comment_2": "Tạo một thể hiện của {{TextSignOptions}} với nội dung chữ ký mong muốn",
+    "comment_3": "Cấu hình màu sắc và thuộc tính phông chữ cho văn bản",
+    "comment_4": "Tích hợp ký hiệu văn bản vào tài liệu"
+  },
+  "steps": {
+    "title": "Cách tạo và thêm chữ ký văn bản vào {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) hỗ trợ việc tích hợp chữ ký văn bản vào các tệp {{FileFormatUp}} trong các ứng dụng {{EnvName}}. Nâng cao khả năng sản phẩm của bạn một cách nhanh chóng với các giải pháp toàn diện của chúng tôi.",
+      "step_1": "Truyền tài liệu {{FileFormatUp}} làm tham số cho constructor của lớp {{TextSignature}}.",
+      "step_2": "Tạo {{TextSignOptions}} với nội dung chữ ký cần thiết.",
+      "step_3": "Định nghĩa thuộc tính hình ảnh cho chữ ký.",
+      "step_4": "Nhúng chữ ký văn bản lên bất kỳ trang cụ thể nào của tài liệu."
+    }
+  },
+  "code_1": {
+    "title": "Nhúng chữ ký văn bản vào tài liệu",
+    "content": "Khám phá cách kết hợp chữ ký văn bản vào tài liệu doanh nghiệp để tối ưu hóa quy trình.",
+    "comment_1": "Chọn tài liệu cần ký",
+    "comment_2": "Hình thành tùy chọn văn bản với nội dung đã chỉ định",
+    "comment_3": "Định nghĩa kích thước và vị trí của chữ ký trên trang",
+    "comment_4": "Thực hiện padding từ các cạnh của trang cho chữ ký",
+    "comment_5": "Tùy chỉnh màu sắc văn bản và kiểu chữ",
+    "comment_6": "Thêm một đường viền quanh chữ ký văn bản",
+    "comment_7": "Áp dụng tùy chỉnh nền nếu cần thiết",
+    "comment_8": "Lưu chữ ký văn bản dưới dạng hình ảnh để đảm bảo tính tương thích",
+    "comment_9": "Lưu tài liệu với chữ ký văn bản đã tích hợp"
+  }
+}

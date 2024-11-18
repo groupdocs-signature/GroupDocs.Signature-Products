@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Định dạng tài liệu di động Adobe"
+      },
+      "docx": {
+        "description": "Tài liệu Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "Bảng tính Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "Bài thuyết trình PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "Hình ảnh JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "Ký điện tử PDF",
+        "docx": "Ký điện tử DOCX",
+        "xlsx": "Ký điện tử XLSX",
+        "pptx": "Ký điện tử PPTX",
+        "jpeg": "Ký điện tử JPEG"
+      },
+      "text": {
+        "pdf": "Chữ ký văn bản PDF",
+        "docx": "Chữ ký văn bản DOCX",
+        "xlsx": "Chữ ký văn bản XLSX",
+        "pptx": "Chữ ký văn bản PPTX",
+        "jpeg": "Chữ ký văn bản JPEG"
+      },
+      "image": {
+        "pdf": "Ký PDF bằng hình ảnh",
+        "docx": "Ký DOCX bằng hình ảnh",
+        "xlsx": "Ký XLSX bằng hình ảnh",
+        "pptx": "Ký PPTX bằng hình ảnh",
+        "jpeg": "Ký JPEG bằng hình ảnh"
+      },
+      "barcode": {
+        "pdf": "Thêm mã vạch vào PDF",
+        "docx": "Thêm mã vạch vào DOCX",
+        "xlsx": "Thêm mã vạch vào XLSX",
+        "pptx": "Thêm mã vạch vào PPTX",
+        "jpeg": "Thêm mã vạch vào JPEG"
+      },
+      "qrcode": {
+        "pdf": "Mã QR cho PDF",
+        "docx": "Mã QR cho DOCX",
+        "xlsx": "Mã QR cho XLSX",
+        "pptx": "Mã QR cho PPTX",
+        "jpeg": "Mã QR cho JPEG"
+      },
+      "digital": {
+        "pdf": "Bảo vệ PDF",
+        "docx": "Bảo vệ DOCX",
+        "xlsx": "Bảo vệ XLSX",
+        "pptx": "Bảo vệ PPTX"
+      },
+      "stamp": {
+        "pdf": "Đóng dấu PDF",
+        "docx": "Đóng dấu DOCX",
+        "xlsx": "Đóng dấu XLSX",
+        "pptx": "Đóng dấu PPTX",
+        "jpeg": "Đóng dấu JPEG"
+      },
+      "search": {
+        "pdf": "Tìm chữ ký trong PDF",
+        "docx": "Tìm chữ ký trong DOCX",
+        "xlsx": "Tìm chữ ký trong XLSX",
+        "pptx": "Tìm chữ ký trong PPTX",
+        "jpeg": "Tìm chữ ký trong JPEG"
+      },
+      "verify": {
+        "pdf": "Xác minh chữ ký PDF",
+        "docx": "Xác minh chữ ký DOCX",
+        "xlsx": "Xác thực chữ ký XLSX",
+        "pptx": "Xác minh chữ ký PPTX",
+        "jpeg": "Xác thực chữ ký JPEG"
+      },
+      "modify": {
+        "pdf": "Chỉnh sửa chữ ký PDF",
+        "docx": "Chỉnh sửa chữ ký DOCX",
+        "xlsx": "Chỉnh sửa chữ ký XLSX",
+        "pptx": "Chỉnh sửa chữ ký PPTX",
+        "jpeg": "Chỉnh sửa chữ ký JPEG"
+      },
+      "delete": {
+        "pdf": "Xóa chữ ký PDF",
+        "docx": "Xóa chữ ký DOCX",
+        "xlsx": "Xóa chữ ký XLSX",
+        "pptx": "Xóa chữ ký PPTX",
+        "jpeg": "Xóa chữ ký JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "result_title": "Chữ ký mẫu",
+      "result_title_bottom": "Tải xuống kết quả",
+      "copy_tip": "nhấp để sao chép",
+      "copy_done": "đã sao chép",
+      "links": {
+        "title_1": "Thêm ví dụ",
+        "title_2": "Tài liệu hướng dẫn"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng bắt đầu? ",
+      "description": "Dùng thử các tính năng của {{ProdShortName}} miễn phí hoặc yêu cầu giấy phép",
+      "comment_1": "Tải xuống {{PackageStoreName}}",
+      "comment_2": "Giấy phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    },
+    "operations": {
+      "esign": {
+        "name": "Chữ ký điện tử",
+        "description": "Thêm các loại chữ ký khác nhau vào các định dạng tệp được hỗ trợ"
+      },
+      "text": {
+        "name": "Thêm văn bản vào tài liệu",
+        "description": "Nâng cao nội dung tài liệu với các chữ ký văn bản tùy chỉnh"
+      },
+      "image": {
+        "name": "Chữ ký hình ảnh",
+        "description": "Đặt bất kỳ hình ảnh nào ở bất kỳ vị trí nào trong tài liệu"
+      },
+      "barcode": {
+        "name": "Tạo mã vạch",
+        "description": "Tạo và chèn các mã vạch khác nhau vào các tài liệu được hỗ trợ"
+      },
+      "qrcode": {
+        "name": "Tạo mã QR",
+        "description": "Tạo mã QR, bao gồm mã QR, để ký tài liệu"
+      },
+      "digital": {
+        "name": "Chứng chỉ số",
+        "description": "Bảo mật doanh nghiệp và ký các tài liệu bằng chứng chỉ số"
+      },
+      "stamp": {
+        "name": "Chữ ký đóng dấu",
+        "description": "Sử dụng Trình tạo đóng dấu để tạo các dấu tròn hoặc vuông tùy chỉnh"
+      },
+      "search": {
+        "name": "Tìm kiếm chữ ký",
+        "description": "Tìm bất kỳ chữ ký nào đã được thêm trước đó trong tài liệu"
+      },
+      "verify": {
+        "name": "Xác minh chữ ký",
+        "description": "Xác minh tính xác thực của chữ ký sau khi đã được áp dụng"
+      },
+      "modify": {
+        "name": "Chỉnh sửa chữ ký",
+        "description": "Chỉnh sửa dễ dàng nhiều loại chữ ký trong một tài liệu"
+      },
+      "delete": {
+        "name": "Xóa chữ ký",
+        "description": "Xóa một loạt các chữ ký đã được áp dụng trước đó"
+      }
+    }
+  }
+}

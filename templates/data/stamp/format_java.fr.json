@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Ajouter des cachets à {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Exploitez {{ProdShortName}} et {{ProgLang}} pour créer des cachets personnalisés et les placer sur n'importe quelle page de documents {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Ajouter des cachets personnalisés à {{FileFormatUp}}",
+    "description": "Créez et appliquez des cachets ronds ou carrés à n'importe quelle section de vos documents en utilisant {{ProdFullName}}. Notre solution propose de nombreuses options de personnalisation pour répondre à tous vos besoins professionnels.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil robuste qui vous permet d'ajouter diverses signatures de cachets à des documents. Il prend en charge plus de 60 formats de fichiers différents, y compris les PDF, Word, Excel, images et fichiers ZIP. Vous pouvez appliquer des signatures par texte, image, code-barres, métadonnées, certificat numérique et cachets. En plus d’ajouter des signatures, vous pouvez les rechercher, les vérifier, les modifier et les supprimer."
+  },
+  "more_features": {
+    "title": "Protégez le contenu de votre document avec des signatures",
+    "description": "La bibliothèque {{ProdFullName}} est conçue pour signer et gérer des signatures dans des formats de fichiers populaires. Ajoutez, modifiez, vérifiez ou supprimez facilement des cachets et d'autres types de signatures.",
+    "image_description": "Signatures de cachets avec {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signez vos documents",
+      "content": "Appliquez des signatures personnalisables à n'importe quelle partie de votre document. Choisissez parmi différentes types de signatures, y compris texte, images, codes-barres, QR codes et cachets. De plus, des métadonnées cachées peuvent être ajoutées ou modifiées pour améliorer la sécurité du document."
+    },
+    "feature_2": {
+      "title": "Recherchez et validez les signatures",
+      "content": "Une fois qu'un document est signé, utilisez nos outils de vérification pour vous assurer que le contenu de la signature est valide. Recherchez et récupérez une liste de toutes les signatures pour un traitement ultérieur."
+    },
+    "feature_3": {
+      "title": "Mettez à jour les signatures si nécessaire",
+      "content": "Modifiez facilement un large éventail de signatures appliquées à un document. Mettez à jour des propriétés telles que la taille, la couleur, la position, le contenu, et plus encore."
+    },
+    "feature_4": {
+      "title": "Supprimez les signatures",
+      "content": "Vous devez supprimer des signatures d'un document ? Notre API prend totalement en charge la suppression des signatures, ce qui facilite la gestion de vos documents."
+    }
+  },
+  "formats": {
+    "title": "Ajoutez des cachets dans plusieurs formats de fichiers",
+    "description": "L'API {{ProdShortName}} prend en charge l'ajout de cachets à des documents dans plus de 60 formats. Placez des cachets sur n'importe quelle page ou zone pour améliorer la gestion et la personnalisation des documents."
+  },
+  "operations": {
+    "title": "Découvrez nos fonctionnalités principales",
+    "description": "Utilisez un large éventail d'options pour ajouter, gérer et supprimer des signatures."
+  },
+  "examples": {
+    "comment_1": "Utilisez le chemin du document avec l'objet {{TextSignature}}",
+    "comment_2": "Instanciez {{StampSignOptions}} avec le texte de signature souhaité",
+    "comment_3": "Ajoutez une ou plusieurs lignes de cachets",
+    "comment_4": "Enregistrez le document tamponné"
+  },
+  "steps": {
+    "title": "Étapes pour ajouter des cachets à {{FileFormatUp}} via {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) fournit un constructeur de cachets qui peut être très bénéfique pour les applications {{EnvName}}. Utilisez-le pour créer des cachets bien personnalisés pour vos pages de documents.",
+      "step_1": "Fournissez le document {{FileFormatUp}} à tamponner.",
+      "step_2": "Utilisez {{StampSignOptions}} pour configurer tous les paramètres nécessaires.",
+      "step_3": "Ajoutez autant de lignes que nécessaire.",
+      "step_4": "Appliquez le cachet et enregistrez le document."
+    }
+  },
+  "code_1": {
+    "title": "Ajouter des cachets personnalisés aux documents en utilisant des signatures spéciales",
+    "content": "Apprenez à générer et à ajouter des cachets personnalisés avec des informations textuelles importantes à vos documents.",
+    "comment_1": "Fournissez le document à tamponner",
+    "comment_2": "Instanciez l'objet options de cachet",
+    "comment_3": "Définissez la taille et la position sur la page",
+    "comment_4": "Ajoutez une ou plusieurs lignes rondes extérieures avec du texte",
+    "comment_5": "Ajoutez une ou plusieurs lignes carrées intérieures",
+    "comment_6": "Enregistrez le document tamponné"
+  }
+}

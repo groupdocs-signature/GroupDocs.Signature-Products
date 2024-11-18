@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中搜索数字签名",
+    "description": "利用 {{ProdFullName}} API 在 {{FileFormatUp}} 文件中搜索签名。在 PDF、Word、Excel、演示文稿和图像中查找签名。"
+  },
+  "header": {
+    "title": "在 {{FileFormatUp}} 中搜索数字签名",
+    "description": "使用 {{ProdFullName}} 检索嵌入在 PDF、Word、Excel、演示文稿或图像文件中的电子签名完整列表。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供强大的文件签名功能。它支持向60多种格式的文件添加文本、图像、条形码、数字证书和印章，包括 PDF、MS Office 文档、图像、ZIP 文件和其他常见业务格式。此外，您可以随时搜索、验证、修改或删除签名。"
+  },
+  "more_features": {
+    "title": "全面的文档签名解决方案",
+    "description": "我们自豪地推出与所有主要文档格式兼容的签名解决方案。添加多种签名增强您的文档或保护其内容。",
+    "image_description": "签名搜索",
+    "feature_1": {
+      "title": "签署业务文档",
+      "content": "在文档的任意页中任意位置插入数字签名。使用多种签名类型，如文本、图像、条形码、元数据、印章或数字证书。"
+    },
+    "feature_2": {
+      "title": "管理签名",
+      "content": "签署后，文档可能需要进一步处理。搜索所有可用签名，并在必要时更新或删除它们。"
+    },
+    "feature_3": {
+      "title": "保护文档内容",
+      "content": "管理嵌入文档的隐藏元数据。添加新元数据或删除现有条目。使用企业数字证书保护文档内容不被未经授权的更改。"
+    }
+  },
+  "formats": {
+    "title": "在各种文件格式中搜索签名",
+    "description": "{{ProdFullName}} API 使您能够从任何已签署的文件中检索签名列表。提取流行文件格式中的签名以进行进一步处理。"
+  },
+  "operations": {
+    "title": "支持的操作",
+    "description": "我们的产品提供灵活的 API，用于签署文档和在签署后管理签名。"
+  },
+  "examples": {
+    "comment_1": "使用文档路径创建 {{TextSignature}} 实例",
+    "comment_2": "实例化 {{TextSearchOptions}} 以覆盖所有页面",
+    "comment_3": "搜索文档中的文本签名",
+    "comment_4": "列出找到的签名以进行进一步分析"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 搜索 {{FileFormatUp}} 签名的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 提供强大的引擎来搜索 {{FileFormatUp}} 文件中的任何数字签名。{{EnvName}} 开发人员可以有效地增强他们的应用程序。",
+      "step_1": "提供 {{FileFormatUp}} 文件路径以进行签名搜索。",
+      "step_2": "使用 {{SearchOptions}} 来细化搜索结果。",
+      "step_3": "执行搜索方法以获取结果。",
+      "step_4": "分析找到的签名列表。"
+    }
+  },
+  "code_1": {
+    "title": "搜索图像签名",
+    "content": "此示例演示如何在特定文档中找到图像签名。",
+    "comment_1": "将源文档作为构造函数参数传入",
+    "comment_2": "搜索任何文本类型的签名",
+    "comment_3": "显示找到的签名的属性结果"
+  }
+}

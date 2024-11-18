@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:29
+date:  2024-11-18T11:52:05
 draft: false
 lang: en
 format: Pptx
@@ -15,8 +15,8 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Generate barcode for PPTX using Java Applications"
-head_description: "Generate a barcode signature and add it to a PPTX document using Java with just a few lines of code. Utilize GroupDocs.Signature for signing a wide range of file formats."
+head_title: "Easily add barcodes to PPTX files with Java"
+head_description: "Create and insert barcode signatures into PPTX documents in Java with ease. GroupDocs.Signature enables versatile signature integration for multiple formats."
 
 ############################# Header ############################
 title: "Generate barcode for PPTX" 
@@ -130,7 +130,7 @@ more_features:
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to customize a barcode signature"
+    - title: "How to create a barcode signature"
       content: |
         This example demonstrates how to place a customized barcode on PPTX document pages.
       code:
@@ -261,13 +261,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Modifikasi tanda tangan {{FileFormatUp}} dalam solusi {{ProgLang}}",
+    "description": "API {{ProgLang}} menawarkan fungsionalitas canggih untuk memodifikasi tanda tangan yang tersemat dalam dokumen {{FileFormatUp}}, seperti PDF, file Word, lembar Excel, presentasi, dan gambar."
+  },
+  "header": {
+    "title": "Perbarui tanda tangan {{FileFormatUp}} dengan mulus",
+    "description": "Buka kemampuan untuk mengedit berbagai tanda tangan elektronik di format bisnis populer seperti PDF, Word, Excel, presentasi, dan gambar dengan kekuatan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh sekarang gratis"
+  },
+  "about": {
+    "title": "Temukan kekuatan {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) tidak hanya menawarkan kemampuan tanda tangan dokumen yang komprehensif tetapi juga memungkinkan modifikasi tanda tangan yang ada dengan lancar. Sesuaikan properti tanda tangan untuk format yang umum digunakan seperti PDF, Word, Excel, dan presentasi PowerPoint dengan sedikit usaha."
+  },
+  "more_features": {
+    "title": "Manajemen tanda tangan yang komprehensif untuk dokumen",
+    "description": "Dengan {{ProdFullName}}, Anda dapat dengan efisien menambahkan, memperbarui, mencari, memverifikasi, atau menghapus tanda tangan di semua format dokumen utama, menyederhanakan alur kerja dokumen Anda.",
+    "image_description": "Modifikasi tanda tangan yang canggih",
+    "feature_1": {
+      "title": "Tanda tangan dokumen yang serbaguna",
+      "content": "Solusi kami unggul dalam menerapkan berbagai tanda tangan, termasuk teks, gambar, kode batang, dan stempel, ke mana saja dalam dokumen. Anda juga dapat menyematkan dan memodifikasi metadata tersembunyi seperti EXIF dalam gambar, sambil melindungi dokumen dari perubahan yang tidak sah menggunakan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan validasi tanda tangan yang efisien",
+      "content": "Manfaatkan alat yang kuat untuk memverifikasi akurasi dan keabsahan tanda tangan. Akses daftar lengkap tanda tangan yang tersemat dalam suatu dokumen, menyederhanakan proses verifikasi."
+    },
+    "feature_3": {
+      "title": "Pembaruan tanda tangan yang terintegrasi",
+      "content": "Modifikasi tanda tangan yang sebelumnya ditambahkan dengan mudah. Sesuaikan konten, gaya, penempatan, dan atribut spesifik tanda tangan lainnya untuk memenuhi kebutuhan dokumen yang berkembang."
+    },
+    "feature_4": {
+      "title": "Penghapusan tanda tangan yang sederhana",
+      "content": "Kendali penuh atas manajemen tanda tangan diberikan, memungkinkan Anda untuk menghapus jenis tanda tangan apa pun dari dokumen, memastikan fleksibilitas dalam penanganan konten."
+    }
+  },
+  "formats": {
+    "title": "Modifikasi tanda tangan di berbagai tipe file",
+    "description": "Dokumen yang ditandatangani dengan API {{EnvName}} kami dapat dimodifikasi dengan mudah. Ekstrak dan perbarui detail tanda tangan dari format yang didukung, memastikan kendali penuh atas integritas dokumen."
+  },
+  "operations": {
+    "title": "Jelajahi rangkaian fitur kami yang luas",
+    "description": "Temukan berbagai format tanda tangan dan operasi yang didukung oleh platform kami"
+  },
+  "examples": {
+    "comment_1": "Instankan objek {{TextSignature}} dengan jalur file dokumen",
+    "comment_2": "Lakukan pencarian untuk tanda tangan teks dalam dokumen",
+    "comment_3": "Perbarui konten teks dari tanda tangan pertama yang ditemukan",
+    "comment_4": "Validasi hasil modifikasi teks"
+  },
+  "steps": {
+    "title": "Langkah untuk mengedit tanda tangan teks dalam {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memberdayakan pengembang {{EnvName}} untuk merevisi konten tanda tangan teks yang sebelumnya tersemat dalam file {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} dengan kemampuan canggih.",
+      "step_1": "Impor file {{FileFormatUp}} ke dalam instance {{TextSignature}}.",
+      "step_2": "Ekstrak daftar semua tanda tangan yang ada dalam dokumen.",
+      "step_3": "Revisi konten dari tanda tangan yang teridentifikasi.",
+      "step_4": "Evaluasi hasil modifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Modifikasi tanda tangan kode batang",
+    "content": "Contoh ini menggambarkan bagaimana memodifikasi tanda tangan kode batang secara programatis dalam sebuah dokumen.",
+    "comment_1": "Muat dokumen yang berisi tanda tangan kode batang",
+    "comment_2": "Cari semua tanda tangan kode batang yang ada",
+    "comment_3": "Modifikasi posisi kode batang pertama yang terdeteksi dan simpan dokumen",
+    "comment_4": "Verifikasi keberhasilan modifikasi kode batang"
+  }
+}

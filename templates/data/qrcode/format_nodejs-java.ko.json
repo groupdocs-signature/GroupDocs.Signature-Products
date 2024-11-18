@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 문서에서 {{ProgLang}}로 QR 코드 생성하기",
+    "description": "{{ProdShortName}} API를 활용하여 {{FileFormatUp}} 파일 내에 2D 바코드를 생성하고 통합하세요. 모든 문서 페이지에 QR 코드를 간편하게 배치할 수 있습니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}용 QR 코드 만들기",
+    "description": "{{ProdFullName}}을 사용하여 PDF, Word, Excel, 이미지 등 다양한 문서 형식에 텍스트 및 숫자 데이터를 포함한 사용자 지정 콘텐츠로 2D 바코드를 생성하고 삽입하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험하기"
+  },
+  "about": {
+    "title": "{{ProdFullName}}의 기능 탐색",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 인기 파일 형식에 QR 코드를 포함한 다양한 서명 유형을 생성하고 삽입할 수 있는 고급 문서 개선 도구를 제공합니다. 텍스트, 이미지, 바코드, QR 코드, 메타데이터, 디지털 및 스탬프 서명을 통해 PDF, Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션 및 이미지를 서명하고 보호하세요."
+  },
+  "more_features": {
+    "title": "종합적인 서명 및 QR 코드 통합",
+    "description": "{{ProdFullName}} API를 통해 모든 종류의 서명을 관리할 수 있습니다. 다양한 문서 형식에 걸쳐 서명을 효율적으로 생성, 사용자 지정, 검증, 검색 및 제거할 수 있어 귀하의 작업 흐름에 특별한 유연성을 제공합니다.",
+    "image_description": "서명 및 QR 코드 기능",
+    "feature_1": {
+      "title": "다양한 형식 문서 서명",
+      "content": "지원되는 모든 문서 형식에 텍스트, 이미지, 바코드, QR 코드 및 스탬프 서명을 포함한 여러 유형의 서명을 추가하세요. 문서의 모든 페이지에 서명을 배치하고 문서 메타데이터를 관리합니다. 디지털 인증서를 통해 문서 보안을 보장하여 무단 변경을 방지합니다."
+    },
+    "feature_2": {
+      "title": "효율적인 서명 검증",
+      "content": "서명이 표준을 준수하는지 확인하기 위해 문서 내 모든 서명을 검증합니다. 내장된 검색 기능을 통해 서명을 쉽게 검색하고 검토할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "유연한 서명 편집",
+      "content": "기존 서명을 업데이트하거나 수정하여 내용, 위치, 크기 및 색상 등을 문서의 요구에 맞게 조정할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "서명 제거 간편화",
+      "content": "불필요하거나 오래된 서명(디지털 인증서 포함)을 간편하게 제거하세요. 서명을 관리하는 모든 권한을 통해 깔끔하고 정돈된 문서를 보장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식과 QR 코드 통합",
+    "description": "{{EnvName}} API를 활용하여 QR 코드를 생성하고 다양한 널리 사용되는 파일 형식에 삽입하세요. 이 바코드에 중요한 데이터를 캡슐화하여 원활한 통합 및 미래의 탐색을 가능하게 합니다."
+  },
+  "operations": {
+    "title": "우리의 주요 기능 이해하기",
+    "description": "귀하의 요구에 맞게 조정된 폭넓은 서명 형식과 작업을 제공합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} 인스턴스를 생성하고 문서 경로를 전달합니다.",
+    "comment_2": "{{QrCodeSignOptions}}를 활용하여 QR 코드를 문서에 삽입합니다.",
+    "comment_3": "서명 유형과 페이지에서의 위치를 정의합니다.",
+    "comment_4": "새로 추가된 QR 코드가 포함된 문서를 저장합니다."
+  },
+  "steps": {
+    "title": "{{FileFormatUp}} 내의 어느 위치에나 QR 코드를 생성하고 삽입하는 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 다양한 널리 사용되는 형식에서 QR 코드를 생성하고 이를 {{FileFormatUp}} 페이지에 통합할 수 있도록 지원합니다. 10가지 이상의 QR 코드 유형을 지원하는 당사의 솔루션은 {{EnvName}} 응용 프로그램에 문제없이 통합되어 QR 코드 서명 기능을 색칠합니다.",
+      "step_1": "QR 코드 서명을 위한 {{FileFormatUp}} 파일 또는 스트림을 제공합니다.",
+      "step_2": "원하는 텍스트를 {{QrCodeSignOptions}} 인스턴스에 입력합니다.",
+      "step_3": "색상, 위치, 크기 등의 시각적 설정을 조정합니다.",
+      "step_4": "QR 코드가 포함된 문서를 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "생성된 QR 코드 사용자 지정",
+    "content": "이 예제는 {{FileFormatUp}} 페이지에 사용자 지정 QR 코드를 추가하는 과정을 자세히 설명합니다.",
+    "comment_1": "서명할 문서를 가져와 {{TextSignature}}에 전달합니다.",
+    "comment_2": "필요한 텍스트로 QR 코드 옵션을 설정합니다.",
+    "comment_3": "페이지에서 QR 코드의 위치를 결정합니다.",
+    "comment_4": "서명 여백을 지정합니다.",
+    "comment_5": "QR 코드 색상을 선택합니다.",
+    "comment_6": "동반 메시지에 대한 글꼴 옵션을 정의합니다.",
+    "comment_7": "QR 코드의 배경 색상 및 브러쉬를 사용자 지정합니다.",
+    "comment_8": "문서에 QR 코드를 삽입합니다."
+  }
+}

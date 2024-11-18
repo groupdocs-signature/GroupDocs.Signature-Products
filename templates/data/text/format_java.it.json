@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Crea firme testuali {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Sfrutta l'API {{ProgLang}} per inserire firme testuali in file {{FileFormatUp}}. Tratta senza sforzo formati di documenti popolari, inclusi PDF, Word, Excel, Presentazioni, Immagini e ZIP."
+  },
+  "header": {
+    "title": "Crea firme testuali per {{FileFormatUp}}",
+    "description": "Aggiungi firme testuali personalizzate ai tuoi documenti aziendali utilizzando {{ProdFullName}}. Ottimizza i flussi di lavoro aziendali con opzioni di personalizzazione delle firme.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Inizia gratis"
+  },
+  "about": {
+    "title": "Informazioni sulla soluzione {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre firme testuali flessibili e personalizzabili per semplificare le tue attività di gestione documentale. Configura il contenuto e il design delle firme testuali e applicale a qualsiasi pagina, migliorando il flusso di lavoro documentale della tua organizzazione senza problemi."
+  },
+  "more_features": {
+    "title": "Gestisci le firme testuali dei documenti",
+    "description": "Con {{ProdFullName}}, puoi semplificare il flusso di lavoro documentale della tua azienda aggiungendo firme testuali ai formati di file popolari. Configura facilmente l'aspetto e il contenuto delle firme.",
+    "image_description": "Caratteristiche principali di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firme documentali",
+      "content": "Applica firme testuali, immagini, codici a barre, codici QR o timbri a qualsiasi pagina di documenti supportati. Sfrutta i metadati per incorporare contenuti nascosti e proteggere i tuoi documenti con certificati digitali."
+    },
+    "feature_2": {
+      "title": "Ricerca e verifica delle firme",
+      "content": "Assicura l'integrità dei tuoi documenti firmati con il nostro strumento di verifica delle firme. Puoi anche recuperare e cercare tutte le firme incorporate all'interno di un documento."
+    },
+    "feature_3": {
+      "title": "Modifica o rimuovi firme",
+      "content": "Modifica il contenuto, la posizione e l'aspetto delle firme precedentemente aggiunte, o rimuovile completamente dal documento."
+    },
+    "feature_4": {
+      "title": "Firme testuali native",
+      "content": "Aggiungi firme testuali specifiche per il documento, come adesivi nei PDF o filigrane nei documenti Word, per una personalizzazione avanzata."
+    }
+  },
+  "formats": {
+    "title": "Aggiungi firme testuali a vari formati di file",
+    "description": "Utilizza l'API {{EnvName}} per inserire firme testuali nei documenti di Office, garantendo il completo controllo sul contenuto in ogni fase del ciclo di vita del documento."
+  },
+  "operations": {
+    "title": "Caratteristiche chiave e opzioni di firma",
+    "description": "La nostra soluzione supporta operazioni CRUD complete e altro ancora per sette diversi tipi di firme."
+  },
+  "examples": {
+    "comment_1": "Passa il percorso del documento al costruttore di {{TextSignature}}",
+    "comment_2": "Instanzia {{TextSignOptions}} con il testo della firma",
+    "comment_3": "Imposta il colore del testo e gli attributi del font",
+    "comment_4": "Aggiungi la firma testuale al documento"
+  },
+  "steps": {
+    "title": "Passaggi per aggiungere firme testuali a {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) può essere integrato nelle applicazioni {{EnvName}} per aggiungere firme testuali ai documenti {{FileFormatUp}}. Gli sviluppatori possono migliorare rapidamente la funzionalità dei loro prodotti utilizzando le nostre soluzioni.",
+      "step_1": "Usa il documento {{FileFormatUp}} come parametro per il costruttore della classe {{TextSignature}}.",
+      "step_2": "Instanzia {{TextSignOptions}} con il testo appropriato.",
+      "step_3": "Configura le opzioni visive per la firma.",
+      "step_4": "Aggiungi la firma testuale a qualsiasi pagina(i) del documento."
+    }
+  },
+  "code_1": {
+    "title": "Contrassegna documenti con firme testuali",
+    "content": "Scopri come aggiungere informazioni testuali ai documenti aziendali per migliorare i processi aziendali.",
+    "comment_1": "Seleziona un documento da firmare",
+    "comment_2": "Crea opzioni testuali con il testo desiderato",
+    "comment_3": "Specifica la dimensione e la posizione della firma sulla pagina",
+    "comment_4": "Le firme supportano il padding dagli angoli della pagina",
+    "comment_5": "Il colore del testo e lo stile del font possono essere personalizzati",
+    "comment_6": "Le firme testuali possono includere un bordo",
+    "comment_7": "È disponibile anche la personalizzazione dello sfondo",
+    "comment_8": "Il testo può essere salvato come immagine per compatibilità",
+    "comment_9": "Salva il documento con il testo aggiunto"
+  }
+}

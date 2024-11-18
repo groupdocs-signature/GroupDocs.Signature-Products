@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Genera codice a barre per {{FileFormatUp}} utilizzando applicazioni {{ProgLang}}",
+    "description": "Genera e integra rapidamente una firma codice a barre in un documento {{FileFormatUp}} con {{ProgLang}} utilizzando solo poche righe di codice. {{ProdShortName}} supporta la firma su più formati di file."
+  },
+  "header": {
+    "title": "Genera e aggiungi codici a barre in {{FileFormatUp}} senza sforzo",
+    "description": "Utilizza {{ProdFullName}} per incorporare codici a barre nei tuoi documenti aziendali, posizionandoli esattamente dove necessario. La nostra soluzione offre ampie opzioni di personalizzazione per adattare le firme codice a barre alle tue esigenze.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica Ora – È Gratuito!"
+  },
+  "about": {
+    "title": "Introduzione a {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è uno strumento potente per la firma dei documenti, supporta una vasta gamma di tipi di firma tra cui testo, immagini, codici a barre, certificati digitali e timbri. Con compatibilità su oltre 60 formati di file, come PDF, file MS Office, immagini e archivi ZIP, consente una gestione completa dei documenti. Le firme all'interno dei documenti possono essere cercate, verificate, modificate o rimosse secondo necessità."
+  },
+  "more_features": {
+    "title": "Amplia e proteggi i tuoi documenti con opzioni di firma avanzate",
+    "description": "La libreria {{ProdFullName}} è progettata per semplificare la firma e la gestione successiva dei formati di documento più diffusi. Aggiungi, modifica, verifica o rimuovi rapidamente e facilmente una vasta gamma di firme.",
+    "image_description": "Funzionalità Chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma dinamica dei documenti",
+      "content": "Firma qualsiasi pagina dei tuoi documenti utilizzando una varietà di tipi di firma, inclusi testo, immagini, codici a barre, codici QR e timbri. Inoltre, puoi incorporare metadati nascosti, come i dati EXIF nelle immagini, o proteggere il documento contro modifiche non autorizzate utilizzando certificati digitali."
+    },
+    "feature_2": {
+      "title": "Verifica e ricerca delle firme robuste",
+      "content": "La nostra soluzione fornisce ampie strumenti per gestire documenti firmati. Verifica l'autenticità delle firme per garantire l'integrità del documento e utilizza la funzione di ricerca per elencare tutte le firme incorporate all'interno di un documento."
+    },
+    "feature_3": {
+      "title": "Modifica facilmente le firme",
+      "content": "La maggior parte delle firme aggiunte in precedenza può essere modificata senza difficoltà. Aggiorna il testo, riposiziona o cambia l'aspetto della firma per soddisfare le tue esigenze."
+    },
+    "feature_4": {
+      "title": "Rimozione semplificata delle firme",
+      "content": "Con un supporto completo per le operazioni CRUD, il nostro strumento consente la rimozione efficiente delle firme dai tuoi documenti, assicurando che rimangano solo le firme più rilevanti."
+    }
+  },
+  "formats": {
+    "title": "Firma su più formati di documento",
+    "description": "L'API {{EnvName}} ti consente di firmare oltre 60 formati diversi. Che si tratti di aggiungere firme a pagine specifiche o posizionarle con precisione, il nostro strumento rende semplice l'applicazione di vari tipi di firma."
+  },
+  "operations": {
+    "title": "Immergiti nelle nostre funzionalità principali",
+    "description": "Scopri una vasta gamma di tipi di firma e strumenti che forniamo"
+  },
+  "examples": {
+    "comment_1": "Instantiate un oggetto {{TextSignature}} con il percorso del documento",
+    "comment_2": "Utilizza {{BarcodeSignOptions}} per integrare un codice a barre nel documento",
+    "comment_3": "Configura il tipo di codice a barre e parametri aggiuntivi",
+    "comment_4": "Salva il documento firmato"
+  },
+  "steps": {
+    "title": "Come generare e incorporare codici a barre in un file {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente la generazione e il posizionamento di codici a barre in una varietà di formati popolari su pagine {{FileFormatUp}}. Con supporto per oltre 60 tipi di codici a barre, le applicazioni {{EnvName}} possono essere facilmente potenziate con funzionalità di firma dei codici a barre integrando la nostra libreria.",
+      "step_1": "Fornisci il file o il flusso {{FileFormatUp}} per l'elaborazione.",
+      "step_2": "Passa il testo del codice a barre a un'istanza di {{BarcodeSignOptions}}.",
+      "step_3": "Regola le impostazioni del codice a barre come posizione, dimensione, ecc.",
+      "step_4": "Salva il documento con il codice a barre appena aggiunto."
+    }
+  },
+  "code_1": {
+    "title": "Come applicare una firma codice a barre",
+    "content": "Questo esempio illustra come incorporare un codice a barre personalizzato nelle pagine del documento {{FileFormatUp}}.",
+    "comment_1": "Fornisci il documento da firmare",
+    "comment_2": "Crea opzioni di firma con il testo del codice a barre desiderato",
+    "comment_3": "Imposta la posizione relativa del codice a barre sulla pagina",
+    "comment_4": "Definisci il padding del codice a barre dal bordo della pagina",
+    "comment_5": "Scegli il colore delle barre",
+    "comment_6": "Specifica lo stile dei caratteri per il messaggio",
+    "comment_7": "Indica la posizione del messaggio",
+    "comment_8": "Firma e salva il documento"
+  }
+}

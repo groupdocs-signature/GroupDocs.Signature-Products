@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Thêm chữ ký điện tử vào file {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Đặt chữ ký điện tử trên file {{FileFormatUp}} bằng {{ProgLang}} chỉ với vài dòng mã. Sử dụng {{ProdFullName}} để ký nhiều định dạng file khác nhau."
+  },
+  "header": {
+    "title": "Ký {{FileFormatUp}} với chữ ký điện tử",
+    "description": "Bảo vệ nội dung tài liệu kinh doanh của bạn bằng cách niêm phong chúng với chứng chỉ điện tử thông qua các tính năng của {{ProdFullName}}. Chúng tôi cung cấp nhiều cách để đánh dấu và bảo mật tài liệu của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp ký kết toàn diện hỗ trợ nhiều loại xử lý tài liệu. Bạn có thể thêm văn bản, hình ảnh, chứng chỉ điện tử và con dấu vào các file ở hơn 60 định dạng, bao gồm PDF, MS Office, hình ảnh, file ZIP, và các định dạng kinh doanh phổ biến khác. Hơn nữa, các tài liệu đã ký có thể được tìm kiếm, xác minh, sửa đổi hoặc xóa tự động một cách thuận tiện."
+  },
+  "more_features": {
+    "title": "Cải thiện hoặc bảo vệ nội dung tài liệu với chữ ký",
+    "description": "Thư viện {{ProdFullName}} có khả năng ký tất cả các định dạng file phổ biến. Thêm, sửa đổi, xác minh hoặc xóa các loại chữ ký khác nhau một cách tự động để tối ưu hóa quy trình kinh doanh của bạn.",
+    "image_description": "Các tính năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Thêm chữ ký vào tài liệu",
+      "content": "Chữ ký Văn bản, Hình ảnh, Mã vạch, QR-Code, hoặc Con dấu có thể được thêm chính xác vào bất kỳ trang nào của bất kỳ tài liệu hỗ trợ nào. Siêu dữ liệu ẩn như EXIF có thể được thêm hoặc chỉnh sửa trong hình ảnh và hầu hết các loại file. Bảo vệ nội dung tài liệu khỏi những thay đổi trái phép bằng cách sử dụng chữ ký điện tử."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Tài liệu có thể được xử lý theo nhiều cách khác nhau sau khi ký. Xác minh tài liệu đã ký để đảm bảo chúng đã được xử lý đúng cách. Nếu bạn cần kiểm soát nhiều hơn, bạn có thể lấy danh sách tất cả các chữ ký thông qua tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký",
+      "content": "Hầu hết các loại chữ ký đều hỗ trợ chỉnh sửa thêm. Bạn có thể sửa văn bản, thay đổi vị trí, màu sắc, kích thước, và nhiều hơn nữa."
+    },
+    "feature_4": {
+      "title": "Xóa những chữ ký không cần thiết",
+      "content": "Giải pháp của chúng tôi hỗ trợ đầy đủ các hoạt động CRUD cho chữ ký. Nhiều loại chữ ký, bao gồm cả chứng chỉ điện tử, có thể bị xóa khỏi tài liệu khi cần thiết."
+    }
+  },
+  "formats": {
+    "title": "Ký tài liệu ở các định dạng khác",
+    "description": "API {{EnvName}} cho phép bạn xử lý hơn 60 định dạng. Tạo và thêm nhiều chữ ký vào bất kỳ trang nào, niêm phong nội dung bằng chứng chỉ điện tử, và quản lý cùng chỉnh sửa các chữ ký hiện có trong tài liệu."
+  },
+  "operations": {
+    "title": "Khám phá bộ tính năng toàn diện của chúng tôi",
+    "description": "Chúng tôi tự hào về sự đa dạng chức năng và hỗ trợ chữ ký mà nền tảng của chúng tôi cung cấp."
+  },
+  "examples": {
+    "comment_1": "Sử dụng {{TextSignature}} với tài liệu để ký điện tử",
+    "comment_2": "Cung cấp một chứng chỉ điện tử và mật khẩu",
+    "comment_3": "Thiết lập đại diện hình ảnh nếu cần thiết",
+    "comment_4": "Bảo vệ tài liệu với chứng chỉ điện tử"
+  },
+  "steps": {
+    "title": "Các bước bảo vệ {{FileFormatUp}} bằng chứng chỉ điện tử trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép các nhà phát triển {{EnvName}} ngăn chặn các thay đổi trong tài liệu {{FileFormatUp}} bằng cách sử dụng chữ ký điện tử. Tăng cường ứng dụng doanh nghiệp của bạn với khả năng bảo vệ dữ liệu quan trọng.",
+      "step_1": "Truyền tài liệu {{FileFormatUp}} vào constructor của lớp {{TextSignature}}.",
+      "step_2": "Sử dụng một chứng chỉ điện tử và mật khẩu của nó để bảo vệ tài liệu.",
+      "step_3": "Tùy chọn, thêm đại diện hình ảnh cho chữ ký điện tử trên các trang tài liệu.",
+      "step_4": "Ký tài liệu để ngăn chặn bất kỳ thay đổi nào trong tương lai."
+    }
+  },
+  "code_1": {
+    "title": "Bảo vệ tài liệu bằng chữ ký điện tử",
+    "content": "Tìm hiểu cách bảo vệ tài liệu khỏi các thay đổi bằng cách sử dụng chữ ký điện tử.",
+    "comment_1": "Cung cấp một tài liệu để ký",
+    "comment_2": "Sử dụng một chứng chỉ điện tử hợp lệ với mật khẩu",
+    "comment_3": "Chỉ định dữ liệu văn bản bổ sung",
+    "comment_4": "Sử dụng hình ảnh và các tùy chọn khác cho đại diện hình ảnh",
+    "comment_5": "Lưu tài liệu đã bảo vệ vào một vị trí khác"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Barcode für {{FileFormatUp}} mit {{ProgLang}} API generieren",
+    "description": "Erzeugen Sie eine Barcode-Signatur und sichern Sie Ihr {{FileFormatUp}}-Dokument mit {{ProgLang}} in nur wenigen Codezeilen. Nutzen Sie {{ProdShortName}} für die Unterzeichnung einer Vielzahl von Dateiformaten."
+  },
+  "header": {
+    "title": "Barcode für {{FileFormatUp}}-Dokumente generieren",
+    "description": "Verwenden Sie {{ProdFullName}}, um Barcodes an jeder Stelle innerhalb Ihrer Geschäftsdokumente zu platzieren. Unsere API bietet umfangreiche Anpassungsmöglichkeiten für Barcode-Signaturen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Überblick über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine leistungsstarke Dokumentensignaturlösung, die eine breite Palette von Signaturtypen unterstützt, darunter Text, Bilder, Barcodes, digitale Zertifikate und Stempel. Mit der Unterstützung von über 60 Dateiformaten – wie PDF, MS Office, Bilder, ZIP-Dateien und mehr – ermöglicht dieses Tool nicht nur das Anwenden von Signaturen, sondern auch das Suchen, Verifizieren, Modifizieren oder Entfernen von Signaturen nach Bedarf."
+  },
+  "more_features": {
+    "title": "Erweitern und sichern Sie Ihre Dokumente mit fortschrittlichen Signaturfunktionen",
+    "description": "Die {{ProdFullName}}-Bibliothek wurde entwickelt, um die umfassende Dokumentensignierung und -verarbeitung in weitverbreiteten Dateiformaten zu erleichtern. Sie können mühelos verschiedene Arten von Signaturen hinzufügen, anpassen, verifizieren oder entfernen.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Vielseitige Dokumentensignierung",
+      "content": "Effizient jede Seite von unterstützten Dokumenten mit Text, Bildern, Barcodes, QR-Codes oder Stempeln signieren. Außerdem können Sie versteckte Metadaten, wie EXIF-Daten in Bildern, einfügen oder den Inhalt Ihres Dokuments mit digitalen Zertifikaten gegen unbefugte Änderungen schützen."
+    },
+    "feature_2": {
+      "title": "Umfassende Signatur-Suche und -Verifizierung",
+      "content": "Unser Tool bietet leistungsstarke Funktionen zum Arbeiten mit signierten Dokumenten. Stellen Sie die Integrität Ihrer Dokumente durch Verifizierung der Signaturen sicher und rufen Sie mühelos eine umfassende Liste aller Signaturen in einem Dokument über unsere Suchfunktion ab."
+    },
+    "feature_3": {
+      "title": "Signaturen bequem bearbeiten",
+      "content": "Fast alle zuvor angewendeten Signaturen können modifiziert werden. Aktualisieren Sie Text, ändern Sie die Position oder passen Sie Farben nach Ihren Bedürfnissen an."
+    },
+    "feature_4": {
+      "title": "Effiziente Signaturentfernung",
+      "content": "Unser Ansatz unterstützt vollständig CRUD-Operationen für Signaturen, sodass Sie unerwünschte oder veraltete Signaturen schnell aus Ihren Dokumenten entfernen können."
+    }
+  },
+  "formats": {
+    "title": "Dokumente in verschiedenen Formaten signieren",
+    "description": "Unsere {{EnvName}}-API unterstützt die Unterzeichnung von mehr als 60 verschiedenen Formaten. Platzieren Sie mühelos verschiedene Arten von Signaturen auf jeder Seite oder an beliebiger Stelle innerhalb Ihrer Dokumente."
+  },
+  "operations": {
+    "title": "Entdecken Sie unsere Hauptfunktionen",
+    "description": "Wir bieten eine beeindruckende Auswahl an Signaturoptionen und -operationen"
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie ein neues {{TextSignature}}-Objekt mit dem Dokumentenpfad",
+    "comment_2": "Verwenden Sie {{BarcodeSignOptions}}, um einen Barcode zum Dokument hinzuzufügen",
+    "comment_3": "Konfigurieren Sie den Barcodetyp und zusätzliche Eigenschaften",
+    "comment_4": "Speichern Sie die signierte Datei"
+  },
+  "steps": {
+    "title": "Schritte zur Generierung und Einbettung eines Barcodes in eine {{FileFormatUp}}-Datei",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht die Generierung von Barcodes in zahlreichen gängigen Formaten und deren Platzierung auf {{FileFormatUp}}-Seiten. Mit Unterstützung für über 60 Barcodetypen können {{EnvName}}-Anwendungen mühelos mit Barcode-Signierfunktionen aufgestockt werden, indem unsere Bibliothek integriert wird.",
+      "step_1": "Liefern Sie die {{FileFormatUp}}-Datei oder den Stream zur Verarbeitung.",
+      "step_2": "Übergeben Sie den Barcode-Text an die {{BarcodeSignOptions}}-Instanz.",
+      "step_3": "Passen Sie die Barcode-Optionen wie Position, Größe usw. an.",
+      "step_4": "Speichern Sie die Datei mit dem neu hinzugefügten Barcode."
+    }
+  },
+  "code_1": {
+    "title": "Wie man eine Barcode-Signatur generiert",
+    "content": "Dieses Beispiel zeigt, wie man einen maßgeschneiderten Barcode auf {{FileFormatUp}}-Dokumentseiten einfügt.",
+    "comment_1": "Stellen Sie das zu signierende Dokument bereit",
+    "comment_2": "Formulieren Sie die Signaturoptionen mit dem gewünschten Text",
+    "comment_3": "Bestimmen Sie die relative Barcode-Position auf der Seite",
+    "comment_4": "Definieren Sie den Abstand des Barcodes vom Seitenrand",
+    "comment_5": "Geben Sie die Farbe der Striche an",
+    "comment_6": "Wählen Sie den Schriftstil für die Nachricht",
+    "comment_7": "Geben Sie die Position der Nachricht an",
+    "comment_8": "Signieren und speichern Sie das Dokument"
+  }
+}

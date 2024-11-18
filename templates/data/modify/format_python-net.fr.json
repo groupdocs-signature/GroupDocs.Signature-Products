@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Modifier les signatures {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Utilisez l'API {{ProgLang}} pour modifier les signatures dans les documents {{FileFormatUp}}, y compris les PDF, les fichiers Word, les feuilles Excel, les présentations et les images."
+  },
+  "header": {
+    "title": "Mettez à jour les signatures {{FileFormatUp}} sans effort",
+    "description": "Obtenez un contrôle total pour modifier une variété de signatures électroniques dans les principaux formats tels que PDF, Word, Excel, présentations et images avec les fonctionnalités avancées de {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "Déverrouillez les capacités de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) propose non seulement une signature de document robuste, mais permet également de modifier facilement les signatures existantes. Ajustez les propriétés de signature dans des formats couramment utilisés comme PDF, Word, Excel et les présentations PowerPoint avec un minimum d'effort."
+  },
+  "more_features": {
+    "title": "Gestion complète des signatures pour les documents",
+    "description": "{{ProdFullName}} simplifie votre flux de travail documentaire en vous permettant d'ajouter, mettre à jour, rechercher, valider ou supprimer des signatures dans tous les principaux formats de fichiers.",
+    "image_description": "Édition avancée des signatures",
+    "feature_1": {
+      "title": "Signature de document flexible",
+      "content": "Appliquez une large gamme de signatures, y compris texte, images, codes-barres et tampons, à n'importe quelle section de votre document. Modifiez les métadonnées intégrées telles que les données EXIF dans les images et sécurisez les documents contre les modifications non autorisées avec des certificats numériques."
+    },
+    "feature_2": {
+      "title": "Recherche et validation des signatures",
+      "content": "Vérifiez facilement les signatures avec nos outils puissants. Récupérez une liste complète des signatures dans un document, garantissant une vérification rapide et précise."
+    },
+    "feature_3": {
+      "title": "Mises à jour simplifiées des signatures",
+      "content": "Mettez à jour sans effort les signatures précédemment intégrées. Ajustez le contenu, le style, le placement ou tout autre aspect de la signature pour répondre à de nouvelles exigences."
+    },
+    "feature_4": {
+      "title": "Suppression de signature efficace",
+      "content": "Obtenez un contrôle total sur la gestion des signatures, avec la capacité de supprimer tout type de signature de votre document, vous donnant ainsi une flexibilité totale sur son contenu."
+    }
+  },
+  "formats": {
+    "title": "Modifier les signatures à travers plusieurs formats",
+    "description": "Avec l'API {{EnvName}}, vous pouvez facilement modifier des documents signés. Extrayez et mettez à jour les données de signature à partir des formats pris en charge, tout en maintenant un contrôle total sur l'intégrité de votre document."
+  },
+  "operations": {
+    "title": "Découvrez l'ensemble des fonctionnalités",
+    "description": "Parcourez la liste exhaustive des formats de signature et des opérations prises en charge par notre plateforme."
+  },
+  "examples": {
+    "comment_1": "Créer un objet {{TextSignature}} avec le chemin du document",
+    "comment_2": "Rechercher des signatures textuelles dans le document",
+    "comment_3": "Mettre à jour le contenu de la première signature trouvée",
+    "comment_4": "Vérifier les résultats de la mise à jour de la signature"
+  },
+  "steps": {
+    "title": "Comment modifier les signatures dans {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} de modifier les signatures textuelles déjà intégrées dans les fichiers {{FileFormatUp}}. Améliorez vos applications {{EnvName}} avec des fonctionnalités avancées.",
+      "step_1": "Chargez le document {{FileFormatUp}} dans l'instance {{TextSignature}}.",
+      "step_2": "Récupérez une liste de toutes les signatures dans le document.",
+      "step_3": "Modifiez le contenu de toute signature identifiée.",
+      "step_4": "Vérifiez les résultats de la modification de la signature."
+    }
+  },
+  "code_1": {
+    "title": "Modifier les signatures de code-barres",
+    "content": "Cet exemple démontre comment modifier programmatique des signatures de code-barres dans un document.",
+    "comment_1": "Charger un document contenant des signatures de code-barres",
+    "comment_2": "Rechercher toutes les signatures de code-barres existantes",
+    "comment_3": "Modifier la position du premier code-barres trouvé et enregistrer le document",
+    "comment_4": "Vérifier que la modification du code-barres a été réussie"
+  }
+}

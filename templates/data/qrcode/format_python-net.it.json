@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Genera codici QR per file {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "description": "Utilizza l'API {{ProdShortName}} per generare e incorporare codici QR nei file {{FileFormatUp}}. Posiziona facilmente i codici QR su qualsiasi pagina per aggiungere funzionalità extra."
+  },
+  "header": {
+    "title": "Genera codici QR per {{FileFormatUp}}",
+    "description": "Crea senza sforzo codici a barre 2D utilizzando dati testuali o numerici e applicali a varie pagine e formati, inclusi PDF, Word, Excel e altri con {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prova gratuita"
+  },
+  "about": {
+    "title": "Scopri le funzionalità di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre una vasta gamma di funzionalità, consentendo agli utenti di generare e incorporare diversi tipi di firma nei principali formati di documento. Che si tratti di PDF, Word, Excel, PowerPoint o immagini, arricchisci i tuoi documenti con firme di Testo, Immagine, Codice a barre, Codice QR, Metadati, Digitale o Timbro."
+  },
+  "more_features": {
+    "title": "Integrazione completa delle firme per i documenti",
+    "description": "Con l'API {{ProdFullName}}, gli utenti possono generare, modificare, cercare, convalidare e rimuovere diversi tipi di firma, semplificando i flussi di lavoro documentali con precisione.",
+    "image_description": "Funzionalità chiave di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Applica più tipi di firma",
+      "content": "{{ProdShortName}} consente l'applicazione di firme di Testo, Immagine, Codice a barre, Codice QR e Timbro a qualsiasi documento. Puoi posizionare con precisione le firme su qualsiasi pagina e gestire facilmente i metadati. Proteggi i tuoi documenti da modifiche non autorizzate con certificati digitali."
+    },
+    "feature_2": {
+      "title": "Cerca e convalida firme",
+      "content": "Verifica l'autenticità e l'accuratezza delle firme dei documenti utilizzando strumenti di convalida avanzati. Ottieni facilmente un elenco dettagliato di tutte le firme incorporate in un documento per una migliore supervisione."
+    },
+    "feature_3": {
+      "title": "Modifica firme esistenti",
+      "content": "Puoi aggiornare firme precedentemente applicate modificando contenuto, posizione, colore, dimensione e altri attributi per adattarli alle tue esigenze specifiche."
+    },
+    "feature_4": {
+      "title": "Rimuovi facilmente firme",
+      "content": "Semplifica la gestione dei documenti rimuovendo rapidamente le firme indesiderate. Che si tratti di un certificato digitale o di un altro tipo di firma, la rimozione può essere effettuata in modo efficiente."
+    }
+  },
+  "formats": {
+    "title": "Incorpora codici QR in vari formati di documento",
+    "description": "Utilizza l'API {{EnvName}} per incorporare codici QR in qualsiasi formato di documento standard del settore. Archivia e codifica informazioni importanti in codici a barre 2D per una facile scansione e recupero dati."
+  },
+  "operations": {
+    "title": "Esplora le nostre soluzioni di firma",
+    "description": "Offriamo una vasta gamma di tipi di firma e operazioni per soddisfare le tue esigenze documentali."
+  },
+  "examples": {
+    "comment_1": "Inizializza una nuova istanza di {{TextSignature}} con il documento",
+    "comment_2": "Usa {{QrCodeSignOptions}} per incorporare un codice QR nel documento",
+    "comment_3": "Specifica il tipo di firma e imposta la sua posizione sulla pagina",
+    "comment_4": "Salva il documento con il codice QR incorporato"
+  },
+  "steps": {
+    "title": "Passaggi per generare e inserire un codice QR in {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ti consente di creare codici QR in formati popolari e posizionarli sulle pagine di {{FileFormatUp}}. Con supporto per oltre 10 tipi di codici QR, puoi integrare senza soluzione di continuità questa funzionalità nelle applicazioni {{EnvName}}. Arricchisci i tuoi documenti con firme di codici QR utilizzando il nostro prodotto.",
+      "step_1": "Ottieni il file o lo stream {{FileFormatUp}} in cui verrà aggiunto il codice QR.",
+      "step_2": "Fornisci il testo richiesto a {{QrCodeSignOptions}}.",
+      "step_3": "Personalizza le impostazioni visive come colore, posizione e dimensione.",
+      "step_4": "Salva il documento con il codice QR incorporato."
+    }
+  },
+  "code_1": {
+    "title": "Personalizza un codice QR generato",
+    "content": "Questo esempio mostra come posizionare un codice QR personalizzato su una pagina {{FileFormatUp}}.",
+    "comment_1": "Ottieni il documento da firmare e passalo a {{TextSignature}}",
+    "comment_2": "Configura le opzioni del codice QR con il testo richiesto",
+    "comment_3": "Imposta la posizione del codice QR sulla pagina",
+    "comment_4": "Imposta il margine per la firma",
+    "comment_5": "Scegli il colore del codice QR",
+    "comment_6": "Definisci le opzioni di font per il messaggio",
+    "comment_7": "Imposta il colore di sfondo e il pennello per il codice QR",
+    "comment_8": "Incorpora il codice QR nel documento"
+  }
+}

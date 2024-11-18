@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Menambahkan tanda tangan elektronik digital ke file {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Pasang tanda tangan digital pada file {{FileFormatUp}} menggunakan {{ProgLang}} dengan hanya beberapa baris kode. Gunakan {{ProdFullName}} untuk menandatangani berbagai format file."
+  },
+  "header": {
+    "title": "eSign {{FileFormatUp}} dengan tanda tangan digital",
+    "description": "Lindungi integritas dokumen bisnis Anda dengan menyegelnya menggunakan sertifikat digital melalui fitur kuat dari {{ProdFullName}}. Kami menawarkan solusi serbaguna untuk menandai dan mengamankan dokumen Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi tanda tangan canggih yang memfasilitasi berbagai tugas pemrosesan dokumen. Solusi ini memungkinkan Anda menyematkan teks, gambar, sertifikat digital, dan cap ke dalam file di lebih dari 60 format, termasuk PDF, MS Office, gambar, file ZIP, dan format bisnis penting lainnya. Selain itu, dokumen yang ditandatangani dapat dengan mudah dicari, diverifikasi, dimodifikasi, atau dihapus sesuai kebutuhan."
+  },
+  "more_features": {
+    "title": "Tingkatkan atau lindungi konten dokumen dengan tanda tangan",
+    "description": "Koleksi {{ProdFullName}} dirancang untuk menandatangani semua format file yang umum. Sederhanakan proses bisnis Anda dengan menambahkan, memodifikasi, memverifikasi, atau menghapus berbagai tanda tangan.",
+    "image_description": "Fitur Utama dari {{ProdShortName}}",
+    "feature_1": {
+      "title": "Sisipkan tanda tangan ke dalam dokumen",
+      "content": "Sisipkan Teks, Gambar, Kode Barkode, Kode QR, atau Tanda tangan cap dengan presisi di setiap halaman dokumen yang didukung. Anda juga dapat menambah atau mengedit metadata tersembunyi, seperti EXIF, pada gambar dan sebagian besar jenis file. Pastikan integritas konten dokumen Anda dengan tanda tangan digital."
+    },
+    "feature_2": {
+      "title": "Cari dan verifikasi tanda tangan",
+      "content": "Pemrosesan pasca-tanda tangan menawarkan banyak kemungkinan. Verifikasi bahwa dokumen yang telah Anda tandatangani telah diproses dengan benar. Untuk kontrol yang lebih besar, ambil daftar lengkap semua tanda tangan melalui fungsi pencarian."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan",
+      "content": "Sebagian besar jenis tanda tangan sepenuhnya dapat diedit. Anda memiliki fleksibilitas untuk menyesuaikan teks, memindahkan elemen, mengubah warna, mengubah ukuran, dan lainnya."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan yang tidak diperlukan",
+      "content": "Solusi kami menyediakan operasi CRUD lengkap untuk tanda tangan. Jika diperlukan, Anda dapat menghapus berbagai jenis tanda tangan, termasuk sertifikat digital, dari dokumen Anda."
+    }
+  },
+  "formats": {
+    "title": "Tandatangani dokumen dalam berbagai format",
+    "description": "API {{EnvName}} memberi Anda kemampuan untuk memproses lebih dari 60 format yang berbeda. Anda dapat dengan mudah membuat dan menyisipkan berbagai tanda tangan di seluruh halaman, menerapkan sertifikat digital untuk keamanan konten, dan mengelola tanda tangan yang ada dalam dokumen secara efisien."
+  },
+  "operations": {
+    "title": "Lihat fitur unggulan kami",
+    "description": "Kami menyediakan berbagai format tanda tangan dan operasi yang kuat"
+  },
+  "examples": {
+    "comment_1": "Manfaatkan {{TextSignature}} untuk menandatangani dokumen secara digital",
+    "comment_2": "Sediakan sertifikat digital dan kata sandi terkait",
+    "comment_3": "Konfigurasikan representasi visual jika diperlukan",
+    "comment_4": "Amankan dokumen dengan sertifikat digital"
+  },
+  "steps": {
+    "title": "Cara mengamankan {{FileFormatUp}} dengan sertifikat digital di {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memberdayakan pengembang {{EnvName}} untuk melindungi dokumen {{FileFormatUp}} dari perubahan menggunakan tanda tangan digital. Tingkatkan aplikasi bisnis Anda dengan kemampuan perlindungan data yang kuat.",
+      "step_1": "Serahkan dokumen {{FileFormatUp}} ke konstruktor kelas {{TextSignature}}.",
+      "step_2": "Gunakan sertifikat digital dan kata sandinya untuk mengamankan dokumen.",
+      "step_3": "Jika perlu, tambahkan representasi visual dari tanda tangan digital pada halaman dokumen.",
+      "step_4": "Tandatangani dokumen untuk memastikan bahwa itu tetap tidak berubah."
+    }
+  },
+  "code_1": {
+    "title": "Amankan dokumen dengan tanda tangan digital",
+    "content": "Pelajari cara mencegah perubahan dokumen menggunakan tanda tangan digital.",
+    "comment_1": "Sediakan dokumen untuk ditandatangani",
+    "comment_2": "Gunakan sertifikat digital yang valid dengan kata sandi terkait",
+    "comment_3": "Tentukan informasi teks tambahan jika ada",
+    "comment_4": "Sisipkan gambar dan opsi lainnya untuk representasi visual",
+    "comment_5": "Simpan dokumen yang diamankan ke lokasi yang ditentukan"
+  }
+}

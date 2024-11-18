@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "فرمت مستند قابل حمل Adobe"
+      },
+      "docx": {
+        "description": "مستند XML باز Microsoft Word"
+      },
+      "xlsx": {
+        "description": "صفحه گسترده XML باز Microsoft Excel"
+      },
+      "pptx": {
+        "description": "ارائه XML باز PowerPoint"
+      },
+      "jpeg": {
+        "description": "تصویر JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "امضای الکترونیکی PDF",
+        "docx": "امضای الکترونیکی DOCX",
+        "xlsx": "امضای الکترونیکی XLSX",
+        "pptx": "امضای الکترونیکی PPTX",
+        "jpeg": "امضای الکترونیکی JPEG"
+      },
+      "text": {
+        "pdf": "امضای متنی PDF",
+        "docx": "امضای متنی DOCX",
+        "xlsx": "امضای متنی XLSX",
+        "pptx": "امضای متنی PPTX",
+        "jpeg": "امضای متنی JPEG"
+      },
+      "image": {
+        "pdf": "امضای PDF با تصویر",
+        "docx": "امضای DOCX با تصویر",
+        "xlsx": "امضای XLSX با تصویر",
+        "pptx": "امضای PPTX با تصویر",
+        "jpeg": "امضای JPEG با تصویر"
+      },
+      "barcode": {
+        "pdf": "اضافه کردن بارکد به PDF",
+        "docx": "اضافه کردن بارکد به DOCX",
+        "xlsx": "اضافه کردن بارکد به XLSX",
+        "pptx": "اضافه کردن بارکد به PPTX",
+        "jpeg": "اضافه کردن بارکد به JPEG"
+      },
+      "qrcode": {
+        "pdf": "QR-Code برای PDF",
+        "docx": "QR-Code برای DOCX",
+        "xlsx": "QR-Code برای XLSX",
+        "pptx": "QR-Code برای PPTX",
+        "jpeg": "QR-Code برای JPEG"
+      },
+      "digital": {
+        "pdf": "محافظت از PDF",
+        "docx": "محافظت از DOCX",
+        "xlsx": "محافظت از XLSX",
+        "pptx": "محافظت از PPTX"
+      },
+      "stamp": {
+        "pdf": "مهر زدن PDF",
+        "docx": "مهر زدن DOCX",
+        "xlsx": "مهر زدن XLSX",
+        "pptx": "مهر زدن PPTX",
+        "jpeg": "مهر زدن JPEG"
+      },
+      "search": {
+        "pdf": "جستجوی امضاها در PDF",
+        "docx": "یافتن امضاها در DOCX",
+        "xlsx": "جستجوی امضاها در XLSX",
+        "pptx": "یافتن امضاها در PPTX",
+        "jpeg": "جستجوی امضاها در JPEG"
+      },
+      "verify": {
+        "pdf": "بررسی امضاهای PDF",
+        "docx": "بررسی امضاهای DOCX",
+        "xlsx": "اعتبارسنجی امضاهای XLSX",
+        "pptx": "بررسی امضاهای PPTX",
+        "jpeg": "اعتبارسنجی امضاهای JPEG"
+      },
+      "modify": {
+        "pdf": "تغییر امضاهای PDF",
+        "docx": "ویرایش امضاهای DOCX",
+        "xlsx": "تغییر امضاهای XLSX",
+        "pptx": "ویرایش امضاهای PPTX",
+        "jpeg": "تغییر امضاهای JPEG"
+      },
+      "delete": {
+        "pdf": "حذف امضاهای PDF",
+        "docx": "حذف امضاهای DOCX",
+        "xlsx": "حذف امضاهای XLSX",
+        "pptx": "حذف امضاهای PPTX",
+        "jpeg": "حذف امضاهای JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی",
+      "result_title": "نمونه امضاها",
+      "result_title_bottom": "دانلود نتیجه",
+      "copy_tip": "برای کپی کلیک کنید",
+      "copy_done": "کپی شد",
+      "links": {
+        "title_1": "نمونه‌های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده شروع هستید؟",
+      "description": "امکانات {{ProdShortName}} را به صورت رایگان امتحان کنید یا درخواست مجوز ارسال کنید",
+      "comment_1": "بارگیری {{PackageStoreName}}",
+      "comment_2": "مجوزدهی"
+    },
+    "texts": {
+      "learn_more": "بیشتر بخوانید"
+    },
+    "operations": {
+      "esign": {
+        "name": "امضاهای الکترونیکی",
+        "description": "انواع مختلفی از امضاها را به فرمت‌های فایل پشتیبانی‌شده اضافه کنید"
+      },
+      "text": {
+        "name": "متن را به اسناد اضافه کنید",
+        "description": "محتوای سند را با امضاهای متنی قابل تنظیم تقویت کنید"
+      },
+      "image": {
+        "name": "امضاهای تصویری",
+        "description": "هر تصویری را در هر نقطه‌ای از سند قرار دهید"
+      },
+      "barcode": {
+        "name": "ایجاد بارکد",
+        "description": "بارکدهای مختلفی را ایجاد و در اسناد پشتیبانی‌شده درج کنید"
+      },
+      "qrcode": {
+        "name": "ایجاد QR کد",
+        "description": "QR کدها را برای امضای اسناد تولید کنید"
+      },
+      "digital": {
+        "name": "گواهی‌های دیجیتال",
+        "description": "اسناد را با گواهی‌های دیجیتال ایمن کنید"
+      },
+      "stamp": {
+        "name": "امضاهای مهر",
+        "description": "از سازنده مهر برای ایجاد مهرهای دایره‌ای یا مربعی سفارشی استفاده کنید"
+      },
+      "search": {
+        "name": "جستجوی امضاها",
+        "description": "هر امضای قبلاً اضافه‌شده را در سند پیدا کنید"
+      },
+      "verify": {
+        "name": "تأیید امضاء",
+        "description": "پس از اعمال امضاها، صحت آن‌ها را بررسی کنید"
+      },
+      "modify": {
+        "name": "تغییر امضاها",
+        "description": "امضاهای مختلف را در داخل سند ویرایش نمایید"
+      },
+      "delete": {
+        "name": "حذف امضاها",
+        "description": "مجموعه وسیعی از امضاهای قبلاً اعمال‌شده را حذف کنید"
+      }
+    }
+  }
+}

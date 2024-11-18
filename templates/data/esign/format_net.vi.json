@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Ký {{FileFormatUp}} qua {{ProgLang}} một cách điện tử",
+    "description": "Sử dụng {{FileFormatUp}} để thêm nhiều loại chữ ký điện tử vào tài liệu, đảm bảo tính an toàn và tuân thủ cho các định dạng như PDF, Word, Excel, Bản trình bày và Hình ảnh."
+  },
+  "header": {
+    "title": "Ký điện tử các tệp {{FileFormatUp}}",
+    "description": "Nhúng nhiều chữ ký điện tử vào tài liệu của bạn bằng {{ProdFullName}}, đảm bảo tuân thủ và tính toàn vẹn cho các định dạng như PDFs, Word, Excel, Bản trình bày và Hình ảnh.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ khả năng ký điện tử toàn diện. Với nó, bạn có thể dễ dàng thêm, tìm kiếm, xác minh, cập nhật và xóa chữ ký số trên nhiều loại tài liệu khác nhau mà không cần dụng cụ của bên thứ ba. Nó hỗ trợ ký các tệp PDF, tài liệu Word, bảng tính Excel, bản trình bày PowerPoint và các định dạng hình ảnh khác một cách thông suốt."
+  },
+  "more_features": {
+    "title": "Chữ ký điện tử tài liệu nâng cao",
+    "description": "API ký điện tử tinh vi của chúng tôi cải thiện quy trình làm việc của doanh nghiệp, cho phép ký, xác thực, sửa đổi và quản lý chữ ký điện tử một cách hiệu quả với đầy đủ khả năng tự động hóa.",
+    "image_description": "Khả năng chữ ký điện tử",
+    "feature_1": {
+      "title": "Ký điện tử cho tài liệu văn phòng",
+      "content": "Nhúng chữ ký điện tử một cách liền mạch ở bất kỳ vị trí nào trong tài liệu. Tùy chỉnh và làm phong phú nội dung với chứng chỉ số, siêu dữ liệu, mã vạch hoặc các yếu tố trực quan, trong khi đảm bảo tính xác thực và an toàn."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký toàn diện",
+      "content": "Khi đã ký, tài liệu có thể được xử lý thêm một cách thuận tiện. Truy cập tổng quan đầy đủ về các chữ ký hiện có, cho phép cập nhật hoặc xóa chữ ký một cách chính xác khi cần thiết."
+    },
+    "feature_3": {
+      "title": "Bảo mật nội dung nâng cao",
+      "content": "Bảo vệ tính toàn vẹn của tài liệu của bạn bằng cách sử dụng chứng chỉ số. Nhúng hoặc trích xuất siêu dữ liệu để cải thiện theo dõi và kiểm toán tài liệu, đảm bảo tính tuân thủ và tính xác thực của nội dung."
+    }
+  },
+  "formats": {
+    "title": "Ký điện tử một loạt các định dạng tệp",
+    "description": "API {{EnvName}} cho phép bạn ký điện tử hơn 60 định dạng tệp tiêu chuẩn ngành, mang lại sự linh hoạt chưa từng có trong việc bảo mật tài liệu của bạn."
+  },
+  "operations": {
+    "title": "Khám phá toàn bộ tính năng của chúng tôi",
+    "description": "Chúng tôi tự hào cung cấp một loạt các lựa chọn chữ ký và các thao tác liên quan."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu vào một thể hiện {{TextSignature}}",
+    "comment_2": "Tạo một đối tượng {{QrCodeSignOptions}} mới",
+    "comment_3": "Cấu hình tất cả các tùy chọn cần thiết",
+    "comment_4": "Lưu tài liệu đã ký vào bộ nhớ địa phương"
+  },
+  "steps": {
+    "title": "Các bước ký {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) hỗ trợ việc tích hợp chữ ký tùy chỉnh vào các tệp {{FileFormatUp}}. Các nhà phát triển {{EnvName}} có thể tích hợp tính năng ký vào ứng dụng của họ một cách liền mạch.",
+      "step_1": "Cung cấp tệp {{FileFormatUp}} cho thể hiện {{TextSignature}} để ký.",
+      "step_2": "Sử dụng {{SignOptions}} để xác định các tham số chữ ký.",
+      "step_3": "Cấu hình các thuộc tính như kích thước, màu sắc và nội dung.",
+      "step_4": "Lưu tệp đã ký đến nơi đích mong muốn."
+    }
+  },
+  "code_1": {
+    "title": "Cách thêm chữ ký hình ảnh vào tài liệu",
+    "content": "Ví dụ này minh họa quy trình để áp dụng một chữ ký hình ảnh vào một trang cụ thể trong tài liệu.",
+    "comment_1": "Cung cấp tài liệu nguồn như là một đối số",
+    "comment_2": "Xác định đường dẫn đến hình ảnh trong cấu hình chữ ký",
+    "comment_3": "Định nghĩa kích thước và các trang mục tiêu cho chữ ký",
+    "comment_4": "Thực hiện việc áp dụng chữ ký vào tài liệu"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "E-sign dokumen {{FileFormatUp}} dengan aplikasi {{ProgLang}}",
+    "description": "Manfaatkan kekuatan API {{ProgLang}} untuk menandatangani secara elektronik dan mengamankan dokumen {{FileFormatUp}} seperti PDF, file Word, lembar Excel, presentasi, dan gambar."
+  },
+  "header": {
+    "title": "E-sign {{FileFormatUp}} secara elektronik",
+    "description": "Gunakan {{ProdFullName}} untuk menyematkan berbagai tanda tangan elektronik ke dalam dokumen Anda, memastikan kepatuhan dan integritas data di seluruh format seperti PDF, Word, Excel, presentasi, dan gambar.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Ikhtisar API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyediakan rangkaian lengkap alat untuk menambahkan tanda tangan elektronik ke dokumen. Baik Anda perlu menandatangani, mencari, memverifikasi, memperbarui, atau menghapus tanda tangan digital, {{ProdFullName}} memudahkan di berbagai format—PDF, dokumen Word, lembar Excel, presentasi PowerPoint, dan berbagai format gambar—tanpa memerlukan perangkat lunak pihak ketiga."
+  },
+  "more_features": {
+    "title": "Fitur e-signatur canggih untuk dokumen",
+    "description": "API e-signing kami memperlancar proses bisnis dengan menawarkan cara yang efisien untuk menandatangani, memvalidasi, mengubah, dan mengelola tanda tangan elektronik dengan dukungan automasi penuh.",
+    "image_description": "Fitur E-signatur",
+    "feature_1": {
+      "title": "E-sign dokumen kantor",
+      "content": "Tempatkan tanda tangan elektronik di mana saja dalam dokumen Anda. Kustomisasi konten Anda dengan sertifikat digital, kode batang, metadata, dan elemen visual, sambil memastikan keamanan dan keaslian dokumen."
+    },
+    "feature_2": {
+      "title": "Manajemen tanda tangan penuh",
+      "content": "Setelah sebuah dokumen ditandatangani, Anda dapat melihat dan mengelola semua tanda tangan. Anda dapat melakukan pembaruan atau menghapus tanda tangan sesuai kebutuhan, memastikan kontrol penuh atas dokumen."
+    },
+    "feature_3": {
+      "title": "Tingkatkan keamanan dokumen",
+      "content": "Lindungi dokumen Anda dengan sertifikat digital. Sematkan atau ambil metadata untuk meningkatkan pelacakan, audit, dan kepatuhan, memastikan keaslian konten Anda."
+    }
+  },
+  "formats": {
+    "title": "E-sign berbagai format file",
+    "description": "Dengan API {{EnvName}}, Anda dapat menandatangani secara elektronik lebih dari 60 format standar industri, menawarkan fleksibilitas tanpa tanding dalam mengamankan dokumen bisnis Anda."
+  },
+  "operations": {
+    "title": "Jelajahi seluruh fitur kami",
+    "description": "Kami menawarkan berbagai pilihan dan operasi tanda tangan untuk semua kebutuhan e-signature Anda."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen ke dalam instance {{TextSignature}}",
+    "comment_2": "Buat objek {{QrCodeSignOptions}} baru",
+    "comment_3": "Siapkan semua opsi yang diperlukan",
+    "comment_4": "Simpan dokumen yang telah ditandatangani ke sistem Anda"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk e-sign {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), pengembang {{EnvName}} dapat dengan mulus mengintegrasikan fungsionalitas tanda tangan ke dalam dokumen {{FileFormatUp}}. Tambahkan tanda tangan yang disesuaikan ke aplikasi Anda.",
+      "step_1": "Muat file {{FileFormatUp}} ke dalam instance {{TextSignature}}.",
+      "step_2": "Gunakan {{SignOptions}} untuk mengonfigurasi pengaturan tanda tangan.",
+      "step_3": "Sesuaikan properti tanda tangan seperti ukuran, warna, dan konten.",
+      "step_4": "Simpan dokumen yang telah ditandatangani ke lokasi yang diinginkan."
+    }
+  },
+  "code_1": {
+    "title": "Cara menambahkan tanda tangan gambar ke dokumen",
+    "content": "Contoh ini menunjukkan bagaimana menerapkan tanda tangan gambar ke halaman tertentu dari sebuah dokumen.",
+    "comment_1": "Muat dokumen yang ingin Anda tanda tangani",
+    "comment_2": "Atur jalur untuk gambar dalam opsi tanda tangan",
+    "comment_3": "Tentukan ukuran dan penempatan tanda tangan pada halaman target",
+    "comment_4": "Terapkan tanda tangan dan simpan dokumen yang telah ditandatangani"
+  }
+}

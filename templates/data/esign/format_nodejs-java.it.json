@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Firma {{FileFormatUp}} con firme elettroniche in {{ProgLang}}",
+    "description": "Sfrutta le capacità dell'API {{ProgLang}} per firmare digitalmente e proteggere i file {{FileFormatUp}}, inclusi PDF, documenti Word, fogli Excel, presentazioni e formati immagine."
+  },
+  "header": {
+    "title": "Firma file {{FileFormatUp}} elettronicamente",
+    "description": "Utilizza {{ProdFullName}} per inserire diverse firme digitali nei tuoi documenti, garantendo l'integrità dei dati e la conformità per file come PDF, Word, Excel, presentazioni e formati immagine.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica ora gratuitamente"
+  },
+  "about": {
+    "title": "Panoramica dell'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un set robusto di strumenti per aggiungere firme elettroniche. Con la sua API intuitiva, puoi firmare, cercare, verificare, modificare e rimuovere firme da vari tipi di file senza necessità di software esterno. Supporta la firma fluida di PDF, documenti Word, fogli Excel, diapositive PowerPoint e numerosi formati immagine."
+  },
+  "more_features": {
+    "title": "Capacità avanzate di firma digitale",
+    "description": "La nostra API avanzata semplifica le operazioni aziendali facilitando la firma automatizzata, la verifica, la modifica e la gestione delle firme elettroniche per una gamma di documenti.",
+    "image_description": "Funzionalità della firma digitale",
+    "feature_1": {
+      "title": "Firma digitale per file di ufficio",
+      "content": "Aggiungi firme digitali facilmente a qualsiasi pagina o posizione all'interno di un documento. Personalizza le tue firme con opzioni come certificati digitali, metadati, codici a barre o elementi visivi per migliorare la sicurezza e l'integrità del documento."
+    },
+    "feature_2": {
+      "title": "Controllo completo delle firme",
+      "content": "Una volta firmato un documento, puoi gestire le sue firme senza sforzo. Recupera un elenco completo di tutte le firme, permettendoti di effettuare aggiornamenti o rimuoverle secondo necessità."
+    },
+    "feature_3": {
+      "title": "Rafforza la sicurezza del documento",
+      "content": "Utilizza certificati digitali per proteggere i tuoi documenti da manomissioni. Puoi incorporare o estrarre metadati per migliorare la tracciabilità e l'audit, garantendo la conformità e l'autenticità del documento."
+    }
+  },
+  "formats": {
+    "title": "Firma digitalmente più tipi di file",
+    "description": "L'API {{EnvName}} ti consente di applicare firme digitali a oltre 60 formati di file, offrendoti grande flessibilità nel garantire documenti aziendali critici."
+  },
+  "operations": {
+    "title": "Scopri le nostre ampie capacità",
+    "description": "Offriamo una vasta gamma di tipi di firma e operazioni ricche di funzionalità."
+  },
+  "examples": {
+    "comment_1": "Importa il documento in un'istanza di {{TextSignature}}",
+    "comment_2": "Istanziati un oggetto {{QrCodeSignOptions}}",
+    "comment_3": "Specifica tutte le opzioni necessarie",
+    "comment_4": "Salva il documento firmato sul disco locale"
+  },
+  "steps": {
+    "title": "Passaggi per firmare {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) semplifica il processo di aggiunta di firme personalizzate a file {{FileFormatUp}}. Gli sviluppatori {{EnvName}} possono incorporare senza difficoltà la funzionalità di firma nelle loro applicazioni.",
+      "step_1": "Carica il documento {{FileFormatUp}} nell'istanza {{TextSignature}}.",
+      "step_2": "Configura {{SignOptions}} per definire gli attributi della firma.",
+      "step_3": "Regola proprietà come dimensioni, colori e contenuto secondo necessità.",
+      "step_4": "Salva il documento firmato nella posizione specificata."
+    }
+  },
+  "code_1": {
+    "title": "Come applicare una firma immagine a un documento",
+    "content": "Questa guida illustra il processo per affiggere una firma immagine a una pagina designata all'interno di un documento.",
+    "comment_1": "Fornire il documento sorgente come parametro di input",
+    "comment_2": "Specifica il percorso del file dell'immagine nelle opzioni di configurazione della firma",
+    "comment_3": "Configura le dimensioni e specifica le pagine di destinazione per la firma",
+    "comment_4": "Attua l'applicazione della firma al documento"
+  }
+}

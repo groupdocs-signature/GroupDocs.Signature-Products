@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Tìm kiếm chữ ký điện tử trong các tệp {{FileFormatUp}} với {{ProgLang}}",
+    "description": "Khám phá sức mạnh của API {{ProdFullName}} để phát hiện và tìm kiếm chữ ký điện tử trong các tệp PDF, tài liệu Word, bảng tính Excel, bài trình bày và hình ảnh."
+  },
+  "header": {
+    "title": "Tìm kiếm chữ ký điện tử trong {{FileFormatUp}}",
+    "description": "Khám phá và thu thập thông tin chi tiết về tất cả chữ ký nhúng trong tệp PDF, Word, Excel, bài trình bày và hình ảnh bằng các công cụ tiên tiến mà {{ProdFullName}} cung cấp.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Bắt đầu miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một khung mạnh mẽ cho việc quản lý chữ ký điện tử trên một loạt các loại tệp. Hỗ trợ hơn 60 định dạng như PDF, tài liệu Microsoft Office, hình ảnh và tệp ZIP, API cho phép người dùng áp dụng, định vị, xác thực, cập nhật hoặc xóa nhiều loại chữ ký khác nhau, bao gồm văn bản, hình ảnh, mã vạch, chứng chỉ kỹ thuật số và nhiều hơn nữa."
+  },
+  "more_features": {
+    "title": "Giải pháp quản lý chữ ký toàn diện",
+    "description": "{{ProdFullName}} cung cấp một giải pháp tích hợp cho việc thêm, chỉnh sửa, tìm kiếm và xác thực chữ ký điện tử trên các định dạng tài liệu phổ biến. Nâng cao quy trình làm việc của bạn với các tính năng ký tài liệu tiên tiến.",
+    "image_description": "Các tính năng phát hiện chữ ký",
+    "feature_1": {
+      "title": "Ký điện tử các tệp kinh doanh",
+      "content": "Thêm chữ ký điện tử như văn bản, hình ảnh, mã vạch và chứng chỉ kỹ thuật số vào bất kỳ vị trí nào trong tài liệu của bạn. {{ProdShortName}} hỗ trợ ký trong PDF, Word, Excel, hình ảnh và nhiều hơn nữa, đảm bảo quản lý tài liệu linh hoạt."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký hiệu quả",
+      "content": "Sau khi ký, dễ dàng xác định tất cả chữ ký được nhúng trong một tài liệu. API cho phép tìm kiếm và thu thập chữ ký một cách toàn diện, cũng như khả năng cập nhật hoặc xóa chúng."
+    },
+    "feature_3": {
+      "title": "Bảo mật tài liệu và quản lý siêu dữ liệu",
+      "content": "Đảm bảo tính toàn vẹn của tài liệu bằng cách nhúng hoặc xóa siêu dữ liệu ẩn. Bảo vệ tệp của bạn khỏi những thay đổi không được phép bằng cách sử dụng chứng chỉ kỹ thuật số để niêm phong và xác thực nội dung tài liệu."
+    }
+  },
+  "formats": {
+    "title": "Định vị chữ ký trong nhiều loại tệp",
+    "description": "Với API {{ProdFullName}}, bạn có thể tìm kiếm và thu thập chữ ký điện tử một cách hiệu quả từ một loạt các định dạng tệp được hỗ trợ, tạo điều kiện thuận lợi cho việc tích hợp liền mạch vào quy trình làm việc tài liệu của bạn."
+  },
+  "operations": {
+    "title": "Các chức năng chính",
+    "description": "API toàn diện của chúng tôi cung cấp nhiều hoạt động được thiết kế để đơn giản hóa việc quản lý chữ ký tài liệu, từ ký đến xử lý sau và xác thực."
+  },
+  "examples": {
+    "comment_1": "Tạo một đối tượng {{TextSignature}} bằng đường dẫn tài liệu",
+    "comment_2": "Cấu hình {{TextSearchOptions}} để bao gồm mọi trang",
+    "comment_3": "Thực hiện tìm kiếm để định vị tất cả chữ ký văn bản trong tài liệu",
+    "comment_4": "Tổng hợp các chữ ký đã phát hiện để phân tích toàn diện"
+  },
+  "steps": {
+    "title": "Hướng dẫn tìm kiếm chữ ký trong {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp một công cụ mạnh mẽ để xác định chữ ký điện tử trong các tệp {{FileFormatUp}}. Các nhà phát triển {{EnvName}} có thể mở rộng chức năng ứng dụng của họ với giải pháp của chúng tôi.",
+      "step_1": "Chỉ định đường dẫn của tệp {{FileFormatUp}} để tìm kiếm chữ ký.",
+      "step_2": "Sử dụng {{SearchOptions}} để lọc kết quả tìm kiếm.",
+      "step_3": "Thực hiện phương thức Search để tìm các chữ ký.",
+      "step_4": "Xem danh sách các chữ ký đã phát hiện."
+    }
+  },
+  "code_1": {
+    "title": "Xác định chữ ký hình ảnh",
+    "content": "Ví dụ này minh họa cách phát hiện một chữ ký hình ảnh trong một tài liệu cụ thể.",
+    "comment_1": "Cung cấp tài liệu nguồn làm tham số cho bộ tạo",
+    "comment_2": "Tìm kiếm bất kỳ chữ ký nào thuộc loại văn bản",
+    "comment_3": "Hiển thị phát hiện với các thuộc tính toàn diện của các chữ ký đã phát hiện"
+  }
+}

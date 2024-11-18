@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Selos redondos e quadrados {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Use {{ProdFullName}} para gerar e incorporar selos personalizados em arquivos {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Gere selos para arquivos {{FileFormatUp}}",
+    "description": "Integre perfeitamente selos projetados sob medida em qualquer seção de seus documentos usando {{ProdFullName}}, oferecendo flexibilidade extensiva para a colocação e configuração dos selos conforme suas necessidades comerciais.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe sua versão gratuita"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta versátil que permite a inserção de múltiplos tipos de assinatura em documentos, incluindo selos personalizáveis. Suportando mais de 60 formatos de arquivo, de PDFs e documentos do Word a imagens e arquivos ZIP, você pode enriquecer seus documentos com texto, imagens, códigos de barras, metadados, certificados digitais e selos. Além disso, você tem total controle para pesquisar, validar, modificar ou remover qualquer assinatura aplicada aos seus arquivos."
+  },
+  "more_features": {
+    "title": "Aproveite as assinaturas para garantir e melhorar a integridade dos documentos",
+    "description": "Com a biblioteca {{ProdFullName}}, você pode integrar a funcionalidade de assinatura em seus documentos. Adicione, modifique, verifique ou remova facilmente selos personalizados e outros tipos de assinatura, oferecendo flexibilidade e precisão para a gestão segura de documentos.",
+    "image_description": "Assinaturas de Selo Powered by {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinatura de documentos abrangente",
+      "content": "Melhore seus documentos colocando assinaturas, incluindo texto, imagens, códigos de barras, códigos QR e selos, em qualquer posição ou página dentro do arquivo. Além disso, gerencie metadados incorporados e aplique certificados digitais para proteger contra alterações não autorizadas."
+    },
+    "feature_2": {
+      "title": "Busca e validação de assinatura eficientes",
+      "content": "Após a assinatura, verifique a autenticidade e integridade das assinaturas do documento. Utilize funcionalidades de busca avançada para recuperar e gerenciar todos os dados de assinatura incorporados no documento."
+    },
+    "feature_3": {
+      "title": "Modificar e personalizar assinaturas",
+      "content": "Ajuste assinaturas previamente inseridas com precisão. Se você precisar mudar o conteúdo, posição, tamanho ou cor, nossa solução oferece total flexibilidade para modificação de assinaturas."
+    },
+    "feature_4": {
+      "title": "Remova assinaturas sem esforço",
+      "content": "Quando assinaturas precisam ser removidas, {{ProdFullName}} fornece um conjunto completo de ferramentas para deletar qualquer tipo de assinatura, incluindo selos, certificados digitais e mais, garantindo que seus documentos permaneçam atualizados e em conformidade."
+    }
+  },
+  "formats": {
+    "title": "Aplique selos em diversos formatos de documento",
+    "description": "A API {{ProdShortName}} permite que você incorpore selos em mais de 60 tipos de arquivos padrão da indústria. Aplique facilmente selos personalizados em qualquer local dentro de seus documentos, permitindo maior rastreamento e personalização dos documentos."
+  },
+  "operations": {
+    "title": "Explore funcionalidades essenciais",
+    "description": "Descubra uma ampla gama de opções para criar, gerenciar e deletar diversos tipos de assinaturas, garantindo controle abrangente sobre seus fluxos de trabalho de documentos."
+  },
+  "examples": {
+    "comment_1": "Integre o caminho do documento com a instância {{TextSignature}}",
+    "comment_2": "Inicialize {{StampSignOptions}} com o conteúdo de assinatura necessário",
+    "comment_3": "Incorpore uma ou várias linhas de selos",
+    "comment_4": "Preserve o documento com o selo aplicado"
+  },
+  "steps": {
+    "title": "Como incorporar um selo em {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) oferece uma robusta funcionalidade de criação de selos, ideal para aprimorar aplicações {{EnvName}}. Aproveite essa ferramenta para criar e implementar selos altamente personalizados em suas páginas de documentos.",
+      "step_1": "Forneça o documento {{FileFormatUp}} a ser selado.",
+      "step_2": "Utilize {{StampSignOptions}} para configurar meticulosamente todos os parâmetros necessários.",
+      "step_3": "Adicione múltiplas linhas de selo conforme suas necessidades.",
+      "step_4": "Aplique o selo configurado e salve o documento modificado."
+    }
+  },
+  "code_1": {
+    "title": "Implemente selos personalizados em documentos",
+    "content": "Descubra como elaborar e integrar selos personalizados contendo informações textuais críticas em seus documentos.",
+    "comment_1": "Forneça o documento a ser selado",
+    "comment_2": "Inicialize as opções de selo com as configurações desejadas",
+    "comment_3": "Defina as dimensões e a posição do selo na página",
+    "comment_4": "Incorpore linhas circulares externas com texto",
+    "comment_5": "Integre linhas quadradas internas, se necessário",
+    "comment_6": "Finalize e salve o documento selado"
+  }
+}

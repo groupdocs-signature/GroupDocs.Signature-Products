@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Modifica le firme {{FileFormatUp}} nelle applicazioni {{ProgLang}}",
+    "description": "Utilizza l'API {{ProgLang}} per modificare le firme all'interno dei documenti {{FileFormatUp}}, inclusi PDF, file Word, fogli Excel, presentazioni e immagini."
+  },
+  "header": {
+    "title": "Aggiorna senza sforzo le firme {{FileFormatUp}}",
+    "description": "Ottieni il pieno controllo per modificare una varietà di firme elettroniche nei principali formati come PDF, Word, Excel, presentazioni e immagini con le funzionalità avanzate di {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratis"
+  },
+  "about": {
+    "title": "Sblocca le funzionalità di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) non offre solo una robusta firma dei documenti, ma ti consente anche di modificare facilmente le firme esistenti. Regola le proprietà delle firme in formati ampiamente utilizzati come PDF, Word, Excel e presentazioni PowerPoint con uno sforzo minimo."
+  },
+  "more_features": {
+    "title": "Gestione completa delle firme per documenti",
+    "description": "{{ProdFullName}} semplifica il tuo flusso di lavoro documentale permettendoti di aggiungere, aggiornare, cercare, verificare o rimuovere firme in tutti i principali formati di file.",
+    "image_description": "Modifica avanzata delle firme",
+    "feature_1": {
+      "title": "Firma dei documenti flessibile",
+      "content": "Applica una vasta gamma di firme, comprese testo, immagini, codici a barre e timbri, a qualsiasi sezione del tuo documento. Modifica i metadati incorporati come i dati EXIF nelle immagini e proteggi i documenti contro modifiche non autorizzate utilizzando certificati digitali."
+    },
+    "feature_2": {
+      "title": "Ricerca e validazione delle firme",
+      "content": "Verifica facilmente le firme con i nostri strumenti potenti. Recupera un elenco completo delle firme in un documento, garantendo una verifica rapida e accurata."
+    },
+    "feature_3": {
+      "title": "Aggiornamenti semplificati delle firme",
+      "content": "Aggiorna le firme precedentemente incorporate senza sforzo. Modifica il contenuto, lo stile, la posizione o qualsiasi altro aspetto della firma per soddisfare i nuovi requisiti."
+    },
+    "feature_4": {
+      "title": "Rimozione delle firme senza difficoltà",
+      "content": "Ottieni il pieno controllo sulla gestione delle firme, con la possibilità di rimuovere qualsiasi tipo di firma dal tuo documento, offrendoti totale flessibilità sul suo contenuto."
+    }
+  },
+  "formats": {
+    "title": "Modifica le firme attraverso più formati",
+    "description": "Con l'API {{EnvName}}, puoi modificare i documenti firmati senza difficoltà. Estrai e aggiorna i dati delle firme dai formati supportati, mantenendo il pieno controllo sull'integrità del documento."
+  },
+  "operations": {
+    "title": "Esplora l'intero set di funzionalità",
+    "description": "Naviga nell'ampia lista di formati di firme e operazioni supportati dalla nostra piattaforma."
+  },
+  "examples": {
+    "comment_1": "Crea un oggetto {{TextSignature}} con il percorso del documento",
+    "comment_2": "Cerca le firme testuali nel documento",
+    "comment_3": "Aggiorna il contenuto della prima firma trovata",
+    "comment_4": "Verifica i risultati dell'aggiornamento della firma"
+  },
+  "steps": {
+    "title": "Come modificare le firme in {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente ai sviluppatori {{EnvName}} di modificare le firme testuali già incorporate in file {{FileFormatUp}}. Migliora le tue applicazioni {{EnvName}} con funzionalità avanzate.",
+      "step_1": "Carica il documento {{FileFormatUp}} nell'istanza {{TextSignature}}.",
+      "step_2": "Recupera un elenco di tutte le firme nel documento.",
+      "step_3": "Modifica il contenuto di qualsiasi firma identificata.",
+      "step_4": "Verifica i risultati della modifica della firma."
+    }
+  },
+  "code_1": {
+    "title": "Modifica le firme con codice a barre",
+    "content": "Questo esempio dimostra come modificare programmaticamente le firme con codice a barre in un documento.",
+    "comment_1": "Carica un documento che contiene firme con codice a barre",
+    "comment_2": "Cerca tutte le firme con codice a barre esistenti",
+    "comment_3": "Cambia la posizione della prima firma con codice a barre trovata e salva il documento",
+    "comment_4": "Verifica che la modifica del codice a barre sia stata eseguita con successo"
+  }
+}

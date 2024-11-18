@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T18:17:26
+date:  2024-11-18T11:52:19
 draft: false
 lang: en
 format: Pptx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Delete signatures from PPTX using Java"
-head_description: "Deletion of Digital, Barcode, Text, Image, Metadata signatures from signed PPTX documents can be performed easily using GroupDocs.Signature for Java."
+head_title: "Remove signatures from PPTX using Java"
+head_description: "Removing of Digital, Barcode, Text, Image, Metadata signatures from signed PPTX documents can be performed easily using GroupDocs.Signature for Java."
 
 ############################# Header ############################
-title: "Remove signatures from PPTX" 
+title: "Delete signatures from PPTX" 
 description: "Our solution not only allows you to sign business documents but also provides the capability to locate and remove various types of signatures using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -247,13 +247,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"
@@ -300,7 +300,7 @@ more_formats:
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Delete DOCX signatures"
+        - name: "Remove DOCX signatures"
           format: "DOCX"
           link: "/signature/java/delete/docx/"
           description: "Microsoft Word Open XML Document"

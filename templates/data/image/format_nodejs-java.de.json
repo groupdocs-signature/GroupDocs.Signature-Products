@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Bildunterschriften zu {{FileFormatUp}}-Dateien mit {{ProgLang}} hinzufügen",
+    "description": "Fügen Sie Bildunterschriften zu {{FileFormatUp}}-Dateien für {{EnvNameShort}} mit nur wenigen Codezeilen hinzu. Verwenden Sie die {{ProdFullName}}-API, um Bilder hinzuzufügen."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Dateien mit Bildunterschriften signieren",
+    "description": "Nutzen Sie die Funktionen von {{ProdFullName}}, um Bilder in eine Vielzahl von Office-Dokumentformaten wie PDF, Word, Excel und verschiedenen Bilddateien einzufügen. Das Hinzufügen eines Unternehmenssignaturbildes kann die Professionalität und Glaubwürdigkeit Ihrer Dokumente erheblich steigern und eine raffinierte Präsentation schaffen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "{{ProdFullName}} vorstellen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ermöglicht es Benutzern, Bildunterschriften an beliebiger Stelle in ihren Dokumenten einzufügen. Dieses Tool ermöglicht es Unternehmen, ihre Workflows zu optimieren, indem Bilder in PDFs, Word, Excel, PowerPoint und gängige Bildformate eingefügt werden, wodurch die Effizienz des Dokumentenmanagements verbessert wird."
+  },
+  "more_features": {
+    "title": "Erweiterte Funktionen zur Dokumentensignatur",
+    "description": "Unsere API bietet ein umfassendes Funktionspaket, das elektronische Signaturen vereinfacht. Sie können verschiedene Arten von Signaturen, einschließlich Bildunterschriften, hinzufügen, ändern, entfernen, suchen und validieren.",
+    "image_description": "Bildunterschriften",
+    "feature_1": {
+      "title": "Bilder in Office-Dokumente einfügen",
+      "content": "Platzieren Sie Bildunterschriften überall in Ihrem Dokument, sei es in PDF-, Word- oder Excel-Dateien. Verbessern Sie Ihre Dokumente, indem Sie Bilder, Barcodes, Metadaten oder digitale Zertifikate für zusätzliche Funktionalität hinzufügen."
+    },
+    "feature_2": {
+      "title": "Signaturen suchen und validieren",
+      "content": "Stellen Sie die Authentizität Ihrer signierten Dokumente sicher, indem Sie die Signaturen überprüfen. Nutzen Sie die Suchfunktion, um alle in Ihrem Dokument eingebetteten Signaturen abzurufen und zu überprüfen."
+    },
+    "feature_3": {
+      "title": "Vorhandene Signaturen ändern",
+      "content": "Unsere API ermöglicht es Benutzern, Signaturen nach Bedarf zu aktualisieren und anzupassen. Ändern Sie die Größe, Position oder andere Attribute einer zuvor hinzugefügten Signatur für Flexibilität im Dokumentenhandling."
+    },
+    "feature_4": {
+      "title": "Unnötige Signaturen entfernen",
+      "content": "Verwalten Sie Ihre Dokumente effizient, indem Sie Signaturen entfernen, die nicht mehr benötigt werden. Unsere API unterstützt vollständige CRUD-Operationen für fast alle Signaturtypen."
+    }
+  },
+  "formats": {
+    "title": "Bilder zu verschiedenen Dateitypen hinzufügen",
+    "description": "Die {{EnvName}}-API ermöglicht es Ihnen, Bilder in eine breite Palette von Dokumentenformaten einzufügen. Passen Sie Größe, Platzierung und Seitenpositionierung an, um Ihren Dokumentensignaturprozess zu verbessern."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Funktionen, die wir anbieten",
+    "description": "Wir sind stolz darauf, eine breite Auswahl an Signaturmethoden und -operationen anzubieten."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} mit dem Pfad zum Dokument initialisieren",
+    "comment_2": "{{ImageSignOptions}} konfigurieren, um die gewünschte Bildunterschrift einzuschließen",
+    "comment_3": "Das Bild in der oberen linken Ecke aller Seiten platzieren",
+    "comment_4": "Das Dokument mit der angewendeten Bildunterschrift speichern"
+  },
+  "steps": {
+    "title": "Anleitung zum Hinzufügen von Bildern in {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es {{EnvName}}-Anwendungen, Bildunterschriften mühelos in {{FileFormatUp}}-Dokumente zu integrieren. Erweitern Sie die Fähigkeiten Ihrer Anwendung mit unserer umfassenden Bibliothek.",
+      "step_1": "{{TextSignature}} mit dem {{FileFormatUp}}-Dokument instanziieren",
+      "step_2": "{{ImageSignOptions}} verwenden, um das Signaturbild festzulegen",
+      "step_3": "Das Bild präzise auf einer beliebigen Seite positionieren",
+      "step_4": "Das signierte Dokument am gewünschten Speicherort speichern"
+    }
+  },
+  "code_1": {
+    "title": "Dokumente mit Bildunterschriften verbessern",
+    "content": "Erfahren Sie, wie Sie Bilder in Geschäftsdokumente einfügen, um zusätzliche Informationen hinzuzufügen.",
+    "comment_1": "Wählen Sie das zu signierende Dokument aus",
+    "comment_2": "Bilderoptionen mit dem Bildpfad konfigurieren",
+    "comment_3": "Die Größe der Bildunterschrift anpassen",
+    "comment_4": "Das Bild in der unteren rechten Ecke platzieren",
+    "comment_5": "Falls erforderlich, Padding von den Seitenrändern hinzufügen",
+    "comment_6": "Optional einen benutzerdefinierten Rahmen um das Bild hinzufügen",
+    "comment_7": "Die Bildunterschrift für ein optimales Erscheinungsbild drehen",
+    "comment_8": "Das aktualisierte Dokument am gewünschten Speicherort speichern"
+  }
+}

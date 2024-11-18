@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Crie código QR para {{FileFormatUp}} com {{ProgLang}}",
+    "description": "A API {{ProdShortName}} permite a geração de códigos QR para arquivos {{FileFormatUp}}. Crie códigos QR a partir do seu conteúdo e insira-os em qualquer página."
+  },
+  "header": {
+    "title": "Crie códigos QR para {{FileFormatUp}}",
+    "description": "Crie códigos de barras 2D com dados de texto e numéricos e coloque-os em qualquer página de diversos documentos usando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Teste gratuito"
+  },
+  "about": {
+    "title": "Saiba mais sobre {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece uma ampla gama de recursos para gerar e inserir vários tipos de assinaturas em todos os principais formatos de documentos. Suporta PDFs, documentos do Word, planilhas do Excel, apresentações do PowerPoint e imagens. Aprimore seus documentos com assinaturas de Texto, Imagem, Código de Barras, QR Code, Metadados, Digital e Carimbo."
+  },
+  "more_features": {
+    "title": "Adicione assinaturas aos seus documentos",
+    "description": "A API {{ProdFullName}} suporta a assinatura de todos os formatos de arquivo populares. Gere, modifique, pesquise, verifique e exclua diferentes tipos de assinaturas.",
+    "image_description": "Recursos Principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinar documentos",
+      "content": "{{ProdShortName}} suporta assinatura com Textos, Imagens, Códigos de Barras, QR Codes e assinaturas de Carimbo. Coloque-as em qualquer página de qualquer formato de documento compatível. Gerencie metadados do documento com assinaturas de metadados e proteja o conteúdo de alterações não autorizadas usando certificados digitais."
+    },
+    "feature_2": {
+      "title": "Pesquisa e verificação",
+      "content": "Certifique-se de que todas as assinaturas em um documento são válidas com o procedimento de verificação. Recupere uma lista completa de assinaturas em um documento usando o recurso de pesquisa integrado."
+    },
+    "feature_3": {
+      "title": "Modificar assinaturas",
+      "content": "Modifique facilmente as propriedades da assinatura após a assinatura. Ajuste conteúdo, posição, cor, tamanho e outros atributos conforme necessário."
+    },
+    "feature_4": {
+      "title": "Remover assinaturas",
+      "content": "Exclua assinaturas indesejadas com facilidade. Vários tipos de assinaturas, incluindo certificados digitais, podem ser removidos programaticamente dos documentos."
+    }
+  },
+  "formats": {
+    "title": "Gere códigos QR para formatos de arquivo adicionais",
+    "description": "Aprimore todos os formatos de arquivo populares com códigos QR gerados usando a API {{EnvName}}. Adicione dados de código de barras 2D para fácil leitura e processamento."
+  },
+  "operations": {
+    "title": "Confira nossas principais ofertas",
+    "description": "Oferecemos uma seleção diversificada de recursos de assinatura e operações avançadas."
+  },
+  "examples": {
+    "comment_1": "Passe o documento para uma nova instância de {{TextSignature}}",
+    "comment_2": "Use {{QrCodeSignOptions}} para adicionar um código QR ao documento",
+    "comment_3": "Especifique o tipo de assinatura e a posição na página",
+    "comment_4": "Salve o arquivo com o código QR adicionado"
+  },
+  "steps": {
+    "title": "Passos para gerar e colocar um código QR em qualquer localização em um {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) pode gerar códigos QR em muitos formatos populares e inseri-los nas páginas de {{FileFormatUp}}. Mais de 10 tipos de códigos QR são suportados e podem ser rapidamente integrados em aplicações {{EnvName}}. Use nosso produto para assinar documentos com códigos QR gerados.",
+      "step_1": "Obtenha o arquivo ou stream {{FileFormatUp}} a ser assinado com um código QR.",
+      "step_2": "Forneça o texto para {{QrCodeSignOptions}}.",
+      "step_3": "Personalize opções visuais, como cor, posição, tamanho, etc.",
+      "step_4": "Salve o arquivo com o código QR."
+    }
+  },
+  "code_1": {
+    "title": "Como personalizar um código QR gerado",
+    "content": "Use este exemplo para aprender a inserir um novo código QR em uma página {{FileFormatUp}}.",
+    "comment_1": "Obtenha o documento que precisa ser assinado e passe-o para {{TextSignature}}",
+    "comment_2": "Use opções de código QR para fornecer texto com as informações necessárias",
+    "comment_3": "Defina a posição relativa do código QR na página",
+    "comment_4": "Defina a margem da assinatura",
+    "comment_5": "Especifique a cor do código QR",
+    "comment_6": "Defina as opções de fonte para a mensagem",
+    "comment_7": "Personalize a cor e o estilo de fundo do código QR",
+    "comment_8": "Adicione o código QR ao documento"
+  }
+}

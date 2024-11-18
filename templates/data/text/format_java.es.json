@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Cree firmas de texto en {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Aproveche la API de {{ProgLang}} para insertar firmas de texto en archivos {{FileFormatUp}}. Procese sin problemas formatos de documento populares, incluidos PDF, Word, Excel, presentaciones, imágenes y ZIP."
+  },
+  "header": {
+    "title": "Cree firmas de texto para {{FileFormatUp}}",
+    "description": "Agregue firmas de texto personalizadas a sus documentos comerciales utilizando {{ProdFullName}}. Optimice los flujos de trabajo organizacionales con opciones de personalización de firmas.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Comience gratis"
+  },
+  "about": {
+    "title": "Acerca de la solución {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece firmas de texto flexibles y personalizables para simplificar sus tareas de gestión documental. Configure el contenido y el diseño de las firmas de texto y aplíquelas a cualquier página, mejorando el flujo de trabajo de documentos de su organización."
+  },
+  "more_features": {
+    "title": "Gestione firmas de texto en documentos",
+    "description": "Con {{ProdFullName}}, puede optimizar el flujo de trabajo documental de su empresa añadiendo firmas de texto a formatos de archivo populares. Configure fácilmente la apariencia y el contenido de las firmas.",
+    "image_description": "Características clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firmas para documentos",
+      "content": "Aplique firmas de texto, imagen, código de barras, código QR o sello a cualquier página de documentos soportados. Aproveche los metadatos para incrustar contenido oculto y proteger sus documentos con certificados digitales."
+    },
+    "feature_2": {
+      "title": "Búsqueda y verificación de firmas",
+      "content": "Asegure la integridad de sus documentos firmados con nuestra herramienta de verificación de firmas. También puede recuperar y buscar todas las firmas incrustadas en un documento."
+    },
+    "feature_3": {
+      "title": "Modificar o eliminar firmas",
+      "content": "Modifique el contenido, la posición y la apariencia de las firmas previamente añadidas, o elimínelas completamente del documento."
+    },
+    "feature_4": {
+      "title": "Firmas de texto nativas",
+      "content": "Agregue firmas de texto específicas del documento, como sellos en PDFs o marcas de agua en documentos de Word, para una personalización mejorada."
+    }
+  },
+  "formats": {
+    "title": "Agregue firmas de texto a varios formatos de archivo",
+    "description": "Utilice la API {{EnvName}} para insertar firmas textuales en documentos de Office, asegurando un control total sobre el contenido en cada etapa del ciclo de vida del documento."
+  },
+  "operations": {
+    "title": "Características clave y opciones de firma",
+    "description": "Nuestra solución admite operaciones CRUD completas y más para siete tipos diferentes de firmas."
+  },
+  "examples": {
+    "comment_1": "Pase la ruta del documento al constructor de {{TextSignature}}",
+    "comment_2": "Instancie {{TextSignOptions}} con el texto de la firma",
+    "comment_3": "Configure el color del texto y los atributos de la fuente",
+    "comment_4": "Agregue la firma de texto al documento"
+  },
+  "steps": {
+    "title": "Pasos para agregar firmas de texto a {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) se puede integrar en aplicaciones {{EnvName}} para agregar firmas de texto a documentos {{FileFormatUp}}. Los desarrolladores pueden mejorar rápidamente la funcionalidad de sus productos utilizando nuestras soluciones.",
+      "step_1": "Utilice el documento {{FileFormatUp}} como parámetro para el constructor de la clase {{TextSignature}}.",
+      "step_2": "Instancie {{TextSignOptions}} con el texto apropiado.",
+      "step_3": "Configure las opciones visuales para la firma.",
+      "step_4": "Agregue la firma de texto a cualquier página(s) del documento."
+    }
+  },
+  "code_1": {
+    "title": "Marque documentos con firmas de texto",
+    "content": "Aprenda a agregar información textual a documentos comerciales para mejorar los procesos empresariales.",
+    "comment_1": "Seleccione un documento a ser firmado",
+    "comment_2": "Cree opciones de texto con el texto deseado",
+    "comment_3": "Especifique el tamaño y la posición de la firma en la página",
+    "comment_4": "Las firmas admiten el espacio desde las esquinas de la página",
+    "comment_5": "El color del texto y el estilo de la fuente se pueden personalizar",
+    "comment_6": "Las firmas de texto pueden incluir un borde",
+    "comment_7": "La personalización del fondo también está disponible",
+    "comment_8": "El texto se puede guardar como una imagen para compatibilidad",
+    "comment_9": "Guarde el documento con el texto añadido"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Chỉnh sửa chữ ký {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "Sử dụng API {{ProgLang}} để sửa đổi chữ ký trong các tài liệu {{FileFormatUp}}, bao gồm PDF, tệp Word, bảng tính Excel, bài thuyết trình và hình ảnh."
+  },
+  "header": {
+    "title": "Cập nhật chữ ký {{FileFormatUp}} một cách dễ dàng",
+    "description": "Đạt được quyền kiểm soát hoàn toàn để chỉnh sửa nhiều loại chữ ký điện tử trong các định dạng lớn như PDF, Word, Excel, bài thuyết trình và hình ảnh với những tính năng nâng cao của {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Khám phá khả năng của {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) không chỉ cung cấp chức năng ký tài liệu mạnh mẽ mà còn cho phép bạn sửa đổi chữ ký hiện có một cách dễ dàng. Điều chỉnh các thuộc tính chữ ký trong các định dạng phổ biến như PDF, Word, Excel và PowerPoint với ít nỗ lực."
+  },
+  "more_features": {
+    "title": "Quản lý chữ ký toàn diện cho tài liệu",
+    "description": "{{ProdFullName}} đơn giản hóa quy trình công việc của bạn bằng cách cho phép bạn thêm, cập nhật, tìm kiếm, xác minh hoặc xóa chữ ký trên tất cả các định dạng tệp chính.",
+    "image_description": "Chỉnh sửa chữ ký nâng cao",
+    "feature_1": {
+      "title": "Ký tài liệu linh hoạt",
+      "content": "Áp dụng nhiều loại chữ ký, bao gồm văn bản, hình ảnh, mã vạch và con dấu, vào bất kỳ phần nào của tài liệu của bạn. Chỉnh sửa siêu dữ liệu nhúng như dữ liệu EXIF trong hình ảnh và bảo mật tài liệu chống lại những thay đổi không được ủy quyền bằng chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Xác minh chữ ký một cách dễ dàng với các công cụ mạnh mẽ của chúng tôi. Lấy danh sách đầy đủ các chữ ký trong một tài liệu, đảm bảo quá trình xác minh nhanh chóng và chính xác."
+    },
+    "feature_3": {
+      "title": "Cập nhật chữ ký đơn giản",
+      "content": "Cập nhật các chữ ký đã nhúng trước đó một cách dễ dàng. Điều chỉnh nội dung, kiểu dáng, vị trí, hoặc bất kỳ khía cạnh nào khác của chữ ký để đáp ứng các yêu cầu mới."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký không phức tạp",
+      "content": "Có quyền kiểm soát hoàn toàn đối với việc quản lý chữ ký, với khả năng xóa bất kỳ loại chữ ký nào khỏi tài liệu của bạn, mang lại cho bạn sự linh hoạt tối đa đối với nội dung của nó."
+    }
+  },
+  "formats": {
+    "title": "Chỉnh sửa chữ ký trên nhiều định dạng",
+    "description": "Với API {{EnvName}}, bạn có thể dễ dàng sửa đổi các tài liệu đã ký. Trích xuất và cập nhật dữ liệu chữ ký từ các định dạng hỗ trợ, duy trì quyền kiểm soát hoàn toàn đối với tính toàn vẹn của tài liệu của bạn."
+  },
+  "operations": {
+    "title": "Khám phá toàn bộ bộ tính năng",
+    "description": "Duyệt qua danh sách rộng rãi các định dạng chữ ký và các hoạt động được hỗ trợ bởi nền tảng của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Tạo một đối tượng {{TextSignature}} với đường dẫn tài liệu",
+    "comment_2": "Tìm kiếm chữ ký văn bản trong tài liệu",
+    "comment_3": "Cập nhật nội dung của chữ ký đầu tiên được tìm thấy",
+    "comment_4": "Xác minh kết quả của việc cập nhật chữ ký"
+  },
+  "steps": {
+    "title": "Cách chỉnh sửa chữ ký trong {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép các nhà phát triển {{EnvName}} chỉnh sửa chữ ký văn bản đã nhúng trong các tệp {{FileFormatUp}}. Nâng cao các ứng dụng {{EnvName}} của bạn với tính năng nâng cao.",
+      "step_1": "Tải tài liệu {{FileFormatUp}} vào thực thể {{TextSignature}}.",
+      "step_2": "Lấy danh sách tất cả các chữ ký trong tài liệu.",
+      "step_3": "Chỉnh sửa nội dung của bất kỳ chữ ký nào đã xác định.",
+      "step_4": "Xác minh kết quả của việc sửa đổi chữ ký."
+    }
+  },
+  "code_1": {
+    "title": "Chỉnh sửa chữ ký mã vạch",
+    "content": "Ví dụ này minh họa cách chỉnh sửa chương trình chữ ký mã vạch trong một tài liệu.",
+    "comment_1": "Tải một tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Tìm kiếm tất cả các chữ ký mã vạch hiện có",
+    "comment_3": "Thay đổi vị trí của mã vạch đầu tiên được tìm thấy và lưu tài liệu",
+    "comment_4": "Xác minh rằng việc sửa đổi mã vạch đã thành công"
+  }
+}

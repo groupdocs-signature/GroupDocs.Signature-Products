@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:27
+date:  2024-11-18T11:51:53
 draft: false
 lang: en
 format: Jpeg
@@ -236,13 +236,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/python-net/qrcode/jpeg/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/python-net/digital/pdf/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

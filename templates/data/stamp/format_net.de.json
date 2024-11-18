@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Runde und quadratische Stempel {{FileFormatUp}} über {{ProgLang}}",
+    "description": "Verwenden Sie {{ProdFullName}}, um personalisierte Stempel in {{FileFormatUp}}-Dateien zu generieren und einzubetten."
+  },
+  "header": {
+    "title": "Stempel für {{FileFormatUp}}-Dateien generieren",
+    "description": "Integrieren Sie nahtlos maßgeschneiderte Stempel in jeden Abschnitt Ihrer Dokumente mit {{ProdFullName}}. Bieten Sie umfangreiche Flexibilität für die Platzierung und Konfiguration von Stempeln, um Ihren geschäftlichen Anforderungen gerecht zu werden.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Laden Sie Ihre kostenlose Version herunter"
+  },
+  "about": {
+    "title": "Überblick über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein vielseitiges Werkzeug, das das Einfügen verschiedener Signaturtypen in Dokumente ermöglicht, einschließlich anpassbarer Stempel. Mit Unterstützung für über 60 Dateiformate, von PDFs und Word-Dokumenten bis hin zu Bildern und ZIP-Dateien, können Sie Ihre Dokumente mit Text, Bildern, Barcodes, Metadaten, digitalen Zertifikaten und Stempeln bereichern. Darüber hinaus haben Sie die volle Kontrolle, um nachzuverfolgen, zu validieren, zu ändern oder alle auf Ihre Dateien angewendeten Signaturen zu entfernen."
+  },
+  "more_features": {
+    "title": "Nutzen Sie Signaturen zur Sicherung und Verbesserung der Dokumentintegrität",
+    "description": "Mit der {{ProdFullName}}-Bibliothek können Sie die Signaturfunktionalität nahtlos in Ihre Dokumente integrieren. Fügen Sie benutzerdefinierte Stempel und andere Signaturtypen hinzu, ändern, überprüfen oder entfernen Sie sie ganz unkompliziert, um Flexibilität und Präzision im sicheren Dokumentenmanagement zu bieten.",
+    "image_description": "Stempel-Signaturen unterstützt durch {{ProdShortName}}",
+    "feature_1": {
+      "title": "Umfassendes Dokumentensignieren",
+      "content": "Verbessern Sie Ihre Dokumente, indem Sie Signaturen, einschließlich Text, Bilder, Barcodes, QR-Codes und Stempel, an beliebiger Stelle oder auf jeder Seite innerhalb der Datei platzieren. Verwalten Sie außerdem eingebettete Metadaten und wenden Sie digitale Zertifikate an, um unbefugte Änderungen zu verhindern."
+    },
+    "feature_2": {
+      "title": "Effiziente Signatursuche und -validierung",
+      "content": "Überprüfen Sie nach dem Signieren die Authentizität und Integrität von Dokumentensignaturen. Nutzen Sie die erweiterte Suchfunktionalität, um alle im Dokument eingebetteten Signaturdaten abzurufen und zu verwalten."
+    },
+    "feature_3": {
+      "title": "Ändern und Anpassen von Signaturen",
+      "content": "Ändern Sie zuvor eingefügte Signaturen mühelos. Egal, ob Sie den Inhalt, die Position, die Größe oder die Farbe ändern müssen, unsere Lösung bietet volle Flexibilität für die Signaturmodifikation."
+    },
+    "feature_4": {
+      "title": "Signaturen mühelos entfernen",
+      "content": "Wenn Signaturen entfernt werden müssen, bietet {{ProdFullName}} ein vollständiges Set von Werkzeugen, um jede Art von Signatur, einschließlich Stempeln, digitalen Zertifikaten und mehr, zu löschen und sicherzustellen, dass Ihre Dokumente aktuell und konform bleiben."
+    }
+  },
+  "formats": {
+    "title": "Wenden Sie Stempel auf verschiedene Dokumentenformate an",
+    "description": "Die {{ProdShortName}}-API ermöglicht das Einfügen von Stempeln in mehr als 60 branchenüblichen Dateitypen. Wenden Sie problemlos benutzerdefinierte Stempel an jedem Ort innerhalb Ihrer Dokumente an, um das Dokumenten-Tracking und die Personalisierung zu verbessern."
+  },
+  "operations": {
+    "title": "Entdecken Sie die Kernfunktionen",
+    "description": "Entdecken Sie eine Vielzahl von Optionen zum Erstellen, Verwalten und Löschen verschiedener Signaturtypen, um umfassende Kontrolle über Ihre Dokumentenabläufe zu gewährleisten."
+  },
+  "examples": {
+    "comment_1": "Integrieren Sie den Dokumentenpfad mit der {{TextSignature}}-Instanz",
+    "comment_2": "Initialisieren Sie {{StampSignOptions}} mit dem erforderlichen Signaturinhalt",
+    "comment_3": "Integrieren Sie eine oder mehrere Stempellinien",
+    "comment_4": "Speichern Sie das Dokument mit dem angewendeten Stempel"
+  },
+  "steps": {
+    "title": "Wie man einen Stempel in {{FileFormatUp}} mit {{ProgLang}} einfügt",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) bietet eine robuste Funktion zur Erstellung von Stempeln, ideal zum Enhancing {{EnvName}}-Anwendungen. Nutzen Sie dieses Werkzeug, um hochgradig angepasste Stempel auf Ihren Dokumentseiten zu gestalten und zu implementieren.",
+      "step_1": "Stellen Sie das {{FileFormatUp}}-Dokument bereit, das gestempelt werden soll.",
+      "step_2": "Verwenden Sie {{StampSignOptions}}, um alle erforderlichen Parameter sorgfältig zu konfigurieren.",
+      "step_3": "Fügen Sie mehrere Stempellinien gemäß Ihren Anforderungen hinzu.",
+      "step_4": "Wenden Sie den konfigurierten Stempel an und speichern Sie das modifizierte Dokument."
+    }
+  },
+  "code_1": {
+    "title": "Implementieren Sie benutzerdefinierte Stempel in Dokumenten",
+    "content": "Erfahren Sie, wie Sie benutzerdefinierte Stempel mit wichtigen textuellen Details in Ihre Dokumente erstellen und integrieren.",
+    "comment_1": "Liefern Sie das zu stempelnde Dokument bereit",
+    "comment_2": "Initialisieren Sie die Stempeloptionen mit den gewünschten Konfigurationen",
+    "comment_3": "Definieren Sie die Abmessungen und die Position des Stempels auf der Seite",
+    "comment_4": "Integrieren Sie äußere kreisförmige Linien mit Text",
+    "comment_5": "Integrieren Sie innere quadratische Linien, falls erforderlich",
+    "comment_6": "Schließen Sie ab und speichern Sie das gestempelte Dokument"
+  }
+}

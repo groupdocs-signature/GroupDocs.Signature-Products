@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Buat kode QR untuk {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "API {{ProdShortName}} memungkinkan pembuatan kode QR untuk file {{FileFormatUp}}. Buat kode QR dari konten Anda dan tempatkan di halaman mana pun."
+  },
+  "header": {
+    "title": "Buat kode QR untuk {{FileFormatUp}}",
+    "description": "Buat kode batang 2D dengan data teks dan numerik dan tempatkan di halaman mana pun dari berbagai dokumen menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Uji coba gratis"
+  },
+  "about": {
+    "title": "Pelajari lebih lanjut tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan berbagai fitur untuk menghasilkan dan menyisipkan berbagai jenis tanda tangan dalam semua format dokumen utama. Ini mendukung PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, dan gambar. Tingkatkan dokumen Anda dengan tanda tangan Teks, Gambar, Barcode, Kode QR, Metadata, Digital, dan Stempel."
+  },
+  "more_features": {
+    "title": "Tambahkan tanda tangan ke dokumen Anda",
+    "description": "API {{ProdFullName}} mendukung penandatanganan semua format file populer. Hasilkan, modifikasi, cari, verifikasi, dan hapus berbagai jenis tanda tangan.",
+    "image_description": "Fitur Utama {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tanda tangani dokumen",
+      "content": "{{ProdShortName}} mendukung penandatanganan dengan tanda tangan Teks, Gambar, Barcode, Kode QR, dan Stempel. Tempatkan mereka di halaman mana pun dari format dokumen yang didukung. Kelola metadata dokumen dengan tanda tangan metadata, dan lindungi konten dari perubahan yang tidak sah menggunakan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi",
+      "content": "Pastikan semua tanda tangan dalam dokumen valid melalui prosedur verifikasi. Ambil daftar lengkap tanda tangan dalam dokumen menggunakan fitur pencarian bawaan."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan",
+      "content": "Modifikasi sifat tanda tangan setelah tanda tangan dengan mudah. Sesuaikan konten, posisi, warna, ukuran, dan atribut lainnya sesuai kebutuhan."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan",
+      "content": "Hapus tanda tangan yang tidak diinginkan dengan mudah. Berbagai jenis tanda tangan, termasuk sertifikat digital, dapat dihapus secara programatis dari dokumen."
+    }
+  },
+  "formats": {
+    "title": "Hasilkan kode QR untuk format file tambahan",
+    "description": "Tingkatkan semua format file populer dengan kode QR yang dihasilkan menggunakan API {{EnvName}}. Tambahkan data barcode 2D untuk pemindaian dan pemrosesan yang mudah."
+  },
+  "operations": {
+    "title": "Periksa penawaran utama kami",
+    "description": "Kami menawarkan berbagai pilihan fitur tanda tangan dan operasi lanjutan."
+  },
+  "examples": {
+    "comment_1": "Serahkan dokumen ke instance {{TextSignature}} baru",
+    "comment_2": "Gunakan {{QrCodeSignOptions}} untuk menambahkan kode QR ke dokumen",
+    "comment_3": "Tentukan tipe tanda tangan dan posisinya di halaman",
+    "comment_4": "Simpan file dengan kode QR yang ditambahkan"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menghasilkan dan menempatkan kode QR di lokasi mana pun dalam {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) dapat menghasilkan kode QR dalam banyak format populer dan menempatkannya di halaman {{FileFormatUp}}. Lebih dari 10 jenis kode QR didukung dan dapat dengan cepat diintegrasikan ke dalam aplikasi {{EnvName}}. Gunakan produk kami untuk menandatangani dokumen dengan kode QR yang dihasilkan.",
+      "step_1": "Dapatkan file atau aliran {{FileFormatUp}} yang akan ditandatangani dengan kode QR.",
+      "step_2": "Sediakan teks untuk {{QrCodeSignOptions}}.",
+      "step_3": "Sesuaikan opsi visual seperti warna, posisi, ukuran, dll.",
+      "step_4": "Simpan file dengan kode QR."
+    }
+  },
+  "code_1": {
+    "title": "Cara menyesuaikan kode QR yang dihasilkan",
+    "content": "Gunakan contoh ini untuk belajar cara menempatkan kode QR baru di halaman {{FileFormatUp}}.",
+    "comment_1": "Ambil dokumen yang perlu ditandatangani dan serahkan ke {{TextSignature}}",
+    "comment_2": "Gunakan opsi kode QR untuk memberikan teks dengan informasi yang diperlukan",
+    "comment_3": "Tentukan posisi relatif kode QR di halaman",
+    "comment_4": "Tentukan padding tanda tangan",
+    "comment_5": "Tentukan warna kode QR",
+    "comment_6": "Tentukan opsi font untuk pesan",
+    "comment_7": "Sesuaikan warna latar belakang dan kuas kode QR",
+    "comment_8": "Tambahkan kode QR ke dokumen"
+  }
+}

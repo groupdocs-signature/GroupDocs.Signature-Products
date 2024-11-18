@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Entfernen von Unterschriften aus {{FileFormatUp}} mit {{ProgLang}}",
+    "description": "Die Entfernung von digitalen, Barcode-, Text-, Bild- und Metadatenunterschriften aus signierten {{FileFormatUp}}-Dokumenten kann mit {{ProdFullName}} problemlos durchgeführt werden."
+  },
+  "header": {
+    "title": "Unterschriften effizient aus {{FileFormatUp}} entfernen",
+    "description": "Neben der Digitalisierung von Geschäftsdokumenten bietet unsere Lösung umfassende Werkzeuge zum Auffinden und Entfernen einer Vielzahl von Unterschriften mit {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Überblick über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist ein leistungsstarkes Signierungstool, das die Hinzufügung verschiedener Unterschriftstypen ermöglicht, von Text und Bildern bis hin zu Barcodes, digitalen Zertifikaten und Stempeln. Es unterstützt über 60 Dateiformate, einschließlich PDF, MS Office, Bilder, ZIP und andere weit verbreitete GeschäftFormate, um Flexibilität im Dokumentenmanagement zu gewährleisten. Darüber hinaus können angewendete Unterschriften problemlos lokalisiert, authentifiziert, bearbeitet oder bei Bedarf entfernt werden."
+  },
+  "more_features": {
+    "title": "Optimieren Sie das Dokumentenmanagement mit fortschrittlichen Signatur-Tools",
+    "description": "{{ProdFullName}} ist sorgfältig gestaltet, um das Signieren und Verarbeiten von Geschäftsdokumenten zu verbessern, und ermöglicht die Hinzufügung, Änderung, Überprüfung oder Löschung von Unterschriften.",
+    "image_description": "Entdecken Sie die vielseitigen Funktionen von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Dokumentenunterschrift",
+      "content": "Fügen Sie mühelos Text-, Bild-, Barcode-, QR-Code- oder Stempelunterschriften auf jeder Seite unterstützter Dokumente ein. Nutzen Sie außerdem versteckte Metadaten wie EXIF in Bildern oder sichern Sie die Integrität des Dokuments mit digitalen Zertifikaten, um unbefugte Änderungen zu verhindern."
+    },
+    "feature_2": {
+      "title": "Unterschriften suchen und verifizieren",
+      "content": "Nutzen Sie unsere Werkzeuge, um die Authentizität von Unterschriften in Ihren Dokumenten sicherzustellen. Führen Sie umfassende Suchen durch, um eine vollständige Liste aller Unterschriften zu erstellen und so ein umfassendes Dokumentenmanagement zu gewährleisten."
+    },
+    "feature_3": {
+      "title": "Unterschriftenmodifikation",
+      "content": "Verfeinern Sie problemlos zuvor hinzugefügte Unterschriften, indem Sie Text anpassen, die Position ändern oder Farben ändern, um Ihren spezifischen Anforderungen gerecht zu werden."
+    },
+    "feature_4": {
+      "title": "Unterschriften löschen",
+      "content": "Unsere Lösung bietet umfassende CRUD-Funktionen für Unterschriften, sodass Sie effizient eine Vielzahl von Unterschriftstypen aus Ihren Dokumenten entfernen können, wenn dies erforderlich ist."
+    }
+  },
+  "formats": {
+    "title": "Entfernen von Unterschriften in mehreren Dateiformaten",
+    "description": "{{ProdFullName}} wurde entwickelt, um die Entfernung von Unterschriften aus einer umfangreichen Auswahl von über 60 Dateiformaten zu erleichtern und somit eine breite Kompatibilität und Funktionalität zu gewährleisten."
+  },
+  "operations": {
+    "title": "Entdecken Sie unsere hervorgehobenen Funktionen",
+    "description": "Wir freuen uns, eine große Auswahl unterstützter Unterschriftstypen und -operationen anzubieten."
+  },
+  "examples": {
+    "comment_1": "Übergeben Sie das Dokument mit den Unterschriften an die {{TextSignature}}-Instanz",
+    "comment_2": "Rufen Sie die digitalen Unterschriften im Dokument ab",
+    "comment_3": "Entfernen Sie die erste identifizierte digitale Unterschrift",
+    "comment_4": "Verarbeiten Sie das Ergebnis der Löschung"
+  },
+  "steps": {
+    "title": "So löschen Sie elektronische Unterschriften aus {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vereinfacht es Entwicklern von {{EnvName}}, elektronische Unterschriften in {{FileFormatUp}}-Dateien durch einfache Schritte zu entfernen.",
+      "step_1": "Geben Sie den Pfad der {{FileFormatUp}}-Datei an eine Instanz der {{TextSignature}}-Klasse weiter.",
+      "step_2": "Rufen Sie die Suchmethode auf, um alle Unterschriften im Dokument abzurufen.",
+      "step_3": "Löschen Sie eine oder mehrere der abgerufenen Unterschriften.",
+      "step_4": "Überprüfen Sie die Ergebnisse der Dokumentenverarbeitung."
+    }
+  },
+  "code_1": {
+    "title": "Alle Barcode-Unterschriften entfernen",
+    "content": "Erfahren Sie, wie Sie alle im Dokument eingebetteten Barcode-Unterschriften entfernen.",
+    "comment_1": "Liefern Sie ein Dokument mit Barcode-Unterschriften",
+    "comment_2": "Entfernen Sie alle Barcode-Unterschriften",
+    "comment_3": "Bewerten Sie das Ergebnis des Löschvorgangs"
+  }
+}

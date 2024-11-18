@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Formato di Documento Portabile Adobe"
+      },
+      "docx": {
+        "description": "Documento Open XML di Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Foglio di Calcolo Open XML di Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Presentazione Open XML di PowerPoint"
+      },
+      "jpeg": {
+        "description": "Immagine JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-Firma PDF",
+        "docx": "e-Firma DOCX",
+        "xlsx": "e-Firma XLSX",
+        "pptx": "e-Firma PPTX",
+        "jpeg": "e-Firma JPEG"
+      },
+      "text": {
+        "pdf": "Firme testuali PDF",
+        "docx": "Firme testuali DOCX",
+        "xlsx": "Firme testuali XLSX",
+        "pptx": "Firme testuali PPTX",
+        "jpeg": "Firme testuali JPEG"
+      },
+      "image": {
+        "pdf": "Firma PDF con immagine",
+        "docx": "Firma DOCX con immagine",
+        "xlsx": "Firma XLSX con immagine",
+        "pptx": "Firma PPTX con immagine",
+        "jpeg": "Firma JPEG con immagine"
+      },
+      "barcode": {
+        "pdf": "Aggiungi codice a barre a PDF",
+        "docx": "Aggiungi codice a barre a DOCX",
+        "xlsx": "Aggiungi codice a barre a XLSX",
+        "pptx": "Aggiungi codice a barre a PPTX",
+        "jpeg": "Aggiungi codice a barre a JPEG"
+      },
+      "qrcode": {
+        "pdf": "QR-Code per PDF",
+        "docx": "QR-Code per DOCX",
+        "xlsx": "QR-Code per XLSX",
+        "pptx": "QR-Code per PPTX",
+        "jpeg": "QR-Code per JPEG"
+      },
+      "digital": {
+        "pdf": "Proteggi PDF",
+        "docx": "Proteggi DOCX",
+        "xlsx": "Proteggi XLSX",
+        "pptx": "Proteggi PPTX"
+      },
+      "stamp": {
+        "pdf": "Apponi timbro su PDF",
+        "docx": "Apponi timbro su DOCX",
+        "xlsx": "Apponi timbro su XLSX",
+        "pptx": "Apponi timbro su PPTX",
+        "jpeg": "Apponi timbro su JPEG"
+      },
+      "search": {
+        "pdf": "Cerca firme in PDF",
+        "docx": "Trova firme in DOCX",
+        "xlsx": "Cerca firme in XLSX",
+        "pptx": "Trova firme in PPTX",
+        "jpeg": "Cerca firme in JPEG"
+      },
+      "verify": {
+        "pdf": "Verifica firme PDF",
+        "docx": "Verifica firme DOCX",
+        "xlsx": "Valida firme XLSX",
+        "pptx": "Verifica firme PPTX",
+        "jpeg": "Valida firme JPEG"
+      },
+      "modify": {
+        "pdf": "Modifica firme PDF",
+        "docx": "Modifica firme DOCX",
+        "xlsx": "Modifica firme XLSX",
+        "pptx": "Modifica firme PPTX",
+        "jpeg": "Modifica firme JPEG"
+      },
+      "delete": {
+        "pdf": "Elimina firme PDF",
+        "docx": "Rimuovi firme DOCX",
+        "xlsx": "Elimina firme XLSX",
+        "pptx": "Elimina firme PPTX",
+        "jpeg": "Rimuovi firme JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copia",
+      "result_title": "Firme di esempio",
+      "result_title_bottom": "Scarica il risultato",
+      "copy_tip": "clicca per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto per iniziare?",
+      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza.",
+      "comment_1": "Download di {{PackageStoreName}}",
+      "comment_2": "Licenze"
+    },
+    "texts": {
+      "learn_more": "Scopri di più"
+    },
+    "operations": {
+      "esign": {
+        "name": "Firme elettroniche",
+        "description": "Aggiungi vari tipi di firme ai formati di file supportati"
+      },
+      "text": {
+        "name": "Aggiungi testo ai documenti",
+        "description": "Migliora il contenuto del documento con firme testuali personalizzabili"
+      },
+      "image": {
+        "name": "Firme con immagine",
+        "description": "Posiziona qualsiasi immagine in qualsiasi punto di un documento"
+      },
+      "barcode": {
+        "name": "Genera codici a barre",
+        "description": "Crea e inserisci vari codici a barre nei documenti supportati"
+      },
+      "qrcode": {
+        "name": "Genera QR code",
+        "description": "Genera e QR code, incluso QR code, per la firma dei documenti"
+      },
+      "digital": {
+        "name": "Certificati digitali",
+        "description": "Proteggi documenti commerciali e firmali con certificati digitali"
+      },
+      "stamp": {
+        "name": "Firme a timbro",
+        "description": "Utilizza il Costruttore di Timbri per creare timbri personalizzati rotondi o quadrati"
+      },
+      "search": {
+        "name": "Cerca firme",
+        "description": "Trova qualsiasi firma precedentemente aggiunta all'interno di un documento"
+      },
+      "verify": {
+        "name": "Verifica delle firme",
+        "description": "Verifica l'autenticità delle firme dopo che sono state applicate"
+      },
+      "modify": {
+        "name": "Modifica firme",
+        "description": "Modifica facilmente una varietà di firme all'interno di un documento"
+      },
+      "delete": {
+        "name": "Elimina firme",
+        "description": "Rimuovi un'ampia gamma di firme precedentemente applicate"
+      }
+    }
+  }
+}

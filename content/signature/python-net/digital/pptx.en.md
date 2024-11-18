@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:28
+date:  2024-11-18T11:52:00
 draft: false
 lang: en
 format: Pptx
@@ -15,7 +15,7 @@ platform: "Python via .NET"
 platform_tag: "python-net"
 
 ############################# Head ############################
-head_title: "Apply digital signatures to PPTX using Python"
+head_title: "Create digital signatures to PPTX using Python"
 head_description: "Digitally sign PPTX documents using Python in just a few lines of code. Use GroupDocs.Signature for Python via .NET to sign a wide range of file formats."
 
 ############################# Header ############################
@@ -210,13 +210,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/python-net/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/python-net/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

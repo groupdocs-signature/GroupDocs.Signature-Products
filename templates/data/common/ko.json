@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "어도비 휴대용 문서 형식"
+      },
+      "docx": {
+        "description": "마이크로소프트 워드 개방 XML 문서"
+      },
+      "xlsx": {
+        "description": "마이크로소프트 엑셀 개방 XML 스프레드시트"
+      },
+      "pptx": {
+        "description": "파워포인트 개방 XML 프레젠테이션"
+      },
+      "jpeg": {
+        "description": "JPEG 이미지"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-서명 PDF",
+        "docx": "e-서명 DOCX",
+        "xlsx": "e-서명 XLSX",
+        "pptx": "e-서명 PPTX",
+        "jpeg": "e-서명 JPEG"
+      },
+      "text": {
+        "pdf": "PDF 텍스트 서명",
+        "docx": "DOCX 텍스트 서명",
+        "xlsx": "XLSX 텍스트 서명",
+        "pptx": "PPTX 텍스트 서명",
+        "jpeg": "JPEG 텍스트 서명"
+      },
+      "image": {
+        "pdf": "이미지로 PDF 서명",
+        "docx": "이미지로 DOCX 서명",
+        "xlsx": "이미지로 XLSX 서명",
+        "pptx": "이미지로 PPTX 서명",
+        "jpeg": "이미지로 JPEG 서명"
+      },
+      "barcode": {
+        "pdf": "PDF에 바코드 추가",
+        "docx": "DOCX에 바코드 추가",
+        "xlsx": "XLSX에 바코드 추가",
+        "pptx": "PPTX에 바코드 추가",
+        "jpeg": "JPEG에 바코드 추가"
+      },
+      "qrcode": {
+        "pdf": "PDF용 QR 코드",
+        "docx": "DOCX용 QR 코드",
+        "xlsx": "XLSX용 QR 코드",
+        "pptx": "PPTX용 QR 코드",
+        "jpeg": "JPEG용 QR 코드"
+      },
+      "digital": {
+        "pdf": "PDF 보호",
+        "docx": "DOCX 보호",
+        "xlsx": "XLSX 보호",
+        "pptx": "PPTX 보호"
+      },
+      "stamp": {
+        "pdf": "PDF에 도장",
+        "docx": "DOCX에 도장",
+        "xlsx": "XLSX에 도장",
+        "pptx": "PPTX에 도장",
+        "jpeg": "JPEG에 도장"
+      },
+      "search": {
+        "pdf": "PDF에서 서명 검색",
+        "docx": "DOCX에서 서명 찾기",
+        "xlsx": "XLSX에서 서명 검색",
+        "pptx": "PPTX에서 서명 찾기",
+        "jpeg": "JPEG에서 서명 검색"
+      },
+      "verify": {
+        "pdf": "PDF 서명 검증",
+        "docx": "DOCX 서명 검증",
+        "xlsx": "XLSX 서명 유효성 검사",
+        "pptx": "PPTX 서명 검증",
+        "jpeg": "JPEG 서명 유효성 검사"
+      },
+      "modify": {
+        "pdf": "PDF 서명 수정",
+        "docx": "DOCX 서명 편집",
+        "xlsx": "XLSX 서명 수정",
+        "pptx": "PPTX 서명 편집",
+        "jpeg": "JPEG 서명 수정"
+      },
+      "delete": {
+        "pdf": "PDF 서명 삭제",
+        "docx": "DOCX 서명 제거",
+        "xlsx": "XLSX 서명 삭제",
+        "pptx": "PPTX 서명 삭제",
+        "jpeg": "JPEG 서명 제거"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "result_title": "샘플 서명",
+      "result_title_bottom": "결과 다운로드",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사됨",
+      "links": {
+        "title_1": "더 많은 예제",
+        "title_2": "문서"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}}의 기능을 무료로 시도하거나 라이센스를 요청하세요.",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이센스 구매"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    },
+    "operations": {
+      "esign": {
+        "name": "전자 서명",
+        "description": "지원되는 파일 형식에 다양한 종류의 서명을 추가합니다."
+      },
+      "text": {
+        "name": "문서에 텍스트 추가",
+        "description": "사용자 정의 텍스트 서명으로 문서 내용을 향상시킵니다."
+      },
+      "image": {
+        "name": "이미지 서명",
+        "description": "문서 내 원하는 위치에 이미지를 배치합니다."
+      },
+      "barcode": {
+        "name": "바코드 생성",
+        "description": "지원되는 문서에 다양한 바코드를 생성하고 삽입합니다."
+      },
+      "qrcode": {
+        "name": "QR 코드 생성",
+        "description": "문서 서명을 위한 QR 코드를 생성합니다."
+      },
+      "digital": {
+        "name": "디지털 인증서",
+        "description": "비즈니스를 안전하게 보호하고 문서에 디지털 인증서로 서명합니다."
+      },
+      "stamp": {
+        "name": "도장 서명",
+        "description": "스탬프 생성기를 사용하여 사용자 정의 원형 또는 사각형 도장을 만듭니다."
+      },
+      "search": {
+        "name": "서명 검색",
+        "description": "문서 내 이전에 추가된 서명을 찾습니다."
+      },
+      "verify": {
+        "name": "서명 검증",
+        "description": "서명이 적용된 후 서명의 진위를 검증합니다."
+      },
+      "modify": {
+        "name": "서명 수정",
+        "description": "문서 내 다양한 서명을 쉽게 편집합니다."
+      },
+      "delete": {
+        "name": "서명 삭제",
+        "description": "이전에 적용된 다양한 서명을 제거합니다."
+      }
+    }
+  }
+}

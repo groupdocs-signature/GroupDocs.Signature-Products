@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Textsignaturen zu {{FileFormatUp}} über {{ProgLang}} hinzufügen",
+    "description": "Nutzen Sie die {{ProgLang}} API, um Textsignaturen nahtlos in {{FileFormatUp}}-Dokumenten zu integrieren. Unsere API unterstützt eine Vielzahl von Formaten, darunter PDF, Word, Excel, Präsentationen, Bilder und ZIP-Dateien."
+  },
+  "header": {
+    "title": "Textsignaturen zu {{FileFormatUp}} hinzufügen",
+    "description": "Fügen Sie personalisierte Textsignaturen in Ihre Geschäftsdokumente mit {{ProdFullName}} ein. Übernehmen Sie die Kontrolle über Ihre Dokumenten-Workflows, indem Sie diese mit sicheren und anpassbaren Signaturoptionen verbessern.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion starten"
+  },
+  "about": {
+    "title": "{{ProdFullName}} vorstellen",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine innovative Lösung, die die Hinzufügung von Textsignaturen zu Dokumenten erleichtert. Passen Sie Signaturen an und platzieren Sie sie auf jeder Seite, um die Effizienz im Umgang mit Dokumenten zu verbessern. Optimieren Sie die Workflows Ihrer Organisation, indem Sie personalisierte Textmarkierungen integrieren, die sowohl die Funktionalität als auch die Professionalität erhöhen."
+  },
+  "more_features": {
+    "title": "Erweiterte Kontrolle über Textsignaturen",
+    "description": "Mit {{ProdFullName}} können Sie die Verwaltung von textbasierten Signaturen in wichtigen Dokumentenformaten erheblich verbessern. Das Tool ermöglicht es Ihnen, Stil, Platzierung und Inhalt der Signaturen einfach zu konfigurieren, sodass Unternehmen ihre Dokumentenprozesse individuell gestalten können.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Dynamische Dokumentensignaturen",
+      "content": "Fügen Sie verschiedene Arten von Signaturen – wie Text, Bilder, Barcodes, QR-Codes oder Stempel – auf jeder Seite unterstützter Dokumente hinzu. Betten Sie Metadaten ein, um versteckte Informationen zu übertragen, oder wenden Sie digitale Zertifikate für erweiterte Sicherheitsmaßnahmen an."
+    },
+    "feature_2": {
+      "title": "Signaturensuche und -validierung",
+      "content": "Überprüfen Sie die Authentizität von Signaturen, die in Ihren Dokumenten eingebettet sind. Führen Sie effiziente Suchen durch, um alle Instanzen von Signaturen zu finden, um eine umfassende Dokumentenverfolgung und -verwaltung sicherzustellen."
+    },
+    "feature_3": {
+      "title": "Signaturen bearbeiten oder entfernen",
+      "content": "Ändern oder löschen Sie nach Bedarf zuvor hinzugefügte Signaturen. Sie können das Erscheinungsbild, die Position oder den Inhalt jeder Signatur anpassen, um den sich ändernden Anforderungen gerecht zu werden und Flexibilität im Umgang mit Dokumenten sicherzustellen."
+    },
+    "feature_4": {
+      "title": "Native Signaturanpassung",
+      "content": "Für bestimmte Dateitypen können Sie die Platzierung von Signaturen mit integrierten Dokument Funktionen anpassen, wie z. B. das Hinzufügen von Wasserzeichen zu Word-Dateien oder benutzerdefinierten Stempeln zu PDFs, um die Einzigartigkeit Ihrer Dokumente zu erhöhen."
+    }
+  },
+  "formats": {
+    "title": "Textsignaturen in verschiedenen Formaten anwenden",
+    "description": "Nutzen Sie die Möglichkeiten der {{EnvName}} API, um textbasierte Signaturen in einer Vielzahl von Office-Formaten zu integrieren. Kontrollieren Sie den Informationsfluss in jeder Phase des Dokumentenlebenszyklus, indem Sie hochgradig anpassbare Textmarkierungen hinzufügen."
+  },
+  "operations": {
+    "title": "Umfassende Funktionen zur Signaturverwaltung",
+    "description": "Unsere Plattform bietet vollständige CRUD-Operationen und erweiterte Funktionen für die Verwaltung von sieben verschiedenen Signaturtypen, sodass Sie Ihre Dokumentensignaturen präzise und problemlos verwalten können."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie die {{TextSignature}}-Klasse mit dem Dokumentenpfad",
+    "comment_2": "Erstellen Sie {{TextSignOptions}} mit dem erforderlichen Signaturtext",
+    "comment_3": "Konfigurieren Sie die Textfarbe und die Schriftarteigenschaften",
+    "comment_4": "Fügen Sie die Textsignatur dem Dokument hinzu"
+  },
+  "steps": {
+    "title": "Leitfaden zum Erstellen von Textsignaturen für {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht das Hinzufügen von Textsignaturen zu {{FileFormatUp}}-Dokumenten innerhalb von {{EnvName}}-Anwendungen. Verbessern Sie schnell die Funktionen Ihres Produkts mit unseren robusten Lösungen.",
+      "step_1": "Übergeben Sie das {{FileFormatUp}}-Dokument als Argument an die {{TextSignature}}-Klasse.",
+      "step_2": "Instanziieren Sie {{TextSignOptions}} mit dem erforderlichen Text.",
+      "step_3": "Legen Sie die visuellen Eigenschaften der Textsignatur fest.",
+      "step_4": "Fügen Sie die Textsignatur der gewünschten Seite(n) des Dokuments hinzu."
+    }
+  },
+  "code_1": {
+    "title": "Textsignaturen in Dokumenten implementieren",
+    "content": "Erfahren Sie, wie Sie Textsignaturen in Geschäftsdokumenten einbetten, um Prozesse zu optimieren.",
+    "comment_1": "Wählen Sie das Dokument, das signiert werden soll",
+    "comment_2": "Definieren Sie die Textoptionen mit dem angegebenen Inhalt",
+    "comment_3": "Legen Sie die Größe und Position der Signatur auf der Seite fest",
+    "comment_4": "Wenden Sie Abstände für die Signatur von den Seitenrändern an",
+    "comment_5": "Passen Sie die Textfarbe und den Schriftstil an",
+    "comment_6": "Fügen Sie der Textsignatur nach Wunsch einen Rand hinzu",
+    "comment_7": "Konfigurieren Sie den Hintergrund der Signatur",
+    "comment_8": "Optional: Speichern Sie den Text als Bild für die Kompatibilität",
+    "comment_9": "Speichern Sie das Dokument mit der hinzugefügten Textsignatur"
+  }
+}

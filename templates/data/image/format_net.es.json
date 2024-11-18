@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Agregar firmas de imagen a archivos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Coloque una firma de imagen en un archivo {{FileFormatUp}} para {{EnvNameShort}} utilizando unas pocas líneas de código. Utilice la API de {{ProdFullName}} para agregar imágenes."
+  },
+  "header": {
+    "title": "Agregue una firma de imagen a archivos {{FileFormatUp}}",
+    "description": "Utilice {{ProdFullName}} para integrar sin problemas imágenes en una amplia gama de formatos de documentos de oficina, incluidos PDFs, Word, Excel y archivos de imagen. Incorporar una imagen de la firma de su jefe puede crear una impresión profesional destacada, elevando el atractivo visual y la autenticidad de sus documentos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar gratuitamente"
+  },
+  "about": {
+    "title": "Descubra {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece capacidades integrales para incrustar firmas de imagen en cualquier ubicación de cualquier página dentro de sus documentos empresariales. Mejore sus flujos de trabajo operativos integrando imágenes en PDFs, documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint y una variedad de formatos de imagen populares a través de nuestra robusta biblioteca."
+  },
+  "more_features": {
+    "title": "Soluciones integrales para la firma de documentos",
+    "description": "Nos complace presentar una amplia gama de funcionalidades de firma soportadas por nuestra API. Agregue, modifique, elimine, busque y verifique varios tipos de firmas, incluyendo las basadas en imágenes, sin esfuerzo.",
+    "image_description": "Firma de Imágenes",
+    "feature_1": {
+      "title": "Incrustar imágenes en documentos de oficina",
+      "content": "Inserte sin inconvenientes firmas electrónicas e imágenes en cualquier posición designada en cualquier página de un documento. Mejore el contenido de su documento con texto, imágenes, códigos de barras, metadatos o certificados digitales para aumentar la funcionalidad y seguridad."
+    },
+    "feature_2": {
+      "title": "Búsqueda y verificación de firmas",
+      "content": "Gestione documentos firmados verificando la autenticidad e integridad de las firmas. Recupere una lista completa de todas las firmas dentro de un documento y examine sus atributos específicos."
+    },
+    "feature_3": {
+      "title": "Modificar firmas",
+      "content": "Ocasionalmente, las firmas dentro de los documentos pueden requerir actualizaciones. Ajuste sin dificultad el contenido, la apariencia, el tamaño o la posición de las firmas existentes para satisfacer los requisitos cambiantes."
+    },
+    "feature_4": {
+      "title": "Eliminar firmas redundantes",
+      "content": "Nuestra API facilita operaciones CRUD completas para la mayoría de los tipos de firma. Puede eliminar eficientemente firmas de casi todos los formatos de documento compatibles cuando sea necesario."
+    }
+  },
+  "formats": {
+    "title": "Integre imágenes en diversos formatos de archivo",
+    "description": "Aproveche la API de {{EnvName}} para añadir formatos de imagen compatibles a una amplia variedad de documentos. Redimensione, posicione, seleccione páginas específicas y aplique firmas basadas en imágenes a sus documentos sin complicaciones."
+  },
+  "operations": {
+    "title": "Comprenda nuestras ofertas de características",
+    "description": "Explore un conjunto diverso de tipos de firma y operaciones robustas proporcionadas por nuestra plataforma"
+  },
+  "examples": {
+    "comment_1": "Inicialice {{TextSignature}} con la ruta al documento",
+    "comment_2": "Configure {{ImageSignOptions}} utilizando una imagen para la firma",
+    "comment_3": "Posicione la imagen en la esquina superior izquierda de todas las páginas",
+    "comment_4": "Guarde el documento firmado"
+  },
+  "steps": {
+    "title": "Cómo agregar una imagen en cualquier lugar de un {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "Utilice [{{ProdShortName}}]({{PlatformLink}}) para dotar a las aplicaciones {{EnvName}} con la capacidad de incrustar firmas con precisión en cualquier página de documentos {{FileFormatUp}}. Mejore las capacidades de su producto integrando nuestra solución sin problemas.",
+      "step_1": "Instancie la clase {{TextSignature}} con el documento {{FileFormatUp}}.",
+      "step_2": "Utilice {{ImageSignOptions}} para especificar la imagen de la firma.",
+      "step_3": "Posicione la imagen con precisión en cualquier ubicación deseada de la página.",
+      "step_4": "Guarde el nuevo documento firmado en una ubicación especificada."
+    }
+  },
+  "code_1": {
+    "title": "Asegure el contenido del documento con firmas de imagen",
+    "content": "Descubra cómo enriquecer los documentos empresariales incrustando imágenes, proporcionando información suplementaria.",
+    "comment_1": "Seleccione el documento a firmar",
+    "comment_2": "Cree opciones de imagen con la ruta de la imagen especificada",
+    "comment_3": "Defina las dimensiones de la firma de imagen",
+    "comment_4": "Posicione la imagen en la esquina inferior derecha",
+    "comment_5": "Aplique el relleno necesario desde los bordes de la página",
+    "comment_6": "Opcionalmente, añada un borde personalizado a la imagen",
+    "comment_7": "Gire la firma para una alineación óptima",
+    "comment_8": "Guarde el documento actualizado en la ubicación deseada"
+  }
+}

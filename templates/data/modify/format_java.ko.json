@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "{{FileFormatUp}} 서명을 {{ProgLang}} 애플리케이션으로 수정하기",
+    "description": "{{ProgLang}} 서명 처리 API를 사용하면 PDF, Word, Excel, 프레젠테이션 및 이미지와 같은 {{FileFormatUp}} 파일의 서명을 수정할 수 있습니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 서명 수정",
+    "description": "{{ProdFullName}}를 사용하여 PDF, Word, Excel, 프레젠테이션 및 이미지와 같은 다양한 형식의 전자 서명을 수정할 수 있습니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서에 서명할 수 있을 뿐만 아니라 기존 서명을 수정할 수 있는 기능도 제공합니다. PDF, Word, Excel 및 프레젠테이션과 같은 널리 사용되는 형식에서 서명을 손쉽게 업데이트할 수 있습니다."
+  },
+  "more_features": {
+    "title": "문서 서명 관리",
+    "description": "{{ProdFullName}}를 사용하면 모든 주요 산업 파일 형식에서 서명을 추가, 수정, 검색, 검증 및 삭제할 수 있습니다.",
+    "image_description": "서명 수정",
+    "feature_1": {
+      "title": "문서 서명",
+      "content": "저희 제품은 주로 텍스트, 이미지, 바코드 또는 도장 서명을 사용하여 문서에 서명하는 데 중점을 둡니다. 서명을 모든 페이지 및 위치에 배치할 수 있습니다. 이미지의 EXIF 데이터와 같은 숨겨진 메타데이터를 추가 또는 수정하고, 디지털 인증서를 사용하여 문서 내용을 무단 변경으로부터 보호합니다."
+    },
+    "feature_2": {
+      "title": "서명 검색 및 검증",
+      "content": "서명이 요구 사항을 충족하는지 확인하기 위해 서명된 문서를 검증할 수 있습니다. 검색 기능을 통해 문서 내 모든 서명의 전체 목록을 검색할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "기존 서명 수정",
+      "content": "이전에 추가된 서명을 수정하는 것은 일반적인 작업입니다. 수정 프로세스를 사용하여 서명의 내용, 모양, 위치 및 기타 속성을 업데이트할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "서명 삭제",
+      "content": "저희 솔루션은 서명과 관련된 모든 작업을 완벽하게 지원합니다. 문서에서 다양한 유형의 서명을 제거하는 것은 간단한 프로세스입니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에서 서명 수정",
+    "description": "우리 API를 사용하여 {{EnvName}}에서 서명된 문서 형식은 수정할 수 있습니다. 문서에서 서명 목록을 검색하고 액세스 가능한 속성을 업데이트합니다."
+  },
+  "operations": {
+    "title": "기능 포트폴리오 탐색",
+    "description": "저희는 다양한 서명 형식과 운영 도구를 자랑스럽게 지원합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} 객체를 문서 경로로 초기화합니다.",
+    "comment_2": "문서 내의 모든 텍스트 서명을 검색합니다.",
+    "comment_3": "첫 번째로 감지된 서명의 텍스트를 변경합니다.",
+    "comment_4": "수정 결과를 검증합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 텍스트 서명을 수정하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{EnvName}} 개발자가 {{FileFormatUp}} 파일에 기존에 추가된 텍스트 서명의 내용을 업데이트할 수 있도록 합니다. {{EnvName}} 애플리케이션에 강력한 기능을 추가합니다.",
+      "step_1": "{{TextSignature}} 인스턴스에 {{FileFormatUp}} 파일을 추가합니다.",
+      "step_2": "문서의 모든 서명 목록을 검색합니다.",
+      "step_3": "식별된 서명의 내용을 업데이트합니다.",
+      "step_4": "수정 결과를 분석합니다."
+    }
+  },
+  "code_1": {
+    "title": "바코드 서명 수정",
+    "content": "이 예시는 문서 내에서 바코드 서명을 수정하는 과정을 설명합니다.",
+    "comment_1": "바코드 서명이 포함된 문서를 사용합니다.",
+    "comment_2": "기존 바코드 서명을 검색합니다.",
+    "comment_3": "첫 번째 바코드의 위치를 조정하고 업데이트된 문서를 저장합니다.",
+    "comment_4": "수정 결과를 확인합니다."
+  }
+}

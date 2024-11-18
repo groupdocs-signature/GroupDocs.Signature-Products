@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Modificar firmas {{FileFormatUp}} en soluciones {{ProgLang}}",
+    "description": "La API {{ProgLang}} ofrece funcionalidades avanzadas para modificar firmas integradas en documentos {{FileFormatUp}}, tales como PDFs, archivos de Word, hojas de Excel, presentaciones e imágenes."
+  },
+  "header": {
+    "title": "Actualiza sin problemas las firmas {{FileFormatUp}}",
+    "description": "Desbloquea la capacidad de editar un amplio espectro de firmas electrónicas en formatos comerciales populares como PDF, Word, Excel, presentaciones e imágenes con el poder de {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar ahora gratis"
+  },
+  "about": {
+    "title": "Descubre el poder de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) no solo ofrece capacidades integrales de firma de documentos, sino que también permite la modificación sin inconvenientes de firmas existentes. Ajusta sin dificultad las propiedades de las firmas en formatos comúnmente utilizados como PDF, Word, Excel y presentaciones de PowerPoint."
+  },
+  "more_features": {
+    "title": "Gestión integral de firmas para documentos",
+    "description": "Con {{ProdFullName}}, puedes añadir, actualizar, buscar, verificar o eliminar firmas de manera eficiente en todos los principales formatos de documentos, simplificando tu flujo de trabajo documental.",
+    "image_description": "Modificación avanzada de firmas",
+    "feature_1": {
+      "title": "Firma de documentos versátil",
+      "content": "Nuestra solución se destaca en aplicar diversas firmas, incluyendo texto, imágenes, códigos de barras y sellos, en cualquier parte de un documento. También puedes incrustar y modificar metadatos ocultos como EXIF en imágenes, mientras proteges los documentos contra alteraciones no autorizadas utilizando certificados digitales."
+    },
+    "feature_2": {
+      "title": "Búsqueda y validación eficiente de firmas",
+      "content": "Aprovecha herramientas potentes para verificar la precisión y validez de las firmas. Accede a una lista completa de las firmas integradas en un documento, agilizando el proceso de verificación."
+    },
+    "feature_3": {
+      "title": "Actualizaciones simplificadas de firmas",
+      "content": "Modifica firmas añadidas previamente sin complicaciones. Ajusta el contenido, estilo, ubicación y otros atributos específicos de la firma para satisfacer los requisitos evolutivos del documento."
+    },
+    "feature_4": {
+      "title": "Eliminación de firmas sin esfuerzo",
+      "content": "Se proporciona un control total sobre la gestión de firmas, permitiéndote eliminar cualquier tipo de firma de un documento, asegurando flexibilidad en la manipulación del contenido."
+    }
+  },
+  "formats": {
+    "title": "Modificar firmas en múltiples tipos de archivos",
+    "description": "Los documentos firmados con nuestra API {{EnvName}} pueden ser modificados sin dificultad. Extrae y actualiza los detalles de la firma de formatos compatibles, asegurando un control completo sobre la integridad del documento."
+  },
+  "operations": {
+    "title": "Explora nuestra extensa gama de funciones",
+    "description": "Descubre la gama completa de formatos de firma y operaciones soportadas por nuestra plataforma"
+  },
+  "examples": {
+    "comment_1": "Instanciar un objeto {{TextSignature}} con la ruta del archivo del documento",
+    "comment_2": "Ejecutar una búsqueda de firmas de texto dentro del documento",
+    "comment_3": "Actualizar el contenido de texto de la primera firma localizada",
+    "comment_4": "Validar el resultado de la modificación de texto"
+  },
+  "steps": {
+    "title": "Pasos para editar firmas de texto en {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite a los desarrolladores de {{EnvName}} revisar el contenido de las firmas de texto previamente integradas en archivos {{FileFormatUp}}. Mejora las aplicaciones de {{EnvName}} con capacidades avanzadas.",
+      "step_1": "Importa el archivo {{FileFormatUp}} en la instancia de {{TextSignature}}.",
+      "step_2": "Extrae una lista de todas las firmas dentro del documento.",
+      "step_3": "Revisa el contenido de cualquier firma identificada.",
+      "step_4": "Evalúa los resultados de la modificación."
+    }
+  },
+  "code_1": {
+    "title": "Modificar firmas de código de barras",
+    "content": "Este ejemplo ilustra cómo modificar programáticamente firmas de código de barras en un documento.",
+    "comment_1": "Cargar un documento que contenga firmas de código de barras",
+    "comment_2": "Buscar todas las firmas de código de barras existentes",
+    "comment_3": "Modificar la posición del primer código de barras detectado y guardar el documento",
+    "comment_4": "Verificar el éxito de la modificación del código de barras"
+  }
+}

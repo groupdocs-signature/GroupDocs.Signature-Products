@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Chỉnh sửa chữ ký {{FileFormatUp}} với các ứng dụng {{ProgLang}}",
+    "description": "API xử lý chữ ký {{ProgLang}} cho phép bạn chỉnh sửa chữ ký trong các tệp {{FileFormatUp}}, bao gồm PDF, Word, Excel, Bài thuyết trình và Hình ảnh."
+  },
+  "header": {
+    "title": "Chỉnh sửa chữ ký {{FileFormatUp}}",
+    "description": "Chỉnh sửa một loạt các chữ ký điện tử với {{ProdFullName}} qua các định dạng phổ biến như PDF, Word, Excel, Bài thuyết trình và Hình ảnh.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) không chỉ cho phép bạn ký tài liệu mà còn cung cấp khả năng chỉnh sửa các chữ ký hiện có. Cập nhật dễ dàng các chữ ký trong các định dạng phổ biến như PDF, Word, Excel và Bài thuyết trình."
+  },
+  "more_features": {
+    "title": "Quản lý chữ ký cho tài liệu",
+    "description": "{{ProdFullName}} cho phép bạn thêm, sửa đổi, tìm kiếm, xác minh và xóa chữ ký trên tất cả các định dạng tệp công nghiệp chính.",
+    "image_description": "Chỉnh sửa chữ ký",
+    "feature_1": {
+      "title": "Chữ ký tài liệu",
+      "content": "Sản phẩm của chúng tôi chủ yếu tập trung vào việc ký tài liệu bằng chữ ký văn bản, hình ảnh, mã vạch hoặc con dấu. Bạn có thể đặt chúng trên bất kỳ trang nào và ở vị trí nào. Thêm hoặc sửa đổi siêu dữ liệu ẩn, chẳng hạn như dữ liệu EXIF trong hình ảnh, và bảo vệ nội dung tài liệu khỏi các thay đổi không được phép bằng chứng nhận số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Đảm bảo rằng các chữ ký đáp ứng yêu cầu của bạn bằng cách xác minh các tài liệu đã ký. Bạn có thể lấy danh sách đầy đủ các chữ ký trong một tài liệu thông qua chức năng tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký hiện có",
+      "content": "Chỉnh sửa chữ ký đã được thêm trước đó là một nhiệm vụ phổ biến. Sử dụng quy trình sửa đổi để cập nhật nội dung, hình thức, vị trí và các thuộc tính khác của một chữ ký."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký",
+      "content": "Giải pháp của chúng tôi hoàn toàn hỗ trợ tất cả các thao tác liên quan đến chữ ký. Việc xóa các loại chữ ký khác nhau khỏi một tài liệu là một quy trình đơn giản."
+    }
+  },
+  "formats": {
+    "title": "Chỉnh sửa chữ ký trong nhiều định dạng tệp",
+    "description": "Các định dạng tài liệu đã được ký bằng API của chúng tôi cho {{EnvName}} có thể được chỉnh sửa. Lấy danh sách các chữ ký từ một tài liệu và cập nhật bất kỳ thuộc tính nào có thể truy cập."
+  },
+  "operations": {
+    "title": "Khám phá danh mục tính năng của chúng tôi",
+    "description": "Chúng tôi tự hào hỗ trợ một loạt các định dạng chữ ký và công cụ hoạt động."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một đối tượng {{TextSignature}} với đường dẫn tài liệu",
+    "comment_2": "Tìm kiếm bất kỳ chữ ký văn bản nào trong tài liệu",
+    "comment_3": "Thay đổi văn bản của chữ ký được phát hiện đầu tiên",
+    "comment_4": "Xác thực kết quả của việc sửa đổi"
+  },
+  "steps": {
+    "title": "Các bước chỉnh sửa chữ ký văn bản trong {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép các nhà phát triển {{EnvName}} cập nhật nội dung của các chữ ký văn bản đã được thêm vào các tệp {{FileFormatUp}}. Nâng cao các ứng dụng {{EnvName}} với các khả năng mạnh mẽ.",
+      "step_1": "Thêm tệp {{FileFormatUp}} vào phiên bản {{TextSignature}}.",
+      "step_2": "Lấy danh sách tất cả các chữ ký trong tài liệu.",
+      "step_3": "Cập nhật nội dung của bất kỳ chữ ký nào đã xác định.",
+      "step_4": "Phân tích kết quả của việc sửa đổi."
+    }
+  },
+  "code_1": {
+    "title": "Chỉnh sửa chữ ký mã vạch",
+    "content": "Ví dụ này làm rõ quy trình chỉnh sửa chữ ký mã vạch trong một tài liệu.",
+    "comment_1": "Sử dụng tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Tìm kiếm chữ ký mã vạch hiện có",
+    "comment_3": "Điều chỉnh vị trí của mã vạch đầu tiên và lưu tài liệu đã cập nhật",
+    "comment_4": "Xác nhận kết quả của việc sửa đổi"
+  }
+}

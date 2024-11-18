@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:28
+date:  2024-11-18T11:52:01
 draft: false
 lang: en
 format: Docx
@@ -15,11 +15,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Generate QR code for DOCX with Java"
+head_title: "Create QR code for DOCX with Java"
 head_description: "The GroupDocs.Signature API enables the generation of QR codes for DOCX files. Create QR codes from your content and place them on any page."
 
 ############################# Header ############################
-title: "Generate QR codes for DOCX" 
+title: "Create QR codes for DOCX" 
 description: "Easily create 2D barcodes with text and numeric data and place them on any page of various documents using GroupDocs.Signature for Java."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -263,13 +263,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/docx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/docx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

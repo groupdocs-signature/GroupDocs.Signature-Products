@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Xác minh chữ ký số {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "description": "Tận dụng sức mạnh của {{ProdFullName}} để xác thực các chữ ký được nhúng trong các tệp {{FileFormatUp}}. Kiểm tra tính hợp lệ của chữ ký trên các định dạng PDF, Word, Excel, Bài thuyết trình, Hình ảnh, và ZIP."
+  },
+  "header": {
+    "title": "Xác minh chữ ký số {{FileFormatUp}}",
+    "description": "Xác minh hiệu quả tất cả các chữ ký điện tử được hỗ trợ trên nhiều định dạng như PDF, Word, Excel, Bài thuyết trình, Hình ảnh, hoặc tệp ZIP bằng các tính năng toàn diện của {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải phiên bản miễn phí"
+  },
+  "about": {
+    "title": "Các ứng dụng chính của {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) hỗ trợ các chức năng CRUD hoàn chỉnh cho việc quản lý chữ ký tài liệu. Bạn có thể ký trên hơn 60 định dạng khác nhau, bao gồm PDF, tệp MS Office, Hình ảnh và lưu trữ ZIP, bằng nhiều loại chữ ký như văn bản, hình ảnh, mã vạch, chứng chỉ số, siêu dữ liệu và con dấu. Ngoài việc ký, nó cho phép bạn tìm kiếm, xác thực, cập nhật hoặc xóa các chữ ký."
+  },
+  "more_features": {
+    "title": "Quản lý chữ ký tài liệu nâng cao",
+    "description": "{{ProdShortName}} là giải pháp toàn diện được thiết kế để đơn giản hóa việc ký và xác thực tài liệu trên các định dạng phổ biến. Nó cung cấp 7 loại chữ ký và các thao tác CRUD đầy đủ để đảm bảo bảo vệ và quản lý nội dung tài liệu của bạn một cách toàn diện.",
+    "image_description": "Tính năng xác minh chữ ký",
+    "feature_1": {
+      "title": "Đơn giản hóa việc ký tài liệu doanh nghiệp",
+      "content": "Áp dụng chữ ký số tùy chỉnh một cách liền mạch vào bất kỳ phần nào của tài liệu của bạn. Với sự hỗ trợ cho chữ ký văn bản, hình ảnh, mã vạch, siêu dữ liệu, con dấu và chứng chỉ số, {{ProdFullName}} đảm bảo rằng tài liệu của bạn đáp ứng tiêu chuẩn doanh nghiệp."
+    },
+    "feature_2": {
+      "title": "Quản lý toàn bộ vòng đời chữ ký",
+      "content": "Quản lý dễ dàng toàn bộ vòng đời của chữ ký trong các tài liệu. Truy cập, xác minh, cập nhật hoặc xóa bất kỳ chữ ký nào khi cần, đảm bảo rằng tài liệu của bạn luôn được cập nhật và chính xác."
+    },
+    "feature_3": {
+      "title": "Bảo vệ tính toàn vẹn nội dung tài liệu",
+      "content": "Bảo vệ các tài liệu nhạy cảm của bạn bằng cách nhúng chứng chỉ số để ngăn chặn các thay đổi không hợp lệ. Ngoài ra, thêm siêu dữ liệu ẩn để bảo vệ thông tin quan trọng và thực thi tính toàn vẹn của nội dung."
+    },
+    "feature_4": {
+      "title": "Chữ ký gốc tùy chỉnh",
+      "content": "Tận dụng các loại chữ ký cụ thể cho tài liệu như con dấu PDF và dấu bản quyền Word. Những chữ ký tùy chỉnh này rất phù hợp cho việc xây dựng thương hiệu, đánh dấu bản quyền hoặc các mục đích tuân thủ, mang lại sự chuyên nghiệp cho tài liệu doanh nghiệp của bạn."
+    }
+  },
+  "formats": {
+    "title": "Xác minh chữ ký trên nhiều định dạng",
+    "description": "{{ProdFullName}} cho phép bạn xác minh chữ ký một cách hiệu quả trên nhiều định dạng tài liệu khác nhau. Thiết lập các tham số xác minh tùy chỉnh để đảm bảo tính toàn vẹn và tuân thủ của tài liệu."
+  },
+  "operations": {
+    "title": "Các thao tác toàn diện và loại chữ ký",
+    "description": "Khám phá dải tính năng phong phú và các thao tác quản lý chữ ký có sẵn với {{ProdShortName}}, cung cấp quyền kiểm soát tối đa đối với các quy trình chữ ký của tài liệu của bạn."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một phiên bản {{TextSignature}} với tài liệu",
+    "comment_2": "Cấu hình {{TextVerifyOptions}} để xác thực chữ ký chứa văn bản cụ thể",
+    "comment_3": "Tiến hành xác minh các chữ ký trong tài liệu",
+    "comment_4": "Phân tích và diễn giải kết quả xác minh"
+  },
+  "steps": {
+    "title": "Hướng dẫn xác minh chữ ký trong {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) có thể xác thực sự hiện diện của các chữ ký cụ thể trong tài liệu {{FileFormatUp}}. Các nhà phát triển {{EnvName}} có thể nâng cao ứng dụng của họ một cách dễ dàng bằng cách tích hợp các tính năng mà giải pháp của chúng tôi cung cấp.",
+      "step_1": "Tải tệp {{FileFormatUp}} vào phiên bản {{TextSignature}}.",
+      "step_2": "Khởi tạo và cấu hình {{VerifyOptions}} để đạt được kết quả xác minh mong muốn.",
+      "step_3": "Tiến hành quá trình xác minh.",
+      "step_4": "Xem xét và diễn giải các kết quả xác minh."
+    }
+  },
+  "code_1": {
+    "title": "Xác minh chữ ký mã vạch",
+    "content": "Ví dụ này minh họa quy trình xác thực chữ ký mã vạch trong một tài liệu.",
+    "comment_1": "Nộp tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Cấu hình các tùy chọn xác minh để phù hợp với mã vạch theo các tiêu chí văn bản cụ thể",
+    "comment_3": "Xác thực các chữ ký được nhúng trong tài liệu",
+    "comment_4": "Trình bày kết quả của quá trình xác thực"
+  }
+}

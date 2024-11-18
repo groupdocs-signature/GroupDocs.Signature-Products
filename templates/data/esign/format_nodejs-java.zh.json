@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 中使用电子签名签署 {{FileFormatUp}}",
+    "description": "利用 {{ProgLang}} API 的能力，数字签名和保护 {{FileFormatUp}} 文件，包括 PDF、Word 文档、Excel 表格、演示文稿和图像格式。"
+  },
+  "header": {
+    "title": "电子签署 {{FileFormatUp}} 文件",
+    "description": "使用 {{ProdFullName}} 在您的文档中插入多种数字签名，确保 PDF、Word、Excel、演示文稿和图像格式文件的数据完整性和合规性。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "立即免费下载"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 概述",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一套强大的工具，用于添加电子签名。通过其直观的 API，您可以无缝签署、搜索、验证、修改和删除各种文件类型中的签名，无需外部软件。它支持对 PDF、Word 文档、Excel 表格、PowerPoint 幻灯片和多种图像格式的顺畅签署。"
+  },
+  "more_features": {
+    "title": "高级数字签名功能",
+    "description": "我们的高级 API 通过简化各种文档的电子签名自动化、验证、修改和管理，加速商业运营。",
+    "image_description": "数字签名功能",
+    "feature_1": {
+      "title": "办公文件的数字签名",
+      "content": "轻松地将数字签名添加到文档中的任何页面或位置。使用数字证书、元数据、条形码或视觉元素等选项自定义签名，以增强安全性和文档完整性。"
+    },
+    "feature_2": {
+      "title": "全面的签名控制",
+      "content": "一旦文档被签署，您可以轻松管理其签名。获取所有签名的完整列表，允许您根据需要进行更新或删除。"
+    },
+    "feature_3": {
+      "title": "增强文档安全性",
+      "content": "使用数字证书保护文档免受篡改。可以嵌入或提取元数据，以增强可追溯性和审计，确保文档合规性和真实性。"
+    }
+  },
+  "formats": {
+    "title": "数字签署多种文件类型",
+    "description": "{{EnvName}} API 允许您对超过 60 种文件格式应用数字签名，为您提供了在保护关键商业文件时的广泛灵活性。"
+  },
+  "operations": {
+    "title": "查看我们的广泛能力",
+    "description": "我们提供多种签名类型和丰富的操作功能"
+  },
+  "examples": {
+    "comment_1": "将文档导入 {{TextSignature}} 实例",
+    "comment_2": "实例化一个 {{QrCodeSignOptions}} 对象",
+    "comment_3": "指定所有必需的选项",
+    "comment_4": "将签署后的文档保存到本地磁盘"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 签署 {{FileFormatUp}} 的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 简化了将自定义签名添加到 {{FileFormatUp}} 文件的过程。{{EnvName}} 开发者可以无缝地将签名功能集成到他们的应用程序中。",
+      "step_1": "将 {{FileFormatUp}} 文档加载到 {{TextSignature}} 实例中。",
+      "step_2": "配置 {{SignOptions}} 以定义签名属性。",
+      "step_3": "根据需要调整大小、颜色和内容等属性。",
+      "step_4": "将已签署的文档保存到指定位置。"
+    }
+  },
+  "code_1": {
+    "title": "如何将图像签名应用于文档",
+    "content": "本指南详细说明在文档中的指定页面上加盖图像签名的过程。",
+    "comment_1": "提供源文档作为输入参数",
+    "comment_2": "在签名配置选项中指定图像文件路径",
+    "comment_3": "配置尺寸并指定签名的目标页",
+    "comment_4": "将签名应用实施到文档上"
+  }
+}

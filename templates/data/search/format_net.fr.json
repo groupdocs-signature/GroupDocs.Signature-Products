@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Recherchez des signatures électroniques dans {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Utilisez les capacités de l'API {{ProdFullName}} pour rechercher des signatures intégrées dans des PDF, des documents Word, des Excel, des présentations et des images."
+  },
+  "header": {
+    "title": "Rechercher des signatures numériques dans {{FileFormatUp}}",
+    "description": "Extraire aisément une liste complète des signatures électroniques intégrées dans divers formats tels que PDF, Word, Excel, présentations et images, le tout propulsé par {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Commencez votre téléchargement gratuit"
+  },
+  "about": {
+    "title": "Découvrez les capacités de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) propose des fonctionnalités de pointe pour la signature de documents numériques. Avec un support pour plus de 60 formats de fichiers, y compris les PDF, les documents MS Office, les images et les fichiers ZIP, il vous permet d'ajouter, rechercher, vérifier, modifier ou supprimer diverses signatures, telles que des textes, des images, des codes-barres, des QR codes, des certificats numériques et des tampons."
+  },
+  "more_features": {
+    "title": "Écosystème de signature de documents complet",
+    "description": "Découvrez une solution avancée et riche en fonctionnalités pour la signature de documents, conçue spécifiquement pour améliorer et sécuriser vos documents avec plusieurs types de signatures à travers divers formats.",
+    "image_description": "Recherche et gestion de signatures",
+    "feature_1": {
+      "title": "Signer et sécuriser les documents commerciaux",
+      "content": "Ajoutez des signatures numériques à n'importe quelle position au sein d'un document. {{ProdShortName}} prend en charge un éventail de types de signatures, y compris textes, images, codes-barres, métadonnées, tampons et certificats numériques, garantissant l'authenticité et la conformité des documents."
+    },
+    "feature_2": {
+      "title": "Gestion complète des signatures",
+      "content": "Après la signature, utilisez la fonction de recherche pour récupérer toutes les signatures intégrées. Modifiez ou supprimez des signatures au besoin, vous offrant un contrôle total sur l'intégrité du document."
+    },
+    "feature_3": {
+      "title": "Protéger l'intégrité de votre document",
+      "content": "Utilisez des outils avancés pour gérer les métadonnées cachées intégrées dans les documents. Ajoutez ou supprimez des entrées de métadonnées et appliquez des certificats numériques d'entreprise pour protéger contre les modifications non autorisées et garantir l'authenticité du document."
+    }
+  },
+  "formats": {
+    "title": "Récupérer des signatures à partir d'une variété de formats de fichiers",
+    "description": "L'API {{ProdFullName}} vous permet d'extraire et de gérer des signatures à partir d'un large éventail de types de documents. Récupérez sans effort des signatures intégrées dans tous les principaux formats de fichiers pour une analyse ou un traitement ultérieur."
+  },
+  "operations": {
+    "title": "Fonctionnalités principales",
+    "description": "Notre API offre une flexibilité étendue, permettant aux utilisateurs de signer des documents et d'effectuer des opérations post-signature complètes, telles que la recherche, la vérification et la modification des signatures."
+  },
+  "examples": {
+    "comment_1": "Initialisez un objet {{TextSignature}} avec le chemin du document spécifié",
+    "comment_2": "Créez une instance de {{TextSearchOptions}} pour englober toutes les pages",
+    "comment_3": "Exécutez une recherche pour identifier toutes les signatures basées sur du texte dans le document",
+    "comment_4": "Compilez une liste des signatures détectées pour un examen détaillé"
+  },
+  "steps": {
+    "title": "Comment rechercher des signatures {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) propose un moteur robuste pour localiser des signatures numériques dans des fichiers {{FileFormatUp}}. Les développeurs {{EnvName}} peuvent facilement améliorer leurs applications avec notre solution.",
+      "step_1": "Fournissez le chemin du fichier {{FileFormatUp}} pour la recherche de signatures.",
+      "step_2": "Utilisez {{SearchOptions}} pour affiner les critères de recherche.",
+      "step_3": "Appelez la méthode Search pour récupérer les résultats.",
+      "step_4": "Évaluez la liste des signatures identifiées."
+    }
+  },
+  "code_1": {
+    "title": "Rechercher des signatures d'image",
+    "content": "Cet exemple illustre le processus de détection d'une signature d'image dans un document spécifié.",
+    "comment_1": "Fournissez le document source comme argument au constructeur",
+    "comment_2": "Recherchez toute signature de type texte",
+    "comment_3": "Présentez les résultats avec des propriétés détaillées des signatures identifiées"
+  }
+}

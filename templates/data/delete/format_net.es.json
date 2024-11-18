@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Eliminar firmas de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "La eliminación de firmas digitales, de código de barras, de texto, de imágenes y de metadatos de documentos {{FileFormatUp}} firmados se puede realizar con {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Elimine firmas de {{FileFormatUp}} de manera eficiente",
+    "description": "Además de firmar documentos empresariales, nuestra solución ofrece herramientas integrales para localizar y eliminar una amplia variedad de firmas mediante {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar sin costo"
+  },
+  "about": {
+    "title": "Descripción general de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una herramienta de firma robusta que facilita la adición de diversos tipos de firmas, que van desde texto e imágenes hasta códigos de barras, certificados digitales y sellos. Con soporte para más de 60 formatos de archivo—incluidos PDF, MS Office, imágenes, ZIP y otros formatos comerciales ampliamente utilizados—esta solución asegura flexibilidad en la gestión de documentos. Además, las firmas aplicadas se pueden localizar, autenticar, modificar o eliminar según sea necesario."
+  },
+  "more_features": {
+    "title": "Optimice la gestión de documentos con herramientas avanzadas de firma",
+    "description": "{{ProdFullName}} está meticulosamente diseñado para mejorar la firma y el procesamiento de formatos de archivos comerciales, lo que permite la adición, modificación, verificación o eliminación de firmas.",
+    "image_description": "Explore las características versátiles de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma de documentos",
+      "content": "Incorpore sin esfuerzo firmas de texto, imagen, código de barras, código QR o sello en cualquier página de documentos compatibles. Además, utilice metadatos ocultos como EXIF en imágenes o proteja la integridad del documento con certificados digitales, previniendo alteraciones no autorizadas."
+    },
+    "feature_2": {
+      "title": "Búsqueda y verificación de firmas",
+      "content": "Aproveche nuestras herramientas para asegurar la autenticidad de las firmas dentro de sus documentos. Realice búsquedas exhaustivas para recuperar una lista completa de todas las firmas, asegurando una gestión integral de documentos."
+    },
+    "feature_3": {
+      "title": "Modificación de firmas",
+      "content": "Refine fácilmente las firmas previamente añadidas ajustando el texto, repositionando o alterando colores para satisfacer sus necesidades específicas."
+    },
+    "feature_4": {
+      "title": "Eliminación de firmas",
+      "content": "Nuestra solución proporciona capacidades completas de CRUD para firmas, permitiéndole eliminar de manera eficiente una variedad de tipos de firmas de sus documentos cuando sea necesario."
+    }
+  },
+  "formats": {
+    "title": "Eliminar firmas en múltiples formatos de archivo",
+    "description": "{{ProdFullName}} está diseñado para facilitar la eliminación de firmas de una amplia gama de más de 60 formatos de archivo, asegurando una amplia compatibilidad y funcionalidad."
+  },
+  "operations": {
+    "title": "Descubra nuestras características destacadas",
+    "description": "Nos complace ofrecer una amplia selección de tipos de firma y operaciones admitidas."
+  },
+  "examples": {
+    "comment_1": "Pase el documento que contiene firmas a la instancia de {{TextSignature}}",
+    "comment_2": "Recupere las firmas digitales presentes en el documento",
+    "comment_3": "Elimine la primera firma digital identificada",
+    "comment_4": "Procese el resultado de la eliminación"
+  },
+  "steps": {
+    "title": "Cómo eliminar firmas electrónicas de {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) simplifica la tarea para los desarrolladores de {{EnvName}} de eliminar firmas electrónicas en archivos {{FileFormatUp}} implementando algunos pasos sencillos.",
+      "step_1": "Proporcione la ruta del archivo {{FileFormatUp}} a una instancia de la clase {{TextSignature}}.",
+      "step_2": "Invoque el método Search para recuperar todas las firmas dentro del documento.",
+      "step_3": "Elimine una o más de las firmas recuperadas.",
+      "step_4": "Examine los resultados del procesamiento del documento."
+    }
+  },
+  "code_1": {
+    "title": "Eliminar todas las firmas de código de barras",
+    "content": "Descubra cómo eliminar todas las firmas de código de barras incrustadas en un documento.",
+    "comment_1": "Suministre un documento que contenga firmas de código de barras",
+    "comment_2": "Elimine todas las firmas de código de barras",
+    "comment_3": "Evalúe el resultado del proceso de eliminación"
+  }
+}

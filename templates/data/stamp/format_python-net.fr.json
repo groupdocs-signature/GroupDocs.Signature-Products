@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Créer des timbres ronds et carrés en {{FileFormatUp}} utilisant {{ProgLang}}",
+    "description": "Générez et insérez des timbres personnalisés dans des fichiers {{FileFormatUp}} avec l'API {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Créer des timbres pour {{FileFormatUp}}",
+    "description": "Ajoutez des timbres conçus sur mesure à n'importe quelle partie de vos documents avec {{ProdFullName}}, offrant une grande flexibilité pour le placement et la configuration selon vos besoins professionnels.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil complet qui vous permet d'insérer divers types de signatures dans des documents, y compris des timbres personnalisés. Prisant en charge plus de 60 formats de fichiers, allant des PDF et documents Word aux images et fichiers ZIP, vous pouvez améliorer vos documents avec du texte, des images, des codes-barres, des métadonnées, des certificats numériques et des timbres. Vous disposez également d'un contrôle total pour rechercher, vérifier, modifier ou supprimer toute signature appliquée."
+  },
+  "more_features": {
+    "title": "Utilisez les signatures pour sécuriser et améliorer l'intégrité des documents",
+    "description": "Avec la bibliothèque {{ProdFullName}}, vous pouvez ajouter sans effort des fonctionnalités de signature à vos documents. Créez, modifiez, vérifiez ou supprimez facilement des timbres personnalisés et d'autres types de signatures, offrant flexibilité et sécurité pour vos flux de travail documentaires.",
+    "image_description": "Signatures de timbre alimentées par {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signature complète des documents",
+      "content": "Élevez vos documents en ajoutant des signatures telles que texte, images, codes-barres, QR codes et timbres à n'importe quelle position sur n'importe quelle page. Gérez les métadonnées intégrées et appliquez des certificats numériques pour vous protéger contre les modifications non autorisées."
+    },
+    "feature_2": {
+      "title": "Recherche et vérification de signatures efficaces",
+      "content": "Après la signature, utilisez des outils de recherche avancés pour trouver toutes les signatures intégrées. Vérifiez facilement ou gérez les données de signature pour garantir l'intégrité des documents."
+    },
+    "feature_3": {
+      "title": "Modifier et personnaliser les signatures",
+      "content": "Apportez des modifications aux signatures ajoutées précédemment sans difficulté. Que vous souhaitiez changer le contenu, la position, la taille ou la couleur, {{ProdFullName}} vous donne un contrôle total pour ajuster les signatures selon vos besoins."
+    },
+    "feature_4": {
+      "title": "Supprimer les signatures facilement",
+      "content": "Si vous devez supprimer des signatures, {{ProdFullName}} offre tous les outils nécessaires pour supprimer tout type, y compris les timbres et certificats numériques, vous aidant à garder vos documents à jour et conformes."
+    }
+  },
+  "formats": {
+    "title": "Appliquez des timbres à divers formats de documents",
+    "description": "Avec l'API {{ProdShortName}}, vous pouvez insérer des timbres personnalisés dans plus de 60 types de fichiers standard. Appliquez facilement des timbres n'importe où dans vos documents, améliorant la personnalisation et le suivi."
+  },
+  "operations": {
+    "title": "Découvrez les fonctionnalités clés",
+    "description": "Trouvez une large gamme d'options pour créer, gérer et supprimer des signatures, vous donnant un contrôle total sur les flux de travail documentaires."
+  },
+  "examples": {
+    "comment_1": "Attachez le chemin du document à l'instance {{TextSignature}}",
+    "comment_2": "Configurez {{StampSignOptions}} avec les détails du timbre requis",
+    "comment_3": "Ajoutez une ou plusieurs lignes au timbre",
+    "comment_4": "Enregistrez le document avec le timbre appliqué"
+  },
+  "steps": {
+    "title": "Comment ajouter un timbre à {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) fournit des outils robustes de création de timbres pour améliorer les applications {{EnvName}}. Utilisez-le pour concevoir et mettre en œuvre des timbres personnalisés pour les pages de votre document.",
+      "step_1": "Fournissez le document {{FileFormatUp}} que vous souhaitez timbrer.",
+      "step_2": "Utilisez {{StampSignOptions}} pour configurer tous les paramètres nécessaires.",
+      "step_3": "Ajoutez plusieurs lignes de timbre si nécessaire.",
+      "step_4": "Appliquez le timbre et enregistrez le document mis à jour."
+    }
+  },
+  "code_1": {
+    "title": "Comment ajouter des timbres personnalisés aux documents",
+    "content": "Cet exemple montre comment créer et insérer des timbres personnalisés avec des détails de texte spécifiques dans un document.",
+    "comment_1": "Fournissez le document que vous souhaitez timbrer",
+    "comment_2": "Configurez les options de timbre avec vos paramètres souhaités",
+    "comment_3": "Définissez la taille et le placement du timbre sur la page",
+    "comment_4": "Ajoutez des lignes circulaires extérieures avec le texte",
+    "comment_5": "Ajoutez, si vous le souhaitez, des lignes carrées intérieures",
+    "comment_6": "Finalisez et enregistrez le document timbré"
+  }
+}

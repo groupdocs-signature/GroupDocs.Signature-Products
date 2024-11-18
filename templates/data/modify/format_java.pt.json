@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Modificar assinaturas de {{FileFormatUp}} com aplicações {{ProgLang}}",
+    "description": "A API de processamento de assinaturas {{ProgLang}} permite modificar assinaturas em arquivos {{FileFormatUp}}, incluindo PDF, Word, Excel, Apresentações e Imagens."
+  },
+  "header": {
+    "title": "Modificar assinaturas de {{FileFormatUp}}",
+    "description": "Modifique uma ampla variedade de assinaturas eletrônicas usando {{ProdFullName}} em formatos populares como PDF, Word, Excel, Apresentações e Imagens.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar gratuitamente"
+  },
+  "about": {
+    "title": "Sobre {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) não só permite assinar documentos, mas também fornece a capacidade de modificar assinaturas existentes. Atualize assinaturas facilmente em formatos amplamente utilizados, como PDF, Word, Excel e Apresentações."
+  },
+  "more_features": {
+    "title": "Gerenciamento de assinaturas para documentos",
+    "description": "{{ProdFullName}} permite adicionar, modificar, buscar, verificar e excluir assinaturas em todos os principais formatos de arquivo industriais.",
+    "image_description": "Modificação de assinatura",
+    "feature_1": {
+      "title": "Assinaturas de documentos",
+      "content": "Nosso produto concentra-se principalmente em assinar documentos com assinaturas de texto, imagem, código de barras ou carimbo. Você pode colocá-las em qualquer página e posição. Adicione ou modifique metadados ocultos, como dados EXIF em imagens, e proteja o conteúdo do documento contra alterações não autorizadas usando certificados digitais."
+    },
+    "feature_2": {
+      "title": "Busca e verificação de assinaturas",
+      "content": "Garanta que as assinaturas atendam aos seus requisitos verificando documentos assinados. Você pode recuperar uma lista completa de assinaturas dentro de um documento por meio da funcionalidade de busca."
+    },
+    "feature_3": {
+      "title": "Modificar assinaturas existentes",
+      "content": "Modificar assinaturas adicionadas anteriormente é uma tarefa comum. Use o processo de modificação para atualizar o conteúdo, a aparência, a posição e outras propriedades de uma assinatura."
+    },
+    "feature_4": {
+      "title": "Exclusão de assinatura",
+      "content": "Nossa solução suporta totalmente todas as operações relacionadas a assinaturas. Remover vários tipos de assinaturas de um documento é um processo simples."
+    }
+  },
+  "formats": {
+    "title": "Modificar assinaturas em vários formatos de arquivo",
+    "description": "Formatos de documento assinados usando nossa API para {{EnvName}} podem ser modificados. Recupere uma lista de assinaturas de um documento e atualize qualquer propriedade acessível."
+  },
+  "operations": {
+    "title": "Investigue nosso portfólio de recursos",
+    "description": "Temos orgulho de suportar uma ampla variedade de formatos de assinatura e ferramentas operacionais."
+  },
+  "examples": {
+    "comment_1": "Instanciar um objeto {{TextSignature}} com o caminho do documento",
+    "comment_2": "Procurar por quaisquer assinaturas de texto dentro do documento",
+    "comment_3": "Alterar o texto da primeira assinatura detectada",
+    "comment_4": "Validar o resultado da modificação"
+  },
+  "steps": {
+    "title": "Passos para editar assinaturas de texto em {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite que desenvolvedores {{EnvName}} atualizem o conteúdo de assinaturas de texto adicionadas anteriormente a arquivos {{FileFormatUp}}. Aprimore aplicações {{EnvName}} com capacidades robustas.",
+      "step_1": "Adicione o arquivo {{FileFormatUp}} à instância {{TextSignature}}.",
+      "step_2": "Recupere uma lista de todas as assinaturas no documento.",
+      "step_3": "Atualize o conteúdo de qualquer assinatura identificada.",
+      "step_4": "Analise os resultados da modificação."
+    }
+  },
+  "code_1": {
+    "title": "Modificar assinaturas de código de barras",
+    "content": "Este exemplo ilustra o processo de modificação de assinaturas de código de barras dentro de um documento.",
+    "comment_1": "Utilize um documento que contenha assinaturas de código de barras",
+    "comment_2": "Procure por assinaturas de código de barras existentes",
+    "comment_3": "Ajuste a posição do primeiro código de barras e salve o documento atualizado",
+    "comment_4": "Confirme o resultado da modificação"
+  }
+}

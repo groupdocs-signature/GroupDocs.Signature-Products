@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Ký điện tử các tệp {{FileFormatUp}} với ứng dụng {{ProgLang}}",
+    "description": "Sử dụng API {{ProgLang}} để xử lý các tệp {{FileFormatUp}} và áp dụng nhiều loại chữ ký khác nhau, bao gồm PDF, Word, Excel, Bài thuyết trình và Hình ảnh."
+  },
+  "header": {
+    "title": "Chữ ký điện tử cho {{FileFormatUp}}",
+    "description": "Thêm nhiều loại chữ ký điện tử bằng {{ProdFullName}} cho tất cả các định dạng kinh doanh phổ biến, bao gồm PDF, Word, Excel, Bài thuyết trình và Hình ảnh.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp các tính năng ký điện tử nâng cao. Sử dụng nó để thêm, tìm kiếm, xác minh, chỉnh sửa và xóa nhiều loại chữ ký điện tử trong tài liệu và hình ảnh mà không cần phần mềm bên ngoài. Ký PDF, tài liệu Word, bảng tính Excel, bài thuyết trình PowerPoint và các định dạng hình ảnh phổ biến một cách hiệu quả."
+  },
+  "more_features": {
+    "title": "Chữ ký điện tử cho tài liệu",
+    "description": "API ký điện tử của chúng tôi giúp tối ưu hóa quy trình kinh doanh. Ký, tìm kiếm, cập nhật, xóa và xác minh nhiều chữ ký một cách lập trình.",
+    "image_description": "Chữ ký điện tử",
+    "feature_1": {
+      "title": "Ký tài liệu văn phòng",
+      "content": "Đặt chữ ký điện tử ở bất kỳ vị trí nào trên bất kỳ trang nào của tài liệu. Tăng cường nội dung tài liệu với văn bản, hình ảnh, mã vạch, siêu dữ liệu hoặc chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký",
+      "content": "Sau khi ký, các tài liệu có thể được xử lý thêm. Lấy danh sách tất cả các chữ ký có trong tài liệu, chỉnh sửa chúng hoặc xóa khi cần thiết."
+    },
+    "feature_3": {
+      "title": "Kiểm soát nội dung nâng cao",
+      "content": "Bảo vệ tài liệu kinh doanh khỏi các thay đổi trái phép với chứng chỉ số của doanh nghiệp. Thêm hoặc trích xuất các mục siêu dữ liệu ẩn có sẵn trong tất cả các kiểu tài liệu."
+    }
+  },
+  "formats": {
+    "title": "Ký các định dạng tệp phổ biến bằng chữ ký điện tử",
+    "description": "API ký điện tử cho {{EnvName}} cho phép xử lý tất cả các định dạng tài liệu và tệp kinh doanh hiện đại."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính của chúng tôi",
+    "description": "Chúng tôi tự hào cung cấp một loạt các chữ ký và thao tác được hỗ trợ."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu vào một thể hiện {{TextSignature}}",
+    "comment_2": "Tạo một đối tượng {{QrCodeSignOptions}}",
+    "comment_3": "Cấu hình tất cả các tùy chọn mong muốn",
+    "comment_4": "Lưu tệp với mã QR được thêm vào ổ đĩa cục bộ"
+  },
+  "steps": {
+    "title": "Các bước ký {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép thêm các chữ ký tùy chỉnh vào các tệp {{FileFormatUp}}. Các nhà phát triển {{EnvName}} có thể tích hợp chức năng ký vào ứng dụng của họ bằng phần mềm của chúng tôi.",
+      "step_1": "Cung cấp tệp {{FileFormatUp}} cần ký cho thể hiện {{TextSignature}}.",
+      "step_2": "Sử dụng {{SignOptions}} để định nghĩa chi tiết chữ ký.",
+      "step_3": "Tùy chỉnh các thuộc tính khác nhau như kích thước, màu sắc và nội dung.",
+      "step_4": "Lưu tệp đã ký vào vị trí mong muốn."
+    }
+  },
+  "code_1": {
+    "title": "Cách thêm chữ ký hình ảnh vào tài liệu",
+    "content": "Ví dụ này minh họa cách đặt chữ ký hình ảnh trên một trang cụ thể của tài liệu.",
+    "comment_1": "Cung cấp tài liệu nguồn như một tham số",
+    "comment_2": "Xác định đường dẫn hình ảnh trong các tùy chọn chữ ký",
+    "comment_3": "Đặt kích thước và các trang mục tiêu cho chữ ký",
+    "comment_4": "Áp dụng chữ ký vào tài liệu"
+  }
+}

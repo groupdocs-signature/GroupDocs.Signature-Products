@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Firmas electrónicas de archivos {{FileFormatUp}} con aplicaciones {{ProgLang}}",
+    "description": "Utiliza la API de {{ProgLang}} para procesar archivos {{FileFormatUp}} y aplicar diversos tipos de firmas, incluyendo PDF, Word, Excel, Presentaciones e Imágenes."
+  },
+  "header": {
+    "title": "Firmas electrónicas para {{FileFormatUp}}",
+    "description": "Agrega una amplia gama de firmas electrónicas utilizando {{ProdFullName}} a todos los formatos comerciales populares, incluyendo PDF, Word, Excel, Presentaciones e Imágenes.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descarga gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece características avanzadas de firma electrónica. Úsala para agregar, buscar, verificar, modificar y eliminar varios tipos de firmas electrónicas en documentos e imágenes sin la necesidad de software externo. Firma PDFs, documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint y formatos de imagen populares."
+  },
+  "more_features": {
+    "title": "Firmas electrónicas de documentos",
+    "description": "Nuestra API de firma electrónica optimiza los procesos comerciales. Firma, busca, actualiza, elimina y verifica diversas firmas de manera programática.",
+    "image_description": "Firmas electrónicas",
+    "feature_1": {
+      "title": "Firma documentos de oficina",
+      "content": "Coloca firmas electrónicas en cualquier posición de cualquier página de un documento. Mejora el contenido del documento con texto, imágenes, códigos de barras, metadatos o certificados digitales."
+    },
+    "feature_2": {
+      "title": "Gestión de firmas",
+      "content": "Después de firmar, los documentos pueden ser procesados aún más. Recupera una lista de todas las firmas presentes, modifícalas o elimínalas según sea necesario."
+    },
+    "feature_3": {
+      "title": "Control avanzado de contenido",
+      "content": "Protege documentos empresariales contra cambios no autorizados con certificados digitales corporativos. Agrega o extrae entradas de metadatos ocultos disponibles en todos los tipos de documentos."
+    }
+  },
+  "formats": {
+    "title": "Firma formatos de archivo populares con firmas electrónicas",
+    "description": "La API de firma electrónica para {{EnvName}} permite el procesamiento de todos los formatos de archivo y documento empresariales modernos."
+  },
+  "operations": {
+    "title": "Explora nuestras características clave",
+    "description": "Estamos orgullosos de ofrecer una amplia gama de firmas y operaciones compatibles."
+  },
+  "examples": {
+    "comment_1": "Carga el documento en una instancia de {{TextSignature}}",
+    "comment_2": "Crea un objeto de {{QrCodeSignOptions}}",
+    "comment_3": "Configura todas las opciones deseadas",
+    "comment_4": "Guarda el archivo con el código QR agregado en el disco local"
+  },
+  "steps": {
+    "title": "Pasos para firmar {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite agregar firmas personalizadas a archivos {{FileFormatUp}}. Los desarrolladores de {{EnvName}} pueden integrar la funcionalidad de firma en sus aplicaciones utilizando nuestro software.",
+      "step_1": "Proporciona el archivo {{FileFormatUp}} que se va a firmar a la instancia de {{TextSignature}}.",
+      "step_2": "Utiliza {{SignOptions}} para definir los detalles de la firma.",
+      "step_3": "Personaliza diversas propiedades como tamaño, color y contenido.",
+      "step_4": "Guarda el archivo firmado en la ubicación deseada."
+    }
+  },
+  "code_1": {
+    "title": "Cómo agregar una firma de imagen a un documento",
+    "content": "Este ejemplo demuestra cómo colocar una firma de imagen en una página específica de un documento.",
+    "comment_1": "Proporciona el documento fuente como un parámetro",
+    "comment_2": "Especifica la ruta de la imagen en las opciones de firma",
+    "comment_3": "Establece el tamaño y las páginas objetivo para la firma",
+    "comment_4": "Aplica la firma al documento"
+  }
+}

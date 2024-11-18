@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:31
+date:  2024-11-18T11:52:08
 draft: false
 lang: en
 format: Pptx
@@ -243,13 +243,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"
@@ -290,7 +290,7 @@ more_formats:
     items: 
           
         # format loop 1
-        - name: "e-Sign PDFs"
+        - name: "e-Sign PDF"
           format: "PDF"
           link: "/signature/java/esign/pdf/"
           description: "Adobe Portable Document Format"

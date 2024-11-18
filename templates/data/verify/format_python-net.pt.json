@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verifique assinaturas digitais {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Utilize {{ProdFullName}} para verificar assinaturas em arquivos {{FileFormatUp}}. Confirme a autenticidade das assinaturas em PDFs, Word, Excel, Apresentações, Imagens e arquivos ZIP."
+  },
+  "header": {
+    "title": "Verificação de assinaturas digitais {{FileFormatUp}}",
+    "description": "Verifique rapidamente e com precisão assinaturas eletrônicas em diversos formatos, incluindo PDFs, Word, Excel, Apresentações, Imagens e arquivos ZIP, utilizando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar versão gratuita"
+  },
+  "about": {
+    "title": "Principais recursos do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece um gerenciamento abrangente de assinaturas de documentos, suportando mais de 60 formatos de arquivo, como PDFs, arquivos do MS Office, imagens e arquivos ZIP. Ele permite a aplicação de vários tipos de assinatura, incluindo texto, imagens, códigos de barras, certificados digitais, metadados e carimbos. Além de assinar, também permite pesquisar, verificar, editar ou remover assinaturas."
+  },
+  "more_features": {
+    "title": "Ferramentas avançadas de assinatura digital",
+    "description": "{{ProdShortName}} fornece uma solução completa para assinar e verificar documentos em formatos de arquivo populares. Com suporte para sete tipos de assinatura e operações completas de CRUD, você tem total controle sobre a proteção e gerenciamento de documentos.",
+    "image_description": "Recursos de verificação de assinatura",
+    "feature_1": {
+      "title": "Assinatura de documentos eficiente",
+      "content": "Adicione assinaturas digitais personalizadas a qualquer parte dos seus documentos. {{ProdFullName}} suporta assinaturas de texto, imagem, código de barras, metadados, carimbo e certificado digital, garantindo que seus documentos atendam aos requisitos empresariais."
+    },
+    "feature_2": {
+      "title": "Gerenciamento completo do ciclo de vida da assinatura",
+      "content": "Gerencie assinaturas ao longo de todo o seu ciclo de vida—acesse, verifique, atualize ou remova assinaturas conforme necessário para manter seus documentos precisos e atualizados."
+    },
+    "feature_3": {
+      "title": "Proteção da integridade do documento",
+      "content": "Proteja seus documentos sensíveis incorporando certificados digitais que evitam alterações não autorizadas. Adicione metadados ocultos para proteger informações cruciais e manter a integridade do documento."
+    },
+    "feature_4": {
+      "title": "Soluções de assinatura personalizadas",
+      "content": "Use tipos de assinatura específicos do documento, como carimbos PDF e marcas d'água do Word. Essas assinaturas especializadas são perfeitas para branding, conformidade ou para adicionar um toque profissional aos seus documentos empresariais."
+    }
+  },
+  "formats": {
+    "title": "Verifique assinaturas em vários formatos",
+    "description": "{{ProdFullName}} permite verificar assinaturas em uma ampla gama de formatos de documentos. Personalize os parâmetros de verificação para garantir a integridade do documento e atender aos requisitos de conformidade."
+  },
+  "operations": {
+    "title": "Gerenciamento e operações de assinatura",
+    "description": "Explore os recursos extensivos e as operações de gerenciamento de assinatura fornecidas pelo {{ProdShortName}} para ter controle total sobre os processos de assinatura de documentos."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{TextSignature}} com o documento",
+    "comment_2": "Configure {{TextVerifyOptions}} para verificar assinaturas com texto específico",
+    "comment_3": "Execute a verificação de assinatura no documento",
+    "comment_4": "Revise e analise os resultados da verificação"
+  },
+  "steps": {
+    "title": "Como verificar assinaturas {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) verifica assinaturas específicas em documentos {{FileFormatUp}}. Desenvolvedores {{EnvName}} podem aprimorar seus aplicativos integrando esse recurso de verificação.",
+      "step_1": "Carregue o arquivo {{FileFormatUp}} na instância {{TextSignature}}.",
+      "step_2": "Crie e configure {{VerifyOptions}} para corresponder aos critérios de verificação desejados.",
+      "step_3": "Inicie o processo de verificação.",
+      "step_4": "Interprete os resultados do processo de verificação."
+    }
+  },
+  "code_1": {
+    "title": "Verifique assinaturas de código de barras",
+    "content": "Este exemplo demonstra como verificar assinaturas de código de barras em um documento.",
+    "comment_1": "Carregue o documento com assinaturas de código de barras",
+    "comment_2": "Defina as opções de verificação para corresponder ao texto específico do código de barras",
+    "comment_3": "Verifique as assinaturas no documento",
+    "comment_4": "Exiba os resultados da verificação"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Cerca firme elettroniche in file {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Sfrutta la potenza dell'API {{ProdFullName}} per rilevare e cercare firme elettroniche in PDF, documenti Word, fogli di calcolo Excel, presentazioni e immagini."
+  },
+  "header": {
+    "title": "Cerca firme elettroniche in {{FileFormatUp}}",
+    "description": "Scopri e recupera informazioni dettagliate su tutte le firme incorporate in file PDF, Word, Excel, presentazioni e immagini utilizzando gli strumenti avanzati forniti da {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Inizia subito gratuitamente"
+  },
+  "about": {
+    "title": "Panoramica di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un framework robusto per gestire le firme digitali attraverso un'ampia gamma di tipi di file. Supportando oltre 60 formati come PDF, documenti Microsoft Office, immagini e file ZIP, l'API consente agli utenti di applicare, localizzare, verificare, aggiornare o rimuovere una varietà di tipi di firme, tra cui testo, immagini, codici a barre, certificati digitali e altro ancora."
+  },
+  "more_features": {
+    "title": "Soluzione completa per la gestione delle firme",
+    "description": "{{ProdFullName}} fornisce una soluzione all-in-one per aggiungere, modificare, cercare e verificare firme elettroniche attraverso i formati di documenti più popolari. Potenzia i tuoi flussi di lavoro con funzionalità avanzate di firma dei documenti.",
+    "image_description": "Caratteristiche di rilevamento delle firme",
+    "feature_1": {
+      "title": "Firmare digitalmente file aziendali",
+      "content": "Aggiungi firme elettroniche come testo, immagini, codici a barre e certificati digitali in qualsiasi posizione all'interno dei tuoi documenti. {{ProdShortName}} supporta la firma in PDF, Word, Excel, immagini e altro, garantendo una gestione flessibile dei documenti."
+    },
+    "feature_2": {
+      "title": "Gestione delle firme efficiente",
+      "content": "Dopo la firma, localizza facilmente tutte le firme incorporate all'interno di un documento. L'API consente una ricerca e un recupero completi delle firme, nonché la possibilità di aggiornarle o rimuoverle."
+    },
+    "feature_3": {
+      "title": "Sicurezza dei documenti e gestione dei metadati",
+      "content": "Proteggi l'integrità dei tuoi documenti incorporando o rimuovendo metadati nascosti. Proteggi i tuoi file da modifiche non autorizzate utilizzando certificati digitali per sigillare e autenticare il contenuto del documento."
+    }
+  },
+  "formats": {
+    "title": "Localizza firme in più tipi di file",
+    "description": "Con l'API {{ProdFullName}}, puoi cercare e recuperare efficientemente firme elettroniche da un'ampia gamma di formati di file supportati, facilitando l'integrazione nei tuoi flussi di lavoro documentali."
+  },
+  "operations": {
+    "title": "Funzionalità chiave",
+    "description": "La nostra API completa offre una gamma di operazioni progettate per semplificare la gestione delle firme documentali, dalla firma alla post-elaborazione e verifica."
+  },
+  "examples": {
+    "comment_1": "Instanzia un oggetto {{TextSignature}} utilizzando il percorso del documento",
+    "comment_2": "Configura {{TextSearchOptions}} per includere ogni pagina",
+    "comment_3": "Esegui una ricerca per localizzare tutte le firme testuali all'interno del documento",
+    "comment_4": "Aggrega le firme scoperte per un'analisi completa"
+  },
+  "steps": {
+    "title": "Guida alla ricerca di firme in {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) fornisce uno strumento potente per localizzare firme digitali all'interno di file {{FileFormatUp}}. Gli sviluppatori {{EnvName}} possono ampliare facilmente la funzionalità delle loro applicazioni con la nostra soluzione.",
+      "step_1": "Specifica il percorso del file {{FileFormatUp}} per la ricerca delle firme.",
+      "step_2": "Utilizza {{SearchOptions}} per filtrare i risultati della ricerca.",
+      "step_3": "Esegui il metodo Search per trovare le firme.",
+      "step_4": "Esamina l'elenco delle firme scoperte."
+    }
+  },
+  "code_1": {
+    "title": "Identificazione delle firme su immagine",
+    "content": "Questo esempio illustra come rilevare una firma su immagine all'interno di un documento specifico.",
+    "comment_1": "Fornisci il documento sorgente come parametro al costruttore",
+    "comment_2": "Cerca eventuali firme che siano di tipo testo",
+    "comment_3": "Visualizza i risultati con le proprietà complete delle firme individuate"
+  }
+}

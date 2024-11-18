@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "通过 {{ProgLang}} 生成并添加印章到 {{FileFormatUp}}",
+    "description": "利用 {{ProdShortName}} 和 {{ProgLang}} 的强大功能，在您的 {{FileFormatUp}} 文档的任何页面上生成并放置自定义印章。"
+  },
+  "header": {
+    "title": "将自定义印章插入 {{FileFormatUp}} 文件",
+    "description": "利用 {{ProdFullName}} 生成定制印章，并将其插入到文档中的任何位置。我们的平台提供广泛的选项，以根据您的特定业务需求个性化印章。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一种强大且多功能的文档签名解决方案。它使用户能够在超过 60 种不同格式中添加印章和其他签名类型，如 PDF、Word、Excel、图像文件和 ZIP 文件。该平台允许您插入文本、图像、条形码、二维码、元数据、数字证书和印章签名。除签名外，您还可以搜索、验证、修改或删除文档中存在的任何签名。"
+  },
+  "more_features": {
+    "title": "通过签名增强文档安全",
+    "description": "使用 {{ProdFullName}}，您可以在所有流行文档格式中添加、编辑、验证或删除印章和其他签名类型。该 API 简化了管理签名的过程，以增强文档的完整性和定制化。",
+    "image_description": "{{ProdShortName}} 的功能",
+    "feature_1": {
+      "title": "自定义文档签名",
+      "content": "在文档的任何部分应用文本、图像、条形码、二维码和印章等签名。此工具还允许加入隐藏的元数据和数字证书，以进一步保护您的内容不被未经授权的修改。"
+    },
+    "feature_2": {
+      "title": "签名搜索和验证",
+      "content": "文档签名后，使用我们的验证系统确保签名的完整性。此外，我们的平台使您能够搜索并检索所有应用于文档的签名的详细信息。"
+    },
+    "feature_3": {
+      "title": "根据需要修改签名",
+      "content": "对先前应用的签名进行调整和更新。无论是更改内容、颜色、大小还是签名的位置，{{ProdFullName}} 都提供全面的定制选项。"
+    },
+    "feature_4": {
+      "title": "删除不需要的签名",
+      "content": "轻松删除文档中任何不必要的签名。我们的 API 支持删除各种签名类型，包括印章和数字证书，使您能够完全灵活地管理文档。"
+    }
+  },
+  "formats": {
+    "title": "在多种文件类型中应用印章签名",
+    "description": "{{ProdShortName}} API 支持在 60 多种文件格式中使用印章签名，使用户可以在任何页面或区域放置自定义印章，从而提高文档的可访问性和安全性。"
+  },
+  "operations": {
+    "title": "探索关键功能",
+    "description": "我们的解决方案提供多种工具，用于创建、管理和删除不同类型的签名，使用户可以完全控制其文档工作流程。"
+  },
+  "examples": {
+    "comment_1": "将文档路径与 {{TextSignature}} 实例关联",
+    "comment_2": "创建包含所需签名内容的 {{StampSignOptions}}",
+    "comment_3": "添加一个或多个印章行",
+    "comment_4": "保存应用印章的文档"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 在 {{FileFormatUp}} 中嵌入印章的指南",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 提供了一个强大的工具，用于创建和嵌入印章，这可以显著增强 {{EnvName}} 应用程序的功能。使用此功能可以为您的文档页面定制并应用印章。",
+      "step_1": "输入需要贴印章的 {{FileFormatUp}} 文档。",
+      "step_2": "部署 {{StampSignOptions}} 以定义所有必要参数。",
+      "step_3": "根据需要插入多个印章行。",
+      "step_4": "应用印章并保存最终文档。"
+    }
+  },
+  "code_1": {
+    "title": "将自定义印章集成到文档中",
+    "content": "了解如何设计和应用包含必要文本的自定义印章到您的文档。",
+    "comment_1": "提供要贴印章的文档",
+    "comment_2": "设置具有所需配置的印章选项",
+    "comment_3": "指定印章在页面上的尺寸和位置",
+    "comment_4": "包括带有自定义文本的外圆线",
+    "comment_5": "根据需要添加内方形线",
+    "comment_6": "保存带印章的文档"
+  }
+}

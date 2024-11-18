@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verifica le firme digitali {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Utilizza {{ProdFullName}} per verificare le firme all'interno dei file {{FileFormatUp}}. Conferma l'autenticità delle firme in PDF, Word, Excel, Presentazioni, Immagini e file ZIP."
+  },
+  "header": {
+    "title": "Verifica delle firme digitali {{FileFormatUp}}",
+    "description": "Verifica rapidamente e con precisione le firme elettroniche in vari formati, inclusi PDF, Word, Excel, Presentazioni, Immagini e file ZIP utilizzando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la versione gratuita"
+  },
+  "about": {
+    "title": "Caratteristiche principali di {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre una gestione completa delle firme documentali, supportando oltre 60 formati di file come PDF, file MS Office, immagini e archivi ZIP. Ti consente di applicare vari tipi di firma, inclusi testo, immagini, codici a barre, certificati digitali, metadati e timbri. Oltre a firmare, ti permette anche di cercare, verificare, modificare o rimuovere firme."
+  },
+  "more_features": {
+    "title": "Strumenti avanzati per le firme digitali",
+    "description": "{{ProdShortName}} fornisce una soluzione completa per firmare e verificare documenti in formati di file popolari. Con supporto per sette tipi di firma e operazioni complete CRUD, hai il controllo totale sulla protezione e gestione dei documenti.",
+    "image_description": "Caratteristiche di verifica delle firme",
+    "feature_1": {
+      "title": "Firma documentale efficiente",
+      "content": "Aggiungi facilmente firme digitali personalizzate in qualsiasi parte dei tuoi documenti. {{ProdFullName}} supporta firme di testo, immagine, codice a barre, metadati, timbro e certificati digitali, garantendo che i tuoi documenti soddisfino i requisiti aziendali."
+    },
+    "feature_2": {
+      "title": "Gestione completa del ciclo di vita delle firme",
+      "content": "Gestisci le firme per l'intero ciclo di vita—accedi, verifica, aggiorna o rimuovi le firme secondo necessità per mantenere i tuoi documenti accurati e aggiornati."
+    },
+    "feature_3": {
+      "title": "Proteggi l'integrità del documento",
+      "content": "Proteggi i tuoi documenti sensibili incorporando certificati digitali che impediscono modifiche non autorizzate. Aggiungi metadati nascosti per proteggere informazioni cruciali e mantenere l'integrità del documento."
+    },
+    "feature_4": {
+      "title": "Soluzioni di firma personalizzate",
+      "content": "Utilizza tipi di firma specifici per il documento come timbri PDF e filigrane Word. Queste firme specializzate sono perfette per branding, conformità o per aggiungere un tocco professionale ai tuoi documenti aziendali."
+    }
+  },
+  "formats": {
+    "title": "Verifica le firme in più formati",
+    "description": "{{ProdFullName}} ti consente di verificare le firme in un'ampia gamma di formati di documento. Personalizza i parametri di verifica per garantire l'integrità dei documenti e soddisfare i requisiti di conformità."
+  },
+  "operations": {
+    "title": "Gestione e operazioni delle firme",
+    "description": "Esplora le ampie caratteristiche e operazioni di gestione delle firme fornite da {{ProdShortName}} per avere il controllo totale sui processi di firma dei documenti."
+  },
+  "examples": {
+    "comment_1": "Inizializza {{TextSignature}} con il documento",
+    "comment_2": "Configura {{TextVerifyOptions}} per verificare le firme con testo specifico",
+    "comment_3": "Esegui la verifica della firma sul documento",
+    "comment_4": "Esamina e analizza i risultati della verifica"
+  },
+  "steps": {
+    "title": "Come verificare le firme {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) verifica firme specifiche nei documenti {{FileFormatUp}}. Gli sviluppatori {{EnvName}} possono migliorare le loro app integrando questa funzionalità di verifica.",
+      "step_1": "Carica il file {{FileFormatUp}} nell'istanza di {{TextSignature}}.",
+      "step_2": "Crea e configura {{VerifyOptions}} per corrispondere ai criteri di verifica desiderati.",
+      "step_3": "Avvia il processo di verifica.",
+      "step_4": "Interpreta i risultati del processo di verifica."
+    }
+  },
+  "code_1": {
+    "title": "Verifica le firme a codice a barre",
+    "content": "Questo esempio dimostra come verificare le firme a codice a barre in un documento.",
+    "comment_1": "Carica il documento con firme a codice a barre",
+    "comment_2": "Imposta le opzioni di verifica per corrispondere a un testo specifico del codice a barre",
+    "comment_3": "Verifica le firme nel documento",
+    "comment_4": "Visualizza i risultati della verifica"
+  }
+}

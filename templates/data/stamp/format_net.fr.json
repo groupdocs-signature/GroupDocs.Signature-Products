@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tampons ronds et carrés {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Utilisez {{ProdFullName}} pour générer et intégrer des tampons personnalisés dans vos fichiers {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Générez des tampons pour des fichiers {{FileFormatUp}}",
+    "description": "Intégrez sans effort des tampons conçus sur mesure dans n'importe quelle section de vos documents grâce à {{ProdFullName}}, offrant une flexibilité considérable pour le placement et la configuration des tampons afin de répondre à vos besoins professionnels.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargez votre version gratuite"
+  },
+  "about": {
+    "title": "Aperçu de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est un outil polyvalent qui permet l'insertion de plusieurs types de signatures dans les documents, y compris les tampons personnalisables. Supportant plus de 60 formats de fichiers, allant des PDF et documents Word aux images et fichiers ZIP, vous pouvez enrichir vos documents avec du texte, des images, des codes-barres, des métadonnées, des certificats numériques et des tampons. De plus, vous avez un contrôle total pour rechercher, valider, modifier ou supprimer toute signature appliquée à vos fichiers."
+  },
+  "more_features": {
+    "title": "Exploitez les signatures pour sécuriser et améliorer l'intégrité des documents",
+    "description": "Avec la bibliothèque {{ProdFullName}}, vous pouvez intégrer sans effort la fonctionnalité de signature dans vos documents. Ajoutez, modifiez, vérifiez ou supprimez facilement des tampons personnalisés et d'autres types de signatures, offrant flexibilité et précision pour une gestion sécurisée des documents.",
+    "image_description": "Signatures de Tampon Alimentées par {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signature documentaire complète",
+      "content": "Améliorez vos documents en plaçant des signatures, incluant texte, images, codes-barres, codes QR et tampons, à n'importe quelle position ou page du fichier. De plus, gérez les métadonnées intégrées et appliquez des certificats numériques pour protéger contre les modifications non autorisées."
+    },
+    "feature_2": {
+      "title": "Recherche et validation efficaces des signatures",
+      "content": "Après la signature, vérifiez l'authenticité et l'intégrité des signatures documentaires. Utilisez la fonctionnalité de recherche avancée pour récupérer et gérer toutes les données de signature intégrées dans le document."
+    },
+    "feature_3": {
+      "title": "Modifier et personnaliser les signatures",
+      "content": "Ajustez les signatures précédemment insérées sans difficulté. Que vous ayez besoin de changer le contenu, la position, la taille ou la couleur, notre solution offre une flexibilité totale pour la modification des signatures."
+    },
+    "feature_4": {
+      "title": "Supprimer les signatures sans effort",
+      "content": "Lorsque les signatures doivent être supprimées, {{ProdFullName}} fournit un ensemble complet d'outils pour supprimer tout type de signature, y compris les tampons, certificats numériques, et plus, garantissant que vos documents restent à jour et conformes."
+    }
+  },
+  "formats": {
+    "title": "Appliquez des tampons à divers formats de documents",
+    "description": "L'API {{ProdShortName}} permet d'incorporer des tampons à plus de 60 types de fichiers standard de l'industrie. Appliquez sans effort des tampons personnalisés à n'importe quel endroit de vos documents, permettant un meilleur suivi et une personnalisation des documents."
+  },
+  "operations": {
+    "title": "Explorez les fonctionnalités principales",
+    "description": "Découvrez un large éventail d'options pour créer, gérer et supprimer différents types de signatures, garantissant un contrôle complet sur vos flux de travail documentaires."
+  },
+  "examples": {
+    "comment_1": "Intégrez le chemin du document avec l'instance {{TextSignature}}",
+    "comment_2": "Initialisez {{StampSignOptions}} avec le contenu de signature requis",
+    "comment_3": "Incorporez une ou plusieurs lignes de tampon",
+    "comment_4": "Préservez le document avec le tampon appliqué"
+  },
+  "steps": {
+    "title": "Comment intégrer un tampon dans {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) offre une fonctionnalité robuste de création de tampons, idéale pour améliorer les applications {{EnvName}}. Profitez de cet outil pour concevoir et mettre en œuvre des tampons hautement personnalisés sur vos pages de documents.",
+      "step_1": "Fournissez le document {{FileFormatUp}} à tamponner.",
+      "step_2": "Utilisez {{StampSignOptions}} pour configurer méticuleusement tous les paramètres requis.",
+      "step_3": "Ajoutez plusieurs lignes de tampon selon vos besoins.",
+      "step_4": "Appliquez le tampon configuré et enregistrez le document modifié."
+    }
+  },
+  "code_1": {
+    "title": "Implémentez des tampons personnalisés dans les documents",
+    "content": "Découvrez comment créer et intégrer des tampons personnalisés portant des détails textuels critiques dans vos documents.",
+    "comment_1": "Fournissez le document à tamponner",
+    "comment_2": "Initialisez les options de tampon avec les configurations souhaitées",
+    "comment_3": "Définissez les dimensions et la position du tampon sur la page",
+    "comment_4": "Incorporez des lignes extérieures circulaires avec du texte",
+    "comment_5": "Intégrez des lignes carrées intérieures si nécessaire",
+    "comment_6": "Finalisez et enregistrez le document tamponné"
+  }
+}

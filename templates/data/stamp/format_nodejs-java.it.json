@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Genera e aggiungi timbri a {{FileFormatUp}} tramite {{ProgLang}}",
+    "description": "Sfrutta la potenza di {{ProdShortName}} e {{ProgLang}} per generare e posizionare timbri personalizzati su qualsiasi pagina dei tuoi documenti {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Inserisci timbri personalizzati nei file {{FileFormatUp}}",
+    "description": "Utilizza {{ProdFullName}} per generare timbri su misura e inserirli in qualsiasi posizione dei tuoi documenti. La nostra piattaforma offre ampie opzioni per personalizzare i timbri in base alle tue specifiche esigenze aziendali.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Prova gratuita"
+  },
+  "about": {
+    "title": "Cos'è {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre una soluzione robusta e versatile per la firma dei documenti. Permette agli utenti di aggiungere timbri e altri tipi di firma in oltre 60 formati diversi, come PDF, Word, Excel, file immagini e ZIP. La piattaforma consente di inserire testo, immagini, codici a barre, codici QR, metadati, certificati digitali e firme timbrate. Oltre alla firma, puoi cercare, verificare, modificare o eliminare qualsiasi firma presente nei tuoi documenti."
+  },
+  "more_features": {
+    "title": "Rafforza la sicurezza dei documenti con firme",
+    "description": "Con {{ProdFullName}}, puoi aggiungere, modificare, convalidare o rimuovere timbri e altri tipi di firma in tutti i formati di documento più comuni. L'API semplifica il processo di gestione delle firme per una maggiore integrità e personalizzazione dei documenti.",
+    "image_description": "Caratteristiche di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma personalizzata dei documenti",
+      "content": "Applica firme come testo, immagini, codici a barre, codici QR e timbri in qualsiasi parte del tuo documento. Questo strumento consente anche l'inclusione di metadati nascosti e certificati digitali per proteggere ulteriormente il contenuto da modifiche non autorizzate."
+    },
+    "feature_2": {
+      "title": "Ricerca e verifica delle firme",
+      "content": "Dopo che un documento è stato firmato, utilizza il nostro sistema di verifica per garantire l'integrità delle firme. Inoltre, la nostra piattaforma consente di cercare e recuperare informazioni dettagliate su tutte le firme applicate a un documento."
+    },
+    "feature_3": {
+      "title": "Modifica le firme secondo necessità",
+      "content": "Regola e aggiorna facilmente le firme precedentemente applicate. Che si tratti di cambiare il contenuto, il colore, la dimensione o la posizione della firma, {{ProdFullName}} offre opzioni di personalizzazione complete."
+    },
+    "feature_4": {
+      "title": "Rimuovi firme indesiderate",
+      "content": "Rimuovi senza difficoltà qualsiasi firma non necessaria dai tuoi documenti. La nostra API supporta l'eliminazione di un'ampia gamma di tipi di firma, comprese le timbrature e i certificati digitali, offrendoti completa flessibilità nella gestione dei tuoi documenti."
+    }
+  },
+  "formats": {
+    "title": "Applica firme timbrate su più tipi di file",
+    "description": "L'API di {{ProdShortName}} supporta firme timbrate in oltre 60 formati di file, consentendo agli utenti di posizionare timbri personalizzati su qualsiasi pagina o area, migliorando l'accessibilità e la sicurezza dei documenti."
+  },
+  "operations": {
+    "title": "Esplora le funzionalità chiave",
+    "description": "La nostra soluzione offre una varietà di strumenti per creare, gestire e rimuovere diversi tipi di firme, dando agli utenti il controllo completo sui loro flussi di lavoro documentali."
+  },
+  "examples": {
+    "comment_1": "Associa il percorso del documento con l'istanza di {{TextSignature}}",
+    "comment_2": "Crea {{StampSignOptions}} con il contenuto della firma necessario",
+    "comment_3": "Incorpora una o più righe di timbro",
+    "comment_4": "Salva il documento con il timbro applicato"
+  },
+  "steps": {
+    "title": "Guida all'inserimento di timbri in {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) offre un potente strumento per creare e incorporare timbri, che possono migliorare significativamente le applicazioni {{EnvName}}. Utilizza questa funzionalità per creare e applicare timbri personalizzati alle pagine dei tuoi documenti.",
+      "step_1": "Inserisci il documento {{FileFormatUp}} che richiede timbratura.",
+      "step_2": "Utilizza {{StampSignOptions}} per definire tutti i parametri essenziali.",
+      "step_3": "Inserisci tante righe di timbre quante necessarie.",
+      "step_4": "Applica il timbro e salva il documento finale."
+    }
+  },
+  "code_1": {
+    "title": "Integra timbri personalizzati nei documenti",
+    "content": "Scopri come progettare e applicare timbri personalizzati contenenti testo essenziale ai tuoi documenti.",
+    "comment_1": "Fornisci il documento per la timbratura",
+    "comment_2": "Imposta le opzioni di timbro con le configurazioni desiderate",
+    "comment_3": "Specifica le dimensioni e la posizione del timbro sulla pagina",
+    "comment_4": "Includi linee circolari esterne con testo personalizzato",
+    "comment_5": "Aggiungi linee quadrate interne secondo necessità",
+    "comment_6": "Salva il documento timbrato"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Buat tanda tangan teks untuk {{FileFormatUp}} menggunakan aplikasi {{ProgLang}}",
+    "description": "Manfaatkan kekuatan API {{ProgLang}} untuk menggabungkan tanda tangan berbasis teks ke dalam file {{FileFormatUp}}, mendukung berbagai format termasuk PDF, Word, Excel, Presentasi, Gambar, dan ZIP."
+  },
+  "header": {
+    "title": "Sisipkan tanda tangan teks dalam {{FileFormatUp}} dengan lancar",
+    "description": "Integrasikan tanda tangan teks kustom ke dalam dokumen bisnis Anda menggunakan {{ProdFullName}}. Optimalkan proses organisasi dengan kemampuan kustomisasi tanda tangan yang serbaguna.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Coba gratis hari ini"
+  },
+  "about": {
+    "title": "Temukan solusi {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyediakan platform canggih untuk menyisipkan tanda tangan teks yang sangat dapat disesuaikan, menyederhanakan alur kerja dokumen Anda. Sesuaikan konten dan atribut visual tanda tangan teks, menerapkannya secara mulus di seluruh halaman untuk meningkatkan manajemen dokumen dan efisiensi operasional."
+  },
+  "more_features": {
+    "title": "Manajemen tanda tangan teks yang komprehensif",
+    "description": "{{ProdFullName}} memberdayakan organisasi Anda dengan meningkatkan alur kerja dokumen melalui penambahan tanda tangan teks yang dapat disesuaikan di berbagai format file populer. Kelola penampilan, penempatan, dan konten tanda tangan ini untuk memenuhi kebutuhan spesifik Anda.",
+    "image_description": "Jelajahi Fitur {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tanda tangan dokumen yang serbaguna",
+      "content": "Terapkan berbagai tanda tangan—termasuk teks, gambar, kode batang, kode QR, dan cap—ke setiap halaman dokumen yang didukung. Manfaatkan metadata untuk memasukkan konten tersembunyi, sambil melindungi informasi sensitif melalui penggunaan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan otentikasi tanda tangan",
+      "content": "Pastikan validitas dan integritas dokumen yang ditandatangani dengan memanfaatkan alat verifikasi tanda tangan yang kuat. Lakukan pencarian untuk mendapatkan daftar komprehensif semua tanda tangan dalam dokumen untuk analisis lebih lanjut."
+    },
+    "feature_3": {
+      "title": "Perbarui atau hapus tanda tangan",
+      "content": "Modifikasi konten, properti visual, atau penempatan tanda tangan yang telah disisipkan sebelumnya dengan mudah. Jika perlu, hapus tanda tangan yang tidak diinginkan untuk menjaga konten dokumen yang akurat dan relevan."
+    },
+    "feature_4": {
+      "title": "Tanda tangan teks yang khusus",
+      "content": "Terapkan tanda tangan teks yang spesifik untuk dokumen, seperti watermark untuk dokumen Word atau stiker untuk PDF, untuk memberikan lapisan kustomisasi dan kontrol tambahan."
+    }
+  },
+  "formats": {
+    "title": "Sisipkan tanda tangan teks di berbagai format file",
+    "description": "Dengan API {{EnvName}} kami, Anda dapat menyisipkan tanda tangan teks ke dalam berbagai dokumen Office. Ambil kontrol penuh atas siklus hidup dokumen Anda dengan menambahkan tanda tangan teks yang meningkatkan fungsionalitas dan keamanan."
+  },
+  "operations": {
+    "title": "Fitur lanjutan dan opsi tanda tangan",
+    "description": "API kami mendukung manajemen siklus hidup penuh dari tujuh jenis tanda tangan, menawarkan kemampuan CRUD yang komprehensif untuk mengelola, memverifikasi, dan menyesuaikan tanda tangan Anda."
+  },
+  "examples": {
+    "comment_1": "Inisialisasi {{TextSignature}} dengan jalur dokumen",
+    "comment_2": "Buat instance dari {{TextSignOptions}} dengan teks tanda tangan yang diinginkan",
+    "comment_3": "Konfigurasi warna teks dan atribut font",
+    "comment_4": "Integrasikan tanda tangan teks ke dalam dokumen"
+  },
+  "steps": {
+    "title": "Cara membuat dan menambahkan tanda tangan teks ke {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memfasilitasi penggabungan tanda tangan teks ke dalam file {{FileFormatUp}} dalam aplikasi {{EnvName}}. Tingkatkan kemampuan produk Anda dengan cepat menggunakan solusi kami yang komprehensif.",
+      "step_1": "Sampaikan dokumen {{FileFormatUp}} sebagai parameter ke konstruktor kelas {{TextSignature}}.",
+      "step_2": "Buat {{TextSignOptions}} dengan teks tanda tangan yang diperlukan.",
+      "step_3": "Tentukan atribut visual untuk tanda tangan.",
+      "step_4": "Sisipkan tanda tangan teks ke halaman yang ditentukan dalam dokumen."
+    }
+  },
+  "code_1": {
+    "title": "Sisipkan tanda tangan teks dalam dokumen",
+    "content": "Temukan cara untuk menggabungkan tanda tangan teks ke dalam dokumen bisnis untuk menyederhanakan proses.",
+    "comment_1": "Pilih dokumen yang akan ditandatangani",
+    "comment_2": "Buat opsi teks dengan konten yang ditentukan",
+    "comment_3": "Tentukan dimensi dan posisi tanda tangan di halaman",
+    "comment_4": "Terapkan padding dari tepi halaman untuk tanda tangan",
+    "comment_5": "Sesuaikan warna teks dan gaya font",
+    "comment_6": "Gabungkan border di sekitar tanda tangan teks",
+    "comment_7": "Terapkan kustomisasi latar belakang jika perlu",
+    "comment_8": "Opsi simpan teks sebagai gambar untuk memastikan kompatibilitas",
+    "comment_9": "Simpan dokumen dengan tanda tangan teks yang terintegrasi"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}应用程序为{{FileFormatUp}}创建文本签名",
+    "description": "利用{{ProgLang}} API将文本签名嵌入{{FileFormatUp}}文件中，支持PDF、Word、Excel、演示文稿、图片和ZIP等多种格式。"
+  },
+  "header": {
+    "title": "无缝嵌入{{FileFormatUp}}中的文本签名",
+    "description": "通过使用{{ProdFullName}}轻松将自定义文本签名集成到您的业务文档中。利用多样化的签名自定义功能优化组织流程。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "立即免费试用"
+  },
+  "about": {
+    "title": "探索{{ProdFullName}}解决方案",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})提供一个复杂的平台，用于嵌入高度可定制的文本签名，简化您的文档工作流程。调整文本签名的内容和视觉属性，使其无缝应用于各个页面，以提升文档管理并增强运营效率。"
+  },
+  "more_features": {
+    "title": "全面的文本签名管理",
+    "description": "{{ProdFullName}}通过在流行文件格式中添加可定制的文本签名，增强您的组织的文档工作流程。轻松管理这些签名的外观、位置和内容，以满足您的特定需求。",
+    "image_description": "探索{{ProdShortName}}的功能",
+    "feature_1": {
+      "title": "多样化的文档签名",
+      "content": "在受支持的文档的任意页面上应用多种签名，包括文本、图像、条形码、二维码和印章。利用元数据嵌入隐藏内容，同时通过使用数字证书保护敏感信息。"
+    },
+    "feature_2": {
+      "title": "签名搜索和验证",
+      "content": "通过利用我们强大的签名验证工具，确保您签署的文档的有效性和完整性。进行搜索以检索文档中所有签名的全面列表以进行进一步分析。"
+    },
+    "feature_3": {
+      "title": "更新或删除签名",
+      "content": "轻松修改先前嵌入的签名的内容、视觉属性或位置。如有必要，删除不必要的签名，以保持文档内容的准确性和相关性。"
+    },
+    "feature_4": {
+      "title": "专业化的文本签名",
+      "content": "实现文档特定的文本签名，如Word文档的水印或PDF的贴纸，以提供额外的定制和控制层。"
+    }
+  },
+  "formats": {
+    "title": "在多种文件格式中嵌入文本签名",
+    "description": "通过我们的{{EnvName}} API，您可以将文本签名嵌入各种Office文档中。通过添加增强功能和安全性的文本签名，全面控制文档的生命周期。"
+  },
+  "operations": {
+    "title": "高级功能和签名选项",
+    "description": "我们的API支持七种签名类型的全生命周期管理，提供全面的CRUD功能，以管理、验证和定制您的签名。"
+  },
+  "examples": {
+    "comment_1": "使用文档路径初始化{{TextSignature}}",
+    "comment_2": "使用所需的签名文本创建{{TextSignOptions}}实例",
+    "comment_3": "配置文本颜色和字体属性",
+    "comment_4": "将文本签名集成到文档中"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}为{{FileFormatUp}}创建和添加文本签名",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})便于将文本签名纳入{{FileFormatUp}}文件内的{{EnvName}}应用程序中。迅速通过我们的全面解决方案增强您的产品能力。",
+      "step_1": "将{{FileFormatUp}}文档作为参数传递给{{TextSignature}}类构造函数。",
+      "step_2": "创建拥有必要签名文本的{{TextSignOptions}}。",
+      "step_3": "定义签名的视觉属性。",
+      "step_4": "将文本签名嵌入到文档的任何指定页面中。"
+    }
+  },
+  "code_1": {
+    "title": "在文档中嵌入文本签名",
+    "content": "了解如何将文本签名纳入业务文档中，以简化流程。",
+    "comment_1": "选择要签署的文档",
+    "comment_2": "使用指定的内容制定文本选项",
+    "comment_3": "定义签名在页面上的尺寸和位置",
+    "comment_4": "为签名实现页面边缘的填充",
+    "comment_5": "定制文本颜色和字体样式",
+    "comment_6": "围绕文本签名加入边框",
+    "comment_7": "如有必要，可以实施背景定制",
+    "comment_8": "可选地将文本保存为图像以确保兼容性",
+    "comment_9": "保存集成了文本签名的文档"
+  }
+}

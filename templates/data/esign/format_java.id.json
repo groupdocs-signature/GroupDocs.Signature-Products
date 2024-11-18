@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Tanda tangan e-Sign berkas {{FileFormatUp}} dengan aplikasi {{ProgLang}}",
+    "description": "Gunakan API {{ProgLang}} untuk memproses berkas {{FileFormatUp}} dan menerapkan berbagai jenis tanda tangan, termasuk PDF, Word, Excel, Presentasi, dan Gambar."
+  },
+  "header": {
+    "title": "Tanda tangan elektronik untuk {{FileFormatUp}}",
+    "description": "Tambahkan berbagai tanda tangan elektronik menggunakan {{ProdFullName}} ke semua format bisnis populer, termasuk PDF, Word, Excel, Presentasi, dan Gambar.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan fitur tanda tangan elektronik yang canggih. Gunakan untuk menambah, mencari, memverifikasi, memodifikasi, dan menghapus berbagai jenis tanda tangan elektronik dalam dokumen dan gambar tanpa memerlukan perangkat lunak eksternal. Tandai PDF, dokumen Word, spreadsheet Excel, presentasi PowerPoint, dan format gambar populer dengan mudah."
+  },
+  "more_features": {
+    "title": "Tanda tangan elektronik dokumen",
+    "description": "API tanda tangan elektronik kami mempermudah proses bisnis. Tandai, cari, perbarui, hapus, dan verifikasi berbagai tanda tangan secara programatis.",
+    "image_description": "Tanda tangan elektronik",
+    "feature_1": {
+      "title": "Tanda tangan dokumen kantor",
+      "content": "Tempatkan tanda tangan elektronik di posisi manapun di halaman dokumen. Tingkatkan konten dokumen dengan teks, gambar, kode batang, metadata, atau sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Manajemen tanda tangan",
+      "content": "Setelah menandatangani, dokumen dapat diproses lebih lanjut. Ambil daftar semua tanda tangan yang ada, modifikasi, atau hapus sesuai kebutuhan."
+    },
+    "feature_3": {
+      "title": "Kontrol konten yang canggih",
+      "content": "Lindungi dokumen bisnis dari perubahan yang tidak sah dengan sertifikat digital perusahaan. Tambahkan atau ekstrak entri metadata tersembunyi yang tersedia di semua jenis dokumen."
+    }
+  },
+  "formats": {
+    "title": "Tandai format berkas populer dengan tanda tangan elektronik",
+    "description": "API tanda tangan elektronik untuk {{EnvName}} memungkinkan pemrosesan semua format berkas dan dokumen bisnis modern."
+  },
+  "operations": {
+    "title": "Jelajahi fitur kunci kami",
+    "description": "Kami bangga menawarkan berbagai tanda tangan dan operasi yang didukung."
+  },
+  "examples": {
+    "comment_1": "Muat dokumen ke dalam instance {{TextSignature}}",
+    "comment_2": "Buat objek {{QrCodeSignOptions}}",
+    "comment_3": "Konfigurasikan semua opsi yang diinginkan",
+    "comment_4": "Simpan berkas dengan kode QR yang ditambahkan ke disk lokal"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menandatangani {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan penambahan tanda tangan kustom ke berkas {{FileFormatUp}}. Pengembang {{EnvName}} dapat mengintegrasikan fungsionalitas tanda tangan ke dalam aplikasi mereka menggunakan perangkat lunak kami.",
+      "step_1": "Berikan berkas {{FileFormatUp}} yang akan ditandatangani ke instance {{TextSignature}}.",
+      "step_2": "Gunakan {{SignOptions}} untuk mendefinisikan rincian tanda tangan.",
+      "step_3": "Sesuaikan berbagai properti seperti ukuran, warna, dan konten.",
+      "step_4": "Simpan berkas yang ditandatangani ke lokasi yang diinginkan."
+    }
+  },
+  "code_1": {
+    "title": "Cara menambahkan tanda tangan gambar ke dokumen",
+    "content": "Contoh ini menunjukkan cara menempatkan tanda tangan gambar pada halaman tertentu dari dokumen.",
+    "comment_1": "Berikan dokumen sumber sebagai parameter",
+    "comment_2": "Tentukan jalur gambar dalam opsi tanda tangan",
+    "comment_3": "Atur ukuran dan halaman target untuk tanda tangan",
+    "comment_4": "Terapkan tanda tangan ke dokumen"
+  }
+}

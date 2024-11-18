@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加印章",
+    "description": "利用 {{ProdShortName}} 和 {{ProgLang}} 创建自定义印章，并将它们放置在 {{FileFormatUp}} 文档的任意页面上。"
+  },
+  "header": {
+    "title": "为 {{FileFormatUp}} 添加自定义印章",
+    "description": "使用 {{ProdFullName}} 设计并应用圆形或方形印章于文档的任何部分。我们的解决方案提供广泛的自定义选项，以满足您所有的业务需求。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的工具，可以向文档添加各种印章签名。它支持超过 60 种不同的文件格式，包括 PDF、Word、Excel、图像和 ZIP 文件。您可以应用文本、图像、条形码、元数据、数字证书和印章签名。除了添加签名外，您还可以搜索、验证、修改和删除它们。"
+  },
+  "more_features": {
+    "title": "通过签名保护您的文档内容",
+    "description": "{{ProdFullName}} 库旨在对流行文件格式进行签名和管理签名。轻松添加、修改、验证或删除印章和其他类型的签名。",
+    "image_description": "使用 {{ProdShortName}} 的印章签名",
+    "feature_1": {
+      "title": "对您的文档进行签名",
+      "content": "将可自定义的签名应用于文档的任何部分。从多种签名类型中选择，包括文本、图像、条形码、二维码和印章。此外，可以添加或修改隐藏的元数据以增强文档安全性。"
+    },
+    "feature_2": {
+      "title": "搜索和验证签名",
+      "content": "一旦文档被签名，使用我们的验证工具确保签名内容有效。搜索并检索所有签名的列表以进行进一步处理。"
+    },
+    "feature_3": {
+      "title": "根据需要更新签名",
+      "content": "轻松修改应用于文档的多种签名。更新诸如大小、颜色、位置、内容等属性。"
+    },
+    "feature_4": {
+      "title": "删除签名",
+      "content": "需要从文档中删除签名吗？我们的 API 完全支持签名删除，使您能够有效管理文档。"
+    }
+  },
+  "formats": {
+    "title": "跨多种文件格式添加印章",
+    "description": "{{ProdShortName}} API 支持 60 多种格式的文件印章。在任何页面或区域放置印章，以改善文档管理和定制。"
+  },
+  "operations": {
+    "title": "探索我们的核心功能",
+    "description": "利用多种选项添加、管理和删除签名。"
+  },
+  "examples": {
+    "comment_1": "使用包含 {{TextSignature}} 对象的文档路径",
+    "comment_2": "实例化 {{StampSignOptions}} 并设置所需的签名文本",
+    "comment_3": "添加一个或多个印章线",
+    "comment_4": "保存印章文档"
+  },
+  "steps": {
+    "title": "通过 {{ProgLang}} 向 {{FileFormatUp}} 添加印章的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 提供了一种印章构造函数，该函数对 {{EnvName}} 应用程序非常有益。利用它为您的文档页面创建精美的自定义印章。",
+      "step_1": "提供要添加印章的 {{FileFormatUp}} 文档。",
+      "step_2": "使用 {{StampSignOptions}} 配置所有必要参数。",
+      "step_3": "添加所需数量的行。",
+      "step_4": "应用印章并保存文档。"
+    }
+  },
+  "code_1": {
+    "title": "使用特殊签名向文档添加自定义印章",
+    "content": "了解如何生成并将包含重要文本信息的自定义印章添加到文档中。",
+    "comment_1": "提供要添加印章的文档",
+    "comment_2": "实例化印章选项对象",
+    "comment_3": "设置页面上的大小和位置",
+    "comment_4": "添加一个或多个带有文本的外部圆形线",
+    "comment_5": "添加一个或多个内部方形线",
+    "comment_6": "保存印章文档"
+  }
+}

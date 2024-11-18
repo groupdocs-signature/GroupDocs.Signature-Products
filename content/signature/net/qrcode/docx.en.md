@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:29
+date:  2024-11-18T11:52:01
 draft: false
 lang: en
 format: Docx
@@ -115,7 +115,7 @@ more_features:
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to customize a generated QR code"
+    - title: "How to generate QR code with various options?"
       content: |
         This example demonstrates how to place a customized QR code on a DOCX page.
       code:
@@ -230,13 +230,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/docx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/docx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

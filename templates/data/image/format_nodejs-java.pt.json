@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Adicionando assinaturas de imagem ao arquivo {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Coloque uma assinatura de imagem no arquivo {{FileFormatUp}} para {{EnvNameShort}} usando algumas linhas de código. Utilize a API {{ProdFullName}} para adicionar imagens."
+  },
+  "header": {
+    "title": "Assine arquivos {{FileFormatUp}} utilizando assinaturas de imagem",
+    "description": "Aproveite as capacidades do {{ProdFullName}} para integrar imagens de maneira eficaz em uma variedade de formatos de documentos, como PDFs, Word, Excel e vários arquivos de imagem. Adicionar uma imagem de assinatura executiva pode aumentar significativamente a profissionalidade e a credibilidade dos seus documentos, criando uma apresentação refinada e polida.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe gratuitamente"
+  },
+  "about": {
+    "title": "Apresentando o {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) capacita os usuários a incorporar assinaturas de imagem em qualquer local dentro de seus documentos. Esta ferramenta permite que empresas agilizem seus fluxos de trabalho ao adicionar imagens a PDFs, Word, Excel, PowerPoint e formatos de imagem populares, melhorando a eficiência do gerenciamento de documentos."
+  },
+  "more_features": {
+    "title": "Capacidades avançadas de assinatura de documentos",
+    "description": "Nossa API oferece um conjunto de recursos que simplificam a assinatura eletrônica. Você pode adicionar, modificar, remover, procurar e verificar múltiplos tipos de assinaturas, incluindo assinaturas de imagem, com eficiência.",
+    "image_description": "Assinaturas de imagem",
+    "feature_1": {
+      "title": "Incorpore imagens em documentos de escritório",
+      "content": "Insira assinaturas de imagem em qualquer lugar do seu documento, seja em PDFs, arquivos Word ou Excel. Melhore seus documentos ao adicionar imagens, códigos de barras, metadados ou certificados digitais para funcionalidade adicional."
+    },
+    "feature_2": {
+      "title": "Pesquise e valide assinaturas",
+      "content": "Garanta a autenticidade de seus documentos assinados ao verificar as assinaturas. Utilize a funcionalidade de busca para recuperar e revisar todas as assinaturas incorporadas dentro do seu documento."
+    },
+    "feature_3": {
+      "title": "Modificar assinaturas existentes",
+      "content": "Nossa API permite que os usuários atualizem e ajustem assinaturas conforme necessário. Modifique o tamanho, a posição ou outros atributos de qualquer assinatura previamente adicionada para maior flexibilidade no manuseio de documentos."
+    },
+    "feature_4": {
+      "title": "Remover assinaturas desnecessárias",
+      "content": "Gerencie seus documentos de forma eficiente removendo assinaturas que não são mais necessárias. Nossa API suporta operações CRUD completas para quase todos os tipos de assinatura."
+    }
+  },
+  "formats": {
+    "title": "Adicione imagens a vários tipos de arquivo",
+    "description": "A API {{EnvName}} permite que você incorpore imagens em uma ampla gama de formatos de documentos. Personalize o tamanho, a colocação e o posicionamento na página para aprimorar seu processo de assinatura de documentos."
+  },
+  "operations": {
+    "title": "Descubra as funções que oferecemos",
+    "description": "Temos o prazer de apresentar uma ampla seleção de métodos e operações de assinatura."
+  },
+  "examples": {
+    "comment_1": "Inicialize {{TextSignature}} com o caminho para o documento",
+    "comment_2": "Configure {{ImageSignOptions}} para incluir a assinatura de imagem desejada",
+    "comment_3": "Coloque a imagem no canto superior esquerdo em todas as páginas",
+    "comment_4": "Salve o documento com a assinatura de imagem aplicada"
+  },
+  "steps": {
+    "title": "Guia para adicionar imagens em {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) capacita aplicações {{EnvName}} a integrar assinaturas de imagem em documentos {{FileFormatUp}} de forma fluida. Amplie as capacidades da sua aplicação com nossa biblioteca abrangente.",
+      "step_1": "Instancie {{TextSignature}} com o documento {{FileFormatUp}}",
+      "step_2": "Utilize {{ImageSignOptions}} para especificar a imagem da assinatura",
+      "step_3": "Posicione a imagem precisamente em qualquer página",
+      "step_4": "Salve o documento assinado no local desejado"
+    }
+  },
+  "code_1": {
+    "title": "Melhore documentos com assinaturas de imagem",
+    "content": "Aprenda a incorporar imagens em documentos empresariais para adicionar informações suplementares.",
+    "comment_1": "Selecione o documento a ser assinado",
+    "comment_2": "Configure as opções da imagem com o caminho da imagem",
+    "comment_3": "Ajuste o tamanho da assinatura de imagem",
+    "comment_4": "Coloque a imagem no canto inferior direito",
+    "comment_5": "Aplique preenchimento nas bordas da página, se necessário",
+    "comment_6": "Opcionalmente, adicione uma borda personalizada à imagem",
+    "comment_7": "Gire a assinatura de imagem para melhor aparência",
+    "comment_8": "Salve o documento atualizado no local desejado"
+  }
+}

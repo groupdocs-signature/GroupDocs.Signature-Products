@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "{{ProgLang}}을(를) 사용하여 {{FileFormatUp}} 텍스트 서명 만들기",
+    "description": "{{ProgLang}} API를 활용하여 {{FileFormatUp}} 파일에 텍스트 서명을 삽입하세요. PDF, Word, Excel, 프레젠테이션, 이미지 및 ZIP을 포함한 인기 있는 문서 형식을 원활하게 처리합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}용 텍스트 서명 만들기",
+    "description": "{{ProdFullName}}를 사용하여 비즈니스 문서에 사용자 지정 텍스트 서명을 추가하세요. 서명 사용자 지정 옵션을 통해 조직의 작업 흐름을 간소화하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 시작하기"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 솔루션 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서 관리 작업을 간소화하기 위해 유연하고 사용자 지정 가능한 텍스트 서명을 제공합니다. 텍스트 서명의 내용과 디자인을 구성하고, 모든 페이지에 적용하여 조직의 문서 작업 흐름을 향상시킵니다."
+  },
+  "more_features": {
+    "title": "문서 텍스트 서명 관리",
+    "description": "{{ProdFullName}}를 사용하면 인기 있는 파일 형식에 텍스트 서명을 추가하여 회사의 문서 작업 흐름을 간소화할 수 있습니다. 서명의 외관과 내용을 쉽게 구성할 수 있습니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "문서 서명",
+      "content": "지원되는 문서의 모든 페이지에 텍스트, 이미지, 바코드, QR 코드 또는 스탬프 서명을 적용합니다. 메타데이터를 활용하여 숨겨진 내용을 삽입하고 디지털 인증서로 문서를 보호하세요."
+    },
+    "feature_2": {
+      "title": "서명 검색 및 검증",
+      "content": "서명 검증 도구를 통해 서명된 문서의 무결성을 보장하세요. 문서 내에 삽입된 모든 서명을 검색하고 검색할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "서명 수정 또는 제거",
+      "content": "기존에 추가된 서명의 내용, 위치 및 외관을 수정하거나 문서에서 완전히 제거할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "네이티브 텍스트 서명",
+      "content": "PDF의 스티커나 Word 문서의 워터마크와 같은 문서 특정 텍스트 서명을 추가하여 사용자 지정을 강화하세요."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에 텍스트 서명 추가",
+    "description": "{{EnvName}} API를 활용하여 Office 문서에 텍스트 서명을 삽입하여 문서 생애 주기의 모든 단계에서 내용에 대한 완전한 제어를 보장하세요."
+  },
+  "operations": {
+    "title": "주요 기능 및 서명 옵션",
+    "description": "우리의 솔루션은 일곱 가지 서로 다른 유형의 서명에 대해 완전한 CRUD 작업 및 그 이상을 지원합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} 생성자에 문서 경로 전달",
+    "comment_2": "서명 텍스트로 {{TextSignOptions}} 인스턴스화",
+    "comment_3": "텍스트 색상 및 글꼴 속성 설정",
+    "comment_4": "문서에 텍스트 서명 추가"
+  },
+  "steps": {
+    "title": "{{ProgLang}}을(를) 사용하여 {{FileFormatUp}}에 텍스트 서명 추가하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{EnvName}} 애플리케이션에 통합되어 {{FileFormatUp}} 문서에 텍스트 서명을 추가할 수 있습니다. 개발자는 우리의 솔루션을 사용하여 제품의 기능을 신속하게 향상시킬 수 있습니다.",
+      "step_1": "{{TextSignature}} 클래스 생성자에 {{FileFormatUp}} 문서를 매개변수로 사용하세요.",
+      "step_2": "필요한 텍스트로 {{TextSignOptions}}를 인스턴스화하세요.",
+      "step_3": "서명의 시각적 옵션을 구성하십시오.",
+      "step_4": "텍스트 서명을 문서의 모든 페이지에 추가하세요."
+    }
+  },
+  "code_1": {
+    "title": "문서에 텍스트 서명 추가",
+    "content": "비즈니스 문서에 텍스트 정보를 추가하여 비즈니스 프로세스를 향상시키는 방법을 배우세요.",
+    "comment_1": "서명할 문서 선택",
+    "comment_2": "원하는 텍스트로 텍스트 옵션 생성",
+    "comment_3": "서명의 크기 및 페이지 위치 지정",
+    "comment_4": "서명은 페이지 모서리에서 여백을 지원합니다.",
+    "comment_5": "텍스트 색상 및 글꼴 스타일은 사용자 지정할 수 있습니다.",
+    "comment_6": "텍스트 서명에 테두리를 포함할 수 있습니다.",
+    "comment_7": "배경 사용자 지정도 가능합니다.",
+    "comment_8": "텍스트는 호환성을 위해 이미지로 저장할 수 있습니다.",
+    "comment_9": "추가된 텍스트로 문서 저장"
+  }
+}

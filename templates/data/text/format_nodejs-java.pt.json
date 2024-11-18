@@ -1,0 +1,74 @@
+{
+  "head": {
+    "title": "Adicione assinaturas de texto a {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Utilize a API {{ProgLang}} para integrar assinaturas de texto em documentos {{FileFormatUp}} de forma simplificada. Nossa API suporta uma ampla gama de formatos, incluindo PDF, Word, Excel, Apresentações, Imagens e arquivos ZIP."
+  },
+  "header": {
+    "title": "Adicione assinaturas de texto a {{FileFormatUp}}",
+    "description": "Incorpore assinaturas de texto personalizadas nos seus arquivos de negócios com {{ProdFullName}}. Assuma o controle dos seus fluxos de trabalho documentais aprimorando-os com opções de assinatura seguras e personalizáveis.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Comece o teste gratuito"
+  },
+  "about": {
+    "title": "Apresentando {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução inovadora projetada para facilitar a adição de assinaturas de texto a documentos. Personalize e coloque assinaturas em qualquer página, melhorando a eficiência no manuseio de documentos. Agilize os fluxos de trabalho da sua organização integrando marcas textuais personalizadas que aprimoram tanto a funcionalidade quanto o profissionalismo."
+  },
+  "more_features": {
+    "title": "Controle aprimorado de assinaturas de texto",
+    "description": "Com {{ProdFullName}}, você pode melhorar significativamente a gestão de assinaturas baseadas em texto em formatos de documento chave. A ferramenta permite configurar o estilo, a colocação e o conteúdo das assinaturas, permitindo que as empresas personalizem seus processos documentais.",
+    "image_description": "Recursos principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinaturas dinâmicas em documentos",
+      "content": "Insira vários tipos de assinaturas—como texto, imagens, códigos de barras, QR codes ou carimbos—em qualquer página de documentos compatíveis. Incorpore metadados para carregar informações ocultas ou aplique certificados digitais para medidas de segurança avançadas."
+    },
+    "feature_2": {
+      "title": "Busca e validação de assinaturas",
+      "content": "Verifique a autenticidade das assinaturas incorporadas em seus documentos. Realize buscas eficientes para localizar todas as instâncias de assinatura, garantindo um rastreamento e gerenciamento completos dos documentos."
+    },
+    "feature_3": {
+      "title": "Editar ou remover assinaturas",
+      "content": "Modifique ou exclua assinaturas previamente adicionadas conforme necessário. Você pode ajustar a aparência, a posição ou o conteúdo de qualquer assinatura para atender às exigências em evolução, garantindo flexibilidade no manuseio de documentos."
+    },
+    "feature_4": {
+      "title": "Personalização nativa de assinaturas",
+      "content": "Para determinados tipos de arquivos, adapte a colocação das assinaturas com recursos de documento integrados, como adicionar marcas d'água em arquivos Word ou carimbos personalizados em PDFs, aprimorando a singularidade dos seus documentos."
+    }
+  },
+  "formats": {
+    "title": "Aplique assinaturas de texto em vários formatos",
+    "description": "Aproveite as capacidades da API {{EnvName}} para integrar assinaturas baseadas em texto em uma ampla variedade de formatos do Office. Controle o fluxo de informações em cada estágio do ciclo de vida do seu documento ao adicionar marcas de texto altamente personalizáveis."
+  },
+  "operations": {
+    "title": "Recursos abrangentes de gerenciamento de assinaturas",
+    "description": "Nossa plataforma oferece operações completas de CRUD e recursos avançados para o gerenciamento de sete tipos distintos de assinatura, permitindo que você gerencie suas assinaturas documentais com precisão."
+  },
+  "examples": {
+    "comment_1": "Inicialize a classe {{TextSignature}} com o caminho do documento",
+    "comment_2": "Crie {{TextSignOptions}} com o texto da assinatura desejada",
+    "comment_3": "Configure a cor do texto e as propriedades da fonte",
+    "comment_4": "Adicione a assinatura de texto ao documento"
+  },
+  "steps": {
+    "title": "Guia para criar assinaturas de texto para {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite a adição de assinaturas de texto a documentos {{FileFormatUp}} dentro de aplicações {{EnvName}}. Melhore rapidamente as capacidades do seu produto com nossas soluções robustas.",
+      "step_1": "Forneça o documento {{FileFormatUp}} como argumento para a classe {{TextSignature}}.",
+      "step_2": "Instancie {{TextSignOptions}} com o texto necessário.",
+      "step_3": "Defina as propriedades visuais da assinatura de texto.",
+      "step_4": "Adicione a assinatura de texto às páginas desejadas do documento."
+    }
+  },
+  "code_1": {
+    "title": "Implemente assinaturas de texto em documentos",
+    "content": "Saiba como incorporar assinaturas de texto em documentos de negócios para otimizar processos.",
+    "comment_1": "Escolha o documento a ser assinado",
+    "comment_2": "Defina as opções de texto com o conteúdo especificado",
+    "comment_3": "Defina o tamanho e a posição da assinatura na página",
+    "comment_4": "Aplique preenchimento para a assinatura a partir das bordas da página",
+    "comment_5": "Personalize a cor do texto e o estilo da fonte",
+    "comment_6": "Adicione uma borda à assinatura de texto, se desejado",
+    "comment_7": "Configure o fundo da assinatura",
+    "comment_8": "Opcionalmente, salve o texto como uma imagem para compatibilidade",
+    "comment_9": "Salve o documento com a assinatura de texto adicionada"
+  }
+}

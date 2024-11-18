@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 应用程序为 {{FileFormatUp}} 生成条形码",
+    "description": "仅需几行代码即可快速生成并嵌入条形码签名到 {{FileFormatUp}} 文档中。{{ProdShortName}} 支持多种文件格式的签名。"
+  },
+  "header": {
+    "title": "轻松生成并添加条形码到 {{FileFormatUp}}",
+    "description": "使用 {{ProdFullName}} 将条形码整合到您的业务文档中，准确定位到所需位置。我们的解决方案提供广泛的自定义选项，以满足您的条形码签名需求。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "立即下载 - 完全免费！"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} 的介绍",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一款强大的文档签名工具，支持各种类型的签名，包括文本、图像、条形码、数字证书和印章。它兼容超过 60 种文件格式，如 PDF、MS Office 文件、图像和 ZIP 压缩包，能够进行全面的文档管理。文档中的签名可以根据需要进行搜索、验证、修改或删除。"
+  },
+  "more_features": {
+    "title": "使用高级签名选项增强和保护您的文档",
+    "description": "{{ProdFullName}} 库旨在简化流行文档格式的签名和后续管理。快速并高效地添加、修改、验证或移除各种签名。",
+    "image_description": "{{ProdShortName}} 的关键功能",
+    "feature_1": {
+      "title": "动态文档签名",
+      "content": "使用各种签名类型（包括文本、图像、条形码、二维码和印章）对文档的任意页面进行签名。此外，您可以嵌入隐藏的元数据（例如图像中的 EXIF 数据），或使用数字证书保护文档以防止未授权的编辑。"
+    },
+    "feature_2": {
+      "title": "强大的签名验证和搜索",
+      "content": "我们的解决方案提供全面的工具用于管理签名文档。验证签名的真实性以确保文档的完整性，利用搜索功能列出嵌入在文档中的所有签名。"
+    },
+    "feature_3": {
+      "title": "轻松编辑签名",
+      "content": "大多数先前添加的签名可以轻松修改。更新文本、重新定位或更改签名的外观以满足您的需求。"
+    },
+    "feature_4": {
+      "title": "简化签名移除",
+      "content": "凭借对 CRUD 操作的全面支持，我们的工具能够高效移除文档中的签名，确保仅保留最相关的签名。"
+    }
+  },
+  "formats": {
+    "title": "支持多种文档格式的签名",
+    "description": "{{EnvName}} API 可让您对超过 60 种不同格式进行签名。无论是在特定页面添加签名，还是进行精准定位，我们的工具均能轻松应用各种签名类型。"
+  },
+  "operations": {
+    "title": "深入了解我们的主要功能",
+    "description": "体验我们提供的各种签名类型和工具"
+  },
+  "examples": {
+    "comment_1": "使用文档路径实例化 {{TextSignature}} 对象",
+    "comment_2": "使用 {{BarcodeSignOptions}} 将条形码集成到文档中",
+    "comment_3": "配置条形码类型及其他参数",
+    "comment_4": "保存已签名的文档"
+  },
+  "steps": {
+    "title": "如何在 {{FileFormatUp}} 文件中生成并嵌入条形码",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 可以在 {{FileFormatUp}} 页面上生成并放置条形码，支持超过 60 种条形码类型，{{EnvName}} 应用程序可以通过集成我们的库轻松增强条形码签名功能。",
+      "step_1": "提供需处理的 {{FileFormatUp}} 文件或流。",
+      "step_2": "将条形码文本传递给 {{BarcodeSignOptions}} 实例。",
+      "step_3": "调整条形码设置，如位置、大小等。",
+      "step_4": "保存带有新添加条形码的文档。"
+    }
+  },
+  "code_1": {
+    "title": "如何应用条形码签名",
+    "content": "此示例演示如何在 {{FileFormatUp}} 文档页面嵌入自定义条形码。",
+    "comment_1": "提供待签名的文档",
+    "comment_2": "创建包含所需条形码文本的签名选项",
+    "comment_3": "设置条形码在页面上的相对位置",
+    "comment_4": "定义条形码与页面边缘的间距",
+    "comment_5": "选择条形码颜色",
+    "comment_6": "指定消息的字体样式",
+    "comment_7": "指示消息的位置",
+    "comment_8": "签名并保存文档"
+  }
+}

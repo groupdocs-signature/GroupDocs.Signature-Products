@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "{{ProgLang}}에서 {{FileFormatUp}}에 바코드 삽입하기",
+    "description": "{{ProgLang}}의 몇 줄의 코드로 {{FileFormatUp}} 문서에 바코드 서명을 효율적으로 추가하세요. {{ProdShortName}}는 여러 문서 형식에 대해 원활한 서명 솔루션을 제공합니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}를 위한 바코드 생성",
+    "description": "{{ProdFullName}}을 사용하면 비즈니스 문서의 필요한 위치에 바코드를 배치할 수 있습니다. 저희 솔루션은 바코드 서명 맞춤화에 대한 유연한 옵션을 제공합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험"
+  },
+  "about": {
+    "title": "{{ProdFullName}}에 대하여",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 텍스트, 이미지, 바코드, 디지털 인증서 및 스탬프 등 다양한 서명 유형을 지원하는 강력한 문서 서명 도구입니다. PDF, MS Office, 이미지, ZIP 등 60개 이상의 파일 형식과 호환되며, 서명 적용뿐만 아니라 필요에 따라 서명을 검색, 검증, 수정 또는 제거할 also 있습니다."
+  },
+  "more_features": {
+    "title": "고급 서명 기능으로 문서 향상하기",
+    "description": "{{ProdFullName}} 라이브러리는 일반적으로 사용되는 형식에서 문서를 서명하고 처리하는 포괄적인 솔루션을 제공합니다. 필요에 맞추어 다양한 서명 유형을 추가, 수정, 검증 또는 제거할 수 있습니다.",
+    "image_description": "{{ProdShortName}}의 주요 기능",
+    "feature_1": {
+      "title": "유연한 문서 서명",
+      "content": "서지원 문서의 모든 페이지에 텍스트, 이미지, 바코드, QR 코드 또는 스탬프로 서명하세요. 이미지의 EXIF 데이터와 같은 숨겨진 메타데이터를 추가하고, 디지털 인증서를 통해 콘텐츠 보호를 보장하여 무단 수정을 방지하세요."
+    },
+    "feature_2": {
+      "title": "서명 검색 및 검증",
+      "content": "우리의 도구는 서명 검증을 통해 문서의 무결성을 보장합니다. 또한, 문서 내 모든 서명의 전체 목록을 검색하여 쉽게 관리할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "서명 수정",
+      "content": "기존 서명을 간편하게 수정하세요. 문서의 필요에 맞게 텍스트를 조정하거나 요소의 위치를 변경하고 색상을 바꿀 수 있습니다."
+    },
+    "feature_4": {
+      "title": "서명 제거",
+      "content": "전체 CRUD 기능을 갖춘 {{ProdFullName}}을 통해 문서에서 원하지 않거나 구식의 서명을 쉽게 제거할 수 있습니다."
+    }
+  },
+  "formats": {
+    "title": "여러 형식으로 문서 서명",
+    "description": "{{EnvName}} API는 60개 이상의 파일 형식에 대한 서명을 지원하여 문서 내의 모든 페이지 또는 특정 위치에 다양한 유형의 서명을 추가할 수 있습니다."
+  },
+  "operations": {
+    "title": "주요 기능 탐색하기",
+    "description": "귀하의 문서 요구 사항에 맞춘 다양한 서명 옵션 및 작업을 제공합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} 객체를 문서 경로로 초기화",
+    "comment_2": "{{BarcodeSignOptions}}를 사용하여 문서에 바코드 추가",
+    "comment_3": "바코드 유형 설정 및 속성 구성",
+    "comment_4": "서명된 문서 저장"
+  },
+  "steps": {
+    "title": "{{FileFormatUp}}에서 바코드를 생성하고 삽입하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})을 사용하면 {{FileFormatUp}} 문서에 바코드를 빠르고 손쉽게 생성하고 삽입할 수 있습니다. 60개 이상의 바코드 형식을 지원하는 {{EnvName}} 애플리케이션은 라이브러리를 통합하여 바코드 서명 기능을 원활하게 추가할 수 있습니다.",
+      "step_1": "{{FileFormatUp}} 파일 또는 스트림을 제공하여 처리합니다.",
+      "step_2": "{{BarcodeSignOptions}} 객체에 바코드 텍스트를 할당합니다.",
+      "step_3": "바코드 옵션을 조정하여 위치와 크기를 설정합니다.",
+      "step_4": "바코드가 삽입된 문서를 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "바코드 서명 생성 및 배치",
+    "content": "이 예제는 {{FileFormatUp}} 문서에 맞춤형 바코드를 삽입하는 방법을 보여줍니다.",
+    "comment_1": "서명할 문서를 제공",
+    "comment_2": "바코드 텍스트 및 서명 옵션 설정",
+    "comment_3": "페이지에서 바코드의 위치 선택",
+    "comment_4": "바코드와 페이지 가장자리 간의 여백 설정",
+    "comment_5": "바코드 바의 색상 지정",
+    "comment_6": "바코드 메시지를 위한 글꼴 스타일 선택",
+    "comment_7": "메시지 텍스트의 위치 설정",
+    "comment_8": "문서 서명 및 저장"
+  }
+}

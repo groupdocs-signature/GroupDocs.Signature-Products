@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Ubah tanda tangan {{FileFormatUp}} dengan aplikasi {{ProgLang}}",
+    "description": "API pemrosesan tanda tangan {{ProgLang}} memungkinkan Anda untuk memodifikasi tanda tangan dalam file {{FileFormatUp}}, termasuk PDF, Word, Excel, Presentasi, dan Gambar."
+  },
+  "header": {
+    "title": "Modifikasi tanda tangan {{FileFormatUp}}",
+    "description": "Modifikasi berbagai tanda tangan elektronik menggunakan {{ProdFullName}} di berbagai format seperti PDF, Word, Excel, Presentasi, dan Gambar.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) tidak hanya memungkinkan Anda untuk menandatangani dokumen tetapi juga memberikan kemampuan untuk memodifikasi tanda tangan yang sudah ada. Perbarui tanda tangan dalam format yang banyak digunakan seperti PDF, Word, Excel, dan Presentasi."
+  },
+  "more_features": {
+    "title": "Manajemen tanda tangan untuk dokumen",
+    "description": "{{ProdFullName}} memungkinkan Anda untuk menambah, memodifikasi, mencari, memverifikasi, dan menghapus tanda tangan di semua format file industri utama.",
+    "image_description": "Modifikasi tanda tangan",
+    "feature_1": {
+      "title": "Tanda tangan dokumen",
+      "content": "Produk kami terutama fokus pada penandatanganan dokumen dengan tanda tangan teks, gambar, barcode, atau cap. Anda dapat menempatkannya di halaman atau posisi mana pun. Tambahkan atau modifikasi metadata tersembunyi, seperti data EXIF dalam gambar, dan lindungi konten dokumen dari perubahan yang tidak sah menggunakan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Pencarian dan verifikasi tanda tangan",
+      "content": "Pastikan bahwa tanda tangan memenuhi persyaratan Anda dengan memverifikasi dokumen yang ditandatangani. Anda dapat mengambil daftar lengkap tanda tangan dalam dokumen melalui fungsi pencarian."
+    },
+    "feature_3": {
+      "title": "Modifikasi tanda tangan yang sudah ada",
+      "content": "Memodifikasi tanda tangan yang telah ditambahkan sebelumnya adalah tugas yang umum. Gunakan proses modifikasi untuk memperbarui konten, penampilan, posisi, dan properti lain dari sebuah tanda tangan."
+    },
+    "feature_4": {
+      "title": "Penghapusan tanda tangan",
+      "content": "Solusi kami sepenuhnya mendukung semua operasi terkait tanda tangan. Menghapus berbagai jenis tanda tangan dari dokumen adalah proses yang sederhana."
+    }
+  },
+  "formats": {
+    "title": "Modifikasi tanda tangan dalam berbagai format file",
+    "description": "Format dokumen yang ditandatangani menggunakan API kami untuk {{EnvName}} dapat dimodifikasi. Ambil daftar tanda tangan dari dokumen dan perbarui properti yang dapat diakses."
+  },
+  "operations": {
+    "title": "Telusuri portofolio fitur kami",
+    "description": "Kami bangga mendukung berbagai format tanda tangan dan alat operasional"
+  },
+  "examples": {
+    "comment_1": "Buat objek {{TextSignature}} dengan jalur dokumen",
+    "comment_2": "Cari tanda tangan teks dalam dokumen",
+    "comment_3": "Ubah teks tanda tangan yang terdeteksi pertama",
+    "comment_4": "Verifikasi hasil modifikasi"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk mengedit tanda tangan teks di {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memungkinkan para pengembang {{EnvName}} untuk memperbarui konten tanda tangan teks yang sebelumnya ditambahkan ke file {{FileFormatUp}}. Tingkatkan aplikasi {{EnvName}} Anda dengan kemampuan yang kuat.",
+      "step_1": "Tambahkan file {{FileFormatUp}} ke instance {{TextSignature}}.",
+      "step_2": "Ambil daftar semua tanda tangan dalam dokumen.",
+      "step_3": "Perbarui konten tanda tangan yang teridentifikasi.",
+      "step_4": "Analisis hasil modifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Modifikasi tanda tangan barcode",
+    "content": "Contoh ini menjelaskan proses modifikasi tanda tangan barcode dalam sebuah dokumen.",
+    "comment_1": "Gunakan dokumen yang berisi tanda tangan barcode",
+    "comment_2": "Cari tanda tangan barcode yang ada",
+    "comment_3": "Sesuaikan posisi barcode pertama dan simpan dokumen yang diperbarui",
+    "comment_4": "Konfirmasikan hasil modifikasi"
+  }
+}

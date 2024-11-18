@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tạo và thêm dấu vào {{FileFormatUp}} qua {{ProgLang}}",
+    "description": "Tận dụng sức mạnh của {{ProdShortName}} và {{ProgLang}} để tạo và đặt dấu tùy chỉnh trên bất kỳ trang nào trong tài liệu {{FileFormatUp}} của bạn."
+  },
+  "header": {
+    "title": "Chèn dấu tùy chỉnh vào tệp {{FileFormatUp}}",
+    "description": "Sử dụng {{ProdFullName}} để tạo dấu được căn chỉnh và chèn chúng vào bất kỳ vị trí nào trong tài liệu của bạn. Nền tảng của chúng tôi cung cấp nhiều tùy chọn để cá nhân hóa dấu theo yêu cầu kinh doanh cụ thể của bạn.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một giải pháp mạnh mẽ và linh hoạt cho việc ký tài liệu. Nó cho phép người dùng thêm dấu và các loại chữ ký khác nhau qua hơn 60 định dạng khác nhau, như PDF, Word, Excel, tệp hình ảnh và tệp ZIP. Nền tảng này cho phép bạn chèn chữ, hình ảnh, mã vạch, mã QR, siêu dữ liệu, chứng chỉ số và chữ ký dấu. Ngoài việc ký, bạn có thể tìm kiếm, xác minh, sửa đổi hoặc xóa bất kỳ chữ ký nào có trong tài liệu của bạn."
+  },
+  "more_features": {
+    "title": "Tăng cường an ninh tài liệu bằng chữ ký",
+    "description": "Với {{ProdFullName}}, bạn có thể thêm, chỉnh sửa, xác thực hoặc xóa dấu và các loại chữ ký khác trong tất cả các định dạng tài liệu phổ biến. API đơn giản hóa quy trình quản lý chữ ký để cải thiện tính toàn vẹn và tùy chỉnh của tài liệu.",
+    "image_description": "Các tính năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ký tài liệu tùy chỉnh",
+      "content": "Áp dụng các chữ ký như văn bản, hình ảnh, mã vạch, mã QR và dấu vào bất kỳ phần nào của tài liệu của bạn. Công cụ này cũng cho phép bao gồm siêu dữ liệu ẩn và chứng chỉ số để bảo vệ nội dung của bạn khỏi những thay đổi trái phép."
+    },
+    "feature_2": {
+      "title": "Tìm và xác minh chữ ký",
+      "content": "Sau khi tài liệu đã được ký, hãy sử dụng hệ thống xác minh của chúng tôi để đảm bảo tính toàn vẹn của các chữ ký. Thêm vào đó, nền tảng của chúng tôi cho phép bạn tìm kiếm và lấy thông tin chi tiết về tất cả các chữ ký được áp dụng cho một tài liệu."
+    },
+    "feature_3": {
+      "title": "Sửa đổi chữ ký khi cần thiết",
+      "content": "Điều chỉnh và cập nhật các chữ ký đã áp dụng trước đó một cách hiệu quả. Dù thay đổi nội dung, màu sắc, kích thước hay vị trí của chữ ký, {{ProdFullName}} cung cấp các tùy chọn tùy chỉnh đầy đủ."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký không cần thiết",
+      "content": "Dễ dàng xóa bất kỳ chữ ký nào không cần thiết khỏi tài liệu của bạn. API của chúng tôi hỗ trợ việc xóa nhiều loại chữ ký, bao gồm dấu và chứng chỉ số, mang đến cho bạn sự linh hoạt hoàn toàn trong việc quản lý tài liệu."
+    }
+  },
+  "formats": {
+    "title": "Áp dụng chữ ký dấu trên nhiều loại tệp",
+    "description": "API {{ProdShortName}} hỗ trợ chữ ký dấu qua 60+ định dạng tệp, cho phép người dùng đặt dấu tùy chỉnh trên bất kỳ trang hoặc khu vực nào, cải thiện khả năng truy cập và an ninh của tài liệu."
+  },
+  "operations": {
+    "title": "Khám phá các tính năng chính",
+    "description": "Giải pháp của chúng tôi cung cấp nhiều công cụ để tạo, quản lý và xóa các loại chữ ký khác nhau, mang đến cho người dùng quyền kiểm soát hoàn toàn đối với quy trình làm việc của tài liệu."
+  },
+  "examples": {
+    "comment_1": "Liên kết đường dẫn tài liệu với phiên bản {{TextSignature}}",
+    "comment_2": "Tạo {{StampSignOptions}} với nội dung chữ ký cần thiết",
+    "comment_3": "Kết hợp một hoặc nhiều dòng dấu",
+    "comment_4": "Lưu tài liệu với dấu đã áp dụng"
+  },
+  "steps": {
+    "title": "Hướng dẫn chèn dấu vào {{FileFormatUp}} sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp một công cụ mạnh mẽ cho việc tạo và nhúng dấu, có thể nâng cao đáng kể các ứng dụng {{EnvName}}. Sử dụng tính năng này để tạo và áp dụng các dấu tùy chỉnh cho các trang tài liệu của bạn.",
+      "step_1": "Nhập tài liệu {{FileFormatUp}} cần chèn dấu.",
+      "step_2": "Triển khai {{StampSignOptions}} để định nghĩa tất cả các tham số cần thiết.",
+      "step_3": "Chèn bao nhiêu dòng dấu tùy ý.",
+      "step_4": "Áp dụng dấu và lưu tài liệu cuối cùng."
+    }
+  },
+  "code_1": {
+    "title": "Nhúng dấu tùy chỉnh vào tài liệu",
+    "content": "Tìm hiểu cách thiết kế và áp dụng các dấu tùy chỉnh chứa văn bản quan trọng vào tài liệu của bạn.",
+    "comment_1": "Cung cấp tài liệu để chèn dấu",
+    "comment_2": "Thiết lập tùy chọn dấu với các cấu hình mong muốn",
+    "comment_3": "Xác định kích thước và vị trí của dấu trên trang",
+    "comment_4": "Bao gồm các đường tròn bên ngoài với văn bản tùy chỉnh",
+    "comment_5": "Thêm các đường vuông bên trong nếu cần",
+    "comment_6": "Lưu tài liệu đã được chèn dấu"
+  }
+}

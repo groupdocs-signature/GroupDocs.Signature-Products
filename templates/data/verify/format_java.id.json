@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verifikasi tanda tangan elektronik {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "{{ProdFullName}} memungkinkan verifikasi tanda tangan yang diletakkan dalam file {{FileFormatUp}}. Validasi tanda tangan dalam PDF, dokumen Word, lembar Excel, Presentasi, Gambar, atau arsip ZIP."
+  },
+  "header": {
+    "title": "Verifikasi e-Signature untuk {{FileFormatUp}}",
+    "description": "Verifikasi semua tanda tangan elektronik yang didukung dalam file PDF, Word, Excel, Presentasi, Gambar, atau ZIP dengan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh versi gratis"
+  },
+  "about": {
+    "title": "Aplikasi {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) mendukung operasi CRUD lengkap untuk penandatanganan dokumen dan lebih banyak lagi. Tandatangani lebih dari 60 format dokumen, termasuk PDF, file MS Office, Gambar, dan arsip ZIP, dengan teks, gambar, kode batang, sertifikat digital, metadata, dan cap. Operasi tambahan seperti mencari, memverifikasi, memodifikasi, atau menghapus tanda tangan juga tersedia."
+  },
+  "more_features": {
+    "title": "Solusi penandatanganan dokumen yang komprehensif",
+    "description": "{{ProdShortName}} meningkatkan format dokumen kantor populer dengan 7 jenis tanda tangan dan operasi CRUD lengkap, menawarkan perlindungan yang kuat untuk konten dokumen Anda.",
+    "image_description": "Verifikasi tanda tangan",
+    "feature_1": {
+      "title": "Tandatangani dokumen korporat",
+      "content": "Tambahkan tanda tangan digital profesional ke dokumen manapun. Solusi kami mendukung berbagai jenis tanda tangan, termasuk teks, gambar, kode batang, metadata, cap, dan sertifikat digital."
+    },
+    "feature_2": {
+      "title": "Operasi CRUD tanda tangan",
+      "content": "Dalam banyak kasus, dokumen yang telah ditandatangani memerlukan pemrosesan lebih lanjut. Ambil daftar semua tanda tangan dalam dokumen, verifikasi, modifikasi propertinya, atau hapus saat diperlukan."
+    },
+    "feature_3": {
+      "title": "Lindungi konten dokumen",
+      "content": "Lindungi dokumen korporat dengan sertifikat digital untuk mencegah perubahan yang tidak sah. Sisipkan metadata tersembunyi untuk melindungi lebih jauh konten dokumen."
+    },
+    "feature_4": {
+      "title": "Tanda tangan asli",
+      "content": "Gunakan tanda tangan teks yang spesifik untuk dokumen, seperti cap PDF atau watermark Word, untuk membuat dokumen yang disesuaikan dan profesional untuk penggunaan korporat."
+    }
+  },
+  "formats": {
+    "title": "Verifikasi tanda tangan di berbagai format file",
+    "description": "{{ProdFullName}} menyederhanakan proses verifikasi semua tanda tangan dalam dokumen. Atur parameter verifikasi kustom untuk memastikan integritas dokumen yang ditandatangani."
+  },
+  "operations": {
+    "title": "Operasi dan tipe tanda tangan yang didukung",
+    "description": "Jelajahi berbagai fitur dan operasi tanda tangan yang didukung oleh {{ProdShortName}}."
+  },
+  "examples": {
+    "comment_1": "Instansiasi {{TextSignature}} dengan dokumen",
+    "comment_2": "Buat {{TextVerifyOptions}} untuk memverifikasi tanda tangan yang mengandung teks tertentu",
+    "comment_3": "Verifikasi tanda tangan dalam dokumen",
+    "comment_4": "Proses hasil verifikasi"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk memverifikasi tanda tangan dalam {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) dapat memverifikasi keberadaan tanda tangan tertentu dalam dokumen {{FileFormatUp}}. Pengembang {{EnvName}} dapat meningkatkan aplikasi mereka dengan menambahkan fitur yang disediakan oleh solusi kami.",
+      "step_1": "Muat file {{FileFormatUp}} ke dalam instansi {{TextSignature}}.",
+      "step_2": "Instansiasi dan konfigurasi {{VerifyOptions}} untuk mencapai hasil yang diinginkan.",
+      "step_3": "Inisiasi proses verifikasi.",
+      "step_4": "Tinjau hasil verifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Verifikasi tanda tangan kode batang",
+    "content": "Contoh ini menunjukkan cara untuk memverifikasi tanda tangan kode batang dalam dokumen.",
+    "comment_1": "Sediakan dokumen yang berisi tanda tangan kode batang",
+    "comment_2": "Konfigurasi opsi untuk memverifikasi kode batang terhadap teks tertentu",
+    "comment_3": "Verifikasi tanda tangan yang diterapkan pada dokumen",
+    "comment_4": "Tampilkan hasil verifikasi"
+  }
+}

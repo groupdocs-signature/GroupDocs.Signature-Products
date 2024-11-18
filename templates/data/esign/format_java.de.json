@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "e-Sign {{FileFormatUp}}-Dateien mit {{ProgLang}}-Apps",
+    "description": "Verwenden Sie die {{ProgLang}}-API, um {{FileFormatUp}}-Dateien zu verarbeiten und verschiedene Signaturtypen anzuwenden, einschließlich PDF, Word, Excel, Präsentationen und Bilder."
+  },
+  "header": {
+    "title": "Elektronische Signaturen für {{FileFormatUp}}",
+    "description": "Fügen Sie mit {{ProdFullName}} eine Vielzahl elektronischer Signaturen zu allen gängigen Geschäftsformaten hinzu, einschließlich PDF, Word, Excel, Präsentationen und Bilder.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloser Download"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}}-API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet erweiterte e-Signatur-Funktionen. Verwenden Sie es, um verschiedene Arten von elektronischen Signaturen in Dokumenten und Bildern hinzuzufügen, zu suchen, zu verifizieren, zu ändern und zu entfernen, ohne externe Software zu benötigen. Signieren Sie PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen und gängige Bildformate."
+  },
+  "more_features": {
+    "title": "Elektronische Signaturen für Dokumente",
+    "description": "Unsere e-Signatur-API optimiert Geschäftsprozesse. Signieren, suchen, aktualisieren, löschen und überprüfen Sie verschiedene Signaturen programmatisch.",
+    "image_description": "e-Signaturen",
+    "feature_1": {
+      "title": "e-Signatur für Büro-Dokumente",
+      "content": "Platzieren Sie elektronische Signaturen an beliebiger Stelle auf jeder Seite eines Dokuments. Verbessern Sie den Dokumenteninhalt mit Texten, Bildern, Barcodes, Metadaten oder digitalen Zertifikaten."
+    },
+    "feature_2": {
+      "title": "Signaturverwaltung",
+      "content": "Nach dem Signieren können Dokumente weiter verarbeitet werden. Holen Sie eine Liste aller vorhandenen Signaturen ein, ändern oder löschen Sie diese nach Bedarf."
+    },
+    "feature_3": {
+      "title": "Erweiterte Inhaltskontrolle",
+      "content": "Schützen Sie Geschäftsdokumente vor unautorisierten Änderungen mit Unternehmens-Digitalzertifikaten. Fügen Sie verborgene Metadaten ein oder extrahieren Sie sie, die in allen Dokumenttypen verfügbar sind."
+    }
+  },
+  "formats": {
+    "title": "Signieren Sie gängige Dateiformate mit e-Signaturen",
+    "description": "Die e-Signatur-API für {{EnvName}} ermöglicht die Verarbeitung aller modernen Geschäftsdatei- und Dokumentenformate."
+  },
+  "operations": {
+    "title": "Entdecken Sie unsere Hauptmerkmale",
+    "description": "Wir sind stolz darauf, eine große Auswahl an unterstützten Signaturen und Operationen anzubieten."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument in eine {{TextSignature}}-Instanz",
+    "comment_2": "Instanzieren Sie ein {{QrCodeSignOptions}}-Objekt",
+    "comment_3": "Konfigurieren Sie alle gewünschten Optionen",
+    "comment_4": "Speichern Sie die Datei mit dem hinzugefügten QR-Code auf der lokalen Festplatte"
+  },
+  "steps": {
+    "title": "Schritte zum Signieren von {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht das Hinzufügen benutzerdefinierter Signaturen zu {{FileFormatUp}}-Dateien. {{EnvName}}-Entwickler können die Signaturfunktionalität in ihre Anwendungen integrieren, indem sie unsere Software verwenden.",
+      "step_1": "Stellen Sie die zu signierende {{FileFormatUp}}-Datei der {{TextSignature}}-Instanz zur Verfügung.",
+      "step_2": "Verwenden Sie {{SignOptions}}, um die Signaturdetails festzulegen.",
+      "step_3": "Passen Sie verschiedene Eigenschaften wie Größe, Farbe und Inhalt an.",
+      "step_4": "Speichern Sie die unterzeichnete Datei am gewünschten Speicherort."
+    }
+  },
+  "code_1": {
+    "title": "So fügen Sie eine Bildsignatur zu einem Dokument hinzu",
+    "content": "Dieses Beispiel zeigt, wie man eine Bildsignatur auf einer bestimmten Seite eines Dokuments platziert.",
+    "comment_1": "Stellen Sie das Quell-Dokument als Parameter bereit",
+    "comment_2": "Geben Sie den Bildpfad in den Signaturoptionen an",
+    "comment_3": "Legen Sie die Größe und Zielseiten für die Signatur fest",
+    "comment_4": "Wenden Sie die Signatur auf das Dokument an"
+  }
+}

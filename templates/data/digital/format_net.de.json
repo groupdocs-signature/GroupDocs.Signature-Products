@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Hinzufügen von digitalen elektronischen Signaturen zu {{FileFormatUp}}-Dateien mit {{ProgLang}}",
+    "description": "Fügen Sie einer {{FileFormatUp}}-Datei mit {{ProgLang}} in nur wenigen Codezeilen eine digitale Signatur hinzu. Verwenden Sie {{ProdFullName}}, um zahlreiche Dateiformate zu signieren."
+  },
+  "header": {
+    "title": "eSign {{FileFormatUp}} mit digitalen Signaturen",
+    "description": "Schützen Sie die Integrität Ihrer Geschäftsdokumente, indem Sie sie mit digitalen Zertifikaten versiegeln, die die robusten Funktionen von {{ProdFullName}} nutzen. Wir bieten vielseitige Lösungen, um Ihre Dokumente zu kennzeichnen und zu sichern.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine ausgeklügelte Signierlösung, die eine breite Palette von Dokumentenverarbeitungsaufgaben erleichtert. Sie ermöglicht das Einfügen von Text, Bildern, digitalen Zertifikaten und Stempeln in Dateien in über 60 Formaten, einschließlich PDF, MS Office, Bildern, ZIP-Dateien und anderen wichtigen Geschäftsdokumenten. Außerdem können signierte Dokumente nach Bedarf mühelos durchsucht, verifiziert, bearbeitet oder entfernt werden."
+  },
+  "more_features": {
+    "title": "Verbessern oder sichern Sie den Dokumenteninhalt mit Signaturen",
+    "description": "Die {{ProdFullName}}-Bibliothek wurde entwickelt, um alle gängigen Dateiformate zu signieren. Optimieren Sie Ihre Geschäftsprozesse, indem Sie eine Vielzahl von Signaturen problemlos hinzufügen, ändern, verifizieren oder entfernen.",
+    "image_description": "Hauptmerkmale von {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signaturen in Dokumente einfügen",
+      "content": "Fügen Sie Text-, Bild-, Barcode-, QR-Code- oder Stempelsignaturen präzise auf jeder Seite eines unterstützten Dokuments ein. Sie können auch versteckte Metadaten, wie EXIF, in Bildern und den meisten Dateitypen hinzufügen oder bearbeiten. Gewährleisten Sie die Integrität Ihres Dokumenteninhalt mit digitalen Signaturen."
+    },
+    "feature_2": {
+      "title": "Signaturen suchen und verifizieren",
+      "content": "Die Nachverarbeitung von Signaturen bietet zahlreiche Möglichkeiten. Überprüfen Sie, ob Ihre signierten Dokumente korrekt verarbeitet wurden. Für mehr Kontrolle können Sie eine umfassende Liste aller Signaturen über die Suchfunktion abrufen."
+    },
+    "feature_3": {
+      "title": "Signaturen bearbeiten",
+      "content": "Die meisten Signaturtypen sind vollständig bearbeitbar. Sie haben die Flexibilität, den Text anzupassen, Elemente neu anzuordnen, Farben zu ändern, die Größe zu ändern und mehr."
+    },
+    "feature_4": {
+      "title": "Überflüssige Signaturen entfernen",
+      "content": "Unsere Lösung bietet vollständige CRUD-Operationen für Signaturen. Falls erforderlich, können Sie eine Vielzahl von Signaturtypen, einschließlich digitaler Zertifikate, aus Ihrem Dokument entfernen."
+    }
+  },
+  "formats": {
+    "title": "Dokumenten in verschiedenen Formaten signieren",
+    "description": "Die {{EnvName}}-API ermöglicht es Ihnen, über 60 verschiedene Formate zu verarbeiten. Sie können nahtlos verschiedene Signaturen auf jeder Seite erstellen und einfügen, digitale Zertifikate für die Sicherheit des Inhalts anwenden und bestehende Signaturen effizient verwalten."
+  },
+  "operations": {
+    "title": "Entdecken Sie unsere herausragenden Funktionen",
+    "description": "Wir bieten eine reiche Vielfalt an Signaturformaten und leistungsstarken Operationen."
+  },
+  "examples": {
+    "comment_1": "Nutzen Sie {{TextSignature}} zur digitalen Signatur des Dokuments",
+    "comment_2": "Legen Sie das digitale Zertifikat und das zugehörige Passwort bereit",
+    "comment_3": "Konfigurieren Sie die visuelle Darstellung, falls erforderlich",
+    "comment_4": "Sichern Sie das Dokument mit dem digitalen Zertifikat"
+  },
+  "steps": {
+    "title": "Wie man {{FileFormatUp}} mit digitalen Zertifikaten in {{ProgLang}} sichert",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht es {{EnvName}}-Entwicklern, {{FileFormatUp}}-Dokumente gegen Veränderungen mittels digitaler Signaturen zu schützen. Bereichern Sie Ihre Geschäftsanwendungen mit robusten Datenschutzfunktionen.",
+      "step_1": "Übergeben Sie das {{FileFormatUp}}-Dokument an den Konstruktor der {{TextSignature}}-Klasse.",
+      "step_2": "Verwenden Sie ein digitales Zertifikat und dessen Passwort, um das Dokument abzusichern.",
+      "step_3": "Fügen Sie optional eine visuelle Darstellung der digitalen Signatur auf den Dokumentseiten hinzu.",
+      "step_4": "Signieren Sie das Dokument, um sicherzustellen, dass es unverändert bleibt."
+    }
+  },
+  "code_1": {
+    "title": "Dokumente mit digitalen Signaturen sichern",
+    "content": "Erfahren Sie, wie Sie Dokumentenänderungen mit digitalen Signaturen verhindern.",
+    "comment_1": "Geben Sie das Dokument an, das signiert werden soll",
+    "comment_2": "Verwenden Sie ein gültiges digitales Zertifikat mit dem entsprechenden Passwort",
+    "comment_3": "Geben Sie zusätzliche Textinformationen an",
+    "comment_4": "Fügen Sie ein Bild und weitere Optionen für die visuelle Darstellung hinzu",
+    "comment_5": "Speichern Sie das gesicherte Dokument an einem gewünschten Ort"
+  }
+}

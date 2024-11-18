@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 应用程序为 {{FileFormatUp}} 文件电子签名",
+    "description": "使用 {{ProgLang}} API 处理 {{FileFormatUp}} 文件并应用各种签名类型，包括 PDF、Word、Excel、演示文稿和图片。"
+  },
+  "header": {
+    "title": "针对 {{FileFormatUp}} 的电子签名",
+    "description": "使用 {{ProdFullName}} 为所有流行的商业格式添加多种电子签名，包括 PDF、Word、Excel、演示文稿和图片。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供先进的电子签名功能。可以在文档和图像中添加、搜索、验证、修改和删除各种类型的电子签名，无需外部软件。轻松地对 PDF、Word 文档、Excel 表格、PowerPoint 演示文稿和流行图像格式进行电子签名。"
+  },
+  "more_features": {
+    "title": "文档电子签名",
+    "description": "我们的电子签名 API 精简了商业流程。可以以编程方式签署、搜索、更新、删除和验证各种签名。",
+    "image_description": "电子签名",
+    "feature_1": {
+      "title": "对办公文档进行电子签名",
+      "content": "可以将电子签名放置在文档的任何页面上的任何位置。使用文本、图像、条形码、元数据或数字证书增强文档内容。"
+    },
+    "feature_2": {
+      "title": "签名管理",
+      "content": "签名后，可以进一步处理文档。可以检索存在的所有签名列表，修改或根据需要删除它们。"
+    },
+    "feature_3": {
+      "title": "高级内容控制",
+      "content": "通过公司数字证书保护业务文档免受未授权更改的影响。添加或提取所有文档类型中的隐藏元数据条目。"
+    }
+  },
+  "formats": {
+    "title": "使用电子签名签署流行的文件格式",
+    "description": "针对 {{EnvName}} 的电子签名 API 能够处理所有现代商业文件格式和文档格式。"
+  },
+  "operations": {
+    "title": "探索我们的关键功能",
+    "description": "我们自豪地提供广泛支持的签名和操作。"
+  },
+  "examples": {
+    "comment_1": "将文档加载到 {{TextSignature}} 实例中",
+    "comment_2": "实例化 {{QrCodeSignOptions}} 对象",
+    "comment_3": "配置所有期望的选项",
+    "comment_4": "将添加二维码的文件保存到本地磁盘"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 签署 {{FileFormatUp}} 的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使得向 {{FileFormatUp}} 文件添加自定义签名成为可能。{{EnvName}} 开发者可以使用我们的软件将签署功能集成到他们的应用程序中。",
+      "step_1": "将要签名的 {{FileFormatUp}} 文件提供给 {{TextSignature}} 实例。",
+      "step_2": "使用 {{SignOptions}} 定义签名详细信息。",
+      "step_3": "自定义诸如大小、颜色和内容等各种属性。",
+      "step_4": "将签名文件保存到所需位置。"
+    }
+  },
+  "code_1": {
+    "title": "如何将图像签名添加到文档",
+    "content": "本示例演示如何在文档的特定页面上放置图像签名。",
+    "comment_1": "将源文档作为参数提供",
+    "comment_2": "在签名选项中指定图像路径",
+    "comment_3": "设置图像的大小和目标页面",
+    "comment_4": "将签名应用于文档"
+  }
+}

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T18:17:25
+date:  2024-11-18T11:52:18
 draft: false
 lang: en
 format: Xlsx
@@ -222,13 +222,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/python-net/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/python-net/digital/xlsx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"
@@ -275,13 +275,13 @@ more_formats:
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Modify DOCX signatures"
+        - name: "Edit DOCX signatures"
           format: "DOCX"
           link: "/signature/python-net/modify/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Modify PPTX signatures"
+        - name: "Edit PPTX signatures"
           format: "PPTX"
           link: "/signature/python-net/modify/pptx/"
           description: "PowerPoint Open XML Presentation"

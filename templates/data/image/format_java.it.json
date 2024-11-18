@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Aggiungere firme di immagini a file {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Apponi la firma con immagine su file {{FileFormatUp}} per {{EnvNameShort}} utilizzando poche righe di codice. Utilizza l'API {{ProdFullName}} per aggiungere immagini."
+  },
+  "header": {
+    "title": "Firma file {{FileFormatUp}} con firme di immagini",
+    "description": "Usa {{ProdFullName}} per inserire immagini in vari formati di documenti d'ufficio, inclusi PDF, Word, Excel e file immagine. Un'immagine con la firma del tuo superiore può dare un tocco impressionante!",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Scopri {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre la possibilità di aggiungere firme di immagini a qualsiasi pagina e posizione all'interno dei documenti aziendali. Snellisci i tuoi flussi di lavoro aggiungendo immagini a PDF, documenti Word, fogli di calcolo Excel, presentazioni PowerPoint e formati di immagine popolari."
+  },
+  "more_features": {
+    "title": "Soluzione completa per la firma dei documenti",
+    "description": "La nostra API supporta una gamma di funzionalità di firma, consentendoti di aggiungere, modificare, eliminare, cercare e verificare più tipi di firme, incluse le firme con immagine.",
+    "image_description": "Firma delle immagini",
+    "feature_1": {
+      "title": "Inserisci immagini nei documenti d'ufficio",
+      "content": "Posiziona senza sforzo firme di immagine in qualsiasi posizione su qualsiasi pagina di un documento. Arricchisci il tuo contenuto con testo, immagini, codici a barre, metadati e certificati digitali."
+    },
+    "feature_2": {
+      "title": "Ricerca e verifica delle firme",
+      "content": "Verifica la validità delle firme nei documenti firmati. Recupera un elenco di tutte le firme all'interno di un documento e controlla le informazioni dettagliate su ciascuna di esse."
+    },
+    "feature_3": {
+      "title": "Modifica delle firme",
+      "content": "Aggiorna il contenuto, l'aspetto, la dimensione o la posizione di qualsiasi firma precedentemente aggiunta a un documento. La nostra API rende semplice e veloce la modifica delle firme."
+    },
+    "feature_4": {
+      "title": "Rimuovi firme non necessarie",
+      "content": "La nostra API supporta operazioni CRUD complete per la maggior parte dei tipi di firma. Puoi facilmente rimuovere firme da quasi tutti i tipi di documenti supportati quando necessario."
+    }
+  },
+  "formats": {
+    "title": "Aggiungi immagini ad altri formati di file",
+    "description": "Con l'API {{EnvName}}, puoi inserire formati di immagine supportati in vari documenti. Ridimensiona, scegli la posizione e aggiungi firme con immagini ai tuoi documenti."
+  },
+  "operations": {
+    "title": "Scopri le nostre funzionalità principali",
+    "description": "Siamo lieti di presentare una varietà di strumenti e operazioni per la firma."
+  },
+  "examples": {
+    "comment_1": "Instantiate {{TextSignature}} con il percorso del documento",
+    "comment_2": "Crea {{ImageSignOptions}} utilizzando un'immagine per la firma",
+    "comment_3": "Posiziona l'immagine nell'angolo in alto a sinistra di tutte le pagine",
+    "comment_4": "Salva il documento firmato"
+  },
+  "steps": {
+    "title": "Passaggi per aggiungere un'immagine in qualsiasi posizione di un {{FileFormatUp}} tramite {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) migliora le applicazioni {{EnvName}} con la capacità di aggiungere firme a qualsiasi pagina di documenti {{FileFormatUp}} in modo preciso. Potenzia le funzionalità del tuo prodotto integrando la nostra libreria.",
+      "step_1": "Crea un'istanza di {{TextSignature}} con il documento {{FileFormatUp}}.",
+      "step_2": "Usa {{ImageSignOptions}} per specificare l'immagine della firma.",
+      "step_3": "Posiziona l'immagine in qualsiasi posizione di qualsiasi pagina.",
+      "step_4": "Salva il documento firmato in una nuova posizione."
+    }
+  },
+  "code_1": {
+    "title": "Migliora il contenuto del documento con firme di immagini",
+    "content": "Scopri come aggiungere immagini ai documenti aziendali per fornire informazioni aggiuntive.",
+    "comment_1": "Seleziona un documento da firmare",
+    "comment_2": "Crea opzioni di immagine con il percorso dell'immagine",
+    "comment_3": "Imposta la dimensione della firma dell'immagine",
+    "comment_4": "Posiziona l'immagine nell'angolo in basso a destra",
+    "comment_5": "Applica padding dagli angoli della pagina se necessario",
+    "comment_6": "Aggiungi un bordo personalizzato all'immagine se desiderato",
+    "comment_7": "Ruota la firma per un miglior allineamento",
+    "comment_8": "Salva il documento aggiornato in qualsiasi posizione"
+  }
+}

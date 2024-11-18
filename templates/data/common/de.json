@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Adobe Portable Document Format"
+      },
+      "docx": {
+        "description": "Microsoft Word Open XML-Dokument"
+      },
+      "xlsx": {
+        "description": "Microsoft Excel Open XML-Tabelle"
+      },
+      "pptx": {
+        "description": "PowerPoint Open XML-Präsentation"
+      },
+      "jpeg": {
+        "description": "JPEG-Bild"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-Sign PDF",
+        "docx": "e-Sign DOCX",
+        "xlsx": "e-Sign XLSX",
+        "pptx": "e-Sign PPTX",
+        "jpeg": "e-Sign JPEG"
+      },
+      "text": {
+        "pdf": "PDF-Textunterschriften",
+        "docx": "DOCX-Textunterschriften",
+        "xlsx": "XLSX-Textunterschriften",
+        "pptx": "PPTX-Textunterschriften",
+        "jpeg": "JPEG-Textunterschriften"
+      },
+      "image": {
+        "pdf": "PDF mit Bild unterschreiben",
+        "docx": "DOCX mit Bild unterschreiben",
+        "xlsx": "XLSX mit Bild unterschreiben",
+        "pptx": "PPTX mit Bild unterschreiben",
+        "jpeg": "JPEG mit Bild unterschreiben"
+      },
+      "barcode": {
+        "pdf": "Barcode zu PDF hinzufügen",
+        "docx": "Barcode zu DOCX hinzufügen",
+        "xlsx": "Barcode zu XLSX hinzufügen",
+        "pptx": "Barcode zu PPTX hinzufügen",
+        "jpeg": "Barcode zu JPEG hinzufügen"
+      },
+      "qrcode": {
+        "pdf": "QR-Code für PDF",
+        "docx": "QR-Code für DOCX",
+        "xlsx": "QR-Code für XLSX",
+        "pptx": "QR-Code für PPTX",
+        "jpeg": "QR-Code für JPEG"
+      },
+      "digital": {
+        "pdf": "PDF schützen",
+        "docx": "DOCX schützen",
+        "xlsx": "XLSX schützen",
+        "pptx": "PPTX schützen"
+      },
+      "stamp": {
+        "pdf": "PDF stempeln",
+        "docx": "DOCX stempeln",
+        "xlsx": "XLSX stempeln",
+        "pptx": "PPTX stempeln",
+        "jpeg": "JPEG stempeln"
+      },
+      "search": {
+        "pdf": "Unterschriften in PDF suchen",
+        "docx": "Unterschriften in DOCX finden",
+        "xlsx": "Unterschriften in XLSX suchen",
+        "pptx": "Unterschriften in PPTX finden",
+        "jpeg": "Unterschriften in JPEG suchen"
+      },
+      "verify": {
+        "pdf": "PDF-Unterschriften überprüfen",
+        "docx": "DOCX-Unterschriften überprüfen",
+        "xlsx": "XLSX-Unterschriften validieren",
+        "pptx": "PPTX-Unterschriften überprüfen",
+        "jpeg": "JPEG-Unterschriften validieren"
+      },
+      "modify": {
+        "pdf": "PDF-Unterschriften bearbeiten",
+        "docx": "DOCX-Unterschriften bearbeiten",
+        "xlsx": "XLSX-Unterschriften bearbeiten",
+        "pptx": "PPTX-Unterschriften bearbeiten",
+        "jpeg": "JPEG-Unterschriften bearbeiten"
+      },
+      "delete": {
+        "pdf": "PDF-Unterschriften löschen",
+        "docx": "DOCX-Unterschriften entfernen",
+        "xlsx": "XLSX-Unterschriften löschen",
+        "pptx": "PPTX-Unterschriften löschen",
+        "jpeg": "JPEG-Unterschriften entfernen"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "result_title": "Beispielunterschriften",
+      "result_title_bottom": "Ergebnis herunterladen",
+      "copy_tip": "Klicken zum Kopieren",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Weitere Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit, loszulegen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} herunterladen",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Erfahren Sie mehr"
+    },
+    "operations": {
+      "esign": {
+        "name": "Elektronische Unterschriften",
+        "description": "Fügen Sie verschiedene Arten von Unterschriften zu unterstützten Dateiformaten hinzu"
+      },
+      "text": {
+        "name": "Text zu Dokumenten hinzufügen",
+        "description": "Inhalt von Dokumenten mit anpassbaren Textunterschriften verbessern"
+      },
+      "image": {
+        "name": "Bildunterschriften",
+        "description": "Jedes Bild an beliebiger Stelle innerhalb eines Dokuments platzieren"
+      },
+      "barcode": {
+        "name": "Barcodes generieren",
+        "description": "Verschiedene Barcodes erstellen und in unterstützte Dokumente einfügen"
+      },
+      "qrcode": {
+        "name": "QR-Codes generieren",
+        "description": "QR-Codes erzeugen und für die Dokumentenunterzeichnung verwenden"
+      },
+      "digital": {
+        "name": "Digitale Zertifikate",
+        "description": "Sichern Sie Geschäfte und signieren Sie Dokumente mit digitalen Zertifikaten"
+      },
+      "stamp": {
+        "name": "Stempelunterschriften",
+        "description": "Verwenden Sie den Stempel-Builder, um anpassbare runde oder quadratische Stempel zu erstellen"
+      },
+      "search": {
+        "name": "Unterschriften suchen",
+        "description": "Alle zuvor hinzugefügten Unterschriften in einem Dokument lokalisieren"
+      },
+      "verify": {
+        "name": "Unterschrift überprüfen",
+        "description": "Die Authentizität von Unterschriften nach ihrer Anwendung überprüfen"
+      },
+      "modify": {
+        "name": "Unterschriften bearbeiten",
+        "description": "Verschiedene Unterschriften innerhalb eines Dokuments bearbeiten"
+      },
+      "delete": {
+        "name": "Unterschriften löschen",
+        "description": "Eine Vielzahl von zuvor angewandten Unterschriften entfernen"
+      }
+    }
+  }
+}

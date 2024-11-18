@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Remova assinaturas de {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "A remoção de assinaturas digitais, de código de barras, texto, imagem e metadados de documentos assinados {{FileFormatUp}} pode ser realizada utilizando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Remova assinaturas de {{FileFormatUp}} de forma eficiente",
+    "description": "Além de assinar documentos comerciais, nossa solução oferece ferramentas abrangentes para localizar e remover uma ampla variedade de assinaturas usando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe grátis"
+  },
+  "about": {
+    "title": "Visão Geral do {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma ferramenta robusta de assinatura que facilita a adição de diversos tipos de assinatura, desde texto e imagens até códigos de barras, certificados digitais e carimbos. Suportando mais de 60 formatos de arquivo—incluindo PDF, MS Office, imagens, ZIP e outros formatos amplamente utilizados—esta solução garante flexibilidade na gestão de documentos. Além disso, as assinaturas aplicadas podem ser facilmente localizadas, autenticadas, modificadas ou removidas conforme necessário."
+  },
+  "more_features": {
+    "title": "Otimize a gestão de documentos com ferramentas avançadas de assinatura",
+    "description": "{{ProdFullName}} é projetado meticulosamente para aprimorar a assinatura e o processamento de formatos de arquivos comerciais, permitindo a adição, modificação, verificação ou exclusão de assinaturas.",
+    "image_description": "Explore os Recursos Versáteis do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinatura de documentos",
+      "content": "Incorpore assinaturas de texto, imagem, código de barras, código QR ou carimbo em qualquer página de documentos suportados. Além disso, utilize metadados ocultos, como EXIF em imagens ou proteja a integridade do documento com certificados digitais, evitando alterações não autorizadas."
+    },
+    "feature_2": {
+      "title": "Pesquisa e verificação de assinaturas",
+      "content": "Aproveite nossas ferramentas para garantir a autenticidade das assinaturas em seus documentos. Realize buscas detalhadas para recuperar uma lista completa de todas as assinaturas, assegurando uma gestão abrangente do documento."
+    },
+    "feature_3": {
+      "title": "Modificação de assinatura",
+      "content": "Ajuste as assinaturas previamente adicionadas modificando texto, reposicionando ou alterando cores para atender às suas necessidades específicas."
+    },
+    "feature_4": {
+      "title": "Exclusão de assinatura",
+      "content": "Nossa solução oferece completas capacidades de CRUD para assinaturas, permitindo a remoção eficiente de uma variedade de tipos de assinatura dos seus documentos quando necessário."
+    }
+  },
+  "formats": {
+    "title": "Remova assinaturas em vários formatos de arquivo",
+    "description": "{{ProdFullName}} é projetado para facilitar a remoção de assinaturas de uma ampla variedade de mais de 60 formatos de arquivo, garantindo ampla compatibilidade e funcionalidade."
+  },
+  "operations": {
+    "title": "Confira nossos recursos destacados",
+    "description": "Estamos empolgados em oferecer uma ampla seleção de tipos de assinatura suportados e operações"
+  },
+  "examples": {
+    "comment_1": "Passe o documento contendo assinaturas para a instância de {{TextSignature}}",
+    "comment_2": "Recupere as assinaturas digitais presentes no documento",
+    "comment_3": "Remova a primeira assinatura digital identificada",
+    "comment_4": "Processar o resultado da exclusão"
+  },
+  "steps": {
+    "title": "Como excluir assinaturas eletrônicas de {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a tarefa para desenvolvedores de {{EnvName}} remover assinaturas eletrônicas em arquivos {{FileFormatUp}} ao implementar algumas etapas simples.",
+      "step_1": "Forneça o caminho do arquivo {{FileFormatUp}} para uma instância da classe {{TextSignature}}.",
+      "step_2": "Invocar o método Search para recuperar todas as assinaturas dentro do documento.",
+      "step_3": "Excluir uma ou mais das assinaturas recuperadas.",
+      "step_4": "Examine os resultados do processamento do documento."
+    }
+  },
+  "code_1": {
+    "title": "Elimine todas as assinaturas de código de barras",
+    "content": "Descubra como remover todas as assinaturas de código de barras incorporadas em um documento.",
+    "comment_1": "Forneça um documento contendo assinaturas de código de barras",
+    "comment_2": "Remova todas as assinaturas de código de barras",
+    "comment_3": "Avalie o resultado do processo de exclusão"
+  }
+}

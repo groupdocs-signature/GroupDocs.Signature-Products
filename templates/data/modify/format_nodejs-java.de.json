@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Aktualisieren Sie die Signaturen von {{FileFormatUp}}-Dokumenten mit {{ProgLang}}-Apps",
+    "description": "Nutzen Sie die {{ProgLang}}-API, um digitale Signaturen innerhalb von {{FileFormatUp}}-Formaten zu überarbeiten und zu verwalten, einschließlich PDF, Word, Excel, PowerPoint und Bilddateien."
+  },
+  "header": {
+    "title": "Signaturen in {{FileFormatUp}} anpassen",
+    "description": "Mit {{ProdFullName}} können Sie verschiedene elektronische Signaturen in Ihren Geschäftsdokumenten, einschließlich PDFs, Word-Dokumenten, Excel-Tabellen, Präsentationen und Bildformaten, ändern.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Jetzt kostenlos ausprobieren"
+  },
+  "about": {
+    "title": "Überblick über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ermöglicht Ihnen nicht nur das Hinzufügen von Signaturen, sondern auch deren Anpassung nach Bedarf. Egal, ob Sie mit PDFs, Word-Dokumenten, Excel-Tabellen oder Präsentationen arbeiten, {{ProdFullName}} bietet Ihnen nahtlose Kontrolle über das Signaturmanagement und macht zukünftige Änderungen einfach und intuitiv."
+  },
+  "more_features": {
+    "title": "Signaturverwaltung für Dokumente",
+    "description": "{{ProdFullName}} bietet eine leistungsstarke Suite von Werkzeugen zum Hinzufügen, Ändern, Überprüfen, Suchen und Löschen von Signaturen in einer Vielzahl von Dokumentformaten, was Ihren Workflow und die Dokumentensicherheit verbessert.",
+    "image_description": "Signaturbearbeitung",
+    "feature_1": {
+      "title": "Flexible Dokumentensignatur",
+      "content": "Signieren Sie Ihre Dokumente mit einer Vielzahl von Optionen—Text, Bilder, Barcodes und Stempel—an beliebiger Stelle in Ihren Dateien. Sie können auch eingebettete Metadaten wie EXIF-Daten in Bildern anpassen und sensible Informationen mithilfe digitaler Zertifikate schützen."
+    },
+    "feature_2": {
+      "title": "Verifizieren und Suchen von Signaturen",
+      "content": "Stellen Sie die Integrität Ihrer Dokumente sicher, indem Sie Signaturen mühelos überprüfen. Nutzen Sie die integrierte Suchfunktion, um alle Signaturen innerhalb einer Datei zu lokalisieren und zu verwalten, sodass nichts übersehen wird."
+    },
+    "feature_3": {
+      "title": "Aktualisieren vorhandener Signaturen",
+      "content": "Wenn eine Signatur Anpassungen benötigt, sei es im Aussehen, in der Position oder im Inhalt, macht unsere API den Prozess einfach und unkompliziert, sodass Sie jede Signatur schnell optimieren können."
+    },
+    "feature_4": {
+      "title": "Entfernen unerwünschter Signaturen",
+      "content": "Ob Sie eine veraltete Signatur entfernen oder Ihr Dokument bereinigen müssen, {{ProdFullName}} bietet die vollständige Kontrolle über das Löschen von Signaturen, sodass Ihre Dateien aktuell und korrekt bleiben."
+    }
+  },
+  "formats": {
+    "title": "Signaturen über mehrere Dateiformate bearbeiten",
+    "description": "Mit der {{EnvName}}-API können signierte Dokumente jederzeit erneut aufgerufen werden, sodass Sie Signatur Eigenschaften für gängige Geschäftsformate extrahieren und ändern können, um vollständige Flexibilität und Kontrolle zu gewährleisten."
+  },
+  "operations": {
+    "title": "Entdecken Sie unsere Signatur- und Funktionalitätsoptionen",
+    "description": "Wir bieten eine Vielzahl von Signaturfähigkeiten sowie zahlreiche Betriebsmittel."
+  },
+  "examples": {
+    "comment_1": "Initialisieren Sie ein {{TextSignature}}-Objekt mit dem Dokumentenpfad",
+    "comment_2": "Führen Sie eine Suche durch, um Textsignaturen im Dokument zu lokalisieren",
+    "comment_3": "Bearbeiten Sie den Text der ersten gefundenen Signatur",
+    "comment_4": "Überprüfen Sie die vorgenommenen Änderungen an der Signatur"
+  },
+  "steps": {
+    "title": "Anleitung zur Änderung von Textsignaturen in {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) ermöglicht {{EnvName}}-Entwicklern, den Inhalt von zuvor in {{FileFormatUp}}-Dateien eingebetteten Textsignaturen zu aktualisieren. Verbessern Sie {{EnvName}}-Anwendungen mit robusten Bearbeitungsfunktionen.",
+      "step_1": "Importieren Sie das {{FileFormatUp}}-Dokument in die {{TextSignature}}-Instanz.",
+      "step_2": "Rufen Sie eine Liste aller Signaturen im Dokument ab.",
+      "step_3": "Aktualisieren Sie den Inhalt der gewünschten Signatur.",
+      "step_4": "Überprüfen Sie die Ergebnisse der Änderungen."
+    }
+  },
+  "code_1": {
+    "title": "Bearbeiten von Barcode-Signaturen",
+    "content": "Dieses Beispiel zeigt, wie man programmatisch Barcode-Signaturen innerhalb eines Dokuments bearbeitet.",
+    "comment_1": "Laden Sie ein Dokument, das Barcode-Signaturen enthält",
+    "comment_2": "Identifizieren Sie alle Barcode-Signaturen im Dokument",
+    "comment_3": "Ändern Sie die Position der ersten Barcode-Signatur und speichern Sie das Dokument",
+    "comment_4": "Bestätigen Sie die erfolgreiche Änderung des Barcodes"
+  }
+}

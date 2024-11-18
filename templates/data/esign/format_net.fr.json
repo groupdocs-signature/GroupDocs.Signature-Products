@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Signer {{FileFormatUp}} via {{ProgLang}} électroniquement",
+    "description": "Utilisez {{FileFormatUp}} pour ajouter une gamme de types de signatures électroniques aux documents, garantissant la sécurité et la conformité à travers des formats comme PDF, Word, Excel, Présentations et Images."
+  },
+  "header": {
+    "title": "Signature électronique de fichiers {{FileFormatUp}}",
+    "description": "Intégrez une variété de signatures électroniques dans vos documents en utilisant {{ProdFullName}}, garantissant conformité et intégrité pour des formats tels que PDF, Word, Excel, Présentations et Images.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) propose une suite complète de fonctionnalités de signature électronique. Avec elle, vous pouvez ajouter, rechercher, vérifier, mettre à jour et supprimer des signatures numériques au sein d'un large éventail de types de documents, sans avoir besoin d'outils tiers. Elle prend en charge la signature de fichiers PDF, de documents Word, de feuilles Excel, de présentations PowerPoint et de divers formats d'image sans effort."
+  },
+  "more_features": {
+    "title": "Signatures électroniques avancées pour documents",
+    "description": "Notre API de signature électronique sophistiquée améliore les flux de travail des entreprises, permettant une signature, validation, modification et gestion efficaces des signatures électroniques avec des capacités d'automatisation complètes.",
+    "image_description": "Fonctionnalités de signature électronique",
+    "feature_1": {
+      "title": "Signature électronique pour documents bureautiques",
+      "content": "Insérez sans effort des signatures électroniques à n'importe quelle position au sein d'un document. Personnalisez et enrichissez le contenu avec des certificats numériques, des métadonnées, des codes-barres ou des éléments visuels, tout en garantissant authentification et sécurité."
+    },
+    "feature_2": {
+      "title": "Gestion complète des signatures",
+      "content": "Une fois signés, les documents peuvent être traités ultérieurement avec aisance. Accédez à un aperçu complet des signatures existantes, permettant des mises à jour précises ou la suppression de signatures lorsque cela est nécessaire."
+    },
+    "feature_3": {
+      "title": "Sécurité du contenu améliorée",
+      "content": "Protégez l'intégrité de vos documents en utilisant des certificats numériques. Intégrez ou extrayez des métadonnées pour un suivi et un audit améliorés des documents, garantissant conformité et authenticité du contenu."
+    }
+  },
+  "formats": {
+    "title": "Signer numériquement un large éventail de formats de fichiers",
+    "description": "L'API {{EnvName}} vous permet de signer électroniquement plus de 60 formats de fichiers normés dans l'industrie, offrant une flexibilité inégalée dans la sécurisation de vos documents d'entreprise."
+  },
+  "operations": {
+    "title": "Explorez l'ensemble de nos fonctionnalités",
+    "description": "Nous sommes fiers de proposer une vaste gamme d'options de signature et d'opérations associées."
+  },
+  "examples": {
+    "comment_1": "Chargez le document dans une instance de {{TextSignature}}",
+    "comment_2": "Créez un nouvel objet {{QrCodeSignOptions}}",
+    "comment_3": "Configurez toutes les options nécessaires",
+    "comment_4": "Enregistrez le document signé dans le stockage local"
+  },
+  "steps": {
+    "title": "Étapes pour signer {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilite l'incorporation de signatures personnalisées dans des fichiers {{FileFormatUp}}. Les développeurs {{EnvName}} peuvent intégrer sans difficulté la fonctionnalité de signature dans leurs applications à l'aide de notre logiciel.",
+      "step_1": "Fournissez le fichier {{FileFormatUp}} à l'instance de {{TextSignature}} pour la signature.",
+      "step_2": "Utilisez {{SignOptions}} pour spécifier les paramètres de la signature.",
+      "step_3": "Configurez des attributs tels que la taille, la couleur et le contenu.",
+      "step_4": "Enregistrez le fichier signé à l'emplacement souhaité."
+    }
+  },
+  "code_1": {
+    "title": "Comment ajouter une signature image à un document",
+    "content": "Cet exemple illustre la procédure d'application d'une signature image à une page spécifique dans un document.",
+    "comment_1": "Fournissez le document source comme argument",
+    "comment_2": "Spécifiez le chemin vers l'image dans la configuration de la signature",
+    "comment_3": "Définissez les dimensions et les pages cibles pour la signature",
+    "comment_4": "Exécutez l'application de la signature au document"
+  }
+}

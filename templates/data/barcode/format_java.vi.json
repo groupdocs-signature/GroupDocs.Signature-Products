@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Thêm mã vạch vào tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Tạo và chèn chữ ký mã vạch vào tài liệu {{FileFormatUp}} trong {{ProgLang}}. {{ProdShortName}} cho phép tích hợp chữ ký linh hoạt cho nhiều định dạng."
+  },
+  "header": {
+    "title": "Tạo mã vạch cho {{FileFormatUp}}",
+    "description": "Thêm mã vạch của các định dạng phổ biến vào bất kỳ vị trí nào trong tài liệu của bạn với {{ProdFullName}}. Giải pháp của chúng tôi cung cấp nhiều tùy chọn để tùy chỉnh chữ ký mã vạch.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là một giải pháp ký tiên tiến hỗ trợ nhiều loại chữ ký khác nhau. Bạn có thể ký tài liệu với văn bản, hình ảnh, mã vạch, chứng chỉ số, dấu xác nhận và nhiều hơn nữa trên hơn 60 định dạng tệp, bao gồm PDF, MS Office, hình ảnh, tệp ZIP và các định dạng phổ biến khác trong kinh doanh. Ngoài ra, chữ ký trong các tài liệu đã ký có thể được tìm kiếm, xác minh, sửa đổi hoặc xóa bất cứ lúc nào."
+  },
+  "more_features": {
+    "title": "Cải thiện hoặc bảo vệ nội dung tài liệu với chữ ký",
+    "description": "Thư viện {{ProdFullName}} được thiết kế để ký và xử lý các định dạng tệp phổ biến. Nhanh chóng và linh hoạt thêm, sửa đổi, xác minh hoặc xóa nhiều loại chữ ký khác nhau.",
+    "image_description": "Các tính năng của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Ký tài liệu",
+      "content": "Ký bất kỳ trang nào của tài liệu được hỗ trợ với văn bản, hình ảnh, mã vạch, mã QR hoặc dấu xác nhận. Thêm siêu dữ liệu ẩn như EXIF trong hình ảnh hoặc bảo vệ nội dung tài liệu khỏi các thay đổi trái phép bằng cách sử dụng chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Bạn có thể thực hiện nhiều thao tác với tài liệu đã ký. Chúng tôi cung cấp dịch vụ xác minh chữ ký để đảm bảo mọi thứ đều đúng. Ngoài ra, bạn có thể lấy danh sách tất cả chữ ký của tài liệu thông qua tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Sửa đổi chữ ký",
+      "content": "Hầu hết các chữ ký đã thêm trước đó có thể được sửa đổi. Dễ dàng chỉnh sửa văn bản, điều chỉnh vị trí hoặc thay đổi màu sắc."
+    },
+    "feature_4": {
+      "title": "Xóa chữ ký",
+      "content": "Giải pháp của chúng tôi hỗ trợ các hoạt động CRUD đầy đủ cho chữ ký. Nhiều loại chữ ký có thể được xóa khỏi tài liệu khi cần thiết."
+    }
+  },
+  "formats": {
+    "title": "Ký tài liệu ở định dạng khác",
+    "description": "Hơn 60 định dạng có thể được ký sử dụng API {{EnvName}} của chúng tôi. Áp dụng nhiều chữ ký khác nhau vào bất kỳ trang hoặc vị trí nào trong tài liệu."
+  },
+  "operations": {
+    "title": "Khám phá các khả năng cốt lõi của chúng tôi",
+    "description": "Chúng tôi tự hào giới thiệu một loạt chữ ký và chức năng được hỗ trợ đa dạng."
+  },
+  "examples": {
+    "comment_1": "Tạo một thể hiện mới của {{TextSignature}} với đường dẫn tài liệu",
+    "comment_2": "Sử dụng {{BarcodeSignOptions}} để thêm một mã vạch vào tài liệu",
+    "comment_3": "Thiết lập loại mã vạch và các thuộc tính khác",
+    "comment_4": "Lưu tệp đã ký"
+  },
+  "steps": {
+    "title": "Các bước để tạo và thêm một mã vạch vào tệp {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) có thể tạo mã vạch ở nhiều định dạng phổ biến và đặt chúng trên các trang {{FileFormatUp}}. Với hỗ trợ cho hơn 60 loại mã vạch, ứng dụng {{EnvName}} có thể dễ dàng được nâng cao với các khả năng ký mã vạch bằng cách tích hợp thư viện của chúng tôi.",
+      "step_1": "Cung cấp tệp {{FileFormatUp}} hoặc luồng để được xử lý.",
+      "step_2": "Chuyển văn bản mã vạch cho thể hiện {{BarcodeSignOptions}}.",
+      "step_3": "Tùy chỉnh các tùy chọn mã vạch như vị trí, kích thước, v.v.",
+      "step_4": "Lưu tệp với mã vạch mới được thêm vào."
+    }
+  },
+  "code_1": {
+    "title": "Cách tạo một chữ ký mã vạch",
+    "content": "Ví dụ này minh họa cách đặt một mã vạch tùy chỉnh lên các trang tài liệu {{FileFormatUp}}.",
+    "comment_1": "Cung cấp tài liệu cần được ký",
+    "comment_2": "Tạo các tùy chọn chữ ký với văn bản mong muốn",
+    "comment_3": "Thiết lập vị trí mã vạch tương đối trên trang",
+    "comment_4": "Thiết lập khoảng cách mã vạch từ cạnh trang",
+    "comment_5": "Thiết lập màu sắc của các thanh",
+    "comment_6": "Định nghĩa kiểu font chữ cho thông điệp",
+    "comment_7": "Xác định vị trí thông điệp",
+    "comment_8": "Ký và lưu tài liệu"
+  }
+}

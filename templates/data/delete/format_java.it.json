@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Rimuovi le firme da {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "description": "La rimozione di firme Digitali, Codice a barre, Testo, Immagini e Metadati da documenti {{FileFormatUp}} firmati può essere eseguita utilizzando {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Elimina le firme da {{FileFormatUp}}",
+    "description": "La nostra soluzione non solo ti consente di firmare documenti aziendali, ma offre anche la capacità di trovare e rimuovere vari tipi di firme utilizzando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre una soluzione completa per la firma, in grado di gestire vari tipi di firme come testi, immagini, codici a barre, certificati digitali e timbri. Questo strumento supporta oltre 60 formati di file diversi, tra cui PDF, documenti MS Office, file immagine, archivi ZIP e molti altri formati comunemente utilizzati. Inoltre, una volta applicate le firme, possono essere cercate, verificate, modificate o rimosse quando necessario."
+  },
+  "more_features": {
+    "title": "Migliora i processi aziendali con la gestione delle firme",
+    "description": "{{ProdFullName}} è progettato per firmare e gestire formati di file aziendali, consentendo di aggiungere, modificare, verificare o eliminare firme secondo necessità.",
+    "image_description": "Capacità di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma documenti",
+      "content": "Aggiungi testo, immagine, codice a barre, codice QR o firme timbra a qualsiasi pagina di documenti supportati. Utilizza metadati nascosti come EXIF nelle immagini o proteggi il contenuto del documento da modifiche non autorizzate con certificati digitali."
+    },
+    "feature_2": {
+      "title": "Ricerca e verifica",
+      "content": "Massimizza il potenziale dei documenti firmati verificando le firme per assicurarne la validità. Puoi anche recuperare un elenco completo di tutte le firme all'interno di un documento tramite una semplice ricerca."
+    },
+    "feature_3": {
+      "title": "Modifica le firme",
+      "content": "La maggior parte delle firme aggiunte precedentemente possono essere modificate. È possibile cambiare il testo, riposizionare la firma o modificarne il colore."
+    },
+    "feature_4": {
+      "title": "Elimina firme",
+      "content": "La nostra soluzione supporta completamente le operazioni CRUD per le firme, consentendo di eliminare vari tipi di firme da un documento secondo necessità."
+    }
+  },
+  "formats": {
+    "title": "Rimuovi firme da vari formati di file",
+    "description": "La nostra soluzione {{ProdFullName}} supporta la rimozione di firme da oltre 60 diversi formati di file."
+  },
+  "operations": {
+    "title": "Scopri le nostre caratteristiche principali",
+    "description": "Esplora le diverse operazioni e metodi di firma disponibili con la nostra piattaforma."
+  },
+  "examples": {
+    "comment_1": "Passa il documento contenente le firme da eliminare a {{TextSignature}}",
+    "comment_2": "Recupera le firme digitali presenti nel documento",
+    "comment_3": "Elimina la prima firma digitale trovata",
+    "comment_4": "Elabora il risultato dell'eliminazione"
+  },
+  "steps": {
+    "title": "Passaggi per eliminare e-firme da {{FileFormatUp}} utilizzando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) rende semplice per gli sviluppatori {{EnvName}} eliminare e-firme nei file {{FileFormatUp}} utilizzando le proprie applicazioni seguendo pochi semplici passaggi.",
+      "step_1": "Passa il percorso del {{FileFormatUp}} a un'istanza della classe {{TextSignature}}.",
+      "step_2": "Utilizza il metodo Search per recuperare le firme dal documento.",
+      "step_3": "Elimina una o più delle firme trovate.",
+      "step_4": "Analizza i risultati dell'elaborazione del documento."
+    }
+  },
+  "code_1": {
+    "title": "Rimuovi tutte le firme a codice a barre",
+    "content": "Scopri come rimuovere tutte le firme a codice a barre incorporate in un documento.",
+    "comment_1": "Fornisci un documento che contenga firme a codice a barre",
+    "comment_2": "Elimina tutte le firme a codice a barre",
+    "comment_3": "Elabora il risultato dell'eliminazione"
+  }
+}

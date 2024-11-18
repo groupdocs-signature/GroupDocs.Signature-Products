@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Tìm kiếm chữ ký số trong {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Sử dụng API {{ProdFullName}} để tìm kiếm chữ ký trong các tệp {{FileFormatUp}}. Tìm chữ ký trong PDF, Word, Excel, Thuyết trình và Hình ảnh."
+  },
+  "header": {
+    "title": "Tìm kiếm chữ ký số trong {{FileFormatUp}}",
+    "description": "Lấy danh sách đầy đủ các chữ ký điện tử nhúng trong tệp PDF, Word, Excel, Thuyết trình hoặc Hình ảnh bằng {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp các tính năng mạnh mẽ cho việc ký tài liệu. Nó hỗ trợ thêm văn bản, hình ảnh, mã vạch, chứng chỉ số và con dấu vào các tệp với hơn 60 định dạng, bao gồm PDF, tài liệu MS Office, Hình ảnh, tệp ZIP và các định dạng kinh doanh phổ biến khác. Bên cạnh đó, bạn có thể tìm kiếm, xác minh, chỉnh sửa hoặc xóa chữ ký bất cứ lúc nào."
+  },
+  "more_features": {
+    "title": "Giải pháp ký tài liệu toàn diện",
+    "description": "Chúng tôi tự hào giới thiệu giải pháp ký tài liệu của mình, tương thích với tất cả các định dạng tài liệu chính. Thêm nhiều loại chữ ký để nâng cao tài liệu của bạn hoặc bảo vệ nội dung của nó.",
+    "image_description": "Tìm kiếm chữ ký",
+    "feature_1": {
+      "title": "Ký tài liệu kinh doanh",
+      "content": "Chèn chữ ký số ở bất kỳ vị trí nào trên bất kỳ trang nào của tài liệu. Sử dụng nhiều loại chữ ký khác nhau, chẳng hạn như văn bản, hình ảnh, mã vạch, siêu dữ liệu, con dấu hoặc chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký",
+      "content": "Sau khi ký, tài liệu có thể cần xử lý thêm. Tìm kiếm tất cả chữ ký có sẵn và cập nhật hoặc xóa chúng bất cứ khi nào cần thiết."
+    },
+    "feature_3": {
+      "title": "Bảo vệ nội dung tài liệu",
+      "content": "Quản lý siêu dữ liệu ẩn được nhúng trong tài liệu. Thêm siêu dữ liệu mới hoặc xóa các mục hiện có. Sử dụng chứng chỉ số doanh nghiệp để bảo vệ nội dung tài liệu khỏi các thay đổi trái phép."
+    }
+  },
+  "formats": {
+    "title": "Tìm kiếm chữ ký trong các định dạng tệp khác nhau",
+    "description": "API {{ProdFullName}} cho phép bạn lấy danh sách chữ ký từ bất kỳ tệp đã ký nào. Trích xuất chữ ký từ các định dạng tệp phổ biến để xử lý thêm."
+  },
+  "operations": {
+    "title": "Các thao tác hỗ trợ",
+    "description": "Sản phẩm của chúng tôi cung cấp một API linh hoạt cho việc ký tài liệu và quản lý chữ ký sau khi ký."
+  },
+  "examples": {
+    "comment_1": "Tạo một thể hiện của {{TextSignature}} với đường dẫn tài liệu",
+    "comment_2": "Khởi tạo {{TextSearchOptions}} để bao phủ tất cả các trang",
+    "comment_3": "Tìm kiếm chữ ký văn bản trong tài liệu",
+    "comment_4": "Liệt kê các chữ ký tìm thấy để phân tích thêm"
+  },
+  "steps": {
+    "title": "Các bước tìm kiếm chữ ký {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cung cấp một công cụ mạnh mẽ để tìm kiếm bất kỳ chữ ký số nào trong các tệp {{FileFormatUp}}. Các nhà phát triển {{EnvName}} có thể nâng cao ứng dụng của họ với giải pháp của chúng tôi.",
+      "step_1": "Cung cấp đường dẫn tệp {{FileFormatUp}} để tìm kiếm chữ ký.",
+      "step_2": "Sử dụng {{SearchOptions}} để tinh chỉnh kết quả tìm kiếm.",
+      "step_3": "Thực hiện phương thức Tìm kiếm để lấy kết quả.",
+      "step_4": "Phân tích danh sách các chữ ký được tìm thấy."
+    }
+  },
+  "code_1": {
+    "title": "Tìm kiếm chữ ký hình ảnh",
+    "content": "Ví dụ này minh họa cách tìm một chữ ký hình ảnh trong một tài liệu cụ thể.",
+    "comment_1": "Truyền tài liệu nguồn dưới dạng tham số của bộ khởi tạo",
+    "comment_2": "Tìm kiếm các chữ ký với loại văn bản",
+    "comment_3": "Hiển thị kết quả với các thuộc tính của các chữ ký tìm thấy"
+  }
+}

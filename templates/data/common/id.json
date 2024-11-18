@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Format Dokumen Portabel Adobe"
+      },
+      "docx": {
+        "description": "Dokumen XML Terbuka Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Spreadsheet XML Terbuka Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Presentasi XML Terbuka PowerPoint"
+      },
+      "jpeg": {
+        "description": "Gambar JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "Tanda Tangan Elektronik PDF",
+        "docx": "Tanda Tangan Elektronik DOCX",
+        "xlsx": "Tanda Tangan Elektronik XLSX",
+        "pptx": "Tanda Tangan Elektronik PPTX",
+        "jpeg": "Tanda Tangan Elektronik JPEG"
+      },
+      "text": {
+        "pdf": "Tanda Tangan Teks PDF",
+        "docx": "Tanda Tangan Teks DOCX",
+        "xlsx": "Tanda Tangan Teks XLSX",
+        "pptx": "Tanda Tangan Teks PPTX",
+        "jpeg": "Tanda Tangan Teks JPEG"
+      },
+      "image": {
+        "pdf": "Tanda Tangan PDF dengan Gambar",
+        "docx": "Tanda Tangan DOCX dengan Gambar",
+        "xlsx": "Tanda Tangan XLSX dengan Gambar",
+        "pptx": "Tanda Tangan PPTX dengan Gambar",
+        "jpeg": "Tanda Tangan JPEG dengan Gambar"
+      },
+      "barcode": {
+        "pdf": "Tambahkan barcode ke PDF",
+        "docx": "Tambahkan barcode ke DOCX",
+        "xlsx": "Tambahkan barcode ke XLSX",
+        "pptx": "Tambahkan barcode ke PPTX",
+        "jpeg": "Tambahkan barcode ke JPEG"
+      },
+      "qrcode": {
+        "pdf": "QR-Code untuk PDF",
+        "docx": "QR-Code untuk DOCX",
+        "xlsx": "QR-Code untuk XLSX",
+        "pptx": "QR-Code untuk PPTX",
+        "jpeg": "QR-Code untuk JPEG"
+      },
+      "digital": {
+        "pdf": "Lindungi PDF",
+        "docx": "Lindungi DOCX",
+        "xlsx": "Lindungi XLSX",
+        "pptx": "Lindungi PPTX"
+      },
+      "stamp": {
+        "pdf": "Stempel PDF",
+        "docx": "Stempel DOCX",
+        "xlsx": "Stempel XLSX",
+        "pptx": "Stempel PPTX",
+        "jpeg": "Stempel JPEG"
+      },
+      "search": {
+        "pdf": "Cari tanda tangan dalam PDF",
+        "docx": "Temukan tanda tangan dalam DOCX",
+        "xlsx": "Cari tanda tangan dalam XLSX",
+        "pptx": "Temukan tanda tangan dalam PPTX",
+        "jpeg": "Cari tanda tangan dalam JPEG"
+      },
+      "verify": {
+        "pdf": "Verifikasi tanda tangan PDF",
+        "docx": "Verifikasi tanda tangan DOCX",
+        "xlsx": "Validasi tanda tangan XLSX",
+        "pptx": "Verifikasi tanda tangan PPTX",
+        "jpeg": "Validasi tanda tangan JPEG"
+      },
+      "modify": {
+        "pdf": "Modifikasi tanda tangan PDF",
+        "docx": "Edit tanda tangan DOCX",
+        "xlsx": "Modifikasi tanda tangan XLSX",
+        "pptx": "Edit tanda tangan PPTX",
+        "jpeg": "Modifikasi tanda tangan JPEG"
+      },
+      "delete": {
+        "pdf": "Hapus tanda tangan PDF",
+        "docx": "Hapus tanda tangan DOCX",
+        "xlsx": "Hapus tanda tangan XLSX",
+        "pptx": "Hapus tanda tangan PPTX",
+        "jpeg": "Hapus tanda tangan JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "result_title": "Contoh tanda tangan",
+      "result_title_bottom": "Unduh hasil",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "Unduhan {{PackageStoreName}}",
+      "comment_2": "Lisensi"
+    },
+    "texts": {
+      "learn_more": "Pelajari lebih lanjut"
+    },
+    "operations": {
+      "esign": {
+        "name": "Tanda Tangan Elektronik",
+        "description": "Tambahkan berbagai jenis tanda tangan ke format file yang didukung"
+      },
+      "text": {
+        "name": "Tambahkan teks ke dokumen",
+        "description": "Tingkatkan konten dokumen dengan tanda tangan teks yang dapat disesuaikan"
+      },
+      "image": {
+        "name": "Tanda Tangan Gambar",
+        "description": "Tempatkan gambar di posisi mana pun dalam dokumen"
+      },
+      "barcode": {
+        "name": "Hasilkan barcode",
+        "description": "Buat dan sisipkan berbagai barcode ke dalam dokumen yang didukung"
+      },
+      "qrcode": {
+        "name": "Hasilkan QR code",
+        "description": "Buat dan QR Code, termasuk QR code, untuk penandatanganan dokumen"
+      },
+      "digital": {
+        "name": "Sertifikat Digital",
+        "description": "Amankan bisnis dan tanda tangani dokumen dengan sertifikat digital"
+      },
+      "stamp": {
+        "name": "Tanda Tangan Stempel",
+        "description": "Gunakan Konstruksi Stempel untuk membuat stempel bulat atau persegi yang kustom"
+      },
+      "search": {
+        "name": "Cari tanda tangan",
+        "description": "Temukan tanda tangan yang ditambahkan sebelumnya dalam dokumen"
+      },
+      "verify": {
+        "name": "Verifikasi tanda tangan",
+        "description": "Verifikasi keaslian tanda tangan setelah diterapkan"
+      },
+      "modify": {
+        "name": "Modifikasi tanda tangan",
+        "description": "Edit berbagai tanda tangan dalam dokumen"
+      },
+      "delete": {
+        "name": "Hapus tanda tangan",
+        "description": "Hapus berbagai tanda tangan yang diterapkan sebelumnya"
+      }
+    }
+  }
+}

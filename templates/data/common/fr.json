@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "Format de document portable Adobe"
+      },
+      "docx": {
+        "description": "Document Open XML de Microsoft Word"
+      },
+      "xlsx": {
+        "description": "Tableur Open XML de Microsoft Excel"
+      },
+      "pptx": {
+        "description": "Présentation Open XML de PowerPoint"
+      },
+      "jpeg": {
+        "description": "Image JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "e-Sign PDF",
+        "docx": "e-Sign DOCX",
+        "xlsx": "e-Sign XLSX",
+        "pptx": "e-Sign PPTX",
+        "jpeg": "e-Sign JPEG"
+      },
+      "text": {
+        "pdf": "Signatures textuelles PDF",
+        "docx": "Signatures textuelles DOCX",
+        "xlsx": "Signatures textuelles XLSX",
+        "pptx": "Signatures textuelles PPTX",
+        "jpeg": "Signatures textuelles JPEG"
+      },
+      "image": {
+        "pdf": "Signer PDF avec une image",
+        "docx": "Signer DOCX avec une image",
+        "xlsx": "Signer XLSX avec une image",
+        "pptx": "Signer PPTX avec une image",
+        "jpeg": "Signer JPEG avec une image"
+      },
+      "barcode": {
+        "pdf": "Ajouter un code-barres au PDF",
+        "docx": "Ajouter un code-barres au DOCX",
+        "xlsx": "Ajouter un code-barres au XLSX",
+        "pptx": "Ajouter un code-barres au PPTX",
+        "jpeg": "Ajouter un code-barres au JPEG"
+      },
+      "qrcode": {
+        "pdf": "QRCode pour PDF",
+        "docx": "QRCode pour DOCX",
+        "xlsx": "QRCode pour XLSX",
+        "pptx": "QRCode pour PPTX",
+        "jpeg": "QRCode pour JPEG"
+      },
+      "digital": {
+        "pdf": "Protéger le PDF",
+        "docx": "Protéger le DOCX",
+        "xlsx": "Protéger le XLSX",
+        "pptx": "Protéger le PPTX"
+      },
+      "stamp": {
+        "pdf": "Tamponner PDF",
+        "docx": "Tamponner DOCX",
+        "xlsx": "Tamponner XLSX",
+        "pptx": "Tamponner PPTX",
+        "jpeg": "Tamponner JPEG"
+      },
+      "search": {
+        "pdf": "Rechercher des signatures dans le PDF",
+        "docx": "Rechercher des signatures dans le DOCX",
+        "xlsx": "Rechercher des signatures dans le XLSX",
+        "pptx": "Rechercher des signatures dans le PPTX",
+        "jpeg": "Rechercher des signatures dans le JPEG"
+      },
+      "verify": {
+        "pdf": "Vérifier les signatures PDF",
+        "docx": "Vérifier les signatures DOCX",
+        "xlsx": "Vérifier les signatures XLSX",
+        "pptx": "Vérifier les signatures PPTX",
+        "jpeg": "Valider les signatures JPEG"
+      },
+      "modify": {
+        "pdf": "Modifier les signatures PDF",
+        "docx": "Modifier les signatures DOCX",
+        "xlsx": "Modifier les signatures XLSX",
+        "pptx": "Modifier les signatures PPTX",
+        "jpeg": "Modifier les signatures JPEG"
+      },
+      "delete": {
+        "pdf": "Supprimer les signatures PDF",
+        "docx": "Supprimer les signatures DOCX",
+        "xlsx": "Supprimer les signatures XLSX",
+        "pptx": "Supprimer les signatures PPTX",
+        "jpeg": "Supprimer les signatures JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copier",
+      "result_title": "Signatures d'exemple",
+      "result_title_bottom": "Télécharger le résultat",
+      "copy_tip": "cliquez pour copier",
+      "copy_done": "copié",
+      "links": {
+        "title_1": "Plus d'exemples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Prêt à commencer ?",
+      "description": "Essayez les fonctionnalités de {{ProdShortName}} gratuitement ou demandez une licence",
+      "comment_1": "Téléchargement {{PackageStoreName}}",
+      "comment_2": "Licences"
+    },
+    "texts": {
+      "learn_more": "En savoir plus"
+    },
+    "operations": {
+      "esign": {
+        "name": "Signatures électroniques",
+        "description": "Ajoutez différents types de signatures aux formats de fichier pris en charge"
+      },
+      "text": {
+        "name": "Ajouter du texte aux documents",
+        "description": "Améliorez le contenu du document avec des signatures textuelles personnalisables"
+      },
+      "image": {
+        "name": "Signatures d'image",
+        "description": "Placez n'importe quelle image à n'importe quelle position dans un document"
+      },
+      "barcode": {
+        "name": "Générer des codes-barres",
+        "description": "Créez et insérez divers codes-barres dans les documents pris en charge"
+      },
+      "qrcode": {
+        "name": "Générer des QR codes",
+        "description": "Générez des QR Codes, y compris des codes QR, pour la signature de documents"
+      },
+      "digital": {
+        "name": "Certificats numériques",
+        "description": "Sécurisez les affaires et signez des documents avec des certificats numériques"
+      },
+      "stamp": {
+        "name": "Tampons",
+        "description": "Utilisez le constructeur de tampons pour créer des tampons ronds ou carrés personnalisés"
+      },
+      "search": {
+        "name": "Rechercher des signatures",
+        "description": "Trouvez toutes les signatures précédemment ajoutées dans un document"
+      },
+      "verify": {
+        "name": "Vérification des signatures",
+        "description": "Vérifiez l'authenticité des signatures après qu'elles aient été appliquées"
+      },
+      "modify": {
+        "name": "Modifier les signatures",
+        "description": "Modifiez facilement une variété de signatures dans un document"
+      },
+      "delete": {
+        "name": "Supprimer les signatures",
+        "description": "Retirez une large gamme de signatures précédemment appliquées"
+      }
+    }
+  }
+}

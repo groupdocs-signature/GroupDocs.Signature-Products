@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Ajoutez facilement des codes-barres aux fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Créez et insérez des signatures de codes-barres dans des documents {{FileFormatUp}} en {{ProgLang}}. {{ProdShortName}} permet une intégration polyvalente des signatures pour plusieurs formats."
+  },
+  "header": {
+    "title": "Générer un code-barres pour {{FileFormatUp}}",
+    "description": "Ajoutez des codes-barres de formats populaires à n'importe quelle position de vos documents professionnels avec {{ProdFullName}}. Notre solution offre des options étendues pour personnaliser les signatures de codes-barres.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "À propos de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution avancée de signature qui prend en charge une large gamme de types de signatures. Vous pouvez signer des documents avec du texte, des images, des codes-barres, des certificats numériques, des tampons, et plus encore dans plus de 60 formats de fichiers, notamment PDF, MS Office, images, fichiers ZIP, et d'autres formats commerciaux populaires. De plus, les signatures dans les documents signés peuvent être recherchées, vérifiées, modifiées ou supprimées à tout moment."
+  },
+  "more_features": {
+    "title": "Améliorez ou protégez le contenu des documents avec des signatures",
+    "description": "La bibliothèque {{ProdFullName}} est conçue pour la signature et le traitement ultérieur des formats de fichiers populaires. Ajoutez, modifiez, vérifiez ou supprimez rapidement et facilement divers types de signatures.",
+    "image_description": "Fonctionnalités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signature de document",
+      "content": "Signez n'importe quelle page de documents pris en charge avec du texte, des images, des codes-barres, des codes QR, ou des tampons. Ajoutez des métadonnées cachées comme EXIF dans les images ou protégez le contenu du document contre toute modification non autorisée en utilisant des certificats numériques."
+    },
+    "feature_2": {
+      "title": "Recherche et vérification des signatures",
+      "content": "Il y a beaucoup plus que vous pouvez faire avec un document signé. Nous proposons la vérification des signatures pour garantir que tout soit en ordre. De plus, vous pouvez récupérer une liste de toutes les signatures de document via une recherche."
+    },
+    "feature_3": {
+      "title": "Modifier les signatures",
+      "content": "La plupart des signatures ajoutées précédemment peuvent être modifiées. Corrigez facilement le texte, ajustez la position, ou changez la couleur."
+    },
+    "feature_4": {
+      "title": "Supprimer les signatures",
+      "content": "Notre solution prend en charge les opérations CRUD complètes pour les signatures. De nombreux types de signatures peuvent être supprimés d'un document si nécessaire."
+    }
+  },
+  "formats": {
+    "title": "Signer des documents dans d'autres formats",
+    "description": "Plus de 60 formats peuvent être signés en utilisant notre API {{EnvName}}. Appliquez diverses signatures à n'importe quelle page ou position au sein du document."
+  },
+  "operations": {
+    "title": "Découvrez nos principales capacités",
+    "description": "Nous vous présentons fièrement une vaste variété de signatures et de fonctions prises en charge."
+  },
+  "examples": {
+    "comment_1": "Créez une nouvelle instance de {{TextSignature}} avec le chemin du document",
+    "comment_2": "Utilisez {{BarcodeSignOptions}} pour ajouter un code-barres au document",
+    "comment_3": "Configurez le type de code-barres et d'autres propriétés",
+    "comment_4": "Enregistrez le fichier signé"
+  },
+  "steps": {
+    "title": "Étapes pour générer et ajouter un code-barres à un fichier {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) peut générer des codes-barres dans divers formats populaires et les placer sur les pages {{FileFormatUp}}. Avec le soutien de plus de 60 types de codes-barres, les applications {{EnvName}} peuvent facilement être améliorées avec des capacités de signature de codes-barres en incorporant notre bibliothèque.",
+      "step_1": "Fournissez le fichier ou le flux {{FileFormatUp}} à traiter.",
+      "step_2": "Passez le texte du code-barres à l'instance {{BarcodeSignOptions}}.",
+      "step_3": "Personnalisez les options du code-barres telles que la position, la taille, etc.",
+      "step_4": "Enregistrez le fichier avec le code-barres nouvellement ajouté."
+    }
+  },
+  "code_1": {
+    "title": "Comment créer une signature de code-barres",
+    "content": "Cet exemple démontre comment placer un code-barres personnalisé sur les pages de document {{FileFormatUp}}.",
+    "comment_1": "Fournissez le document à signer",
+    "comment_2": "Créez les options de signature avec le texte souhaité",
+    "comment_3": "Définissez la position relative du code-barres sur la page",
+    "comment_4": "Définissez la marge du code-barres par rapport au bord de la page",
+    "comment_5": "Définissez la couleur des barres",
+    "comment_6": "Définissez le style de police du message",
+    "comment_7": "Spécifiez la position du message",
+    "comment_8": "Signez et enregistrez le document"
+  }
+}

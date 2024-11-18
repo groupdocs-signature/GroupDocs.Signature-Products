@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Vérifiez les e-signatures {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "{{ProdFullName}} permet de vérifier les signatures placées dans des fichiers {{FileFormatUp}}. Validez les signatures dans des PDFs, documents Word, feuilles Excel, présentations, images ou archives ZIP."
+  },
+  "header": {
+    "title": "Vérification des e-signatures pour {{FileFormatUp}}",
+    "description": "Vérifiez toutes les e-signatures prises en charge dans les fichiers PDF, Word, Excel, présentations, images ou ZIP avec {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger la version gratuite"
+  },
+  "about": {
+    "title": "Applications de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) prend en charge toutes les opérations CRUD pour la signature de documents et plus encore. Signez plus de 60 formats de documents, y compris les PDF, fichiers MS Office, images et archives ZIP, avec du texte, des images, des codes-barres, des certificats numériques, des métadonnées et des tampons. Des opérations supplémentaires telles que la recherche, la vérification, la modification ou la suppression des signatures sont également disponibles."
+  },
+  "more_features": {
+    "title": "Solution complète de signature de documents",
+    "description": "{{ProdShortName}} améliore les formats de documents de bureau populaires avec 7 types de signatures et des opérations CRUD complètes, offrant une protection robuste pour le contenu de vos documents.",
+    "image_description": "Vérification des signatures",
+    "feature_1": {
+      "title": "Signer des documents d'entreprise",
+      "content": "Ajoutez des signatures numériques professionnelles à tout document. Notre solution prend en charge divers types de signatures, y compris le texte, les images, les codes-barres, les métadonnées, les tampons et les certificats numériques."
+    },
+    "feature_2": {
+      "title": "Opérations CRUD sur les signatures",
+      "content": "Dans de nombreux cas, les documents signés nécessitent un traitement ultérieur. Récupérez la liste de toutes les signatures dans un document, vérifiez-les, modifiez leurs propriétés ou supprimez-les si nécessaire."
+    },
+    "feature_3": {
+      "title": "Protéger le contenu des documents",
+      "content": "Protégez les documents d'entreprise avec des certificats numériques pour prévenir les modifications non autorisées. Intégrez des métadonnées cachées pour protéger davantage le contenu des documents."
+    },
+    "feature_4": {
+      "title": "Signatures natives",
+      "content": "Utilisez des signatures textuelles spécifiques au document, telles que des tampons PDF ou des filigranes Word, pour créer des documents professionnels sur mesure pour un usage d'entreprise."
+    }
+  },
+  "formats": {
+    "title": "Vérification des signatures à travers les formats de fichiers",
+    "description": "{{ProdFullName}} simplifie le processus de vérification de toutes les signatures dans un document. Définissez des paramètres de vérification personnalisés pour assurer l'intégrité des documents signés."
+  },
+  "operations": {
+    "title": "Opérations et types de signatures pris en charge",
+    "description": "Découvrez toute la gamme des fonctionnalités et des opérations de signature prises en charge par {{ProdShortName}}."
+  },
+  "examples": {
+    "comment_1": "Instanciez un {{TextSignature}} avec le document",
+    "comment_2": "Créez {{TextVerifyOptions}} pour valider des signatures contenant un texte spécifique",
+    "comment_3": "Vérifiez les signatures dans le document",
+    "comment_4": "Traitez les résultats de la vérification"
+  },
+  "steps": {
+    "title": "Étapes pour vérifier les signatures dans {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) peut vérifier la présence de signatures spécifiques dans un document {{FileFormatUp}}. Les développeurs {{EnvName}} peuvent saisir les fonctionnalités fournies par notre solution.",
+      "step_1": "Chargez le fichier {{FileFormatUp}} dans l'instance {{TextSignature}}.",
+      "step_2": "Instanciez et configurez {{VerifyOptions}} pour obtenir le résultat souhaité.",
+      "step_3": "Initiez le processus de vérification.",
+      "step_4": "Examinez les résultats de la vérification."
+    }
+  },
+  "code_1": {
+    "title": "Vérifier les signatures de code-barres",
+    "content": "Cet exemple montre comment vérifier les signatures de code-barres dans un document.",
+    "comment_1": "Fournissez le document contenant des signatures de code-barres",
+    "comment_2": "Configurez les options pour vérifier les codes-barres par rapport à un texte spécifique",
+    "comment_3": "Vérifiez les signatures qui ont été appliquées au document",
+    "comment_4": "Affichez les résultats de la vérification"
+  }
+}

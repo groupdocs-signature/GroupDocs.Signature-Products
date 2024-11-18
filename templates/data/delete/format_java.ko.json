@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 서명 제거",
+    "description": "{{ProdFullName}}을 사용하여 서명된 {{FileFormatUp}} 문서에서 디지털, 바코드, 텍스트, 이미지, 메타데이터 서명을 제거할 수 있습니다."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}에서 서명 삭제",
+    "description": "우리의 솔루션은 비즈니스 문서에 서명할 수 있을 뿐만 아니라, {{ProdFullName}}을 사용하여 다양한 유형의 서명을 찾고 제거할 수 있는 기능을 제공합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 소개",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 텍스트, 이미지, 바코드, 디지털 인증서 및 스탬프와 같은 다양한 유형의 서명을 처리할 수 있는 종합 서명 솔루션을 제공합니다. 이 도구는 PDF, MS Office 문서, 이미지 파일, ZIP 아카이브 등 60개 이상의 다양한 파일 형식을 지원합니다. 또한, 서명이 적용된 후에는 필요에 따라 쉽게 검색, 검증, 수정 또는 제거할 수 있습니다."
+  },
+  "more_features": {
+    "title": "서명 관리로 비즈니스 프로세스 향상",
+    "description": "{{ProdFullName}}은 비즈니스 파일 형식의 서명 및 관리를 위해 설계되어 필요에 따라 서명을 추가, 수정, 검증 또는 삭제할 수 있습니다.",
+    "image_description": "{{ProdShortName}} 기능",
+    "feature_1": {
+      "title": "문서 서명",
+      "content": "모든 지원 문서 페이지에 텍스트, 이미지, 바코드, QR 코드 또는 스탬프 서명을 추가합니다. 이미지의 EXIF와 같은 숨겨진 메타데이터를 활용하거나 디지털 인증서로 문서 내용을 무단 수정으로부터 보호합니다."
+    },
+    "feature_2": {
+      "title": "검색 및 검증",
+      "content": "서명을 검증하여 서명의 유효성을 확인함으로써 서명된 문서의 잠재력을 최대한 활용합니다. 또한 간단한 검색을 통해 문서 내의 모든 서명 목록을 검색할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "서명 수정",
+      "content": "기존에 추가된 대부분의 서명을 조정할 수 있습니다. 텍스트를 쉽게 수정하거나 서명의 위치를 재조정하거나 색상을 변경할 수 있습니다."
+    },
+    "feature_4": {
+      "title": "서명 삭제",
+      "content": "우리의 솔루션은 서명에 대한 CRUD 작업을 완벽하게 지원하여 필요에 따라 문서에서 다양한 유형의 서명을 삭제할 수 있습니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에서 서명 제거",
+    "description": "우리의 {{ProdFullName}} 솔루션은 60개 이상의 다양한 파일 형식에서 서명을 제거하는 것을 지원합니다."
+  },
+  "operations": {
+    "title": "우리의 주요 기능 알아보기",
+    "description": "우리 플랫폼에서 제공하는 다양한 작업 및 서명 방법을 탐색하십시오."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}}에 삭제할 서명이 포함된 문서를 전달합니다.",
+    "comment_2": "문서에 존재하는 디지털 서명을 검색합니다.",
+    "comment_3": "첫 번째 발견된 디지털 서명을 삭제합니다.",
+    "comment_4": "삭제 결과를 처리합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}에서 전자 서명을 삭제하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})는 {{EnvName}} 개발자가 몇 가지 간단한 단계를 통해 {{FileFormatUp}} 파일에서 전자 서명을 삭제할 수 있도록 지원합니다.",
+      "step_1": "{{TextSignature}} 클래스의 인스턴스에 {{FileFormatUp}} 경로를 전달합니다.",
+      "step_2": "신청서 사용하여 문서의 서명을 검색합니다.",
+      "step_3": "발견된 서명을 하나 이상 삭제합니다.",
+      "step_4": "문서 처리 결과를 분석합니다."
+    }
+  },
+  "code_1": {
+    "title": "모든 바코드 서명 제거",
+    "content": "문서 내에 내장된 모든 바코드 서명을 제거하는 방법을 배웁니다.",
+    "comment_1": "바코드 서명이 포함된 문서를 제공하십시오.",
+    "comment_2": "모든 바코드 서명을 삭제합니다.",
+    "comment_3": "삭제 결과를 처리합니다."
+  }
+}

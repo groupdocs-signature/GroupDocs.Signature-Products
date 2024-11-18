@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Stempel bulat dan persegi {{FileFormatUp}} melalui {{ProgLang}}",
+    "description": "Gunakan {{ProdFullName}} untuk menghasilkan dan menyisipkan stempel yang dipersonalisasi ke dokumen {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Hasilkan stempel untuk file {{FileFormatUp}}",
+    "description": "Integrasikan stempel yang dirancang khusus ke dalam setiap bagian dokumen Anda menggunakan {{ProdFullName}}, menawarkan fleksibilitas luas untuk penempatan dan konfigurasi stempel sesuai kebutuhan bisnis Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dapatkan unduhan gratis Anda"
+  },
+  "about": {
+    "title": "Gambaran umum {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat serbaguna yang memungkinkan penyisipan berbagai tipe tanda tangan ke dalam dokumen, termasuk stempel yang dapat disesuaikan. Mendukung lebih dari 60 format file, mulai dari PDF dan dokumen Word hingga gambar dan file ZIP, Anda dapat memperkaya dokumen dengan teks, gambar, kode batang, metadata, sertifikat digital, dan stempel. Selain itu, Anda memiliki kontrol penuh untuk mencari, memvalidasi, memodifikasi, atau menghapus tanda tangan yang diterapkan pada file Anda."
+  },
+  "more_features": {
+    "title": "Manfaatkan tanda tangan untuk mengamankan dan meningkatkan integritas dokumen",
+    "description": "Dengan pustaka {{ProdFullName}}, Anda dapat mengintegrasikan fungsionalitas tanda tangan ke dalam dokumen Anda. Sekaligus menambah, memodifikasi, memverifikasi, atau menghapus stempel khusus dan jenis tanda tangan lainnya, menawarkan fleksibilitas dan presisi untuk manajemen dokumen yang aman.",
+    "image_description": "Tanda Tangan Stempel Didukung oleh {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tanda tangan dokumen menyeluruh",
+      "content": "Perkaya dokumen Anda dengan menempatkan tanda tangan, termasuk teks, gambar, kode batang, kode QR, dan stempel, di posisi atau halaman mana pun dalam file. Selain itu, kelola metadata yang disematkan dan terapkan sertifikat digital untuk melindungi dari perubahan tanpa izin."
+    },
+    "feature_2": {
+      "title": "Pencarian dan validasi tanda tangan yang efisien",
+      "content": "Setelah menandatangani, verifikasi keaslian dan integritas tanda tangan dokumen. Gunakan fungsionalitas pencarian lanjutan untuk mengambil dan mengelola semua data tanda tangan yang disematkan dalam dokumen."
+    },
+    "feature_3": {
+      "title": "Modifikasi dan sesuaikan tanda tangan",
+      "content": "Sesuaikan tanda tangan yang telah dimasukkan sebelumnya dengan mudah. Apakah Anda perlu mengubah konten, posisi, ukuran, atau warna, solusi kami menawarkan fleksibilitas penuh untuk modifikasi tanda tangan."
+    },
+    "feature_4": {
+      "title": "Mudah menghapus tanda tangan",
+      "content": "Ketika tanda tangan perlu dihapus, {{ProdFullName}} menyediakan seperangkat alat lengkap untuk menghapus semua jenis tanda tangan, termasuk stempel, sertifikat digital, dan lainnya, memastikan dokumen Anda tetap mutakhir dan sesuai."
+    }
+  },
+  "formats": {
+    "title": "Terapkan stempel pada berbagai format dokumen",
+    "description": "API {{ProdShortName}} memungkinkan Anda menyematkan stempel di lebih dari 60 jenis file standar industri. Terapkan stempel khusus ke lokasi mana pun dalam dokumen Anda, memungkinkan pelacakan dan personalisasi dokumen yang lebih baik."
+  },
+  "operations": {
+    "title": "Jelajahi fungsionalitas inti",
+    "description": "Temukan berbagai opsi untuk membuat, mengelola, dan menghapus berbagai jenis tanda tangan, memastikan kontrol komprehensif atas alur kerja dokumen Anda."
+  },
+  "examples": {
+    "comment_1": "Integrasikan jalur dokumen dengan instansi {{TextSignature}}",
+    "comment_2": "Inisialisasi {{StampSignOptions}} dengan konten tanda tangan yang diperlukan",
+    "comment_3": "Incorporate satu atau beberapa baris stempel",
+    "comment_4": "Simpan dokumen dengan stempel yang diterapkan"
+  },
+  "steps": {
+    "title": "Cara menyisipkan stempel ke dalam {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menawarkan fitur pembuatan stempel yang kuat, ideal untuk meningkatkan aplikasi {{EnvName}}. Manfaatkan alat ini untuk merancang dan menerapkan stempel yang sangat disesuaikan pada halaman dokumen Anda.",
+      "step_1": "Berikan dokumen {{FileFormatUp}} yang akan distempel.",
+      "step_2": "Gunakan {{StampSignOptions}} untuk dengan teliti mengonfigurasi semua parameter yang diperlukan.",
+      "step_3": "Tambahkan beberapa baris stempel sesuai kebutuhan Anda.",
+      "step_4": "Terapkan stempel yang telah dikonfigurasi dan simpan dokumen yang telah dimodifikasi."
+    }
+  },
+  "code_1": {
+    "title": "Terapkan stempel kustom di dokumen",
+    "content": "Temukan cara untuk merancang dan mengintegrasikan stempel kustom yang memuat detail teks penting ke dalam dokumen Anda.",
+    "comment_1": "Sediakan dokumen yang akan distempel",
+    "comment_2": "Inisialisasi opsi stempel dengan konfigurasi yang diinginkan",
+    "comment_3": "Tentukan dimensi dan posisi stempel di halaman",
+    "comment_4": "Incorporate garis lingkar luar dengan teks",
+    "comment_5": "Integrasikan garis persegi bagian dalam jika perlu",
+    "comment_6": "Finalisasi dan simpan dokumen yang telah distempel"
+  }
+}

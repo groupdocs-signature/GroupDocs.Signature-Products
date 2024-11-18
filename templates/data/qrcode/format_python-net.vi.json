@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Tạo mã QR cho các tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Sử dụng API {{ProdShortName}} để tạo và nhúng mã QR vào các tệp {{FileFormatUp}}. Đặt mã QR trên bất kỳ trang nào để thêm chức năng bổ sung."
+  },
+  "header": {
+    "title": "Tạo mã QR cho {{FileFormatUp}}",
+    "description": "Tạo nhanh mã vạch 2D sử dụng dữ liệu văn bản hoặc số và áp dụng chúng cho nhiều trang và định dạng khác nhau, bao gồm PDF, Word, Excel và nhiều hơn nữa với {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Khám phá các tính năng của {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một loạt các khả năng, cho phép người dùng tạo và nhúng các loại chữ ký khác nhau trên các định dạng tài liệu chính. Cho dù là PDF, Word, Excel, PowerPoint hay hình ảnh, hãy nâng cao tài liệu của bạn với chữ ký dạng Văn bản, Hình ảnh, Mã vạch, Mã QR, Siêu dữ liệu, Chữ ký số hoặc Dấu."
+  },
+  "more_features": {
+    "title": "Tích hợp chữ ký hoàn chỉnh cho tài liệu",
+    "description": "Với API {{ProdFullName}}, người dùng có thể tạo, sửa đổi, tìm kiếm, xác thực và xóa các loại chữ ký khác nhau, đơn giản hóa quy trình công việc tài liệu một cách chính xác.",
+    "image_description": "Các Tính năng Chính của {{ProdShortName}}",
+    "feature_1": {
+      "title": "Áp dụng nhiều loại chữ ký",
+      "content": "{{ProdShortName}} cho phép áp dụng chữ ký Văn bản, Hình ảnh, Mã vạch, Mã QR và Dấu lên bất kỳ tài liệu nào. Bạn có thể đặt chữ ký một cách chính xác trên bất kỳ trang nào và quản lý siêu dữ liệu dễ dàng. Bảo vệ tài liệu của bạn khỏi những thay đổi trái phép bằng chứng nhận số."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác thực chữ ký",
+      "content": "Xác minh chữ ký tài liệu để đảm bảo tính xác thực và độ chính xác bằng các công cụ xác thực nâng cao. Dễ dàng lấy danh sách chi tiết tất cả chữ ký đã nhúng trong một tài liệu để có cái nhìn tổng quan tốt hơn."
+    },
+    "feature_3": {
+      "title": "Sửa đổi chữ ký hiện có",
+      "content": "Bạn có thể cập nhật các chữ ký đã áp dụng trước đó bằng cách điều chỉnh nội dung, vị trí, màu sắc, kích thước và các thuộc tính khác để phù hợp với nhu cầu cụ thể của bạn."
+    },
+    "feature_4": {
+      "title": "Dễ dàng xóa chữ ký",
+      "content": "Đơn giản hóa quản lý tài liệu bằng cách nhanh chóng xóa các chữ ký không mong muốn. Cho dù đó là chứng nhận số hay một loại chữ ký khác, việc xóa có thể thực hiện hiệu quả."
+    }
+  },
+  "formats": {
+    "title": "Nhúng mã QR vào các định dạng tài liệu khác nhau",
+    "description": "Sử dụng API {{EnvName}} để nhúng mã QR vào bất kỳ định dạng tài liệu tiêu chuẩn nào trong ngành. Lưu trữ và mã hóa thông tin quan trọng trong mã vạch 2D để dễ dàng quét và truy xuất dữ liệu."
+  },
+  "operations": {
+    "title": "Khám phá các giải pháp chữ ký của chúng tôi",
+    "description": "Chúng tôi cung cấp một loạt các loại chữ ký và hoạt động để đáp ứng nhu cầu tài liệu của bạn."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một instance {{TextSignature}} mới với tài liệu",
+    "comment_2": "Sử dụng {{QrCodeSignOptions}} để nhúng mã QR vào tài liệu",
+    "comment_3": "Xác định loại chữ ký và đặt vị trí của nó trên trang",
+    "comment_4": "Lưu tài liệu với mã QR đã nhúng"
+  },
+  "steps": {
+    "title": "Các bước để tạo và chèn mã QR vào {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) cho phép bạn tạo mã QR trong các định dạng phổ biến và đặt chúng trên các trang {{FileFormatUp}}. Với sự hỗ trợ cho hơn 10 loại mã QR, bạn có thể tích hợp chức năng này mượt mà vào các ứng dụng {{EnvName}}. Nâng cao tài liệu của bạn với chữ ký mã QR bằng sản phẩm của chúng tôi.",
+      "step_1": "Lấy tệp {{FileFormatUp}} hoặc luồng mà mã QR sẽ được thêm vào.",
+      "step_2": "Cung cấp văn bản cần thiết cho {{QrCodeSignOptions}}.",
+      "step_3": "Tùy chỉnh cài đặt hình ảnh như màu sắc, vị trí và kích thước.",
+      "step_4": "Lưu tài liệu với mã QR đã nhúng."
+    }
+  },
+  "code_1": {
+    "title": "Tùy chỉnh Một Mã QR Được Tạo",
+    "content": "Ví dụ này cho thấy cách đặt một mã QR tùy chỉnh trên một trang {{FileFormatUp}}.",
+    "comment_1": "Lấy tài liệu cần ký và chuyển nó cho {{TextSignature}}",
+    "comment_2": "Cấu hình các tùy chọn mã QR với văn bản cần thiết",
+    "comment_3": "Đặt vị trí của mã QR trên trang",
+    "comment_4": "Đặt khoảng cách cho chữ ký",
+    "comment_5": "Chọn màu sắc cho mã QR",
+    "comment_6": "Xác định các tùy chọn phông chữ cho thông điệp",
+    "comment_7": "Đặt màu nền và cọ cho mã QR",
+    "comment_8": "Nhúng mã QR vào tài liệu"
+  }
+}

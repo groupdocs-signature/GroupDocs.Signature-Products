@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}为{{FileFormatUp}}生成二维码",
+    "description": "{{ProdShortName}} API支持为{{FileFormatUp}}文件生成二维码。从您的内容创建二维码并将其放置在任何页面上。"
+  },
+  "header": {
+    "title": "为{{FileFormatUp}}创建二维码",
+    "description": "利用{{ProdFullName}}方便地创建包含文本和数字数据的2D条形码，并将其放置在各种文件的任何页面上。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "了解更多关于{{ProdFullName}}的信息",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})提供多种功能，以生成和嵌入各种类型的签名，适用于所有主要文档格式。它支持PDF、Word文档、Excel电子表格、PowerPoint演示文稿和图像。通过文本、图像、条形码、二维码、元数据、数字和印章签名来增强您的文档。"
+  },
+  "more_features": {
+    "title": "将签名添加到您的文档",
+    "description": "{{ProdFullName}} API支持对所有流行文件格式进行签名。生成、修改、搜索、验证和删除不同类型的签名。",
+    "image_description": "{{ProdShortName}}的主要特性",
+    "feature_1": {
+      "title": "签署文档",
+      "content": "{{ProdShortName}}支持使用文本、图像、条形码、二维码和印章签名进行签署。将它们放置在任何受支持文档格式的任意页面上。使用元数据签名管理文档元数据，并通过数字证书保护内容免受未经授权的更改。"
+    },
+    "feature_2": {
+      "title": "搜索和验证",
+      "content": "通过验证程序确保文档中的所有签名均有效。使用内置搜索功能检索文档中的所有签名完整列表。"
+    },
+    "feature_3": {
+      "title": "修改签名",
+      "content": "在签署后轻松修改签名属性。根据需要调整内容、位置、颜色、大小等属性。"
+    },
+    "feature_4": {
+      "title": "移除签名",
+      "content": "轻松删除不需要的签名。各种签名类型，包括数字证书，可以通过编程方式从文档中移除。"
+    }
+  },
+  "formats": {
+    "title": "为其他文件格式生成二维码",
+    "description": "使用{{EnvName}} API为所有流行文件格式增强生成的二维码。添加2D条形码数据，便于扫描和处理。"
+  },
+  "operations": {
+    "title": "查看我们的主要产品",
+    "description": "我们提供各种签名功能和高级操作"
+  },
+  "examples": {
+    "comment_1": "将文档传递给新的{{TextSignature}}实例",
+    "comment_2": "使用{{QrCodeSignOptions}}将二维码添加到文档中",
+    "comment_3": "指定签名类型和在页面上的位置",
+    "comment_4": "保存带有添加的二维码的文件"
+  },
+  "steps": {
+    "title": "在{{FileFormatUp}}的任何位置生成并放置二维码的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})可以在许多流行格式中生成二维码，并将其放置在{{FileFormatUp}}页面上。支持10多种二维码类型，可以快速集成到{{EnvName}}应用程序中。使用我们的产品为文档签名并生成二维码。",
+      "step_1": "获取需要用二维码签署的{{FileFormatUp}}文件或流。",
+      "step_2": "为{{QrCodeSignOptions}}提供文本。",
+      "step_3": "自定义视觉选项，例如颜色、位置、大小等。",
+      "step_4": "保存带有二维码的文件。"
+    }
+  },
+  "code_1": {
+    "title": "如何自定义生成的二维码",
+    "content": "使用此示例学习如何在{{FileFormatUp}}页面上放置新的二维码。",
+    "comment_1": "获取需要签署的文档并传递给{{TextSignature}}",
+    "comment_2": "使用二维码选项提供包含所需信息的文本",
+    "comment_3": "在页面上设置二维码的相对位置",
+    "comment_4": "设置签名的边距",
+    "comment_5": "指定二维码的颜色",
+    "comment_6": "定义消息的字体选项",
+    "comment_7": "自定义二维码背景颜色和画刷",
+    "comment_8": "将二维码添加到文档中"
+  }
+}

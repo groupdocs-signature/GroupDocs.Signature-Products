@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Cari tanda tangan elektronik dalam file {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Manfaatkan kekuatan API {{ProdFullName}} untuk mendeteksi dan mencari tanda tangan elektronik di PDF, dokumen Word, spreadsheet Excel, presentasi, dan gambar."
+  },
+  "header": {
+    "title": "Cari tanda tangan elektronik dalam {{FileFormatUp}}",
+    "description": "Temukan dan ambil informasi mendetail tentang semua tanda tangan yang tertanam dalam file PDF, Word, Excel, presentasi, dan gambar menggunakan alat canggih yang disediakan oleh {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Mulai gratis"
+  },
+  "about": {
+    "title": "Koverview {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan kerangka kerja yang kuat untuk mengelola tanda tangan digital di berbagai jenis file. Mendukung lebih dari 60 format seperti PDF, dokumen Microsoft Office, gambar, dan file ZIP, API ini memungkinkan pengguna untuk menerapkan, menemukan, memverifikasi, memperbarui, atau menghapus berbagai jenis tanda tangan, termasuk teks, gambar, kode batang, sertifikat digital, dan banyak lagi."
+  },
+  "more_features": {
+    "title": "Solusi manajemen tanda tangan lengkap",
+    "description": "{{ProdFullName}} menyediakan solusi all-in-one untuk menambahkan, memodifikasi, mencari, dan memverifikasi tanda tangan elektronik di format dokumen populer. Tingkatkan alur kerja Anda dengan fitur tanda tangan dokumen yang canggih.",
+    "image_description": "Fitur deteksi tanda tangan",
+    "feature_1": {
+      "title": "Tandatangani file bisnis secara digital",
+      "content": "Tambahkan tanda tangan elektronik seperti teks, gambar, kode batang, dan sertifikat digital ke lokasi mana pun dalam dokumen Anda. {{ProdShortName}} mendukung penandatanganan di PDF, Word, Excel, gambar, dan lainnya, memastikan manajemen dokumen yang fleksibel."
+    },
+    "feature_2": {
+      "title": "Manajemen tanda tangan yang efisien",
+      "content": "Setelah menandatangani, dengan mudah temukan semua tanda tangan yang tertanam dalam dokumen. API memungkinkan pencarian dan pengambilan tanda tangan secara komprehensif, serta kemampuan untuk memperbarui atau menghapusnya."
+    },
+    "feature_3": {
+      "title": "Keamanan dokumen dan manajemen metadata",
+      "content": "Amankan integritas dokumen Anda dengan menyematkan atau menghapus metadata tersembunyi. Lindungi file Anda dari perubahan tidak sah dengan memanfaatkan sertifikat digital untuk menyegel dan mengautentikasi konten dokumen."
+    }
+  },
+  "formats": {
+    "title": "Temukan tanda tangan di berbagai jenis file",
+    "description": "Dengan API {{ProdFullName}}, Anda dapat secara efisien mencari dan mengambil tanda tangan elektronik dari berbagai format file yang didukung, memfasilitasi integrasi mulus ke dalam alur kerja dokumen Anda."
+  },
+  "operations": {
+    "title": "Fungsionalitas utama",
+    "description": "API kami yang komprehensif menghadirkan berbagai operasi yang dirancang untuk memperlancar pengelolaan tanda tangan dokumen, mulai dari penandatanganan hingga pemrosesan pasca dan verifikasi."
+  },
+  "examples": {
+    "comment_1": "Instantiate a {{TextSignature}} object using the document path",
+    "comment_2": "Konfigurasikan {{TextSearchOptions}} untuk menyertakan setiap halaman",
+    "comment_3": "Lakukan pencarian untuk menemukan semua tanda tangan teks dalam dokumen",
+    "comment_4": "Kumpulkan tanda tangan yang ditemukan untuk analisis komprehensif"
+  },
+  "steps": {
+    "title": "Panduan untuk mencari tanda tangan dalam {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyediakan alat yang kuat untuk menemukan tanda tangan digital dalam file {{FileFormatUp}}. Pengembang {{EnvName}} dapat memperluas fungsionalitas aplikasi mereka dengan solusi kami.",
+      "step_1": "Tentukan jalur file {{FileFormatUp}} untuk pencarian tanda tangan.",
+      "step_2": "Gunakan {{SearchOptions}} untuk memfilter hasil pencarian.",
+      "step_3": "Eksekusi metode Search untuk menemukan tanda tangan.",
+      "step_4": "Tinjau daftar tanda tangan yang ditemukan."
+    }
+  },
+  "code_1": {
+    "title": "Mengidentifikasi tanda tangan gambar",
+    "content": "Contoh ini menjelaskan cara mendeteksi tanda tangan gambar dalam dokumen tertentu.",
+    "comment_1": "Berikan dokumen sumber sebagai parameter untuk konstruktor",
+    "comment_2": "Cari tanda tangan jenis teks yang ada",
+    "comment_3": "Tampilkan temuan dengan properti mendetail dari tanda tangan yang terdeteksi"
+  }
+}

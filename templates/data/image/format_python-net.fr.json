@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Insérez des signatures d'image dans des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Intégrez des signatures d'image dans des documents {{FileFormatUp}} pour {{EnvNameShort}} en utilisant seulement quelques lignes de code. Utilisez l'API {{ProdFullName}} pour ajouter sans effort des signatures basées sur des images."
+  },
+  "header": {
+    "title": "Ajoutez des signatures d'image à {{FileFormatUp}}",
+    "description": "Utilisez {{ProdFullName}} pour incorporer des signatures d'image dans divers formats de documents bureautiques, y compris PDF, Word, Excel et fichiers image. Ajouter une image de la signature de votre responsable renforce le professionnalisme, augmentant à la fois l'impact visuel et l'authenticité du document.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger gratuitement"
+  },
+  "about": {
+    "title": "Découvrez {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) propose des options polyvalentes pour intégrer des signatures d'image n'importe où dans vos documents d'entreprise. Rationalisez les flux de travail en ajoutant des images à des fichiers PDF, des documents Word, des feuilles Excel, des présentations PowerPoint et des formats d'image populaires en utilisant notre puissante bibliothèque."
+  },
+  "more_features": {
+    "title": "Fonctionnalités complètes de signature de documents",
+    "description": "Notre API prend en charge une large gamme de fonctionnalités de signature. Vous pouvez facilement ajouter, mettre à jour, supprimer, rechercher et valider différents types de signatures, y compris celles basées sur des images.",
+    "image_description": "Intégration de signatures d'image",
+    "feature_1": {
+      "title": "Insérez des images dans des documents bureautiques",
+      "content": "Intégrez des signatures électroniques et des images à n'importe quel emplacement choisi dans un document. Améliorez vos documents avec des images, des codes-barres, du texte, des métadonnées ou des certificats numériques pour améliorer la fonctionnalité et la sécurité."
+    },
+    "feature_2": {
+      "title": "Recherche et validation de signatures",
+      "content": "Assurez l'intégrité des documents en vérifiant l'authenticité des signatures. Récupérez une liste détaillée de toutes les signatures dans un document et évaluez leurs propriétés individuelles."
+    },
+    "feature_3": {
+      "title": "Modifier les signatures existantes",
+      "content": "Mettez à jour facilement le contenu, l'apparence, la taille ou la position des signatures dans vos documents pour répondre aux besoins changeants."
+    },
+    "feature_4": {
+      "title": "Supprimer les signatures inutiles",
+      "content": "Notre API offre un contrôle total, vous permettant de supprimer des signatures de la plupart des formats de fichiers pris en charge quand cela est nécessaire."
+    }
+  },
+  "formats": {
+    "title": "Intégrez des images dans plusieurs formats de fichiers",
+    "description": "Utilisez l'API {{EnvName}} pour insérer des images dans divers formats de documents. Redimensionnez, positionnez aisément, sélectionnez des pages spécifiques et appliquez des signatures basées sur des images, vous offrant un contrôle total sur la mise en page de votre document."
+  },
+  "operations": {
+    "title": "Découvrez nos fonctionnalités",
+    "description": "Découvrez les différents types de signatures et les opérations que notre plateforme propose."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{TextSignature}} avec le chemin du document",
+    "comment_2": "Configurez {{ImageSignOptions}} avec l'image choisie pour la signature",
+    "comment_3": "Positionnez l'image dans le coin supérieur gauche de chaque page",
+    "comment_4": "Enregistrez le document signé"
+  },
+  "steps": {
+    "title": "Comment insérer une signature d'image dans un fichier {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "Utilisez [{{ProdShortName}}]({{PlatformLink}}) pour donner aux applications {{EnvName}} la capacité d'ajouter avec précision des signatures d'image n'importe où dans des documents {{FileFormatUp}}. Améliorez facilement votre produit en intégrant notre solution.",
+      "step_1": "Créez une instance de {{TextSignature}} avec le document {{FileFormatUp}}.",
+      "step_2": "Configurez {{ImageSignOptions}} avec l'image désirée pour la signature.",
+      "step_3": "Positionnez précisément l'image à l'emplacement de votre choix sur le document.",
+      "step_4": "Enregistrez le document signé à l'emplacement spécifié."
+    }
+  },
+  "code_1": {
+    "title": "Améliorez les documents avec des signatures d'image",
+    "content": "Apprenez à intégrer des signatures d'image dans vos documents d'entreprise pour enrichir le contenu.",
+    "comment_1": "Choisissez le document à signer",
+    "comment_2": "Configurez les options d'image avec le chemin du fichier image",
+    "comment_3": "Spécifiez la taille de la signature d'image",
+    "comment_4": "Positionnez l'image dans le coin inférieur droit de la page",
+    "comment_5": "Appliquez un espacement par rapport aux bords de la page si nécessaire",
+    "comment_6": "En option, ajoutez une bordure autour de l'image",
+    "comment_7": "Faites pivoter l'image pour assurer un bon alignement",
+    "comment_8": "Enregistrez le document mis à jour"
+  }
+}

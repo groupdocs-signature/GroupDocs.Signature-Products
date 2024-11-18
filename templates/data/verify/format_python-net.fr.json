@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Vérifiez les signatures numériques {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Utilisez {{ProdFullName}} pour vérifier les signatures dans des fichiers {{FileFormatUp}}. Confirmez l'authenticité des signatures dans les fichiers PDF, Word, Excel, Présentations, Images et ZIP."
+  },
+  "header": {
+    "title": "Vérification des signatures numériques {{FileFormatUp}}",
+    "description": "Vérifiez rapidement et avec précision les signatures électroniques dans divers formats, y compris PDF, Word, Excel, Présentations, Images et fichiers ZIP en utilisant {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger la version gratuite"
+  },
+  "about": {
+    "title": "Principales caractéristiques de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre une gestion complète des signatures de documents, prenant en charge plus de 60 formats de fichiers tels que PDF, fichiers MS Office, images et archives ZIP. Il vous permet d'appliquer différents types de signatures, y compris des textes, des images, des codes-barres, des certificats numériques, des métadonnées et des tampons. Au-delà de la signature, il vous permet également de rechercher, vérifier, éditer ou supprimer des signatures."
+  },
+  "more_features": {
+    "title": "Outils avancés de signature numérique",
+    "description": "{{ProdShortName}} fournit une solution complète pour signer et vérifier des documents dans les formats de fichiers populaires. Avec le support de sept types de signatures et des opérations CRUD complètes, vous avez un contrôle total sur la protection et la gestion des documents.",
+    "image_description": "Fonctionnalités de vérification des signatures",
+    "feature_1": {
+      "title": "Signature documentaire efficace",
+      "content": "Ajoutez des signatures numériques personnalisées à n'importe quelle partie de vos documents. {{ProdFullName}} prend en charge les signatures de texte, d'image, de code-barres, de métadonnées, de tampons et de certificats numériques, garantissant que vos documents répondent aux exigences professionnelles."
+    },
+    "feature_2": {
+      "title": "Gestion complète du cycle de vie des signatures",
+      "content": "Gérez les signatures tout au long de leur cycle de vie—accédez, vérifiez, mettez à jour ou supprimez des signatures selon vos besoins pour maintenir vos documents précis et à jour."
+    },
+    "feature_3": {
+      "title": "Protéger l'intégrité des documents",
+      "content": "Protégez vos documents sensibles en intégrant des certificats numériques qui empêchent les modifications non autorisées. Ajoutez des métadonnées cachées pour protéger des informations cruciales et maintenir l'intégrité des documents."
+    },
+    "feature_4": {
+      "title": "Solutions de signature personnalisées",
+      "content": "Utilisez des types de signatures spécifiques aux documents comme les tampons PDF et les filigranes Word. Ces signatures spécialisées sont parfaites pour le branding, la conformité ou l'ajout d'une touche professionnelle à vos documents d'affaires."
+    }
+  },
+  "formats": {
+    "title": "Vérifiez les signatures dans plusieurs formats",
+    "description": "{{ProdFullName}} vous permet de vérifier des signatures dans une large gamme de formats de documents. Personnalisez les paramètres de vérification pour assurer l'intégrité des documents et répondre aux exigences de conformité."
+  },
+  "operations": {
+    "title": "Gestion et opérations de signature",
+    "description": "Explorez les fonctionnalités étendues et les opérations de gestion des signatures fournies par {{ProdShortName}} pour avoir un contrôle total sur les processus de signature de documents."
+  },
+  "examples": {
+    "comment_1": "Initialisez {{TextSignature}} avec le document",
+    "comment_2": "Configurez {{TextVerifyOptions}} pour vérifier les signatures avec un texte spécifique",
+    "comment_3": "Exécutez la vérification des signatures sur le document",
+    "comment_4": "Examinez et analysez les résultats de la vérification"
+  },
+  "steps": {
+    "title": "Comment vérifier les signatures {{FileFormatUp}} avec {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) vérifie des signatures spécifiques dans des documents {{FileFormatUp}}. Les développeurs {{EnvName}} peuvent améliorer leurs applications en intégrant cette fonctionnalité de vérification.",
+      "step_1": "Chargez le fichier {{FileFormatUp}} dans l'instance {{TextSignature}}.",
+      "step_2": "Créez et configurez {{VerifyOptions}} pour correspondre aux critères de vérification souhaités.",
+      "step_3": "Démarrez le processus de vérification.",
+      "step_4": "Interprétez les résultats du processus de vérification."
+    }
+  },
+  "code_1": {
+    "title": "Vérifiez les signatures de code-barres",
+    "content": "Cet exemple démontre comment vérifier les signatures de code-barres dans un document.",
+    "comment_1": "Chargez le document avec des signatures de code-barres",
+    "comment_2": "Définissez les options de vérification pour correspondre à un texte de code-barres spécifique",
+    "comment_3": "Vérifiez les signatures dans le document",
+    "comment_4": "Affichez les résultats de la vérification"
+  }
+}

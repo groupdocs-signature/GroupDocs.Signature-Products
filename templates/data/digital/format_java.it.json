@@ -1,0 +1,70 @@
+{
+  "head": {
+    "title": "Aggiungere firme elettroniche digitali a file {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Apponi una firma digitale su un file {{FileFormatUp}} utilizzando {{ProgLang}} con poche righe di codice. Usa {{ProdFullName}} per firmare numerosi formati di file."
+  },
+  "header": {
+    "title": "Firma {{FileFormatUp}} con firme digitali",
+    "description": "Proteggi il contenuto dei tuoi documenti aziendali sigillandoli con certificati digitali utilizzando le funzionalità di {{ProdFullName}}. Offriamo diversi modi per contrassegnare e garantire i tuoi documenti.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica gratuitamente"
+  },
+  "about": {
+    "title": "Informazioni su {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una soluzione di firma completa che supporta vari tipi di elaborazione documentale. Puoi aggiungere testo, immagini, certificati digitali e timbri a file in oltre 60 formati, tra cui PDF, MS Office, immagini, file ZIP e altri formati aziendali popolari. Inoltre, i documenti firmati possono essere cercati, verificati, modificati o eliminati automaticamente in modo conveniente."
+  },
+  "more_features": {
+    "title": "Migliora o proteggi il contenuto del documento con firme",
+    "description": "La libreria {{ProdFullName}} è in grado di firmare tutti i formati di file più diffusi. Aggiungi, modifica, verifica o elimina vari tipi di firme automaticamente per semplificare i tuoi processi aziendali.",
+    "image_description": "Caratteristiche di {{ProdShortName}}",
+    "feature_1": {
+      "title": "Aggiungi firme ai documenti",
+      "content": "Le firme di testo, immagine, codice a barre, QR-Code o timbro possono essere aggiunte con precisione a qualsiasi pagina di qualsiasi documento supportato. Metadata nascosti come EXIF possono essere aggiunti o modificati nelle immagini e nella maggior parte dei tipi di file. Proteggi il contenuto del documento da modifiche non autorizzate utilizzando firme digitali."
+    },
+    "feature_2": {
+      "title": "Ricerca e verifica delle firme",
+      "content": "I documenti possono essere elaborati in vari modi dopo la firma. Verifica i documenti firmati per assicurarti che siano stati elaborati correttamente. Se hai bisogno di maggiore controllo, recupera un elenco di tutte le firme tramite ricerca."
+    },
+    "feature_3": {
+      "title": "Modifica delle firme",
+      "content": "La maggior parte dei tipi di firme supporta ulteriori modifiche. Sei libero di correggere il testo, cambiare posizione, colore, dimensione e altro."
+    },
+    "feature_4": {
+      "title": "Rimuovi firme non necessarie",
+      "content": "La nostra soluzione supporta operazioni CRUD complete per le firme. Molti tipi di firme, inclusi i certificati digitali, possono essere eliminati da un documento quando necessario."
+    }
+  },
+  "formats": {
+    "title": "Firma documenti in altri formati",
+    "description": "L'API {{EnvName}} ti consente di elaborare più di 60 formati. Crea e aggiungi varie firme a qualsiasi pagina, sigilla il contenuto con certificati digitali e gestisci e modifica firme esistenti all'interno del documento."
+  },
+  "operations": {
+    "title": "Esamina il nostro ampio set di funzionalità",
+    "description": "Siamo orgogliosi della vasta funzionalità e del supporto per le firme che la nostra piattaforma offre."
+  },
+  "examples": {
+    "comment_1": "Usa {{TextSignature}} con il documento per la firma digitale",
+    "comment_2": "Fornisci un certificato digitale e una password",
+    "comment_3": "Imposta una rappresentazione visiva se necessario",
+    "comment_4": "Proteggi il documento con un certificato digitale"
+  },
+  "steps": {
+    "title": "Passaggi per proteggere {{FileFormatUp}} con certificati digitali in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) consente agli sviluppatori {{EnvName}} di prevenire modifiche nei documenti {{FileFormatUp}} utilizzando firme digitali. Potenzia le tue applicazioni aziendali con la capacità di proteggere dati importanti.",
+      "step_1": "Passa il documento {{FileFormatUp}} al costruttore della classe {{TextSignature}}.",
+      "step_2": "Usa un certificato digitale e la sua password per proteggere il documento.",
+      "step_3": "Facoltativamente, aggiungi una rappresentazione visiva della firma digitale sulle pagine del documento.",
+      "step_4": "Firma il documento per prevenire eventuali modifiche future."
+    }
+  },
+  "code_1": {
+    "title": "Proteggi i documenti con firme digitali",
+    "content": "Scopri come proteggere un documento da modifiche utilizzando firme digitali.",
+    "comment_1": "Fornisci un documento per la firma",
+    "comment_2": "Utilizza un certificato digitale valido con una password",
+    "comment_3": "Specifica dati testuali aggiuntivi",
+    "comment_4": "Usa un'immagine e altre opzioni per la rappresentazione visiva",
+    "comment_5": "Salva il documento protetto in una posizione diversa"
+  }
+}

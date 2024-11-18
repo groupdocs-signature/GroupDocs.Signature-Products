@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}为{{FileFormatUp}}文件生成二维码",
+    "description": "使用{{ProdShortName}} API生成并嵌入二维码到{{FileFormatUp}}文件中。将二维码轻松放置在任何页面上，以添加额外的功能。"
+  },
+  "header": {
+    "title": "为{{FileFormatUp}}生成二维码",
+    "description": "使用文本或数字数据轻松创建2D条形码，并将其应用于各种页面和格式，包括PDF、Word、Excel等，使用{{ProdFullName}}。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费试用"
+  },
+  "about": {
+    "title": "探索{{ProdFullName}}的功能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供广泛的能力，使用户能够在主要文档格式中生成并嵌入不同类型的签名。无论是PDF、Word、Excel、PowerPoint还是图片，通过文本、图片、条形码、二维码、元数据、数字或印章签名来增强您的文档。"
+  },
+  "more_features": {
+    "title": "文档的完整签名集成",
+    "description": "使用{{ProdFullName}} API，用户可以生成、修改、搜索、验证和删除不同类型的签名，简化文档工作流程，同时确保精确性。",
+    "image_description": "{{ProdShortName}}的主要特性",
+    "feature_1": {
+      "title": "应用多种签名类型",
+      "content": "{{ProdShortName}} 允许将文本、图片、条形码、二维码和印章签名应用于任何文档。您可以精确地在任何页面上放置签名，并轻松管理元数据。使用数字证书保护您的文档，避免未经授权的更改。"
+    },
+    "feature_2": {
+      "title": "搜索和验证签名",
+      "content": "使用高级验证工具验证文档签名的真实性和准确性。轻松获取嵌入文档中的所有签名的详细列表，以便更好地进行监管。"
+    },
+    "feature_3": {
+      "title": "修改现有签名",
+      "content": "您可以通过调整内容、位置、颜色、大小和其他属性来更新先前应用的签名，以满足您的特定需求。"
+    },
+    "feature_4": {
+      "title": "轻松删除签名",
+      "content": "通过快速删除不需要的签名来简化文档管理。无论是数字证书还是其他类型的签名，删除过程都可以高效完成。"
+    }
+  },
+  "formats": {
+    "title": "在各种文档格式中嵌入二维码",
+    "description": "使用{{EnvName}} API将二维码嵌入到任何行业标准文档格式中。将重要信息存储和编码为2D条形码，以便于扫描和数据检索。"
+  },
+  "operations": {
+    "title": "探索我们的签名解决方案",
+    "description": "我们提供多种签名类型和操作，以满足您的文档需求。"
+  },
+  "examples": {
+    "comment_1": "初始化一个新的{{TextSignature}}实例与文档",
+    "comment_2": "使用{{QrCodeSignOptions}}将二维码嵌入文档",
+    "comment_3": "指定签名类型并设置其在页面上的位置",
+    "comment_4": "保存包含嵌入二维码的文档"
+  },
+  "steps": {
+    "title": "在{{FileFormatUp}}中生成和插入二维码的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使您能够在流行格式中创建二维码，并将其放置在{{FileFormatUp}}页面上。支持超过10种二维码类型，您可以无缝将此功能集成到{{EnvName}}应用程序中。使用我们的产品，通过二维码签名增强您的文档。",
+      "step_1": "获取将要添加二维码的{{FileFormatUp}}文件或流。",
+      "step_2": "为{{QrCodeSignOptions}}提供所需的文本。",
+      "step_3": "自定义视觉设置，如颜色、位置和大小。",
+      "step_4": "保存包含嵌入二维码的文档。"
+    }
+  },
+  "code_1": {
+    "title": "自定义生成的二维码",
+    "content": "本示例展示了如何在{{FileFormatUp}}页面上放置自定义的二维码。",
+    "comment_1": "获取待签名的文档并传递给{{TextSignature}}",
+    "comment_2": "配置二维码选项，使用所需文本",
+    "comment_3": "设置二维码在页面上的位置",
+    "comment_4": "设置签名的填充",
+    "comment_5": "选择二维码的颜色",
+    "comment_6": "为消息定义字体选项",
+    "comment_7": "设置二维码的背景颜色和画刷",
+    "comment_8": "将二维码嵌入到文档中"
+  }
+}

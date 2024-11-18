@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Supprimer les signatures de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Supprimez sans effort les signatures numériques, de code-barres, de texte, d'image et de métadonnées des documents {{FileFormatUp}} avec {{ProdFullName}}."
+  },
+  "header": {
+    "title": "Supprimez facilement les signatures de {{FileFormatUp}}",
+    "description": "En plus de signer des documents, {{ProdFullName}} offre un ensemble complet d'outils pour localiser et supprimer divers types de signatures dans vos fichiers.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Téléchargement Gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution puissante pour la gestion des signatures de tous types, y compris le texte, les images, les codes-barres, les certificats numériques et les tampons. Supportant plus de 60 formats différents tels que PDF, documents MS Office, images et fichiers ZIP, il offre une flexibilité maximale dans la gestion des documents. Vous pouvez ajouter, vérifier, mettre à jour ou supprimer des signatures selon vos besoins."
+  },
+  "more_features": {
+    "title": "Rationalisez la gestion des documents avec des fonctionnalités avancées de signature",
+    "description": "{{ProdFullName}} est conçu de manière experte pour améliorer le processus d'ajout, de vérification, de modification et de suppression des signatures dans les principaux formats de documents commerciaux.",
+    "image_description": "Principales fonctionnalités de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Signer vos documents",
+      "content": "Appliquez rapidement des signatures de texte, d'image, de code-barres, de code QR ou de tampon à n'importe quelle page. De plus, vous pouvez gérer les métadonnées cachées telles que EXIF dans les images et garantir l'intégrité du document avec des certificats numériques."
+    },
+    "feature_2": {
+      "title": "Trouver et vérifier les signatures",
+      "content": "Utilisez nos outils puissants pour localiser et vérifier les signatures dans vos documents, vous fournissant une liste complète de toutes les signatures pour une gestion approfondie."
+    },
+    "feature_3": {
+      "title": "Modifier les signatures",
+      "content": "Modifiez facilement les signatures existantes en changeant le texte, en repositionnant des éléments ou en ajustant les couleurs selon vos préférences."
+    },
+    "feature_4": {
+      "title": "Supprimer les signatures indésirables",
+      "content": "Prenez le contrôle total des signatures de documents avec des opérations complètes de création, de lecture, de mise à jour et de suppression (CRUD), vous permettant de retirer tout type de signature lorsque cela est nécessaire."
+    }
+  },
+  "formats": {
+    "title": "Supprimez les signatures de plusieurs formats de fichiers",
+    "description": "{{ProdFullName}} est conçu pour prendre en charge la suppression de signatures dans plus de 60 formats de fichiers différents, garantissant la compatibilité et la facilité d'utilisation."
+  },
+  "operations": {
+    "title": "Découvrez nos fonctionnalités clés",
+    "description": "Explorez une large gamme de types de signatures et d'opérations disponibles avec notre solution."
+  },
+  "examples": {
+    "comment_1": "Passez le document avec des signatures à l'instance {{TextSignature}}",
+    "comment_2": "Récupérez la liste des signatures numériques dans le document",
+    "comment_3": "Supprimez la première signature de la liste",
+    "comment_4": "Traitez et vérifiez les résultats de la suppression"
+  },
+  "steps": {
+    "title": "Étapes pour supprimer les signatures électroniques de {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} de retirer les signatures électroniques des fichiers {{FileFormatUp}} en suivant ces étapes simples :",
+      "step_1": "Chargez le document {{FileFormatUp}} dans l'instance de la classe {{TextSignature}}.",
+      "step_2": "Utilisez la fonction de recherche pour trouver toutes les signatures dans le document.",
+      "step_3": "Supprimez une ou plusieurs des signatures trouvées.",
+      "step_4": "Examinez les résultats après le traitement."
+    }
+  },
+  "code_1": {
+    "title": "Supprimer toutes les signatures de code-barres",
+    "content": "Découvrez comment supprimer toutes les signatures de code-barres d'un document.",
+    "comment_1": "Fournissez un document contenant des signatures de code-barres",
+    "comment_2": "Supprimez toutes les signatures de code-barres",
+    "comment_3": "Vérifiez les résultats du processus de suppression"
+  }
+}

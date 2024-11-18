@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "在{{FileFormatUp}}中使用{{ProgLang}}搜索电子签名",
+    "description": "利用{{ProdFullName}} API的能力，搜索嵌入PDF、Word、Excel、演示文稿和图像中的签名。"
+  },
+  "header": {
+    "title": "在{{FileFormatUp}}中搜索数字签名",
+    "description": "无缝提取嵌入在PDF、Word、Excel、演示文稿和图像等多种格式中的电子签名的全面列表，全部由{{ProdFullName}}提供支持。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "开始免费下载"
+  },
+  "about": {
+    "title": "探索{{ProdFullName}}的功能",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})提供尖端的数字文档签名功能。它支持包括PDF、MS Office文档、图像和ZIP文件在内的60多种文件格式，允许您添加、搜索、验证、修改或删除多种签名，例如文本、图像、条形码、二维码、数字证书和印章。"
+  },
+  "more_features": {
+    "title": "完整的文档签名生态系统",
+    "description": "发现一个先进的、功能丰富的文档签名解决方案，专为增强和保护您的文档而设计，支持各种格式的多种签名类型。",
+    "image_description": "签名搜索和管理",
+    "feature_1": {
+      "title": "签署和保护业务文档",
+      "content": "在文档的任意位置添加数字签名。{{ProdShortName}}支持多种类型的签名，包括文本、图像、条形码、元数据、印章和数字证书，以确保文档的真实性和合规性。"
+    },
+    "feature_2": {
+      "title": "全面的签名管理",
+      "content": "签署后，利用搜索功能提取所有嵌入的签名。根据需要修改或删除签名，提供您对文档完整性的完全控制。"
+    },
+    "feature_3": {
+      "title": "保护文档的完整性",
+      "content": "利用先进工具管理嵌入文档中的隐藏元数据。添加或删除元数据条目，并应用公司的数字证书，以保护免受未经授权的编辑并确保文档的真实性。"
+    }
+  },
+  "formats": {
+    "title": "从多种文件格式中提取签名",
+    "description": "{{ProdFullName}} API使您能够从广泛的文档类型中提取和管理签名。轻松从所有主要文件格式中获取嵌入的签名，以供进一步分析或处理。"
+  },
+  "operations": {
+    "title": "核心功能",
+    "description": "我们的API提供广泛的灵活性，允许用户签署文档并进行全面的后签名操作，例如搜索、验证和修改签名。"
+  },
+  "examples": {
+    "comment_1": "用指定的文档路径初始化一个{{TextSignature}}对象",
+    "comment_2": "创建一个包含所有页面的{{TextSearchOptions}}实例",
+    "comment_3": "执行搜索以识别文档中的任何基于文本的签名",
+    "comment_4": "汇编检测到的签名列表以进行详细检查"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}搜索{{FileFormatUp}}签名",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})提供了一个强大的引擎，用于查找{{FileFormatUp}}文件中的数字签名。{{EnvName}}开发者可以轻松地将我们的解决方案集成到他们的应用程序中。",
+      "step_1": "提供{{FileFormatUp}}文件的路径进行签名搜索。",
+      "step_2": "使用{{SearchOptions}}来细化搜索条件。",
+      "step_3": "调用Search方法以检索结果。",
+      "step_4": "评估识别出的签名列表。"
+    }
+  },
+  "code_1": {
+    "title": "搜索图像签名",
+    "content": "此示例说明在指定文档中检测图像签名的过程。",
+    "comment_1": "将源文档作为参数提供给构造函数",
+    "comment_2": "搜索任何类型的文本签名",
+    "comment_3": "展示包含细节属性的识别签名结果"
+  }
+}

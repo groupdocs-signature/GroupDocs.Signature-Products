@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Xác thực chữ ký điện tử {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "{{ProdFullName}} cho phép xác minh các chữ ký được đặt trong các tệp {{FileFormatUp}}. Xác thực chữ ký trong PDF, văn bản Word, bảng tính Excel, bài thuyết trình, hình ảnh hoặc tệp ZIP."
+  },
+  "header": {
+    "title": "Xác thực chữ ký điện tử cho {{FileFormatUp}}",
+    "description": "Xác thực tất cả chữ ký điện tử được hỗ trợ trong các tệp PDF, Word, Excel, bài thuyết trình, hình ảnh hoặc tệp ZIP với {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải phiên bản miễn phí"
+  },
+  "about": {
+    "title": "Ứng dụng của {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) hỗ trợ đầy đủ các thao tác CRUD cho việc ký tài liệu và nhiều hơn thế nữa. Ký hơn 60 định dạng tài liệu, bao gồm PDF, tệp MS Office, hình ảnh và tệp ZIP, với văn bản, hình ảnh, mã vạch, chứng chỉ số, siêu dữ liệu và con dấu. Các thao tác bổ sung như tìm kiếm, xác minh, sửa đổi hoặc xoá chữ ký cũng có sẵn."
+  },
+  "more_features": {
+    "title": "Giải pháp ký tài liệu toàn diện",
+    "description": "{{ProdShortName}} nâng cao các định dạng tài liệu văn phòng phổ biến với 7 loại chữ ký và các thao tác CRUD đầy đủ, cung cấp bảo vệ mạnh mẽ cho nội dung tài liệu của bạn.",
+    "image_description": "Xác minh chữ ký",
+    "feature_1": {
+      "title": "Ký tài liệu doanh nghiệp",
+      "content": "Thêm chữ ký kỹ thuật số chuyên nghiệp vào bất kỳ tài liệu nào. Giải pháp của chúng tôi hỗ trợ nhiều loại chữ ký, bao gồm văn bản, hình ảnh, mã vạch, siêu dữ liệu, con dấu và chứng chỉ số."
+    },
+    "feature_2": {
+      "title": "Các thao tác CRUD cho chữ ký",
+      "content": "Trong nhiều trường hợp, tài liệu đã ký cần phải xử lý thêm. Lấy danh sách tất cả các chữ ký trong một tài liệu, xác minh chúng, sửa đổi các thuộc tính của chúng hoặc loại bỏ khi cần."
+    },
+    "feature_3": {
+      "title": "Bảo vệ nội dung tài liệu",
+      "content": "Bảo vệ tài liệu doanh nghiệp với các chứng chỉ số để ngăn chặn các thay đổi trái phép. Nhúng siêu dữ liệu ẩn để bảo vệ thêm nội dung tài liệu."
+    },
+    "feature_4": {
+      "title": "Chữ ký gốc",
+      "content": "Sử dụng chữ ký văn bản đặc thù cho tài liệu, chẳng hạn như con dấu PDF hoặc hình mờ Word, để tạo ra các tài liệu chuyên nghiệp, phù hợp cho doanh nghiệp."
+    }
+  },
+  "formats": {
+    "title": "Xác minh chữ ký qua các định dạng tệp",
+    "description": "{{ProdFullName}} đơn giản hóa quy trình xác minh tất cả chữ ký trong một tài liệu. Đặt các tham số xác minh tùy chỉnh để đảm bảo tính toàn vẹn của tài liệu đã ký."
+  },
+  "operations": {
+    "title": "Các thao tác và loại chữ ký được hỗ trợ",
+    "description": "Khám phá toàn bộ tính năng và các thao tác chữ ký được hỗ trợ bởi {{ProdShortName}}."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo một {{TextSignature}} với tài liệu",
+    "comment_2": "Tạo {{TextVerifyOptions}} để xác minh chữ ký chứa văn bản cụ thể",
+    "comment_3": "Xác minh các chữ ký trong tài liệu",
+    "comment_4": "Xử lý kết quả xác minh"
+  },
+  "steps": {
+    "title": "Các bước xác minh chữ ký trong {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) có thể xác minh sự hiện diện của các chữ ký cụ thể trong một tài liệu {{FileFormatUp}}. Các lập trình viên {{EnvName}} có thể nâng cao ứng dụng của họ bằng cách thêm các tính năng được cung cấp bởi giải pháp của chúng tôi.",
+      "step_1": "Tải tệp {{FileFormatUp}} vào thể hiện {{TextSignature}}.",
+      "step_2": "Khởi tạo và cấu hình {{VerifyOptions}} để đạt được kết quả mong muốn.",
+      "step_3": "Khởi động quá trình xác minh.",
+      "step_4": "Xem xét các kết quả xác minh."
+    }
+  },
+  "code_1": {
+    "title": "Xác minh chữ ký mã vạch",
+    "content": "Ví dụ này minh họa cách xác minh chữ ký mã vạch trong một tài liệu.",
+    "comment_1": "Cung cấp tài liệu chứa chữ ký mã vạch",
+    "comment_2": "Cấu hình tùy chọn để xác minh mã vạch dựa trên văn bản cụ thể",
+    "comment_3": "Xác minh các chữ ký đã được áp dụng vào tài liệu",
+    "comment_4": "Hiển thị kết quả của việc xác minh"
+  }
+}

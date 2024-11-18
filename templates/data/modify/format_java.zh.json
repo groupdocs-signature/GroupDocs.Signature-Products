@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}应用程序修改{{FileFormatUp}}签名",
+    "description": "{{ProgLang}}签名处理API允许您修改{{FileFormatUp}}文件中的签名，包括PDF、Word、Excel、演示文稿和图像。"
+  },
+  "header": {
+    "title": "修改{{FileFormatUp}}签名",
+    "description": "使用{{ProdFullName}}轻松修改多种电子签名，支持PDF、Word、Excel、演示文稿和图像等流行格式。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "关于{{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})不仅允许您签署文档，还提供修改现有签名的功能。轻松更新常用格式如PDF、Word、Excel和演示文稿中的签名。"
+  },
+  "more_features": {
+    "title": "文档的签名管理",
+    "description": "{{ProdFullName}}使您能够添加、修改、搜索、验证和删除所有主要工业文件格式中的签名。",
+    "image_description": "签名修改",
+    "feature_1": {
+      "title": "文档签名",
+      "content": "我们的产品主要侧重于使用文本、图像、条形码或印章签名签署文档。您可以将其放置在任何页面和位置。添加或修改隐藏的元数据，例如图像中的EXIF数据，并使用数字证书保护文档内容免受未授权更改。"
+    },
+    "feature_2": {
+      "title": "签名搜索与验证",
+      "content": "通过验证已签署文档以确保签名符合您的要求。您可以通过搜索功能检索文档中的完整签名列表。"
+    },
+    "feature_3": {
+      "title": "修改现有签名",
+      "content": "修改先前添加的签名是一个常见任务。使用修改过程更新签名的内容、外观、位置和其他属性。"
+    },
+    "feature_4": {
+      "title": "签名删除",
+      "content": "我们的解决方案完全支持与签名相关的所有操作。将各种类型的签名从文档中移除是一个简单的过程。"
+    }
+  },
+  "formats": {
+    "title": "修改各种文件格式中的签名",
+    "description": "使用我们的API为{{EnvName}}签署的文档格式可以进行修改。获取文档中的签名列表并更新任何可访问的属性。"
+  },
+  "operations": {
+    "title": "探索我们的功能组合",
+    "description": "我们自豪地支持各种签名格式和操作工具"
+  },
+  "examples": {
+    "comment_1": "使用文档路径实例化{{TextSignature}}对象",
+    "comment_2": "在文档中搜索任何文本签名",
+    "comment_3": "修改第一个检测到的签名的文本",
+    "comment_4": "验证修改结果"
+  },
+  "steps": {
+    "title": "使用{{ProgLang}}编辑{{FileFormatUp}}中的文本签名的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})允许{{EnvName}}开发人员更新之前添加到{{FileFormatUp}}文件中的文本签名内容。通过强大的功能提升{{EnvName}}应用程序。",
+      "step_1": "将{{FileFormatUp}}文件添加到{{TextSignature}}实例。",
+      "step_2": "检索文档中的所有签名列表。",
+      "step_3": "更新任何已识别签名的内容。",
+      "step_4": "分析修改结果。"
+    }
+  },
+  "code_1": {
+    "title": "修改条形码签名",
+    "content": "此示例阐述了修改文档中条形码签名的过程。",
+    "comment_1": "使用包含条形码签名的文档",
+    "comment_2": "搜索现有条形码签名",
+    "comment_3": "调整第一个条形码的位置并保存更新的文档",
+    "comment_4": "确认修改结果"
+  }
+}

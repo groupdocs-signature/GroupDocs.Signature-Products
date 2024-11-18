@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Assine arquivos {{FileFormatUp}} com aplicativos {{ProgLang}}",
+    "description": "Use a API {{ProgLang}} para processar arquivos {{FileFormatUp}} e aplicar vários tipos de assinaturas, incluindo PDF, Word, Excel, Apresentações e Imagens."
+  },
+  "header": {
+    "title": "Assinaturas eletrônicas para {{FileFormatUp}}",
+    "description": "Adicione uma ampla gama de assinaturas eletrônicas usando {{ProdFullName}} a todos os formatos de negócios populares, incluindo PDF, Word, Excel, Apresentações e Imagens.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download gratuito"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece recursos avançados de e-signature. Use-o para adicionar, pesquisar, verificar, modificar e remover vários tipos de e-assinaturas em documentos e imagens, sem a necessidade de software externo. Assine PDFs, documentos Word, planilhas Excel, apresentações PowerPoint e formatos de imagem populares."
+  },
+  "more_features": {
+    "title": "Assinaturas eletrônicas de documentos",
+    "description": "Nossa API de e-signing simplifica os processos de negócios. Assine, pesquise, atualize, exclua e verifique várias assinaturas programaticamente.",
+    "image_description": "Assinaturas eletrônicas",
+    "feature_1": {
+      "title": "Assine documentos de escritório",
+      "content": "Posicione assinaturas eletrônicas em qualquer lugar de qualquer página de um documento. Enriqueca o conteúdo do documento com texto, imagens, códigos de barras, metadados ou certificados digitais."
+    },
+    "feature_2": {
+      "title": "Gerenciamento de assinaturas",
+      "content": "Após a assinatura, os documentos podem ser processados de forma adicional. Recupere uma lista de todas as assinaturas presentes, modifique-as ou exclua-as conforme necessário."
+    },
+    "feature_3": {
+      "title": "Controle avançado de conteúdo",
+      "content": "Proteja documentos de negócios contra alterações não autorizadas com certificados digitais corporativos. Adicione ou extraia entradas de metadados ocultos disponíveis em todos os tipos de documentos."
+    }
+  },
+  "formats": {
+    "title": "Assine formatos de arquivo populares com e-assinaturas",
+    "description": "A API de e-signing para {{EnvName}} permite o processamento de todos os formatos de arquivo e documento modernos de negócios."
+  },
+  "operations": {
+    "title": "Explore nossos principais recursos",
+    "description": "Temos orgulho em oferecer uma ampla gama de assinaturas e operações suportadas."
+  },
+  "examples": {
+    "comment_1": "Carregue o documento em uma instância {{TextSignature}}",
+    "comment_2": "Instancie um objeto {{QrCodeSignOptions}}",
+    "comment_3": "Configure todas as opções desejadas",
+    "comment_4": "Salve o arquivo com o código QR adicionado no disco local"
+  },
+  "steps": {
+    "title": "Etapas para assinar {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite adicionar assinaturas personalizadas a arquivos {{FileFormatUp}}. Desenvolvedores de {{EnvName}} podem integrar a funcionalidade de assinatura em seus aplicativos usando nosso software.",
+      "step_1": "Forneça o arquivo {{FileFormatUp}} a ser assinado para a instância {{TextSignature}}.",
+      "step_2": "Use {{SignOptions}} para definir os detalhes da assinatura.",
+      "step_3": "Personalize várias propriedades, como tamanho, cor e conteúdo.",
+      "step_4": "Salve o arquivo assinado no local desejado."
+    }
+  },
+  "code_1": {
+    "title": "Como adicionar uma assinatura de imagem a um documento",
+    "content": "Este exemplo demonstra como colocar uma assinatura de imagem em uma página específica de um documento.",
+    "comment_1": "Forneça o documento fonte como parâmetro",
+    "comment_2": "Especifique o caminho da imagem nas opções de assinatura",
+    "comment_3": "Defina o tamanho e as páginas alvo para a assinatura",
+    "comment_4": "Aplique a assinatura ao documento"
+  }
+}

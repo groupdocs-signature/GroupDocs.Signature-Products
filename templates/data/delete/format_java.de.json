@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "Entfernen von Signaturen aus {{FileFormatUp}} mit {{ProgLang}}",
+    "description": "Das Entfernen von digitalen, Barcode-, Text-, Bild- und Metadaten-Signaturen aus signierten {{FileFormatUp}}-Dokumenten kann mit {{ProdFullName}} effizient durchgeführt werden."
+  },
+  "header": {
+    "title": "Signaturen aus {{FileFormatUp}} löschen",
+    "description": "Unsere Lösung ermöglicht es nicht nur, Geschäftsdokumente zu unterzeichnen, sondern bietet auch die Möglichkeit, verschiedene Signaturtypen mit {{ProdFullName}} zu finden und zu entfernen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Über {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet eine umfassende Lösung zum Signieren, die in der Lage ist, verschiedene Signaturtypen wie Text, Bilder, Barcodes, digitale Zertifikate und Stempel zu verwalten. Dieses Tool unterstützt über 60 verschiedene Dateiformate, einschließlich PDFs, MS Office-Dokumente, Bilddateien, ZIP-Archive und viele weitere gängige Formate. Darüber hinaus können angewandte Signaturen jederzeit effizient durchsucht, überprüft, bearbeitet oder entfernt werden."
+  },
+  "more_features": {
+    "title": "Optimieren Sie Geschäftsprozesse mit Signaturverwaltung",
+    "description": "{{ProdFullName}} ist für das Signieren und Verwalten von Geschäftsdokumenten konzipiert und ermöglicht es Ihnen, Signaturen nach Bedarf hinzuzufügen, zu ändern, zu überprüfen oder zu löschen.",
+    "image_description": "{{ProdShortName}}-Funktionen",
+    "feature_1": {
+      "title": "Dokumente signieren",
+      "content": "Fügen Sie textuelle, bildliche, Barcode-, QR-Code- oder Stempel-Signaturen einfach auf jeder Seite unterstützter Dokumente hinzu. Nutzen Sie versteckte Metadaten wie EXIF in Bildern oder schützen Sie den Inhalt von Dokumenten mit digitalen Zertifikaten vor unbefugten Änderungen."
+    },
+    "feature_2": {
+      "title": "Durchsuchung und Verifizierung",
+      "content": "Nutzen Sie das Potenzial signierter Dokumente, indem Sie Signaturen verifizieren, um deren Gültigkeit sicherzustellen. Sie können auch eine umfassende Liste aller Signaturen innerhalb eines Dokuments durch eine einfache Suche abrufen."
+    },
+    "feature_3": {
+      "title": "Signaturen ändern",
+      "content": "Die meisten zuvor hinzugefügten Signaturen können angepasst werden. Sie können den Text leicht modifizieren, die Position der Signatur ändern oder deren Farbe anpassen."
+    },
+    "feature_4": {
+      "title": "Signaturen löschen",
+      "content": "Unsere Lösung unterstützt vollständige CRUD-Operationen für Signaturen, sodass Sie verschiedene Signaturtypen nach Bedarf aus einem Dokument löschen können."
+    }
+  },
+  "formats": {
+    "title": "Entfernen von Signaturen aus verschiedenen Dateiformaten",
+    "description": "Unsere {{ProdFullName}}-Lösung unterstützt das Entfernen von Signaturen aus über 60 verschiedenen Dateiformaten."
+  },
+  "operations": {
+    "title": "Erfahren Sie mehr über unsere Hauptfunktionen",
+    "description": "Entdecken Sie die vielfältigen Operationen und Signaturmethoden, die mit unserer Plattform verfügbar sind."
+  },
+  "examples": {
+    "comment_1": "Übergeben Sie das Dokument, das die zu löschenden Signaturen enthält, an {{TextSignature}}",
+    "comment_2": "Rufen Sie die digitalen Signaturen im Dokument ab",
+    "comment_3": "Löschen Sie die erste gefundene digitale Signatur",
+    "comment_4": "Verarbeiten Sie das Ergebnis der Löschung"
+  },
+  "steps": {
+    "title": "Schritte zum Löschen von e-Signaturen aus {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert es {{EnvName}}-Entwicklern, e-Signaturen in {{FileFormatUp}}-Dateien mithilfe ihrer Anwendungen durch einige einfache Schritte zu löschen.",
+      "step_1": "Übergeben Sie den Pfad zur {{FileFormatUp}}-Datei an eine Instanz der {{TextSignature}}-Klasse.",
+      "step_2": "Verwenden Sie die Methode 'Search', um Signaturen aus dem Dokument abzurufen.",
+      "step_3": "Löschen Sie eine oder mehrere der gefundenen Signaturen.",
+      "step_4": "Analysieren Sie die Ergebnisse der Dokumentenverarbeitung."
+    }
+  },
+  "code_1": {
+    "title": "Alle Barcode-Signaturen entfernen",
+    "content": "Erfahren Sie, wie Sie alle in ein Dokument eingebetteten Barcode-Signaturen entfernen.",
+    "comment_1": "Stellen Sie ein Dokument bereit, das Barcode-Signaturen enthält",
+    "comment_2": "Löschen Sie alle Barcode-Signaturen",
+    "comment_3": "Verarbeiten Sie das Ergebnis der Löschung"
+  }
+}

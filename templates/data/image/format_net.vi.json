@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Thêm chữ ký hình ảnh vào tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Đặt chữ ký hình ảnh lên tệp {{FileFormatUp}} cho {{EnvNameShort}} chỉ với một vài dòng mã. Sử dụng API {{ProdFullName}} để thêm hình ảnh."
+  },
+  "header": {
+    "title": "Thêm chữ ký hình ảnh vào tệp {{FileFormatUp}}",
+    "description": "Sử dụng {{ProdFullName}} để tích hợp hình ảnh một cách liền mạch vào nhiều định dạng tài liệu văn phòng, bao gồm PDF, Word, Excel và các tệp hình ảnh. Việc chèn hình ảnh chữ ký của giám đốc bạn có thể tạo ấn tượng chuyên nghiệp nổi bật, nâng cao tính thẩm mỹ và tính xác thực của tài liệu.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Khám phá {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp khả năng toàn diện để chèn chữ ký hình ảnh tại bất kỳ vị trí nào trên bất kỳ trang nào trong tài liệu kinh doanh của bạn. Nâng cao quy trình làm việc của bạn bằng cách tích hợp hình ảnh vào các tệp PDF, tài liệu Word, bảng tính Excel, bài trình bày PowerPoint và nhiều định dạng hình ảnh phổ biến qua thư viện mạnh mẽ của chúng tôi."
+  },
+  "more_features": {
+    "title": "Giải pháp ký tài liệu toàn diện",
+    "description": "Chúng tôi rất vui mừng giới thiệu nhiều chức năng ký kết được hỗ trợ bởi API của chúng tôi. Dễ dàng thêm, chỉnh sửa, xóa, tìm kiếm và xác minh nhiều loại chữ ký khác nhau, bao gồm cả chữ ký dựa trên hình ảnh.",
+    "image_description": "Ký hình ảnh",
+    "feature_1": {
+      "title": "Nhúng hình ảnh vào tài liệu văn phòng",
+      "content": "Chèn chữ ký điện tử và hình ảnh một cách liền mạch ở bất kỳ vị trí nào trên bất kỳ trang nào của tài liệu. Nâng cao nội dung tài liệu của bạn với văn bản, hình ảnh, mã vạch, siêu dữ liệu hoặc chứng chỉ số để tăng tính năng và bảo mật."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm và xác minh chữ ký",
+      "content": "Quản lý các tài liệu đã ký bằng cách xác minh tính xác thực và tính toàn vẹn của chữ ký. Lấy danh sách đầy đủ tất cả các chữ ký trong một tài liệu và kiểm tra các thuộc tính cụ thể của chúng."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa chữ ký",
+      "content": "Đôi khi, các chữ ký trong tài liệu có thể cần được cập nhật. Điều chỉnh dễ dàng nội dung, diện mạo, kích thước hoặc vị trí của các chữ ký hiện có để đáp ứng các yêu cầu đang thay đổi."
+    },
+    "feature_4": {
+      "title": "Gỡ bỏ chữ ký thừa",
+      "content": "API của chúng tôi hỗ trợ toàn bộ các thao tác CRUD cho hầu hết các loại chữ ký. Bạn có thể gỡ bỏ hiệu quả chữ ký từ hầu hết các định dạng tài liệu được hỗ trợ khi cần."
+    }
+  },
+  "formats": {
+    "title": "Tích hợp hình ảnh vào các định dạng tệp phong phú",
+    "description": "Tận dụng API {{EnvName}} để thêm các định dạng hình ảnh được hỗ trợ vào một loạt tài liệu phong phú. Linh hoạt điều chỉnh kích thước, vị trí, chọn trang cụ thể và áp dụng các chữ ký hình ảnh vào tài liệu của bạn."
+  },
+  "operations": {
+    "title": "Hiểu rõ các tính năng mà chúng tôi cung cấp",
+    "description": "Khám phá một tập hợp đa dạng các loại chữ ký và các thao tác mạnh mẽ được cung cấp bởi nền tảng của chúng tôi."
+  },
+  "examples": {
+    "comment_1": "Khởi tạo {{TextSignature}} với đường dẫn đến tài liệu",
+    "comment_2": "Cấu hình {{ImageSignOptions}} bằng hình ảnh cho chữ ký",
+    "comment_3": "Đặt hình ảnh ở góc trái phía trên của tất cả các trang",
+    "comment_4": "Lưu tài liệu đã ký"
+  },
+  "steps": {
+    "title": "Cách thêm hình ảnh vào bất kỳ vị trí nào trong tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "Tận dụng [{{ProdShortName}}]({{PlatformLink}}) để hỗ trợ các ứng dụng {{EnvName}} khả năng nhúng chính xác chữ ký vào bất kỳ trang nào của tài liệu {{FileFormatUp}}. Nâng cao khả năng của sản phẩm bạn một cách liền mạch bằng cách tích hợp giải pháp của chúng tôi.",
+      "step_1": "Khởi tạo lớp {{TextSignature}} với tài liệu {{FileFormatUp}}.",
+      "step_2": "Sử dụng {{ImageSignOptions}} để chỉ định hình ảnh chữ ký.",
+      "step_3": "Đặt hình ảnh chính xác tại vị trí trên trang mong muốn.",
+      "step_4": "Lưu tài liệu đã ký mới tại vị trí đã chỉ định."
+    }
+  },
+  "code_1": {
+    "title": "Bảo vệ nội dung tài liệu với chữ ký hình ảnh",
+    "content": "Khám phá cách làm phong phú tài liệu kinh doanh bằng cách nhúng hình ảnh, cung cấp thông tin bổ sung.",
+    "comment_1": "Chọn tài liệu cần ký",
+    "comment_2": "Tạo tùy chọn hình ảnh với đường dẫn hình ảnh đã chỉ định",
+    "comment_3": "Định nghĩa kích thước của chữ ký hình ảnh",
+    "comment_4": "Đặt hình ảnh ở góc phải dưới cùng",
+    "comment_5": "Áp dụng đệm cần thiết từ các cạnh trang",
+    "comment_6": "Tùy chọn, thêm viền tùy chỉnh cho hình ảnh",
+    "comment_7": "Xoay chữ ký để căn chỉnh tối ưu",
+    "comment_8": "Lưu tài liệu đã được cập nhật tại vị trí mong muốn"
+  }
+}

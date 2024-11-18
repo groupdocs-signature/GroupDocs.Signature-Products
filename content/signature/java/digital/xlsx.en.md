@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:28
+date:  2024-11-18T11:51:57
 draft: false
 lang: en
 format: Xlsx
@@ -19,7 +19,7 @@ head_title: "Adding digital electronic signatures to XLSX file with Java"
 head_description: "Put a digital signature on a XLSX file using Java with just a few lines of code. Use GroupDocs.Signature for Java to sign numerous file formats."
 
 ############################# Header ############################
-title: "eSign XLSX with digital signatures" 
+title: "Sign XLSX with digital signatures" 
 description: "Safeguard the content of your business documents by sealing them with digital certificates using the features of GroupDocs.Signature for Java. We provide multiple ways to mark and secure your documents."
 subtitle: "GroupDocs.Signature for Java" 
 
@@ -220,13 +220,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/java/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/java/digital/xlsx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

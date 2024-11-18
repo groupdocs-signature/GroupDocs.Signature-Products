@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Gerar e adicionar carimbos ao {{FileFormatUp}} via {{ProgLang}}",
+    "description": "Aproveite o poder do {{ProdShortName}} e {{ProgLang}} para gerar e posicionar carimbos personalizados em qualquer página dos seus documentos {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Insira carimbos personalizados em arquivos {{FileFormatUp}}",
+    "description": "Utilize o {{ProdFullName}} para gerar carimbos adaptados e inseri-los em qualquer local dos seus documentos. Nossa plataforma oferece amplas opções para personalizar carimbos de acordo com suas necessidades empresariais específicas.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Teste gratuito"
+  },
+  "about": {
+    "title": "O que é {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece uma solução robusta e versátil para assinatura de documentos. Permite que os usuários adicionem carimbos e outros tipos de assinatura em mais de 60 formatos diferentes, como PDFs, Word, Excel, arquivos de imagens e arquivos ZIP. A plataforma permite inserir texto, imagem, código de barras, QR code, metadados, certificado digital e assinaturas em carimbos. Além da assinatura, você pode buscar, verificar, modificar ou excluir quaisquer assinaturas presentes em seus documentos."
+  },
+  "more_features": {
+    "title": "Fortaleça a segurança dos documentos com assinaturas",
+    "description": "Com o {{ProdFullName}}, você pode adicionar, editar, validar ou remover carimbos e outros tipos de assinatura em todos os formatos de documentos populares. A API simplifica o processo de gerenciamento de assinaturas para melhorar a integridade e a personalização dos documentos.",
+    "image_description": "Recursos do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinatura personalizada de documentos",
+      "content": "Aplique assinaturas como texto, imagens, códigos de barras, QR codes e carimbos a qualquer parte do seu documento. Esta ferramenta também permite a inclusão de metadados ocultos e certificados digitais para proteger ainda mais seu conteúdo contra modificações não autorizadas."
+    },
+    "feature_2": {
+      "title": "Busca e verificação de assinaturas",
+      "content": "Após a assinatura de um documento, use nosso sistema de verificação para garantir a integridade das assinaturas. Além disso, nossa plataforma permite que você busque e recupere informações detalhadas sobre todas as assinaturas aplicadas a um documento."
+    },
+    "feature_3": {
+      "title": "Modifique assinaturas conforme necessário",
+      "content": "Ajuste e atualize assinaturas aplicadas anteriormente. Quer você altere o conteúdo, cor, tamanho ou posição da assinatura, o {{ProdFullName}} oferece opções completas de personalização."
+    },
+    "feature_4": {
+      "title": "Remova assinaturas indesejadas",
+      "content": "Remova facilmente quaisquer assinaturas desnecessárias de seus documentos. Nossa API suporta a exclusão de uma ampla gama de tipos de assinatura, incluindo carimbos e certificados digitais, oferecendo total flexibilidade para gerenciar seus documentos."
+    }
+  },
+  "formats": {
+    "title": "Aplique assinaturas em carimbos em vários tipos de arquivo",
+    "description": "A API {{ProdShortName}} suporta assinaturas em carimbos em mais de 60 formatos de arquivo, permitindo que os usuários coloquem carimbos personalizados em qualquer página ou área, melhorando a acessibilidade e a segurança dos documentos."
+  },
+  "operations": {
+    "title": "Explore os recursos principais",
+    "description": "Nossa solução oferece uma variedade de ferramentas para criar, gerenciar e remover diferentes tipos de assinaturas, proporcionando aos usuários total controle sobre seus fluxos de trabalho de documentos."
+  },
+  "examples": {
+    "comment_1": "Associe o caminho do documento à instância {{TextSignature}}",
+    "comment_2": "Crie {{StampSignOptions}} com o conteúdo da assinatura necessário",
+    "comment_3": "Incorpore uma ou mais linhas de carimbo",
+    "comment_4": "Salve o documento com o carimbo aplicado"
+  },
+  "steps": {
+    "title": "Guia para incorporar carimbos em {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) oferece uma poderosa ferramenta para criar e incorporar carimbos, que podem melhorar significativamente as aplicações {{EnvName}}. Use este recurso para criar e aplicar carimbos personalizados nas páginas do seu documento.",
+      "step_1": "Insira o documento {{FileFormatUp}} que requer carimbagem.",
+      "step_2": "Implante {{StampSignOptions}} para definir todos os parâmetros essenciais.",
+      "step_3": "Insira quantas linhas de carimbo forem necessárias.",
+      "step_4": "Aplique o carimbo e salve o documento finalizado."
+    }
+  },
+  "code_1": {
+    "title": "Integre carimbos personalizados em documentos",
+    "content": "Aprenda como criar e aplicar carimbos personalizados contendo texto essencial aos seus documentos.",
+    "comment_1": "Forneça o documento para carimbagem",
+    "comment_2": "Configurar as opções de carimbo com as configurações desejadas",
+    "comment_3": "Especifique as dimensões e a posição do carimbo na página",
+    "comment_4": "Inclua linhas externas circulares com texto personalizado",
+    "comment_5": "Adicione linhas internas quadradas conforme necessário",
+    "comment_6": "Salve o documento carimbado"
+  }
+}

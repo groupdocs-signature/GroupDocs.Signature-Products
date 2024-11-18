@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 앱으로 {{FileFormatUp}} 문서 전자 서명하기",
+    "description": "{{ProgLang}} API의 힘을 활용하여 PDF, Word 파일, Excel 시트, 프레젠테이션 및 이미지를 포함한 {{FileFormatUp}} 문서에 전자 서명을 추가하고 보안을 강화하세요."
+  },
+  "header": {
+    "title": "{{FileFormatUp}} 전자 서명하기",
+    "description": "{{ProdFullName}}를 사용하여 PDF, Word, Excel, 프레젠테이션 및 이미지와 같은 다양한 문서에 전자 서명을 삽입하여 규정 준수와 데이터 무결성을 보장하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 개요",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 문서에 전자 서명을 추가하기 위한 완전한 도구 세트를 제공합니다. 디지털 서명을 서명, 검색, 검증, 업데이트 또는 제거해야 할 경우, {{ProdFullName}}은 PDF, Word 문서, Excel 시트, PowerPoint 프레젠테이션 및 다양한 이미지 형식에서 타사 소프트웨어 없이 쉽게 처리할 수 있습니다."
+  },
+  "more_features": {
+    "title": "문서를 위한 고급 전자 서명 기능",
+    "description": "저희 전자 서명 API는 비즈니스 프로세스를 간소화하여 전자 서명의 서명, 검증, 수정 및 관리 방식을 효율적으로 제공합니다. 완전한 자동화 지원을 포함합니다.",
+    "image_description": "전자 서명 기능",
+    "feature_1": {
+      "title": "사무 문서에 전자 서명하기",
+      "content": "문서 어디에나 전자 서명을 쉽게 배치할 수 있습니다. 디지털 인증서, 바코드, 메타데이터 및 시각적 요소로 콘텐츠를 개인화하면서 문서의 보안과 진위를 보장합니다."
+    },
+    "feature_2": {
+      "title": "전체 서명 관리",
+      "content": "문서가 서명되면 모든 서명을 보고 관리할 수 있습니다. 필요에 따라 서명을 업데이트하거나 제거할 수 있으며, 문서에 대한 완전한 제어를 보장합니다."
+    },
+    "feature_3": {
+      "title": "문서 보안 강화",
+      "content": "디지털 인증서로 문서를 보호합니다. 메타데이터를 삽입하거나 검색하여 추적, 감사 및 규정 준수를 개선하여 콘텐츠의 진위를 보장합니다."
+    }
+  },
+  "formats": {
+    "title": "다양한 파일 형식에 전자 서명하기",
+    "description": "{{EnvName}} API를 사용하면 60개 이상의 산업 표준 형식을 전자 서명할 수 있어 비즈니스 문서 보호에 unparalleled 유연성을 제공합니다."
+  },
+  "operations": {
+    "title": "전체 기능 세트 탐색하기",
+    "description": "모든 전자 서명 요구 사항에 대한 다양한 서명 옵션 및 작업을 제공합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextSignature}} 인스턴스에 문서 로드하기",
+    "comment_2": "새 {{QrCodeSignOptions}} 객체 생성하기",
+    "comment_3": "필요한 모든 옵션 설정하기",
+    "comment_4": "서명된 문서를 시스템에 저장하기"
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 전자 서명하기",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})를 사용하면 {{EnvName}} 개발자는 {{FileFormatUp}} 문서에 서명 기능을 쉽게 통합할 수 있습니다. 애플리케이션에 맞춤형 서명을 간편하게 추가하세요.",
+      "step_1": "{{TextSignature}} 인스턴스에 {{FileFormatUp}} 파일을 로드합니다.",
+      "step_2": "{{SignOptions}}를 사용하여 서명 설정을 구성합니다.",
+      "step_3": "크기, 색상 및 콘텐츠와 같은 서명 속성을 개인화합니다.",
+      "step_4": "서명된 문서를 원하는 위치에 저장합니다."
+    }
+  },
+  "code_1": {
+    "title": "문서에 이미지 서명 추가하기",
+    "content": "이 예시는 특정 페이지에 이미지 서명을 적용하는 방법을 보여줍니다.",
+    "comment_1": "서명하려는 문서를 로드합니다.",
+    "comment_2": "서명 옵션에 이미지 경로를 설정합니다.",
+    "comment_3": "대상 페이지에서 서명의 크기 및 위치를 정의합니다.",
+    "comment_4": "서명을 적용하고 서명된 문서를 저장합니다."
+  }
+}

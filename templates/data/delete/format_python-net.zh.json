@@ -1,0 +1,68 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 中移除签名",
+    "description": "使用 {{ProdFullName}} 轻松移除 {{FileFormatUp}} 文档中的数字签名、条形码、文本、图像和元数据签名。"
+  },
+  "header": {
+    "title": "从 {{FileFormatUp}} 中移除签名",
+    "description": "{{ProdFullName}} 除了可以签署文档外，还提供了一个完整的工具包，可以定位并删除文件中的各种类型的签名。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "免费下载"
+  },
+  "about": {
+    "title": "什么是 {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一个强大的解决方案，旨在管理各种类型的签名，包括文本、图像、条形码、数字证书和印章。它支持超过 60 种不同格式，例如 PDF、MS Office 文档、图像和 ZIP 文件，提供了最大灵活性以处理文档。您可以根据需要轻松添加、验证、更新或移除签名。"
+  },
+  "more_features": {
+    "title": "通过高级签名功能简化文档管理",
+    "description": "{{ProdFullName}} 专门设计用于增强在关键业务文档格式中添加、验证、编辑和删除签名的过程。",
+    "image_description": "{{ProdShortName}} 的主要功能",
+    "feature_1": {
+      "title": "为您的文档签名",
+      "content": "快速将文本、图像、条形码、二维码或印章签名应用于任何页面。此外，您可以管理图像中的隐藏元数据，如 EXIF，并通过数字证书确保文档的完整性。"
+    },
+    "feature_2": {
+      "title": "查找并验证签名",
+      "content": "使用我们的强大工具定位并验证文档中的签名，为全面管理提供所有签名的完整列表。"
+    },
+    "feature_3": {
+      "title": "编辑签名",
+      "content": "轻松通过更改文本、重新定位元素或调整颜色来修改现有签名，以符合您的偏好。"
+    },
+    "feature_4": {
+      "title": "删除不必要的签名",
+      "content": "通过完整的创建、读取、更新和删除 (CRUD) 操作完全控制文档签名，允许您在需要时删除任何类型的签名。"
+    }
+  },
+  "formats": {
+    "title": "从多种文件格式中删除签名",
+    "description": "{{ProdFullName}} 专为支持从 60 多种不同文件格式中移除签名而构建，确保兼容性和易用性。"
+  },
+  "operations": {
+    "title": "发现我们的主要功能",
+    "description": "探索我们的解决方案所提供的多种签名类型和操作。"
+  },
+  "examples": {
+    "comment_1": "将含有签名的文档传递给 {{TextSignature}} 实例",
+    "comment_2": "检索文档中的数字签名列表",
+    "comment_3": "从列表中删除第一个签名",
+    "comment_4": "处理并验证删除结果"
+  },
+  "steps": {
+    "title": "使用 {{ProgLang}} 从 {{FileFormatUp}} 中删除电子签名的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 允许 {{EnvName}} 开发人员通过以下简单步骤从 {{FileFormatUp}} 文件中移除电子签名：",
+      "step_1": "将 {{FileFormatUp}} 文档加载到 {{TextSignature}} 类实例中。",
+      "step_2": "使用搜索功能查找文档中的所有签名。",
+      "step_3": "删除一个或多个找到的签名。",
+      "step_4": "处理后查看结果。"
+    }
+  },
+  "code_1": {
+    "title": "移除所有条形码签名",
+    "content": "学习如何从文档中删除所有条形码签名。",
+    "comment_1": "提供一个包含条形码签名的文档",
+    "comment_2": "移除所有条形码签名",
+    "comment_3": "检查删除过程的结果"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Digitale Signaturen in {{FileFormatUp}} über {{ProgLang}} überprüfen",
+    "description": "Mit {{ProdFullName}} können Sie die Authentizität von Signaturen in {{FileFormatUp}}-Dokumenten effizient überprüfen. Überprüfen Sie nahtlos Signaturen in PDFs, Word, Excel, Präsentationen, Bildern, ZIP-Dateien und mehr."
+  },
+  "header": {
+    "title": "Digitale Signaturen in {{FileFormatUp}} überprüfen",
+    "description": "Stellen Sie die Genauigkeit und Gültigkeit aller unterstützten elektronischen Signaturen in einer Vielzahl von Dokumentenformaten sicher, einschließlich PDF, Word, Excel, Präsentationen, Bildern und ZIP, mit {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Version herunterladen"
+  },
+  "about": {
+    "title": "Anwendungen von {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet umfassendes Dokumentensignaturmanagement, einschließlich der Möglichkeit, über 60 Dateiformate zu signieren. Mit Unterstützung für Text, Bilder, Barcodes, digitale Zertifikate, Metadaten, Stempel und mehr, ermöglicht {{ProdFullName}} das Suchen, Überprüfen, Aktualisieren oder Entfernen von Signaturen in Formaten wie PDFs, MS Office-Dokumenten, Bildern, ZIP-Archiven und mehr."
+  },
+  "more_features": {
+    "title": "Fortschrittliche Dokumentensigniertechnologie",
+    "description": "{{ProdShortName}} bietet eine All-in-One-Lösung zur Überprüfung und Verwaltung von Signaturen in verschiedenen Office-Formaten. Mit sieben Signaturtypen und vollständigen CRUD-Operationen ermöglicht es nahtloses Dokumentenmanagement und Inhaltssicherheit.",
+    "image_description": "Funktionen zur Überprüfung von Signaturen",
+    "feature_1": {
+      "title": "Unternehmensdokumente sichern signieren",
+      "content": "Wenden Sie digitale Signaturen – sei es textbasiert, Bild, Barcode, Metadaten, Stempel oder digitale Zertifikate – auf sichere und maßgeschneiderte Weise Ihren Dokumenten an. {{ProdFullName}} gewährleistet ein reibungsloses und professionelles Signieren von Unternehmensdokumenten."
+    },
+    "feature_2": {
+      "title": "Operationen im Signaturlebenszyklus",
+      "content": "Erhalten Sie die volle Kontrolle über die Signaturen in Dokumenten. Listen Sie alle Signaturen in einer Datei auf, überprüfen Sie ihre Authentizität, aktualisieren Sie sie nach Bedarf oder entfernen Sie sie vollständig, wenn erforderlich, um eine ordnungsgemäße Dokumentenverarbeitung sicherzustellen."
+    },
+    "feature_3": {
+      "title": "Dokumentenintegrität sicherstellen",
+      "content": "Nutzen Sie digitale Zertifikate, um Ihre Dokumente vor unbefugten Änderungen zu schützen. Verwenden Sie Metadaten, um den Inhalt des Dokuments zu sichern und zu verfolgen, damit er unverändert und vertraulich bleibt."
+    },
+    "feature_4": {
+      "title": "Personalisierte native Signaturen",
+      "content": "Fügen Sie angepasste native Signaturen wie Stempel in PDFs oder Wasserzeichen in Word-Dokumenten hinzu. Diese anpassbaren Optionen ermöglichen eine professionelle und sichere Handhabung von Dokumenten, die perfekt für Unternehmensumgebungen geeignet sind."
+    }
+  },
+  "formats": {
+    "title": "Umfassende Signaturüberprüfung für verschiedene Formate",
+    "description": "{{ProdFullName}} vereinfacht die Überprüfung von Signaturen über mehrere Dokumentenformate hinweg und bietet robuste Kontrollen für Signaturprüfungen. Passen Sie Ihren Überprüfungsprozess an und stellen Sie sicher, dass Dokumente ordnungsgemäß signiert sind."
+  },
+  "operations": {
+    "title": "Umfassende Funktionen und unterstützte Signaturen",
+    "description": "Entdecken Sie die erweiterten Möglichkeiten von {{ProdShortName}}, die eine Vielzahl von Werkzeugen und Operationen zur Verwaltung von Signaturen für verbesserte Dokumenten-Workflows bieten."
+  },
+  "examples": {
+    "comment_1": "Erstellen Sie ein {{TextSignature}}-Objekt mit dem Dokument",
+    "comment_2": "Legen Sie {{TextVerifyOptions}} fest, um Signaturen zu validieren, die bestimmten Text enthalten",
+    "comment_3": "Führen Sie den Überprüfungsprozess für Dokumentensignaturen durch",
+    "comment_4": "Interpretieren und bewerten Sie die Ergebnisse der Überprüfung"
+  },
+  "steps": {
+    "title": "So überprüfen Sie Signaturen in {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) kann die Anwesenheit bestimmter Signaturen in einem {{FileFormatUp}}-Dokument authentifizieren. {{EnvName}}-Entwickler können ihre Anwendungen problemlos durch die Einbindung unserer Überprüfungsfunktionen verbessern.",
+      "step_1": "Laden Sie das {{FileFormatUp}}-Dokument in die {{TextSignature}}-Instanz.",
+      "step_2": "Erstellen und konfigurieren Sie {{VerifyOptions}}, um die gewünschten Überprüfungsergebnisse zu erzielen.",
+      "step_3": "Starten Sie den Überprüfungsprozess.",
+      "step_4": "Überprüfen und bewerten Sie die Ergebnisse der Überprüfung."
+    }
+  },
+  "code_1": {
+    "title": "Überprüfungsprozess für Barcode-Signaturen",
+    "content": "Dieses Beispiel verdeutlicht die Methode zur Authentifizierung von in einem Dokument eingebetteten Barcode-Signaturen.",
+    "comment_1": "Reichen Sie das Dokument mit Barcode-Signaturen ein",
+    "comment_2": "Konfigurieren Sie die Parameter zur Validierung von Barcodes gegen festgelegten Text",
+    "comment_3": "Authentifizieren Sie die zuvor dem Dokument hinzugefügten Signaturen",
+    "comment_4": "Überprüfen Sie den Validierungsbericht"
+  }
+}

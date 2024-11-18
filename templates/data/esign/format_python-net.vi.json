@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "Ký điện tử tài liệu {{FileFormatUp}} bằng ứng dụng {{ProgLang}}",
+    "description": "Khám phá sức mạnh của API {{ProgLang}} để ký điện tử và bảo mật tài liệu {{FileFormatUp}} như PDFs, tệp Word, bảng tính Excel, bài thuyết trình và hình ảnh."
+  },
+  "header": {
+    "title": "Ký điện tử tài liệu {{FileFormatUp}}",
+    "description": "Sử dụng {{ProdFullName}} để nhúng nhiều loại chữ ký điện tử vào tài liệu của bạn, đảm bảo tuân thủ và tính toàn vẹn dữ liệu trên các định dạng như PDFs, Word, Excel, bài thuyết trình và hình ảnh.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống miễn phí"
+  },
+  "about": {
+    "title": "Tổng quan về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ công cụ đầy đủ để thêm chữ ký điện tử vào tài liệu. Dù bạn cần ký, tìm kiếm, xác minh, cập nhật hay loại bỏ chữ ký số, {{ProdFullName}} giúp việc này trở nên dễ dàng trên nhiều định dạng—PDFs, tài liệu Word, bảng tính Excel, bài thuyết trình PowerPoint và nhiều định dạng hình ảnh khác—không cần phần mềm bên thứ ba."
+  },
+  "more_features": {
+    "title": "Các tính năng chữ ký điện tử nâng cao cho tài liệu",
+    "description": "API ký điện tử của chúng tôi đơn giản hóa quy trình kinh doanh bằng cách cung cấp các cách hiệu quả để ký, xác thực, chỉnh sửa và quản lý chữ ký điện tử với hỗ trợ tự động hóa toàn diện.",
+    "image_description": "Tính năng chữ ký điện tử",
+    "feature_1": {
+      "title": "Ký tài liệu văn phòng",
+      "content": "Đặt chữ ký điện tử bất kỳ nơi nào trong tài liệu của bạn. Tùy chỉnh nội dung của bạn với chứng chỉ số, mã vạch, siêu dữ liệu và phần tử hình ảnh, đồng thời đảm bảo tính bảo mật và xác thực của tài liệu."
+    },
+    "feature_2": {
+      "title": "Quản lý chữ ký toàn diện",
+      "content": "Khi một tài liệu đã được ký, bạn có thể xem và quản lý tất cả các chữ ký. Bạn có thể cập nhật hoặc loại bỏ chữ ký khi cần, đảm bảo kiểm soát hoàn toàn đối với tài liệu."
+    },
+    "feature_3": {
+      "title": "Tăng cường bảo mật tài liệu",
+      "content": "Bảo vệ tài liệu của bạn bằng chứng chỉ số. Nhúng hoặc truy xuất siêu dữ liệu để cải thiện theo dõi, kiểm toán và tuân thủ, đảm bảo tính xác thực của nội dung."
+    }
+  },
+  "formats": {
+    "title": "Ký nhiều định dạng tệp khác nhau",
+    "description": "Với API {{EnvName}}, bạn có thể ký điện tử hơn 60 định dạng tiêu chuẩn trong ngành, cung cấp tính linh hoạt vô song trong việc bảo vệ tài liệu kinh doanh của bạn."
+  },
+  "operations": {
+    "title": "Khám phá đầy đủ bộ tính năng của chúng tôi",
+    "description": "Chúng tôi cung cấp một loạt các tùy chọn và thao tác chữ ký cho tất cả nhu cầu ký điện tử của bạn."
+  },
+  "examples": {
+    "comment_1": "Tải tài liệu vào một thể hiện {{TextSignature}}",
+    "comment_2": "Tạo một đối tượng {{QrCodeSignOptions}} mới",
+    "comment_3": "Thiết lập tất cả các tùy chọn cần thiết",
+    "comment_4": "Lưu tài liệu đã ký vào hệ thống của bạn"
+  },
+  "steps": {
+    "title": "Các bước để ký điện tử {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "Với [{{ProdShortName}}]({{PlatformLink}}), các nhà phát triển {{EnvName}} có thể tích hợp chức năng chữ ký vào tài liệu {{FileFormatUp}} một cách liền mạch. Thêm chữ ký tùy chỉnh vào ứng dụng của bạn.",
+      "step_1": "Tải tệp {{FileFormatUp}} vào thể hiện {{TextSignature}}.",
+      "step_2": "Sử dụng {{SignOptions}} để cấu hình các cài đặt chữ ký.",
+      "step_3": "Tùy chỉnh các thuộc tính chữ ký như kích thước, màu sắc và nội dung.",
+      "step_4": "Lưu tài liệu đã ký vào vị trí mong muốn."
+    }
+  },
+  "code_1": {
+    "title": "Cách thêm chữ ký hình ảnh vào tài liệu",
+    "content": "Ví dụ này cho thấy cách áp dụng chữ ký hình ảnh vào một trang cụ thể của tài liệu.",
+    "comment_1": "Tải tài liệu bạn muốn ký",
+    "comment_2": "Đặt đường dẫn đến hình ảnh trong các tùy chọn chữ ký",
+    "comment_3": "Xác định kích thước và vị trí của chữ ký trên các trang mục tiêu",
+    "comment_4": "Áp dụng chữ ký và lưu tài liệu đã ký"
+  }
+}

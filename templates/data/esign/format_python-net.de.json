@@ -1,0 +1,65 @@
+{
+  "head": {
+    "title": "E-Signatur von {{FileFormatUp}}-Dokumenten mit {{ProgLang}}-Apps",
+    "description": "Nutzen Sie die Möglichkeiten der {{ProgLang}}-API, um {{FileFormatUp}}-Dokumente wie PDFs, Word-Dateien, Excel-Tabellen, Präsentationen und Bilder elektronisch zu unterzeichnen und zu sichern."
+  },
+  "header": {
+    "title": "Elektronische E-Signatur für {{FileFormatUp}}",
+    "description": "{{ProdFullName}} ermöglicht es, eine Vielzahl von elektronischen Signaturen in Ihre Dokumente einzufügen und dabei Compliance und Datenintegrität über Formate wie PDFs, Word, Excel, Präsentationen und Bilder hinweg sicherzustellen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlos herunterladen"
+  },
+  "about": {
+    "title": "Überblick über die {{ProdFullName}}-API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet eine umfassende Suite von Tools zum Hinzufügen elektronischer Signaturen zu Dokumenten. Ob Sie unterschreiben, suchen, verifizieren, aktualisieren oder digitale Signaturen entfernen müssen, {{ProdFullName}} erleichtert dies über mehrere Formate hinweg—PDFs, Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen und verschiedene Bildformate—ohne dass Drittanbieter-Software benötigt wird."
+  },
+  "more_features": {
+    "title": "Erweiterte E-Signatur-Funktionen für Dokumente",
+    "description": "Unsere E-Signatur-API optimiert Geschäftsprozesse, indem sie effiziente Möglichkeiten bietet, elektronische Signaturen zu signieren, zu validieren, zu modifizieren und zu verwalten, mit vollständiger Unterstützung für die Automatisierung.",
+    "image_description": "E-Signatur-Funktionen",
+    "feature_1": {
+      "title": "E-Signatur für Bürodokumente",
+      "content": "Platzieren Sie elektronische Signaturen an beliebiger Stelle in Ihren Dokumenten. Passen Sie Ihren Inhalt mit digitalen Zertifikaten, Barcodes, Metadaten und visuellen Elementen an, während Sie die Sicherheit und Authentizität des Dokuments gewährleisten."
+    },
+    "feature_2": {
+      "title": "Vollständige Signaturverwaltung",
+      "content": "Sobald ein Dokument signiert ist, können Sie alle Signaturen anzeigen und verwalten. Sie können Aktualisierungen vornehmen oder Signaturen nach Bedarf entfernen, um die vollständige Kontrolle über das Dokument zu gewährleisten."
+    },
+    "feature_3": {
+      "title": "Dokumentsicherheit erhöhen",
+      "content": "Schützen Sie Ihre Dokumente mit digitalen Zertifikaten. Betten Sie Metadaten ein oder rufen Sie diese ab, um Nachverfolgung, Prüfung und Compliance zu verbessern und die Authentizität Ihres Inhalts zu gewährleisten."
+    }
+  },
+  "formats": {
+    "title": "E-Signatur für eine Vielzahl von Datei­formaten",
+    "description": "Mit der {{EnvName}}-API können Sie über 60 branchenübliche Formate elektronisch signieren, was Ihnen unvergleichliche Flexibilität beim Sichern Ihrer Geschäftsdokumente bietet."
+  },
+  "operations": {
+    "title": "Entdecken Sie unser vollständiges Funktionsset",
+    "description": "Wir bieten eine Vielzahl von Signaturalternativen und -operationen für alle Ihre E-Signatur-Anforderungen."
+  },
+  "examples": {
+    "comment_1": "Laden Sie das Dokument in eine {{TextSignature}}-Instanz",
+    "comment_2": "Erstellen Sie ein neues {{QrCodeSignOptions}}-Objekt",
+    "comment_3": "Richten Sie alle erforderlichen Optionen ein",
+    "comment_4": "Speichern Sie das signierte Dokument in Ihrem System"
+  },
+  "steps": {
+    "title": "Schritte zur E-Signatur von {{FileFormatUp}} mit {{ProgLang}}",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) können {{EnvName}}-Entwickler die Signaturfunktion nahtlos in {{FileFormatUp}}-Dokumente integrieren. Fügen Sie Ihren Anwendungen benutzerdefinierte Signaturen hinzu.",
+      "step_1": "Laden Sie die {{FileFormatUp}}-Datei in die {{TextSignature}}-Instanz.",
+      "step_2": "Verwenden Sie {{SignOptions}}, um die Signatur­einstellungen zu konfigurieren.",
+      "step_3": "Passen Sie Eigenschaften der Signatur wie Größe, Farbe und Inhalt an.",
+      "step_4": "Speichern Sie das signierte Dokument am gewünschten Speicherort."
+    }
+  },
+  "code_1": {
+    "title": "So fügen Sie einer Dokumenten-Signatur ein Bild hinzu",
+    "content": "Dieses Beispiel zeigt, wie Sie eine Bildsignatur auf einer bestimmten Seite eines Dokuments anwenden können.",
+    "comment_1": "Laden Sie das Dokument, das Sie signieren möchten,",
+    "comment_2": "Legen Sie den Pfad zum Bild in den Signatur­optionen fest.",
+    "comment_3": "Definieren Sie die Größe und Platzierung der Signatur auf den Zielseiten.",
+    "comment_4": "Wenden Sie die Signatur an und speichern Sie das signierte Dokument."
+  }
+}

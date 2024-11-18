@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Generar código de barras para {{FileFormatUp}} utilizando aplicaciones {{ProgLang}}",
+    "description": "Genera rápidamente e incrusta una firma de código de barras en un documento {{FileFormatUp}} con {{ProgLang}} usando solo unas pocas líneas de código. {{ProdShortName}} admite la firma en múltiples formatos de archivo."
+  },
+  "header": {
+    "title": "Genera y añade códigos de barras en {{FileFormatUp}} sin esfuerzo",
+    "description": "Utiliza {{ProdFullName}} para incorporar códigos de barras en tus documentos empresariales, colocándolos exactamente donde los necesites. Nuestra solución ofrece amplias opciones de personalización para adaptar las firmas de código de barras a tus requisitos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Ahora – ¡Es Gratis!"
+  },
+  "about": {
+    "title": "Una introducción a {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una poderosa herramienta de firma de documentos, que admite una diversa gama de tipos de firmas, incluyendo texto, imágenes, códigos de barras, certificados digitales y sellos. Con compatibilidad en más de 60 formatos de archivo, como PDFs, archivos de MS Office, imágenes y archivos ZIP, permite una gestión integral de documentos. Las firmas dentro de los documentos pueden ser buscadas, verificadas, modificadas o eliminadas según sea necesario."
+  },
+  "more_features": {
+    "title": "Aumenta y protege tus documentos con opciones avanzadas de firma",
+    "description": "La biblioteca {{ProdFullName}} está diseñada para facilitar la firma y la gestión posterior de formatos de documento populares. Añade, modifica, verifica o elimina rápidamente una amplia gama de firmas.",
+    "image_description": "Funcionalidades clave de {{ProdShortName}}",
+    "feature_1": {
+      "title": "Firma dinámica de documentos",
+      "content": "Firma cualquier página de tus documentos utilizando una variedad de tipos de firma, incluyendo texto, imágenes, códigos de barras, códigos QR y sellos. Además, puedes incrustar metadatos ocultos, como datos EXIF en imágenes, o asegurar el documento contra ediciones no autorizadas utilizando certificados digitales."
+    },
+    "feature_2": {
+      "title": "Verificación y búsqueda de firmas robustas",
+      "content": "Nuestra solución proporciona herramientas extensas para gestionar documentos firmados. Verifica la autenticidad de las firmas para garantizar la integridad del documento y utiliza la función de búsqueda para listar todas las firmas incrustadas dentro de un documento."
+    },
+    "feature_3": {
+      "title": "Modifica firmas con facilidad",
+      "content": "La mayoría de las firmas añadidas anteriormente se pueden modificar con facilidad. Actualiza el texto, repositiona o cambia la apariencia de la firma para adaptarla a tus necesidades."
+    },
+    "feature_4": {
+      "title": "Eliminación de firmas simplificada",
+      "content": "Con un soporte integral para operaciones CRUD, nuestra herramienta permite la eliminación eficiente de firmas de tus documentos, asegurando que solo las firmas más relevantes permanezcan."
+    }
+  },
+  "formats": {
+    "title": "Firma en múltiples formatos de documento",
+    "description": "La API {{EnvName}} te permite firmar más de 60 formatos diferentes. Ya sea añadiendo firmas a páginas específicas o colocándolas con precisión, nuestra herramienta facilita la aplicación de varios tipos de firmas."
+  },
+  "operations": {
+    "title": "Profundiza en nuestras características principales",
+    "description": "Experimenta una amplia gama de tipos de firma y herramientas que ofrecemos."
+  },
+  "examples": {
+    "comment_1": "Instanciar un objeto {{TextSignature}} con la ruta del documento",
+    "comment_2": "Utilizar {{BarcodeSignOptions}} para integrar un código de barras en el documento",
+    "comment_3": "Configurar el tipo de código de barras y parámetros adicionales",
+    "comment_4": "Guardar el documento firmado"
+  },
+  "steps": {
+    "title": "Cómo generar e incrustar códigos de barras en archivos {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite la generación y colocación de códigos de barras en una variedad de formatos populares en páginas {{FileFormatUp}}. Con soporte para más de 60 tipos de códigos de barras, las aplicaciones {{EnvName}} se pueden mejorar fácilmente con funciones de firma de códigos de barras integrando nuestra biblioteca.",
+      "step_1": "Proporcionar el archivo {{FileFormatUp}} o flujo para su procesamiento.",
+      "step_2": "Pasar el texto del código de barras a una instancia de {{BarcodeSignOptions}}.",
+      "step_3": "Ajustar la configuración del código de barras, como posición, tamaño, etc.",
+      "step_4": "Guardar el documento con el código de barras recién añadido."
+    }
+  },
+  "code_1": {
+    "title": "Cómo aplicar una firma de código de barras",
+    "content": "Este ejemplo ilustra cómo incrustar un código de barras personalizado en las páginas del documento {{FileFormatUp}}.",
+    "comment_1": "Proporcionar el documento a firmar.",
+    "comment_2": "Crear opciones de firma con el texto del código de barras deseado.",
+    "comment_3": "Establecer la posición relativa del código de barras en la página.",
+    "comment_4": "Definir el relleno del código de barras desde el borde de la página.",
+    "comment_5": "Elegir el color de las barras.",
+    "comment_6": "Especificar el estilo de fuente para el mensaje.",
+    "comment_7": "Indicar la posición del mensaje.",
+    "comment_8": "Firmar y guardar el documento."
+  }
+}

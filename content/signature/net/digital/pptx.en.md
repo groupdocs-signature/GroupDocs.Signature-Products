@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:28
+date:  2024-11-18T11:51:58
 draft: false
 lang: en
 format: Pptx
@@ -19,7 +19,7 @@ head_title: "Adding digital electronic signatures to PPTX file with C#"
 head_description: "Put a digital signature on a PPTX file using C# with just a few lines of code. Use GroupDocs.Signature for .NET to sign numerous file formats."
 
 ############################# Header ############################
-title: "Secure PPTX with digital signatures" 
+title: "eSign PPTX with digital signatures" 
 description: "Protect the integrity of your business documents by sealing them with digital certificates using the robust features of GroupDocs.Signature for .NET. We offer versatile solutions to mark and secure your documents."
 subtitle: "GroupDocs.Signature for .NET" 
 
@@ -206,13 +206,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/pptx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/pptx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

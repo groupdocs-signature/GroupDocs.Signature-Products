@@ -1,0 +1,69 @@
+{
+  "head": {
+    "title": "Verificación de firmas digitales {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Aproveche el potente {{ProdFullName}} para autenticar firmas incrustadas en archivos {{FileFormatUp}}. Valide la legitimidad de las firmas en PDF, Word, Excel, Presentaciones, Imágenes y formatos ZIP."
+  },
+  "header": {
+    "title": "Verificación de firmas digitales {{FileFormatUp}}",
+    "description": "Verifique de manera eficiente todas las firmas electrónicas soportadas en múltiples formatos como PDF, Word, Excel, Presentaciones, Imágenes o archivos ZIP con las completas características de {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descarga de versión gratuita"
+  },
+  "about": {
+    "title": "Aplicaciones clave de {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) admite capacidades completas de CRUD para la gestión de firmas de documentos. Puede firmar más de 60 formatos diferentes, incluyendo PDFs, archivos de MS Office, Imágenes y archivos ZIP, utilizando varios tipos de firma como texto, imágenes, códigos de barras, certificados digitales, metadatos y sellos. Además de firmar, le permite buscar, validar, actualizar o eliminar firmas."
+  },
+  "more_features": {
+    "title": "Firma de documentos avanzada",
+    "description": "{{ProdShortName}} es una solución integral diseñada para simplificar la firma y autenticación de documentos en formatos ampliamente utilizados. Ofrece 7 tipos de firmas y operaciones completas de CRUD para asegurar la protección y gestión integral del contenido de sus documentos.",
+    "image_description": "Funciones de verificación de firmas",
+    "feature_1": {
+      "title": "Optimizar la firma de documentos corporativos",
+      "content": "Aplique sin problemas firmas digitales personalizadas en cualquier sección de sus documentos. Con soporte para firmas de texto, imagen, código de barras, metadatos, sellos y certificados digitales, {{ProdFullName}} garantiza que sus documentos cumplan con los estándares corporativos."
+    },
+    "feature_2": {
+      "title": "Gestión completa del ciclo de vida de las firmas",
+      "content": "Gestiona fácilmente todo el ciclo de vida de las firmas dentro de los documentos. Acceda, verifique, actualice o elimine cualquier firma según sea necesario, asegurando que sus documentos permanezcan actualizados y precisos."
+    },
+    "feature_3": {
+      "title": "Protección de la integridad del contenido del documento",
+      "content": "Asegure sus documentos sensibles incrustando certificados digitales que eviten alteraciones no autorizadas. Además, añada metadatos ocultos para salvaguardar información crítica y hacer cumplir la integridad del contenido."
+    },
+    "feature_4": {
+      "title": "Firmas nativas personalizadas",
+      "content": "Aproveche los tipos de firmas específicas para documentos como sellos PDF y marcas de agua de Word. Estas firmas personalizadas son ideales para branding, marcaje de agua o fines de cumplimiento, brindando un toque profesional refinado a sus documentos corporativos."
+    }
+  },
+  "formats": {
+    "title": "Verificación de firmas entre formatos",
+    "description": "{{ProdFullName}} le permite verificar de manera eficiente las firmas en una amplia gama de formatos de documentos. Establezca parámetros de verificación personalizados para garantizar la integridad y conformidad del documento."
+  },
+  "operations": {
+    "title": "Operaciones completas y tipos de firma",
+    "description": "Explore la amplia gama de características y operaciones de gestión de firmas disponibles con {{ProdShortName}}, que apoyan el control total sobre los procesos de firma de su documento."
+  },
+  "examples": {
+    "comment_1": "Inicializar una instancia de {{TextSignature}} con el documento",
+    "comment_2": "Configurar {{TextVerifyOptions}} para autenticar firmas que contengan texto específico",
+    "comment_3": "Realizar una verificación de las firmas del documento",
+    "comment_4": "Analizar e interpretar los resultados de la verificación"
+  },
+  "steps": {
+    "title": "Guía para verificar firmas en {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) puede autenticar la presencia de firmas específicas dentro de un documento {{FileFormatUp}}. Los desarrolladores de {{EnvName}} pueden mejorar sus aplicaciones incorporando funciones proporcionadas por nuestra solución.",
+      "step_1": "Cargar el archivo {{FileFormatUp}} en la instancia de {{TextSignature}}.",
+      "step_2": "Instanciar y configurar {{VerifyOptions}} para lograr el resultado de verificación deseado.",
+      "step_3": "Iniciar el proceso de verificación.",
+      "step_4": "Revisar e interpretar los resultados de la verificación."
+    }
+  },
+  "code_1": {
+    "title": "Verificar firmas de código de barras",
+    "content": "Este ejemplo ilustra el procedimiento para autenticar firmas de código de barras dentro de un documento.",
+    "comment_1": "Enviar el documento que contiene firmas de código de barras",
+    "comment_2": "Configurar las opciones de verificación para coincidir los códigos de barras con criterios de texto específicos",
+    "comment_3": "Autenticar las firmas incrustadas en el documento",
+    "comment_4": "Presentar los resultados del proceso de autenticación"
+  }
+}

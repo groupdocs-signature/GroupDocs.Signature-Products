@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T11:43:30
+date:  2024-11-18T11:52:07
 draft: false
 lang: en
 format: Xlsx
@@ -16,7 +16,7 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Generate barcode for XLSX using JavaScript Applications"
-head_description: "Generate a barcode signature and add it to a XLSX document using JavaScript with just a few lines of code. Utilize GroupDocs.Signature for signing a wide range of file formats."
+head_description: "Quickly generate and embed a barcode signature in a XLSX document with JavaScript using just a few lines of code. GroupDocs.Signature supports signing across multiple file formats."
 
 ############################# Header ############################
 title: "Generate and add Barcodes in XLSX effortlessly" 
@@ -115,7 +115,7 @@ more_features:
       
   code_samples_ext:
     # code sample ext loop
-    - title: "How to customize a barcode signature"
+    - title: "How to apply a barcode signature"
       content: |
         This example illustrates how to embed a customized barcode on XLSX document pages.
       code:
@@ -233,13 +233,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/nodejs-java/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/nodejs-java/digital/xlsx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"

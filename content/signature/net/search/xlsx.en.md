@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-10-08T18:17:24
+date:  2024-11-18T11:52:13
 draft: false
 lang: en
 format: Xlsx
@@ -210,13 +210,13 @@ more_operations:
         - name: "Generate QR codes"
           operation: "qrcode"
           link: "/signature/net/qrcode/xlsx/"
-          description: "Generate and apply two-dimensional barcodes, including QR codes, for document signing"
+          description: "Generate and QR Codes, including QR codes, for document signing"
           
         # operation loop 6
         - name: "Digital certificates"
           operation: "digital"
           link: "/signature/net/digital/xlsx/"
-          description: "Secure business documents using digital certificates"
+          description: "Secure business and sign documents with digital certificates"
 
         # operation loop 7
         - name: "Stamp signatures"
@@ -263,13 +263,13 @@ more_formats:
           description: "Adobe Portable Document Format"
           
         # format loop 2
-        - name: "Search signatures in DOCX"
+        - name: "Find signatures in DOCX"
           format: "DOCX"
           link: "/signature/net/search/docx/"
           description: "Microsoft Word Open XML Document"
           
         # format loop 3
-        - name: "Search signatures in PPTX"
+        - name: "Find signatures in PPTX"
           format: "PPTX"
           link: "/signature/net/search/pptx/"
           description: "PowerPoint Open XML Presentation"

@@ -1,0 +1,73 @@
+{
+  "head": {
+    "title": "Gerar código de barras para {{FileFormatUp}} usando Aplicações {{ProgLang}}",
+    "description": "Gere rapidamente e incorpore uma assinatura de código de barras em um documento {{FileFormatUp}} com {{ProgLang}} usando apenas algumas linhas de código. {{ProdShortName}} suporta assinatura em vários formatos de arquivo."
+  },
+  "header": {
+    "title": "Gere e adicione Códigos de Barras em {{FileFormatUp}} sem esforço",
+    "description": "Utilize {{ProdFullName}} para incorporar códigos de barras em seus documentos comerciais, posicionando-os exatamente onde necessário. Nossa solução oferece amplas opções de personalização para adaptar as assinaturas de código de barras às suas necessidades.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Agora – É Grátis!"
+  },
+  "about": {
+    "title": "Uma introdução ao {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma potente ferramenta de assinatura de documentos, suportando uma ampla gama de tipos de assinatura, incluindo texto, imagens, códigos de barras, certificados digitais e carimbos. Com compatibilidade em mais de 60 formatos de arquivo, como PDFs, arquivos do MS Office, imagens e arquivos ZIP, permite uma gestão abrangente de documentos. As assinaturas dentro dos documentos podem ser pesquisadas, verificadas, alteradas ou removidas conforme necessário."
+  },
+  "more_features": {
+    "title": "Aumente e proteja seus documentos com opções avançadas de assinatura",
+    "description": "A biblioteca {{ProdFullName}} é projetada para facilitar a assinatura e a gestão subsequente de formatos de documento populares. Adicione, modifique, verifique ou remova rapidamente uma ampla gama de assinaturas.",
+    "image_description": "Funcionalidades Principais do {{ProdShortName}}",
+    "feature_1": {
+      "title": "Assinatura dinâmica de documentos",
+      "content": "Assine qualquer página dos seus documentos usando diversos tipos de assinatura, incluindo texto, imagens, códigos de barras, códigos QR e carimbos. Além disso, você pode incorporar metadados ocultos, como dados EXIF em imagens, ou proteger o documento contra edições não autorizadas usando certificados digitais."
+    },
+    "feature_2": {
+      "title": "Verificação robusta de assinaturas e pesquisa",
+      "content": "Nossa solução fornece ferramentas abrangentes para gerenciar documentos assinados. Verifique a autenticidade das assinaturas para garantir a integridade do documento e utilize o recurso de pesquisa para listar todas as assinaturas incorporadas em um documento."
+    },
+    "feature_3": {
+      "title": "Edição fácil de assinaturas",
+      "content": "A maioria das assinaturas adicionadas anteriormente pode ser modificada sem esforço. Atualize o texto, reposicione ou altere a aparência da assinatura para atender às suas necessidades."
+    },
+    "feature_4": {
+      "title": "Remoção simplificada de assinaturas",
+      "content": "Com suporte abrangente para operações CRUD, nossa ferramenta permite a remoção eficiente de assinaturas dos seus documentos, garantindo que apenas as assinaturas mais relevantes permaneçam."
+    }
+  },
+  "formats": {
+    "title": "Assine em vários formatos de documento",
+    "description": "A API {{EnvName}} permite que você assine mais de 60 formatos diferentes. Seja adicionando assinaturas a páginas específicas ou posicionando-as com precisão, nossa ferramenta facilita a aplicação de diversos tipos de assinatura."
+  },
+  "operations": {
+    "title": "Explore nossos recursos principais",
+    "description": "Experimente uma ampla variedade de tipos de assinatura e ferramentas que oferecemos"
+  },
+  "examples": {
+    "comment_1": "Instancie um objeto {{TextSignature}} com o caminho do documento",
+    "comment_2": "Utilize {{BarcodeSignOptions}} para integrar um código de barras ao documento",
+    "comment_3": "Configure o tipo de código de barras e parâmetros adicionais",
+    "comment_4": "Salve o documento assinado"
+  },
+  "steps": {
+    "title": "Como gerar e incorporar códigos de barras em arquivo {{FileFormatUp}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permite a geração e a colocação de códigos de barras em uma variedade de formatos populares nas páginas {{FileFormatUp}}. Com suporte para mais de 60 tipos de códigos de barras, as aplicações {{EnvName}} podem ser facilmente aprimoradas com recursos de assinatura de código de barras ao integrar nossa biblioteca.",
+      "step_1": "Forneça o arquivo ou fluxo {{FileFormatUp}} para processamento.",
+      "step_2": "Passe o texto do código de barras para uma instância {{BarcodeSignOptions}}.",
+      "step_3": "Ajuste as configurações do código de barras, como posição, tamanho, etc.",
+      "step_4": "Salve o documento com o código de barras recém-adicionado."
+    }
+  },
+  "code_1": {
+    "title": "Como aplicar uma assinatura de código de barras",
+    "content": "Este exemplo ilustra como incorporar um código de barras personalizado nas páginas do documento {{FileFormatUp}}.",
+    "comment_1": "Forneça o documento a ser assinado",
+    "comment_2": "Crie opções de assinatura com o texto desejado do código de barras",
+    "comment_3": "Defina a posição relativa do código de barras na página",
+    "comment_4": "Defina o padding do código de barras da borda da página",
+    "comment_5": "Escolha a cor do código",
+    "comment_6": "Especifique o estilo da fonte para a mensagem",
+    "comment_7": "Indique a posição da mensagem",
+    "comment_8": "Assine e salve o documento"
+  }
+}

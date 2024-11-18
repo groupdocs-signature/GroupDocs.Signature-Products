@@ -1,0 +1,71 @@
+{
+  "head": {
+    "title": "Tambahkan stempel ke {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "description": "Manfaatkan {{ProdShortName}} dan {{ProgLang}} untuk membuat stempel kustom dan menempatkannya di halaman mana saja dalam dokumen {{FileFormatUp}}."
+  },
+  "header": {
+    "title": "Tambahkan stempel kustom ke {{FileFormatUp}}",
+    "description": "Rancang dan terapkan stempel bulat atau persegi ke bagian mana pun dari dokumen Anda menggunakan {{ProdFullName}}. Solusi kami menawarkan opsi kustomisasi yang luas untuk memenuhi semua kebutuhan bisnis Anda.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah alat yang kuat yang memungkinkan Anda menambahkan berbagai tanda tangan stempel ke dokumen. Ini mendukung lebih dari 60 format file yang berbeda, termasuk PDF, Word, Excel, gambar, dan file ZIP. Anda dapat menerapkan teks, gambar, kode batang, metadata, sertifikat digital, dan tanda tangan stempel. Selain menambahkan tanda tangan, Anda dapat mencari, memverifikasi, memodifikasi, dan menghapusnya."
+  },
+  "more_features": {
+    "title": "Lindungi konten dokumen Anda dengan tanda tangan",
+    "description": "Perpustakaan {{ProdFullName}} dirancang untuk menandatangani dan mengelola tanda tangan di berbagai format file populer. Tambahkan, modifikasi, verifikasi, atau hapus stempel dan jenis tanda tangan lainnya dengan mudah.",
+    "image_description": "Tanda Tangan Stempel dengan {{ProdShortName}}",
+    "feature_1": {
+      "title": "Tanda tangani dokumen Anda",
+      "content": "Terapkan tanda tangan yang dapat disesuaikan ke bagian mana saja dari dokumen Anda. Pilih dari berbagai jenis tanda tangan, termasuk teks, gambar, kode batang, kode QR, dan stempel. Selain itu, metadata yang tersembunyi dapat ditambahkan atau dimodifikasi untuk meningkatkan keamanan dokumen."
+    },
+    "feature_2": {
+      "title": "Cari dan validasi tanda tangan",
+      "content": "Setelah dokumen ditandatangani, gunakan alat verifikasi kami untuk memastikan bahwa konten tanda tangan valid. Cari dan ambil daftar semua tanda tangan untuk pemrosesan lebih lanjut."
+    },
+    "feature_3": {
+      "title": "Perbarui tanda tangan sesuai kebutuhan",
+      "content": "Modifikasi berbagai tanda tangan yang diterapkan pada dokumen dengan mudah. Perbarui properti seperti ukuran, warna, posisi, konten, dan banyak lagi."
+    },
+    "feature_4": {
+      "title": "Hapus tanda tangan",
+      "content": "Perlu menghapus tanda tangan dari dokumen? API kami sepenuhnya mendukung penghapusan tanda tangan, sehingga Anda dapat mengelola dokumen Anda dengan efektif."
+    }
+  },
+  "formats": {
+    "title": "Tambahkan stempel di berbagai format file",
+    "description": "API {{ProdShortName}} mendukung penempelan dokumen dalam lebih dari 60 format. Tempatkan stempel di halaman atau area mana saja untuk meningkatkan pengelolaan dan kustomisasi dokumen."
+  },
+  "operations": {
+    "title": "Jelajahi fitur inti kami",
+    "description": "Manfaatkan berbagai opsi untuk menambahkan, mengelola, dan menghapus tanda tangan."
+  },
+  "examples": {
+    "comment_1": "Gunakan jalur dokumen dengan objek {{TextSignature}}",
+    "comment_2": "Instansikan {{StampSignOptions}} dengan teks tanda tangan yang diinginkan",
+    "comment_3": "Tambahkan satu atau lebih garis stempel",
+    "comment_4": "Simpan dokumen yang telah distempel"
+  },
+  "steps": {
+    "title": "Langkah untuk menambahkan stempel ke {{FileFormatUp}} menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) menyediakan konstruktor stempel yang sangat bermanfaat untuk aplikasi {{EnvName}}. Manfaatkan untuk membuat stempel yang sangat disesuaikan untuk halaman dokumen Anda.",
+      "step_1": "Berikan dokumen {{FileFormatUp}} yang akan distempel.",
+      "step_2": "Gunakan {{StampSignOptions}} untuk mengonfigurasi semua parameter yang diperlukan.",
+      "step_3": "Tambahkan sebanyak mungkin garis yang diperlukan.",
+      "step_4": "Terapkan stempel dan simpan dokumen."
+    }
+  },
+  "code_1": {
+    "title": "Tambahkan stempel kustom ke dokumen menggunakan tanda tangan khusus",
+    "content": "Pelajari cara menghasilkan dan menambahkan stempel kustom dengan informasi teks penting ke dokumen Anda.",
+    "comment_1": "Berikan dokumen yang akan distempel",
+    "comment_2": "Instansikan objek opsi stempel",
+    "comment_3": "Tetapkan ukuran dan posisi di halaman",
+    "comment_4": "Tambahkan satu atau lebih garis luar bulat dengan teks",
+    "comment_5": "Tambahkan satu atau lebih garis dalam kotak",
+    "comment_6": "Simpan dokumen yang telah distempel"
+  }
+}

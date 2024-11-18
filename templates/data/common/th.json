@@ -1,0 +1,165 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "description": "รูปแบบเอกสารพกพาของ Adobe"
+      },
+      "docx": {
+        "description": "เอกสาร Microsoft Word Open XML"
+      },
+      "xlsx": {
+        "description": "แผ่นงาน Microsoft Excel Open XML"
+      },
+      "pptx": {
+        "description": "การนำเสนอ PowerPoint Open XML"
+      },
+      "jpeg": {
+        "description": "ภาพ JPEG"
+      }
+    },
+    "format-operations": {
+      "esign": {
+        "pdf": "ลงนามอิเล็กทรอนิกส์ PDF",
+        "docx": "ลงนามอิเล็กทรอนิกส์ DOCX",
+        "xlsx": "ลงนามอิเล็กทรอนิกส์ XLSX",
+        "pptx": "ลงนามอิเล็กทรอนิกส์ PPTX",
+        "jpeg": "ลงนามอิเล็กทรอนิกส์ JPEG"
+      },
+      "text": {
+        "pdf": "ลายเซ็นข้อความ PDF",
+        "docx": "ลายเซ็นข้อความ DOCX",
+        "xlsx": "ลายเซ็นข้อความ XLSX",
+        "pptx": "ลายเซ็นข้อความ PPTX",
+        "jpeg": "ลายเซ็นข้อความ JPEG"
+      },
+      "image": {
+        "pdf": "ลงชื่อ PDF ด้วยภาพ",
+        "docx": "ลงชื่อ DOCX ด้วยภาพ",
+        "xlsx": "ลงชื่อ XLSX ด้วยภาพ",
+        "pptx": "ลงชื่อ PPTX ด้วยภาพ",
+        "jpeg": "ลงชื่อ JPEG ด้วยภาพ"
+      },
+      "barcode": {
+        "pdf": "เพิ่มบาร์โค้ดใน PDF",
+        "docx": "เพิ่มบาร์โค้ดใน DOCX",
+        "xlsx": "เพิ่มบาร์โค้ดใน XLSX",
+        "pptx": "เพิ่มบาร์โค้ดใน PPTX",
+        "jpeg": "เพิ่มบาร์โค้ดใน JPEG"
+      },
+      "qrcode": {
+        "pdf": "QR-Code สำหรับ PDF",
+        "docx": "QR-Code สำหรับ DOCX",
+        "xlsx": "QR-Code สำหรับ XLSX",
+        "pptx": "QR-Code สำหรับ PPTX",
+        "jpeg": "QR-Code สำหรับ JPEG"
+      },
+      "digital": {
+        "pdf": "ปกป้อง PDF",
+        "docx": "ปกป้อง DOCX",
+        "xlsx": "ปกป้อง XLSX",
+        "pptx": "ปกป้อง PPTX"
+      },
+      "stamp": {
+        "pdf": "ประทับตรา PDF",
+        "docx": "ประทับตรา DOCX",
+        "xlsx": "ประทับตรา XLSX",
+        "pptx": "ประทับตรา PPTX",
+        "jpeg": "ประทับตรา JPEG"
+      },
+      "search": {
+        "pdf": "ค้นหาลายเซ็นใน PDF",
+        "docx": "ค้นหาลายเซ็นใน DOCX",
+        "xlsx": "ค้นหาลายเซ็นใน XLSX",
+        "pptx": "ค้นหาลายเซ็นใน PPTX",
+        "jpeg": "ค้นหาลายเซ็นใน JPEG"
+      },
+      "verify": {
+        "pdf": "ตรวจสอบลายเซ็น PDF",
+        "docx": "ตรวจสอบลายเซ็น DOCX",
+        "xlsx": "ตรวจสอบลายเซ็น XLSX",
+        "pptx": "ตรวจสอบลายเซ็น PPTX",
+        "jpeg": "ตรวจสอบลายเซ็น JPEG"
+      },
+      "modify": {
+        "pdf": "แก้ไขลายเซ็น PDF",
+        "docx": "แก้ไขลายเซ็น DOCX",
+        "xlsx": "แก้ไขลายเซ็น XLSX",
+        "pptx": "แก้ไขลายเซ็น PPTX",
+        "jpeg": "แก้ไขลายเซ็น JPEG"
+      },
+      "delete": {
+        "pdf": "ลบลายเซ็น PDF",
+        "docx": "ลบลายเซ็น DOCX",
+        "xlsx": "ลบลายเซ็น XLSX",
+        "pptx": "ลบลายเซ็น PPTX",
+        "jpeg": "ลบลายเซ็น JPEG"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "result_title": "ตัวอย่างลายเซ็น",
+      "result_title_bottom": "ดาวน์โหลดผลลัพธ์",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอกแล้ว",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสาร"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมที่จะเริ่มต้นใช้งานหรือยัง?",
+      "description": "ลองฟีเจอร์ของ {{ProdShortName}} ฟรี หรือขอรับใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การออกใบอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    },
+    "operations": {
+      "esign": {
+        "name": "ลายเซ็นอิเล็กทรอนิกส์",
+        "description": "เพิ่มลายเซ็นประเภทต่าง ๆ ในรูปแบบไฟล์ที่รองรับ"
+      },
+      "text": {
+        "name": "เพิ่มข้อความในเอกสาร",
+        "description": "ปรับปรุงเนื้อหาเอกสารด้วยลายเซ็นข้อความที่ปรับแต่งได้"
+      },
+      "image": {
+        "name": "ลายเซ็นภาพ",
+        "description": "วางภาพใด ๆ ในตำแหน่งใด ๆ ภายในเอกสาร"
+      },
+      "barcode": {
+        "name": "สร้างบาร์โค้ด",
+        "description": "สร้างและแทรกบาร์โค้ดต่าง ๆ ลงในเอกสารที่รองรับ"
+      },
+      "qrcode": {
+        "name": "สร้าง QR Code",
+        "description": "สร้าง QR Codes รวมถึง QR codes สำหรับการลงชื่อในเอกสาร"
+      },
+      "digital": {
+        "name": "ใบรับรองดิจิตอล",
+        "description": "รักษาความปลอดภัยในการทำธุรกิจและลงชื่อในเอกสารด้วยใบรับรองดิจิตอล"
+      },
+      "stamp": {
+        "name": "ลายเซ็นประทับตรา",
+        "description": "ใช้ Stamp Constructor เพื่อสร้างประทับตรากลมหรือสี่เหลี่ยมที่กำหนดเอง"
+      },
+      "search": {
+        "name": "ค้นหาลายเซ็น",
+        "description": "ค้นหาลายเซ็นที่เพิ่มไว้ในเอกสาร"
+      },
+      "verify": {
+        "name": "การตรวจสอบลายเซ็น",
+        "description": "ตรวจสอบความถูกต้องของลายเซ็นหลังจากที่ได้ถูกใช้"
+      },
+      "modify": {
+        "name": "แก้ไขลายเซ็น",
+        "description": "แก้ไขลายเซ็นที่หลากหลายภายในเอกสาร"
+      },
+      "delete": {
+        "name": "ลบลายเซ็น",
+        "description": "ลบลายเซ็นที่ได้ถูกใช้มาก่อนหน้านี้"
+      }
+    }
+  }
+}
