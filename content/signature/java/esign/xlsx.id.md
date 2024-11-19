@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T11:52:09
+date:  2024-11-19T15:16:27
 draft: false
 lang: id
 format: Xlsx

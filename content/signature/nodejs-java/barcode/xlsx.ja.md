@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T11:52:07
+date:  2024-11-19T15:16:26
 draft: false
 lang: ja
 format: Xlsx
@@ -15,11 +15,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "JavaScriptを使用して《FileFormatUp》のバーコードを生成"
-head_description: "数行のコードだけで、《ProgLang》を用いて《FileFormatUp》ドキュメントにバーコード署名を迅速に生成・埋め込みます。GroupDocs.Signatureは複数のファイル形式での署名をサポートしています。"
+head_title: "JavaScriptを使用してXLSXのバーコードを生成"
+head_description: "数行のコードだけで、JavaScriptを用いてXLSXドキュメントにバーコード署名を迅速に生成・埋め込みます。GroupDocs.Signatureは複数のファイル形式での署名をサポートしています。"
 
 ############################# Header ############################
-title: "《FileFormatUp》にバーコードを簡単に生成・追加" 
+title: "XLSXにバーコードを簡単に生成・追加" 
 description: "GroupDocs.Signature for Node.js via Javaを使用して、ビジネスドキュメントにバーコードを正確に配置して組み込みます。当社のソリューションは、バーコード署名を要件に合わせてカスタマイズするための広範なオプションを提供します。"
 subtitle: "GroupDocs.Signature for Node.js via Java" 
 
@@ -43,12 +43,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "《FileFormatUp》ファイルにバーコードを生成・埋め込む方法"
+    title: "XLSXファイルにバーコードを生成・埋め込む方法"
     content: |
-      [GroupDocs.Signature](/signature/nodejs-java/)は、さまざまな人気のある形式で《FileFormatUp》ページにバーコードを生成・配置する機能を提供します。60種類以上のバーコードタイプに対応し、Node.js via Javaアプリケーションは当社のライブラリを統合することでバーコード署名機能を簡単に強化できます。
+      [GroupDocs.Signature](/signature/nodejs-java/)は、さまざまな人気のある形式でXLSXページにバーコードを生成・配置する機能を提供します。60種類以上のバーコードタイプに対応し、Node.js via Javaアプリケーションは当社のライブラリを統合することでバーコード署名機能を簡単に強化できます。
       
-      1. 処理のために《FileFormatUp》ファイルまたはストリームを提供します。
-      2. バーコードテキストを《BarcodeSignOptions》インスタンスに渡します。
+      1. 処理のためにXLSXファイルまたはストリームを提供します。
+      2. バーコードテキストをBarcodeSignOptionsインスタンスに渡します。
       3. 位置、サイズなどのバーコード設定を調整します。
       4. 新しく追加されたバーコードを持つドキュメントを保存します。
    
@@ -74,10 +74,10 @@ steps:
         ```javascript {style=abap}
         const signatureLib = require('@groupdocs/groupdocs.signature')
 
-        // ドキュメントパスを持つ《TextSignature》オブジェクトをインスタンス化
+        // ドキュメントパスを持つSignatureオブジェクトをインスタンス化
         const signature = new signatureLib.Signature('input.xlsx');
 
-        // 《BarcodeSignOptions》を使用して、ドキュメントにバーコードを統合
+        // BarcodeSignOptionsを使用して、ドキュメントにバーコードを統合
         const options = new signatureLib.BarcodeSignOptions('Business data');
 
         // バーコードの種類と追加のパラメータを設定
@@ -117,7 +117,7 @@ more_features:
     # code sample ext loop
     - title: "バーコード署名を適用する方法"
       content: |
-        この例は、《FileFormatUp》ドキュメントページにカスタマイズされたバーコードを埋め込む方法を示しています。
+        この例は、XLSXドキュメントページにカスタマイズされたバーコードを埋め込む方法を示しています。
       code:
         title: "JavaScript"
         content: |
@@ -127,7 +127,7 @@ more_features:
           // 署名されるドキュメントを提供
           const signature = new signatureLib.Signature('input.xlsx');
 
-          // 《BarcodeSignOptions》を使用して、ドキュメントにバーコードを統合
+          // BarcodeSignOptionsを使用して、ドキュメントにバーコードを統合
           const signOptions = new signatureLib.BarcodeSignOptions('Accepted');
           signOptions.setEncodeType(signatureLib.BarcodeTypes.Code39FullASCII);
 

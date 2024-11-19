@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-18T11:52:11
+date:  2024-11-19T15:16:30
 draft: false
 lang: vi
 format: Jpeg

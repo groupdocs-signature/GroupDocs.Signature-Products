@@ -1,10 +1,10 @@
 {
   "head": {
-    "title": "{{ProgLang}}を使用して《FileFormatUp》のバーコードを生成",
-    "description": "数行のコードだけで、《ProgLang》を用いて《FileFormatUp》ドキュメントにバーコード署名を迅速に生成・埋め込みます。{{ProdShortName}}は複数のファイル形式での署名をサポートしています。"
+    "title": "{{ProgLang}}を使用して{{FileFormatUp}}のバーコードを生成",
+    "description": "数行のコードだけで、{{ProgLang}}を用いて{{FileFormatUp}}ドキュメントにバーコード署名を迅速に生成・埋め込みます。{{ProdShortName}}は複数のファイル形式での署名をサポートしています。"
   },
   "header": {
-    "title": "《FileFormatUp》にバーコードを簡単に生成・追加",
+    "title": "{{FileFormatUp}}にバーコードを簡単に生成・追加",
     "description": "{{ProdFullName}}を使用して、ビジネスドキュメントにバーコードを正確に配置して組み込みます。当社のソリューションは、バーコード署名を要件に合わせてカスタマイズするための広範なオプションを提供します。",
     "subtitle": "{{ProdFullName}}",
     "action_title": "今すぐダウンロード - 無料です！"
@@ -43,24 +43,24 @@
     "description": "私たちが提供するさまざまな署名タイプとツールを体験してください"
   },
   "examples": {
-    "comment_1": "ドキュメントパスを持つ《TextSignature》オブジェクトをインスタンス化",
-    "comment_2": "《BarcodeSignOptions》を使用して、ドキュメントにバーコードを統合",
+    "comment_1": "ドキュメントパスを持つ{{TextSignature}}オブジェクトをインスタンス化",
+    "comment_2": "{{BarcodeSignOptions}}を使用して、ドキュメントにバーコードを統合",
     "comment_3": "バーコードの種類と追加のパラメータを設定",
     "comment_4": "署名されたドキュメントを保存"
   },
   "steps": {
-    "title": "《FileFormatUp》ファイルにバーコードを生成・埋め込む方法",
+    "title": "{{FileFormatUp}}ファイルにバーコードを生成・埋め込む方法",
     "content": {
-      "title": "[{{ProdShortName}}]({{PlatformLink}})は、さまざまな人気のある形式で《FileFormatUp》ページにバーコードを生成・配置する機能を提供します。60種類以上のバーコードタイプに対応し、{{EnvName}}アプリケーションは当社のライブラリを統合することでバーコード署名機能を簡単に強化できます。",
-      "step_1": "処理のために《FileFormatUp》ファイルまたはストリームを提供します。",
-      "step_2": "バーコードテキストを《BarcodeSignOptions》インスタンスに渡します。",
+      "title": "[{{ProdShortName}}]({{PlatformLink}})は、さまざまな人気のある形式で{{FileFormatUp}}ページにバーコードを生成・配置する機能を提供します。60種類以上のバーコードタイプに対応し、{{EnvName}}アプリケーションは当社のライブラリを統合することでバーコード署名機能を簡単に強化できます。",
+      "step_1": "処理のために{{FileFormatUp}}ファイルまたはストリームを提供します。",
+      "step_2": "バーコードテキストを{{BarcodeSignOptions}}インスタンスに渡します。",
       "step_3": "位置、サイズなどのバーコード設定を調整します。",
       "step_4": "新しく追加されたバーコードを持つドキュメントを保存します。"
     }
   },
   "code_1": {
     "title": "バーコード署名を適用する方法",
-    "content": "この例は、《FileFormatUp》ドキュメントページにカスタマイズされたバーコードを埋め込む方法を示しています。",
+    "content": "この例は、{{FileFormatUp}}ドキュメントページにカスタマイズされたバーコードを埋め込む方法を示しています。",
     "comment_1": "署名されるドキュメントを提供",
     "comment_2": "目的のバーコードテキストで署名オプションを作成",
     "comment_3": "ページ上のバーコードの相対位置を設定",
