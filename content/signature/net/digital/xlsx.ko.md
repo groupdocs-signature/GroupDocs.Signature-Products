@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:22
 draft: false
 lang: ko
 format: Xlsx
@@ -115,42 +115,64 @@ more_features:
     - title: "불필요한 서명 제거"
       content: "우리의 솔루션은 서명에 대한 전체 CRUD 작업을 제공합니다. 필요 시 디지털 인증서를 포함한 다양한 서명 유형을 문서에서 제거할 수 있습니다."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "디지털 서명으로 문서 보안"
       content: |
         디지털 서명을 사용하여 문서 수정 방지 방법을 알아보세요.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // 서명할 문서를 제공하세요
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // 해당 비밀번호가 포함된 유효한 디지털 인증서를 사용하세요
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // 서명할 문서를 제공하세요
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // 해당 비밀번호가 포함된 유효한 디지털 인증서를 사용하세요
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // 기타 추가 텍스트 정보를 지정합니다
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // 기타 추가 텍스트 정보를 지정합니다
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // 시각적 표현을 위한 이미지 및 기타 옵션을 포함합니다
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // 시각적 표현을 위한 이미지 및 기타 옵션을 포함합니다
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // 보안된 문서를 지정된 위치에 저장합니다
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // 보안된 문서를 지정된 위치에 저장합니다
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "복사"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "클릭하여 복사"
+          copy_done: "복사됨"
+        top_links:
+          #  loop
+          - title: "결과 다운로드"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "더 많은 예제"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "문서"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

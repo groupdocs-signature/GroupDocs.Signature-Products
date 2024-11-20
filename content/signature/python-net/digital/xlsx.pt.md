@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: pt
 format: Xlsx
@@ -116,45 +116,67 @@ more_features:
     - title: "Remova assinaturas desnecessárias"
       content: "Nossa solução suporta gerenciamento completo de assinaturas, permitindo que você exclua assinaturas, incluindo certificados digitais, de qualquer documento quando necessário."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Proteja documentos com assinaturas digitais"
       content: |
         Aprenda como proteger seus documentos aplicando assinaturas digitais para evitar modificações não autorizadas.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Carregue o documento a ser assinado
-            with sg.Signature('input.xlsx') as signature:
+              # Carregue o documento a ser assinado
+              with sg.Signature('input.xlsx') as signature:
 
-                # Use um certificado digital válido com sua senha correspondente
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Use um certificado digital válido com sua senha correspondente
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Adicione quaisquer informações textuais adicionais, se necessário
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Adicione quaisquer informações textuais adicionais, se necessário
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Inclua uma imagem ou outras opções para representação visual da assinatura
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Inclua uma imagem ou outras opções para representação visual da assinatura
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Salve o documento assinado em um local seguro
-                result = signature.Sign("output.xlsx", options)
-        ```
-        {{< /landing/code >}}
+                  # Salve o documento assinado em um local seguro
+                  result = signature.Sign("output.xlsx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copiar"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "clique para copiar"
+          copy_done: "copiado"
+        top_links:
+          #  loop
+          - title: "Baixar resultado"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Mais exemplos"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentação"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

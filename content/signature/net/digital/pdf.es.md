@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: es
 format: Pdf
@@ -115,42 +115,64 @@ more_features:
     - title: "Eliminar firmas redundantes"
       content: "Nuestra solución proporciona operaciones completas CRUD para firmas. Si es necesario, puedes eliminar una variedad de tipos de firma, incluidos los certificados digitales, de tu documento."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Asegura documentos con firmas digitales"
       content: |
         Descubre cómo prevenir modificaciones en documentos usando firmas digitales.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Proporciona el documento a firmar
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Usa un certificado digital válido con la contraseña correspondiente
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Proporciona el documento a firmar
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // Usa un certificado digital válido con la contraseña correspondiente
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Especifica cualquier información adicional de texto
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Especifica cualquier información adicional de texto
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Incorpora una imagen y otras opciones para la representación visual
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Incorpora una imagen y otras opciones para la representación visual
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Guarda el documento asegurado en una ubicación designada
-            SignResult result = signature.Sign("output.pdf", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Guarda el documento asegurado en una ubicación designada
+              SignResult result = signature.Sign("output.pdf", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copiar"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "haz clic para copiar"
+          copy_done: "copiado"
+        top_links:
+          #  loop
+          - title: "Descargar resultado"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Más ejemplos"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentación"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

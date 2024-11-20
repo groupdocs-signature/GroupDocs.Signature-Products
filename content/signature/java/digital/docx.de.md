@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:21
 draft: false
 lang: de
 format: Docx
@@ -128,43 +128,80 @@ more_features:
     - title: "Unnötige Signaturen entfernen"
       content: "Unsere Lösung unterstützt vollständige CRUD-Operationen für Signaturen. Viele Arten von Signaturen, einschließlich digitaler Zertifikate, können bei Bedarf aus einem Dokument gelöscht werden."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Dokumente mit digitalen Signaturen schützen"
       content: |
         Erfahren Sie, wie Sie ein Dokument vor Änderungen mithilfe digitaler Signaturen sichern.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Stellen Sie ein Dokument zur Signatur bereit
-        Signature signature = new Signature("input.docx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Stellen Sie ein Dokument zur Signatur bereit
+          Signature signature = new Signature("input.docx");
 
-        // Verwenden Sie ein gültiges digitales Zertifikat mit Passwort
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Verwenden Sie ein gültiges digitales Zertifikat mit Passwort
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Geben Sie zusätzliche Textdaten an
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Geben Sie zusätzliche Textdaten an
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Verwenden Sie ein Bild und andere Optionen für die visuelle Darstellung
-        options.setImageFilePath("image.png");
+          // Verwenden Sie ein Bild und andere Optionen für die visuelle Darstellung
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Speichern Sie das geschützte Dokument an einem anderen Speicherort
-        SignResult result = signature.sign("output.docx", options);
-        ```
-        {{< /landing/code >}}
+          // Speichern Sie das geschützte Dokument an einem anderen Speicherort
+          SignResult result = signature.sign("output.docx", options);
+          ```
+        platform: "java"
+        copy_title: "Kopieren"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "Klicken zum Kopieren"
+          copy_done: "kopiert"
+        top_links:
+          #  loop
+          - title: "Ergebnis herunterladen"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "Weitere Beispiele"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Dokumentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

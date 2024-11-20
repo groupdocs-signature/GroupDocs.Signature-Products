@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: uk
 format: Pdf
@@ -128,43 +128,80 @@ more_features:
     - title: "Видалення непотрібних підписів"
       content: "Наше рішення підтримує повні CRUD-операції для підписів. Багато типів підписів, включаючи цифрові сертифікати, можуть бути видалені з документа за необхідності."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Захист документів цифровими підписами"
       content: |
         Дізнайтеся, як забезпечити документ від змін за допомогою цифрових підписів.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Надайте документ для підписання
-        Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Надайте документ для підписання
+          Signature signature = new Signature("input.pdf");
 
-        // Використовуйте дійсний цифровий сертифікат з паролем
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Використовуйте дійсний цифровий сертифікат з паролем
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Вкажіть додаткові текстові дані
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Вкажіть додаткові текстові дані
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Використовуйте зображення та інші параметри для візуального представлення
-        options.setImageFilePath("image.png");
+          // Використовуйте зображення та інші параметри для візуального представлення
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Збережіть захищений документ в іншому місці
-        SignResult result = signature.sign("output.pdf", options);
-        ```
-        {{< /landing/code >}}
+          // Збережіть захищений документ в іншому місці
+          SignResult result = signature.sign("output.pdf", options);
+          ```
+        platform: "java"
+        copy_title: "Копіювати"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "натисніть для копіювання"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "Завантажити результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

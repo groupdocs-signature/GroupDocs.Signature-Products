@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: zh
 format: Pdf
@@ -114,44 +114,66 @@ more_features:
     - title: "消除不必要的签名"
       content: "我们的解决方案支持签名的完整CRUD操作。如有需要，您可以从文档中删除多种签名类型，包括数字证书。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "使用数字签名保护文档"
       content: |
         了解如何使用数字签名锁定文档以防止更改。
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // 提供需要签名的文档
-        const signature = new signatureLib.Signature('input.pdf');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // 提供需要签名的文档
+          const signature = new signatureLib.Signature('input.pdf');
 
-        // 使用适当的数字证书及其密码
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // 使用适当的数字证书及其密码
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // 添加额外的文本信息
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // 添加额外的文本信息
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // 添加例如图像等视觉元素来表示签名
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // 添加例如图像等视觉元素来表示签名
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // 将数字安全文档保存到指定位置
-        const result = signature.sign('output.pdf', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // 将数字安全文档保存到指定位置
+          const result = signature.sign('output.pdf', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "复制"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "点击以复制"
+          copy_done: "已复制"
+        top_links:
+          #  loop
+          - title: "下载结果"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "更多示例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "文档"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

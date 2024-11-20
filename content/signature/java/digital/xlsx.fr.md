@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: fr
 format: Xlsx
@@ -128,43 +128,80 @@ more_features:
     - title: "Supprimer les signatures inutiles"
       content: "Notre solution supporte les opérations CRUD complètes pour les signatures. De nombreux types de signatures, y compris les certificats numériques, peuvent être supprimés d'un document si nécessaire."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Protéger les documents avec des signatures numériques"
       content: |
         Apprenez comment sécuriser un document contre les modifications en utilisant des signatures numériques.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Fournissez un document à signer
-        Signature signature = new Signature("input.xlsx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Fournissez un document à signer
+          Signature signature = new Signature("input.xlsx");
 
-        // Utilisez un certificat numérique valide avec un mot de passe
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Utilisez un certificat numérique valide avec un mot de passe
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Spécifiez des données textuelles supplémentaires
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Spécifiez des données textuelles supplémentaires
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Utilisez une image et d'autres options pour une représentation visuelle
-        options.setImageFilePath("image.png");
+          // Utilisez une image et d'autres options pour une représentation visuelle
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Enregistrez le document protégé dans un autre emplacement
-        SignResult result = signature.sign("output.xlsx", options);
-        ```
-        {{< /landing/code >}}
+          // Enregistrez le document protégé dans un autre emplacement
+          SignResult result = signature.sign("output.xlsx", options);
+          ```
+        platform: "java"
+        copy_title: "Copier"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "cliquez pour copier"
+          copy_done: "copié"
+        top_links:
+          #  loop
+          - title: "Télécharger le résultat"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Plus d'exemples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

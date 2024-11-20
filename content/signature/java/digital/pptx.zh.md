@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: zh
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "删除不必要的签名"
       content: "我们的解决方案支持签名的完整 CRUD 操作。在必要时，可以从文档中删除许多类型的签名，包括数字证书。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "使用数字签名保护文档"
       content: |
         了解如何通过数字签名来保护文档不被更改。
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // 提供要签署的文档
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // 提供要签署的文档
+          Signature signature = new Signature("input.pptx");
 
-        // 使用有效的数字证书和密码
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // 使用有效的数字证书和密码
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // 指定其他文本数据
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // 指定其他文本数据
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // 使用图像和其他选项进行视觉表示
-        options.setImageFilePath("image.png");
+          // 使用图像和其他选项进行视觉表示
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // 将保护文档保存到其他位置
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // 将保护文档保存到其他位置
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "复制"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "点击以复制"
+          copy_done: "已复制"
+        top_links:
+          #  loop
+          - title: "下载结果"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "更多示例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "文档"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

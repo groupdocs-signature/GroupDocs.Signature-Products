@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: vi
 format: Xlsx
@@ -115,42 +115,64 @@ more_features:
     - title: "Xóa chữ ký không cần thiết"
       content: "Giải pháp của chúng tôi cung cấp các thao tác CRUD hoàn chỉnh cho các chữ ký. Nếu cần thiết, bạn có thể xóa nhiều loại chữ ký, bao gồm cả chứng chỉ số, khỏi tài liệu của bạn."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Bảo mật tài liệu bằng chữ ký số"
       content: |
         Khám phá cách ngăn chặn sự thay đổi tài liệu bằng cách sử dụng chữ ký số.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Cung cấp tài liệu cần ký
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Sử dụng một chứng chỉ số hợp lệ với mật khẩu tương ứng
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Cung cấp tài liệu cần ký
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // Sử dụng một chứng chỉ số hợp lệ với mật khẩu tương ứng
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Chỉ định bất kỳ thông tin văn bản bổ sung nào
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Chỉ định bất kỳ thông tin văn bản bổ sung nào
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Nhúng một hình ảnh và các tùy chọn khác để đại diện hình ảnh
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Nhúng một hình ảnh và các tùy chọn khác để đại diện hình ảnh
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Lưu tài liệu đã được bảo mật tại một vị trí đã chỉ định
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Lưu tài liệu đã được bảo mật tại một vị trí đã chỉ định
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Sao chép"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "nhấp để sao chép"
+          copy_done: "đã sao chép"
+        top_links:
+          #  loop
+          - title: "Tải xuống kết quả"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Thêm ví dụ"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Tài liệu hướng dẫn"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

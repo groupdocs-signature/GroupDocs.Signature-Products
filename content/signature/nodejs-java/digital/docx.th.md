@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: th
 format: Docx
@@ -114,44 +114,66 @@ more_features:
     - title: "ลบลายเซ็นที่ไม่จำเป็น"
       content: "โซลูชันของเราสามารถดำเนินการ CRUD เต็มรูปแบบสำหรับลายเซ็น หากจำเป็น คุณสามารถลบลายเซ็นประเภทต่างๆ รวมถึงใบรับรองดิจิทัลจากเอกสารของคุณ"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "ปกป้องเอกสารด้วยลายเซ็นดิจิทัล"
       content: |
         เรียนรู้วิธีล็อกเอกสารเพื่อป้องกันการเปลี่ยนแปลงโดยใช้ลายเซ็นดิจิทัล
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // จัดเตรียมเอกสารที่ต้องการเซ็น
-        const signature = new signatureLib.Signature('input.docx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // จัดเตรียมเอกสารที่ต้องการเซ็น
+          const signature = new signatureLib.Signature('input.docx');
 
-        // ใช้ใบรับรองดิจิทัลและรหัสผ่านที่เหมาะสม
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // ใช้ใบรับรองดิจิทัลและรหัสผ่านที่เหมาะสม
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // รวมข้อมูลข้อความเพิ่มเติมเมื่อจำเป็น
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // รวมข้อมูลข้อความเพิ่มเติมเมื่อจำเป็น
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // เพิ่มองค์ประกอบภาพ เช่น รูปภาพ สำหรับการแสดงผลลายเซ็น
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // เพิ่มองค์ประกอบภาพ เช่น รูปภาพ สำหรับการแสดงผลลายเซ็น
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // บันทึกเอกสารที่รักษาความปลอดภัยด้วยดิจิทัลไปยังตำแหน่งที่กำหนด
-        const result = signature.sign('output.docx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // บันทึกเอกสารที่รักษาความปลอดภัยด้วยดิจิทัลไปยังตำแหน่งที่กำหนด
+          const result = signature.sign('output.docx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "คัดลอก"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "คลิกเพื่อคัดลอก"
+          copy_done: "คัดลอกแล้ว"
+        top_links:
+          #  loop
+          - title: "ดาวน์โหลดผลลัพธ์"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "ตัวอย่างเพิ่มเติม"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "เอกสาร"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

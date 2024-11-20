@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: de
 format: Pdf
@@ -115,42 +115,64 @@ more_features:
     - title: "Überflüssige Signaturen entfernen"
       content: "Unsere Lösung bietet vollständige CRUD-Operationen für Signaturen. Falls erforderlich, können Sie eine Vielzahl von Signaturtypen, einschließlich digitaler Zertifikate, aus Ihrem Dokument entfernen."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Dokumente mit digitalen Signaturen sichern"
       content: |
         Erfahren Sie, wie Sie Dokumentenänderungen mit digitalen Signaturen verhindern.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Geben Sie das Dokument an, das signiert werden soll
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Verwenden Sie ein gültiges digitales Zertifikat mit dem entsprechenden Passwort
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Geben Sie das Dokument an, das signiert werden soll
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // Verwenden Sie ein gültiges digitales Zertifikat mit dem entsprechenden Passwort
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Geben Sie zusätzliche Textinformationen an
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Geben Sie zusätzliche Textinformationen an
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Fügen Sie ein Bild und weitere Optionen für die visuelle Darstellung hinzu
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Fügen Sie ein Bild und weitere Optionen für die visuelle Darstellung hinzu
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Speichern Sie das gesicherte Dokument an einem gewünschten Ort
-            SignResult result = signature.Sign("output.pdf", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Speichern Sie das gesicherte Dokument an einem gewünschten Ort
+              SignResult result = signature.Sign("output.pdf", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Kopieren"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "Klicken zum Kopieren"
+          copy_done: "kopiert"
+        top_links:
+          #  loop
+          - title: "Ergebnis herunterladen"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Weitere Beispiele"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Dokumentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

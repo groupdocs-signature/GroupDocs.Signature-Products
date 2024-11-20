@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: id
 format: Xlsx
@@ -114,44 +114,66 @@ more_features:
     - title: "Hapus tanda tangan yang tidak diperlukan"
       content: "Solusi kami memungkinkan operasi CRUD penuh untuk tanda tangan. Jika diperlukan, Anda dapat menghapus berbagai jenis tanda tangan, termasuk sertifikat digital, dari dokumen Anda."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Lindungi dokumen dengan tanda tangan digital"
       content: |
         Pelajari cara mengunci dokumen dari perubahan menggunakan tanda tangan digital.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Sediakan dokumen yang memerlukan penandatanganan
-        const signature = new signatureLib.Signature('input.xlsx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Sediakan dokumen yang memerlukan penandatanganan
+          const signature = new signatureLib.Signature('input.xlsx');
 
-        // Gunakan sertifikat digital yang sesuai dan kata sandinya
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Gunakan sertifikat digital yang sesuai dan kata sandinya
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Sertakan informasi teks tambahan
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Sertakan informasi teks tambahan
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Tambahkan elemen visual seperti gambar untuk representasi tanda tangan
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Tambahkan elemen visual seperti gambar untuk representasi tanda tangan
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Simpan dokumen yang diamankan secara digital ke lokasi yang ditentukan
-        const result = signature.sign('output.xlsx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Simpan dokumen yang diamankan secara digital ke lokasi yang ditentukan
+          const result = signature.sign('output.xlsx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Salin"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "klik untuk menyalin"
+          copy_done: "disalin"
+        top_links:
+          #  loop
+          - title: "Unduh hasil"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Lebih banyak contoh"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Dokumentasi"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

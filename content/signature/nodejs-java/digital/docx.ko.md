@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: ko
 format: Docx
@@ -114,44 +114,66 @@ more_features:
     - title: "불필요한 서명 제거하기"
       content: "우리의 솔루션은 서명에 대한 전체 CRUD 작업을 지원합니다. 필요한 경우, 문서에서 다양한 서명 유형, 디지털 인증서를 포함하여 제거할 수 있습니다."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "디지털 서명으로 문서 보호하기"
       content: |
         디지털 서명을 사용하여 문서를 변경할 수 없도록 하는 방법을 배우십시오.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // 서명이 필요한 문서를 제공합니다.
-        const signature = new signatureLib.Signature('input.docx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // 서명이 필요한 문서를 제공합니다.
+          const signature = new signatureLib.Signature('input.docx');
 
-        // 적절한 디지털 인증서와 비밀번호를 사용하십시오.
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // 적절한 디지털 인증서와 비밀번호를 사용하십시오.
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // 필요한 추가 텍스트 정보를 포함하십시오.
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // 필요한 추가 텍스트 정보를 포함하십시오.
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // 서명 표현을 위한 이미지와 같은 시각적 요소를 추가하십시오.
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // 서명 표현을 위한 이미지와 같은 시각적 요소를 추가하십시오.
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // 디지털로 안전하게 된 문서를 지정된 위치에 저장하십시오.
-        const result = signature.sign('output.docx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // 디지털로 안전하게 된 문서를 지정된 위치에 저장하십시오.
+          const result = signature.sign('output.docx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "복사"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "클릭하여 복사"
+          copy_done: "복사됨"
+        top_links:
+          #  loop
+          - title: "결과 다운로드"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "더 많은 예제"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "문서"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

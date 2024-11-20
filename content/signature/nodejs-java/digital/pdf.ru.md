@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: ru
 format: Pdf
@@ -114,44 +114,66 @@ more_features:
     - title: "Устраните ненужные подписи"
       content: "Наше решение позволяет выполнять полные операции CRUD для подписей. При необходимости вы можете удалить различные типы подписей, включая цифровые сертификаты, из вашего документа."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Защитите документы с помощью цифровых подписей"
       content: |
         Узнайте, как заблокировать документ от изменений с использованием цифровых подписей.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Предоставьте документ, который требует подписи
-        const signature = new signatureLib.Signature('input.pdf');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Предоставьте документ, который требует подписи
+          const signature = new signatureLib.Signature('input.pdf');
 
-        // Используйте соответствующий цифровой сертификат и его пароль
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Используйте соответствующий цифровой сертификат и его пароль
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Включите любую дополнительную текстовую информацию
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Включите любую дополнительную текстовую информацию
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Добавьте визуальные элементы, такие как изображения для представления подписи
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Добавьте визуальные элементы, такие как изображения для представления подписи
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Сохраните цифровым образом защищенный документ в указанном месте
-        const result = signature.sign('output.pdf', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Сохраните цифровым образом защищенный документ в указанном месте
+          const result = signature.sign('output.pdf', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Копировать"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "щелкните, чтобы скопировать"
+          copy_done: "скопировано"
+        top_links:
+          #  loop
+          - title: "Скачать результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Больше примеров"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Документация"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: fa
 format: Pdf
@@ -114,44 +114,66 @@ more_features:
     - title: "امضاهای غیرضروری را حذف کنید"
       content: "راه‌حل ما امکان انجام کامل عملیات CRUD برای امضاها را فراهم می‌کند. در صورت نیاز، می‌توانید انواع مختلف امضاها، از جمله گواهی‌های دیجیتال، را از سند خود حذف کنید."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "محافظت از اسناد با امضاهای دیجیتال"
       content: |
         یاد بگیرید چگونه یک سند را با استفاده از امضاهای دیجیتال در برابر تغییرات قفل کنید.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // سندی که نیاز به امضا دارد را ارائه دهید
-        const signature = new signatureLib.Signature('input.pdf');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // سندی که نیاز به امضا دارد را ارائه دهید
+          const signature = new signatureLib.Signature('input.pdf');
 
-        // از یک گواهی دیجیتال مناسب و رمز عبور آن استفاده کنید
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // از یک گواهی دیجیتال مناسب و رمز عبور آن استفاده کنید
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // هر گونه اطلاعات متنی اضافی را اضافه کنید
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // هر گونه اطلاعات متنی اضافی را اضافه کنید
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // عناصر بصری مانند تصاویر را برای نمایش امضا اضافه کنید
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // عناصر بصری مانند تصاویر را برای نمایش امضا اضافه کنید
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // سند دیجیتال قفل شده را به محل مشخصی ذخیره کنید
-        const result = signature.sign('output.pdf', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // سند دیجیتال قفل شده را به محل مشخصی ذخیره کنید
+          const result = signature.sign('output.pdf', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "کپی"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "دانلود نتیجه"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "نمونه‌های بیشتر"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

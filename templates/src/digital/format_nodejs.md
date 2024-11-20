@@ -113,44 +113,66 @@ more_features:
     - title: "<% "{more_features.feature_4.title}" %>"
       content: "<% "{more_features.feature_4.content}" %>"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "<% "{code_1.title}" %>"
       content: |
         <% "{code_1.content}" %>
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // <% "{code_1.comment_1}" %>
-        const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // <% "{code_1.comment_1}" %>
+          const signature = new signatureLib.Signature('input.<% get "fileformat" %>');
 
-        // <% "{code_1.comment_2}" %>
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // <% "{code_1.comment_2}" %>
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // <% "{code_1.comment_3}" %>
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // <% "{code_1.comment_3}" %>
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // <% "{code_1.comment_4}" %>
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // <% "{code_1.comment_4}" %>
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // <% "{code_1.comment_5}" %>
-        const result = signature.sign('output.<% get "fileformat" %>', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // <% "{code_1.comment_5}" %>
+          const result = signature.sign('output.<% get "fileformat" %>', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "<% "{common-content.format-code.copy_title}" %>"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
+          copy_done: "<% "{common-content.format-code.copy_done}" %>"
+        top_links:
+          #  loop
+          - title: "<% "{common-content.format-code.result_title_bottom}" %>"
+            icon: "download"
+            link: "/examples/signature/formats/signature_<% get "OperationLow" %>.<% get "fileformat" %>"
+        links:
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_1}" %>"
+            link: "<% get "MoreLink" %>"
+          #  loop
+          - title: "<% "{common-content.format-code.links.title_2}" %>"
+            link: "<% get "DocsUrl" %>"
+            
+
+            
 
 
 ############################# Actions ############################

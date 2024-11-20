@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: uk
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "Видаляйте непотрібні підписи"
       content: "Наше рішення підтримує комплексне управління підписами, що дозволяє вам видаляти підписи, включаючи цифрові сертифікати, з будь-якого документа, коли це потрібно."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Захистіть документи з електронними підписами"
       content: |
         Дізнайтеся, як захистити свої документи за допомогою електронних підписів, щоб запобігти несанкціонованим змінам.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Завантажте документ для підписання
-            with sg.Signature('input.pptx') as signature:
+              # Завантажте документ для підписання
+              with sg.Signature('input.pptx') as signature:
 
-                # Використовуйте дійсний цифровий сертифікат з відповідним паролем
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Використовуйте дійсний цифровий сертифікат з відповідним паролем
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Додайте будь-яку додаткову текстову інформацію за необхідності
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Додайте будь-яку додаткову текстову інформацію за необхідності
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Включте зображення або інші варіанти для візуального подання підпису
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Включте зображення або інші варіанти для візуального подання підпису
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Збережіть підписаний документ у безпечному місці
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # Збережіть підписаний документ у безпечному місці
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Копіювати"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "натисніть для копіювання"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "Завантажити результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

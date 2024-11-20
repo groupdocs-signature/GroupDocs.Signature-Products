@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:23
 draft: false
 lang: id
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "Hapus tanda tangan yang tidak diperlukan"
       content: "Solusi kami mendukung manajemen tanda tangan secara lengkap, memungkinkan Anda untuk menghapus tanda tangan, termasuk sertifikat digital, dari dokumen kapan pun diperlukan."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Lindungi dokumen dengan tanda tangan digital"
       content: |
         Pelajari cara mengamankan dokumen Anda dengan menerapkan tanda tangan digital untuk mencegah modifikasi yang tidak sah.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Muat dokumen yang akan ditandatangani
-            with sg.Signature('input.pptx') as signature:
+              # Muat dokumen yang akan ditandatangani
+              with sg.Signature('input.pptx') as signature:
 
-                # Gunakan sertifikat digital yang valid dengan kata sandinya yang sesuai
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Gunakan sertifikat digital yang valid dengan kata sandinya yang sesuai
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Tambahkan informasi teks tambahan jika diperlukan
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Tambahkan informasi teks tambahan jika diperlukan
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Sertakan gambar atau opsi lain untuk representasi visual dari tanda tangan
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Sertakan gambar atau opsi lain untuk representasi visual dari tanda tangan
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Simpan dokumen yang ditandatangani di lokasi yang aman
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # Simpan dokumen yang ditandatangani di lokasi yang aman
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Salin"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "klik untuk menyalin"
+          copy_done: "disalin"
+        top_links:
+          #  loop
+          - title: "Unduh hasil"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Lebih banyak contoh"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Dokumentasi"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

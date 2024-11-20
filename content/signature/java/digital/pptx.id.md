@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: id
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "Hapus tanda tangan yang tidak perlu"
       content: "Solusi kami mendukung operasi CRUD penuh untuk tanda tangan. Banyak jenis tanda tangan, termasuk sertifikat digital, dapat dihapus dari dokumen jika diperlukan."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Lindungi dokumen dengan tanda tangan digital"
       content: |
         Pelajari cara mengamankan dokumen dari perubahan menggunakan tanda tangan digital.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Sediakan dokumen untuk ditandatangani
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Sediakan dokumen untuk ditandatangani
+          Signature signature = new Signature("input.pptx");
 
-        // Gunakan sertifikat digital yang valid dengan kata sandi
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Gunakan sertifikat digital yang valid dengan kata sandi
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Tentukan data teks tambahan
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Tentukan data teks tambahan
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Gunakan gambar dan opsi lain untuk representasi visual
-        options.setImageFilePath("image.png");
+          // Gunakan gambar dan opsi lain untuk representasi visual
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Simpan dokumen yang dilindungi ke lokasi yang berbeda
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // Simpan dokumen yang dilindungi ke lokasi yang berbeda
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "Salin"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "klik untuk menyalin"
+          copy_done: "disalin"
+        top_links:
+          #  loop
+          - title: "Unduh hasil"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Lebih banyak contoh"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Dokumentasi"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

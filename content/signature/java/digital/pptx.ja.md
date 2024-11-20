@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: ja
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "不要な署名を削除"
       content: "私たちのソリューションは、署名の完全なCRUD操作をサポートしています。デジタル証明書を含む多くの種類の署名を、必要に応じて文書から削除できます。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "デジタル署名で文書を保護"
       content: |
         デジタル署名を使用して文書の変更から保護する方法を学びます。
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // 署名するための文書を提供
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // 署名するための文書を提供
+          Signature signature = new Signature("input.pptx");
 
-        // パスワード付きの有効なデジタル証明書を使用
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // パスワード付きの有効なデジタル証明書を使用
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // 追加のテキストデータを指定
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // 追加のテキストデータを指定
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // 視覚表現のために画像や他のオプションを使用
-        options.setImageFilePath("image.png");
+          // 視覚表現のために画像や他のオプションを使用
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // 保護された文書を別の場所に保存
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // 保護された文書を別の場所に保存
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "コピー"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "クリックしてコピー"
+          copy_done: "コピーしました"
+        top_links:
+          #  loop
+          - title: "結果をダウンロード"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "さらなる例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "ドキュメント"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

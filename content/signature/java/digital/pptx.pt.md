@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: pt
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "Remover assinaturas desnecessárias"
       content: "Nossa solução suporta operações completas de CRUD para assinaturas. Muitos tipos de assinaturas, incluindo certificados digitais, podem ser excluídos de um documento quando necessário."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Proteger documentos com assinaturas digitais"
       content: |
         Aprenda a proteger um documento contra alterações usando assinaturas digitais.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Forneça um documento para assinatura
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Forneça um documento para assinatura
+          Signature signature = new Signature("input.pptx");
 
-        // Use um certificado digital válido com uma senha
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Use um certificado digital válido com uma senha
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Especifique dados textuais adicionais
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Especifique dados textuais adicionais
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Use uma imagem e outras opções para representação visual
-        options.setImageFilePath("image.png");
+          // Use uma imagem e outras opções para representação visual
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Salve o documento protegido em um local diferente
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // Salve o documento protegido em um local diferente
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "Copiar"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "clique para copiar"
+          copy_done: "copiado"
+        top_links:
+          #  loop
+          - title: "Baixar resultado"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Mais exemplos"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Documentação"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

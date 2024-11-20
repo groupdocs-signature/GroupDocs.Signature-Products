@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: vi
 format: Docx
@@ -116,45 +116,67 @@ more_features:
     - title: "Xóa chữ ký không cần thiết"
       content: "Giải pháp của chúng tôi hỗ trợ quản lý chữ ký hoàn chỉnh, cho phép bạn xóa chữ ký, bao gồm cả chứng chỉ điện tử, khỏi bất kỳ tài liệu nào khi cần."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Bảo vệ tài liệu bằng chữ ký điện tử"
       content: |
         Tìm hiểu cách bảo mật tài liệu của bạn bằng cách áp dụng chữ ký điện tử để ngăn chặn các thay đổi trái phép.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Tải tài liệu cần được ký
-            with sg.Signature('input.docx') as signature:
+              # Tải tài liệu cần được ký
+              with sg.Signature('input.docx') as signature:
 
-                # Sử dụng chứng chỉ điện tử hợp lệ với mật khẩu tương ứng
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Sử dụng chứng chỉ điện tử hợp lệ với mật khẩu tương ứng
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Thêm thông tin văn bản bổ sung nếu cần
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Thêm thông tin văn bản bổ sung nếu cần
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Bao gồm hình ảnh hoặc các tùy chọn khác để đại diện hình ảnh cho chữ ký
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Bao gồm hình ảnh hoặc các tùy chọn khác để đại diện hình ảnh cho chữ ký
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Lưu tài liệu đã ký ở một vị trí an toàn
-                result = signature.Sign("output.docx", options)
-        ```
-        {{< /landing/code >}}
+                  # Lưu tài liệu đã ký ở một vị trí an toàn
+                  result = signature.Sign("output.docx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Sao chép"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "nhấp để sao chép"
+          copy_done: "đã sao chép"
+        top_links:
+          #  loop
+          - title: "Tải xuống kết quả"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "Thêm ví dụ"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Tài liệu hướng dẫn"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

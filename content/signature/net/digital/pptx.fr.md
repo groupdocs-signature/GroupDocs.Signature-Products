@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: fr
 format: Pptx
@@ -115,42 +115,64 @@ more_features:
     - title: "Supprimez les signatures superflues"
       content: "Notre solution offre des opérations CRUD complètes pour les signatures. Si nécessaire, vous pouvez retirer une variété de types de signatures, y compris des certificats numériques, de votre document."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Sécurisez les documents avec des signatures numériques"
       content: |
         Découvrez comment empêcher les modifications de documents à l'aide de signatures numériques.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Fournissez le document à signer
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Utilisez un certificat numérique valide avec le mot de passe correspondant
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Fournissez le document à signer
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Utilisez un certificat numérique valide avec le mot de passe correspondant
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Spécifiez toute information textuelle supplémentaire
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Spécifiez toute information textuelle supplémentaire
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Intégrez une image et d'autres options pour la représentation visuelle
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Intégrez une image et d'autres options pour la représentation visuelle
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Enregistrez le document sécurisé à un emplacement désigné
-            SignResult result = signature.Sign("output.pptx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Enregistrez le document sécurisé à un emplacement désigné
+              SignResult result = signature.Sign("output.pptx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copier"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "cliquez pour copier"
+          copy_done: "copié"
+        top_links:
+          #  loop
+          - title: "Télécharger le résultat"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Plus d'exemples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

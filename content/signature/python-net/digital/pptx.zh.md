@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: zh
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "删除不必要的签名"
       content: "我们的解决方案支持完整的签名管理，允许您在需要时从任何文档中删除签名，包括数字证书。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "使用数字签名保护文档"
       content: |
         了解如何通过应用数字签名来保护您的文档，以防止未授权的修改。
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # 加载要签名的文档
-            with sg.Signature('input.pptx') as signature:
+              # 加载要签名的文档
+              with sg.Signature('input.pptx') as signature:
 
-                # 使用有效的数字证书及其相应密码
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # 使用有效的数字证书及其相应密码
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # 如有需要，添加任何额外的文本信息
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # 如有需要，添加任何额外的文本信息
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # 包含图像或其他选项以视觉方式表示签名
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # 包含图像或其他选项以视觉方式表示签名
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # 将已签署的文档保存在安全位置
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # 将已签署的文档保存在安全位置
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "复制"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "点击以复制"
+          copy_done: "已复制"
+        top_links:
+          #  loop
+          - title: "下载结果"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "更多示例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "文档"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

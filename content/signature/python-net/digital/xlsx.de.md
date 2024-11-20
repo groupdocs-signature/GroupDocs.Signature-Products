@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: de
 format: Xlsx
@@ -116,45 +116,67 @@ more_features:
     - title: "Unnötige Signaturen entfernen"
       content: "Unsere Lösung unterstützt eine vollständige Signaturverwaltung, die es Ihnen ermöglicht, Signaturen, einschließlich digitaler Zertifikate, aus Dokumenten zu löschen, wenn dies erforderlich ist."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Dokumente mit digitalen Signaturen schützen"
       content: |
         Erfahren Sie, wie Sie Ihre Dokumente durch Anwendung digitaler Signaturen sichern können, um unautorisierte Änderungen zu verhindern.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Laden Sie das zu signierende Dokument
-            with sg.Signature('input.xlsx') as signature:
+              # Laden Sie das zu signierende Dokument
+              with sg.Signature('input.xlsx') as signature:
 
-                # Verwenden Sie ein gültiges digitales Zertifikat mit dem entsprechenden Passwort
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Verwenden Sie ein gültiges digitales Zertifikat mit dem entsprechenden Passwort
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Fügen Sie bei Bedarf zusätzliche Textinformationen hinzu
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Fügen Sie bei Bedarf zusätzliche Textinformationen hinzu
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Fügen Sie ein Bild oder andere Optionen für die visuelle Darstellung der Signatur hinzu
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Fügen Sie ein Bild oder andere Optionen für die visuelle Darstellung der Signatur hinzu
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Speichern Sie das signierte Dokument an einem sicheren Ort
-                result = signature.Sign("output.xlsx", options)
-        ```
-        {{< /landing/code >}}
+                  # Speichern Sie das signierte Dokument an einem sicheren Ort
+                  result = signature.Sign("output.xlsx", options)
+          ```
+        platform: "python-net"
+        copy_title: "Kopieren"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "Klicken zum Kopieren"
+          copy_done: "kopiert"
+        top_links:
+          #  loop
+          - title: "Ergebnis herunterladen"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Weitere Beispiele"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Dokumentation"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

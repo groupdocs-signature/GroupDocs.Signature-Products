@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:23
 draft: false
 lang: ja
 format: Xlsx
@@ -116,45 +116,67 @@ more_features:
     - title: "不要な署名を削除"
       content: "当社のソリューションは、署名管理を完全にサポートし、必要に応じて任意のドキュメントから署名やデジタル証明書を削除できます。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "デジタル署名でドキュメントを保護"
       content: |
         デジタル署名を適用してドキュメントを保護し、無許可変更を防ぐ方法を学びます。
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # 署名するドキュメントをロードします
-            with sg.Signature('input.xlsx') as signature:
+              # 署名するドキュメントをロードします
+              with sg.Signature('input.xlsx') as signature:
 
-                # 有効なデジタル証明書とそれに対応するパスワードを使用します
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # 有効なデジタル証明書とそれに対応するパスワードを使用します
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # 必要に応じて追加のテキスト情報を追加します
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # 必要に応じて追加のテキスト情報を追加します
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # 署名のビジュアル表現には画像やその他のオプションを含めます
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # 署名のビジュアル表現には画像やその他のオプションを含めます
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # 署名済みのドキュメントを安全な場所に保存します
-                result = signature.Sign("output.xlsx", options)
-        ```
-        {{< /landing/code >}}
+                  # 署名済みのドキュメントを安全な場所に保存します
+                  result = signature.Sign("output.xlsx", options)
+          ```
+        platform: "python-net"
+        copy_title: "コピー"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "クリックしてコピー"
+          copy_done: "コピーしました"
+        top_links:
+          #  loop
+          - title: "結果をダウンロード"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "さらなる例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "ドキュメント"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

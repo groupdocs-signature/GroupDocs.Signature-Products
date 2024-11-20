@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: fa
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "حذف امضاهای غیرضروری"
       content: "راه‌حل ما از مدیریت کامل امضاها پشتیبانی می‌کند و به شما این امکان را می‌دهد که امضاها، از جمله گواهی‌نامه‌های دیجیتال، را از هر سند در صورت لزوم حذف کنید."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "محافظت از اسناد با امضاهای دیجیتال"
       content: |
         یاد بگیرید که چگونه اسناد خود را با اعمال امضاهای دیجیتال ایمن کنید تا از تغییرات غیرمجاز جلوگیری کنید.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # سند مورد نظر برای امضا را بارگذاری کنید
-            with sg.Signature('input.pptx') as signature:
+              # سند مورد نظر برای امضا را بارگذاری کنید
+              with sg.Signature('input.pptx') as signature:
 
-                # از یک گواهی دیجیتال معتبر همراه با رمز مربوطه استفاده کنید
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # از یک گواهی دیجیتال معتبر همراه با رمز مربوطه استفاده کنید
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # اگر لازم است، هر گونه اطلاعات متنی اضافی را اضافه کنید
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # اگر لازم است، هر گونه اطلاعات متنی اضافی را اضافه کنید
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # تصویر یا گزینه‌های دیگری برای نمایش بصری امضا شامل کنید
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # تصویر یا گزینه‌های دیگری برای نمایش بصری امضا شامل کنید
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # سند امضا شده را در یک مکان امن ذخیره کنید
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # سند امضا شده را در یک مکان امن ذخیره کنید
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "کپی"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "دانلود نتیجه"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "نمونه‌های بیشتر"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

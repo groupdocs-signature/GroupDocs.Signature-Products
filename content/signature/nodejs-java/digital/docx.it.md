@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: it
 format: Docx
@@ -114,44 +114,66 @@ more_features:
     - title: "Elimina firme non necessarie"
       content: "La nostra soluzione consente operazioni CRUD complete per le firme. Se necessario, puoi rimuovere vari tipi di firme, compresi i certificati digitali, dal tuo documento."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Proteggi documenti con firme digitali"
       content: |
         Scopri come bloccare un documento contro le modifiche utilizzando firme digitali.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Fornisci il documento che richiede la firma
-        const signature = new signatureLib.Signature('input.docx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Fornisci il documento che richiede la firma
+          const signature = new signatureLib.Signature('input.docx');
 
-        // Utilizza un certificato digitale appropriato e la sua password
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Utilizza un certificato digitale appropriato e la sua password
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Includi eventuali informazioni testuali aggiuntive
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Includi eventuali informazioni testuali aggiuntive
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Aggiungi elementi visivi come immagini per la rappresentazione della firma
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Aggiungi elementi visivi come immagini per la rappresentazione della firma
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Salva il documento digitalmente protetto in una posizione specificata
-        const result = signature.sign('output.docx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Salva il documento digitalmente protetto in una posizione specificata
+          const result = signature.sign('output.docx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copia"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "clicca per copiare"
+          copy_done: "copiato"
+        top_links:
+          #  loop
+          - title: "Scarica il risultato"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "Altri esempi"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentazione"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

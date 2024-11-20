@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: ja
 format: Xlsx
@@ -115,42 +115,64 @@ more_features:
     - title: "不要な署名を削除"
       content: "私たちのソリューションは署名に対する完全なCRUD操作を提供します。必要に応じて、デジタル証明書を含むさまざまな署名タイプを文書から削除することができます。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "デジタル署名で文書を保護"
       content: |
         デジタル署名を使用して文書の改ざんを防ぐ方法を発見してください。
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // 署名する文書を提供します
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // 対応するパスワードを持つ有効なデジタル証明書を使用します
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // 署名する文書を提供します
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // 対応するパスワードを持つ有効なデジタル証明書を使用します
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // 追加のテキスト情報を指定します
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // 追加のテキスト情報を指定します
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // 視覚的表現のために画像やその他のオプションを組み込みます
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // 視覚的表現のために画像やその他のオプションを組み込みます
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // 指定された場所に保護された文書を保存します
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // 指定された場所に保護された文書を保存します
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "コピー"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "クリックしてコピー"
+          copy_done: "コピーしました"
+        top_links:
+          #  loop
+          - title: "結果をダウンロード"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "さらなる例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "ドキュメント"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

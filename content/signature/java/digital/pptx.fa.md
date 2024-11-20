@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: fa
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "حذف امضاهای غیر ضروری"
       content: "راه‌حل ما از عملیات CRUD کامل برای امضاها پشتیبانی می‌کند. بسیاری از انواع امضاها، از جمله گواهی‌های دیجیتال، می‌توانند در صورت نیاز از یک سند حذف شوند."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "محافظت از اسناد با امضاهای دیجیتال"
       content: |
         یاد بگیرید چگونه یک سند را از تغییرات با استفاده از امضاهای دیجیتال تأمین امنیت کنید.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // یک سند برای امضا کردن ارائه دهید
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // یک سند برای امضا کردن ارائه دهید
+          Signature signature = new Signature("input.pptx");
 
-        // از یک گواهی دیجیتال معتبر با رمز عبور استفاده کنید
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // از یک گواهی دیجیتال معتبر با رمز عبور استفاده کنید
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // داده‌های متنی اضافی را مشخص کنید
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // داده‌های متنی اضافی را مشخص کنید
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // از یک تصویر و سایر گزینه‌ها برای نمای بصری استفاده کنید
-        options.setImageFilePath("image.png");
+          // از یک تصویر و سایر گزینه‌ها برای نمای بصری استفاده کنید
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // سند محافظت‌شده را در مکان دیگری ذخیره کنید
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // سند محافظت‌شده را در مکان دیگری ذخیره کنید
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "کپی"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "دانلود نتیجه"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "نمونه‌های بیشتر"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

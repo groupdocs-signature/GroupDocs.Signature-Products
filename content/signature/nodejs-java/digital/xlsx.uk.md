@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: uk
 format: Xlsx
@@ -114,44 +114,66 @@ more_features:
     - title: "Видаляйте непотрібні підписи"
       content: "Наше рішення забезпечує повну функціональність CRUD для підписів. У разі потреби ви можете видаляти різні типи підписів, включаючи цифрові сертифікати, з ваших документів."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Захист документів цифровими підписами"
       content: |
         Дізнайтеся, як заблокувати документ від змін за допомогою цифрових підписів.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Надайте документ, який потрібно підписати.
-        const signature = new signatureLib.Signature('input.xlsx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Надайте документ, який потрібно підписати.
+          const signature = new signatureLib.Signature('input.xlsx');
 
-        // Використовуйте відповідний цифровий сертифікат і його пароль.
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Використовуйте відповідний цифровий сертифікат і його пароль.
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Додайте будь-яку додаткову текстову інформацію.
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Додайте будь-яку додаткову текстову інформацію.
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Додайте візуальні елементи, такі як зображення для представлення підпису.
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Додайте візуальні елементи, такі як зображення для представлення підпису.
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Збережіть цифрово захищений документ у зазначеному місці.
-        const result = signature.sign('output.xlsx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Збережіть цифрово захищений документ у зазначеному місці.
+          const result = signature.sign('output.xlsx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Копіювати"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "натисніть для копіювання"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "Завантажити результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

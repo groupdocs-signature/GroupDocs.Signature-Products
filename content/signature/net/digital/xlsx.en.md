@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: en
 format: Xlsx
@@ -115,42 +115,64 @@ more_features:
     - title: "Remove redundant signatures"
       content: "Our solution provides full CRUD operations for signatures. If necessary, you can remove a variety of signature types, including digital certificates, from your document."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Secure documents with digital signatures"
       content: |
         Discover how to prevent document modifications using digital signatures.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Provide the document to be signed
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // Use a valid digital certificate with the corresponding password
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Provide the document to be signed
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // Use a valid digital certificate with the corresponding password
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Specify any additional text information
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Specify any additional text information
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Incorporate an image and other options for visual representation
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Incorporate an image and other options for visual representation
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Save the secured document to a designated location
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Save the secured document to a designated location
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copy"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "click to copy"
+          copy_done: "copied"
+        top_links:
+          #  loop
+          - title: "Download result"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "More examples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

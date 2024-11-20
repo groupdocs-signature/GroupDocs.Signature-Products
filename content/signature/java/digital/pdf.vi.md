@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: vi
 format: Pdf
@@ -128,43 +128,80 @@ more_features:
     - title: "Xóa những chữ ký không cần thiết"
       content: "Giải pháp của chúng tôi hỗ trợ đầy đủ các hoạt động CRUD cho chữ ký. Nhiều loại chữ ký, bao gồm cả chứng chỉ điện tử, có thể bị xóa khỏi tài liệu khi cần thiết."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Bảo vệ tài liệu bằng chữ ký điện tử"
       content: |
         Tìm hiểu cách bảo vệ tài liệu khỏi các thay đổi bằng cách sử dụng chữ ký điện tử.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // Cung cấp một tài liệu để ký
-        Signature signature = new Signature("input.pdf");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // Cung cấp một tài liệu để ký
+          Signature signature = new Signature("input.pdf");
 
-        // Sử dụng một chứng chỉ điện tử hợp lệ với mật khẩu
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // Sử dụng một chứng chỉ điện tử hợp lệ với mật khẩu
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // Chỉ định dữ liệu văn bản bổ sung
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // Chỉ định dữ liệu văn bản bổ sung
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // Sử dụng hình ảnh và các tùy chọn khác cho đại diện hình ảnh
-        options.setImageFilePath("image.png");
+          // Sử dụng hình ảnh và các tùy chọn khác cho đại diện hình ảnh
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // Lưu tài liệu đã bảo vệ vào một vị trí khác
-        SignResult result = signature.sign("output.pdf", options);
-        ```
-        {{< /landing/code >}}
+          // Lưu tài liệu đã bảo vệ vào một vị trí khác
+          SignResult result = signature.sign("output.pdf", options);
+          ```
+        platform: "java"
+        copy_title: "Sao chép"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "nhấp để sao chép"
+          copy_done: "đã sao chép"
+        top_links:
+          #  loop
+          - title: "Tải xuống kết quả"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Thêm ví dụ"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "Tài liệu hướng dẫn"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

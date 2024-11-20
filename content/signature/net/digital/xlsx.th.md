@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: th
 format: Xlsx
@@ -115,42 +115,64 @@ more_features:
     - title: "ลบลายเซ็นที่ไม่จำเป็น"
       content: "โซลูชันของเรามีการดำเนินการ CRUD เต็มรูปแบบสำหรับลายเซ็น หากจำเป็น คุณสามารถลบประเภทลายเซ็นที่หลากหลาย รวมถึงใบรับรองดิจิทัล ออกจากเอกสารของคุณ"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "รักษาความปลอดภัยเอกสารด้วยลายเซ็นดิจิทัล"
       content: |
         ค้นพบวิธีป้องกันการเปลี่ยนแปลงเอกสารโดยใช้ลายเซ็นดิจิทัล
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // จัดเตรียมเอกสารที่จะเซ็นชื่อ
-        using (Signature signature = new Signature("input.xlsx"))
-        {
-            // ใช้ใบรับรองดิจิทัลที่ใช้งานได้กับรหัสผ่านที่เกี่ยวข้อง
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // จัดเตรียมเอกสารที่จะเซ็นชื่อ
+          using (Signature signature = new Signature("input.xlsx"))
+          {
+              // ใช้ใบรับรองดิจิทัลที่ใช้งานได้กับรหัสผ่านที่เกี่ยวข้อง
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // ระบุข้อมูลข้อความเพิ่มเติม
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // ระบุข้อมูลข้อความเพิ่มเติม
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // ฝังภาพและตัวเลือกอื่น ๆ สำหรับการนำเสนอภาพลักษณ์
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // ฝังภาพและตัวเลือกอื่น ๆ สำหรับการนำเสนอภาพลักษณ์
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // บันทึกเอกสารที่ปลอดภัยไปยังตำแหน่งที่กำหนด
-            SignResult result = signature.Sign("output.xlsx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // บันทึกเอกสารที่ปลอดภัยไปยังตำแหน่งที่กำหนด
+              SignResult result = signature.Sign("output.xlsx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "คัดลอก"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "คลิกเพื่อคัดลอก"
+          copy_done: "คัดลอกแล้ว"
+        top_links:
+          #  loop
+          - title: "ดาวน์โหลดผลลัพธ์"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "ตัวอย่างเพิ่มเติม"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "เอกสาร"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

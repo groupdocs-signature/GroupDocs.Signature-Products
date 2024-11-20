@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: uk
 format: Docx
@@ -115,42 +115,64 @@ more_features:
     - title: "Видалення зайвих підписів"
       content: "Наше рішення надає повні CRUD-операції для підписів. За потреби ви можете видалити різні типи підписів, включаючи цифрові сертифікати, з вашого документа."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Захистіть документи за допомогою цифрових підписів"
       content: |
         Дізнайтеся, як запобігти модифікації документа за допомогою цифрових підписів.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Надайте документ, що підписується
-        using (Signature signature = new Signature("input.docx"))
-        {
-            // Використовуйте дійсний цифровий сертифікат з відповідним паролем
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Надайте документ, що підписується
+          using (Signature signature = new Signature("input.docx"))
+          {
+              // Використовуйте дійсний цифровий сертифікат з відповідним паролем
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Вкажіть будь-яку додаткову текстову інформацію
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Вкажіть будь-яку додаткову текстову інформацію
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Включте зображення та інші параметри для візуального представлення
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Включте зображення та інші параметри для візуального представлення
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Збережіть захищений документ у визначеному місці
-            SignResult result = signature.Sign("output.docx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Збережіть захищений документ у визначеному місці
+              SignResult result = signature.Sign("output.docx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Копіювати"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "натисніть для копіювання"
+          copy_done: "скопійовано"
+        top_links:
+          #  loop
+          - title: "Завантажити результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.docx"
+        links:
+          #  loop
+          - title: "Більше прикладів"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Документація"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

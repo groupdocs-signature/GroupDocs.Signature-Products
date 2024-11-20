@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:23
 draft: false
 lang: it
 format: Pdf
@@ -116,45 +116,67 @@ more_features:
     - title: "Rimuovi firme superflue"
       content: "La nostra soluzione supporta una gestione completa delle firme, consentendoti di eliminare firme, inclusi certificati digitali, da qualsiasi documento quando necessario."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Proteggi documenti con firme digitali"
       content: |
         Scopri come proteggere i tuoi documenti applicando firme digitali per prevenire modifiche non autorizzate.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # Carica il documento da firmare
-            with sg.Signature('input.pdf') as signature:
+              # Carica il documento da firmare
+              with sg.Signature('input.pdf') as signature:
 
-                # Utilizza un certificato digitale valido con la sua password corrispondente
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # Utilizza un certificato digitale valido con la sua password corrispondente
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # Aggiungi eventuali informazioni testuali aggiuntive se necessario
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # Aggiungi eventuali informazioni testuali aggiuntive se necessario
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # Includi un'immagine o altre opzioni per la rappresentazione visiva della firma
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # Includi un'immagine o altre opzioni per la rappresentazione visiva della firma
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # Salva il documento firmato in una posizione sicura
-                result = signature.Sign("output.pdf", options)
-        ```
-        {{< /landing/code >}}
+                  # Salva il documento firmato in una posizione sicura
+                  result = signature.Sign("output.pdf", options)
+          ```
+        platform: "python-net"
+        copy_title: "Copia"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "clicca per copiare"
+          copy_done: "copiato"
+        top_links:
+          #  loop
+          - title: "Scarica il risultato"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Altri esempi"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "Documentazione"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: it
 format: Pptx
@@ -115,42 +115,64 @@ more_features:
     - title: "Rimuovi firme ridondanti"
       content: "La nostra soluzione fornisce operazioni CRUD complete per le firme. Se necessario, puoi rimuovere una varietà di tipi di firma, inclusi i certificati digitali, dal tuo documento."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Proteggi documenti con firme digitali"
       content: |
         Scopri come prevenire le modifiche ai documenti utilizzando firme digitali.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Fornisci il documento da firmare
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Usa un certificato digitale valido con la corrispondente password
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Fornisci il documento da firmare
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Usa un certificato digitale valido con la corrispondente password
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Specifica eventuali informazioni testuali aggiuntive
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Specifica eventuali informazioni testuali aggiuntive
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Incorpora un'immagine e altre opzioni per la rappresentazione visiva
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Incorpora un'immagine e altre opzioni per la rappresentazione visiva
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Salva il documento protetto in una posizione designata
-            SignResult result = signature.Sign("output.pptx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Salva il documento protetto in una posizione designata
+              SignResult result = signature.Sign("output.pptx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Copia"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "clicca per copiare"
+          copy_done: "copiato"
+        top_links:
+          #  loop
+          - title: "Scarica il risultato"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Altri esempi"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Documentazione"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

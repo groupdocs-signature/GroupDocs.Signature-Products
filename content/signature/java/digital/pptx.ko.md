@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: ko
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "불필요한 서명 제거"
       content: "우리 솔루션은 서명에 대한 전체 CRUD 작업을 지원합니다. 필요시 문서에서 디지털 인증서를 포함한 여러 유형의 서명을 삭제할 수 있습니다."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "디지털 서명으로 문서 보호하기"
       content: |
         디지털 서명을 사용하여 문서의 변화를 방지하는 방법을 배우세요.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // 서명을 위한 문서 제공
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // 서명을 위한 문서 제공
+          Signature signature = new Signature("input.pptx");
 
-        // 유효한 비밀번호가 있는 디지털 인증서 사용
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // 유효한 비밀번호가 있는 디지털 인증서 사용
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // 추가 텍스트 데이터 지정
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // 추가 텍스트 데이터 지정
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // 이미지와 다른 옵션을 사용하여 시각적 표현 설정
-        options.setImageFilePath("image.png");
+          // 이미지와 다른 옵션을 사용하여 시각적 표현 설정
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // 보호된 문서를 다른 위치에 저장
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // 보호된 문서를 다른 위치에 저장
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "복사"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "클릭하여 복사"
+          copy_done: "복사됨"
+        top_links:
+          #  loop
+          - title: "결과 다운로드"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "더 많은 예제"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "문서"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

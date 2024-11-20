@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:16
+date:  2024-11-20T08:57:22
 draft: false
 lang: th
 format: Pptx
@@ -128,43 +128,80 @@ more_features:
     - title: "ลบลายเซ็นที่ไม่จำเป็น"
       content: "โซลูชันของเรารองรับการดำเนินการ CRUD อย่างครบถ้วนสำหรับลายเซ็น ลายเซ็นหลายประเภท รวมถึงใบรับรองดิจิทัล สามารถลบออกจากเอกสารได้เมื่อจำเป็น."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "ปกป้องเอกสารด้วยลายเซ็นดิจิทัล"
       content: |
         เรียนรู้วิธีในการรักษาความปลอดภัยเอกสารจากการเปลี่ยนแปลงโดยใช้ลายเซ็นดิจิทัล.
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        // จัดเตรียมเอกสารสำหรับการเซ็นชื่อ
-        Signature signature = new Signature("input.pptx");
+      code:
+        title: "Java"
+        content: |
+          ```java {style=abap}
+          // จัดเตรียมเอกสารสำหรับการเซ็นชื่อ
+          Signature signature = new Signature("input.pptx");
 
-        // ใช้ใบรับรองดิจิทัลที่ถูกต้องพร้อมรหัสผ่าน
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-        options.setPassword("1234567890");
+          // ใช้ใบรับรองดิจิทัลที่ถูกต้องพร้อมรหัสผ่าน
+          DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+          options.setPassword("1234567890");
 
-        // ระบุข้อมูลข้อความเพิ่มเติม
-        options.setReason("Security issue");
-        options.setContact("John Smith");
-        options.setLocation("Office D.W.");
+          // ระบุข้อมูลข้อความเพิ่มเติม
+          options.setReason("Security issue");
+          options.setContact("John Smith");
+          options.setLocation("Office D.W.");
 
-        // ใช้ภาพและตัวเลือกอื่นๆ สำหรับการแสดงผลเชิงภาพ
-        options.setImageFilePath("image.png");
+          // ใช้ภาพและตัวเลือกอื่นๆ สำหรับการแสดงผลเชิงภาพ
+          options.setImageFilePath("image.png");
 
-        options.setAllPages(true);
-        options.setVerticalAlignment(VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          options.setAllPages(true);
+          options.setVerticalAlignment(VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        Padding padding = new Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
+          Padding padding = new Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
 
-        // บันทึกเอกสารที่ได้รับการปกป้องไปยังตำแหน่งอื่น
-        SignResult result = signature.sign("output.pptx", options);
-        ```
-        {{< /landing/code >}}
+          // บันทึกเอกสารที่ได้รับการปกป้องไปยังตำแหน่งอื่น
+          SignResult result = signature.sign("output.pptx", options);
+          ```
+        platform: "java"
+        copy_title: "คัดลอก"
+        install:
+          command_title: "Maven XML"
+          command: |
+            <dependencies>
+              <dependency>
+                <groupId>com.groupdocs</groupId>
+                <artifactId>groupdocs-signature</artifactId>
+                <version>{0}</version>
+              </dependency>
+            </dependencies>
+            <repositories>
+              <repository>
+                <id>repository.groupdocs.com</id>
+                <name>GroupDocs Repository</name>
+                <url>https://repository.groupdocs.com/repo/</url>
+              </repository>
+            </repositories>
+          copy_tip: "คลิกเพื่อคัดลอก"
+          copy_done: "คัดลอกแล้ว"
+        top_links:
+          #  loop
+          - title: "ดาวน์โหลดผลลัพธ์"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "ตัวอย่างเพิ่มเติม"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java/"
+          #  loop
+          - title: "เอกสาร"
+            link: "https://docs.groupdocs.com/signature/java/"
+            
+
+            
 
 
 ############################# Actions ############################

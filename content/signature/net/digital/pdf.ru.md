@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:22
 draft: false
 lang: ru
 format: Pdf
@@ -115,42 +115,64 @@ more_features:
     - title: "Удаление дублирующихся подписей"
       content: "Наше решение предоставляет полные операции CRUD для подписей. При необходимости вы можете удалить различные типы подписей, включая цифровые сертификаты, из вашего документа."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Защита документов с помощью цифровых подписей"
       content: |
         Узнайте, как предотвратить изменения в документе с помощью цифровых подписей.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Предоставьте документ, который нужно подписать
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // Используйте действительный цифровой сертификат с соответствующим паролем
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Предоставьте документ, который нужно подписать
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // Используйте действительный цифровой сертификат с соответствующим паролем
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Укажите любую дополнительную текстовую информацию
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Укажите любую дополнительную текстовую информацию
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Включите изображение и другие опции для визуального представления
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Включите изображение и другие опции для визуального представления
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Сохраните защищенный документ в назначенном месте
-            SignResult result = signature.Sign("output.pdf", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Сохраните защищенный документ в назначенном месте
+              SignResult result = signature.Sign("output.pdf", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Копировать"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "щелкните, чтобы скопировать"
+          copy_done: "скопировано"
+        top_links:
+          #  loop
+          - title: "Скачать результат"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "Больше примеров"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Документация"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

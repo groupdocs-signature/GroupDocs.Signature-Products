@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: vi
 format: Pptx
@@ -114,44 +114,66 @@ more_features:
     - title: "Loại bỏ các chữ ký không cần thiết"
       content: "Giải pháp của chúng tôi cho phép thực hiện toàn bộ các thao tác CRUD cho chữ ký. Nếu cần, bạn có thể xóa các loại chữ ký khác nhau, bao gồm chứng chỉ điện tử, khỏi tài liệu của bạn."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Bảo vệ tài liệu bằng chữ ký điện tử"
       content: |
         Tìm hiểu cách khóa một tài liệu chống lại các thay đổi bằng chữ ký điện tử.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Cung cấp tài liệu cần ký
-        const signature = new signatureLib.Signature('input.pptx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Cung cấp tài liệu cần ký
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // Sử dụng chứng chỉ điện tử phù hợp và mật khẩu của nó
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Sử dụng chứng chỉ điện tử phù hợp và mật khẩu của nó
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Bao gồm bất kỳ thông tin văn bản bổ sung nào
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Bao gồm bất kỳ thông tin văn bản bổ sung nào
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Thêm các yếu tố hình ảnh như hình ảnh cho đại diện chữ ký
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Thêm các yếu tố hình ảnh như hình ảnh cho đại diện chữ ký
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Lưu tài liệu đã được bảo mật bằng chữ ký điện tử vào vị trí được chỉ định
-        const result = signature.sign('output.pptx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Lưu tài liệu đã được bảo mật bằng chữ ký điện tử vào vị trí được chỉ định
+          const result = signature.sign('output.pptx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Sao chép"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "nhấp để sao chép"
+          copy_done: "đã sao chép"
+        top_links:
+          #  loop
+          - title: "Tải xuống kết quả"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Thêm ví dụ"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Tài liệu hướng dẫn"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

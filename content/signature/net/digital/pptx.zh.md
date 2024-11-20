@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: zh
 format: Pptx
@@ -115,42 +115,64 @@ more_features:
     - title: "移除多余的签名"
       content: "我们的解决方案提供签名的完整 CRUD 操作。如果需要，您可以从文档中删除多种签名类型，包括数字证书。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "使用数字签名保护文档"
       content: |
         了解如何使用数字签名防止文档修改。
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // 提供待签署的文档
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // 使用有效的数字证书及相应密码
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // 提供待签署的文档
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // 使用有效的数字证书及相应密码
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // 指定任何附加文本信息
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // 指定任何附加文本信息
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // 添加图像及其他视觉表示选项
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // 添加图像及其他视觉表示选项
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // 将安全文档保存到指定位置
-            SignResult result = signature.Sign("output.pptx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // 将安全文档保存到指定位置
+              SignResult result = signature.Sign("output.pptx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "复制"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "点击以复制"
+          copy_done: "已复制"
+        top_links:
+          #  loop
+          - title: "下载结果"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "更多示例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "文档"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

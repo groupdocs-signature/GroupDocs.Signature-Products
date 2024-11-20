@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: fa
 format: Pdf
@@ -115,42 +115,64 @@ more_features:
     - title: "حذف امضاهای زائد"
       content: "راه‌حل ما عملیات کامل CRUD را برای امضاها فراهم می‌کند. در صورت لزوم، می‌توانید انواع مختلف امضاها، از جمله گواهی‌های دیجیتال را از سند خود حذف کنید."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "ایمن‌سازی اسناد با امضاهای دیجیتال"
       content: |
         یاد بگیرید چگونه با استفاده از امضاهای دیجیتال از تغییرات در اسناد جلوگیری کنید.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // فایل را برای امضا کردن ارائه دهید
-        using (Signature signature = new Signature("input.pdf"))
-        {
-            // از یک گواهی دیجیتال معتبر با رمز عبور مربوطه استفاده کنید
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // فایل را برای امضا کردن ارائه دهید
+          using (Signature signature = new Signature("input.pdf"))
+          {
+              // از یک گواهی دیجیتال معتبر با رمز عبور مربوطه استفاده کنید
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // هر اطلاعات متنی اضافی را مشخص کنید
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // هر اطلاعات متنی اضافی را مشخص کنید
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // یک تصویر و گزینه‌های دیگر برای نمای تصویری وارد کنید
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // یک تصویر و گزینه‌های دیگر برای نمای تصویری وارد کنید
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // سند ایمن شده را در یک مکان مشخص ذخیره کنید
-            SignResult result = signature.Sign("output.pdf", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // سند ایمن شده را در یک مکان مشخص ذخیره کنید
+              SignResult result = signature.Sign("output.pdf", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "کپی"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "برای کپی کلیک کنید"
+          copy_done: "کپی شد"
+        top_links:
+          #  loop
+          - title: "دانلود نتیجه"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pdf"
+        links:
+          #  loop
+          - title: "نمونه‌های بیشتر"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "مستندات"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

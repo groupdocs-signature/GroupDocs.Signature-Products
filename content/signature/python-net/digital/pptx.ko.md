@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: ko
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "불필요한 서명 제거"
       content: "우리의 솔루션은 서명 관리 기능을 완벽하게 지원하여 필요에 따라 문서에서 서명, 디지털 인증서를 삭제할 수 있습니다."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "디지털 서명으로 문서 보호하기"
       content: |
         무단 수정 방지를 위해 디지털 서명을 적용하여 문서를 보호하는 방법을 알아보세요.
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # 서명할 문서를 로드합니다
-            with sg.Signature('input.pptx') as signature:
+              # 서명할 문서를 로드합니다
+              with sg.Signature('input.pptx') as signature:
 
-                # 유효한 디지털 인증서와 해당 비밀번호를 사용합니다
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # 유효한 디지털 인증서와 해당 비밀번호를 사용합니다
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # 필요 시 추가적인 텍스트 정보를 추가합니다
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # 필요 시 추가적인 텍스트 정보를 추가합니다
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # 서명의 시각적 표현을 위한 이미지 또는 기타 옵션을 포함합니다
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # 서명의 시각적 표현을 위한 이미지 또는 기타 옵션을 포함합니다
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # 서명된 문서를 안전한 위치에 저장합니다
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # 서명된 문서를 안전한 위치에 저장합니다
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "복사"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "클릭하여 복사"
+          copy_done: "복사됨"
+        top_links:
+          #  loop
+          - title: "결과 다운로드"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "더 많은 예제"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "문서"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################

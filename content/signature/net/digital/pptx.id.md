@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:17
+date:  2024-11-20T08:57:22
 draft: false
 lang: id
 format: Pptx
@@ -115,42 +115,64 @@ more_features:
     - title: "Hapus tanda tangan yang tidak diperlukan"
       content: "Solusi kami menyediakan operasi CRUD lengkap untuk tanda tangan. Jika diperlukan, Anda dapat menghapus berbagai jenis tanda tangan, termasuk sertifikat digital, dari dokumen Anda."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Amankan dokumen dengan tanda tangan digital"
       content: |
         Pelajari cara mencegah perubahan dokumen menggunakan tanda tangan digital.
-        {{< landing/code title="C#">}}
-        ```csharp {style=abap}
-        // Sediakan dokumen untuk ditandatangani
-        using (Signature signature = new Signature("input.pptx"))
-        {
-            // Gunakan sertifikat digital yang valid dengan kata sandi terkait
-            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
-            {
-                Password = "1234567890",
+      code:
+        title: "C#"
+        content: |
+          ```csharp {style=abap}
+          // Sediakan dokumen untuk ditandatangani
+          using (Signature signature = new Signature("input.pptx"))
+          {
+              // Gunakan sertifikat digital yang valid dengan kata sandi terkait
+              DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+              {
+                    Password = "1234567890",
 
-                // Tentukan informasi teks tambahan jika ada
-                Reason = "Security issue",
-                Contact = "John Smith",
-                Location = "Office D.W.",
+                    // Tentukan informasi teks tambahan jika ada
+                    Reason = "Security issue",
+                    Contact = "John Smith",
+                    Location = "Office D.W.",
 
-                // Sisipkan gambar dan opsi lainnya untuk representasi visual
-                ImageFilePath = "image.png",
-                AllPages = true,
-                VerticalAlignment = VerticalAlignment.Center,
-                HorizontalAlignment = HorizontalAlignment.Left,
-                Width = 60,
-                Height = 80,
+                    // Sisipkan gambar dan opsi lainnya untuk representasi visual
+                    ImageFilePath = "image.png",
+                    AllPages = true,
+                    VerticalAlignment = VerticalAlignment.Center,
+                    HorizontalAlignment = HorizontalAlignment.Left,
+                    Width = 60,
+                    Height = 80,
 
-                Margin = new Padding() {  Bottom = 10, Right = 10 }
-            };
+                    Margin = new Padding() {  Bottom = 10, Right = 10 }
+              };
 
-            // Simpan dokumen yang diamankan ke lokasi yang ditentukan
-            SignResult result = signature.Sign("output.pptx", options);
-        }
-        ```
-        {{< /landing/code >}}
+              // Simpan dokumen yang diamankan ke lokasi yang ditentukan
+              SignResult result = signature.Sign("output.pptx", options);
+          }
+          ```
+        platform: "net"
+        copy_title: "Salin"
+        install:
+          command: "dotnet add package GroupDocs.Signature"
+          copy_tip: "klik untuk menyalin"
+          copy_done: "disalin"
+        top_links:
+          #  loop
+          - title: "Unduh hasil"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "Lebih banyak contoh"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET/"
+          #  loop
+          - title: "Dokumentasi"
+            link: "https://docs.groupdocs.com/signature/net/"
+            
+
+            
 
 
 ############################# Actions ############################

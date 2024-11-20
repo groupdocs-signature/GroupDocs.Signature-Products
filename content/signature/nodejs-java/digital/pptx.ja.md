@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: ja
 format: Pptx
@@ -114,44 +114,66 @@ more_features:
     - title: "不要な署名を削除"
       content: "当社のソリューションでは、署名の完全なCRUD操作をサポートしています。必要に応じて、ドキュメントからデジタル証明書を含むさまざまな署名タイプを削除できます。"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "デジタル署名で文書を保護"
       content: |
         デジタル署名を使用して文書の変更を防ぐ方法を学びます。
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // 署名が必要な文書を提供
-        const signature = new signatureLib.Signature('input.pptx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // 署名が必要な文書を提供
+          const signature = new signatureLib.Signature('input.pptx');
 
-        // 適切なデジタル証明書とそのパスワードを使用
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // 適切なデジタル証明書とそのパスワードを使用
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // 追加のテキスト情報を含めます。
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // 追加のテキスト情報を含めます。
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // 署名の表現のために画像などの視覚要素を追加
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // 署名の表現のために画像などの視覚要素を追加
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // デジタルに保護された文書を指定の場所に保存
-        const result = signature.sign('output.pptx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // デジタルに保護された文書を指定の場所に保存
+          const result = signature.sign('output.pptx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "コピー"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "クリックしてコピー"
+          copy_done: "コピーしました"
+        top_links:
+          #  loop
+          - title: "結果をダウンロード"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "さらなる例"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "ドキュメント"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

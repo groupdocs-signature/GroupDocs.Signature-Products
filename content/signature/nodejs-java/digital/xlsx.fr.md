@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:18
+date:  2024-11-20T08:57:23
 draft: false
 lang: fr
 format: Xlsx
@@ -114,44 +114,66 @@ more_features:
     - title: "Éliminez les signatures inutiles"
       content: "Notre solution permet d'effectuer des opérations complètes CRUD pour les signatures. Si nécessaire, vous pouvez retirer différents types de signatures, y compris les certificats numériques, de votre document."
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "Protégez des documents avec des signatures numériques"
       content: |
         Découvrez comment verrouiller un document contre les modifications à l'aide de signatures numériques.
-        {{< landing/code title="JavaScript">}}
-        ```javascript {style=abap}
-        const signatureLib = require('@groupdocs/groupdocs.signature')
-        
-        // Fournissez le document qui nécessite une signature
-        const signature = new signatureLib.Signature('input.xlsx');
+      code:
+        title: "JavaScript"
+        content: |
+          ```javascript {style=abap}
+          const signatureLib = require('@groupdocs/groupdocs.signature')
+          
+          // Fournissez le document qui nécessite une signature
+          const signature = new signatureLib.Signature('input.xlsx');
 
-        // Utilisez un certificat numérique approprié et son mot de passe
-        const options = new signatureLib.DigitalSignOptions('certificate.pfx');
-        options.setPassword('1234567890');
+          // Utilisez un certificat numérique approprié et son mot de passe
+          const options = new signatureLib.DigitalSignOptions('certificate.pfx');
+          options.setPassword('1234567890');
 
-        // Incluez toute information textuelle supplémentaire
-        options.setReason('Security issue');
-        options.setContact('John Smith');
-        options.setLocation('Office D.W.');
+          // Incluez toute information textuelle supplémentaire
+          options.setReason('Security issue');
+          options.setContact('John Smith');
+          options.setLocation('Office D.W.');
 
-        // Ajoutez des éléments visuels comme des images pour la représentation de la signature
-        options.setImageFilePath('image.png');
-        options.setAllPages(true);
-        options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
-        options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
-        options.setWidth(80);
-        options.setHeight(60);
+          // Ajoutez des éléments visuels comme des images pour la représentation de la signature
+          options.setImageFilePath('image.png');
+          options.setAllPages(true);
+          options.setVerticalAlignment(signatureLib.VerticalAlignment.Bottom);
+          options.setHorizontalAlignment(signatureLib.HorizontalAlignment.Right);
+          options.setWidth(80);
+          options.setHeight(60);
 
-        const padding = new signatureLib.Padding();
-        padding.setBottom(10);
-        padding.setRight(10);
-        options.setMargin(padding);
-        
-        // Enregistrez le document numériquement sécurisé à un emplacement spécifié
-        const result = signature.sign('output.xlsx', options);
-        ```
-        {{< /landing/code >}}
+          const padding = new signatureLib.Padding();
+          padding.setBottom(10);
+          padding.setRight(10);
+          options.setMargin(padding);
+          
+          // Enregistrez le document numériquement sécurisé à un emplacement spécifié
+          const result = signature.sign('output.xlsx', options);
+          ```
+        platform: "nodejs-java"
+        copy_title: "Copier"
+        install:
+          command: "npm i @groupdocs/groupdocs.signature"
+          copy_tip: "cliquez pour copier"
+          copy_done: "copié"
+        top_links:
+          #  loop
+          - title: "Télécharger le résultat"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.xlsx"
+        links:
+          #  loop
+          - title: "Plus d'exemples"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/"
+          #  loop
+          - title: "Documentation"
+            link: "https://docs.groupdocs.com/signature/nodejs-java/"
+            
+
+            
 
 
 ############################# Actions ############################

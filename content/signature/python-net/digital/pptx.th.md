@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-11-19T15:16:19
+date:  2024-11-20T08:57:24
 draft: false
 lang: th
 format: Pptx
@@ -116,45 +116,67 @@ more_features:
     - title: "ลบลายเซ็นที่ไม่จำเป็น"
       content: "โซลูชันของเรารองรับการจัดการลายเซ็นอย่างครบถ้วน ช่วยให้คุณสามารถลบลายเซ็นรวมถึงใบรับรองดิจิทัลออกจากเอกสารใดๆ เมื่อจำเป็น"
       
-  code_samples:
-    # code sample loop
+  code_samples_ext:
+    # code sample ext loop
     - title: "ปกป้องเอกสารด้วยลายเซ็นดิจิทัล"
       content: |
         เรียนรู้วิธีการความปลอดภัยเอกสารของคุณโดยการใช้ลายเซ็นดิจิทัลเพื่อป้องกันการแก้ไขที่ไม่ได้รับอนุญาต
-        {{< landing/code title="C#">}}
-        ```python {style=abap}
-        import groupdocs.signature as sg
+      code:
+        title: "Python"
+        content: |
+          ```python {style=abap}
+          import groupdocs.signature as sg
 
-        def run():
+          def run():
 
-            # โหลดเอกสารที่ต้องลงนาม
-            with sg.Signature('input.pptx') as signature:
+              # โหลดเอกสารที่ต้องลงนาม
+              with sg.Signature('input.pptx') as signature:
 
-                # ใช้ใบรับรองดิจิทัลที่ถูกต้องพร้อมรหัสผ่านที่เกี่ยวข้อง
-                options = sg.DigitalSignOptions("certificate.pfx")
-                options.Password = "1234567890"
+                  # ใช้ใบรับรองดิจิทัลที่ถูกต้องพร้อมรหัสผ่านที่เกี่ยวข้อง
+                  options = sg.DigitalSignOptions("certificate.pfx")
+                  options.Password = "1234567890"
 
-                # เพิ่มข้อมูลข้อความเพิ่มเติมหากจำเป็น
-                options.Reason = "Security issue"
-                options.Contact = "John Smith"
-                options.Location = "Office D.W."
+                  # เพิ่มข้อมูลข้อความเพิ่มเติมหากจำเป็น
+                  options.Reason = "Security issue"
+                  options.Contact = "John Smith"
+                  options.Location = "Office D.W."
 
-                # รวมภาพหรือทางเลือกอื่นๆ สำหรับการแสดงภาพลายเซ็น
-                options.ImageFilePath = "image.png"
-                options.AllPages = True
-                options.VerticalAlignment = sg.VerticalAlignment.Center
-                options.HorizontalAlignment = sg.HorizontalAlignment.Left
-                options.Width = 60
-                options.Height = 80
+                  # รวมภาพหรือทางเลือกอื่นๆ สำหรับการแสดงภาพลายเซ็น
+                  options.ImageFilePath = "image.png"
+                  options.AllPages = True
+                  options.VerticalAlignment = sg.VerticalAlignment.Center
+                  options.HorizontalAlignment = sg.HorizontalAlignment.Left
+                  options.Width = 60
+                  options.Height = 80
 
-                options.Margin = sg.Padding()
-                options.Margin.Bottom = 10
-                options.Margin.Right = 10
+                  options.Margin = sg.Padding()
+                  options.Margin.Bottom = 10
+                  options.Margin.Right = 10
 
-                # บันทึกเอกสารที่ลงนามไว้ในที่ที่ปลอดภัย
-                result = signature.Sign("output.pptx", options)
-        ```
-        {{< /landing/code >}}
+                  # บันทึกเอกสารที่ลงนามไว้ในที่ที่ปลอดภัย
+                  result = signature.Sign("output.pptx", options)
+          ```
+        platform: "python-net"
+        copy_title: "คัดลอก"
+        install:
+          command: "pip install groupdocs-signature-net"
+          copy_tip: "คลิกเพื่อคัดลอก"
+          copy_done: "คัดลอกแล้ว"
+        top_links:
+          #  loop
+          - title: "ดาวน์โหลดผลลัพธ์"
+            icon: "download"
+            link: "/examples/signature/formats/signature_digital.pptx"
+        links:
+          #  loop
+          - title: "ตัวอย่างเพิ่มเติม"
+            link: "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/"
+          #  loop
+          - title: "เอกสาร"
+            link: "https://docs.groupdocs.com/signature/python-net/"
+            
+
+            
 
 
 ############################# Actions ############################
